@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD10500000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0C0S1</UniProt_ID>
+  <Seq_Length>286</Seq_Length>
+  <Molecule_Weight>30896</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p2855</KEGG_ID>
+  <Orthology_ID>K03442</Orthology_ID>
+  <Function_Summary>Mechanosensitive channel that participates in the regulation of osmotic pressure changes within the cell, opening in response to stretch forces in the membrane lipid bilayer, without the need for other proteins. Forms an ion channel of 1.0 nanosiemens conductance with a slight preference for anions. The channel is sensitive to voltage; as the membrane is depolarized, less tension is required to open the channel and vice versa. The channel is characterized by short bursts of activity that last for a few seconds.The channel pore is formed by TM3 and the loop between TM2 and TM3. After a sharp turn at Gly-113, an alpha-helix (residues 114-127) is oriented nearly parallel to the plane of the putative lipid bilayer. On the intracellular side of the channel, the permeation pathway of MscS does not connect directly to the cytoplasm but instead opens to a large chamber that is connected to the cytoplasm. This chamber resembles a molecular filter that could serve to prescreen large molecules before they are allowed passage to the transmembrane pore. The TM1 and TM2 helices appear to be likely candidates for mediating the tension and voltage sensitivities of MscS. Gating requires large rearrangements of at least the C-terminus.</Function_Summary>
+  <Pfam_ID>PF00924:MS_channel@@PF05552:TM_helix</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of facilitated diffusion of an ion (by an energy-independent process) by passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.</Detail>
+      <Keyword>Ion channel activity</Keyword>
+      <Ontology_ID>GO:0005216</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transmembrane transfer of an ion by a channel that opens in response to a mechanical stress.</Detail>
+      <Keyword>Mechanically-gated ion channel activity</Keyword>
+      <Ontology_ID>GO:0008381</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of charged atoms or small charged molecules into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Ion transport</Keyword>
+      <Ontology_ID>GO:0006811</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the maintenance of an internal steady state of water within a cell.</Detail>
+      <Keyword>Cellular water homeostasis</Keyword>
+      <Ontology_ID>GO:0009992</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MEDLNVVDSINGAGSWLVANQALLLSYAVNIVAALAIIIVGLIIARMISNAVNRLMISRKIDATVADFLSALVRYGIIAFTLIAALGRVGVQTASVIAVLGAAGLAVGLALQGSLSNLAAGVLLVMFRPFRAGEYVDLGGVAGTVLSVQIFSTTMRTADGKIIVIPNGKIIAGNIINFSREPVRRNEFIIGVAYDSDIDQVKQILTNIIQSEDRILKDREMTVRLNELGASSINFVVRVWSNSGDLQNVYWDVLERIKREFDAAGISFPYPQMDVNFKRVKEDKAA</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell inner membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>mscS</Gene_Name>
+    <Gene_Alias>yggB</Gene_Alias>
+    <Gene_ID>12930244</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_417399</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947416</Gene_URL>
+    <EMBL_ID>BAE76988</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of Escherichia coli MscS Wildtype (Open State)</PDB_Title>
+      <PDB_ID>4HWA</PDB_ID>
+      <Resolution>4.37</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4HWA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Open and shut: Crystal structures of the dodecylmaltoside solubilized mechanosensitive channel of small conductance from E. coli and H. pylori at 4.4 A and 4.1 A resolution.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE OPEN STRUCTURE OF MSCS</PDB_Title>
+      <PDB_ID>2VV5</PDB_ID>
+      <Resolution>3.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2VV5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>1 - 2VV5 : This membrane channel opens when the pressure inside a cell gets too high. This structure shows the open form of the channel.</PubMed_Title>
+      <Author>Wang, W., et al.</Author>
+      <Journal>Science(2008)321:1179</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18755969?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Mechanosensitive Channel of Small Conductance (MscS)</PDB_Title>
+      <PDB_ID>2OAU</PDB_ID>
+      <Resolution>3.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OAU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>1 - 2OAU : This membrane channel opens when the pressure inside a cell gets too high. This structure shows the closed form of the channel.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a membrane protein</PDB_Title>
+      <PDB_ID>3UDC</PDB_ID>
+      <Resolution>3.36</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3UDC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and molecular mechanism of an anion-selective mechanosensitive channel of small conductance</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>All beta proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.gg.b.d.b.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2oau</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Petrov E, et al. Biophys J. 2013 Apr 2;104(7):1426-34. doi: 10.1016/j.bpj.2013.01.055.</Site_Reference>
+      <Site_Type>Protein-induced </Site_Type>
+      <PubMed_ID>23561519</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2013-06-21</Create_Date>
+</Organism_Record>

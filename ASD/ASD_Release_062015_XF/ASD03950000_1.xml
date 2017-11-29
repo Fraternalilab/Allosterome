@@ -1,0 +1,866 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03950000_1</Organism_ID>
+  <Organism>Mouse</Organism>
+  <Organism_Latin>Mus musculus</Organism_Latin>
+  <UniProt_ID>O88351</UniProt_ID>
+  <Seq_Length>757</Seq_Length>
+  <Molecule_Weight>86690</Molecule_Weight>
+  <KEGG_ID>mmu:16150</KEGG_ID>
+  <Orthology_ID>K07209</Orthology_ID>
+  <EBI_ID>EBI-447960</EBI_ID>
+  <Function_Summary>Serine kinase that plays an essential role in the NF-kappa-B signaling pathway which is activated by multiple stimuli such as inflammatory cytokines, bacterial or viral products, DNA damages or other cellular stresses. Acts as part of the canonical IKK complex in the conventional pathway of NF-kappa-B activation and phosphorylates inhibitors of NF-kappa-B on 2 critical serine residues. These modifications allow polyubiquitination of the inhibitors and subsequent degradation by the proteasome. In turn, free NF-kappa-B is translocated into the nucleus and activates the transcription of hundreds of genes involved in immune response, growth control, or protection against apoptosis. In addition to the NF-kappa-B inhibitors, phosphorylates several other components of the signaling pathway including NEMO/IKBKG, NF-kappa-B subunits RELA and NFKB1, as well as IKK-related kinases TBK1 and IKBKE. IKK-related kinase phosphorylations may prevent the overproduction of inflammatory mediators since they exert a negative regulation on canonical IKKs. Also phosphorylates other substrates including NCOA3, BCL10 and IRS1. Within the nucleus, acts as an adapter protein for NFKBIA degradation in UV-induced NF-kappa-B activation (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>ATP + [I-kappa-B protein] = ADP + [I-kappa-B phosphoprotein].</Catalytic_Mechanism>
+  <Pfam_ID>PF12179:IKKbetaNEMObind@@PF00069:Pkinase</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>106</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>IkBKB</Alias>
+      <Alias>Nuclear factor NF-kappa-B inhibitor kinase beta</Alias>
+      <Alias>I-kappa-B-kinase beta</Alias>
+      <Alias>IKK-beta</Alias>
+      <Alias>IKK2</Alias>
+      <Alias>NFKBIKB</Alias>
+      <Alias>IKK-B</Alias>
+      <Alias>I-kappa-B kinase 2</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + receptor signaling protein serine = ADP + receptor signaling protein serine phosphate, and ATP + receptor signaling protein threonine = ADP + receptor signaling protein threonine phosphate.</Detail>
+      <Keyword>Receptor signaling protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004702</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + IkappaB protein = ADP + IkappaB phosphoprotein.</Detail>
+      <Keyword>IkappaB kinase activity</Keyword>
+      <Ontology_ID>GO:0008384</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process of regulating the proliferation and elimination of B cells such that the total number of B cells within a whole or part of an organism is stable over time in the absence of an outside stimulus.</Detail>
+      <Keyword>B cell homeostasis</Keyword>
+      <Ontology_ID>GO:0001782</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>697</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>181</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>682</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>689</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>705</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>23</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>672</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>675</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>692</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>670</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>177</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>740</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>733</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSWSPSLPTQTCGAWEMKERLGTGGFGNVIRWHNQATGEQIAIKQCRQELSPKNRNRWCLEIQIMRRLNHPNVVAARDVPEGMQNLAPNDLPLLAMEYCQGGDLRRYLNQFENCCGLREGAVLTLLSDIASALRYLHENRIIHRDLKPENIVLQQGEKRLIHKIIDLGYAKELDQGSLCTSFVGTLQYLAPELLEQQKYTVTVDYWSFGTLAFECITGFRPFLPNWQPVQWHSKVRQKSEVDIVVSEDLNGAVKFSSSLPFPNNLNSVLAERLEKWLQLMLMWHPRQRGTDPQYGPNGCFRALDDILNLKLVHVLNMVTGTVHTYPVTEDESLQSLKTRIQENTGILETDQELLQKAGLVLLPDKPATQCISDSKTNEGLTLDMDLVFLLDNSKINYETQITPRPPPESVSCILQEPKRNLSFFQLRKVWGQVWHSIQTLKEDCNRLQQGQRAAMMSLLRNNSCLSKMKNAMASTAQQLKAKLDFFKTSIQIDLEKYKEQTEFGITSDKLLLAWREMEQAVEQCGRENDVKHLVERMMALQTDIVDLQRSPMGRKQGGTLDDLEEQARELYRKLREKPRDQRTEGDSQEMVRLLLQAIQSFEKKVRVIYTQLSKTVVCKQKALELLPKVEEVVSLMNEDERTVVRLQEKRQKELWNLLKIACSKVRGPVSGSPDSMNVSRLSHPGQLMSQPSSACDSLPESDKKSEELVAEAHALCSRLESALQDTVKEQDRSFTTLDWSWLQMEDEERCSLEQACD</Protein_Seq>
+    <DNA_Seq>ATGAGCTGGTCACCGTCCCTCCCAACCCAGACATGTGGAGCCTGGGAAATGAAAGAACGCCTGGGGACCGGGGGATTTGGAAACGTCATCCGGTGGCACAATCAGGCGACAGGTGAACAGATCGCCATCAAGCAATGCCGACAGGAGCTCAGCCCAAAGAACAGAAACCGCTGGTGCCTCGAAATCCAAATCATGAGAAGGCTGAACCATCCCAATGTGGTGGCTGCCCGGGATGTCCCAGAGGGGATGCAGAACCTGGCACCCAATGATTTGCCACTGCTGGCCATGGAGTACTGCCAAGGAGGAGATCTCCGAAGATACTTGAACCAGTTCGAGAACTGCTGTGGCCTGCGGGAAGGAGCTGTCCTTACCCTGCTGAGTGACATCGCATCGGCTCTTAGATACCTGCACGAAAACAGAATCATCCATCGAGACCTGAAGCCAGAAAACATCGTTCTGCAGCAAGGAGAGAAAAGATTAATACACAAAATTATTGATCTAGGATATGCCAAGGAGCTGGATCAGGGCAGTCTGTGCACGTCATTTGTGGGGACTCTGCAATACCTGGCGCCAGAGCTTCTGGAGCAGCAGAAGTACACCGTGACCGTTGACTACTGGAGCTTCGGCACCCTGGCCTTCGAGTGCATCACTGGCTTCCGGCCCTTCCTCCCTAACTGGCAGCCTGTGCAGTGGCACTCCAAAGTCCGGCAGAAGAGCGAAGTGGACATCGTTGTTAGTGAAGACTTGAATGGAGCAGTGAAGTTTTCAAGTTCGCTACCCTTCCCCAATAATCTTAACAGTGTCTTGGCTGAACGGCTGGAGAAGTGGCTGCAGCTGATGCTTATGTGGCACCCTCGGCAAAGGGGCACGGATCCCCAGTATGGCCCCAACGGCTGCTTCAGAGCCCTGGATGACATCTTGAACTTGAAGCTGGTTCATGTCTTGAACATGGTCACAGGCACCGTTCACACATACCCCGTGACGGAGGATGAGAGTCTGCAGAGCTTAAAAACCAGAATCCAGGAAAACACGGGGATCCTGGAGACAGACCAGGAGCTGCTGCAAAAGGCAGGGCTGGTGCTGCTCCCTGACAAGCCTGCTACTCAGTGCATCTCAGACAGCAAGACAAACGAGGGCCTCACATTGGACATGGATCTTGTTTTTCTCTTGGACAACAGTAAAATCAACTATGAGACTCAGATCACCCCCCGACCCCCACCGGAAAGTGTCAGCTGTATCCTTCAGGAGCCCAAGCGGAACCTCTCCTTCTTCCAGCTGAGGAAAGTGTGGGGCCAAGTCTGGCACAGCATCCAGACGCTGAAGGAAGACTGTAACCGGCTGCAGCAGGGACAGCGAGCAGCCATGATGAGTCTCCTCCGGAATAACAGCTGCCTCTCTAAGATGAAGAACGCCATGGCCTCCACGGCCCAGCAGCTCAAGGCCAAGCTGGACTTCTTCAAAACCAGCATCCAGATCGACCTGGAGAAGTATAAAGAGCAGACCGAGTTTGGGATCACCTCAGATAAATTGCTGCTGGCTTGGCGGGAGATGGAGCAGGCTGTGGAGCAGTGTGGGCGGGAGAATGACGTGAAGCATCTTGTAGAGCGGATGATGGCACTGCAGACTGACATTGTGGACCTGCAGAGGAGCCCGATGGGTCGGAAGCAGGGGGGCACCCTGGATGACCTAGAGGAACAAGCGAGGGAGCTCTACCGAAAACTCAGGGAGAAGCCAAGAGACCAAAGGACAGAAGGTGACAGCCAGGAAATGGTACGGCTGCTGCTTCAGGCAATCCAAAGCTTTGAGAAGAAAGTTCGGGTGATTTATACACAGCTCAGTAAGACCGTGGTTTGTAAGCAGAAGGCACTGGAGTTGCTGCCCAAGGTAGAAGAGGTAGTGAGCCTTATGAACGAGGACGAGAGGACCGTGGTCCGGCTTCAGGAGAAGCGGCAGAAGGAACTCTGGAACCTCCTGAAGATCGCCTGTAGCAAAGTCCGAGGTCCCGTGAGTGGAAGCCCAGACAGCATGAATGTGTCTCGACTCAGTCACCCTGGTCAGCTAATGTCCCAGCCTTCCAGTGCCTGTGACAGCTTACCTGAATCAGACAAGAAAAGTGAAGAACTGGTGGCCGAAGCCCACGCCCTCTGCTCCCGGCTAGAAAGTGCGCTGCAGGACACTGTGAAGGAGCAAGACAGAAGCTTCACGACTCTAGACTGGAGCTGGTTACAGATGGAGGATGAAGAAAGGTGTAGCCTGGAGCAGGCCTGTGACTGA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Liver</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Spleen</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Kidney</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane raft</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>Ikbkb</Gene_Name>
+    <Gene_Alias>Ikkb</Gene_Alias>
+    <Gene_ID>16150</Gene_ID>
+    <Genbank_ACCN>NM_010546</Genbank_ACCN>
+    <Protein_ACCN>NP_034676</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/16150</Gene_URL>
+    <EMBL_ID>ENSMUSG00000031537</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>O88522</Uniprot_ID>
+      <Gene_Name>Ikbkg</Gene_Name>
+      <EBI_ID>EBI-998011</EBI_ID>
+      <PPI_EBI_URL>EBI-447960,EBI-998011</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P68040</Uniprot_ID>
+      <Gene_Name>Gnb2l1</Gene_Name>
+      <EBI_ID>EBI-296749</EBI_ID>
+      <PPI_EBI_URL>EBI-447960,EBI-296749</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of inhibitor of nuclear factor kappa-B kinase subunit beta</PDB_Title>
+      <PDB_ID>ASD03950000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04151</Pathway_ID>
+      <Pathway_Title>PI3K-Akt signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04062</Pathway_ID>
+      <Pathway_Title>Chemokine signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04010</Pathway_ID>
+      <Pathway_Title>MAPK signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04068</Pathway_ID>
+      <Pathway_Title>FoxO signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04722</Pathway_ID>
+      <Pathway_Title>Neurotrophin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04620</Pathway_ID>
+      <Pathway_Title>Toll-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05142</Pathway_ID>
+      <Pathway_Title>Chagas disease (American trypanosomiasis)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05169</Pathway_ID>
+      <Pathway_Title>Epstein-Barr virus infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04210</Pathway_ID>
+      <Pathway_Title>Apoptosis</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04662</Pathway_ID>
+      <Pathway_Title>B cell receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04621</Pathway_ID>
+      <Pathway_Title>NOD-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05160</Pathway_ID>
+      <Pathway_Title>Hepatitis C</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05120</Pathway_ID>
+      <Pathway_Title>Epithelial cell signaling in Helicobacter pylori infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05164</Pathway_ID>
+      <Pathway_Title>Influenza A</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05161</Pathway_ID>
+      <Pathway_Title>Hepatitis B</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04910</Pathway_ID>
+      <Pathway_Title>Insulin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04623</Pathway_ID>
+      <Pathway_Title>Cytosolic DNA-sensing pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05222</Pathway_ID>
+      <Pathway_Title>Small cell lung cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05215</Pathway_ID>
+      <Pathway_Title>Prostate cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04064</Pathway_ID>
+      <Pathway_Title>NF-kappa B signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04660</Pathway_ID>
+      <Pathway_Title>T cell receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04622</Pathway_ID>
+      <Pathway_Title>RIG-I-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05166</Pathway_ID>
+      <Pathway_Title>HTLV-I infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04150</Pathway_ID>
+      <Pathway_Title>mTOR signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04668</Pathway_ID>
+      <Pathway_Title>TNF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04932</Pathway_ID>
+      <Pathway_Title>Non-alcoholic fatty liver disease (NAFLD)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Endocrine and metabolic diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04014</Pathway_ID>
+      <Pathway_Title>Ras signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04920</Pathway_ID>
+      <Pathway_Title>Adipocytokine signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04930</Pathway_ID>
+      <Pathway_Title>Type II diabetes mellitus</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Endocrine and metabolic diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04668</Pathway_ID>
+      <Pathway_Title>TNF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04380</Pathway_ID>
+      <Pathway_Title>Osteoclast differentiation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Development</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05212</Pathway_ID>
+      <Pathway_Title>Pancreatic cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05206</Pathway_ID>
+      <Pathway_Title>MicroRNAs in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05168</Pathway_ID>
+      <Pathway_Title>Herpes simplex infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05220</Pathway_ID>
+      <Pathway_Title>Chronic myeloid leukemia</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05131</Pathway_ID>
+      <Pathway_Title>Shigellosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05145</Pathway_ID>
+      <Pathway_Title>Toxoplasmosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05221</Pathway_ID>
+      <Pathway_Title>Acute myeloid leukemia</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05169</Pathway_ID>
+      <Pathway_Title>Epstein-Barr virus infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.10</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/10.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02690050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950069</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950081</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950082</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950083</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950084</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950085</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950088</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950089</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950090</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950091</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950092</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950093</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950094</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950095</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950096</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950097</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950098</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950099</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950100</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950101</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950102</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950103</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950104</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950105</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950106</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950107</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950108</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950109</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950174</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03950176</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

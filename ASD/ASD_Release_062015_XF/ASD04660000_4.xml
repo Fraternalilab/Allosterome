@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04660000_4</Organism_ID>
+  <Organism>Garden pea</Organism>
+  <Organism_Latin>Pisum sativum</Organism_Latin>
+  <UniProt_ID>P30124</UniProt_ID>
+  <Seq_Length>398</Seq_Length>
+  <Molecule_Weight>43815</Molecule_Weight>
+  <Function_Summary>Catalyzes an early step in the biosynthesis of tetrapyrroles. Binds two molecules of 5-aminolevulinate per subunit, each at a distinct site, and catalyzes their condensation to form porphobilinogen.</Function_Summary>
+  <Catalytic_Mechanism>2 5-aminolevulinate = porphobilinogen + 2 H(2)O.</Catalytic_Mechanism>
+  <Pfam_ID>PF00490:ALAD</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>35</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Porphobilinogen synthase</Alias>
+      <Alias>ALADH</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 2 5-aminolevulinate = 2 H(2)O + H(+) + porphobilinogen.</Detail>
+      <Keyword>Porphobilinogen synthase activity</Keyword>
+      <Ontology_ID>GO:0004655</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of heme, any compound of iron complexed in a porphyrin (tetrapyrrole) ring, from less complex precursors.</Detail>
+      <Keyword>Heme biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006783</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of protoporphyrinogen IX.</Detail>
+      <Keyword>Protoporphyrinogen IX biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006782</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of chlorophyll, any compound of magnesium complexed in a porphyrin (tetrapyrrole) ring and which functions as a photosynthetic pigment, from less complex precursors.</Detail>
+      <Keyword>Chlorophyll biosynthetic process</Keyword>
+      <Ontology_ID>GO:0015995</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of any member of a large group of derivatives or analogs of porphyrin. Porphyrin consists of a ring of four pyrrole nuclei linked each to the next at their alpha positions through a methine group.</Detail>
+      <Keyword>Porphyrin biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006779</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>HTFVDLKSPFTLSNYLSFSSSKRRQPPSLFTVRASDSDFEAAVVAGKVPEAPPVPPTPASPAGTPVVPSLPIQRRPRRNRRSPALRSAFQETTLSPANFVYPLFIHEGEEDTPIGAMPGCYRLGWRHGLLEEVAKARDVGVNSVVLFPKIPDALKTPTGDEAYNEDGLVPRSIRLLKDKYPDLIIYTDVALDPYSSDGHDGIVREDGVIMNDETVHQLCKQAVAQARAGADVVSPSDMMDGRVGAMRVALDAEGFQHVSIMSYTAKYASSFYGPFREALDSNPRFGDKKTYQMNPANYREALTEMREDESEGADILLVKPGLPYLDIIRLLRDNSPLPIAAYQVSGEYSMIKAGGALKMIDEEKVMMESLLCLRRAGADIILTYFALQAARTLCGEKR</Protein_Seq>
+    <DNA_Seq>CCACACCTTTGTTGATCTCAAATCACCATTCACATTATCCAACTATCTTAGCTTTTCTTCATCAAAGCGCCGACAACCTCCAAGTCTTTTCACGGTCAGAGCAAGTGACTCCGATTTCGAAGCCGCGGTTGTTGCCGGTAAAGTACCGGAAGCACCTCCAGTACCGCCTACACCGGCGTCACCAGCTGGAACCCCAGTCGTTCCTTCACTTCCAATTCAAAGGCGTCCCCGCCGTAATAGAAGATCGCCTGCACTTAGATCGGCGTTTCAGGAAACAACTCTATCACCTGCGAATTTTGTATATCCACTGTTTATACATGAAGGTGAGGAGGATACCCCTATTGGGGCTATGCCTGGATGCTACAGGCTTGGTTGGAGACACGGACTTTTGGAAGAGGTTGCAAAAGCACGGGATGTTGGTGTTAACAGTGTTGTGCTCTTCCCCAAAATTCCAGATGCTTTGAAGACCCCCACAGGAGATGAAGCATATAATGAGGATGGTTTAGTGCCTCGGTCTATACGATTGCTCAAGGATAAGTACCCTGATCTTATTATTTACACAGATGTTGCATTAGATCCTTATTCGTCAGATGGACATGATGGCATAGTCAGAGAAGATGGAGTTATTATGAATGATGAGACTGTTCATCAGCTTTGTAAACAAGCTGTAGCCCAGGCACGGGCTGGAGCAGATGTTGTCAGCCCCAGCGATATGATGGATGGTCGGGTAGGAGCGATGCGAGTAGCTCTCGATGCTGAAGGCTTTCAGCATGTTTCTATTATGTCATATACTGCAAAGTATGCAAGCTCATTTTATGGCCCATTTAGAGAAGCATTGGATTCAAACCCCCGGTTTGGAGACAAGAAGACCTACCAGATGAATCCAGCAAATTACAGAGAGGCTTTGACTGAGATGAGGGAAGATGAGTCTGAAGGAGCTGATATTCTGTTGGTAAAACCCGGCCTTCCCTATTTGGATATCATAAGGCTACTTAGAGATAATTCTCCACTGCCAATTGCAGCATACCAGGTTTCTGGTGAATATTCGATGATAAAAGCTGGTGGTGCTCTAAAAATGATTGACGAAGAGAAGGTTATGATGGAATCATTATTGTGCCTCCGACGGGCTGGTGCTGACATCATCCTTACGTATTTTGCTCTACAAGCTGCCAGAACTTTGTGTGGAGAGAAGAGGTGAGGTTCCATAAATATATAGGCCAATTTTCATCCTCGAAGGCCAAAGAGCTCAAAGCATTTGCAAGCATGTGCAGAGTTCATATAAAATGCTGAGAATTTTTTTTCAAAATGTGTTGTAGTTTTTGTAAACCCATAATCTTATTCACGTGTAATTTACTCAACTTCAGAATAAGTAGTACTCTATAAATGACAGAATGTACTCAACTGCAAAATAATTATAACTGTAATGTATTTAGTGCTGAAATGAAGTCAATTTCTTGT</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Chloroplast</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Chloroplast</CellLocal>
+      <Ontology_ID>GO:0009507</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plastid</CellLocal>
+      <Ontology_ID>GO:0009536</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>HEMB</Gene_Name>
+    <Gene_Alias>ALAD</Gene_Alias>
+    <Genbank_ACCN>M71235</Genbank_ACCN>
+    <Protein_ACCN>AAA33640</Protein_ACCN>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Delta-aminolevulinic acid dehydratase, chloroplastic</PDB_Title>
+      <PDB_ID>ASD04660000_4</PDB_ID>
+      <Resolution>-1.0</Resolution>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00860</Pathway_ID>
+      <Pathway_Title>Porphyrin and chlorophyll metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Lawrence SH, et al. Chem Biol. 2008,15(6):586-596.;Jaffe EK. Curr Top Med Chem. 2013,13(1):55-63. </Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PubMed_ID>18559269;23409765</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.2.1.24</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/2/1/24.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00240007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00330030</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-11-07</Create_Date>
+</Organism_Record>

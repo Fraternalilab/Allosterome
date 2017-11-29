@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04610000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P21888</UniProt_ID>
+  <Seq_Length>461</Seq_Length>
+  <Molecule_Weight>52202</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0512</KEGG_ID>
+  <Orthology_ID>K01883</Orthology_ID>
+  <Catalytic_Mechanism>ATP + L-cysteine + tRNA(Cys) = AMP + diphosphate + L-cysteinyl-tRNA(Cys).</Catalytic_Mechanism>
+  <Pfam_ID>PF09190:DALR_2@@PF01406:tRNA-synt_1e</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Cysteinyl-tRNA synthetase</Alias>
+      <Alias>CysRS</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + L-cysteine + tRNA(Cys) = AMP + diphosphate + L-cysteinyl-tRNA(Cys).</Detail>
+      <Keyword>Cysteine-tRNA ligase activity</Keyword>
+      <Ontology_ID>GO:0004817</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with zinc (Zn) ions.</Detail>
+      <Keyword>Zinc ion binding</Keyword>
+      <Ontology_ID>GO:0008270</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the formation of aminoacyl-tRNA from ATP, amino acid, and tRNA with the release of diphosphate and AMP.</Detail>
+      <Keyword>Aminoacyl-tRNA ligase activity</Keyword>
+      <Ontology_ID>GO:0004812</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an RNA molecule or a portion thereof.</Detail>
+      <Keyword>RNA binding</Keyword>
+      <Ontology_ID>GO:0003723</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process of coupling cysteine to cysteinyl-tRNA, catalyzed by cysteinyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA.</Detail>
+      <Keyword>Cysteinyl-tRNA aminoacylation</Keyword>
+      <Ontology_ID>GO:0006423</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA. Translation ends with the release of a polypeptide chain from the ribosome.</Detail>
+      <Keyword>Translation</Keyword>
+      <Ontology_ID>GO:0006412</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MLKIFNTLTRQKEEFKPIHAGEVGMYVCGITVYDLCHIGHGRTFVAFDVVARYLRFLGYKLKYVRNITDIDDKIIKRANENGESFVAMVDRMIAEMHKDFDALNILRPDMEPRATHHIAEIIELTEQLIAKGHAYVADNGDVMFDVPTDPTYGVLSRQDLDQLQAGARVDVVDDKRNPMDFVLWKMSKEGEPSWPSPWGAGRPGWHIECSAMNCKQLGNHFDIHGGGSDLMFPHHENEIAQSTCAHDGQYVNYWMHSGMVMVDREKMSKSLGNFFTVRDVLKYYDAETVRYFLMSGHYRSQLNYSEENLKQARAALERLYTALRGTDKTVAPAGGEAFEARFIEAMDDDFNTPEAYSVLFDMAREVNRLKAEDMAAANAMASHLRKLSAVLGLLEQEPEAFLQSGAQADDSEVAEIEALIQQRLDARKAKDWAAADAARDRLNEMGIVLEDGPQGTTWRRK</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>cysS</Gene_Name>
+    <Gene_ID>12933021</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_415059</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/946969</Gene_URL>
+    <EMBL_ID>EBESCG00000015028</EMBL_ID>
+  </Gene>
+  <Allosteric_Pathway>
+    <Method>Molecular dynamics simulations, dynamical cross-correlation maps (DCCM), mutations.</Method>
+    <Verified__Residue>H40, R42, M294, H297, E354, R427</Verified__Residue>
+    <PubMed_Title>Ghosh A, et al. J Biol Chem. 2011,286(43):37721-37731.</PubMed_Title>
+    <PubMed_ID>21890630</PubMed_ID>
+    <is__ref__img>Yes</is__ref__img>
+    <is__display>No</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of cysteinyl-tRNA synthetase binary complex with tRNACys</PDB_Title>
+      <PDB_ID>1U0B</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1U0B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Shape-selective RNA recognition by cysteinyl-tRNA synthetase</PubMed_Title>
+      <Author>Hauenstein, S., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2004)11:1134-1141</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15489861?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Cysteinyl-tRNA Synthetase with Cysteine Substrate Bound</PDB_Title>
+      <PDB_ID>1LI7</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LI7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural origins of amino acid selection without editing by cysteinyl-tRNA synthetase</PubMed_Title>
+      <Author>Newberry, K.J., et al.</Author>
+      <Journal>EMBO J.(2002)21:2778-2787</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12032090?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Cysteinyl-tRNA Synthetase</PDB_Title>
+      <PDB_ID>1LI5</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LI5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural origins of amino acid selection without editing by cysteinyl-tRNA synthetase</PubMed_Title>
+      <Author>Newberry, K.J., et al.</Author>
+      <Journal>EMBO J.(2002)21:2778-2787</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12032090?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00970</Pathway_ID>
+      <Pathway_Title>Aminoacyl-tRNA biosynthesis</Pathway_Title>
+      <Pathway_Class>Genetic Information Processing</Pathway_Class>
+      <Pathway_Subclass>Translation</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.da.b.b.bg.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1li5</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.1.1.16</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/1/1/16.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

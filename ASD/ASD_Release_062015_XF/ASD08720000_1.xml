@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08720000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P17252</UniProt_ID>
+  <Seq_Length>672</Seq_Length>
+  <Molecule_Weight>76750</Molecule_Weight>
+  <KEGG_ID>hsa:5578</KEGG_ID>
+  <Orthology_ID>K02677</Orthology_ID>
+  <EBI_ID>EBI-1383528</EBI_ID>
+  <Function_Summary>Calcium-activated, phospholipid- and diacylglycerol (DAG)-dependent serine/threonine-protein kinase that is involved in positive and negative regulation of cell proliferation, apoptosis, differentiation, migration and adhesion, tumorigenesis, cardiac hypertrophy, angiogenesis, platelet function and inflammation, by directly phosphorylating targets such as RAF1, BCL2, CSPG4, TNNT2/CTNT, or activating signaling cascade involving MAPK1/3 (ERK1/2) and RAP1GAP. Involved in cell proliferation and cell growth arrest by positive and negative regulation of the cell cycle. Can promote cell growth by phosphorylating and activating RAF1, which mediates the activation of the MAPK/ERK signaling cascade, and/or by up-regulating CDKN1A, which facilitates active cyclin-dependent kinase (CDK) complex formation in glioma cells. In intestinal cells stimulated by the phorbol ester PMA, can trigger a cell cycle arrest program which is associated with the accumulation of the hyper-phosphorylated growth-suppressive form of RB1 and induction of the CDK inhibitors CDKN1A and CDKN1B. Exhibits anti-apoptotic function in glioma cells and protects them from apoptosis by suppressing the p53/TP53-mediated activation of IGFBP3, and in leukemia cells mediates anti-apoptotic action by phosphorylating BCL2. During macrophage differentiation induced by macrophage colony-stimulating factor (CSF1), is translocated to the nucleus and is associated with macrophage development. After wounding, translocates from focal contacts to lamellipodia and participates in the modulation of desmosomal adhesion. Plays a role in cell motility by phosphorylating CSPG4, which induces association of CSPG4 with extensive lamellipodia at the cell periphery and polarization of the cell accompanied by increases in cell motility. Is highly expressed in a number of cancer cells where it can act as a tumor promoter and is implicated in malignant phenotypes of several tumors such as gliomas and breast cancers. Negatively regulates myocardial contractility and positively regulates angiogenesis, platelet aggregation and thrombus formation in arteries. Mediates hypertrophic growth of neonatal cardiomyocytes, in part through a MAPK1/3 (ERK1/2)-dependent signaling pathway, and upon PMA treatment, is required to induce cardiomyocyte hypertrophy up to heart failure and death, by increasing protein synthesis, protein-DNA ratio and cell surface area. Regulates cardiomyocyte function by phosphorylating cardiac troponin T (TNNT2/CTNT), which induces significant reduction in actomyosin ATPase activity, myofilament calcium sensitivity and myocardial contractility. In angiogenesis, is required for full endothelial cell migration, adhesion to vitronectin (VTN), and vascular endothelial growth factor A (VEGFA)-dependent regulation of kinase activation and vascular tube formation. Involved in the stabilization of VEGFA mRNA at post-transcriptional level and mediates VEGFA-induced cell proliferation. In the regulation of calcium-induced platelet aggregation, mediates signals from the CD36/GP4 receptor for granule release, and activates the integrin heterodimer ITGA2B-ITGB3 through the RAP1GAP pathway for adhesion. During response to lipopolysaccharides (LPS), may regulate selective LPS-induced macrophage functions involved in host defense and inflammation. But in some inflammatory responses, may negatively regulate NF-kappa-B-induced genes, through IL1A-dependent induction of NF-kappa-B inhibitor alpha (NFKBIA/IKBA). Upon stimulation with 12-O-tetradecanoylphorbol-13-acetate (TPA), phosphorylates EIF4G1, which modulates EIF4G1 binding to MKNK1 and may be involved in the regulation of EIF4E phosphorylation. Phosphorylates KIT, leading to inhibition of KIT activity.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a protein = ADP + a phosphoprotein.</Catalytic_Mechanism>
+  <Pfam_ID>PF00130:C1_1@@PF00168:C2@@PF00069:Pkinase@@PF00433:Pkinase_C</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>PKC-alpha</Alias>
+      <Alias>PKC-A</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a protein = ADP + a phosphoprotein. This reaction requires diacylglycerol.</Detail>
+      <Keyword>Protein kinase C activity</Keyword>
+      <Ontology_ID>GO:0004697</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group to the threonine-6 residue of the N-terminal tail of histone H3.</Detail>
+      <Keyword>Histone kinase activity (H3-T6 specific)</Keyword>
+      <Ontology_ID>GO:0035403</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with zinc (Zn) ions.</Detail>
+      <Keyword>Zinc ion binding</Keyword>
+      <Ontology_ID>GO:0008270</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any enzyme.</Detail>
+      <Keyword>Enzyme binding</Keyword>
+      <Ontology_ID>GO:0019899</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>98</Position>
+      <Original>Pro</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>489</Position>
+      <Original>Met</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>467</Position>
+      <Original>Asp</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>568</Position>
+      <Original>Val</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process induced by extracellular signals that directly activates any of the steps required for cell death by apoptosis.</Detail>
+      <Keyword>Induction of apoptosis by extracellular signals</Keyword>
+      <Ontology_ID>GO:0008624</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</Detail>
+      <Keyword>Gene expression</Keyword>
+      <Ontology_ID>GO:0010467</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving small molecules, any monomeric molecule of small relative molecular mass.</Detail>
+      <Keyword>Small molecule metabolic process</Keyword>
+      <Ontology_ID>GO:0044281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signaling in response to detection of lipopolysaccharide.</Detail>
+      <Keyword>Positive regulation of lipopolysaccharide-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0031666</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the regulated release of insulin.</Detail>
+      <Keyword>Regulation of insulin secretion</Keyword>
+      <Ontology_ID>GO:0050796</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the migration of the endothelial cells of blood vessels.</Detail>
+      <Keyword>Positive regulation of blood vessel endothelial cell migration</Keyword>
+      <Ontology_ID>GO:0043536</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving mRNA, messenger RNA, which is responsible for carrying the coded genetic 'message', transcribed from DNA, to sites of protein assembly at the ribosomes.</Detail>
+      <Keyword>MRNA metabolic process</Keyword>
+      <Ontology_ID>GO:0016071</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The attachment of a cell, either to another cell or to an underlying substrate such as the extracellular matrix, via cell adhesion molecules.</Detail>
+      <Keyword>Cell adhesion</Keyword>
+      <Ontology_ID>GO:0007155</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a signal is passed on to downstream components within the cell, which become activated themselves to further propagate the signal and finally trigger a change in the function or state of the cell.</Detail>
+      <Keyword>Intracellular signal transduction</Keyword>
+      <Ontology_ID>GO:0035556</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases angiogenesis.</Detail>
+      <Keyword>Positive regulation of angiogenesis</Keyword>
+      <Ontology_ID>GO:0045766</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The initiation of the activity of the inactive enzyme phospolipase C as the result of a series of molecular signals generated as a consequence of a G-protein coupled receptor binding to its physiological ligand.</Detail>
+      <Keyword>Activation of phospholipase C activity</Keyword>
+      <Ontology_ID>GO:0007202</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a fibroblast growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Fibroblast growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0008543</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of macrophage differentiation.</Detail>
+      <Keyword>Positive regulation of macrophage differentiation</Keyword>
+      <Ontology_ID>GO:0045651</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the rate or extent of endothelial cell proliferation.</Detail>
+      <Keyword>Positive regulation of endothelial cell proliferation</Keyword>
+      <Ontology_ID>GO:0001938</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of an epidermal growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Epidermal growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0007173</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the nerve growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Nerve growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048011</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</Detail>
+      <Keyword>Platelet activation</Keyword>
+      <Ontology_ID>GO:0030168</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways by which a cell derives energy from stored compounds such as fats or glycogen.</Detail>
+      <Keyword>Energy reserve metabolic process</Keyword>
+      <Ontology_ID>GO:0006112</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of communication from a neuron to a target (neuron, muscle, or secretory cell) across a synapse.</Detail>
+      <Keyword>Synaptic transmission</Keyword>
+      <Ontology_ID>GO:0007268</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the rate or extent of progression through the mitotic cell cycle.</Detail>
+      <Keyword>Positive regulation of mitotic cell cycle</Keyword>
+      <Ontology_ID>GO:0045931</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of cell adhesion.</Detail>
+      <Keyword>Positive regulation of cell adhesion</Keyword>
+      <Ontology_ID>GO:0045785</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an interleukin-1 stimulus.</Detail>
+      <Keyword>Response to interleukin-1</Keyword>
+      <Ontology_ID>GO:0070555</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the rate, frequency or extent of the enlargement or overgrowth of all or part of the heart due to an increase in size (not length) of individual cardiac muscle fibers, without cell division.</Detail>
+      <Keyword>Positive regulation of cardiac muscle hypertrophy</Keyword>
+      <Ontology_ID>GO:0010613</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Blood vessel formation when new vessels emerge from the proliferation of pre-existing blood vessels.</Detail>
+      <Keyword>Angiogenesis</Keyword>
+      <Ontology_ID>GO:0001525</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the ERK1 and ERK2 cascade.</Detail>
+      <Keyword>Positive regulation of ERK1 and ERK2 cascade</Keyword>
+      <Ontology_ID>GO:0070374</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the rate, frequency or extent of platelet aggregation. Platelet aggregation is the adhesion of one platelet to one or more other platelets via adhesion molecules.</Detail>
+      <Keyword>Regulation of platelet aggregation</Keyword>
+      <Ontology_ID>GO:0090330</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate, or extent of glial cell apoptosis.</Detail>
+      <Keyword>Negative regulation of glial cell apoptosis</Keyword>
+      <Ontology_ID>GO:0034351</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>226</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>495</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>628</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>658</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>501</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>250</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>N-acetylalanine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>631</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>638</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>195</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>319</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>208</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>657</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>494</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>604</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>497</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MADVFPGNDSTASQDVANRFARKGALRQKNVHEVKDHKFIARFFKQPTFCSHCTDFIWGFGKQGFQCQVCCFVVHKRCHEFVTFSCPGADKGPDTDDPRSKHKFKIHTYGSPTFCDHCGSLLYGLIHQGMKCDTCDMNVHKQCVINVPSLCGMDHTEKRGRIYLKAEVADEKLHVTVRDAKNLIPMDPNGLSDPYVKLKLIPDPKNESKQKTKTIRSTLNPQWNESFTFKLKPSDKDRRLSVEIWDWDRTTRNDFMGSLSFGVSELMKMPASGWYKLLNQEEGEYYNVPIPEGDEEGNMELRQKFEKAKLGPAGNKVISPSEDRKQPSNNLDRVKLTDFNFLMVLGKGSFGKVMLADRKGTEELYAIKILKKDVVIQDDDVECTMVEKRVLALLDKPPFLTQLHSCFQTVDRLYFVMEYVNGGDLMYHIQQVGKFKEPQAVFYAAEISIGLFFLHKRGIIYRDLKLDNVMLDSEGHIKIADFGMCKEHMMDGVTTRTFCGTPDYIAPEIIAYQPYGKSVDWWAYGVLLYEMLAGQPPFDGEDEDELFQSIMEHNVSYPKSLSKEAVSVCKGLMTKHPAKRLGCGPEGERDVREHAFFRRIDWEKLENREIQPPFKPKVCGKGAENFDKFFTRGQPVLTPPDQLVIANIDQSDFEGFSYVNPQFVHPILQSAV</Protein_Seq>
+    <DNA_Seq>GGCCGCAGCTCCCCGGCGGAGGCAAGAGGTGGTTGGGGGGGACCATGGCTGACGTTTTCCCGGGCAACGACTCCACGGCGTCTCAGGACGTGGCCAACCGCTTCGCCCGCAAAGGGGCGCTGAGGCAGAAGAACGTGCACGAGGTGAAGGACCACAAATTCATCGCGCGCTTCTTCAAGCAGCCCACCTTCTGCAGCCACTGCACCGACTTCATCTGGGGGTTTGGGAAACAAGGCTTCCAGTGCCAAGTTTGCTGTTTTGTGGTCCACAAGAGGTGCCATGAATTTGTTACTTTTTCTTGTCCGGGTGCGGATAAGGGACCCGACACTGATGACCCCAGGAGCAAGCACAAGTTCAAAATCCACACTTACGGAAGCCCCACCTTCTGCGATCACTGTGGGTCACTGCTCTATGGACTTATCCATCAAGGGATGAAATGTGACACCTGCGATATGAACGTTCACAAGCAATGCGTCATCAATGTCCCCAGCCTCTGCGGAATGGATCACACTGAGAAGAGGGGGCGGATTTACCTAAAGGCTGAGGTTGCTGATGAAAAGCTCCATGTCACAGTACGAGATGCAAAAAATCTAATCCCTATGGATCCAAACGGGCTTTCAGATCCTTATGTGAAGCTGAAACTTATTCCTGATCCCAAGAATGAAAGCAAGCAAAAAACCAAAACCATCCGCTCCACACTAAATCCGCAGTGGAATGAGTCCTTTACATTCAAATTGAAACCTTCAGACAAAGACCGACGACTGTCTGTAGAAATCTGGGACTGGGATCGAACAACAAGGAATGACTTCATGGGATCCCTTTCCTTTGGAGTTTCGGAGCTGATGAAGATGCCGGCCAGTGGATGGTACAAGTTGCTTAACCAAGAAGAAGGTGAGTACTACAACGTACCCATTCCGGAAGGGGACGAGGAAGGAAACATGGAACTCAGGCAGAAATTCGAGAAAGCCAAACTTGGCCCTGCTGGCAACAAAGTCATCAGTCCCTCTGAAGACAGGAAACAACCTTCCAACAACCTTGACCGAGTGAAACTCACGGACTTCAATTTCCTCATGGTGTTGGGAAAGGGGAGTTTTGGAAAGGTGATGCTTGCCGACAGGAAGGGCACAGAAGAACTGTATGCAATCAAAATCCTGAAGAAGGATGTGGTGATTCAGGATGATGACGTGGAGTGCACCATGGTAGAAAAGCGAGTCTTGGCCCTGCTTGACAAACCCCCGTTCTTGACGCAGCTGCACTCCTGCTTCCAGACAGTGGATCGGCTGTACTTCGTCATGGAATATGTCAACGGTGGGGACCTCATGTACCACATTCAGCAAGTAGGAAAATTTAAGGAACCACAAGCAGTATTCTATGCGGCAGAGATTTCCATCGGATTGTTCTTTCTTCATAAAAGAGGAATCATTTATAGGGATCTGAAGTTAGATAACGTCATGTTGGATTCAGAAGGACATATCAAAATTGCTGACTTTGGGATGTGCAAGGAACACATGATGGATGGAGTCACGACCAGGACCTTCTGTGGGACTCCAGATTATATCGCCCCAGAGATAATCGCTTATCAGCCGTATGGAAAATCTGTGGACTGGTGGGCCTATGGCGTCCTGTTGTATGAAATGCTTGCCGGGCAGCCTCCATTTGATGGTGAAGATGAAGACGAGCTATTTCAGTCTATCATGGAGCACAACGTTTCCTATCCAAAATCCTTGTCCAAGGAGGCTGTTTCTATCTGCAAAGGACTGATGACCAAACACCCAGCCAAGCGGCTGGGCTGTGGGCCTGAGGGGGAGAGGGACGTGAGAGAGCATGCCTTCTTCCGGAGGATCGACTGGGAAAAACTGGAGAACAGGGAGATCCAGCCACCATTCAAGCCCAAAGTGTGTGGCAAAGGAGCAGAGAACTTTGACAAGTTCTTCACACGAGGACAGCCCGTCTTAACACCACCTGATCAGCTGGTTATTGCTAACATAGACCAGTCTGATTTTGAAGGGTTCTCGTATGTCAACCCCCAGTTTGTGCACCCCATCTTACAGAGTGCAGTATGAAACTCACCAGCGAGAACAAACACCTCCCCAGCCCCCAGCCCTCCCCGCAGTGGGAAGTGAATCCTTAACCCTAAAATTTTAAGGCCACGGCCTTGTGTCTGATTCCATATGGAGGCCTGAAAATTGTAGGGTTATTAGTCCAAATGTGATCAACTGTTCAGGGTCTCTCTCTTACAACCAAGAACATTATCTTAGTGGAAGATGGTACGTCATGCTCAGTGTCCAGTTTAATTCTGTAGAAGTTACGTCTGGCTCTAGGTTAACCCTTCCTAGAAAGCAAGCAGACTGTTGCCCCATTTTGGGTACAATTTGATATACTTTCCATACCCTCCATCTGTGGATTTTTCAGCATTGGAATCCCCCAACCAGAGATGTTAAAGTGAGCCTGTCCCAGGAAACATCTCCACCCAAGACGTCTTTGGAATCCAAGAACAGGAAGCCAAGAGAGTGAGCAGGGAGGGATTGGGGGTGGGGGAGGCCTCAAAATACCGACTGCGTCCATTCTCTGCCTCCATGGAAACAGCCCCTAGAATCTGAAAGGCCGGGATAAACCTAATCACTGTTCCCAAACATTGACAAATCCTAACCCAACCATGGTCCAGCAGTTACCAGTTTAAACAAAAAAACCTCAGATGAGTGTTGGGTGAATCTGTCATCTGGTACCCTCCTTGGTTGATAACTGTCTTGATACTTTTCATTCTTTGTAAGAGGCCAAATCGTCTAAGGACGTTGCTGAACAAGCGTGTGAAATCATTTCAGATCAAGGATAAGCCAGTGTGTACATATGTTCATTTTAATCTCTGGGAGATTATTTTTCCATCCAGGGTGCCATCAGTAATCATGCCACTACTCACCAGTGTTGTTCGCCAACACCCACCCCCACACACACCAACATTTTGCTGCCTACCTTGTTATCCTTCTCAAGAAGCTGAAGTGTACGCCCTCTCCCCTTTTGTGCTTATTTATTTAATAGGCTGCAGTGTCGCTTATGAAAGTACGATGTACAGTAACTTAATGGAAGTGCTGACTCTAGCATCAGCCTCTACCGATTGATTTTCCTCCCTTCTCTAGCCCTGGATGTCCACTTAGGGATAAAAAGAATATGGTTTTGGTTCCCATTTCTAGTTCACGTTGAATGACAGGCCTGGAGCTGTAGAATCAGGAAACCCGGATGCCTAACAGCTCAAAGATGTTTTGTTAATAGAAGGATTTTAATACGTTTTGCAAATGCATCATGCAATGAATTTTGCATGTTTATAATAAACCTTAATAACAAGTGAATCTATATTATTGATATAATCGTATCAAGTATAAAGAGAGTATTATAATAATTTTATAAGACACAATTGTGCTCTATTTGTGCAGGTTCTTGTTTCTAATCCTCTTTTCTAATTAAGTTTTAGCTGAATCCCTTGCTTCTGTGCTTTCCCTCCCTGCACATGGGCACTGTATCAGATAGATTACTTTTTAAATGTAGATAAAATTTCAAAAATGAATGGCTAGTTTACGTGATAGATTAGGCTCTTACTACATATGTGTGTGTATATATATGTATTTGATTCTACCTGCAAACAAATTTTTATTGGTGAGGACTATTTTTGAGCTGACACTCCCTCTTAGTTTCTTCATGTCACCTTTCGTCCTGGTTCCTCCGCCACTCTTCCTCTTGGGGACAACAGGAAGTGTCTGATTCCAGTCTGCCTAGTACGTTGGTACACACGTGGCATTGCCGCAGCACCTGGGCTGACCTTTGTGTGTGCGTGTGTGTGTGTTTCCTTCTTCCCTTCAGCCTGTGACTGTTGCTGACTCCAGGGGTGGGAGGGATGGGGAGACTCCCCTCTTGCTGTGTGTACTGGACACGCAGGAAGCATGCTGTCTTGCTGCCTCTGCAACGACCTGTCGTTTGCTCCAGCATGCACAAACTTCGTGAGACCAACACAGCCGTGCCCTGCAGGCACCAGCACGTGCTTTTCAGAGGCTGCGGACTTTCTTCCAGCCATTGTGGCATTGGCCTTTCCAGTCTTGGGAGGAGCGCGCTGCTTTGGTGAGACACCCCCATGCAAGGTCCTCAGAGTAGCCGGGTTCTACCACAAACAGAAACAGAATGAAAGTAGCTGTCAGTCCTTGTAGAGAGCCGCTCTGTTTCCTCCCAGAAGCATCTCCCAGCTAAGCTCGCATTATTTTTCTCCTCTGGCTGTTTGCCTGAAGTTCACAGAACACACAACCATGAAAGGCTTTTTGAGGTGAGAGGCCCAGGTGGTCCTGGCAACCCTGAGTAGAAGGAGAGACGGGGTAGGGAACGGGCCCGGCCAGAAAAGAACCATTTCTTCTGCCATCTTTTATGCACCATAGACATCGAGACTCCAGGGGGTCCTGGCTCCCCTGTCCCTGCAGCCCTGCAGGTCAGTGCATGATCTGGGTTCGTGTCCTGACCAGGTGCTCCTCCTTTGATCCGAGGGGAAAGGGACTGGTTTATAGAAAGAGCCTAGGAGACAAAAGGGCCAGTCCCCCTGCCCAGAATGGAGCAGCAGCAGGACAGACCCCCACGAGGCCCCCCAGAGAGGAGGAAGATCCCACGGAGGAACACATGAGGTTAGGGACCCTTGTTCAGCACCCCAAACAGCCTGCCTGTTTAAAGCAGGCAGCAGGCTTAGGCCTTCCCTGCAACCCCAACACCCACAAGTTTGTTTCTCTAGGAAACACATTCACTGTCTCAGCTGGCTGTTACTCTCTCAGACCATATGGCAAAGTTTTCCAAGAAAATGCCCCGACAGGGGTGCCCAGCACACTGCCTGAGGGACAACAGACATCAGAACAAACCCCCAGAGAGAAACAGTCAAAATCAGGGCCCGGTGCAGTGTTGTCATGTGGAACCTGCTTTATCCATTGCTGAGTGTTGAATGTGGGTAATGGTTAGGGCTTTCCAGATCTCAGCAGCCAAAGACAGTTATTGTTGGAAGACTGTCATGTAGATAACCATGAGCAATGGCTCGCCTCAGAATCAGTTCATAAAATTCTATGGTACTGGCCCCTTCGTGGGTATTGTGTGAAATGAGATGGTGGCGAGGGGTGCGCTGTGGAACTGCCGCAGCCACGCAGGAGGTCCCTGGGGGATGCTTTGGGAAGTCCTTGCCCCTGAGCACTGCCTGATTGCCAGGGCCTGTGGAGGTCTAGGCCGCCTGGCAGAATCTAGCACCGTCCGAATCCCCGCAGGACCCATGGAGCTATGACCACACCAGGCCATTCAAATGGCTCTGCATTATCTTCCCTTGGAAGGTGGCCACTCCTCGGTGGCAGGGCCTTTCCCTGAGGCTGCAGGCCGTGGGCTGGCAGCCCGTCTCTTGGCATTTCAATTGAAGGTCACCAGGTGCTGGGTTTGAAAGGAAGTCACTGGAGTGCTGCCAGGGGCCGCCCTCCAAGGTTAATGAGAGGCCCACATCCAGGCAAGAACTAATTCAAAAGGCAGATCAGAAACCACAGGAGTCAAAATTATTGCTCCGGCAGTGCTTCCCTTCCTTTCATCCACTGGCCTCGTGTGGTCCATGCAGGGCCACTGTCTGCCCTTTCTGATGCCACGTATTAGGCTTTCTTACTCAGAATTTTGATAGAAAACCATGGGGCCAAGAGCTCTGGAAGCCTGGCCGGAAAGACCAAGGTTCATGCAGCCCAACAAATGATTGTTGAGCACCTCTCGGAGCCAAAGTCCTTAGGCGAGTGTGGTGACTTCCTGGAAGGAGGATGCAGACTTCCAGAGAGCCCCCCCAACGGACGTGCTGAGAAGGGAGAGGGAGGCGGGGGCTGTAGTCAGGAAGGAGCCAGAGAAGAACAGGGTTTGGGTGCATCCAGAAATATGCCTGCAGTAGGAGGGAGAGGAAGGGGTGCCACCGTCAACGGCTTCCCATCGGAGGTGGTTGGTGCAGATGGAAGTTTCTGTCTGCTGGCCCTCAAGAGAGTGTTTTGCCAGGGACACAGTCTGTTCCTCCTCAGAAAACACCCCCCAAATGCTAACAACATCCCCACCAGCTGCTAGAAGCCCCTTTCCCCTCCCCACCTTGAAGTAGCTCATAGTTCTCTGGGCAGAGCCAGACCATCCAGTGTACCCCAGAGGCCAGTAGGTTCCTGCCCATTTTCCTCTCTGGCTTCCTGCCAAGAATTATGGCAGCTGAGGATGAATGGAGAAGTAAAAACAACTAACACCGCACAACTAACAACTAACACCGCAGTTCCCACCTGGGTTCCACTTAGCAGGAGACATTTCGGAGGGTTTTTTTTGTTTTTGTTCCTGTTTTTTTTTTTTTTGCTGGAATTTGTTTTCTCAGTACTGAAAAGAGAAAAAGTGACAATCTTGTATTTTTAAAAGCCTCGGAAAGGTGATACCATCTGACAGTCATTTTCTCACGTTGGTCTTCTAAAGTCACCTATTTCTTGTGTGTGCACATCACACCATTTCCTGTTTCTTTATAACCCGACAAGGGTAGGAGTGCCTGTTTCCCCTGCTGGGCACACCAGACAATCGTAATCACAAAACAGACACTGAGCCAGGGGCCCAAAGGGTGTGATCATGAGAGTTACCGGGACAGCAGTAGGCATGACAGTCACCAGGAAGGACAAGGGTGCTCTGTTGTTAGTGGCCACACACCAATTTGACAAGGAGTGTTGCGAAATTTTTATTTATTTATTTATTTATTTTGAGATGGAGTTTCACTCTTGTTGCCCAGGCTGGAGTGCGGTGGTACAATCTCGGCTCACTGCAACCTCCACCTCCCAGGTTCAAGCGATTCTCCTGCCTCAGCCTCCCAAGTACCTGGGACTACAGGTGCGTGCCACCACACCCAGCTAAATTTTGTGTTTTTAGTAGAGATGGGGTTTCACCATGTTGGCCAGGATGGTCTTGAACCCCTGACCTCATGATCTGCCTGCCTCGGCCTCCCAAAGTGCTGGGATTACAGGCATGAGCCACCACGCCCAGCCAAAATATTTTTTTAAAGTCATTTTCCTTAAGCTGCTTGGGCTACATGTGAAATACACTGGACGGTCAACATTCCTGTCTCCTCCCATTTGGGCTGATGCAGCAGATCCAGGGAATGTTACCTGTTTCTGCTGCTAGAAGATCCAGGAAATTGGGAAGGTTACCTGACGCACACATGGATGAAGGCCATCATCTAGAAATGGGGTCAACCACAATTGTGTTAATTCCGTAGTGTCAGGGATTCTTCGGGAAGGTCAACAGTATGAAGGATTCTGACCCCTGTGCCTCCCATTTATGTGATCAGGTGACAGTTAATAACCGTGGAGGTCACACTCAGCCATCCAACAGCCTTACAGTGACCCTACACAAAAGCCCCCAAATTCCAAAGACTTTTTCTTAACCTAAAGGAAGAAATTATTTGTTAATTCCAGTAGAGCAACTGAATATACTGGGCTATTTGTACTTTTTTATAGAGAACTTTAATAATAATTCTTTAAAAATGAGTTTTTAGAACAAAGCAACTGACGATTTCCTAAGATTCCAATGCCCTGGAGCTTGTAGGAGGACTTAGCCTGGGTCAGCTGGAGCACCCCCGACCTGATCTCCCACTGCCAGATTTTCCCATGCTCCTAGGGTATGGAGTCCACGTGGGAATGACTGCAAGTTCAGGTGGAACTTGGCCGACTGATGCTCTGCGAGTTTTTAATAGACACTGGGGACAACTGCTTAAGGTTTAGAAACTTCCAAACCACAGGAAAGACATTTTTAGTGTCCCCCATCCAGAGGCAGCCCTGGAATAGGATTCCCAGGGGTTTCTGGGACCCCTTTCCTTGCTCCGTGAGGCTCTGTGGCCATCTTTTGGCAGGAGGAGGATGCTTCCTTGGCTCTGTGCCCAGACCCGCCTGGTCCCCAGGTCTCTCACCTTGGGTGAAGATTCAGAGATGCCCTGTAAGGATTTTGCCCACTGGGCAACTCAGAAATACTTCGATCTCCCAAGATATAAGAGGCAGCAGCAAACGTGCCTATTGACGTCTGTTTCATAGTTACCACTTACGCGAGTAGACAGAACTCGGCTTTTCAGAAAATAGGTGTCAAGTCCACTTTATAAGAACCTTTTTTTCTAAAATAAGATAAAAGGTGGCTTTGCATTTTCTGATTAAACGACTGTGTCTTTGTCACCTCTGCTTAACTTTAGGAGTATCCATTCCTGTGATTGTAGACTTTTGTTGATATTCTTCCTGGAAGAATATCATTCTTTTCTTGAAGGGTTGGTTTACTAGAATATTCAAAATCAATCATGAAGGCAGTTACTATTTTGAGTCTAAAGGTTTTCTAAAAATTAACCTCACATCCCTTCTGTTAGGGTCTTTCAGAATATCTTTTATAAACAGAAGCATTTGAAGTCATTGCTTTTGCTACATGATTTGTGTGTGTGAAGGACATACCACGTTTAAATCATTAATTGAAAAACATCATATAAGCCCCAACTTTGTTTGGAGGAAGAGACGGAGGTTGAGGTTTTTCCTTCTGTATAAGCACCTACTGACAAAATGTAGAGGCCATTCAACCGTCAAACACCATTTGGTTATATCGCAGAGGAGACGGATGTGTAAATTACTGCATTGCTTTTTTTTTCAGTTTGTATAACCTCTAATCTCCGTTTGCATGATACGCTTTGTTAGAAACATTAATTGTAGTTTGGAAGCAAGTGTGTATGAATAAAGATAATGATCATTCCAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Perinuclear region of cytoplasm</CellLocal>
+      <Ontology_ID>GO:0048471</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane fraction</CellLocal>
+      <Ontology_ID>GO:0005624</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum</CellLocal>
+      <Ontology_ID>GO:0005783</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleoplasm</CellLocal>
+      <Ontology_ID>GO:0005654</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrial membrane</CellLocal>
+      <Ontology_ID>GO:0031966</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>PRKCA</Gene_Name>
+    <Gene_Alias>PKCA; PRKACA</Gene_Alias>
+    <Gene_ID>5578</Gene_ID>
+    <Genbank_ACCN>NM_002737</Genbank_ACCN>
+    <Protein_ACCN>NP_002728</Protein_ACCN>
+    <HGNC_ID>9393</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5578</Gene_URL>
+    <UCSC_ID>uc002jfo.1</UCSC_ID>
+    <EMBL_ID>ENSG00000154229</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q24008</Uniprot_ID>
+      <Gene_Name>inaD</Gene_Name>
+      <EBI_ID>EBI-195326</EBI_ID>
+      <PPI_EBI_URL>EBI-1383528,EBI-195326</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Pituitary Tumor, Invasive</Disease_Name>
+      <Disease_Detail>Pituitary Tumors</Disease_Detail>
+      <Disease_DB>PTT032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pituitary_tumor_invasive?search=PRKCA#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of PKC alpha in complex with NVP-AEB071</PDB_Title>
+      <PDB_ID>3IW4</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3IW4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of 3-(1H-indol-3-yl)-4-[2-(4-methylpiperazin-1-yl)quinazolin-4-yl]pyrrole-2,5-dione (AEB071), a potent and selective inhibitor of protein kinase C isotypes</PubMed_Title>
+      <Author>Wagner, J., et al.</Author>
+      <Journal>J.Med.Chem.(2009)52:6193-6196</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19827831?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of the second Phorbol esters/diacylglycerol binding domain of human Protein kinase C alpha type</PDB_Title>
+      <PDB_ID>2ELI</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ELI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution structure of the second Phorbol esters/diacylglycerol binding domain of human Protein kinase C alpha type</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a C2 domain of a protein kinase C alpha (PRKCA) from Homo sapiens at 1.90 A resolution</PDB_Title>
+      <PDB_ID>4DNL</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4DNL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of a C2 domain of a protein kinase C alpha (PRKCA) from Homo sapiens at 1.90 A resolution</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04070</Pathway_ID>
+      <Pathway_Title>Phosphatidylinositol signaling system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04713</Pathway_ID>
+      <Pathway_Title>Circadian entrainment</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Environmental adaptation</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04972</Pathway_ID>
+      <Pathway_Title>Pancreatic secretion</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Digestive system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04919</Pathway_ID>
+      <Pathway_Title>Thyroid hormone signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05214</Pathway_ID>
+      <Pathway_Title>Glioma</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04921</Pathway_ID>
+      <Pathway_Title>Oxytocin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04960</Pathway_ID>
+      <Pathway_Title>Aldosterone-regulated sodium reabsorption</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Excretory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05110</Pathway_ID>
+      <Pathway_Title>Vibrio cholerae infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04014</Pathway_ID>
+      <Pathway_Title>Ras signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04020</Pathway_ID>
+      <Pathway_Title>Calcium signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05032</Pathway_ID>
+      <Pathway_Title>Morphine addiction</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05231</Pathway_ID>
+      <Pathway_Title>Choline metabolism in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04745</Pathway_ID>
+      <Pathway_Title>Phototransduction - fly</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Sensory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04015</Pathway_ID>
+      <Pathway_Title>Rap1 signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04725</Pathway_ID>
+      <Pathway_Title>Cholinergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04270</Pathway_ID>
+      <Pathway_Title>Vascular smooth muscle contraction</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Circulatory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04918</Pathway_ID>
+      <Pathway_Title>Thyroid hormone synthesis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04540</Pathway_ID>
+      <Pathway_Title>Gap junction</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05143</Pathway_ID>
+      <Pathway_Title>African trypanosomiasis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04961</Pathway_ID>
+      <Pathway_Title>Endocrine and other factor-regulated calcium reabsorption</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Excretory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04970</Pathway_ID>
+      <Pathway_Title>Salivary secretion</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Digestive system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05206</Pathway_ID>
+      <Pathway_Title>MicroRNAs in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04150</Pathway_ID>
+      <Pathway_Title>mTOR signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04510</Pathway_ID>
+      <Pathway_Title>Focal adhesion</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05205</Pathway_ID>
+      <Pathway_Title>Proteoglycans in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04911</Pathway_ID>
+      <Pathway_Title>Insulin secretion</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05214</Pathway_ID>
+      <Pathway_Title>Glioma</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05206</Pathway_ID>
+      <Pathway_Title>MicroRNAs in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05031</Pathway_ID>
+      <Pathway_Title>Amphetamine addiction</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04650</Pathway_ID>
+      <Pathway_Title>Natural killer cell mediated cytotoxicity</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04530</Pathway_ID>
+      <Pathway_Title>Tight junction</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04745</Pathway_ID>
+      <Pathway_Title>Phototransduction - fly</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Sensory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04916</Pathway_ID>
+      <Pathway_Title>Melanogenesis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04971</Pathway_ID>
+      <Pathway_Title>Gastric acid secretion</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Digestive system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04730</Pathway_ID>
+      <Pathway_Title>Long-term depression</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04012</Pathway_ID>
+      <Pathway_Title>ErbB signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04011</Pathway_ID>
+      <Pathway_Title>MAPK signaling pathway - yeast</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04727</Pathway_ID>
+      <Pathway_Title>GABAergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04724</Pathway_ID>
+      <Pathway_Title>Glutamatergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04666</Pathway_ID>
+      <Pathway_Title>Fc gamma R-mediated phagocytosis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04728</Pathway_ID>
+      <Pathway_Title>Dopaminergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05161</Pathway_ID>
+      <Pathway_Title>Hepatitis B</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05206</Pathway_ID>
+      <Pathway_Title>MicroRNAs in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04370</Pathway_ID>
+      <Pathway_Title>VEGF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04726</Pathway_ID>
+      <Pathway_Title>Serotonergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04530</Pathway_ID>
+      <Pathway_Title>Tight junction</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04010</Pathway_ID>
+      <Pathway_Title>MAPK signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04670</Pathway_ID>
+      <Pathway_Title>Leukocyte transendothelial migration</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04750</Pathway_ID>
+      <Pathway_Title>Inflammatory mediator regulation of TRP channels</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Sensory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05223</Pathway_ID>
+      <Pathway_Title>Non-small cell lung cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04071</Pathway_ID>
+      <Pathway_Title>Sphingolipid signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05031</Pathway_ID>
+      <Pathway_Title>Amphetamine addiction</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04720</Pathway_ID>
+      <Pathway_Title>Long-term potentiation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04723</Pathway_ID>
+      <Pathway_Title>Retrograde endocannabinoid signaling</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04310</Pathway_ID>
+      <Pathway_Title>Wnt signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/3iw4</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.13</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/13.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD08720001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

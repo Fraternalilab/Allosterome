@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02090000_1</Organism_ID>
+  <Organism>Pseudomonas diminuta</Organism>
+  <Organism_Latin>Brevundimonas diminuta</Organism_Latin>
+  <UniProt_ID>P0A434</UniProt_ID>
+  <Seq_Length>365</Seq_Length>
+  <Molecule_Weight>39004</Molecule_Weight>
+  <Function_Summary>Has an unusual substrate specificity for synthetic organophosphate triesters and phosphorofluoridates. All of the phosphate triesters found to be substrates are synthetic compounds. The identity of any naturally occurring substrate for the enzyme is unknown. Has no detectable activity with phosphate monoesters or diesters and no activity as an esterase or protease. It catalyzes the hydrolysis of the insecticide paraoxon at a rate approaching the diffusion limit and thus appears to be optimally evolved for utilizing this synthetic substrate.</Function_Summary>
+  <Catalytic_Mechanism>An aryl dialkyl phosphate + H(2)O = dialkyl phosphate + an aryl alcohol.</Catalytic_Mechanism>
+  <Pfam_ID>PF02126:PTE</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>PTE</Alias>
+      <Alias>Organophosphorus hydrolase</Alias>
+      <Alias>Phosphotriesterase</Alias>
+      <Alias>OPH</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: aryl dialkyl phosphate + H2O = dialkyl phosphate + an aryl alcohol.</Detail>
+      <Keyword>Aryldialkylphosphatase activity</Keyword>
+      <Ontology_ID>GO:0004063</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with zinc (Zn) ions.</Detail>
+      <Keyword>Zinc ion binding</Keyword>
+      <Ontology_ID>GO:0008270</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of substances, including the breakdown of carbon compounds with the liberation of energy for use by the cell or organism.</Detail>
+      <Keyword>Catabolic process</Keyword>
+      <Ontology_ID>GO:0009056</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>169</Position>
+      <PTM_Type>N6-carboxylysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MQTRRVVLKSAAAAGTLLGGLAGCASVAGSIGTGDRINTVRGPITISEAGFTLTHEHICGSSAGFLRAWPEFFGSRKALAEKAVRGLRRARAAGVRTIVDVSTFDIGRDVSLLAEVSRAADVHIVAATGLWFDPPLSMRLRSVEELTQFFLREIQYGIEDTGIRAGIIKVATTGKATPFQELVLKAAARASLATGVPVTTHTAASQRDGEQQAAIFESEGLSPSRVCIGHSDDTDDLSYLTALAARGYLIGLDHIPHSAIGLEDNASASALLGIRSWQTRALLIKALIDQGYMKQILVSNDWLFGFSSYVTNIMDVMDRVNPDGMAFIPLRVIPFLREKGVPQETLAGITVTNPARFLSPTLRAS</Protein_Seq>
+    <DNA_Seq>CTGCAGCCTGACTCGGCACCAGTCGCTGCAAGCAGAGTCGTAAGCAATCGCAAGGGGGCAGCATGCAAACGAGAAGGGTTGTGCTCAAGTCTGCGGCCGCGAGAACTCTGCTCGGCGGCCTGGCTGGGTGCGCGACGTGGCTGGATCGATCGGCACAGGCGATGCGATCAATACGTGCGCGTCCTATCACAATCTCTGAAGCGGGTTTCACACTGACTCACGAGGACATCTCGGCAGCTCGGCAGGATTCTTGCGTGCTTGGCCAGAGTTCTTCGGTAGCGCAAAGCTCTAGCGGAAAAGGCTGTGAGAGGATTGCGCGCCAGAGCGGCTGGCGTGCGAACGATTGTCGATGTGTCGACTTTCGATATCGGTCGCGACGTCAGTTTATTGGCCGAGGTTTCGCGGGCTGCCGACGTTCATATCTGGCGGCGACCGGCTTGTGGTTCGACCCGCCACTTTCGATGCGATTGAGGTATGTAGAGGAACTCACACTAGTTCTTCCTGCGGTGAGATTCAATATGGCATCGAAGTACACCGGAATTAGGGCGGGCATTATCAAGGTCGCGACCACAGGCAAGGCGACCCCCTTTCAGGAGTTAGTGTTAAAGGCGGCCGCCCGGGCCAGCTTGGCCACCGGTGTTCCGGTAACCACTCACACGGCAGCAAGTCAGCGCGATGGTGAGCGAGGCAGGCCGCCATTTTTGAGTCCGAAGCTTGAGCCCTCACGGGTTTGTATTGGTCACAGCGATGATACTGACGATTTGAGCTATCTCACCGCCCTGCTGCGCGGATACCTCATCGGTCTAGACCACATCCCGCACAGTGCGATTGGTCTAGAAGATAATGCGAGTGCATCACCGCTCCTGGGCATCCGTTCGTGGCAAACACGGGCTCTCTTGATCAAGGCGCTCATCGACCAAGGCTACATGAAACAAATCCTCGTTTCGAATGACTGGCTGTTCGGGTTTTCGAGCTATGTCACCAACATCATGGACGTGATGGATCGCGTGAACCCCGACGGGATGGCCTTCATTCACTGAGAGTGATCCCATTCTACGAGAGAAGGGCGTCCCACAGGAAACGCTGGCAGGCATCACTGTGACTAACCCGGCGCGGTTCTGTGTCACCGACTTGCCGTGCATGACGCCATCTGGATCCTTCCACGCAGCGGCCACTATTCCCCGTCAAGATACCGAACGATGAAGTCGCGCATCGATAGGCATCTTCAATGTGATCAGGGCTGCCACCTCCAAAGCCGGTGGCCACCCCTGTCGATAGTCTTGAGGGACGGTAGCGACGACCGTGCTTTTCGTGAACTGCAG</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>opd</Gene_Name>
+    <Genbank_ACCN>M20392</Genbank_ACCN>
+    <Protein_ACCN>AAA98299</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/nuccore/151517?report=genbank</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Structure of Phosphotriesterase mutant G60A</PDB_Title>
+      <PDB_ID>2O4Q</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2O4Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>CACODYLATE ION $ZINC ION</Ligand_Name>
+      <PubMed_Title>Structure of diethyl phosphate bound to the binuclear metal center of phosphotriesterase.</PubMed_Title>
+      <Author>Kim J, et al.</Author>
+      <Journal>Biochemistry. 2008 Sep 9;47(36):9497-504.</Journal>
+      <PubMed_ID>18702530</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray structure of WT PTE with ethyl phosphate</PDB_Title>
+      <PDB_ID>3CAK</PDB_ID>
+      <Resolution>1.83</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3CAK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-[BIS-(2-HYDROXY-ETHYL)-AMINO]-2-HYDROXYMETHYL- PROPANE-1,3-DIOL $COBALT (II) ION $DIETHYL HYDROGEN PHOSPHATE $ETHYL DIHYDROGEN PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structure of diethyl phosphate bound to the binuclear metal center of phosphotriesterase.</PubMed_Title>
+      <Author>Kim J, et al.</Author>
+      <Journal>Biochemistry. 2008 Sep 9;47(36):9497-504.</Journal>
+      <PubMed_ID>18702530</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THREE-DIMENSIONAL STRUCTURE OF THE ZINC-CONTAINING PHOSPHOTRIESTERASE WITH BOUND SUBSTRATE ANALOG DIISOPROPYLMETHYL PHOSPHONATE.</PDB_Title>
+      <PDB_ID>1EZ2</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1EZ2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>METHYLPHOSPHONIC ACID DIISOPROPYL ESTER $ZINC ION</Ligand_Name>
+      <PubMed_Title>The binding of substrate analogs to phosphotriesterase.</PubMed_Title>
+      <Author>Benning MM, et al.</Author>
+      <Journal>J Biol Chem. 2000 Sep 29;275(39):30556-60.</Journal>
+      <PubMed_ID>10871616</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Three-dimensional structure of the zinc-containing phosphotriesterase with the bound substrate analog diethyl 4-methylbenzylphosphonate.</PDB_Title>
+      <PDB_ID>1DPM</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1DPM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>DIETHYL 4-METHYLBENZYLPHOSPHONATE$FORMIC ACID$ZINC ION</Ligand_Name>
+      <PubMed_Title>Three-dimensional structure of the zinc-containing phosphotriesterase with the bound substrate analog diethyl 4-methylbenzylphosphonate.</PubMed_Title>
+      <Author>Vanhooke JL, et al.</Author>
+      <Journal>Biochemistry. 1996 May 14;35(19):6020-5.</Journal>
+      <PubMed_ID>8634243</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THREE-DIMENSIONAL STRUCTURE OF PHOSPHOTRIESTERASE: AN ENZYME CAPABLE OF DETOXIFYING ORGANOPHOSPHATE NERVE AGENTS</PDB_Title>
+      <PDB_ID>1PTA</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1PTA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Three-dimensional structure of phosphotriesterase: an enzyme capable of detoxifying organophosphate nerve agents.</PubMed_Title>
+      <Author>Benning MM, et al.</Author>
+      <Journal>Biochemistry. 1994 Dec 20;33(50):15001-7.</Journal>
+      <PubMed_ID>7999757</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>High Resolution Structure of the Cadmium-containing Phosphotriesterase from Pseudomonas diminuta</PDB_Title>
+      <PDB_ID>1JGM</PDB_ID>
+      <Resolution>1.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1JGM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>CADMIUM ION $1,2-ETHANEDIOL $SODIUM ION $2-PHENYL-ETHANOL</Ligand_Name>
+      <PubMed_Title>High resolution X-ray structures of different metal-substituted forms of phosphotriesterase from Pseudomonas diminuta.</PubMed_Title>
+      <Author>Benning MM, et al.</Author>
+      <Journal>Biochemistry. 2001 Mar 6;40(9):2712-22.</Journal>
+      <PubMed_ID>11258882</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PHOSPHOTRIESTERASE FROM PSEUDOMONAS DIMINUTA</PDB_Title>
+      <PDB_ID>1PSC</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1PSC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>CADMIUM ION $DIETHYL 4-METHYLBENZYLPHOSPHONATE $FORMIC ACID</Ligand_Name>
+      <PubMed_Title>Three-dimensional structure of the binuclear metal center of phosphotriesterase.</PubMed_Title>
+      <Author>Benning MM, et al.</Author>
+      <Journal>Biochemistry. 1995 Jun 27;34(25):7973-8.</Journal>
+      <PubMed_ID>7794910</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of Phosphotriesterase mutant H257Y/L303T</PDB_Title>
+      <PDB_ID>2OB3</PDB_ID>
+      <Resolution>1.04</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2OB3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-[BIS-(2-HYDROXY-ETHYL)-AMINO]-2-HYDROXYMETHYL- PROPANE-1,3-DIOL $ZINC ION</Ligand_Name>
+      <PubMed_Title>Structure of Phosphotriesterase mutant H257Y/L303T</PubMed_Title>
+      <Author>Kim J, et al.</Author>
+      <Journal>To be Published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>THREE-DIMENSIONAL STRUCTURE OF THE ZINC-CONTAINING PHOSPHOTRIESTERASE WITH BOUND SUBSTRATE ANALOG TRIETHYLPHOSPHATE</PDB_Title>
+      <PDB_ID>1EYW</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1EYW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-PHENYL-ETHANOL$TRIETHYL PHOSPHATE $ZINC ION</Ligand_Name>
+      <PubMed_Title>The binding of substrate analogs to phosphotriesterase.</PubMed_Title>
+      <Author>Benning MM, et al.</Author>
+      <Journal>J Biol Chem. 2000 Sep 29;275(39):30556-60.</Journal>
+      <PubMed_ID>10871616</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIGH RESOLUTION STRUCTURE OF THE MANGANESE-CONTAINING PHOSPHOTRIESTERASE FROM PSEUDOMONAS DIMINUTA</PDB_Title>
+      <PDB_ID>1I0B</PDB_ID>
+      <Resolution>1.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1I0B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1,2-ETHANEDIOL $FORMIC ACID $SODIUM ION $2-PHENYL-ETHANOL $MANGANESE (II) ION</Ligand_Name>
+      <PubMed_Title>High resolution X-ray structures of different metal-substituted forms of phosphotriesterase from Pseudomonas diminuta.</PubMed_Title>
+      <Author>Benning MM, et al.</Author>
+      <Journal>Biochemistry. 2001 Mar 6;40(9):2712-22.</Journal>
+      <PubMed_ID>11258882</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIGH RESOLUTION STRUCTURE OF THE ZINC/CADMIUM-CONTAINING PHOSPHOTRIESTERASE FROM PSEUDOMONAS DIMINUTA</PDB_Title>
+      <PDB_ID>1I0D</PDB_ID>
+      <Resolution>1.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1I0D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>CADMIUM ION $1,2-ETHANEDIOL $FORMIC ACID $SODIUM ION $2-PHENYL-ETHANOL $ZINC ION</Ligand_Name>
+      <PubMed_Title>High resolution X-ray structures of different metal-substituted forms of phosphotriesterase from Pseudomonas diminuta.</PubMed_Title>
+      <Author>Benning MM, et al.</Author>
+      <Journal>Biochemistry. 2001 Mar 6;40(9):2712-22.</Journal>
+      <PubMed_ID>11258882</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIGH RESOLUTION STRUCTURE OF THE ZINC-CONTAINING PHOSPHOTRIESTERASE FROM PSEUDOMONAS DIMINUTA</PDB_Title>
+      <PDB_ID>1HZY</PDB_ID>
+      <Resolution>1.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1HZY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1,2-ETHANEDIOL $FORMIC ACID $SODIUM ION $2-PHENYL-ETHANOL $ZINC ION</Ligand_Name>
+      <PubMed_Title>High resolution X-ray structures of different metal-substituted forms of phosphotriesterase from Pseudomonas diminuta.</PubMed_Title>
+      <Author>Benning MM, et al.</Author>
+      <Journal>Biochemistry. 2001 Mar 6;40(9):2712-22.</Journal>
+      <PubMed_ID>11258882</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of Phosphotriesterase mutant H254Q/H257F</PDB_Title>
+      <PDB_ID>2OQL</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2OQL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-[BIS-(2-HYDROXY-ETHYL)-AMINO]-2-HYDROXYMETHYL- PROPANE-1,3-DIOL $GLYCEROL $ZINC ION</Ligand_Name>
+      <PubMed_Title>Crystal Structure of PTE mutant H254Q/H257F</PubMed_Title>
+      <Author>Kim J, et al.</Author>
+      <Journal>To be Published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of an Engineered Organophosphorous Hydrolase with Increased Activity Toward Hydrolysis of Phosphothiolate Bonds</PDB_Title>
+      <PDB_ID>1QW7</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1QW7</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01030021</ASD_Ligand>
+      <Ligand_Name>COBALT (II) ION $DIETHYL 4-METHYLBENZYLPHOSPHONATE $SODIUM ION</Ligand_Name>
+      <PubMed_Title>Structural and mutational studies of organophosphorus hydrolase reveal a cryptic and functional allosteric-binding site.</PubMed_Title>
+      <Author>Grimsley JK, et al.</Author>
+      <Journal>Arch Biochem Biophys. 2005 Oct 15;442(2):169-79.</Journal>
+      <PubMed_ID>16188223</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the OP hydrolase mutant from Brevundimonas diminuta</PDB_Title>
+      <PDB_ID>3E3H</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3E3H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>COBALT (II) ION $DIETHYL 4-METHYLBENZYLPHOSPHONATE</Ligand_Name>
+      <PubMed_Title>Balancing the stability and the catalytic specificities of OP hydrolases with enhanced V-agent activities.</PubMed_Title>
+      <Author>Reeves TE, et al.</Author>
+      <Journal>Protein Eng Des Sel. 2008 Jun;21(6):405-12.</Journal>
+      <PubMed_ID>18434422</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of PTE G60A mutant</PDB_Title>
+      <PDB_ID>3CS2</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3CS2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>CACODYLATE ION $COBALT (II) ION</Ligand_Name>
+      <PubMed_Title>Structure of diethyl phosphate bound to the binuclear metal center of phosphotriesterase.</PubMed_Title>
+      <Author>Kim J, et al.</Author>
+      <Journal>Biochemistry. 2008 Sep 9;47(36):9497-504.</Journal>
+      <PubMed_ID>18702530</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of Phosphotriesterase mutant I106G/F132G/H257Y</PDB_Title>
+      <PDB_ID>2O4M</PDB_ID>
+      <Resolution>1.64</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2O4M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ACETIC ACID $CACODYLATE ION $GLYCEROL $ZINC ION</Ligand_Name>
+      <PubMed_Title>Structure of Phosphotriesterase mutant I106G/F132G/H257Y</PubMed_Title>
+      <Author>Kim J, et al.</Author>
+      <Journal>To be Published</Journal>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.b.ba.bb.b.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1dpm</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,254,His</Site_Detail>
+      <Site_Reference>Grimsley JK, et al. Arch.Biochem.Biophys. 2005,442(2):169-179.</Site_Reference>
+      <Site_Type>Unknown</Site_Type>
+      <PDB_ID>1QW7</PDB_ID>
+      <PubMed_ID>16188223</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.8.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/8/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01030021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

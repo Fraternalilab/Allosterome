@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01220000_1</Organism_ID>
+  <Organism>Zymomonas mobilis</Organism>
+  <Organism_Latin>Zymomonas mobilis</Organism_Latin>
+  <UniProt_ID>P21907</UniProt_ID>
+  <Seq_Length>485</Seq_Length>
+  <Molecule_Weight>53859</Molecule_Weight>
+  <KEGG_ID>zmi:ZCP4_0905</KEGG_ID>
+  <Orthology_ID>K00036</Orthology_ID>
+  <Catalytic_Mechanism>D-glucose 6-phosphate + NADP(+) = 6-phospho-D-glucono-1,5-lactone + NADPH.</Catalytic_Mechanism>
+  <Pfam_ID>PF02781:G6PD_C@@PF00479:G6PD_N</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>G6PD</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with nicotinamide-adenine dinucleotide phosphate, a coenzyme involved in many redox and biosynthetic reactions; binding may be to either the oxidized form, NADP+, or the reduced form, NADPH.</Detail>
+      <Keyword>NADP binding</Keyword>
+      <Ontology_ID>GO:0050661</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: D-glucose 6-phosphate + NADP+ = D-glucono-1,5-lactone 6-phosphate + NADPH + H+.</Detail>
+      <Keyword>Glucose-6-phosphate dehydrogenase activity</Keyword>
+      <Ontology_ID>GO:0004345</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving carbohydrates, any of a group of organic compounds based of the general formula Cx(H2O)y. Includes the formation of carbohydrate derivatives by the addition of a carbohydrate residue to another molecule.</Detail>
+      <Keyword>Carbohydrate metabolic process</Keyword>
+      <Ontology_ID>GO:0005975</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving glucose, the aldohexose gluco-hexose. D-glucose is dextrorotatory and is sometimes known as dextrose; it is an important source of energy for living organisms and is found free as well as combined in homo- and hetero-oligosaccharides and polysaccharides.</Detail>
+      <Keyword>Glucose metabolic process</Keyword>
+      <Ontology_ID>GO:0006006</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTNTVSTMILFGSTGDLSQRMLLPSLYGLDADGLLADDLRIVCTSRSEYDTDGFRDFAEKALDRFVASDRLNDDAKAKFLNKLFYATVDITDPTQFGKLADLCGPVEKGIAIYLSTAPSLFEGAIAGLKQAGLAGPTSRLALEKPLGQDLASSDHINDAVLKVFSEKQVYRIDHYLGKETVQNLLTLRFGNALFEPLWNSKGIDHVQISVAETVGLEGRIGYFDGSGSLRDMVQSHILQLVALVAMEPPAHMEANAVRDEKVKVFRALRPINNDTVFTHTVTGQYGAGVSGGKEVAGYIDELGQPSDTETFVAIKAHVDNWRWQGVPFYIRTGKRLPARRSEIVVQFKPVPHSIFSSSGGILQPNKLRIVLQPDETIQISMMVKEPGLDRNGAHMREVWLDLSLTDVFKDRKRRIAYERLMLDLIEGDATLFVRRDEVEAQWVWIDGIREGWKANSMKPKTYVSGTWGPSTAIALAERDGVTWYD</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>zwf</Gene_Name>
+    <Gene_ID>17706879</Gene_ID>
+    <Genbank_ACCN>NC_006526</Genbank_ACCN>
+    <Protein_ACCN>YP_162102</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3188588</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of glucose-6-phosphate 1-dehydrogenase</PDB_Title>
+      <PDB_ID>ASD01220000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05230</Pathway_ID>
+      <Pathway_Title>Central carbon metabolism in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00030</Pathway_ID>
+      <Pathway_Title>Pentose phosphate pathway</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00480</Pathway_ID>
+      <Pathway_Title>Glutathione metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of other amino acids</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.1.1.49</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/49.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01220001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

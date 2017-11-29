@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00020000_2</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P00888</UniProt_ID>
+  <Seq_Length>356</Seq_Length>
+  <Molecule_Weight>38804</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p2549</KEGG_ID>
+  <Orthology_ID>K01626</Orthology_ID>
+  <Function_Summary>Stereospecific condensation of phosphoenolpyruvate (PEP) and D-erythrose-4-phosphate (E4P) giving rise to 3-deoxy-D-arabino-heptulosonate-7-phosphate (DAHP).</Function_Summary>
+  <Catalytic_Mechanism>Phosphoenolpyruvate + D-erythrose 4-phosphate + H(2)O = 3-deoxy-D-arabino-hept-2-ulosonate 7-phosphate + phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00793:DAHP_synth_1</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>4</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>DAHP synthase</Alias>
+      <Alias>Phospho-2-keto-3-deoxyheptonate aldolase</Alias>
+      <Alias>3-deoxy-D-arabino-heptulosonate 7-phosphate synthase</Alias>
+      <Alias>Phospho-2-dehydro-3-deoxyheptonate aldolase, Tyr-sensitive</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: D-erythrose 4-phosphate + H(2)O + phosphoenolpyruvate = 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonate + phosphate.</Detail>
+      <Keyword>3-deoxy-7-phosphoheptulonate synthase activity</Keyword>
+      <Ontology_ID>GO:0003849</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of aromatic amino acid family, amino acids with aromatic ring (phenylalanine, tyrosine, tryptophan).</Detail>
+      <Keyword>Aromatic amino acid family biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009073</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MQKDALNNVHITDEQVLMTPEQLKAAFPLSLQQEAQIADSRKSISDIIAGRDPRLLVVCGPCSIHDPETALEYARRFKALAAEVSDSLYLVMRVYFEKPRTTVGWKGLINDPHMDGSFDVEAGLQIARKLLLELVNMGLPLATEALDPNSPQYLGDLFSWSAIGARTTESQTHREMASGLSMPVGFKNGTDGSLATAINAMRAAAQPHRFVGINQAGQVALLQTQGNPDGHVILRGGKAPNYSPADVAQCEKEMEQAGLRPSLMVDCSHGNSNKDYRRQPAVAESVVAQIKDGNRSIIGLMIESNIHEGNQSSEQPRSEMKYGVSVTDACISWEMTDALLREIHQDLNGQLTARVA</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>aroF</Gene_Name>
+    <Gene_ID>12934476</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_417092</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947084</Gene_URL>
+    <EMBL_ID>EBESCG00000016411</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Phospho-2-dehydro-3-deoxyheptonate aldolase</PDB_Title>
+      <PDB_ID>ASD00020000_2</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00400</Pathway_ID>
+      <Pathway_Title>Phenylalanine, tyrosine and tryptophan biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.5.1.54</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/5/1/54.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00020003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00320001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00690002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02170001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

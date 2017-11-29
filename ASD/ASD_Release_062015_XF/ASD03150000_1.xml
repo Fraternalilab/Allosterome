@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03150000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A7B5</UniProt_ID>
+  <Seq_Length>367</Seq_Length>
+  <Molecule_Weight>39057</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0233</KEGG_ID>
+  <Orthology_ID>K00931</Orthology_ID>
+  <Function_Summary>Catalyzes the transfer of a phosphate group to glutamate to form glutamate 5-phosphate which rapidly cyclizes to 5-oxoproline.</Function_Summary>
+  <Catalytic_Mechanism>ATP + L-glutamate = ADP + L-glutamate 5-phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00696:AA_kinase@@PF01472:PUA</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>GK</Alias>
+      <Alias>Gamma-glutamate kinase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an RNA molecule or a portion thereof.</Detail>
+      <Keyword>RNA binding</Keyword>
+      <Ontology_ID>GO:0003723</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-glutamate + ATP = L-glutamyl 5-phosphate + ADP + H(+).</Detail>
+      <Keyword>Glutamate 5-kinase activity</Keyword>
+      <Ontology_ID>GO:0004349</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of proline (pyrrolidine-2-carboxylic acid), a chiral, cyclic, nonessential alpha-amino acid found in peptide linkage in proteins.</Detail>
+      <Keyword>Proline biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006561</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSDSQTLVVKLGTSVLTGGSRRLNRAHIVELVRQCAQLHAAGHRIVIVTSGAIAAGREHLGYPELPATIASKQLLAAVGQSRLIQLWEQLFSIYGIHVGQMLLTRADMEDRERFLNARDTLRALLDNNIVPVINENDAVATAEIKVGDNDNLSALAAILAGADKLLLLTDQKGLYTADPRSNPQAELIKDVYGIDDALRAIAGDSVSGLGTGGMSTKLQAADVACRAGIDTIIAAGSKPGVIGDVMEGISVGTLFHAQATPLENRKRWIFGAPPAGEITVDEGATAAILERGSSLLPKGIKSVTGNFSRGEVIRICNLEGRDIAHGVSRYNSDALRRIAGHHSQEIDAILGYEYGPVAVHRDDMITR</Protein_Seq>
+    <DNA_Seq>CTGCAGCCTGTACAGATGCAGATGCCACAATGCCCATCACCACTAATGCCAGAGTGCTCTTTTTCATTTTCATTCCTGATTTTAATTAACGCGCGAATATTCAGCGGGAGAGTCCCGTTGAAAACAGGAAAGTTTTTAACCTGAGATTGTTAAAGATATATTACAGATTAATAATATTCTTAAAATGTGGTAATTTATTAAATCTGTAATAAAAGCGTAAACAACTGCCGCTAGGCTGCTGATCCCGCGCAACAAAACGCCATGCTTTGCTCGCAGATGGTTGGCAACCGACGACAGTCCTGCTAAAACGTTCGTTTGATATCATTTTTCCTAAAATTGAATGGCAGAGAATCATGAGTGACAGCCAGACGCTGGTGGTAAAACTCGGCACCAGTGTGCTAACAGGCGGATCGCGCCGTCTGAACCGTGCCCATATCGTTGAACTTGTTCGCCAGTGCGCGCAGTTACATGCCGCCGGGCATCGGATTGTTATTGTGACGTCGGGCGCGATCGCCGCCGGACGTGAGCACCTGGGTTACCCGGAACTGCCAGCGACCATCGCCTCGAAACAACTGCTGGCGGCGGTAGGGCAGAGTCGACTGATTCAACTGTGGGAACAGCTGTTTTCGATTTATGGCATTCACGTCGGGCAAATGCTGCTGACCCGTGCTGATATGGAAGACCGTGAACGCTTCCTGAACGCCCGCGACACCCTGCGAGCGTTGCTCGATAACAATATCGTTCCGGTAATCAATGAGAACGATGCTGTCGCTACGGCAGCGATTAAGGTCGGCGATAACGATAACCTTTCTGCGCTGGCGGCGATTCTTGCGGGTGCCGATAAACTGTTGCTGCTGACCGATCAAAAAGGTTTGTATACCGCTGACCCGCGCAGCAATCCGCAGGCAGAACTGATTAAAGATGTTTACGGCATTGATGACGCACTGCGCGCGATTGCCGGTGACAGCGTTTCAGGCCTCGGAACTGGCGGCATGAGTACCAAATTGCAGGCCGCTGACGTGGCTTGCCGTGCGGGTATCGACACCATTATTGCCGCGGGCAGCAAGCCGGGCGTTATTGGTGATGTGATGGAAGGCATTTCCGTCGGTACGCTGTTCCATGCCCAGGCGACTCCGCTTGAAAACCGTAAACGCTGGATTTTCGGTGCGCCGCCGGCGGGTGAAATCACGGTAGATGAAGGGGCAACTGCCGCCATTCTGGAACGCGGCAGCTCCCTGTTGCCGAAAGGCATTAAAAGCGTGACTGGCAATTTCTCGCGTGGTGAAGTCATCCGCATTTGCAACCTCGAAGGCCGCGATATCGCCCACGGCGTCAGTCGTTACAACAGCGATGCATTACGCCGTATTGCCGGACACCACTCGCAAGAAATTGATGCAATACTGGGATATGAATACGGCCCGGTTGCCGTTCACCGTGATGACATGATTACCCGTTAAGGAGCAGGCTGATGCTGGAACAAATGGGCATTGCCGCGAAGCAAGCCTCGTATAAATTAGCGCAACTCTCCAGCCGCGAAAAAAATCGCGTGCTGGAAAAAATCGCCGATGAACTGGAAGCACAAAGCGAAATCATCCTCAACGCTAACGCCCAGGATGTTGCTGACGCGCGAGCCAATGGCCTTAGCGAAGCGATGCTTGACCGTCTGGCACTGACGCCCGCACGGCTGAAAGGCATTGCCGACGATGTACGTCAGGTGTGCAACCTCGCCGATCCGGTGGGGCAGGTAATCGATGGCGGCGTACTGGACAGCGGCCTGCGTCTTGAGCGTCGTCGCGTACCGCTGGGGGTTATTGGCGTGATTTATGAAGCGCGCCCGAACGTGACGGTTGATGTCGCTTCGCTGTGCCTGAAAACCGGTAATGCGGTGATCCTGCGCGGTGGCAAAGAAACGTGTCGCACTAACGCTGCAACGGTGGCGGTGATTCAGGACGCCCTGAAATCCTGCGGCTTACCGGCGGGTGCCGTGCAGGCGATTGATAATCCTGACCGTGCGCTGGTCAGTGAAATGCTGCGTATGGATAAATACATCGACATGCTGATCCCGCGTGGTGGCGCTGGTTTGCATAAACTGTGCCGTGAACAGTCGACAATCCCGGTGATCACAGGTGGTATAGGCGTATGCCATATTTACGTTGATGAAAGTGTAGAGATCGCTGAAGCATTAAAAGTGATCGTCAACGCGAAAACTCAGCGTCCGAGCACATGTAATACGGTTGAAACGTTGCTGGTGAATAAAAACATCGCCGATAGCTTCCTGCCCGCATTAAGCAAACAAATGGCGGAAAGCGGCGTGACATTACACGCAGATGCAGCTGCACTGGCGCAGTTGCAGGCAGGCCCTGCGAAGGTGGTTGCTGTTAAAGCCGAAGAGTATGACGATGAGTTTCTGTCATTAGATTTGAACGTCAAAATCGTCAGCGATCTTGACGATGCCATCGCCCATATTCGTGAACACGGCACACAACACTCCGATGCGATCCTGACCCGCGATATGCGCAACGCCCAGCGTTTTGTTAACGCCTCTACGCGTTTTACCGACGGCGGCCAGTTTGGTCTGGGTGCGGAAGTGGCGGTAAGCACACAAAAACTCCACGCGCGTGGCCCAATGGGGCTGGAAGCACTGACCACTTACAAGTGGATCGGCATTGGTGATTACACCATTCGTGCGTAAATAAAACCGGGTGATGCAAAAGTAGCCATTTGATTCACAAGGCCATTGACGCATCGCCCGGTTAGTTTTAACCTTGTCCACCGTGATTCACGTTCGTGAACATGTCCTTTCAGGGCCGATATAGCTCAGTTGGTAGAGCAGCGCATTCGTAATGCGAAGGTCGTAGGTTCGACTCCTATTATCGGCACCATTAAAATCAAATTGTTACGTAAGATCTTATCATTCTCCCACCAAAAAATTATCTTAATGTAACAGCTGGTGTAAGTAAATTCTATCAACGAAGATCAATCTTATCTACTGACCAAAAAGGCCTGATAGGGCTTCGCTCACTATACATCCTTGGCTGCAG</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>proB</Gene_Name>
+    <Gene_ID>12930773</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_414777</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/946425</Gene_URL>
+    <EMBL_ID>EBESCG00000015592</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>GLUTAMATE 5-KINASE FROM ESCHERICHIA COLI COMPLEXED WITH GLUTAMYL-5-PHOSPHATE AND PYROGLUTAMIC ACID</PDB_Title>
+      <PDB_ID>2J5V</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2J5V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYROGLUTAMIC ACID $GAMMA-GLUTAMYL PHOSPHATE</Ligand_Name>
+      <PubMed_Title>novel two-domain architecture within the amino acid kinase enzyme family revealed by the crystal structure of Escherichia coli glutamate 5-kinase.</PubMed_Title>
+      <Author>Marco-Marin C, et al.</Author>
+      <Journal>(2007) J.Mol.Biol. 367: 1431</Journal>
+      <PubMed_ID>17321544</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE AMINOACID KINASE DOMAIN OF THE GLUTAMATE 5 KINASE OF ESCHERICHIA COLI.</PDB_Title>
+      <PDB_ID>2W21</PDB_ID>
+      <Resolution>2.95</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2W21</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Structure of Glutamate 5 Kinase of Escherichia Coli without Substrates</PubMed_Title>
+      <Author>Perez-Arellano I, et al.</Author>
+      <Journal>To be Published</Journal>
+      <PubMed_ID>Not in PubMed</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>GLUTAMATE 5-KINASE FROM ESCHERICHIA COLI COMPLEXED WITH GLUTAMATE</PDB_Title>
+      <PDB_ID>2J5T</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2J5T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>GLUTAMIC ACID</Ligand_Name>
+      <PubMed_Title>novel two-domain architecture within the amino acid kinase enzyme family revealed by the crystal structure of Escherichia coli glutamate 5-kinase.</PubMed_Title>
+      <Author>Marco-Marin C, et al.</Author>
+      <Journal>(2007) J.Mol.Biol. 367: 1431</Journal>
+      <PubMed_ID>17321544</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00332</Pathway_ID>
+      <Pathway_Title>Carbapenem biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Biosynthesis of other secondary metabolites</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Rushlow KE, et al. Gene. 1985,39(1):109-112.</Site_Reference>
+      <Site_Type>Feedback inhibition allostery</Site_Type>
+      <PubMed_ID>3000890</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.2.11</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/2/11.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD03150001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

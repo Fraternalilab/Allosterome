@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11550000_1</Organism_ID>
+  <Organism>Chinese liver fluke</Organism>
+  <Organism_Latin>Clonorchis sinensis</Organism_Latin>
+  <UniProt_ID>G7YJ23</UniProt_ID>
+  <Seq_Length>449</Seq_Length>
+  <Molecule_Weight>49964</Molecule_Weight>
+  <Catalytic_Mechanism>ATP + D-hexose = ADP + D-hexose 6-phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00349:Hexokinase_1@@PF03727:Hexokinase_2</Pfam_ID>
+  <Allosteric_Activator_Count>4</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>2</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + D-hexose = ADP + D-hexose 6-phosphate.</Detail>
+      <Keyword>Hexokinase activity</Keyword>
+      <Ontology_ID>GO:0004396</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a monosaccharide (generally glucose) into pyruvate, with the concomitant production of a small amount of ATP. Pyruvate may be converted to ethanol, lactate, or other small molecules, or fed into the TCA cycle.</Detail>
+      <Keyword>Glycolysis</Keyword>
+      <Ontology_ID>GO:0006096</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MGSVEENIFAQVLEIMKPFDLSVEAYEKFCHTMYETMSRGLQRSTHAESSIKMYPTYVSKIPNGSESGCYLALDLGGTNYRVLLVHLPGKKAPPKIEERTYAIPHSKMTGSGEQLFDYIANTLADFVRGHDMGEAPCNLGFTFSFPCIQKGLTNATLVRWTKGFKAVDVEGANVALMLQNAIDKTGIKIKCVAVVNDTVGTLASCALEDPKCAVGLIVGTGTNAAYIEKRERVELMEEEGAPYVVINTEWGAFGENGEFDDIRTQFDKSVDAESLYPGKQVFEKMVSGMYLGEIVRHVLVHLVREGLLFRGEMPEKLQIKDAVHTKYLTEAERDPPHLFYSTHYMLTEDLAVPIVEPLDDRIVRYVCEMVSKRAAYLAGSGIASLLRRMKRSEVTIGIDGSLYKFHPKFRERMTDIIDKLKPKNTYFRLRLSEDGSGKGAAAIAAASCR</Protein_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Clonorchis sinensis</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <Gene>
+    <Genbank_ACCN>DF143387</Genbank_ACCN>
+    <Protein_ACCN>GAA52956</Protein_ACCN>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Hexokinase</PDB_Title>
+      <PDB_ID>ASD11550000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+    </PDB>
+  </PDB_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.1.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/1/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD04870004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11550001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11550002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11550003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11550005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11550006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-04-08</Create_Date>
+</Organism_Record>

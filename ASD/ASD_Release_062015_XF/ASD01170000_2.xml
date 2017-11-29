@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01170000_2</Organism_ID>
+  <Organism>Trypanosoma brucei brucei</Organism>
+  <Organism_Latin>Trypanosoma brucei brucei</Organism_Latin>
+  <UniProt_ID>Q386Q8</UniProt_ID>
+  <Seq_Length>545</Seq_Length>
+  <Molecule_Weight>60161</Molecule_Weight>
+  <KEGG_ID>tbr:Tb11.02.0120</KEGG_ID>
+  <Orthology_ID>K00972</Orthology_ID>
+  <Pfam_ID>PF01704:UDPGP</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>10</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>UDP-N-acetylglucosamine pyrophosphorylase, putative</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a nucleotidyl group to a reactant.</Detail>
+      <Keyword>Nucleotidyltransferase activity</Keyword>
+      <Ontology_ID>GO:0016779</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: N-acetyl-alpha-D-glucosamine 1-phosphate + UTP = diphosphate + UDP-N-acetyl-alpha-D-glucosamine.</Detail>
+      <Keyword>UDP-N-acetylglucosamine diphosphorylase activity</Keyword>
+      <Ontology_ID>GO:0003977</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSDRDVCIQRLTGANQDHILTALEHGSEAERASLTAQITNELAGVDFRHFNDVLRESLEISKNCSTASLAEPPAKDSFFDISSVDRRRGQAKRIKNLEAVGYKAIQKGQIAFLILAGGSGTRLGFDKPKGFFTCDGLQQRKSLFMMHCEKIRRRQEIAESISGSGRKARVQLLVMTSGQNDAETQRFFEENSYFGLEREQVHFFAQSSVPCYDENTGRIIMENRGRICAAPGGNGAVFAALAAPRATKDKDGTLQVKESLLQHLRKLGIAYVQIGNIDNLLANVADPVFIGYAIEEEAHVVVKTCPKRGPDERVGVFVRASGKWGVVEYTEIGDRAKEIDDATGELKFNCANISSNLCSLHFMSLAAERMKSFTQYHAARKKIPTIKGPVMGIKLEAFLFDLFRFVDECDHPPKDSGAFRIMQVDRDDEFGPVKNADGAASDTPADAVRLLLSQHTRWLITALETAAMSDEQESIRGGVDVTEAKEAVAVMRSCSIKAEISPLVSVGGEGLRQHLPRVIHQLLRNPPPVIFIRRDDEVVSESSNM</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_ID>3664265</Gene_ID>
+    <Genbank_ACCN>XM_823242</Genbank_ACCN>
+    <Protein_ACCN>XP_828335</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3664265</Gene_URL>
+    <EMBL_ID>Tb11.02.0120</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of the uridine diphosphate N-acetylglucosamine pyrophosphorylase from Trypanosoma brucei in complex with inhibitor</PDB_Title>
+      <PDB_ID>4BQH</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4BQH</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01170009</ASD_Ligand>
+      <PubMed_Title>A Novel Allosteric Inhibitor of the Uridine Diphosphate N-Acetylglucosamine Pyrophosphorylase from Trypanosoma Brucei.</PubMed_Title>
+      <Author>Urbaniak, M.D., et al.</Author>
+      <Journal>Acs Chem.Biol.(2013)8:1981</Journal>
+      <PubMed_ID>23834437</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00520</Pathway_ID>
+      <Pathway_Title>Amino sugar and nucleotide sugar metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00520</Pathway_ID>
+      <Pathway_Title>Amino sugar and nucleotide sugar metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01170001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01170002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01170003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01170004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01170005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01170006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01170007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01170008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01170009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01170010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2014-06-12</Create_Date>
+</Organism_Record>

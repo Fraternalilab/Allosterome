@@ -1,0 +1,601 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00480000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0ACJ8</UniProt_ID>
+  <Seq_Length>210</Seq_Length>
+  <Molecule_Weight>23640</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3818</KEGG_ID>
+  <Orthology_ID>K10914</Orthology_ID>
+  <EBI_ID>EBI-547513</EBI_ID>
+  <Function_Summary>This protein complexes with cyclic AMP and binds to specific DNA sites near the promoter to regulate the transcription of several catabolite-sensitive operons. The protein induces a severe bend in the DNA. Acts as a negative regulator of its own synthesis.</Function_Summary>
+  <Pfam_ID>PF00027:cNMP_binding@@PF00325:Crp</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>CRP</Alias>
+      <Alias>Catabolite activator protein</Alias>
+      <Alias>CAMP receptor protein</Alias>
+      <Alias>CAMP regulatory protein</Alias>
+      <Alias>CAP</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with cAMP, the nucleotide cyclic AMP (adenosine 3',5'-cyclophosphate).</Detail>
+      <Keyword>CAMP binding</Keyword>
+      <Ontology_ID>GO:0030552</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein that positively regulates either the transcription of one or more genes, or the translation of mRNA.</Detail>
+      <Keyword>Activator</Keyword>
+      <Ontology_ID>KW-0010</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a specific DNA sequence in order to modulate transcription. The transcription factor may or may not also interact selectively with a protein or macromolecular complex.</Detail>
+      <Keyword>Sequence-specific DNA binding transcription factor activity</Keyword>
+      <Ontology_ID>GO:0003700</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>101</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVKGSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFRQLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVTGRIAQTLLNLAKQPDAMTHPDGMQIKITRQEIGQIVGCSRETVGRILKMLEDQNLISAHGKTIVVYGTR</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>crp</Gene_Name>
+    <Gene_Alias>cap; csm</Gene_Alias>
+    <Gene_ID>12933934</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_417816</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947867</Gene_URL>
+    <EMBL_ID>EBESCG00000016478</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P0A7K2</Uniprot_ID>
+      <Gene_Name>rplL</Gene_Name>
+      <EBI_ID>EBI-543702</EBI_ID>
+      <PPI_EBI_URL>EBI-547513,EBI-543702</PPI_EBI_URL>
+      <Experiment_Number>1</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Domain-domain flexibility leads to allostery within the camp receptor protein (CRP)</PDB_Title>
+      <PDB_ID>3RYP</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RYP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Domain-Domain Flexibility Leads to Allostery within the Cam Receptor Protein (Crp)</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>4 crystal structures of CAP-DNA with all base-pair substitutions at position 6, CAP-[6A;17T]ICAP38 DNA</PDB_Title>
+      <PDB_ID>1ZRD</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZRD</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Indirect readout of DNA sequence at the primary-kink site in the CAP-DNA complex: recognition of pyrimidine-purine and purine-purine steps.</PubMed_Title>
+      <Author>Napoli AA, et al.</Author>
+      <Journal>J Mol Biol. 2006 Mar 17;357(1):173-83.</Journal>
+      <PubMed_ID>16427082</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>4 Crystal structures of CAP-DNA with all base-pair substitutions at position 6, CAP-ICAP38 DNA</PDB_Title>
+      <PDB_ID>1ZRC</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZRC</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Indirect readout of DNA sequence at the primary-kink site in the CAP-DNA complex: recognition of pyrimidine-purine and purine-purine steps.</PubMed_Title>
+      <Author>Napoli AA, et al.</Author>
+      <Journal>J Mol Biol. 2006 Mar 17;357(1):173-83.</Journal>
+      <PubMed_ID>16427082</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of D138L mutant of Catabolite Gene Activator Protein</PDB_Title>
+      <PDB_ID>3KCC</PDB_ID>
+      <Resolution>1.66</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KCC</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>The Structure of a D138L Mutant of Catabolite Gene Activator Protein Reveals two cAMP Binding Sites in each monomer</PubMed_Title>
+      <Author>Tao WB, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>4 crystal structures of CAP-DNA with all base-pair substitutions at position 6, CAP-[6C;17G]ICAP38 DNA</PDB_Title>
+      <PDB_ID>1ZRF</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZRF</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Indirect readout of DNA sequence at the primary-kink site in the CAP-DNA complex: recognition of pyrimidine-purine and purine-purine steps.</PubMed_Title>
+      <Author>Napoli AA, et al.</Author>
+      <Journal>J Mol Biol. 2006 Mar 17;357(1):173-83.</Journal>
+      <PubMed_ID>16427082</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PROTEIN-DNA RECOGNITION AND DNA DEFORMATION REVEALED IN CRYSTAL STRUCTURES OF CAP-DNA COMPLEXES</PDB_Title>
+      <PDB_ID>1O3R</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1O3R</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Indirect readout of DNA sequence at the primary-kink site in the CAP-DNA complex: DNA binding specificity based on energetics of DNA kinking.</PubMed_Title>
+      <Author>Chen S, et al.</Author>
+      <Journal>J Mol Biol. 2001 Nov 16;314(1):63-74.</Journal>
+      <PubMed_ID>11724532</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Apo D138L CAP mutant</PDB_Title>
+      <PDB_ID>3FWE</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FWE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of apo-CAP reveals that large conformational changes are necessary for DNA binding.</PubMed_Title>
+      <Author>Sharma H, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2009 Sep 29;106(39):16604-9</Journal>
+      <PubMed_ID>19805344</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CATABOLITE GENE ACTIVATOR PROTEIN (CAP)/DNA COMPLEX + ADENOSINE-3',5'-CYCLIC-MONOPHOSPHATE</PDB_Title>
+      <PDB_ID>1CGP</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CGP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of a CAP-DNA complex: the DNA is bent by 90 degrees.</PubMed_Title>
+      <Author>Schultz SC, et al.</Author>
+      <Journal>Science. 1991 Aug 30;253(5023):1001-7.</Journal>
+      <PubMed_ID>1653449</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E.coli CRP-cAMP complex</PDB_Title>
+      <PDB_ID>2GZW</PDB_ID>
+      <Resolution>2.21</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GZW</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of activated CRP protein from E coli</PubMed_Title>
+      <Author>Kumarevel TS, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>cAMP receptor protein from m.tuberculosis, cAMP-free form</PDB_Title>
+      <PDB_ID>3D0S</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3D0S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of cAMP receptor protein from M. tuberculosis in the unliganded form</PubMed_Title>
+      <Author>Gallagher DT, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the E. coli alpha C-terminal domain of RNA polymerase in complex with CAP and DNA</PDB_Title>
+      <PDB_ID>1LB2</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LB2</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Structural basis of transcription activation: the CAP-alpha CTD-DNA complex.</PubMed_Title>
+      <Author>Benoff B, et al.</Author>
+      <Journal>Science. 2002 Aug 30;297(5586):1562-6.</Journal>
+      <PubMed_ID>12202833</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>structure of the mutant Catabolite gene activator protein H160L</PDB_Title>
+      <PDB_ID>4I0B</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4I0B</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Modulation of global low-frequency motions underlies allosteric regulation: demonstration in CRP/FNR family transcription factors.</PubMed_Title>
+      <Author>Rodgers, T.L., et al.</Author>
+      <Journal>Plos Biol.(2013)11:e1001651-e1001651</Journal>
+      <PubMed_ID>24058293</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>structure of the wild type Catabolite gene Activator Protein</PDB_Title>
+      <PDB_ID>4HZF</PDB_ID>
+      <Resolution>1.48</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4HZF</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Modulation of global low-frequency motions underlies allosteric regulation: demonstration in CRP/FNR family transcription factors.</PubMed_Title>
+      <Author>Rodgers, T.L., et al.</Author>
+      <Journal>Plos Biol.(2013)11:e1001651-e1001651</Journal>
+      <PubMed_ID>24058293</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>structure of the mutant Catabolite gene activator protein V132A</PDB_Title>
+      <PDB_ID>4I0A</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4I0A</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Modulation of global low-frequency motions underlies allosteric regulation: demonstration in CRP/FNR family transcription factors.</PubMed_Title>
+      <Author>Rodgers, T.L., et al.</Author>
+      <Journal>Plos Biol.(2013)11:e1001651-e1001651</Journal>
+      <PubMed_ID>24058293</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CATABOLITE GENE ACTIVATOR PROTEIN (CAP)/DNA COMPLEX + ADENOSINE-3',5'-CYCLIC-MONOPHOSPHATE</PDB_Title>
+      <PDB_ID>1RUN</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RUN</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Aromatic hydrogen bond in sequence-specific protein DNA recognition.</PubMed_Title>
+      <Author>Parkinson G, et al.</Author>
+      <Journal>Nat Struct Biol. 1996 Oct;3(10):837-41.</Journal>
+      <PubMed_ID>8836098</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CAP/CRP VARIANT T127L/S128A</PDB_Title>
+      <PDB_ID>1HW5</PDB_ID>
+      <Resolution>1.82</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HW5</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>The structure of the T127L/S128A mutant of cAMP receptor protein facilitates promoter site binding.</PubMed_Title>
+      <Author>Chu SY, et al.</Author>
+      <Journal>J Biol Chem. 2001 Apr 6;276(14):11230-6.</Journal>
+      <PubMed_ID>11124966</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Three-dimensional EM structure of an intact activator-dependent transcription initiation complex</PDB_Title>
+      <PDB_ID>3IYD</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3IYD</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Three-dimensional EM structure of an intact activator-dependent transcription initiation complex.</PubMed_Title>
+      <Author>Hudson BP, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2009 Nov 24;106(47):19830-5.</Journal>
+      <PubMed_ID>19903881</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Domain-domain flexibility leads to allostery within the camp receptor protein (CRP)</PDB_Title>
+      <PDB_ID>3QOP</PDB_ID>
+      <Resolution>1.96</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QOP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Domain-Domain Flexibility Leads to Allostery within the Camp Receptor Protein (Crp)</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>2.1 ANGSTROM STRUCTURE OF CAP-CAMP</PDB_Title>
+      <PDB_ID>1G6N</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G6N</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Modeling the cAMP-induced allosteric transition using the crystal structure of CAP-cAMP at 2.1 A resolution.</PubMed_Title>
+      <Author>Passner JM, et al.</Author>
+      <Journal>J Mol Biol. 2000 Dec 15;304(5):847-59.</Journal>
+      <PubMed_ID>11124031</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NMR STRUCTURE OF CATABOLITE ACTIVATOR PROTEIN IN THE UNLIGANDED STATE</PDB_Title>
+      <PDB_ID>2WC2</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WC2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for cAMP-mediated allosteric control of the catabolite activator protein.</PubMed_Title>
+      <Author>Popovych N, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2009 Apr 28;106(17):6927-32.</Journal>
+      <PubMed_ID>19359484</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The crystal structure of apo wild type CAP at 3.6 A resolution.</PDB_Title>
+      <PDB_ID>3HIF</PDB_ID>
+      <Resolution>3.59</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HIF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of apo-CAP reveals that large conformational changes are necessary for DNA binding.</PubMed_Title>
+      <Author>Sharma H, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2009 Sep 29;106(39):16604-9</Journal>
+      <PubMed_ID>19805344</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF CRP-CAMP AT 1.9 A</PDB_Title>
+      <PDB_ID>1I5Z</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I5Z</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>The effect of the D53H point mutation on the macroscopic motions of E. coli Cyclic AMP Receptor Protein</PubMed_Title>
+      <Author>White MA, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>CATABOLITE GENE ACTIVATOR PROTEIN (CAP)/DNA COMPLEX + ADENOSINE-3',5'-CYCLIC-MONOPHOSPHATE</PDB_Title>
+      <PDB_ID>1J59</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1J59</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Structure of the CAP-DNA complex at 2.5 angstroms resolution: a complete picture of the protein-DNA interface.</PubMed_Title>
+      <Author>Parkinson G, et al.</Author>
+      <Journal>J Mol Biol. 1996 Jul 19;260(3):395-408.</Journal>
+      <PubMed_ID>8757802</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>structure of the mutant Catabolite gene activator protein V132L</PDB_Title>
+      <PDB_ID>4I09</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4I09</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Modulation of global low-frequency motions underlies allosteric regulation: demonstration in CRP/FNR family transcription factors.</PubMed_Title>
+      <Author>Rodgers, T.L., et al.</Author>
+      <Journal>Plos Biol.(2013)11:e1001651-e1001651</Journal>
+      <PubMed_ID>24058293</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PROTEIN-DNA RECOGNITION AND DNA DEFORMATION REVEALED IN CRYSTAL STRUCTURES OF CAP-DNA COMPLEXES</PDB_Title>
+      <PDB_ID>1O3S</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1O3S</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Indirect readout of DNA sequence at the primary-kink site in the CAP-DNA complex: alteration of DNA binding specificity through alteration of DNA kinking.</PubMed_Title>
+      <Author>Chen S, et al.</Author>
+      <Journal>J Mol Biol. 2001 Nov 16;314(1):63-74.</Journal>
+      <PubMed_ID>11724532</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CATABOLITE GENE ACTIVATOR PROTEIN (CAP) MUTANT/DNA COMPLEX + ADENOSINE-3',5'-CYCLIC-MONOPHOSPHATE</PDB_Title>
+      <PDB_ID>1RUO</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RUO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Aromatic hydrogen bond in sequence-specific protein DNA recognition.</PubMed_Title>
+      <Author>Parkinson G, et al.</Author>
+      <Journal>Nat Struct Biol. 1996 Oct;3(10):837-41.</Journal>
+      <PubMed_ID>8836098</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>structure of the mutant Catabolite gene activator protein V140A</PDB_Title>
+      <PDB_ID>4I02</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4I02</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Modulation of global low-frequency motions underlies allosteric regulation: demonstration in CRP/FNR family transcription factors.</PubMed_Title>
+      <Author>Rodgers, T.L., et al.</Author>
+      <Journal>Plos Biol.(2013)11:e1001651-e1001651</Journal>
+      <PubMed_ID>24058293</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>4 crystal structures of CAP-DNA with all base-pair substitutions at position 6, CAP-[6G;17C]ICAP38 DNA</PDB_Title>
+      <PDB_ID>1ZRE</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZRE</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Indirect readout of DNA sequence at the primary-kink site in the CAP-DNA complex: recognition of pyrimidine-purine and purine-purine steps.</PubMed_Title>
+      <Author>Napoli AA, et al.</Author>
+      <Journal>J Mol Biol. 2006 Mar 17;357(1):173-83.</Journal>
+      <PubMed_ID>16427082</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PROTEIN-DNA RECOGNITION AND DNA DEFORMATION REVEALED IN CRYSTAL STRUCTURES OF CAP-DNA COMPLEXES</PDB_Title>
+      <PDB_ID>1O3Q</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1O3Q</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Indirect readout of DNA sequence at the primary-kink site in the CAP-DNA complex: DNA binding specificity based on energetics of DNA kinking.</PubMed_Title>
+      <Author>Chen S, et al.</Author>
+      <Journal>J Mol Biol. 2001 Nov 16;314(1):63-74.</Journal>
+      <PubMed_ID>11724532</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CATABOLITE GENE ACTIVATOR PROTEIN/DNA COMPLEX, ADENOSINE-3',5'-CYCLIC-MONOPHOSPHATE</PDB_Title>
+      <PDB_ID>2CGP</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CGP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>The structure of a CAP-DNA complex having two cAMP molecules bound to each monomer.</PubMed_Title>
+      <Author>Passner JM, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 1997 Apr 1;94(7):2843-7.</Journal>
+      <PubMed_ID>9096308</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Domain-domain flexibility leads to allostery within the camp receptor protein (CRP)</PDB_Title>
+      <PDB_ID>3RPQ</PDB_ID>
+      <Resolution>2.61</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RPQ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Domain-Domain Flexibility Leads to Allostery within the Cam Receptor Protein (Crp)</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>E. coli Catabolite Activator Protein with Cobalt and Sulfate Ligands</PDB_Title>
+      <PDB_ID>4FT8</PDB_ID>
+      <Resolution>1.97</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4FT8</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Structure of catabolite activator protein with cobalt(II) and sulfate.</PubMed_Title>
+      <Author>Rao, R.R., et al.</Author>
+      <Journal>Acta Crystallogr F Struct Biol Commun(2014)70:560-563</Journal>
+      <PubMed_ID>24817710</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Domain-domain flexibility leads to allostery within the camp receptor protein (CRP)</PDB_Title>
+      <PDB_ID>3ROU</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ROU</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Domain-Domain Flexibility Leads to Allostery within the Cam Receptor Protein (Crp)</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>E. coli RNA polymerase alpha subunit C-terminal domain in complex with CAP and DNA</PDB_Title>
+      <PDB_ID>3N4M</PDB_ID>
+      <Resolution>2.99</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3N4M</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Combined structural model for a transcription activation assembly</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the mutant Catabolite gen activator protein V140L</PDB_Title>
+      <PDB_ID>4I01</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4I01</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Modulation of global low-frequency motions underlies allosteric regulation: demonstration in CRP/FNR family transcription factors.</PubMed_Title>
+      <Author>Rodgers, T.L., et al.</Author>
+      <Journal>Plos Biol.(2013)11:e1001651-e1001651</Journal>
+      <PubMed_ID>24058293</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PROTEIN-DNA RECOGNITION AND DNA DEFORMATION REVEALED IN CRYSTAL STRUCTURES OF CAP-DNA COMPLEXES</PDB_Title>
+      <PDB_ID>1O3T</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1O3T</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Indirect readout of DNA sequence at the primary-kink site in the CAP-DNA complex: alteration of DNA binding specificity through alteration of DNA kinking.</PubMed_Title>
+      <Author>Chen S, et al.</Author>
+      <Journal>J Mol Biol. 2001 Nov 16;314(1):63-74.</Journal>
+      <PubMed_ID>11724532</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF A STAR MUTANT CRP-CAMP AT 2.2 A</PDB_Title>
+      <PDB_ID>1I6X</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I6X</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>The effect of the D53H point mutation on the macroscopic motions of E. coli Cyclic AMP Receptor Protein</PubMed_Title>
+      <Author>White MA, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>Domain-domain flexibility leads to allostery within the camp receptor protein (CRP)</PDB_Title>
+      <PDB_ID>3RDI</PDB_ID>
+      <Resolution>2.95</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RDI</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Domain-Domain Flexibility Leads to Allostery within the Cam Receptor Protein (Crp)</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Domain-domain flexibility leads to allostery within the camp receptor protein (CRP)</PDB_Title>
+      <PDB_ID>3RYR</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RYR</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00480003</ASD_Ligand>
+      <PubMed_Title>Domain-Domain Flexibility Leads to Allostery within the Cam Receptor Protein (Crp)</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05111</Pathway_ID>
+      <Pathway_Title>Vibrio cholerae pathogenic cycle</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>All alpha proteins@@All beta proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.b.j.e.f.b.html@@http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.b.j.e.f.b.html</SCOP_URL>
+    <CATH_Class>Mainly alpha@@Mainly beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1zrc@@http://www.cathdb.info/pdb/1zrc</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,31,Ile;site,50,Val;site,62,Leu;site,65,Leu;site,71,Ile;site,72,Gly;site,74,Leu;site,85,Ala;site,87,Val;site,63,Ser;site,73,Glu;site,83,Arg;site,124,Arg;site,128,Thr;site,125,Leu;site,129,Ser</Site_Detail>
+      <Site_Reference>Popovych N, et al. Proc Natl Acad Sci USA. 2009,106(17):6927-6932.;Harman J G, et al. Biochim Biophys Acta. 2001,1547(1):1-17.</Site_Reference>
+      <Site_Type>Coil-to-helix transition</Site_Type>
+      <PDB_ID>3KCC;3IYD;2GZW;1ZRC;1ZRD;1ZRE;1ZRF;1I5Z;1I6X;1O3Q;1O3R;1O3S;1O3T;1LB2;1J59;1HW5;1G6N;2CGP;1RUN;1RUO;1CGP</PDB_ID>
+      <PubMed_ID>19359484;11343786</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00480001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00480002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00480003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00480042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00860002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

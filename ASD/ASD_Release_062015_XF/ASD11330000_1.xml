@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11330000_1</Organism_ID>
+  <Organism>Bacillus subtilis</Organism>
+  <Organism_Latin>Bacillus subtilis</Organism_Latin>
+  <UniProt_ID>O34779</UniProt_ID>
+  <Seq_Length>254</Seq_Length>
+  <Molecule_Weight>27674</Molecule_Weight>
+  <KEGG_ID>bsu:BSU15760</KEGG_ID>
+  <Orthology_ID>K01090</Orthology_ID>
+  <Function_Summary>Protein phosphatase that dephosphorylates PrkC and FusA (elongation factor G). PrpC and prkC are cotranscribed, which suggests that they form a functional couple in vivo, PrpC's primary role being possibly to counter the action of PrkC. May be involved in sporulation and biofilm formation. Does not seem to be involved in stress response.</Function_Summary>
+  <Catalytic_Mechanism>[a protein]-serine/threonine phosphate + H(2)O = [a protein]-serine/threonine + phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00481:PP2C</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: a phosphoprotein + H2O = a protein + phosphate. Together with protein kinases, these enzymes control the state of phosphorylation of cell proteins and thereby provide an important mechanism for regulating cellular activity.</Detail>
+      <Keyword>Phosphoprotein phosphatase activity</Keyword>
+      <Ontology_ID>GO:0004721</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized cell acquires the specialized features of a cellular spore, a cell form that can be used for dissemination, for survival of adverse conditions because of its heat and dessication resistance, and/or for reproduction.</Detail>
+      <Keyword>Sporulation resulting in formation of a cellular spore</Keyword>
+      <Ontology_ID>GO:0030435</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MLTALKTDTGKIRQHNEDDAGIFKGKDEFILAVVADGMGGHLAGDVASKMAVKAMGEKWNEAETIPTAPSECEKWLIEQILSVNSKIYDHAQAHEECQGMGTTIVCALFTGKTVSVAHIGDSRCYLLQDDDFVQVTEDHSLVNELVRTGEISREDAEHHPRKNVLTKALGTDQLVSIDTRSFDIEPGDKLLLCSDGLTNKVEGTELKDILQSDSAPQEKVNLLVDKANQNGGEDNITAVLLELALQVEEGEDQC</Protein_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Others</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <Gene>
+    <Gene_Name>prpC</Gene_Name>
+    <Gene_Alias>yloO</Gene_Alias>
+    <Gene_ID>935931</Gene_ID>
+    <Genbank_ACCN>NC_000964</Genbank_ACCN>
+    <Protein_ACCN>NP_389458</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/935931</Gene_URL>
+    <EMBL_ID>BSU15760</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Protein phosphatase PrpC</PDB_Title>
+      <PDB_ID>ASD11330000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+    </PDB>
+  </PDB_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.3.16</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/3/16.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD11330001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2014-04-17</Create_Date>
+</Organism_Record>

@@ -1,0 +1,906 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08710000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q02156</UniProt_ID>
+  <Seq_Length>737</Seq_Length>
+  <Molecule_Weight>83674</Molecule_Weight>
+  <KEGG_ID>hsa:5581</KEGG_ID>
+  <Orthology_ID>K18050</Orthology_ID>
+  <Function_Summary>Calcium-independent, phospholipid- and diacylglycerol (DAG)-dependent serine/threonine-protein kinase that plays essential roles in the regulation of multiple cellular processes linked to cytoskeletal proteins, such as cell adhesion, motility, migration and cell cycle, functions in neuron growth and ion channel regulation, and is involved in immune response, cancer cell invasion and regulation of apoptosis. Mediates cell adhesion to the extracellular matrix via integrin-dependent signaling, by mediating angiotensin-2-induced activation of integrin beta-1 (ITGB1) in cardiac fibroblasts. Phosphorylates MARCKS, which phosphorylates and activates PTK2/FAK, leading to the spread of cardiomyocytes. Involved in the control of the directional transport of ITGB1 in mesenchymal cells by phosphorylating vimentin (VIM), an intermediate filament (IF) protein. In epithelial cells, associates with and phosphorylates keratin-8 (KRT8), which induces targeting of desmoplakin at desmosomes and regulates cell-cell contact. Phosphorylates IQGAP1, which binds to CDC42, mediating epithelial cell-cell detachment prior to migration. In HeLa cells, contributes to hepatocyte growth factor (HGF)-induced cell migration, and in human corneal epithelial cells, plays a critical role in wound healing after activation by HGF. During cytokinesis, forms a complex with YWHAB, which is crucial for daughter cell separation, and facilitates abscission by a mechanism which may implicate the regulation of RHOA. In cardiac myocytes, regulates myofilament function and excitation coupling at the Z-lines, where it is indirectly associated with F-actin via interaction with COPB1. During endothelin-induced cardiomyocyte hypertrophy, mediates activation of PTK2/FAK, which is critical for cardiomyocyte survival and regulation of sarcomere length. Plays a role in the pathogenesis of dilated cardiomyopathy via persistent phosphorylation of troponin I (TNNI3). Involved in nerve growth factor (NFG)-induced neurite outgrowth and neuron morphological change independently of its kinase activity, by inhibition of RHOA pathway, activation of CDC42 and cytoskeletal rearrangement. May be involved in presynaptic facilitation by mediating phorbol ester-induced synaptic potentiation. Phosphorylates gamma-aminobutyric acid receptor subunit gamma-2 (GABRG2), which reduces the response of GABA receptors to ethanol and benzodiazepines and may mediate acute tolerance to the intoxicating effects of ethanol. Upon PMA treatment, phosphorylates the capsaicin- and heat-activated cation channel TRPV1, which is required for bradykinin-induced sensitization of the heat response in nociceptive neurons. Is able to form a complex with PDLIM5 and N-type calcium channel, and may enhance channel activities and potentiates fast synaptic transmission by phosphorylating the pore-forming alpha subunit CACNA1B (CaV2.2). In prostate cancer cells, interacts with and phosphorylates STAT3, which increases DNA-binding and transcriptional activity of STAT3 and seems to be essential for prostate cancer cell invasion. Downstream of TLR4, plays an important role in the lipopolysaccharide (LPS)-induced immune response by phosphorylating and activating TICAM2/TRAM, which in turn activates the transcription factor IRF3 and subsequent cytokines production. In differentiating erythroid progenitors, is regulated by EPO and controls the protection against the TNFSF10/TRAIL-mediated apoptosis, via BCL2. May be involved in the regulation of the insulin-induced phosphorylation and activation of AKT1.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a protein = ADP + a phosphoprotein.</Catalytic_Mechanism>
+  <Pfam_ID>PF00130:C1_1@@PF00168:C2@@PF00069:Pkinase@@PF00433:Pkinase_C</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>129</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>nPKC-epsilon</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Conveys a signal across a cell to trigger a change in cell function or state. A signal is a physical entity or change in state that is used to transfer information in order to trigger a response.</Detail>
+      <Keyword>Signal transducer activity</Keyword>
+      <Ontology_ID>GO:0004871</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Increases the activity of an enzyme.</Detail>
+      <Keyword>Enzyme activator activity</Keyword>
+      <Ontology_ID>GO:0008047</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with monomeric actin, also known as G-actin.</Detail>
+      <Keyword>Actin monomer binding</Keyword>
+      <Ontology_ID>GO:0003785</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>563</Position>
+      <Original>Thr</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>333</Position>
+      <Original>Ala</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>143</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>389</Position>
+      <Original>Pro</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>654</Position>
+      <Original>Ala</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A process that directly activates any of the steps required for cell death by apoptosis.</Detail>
+      <Keyword>Induction of apoptosis</Keyword>
+      <Ontology_ID>GO:0006917</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the rate, frequency, or extent of the series of events that restore integrity to a damaged tissue, following an injury.</Detail>
+      <Keyword>Positive regulation of wound healing</Keyword>
+      <Ontology_ID>GO:0090303</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the division of the cytoplasm of a cell, and its separation into two daughter cells, that occurs in the context of cell cycle progression.</Detail>
+      <Keyword>Positive regulation of cell cycle cytokinesis</Keyword>
+      <Ontology_ID>GO:0071777</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a fibroblast growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Fibroblast growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0008543</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated in response to detection of lipopolysaccharide. Lipopolysaccharides (LPS) are major components of the outer membrane of Gram-negative bacteria, making them prime targets for recognition by the immune system.</Detail>
+      <Keyword>Lipopolysaccharide-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0031663</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the rate, frequency or extent of fibroblast cell migration. Fibroblast cell migration is accomplished by extension and retraction of a pseudopodium.</Detail>
+      <Keyword>Positive regulation of fibroblast migration</Keyword>
+      <Ontology_ID>GO:0010763</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of biochemical and morphological phases and events that occur in a cell during successive cell replication or nuclear replication events. Canonically, the cell cycle comprises the replication and segregation of genetic material followed by the division of the cell, but in endocycles or syncytial cells nuclear replication or nuclear division may not be followed by cell division.</Detail>
+      <Keyword>Cell cycle</Keyword>
+      <Ontology_ID>GO:0007049</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</Detail>
+      <Keyword>Platelet activation</Keyword>
+      <Ontology_ID>GO:0030168</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of epithelial cell migration.</Detail>
+      <Keyword>Positive regulation of epithelial cell migration</Keyword>
+      <Ontology_ID>GO:0010634</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Protein involved in immunity, any immune system process that functions in the response of an organism to a potential internal or invasive threat. The vertebrate immune system is formed by the innate immune system (composed of phagocytes, complement, antimicrobial peptides, etc) and by the adaptive immune system which consists of T- and B-lymphocytes.</Detail>
+      <Keyword>Immunity</Keyword>
+      <Ontology_ID>KW-0391</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the nerve growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Nerve growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048011</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to a toll-like receptor 4 where the TRAM adaptor mediates transduction of the signal. Toll-like 4 receptors are pattern recognition receptors that bind bacterial lipopolysaccharide (LPS) to initiate an innate immune response.</Detail>
+      <Keyword>TRAM-dependent toll-like receptor 4 signaling pathway</Keyword>
+      <Ontology_ID>GO:0035669</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The initiation of the activity of the inactive enzyme phospolipase C as the result of a series of molecular signals generated as a consequence of a G-protein coupled receptor binding to its physiological ligand.</Detail>
+      <Keyword>Activation of phospholipase C activity</Keyword>
+      <Ontology_ID>GO:0007202</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of an epidermal growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Epidermal growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0007173</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process resulting in the physical partitioning and separation of a cell into daughter cells.</Detail>
+      <Keyword>Cell division</Keyword>
+      <Ontology_ID>GO:0051301</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The attachment of a cell, either to another cell or to an underlying substrate such as the extracellular matrix, via cell adhesion molecules.</Detail>
+      <Keyword>Cell adhesion</Keyword>
+      <Ontology_ID>GO:0007155</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of actin polymerization.</Detail>
+      <Keyword>Positive regulation of actin filament polymerization</Keyword>
+      <Ontology_ID>GO:0030838</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>729</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>703</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>316</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>350</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>329</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>228</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>339</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>234</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>368</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>337</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>346</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>309</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>710</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>566</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>349</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MVVFNGLLKIKICEAVSLKPTAWSLRHAVGPRPQTFLLDPYIALNVDDSRIGQTATKQKTNSPAWHDEFVTDVCNGRKIELAVFHDAPIGYDDFVANCTIQFEELLQNGSRHFEDWIDLEPEGRVYVIIDLSGSSGEAPKDNEERVFRERMRPRKRQGAVRRRVHQVNGHKFMATYLRQPTYCSHCRDFIWGVIGKQGYQCQVCTCVVHKRCHELIITKCAGLKKQETPDQVGSQRFSVNMPHKFGIHNYKVPTFCDHCGSLLWGLLRQGLQCKVCKMNVHRRCETNVAPNCGVDARGIAKVLADLGVTPDKITNSGQRRKKLIAGAESPQPASGSSPSEEDRSKSAPTSPCDQEIKELENNIRKALSFDNRGEEHRAASSPDGQLMSPGENGEVRQGQAKRLGLDEFNFIKVLGKGSFGKVMLAELKGKDEVYAVKVLKKDVILQDDDVDCTMTEKRILALARKHPYLTQLYCCFQTKDRLFFVMEYVNGGDLMFQIQRSRKFDEPRSRFYAAEVTSALMFLHQHGVIYRDLKLDNILLDAEGHCKLADFGMCKEGILNGVTTTTFCGTPDYIAPEILQELEYGPSVDWWALGVLMYEMMAGQPPFEADNEDDLFESILHDDVLYPVWLSKEAVSILKAFMTKNPHKRLGCVASQNGEDAIKQHPFFKEIDWVLLEQKKIKPPFKPRIKTKRDVNNFDQDFTREEPVLTLVDEAIVKQINQEEFKGFSYFGEDLMP</Protein_Seq>
+    <DNA_Seq>GAACCCGGCGAGGAAATACATGCACTGGCTGAGAATCGCCCGCGCCAGGGCGCAACGCCACAAGGTGTAGGGAGTGTGCGGGGTGGGGCGAAAGGGGACCCAAGAGTCCCTGTGGCTCGGAGTGCCGGGCCGTCGGTTCTTCATTCCTGCCCTCGGGGCAGACGGAGTGACCCCGGCCCCCACTCCCCGCCCCGACCATGGTAGTGTTCAATGGCCTTCTTAAGATCAAAATCTGCGAGGCCGTGAGCTTGAAGCCCACAGCCTGGTCGCTGCGCCATGCGGTGGGACCCCGGCCGCAGACTTTCCTTCTCGACCCCTACATTGCCCTCAATGTGGACGACTCGCGCATCGGCCAAACGGCCACCAAGCAGAAGACCAACAGCCCGGCCTGGCACGACGAGTTCGTCACCGATGTGTGCAACGGACGCAAGATCGAGCTGGCTGTCTTTCACGATGCCCCCATAGGCTACGACGACTTCGTGGCCAACTGCACCATCCAGTTTGAGGAGCTGCTGCAGAACGGGAGCCGCCACTTCGAGGACTGGATTGATCTGGAGCCAGAAGGAAGAGTGTATGTGATCATCGATCTCTCAGGGTCGTCGGGTGAAGCCCCTAAAGACAATGAAGAGCGTGTGTTCAGGGAACGCATGCGGCCGAGGAAGCGGCAGGGGGCCGTCAGGCGCAGGGTCCATCAGGTCAACGGCCACAAGTTCATGGCCACCTATCTTCGGCAGCCCACCTACTGCTCCCATTGCAGAGACTTCATCTGGGGTGTCATAGGAAAGCAGGGATACCAGTGTCAAGTCTGCACCTGCGTGGTCCACAAGCGGTGCCACGAGCTCATAATCACAAAGTGTGCTGGGTTAAAGAAGCAGGAGACCCCCGACCAGGTGGGCTCCCAGCGGTTCAGCGTCAACATGCCCCACAAGTTCGGTATCCACAACTACAAGGTCCCTACCTTCTGCGATCACTGTGGGTCCCTGCTCTGGGGACTCTTGCGGCAGGGTTTGCAGTGTAAAGTCTGCAAAATGAATGTTCACCGTCGATGTGAGACCAACGTGGCTCCCAACTGTGGAGTGGATGCCAGAGGAATCGCCAAAGTACTGGCCGACCTGGGCGTTACCCCAGACAAAATCACCAACAGCGGCCAGAGAAGGAAAAAGCTCATTGCTGGTGCCGAGTCCCCGCAGCCTGCTTCTGGAAGCTCACCATCTGAGGAAGATCGATCCAAGTCAGCACCCACCTCCCCTTGTGACCAGGAAATAAAAGAACTTGAGAACAACATTCGGAAAGCCTTGTCATTTGACAACCGAGGAGAGGAGCACCGGGCAGCATCGTCTCCTGATGGCCAGCTGATGAGCCCCGGTGAGAATGGCGAAGTCCGGCAAGGCCAGGCCAAGCGCCTGGGCCTGGATGAGTTCAACTTCATCAAGGTGTTGGGCAAAGGCAGCTTTGGCAAGGTCATGTTGGCAGAACTCAAGGGCAAAGATGAAGTATATGCTGTGAAGGTCTTAAAGAAGGACGTCATCCTTCAGGATGATGACGTGGACTGCACAATGACAGAGAAGAGGATTTTGGCTCTGGCACGGAAACACCCGTACCTTACCCAACTCTACTGCTGCTTCCAGACCAAGGACCGCCTCTTTTTCGTCATGGAATATGTAAATGGTGGAGACCTCATGTTTCAGATTCAGCGCTCCCGAAAATTCGACGAGCCTCGTTCACGGTTCTATGCTGCAGAGGTCACATCGGCCCTCATGTTCCTCCACCAGCATGGAGTCATCTACAGGGATTTGAAACTGGACAACATCCTTCTGGATGCAGAAGGTCACTGCAAGCTGGCTGACTTCGGGATGTGCAAGGAAGGGATTCTGAATGGTGTGACGACCACCACGTTCTGTGGGACTCCTGACTACATAGCTCCTGAGATCCTGCAGGAGTTGGAGTATGGCCCCTCCGTGGACTGGTGGGCCCTGGGGGTGCTGATGTACGAGATGATGGCTGGACAGCCTCCCTTTGAGGCCGACAATGAGGACGACCTATTTGAGTCCATCCTCCATGACGACGTGCTGTACCCAGTCTGGCTCAGCAAGGAGGCTGTCAGCATCTTGAAAGCTTTCATGACGAAGAATCCCCACAAGCGCCTGGGCTGTGTGGCATCGCAGAATGGCGAGGACGCCATCAAGCAGCACCCATTCTTCAAAGAGATTGACTGGGTGCTCCTGGAGCAGAAGAAGATCAAGCCACCCTTCAAACCACGCATTAAAACCAAAAGAGACGTCAATAATTTTGACCAAGACTTTACCCGGGAAGAGCCGGTACTCACCCTTGTGGACGAAGCAATTGTAAAGCAGATCAACCAGGAGGAATTCAAAGGTTTCTCCTACTTTGGTGAAGACCTGATGCCCTGAGAGCCCACTGCAGTTGGACTTTGCCGATGCTGCAAGAAGGGGTGCAGAGAAGACTCCTGTGTTGGAGACACTCAGCAGGTCTTGAACTACTTCTCCTCCTCGGAGCCCCAGTCCCATGTCCACTGTCTATTTATTGCATTCCCTTGCCCCAGGCCACCTCCTCCCCCTCCCACCTGGTGACCAGAAGGCGCTCTCGGTTCTTGTCTCACCAGTAATGCAGACTCATTGGGTCAGCAATTAGCTGTATACACTGCCGTGTTTGGACCATTGGCAAGCCTGGTTCCACTCCTCAGGGGCTCCTGGCAGTGAAGCAACTTCAGTTCTTTTACTGCAAAGAACAGAAAAAAGAAAGAAAGCAAACAAGAAGACTCCGGCTCTGCTATCGGACACAGATCCTGATCCCTCTTGCTTCTTTTCCCTCCTGCACCGCAGCTTGCCATCCCTGCCCTTCTGTCCTGGAGAAGAGACTGGTGCTTCTCCGCACACACGAGGGAGGGCGCCCTTGAGGCATGCCCTCTGAGGGAGGGAGACCAGAGATGCAGGGATTGGCCAGCTGGGTTGGTTTGCTCTGGAATGGCTAACTCTTGCCTGCTTTGGTTTTAGCTTTTCAGCATGCCAAAGTCATGTAAGTTTGTGTCTTGTGGAAGAAATCCTCTTTGTGGAAAAAGAAACAGGGTTTTGAACTCTGTTAACATTTGAAAAATATATTTTCAAATTCACTTTCTAATTGGCCAAAAGAGATGAGTTCCAGTCTGAATACAGGTAGATATTAAAGGGCTAATAAAAAATGAGAAACCGGTCGTCCAAGGTGGATGCTGTCAATGCCCGAGTGACACATGAGAGCTGTATGAATTGAGAGAAAAGGCAACAAGTAGCATTCTTCATCATTCAAGTTCTACCTGGACACAAAGGCGAGGACCCTGGGGTTCCAACAAAGCTCAGCTCCCAGATTCTCTTTCCAGTTTCATCCTAAGTTCCTAGCATAAACACTATTTATTTTCTGCAGCAGTGTGTTATTTTTGCGCACTTATACAAAATGGTAGTACTACTGTGTTGTGGTTTTTAAACATTAAACATGTAAAGTTATATACGAAATATCTGCTTTTGGAATAAGCAGAATGAGGCTAAACATGGGTTATACAAAGGGTATCTGGAAACTGAAGAGCAACTTGTTAGAAAACTGACAATGTCGCAAGATGTACTCAGTTTTGTTTCTGTGTGACATGCAATGGCAACTCATGTGGACACTATTGAAGGGATGTGACATTACCTCCTGTAGATATGCTAACAGTGTTATTCTTTCATTTCCAAGGGTTCTCTGTGGCTTTGTGTATATGTTTCCCAGAGGTCATTTGATTACCTAATTTACTGAACTGATTTAGCAGGGAATGGAATCCATTCCAACTATTGCACGTGGATTTCCCAGCTGCCCCTAAATATATATACTTGTGAGTGGCAAAGTGGCACTAATGAAGCTTTTGCCTTTTGTACATTTGAGATTTTTGTATATAGTGTTTGCTGCAAGGCCTGTGGAATTAATTCGTTGCATATAGAGGTATCAACTGCTGCATGTTCAGGCATATTATAAAACTTTAGTCTATGAAAGAATAATTATAATAATGTCCAGGTGCAATACTCTGTAAGTCTATTGGTTCAAGTTACCGAGAGATAGGTGTGTTCCTTTATGGGGGATGGGGGGGTGTGTTGGGGATTCTTTGTATTGTTTATTTCATTTTGGTTTATTTTAAAAGATGTAAACATATATTAAGCTATATTAAATCTCACATACAGTTCTTCTGTGCTCTATTATACCCTGATAGAGATGGGGGAGAGAAAGGAATGTTTTTGATGGTGGTTTCAAAGCTCGGACAGTAACTATCTTGAGCCCATTAGAGAGTCTGTGTCCATATTTGCATCTGGCTGGTCATAGCCTTTGTTACTAATGATGACATTCAGTTCTCTTTTGTTTTTATTTTTTAAAAACTCAGGTGTAATTATTATCTGTTCTTAAGATAATTGCAAATATTAAATATTATGATATATCAATTCATGTGTTTGGCATACCAGTGAATGATGAAGAACATGAGATTAATTTAATTTATCTTCGGTAACTTGACATTCTGGAGAGAGACTATCTTCTGGAGTTGAGTACAAGCACAGAAACATCTTTACGGTGGCATCATCTCATTTTTTAGGAAGACATGATAATACTGCCCATCATATTCATGTGTAACTACTGTTCTTTCTTCTGCTTTCTTCACCATAATAAACTTTGGACAACCAAGCAAGCTCTAACCGCAATGCCAGATGGCCTTGTCCGAGGGCCTAGTGTTTGCACGGCAGTGGGAACTGGGCCTTTCCTACAGGACAACTGGCAAGTTTGCTGGGAAGTCAAATAATACATTCCACCTGGCAGCTGAAGGCAGCCAGTCAGTCTGTCCCAGAAAGGGCCCTTTTCAGCACCCAAAGCTGGGCTGGCTGGGATGCCTCTGGCTGGTGAAGTTCTCACATAGGCTGATTTAAATCCAGCAAAGGTCTATAGAAAAAGGCTTGCGTGTTCGTTGAGTAATCATTGTTTCATTTTCATTTTTACGAGAGTTTGAAAATAGACACACTGTTAACACTTCTGCCAGTTTTTTCTGATCTTTCCAGCCCCACCCCCTTTCTCTTTCTCTCTCTCTCTCAAAGAAAAAAAAAATGGGAGTGCAAAAAAAACAAAGCCAAAAAATATATGAAGGATAGCTGTTCTTCTGTGTTCTCTCATTATGGACTTTGTGAAGTAGAAACATAATTTTTTTTCCTCCAAAGGTGAAAAAACAATGCATTCTTGCTTTAAAAAAAAAAAAGAAGGCTAAAAAATTACCTCTTTTTAAATTATGTGCAAAATAATTCTGGCTAACTGTAAAATGTATTCAATTTTAGGATTTTTTTTTTTTGTATTGTGATGCTTTATTTGTACATTTTTTTCCTTTCTGGATGTAATTTTAATCTCTTGCCATTCATTAGTGTTATTTCATTGTAAACGTTATTGTGCCAAATGTACTGTATTCAAAAGGATGTGAATGTGTATTGTTTCAGAACCTAATAAATACAATGACGTTAAGTCTTAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum</CellLocal>
+      <Ontology_ID>GO:0005783</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Perinuclear region of cytoplasm</CellLocal>
+      <Ontology_ID>GO:0048471</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoskeleton</CellLocal>
+      <Ontology_ID>GO:0005856</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>PRKCE</Gene_Name>
+    <Gene_Alias>PKCE</Gene_Alias>
+    <Gene_ID>5581</Gene_ID>
+    <Genbank_ACCN>NM_005400</Genbank_ACCN>
+    <Protein_ACCN>NP_005391</Protein_ACCN>
+    <HGNC_ID>9401</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5581</Gene_URL>
+    <UCSC_ID>uc002rut.3</UCSC_ID>
+    <EMBL_ID>ENSG00000171132</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Rift Valley Fever</Disease_Name>
+      <Disease_Detail>Rift Valley Fever</Disease_Detail>
+      <Disease_DB>RFT001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/rift_valley_fever?search=PRKCE#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ischemia</Disease_Name>
+      <Disease_Detail>Ischemia</Disease_Detail>
+      <Disease_DB>ISC004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ischemia?search=PRKCE#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>RECOGNITION OF AN INTRACHAIN TANDEM 14-3-3 BINDING SITE WITHIN PROTEIN KINASE C EPSILON</PDB_Title>
+      <PDB_ID>2WH0</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WH0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Recognition of an Intra-Chain Tandem 14-3-3 Binding Site within Pkc Epsilon.</PubMed_Title>
+      <Author>Kostelecky, B., et al.</Author>
+      <Journal>Embo Rep.(2009)10:983-989</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19662078?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04022</Pathway_ID>
+      <Pathway_Title>cGMP-PKG signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04750</Pathway_ID>
+      <Pathway_Title>Inflammatory mediator regulation of TRP channels</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Sensory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04930</Pathway_ID>
+      <Pathway_Title>Type II diabetes mellitus</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Endocrine and metabolic diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04022</Pathway_ID>
+      <Pathway_Title>cGMP-PKG signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05206</Pathway_ID>
+      <Pathway_Title>MicroRNAs in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04750</Pathway_ID>
+      <Pathway_Title>Inflammatory mediator regulation of TRP channels</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Sensory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04071</Pathway_ID>
+      <Pathway_Title>Sphingolipid signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04666</Pathway_ID>
+      <Pathway_Title>Fc gamma R-mediated phagocytosis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 1: Mainly Alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2wh0</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.13</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/13.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01140031</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710003</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710008</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710009</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710010</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710011</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710012</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710013</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710014</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710015</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710016</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710017</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710018</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710019</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710020</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710021</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710022</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710023</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710024</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710025</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710026</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710027</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710028</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710029</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710030</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710031</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710032</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710033</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710034</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710035</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710036</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710037</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710038</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710039</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710040</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710041</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710042</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710043</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710044</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710045</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710046</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710047</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710048</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710051</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710052</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710053</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710054</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710055</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710056</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710057</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710058</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710059</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710060</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710061</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710062</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710063</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710064</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710065</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710066</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710067</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710068</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710069</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710070</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710072</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710073</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710074</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710075</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710076</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710077</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710078</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710079</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710080</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710081</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710082</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710083</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710084</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710085</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710086</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710087</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710088</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710089</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710090</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710091</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710092</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710093</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710095</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710096</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710097</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710098</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710099</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710100</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710101</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710102</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710103</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710104</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710105</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710106</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710107</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710108</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710109</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710112</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710113</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710114</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710115</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710116</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710117</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710118</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710119</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710120</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710121</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710122</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710123</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710124</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710125</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710126</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710127</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710128</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710129</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710130</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710131</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710132</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710133</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710138</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08710140</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

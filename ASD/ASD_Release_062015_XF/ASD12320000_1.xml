@@ -1,0 +1,939 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD12320000_1</Organism_ID>
+  <Organism>Baker's yeast</Organism>
+  <Organism_Latin>Saccharomyces cerevisiae</Organism_Latin>
+  <UniProt_ID>P22141</UniProt_ID>
+  <Seq_Length>198</Seq_Length>
+  <Molecule_Weight>22517</Molecule_Weight>
+  <KEGG_ID>sce:YER012W</KEGG_ID>
+  <Orthology_ID>K02734</Orthology_ID>
+  <EBI_ID>EBI-13988</EBI_ID>
+  <Function_Summary>The proteasome degrades poly-ubiquitinated proteins in the cytoplasm and in the nucleus. It is essential for the regulated turnover of proteins and for the removal of misfolded proteins. The proteasome is a multicatalytic proteinase complex that is characterized by its ability to cleave peptides with Arg, Phe, Tyr, Leu, and Glu adjacent to the leaving group at neutral or slightly basic pH. It has an ATP-dependent proteolytic activity. This subunit has a chymotrypsin-like activity.</Function_Summary>
+  <Catalytic_Mechanism>Cleavage of peptide bonds with very broad specificity.</Catalytic_Mechanism>
+  <Pfam_ID>PF00227:Proteasome</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Proteasome component C11</Alias>
+      <Alias>Multicatalytic endopeptidase complex subunit C11</Alias>
+      <Alias>Macropain subunit C11</Alias>
+      <Alias>Proteinase YSCE subunit 11</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal peptide bonds in a polypeptide chain by a mechanism in which the hydroxyl group of a threonine residue at the active center acts as a nucleophile.</Detail>
+      <Keyword>Threonine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004298</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Increases the activity of an endopeptidase, any enzyme that hydrolyzes nonterminal peptide bonds in polypeptides.</Detail>
+      <Keyword>Endopeptidase activator activity</Keyword>
+      <Ontology_ID>GO:0061133</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds, initiated by the covalent attachment of ubiquitin, and mediated by the proteasome.</Detail>
+      <Keyword>Proteasomal ubiquitin-dependent protein catabolic process</Keyword>
+      <Ontology_ID>GO:0043161</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the frequency, rate or extent of endopeptidase activity, the endohydrolysis of peptide bonds within proteins.</Detail>
+      <Keyword>Positive regulation of endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0010950</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds that is mediated by the proteasome but do not involve ubiquitin.</Detail>
+      <Keyword>Proteasomal ubiquitin-independent protein catabolic process</Keyword>
+      <Ontology_ID>GO:0010499</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>1</Position>
+      <PTM_Type>N-acetylmethionine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>76</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MDIILGIRVQDSVILASSKAVTRGISVLKDSDDKTRQLSPHTLMSFAGEAGDTVQFAEYIQANIQLYSIREDYELSPQAVSSFVRQELAKSIRSRRPYQVNVLIGGYDKKKNKPELYQIDYLGTKVELPYGAHGYSGFYTFSLLDHHYRPDMTTEEGLDLLKLCVQELEKRMPMDFKGVIVKIVDKDGIRQVDDFQAQ</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Proteasome core complex, beta-subunit complex</CellLocal>
+      <Ontology_ID>GO:0019774</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Proteasome storage granule</CellLocal>
+      <Ontology_ID>GO:0034515</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum membrane</CellLocal>
+      <Ontology_ID>GO:0005789</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Proteasome complex</CellLocal>
+      <Ontology_ID>GO:0000502</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>PRE1</Gene_Name>
+    <Gene_ID>856731</Gene_ID>
+    <Genbank_ACCN>NM_001178903</Genbank_ACCN>
+    <Protein_ACCN>NP_010928</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/856731</Gene_URL>
+    <EMBL_ID>YER012W</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P40303</Uniprot_ID>
+      <Gene_Name>PRE6</Gene_Name>
+      <EBI_ID>EBI-13980</EBI_ID>
+      <PPI_EBI_URL>EBI-13988,EBI-13980</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P33299</Uniprot_ID>
+      <Gene_Name>RPT1</Gene_Name>
+      <EBI_ID>EBI-13910</EBI_ID>
+      <PPI_EBI_URL>EBI-13988,EBI-13910</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P21242</Uniprot_ID>
+      <Gene_Name>PRE10</Gene_Name>
+      <EBI_ID>EBI-13963</EBI_ID>
+      <PPI_EBI_URL>EBI-13988,EBI-13963</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>yCP in complex with Z-Leu-Leu-Leu-B(OH)2</PDB_Title>
+      <PDB_ID>4NO1</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4NO1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Systematic Comparison of Peptidic Proteasome Inhibitors Highlights the alpha-Ketoamide Electrophile as an Auspicious Reversible Lead Motif.</PubMed_Title>
+      <Author>Stein, M.L., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:1679-1683</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24403024?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of Proteasome-Pba1-Pba2 Complex</PDB_Title>
+      <PDB_ID>4G4S</PDB_ID>
+      <Resolution>2.49</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4G4S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a Proteasome Pba1-Pba2 Complex: IMPLICATIONS FOR PROTEASOME ASSEMBLY, ACTIVATION, AND BIOLOGICAL FUNCTION.</PubMed_Title>
+      <Author>Stadtmueller, B.M., et al.</Author>
+      <Journal>J.Biol.Chem.(2012)287:37371-37382</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22930756?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of yeast 20S open-gate proteasome with Compound 34</PDB_Title>
+      <PDB_ID>3SDK</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3SDK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Optimization of a series of dipeptides with a P3 threonine residue as non-covalent inhibitors of the chymotrypsin-like activity of the human 20S proteasome.</PubMed_Title>
+      <Author>Blackburn, C., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6581-6586</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20875739?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with Z-Leu-Leu-Leu-ketoamide</PDB_Title>
+      <PDB_ID>4NO8</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4NO8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Systematic Comparison of Peptidic Proteasome Inhibitors Highlights the alpha-Ketoamide Electrophile as an Auspicious Reversible Lead Motif.</PubMed_Title>
+      <Author>Stein, M.L., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:1679-1683</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24403024?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ligand-induced aziridine-formation at subunit beta5 of the yeast 20S proteasome</PDB_Title>
+      <PDB_ID>4R17</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4R17</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Selective inhibition of the immunoproteasome by ligand-induced crosslinking of the active site.</PubMed_Title>
+      <Author>Dubiella, C., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:11969-11973</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25244435?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome in complex with the vinyl sulfone LU122</PDB_Title>
+      <PDB_ID>4INT</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4INT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Incorporation of Non-natural Amino Acids Improves Cell Permeability and Potency of Specific Inhibitors of Proteasome Trypsin-like Sites.</PubMed_Title>
+      <Author>Geurink, P.P., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:1262-1275</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23320547?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome in complex with the dimerized linear mimetic of TMC-95A - yCP:4a</PDB_Title>
+      <PDB_ID>4JT0</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4JT0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Dimerized Linear Mimics of a Natural Cyclopeptide (TMC-95A) Are Potent Noncovalent Inhibitors of the Eukaryotic 20S Proteasome</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with BOC-ALA-ALA-ALA-CHO</PDB_Title>
+      <PDB_ID>4QBY</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4QBY</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD12320001</ASD_Ligand>
+      <PubMed_Title>Differential global structural changes in the core particle of yeast and mouse proteasome induced by ligand binding.</PubMed_Title>
+      <Author>Arciniega, M., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:9479-9484</Journal>
+      <PubMed_ID>24979800</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Alpha-keto-aldehyde binding mechanism reveals a novel lead structure motif for proteasome inhibition</PDB_Title>
+      <PDB_ID>3OKJ</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OKJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Elucidation of the alpha-keto-aldehyde binding mechanism: a lead structure motif for proteasome inhibition</PubMed_Title>
+      <Author>Grawert, M.A., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2011)50:542-544</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21154547?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Proteasome Activator Complex</PDB_Title>
+      <PDB_ID>4V7O</PDB_ID>
+      <Resolution>3.01</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4V7O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a Blm10 complex reveals common mechanisms for proteasome binding and gate opening.</PubMed_Title>
+      <Author>Sadre-Bazzaz, K., et al.</Author>
+      <Journal>Mol.Cell(2010)37:728-735</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20227375?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome in complex with the dimerized linear mimetic of TMC-95A - yCP:3a</PDB_Title>
+      <PDB_ID>4JSU</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4JSU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Dimerized linear mimics of a natural cyclopeptide (TMC-95A) are potent noncovalent inhibitors of the eukaryotic 20S proteasome</PubMed_Title>
+      <Author>Desvergne, A., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:3367-3378</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23540790?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with Z-Leu-Leu-Leu-vinylsulfone</PDB_Title>
+      <PDB_ID>4NO6</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4NO6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Systematic Comparison of Peptidic Proteasome Inhibitors Highlights the alpha-Ketoamide Electrophile as an Auspicious Reversible Lead Motif.</PubMed_Title>
+      <Author>Stein, M.L., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:1679-1683</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24403024?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of yeast 20S open-gate proteasome with Compound 16</PDB_Title>
+      <PDB_ID>3MG8</PDB_ID>
+      <Resolution>2.59</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MG8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of a new series of non-covalent proteasome inhibitors with exquisite potency and selectivity for the 20S beta5-subunit.</PubMed_Title>
+      <Author>Blackburn, C., et al.</Author>
+      <Journal>Biochem.J.(2010)430:461-476</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20632995?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome in complex with the belactosin derivative 3e</PDB_Title>
+      <PDB_ID>4J70</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4J70</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Potent Proteasome Inhibitors Derived from the Unnatural cis-Cyclopropane Isomer of Belactosin A: Synthesis, Biological Activity, and Mode of Action.</PubMed_Title>
+      <Author>Kawamura, S., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:3689-3700</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23547757?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yeast 20S proteasome in complex with the Syringolin-Glidobactin chimera</PDB_Title>
+      <PDB_ID>4GK7</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4GK7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Activity enhancement of the synthetic syrbactin proteasome inhibitor hybrid and biological evaluation in tumor cells.</PubMed_Title>
+      <Author>Archer, C.R., et al.</Author>
+      <Journal>Biochemistry(2012)51:6880-6888</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22870914?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of yeast 20S open-gate proteasome with Compound 24</PDB_Title>
+      <PDB_ID>3OEU</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OEU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Optimization of a series of dipeptides with a P3 threonine residue as non-covalent inhibitors of the chymotrypsin-like activity of the human 20S proteasome.</PubMed_Title>
+      <Author>Blackburn, C., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6581-6586</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20875739?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome in complex with the dimerized linear mimetic of TMC-95A - yCP:4e</PDB_Title>
+      <PDB_ID>4JSQ</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4JSQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Dimerized linear mimics of a natural cyclopeptide (TMC-95A) are potent noncovalent inhibitors of the eukaryotic 20S proteasome</PubMed_Title>
+      <Author>Desvergne, A., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:3367-3378</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23540790?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome in complex with the alkaloid indolo-phakellin (4)</PDB_Title>
+      <PDB_ID>4RUR</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4RUR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Indolo-Phakellins as beta 5-Specific Noncovalent Proteasome Inhibitors.</PubMed_Title>
+      <Author>Beck, P., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2015)54:2830-2833</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25581903?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of yeast CP in complex with Belactosin C</PDB_Title>
+      <PDB_ID>3TDD</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3TDD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Synthesis and biological activity of optimized belactosin C congeners.</PubMed_Title>
+      <Author>Korotkov, V.S., et al.</Author>
+      <Journal>Org.Biomol.Chem.(2011)9:7791-7798</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21946808?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome in Complex with Kendomycin</PDB_Title>
+      <PDB_ID>4Q1S</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4Q1S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Interactions of the natural product kendomycin and the 20S proteasome.</PubMed_Title>
+      <Author>Beck, P., et al.</Author>
+      <Journal>J.Mol.Biol.(2014)426:3108-3117</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25038530?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE 20S PROTEASOME FROM YEAST IN COMPLEX WITH THE PROTEASOME ACTIVATOR PA26 FROM TRYPANOSOME BRUCEI AT 3.2 ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>1FNT</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FNT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>1 - 1FNT : Proteasomes destroy obsolete and damaged proteins inside cells. This entry includes a proteasome with an 11S activator at each end.</PubMed_Title>
+      <Author>Whitby, F.G., et al.</Author>
+      <Journal>Nature(2000)408:115-120</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11081519?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome in complex with PR-957 (epoxide)</PDB_Title>
+      <PDB_ID>3UN8</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3UN8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Immuno- and constitutive proteasome crystal structures reveal differences in substrate and inhibitor specificity.</PubMed_Title>
+      <Author>Huber, E.M., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2012)148:727-738</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22341445?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ligand-induced Lys33-Thr1 crosslinking at subunit beta5 of the yeast 20S proteasome</PDB_Title>
+      <PDB_ID>4R18</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4R18</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Selective inhibition of the immunoproteasome by ligand-induced crosslinking of the active site.</PubMed_Title>
+      <Author>Dubiella, C., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:11969-11973</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25244435?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with tripeptidic epoxyketone inhibitor 9</PDB_Title>
+      <PDB_ID>4QLU</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4QLU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of beta 1i or beta 5i specific inhibitors of human immunoproteasomes</PubMed_Title>
+      <Author>De Bruin, G., et al.</Author>
+      <Journal>J.Med.Chem.(2014)57:6197-6209</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25006746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome in complex with the vinyl sulfone LU102</PDB_Title>
+      <PDB_ID>4INR</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4INR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Incorporation of Non-natural Amino Acids Improves Cell Permeability and Potency of Specific Inhibitors of Proteasome Trypsin-like Sites.</PubMed_Title>
+      <Author>Geurink, P.P., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:1262-1275</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23320547?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with tripeptidic epoxyketone inhibitor 17</PDB_Title>
+      <PDB_ID>4QLV</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4QLV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of beta 1i or beta 5i specific inhibitors of human immunoproteasomes</PubMed_Title>
+      <Author>De Bruin, G., et al.</Author>
+      <Journal>J.Med.Chem.(2014)57:6197-6209</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25006746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the yeast 20S proteasome in complex with bortezomib</PDB_Title>
+      <PDB_ID>2F16</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F16</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of the Boronic Acid-Based Proteasome Inhibitor Bortezomib in Complex with the Yeast 20S Proteasome.</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>Structure(2006)14:451-456</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16531229?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with Z-Leu-Leu-Leu-epoxyketone</PDB_Title>
+      <PDB_ID>4NO9</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4NO9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Systematic Comparison of Peptidic Proteasome Inhibitors Highlights the alpha-Ketoamide Electrophile as an Auspicious Reversible Lead Motif.</PubMed_Title>
+      <Author>Stein, M.L., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:1679-1683</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24403024?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Salinosporamide A in complex with the yeast 20S proteasome</PDB_Title>
+      <PDB_ID>2FAK</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FAK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Salinosporamide A (NPI-0052) and B (NPI-0047) in Complex with the 20S Proteasome Reveal Important Consequences of beta-Lactone Ring Opening and a Mechanism for Irreversible Binding.</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2006)128:5136-5141</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16608349?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of yeast 20S proteasome in complex with ligand 2a</PDB_Title>
+      <PDB_ID>3NZJ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NZJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>20S proteasome inhibition: designing noncovalent linear peptide mimics of the natural product TMC-95A.</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>Chemmedchem(2010)5:1701-1705</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20715286?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with tripeptidic epoxyketone inhibitor 8</PDB_Title>
+      <PDB_ID>4QLQ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4QLQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of beta 1i or beta 5i specific inhibitors of human immunoproteasomes</PubMed_Title>
+      <Author>De Bruin, G., et al.</Author>
+      <Journal>J.Med.Chem.(2014)57:6197-6209</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25006746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TMC-95 based biphenyl-ether macrocycles: specific proteasome inhibitors</PDB_Title>
+      <PDB_ID>2GPL</PDB_ID>
+      <Resolution>2.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GPL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>TMC-95-Based Inhibitor Design Provides Evidence for the Catalytic Versatility of the Proteasome.</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>Chem.Biol.(2006)13:607-614</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16793518?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of 20S proteasome in complex with hydroxylated salinosporamide</PDB_Title>
+      <PDB_ID>3HYE</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HYE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Snapshots of the fluorosalinosporamide/20S complex offer mechanistic insights for fine tuning proteasome inhibition</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>J.Med.Chem.(2009)52:5420-5428</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19678642?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of yeast 20S open-gate proteasome with Compound 6</PDB_Title>
+      <PDB_ID>3MG6</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MG6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of a new series of non-covalent proteasome inhibitors with exquisite potency and selectivity for the 20S beta5-subunit.</PubMed_Title>
+      <Author>Blackburn, C., et al.</Author>
+      <Journal>Biochem.J.(2010)430:461-476</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20632995?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the yeast 20S proteasome in complex with Salinosporamide derivatives: irreversible inhibitor ligand</PDB_Title>
+      <PDB_ID>3GPW</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GPW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Snapshots of the fluorosalinosporamide/20S complex offer mechanistic insights for fine tuning proteasome inhibition</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>J.Med.Chem.(2009)52:5420-5428</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19678642?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of yeast 20S open-gate proteasome with Compound 25</PDB_Title>
+      <PDB_ID>3OEV</PDB_ID>
+      <Resolution>2.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OEV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Optimization of a series of dipeptides with a P3 threonine residue as non-covalent inhibitors of the chymotrypsin-like activity of the human 20S proteasome.</PubMed_Title>
+      <Author>Blackburn, C., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6581-6586</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20875739?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Proteasome in complex with hydroxyurea derivative HU10</PDB_Title>
+      <PDB_ID>3SHJ</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3SHJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Hydroxyureas as noncovalent proteasome inhibitors.</PubMed_Title>
+      <Author>Gallastegui, N., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2012)51:247-249</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22105886?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of yeast 20S proteasome in complex with the natural product carmaphycin A</PDB_Title>
+      <PDB_ID>4HRD</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4HRD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Enzyme inhibition by hydroamination: design and mechanism of a hybrid carmaphycin-syringolin enone proteasome inhibitor.</PubMed_Title>
+      <Author>Trivella, D.B., et al.</Author>
+      <Journal>Chem.Biol.(2014)21:782-791</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24930969?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yeast 20S proteasome:glidobactin A-complex</PDB_Title>
+      <PDB_ID>3BDM</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BDM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A plant pathogen virulence factor inhibits the eukaryotic proteasome by a novel mechanism</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>Nature(2008)452:755-758</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18401409?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of yeast 20S proteasome with bortezomib</PDB_Title>
+      <PDB_ID>3MG0</PDB_ID>
+      <Resolution>2.68</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MG0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of a new series of non-covalent proteasome inhibitors with exquisite potency and selectivity for the 20S beta5-subunit.</PubMed_Title>
+      <Author>Blackburn, C., et al.</Author>
+      <Journal>Biochem.J.(2010)430:461-476</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20632995?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of epoxomicin:20s proteasome reveals a molecular basis for selectivity of alpha,beta-epoxyketone proteasome inhibitors</PDB_Title>
+      <PDB_ID>1G65</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G65</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of Epoxomicin:20S Proteasome reveals a molecular basis for selectivity of alpha,beta-Epoxyketone Proteasome Inhibitors</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of yeast 20S open-gate proteasome with Compound 8</PDB_Title>
+      <PDB_ID>3MG7</PDB_ID>
+      <Resolution>2.78</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MG7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of a new series of non-covalent proteasome inhibitors with exquisite potency and selectivity for the 20S beta5-subunit.</PubMed_Title>
+      <Author>Blackburn, C., et al.</Author>
+      <Journal>Biochem.J.(2010)430:461-476</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20632995?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of yeast 20S open-gate proteasome with Compound 20</PDB_Title>
+      <PDB_ID>3SDI</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3SDI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Optimization of a series of dipeptides with a P3 threonine residue as non-covalent inhibitors of the chymotrypsin-like activity of the human 20S proteasome.</PubMed_Title>
+      <Author>Blackburn, C., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6581-6586</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20875739?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the yeast 20S Proteasome:TMC-95A complex: A non-covalent Proteasome Inhibitor</PDB_Title>
+      <PDB_ID>1JD2</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JD2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the 20 S proteasome:TMC-95A complex: a non-covalent proteasome inhibitor.</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>J.Mol.Biol.(2001)311:543-548</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11493007?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of yeast 20S proteasome in complex with epoxyketone carmaphycin analogue 3</PDB_Title>
+      <PDB_ID>4HRC</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4HRC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Enzyme inhibition by hydroamination: design and mechanism of a hybrid carmaphycin-syringolin enone proteasome inhibitor.</PubMed_Title>
+      <Author>Trivella, D.B., et al.</Author>
+      <Journal>Chem.Biol.(2014)21:782-791</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24930969?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of 20s proteasome with novel inhibitor K-7174</PDB_Title>
+      <PDB_ID>4EU2</PDB_ID>
+      <Resolution>2.51</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4EU2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Homopiperazine derivatives as a novel class of proteasome inhibitors with a unique mode of proteasome binding.</PubMed_Title>
+      <Author>Kikuchi, J., et al.</Author>
+      <Journal>Plos One(2013)8:e60649-e60649</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23593271?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of yeast 20S proteasome in complex with the epimer form of spirolactacystin</PDB_Title>
+      <PDB_ID>3DY3</PDB_ID>
+      <Resolution>2.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DY3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of spiro beta-lactone proteasome inhibitors.</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2008)130:14981-14983</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18928262?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of yeast 20S proteasome in complex with enone carmaphycin analogue 6</PDB_Title>
+      <PDB_ID>4LTC</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4LTC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Enzyme inhibition by hydroamination: design and mechanism of a hybrid carmaphycin-syringolin enone proteasome inhibitor.</PubMed_Title>
+      <Author>Trivella, D.B., et al.</Author>
+      <Journal>Chem.Biol.(2014)21:782-791</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24930969?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the 20s proteasome from yeast in complex with the proteasome activator PA26 from Trypanosome brucei at 3.2 angstroms resolution</PDB_Title>
+      <PDB_ID>1Z7Q</PDB_ID>
+      <Resolution>3.22</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Z7Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The 1.9 A structure of a proteasome-11S activator complex and implications for proteasome-PAN/PA700 interactions.</PubMed_Title>
+      <Author>Forster, A., et al.</Author>
+      <Journal>Mol.Cell(2005)18:589-599</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15916965?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with tripeptidic epoxyketone inhibitor 11</PDB_Title>
+      <PDB_ID>4QLS</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4QLS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of beta 1i or beta 5i specific inhibitors of human immunoproteasomes</PubMed_Title>
+      <Author>De Bruin, G., et al.</Author>
+      <Journal>J.Med.Chem.(2014)57:6197-6209</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25006746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with tripeptidic epoxyketone inhibitor 2 (PR924)</PDB_Title>
+      <PDB_ID>4QLT</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4QLT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of beta 1i or beta 5i specific inhibitors of human immunoproteasomes</PubMed_Title>
+      <Author>De Bruin, G., et al.</Author>
+      <Journal>J.Med.Chem.(2014)57:6197-6209</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25006746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the yeast 20S proteasome in complex with ligand 2c</PDB_Title>
+      <PDB_ID>3NZX</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NZX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>20S proteasome inhibition: designing noncovalent linear peptide mimics of the natural product TMC-95A.</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>Chemmedchem(2010)5:1701-1705</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20715286?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE 20S PROTEASOME FROM YEAST AT 2.4 ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>1RYP</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RYP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of 20S proteasome from yeast at 2.4 A resolution.</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>Nature(1997)386:463-471</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9087403?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of yeast 20S proteasome in complex with vinylketone carmaphycin analogue VNK1</PDB_Title>
+      <PDB_ID>4HNP</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4HNP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Enzyme inhibition by hydroamination: design and mechanism of a hybrid carmaphycin-syringolin enone proteasome inhibitor.</PubMed_Title>
+      <Author>Trivella, D.B., et al.</Author>
+      <Journal>Chem.Biol.(2014)21:782-791</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24930969?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the yeast 20S proteasome in complex with Salinosporamide derivatives: slow substrate ligand</PDB_Title>
+      <PDB_ID>3GPT</PDB_ID>
+      <Resolution>2.41</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GPT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Snapshots of the fluorosalinosporamide/20S complex offer mechanistic insights for fine tuning proteasome inhibition</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>J.Med.Chem.(2009)52:5420-5428</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19678642?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>A GATED CHANNEL INTO THE PROTEASOME CORE PARTICLE</PDB_Title>
+      <PDB_ID>1G0U</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G0U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A gated channel into the proteasome core particle.</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>Nat.Struct.Biol.(2000)7:1062-1067</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11062564?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Yeast 20S Proteasome in Complex with Homobelactosin C</PDB_Title>
+      <PDB_ID>3E47</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E47</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Inhibitor-binding mode of homobelactosin C to proteasomes: new insights into class I MHC ligand generation</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2006)103:4576-4579</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16537370?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with BSc4999 (alpha-Keto Phenylamide)</PDB_Title>
+      <PDB_ID>4R02</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4R02</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>alpha-Keto Phenylamides as P1'-Extended Proteasome Inhibitors.</PubMed_Title>
+      <Author>Voss, C., et al.</Author>
+      <Journal>Chemmedchem(2014)9:2557-2564</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25087721?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Proteasome Inhibition by Fellutamide B</PDB_Title>
+      <PDB_ID>3D29</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3D29</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Proteasome Inhibition by Fellutamide B Induces Nerve Growth Factor Synthesis</PubMed_Title>
+      <Author>Hines, J., et al.</Author>
+      <Journal>Chem.Biol.(2008)15:501-512</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18482702?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the yeast 20S proteasome in complex with 2b</PDB_Title>
+      <PDB_ID>3NZW</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NZW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>20S proteasome inhibition: designing noncovalent linear peptide mimics of the natural product TMC-95A.</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>Chemmedchem(2010)5:1701-1705</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20715286?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome in complex with PR-957 (morpholine)</PDB_Title>
+      <PDB_ID>3UN4</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3UN4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Immuno- and constitutive proteasome crystal structures reveal differences in substrate and inhibitor specificity.</PubMed_Title>
+      <Author>Huber, E.M., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2012)148:727-738</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22341445?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome in complex with the vinyl sulfone LU112</PDB_Title>
+      <PDB_ID>4INU</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4INU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Incorporation of Non-natural Amino Acids Improves Cell Permeability and Potency of Specific Inhibitors of Proteasome Trypsin-like Sites.</PubMed_Title>
+      <Author>Geurink, P.P., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:1262-1275</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23320547?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>20S yeast proteasome in complex with cepafungin I</PDB_Title>
+      <PDB_ID>4FZC</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4FZC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>One-shot NMR analysis of microbial secretions identifies highly potent proteasome inhibitor.</PubMed_Title>
+      <Author>Stein, M.L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2012)109:18367-18371</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23091006?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with MG132</PDB_Title>
+      <PDB_ID>4NNN</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4NNN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Systematic Comparison of Peptidic Proteasome Inhibitors Highlights the alpha-Ketoamide Electrophile as an Auspicious Reversible Lead Motif.</PubMed_Title>
+      <Author>Stein, M.L., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:1679-1683</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24403024?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S Proteasome in complex with Vibralactone</PDB_Title>
+      <PDB_ID>4LQI</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4LQI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Omuralide and Vibralactone: Differences in the Proteasome-beta-Lactone-gamma-Lactam Binding Scaffold Alter Target Preferences.</PubMed_Title>
+      <Author>List, A., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:571-574</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24285701?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>20S yeast proteasome in complex with glidobactin</PDB_Title>
+      <PDB_ID>4FZG</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4FZG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>One-shot NMR analysis of microbial secretions identifies highly potent proteasome inhibitor.</PubMed_Title>
+      <Author>Stein, M.L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2012)109:18367-18371</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23091006?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the yeast 20S proteasome in complex with syringolin B</PDB_Title>
+      <PDB_ID>3GPJ</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GPJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Synthetic and structural studies on syringolin A and B reveal critical determinants of selectivity and potency of proteasome inhibition</PubMed_Title>
+      <Author>Clerc, J., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:6507-6512</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19359491?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of yeast 20S proteasome with Compound 1</PDB_Title>
+      <PDB_ID>3MG4</PDB_ID>
+      <Resolution>3.11</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MG4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of a new series of non-covalent proteasome inhibitors with exquisite potency and selectivity for the 20S beta5-subunit.</PubMed_Title>
+      <Author>Blackburn, C., et al.</Author>
+      <Journal>Biochem.J.(2010)430:461-476</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20632995?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yeast 20S proteasome:syringolin A-complex</PDB_Title>
+      <PDB_ID>2ZCY</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ZCY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A plant pathogen virulence factor inhibits the eukaryotic proteasome by a novel mechanism</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>Nature(2008)452:755-758</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18401409?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of yeast 20S proteasome in complex with spirolactacystin</PDB_Title>
+      <PDB_ID>3DY4</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DY4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of spiro beta-lactone proteasome inhibitors.</PubMed_Title>
+      <Author>Groll, M., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2008)130:14981-14983</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18928262?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast 20S proteasome with a mutation of alpha7 subunit</PDB_Title>
+      <PDB_ID>3WXR</PDB_ID>
+      <Resolution>3.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3WXR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>N-terminal alpha 7 deletion of the proteasome 20S core particle substitutes for yeast PI31 function</PubMed_Title>
+      <Author>Yashiroda, H., et al.</Author>
+      <Journal>Mol.Cell.Biol.(2015)35:141-152</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25332237?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>yCP in complex with Z-Leu-Leu-Leu-ketoaldehyde</PDB_Title>
+      <PDB_ID>4NNW</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4NNW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Systematic Comparison of Peptidic Proteasome Inhibitors Highlights the alpha-Ketoamide Electrophile as an Auspicious Reversible Lead Motif.</PubMed_Title>
+      <Author>Stein, M.L., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:1679-1683</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24403024?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1fnt</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.25.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/25/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD12320001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-04-08</Create_Date>
+</Organism_Record>

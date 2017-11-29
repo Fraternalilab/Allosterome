@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07830000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A6M8</UniProt_ID>
+  <Seq_Length>704</Seq_Length>
+  <Molecule_Weight>77581</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3836</KEGG_ID>
+  <Orthology_ID>K02355</Orthology_ID>
+  <Function_Summary>Catalyzes the GTP-dependent ribosomal translocation step during translation elongation. During this step, the ribosome changes from the pre-translocational (PRE) to the post-translocational (POST) state as the newly formed A-site-bound peptidyl-tRNA and P-site-bound deacylated tRNA move to the P and E sites, respectively. Catalyzes the coordinated movement of the two tRNA molecules, the mRNA and conformational changes in the ribosome.</Function_Summary>
+  <Pfam_ID>PF00679:EFG_C@@PF03764:EFG_IV@@PF00009:GTP_EFTU@@PF03144:GTP_EFTU_D2</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>EF-G</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Functions in chain elongation during polypeptide synthesis at the ribosome.</Detail>
+      <Keyword>Translation elongation factor activity</Keyword>
+      <Ontology_ID>GO:0003746</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: GTP + H2O = GDP + phosphate.</Detail>
+      <Keyword>GTPase activity</Keyword>
+      <Ontology_ID>GO:0003924</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with GTP, guanosine triphosphate.</Detail>
+      <Keyword>GTP binding</Keyword>
+      <Ontology_ID>GO:0005525</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA. Translation ends with the release of a polypeptide chain from the ribosome.</Detail>
+      <Keyword>Translation</Keyword>
+      <Ontology_ID>GO:0006412</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>504</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>643</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MARTTPIARYRNIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAATMDWMEQEQERGITITSAATTAFWSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVWRQANKYKVPRIAFVNKMDRMGANFLKVVNQIKTRLGANPVPLQLAIGAEEHFTGVVDLVKMKAINWNDADQGVTFEYEDIPADMVELANEWHQNLIESAAEASEELMEKYLGGEELTEAEIKGALRQRVLNNEIILVTCGSAFKNKGVQAMLDAVIDYLPSPVDVPAINGILDDGKDTPAERHASDDEPFSALAFKIATDPFVGNLTFFRVYSGVVNSGDTVLNSVKAARERFGRIVQMHANKREEIKEVRAGDIAAAIGLKDVTTGDTLCDPDAPIILERMEFPEPVISIAVEPKTKADQEKMGLALGRLAKEDPSFRVWTDEESNQTIIAGMGELHLDIIVDRMKREFNVEANVGKPQVAYRETIRQKVTDVEGKHAKQSGGRGQYGHVVIDMYPLEPGSNPKGYEFINDIKGGVIPGEYIPAVDKGIQEQLKAGPLAGYPVVDMGIRLHFGSYHDVDSSELAFKLAASIAFKEGFKKAKPVLLEPIMKVEVETPEENTGDVIGDLSRRRGMLKGQESEVTGVKIHAEVPLSEMFGYATQLRSLTKGRASYTMEFLKYDEAPSNVAQAVIEARGK</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>fusA</Gene_Name>
+    <Gene_Alias>far; fus</Gene_Alias>
+    <Gene_ID>12930395</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_417799</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947847</Gene_URL>
+    <EMBL_ID>EBESCG00000016802</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>50S subunit with EF-G(GDPNP) and RRF bound</PDB_Title>
+      <PDB_ID>2RDO</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2RDO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Specific interaction between EF-G and RRF and its implication for GTP-dependent ribosome splitting into subunits.</PubMed_Title>
+      <Author>Gao, N., et al.</Author>
+      <Journal>J.Mol.Biol.(2007)374:1345-1358</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17996252?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>All alpha proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.b.c.c.b.e.html</SCOP_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Open-Close</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD07830001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

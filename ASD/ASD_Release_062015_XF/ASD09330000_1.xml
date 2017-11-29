@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD09330000_1</Organism_ID>
+  <Organism>Streptomyces coelicolor</Organism>
+  <Organism_Latin>Streptomyces coelicolor</Organism_Latin>
+  <UniProt_ID>Q9K492</UniProt_ID>
+  <Seq_Length>254</Seq_Length>
+  <Molecule_Weight>28344</Molecule_Weight>
+  <KEGG_ID>sco:SCO5231</KEGG_ID>
+  <Orthology_ID>K03710</Orthology_ID>
+  <Function_Summary>Global regulator that is part of the nutrient-sensing system. In the absence of N-acetylglucosamine 6-P, represses the phosphotransferase system (PTS) specific for the uptake of N-acetylglucosamine (PTSNag), and genes involved in the metabolism of chitin, as well as several genes involved in development, thereby linking carbon availability to morphogenesis. Binds to the DNA consensus sequence 5'-ACTGGTCTAGACCACT-3'.</Function_Summary>
+  <Pfam_ID>PF00392:GntR@@PF07702:UTRA</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a specific DNA sequence in order to modulate transcription. The transcription factor may or may not also interact selectively with a protein or macromolecular complex.</Detail>
+      <Keyword>Sequence-specific DNA binding transcription factor activity</Keyword>
+      <Ontology_ID>GO:0003700</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSTDVSSAENEGGATVRTARVPKYYRLKKHLLDMTRTQTPGTPVPPERTLAAEFDTSRTTVRQALQELVVEGRLERIQGKGTFVAKPKVSQALQLTSYTEDMRAQGLEPTSQLLDIGYITADDRLAGLLDITAGGRVLRIERLRMANGEPMAIETTHLSAKRFPALRRSLVKYTSLYTALAEVYDVHLAEAEETIETSLATPREAGLLGTDVGLPMLMLSRHSQDRTGQPVEWVRSVYRGDRYKFVARLKRPQD</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>dasR</Gene_Name>
+    <Gene_ID>1100672</Gene_ID>
+    <Genbank_ACCN>NC_003888</Genbank_ACCN>
+    <Protein_ACCN>NP_629378</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1100672</Gene_URL>
+    <EMBL_ID>CAB94616</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of HTH-type transcriptional repressor DasR</PDB_Title>
+      <PDB_ID>ASD09330000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>?wi?tek MA, et al. J Bacteriol. 2012 Mar;194(5):1136-44.</Site_Reference>
+      <PubMed_ID>22194457</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD09330001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD80050001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

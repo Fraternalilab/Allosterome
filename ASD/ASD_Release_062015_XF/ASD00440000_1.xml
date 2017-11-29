@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00440000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P06709</UniProt_ID>
+  <Seq_Length>321</Seq_Length>
+  <Molecule_Weight>35312</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3219</KEGG_ID>
+  <Orthology_ID>K03524</Orthology_ID>
+  <Function_Summary>BirA acts both as a biotin-operon repressor and as the enzyme that synthesizes the corepressor, acetyl-CoA:carbon-dioxide ligase. This protein also activates biotin to form biotinyl-5'-adenylate and transfers the biotin moiety to biotin-accepting proteins.</Function_Summary>
+  <Catalytic_Mechanism>ATP + biotin + apo-[acetyl-CoA:carbon-dioxide ligase (ADP-forming)] = AMP + diphosphate + [acetyl-CoA:carbon-dioxide ligase (ADP-forming)].</Catalytic_Mechanism>
+  <Pfam_ID>PF02237:BPL_C@@PF03099:BPL_LplA_LipB@@PF08279:HTH_11</Pfam_ID>
+  <Allosteric_Activator_Count>3</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>4</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Biotin repressor</Alias>
+      <Alias>Biotin--protein ligase</Alias>
+      <Alias>BirA</Alias>
+      <Alias>Biotin operon repressor</Alias>
+      <Alias>Biotin--[acetyl-CoA-carboxylase] synthetase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + biotin + apo-(acetyl-CoA:carbon-dioxide ligase (ADP forming)) = AMP + diphosphate + (acetyl-CoA:carbon-dioxide ligase (ADP forming)).</Detail>
+      <Keyword>Biotin-[acetyl-CoA-carboxylase] ligase activity</Keyword>
+      <Ontology_ID>GO:0004077</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>70</Position>
+      <Original>Lys</Original>
+      <Variation>Glu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>61</Position>
+      <Original>Pro</Original>
+      <Variation>Ala</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cellular DNA-dependent transcription.</Detail>
+      <Keyword>Regulation of transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006355</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The covalent alteration of one or more amino acids occurring in proteins, peptides and nascent polypeptides (co-translational, post-translational modifications). Includes the modification of charged tRNAs that are destined to occur in a protein (pre-translation modification).</Detail>
+      <Keyword>Protein modification process</Keyword>
+      <Ontology_ID>GO:0006464</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of biotin, cis-tetrahydro-2-oxothieno(3,4-d)imidazoline-4-valeric acid.</Detail>
+      <Keyword>Biotin biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009102</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKDNTVPLKLIALLANGEFHSGEQLGETLGMSRAAINKHIQTLRDWGVDVFTVPGKGYSLPEPIQLLNAKQILGQLDGGSVAVLPVIDSTNQYLLDRIGELKSGDACIAEYQQAGRGRRGRKWFSPFGANLYLSMFWRLEQGPAAAIGLSLVIGIVMAEVLRKLGADKVRVKWPNDLYLQDRKLAGILVELTGKTGDAAQIVIGAGINMAMRRVEESVVNQGWITLQEAGINLDRNTLAAMLIRELRAALELFEQEGLAPYLSRWEKLDNFINRPVKLIIGDKEIFGISRGIDKQGALLLEQDGIIKPWMGGEISLRSAEK</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>birA</Gene_Name>
+    <Gene_Alias>bioR; dhbB</Gene_Alias>
+    <Gene_ID>12934397</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_418404</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/948469</Gene_URL>
+    <EMBL_ID>EBESCG00000013427</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>THE E. COLI BIOTIN HOLOENZYME SYNTHETASE(SLASH)BIO REPRESSOR CRYSTAL STRUCTURE DELINEATES THE BIOTIN AND DNA-BINDING DOMAINS</PDB_Title>
+      <PDB_ID>1BIB</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BIB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Escherichia coli biotin holoenzyme synthetase/bio repressor crystal structure delineates the biotin- and DNA-binding domains.</PubMed_Title>
+      <Author>Wilson KP, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 1992 Oct 1;89(19):9257-61.</Journal>
+      <PubMed_ID>1409631</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE E. COLI BIOTIN HOLOENZYME SYNTHETASE(SLASH)BIO REPRESSOR CRYSTAL STRUCTURE DELINEATES THE BIOTIN AND DNA-BINDING DOMAINS</PDB_Title>
+      <PDB_ID>1BIA</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BIA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Escherichia coli biotin holoenzyme synthetase/bio repressor crystal structure delineates the biotin- and DNA-binding domains.</PubMed_Title>
+      <Author>Wilson KP, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 1992 Oct 1;89(19):9257-61.</Journal>
+      <PubMed_ID>1409631</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ecoli Biotin Repressor with co-repressor analog</PDB_Title>
+      <PDB_ID>2EWN</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2EWN</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00440002</ASD_Ligand>
+      <PubMed_Title>Co-repressor induced order and biotin repressor dimerization: a case for divergent followed by convergent evolution.</PubMed_Title>
+      <Author>Wood ZA, et al.</Author>
+      <Journal>J Mol Biol. 2006 Mar 24;357(2):509-23.</Journal>
+      <PubMed_ID>16438984</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of E. coli BirA G142A bound to biotinol-5'-AMP</PDB_Title>
+      <PDB_ID>4WF2</PDB_ID>
+      <Resolution>2.31</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4WF2</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00440002</ASD_Ligand>
+      <PubMed_Title>Allosteric Coupling via Distant Disorder-to-Order Transitions.</PubMed_Title>
+      <Author>Eginton, C., et al.</Author>
+      <Journal>J.Mol.Biol.(2015)427:1695-1704</Journal>
+      <PubMed_ID>25746672</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF E. COLI BIOTIN REPRESSOR WITH BOUND BIOTIN</PDB_Title>
+      <PDB_ID>1HXD</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HXD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Corepressor-induced organization and assembly of the biotin repressor: a model for allosteric activation of a transcriptional regulator.</PubMed_Title>
+      <Author>Weaver LH, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2001 May 22;98(11):6045-50.</Journal>
+      <PubMed_ID>11353844</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00780</Pathway_ID>
+      <Pathway_Title>Biotin metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00780</Pathway_ID>
+      <Pathway_Title>Biotin metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.ccj.b.c.b.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1hxd</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,228,Glu;site,182,Arg;site,214,Val;site,219,Val;site,223,Trp</Site_Detail>
+      <Site_Reference>Naganathan S, et al. J Mol Biol. 2007,373(1):96-111.;Selwood T, et al. Arch Biochem Biophys. 2012,519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PDB_ID>2EWN</PDB_ID>
+      <PubMed_ID>17765263;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.3.4.15</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/3/4/15.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00440001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00440002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00440003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03570000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P47900</UniProt_ID>
+  <Seq_Length>373</Seq_Length>
+  <Molecule_Weight>42072</Molecule_Weight>
+  <KEGG_ID>hsa:5028</KEGG_ID>
+  <Orthology_ID>K04270</Orthology_ID>
+  <Function_Summary>Receptor for extracellular adenine nucleotides such as ATP and ADP. In platelets binding to ADP leads to mobilization of intracellular calcium ions via activation of phospholipase C, a change in platelet shape, and probably to platelet aggregation.</Function_Summary>
+  <Pfam_ID>PF00001:7tm_1</Pfam_ID>
+  <Allosteric_Activator_Count>34</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Purinergic receptor</Alias>
+      <Alias>ATP receptor</Alias>
+      <Alias>P2 purinoceptor subtype Y1</Alias>
+      <Alias>P2Y1 receptor</Alias>
+      <Alias>Platelet ADP receptor</Alias>
+      <Alias>P2Y1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a G-protein coupled receptor binding to its physiological ligand.</Detail>
+      <Keyword>G-protein coupled receptor protein signaling pathway</Keyword>
+      <Ontology_ID>GO:0007186</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a G-protein coupled receptor binding to its physiological ligand, followed by the activation of phospholipase C and the subsequent release of inositol trisphosphate.</Detail>
+      <Keyword>Activation of phospholipase C activity by G-protein coupled receptor protein signaling pathway coupled to IP3 second messenger</Keyword>
+      <Ontology_ID>GO:0007200</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal, e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light, and ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell, and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</Detail>
+      <Keyword>Signal transduction</Keyword>
+      <Ontology_ID>GO:0007165</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The stopping of bleeding (loss of body fluid) or the arrest of the circulation to an organ or part.</Detail>
+      <Keyword>Hemostasis</Keyword>
+      <Ontology_ID>GO:0007599</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</Detail>
+      <Keyword>Platelet activation</Keyword>
+      <Ontology_ID>GO:0030168</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The sequential process in which the multiple coagulation factors of the blood interact, ultimately resulting in the formation of an insoluble fibrin clot; it may be divided into three stages: stage 1, the formation of intrinsic and extrinsic prothrombin converting principle; stage 2, the formation of thrombin; stage 3, the formation of stable fibrin polymers.</Detail>
+      <Keyword>Blood coagulation</Keyword>
+      <Ontology_ID>GO:0007596</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>354</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>352</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTEVLWPAVPNGTDAAFLAGPGSSWGNSTVASTAAVSSSFKCALTKTGFQFYYLPAVYILVFIIGFLGNSVAIWMFVFHMKPWSGISVYMFNLALADFLYVLTLPALIFYYFNKTDWIFGDAMCKLQRFIFHVNLYGSILFLTCISAHRYSGVVYPLKSLGRLKKKNAICISVLVWLIVVVAISPILFYSGTGVRKNKTITCYDTTSDEYLRSYFIYSMCTTVAMFCVPLVLILGCYGLIVRALIYKDLDNSPLRRKSIYLVIIVLTVFAVSYIPFHVMKTMNLRARLDFQTPAMCAFNDRVYATYQVTRGLASLNSCVDPILYFLAGDTFRRRLSRATRKASRRSEANLQSKSEDMTLNILPEFKQNGDTSL</Protein_Seq>
+    <DNA_Seq>GAATTCCGTTGCTGTCGGCGGAGACCTGCTCCCCAGAAGACGCCTCCTGCTTCCCACTGCGCCCTGGAGGACGCGGGCTGGCTGCTGGGCGAGCTCGGCGGAGGCACGCCCCTCGCCTCCCCGCGGAGTGCGGACTCGCCCCGGTGCCCAAACTCCGCCCACCCTCTAGGGAGCTCCGCTCTCCCGCCTAACCCCGGCACTCCGGACAGAGCTGGGCCTGGGGAAGGGGTTCCTGAACTACGCGGACGCCGAACGGGACGCGCTGCAGAAGCGCACGAGTCTGCGGCCACGCGCGCTCCGATGGCTGCCAGGAGCTGAGCTCAGGGTGGGCGGAGGAAGCGGTTAGACGCCCCGAAACTGAGCTGCACGTTTCTAAGGTAGGGAGGAGGAAGATGCCCCCAATTAAGTTGATCTTTGAGCCAAGGAGGCTGGGGAGCAGCCTCCCCAAGCTAGAGCCCTGCAGAGCGAGTTTCCCTTGACCTCGCTGCGCCTCTGGCGGCTCTGCAGCGCGGACCCGCGGCCCCTCGGGAAAGCGCAGTCGGAAAGTTATCCGCGGCGGTTCCCTGCGCGCCCTGTTGTGTAAGCTCGGCGTTGCCAGCGGACGGAGAAGTTGCTGGCTTGCCCGATAGCCCAGTTCGGTGGCGGCCCGGGGCGGATTTCATGGCCCGCGGCGAACGCGGGGCCAGAGCTGGCGTGGGCGAGCCCCTGCGCGCCCCCTCCCGCGGGGATCCAGTTCGCCTGCTCCCTTCCGCTCGCTGGCTTTTCCGATGCTTGCTGCGCCCCTGGCCGCCGCTGCCCTCTCGCCGCCTCCTACCCCTCGGAGCCGCCGCCTAAGTCGAGGAGGAGAGAATGACCGAGGTGCTGTGGCCGGCTGTCCCCAACGGGACGGACGCTGCCTTCCTGGCCGGTCCGGGTTCGTCCTGGGGGAACAGCACGGTCGCCTCCACTGCCGCCGTCTCCTCGTCGTTCAAATGCGCCTTGACCAAGACGGGCTTCCAGTTTTACTACCTGCCGGCTGTCTACATCTTGGTATTCATCATCGGCTTCCTGGGCAACAGCGTGGCCATCTGGATGTTCGTCTTCCACATGAAGCCCTGGAGCGGCATCTCCGTGTACATGTTCAATTTGGCTCTGGCCGACTTCTTGTACGTGCTGACTCTGCCAGCCCTGATCTTCTACTACTTCAATAAAACAGACTGGATCTTCGGGGATGCCATGTGTAAACTGCAGAGGTTCATCTTTCATGTGAACCTCTATGGCATCTTGTTTCTGACATGCATCAGTGCCCACCGGTACAGCGGTGTGGTGTACCCCCTCAAGTCCCTGGGCCGGCTCAAAAAGAAGAATGCGATCTGTATCAGCGTGCTGGTGTGGCTCATTGTGGTGGTGGCGATCTCCCCCATCCTCTTCTACTCAGGTACCGGGGTCCGCAAAAACAAAACCATCACCTGTTACGACACCACCTCAGACGAGTACCTGCGAAGTTATTTCATCTACAGCATGTGCACGACCGTGGCCATGTTCTGTGTCCCCTTGGTGCTGATTCTGGGCTGTTACGGATTAATTGTGAGAGCTTTGATTTACAAAGATCTGGACAACTCTCCTCTGAGGAGAAAATCGATTTACCTGGTAATCATTGTACTGACTGTTTTTGCTGTGTCTTACATCCCTTTCCATGTGATGAAAACGATGAACTTGAGGGCCCGGCTTGATTTTCAGACCCCAGCAATGTGTGCTTTCAATGACAGGGTTTATGCCACGTATCAGGTGACAAGAGGTCTAGCAAGTCTCAACAGTTGTGTGGACCCCATTCTCTATTTCTTGGCGGGAGATACTTTCAGAAGGAGACTCTCCCGAGCCACAAGGAAAGCTTCTAGAAGAAGTGAGGCAAATTTGCAATCCAAGAGTGAAGACATGACCCTCAATATTTTACCTGAGTTCAAGCAGAATGGAGATACAAGCCTGTGAAGGCACAAGAATCTCCAAACACCTCTCTGTTGTAATATGGTAGGATGCTTAACAGAATCAAGTACTTTTCCCCTCTTTAACTTTCTAGTTTAGAAAAAAATCAAACCAAGAAAATAGTGAGTTAAAAAAATAATAGAAGTAGAAATGCCCACATCCACACTTAGCTTGTTTGGGTTTGCTTTCACAGTCTCTCTTCCTTCTGACTAGAAGTATGTATAATAAAACAATACTACCTAGTTAAACATTTACTTTCTCTTTTGCCTTTAAAATGTGCAGGCTTTTCTGTTTAAAGTGTGTGTGCACATGAGTACTGGGGCTGTTTTTGATATTAGTAATTTCTCTAAGAAAACTAGCCCCCTGCAACTTGAGTTTGTGGTTTATCTAGCCTTTATTGTTTTTTTAAAATCCACAGTAGGAATAAAAAATCTATATTCTCAGAAATATCTAGCATGGTATATAACAAAACACTAAACTCATCAGTTCATCCGGCATCAGATCAATGGATCTCTGAGCGGGGTGTTTTTTTCAGTGTCTTATAAGCATAGATGATAGTTGACTGAGTTTCTTTAGGGCATTGAATAGACAAGTAAAGCTAATGAATTTAAAAGCCTGAAAAGTGATTGTTTTCCAGTTATTTCTGGAAAAGGTCTCATTATATATTGGGTGCTAAATGTTTGATGGGGAAAGCCTGCATATATTATCGTACTGGTAAAATGCATTCAAAATAATTAAAGTGCATGTATTTTCCTTGTAAACACCATGAGCTCTCTTAGACATCTTGTGATAAAGAGCATTTACTTGCCCCACTGCTGTGCAATGCCTTAGGACTTTGTTTGTGTTCCAGGACAAGTGTTCACTCACATCTGTAAAAACAATTTTAAGAATTGCAAATAAATTACAGACCAAAGATTGAGTAAAGTCAAATAACTGTTAGTAAGTTGAAGGATATTGGACAGGAGGACAGTATTTCAGAAAAGGAGAGGTTGACAGTCATCCACAAGGCATAGCCTCCAAGTATACTCTCAAATGTATGAAGCAACTGGGGTGGGCAGAAGACATTTTAGAATGAGCGACAGCAACGGAATTC</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>P2RY1</Gene_Name>
+    <Gene_ID>5028</Gene_ID>
+    <Genbank_ACCN>NM_002563</Genbank_ACCN>
+    <Protein_ACCN>NP_002554</Protein_ACCN>
+    <HGNC_ID>8539</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5028</Gene_URL>
+    <UCSC_ID>uc003ezq.3</UCSC_ID>
+    <EMBL_ID>ENSG00000169860</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Extrapulmonary Tuberculosis</Disease_Name>
+      <Disease_Detail>Extrapulmonary Tuberculosis</Disease_Detail>
+      <Disease_DB>EXT033</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/extrapulmonary_tuberculosis?search=P2RY1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Homology model of the human P2Y1 receptor</PDB_Title>
+      <PDB_ID>1Y36</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/results/modelResults.do</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Homology model of the human P2Y1 receptor</PubMed_Title>
+      <Author>Costanzi, S.</Author>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04080</Pathway_ID>
+      <Pathway_Title>Neuroactive ligand-receptor interaction</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signaling molecules and interaction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04611</Pathway_ID>
+      <Pathway_Title>Platelet activation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01120167</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570005</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570008</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570009</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570010</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570011</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570012</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570013</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570014</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570015</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570016</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570017</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570018</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570019</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570020</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570021</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570022</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570023</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570024</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570025</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570026</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570027</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570028</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570029</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570030</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570031</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570032</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570033</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570034</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570035</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570036</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03570037</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

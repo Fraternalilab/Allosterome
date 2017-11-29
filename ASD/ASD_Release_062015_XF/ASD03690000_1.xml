@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03690000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P64530</UniProt_ID>
+  <Seq_Length>90</Seq_Length>
+  <Molecule_Weight>10134</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p2067</KEGG_ID>
+  <Function_Summary>Repressor of rcnA expression. Acts by binding specifically to the rcnA promoter in the absence of nickel and cobalt. In the presence of one of these metals, it has a weaker affinity for rcnA promoter.</Function_Summary>
+  <Pfam_ID>PF02583:Trns_repr_metal</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>RcnR</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cellular DNA-dependent transcription.</Detail>
+      <Keyword>Negative regulation of transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0045892</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSHTIRDKQKLKARASKIQGQVVALKKMLDEPHECAAVLQQIAAIRGAVNGLMREVIKGHLTEHIVHQGDELKREEDLDVVLKVLDSYIK</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>rcnR</Gene_Name>
+    <Gene_Alias>yohL</Gene_Alias>
+    <Gene_ID>12932170</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_416608</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947114</Gene_URL>
+    <EMBL_ID>EBESCG00000014997</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Transcriptional repressor rcnR</PDB_Title>
+      <PDB_ID>ASD03690000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,35,Cys;site,60,His;site,64,His;site,3,His</Site_Detail>
+      <Site_Reference>Iwig J S, et al. J Am Chem Soc. 2008,130(24):7592-7606.</Site_Reference>
+      <PubMed_ID>18505253</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02710003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03690001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

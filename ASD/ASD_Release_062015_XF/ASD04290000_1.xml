@@ -1,0 +1,844 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04290000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q07817</UniProt_ID>
+  <Seq_Length>233</Seq_Length>
+  <Molecule_Weight>26049</Molecule_Weight>
+  <KEGG_ID>hsa:598</KEGG_ID>
+  <Orthology_ID>K04570</Orthology_ID>
+  <EBI_ID>EBI-287195</EBI_ID>
+  <Function_Summary>Potent inhibitor of cell death. Inhibits activation of caspases (By similarity). Appears to regulate cell death by blocking the voltage-dependent anion channnel (VDAC) by binding to it and preventing the release of the caspase activator, CYC1, from the mitochondrial membrane. Also acts as a regulator of G2 checkpoint and progression to cytokinesis during mitosis.Isoform Bcl-X(S) promotes apoptosis.</Function_Summary>
+  <Pfam_ID>PF00452:Bcl-2@@PF02180:BH4</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Apoptosis regulator Bcl-X</Alias>
+      <Alias>Bcl2-L-1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein or proteins.</Detail>
+      <Keyword>Identical protein binding</Keyword>
+      <Ontology_ID>GO:0042802</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with the BH3 domain of a protein of the Bcl-2 family. The BH3 domain is a potent death domain and has an important role in protein-protein interactions and in cell death.</Detail>
+      <Keyword>BH3 domain binding</Keyword>
+      <Ontology_ID>GO:0051434</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a protein kinase, any enzyme that catalyzes the transfer of a phosphate group, usually from ATP, to a protein substrate.</Detail>
+      <Keyword>Protein kinase binding</Keyword>
+      <Ontology_ID>GO:0019901</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that modulates the establishment or extent of the mitochondrial membrane potential, the electric potential existing across the mitochondrial membrane arising from charges in the membrane itself and from the charges present in the media on either side of the membrane.</Detail>
+      <Keyword>Regulation of mitochondrial membrane potential</Keyword>
+      <Ontology_ID>GO:0051881</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process induced by intracellular signals that directly activates any of the steps required for cell death by apoptosis.</Detail>
+      <Keyword>Induction of apoptosis by intracellular signals</Keyword>
+      <Ontology_ID>GO:0008629</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a cytokine stimulus.</Detail>
+      <Keyword>Response to cytokine stimulus</Keyword>
+      <Ontology_ID>GO:0034097</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell death by apoptosis.</Detail>
+      <Keyword>Negative regulation of apoptosis</Keyword>
+      <Ontology_ID>GO:0043066</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cellular process resulting in the division of the cytoplasm of a cell and its separation into two daughter cells. Cytokinesis usually occurs after growth, replication, and segregation of cellular components.</Detail>
+      <Keyword>Cytokinesis</Keyword>
+      <Ontology_ID>GO:0000910</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of survival gene product expression; survival gene products are those that antagonize the apoptotic program. Regulation can be at the transcriptional, translational, or posttranslational level.</Detail>
+      <Keyword>Negative regulation of survival gene product expression</Keyword>
+      <Ontology_ID>GO:0008634</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A mitotic cell cycle checkpoint that blocks entry into M phase.</Detail>
+      <Keyword>Mitotic cell cycle G2/M transition checkpoint</Keyword>
+      <Ontology_ID>GO:0071780</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that decreases the frequency, rate or extent of the directed movement of a protein to a specific location in the plasma membrane.</Detail>
+      <Keyword>Negative regulation of establishment of protein localization in plasma membrane</Keyword>
+      <Ontology_ID>GO:0090005</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the passage or uptake of molecules by the mitochondrial membrane.</Detail>
+      <Keyword>Regulation of mitochondrial membrane permeability</Keyword>
+      <Ontology_ID>GO:0046902</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</Detail>
+      <Keyword>Innate immune response</Keyword>
+      <Ontology_ID>GO:0045087</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process that results in the movement of cytochrome c from the mitochondrial intermembrane space into the cytosol, which is an early step in apoptosis and leads to caspase activation.</Detail>
+      <Keyword>Release of cytochrome c from mitochondria</Keyword>
+      <Ontology_ID>GO:0001836</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that decreases the rate, frequency or extent of release of cytochrome c from mitochondria, the process in which cytochrome c is enabled to move from the mitochondrial intermembrane space into the cytosol, which is an early step in apoptosis and leads to caspase activation.</Detail>
+      <Keyword>Negative regulation of release of cytochrome c from mitochondria</Keyword>
+      <Ontology_ID>GO:0090201</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>49</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>62</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSQSNRELVVDFLSYKLSQKGYSWSQFSDVEENRTEAPEGTESEMETPSAINGNPSWHLADSPAVNGATGHSSSLDAREVIPMAAVKQALREAGDEFELRYRRAFSDLTSQLHITPGTAYQSFEQVVNELFRDGVNWGRIVAFFSFGGALCVESVDKEMQVLVSRIAAWMATYLNDHLEPWIQENGGWDTFVELYGNNAAAESRKGQERFNRWFLTGMTVAGVVLLGSLFSRK</Protein_Seq>
+    <DNA_Seq>GGAGGAGGAAGCAAGCGAGGGGGCTGGTTCCTGAGCTTCGCAATTCCTGTGTCGCCTTCTGGGCTCCCAGCCTGCCGGGTCGCATGATCCCTCCGGCCGGAGCTGGTTTTTTTGCCAGCCACCGCGAGGCCGGCTGAGTTACCGGCATCCCCGCAGCCACCTCCTCTCCCGACCTGTGATACAAAAGATCTTCCGGGGGCTGCACCTGCCTGCCTTTGCCTAAGGCGGATTTGAATCTCTTTCTCTCCCTTCAGAATCTTATCTTGGCTTTGGATCTTAGAAGAGAATCACTAACCAGAGACGAGACTCAGTGAGTGAGCAGGTGTTTTGGACAATGGACTGGTTGAGCCCATCCCTATTATAAAAATGTCTCAGAGCAACCGGGAGCTGGTGGTTGACTTTCTCTCCTACAAGCTTTCCCAGAAAGGATACAGCTGGAGTCAGTTTAGTGATGTGGAAGAGAACAGGACTGAGGCCCCAGAAGGGACTGAATCGGAGATGGAGACCCCCAGTGCCATCAATGGCAACCCATCCTGGCACCTGGCAGACAGCCCCGCGGTGAATGGAGCCACTGGCCACAGCAGCAGTTTGGATGCCCGGGAGGTGATCCCCATGGCAGCAGTAAAGCAAGCGCTGAGGGAGGCAGGCGACGAGTTTGAACTGCGGTACCGGCGGGCATTCAGTGACCTGACATCCCAGCTCCACATCACCCCAGGGACAGCATATCAGAGCTTTGAACAGGATACTTTTGTGGAACTCTATGGGAACAATGCAGCAGCCGAGAGCCGAAAGGGCCAGGAACGCTTCAACCGCTGGTTCCTGACGGGCATGACTGTGGCCGGCGTGGTTCTGCTGGGCTCACTCTTCAGTCGGAAATGACCAGACACTGACCATCCACTCTACCCTCCCACCCCCTTCTCTGCTCCACCACATCCTCCGTCCAGCCGCCATTGCCACCAGGAGAACCACTACATGCAGCCCATGCCCACCTGCCCATCACAGGGTTGGGCCCAGATCTGGTCCCTTGCAGCTAGTTTTCTAGAATTTATCACACTTCTGTGAGACCCCCACACCTCAGTTCCCTTGGCCTCAGAATTCACAAAATTTCCACAAAATCTGTCCAAAGGAGGCTGGCAGGTATGGAAGGGTTTGTGGCTGGGGGCAGGAGGGCCCTACCTGATTGGTGCAACCCTTACCCCTTAGCCTCCCTGAAAATGTTTTTCTGCCAGGGAGCTTGAAAGTTTTCAGAACCTCTTCCCCAGAAAGGAGACTAGATTGCCTTTGTTTTGATGTTTGTGGCCTCAGAATTGATCATTTTCCCCCCACTCTCCCCACACTAACCTGGGTTCCCTTTCCTTCCATCCCTACCCCCTAAGAGCCATTTAGGGGCCACTTTTGACTAGGGATTCAGGCTGCTTGGGATAAAGATGCAAGGACCAGGACTCCCTCCTCACCTCTGGACTGGCTAGAGTCCTCACTCCCAGTCCAAATGTCCTCCAGAAGCCTCTGGCTAGAGGCCAGCCCCACCCAGGAGGGAGGGGGCTATAGCTACAGGAAGCACCCCATGCCAAAGCTAGGGTGGCCCTTGCAGTTCAGCACCACCCTAGTCCCTTCCCCTCCCTGGCTCCCATGACCATACTGAGGGACCAACTGGGCCCAAGACAGATGCCCCAGAGCTGTTTATGGCCTCAGCTGCCTCACTTCCTACAAGAGCAGCCTGTGGCATCTTTGCCTTGGGCTGCTCCTCATGGTGGGTTCAGGGGACTCAGCCCTGAGGTGAAAGGGAGCTATCAGGAACAGCTATGGGAGCCCCAGGGTCTTCCCTACCTCAGGCAGGAAGGGCAGGAAGGAGAGCCTGCTGCATGGGGTGGGGTAGGGCTGACTAGAAGGGCCAGTCCTGCCTGGCCAGGCAGATCTGTGCCCCATGCCTGTCCAGCCTGGGCAGCCAGGCTGCCAAGGCCAGAGTGGCCTGGCCAGGAGCTCTTCAGGCCTCCCTCTCTCTTCTGCTCCACCCTTGGCCTGTCTCATCCCCAGGGGTCCCAGCCACCCCGGGCTCTCTGCTGTACATATTTGAGACTAGTTTTTATTCCTTGTGAAGATGATATACTATTTTTGTTAAGCGTGTCTGTATTTATGTGTGAGGAGCTGCTGGCTTGCAGTGCGCGTGCACGTGGAGAGCTGGTGCCCGGAGATTGGACGGCCTGATGCTCCCTCCCCTGCCCTGGTCCAGGGAAGCTGGCCGAGGGTCCTGGCTCCTGAGGGGCATCTGCCCCTCCCCCAACCCCCACCCCACACTTGTTCCAGCTCTTTGAAATAGTCTGTGTGAAGGTGAAAGTGCAGTTCAGTAATAAACTGTGTTTACTCAGTGAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Lymphocyte</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Brain</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrial outer membrane</CellLocal>
+      <Ontology_ID>GO:0005741</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoskeleton</CellLocal>
+      <Ontology_ID>GO:0005856</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Centrosome</CellLocal>
+      <Ontology_ID>GO:0005813</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nuclear membrane</CellLocal>
+      <Ontology_ID>GO:0031965</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>BCL2L1</Gene_Name>
+    <Gene_Alias>BCL2L; BCLX</Gene_Alias>
+    <Gene_ID>598</Gene_ID>
+    <Genbank_ACCN>NM_001191</Genbank_ACCN>
+    <Protein_ACCN>NP_001182</Protein_ACCN>
+    <HGNC_ID>992</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/598</Gene_URL>
+    <UCSC_ID>uc002wwl.3</UCSC_ID>
+    <EMBL_ID>ENSG00000171552</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q61337</Uniprot_ID>
+      <Gene_Name>Bad</Gene_Name>
+      <EBI_ID>EBI-400328</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-400328</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q99ML1</Uniprot_ID>
+      <Gene_Name>Bbc3</Gene_Name>
+      <EBI_ID>EBI-727801</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-727801</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9H2V7</Uniprot_ID>
+      <Gene_Name>SPNS1</Gene_Name>
+      <EBI_ID>EBI-1386527</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-1386527</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P02340</Uniprot_ID>
+      <Gene_Name>Tp53</Gene_Name>
+      <EBI_ID>EBI-474016</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-474016</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P04637</Uniprot_ID>
+      <Gene_Name>TP53</Gene_Name>
+      <EBI_ID>EBI-366083</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-366083</PPI_EBI_URL>
+      <Experiment_Number>18</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O15304</Uniprot_ID>
+      <Gene_Name>SIVA1</Gene_Name>
+      <EBI_ID>EBI-520756</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-520756</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q13323</Uniprot_ID>
+      <Gene_Name>BIK</Gene_Name>
+      <EBI_ID>EBI-700794</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-700794</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9C000</Uniprot_ID>
+      <Gene_Name>NLRP1</Gene_Name>
+      <EBI_ID>EBI-1220518</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-1220518</PPI_EBI_URL>
+      <Experiment_Number>9</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P55957</Uniprot_ID>
+      <Gene_Name>BID</Gene_Name>
+      <EBI_ID>EBI-519672</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-519672</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P10909-4</Uniprot_ID>
+      <Gene_Name>CLU</Gene_Name>
+      <EBI_ID>EBI-4322678</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-4322678</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q14457</Uniprot_ID>
+      <Gene_Name>BECN1</Gene_Name>
+      <EBI_ID>EBI-949378</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-949378</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O43521</Uniprot_ID>
+      <Gene_Name>BCL2L11</Gene_Name>
+      <EBI_ID>EBI-526406</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-526406</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O00198</Uniprot_ID>
+      <Gene_Name>HRK</Gene_Name>
+      <EBI_ID>EBI-701322</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-701322</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q92934</Uniprot_ID>
+      <Gene_Name>BAD</Gene_Name>
+      <EBI_ID>EBI-700771</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-700771</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O43521-1</Uniprot_ID>
+      <Gene_Name>BCL2L11</Gene_Name>
+      <EBI_ID>EBI-526416</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-526416</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q16611</Uniprot_ID>
+      <Gene_Name>BAK1</Gene_Name>
+      <EBI_ID>EBI-519866</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-519866</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P30429</Uniprot_ID>
+      <Gene_Name>ced-4</Gene_Name>
+      <EBI_ID>EBI-494118</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-494118</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q07812</Uniprot_ID>
+      <Gene_Name>BAX</Gene_Name>
+      <EBI_ID>EBI-516580</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-516580</PPI_EBI_URL>
+      <Experiment_Number>11</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O15304-1</Uniprot_ID>
+      <Gene_Name>SIVA1</Gene_Name>
+      <EBI_ID>EBI-520766</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-520766</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9BXH1</Uniprot_ID>
+      <Gene_Name>BBC3</Gene_Name>
+      <EBI_ID>EBI-519884</EBI_ID>
+      <PPI_EBI_URL>EBI-287195,EBI-519884</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Extramedullary Plasmacytoma</Disease_Name>
+      <Disease_Detail>Extramedullary Plasmacytoma</Disease_Detail>
+      <Disease_DB>EXT010</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/extramedullary_plasmacytoma?search=BCL2L1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Prostate Cancer</Disease_Name>
+      <Disease_Detail>Prostate Cancer</Disease_Detail>
+      <Disease_DB>PRS040</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/prostate_cancer?search=BCL2L1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Maxillary Sinus Squamous Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Maxillary Sinus Squamous Cell Carcinoma</Disease_Detail>
+      <Disease_DB>MXL004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/maxillary_sinus_squamous_cell_carcinoma?search=BCL2L1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colorectal Cancer</Disease_Name>
+      <Disease_Detail>Colorectal Cancer</Disease_Detail>
+      <Disease_DB>CLR023</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colorectal_cancer?search=BCL2L1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dysembryoplastic Neuroepithelial Tumor</Disease_Name>
+      <Disease_Detail>Dysembryoplastic Neuroepithelial Tumor</Disease_Detail>
+      <Disease_DB>DYS006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dysembryoplastic_neuroepithelial_tumor?search=BCL2L1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myeloma</Disease_Name>
+      <Disease_Detail>Myeloma</Disease_Detail>
+      <Disease_DB>MYL007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myeloma?search=BCL2L1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Alk-Negative Anaplastic Large Cell Lymphoma</Disease_Name>
+      <Disease_Detail>Alk-Negative Anaplastic Large Cell Lymphoma</Disease_Detail>
+      <Disease_DB>ALK016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/alk_negative_anaplastic_large_cell_lymphoma?search=BCL2L1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Natural Killer Cell Leukemia</Disease_Name>
+      <Disease_Detail>Natural Killer Cell Leukemia</Disease_Detail>
+      <Disease_DB>NTR003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/natural_killer_cell_leukemia?search=BCL2L1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pancreatic Cancer</Disease_Name>
+      <Disease_Detail>Pancreatic Cancer</Disease_Detail>
+      <Disease_DB>PNC035</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pancreatic_cancer?search=BCL2L1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>COMPLEX OF BCL-XL WITH PEPTIDE FROM BAD</PDB_Title>
+      <PDB_ID>1G5J</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G5J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Rationale for Bcl-xL/Bad peptide complex formation from structure, mutagenesis, and biophysical studies.</PubMed_Title>
+      <Author>Petros, A.M., et al.</Author>
+      <Journal>Protein Sci.(2000)9:2528-2534</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11206074?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of the anti-apoptotic protein Bcl-xL in complex with an acyl-sulfonamide-based ligand</PDB_Title>
+      <PDB_ID>2O1Y</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2O1Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Studies Leading to Potent, Dual Inhibitors of Bcl-2 and Bcl-xL.</PubMed_Title>
+      <Author>Bruncko, M., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:641-662</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17256834?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Bcl-xL in complex with the BaxBH3 domain</PDB_Title>
+      <PDB_ID>3PL7</PDB_ID>
+      <Resolution>2.61</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PL7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mutation to Bax beyond the BH3 domain disrupts interactions with pro-survival proteins and promotes apoptosis</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Bcl-XL 3D Domain Swapped Dimer</PDB_Title>
+      <PDB_ID>2B48</PDB_ID>
+      <Resolution>3.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2B48</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>BCL-X(L) Dimerization by Three-dimensional Domain Swapping.</PubMed_Title>
+      <Author>O'Neill, J.W., et al.</Author>
+      <Journal>J.Mol.Biol.(2006)356:367-381</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16368107?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of the Bcl-xL/Beclin-1 complex</PDB_Title>
+      <PDB_ID>2PON</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PON</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular Basis of Bcl-xL's Target Recognition Versatility Revealed by the Structure of Bcl-xL in Complex with the BH3 Domain of Beclin-1.</PubMed_Title>
+      <Author>Feng, W., et al.</Author>
+      <Journal>J.Mol.Biol.(2007)372:223-235</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17659302?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NMR STRUCTURE of Bcl-XL</PDB_Title>
+      <PDB_ID>2LPC</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2LPC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>NMR Solution Structure of a Photoswitchable Apoptosis Activating Bak Peptide Bound to Bcl-x(L).</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>alpha/beta foldamer in complex with Bcl-xL</PDB_Title>
+      <PDB_ID>3FDM</PDB_ID>
+      <Resolution>2.26</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FDM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>High-Resolution Structural Characterization of a Helical alpha/beta-Peptide Foldamer Bound to the Anti-Apoptotic Protein Bcl-x(L)</PubMed_Title>
+      <Author>Lee, E.F., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2009)48:4318-4322</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19229915?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of the anti-apoptotic protein Bcl-xL in complex with an acyl-sulfonamide-based ligand</PDB_Title>
+      <PDB_ID>2O2M</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2O2M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Studies Leading to Potent, Dual Inhibitors of Bcl-2 and Bcl-xL.</PubMed_Title>
+      <Author>Bruncko, M., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:641-662</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17256834?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Bcl-xL containing a Trp to Ala mutation at position 137</PDB_Title>
+      <PDB_ID>3CVA</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CVA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A conserved hydrophobic core at Bcl-x(L) mediates its structural stability and binding affinity with BH3-domain peptide of pro-apoptotic protein</PubMed_Title>
+      <Author>Feng, Y., et al.</Author>
+      <Journal>Arch.Biochem.Biophys.(2009)484:46-54</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19161970?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of alpha-beta foldamer 4c in complex with Bcl-xL</PDB_Title>
+      <PDB_ID>4A1W</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4A1W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Evaluation of Diverse Alpha/Beta-Backbone Patterns for Functional Alpha-Helix Mimicry: Analogues of the Bim Bh3 Domain.</PubMed_Title>
+      <Author>Boersma, M.D., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2012)134:315</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22040025?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of the anti-apoptotic protein Bcl-xL complexed with an acyl-sulfonamide-based ligand</PDB_Title>
+      <PDB_ID>1YSN</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YSN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An inhibitor of Bcl-2 family proteins induces regression of solid tumours</PubMed_Title>
+      <Author>Oltersdorf, T., et al.</Author>
+      <Journal>Nature(2005)435:677-681</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15902208?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the Bcl-XL:Beclin 1 complex</PDB_Title>
+      <PDB_ID>2P1L</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2P1L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the Bcl-XL-Beclin 1 peptide complex: Beclin 1 is a novel BH3-only protein</PubMed_Title>
+      <Author>Oberstein, A., et al.</Author>
+      <Journal>J.Biol.Chem.(2007)282:13123-13132</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17337444?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Bcl-XL containing an Ala to Leu mutation at position 142</PDB_Title>
+      <PDB_ID>1R2H</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1R2H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bcl-XL mutations suppress cellular sensitivity to antimycin A.</PubMed_Title>
+      <Author>Manion, M.K., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:2159-2165</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14534311?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution Structure of the Anti-apoptotic Protein Bcl-xL in Complex with SAR by NMR Ligands</PDB_Title>
+      <PDB_ID>1YSG</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YSG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An inhibitor of Bcl-2 family proteins induces regression of solid tumours</PubMed_Title>
+      <Author>Oltersdorf, T., et al.</Author>
+      <Journal>Nature(2005)435:677-681</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15902208?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of Human Bcl-XL at 1.95 Angstroms</PDB_Title>
+      <PDB_ID>1R2D</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1R2D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bcl-XL mutations suppress cellular sensitivity to antimycin A.</PubMed_Title>
+      <Author>Manion, M.K., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:2159-2165</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14534311?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF BCL-XL/BAK PEPTIDE COMPLEX, NMR, MINIMIZED AVERAGE STRUCTURE</PDB_Title>
+      <PDB_ID>1BXL</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BXL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of Bcl-xL-Bak peptide complex: recognition between regulators of apoptosis.</PubMed_Title>
+      <Author>Sattler, M., et al.</Author>
+      <Journal>Science(1997)275:983-986</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9020082?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of the anti-apoptotic protein Bcl-xL in complex with an acyl-sulfonamide-based ligand</PDB_Title>
+      <PDB_ID>1YSI</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YSI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An inhibitor of Bcl-2 family proteins induces regression of solid tumours</PubMed_Title>
+      <Author>Oltersdorf, T., et al.</Author>
+      <Journal>Nature(2005)435:677-681</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15902208?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PUMA BH3 FOLDAMER IN COMPLEX WITH BCL-XL</PDB_Title>
+      <PDB_ID>2YJ1</PDB_ID>
+      <Resolution>2.24</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YJ1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis of Bcl-Xl Recognition by a Bh3-Mimetic Alpha-Beta-Peptide Generated Via Sequence-Based Design</PubMed_Title>
+      <Author>Lee, E.F., et al.</Author>
+      <Journal>Chembiochem(2011)12:2025</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21744457?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of alpha-beta-foldamer 2c in complex with Bcl-xL</PDB_Title>
+      <PDB_ID>4A1U</PDB_ID>
+      <Resolution>1.54</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4A1U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Evaluation of Diverse Alpha/Beta-Backbone Patterns for Functional Alpha-Helix Mimicry: Analogues of the Bim Bh3 Domain.</PubMed_Title>
+      <Author>Boersma, M.D., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2012)134:315</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22040025?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Bcl-xL in complex with ABT-737</PDB_Title>
+      <PDB_ID>2YXJ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YXJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of ABT-737 complexed with Bcl-xL: implications for selectivity of antagonists of the Bcl-2 family</PubMed_Title>
+      <Author>Lee, E.F., et al.</Author>
+      <Journal>Cell Death Differ.(2007)14:1711-1713</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17572662?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human SOUL BH3 domain in complex with Bcl-xL</PDB_Title>
+      <PDB_ID>3R85</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3R85</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural changes in the BH3 domain of SOUL protein upon interaction with the anti-apoptotic protein Bcl-xL.</PubMed_Title>
+      <Author>Ambrosi, E., et al.</Author>
+      <Journal>Biochem.J.(2011)438:291-301</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21639858?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NMR STRUCTURE OF BCL-XL, AN INHIBITOR OF PROGRAMMED CELL DEATH, MINIMIZED AVERAGE STRUCTURE</PDB_Title>
+      <PDB_ID>1LXL</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LXL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray and NMR structure of human Bcl-xL, an inhibitor of programmed cell death.</PubMed_Title>
+      <Author>Muchmore, S.W., et al.</Author>
+      <Journal>Nature(1996)381:335-341</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8692274?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Bcl-XL containing a Phe to Trp mutation at position 97</PDB_Title>
+      <PDB_ID>1R2G</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1R2G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bcl-XL mutations suppress cellular sensitivity to antimycin A.</PubMed_Title>
+      <Author>Manion, M.K., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:2159-2165</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14534311?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-RAY STRUCTURE OF BCL-XL, AN INHIBITOR OF PROGRAMMED CELL DEATH</PDB_Title>
+      <PDB_ID>1MAZ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MAZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray and NMR structure of human Bcl-xL, an inhibitor of programmed cell death.</PubMed_Title>
+      <Author>Muchmore, S.W., et al.</Author>
+      <Journal>Nature(1996)381:335-341</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8692274?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>BimL12F in complex with Bcl-xL</PDB_Title>
+      <PDB_ID>3IO8</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3IO8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational changes in Bcl-2 pro-survival proteins determine their capacity to bind ligands.</PubMed_Title>
+      <Author>Lee, E.F., et al.</Author>
+      <Journal>J.Biol.Chem.(2009)284:30508-30517</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19726685?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Bcl-XL containing a Glu to Leu mutation at position 92</PDB_Title>
+      <PDB_ID>1R2E</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1R2E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bcl-XL mutations suppress cellular sensitivity to antimycin A.</PubMed_Title>
+      <Author>Manion, M.K., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:2159-2165</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14534311?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of the anti-apoptotic protein Bcl-xL in complex with an acyl-sulfonamide-based ligand</PDB_Title>
+      <PDB_ID>2O2N</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2O2N</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Studies Leading to Potent, Dual Inhibitors of Bcl-2 and Bcl-xL.</PubMed_Title>
+      <Author>Bruncko, M., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:641-662</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17256834?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Bcl-XL containing a Phe to Leu mutation at position 146</PDB_Title>
+      <PDB_ID>1R2I</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1R2I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bcl-XL mutations suppress cellular sensitivity to antimycin A.</PubMed_Title>
+      <Author>Manion, M.K., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:2159-2165</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14534311?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Bim BH3 peptide in complex with Bcl-xL</PDB_Title>
+      <PDB_ID>3FDL</PDB_ID>
+      <Resolution>1.78</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FDL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>High-Resolution Structural Characterization of a Helical alpha/beta-Peptide Foldamer Bound to the Anti-Apoptotic Protein Bcl-x(L)</PubMed_Title>
+      <Author>Lee, E.F., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2009)48:4318-4322</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19229915?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Bcl-xL in complex with a Quinazoline sulfonamide inhibitor</PDB_Title>
+      <PDB_ID>3QKD</PDB_ID>
+      <Resolution>2.02</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QKD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Quinazoline sulfonamides as dual binders of the proteins B-cell lymphoma 2 and B-cell lymphoma extra long with potent proapoptotic cell-based activity.</PubMed_Title>
+      <Author>Sleebs, B.E., et al.</Author>
+      <Journal>J.Med.Chem.(2011)54:1914-1926</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21366295?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of BCL-XL in complex with W1191542</PDB_Title>
+      <PDB_ID>3INQ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3INQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational changes in BCL-2 pro-survival proteins determine their capacity to bind ligands</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04210</Pathway_ID>
+      <Pathway_Title>Apoptosis</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05014</Pathway_ID>
+      <Pathway_Title>Amyotrophic lateral sclerosis (ALS)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04014</Pathway_ID>
+      <Pathway_Title>Ras signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05212</Pathway_ID>
+      <Pathway_Title>Pancreatic cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05220</Pathway_ID>
+      <Pathway_Title>Chronic myeloid leukemia</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05220</Pathway_ID>
+      <Pathway_Title>Chronic myeloid leukemia</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05202</Pathway_ID>
+      <Pathway_Title>Transcriptional misregulation in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04630</Pathway_ID>
+      <Pathway_Title>Jak-STAT signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04151</Pathway_ID>
+      <Pathway_Title>PI3K-Akt signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05166</Pathway_ID>
+      <Pathway_Title>HTLV-I infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05212</Pathway_ID>
+      <Pathway_Title>Pancreatic cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04064</Pathway_ID>
+      <Pathway_Title>NF-kappa B signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04064</Pathway_ID>
+      <Pathway_Title>NF-kappa B signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05222</Pathway_ID>
+      <Pathway_Title>Small cell lung cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04064</Pathway_ID>
+      <Pathway_Title>NF-kappa B signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04151</Pathway_ID>
+      <Pathway_Title>PI3K-Akt signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Membrane and cell surface proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.g.b.e.b.c.html</SCOP_URL>
+    <CATH_Class>Class 1: Mainly Alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1maz</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>oligomerization</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

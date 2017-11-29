@@ -1,0 +1,996 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00230000_2</Organism_ID>
+  <Organism>Mouse</Organism>
+  <Organism_Latin>Mus musculus</Organism_Latin>
+  <UniProt_ID>P21836</UniProt_ID>
+  <Seq_Length>614</Seq_Length>
+  <Molecule_Weight>68169</Molecule_Weight>
+  <KEGG_ID>mmu:11423</KEGG_ID>
+  <Orthology_ID>K01049</Orthology_ID>
+  <Function_Summary>Terminates signal transduction at the neuromuscular junction by rapid hydrolysis of the acetylcholine released into the synaptic cleft.</Function_Summary>
+  <Catalytic_Mechanism>Acetylcholine + H(2)O = choline + acetate.</Catalytic_Mechanism>
+  <Pfam_ID>PF08674:AChE_tetra@@PF00135:COesterase</Pfam_ID>
+  <Allosteric_Activator_Count>3</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>11</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>10</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>AChE</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: acetylcholine + H2O = choline + acetate.</Detail>
+      <Keyword>Acetylcholinesterase activity</Keyword>
+      <Ontology_ID>GO:0003990</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a substrate by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine hydrolase activity</Keyword>
+      <Ontology_ID>GO:0017171</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: a carboxylic ester + H2O = an alcohol + a carboxylic anion.</Detail>
+      <Keyword>Carboxylesterase activity</Keyword>
+      <Ontology_ID>GO:0004091</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving choline (2-hydroxyethyltrimethylammonium), an amino alcohol that occurs widely in living organisms as a constituent of certain types of phospholipids and in the neurotransmitter acetylcholine.</Detail>
+      <Keyword>Choline metabolic process</Keyword>
+      <Ontology_ID>GO:0019695</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of communication from a neuron to another neuron across a synapse using the neurotransmitter acetylcholine.</Detail>
+      <Keyword>Synaptic transmission, cholinergic</Keyword>
+      <Ontology_ID>GO:0007271</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of any of a group of substances that are released on excitation from the axon terminal of a presynaptic neuron of the central or peripheral nervous system and travel across the synaptic cleft to either excite or inhibit the target cell.</Detail>
+      <Keyword>Neurotransmitter catabolic process</Keyword>
+      <Ontology_ID>GO:0042135</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate, or extent of receptor recycling.</Detail>
+      <Keyword>Regulation of receptor recycling</Keyword>
+      <Ontology_ID>GO:0001919</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of axonogenesis, the generation of an axon, the long process of a neuron.</Detail>
+      <Keyword>Regulation of axonogenesis</Keyword>
+      <Ontology_ID>GO:0050770</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the retina over time, from its formation to the mature structure. The retina is the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates.</Detail>
+      <Keyword>Retina development in camera-type eye</Keyword>
+      <Ontology_ID>GO:0060041</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The formation of a protein tetramer, a macromolecular structure consisting of four noncovalently associated identical or nonidentical subunits.</Detail>
+      <Keyword>Protein tetramerization</Keyword>
+      <Ontology_ID>GO:0051262</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of acetylcholine, the acetic acid ester of the organic base choline.</Detail>
+      <Keyword>Acetylcholine catabolic process</Keyword>
+      <Ontology_ID>GO:0006581</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The aggregation, arrangement and bonding together of a set of components to form a synapse.</Detail>
+      <Keyword>Synapse assembly</Keyword>
+      <Ontology_ID>GO:0007416</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of dendrite morphogenesis.</Detail>
+      <Keyword>Regulation of dendrite morphogenesis</Keyword>
+      <Ontology_ID>GO:0048814</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of neurotransmitter receptors.</Detail>
+      <Keyword>Neurotransmitter receptor biosynthetic process</Keyword>
+      <Ontology_ID>GO:0045212</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A receptor-mediated endocytosis process that results in the movement of receptors from the plasma membrane to the inside of the cell. The process begins when cell surface receptors are monoubiquitinated following ligand-induced activation; receptors are subsequently taken up into endocytic vesicles and targeted to the lysosome or vacuole for degradation. Receptor internalization serves as a mechanism to downregulate receptor signaling.</Detail>
+      <Keyword>Receptor internalization</Keyword>
+      <Ontology_ID>GO:0031623</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of an osteoblast over time, from its formation to the mature structure. Osteoblast development does not include the steps involved in committing a cranial neural crest cell or an osteoprogenitor cell to an osteoblast fate. An osteoblast is a cell that gives rise to bone.</Detail>
+      <Keyword>Osteoblast development</Keyword>
+      <Ontology_ID>GO:0002076</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MRPPWYPLHTPSLAFPLLFLLLSLLGGGARAEGREDPQLLVRVRGGQLRGIRLKAPGGPVSAFLGIPFAEPPVGSRRFMPPEPKRPWSGVLDATTFQNVCYQYVDTLYPGFEGTEMWNPNRELSEDCLYLNVWTPYPRPASPTPVLIWIYGGGFYSGAASLDVYDGRFLAQVEGAVLVSMNYRVGTFGFLALPGSREAPGNVGLLDQRLALQWVQENIAAFGGDPMSVTLFGESAGAASVGMHILSLPSRSLFHRAVLQSGTPNGPWATVSAGEARRRATLLARLVGCPPGGAGGNDTELIACLRTRPAQDLVDHEWHVLPQESIFRFSFVPVVDGDFLSDTPEALINTGDFQDLQVLVGVVKDEGSYFLVYGVPGFSKDNESLISRAQFLAGVRIGVPQASDLAAEAVVLHYTDWLHPEDPTHLRDAMSAVVGDHNVVCPVAQLAGRLAAQGARVYAYIFEHRASTLTWPLWMGVPHGYEIEFIFGLPLDPSLNYTTEERIFAQRLMKYWTNFARTGDPNDPRDSKSPQWPPYTTAAQQYVSLNLKPLEVRRGLRAQTCAFWNRFLPKLLSATDTLDEAERQWKAEFHRWSSYMVHWKNQFDHYSKQERCSDL</Protein_Seq>
+    <DNA_Seq>GGGCTGTCACTGTCGGCTCAGCCTGCGCCGGGGAACATTGGCCGCCTCCAGCTCCCGGCGCGGCCCGACCCGGCCCGGCTTGGCCGCCTCAGACACCAGCCTGTCCTGGCAGTCATGAGGCCTCCCTGGTATCCCCTGCATACACCTTCCCTGGCTTTTCCACTCCTCTTCCTCCTCCTCTCCCTCCTGGGAGGAGGGGCAAGGGCTGAGGGCCGGGAAGACCCGCAGCTGCTGGTGAGGGTTCGAGGGGGCCAGCTGAGGGGCATCCGCCTGAAGGCCCCTGGAGGCCCAGTCTCAGCTTTTCTGGGCATCCCCTTTGCAGAGCCACCTGTGGGCTCACGTAGATTTATGCCACCAGAGCCCAAGCGGCCCTGGTCAGGAGTGTTGGATGCTACCACCTTCCAAAATGTCTGCTACCAGTACGTGGACACCCTGTACCCTGGGTTTGAGGGTACTGAGATGTGGAACCCCAACCGAGAGTTGAGTGAAGACTGCCTGTATCTTAATGTGTGGACACCATACCCCAGACCTGCTTCTCCCACACCTGTCCTCATCTGGATCTATGGGGGTGGTTTCTACAGCGGAGCGGCCTCCTTGGATGTGTATGACGGCCGTTTCCTGGCCCAGGTTGAGGGAGCTGTGTTGGTATCTATGAACTACCGAGTGGGAACCTTTGGCTTCTTGGCCCTACCAGGAAGCAGAGAAGCCCCTGGCAATGTAGGTCTGCTGGATCAACGGCTTGCCTTGCAATGGGTGCAAGAAAATATTGCAGCCTTTGGGGGCGACCCGATGTCAGTGACTCTGTTTGGGGAGAGTGCGGGTGCAGCCTCCGTGGGCATGCACATACTGTCCCTGCCCAGCAGGAGCCTCTTCCACAGGGCTGTCCTCCAGAGTGGCACACCCAATGGGCCCTGGGCCACTGTGAGTGCTGGAGAGGCCAGGCGCAGGGCCACACTGCTGGCCCGCCTTGTGGGCTGTCCCCCAGGTGGCGCTGGTGGCAATGACACCGAGCTGATAGCCTGCTTGAGGACAAGGCCCGCTCAGGACCTGGTGGACCACGAGTGGCACGTCCTGCCTCAAGAAAGTATCTTCCGATTTTCCTTCGTGCCTGTGGTAGACGGGGACTTCCTCAGTGACACACCGGAGGCTCTCATCAATACTGGAGATTTTCAAGACCTGCAGGTGCTGGTGGGTGTGGTGAAGGACGAGGGCTCCTACTTTCTGGTTTACGGGGTCCCAGGCTTCAGCAAAGACAATGAATCTCTCATCAGCCGGGCCCAGTTCCTGGCTGGGGTGCGGATCGGTGTACCCCAAGCAAGTGACCTGGCAGCCGAGGCTGTGGTCCTGCATTACACAGACTGGCTGCACCCTGAGGACCCTACTCACCTGAGAGATGCCATGAGTGCAGTGGTAGGCGACCACAACGTTGTGTGCCCTGTGGCCCAGCTGGCTGGGCGACTGGCTGCCCAAGGGGCCCGGGTCTATGCCTACATCTTTGAACACCGTGCCTCCACACTGACTTGGCCCCTCTGGATGGGGGTGCCCCATGGCTATGAAATCGAGTTCATCTTTGGGCTCCCCCTGGATCCCTCGCTGAACTACACCACGGAGGAGAGGATCTTTGCTCAGCGACTTATGAAATACTGGACCAATTTTGCCCGCACAGGGGACCCCAATGACCCTCGAGACTCCAAATCTCCACAGTGGCCACCGTACACCACTGCCGCGCAGCAATATGTGAGCCTGAACCTGAAGCCCTTAGAGGTGCGGCGGGGACTGCGCGCCCAGACCTGCGCCTTCTGGAATCGCTTTCTCCCCAAATTGCTCAGCGCCACCGATACTCTGGACGAGGCGGAGCGCCAGTGGAAGGCCGAGTTCCACCGCTGGAGCTCCTACATGGTGCACTGGAAGAACCAGTTCGACCACTATAGCAAGCAGGAGCGCTGCTCAGACCTGTGACCCCTTGGGGGACCCCAGGTCCTGCCGCCCTGCCCGAGCCCCTAGCTGTATATACACTATTTATTTAAGGGCTGGGATATAATACGACCGAGCCCCCAGGCCCTGTCCACTCCTCCCCGACTTCCTCCCACTAGGGGCTCCCCATCTTCTGCATGTCTTGGGCTAAGCTCCCCTCCCCGCGGTGCCTTCGCCCCTCTGGGCCGCCAATAAACTGTTACAGCCACC</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Dendrite</CellLocal>
+      <Ontology_ID>GO:0030425</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell junction</CellLocal>
+      <Ontology_ID>GO:0030054</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Neuromuscular junction</CellLocal>
+      <Ontology_ID>GO:0031594</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell surface</CellLocal>
+      <Ontology_ID>GO:0009986</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Anchored to membrane</CellLocal>
+      <Ontology_ID>GO:0031225</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Basal lamina</CellLocal>
+      <Ontology_ID>GO:0005605</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Secreted</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular space</CellLocal>
+      <Ontology_ID>GO:0005615</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Golgi apparatus</CellLocal>
+      <Ontology_ID>GO:0005794</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Perinuclear region of cytoplasm</CellLocal>
+      <Ontology_ID>GO:0048471</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Presynaptic membrane</CellLocal>
+      <Ontology_ID>GO:0042734</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Axon</CellLocal>
+      <Ontology_ID>GO:0030424</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Synapse</CellLocal>
+      <Ontology_ID>GO:0045202</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Postsynaptic membrane</CellLocal>
+      <Ontology_ID>GO:0045211</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum lumen</CellLocal>
+      <Ontology_ID>GO:0005788</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular region</CellLocal>
+      <Ontology_ID>GO:0005576</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>Ache</Gene_Name>
+    <Gene_ID>11423</Gene_ID>
+    <Genbank_ACCN>NM_009599</Genbank_ACCN>
+    <Protein_ACCN>NP_033729</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/11423</Gene_URL>
+    <EMBL_ID>ENSMUSG00000023328</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Structure of mouse Acetylcholinesterase complex with Huprine derivative</PDB_Title>
+      <PDB_ID>4A16</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4A16</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Huprine Derivatives as Sub-Nanomolar Human Acetylcholinesterase Inhibitors: From Rational Design to Validation by X-Ray Crystallography.</PubMed_Title>
+      <Author>Ronco, C., et al.</Author>
+      <Journal>Chemmedchem(2012)7:400</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22052791?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mutant S203A of mouse acetylcholinesterase complexed with acetylcholine</PDB_Title>
+      <PDB_ID>2HA4</PDB_ID>
+      <Resolution>2.56</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HA4</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00230019</ASD_Ligand>
+      <PubMed_Title>Substrate and product trafficking through the active center gorge of acetylcholinesterase analyzed by crystallography and equilibrium binding</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:29256-29267</Journal>
+      <PubMed_ID>16837465</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Mus musculus Acetylcholinesterase in Complex with Obidoxime</PDB_Title>
+      <PDB_ID>2GYW</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GYW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of acetylcholinesterase in complex with HI-6, Ortho-7 and obidoxime: Structural basis for differences in the ability to reactivate tabun conjugates.</PubMed_Title>
+      <Author>Ekstrom, F., et al.</Author>
+      <Journal>Biochem.Pharm.(2006)72:597-607</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16876764?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MUS MUSCULUS ACETYLCHOLINESTERASE IN COMPLEX WITH AMTS13</PDB_Title>
+      <PDB_ID>2WLS</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WLS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Selective and Irreversible Inhibitors of Mosquito Acetylcholinesterases for Controlling Malaria and Other Mosquito-Borne Diseases.</PubMed_Title>
+      <Author>Pang, Y.P., et al.</Author>
+      <Journal>Plos One(2009)4:E6851-e6851</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19714254?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Mus musculus Acetylcholinesterase in complex with Ortho-7</PDB_Title>
+      <PDB_ID>2GYV</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GYV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of acetylcholinesterase in complex with HI-6, Ortho-7 and obidoxime: Structural basis for differences in the ability to reactivate tabun conjugates.</PubMed_Title>
+      <Author>Ekstrom, F., et al.</Author>
+      <Journal>Biochem.Pharm.(2006)72:597-607</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16876764?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE MACHE-Y337A MUTANT IN COMPLEX WITH SOAKED TZ2PA6 ANTI-SYN INHIBITORS</PDB_Title>
+      <PDB_ID>2XUQ</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XUQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Remodeling of Femtomolar Inhibitor-Acetylcholinesterase Complexes in the Crystalline State</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:18292-18300</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21090615?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MACHE-Y337A MUTANT IN COMPLEX WITH SOAKED TZ2PA6 ANTI INHIBITOR</PDB_Title>
+      <PDB_ID>2XUO</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XUO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Remodeling of Femtomolar Inhibitor-Acetylcholinesterase Complexes in the Crystalline State</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:18292-18300</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21090615?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FASCICULIN2-MOUSE ACETYLCHOLINESTERASE COMPLEX</PDB_Title>
+      <PDB_ID>1MAH</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MAH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Acetylcholinesterase inhibition by fasciculin: crystal structure of the complex.</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(1995)83:503-512</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8521480?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ACETYLCHOLINESTERASE IN COMPLEX WITH K027</PDB_Title>
+      <PDB_ID>2WHR</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WHR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of Hi-6Sarin-Acetylcholinesterase Determined by X-Ray Crystallography and Molecular Dynamics Simulation: Reactivator Mechanism and Design.</PubMed_Title>
+      <Author>Ekstrom, F., et al.</Author>
+      <Journal>Plos One(2009)4:E5957-e5957</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19536291?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NONAGED FORM OF MOUSE ACETYLCHOLINESTERASE INHIBITED BY SARIN-UPDATE</PDB_Title>
+      <PDB_ID>2Y2V</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Y2V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Methylphosphonate Adducts of Acetylcholinesterase Investigated by Time Correlated Single Photon Counting and X-Ray Crystallography</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Non-Aged Form of Mouse Acetylcholinesterase Inhibited by Tabun- Update</PDB_Title>
+      <PDB_ID>3DL4</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DL4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Aging of Cholinesterases Phosphylated by Tabun Proceeds through O-Dealkylation.</PubMed_Title>
+      <Author>Carletti, E., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2008)130:16011-16020</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18975951?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Mus musculus Acetylcholinesterase in complex with racemic C5685</PDB_Title>
+      <PDB_ID>4A23</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4A23</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Targeting Acetylcholinesterase: Identification of Chemical Leads by High Throughput Screening, Structure Determination and Molecular Modeling.</PubMed_Title>
+      <Author>Berg, L., et al.</Author>
+      <Journal>Plos One(2011)6:26039</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22140425?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Mus musculus Acetylcholinesterase in complex with (R)-C5685 at 2.5 A resolution.</PDB_Title>
+      <PDB_ID>4ARA</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4ARA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Similar But Different: Thermodynamic and Structural Characterization of a Pair of Enantiomers Binding to Acetylcholinesterase.</PubMed_Title>
+      <Author>Berg, L., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2012)51:12716</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23161758?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Mus musculus Acetylcholinesterase in complex with HI-6</PDB_Title>
+      <PDB_ID>2GYU</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GYU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of acetylcholinesterase in complex with HI-6, Ortho-7 and obidoxime: Structural basis for differences in the ability to reactivate tabun conjugates.</PubMed_Title>
+      <Author>Ekstrom, F., et al.</Author>
+      <Journal>Biochem.Pharm.(2006)72:597-607</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16876764?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the mouse acetylcholinesterase-TZ2PA6 anti complex</PDB_Title>
+      <PDB_ID>1Q84</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Q84</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Freeze-frame inhibitor captures acetylcholinesterase in a unique conformation.</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2004)101:1449-1454</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14757816?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ELECTROPHORUS ELECTRICUS ACETYLCHOLINESTERASE</PDB_Title>
+      <PDB_ID>1C2B</PDB_ID>
+      <Resolution>4.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1C2B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational flexibility of the acetylcholinesterase tetramer suggested by x-ray crystallography.</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(1999)274:30370-30376</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10521413?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MACHE-Y337A-TZ2PA6 ANTI COMPLEX (10 MTH)</PDB_Title>
+      <PDB_ID>2XUH</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XUH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Remodeling of Femtomolar Inhibitor-Acetylcholinesterase Complexes in the Crystalline State</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:18292-18300</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21090615?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the mouse acetylcholinesterase-decidium complex</PDB_Title>
+      <PDB_ID>1J07</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1J07</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00230007</ASD_Ligand>
+      <PubMed_Title>Structural insights into ligand interactions at the acetylcholinesterase peripheral anionic site</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>EMBO J.(2003)22:1-12</Journal>
+      <PubMed_ID>12505979</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MACHE-Y337A-TZ2PA6 SYN COMPLEX (1 MTH)</PDB_Title>
+      <PDB_ID>2XUJ</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XUJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Remodeling of Femtomolar Inhibitor-Acetylcholinesterase Complexes in the Crystalline State</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:18292-18300</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21090615?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mouse acetylcholinesterase complexed with m-(N,N,N-trimethylammonio)trifluoroacetophenone</PDB_Title>
+      <PDB_ID>2H9Y</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H9Y</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00238005</ASD_Ligand>
+      <PubMed_Title>Substrate and product trafficking through the active center gorge of acetylcholinesterase analyzed by crystallography and equilibrium binding</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:29256-29267</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16837465?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MOUSE ACETYLCHOLINESTERASE CATALYTIC DOMAIN, GLYCOSYLATED PROTEIN</PDB_Title>
+      <PDB_ID>1MAA</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MAA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of mouse acetylcholinesterase. A peripheral site-occluding loop in a tetrameric assembly.</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(1999)274:2963-2970</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9915834?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of mouse acetylcholinesterase inhibited by CBDP (12-h soak) : Cresyl-phosphoserine adduct</PDB_Title>
+      <PDB_ID>4BC0</PDB_ID>
+      <Resolution>3.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4BC0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Inhibition Pathways of the Potent Organophosphate Cbdp with Cholinesterases Revealed by X-Ray Crystallographic Snapshots and Mass Spectrometry</PubMed_Title>
+      <Author>Carletti, E., et al.</Author>
+      <Journal>Chem.Res.Toxicol.(2013)26:280</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23339663?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MACHE-Y337A-TZ2PA6 ANTI COMPLEX (1 MTH)</PDB_Title>
+      <PDB_ID>2XUF</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XUF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Remodeling of Femtomolar Inhibitor-Acetylcholinesterase Complexes in the Crystalline State</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:18292-18300</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21090615?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MUS MUSCULUS ACETYLCHOLINESTERASE IN COMPLEX WITH HLO-7</PDB_Title>
+      <PDB_ID>2JEY</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JEY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Novel Nerve-Agent Antidote Design Based on Crystallographic and Mass Spectrometric Analyses of Tabun-Conjugated Acetylcholinesterase in Complex with Antidotes.</PubMed_Title>
+      <Author>Ekstrom, F.J., et al.</Author>
+      <Journal>Clin.Pharmacol.Ther.(2007)82:282</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17443135?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the mouse acetylcholinesterase-TZ2PA6 syn complex</PDB_Title>
+      <PDB_ID>1Q83</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Q83</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Freeze-frame inhibitor captures acetylcholinesterase in a unique conformation.</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2004)101:1449-1454</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14757816?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MOUSE ACETYLCHOLINESTERASE IN COMPLEX WITH FENAMIPHOS AND HI-6</PDB_Title>
+      <PDB_ID>2WU3</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WU3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Oxime-Bound Fenamiphos-Acetylcholinesterases: Reactivation Involving Flipping of the His447 Ring to Form a Reactive Glu334-His447-Oxime Triad.</PubMed_Title>
+      <Author>Hornberg, A., et al.</Author>
+      <Journal>Biochem.Pharm.(2010)79:507-515</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19732756?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mouse acetylcholinesterase complexed with 4-ketoamyltrimethylammonium</PDB_Title>
+      <PDB_ID>2HA0</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HA0</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00230014</ASD_Ligand>
+      <PubMed_Title>Substrate and product trafficking through the active center gorge of acetylcholinesterase analyzed by crystallography and equilibrium binding</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:29256-29267</Journal>
+      <PubMed_ID>16837465</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mutant S203A of acetylcholinesterase complexed with acetylthiocholine</PDB_Title>
+      <PDB_ID>2HA5</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HA5</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00230012</ASD_Ligand>
+      <PubMed_Title>Substrate and product trafficking through the active center gorge of acetylcholinesterase analyzed by crystallography and equilibrium binding</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:29256-29267</Journal>
+      <PubMed_ID>16837465</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MOUSE ACETYLCHOLINESTERASE INHIBITED BY AGED DIISOPROPYL FLUOROPHOSPHATE (DFP)</PDB_Title>
+      <PDB_ID>2JGM</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JGM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Acetylcholinesterase in Complex with Organophosphorus Compounds Suggest that the Acyl Pocket Modulates the Aging Reaction by Precluding the Formation of the Trigonal Bipyramidal Transition State.</PubMed_Title>
+      <Author>Hornberg, A., et al.</Author>
+      <Journal>Biochemistry(2007)46:4815</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17402711?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ACETYLCHOLINESTERASE, PHOSPHONYLATED BY SARIN (AGED) IN COMPLEX WITH HI-6</PDB_Title>
+      <PDB_ID>2WHQ</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WHQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of Hi-6Sarin-Acetylcholinesterase Determined by X-Ray Crystallography and Molecular Dynamics Simulation: Reactivator Mechanism and Design.</PubMed_Title>
+      <Author>Ekstrom, F., et al.</Author>
+      <Journal>Plos One(2009)4:E5957-e5957</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19536291?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the mouse acetylcholinesterase-gallamine complex</PDB_Title>
+      <PDB_ID>1N5M</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1N5M</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00230008</ASD_Ligand>
+      <PubMed_Title>Structural insights into ligand interactions at the acetylcholinesterase peripheral anionic site</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>EMBO J.(2003)22:1-12</Journal>
+      <PubMed_ID>12505979</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MUS MUSCULUS ACETYLCHOLINESTERASE IN COMPLEX WITH TABUN AND ORTHO-7</PDB_Title>
+      <PDB_ID>2JF0</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JF0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Novel Nerve-Agent Antidote Design Based on Crystallographic and Mass Spectrometric Analyses of Tabun-Conjugated Acetylcholinesterase in Complex with Antidotes.</PubMed_Title>
+      <Author>Ekstrom, F.J., et al.</Author>
+      <Journal>Clin.Pharmacol.Ther.(2007)82:282</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17443135?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MOUSE ACETYLCHOLINESTERASE INHIBITED BY NON-AGED DIISOPROPYL FLUOROPHOSPHATE (DFP)</PDB_Title>
+      <PDB_ID>2JGI</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JGI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Acetylcholinesterase in Complex with Organophosphorus Compounds Suggest that the Acyl Pocket Modulates the Aging Reaction by Precluding the Formation of the Trigonal Bipyramidal Transition State.</PubMed_Title>
+      <Author>Hornberg, A., et al.</Author>
+      <Journal>Biochemistry(2007)46:4815</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17402711?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mutant S203A of mouse acetylcholinesterase complexed with butyrylthiocholine</PDB_Title>
+      <PDB_ID>2HA7</PDB_ID>
+      <Resolution>2.66</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HA7</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00230016</ASD_Ligand>
+      <PubMed_Title>Substrate and product trafficking through the active center gorge of acetylcholinesterase analyzed by crystallography and equilibrium binding</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:29256-29267</Journal>
+      <PubMed_ID>16837465</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MACHE-Y337A-TZ2PA6 SYN COMPLEX (10 MTH)</PDB_Title>
+      <PDB_ID>2XUK</PDB_ID>
+      <Resolution>2.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XUK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Remodeling of Femtomolar Inhibitor-Acetylcholinesterase Complexes in the Crystalline State</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:18292-18300</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21090615?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MOUSE ACETYLCHOLINESTERASE INHIBITED BY AGED METHAMIDOPHOS</PDB_Title>
+      <PDB_ID>2JGJ</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JGJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Acetylcholinesterase in Complex with Organophosphorus Compounds Suggest that the Acyl Pocket Modulates the Aging Reaction by Precluding the Formation of the Trigonal Bipyramidal Transition State.</PubMed_Title>
+      <Author>Hornberg, A., et al.</Author>
+      <Journal>Biochemistry(2007)46:4815-4825</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17402711?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Fasciculin 2-Mouse Acetylcholinesterase Complex</PDB_Title>
+      <PDB_ID>1KU6</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KU6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural insights into ligand interactions at the acetylcholinesterase peripheral anionic site.</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>EMBO J.(2003)22:1-12</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12505979?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MOUSE ACETYLCHOLINESTERASE INHIBITED BY AGED VX AND SARIN</PDB_Title>
+      <PDB_ID>2JGL</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JGL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Acetylcholinesterase in Complex with Organophosphorus Compounds Suggest that the Acyl Pocket Modulates the Aging Reaction by Precluding the Formation of the Trigonal Bipyramidal Transition State.</PubMed_Title>
+      <Author>Hornberg, A., et al.</Author>
+      <Journal>Biochemistry(2007)46:4815</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17402711?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Mus musculus Acetylcholinesterase in complex with (S)-C5685 at 2.25 A resolution.</PDB_Title>
+      <PDB_ID>4ARB</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4ARB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Similar But Different: Thermodynamic and Structural Characterization of a Pair of Enantiomers Binding to Acetylcholinesterase.</PubMed_Title>
+      <Author>Berg, L., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2012)51:12716</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23161758?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of mouse acetylcholinesterase inhibited by CBDP (30-min soak): cresyl-saligenin-phosphoserine adduct</PDB_Title>
+      <PDB_ID>4BC1</PDB_ID>
+      <Resolution>2.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4BC1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Inhibition Pathways of the Potent Organophosphate Cbdp with Cholinesterases Revealed by X-Ray Crystallographic Snapshots and Mass Spectrometry</PubMed_Title>
+      <Author>Carletti, E., et al.</Author>
+      <Journal>Chem.Res.Toxicol.(2013)26:280</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23339663?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NON-AGED FORM OF MOUSE ACETYLCHOLINESTERASE INHIBITED BY TABUN</PDB_Title>
+      <PDB_ID>2C0Q</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C0Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Changes of Phenylalanine 338 and Histidine 447 Revealed by the Crystal Structures of Tabun-Inhibited Murine Acetylcholinesterase.</PubMed_Title>
+      <Author>Ekstrom, F., et al.</Author>
+      <Journal>Biochemistry(2006)45:74</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16388582?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MUS MUSCULUS ACETYLCHOLINESTERASE IN COMPLEX WITH TABUN AND HLO-7</PDB_Title>
+      <PDB_ID>2JEZ</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JEZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Novel Nerve-Agent Antidote Design Based on Crystallographic and Mass Spectrometric Analyses of Tabun-Conjugated Acetylcholinesterase in Complex with Antidotes.</PubMed_Title>
+      <Author>Ekstrom, F.J., et al.</Author>
+      <Journal>Clin.Pharmacol.Ther.(2007)82:282</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17443135?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NONAGED FORM OF MOUSE ACETYLCHOLINESTERASE INHIBITED BY VX-UPDATE</PDB_Title>
+      <PDB_ID>2Y2U</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Y2U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Methylphosphonate Adducts of Acetylcholinesterase Investigated by Time Correlated Single Photon Counting and X-Ray Crystallography</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MOUSE ACETYLCHOLINESTERASE INHIBITED BY NON-AGED FENAMIPHOS</PDB_Title>
+      <PDB_ID>2JGF</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JGF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Acetylcholinesterase in Complex with Organophosphorus Compounds Suggest that the Acyl Pocket Modulates the Aging Reaction by Precluding the Formation of the Trigonal Bipyramidal Transition State.</PubMed_Title>
+      <Author>Hornberg, A., et al.</Author>
+      <Journal>Biochemistry(2007)46:4815</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17402711?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MOUSE ACETYLCHOLINESTERASE INHIBITED BY AGED FENAMIPHOS</PDB_Title>
+      <PDB_ID>2JGK</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JGK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Acetylcholinesterase in Complex with Organophosphorus Compounds Suggest that the Acyl Pocket Modulates the Aging Reaction by Precluding the Formation of the Trigonal Bipyramidal Transition State.</PubMed_Title>
+      <Author>Hornberg, A., et al.</Author>
+      <Journal>Biochemistry(2007)46:4815</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17402711?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mouse acetylcholinesterase in the apo form</PDB_Title>
+      <PDB_ID>1J06</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1J06</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural insights into ligand interactions at the acetylcholinesterase peripheral anionic site</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>EMBO J.(2003)22:1-12</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12505979?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE MACHE-Y337A MUTANT IN COMPLEX WITH SOAKED TZ2PA6 SYN INHIBITOR</PDB_Title>
+      <PDB_ID>2XUP</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XUP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Remodeling of Femtomolar Inhibitor-Acetylcholinesterase Complexes in the Crystalline State</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:18292-18300</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21090615?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mouse acetylcholinesterase complexed with choline</PDB_Title>
+      <PDB_ID>2HA3</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HA3</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00230015</ASD_Ligand>
+      <PubMed_Title>Substrate and product trafficking through the active center gorge of acetylcholinesterase analyzed by crystallography and equilibrium binding</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:29256-29267</Journal>
+      <PubMed_ID>16837465</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the mouse acetylcholinesterase-propidium complex</PDB_Title>
+      <PDB_ID>1N5R</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1N5R</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00230009</ASD_Ligand>
+      <PubMed_Title>Structural insights into ligand interactions at the acetylcholinesterase peripheral anionic site</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>EMBO J.(2003)22:1-12</Journal>
+      <PubMed_ID>12505979</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Aged Form of Mouse Acetylcholinesterase Inhibited by Tabun- Update</PDB_Title>
+      <PDB_ID>3DL7</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DL7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Aging of Cholinesterases Phosphylated by Tabun Proceeds through O-Dealkylation.</PubMed_Title>
+      <Author>Carletti, E., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2008)130:16011-16020</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18975951?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE Y337A MUTANT OF MOUSE ACETYLCHOLINESTERASE</PDB_Title>
+      <PDB_ID>2XUD</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XUD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Remodeling of Femtomolar Inhibitor-Acetylcholinesterase Complexes in the Crystalline State</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:18292-18300</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21090615?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ACETYLCHOLINESTERASE, PHOSPHONYLATED BY SARIN AND IN COMPLEX WITH HI-6</PDB_Title>
+      <PDB_ID>2WHP</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WHP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of Hi-6Sarin-Acetylcholinesterase Determined by X-Ray Crystallography and Molecular Dynamics Simulation: Reactivator Mechanism and Design.</PubMed_Title>
+      <Author>Ekstrom, F., et al.</Author>
+      <Journal>Plos One(2009)4:E5957-e5957</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19536291?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mutant S203A of mouse acetylcholinesterase complexed with succinylcholine</PDB_Title>
+      <PDB_ID>2HA6</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HA6</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00230017</ASD_Ligand>
+      <PubMed_Title>Substrate and product trafficking through the active center gorge of acetylcholinesterase analyzed by crystallography and equilibrium binding</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:29256-29267</Journal>
+      <PubMed_ID>16837465</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ELECTROPHORUS ELECTRICUS ACETYLCHOLINESTERASE</PDB_Title>
+      <PDB_ID>1C2O</PDB_ID>
+      <Resolution>4.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1C2O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational flexibility of the acetylcholinesterase tetramer suggested by x-ray crystallography.</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(1999)274:30370-30376</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10521413?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MOUSE ACETYLCHOLINESTERASE IN COMPLEX WITH FENAMIPHOS AND ORTHO-7</PDB_Title>
+      <PDB_ID>2WU4</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WU4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Oxime-Bound Fenamiphos-Acetylcholinesterases: Reactivation Involving Flipping of the His447 Ring to Form a Reactive Glu334-His447-Oxime Triad.</PubMed_Title>
+      <Author>Hornberg, A., et al.</Author>
+      <Journal>Biochem.Pharm.(2010)79:507-515</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19732756?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>AGED FORM OF MOUSE ACETYLCHOLINESTERASE INHIBITED BY TABUN</PDB_Title>
+      <PDB_ID>2C0P</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C0P</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Changes of Phenylalanine 338 and Histidine 447 Revealed by the Crystal Structures of Tabun-Inhibited Murine Acetylcholinesterase.</PubMed_Title>
+      <Author>Ekstrom, F., et al.</Author>
+      <Journal>Biochemistry(2006)45:74</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16388582?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MACHE-Y337A-TZ2PA6 SYN COMPLEX (1 WK)</PDB_Title>
+      <PDB_ID>2XUI</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XUI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Remodeling of Femtomolar Inhibitor-Acetylcholinesterase Complexes in the Crystalline State</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:18292-18300</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21090615?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MACHE-Y337A-TZ2PA6 ANTI COMPLEX (1 WK)</PDB_Title>
+      <PDB_ID>2XUG</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XUG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Remodeling of Femtomolar Inhibitor-Acetylcholinesterase Complexes in the Crystalline State</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:18292-18300</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21090615?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mouse acetylcholinesterase complexed with succinylcholine</PDB_Title>
+      <PDB_ID>2HA2</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HA2</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00230017</ASD_Ligand>
+      <PubMed_Title>Substrate and product trafficking through the active center gorge of acetylcholinesterase analyzed by crystallography and equilibrium binding</PubMed_Title>
+      <Author>Bourne, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:29256-29267</Journal>
+      <PubMed_ID>16837465</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mouse acetylcholinesterase inhibited by non-aged methamidophos</PDB_Title>
+      <PDB_ID>2JGE</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JGE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Acetylcholinesterase in Complex with Organophosphorus Compounds Suggest that the Acyl Pocket Modulates the Aging Reaction by Precluding the Formation of the Trigonal Bipyramidal Transition State.</PubMed_Title>
+      <Author>Hornberg, A., et al.</Author>
+      <Journal>Biochemistry(2007)46:4815</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17402711?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04725</Pathway_ID>
+      <Pathway_Title>Cholinergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04725</Pathway_ID>
+      <Pathway_Title>Cholinergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00564</Pathway_ID>
+      <Pathway_Title>Glycerophospholipid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.1.7</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/1/7.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00230001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230010</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230012</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230014</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230015</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230016</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230017</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230019</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00230021</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00238001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00238002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00238003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00238004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00238005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00238006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03090004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

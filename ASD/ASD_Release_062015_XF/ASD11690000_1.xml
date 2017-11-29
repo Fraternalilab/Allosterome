@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11690000_1</Organism_ID>
+  <Organism>Vibrio cholerae serotype O1</Organism>
+  <Organism_Latin>Vibrio cholerae serotype O1</Organism_Latin>
+  <UniProt_ID>Q9KL03</UniProt_ID>
+  <Seq_Length>173</Seq_Length>
+  <Molecule_Weight>20675</Molecule_Weight>
+  <KEGG_ID>vch:VCA0947</KEGG_ID>
+  <Orthology_ID>K00657</Orthology_ID>
+  <Pfam_ID>PF13302:Acetyltransf_3</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>2</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Spermidine n1-acetyltransferase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: acetyl-CoA + an alkane-alpha,omega-diamine = CoA + an N-acetyldiamine.</Detail>
+      <Keyword>Diamine N-acetyltransferase activity</Keyword>
+      <Ontology_ID>GO:0004145</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of polyamines, any organic compound containing two or more amino groups.</Detail>
+      <Keyword>Polyamine catabolic process</Keyword>
+      <Ontology_ID>GO:0006598</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MNSQLTLRALERGDLRFIHNLNNNRNIMSYWFEEPYESFDELEELYNKHIHDNAERRFVVEDAQKNLIGLVELIEINYIHRSAEFQIIIAPEHQGKGFARTLINRALDYSFTILNLHKIYLHVAVENPKAVHLYEECGFVEEGHLVEEFFINGRYQDVKRMYILQSKYLNRSE</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_ID>2612395</Gene_ID>
+    <Genbank_ACCN>NC_002506</Genbank_ACCN>
+    <Protein_ACCN>NP_233331</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/2612395</Gene_URL>
+    <EMBL_ID>VC_A0947</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Spermidine n1-acetyltransferase</PDB_Title>
+      <PDB_ID>ASD11690000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02100005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09710001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-04-08</Create_Date>
+</Organism_Record>

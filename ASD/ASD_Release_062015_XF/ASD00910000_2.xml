@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00910000_2</Organism_ID>
+  <Organism>Neisseria meningitidis serogroup B</Organism>
+  <Organism_Latin>Neisseria meningitidis serogroup B</Organism_Latin>
+  <UniProt_ID>Q9JZR4</UniProt_ID>
+  <Seq_Length>291</Seq_Length>
+  <Molecule_Weight>30880</Molecule_Weight>
+  <KEGG_ID>nme:NMB0929</KEGG_ID>
+  <Orthology_ID>K01714</Orthology_ID>
+  <Function_Summary>Catalyzes the condensation of (S)-aspartate-beta-semialdehyde [(S)-ASA] and pyruvate to 4-hydroxy-tetrahydrodipicolinate (HTPA) (Probable).</Function_Summary>
+  <Catalytic_Mechanism>Pyruvate + L-aspartate-4-semialdehyde = (4S)-4-hydroxy-2,3,4,5-tetrahydro-(2S)-dipicolinate + H(2)O.</Catalytic_Mechanism>
+  <Pfam_ID>PF00701:DHDPS</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>3</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>HTPA synthase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the release of amides by the cleavage of a carbon-nitrogen bond or the reverse reaction with an amine as a substrate.</Detail>
+      <Keyword>Amine-lyase activity</Keyword>
+      <Ontology_ID>GO:0016843</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-aspartate 4-semialdehyde + pyruvate = (S)-2,3-dihydrodipicolinate + 2 H(2)O + H(+).</Detail>
+      <Keyword>Dihydrodipicolinate synthase activity</Keyword>
+      <Ontology_ID>GO:0008840</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of lysine, 2,6-diaminohexanoic acid.</Detail>
+      <Keyword>Lysine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009085</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of diaminopimelate, both as an intermediate in lysine biosynthesis and as a component (as meso-diaminopimelate) of the peptidoglycan of Gram-negative bacterial cell walls.</Detail>
+      <Keyword>Diaminopimelate biosynthetic process</Keyword>
+      <Ontology_ID>GO:0019877</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of lysine, via the intermediate diaminopimelate.</Detail>
+      <Keyword>Lysine biosynthetic process via diaminopimelate</Keyword>
+      <Ontology_ID>GO:0009089</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MLQGSLVALITPMNQDGSIHYEQLRDLIDWHIENGTDGIVAVGTTGESATLSVEEHTAVIEAVVKHVAKRVPVIAGTGANNTVEAIALSQAAEKAGADYTLSVVPYYNKPSQEGIYQHFKTIAEATSIPMIIYNVPGRTVVSMTNDTILRLAEIPNIVGVKEASGNIGSNIELINRAPEGFVVLSGDDHTALPFMLCGGHGVITVAANAAPKLFADMCRAALQGDIALARELNDRLIPIYDTMFCEPSPAAPKWAVSALGRCEPHVRLPLVPLTENGQAKVRAALKASGQL</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>dapA</Gene_Name>
+    <Gene_ID>903050</Gene_ID>
+    <Genbank_ACCN>NC_003112</Genbank_ACCN>
+    <Protein_ACCN>NP_273968</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/903050</Gene_URL>
+    <EMBL_ID>NMB0929</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of dihydrodipicolinate synthase from the pathogen Neisseria meningitidis</PDB_Title>
+      <PDB_ID>3FLU</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FLU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Cloning and characterisation of dihydrodipicolinate synthase from the pathogen Neisseria meningitidis.</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00261</Pathway_ID>
+      <Pathway_Title>Monobactam biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Biosynthesis of other secondary metabolites</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00300</Pathway_ID>
+      <Pathway_Title>Lysine biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.3.3.7</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/3/3/7.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00910001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00910002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00910005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

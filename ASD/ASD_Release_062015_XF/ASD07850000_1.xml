@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07850000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P14060</UniProt_ID>
+  <Seq_Length>373</Seq_Length>
+  <Molecule_Weight>42252</Molecule_Weight>
+  <KEGG_ID>hsa:3283</KEGG_ID>
+  <Orthology_ID>K00070</Orthology_ID>
+  <Function_Summary>3-beta-HSD is a bifunctional enzyme, that catalyzes the oxidative conversion of Delta(5)-ene-3-beta-hydroxy steroid, and the oxidative conversion of ketosteroids. The 3-beta-HSD enzymatic system plays a crucial role in the biosynthesis of all classes of hormonal steroids. Efficiently catalyzes the transformation of pregnenolone to progesterone, 17-alpha-hydroxypregnenolone to 17-alpha-hydroxyprogesterone, DHEA to 4-androstenedione, dihydrotestosterone to 5-alpha-androstane-3 beta,17 beta-diol, dehydroepiandrosterone to androstenedione and 5-alpha-androstan-3 beta,17 beta-diol to 5-alpha-dihydrotestosterone.</Function_Summary>
+  <Catalytic_Mechanism>A 3-beta-hydroxy-Delta(5)-steroid + NAD(+) = a 3-oxo-Delta(5)-steroid + NADH.@@A 3-oxo-Delta(5)-steroid = a 3-oxo-Delta(4)-steroid.</Catalytic_Mechanism>
+  <Pfam_ID>PF01073:3Beta_HSD</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Delta-5-3-ketosteroid isomerase</Alias>
+      <Alias>Steroid Delta-isomerase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: a 3-oxo-delta(5)-steroid = a 3-oxo-delta(4)-steroid.</Detail>
+      <Keyword>Steroid delta-isomerase activity</Keyword>
+      <Ontology_ID>GO:0004769</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: a 3-beta-hydroxy-delta(5)-steroid + NAD+ = a 3-oxo-delta(5)-steroid + NADH + H+.</Detail>
+      <Keyword>3-beta-hydroxy-delta5-steroid dehydrogenase activity</Keyword>
+      <Ontology_ID>GO:0003854</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the geometric or structural changes within one molecule. Isomerase is the systematic name for any enzyme of EC class 5.</Detail>
+      <Keyword>Isomerase activity</Keyword>
+      <Ontology_ID>GO:0016853</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>71</Position>
+      <Original>Arg</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>286</Position>
+      <Original>Phe</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>79</Position>
+      <Original>Ile</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>367</Position>
+      <Original>Thr</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>90</Position>
+      <Original>Gly</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>54</Position>
+      <Original>Thr</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of steroids, compounds with a 1,2,cyclopentanoperhydrophenanthrene nucleus; includes de novo formation and steroid interconversion by modification.</Detail>
+      <Keyword>Steroid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006694</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of estrogens, C18 steroid hormones that can stimulate the development of female sexual characteristics. Also found in plants.</Detail>
+      <Keyword>Estrogen biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006703</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving small molecules, any monomeric molecule of small relative molecular mass.</Detail>
+      <Keyword>Small molecule metabolic process</Keyword>
+      <Ontology_ID>GO:0044281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of mineralocorticoids, hormonal C21 corticosteroids synthesized from cholesterol.</Detail>
+      <Keyword>Mineralocorticoid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006705</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of androgens, C19 steroid hormones that can stimulate the development of male sexual characteristics.</Detail>
+      <Keyword>Androgen biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006702</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of glucocorticoids, hormonal C21 corticosteroids synthesized from cholesterol.</Detail>
+      <Keyword>Glucocorticoid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006704</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MTGWSCLVTGAGGFLGQRIIRLLVKEKELKEIRVLDKAFGPELREEFSKLQNKTKLTVLEGDILDEPFLKRACQDVSVIIHTACIIDVFGVTHRESIMNVNVKGTQLLLEACVQASVPVFIYTSSIEVAGPNSYKEIIQNGHEEEPLENTWPAPYPHSKKLAEKAVLAANGWNLKNGGTLYTCALRPMYIYGEGSRFLSASINEALNNNGILSSVGKFSTVNPVYVGNVAWAHILALRALQDPKKAPSIRGQFYYISDDTPHQSYDNLNYTLSKEFGLRLDSRWSFPLSLMYWIGFLLEIVSFLLRPIYTYRPPFNRHIVTLSNSVFTFSYKKAQRDLAYKPLYSWEEAKQKTVEWVGSLVDRHKETLKSKTQ</Protein_Seq>
+    <DNA_Seq>AGGAAATGAGGTGAGAAGTACGTCCACTCTTCTGTCCAGCTTTTAACAATCTAACTAATGCCCTCTCCAGGGTCACCCTAGAATCAGATCTGCTCCCCAGCATCTTCTGTTTCCTGGTGAGTGATTCCTGCTACTTTGGATGGCCATGACGGGCTGGAGCTGCCTTGTGACAGGAGCAGGAGGGTTTCTGGGACAGAGGATCATCCGCCTCTTGGTGAAGGAGAAGGAGCTGAAGGAGATCAGGGTCTTGGACAAGGCCTTCGGACCAGAATTGAGAGAGGAATTTTCTAAACTCCAGAACAAGACCAAGCTGACAGTGCTGGAAGGAGACATTCTGGATGAGCCATTCCTGAAGAGAGCCTGCCAGGACGTCTCGGTCATCATCCACACCGCCTGTATCATTGATGTCTTCGGTGTCACTCACAGAGAGTCTATCATGAATGTCAATGTGAAAGGTACCCAGCTCCTGTTAGAGGCCTGTGTCCAAGCTAGTGTGCCAGTCTTCATCTACACCAGTAGCATAGAGGTAGCCGGGCCCAACTCCTACAAGGAAATCATCCAGAATGGCCATGAAGAAGAGCCTCTGGAAAACACATGGCCCGCTCCATACCCACACAGCAAAAAGCTTGCTGAGAAGGCTGTACTGGCGGCTAACGGGTGGAATCTGAAAAACGGCGGCACCCTGTACACTTGTGCCTTACGACCCATGTATATCTATGGGGAAGGAAGCCGATTCCTTTCTGCTAGTATAAACGAGGCCCTGAACAACAATGGGATCCTGTCAAGTGTTGGAAAGTTCTCCACTGTTAACCCAGTCTATGTTGGCAATGTGGCCTGGGCCCACATTCTGGCCTTGAGGGCCCTGCAGGACCCCAAGAAGGCCCCAAGCATCCGAGGACAGTTCTACTATATCTCAGATGACACGCCTCACCAAAGCTATGATAACCTTAATTACACCCTGAGCAAAGAGTTCGGCCTCCGCCTTGATTCCAGATGGAGCTTTCCTTTATCCCTGATGTATTGGATTGGCTTCCTGCTGGAAATAGTGAGCTTCCTACTCAGGCCAATTTACACCTATCGACCGCCCTTCAACCGCCACATAGTCACATTGTCAAATAGCGTATTCACCTTCTCTTATAAGAAGGCTCAGCGAGATCTGGCGTATAAGCCACTCTACAGCTGGGAGGAAGCCAAGCAGAAAACGGTGGAGTGGGTTGGTTCCCTTGTGGACCGGCACAAGGAGACCCTGAAGTCCAAGACTCAGTGATTTAAGGATGACAGAGATGTGCATGTGGGTATTGTTAGGAGATGTCATCAAGCTCCACCCTCCTGGCCTCATACAGAAAGTGACAAGGGCACAAGCTCAGGTCCTGCTGCCTCCCTTTCATACAATGGCCAACTTATTGTATTCCTCATGTCATCAAAACCTGCGCAGTCATTGGCCCAACAAGAAGGTTTCTGTCCTAATCATATACCAGAGGAAAGACCATGTGGTTTGCTGTTACCAAATCTCAGTAGCTGATTCTGAACAATTTAGGGACTCTTTTAACTTGAGGGTCGTTTTGACTACTAGAGCTCCATTTCTACTCTTAAATGAGAAAGGATTTCCTTTCTTTTTAATCTTCCATTCCTTCACATAGTTTGATAAAAAGATCAATAAATGTTTGAATGTTTAATGTGAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Placenta</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Skin</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Mammary gland tissue</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Smooth endoplasmic reticulum membrane</CellLocal>
+      <Ontology_ID>GO:0030868</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrial inner membrane</CellLocal>
+      <Ontology_ID>GO:0005743</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrial intermembrane space</CellLocal>
+      <Ontology_ID>GO:0005758</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Microsome</CellLocal>
+      <Ontology_ID>GO:0005792</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum</CellLocal>
+      <Ontology_ID>GO:0005783</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>HSD3B1</Gene_Name>
+    <Gene_Alias>3BH; HSDB3A</Gene_Alias>
+    <Gene_ID>3283</Gene_ID>
+    <Genbank_ACCN>NM_000862</Genbank_ACCN>
+    <Protein_ACCN>NP_000853</Protein_ACCN>
+    <HGNC_ID>5217</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3283</Gene_URL>
+    <UCSC_ID>uc001ehv.1</UCSC_ID>
+    <EMBL_ID>ENSG00000203857</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Mycetoma</Disease_Name>
+      <Disease_Detail>Mycetoma</Disease_Detail>
+      <Disease_DB>MYC012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mycetoma?search=HSD3B1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Patent Ductus Arteriosus</Disease_Name>
+      <Disease_Detail>Patent Ductus Arteriosus</Disease_Detail>
+      <Disease_DB>PTN002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/patent_ductus_arteriosus?search=HSD3B1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Prostate Cancer</Disease_Name>
+      <Disease_Detail>Prostate Cancer</Disease_Detail>
+      <Disease_DB>PRS040</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/prostate_cancer?search=HSD3B1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of 3 beta-hydroxysteroid dehydrogenase/Delta 5--&gt;4-isomerase type 1</PDB_Title>
+      <PDB_ID>ASD07850000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04913</Pathway_ID>
+      <Pathway_Title>Ovarian steroidogenesis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04913</Pathway_ID>
+      <Pathway_Title>Ovarian steroidogenesis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04913</Pathway_ID>
+      <Pathway_Title>Ovarian steroidogenesis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04913</Pathway_ID>
+      <Pathway_Title>Ovarian steroidogenesis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.1.1.145</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/145.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 5.3.3.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 5/3/3/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01500001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07850001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07850002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

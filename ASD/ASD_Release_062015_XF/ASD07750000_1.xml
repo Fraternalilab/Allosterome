@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07750000_1</Organism_ID>
+  <Organism>Chicken</Organism>
+  <Organism_Latin>Gallus gallus</Organism_Latin>
+  <UniProt_ID>P80226</UniProt_ID>
+  <Seq_Length>126</Seq_Length>
+  <Molecule_Weight>14210</Molecule_Weight>
+  <KEGG_ID>gga:395345</KEGG_ID>
+  <Function_Summary>Binds free fatty acids and their coenzyme A derivatives, bilirubin, and some other small molecules in the cytoplasm. May be involved in intracellular lipid transport. Binds 2 molecules of cholate per subunit.</Function_Summary>
+  <Pfam_ID>PF00061:Lipocalin</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Liver-type fatty acid-binding protein</Alias>
+      <Alias>L-BABP</Alias>
+      <Alias>L-FABP</Alias>
+      <Alias>Liver bile acid-binding protein</Alias>
+      <Alias>LB-FABP</Alias>
+      <Alias>Liver basic FABP</Alias>
+      <Alias>Fatty acid-binding protein 1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Enables the directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells.</Detail>
+      <Keyword>Transporter activity</Keyword>
+      <Ontology_ID>GO:0005215</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a lipid.</Detail>
+      <Keyword>Lipid binding</Keyword>
+      <Ontology_ID>GO:0008289</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>N-acetylalanine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAFSGTWQVYAQENYEEFLKALALPEDLIKMARDIKPIVEIQQKGDDFVVTSKTPRQTVTNSFTLGKEADITTMDGKKLKCTVHLANGKLVTKSEKFSHEQEVKGNEMVETITFGGVTLIRRSKRV</Protein_Seq>
+    <DNA_Seq>ACGCGGGTCTCACTGTCCTGCTAGCAGCACTGCCCTCACACTGCACCTTATCCTCCATAATGGCATTCAGTGGCACCTGGCAGGTCTATGCTCAAGAGAACTATGAAGAATTTCTGAAAGCTCTTGCACTGCCAGAAGACCTTATCAAAATGGCTCGAGATATTAAGCCTATTGTTGAAATACAACAAAAAGGAGATGACTTTGTTGTGACATCAAAAACACCCAGGCAGACTGTGACTAACTCCTTTACACTTGGAAAAGAGGCTGACATTACTACTATGGATGGCAAAAAGCTAAAGTGTACTGTGCACTTGGCAAATGGGAAGCTTGTGTGCAAATCGGAAAAATTCTCACATGAGCAAGAAGTTAAGGGAAATGAAATGGTCGAGACTATTACTTTTGGTGGAGTTACACTTATCAGAAGAAGCAAGAGAGTTTAAAGACAGATCACCTTCTTTGTGACATCTTTACATACTTAAAATAAAGTACACTTTCCATANNAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>FABP1</Gene_Name>
+    <Gene_ID>395345</Gene_ID>
+    <Genbank_ACCN>NM_204634</Genbank_ACCN>
+    <Protein_ACCN>NP_989965</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/395345</Gene_URL>
+    <EMBL_ID>ENSGALG00000004141</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>NMR solution structure of chicken Liver basic Fatty Acid Binding Protein (Lb-FABP)</PDB_Title>
+      <PDB_ID>1MVG</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MVG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution Structure of chicken Liver basic type Fatty Acid Binding Protein</PubMed_Title>
+      <Author>Vasile, F., et al.</Author>
+      <Journal>J.BIOMOL.NMR(2003)25:157-160</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12652125?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NMR solution structure of the supramolecular adduct between a liver cytosolic bile acid binding protein and a bile acid-based Gd(III)-chelate</PDB_Title>
+      <PDB_ID>2K62</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2K62</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution structure of the supramolecular adduct between a liver cytosolic bile acid binding protein and a bile acid-based gadolinium(III)-chelate, a potential hepatospecific magnetic resonance imaging contrast agent.</PubMed_Title>
+      <Author>Tomaselli, S., et al.</Author>
+      <Journal>J.Med.Chem.(2008)51:6782-6792</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18939814?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NMR structure of cl-BABP complexed to chenodeoxycholic acid</PDB_Title>
+      <PDB_ID>2JN3</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JN3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and dynamic determinants of ligand binding in the ternary complex of chicken liver bile acid binding protein with two bile salts revealed by NMR</PubMed_Title>
+      <Author>Eliseo, T., et al.</Author>
+      <Journal>Biochemistry(2007)46:12557-12567</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17929837?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Apo Chicken Liver Basic Fatty Acid Binding Protein (or Bile Acid Binding Protein)</PDB_Title>
+      <PDB_ID>1TVQ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TVQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of chicken liver basic Fatty Acid-binding protein complexed with cholic acid</PubMed_Title>
+      <Author>Nichesola, D., et al.</Author>
+      <Journal>Biochemistry(2004)43:14072-14079</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15518556?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Chicken Liver Basic Fatty Acid Binding Protein (Bile Acid Binding Protein) Complexed With Cholic Acid</PDB_Title>
+      <PDB_ID>1TW4</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TW4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of chicken liver basic Fatty Acid-binding protein complexed with cholic acid</PubMed_Title>
+      <Author>Nichesola, D., et al.</Author>
+      <Journal>Biochemistry(2004)43:14072-14079</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15518556?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NMR structural analysis of apo chicken liver bile acid binding protein</PDB_Title>
+      <PDB_ID>1ZRY</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZRY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>NMR Dynamic Studies Suggest that Allosteric Activation Regulates Ligand Binding in Chicken Liver Bile Acid-binding Protein</PubMed_Title>
+      <Author>Ragona, L., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:9697-9709</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16439356?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>All beta proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.bae.b.c.bj.html</SCOP_URL>
+    <CATH_Class>Class 2: Mainly Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1mvg</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Open-Close</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

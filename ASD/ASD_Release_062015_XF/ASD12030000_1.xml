@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD12030000_1</Organism_ID>
+  <Organism>Escherichia coli (strain K12)</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P08179</UniProt_ID>
+  <Seq_Length>212</Seq_Length>
+  <Molecule_Weight>23238</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p2453</KEGG_ID>
+  <Orthology_ID>K11175</Orthology_ID>
+  <Function_Summary>Catalyzes the transfer of a formyl group from 10-formyltetrahydrofolate to 5-phospho-ribosyl-glycinamide (GAR), producing 5-phospho-ribosyl-N-formylglycinamide (FGAR) and tetrahydrofolate.</Function_Summary>
+  <Catalytic_Mechanism>10-formyltetrahydrofolate + N(1)-(5-phospho-D-ribosyl)glycinamide = tetrahydrofolate + N(2)-formyl-N(1)-(5-phospho-D-ribosyl)glycinamide.</Catalytic_Mechanism>
+  <Pfam_ID>PF00551:Formyl_trans_N</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>GART</Alias>
+      <Alias>GAR transformylase</Alias>
+      <Alias>5'-phosphoribosylglycinamide transformylase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a methyl group to an acceptor molecule.</Detail>
+      <Keyword>Methyltransferase activity</Keyword>
+      <Ontology_ID>GO:0008168</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 10-formyltetrahydrofolate + N1-(5-phospho-D-ribosyl)glycinamide = tetrahydrofolate + N2-formyl-N1-(5-phospho-D-ribosyl)glycinamide.</Detail>
+      <Keyword>Phosphoribosylglycinamide formyltransferase activity</Keyword>
+      <Ontology_ID>GO:0004644</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of a purine nucleotide, a compound consisting of nucleoside (a purine base linked to a deoxyribose or ribose sugar) esterified with a phosphate group at either the 3' or 5'-hydroxyl group of the sugar.</Detail>
+      <Keyword>Purine nucleotide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006164</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of IMP, inosine monophosphate, by the stepwise assembly of a purine ring on ribose 5-phosphate.</Detail>
+      <Keyword>'de novo' IMP biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006189</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MNIVVLISGNGSNLQAIIDACKTNKIKGTVRAVFSNKADAFGLERARQAGIATHTLIASAFDSREAYDRELIHEIDMYAPDVVVLAGFMRILSPAFVSHYAGRLLNIHPSLLPKYPGLHTHRQALENGDEEHGTSVHFVTDELDGGPVILQAKVPVFAGDSEDDITARVQTQEHAIYPLVISWFADGRLKMHENAAWLDGQRLPPQGYAADE</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>purN</Gene_Name>
+    <Gene_ID>12932446</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_416995</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/946973</Gene_URL>
+    <EMBL_ID>BAA16388</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>A PH-DEPENDENT STABLIZATION OF AN ACTIVE SITE LOOP OBSERVED FROM LOW AND HIGH PH CRYSTAL STRUCTURES OF MUTANT MONOMERIC GLYCINAMIDE RIBONUCLEOTIDE TRANSFORMYLASE</PDB_Title>
+      <PDB_ID>3GAR</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GAR</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <PubMed_Title>A pH-dependent stabilization of an active site loop observed from low and high pH crystal structures of mutant monomeric glycinamide ribonucleotide transformylase at 1.8 to 1.9 A.</PubMed_Title>
+      <Author>Su, Y., et al.</Author>
+      <Journal>J.Mol.Biol.(1998)281:485-499</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9698564?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NEW INSIGHTS INTO INHIBITOR DESIGN FROM THE CRYSTAL STRUCTURE AND NMR STUDIES OF E. COLI GAR TRANSFORMYLASE IN COMPLEX WITH BETA-GAR AND 10-FORMYL-5,8,10-TRIDEAZAFOLIC ACID.</PDB_Title>
+      <PDB_ID>1C2T</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1C2T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>New insights into inhibitor design from the crystal structure and NMR studies of Escherichia coli GAR transformylase in complex with beta-GAR and 10-formyl-5,8,10-trideazafolic acid.</PubMed_Title>
+      <Author>Greasley, S.E., et al.</Author>
+      <Journal>Biochemistry(1999)38:16783-16793</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10606510?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURES OF APO AND COMPLEXED ESCHERICHIA COLI GLYCINAMIDE RIBONUCLEOTIDE TRANSFORMYLASE</PDB_Title>
+      <PDB_ID>1CDE</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CDE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of apo and complexed Escherichia coli glycinamide ribonucleotide transformylase.</PubMed_Title>
+      <Author>Almassy, R.J., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(1992)89:6114-6118</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1631098?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NEW INSIGHTS INTO INHIBITOR DESIGN FROM THE CRYSTAL STRUCTURE AND NMR STUDIES OF E. COLI GAR TRANSFORMYLATE IN COMPLEX WITH BETA-GAR AND 10-FORMYL-5,8,10-TRIDEAZAFOLIC ACID.</PDB_Title>
+      <PDB_ID>1C3E</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1C3E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>New insights into inhibitor design from the crystal structure and NMR studies of Escherichia coli GAR transformylase in complex with beta-GAR and 10-formyl-5,8,10-trideazafolic acid.</PubMed_Title>
+      <Author>Greasley, S.E., et al.</Author>
+      <Journal>Biochemistry(1999)38:16783-16793</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10606510?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>A PH-DEPENDENT STABLIZATION OF AN ACTIVE SITE LOOP OBSERVED FROM LOW AND HIGH PH CRYSTAL STRUCTURES OF MUTANT MONOMERIC GLYCINAMIDE RIBONUCLEOTIDE TRANSFORMYLASE</PDB_Title>
+      <PDB_ID>2GAR</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GAR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A pH-dependent stabilization of an active site loop observed from low and high pH crystal structures of mutant monomeric glycinamide ribonucleotide transformylase at 1.8 to 1.9 A.</PubMed_Title>
+      <Author>Su, Y., et al.</Author>
+      <Journal>J.Mol.Biol.(1998)281:485-499</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9698564?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Unexpected formation of an epoxide-derived multisubstrate adduct inhibitor on the active site of GAR transformylase</PDB_Title>
+      <PDB_ID>1JKX</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JKX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Unexpected formation of an epoxide-derived multisubstrate adduct inhibitor on the active site of GAR transformylase.</PubMed_Title>
+      <Author>Greasley, S.E., et al.</Author>
+      <Journal>Biochemistry(2001)40:13538-13547</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11695901?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF GLYCINAMIDE RIBONUCLEOTIDE TRANSFORMYLASE FROM ESCHERICHIA COLI AT 3.0 ANGSTROMS RESOLUTION: A TARGET ENZYME FOR CHEMOTHERAPY</PDB_Title>
+      <PDB_ID>1GRC</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GRC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of glycinamide ribonucleotide transformylase from Escherichia coli at 3.0 A resolution. A target enzyme for chemotherapy.</PubMed_Title>
+      <Author>Chen, P., et al.</Author>
+      <Journal>J.Mol.Biol.(1992)227:283-292</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1522592?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TOWARDS STRUCTURE-BASED DRUG DESIGN: CRYSTAL STRUCTURE OF A MULTISUBSTRATE ADDUCT COMPLEX OF GLYCINAMIDE RIBONUCLEOTIDE TRANSFORMYLASE AT 1.96 ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>1GAR</PDB_ID>
+      <Resolution>1.96</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GAR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Towards structure-based drug design: crystal structure of a multisubstrate adduct complex of glycinamide ribonucleotide transformylase at 1.96 A resolution.</PubMed_Title>
+      <Author>Klein, C., et al.</Author>
+      <Journal>J.Mol.Biol.(1995)249:153-175</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7776369?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURES OF APO AND COMPLEXED ESCHERICHIA COLI GLYCINAMIDE RIBONUCLEOTIDE TRANSFORMYLASE</PDB_Title>
+      <PDB_ID>1CDD</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CDD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of apo and complexed Escherichia coli glycinamide ribonucleotide transformylase.</PubMed_Title>
+      <Author>Almassy, R.J., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(1992)89:6114-6118</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1631098?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00670</Pathway_ID>
+      <Pathway_Title>One carbon pool by folate</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00670</Pathway_ID>
+      <Pathway_Title>One carbon pool by folate</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00230</Pathway_ID>
+      <Pathway_Title>Purine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.jd.b.b.b.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1c2t</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <PDB_ID>3GAR</PDB_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.1.2.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/1/2/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD10228001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-04-08</Create_Date>
+</Organism_Record>

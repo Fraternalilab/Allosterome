@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02370000_4</Organism_ID>
+  <Organism>Arthrobacter aurescens</Organism>
+  <Organism_Latin>Arthrobacter aurescens</Organism_Latin>
+  <UniProt_ID>A1R118</UniProt_ID>
+  <Seq_Length>310</Seq_Length>
+  <Molecule_Weight>32697</Molecule_Weight>
+  <KEGG_ID>aau:AAur_0101</KEGG_ID>
+  <Catalytic_Mechanism>Prephenate = phenylpyruvate + H(2)O + CO(2).</Catalytic_Mechanism>
+  <Pfam_ID>PF01842:ACT@@PF00800:PDT</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>PDT</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: prephenate = phenylpyruvate + H2O + CO2.</Detail>
+      <Keyword>Prephenate dehydratase activity</Keyword>
+      <Ontology_ID>GO:0004664</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an amino acid, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Amino acid binding</Keyword>
+      <Ontology_ID>GO:0016597</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: chorismate = prephenate.</Detail>
+      <Keyword>Chorismate mutase activity</Keyword>
+      <Ontology_ID>GO:0004106</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of L-phenylalanine, the L-enantiomer of 2-amino-3-phenylpropanoic acid, i.e. (2S)-2-amino-3-phenylpropanoic acid.</Detail>
+      <Keyword>L-phenylalanine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009094</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of aromatic amino acid family, amino acids with aromatic ring (phenylalanine, tyrosine, tryptophan).</Detail>
+      <Keyword>Aromatic amino acid family biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009073</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSAVTYTFLGPQGTFTEAALMQVPGAADATRIPCTNVNTALERVRAGEADAAMVPIENSVEGGVTATLDAIATGQELRIIREALVPITFVLVARPGVELSDIKRISTHGHAWAQCRLWVDEHLPNADYVPGSSTAASAMGLLEDDAPYEAAICAPLIAAEQPGLNVLAEDIGDNPDAVTRFILVSRPGALPERTGADKTTVVVPLPEDHPGALMEILDQFASRGVNLSRIESRPTGQYLGHYFFSIDADGHATDSRVADALAGLHRISPATRFLGSYARADKQPAVVAPHTSDAAFASAHAWVDSILKGS</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>pheA</Gene_Name>
+    <Genbank_ACCN>NC_008711</Genbank_ACCN>
+    <Protein_ACCN>YP_945930</Protein_ACCN>
+    <EMBL_ID>AAur_0101</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>The Crystal Structure of Prephenate dehydratase in complex with L-Phe from Arthrobacter aurescens to 2.0A</PDB_Title>
+      <PDB_ID>3MWB</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MWB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02170001</ASD_Ligand>
+      <PubMed_Title>The Crystal Structure of Prephenate dehydratase in complex with L-Phe from Arthrobacter aurescens to 2.0A</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00400</Pathway_ID>
+      <Pathway_Title>Phenylalanine, tyrosine and tryptophan biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00400</Pathway_ID>
+      <Pathway_Title>Phenylalanine, tyrosine and tryptophan biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00401</Pathway_ID>
+      <Pathway_Title>Novobiocin biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Biosynthesis of other secondary metabolites</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00400</Pathway_ID>
+      <Pathway_Title>Phenylalanine, tyrosine and tryptophan biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/3mwb</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <PDB_ID>3MWB</PDB_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.2.1.51</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/2/1/51.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00690002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02170001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-05-20</Create_Date>
+</Organism_Record>

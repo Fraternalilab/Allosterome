@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04690000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P26358</UniProt_ID>
+  <Seq_Length>1616</Seq_Length>
+  <Molecule_Weight>183165</Molecule_Weight>
+  <KEGG_ID>hsa:1786</KEGG_ID>
+  <Orthology_ID>K00558</Orthology_ID>
+  <EBI_ID>EBI-719459</EBI_ID>
+  <Function_Summary>Methylates CpG residues. Preferentially methylates hemimethylated DNA. Associates with DNA replication sites in S phase maintaining the methylation pattern in the newly synthesized strand, that is essential for epigenetic inheritance. Associates with chromatin during G2 and M phases to maintain DNA methylation independently of replication. It is responsible for maintaining methylation patterns established in development. DNA methylation is coordinated with methylation of histones. Mediates transcriptional repression by direct binding to HDAC2. In association with DNMT3B and via the recruitment of CTCFL/BORIS, involved in activation of BAG1 gene expression by modulating dimethylation of promoter histone H3 at H3K4 and H3K9.</Function_Summary>
+  <Catalytic_Mechanism>S-adenosyl-L-methionine + DNA = S-adenosyl-L-homocysteine + DNA containing 5-methylcytosine.</Catalytic_Mechanism>
+  <Pfam_ID>PF01426:BAH@@PF06464:DMAP_binding@@PF00145:DNA_methylase@@PF12047:DNMT1-RFD@@PF02008:zf-CXXC</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>3</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>M.HsaI</Alias>
+      <Alias>CXXC-type zinc finger protein 9</Alias>
+      <Alias>DNA methyltransferase HsaI</Alias>
+      <Alias>DNA MTase HsaI</Alias>
+      <Alias>Dnmt1</Alias>
+      <Alias>MCMT</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a methyl group to an acceptor molecule.</Detail>
+      <Keyword>Methyltransferase activity</Keyword>
+      <Ontology_ID>GO:0008168</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: S-adenosyl-L-methionine + DNA containing cytosine = S-adenosyl-L-homocysteine + DNA containing 5-methylcytosine.</Detail>
+      <Keyword>DNA (cytosine-5-)-methyltransferase activity</Keyword>
+      <Ontology_ID>GO:0003886</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a transcription factor, any protein required to initiate or regulate transcription.</Detail>
+      <Keyword>Transcription factor binding</Keyword>
+      <Ontology_ID>GO:0008134</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein that positively regulates either the transcription of one or more genes, or the translation of mRNA.</Detail>
+      <Keyword>Activator</Keyword>
+      <Ontology_ID>KW-0010</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>495</Position>
+      <Original>Tyr</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>311</Position>
+      <Original>Ile</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>97</Position>
+      <Original>His</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in maintaining the methylation state of a nucleotide sequence.</Detail>
+      <Keyword>Maintenance of DNA methylation</Keyword>
+      <Ontology_ID>GO:0010216</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the covalent addition of a methyl group to the lysine at position 4 of histone H3.</Detail>
+      <Keyword>Positive regulation of histone H3-K4 methylation</Keyword>
+      <Ontology_ID>GO:0051571</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The alteration of DNA or protein in chromatin, which may result in changing the chromatin structure.</Detail>
+      <Keyword>Chromatin modification</Keyword>
+      <Ontology_ID>GO:0016568</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of transcription from an RNA polymerase II promoter.</Detail>
+      <Keyword>Negative regulation of transcription from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0000122</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene's coding sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</Detail>
+      <Keyword>Positive regulation of gene expression</Keyword>
+      <Ontology_ID>GO:0010628</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the covalent addition of a methyl group to the lysine at position 9 of histone H3.</Detail>
+      <Keyword>Negative regulation of histone H3-K9 methylation</Keyword>
+      <Ontology_ID>GO:0051573</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>142</Position>
+      <PTM_Type>N6-methyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1054</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1115</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>154</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1105</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1117</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>509</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>969</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>70</Position>
+      <PTM_Type>N6,N6-dimethyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>394</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>288</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>188</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>714</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>152</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1415</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1113</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1349</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>137</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>732</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>366</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>173</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1111</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>160</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>954</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>961</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>127</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>259</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>975</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>891</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>957</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>143</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>749</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MPARTAPARVPTLAVPAISLPDDVRRRLKDLERDSLTEKECVKEKLNLLHEFLQTEIKNQLCDLETKLRKEELSEEGYLAKVKSLLNKDLSLENGAHAYNREVNGRLENGNQARSEARRVGMADANSPPKPLSKPRTPRRSKSDGEAKPEPSPSPRITRKSTRQTTITSHFAKGPAKRKPQEESERAKSDESIKEEDKDQDEKRRRVTSRERVARPLPAEEPERAKSGTRTEKEEERDEKEEKRLRSQTKEPTPKQKLKEEPDREARAGVQADEDEDGDEKDEKKHRSQPKDLAAKRRPEEKEPEKVNPQISDEKDEDEKEEKRRKTTPKEPTEKKMARAKTVMNSKTHPPKCIQCGQYLDDPDLKYGQHPPDAVDEPQMLTNEKLSIFDANESGFESYEALPQHKLTCFSVYCKHGHLCPIDTGLIEKNIELFFSGSAKPIYDDDPSLEGGVNGKNLGPINEWWITGFDGGEKALIGFSTSFAEYILMDPSPEYAPIFGLMQEKIYISKIVVEFLQSNSDSTYEDLINKIETTVPPSGLNLNRFTEDSLLRHAQFVVEQVESYDEAGDSDEQPIFLTPCMRDLIKLAGVTLGQRRAQARRQTIRHSTREKDRGPTKATTTKLVYQIFDTFFAEQIEKDDREDKENAFKRRRCGVCEVCQQPECGKCKACKDMVKFGGSGRSKQACQERRCPNMAMKEADDDEEVDDNIPEMPSPKKMHQGKKKKQNKNRISWVGEAVKTDGKKSYYKKVCIDAETLEVGDCVSVIPDDSSKPLYLARVTALWEDSSNGQMFHAHWFCAGTDTVLGATSDPLELFLVDECEDMQLSYIHSKVKVIYKAPSENWAMEGGMDPESLLEGDDGKTYFYQLWYDQDYARFESPPKTQPTEDNKFKFCVSCARLAEMRQKEIPRVLEQLEDLDSRVLYYSATKNGILYRVGDGVYLPPEAFTFNIKLSSPVKRPRKEPVDEDLYPEHYRKYSDYIKGSNLDAPEPYRIGRIKEIFCPKKSNGRPNETDIKIRVNKFYRPENTHKSTPASYHADINLLYWSDEEAVVDFKAVQGRCTVEYGEDLPECVQVYSMGGPNRFYFLEAYNAKSKSFEDPPNHARSPGNKGKGKGKGKGKPKSQACEPSEPEIEIKLPKLRTLDVFSGCGGLSEGFHQAGISDTLWAIEMWDPAAQAFRLNNPGSTVFTEDCNILLKLVMAGETTNSRGQRLPQKGDVEMLCGGPPCQGFSGMNRFNSRTYSKFKNSLVVSFLSYCDYYRPRFFLLENVRNFVSFKRSMVLKLTLRCLVRMGYQCTFGVLQAGQYGVAQTRRRAIILAAAPGEKLPLFPEPLHVFAPRACQLSVVVDDKKFVSNITRLSSGPFRTITVRDTMSDLPEVRNGASALEISYNGEPQSWFQRQLRGAQYQPILRDHICKDMSALVAARMRHIPLAPGSDWRDLPNIEVRLSDGTMARKLRYTHHDRKNGRSSSGALRGVCSCVEAGKACDPAARQFNTLIPWCLPHTGNRHNHWAGLYGRLEWDGFFSTTVTNPEPMGKQGRVLHPEQHRVVSVRECARSQGFPDTYRLFGNILDKHRQVGNAVPPPLAKAIGLEIKLCMLAKARESASAKIKEEEAAKD</Protein_Seq>
+    <DNA_Seq>GGCTCCGTTCCATCCTTCTGCACAGGGTATCGCCTCTCTCCGTTTGGTACATCCCCTCCTCCCCCACGCCCGGACTGGGGTGGTAGACGCCGCCTCCGCTCATCGCCCCTCCCCATCGGTTTCCGCGCGAAAAGCCGGGGCGCCTGCGCTGCCGCCGCCGCGTCTGCTGAAGCCTCCGAGATGCCGGCGCGTACCGCCCCAGCCCGGGTGCCCACACTGGCCGTCCCGGCCATCTCGCTGCCCGACGATGTCCGCAGGCGGCTCAAAGATTTGGAAAGAGACAGCTTAACAGAAAAGGAATGTGTGAAGGAGAAATTGAATCTCTTGCACGAATTTCTGCAAACAGAAATAAAGAATCAGTTATGTGACTTGGAAACCAAATTACGTAAAGAAGAATTATCCGAGGAGGGCTACCTGGCTAAAGTCAAATCCCTTTTAAATAAAGATTTGTCCTTGGAGAACGGTGCTCATGCTTACAACCGGGAAGTGAATGGACGTCTAGAAAACGGGAACCAAGCAAGAAGTGAAGCCCGTAGAGTGGGAATGGCAGATGCCAACAGCCCCCCCAAACCCCTTTCCAAACCTCGCACGCCCAGGAGGAGCAAGTCCGATGGAGAGGCTAAGCGTTCAAGAGACCCTCCTGCCTCAGCCTCCCAAGTAACTGGGATTAGAGCTGAACCTTCACCTAGCCCCAGGATTACAAGGAAAAGCACCAGGCAAACCACCATCACATCTCATTTTGCAAAGGGCCCTGCCAAACGGAAACCTCAGGAAGAGTCTGAAAGAGCCAAATCGGATGAGTCCATCAAGGAAGAAGACAAAGACCAGGATGAGAAGAGACGTAGAGTTACATCCAGAGAACGAGTTGCTAGACCGCTTCCTGCAGAAGAACCTGAAAGAGCAAAATCAGGAACGCGCACTGAAAAGGAAGAAGAAAGAGATGAAAAAGAAGAAAAGAGACTCCGAAGTCAAACCAAAGAACCAACACCCAAACAGAAACTGAAGGAGGAGCCGGACAGAGAAGCCAGGGCAGGCGTGCAGGCTGACGAGGACGAAGATGGAGACGAGAAAGATGAGAAGAAGCACAGAAGTCAACCCAAAGATCTAGCTGCCAAACGGAGGCCCGAAGAAAAAGAACCTGAAAAAGTAAATCCACAGATTTCTGATGAAAAAGACGAGGATGAAAAGGAGGAGAAGAGACGCAAAACGACCCCCAAAGAACCAACGGAGAAAAAAATGGCTCGCGCCAAAACAGTCATGAACTCCAAGACCCACCCTCCCAAGTGCATTCAGTGCGGGCAGTACCTGGACGACCCTGACCTCAAATATGGGCAGCACCCACCAGACGCGGTGGATGAGCCACAGATGCTGACAAATGAGAAGCTGTCCATCTTTGATGCCAACGAGTCTGGCTTTGAGAGTTATGAGGCGCTTCCCCAGCACAAACTGACCTGCTTCAGTGTGTACTGTAAGCACGGTCACCTGTGTCCCATCGACACCGGCCTCATCGAGAAGAATATCGAACTCTTCTTTTCTGGTTCAGCAAAACCAATCTATGATGATGACCCATCTCTTGAAGGTGGTGTTAATGGCAAAAATCTTGGCCCCATAAATGAATGGTGGATCACTGGCTTTGATGGAGGTGAAAAGGCCCTCATCGGCTTCAGCACCTCATTTGCCGAATACATTCTGATGGATCCCAGTCCCGAGTATGCGCCCATATTTGGGCTGATGCAGGAGAAGATCTACATCAGCAAGATTGTGGTGGAGTTCCTGCAGAGCAATTCCGACTCGACCTATGAGGACCTGATCAACAAGATCGAGACCACGGTTCCTCCTTCTGGCCTCAACTTGAACCGCTTCACAGAGGACTCCCTCCTGCGACACGCGCAGTTTGTGGTGGAGCAGGTGGAGAGTTATGACGAGGCCGGGGACAGTGATGAGCAGCCCATCTTCCTGACACCCTGCATGCGGGACCTGATCAAGCTGGCTGGGGTCACGCTGGGACAGAGGCGAGCCCAGGCGAGGCGGCAGACCATCAGGCATTCTACCAGGGAGAAGGACAGGGGACCCACGAAAGCCACCACCACCAAGCTGGTCTACCAGATCTTCGATACTTTCTTCGCAGAGCAAATTGAAAAGGATGACAGAGAAGACAAGGAGAACGCCTTTAAGCGCCGGCGATGTGGCGTCTGTGAGGTGTGTCAGCAGCCTGAGTGTGGGAAATGTAAAGCCTGCAAGGACATGGTTAAATTTGGTGGCAGTGGACGGAGCAAGCAGGCTTGCCAAGAGCGGAGGTGTCCCAATATGGCCATGAAGGAGGCAGATGACGATGAGGAAGTCGATGATAACATCCCAGAGATGCCGTCACCCAAAAAAATGCACCAGGGGAAGAAGAAGAAACAGAACAAGAATCGCATCTCTTGGGTCGGAGAAGCCGTCAAGACTGATGGGAAGAAGAGTTACTATAAGAAGGTGTGCATTGATGCGGAAACCCTGGAAGTGGGGGACTGTGTCTCTGTTATTCCAGATGATTCCTCAAAACCGCTGTATCTAGCAAGGGTCACGGCGCTGTGGGAGGACAGCAGCAACGGGCAGATGTTTCACGCCCACTGGTTCTGCGCTGGGACAGACACAGTCCTCGGGGCCACGTCGGACCCTCTGGAGCTGTTCTTGGTGGATGAATGTGAGGACATGCAGCTTTCATATATCCACAGCAAAGTGAAAGTCATCTACAAAGCCCCCTCCGAAAACTGGGCCATGGAGGGAGGCATGGATCCCGAGTCCCTGCTGGAGGGGGACGACGGGAAGACCTACTTCTACCAGCTGTGGTATGATCAAGACTACGCGAGATTCGAGTCCCCTCCAAAAACCCAGCCAACAGAGGACAACAAGTTCAAATTCTGTGTGAGCTGTGCCCGTCTGGCTGAGATGAGGCAAAAAGAAATCCCCAGGGTCCTGGAGCAGCTCGAGGACCTGGATAGCCGGGTCCTCTACTACTCAGCCACCAAGAACGGCATCCTGTACCGAGTTGGTGATGGTGTGTACCTGCCCCCTGAGGCCTTCACGTTCAACATCAAGCTGTCCAGTCCCGTGAAACGCCCACGGAAGGAGCCCGTGGATGAGGACCTGTACCCAGAGCACTACCGGAAATACTCCGACTACATCAAAGGCAGCAACCTGGATGCCCCTGAGCCCTACCGAATTGGCCGGATCAAAGAGATCTTCTGTCCCAAGAAGAGCAACGGCAGGCCCAATGAGACTGACATCAAAATCCGGGTCAACAAGTTCTACAGGCCTGAGAACACCCACAAGTCCACTCCAGCGAGCTACCACGCAGACATCAACCTGCTCTACTGGAGCGACGAGGAGGCCGTGGTGGACTTCAAGGCTGTGCAGGGCCGCTGCACCGTGGAGTATGGGGAGGACCTGCCCGAGTGCGTCCAGGTGTACTCCATGGGCGGCCCCAACCGCTTCTACTTCCTCGAGGCCTATAATGCAAAGAGCAAAAGCTTTGAAGATCCTCCCAACCATGCCCGTAGCCCTGGAAACAAAGGGAAGGGCAAGGGAAAAGGGAAGGGCAAGCCCAAGTCCCAAGCCTGTGAGCCGAGCGAGCCAGAGATAGAGATCAAGCTGCCCAAGCTGCGGACCCTGGATGTGTTTTCTGGCTGCGGGGGGTTGTCGGAGGGATTCCACCAAGCAGGCATCTCTGACACGCTGTGGGCCATCGAGATGTGGGACCCTGCGGCCCAGGCGTTCCGGCTGAACAACCCCGGCTCCACAGTGTTCACAGAGGACTGCAACATCCTGCTGAAGCTGGTCATGGCTGGGGAGACCACCAACTCCCGCGGCCAGCGGCTGCCCCAGAAGGGAGACGTGGAGATGCTGTGCGGCGGGCCGCCCTGCCAGGGCTTCAGCGGCATGAACCGCTTCAATTCGCGCACCTACTCCAAGTTCAAAAACTCTCTGGTGGTTTCCTTCCTCAGCTACTGCGACTACTACCGGCCCCGGTTCTTCCTCCTGGAGAATGTCAGGAACTTTGTCTCCTTCAAGCGCTCCATGGTCCTGAAGCTCACCCTCCGCTGCCTGGTCCGCATGGGCTATCAGTGCACCTTCGGCGTGCTGCAGGCCGGTCAGTACGGCGTGGCCCAGACTAGGAGGCGGGCCATCATCCTGGCCGCGGCCCCTGGAGAGAAGCTCCCTCTGTTCCCGGAGCCACTGCACGTGTTTGCTCCCCGGGCCTGCCAGCTGAGCGTGGTGGTGGATGACAAGAAGTTTGTGAGCAACATAACCAGGTTGAGCTCGGGTCCTTTCCGGACCATCACGGTGCGAGACACGATGTCCGACCTGCCGGAGGTGCGGAATGGAGCCTCGGCACTGGAGATCTCCTACAACGGGGAGCCTCAGTCCTGGTTCCAGAGGCAGCTCCGGGGCGCACAGTACCAGCCCATCCTCAGGGACCACATCTGTAAGGACATGAGTGCATTGGTGGCTGCCCGCATGCGGCACATCCCCTTGGCCCCAGGGTCAGACTGGCGCGATCTGCCCAACATCGAGGTGCGGCTCTCAGACGGCACCATGGCCAGGAAGCTGCGGTATACCCACCATGACAGGAAGAACGGCCGCAGCAGCTCTGGGGCCCTCCGTGGGGTCTGCTCCTGCGTGGAAGCCGGCAAAGCCTGCGACCCCGCAGCCAGGCAGTTCAACACCCTCATCCCCTGGTGCCTGCCCCACACCGGGAACCGGCACAACCACTGGGCTGGCCTCTATGGAAGGCTCGAGTGGGACGGCTTCTTCAGCACAACCGTCACCAACCCCGAGCCCATGGGCAAGCAGGGCCGCGTGCTCCACCCAGAGCAGCACCGTGTGGTGAGCGTGCGGGAGTGTGCCCGCTCCCAGGGCTTCCCTGACACCTACCGGCTCTTCGGCAACATCCTGGACAAGCACCGGCAGGTGGGCAATGCCGTGCCACCGCCCCTGGCCAAAGCCATTGGCTTGGAGATCAAGCTTTGTATGTTGGCCAAAGCCCGAGAGAGTGCCTCAGCTAAAATAAAGGAGGAGGAAGCTGCTAAGGACTAGTTCTGCCCTCCCGTCACCCCTGTTTCTGGCACCAGGAATCCCCAACATGCACTGATGTTGTGTTTTTAACATGTCAATCTGTCCGTTCACATGTGTGGTACATGGTGTTTGTGGCCTTGGCTGACATGAAGCTGTTGTGTGAGGTTCGCTTATCAACTAATGATTTAGTGATCAAATTGTGCAGTACTTTGTGCATTCTGGATTTTAAAAGTTTTTTATTATGCATTATATCAAATCTACCACTGTATGAGTGGAAATTAAGACTTTATGTAGTTTTTATATGTTGTAATATTTCTTCAAATAAATCTCTCCTATAAACCAAAAAAAAAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>DNMT1</Gene_Name>
+    <Gene_Alias>AIM; CXXC9; DNMT</Gene_Alias>
+    <Gene_ID>1786</Gene_ID>
+    <Genbank_ACCN>NM_001130823</Genbank_ACCN>
+    <Protein_ACCN>NP_001124295</Protein_ACCN>
+    <HGNC_ID>2976</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1786</Gene_URL>
+    <UCSC_ID>uc002mnh.3</UCSC_ID>
+    <EMBL_ID>ENSG00000130816</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q15910</Uniprot_ID>
+      <Gene_Name>EZH2</Gene_Name>
+      <EBI_ID>EBI-530054</EBI_ID>
+      <PPI_EBI_URL>EBI-719459,EBI-530054</PPI_EBI_URL>
+      <Experiment_Number>8</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O75530</Uniprot_ID>
+      <Gene_Name>EED</Gene_Name>
+      <EBI_ID>EBI-923794</EBI_ID>
+      <PPI_EBI_URL>EBI-719459,EBI-923794</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q96T88</Uniprot_ID>
+      <Gene_Name>UHRF1</Gene_Name>
+      <EBI_ID>EBI-1548946</EBI_ID>
+      <PPI_EBI_URL>EBI-719459,EBI-1548946</PPI_EBI_URL>
+      <Experiment_Number>10</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q96EB6</Uniprot_ID>
+      <Gene_Name>SIRT1</Gene_Name>
+      <EBI_ID>EBI-1802965</EBI_ID>
+      <PPI_EBI_URL>EBI-719459,EBI-1802965</PPI_EBI_URL>
+      <Experiment_Number>11</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS047</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer?search=DNMT1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mutagen Sensitivity</Disease_Name>
+      <Disease_Detail>Mutagen Sensitivity</Disease_Detail>
+      <Disease_DB>MTG002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mutagen_sensitivity?search=DNMT1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cerebellar Ataxia, Deafness, and Narcolepsy, Autosomal Dominant</Disease_Name>
+      <Disease_Detail>Cerebellar Ataxia</Disease_Detail>
+      <Disease_DB>CRB142</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cerebellar_ataxia_deafness_and_narcolepsy_autosomal_dominant?search=DNMT1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cerebellar Ataxia</Disease_Name>
+      <Disease_Detail>Cerebellar Ataxia</Disease_Detail>
+      <Disease_DB>CRB042</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cerebellar_ataxia?search=DNMT1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myelodysplastic Syndromes</Disease_Name>
+      <Disease_Detail>Myelodysplastic Syndromes</Disease_Detail>
+      <Disease_DB>MYL040</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myelodysplastic_syndromes?search=DNMT1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lymphosarcoma</Disease_Name>
+      <Disease_Detail>Lymphosarcoma</Disease_Detail>
+      <Disease_DB>LYM019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lymphosarcoma?search=DNMT1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Loeys-Dietz Syndrome</Disease_Name>
+      <Disease_Detail>Loeys-Dietz Syndrome</Disease_Detail>
+      <Disease_DB>LYS001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/loeys_dietz_syndrome?search=DNMT1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dnmt1-Related Dementia, Deafness, and Sensory Neuropathy</Disease_Name>
+      <Disease_Detail>Dnmt1-Related Dementia, Deafness, and Sensory Neuropathy</Disease_Detail>
+      <Disease_DB>DNM002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dnmt1_related_dementia_deafness_and_sensory_neuropathy?search=DNMT1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Narcolepsy</Disease_Name>
+      <Disease_Detail>Narcolepsy</Disease_Detail>
+      <Disease_DB>NRC002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/narcolepsy?search=DNMT1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Structure of the replication foci-targeting sequence of human DNA cytosine methyltransferase DNMT1</PDB_Title>
+      <PDB_ID>3EPZ</PDB_ID>
+      <Resolution>2.31</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EPZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The replication focus targeting sequence (RFTS) domain is a DNA-competitive inhibitor of Dnmt1.</PubMed_Title>
+      <Author>Syeda, F., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:15344-15351</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21389349?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human DNMT1(646-1600) in complex with DNA</PDB_Title>
+      <PDB_ID>3PTA</PDB_ID>
+      <Resolution>3.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PTA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of DNMT1-DNA complex reveals a role for autoinhibition in maintenance DNA methylation.</PubMed_Title>
+      <Author>Song, J., et al.</Author>
+      <Journal>Science(2011)331:1036-1040</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21163962?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of human DNMT1 (601-1600) in complex with Sinefungin</PDB_Title>
+      <PDB_ID>3SWR</PDB_ID>
+      <Resolution>2.49</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3SWR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of human DNMT1 (residues 600-1600) in complex with Sinefungin</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Eed in complex with NDSB-195</PDB_Title>
+      <PDB_ID>3IJC</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3IJC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Role of the polycomb protein EED in the propagation of repressive histone marks.</PubMed_Title>
+      <Author>Margueron, R., et al.</Author>
+      <Journal>Nature(2009)461:762-767</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19767730?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05206</Pathway_ID>
+      <Pathway_Title>MicroRNAs in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00270</Pathway_ID>
+      <Pathway_Title>Cysteine and methionine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>range,284,287</Site_Detail>
+      <Site_Reference>Pradhan S, et al. Biochemistry. 2003,42(18):5321-5332.</Site_Reference>
+      <PubMed_ID>12731873</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.1.1.37</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/1/1/37.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00498001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04690001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04690002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04690003</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

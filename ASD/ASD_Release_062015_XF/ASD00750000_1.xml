@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00750000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A7E5</UniProt_ID>
+  <Seq_Length>545</Seq_Length>
+  <Molecule_Weight>60374</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p2717</KEGG_ID>
+  <Orthology_ID>K01937</Orthology_ID>
+  <Function_Summary>Catalyzes the ATP-dependent amination of UTP to CTP with either L-glutamine or ammonia as the source of nitrogen.</Function_Summary>
+  <Catalytic_Mechanism>ATP + UTP + NH(3) = ADP + phosphate + CTP.</Catalytic_Mechanism>
+  <Pfam_ID>PF06418:CTP_synth_N@@PF00117:GATase</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>UTP--ammonia ligase</Alias>
+      <Alias>CTP synthetase</Alias>
+      <Alias>Cytosine Triphosphate Synthetase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + UTP + NH3 = ADP + phosphate + CTP.</Detail>
+      <Keyword>CTP synthase activity</Keyword>
+      <Ontology_ID>GO:0003883</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of CTP, cytidine 5'-triphosphate.</Detail>
+      <Keyword>CTP biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006241</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving glutamine, 2-amino-4-carbamoylbutanoic acid.</Detail>
+      <Keyword>Glutamine metabolic process</Keyword>
+      <Ontology_ID>GO:0006541</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of a pyrimidine nucleotide, a compound consisting of nucleoside (a pyrimidine base linked to a deoxyribose or ribose sugar) esterified with a phosphate group at either the 3' or 5'-hydroxyl group of the sugar.</Detail>
+      <Keyword>Pyrimidine nucleotide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006221</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTTNYIFVTGGVVSSLGKGIAAASLAAILEARGLNVTIMKLDPYINVDPGTMSPIQHGEVFVTEDGAETDLDLGHYERFIRTKMSRRNNFTTGRIYSDVLRKERRGDYLGATVQVIPHITNAIKERVLEGGEGHDVVLVEIGGTVGDIESLPFLEAIRQMAVEIGREHTLFMHLTLVPYMAASGEVKTKPTQHSVKELLSIGIQPDILICRSDRAVPANERAKIALFCNVPEKAVISLKDVDSIYKIPGLLKSQGLDDYICKRFSLNCPEANLSEWEQVIFEEANPVSEVTIGMVGKYIELPDAYKSVIEALKHGGLKNRVSVNIKLIDSQDVETRGVEILKGLDAILVPGGFGYRGVEGMITTARFARENNIPYLGICLGMQVALIDYARHVANMENANSTEFVPDCKYPVVALITEWRDENGNVEVRSEKSDLGGTMRLGAQQCQLVDDSLVRQLYNAPTIVERHRHRYEVNNMLLKQIEDAGLRVAGRSGDDQLVEIIEVPNHPWFVACQFHPEFTSTPRDGHPLFAGFVKAASEFQKRQAK</Protein_Seq>
+    <DNA_Seq>gagcgtcgttttcgcgaagtggagcgtattgttgccgcgcgtggactggaaatgacaggtgttgacctcgaaacaatggaagaagtctggcaacaggtaaaacggcaggaaattgatctctaagggaattacgcggtcaagcgccatttgtgtcattttttaaatgacaagcgcttgatttgcgtcaaaaacatttaccccaaaggggctattttctcactcctgatttcaatagtgcgctggcgaagaggagggataatgaaagtttgtggcacaggtcatgttcgggtatactgctttcccgtcttggttattccatcgtcttttcaacctaacttctcaggttcagcatgacaacgaactatatttttgtgaccggcggggtcgtatcctctctgggtaaaggcattgccgcagcctccctcgcagccattcttgaagcccgtggcctcaatgtgaccatcatgaaactggatccgtacatcaacgtcgatccaggtactatgagcccaatccaacacggggaagtgttcgttactgaagacggcgctgaaaccgacctggacctggggcactacgagcgtttcattcgtaccaaaatgagccgccgcaacaacttcaccacgggtcgtatctactctgacgttctgcgtaaagaacgccgcggtgactacctcggcgcaaccgtgcaggttattccgcacatcactaacgcaatcaaagagcgcgtgctggaaggtggcgaaggtcatgacgtagtactggtagaaatcggcggtacagtaggtgatatcgaatccttgccgttcctcgaagcgattcgccagatggctgttgaaattggccgtgagcacactctgtttatgcacctgacgctggtgccgtacatggcagcgtctggtgaagtcaaaaccaaaccgactcagcactctgtaaaagagctgctctccatcggtatccagcctgacatcctgatttgtcgttcagatcgcgctgttcc</DNA_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>pyrG</Gene_Name>
+    <Gene_ID>12933304</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_417260</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/946116</Gene_URL>
+    <EMBL_ID>EBESCG00000015180</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Mechanisms of feedback regulation and drug resistance of CTP synthetases: structure of the E. coli CTPS/CTP complex at 2.8-Angstrom resolution.</PDB_Title>
+      <PDB_ID>2AD5</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AD5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanisms of product feedback regulation and drug resistance in cytidine triphosphate synthetases from the structure of a CTP-inhibited complex.</PubMed_Title>
+      <Author>Endrizzi JA, et al.</Author>
+      <Journal>Biochemistry. 2005 Oct 18;44(41):13491-9.</Journal>
+      <PubMed_ID>16216072</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of E. Coli CTP Synthetase</PDB_Title>
+      <PDB_ID>1S1M</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S1M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of Escherichia coli cytidine triphosphate synthetase, a nucleotide-regulated glutamine amidotransferase/ATP-dependent amidoligase fusion protein and homologue of anticancer and antiparasitic drug targets.</PubMed_Title>
+      <Author>Endrizzi JA, et al.</Author>
+      <Journal>Biochemistry. 2004 Jun 1;43(21):6447-63.</Journal>
+      <PubMed_ID>15157079</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00240</Pathway_ID>
+      <Pathway_Title>Pyrimidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.bd.cd.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2ad5</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.3.4.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/3/4/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00290006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

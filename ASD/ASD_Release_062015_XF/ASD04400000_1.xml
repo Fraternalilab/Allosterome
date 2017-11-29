@@ -1,0 +1,648 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04400000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q14790</UniProt_ID>
+  <Seq_Length>479</Seq_Length>
+  <Molecule_Weight>55391</Molecule_Weight>
+  <KEGG_ID>hsa:841</KEGG_ID>
+  <Orthology_ID>K04398</Orthology_ID>
+  <EBI_ID>EBI-78060</EBI_ID>
+  <Function_Summary>Most upstream protease of the activation cascade of caspases responsible for the TNFRSF6/FAS mediated and TNFRSF1A induced cell death. Binding to the adapter molecule FADD recruits it to either receptor. The resulting aggregate called death-inducing signaling complex (DISC) performs CASP8 proteolytic activation. The active dimeric enzyme is then liberated from the DISC and free to activate downstream apoptotic proteases. Proteolytic fragments of the N-terminal propeptide (termed CAP3, CAP5 and CAP6) are likely retained in the DISC. Cleaves and activates CASP3, CASP4, CASP6, CASP7, CASP9 and CASP10. May participate in the GZMB apoptotic pathways. Cleaves ADPRT. Hydrolyzes the small-molecule substrate, Ac-Asp-Glu-Val-Asp-|-AMC. Likely target for the cowpox virus CRMA death inhibitory protein. Isoform 5, isoform 6, isoform 7 and isoform 8 lack the catalytic site and may interfere with the pro-apoptotic activity of the complex.</Function_Summary>
+  <Catalytic_Mechanism>Strict requirement for Asp at position P1 and has a preferred cleavage sequence of (Leu/Asp/Val)-Glu-Thr-Asp-|-(Gly/Ser/Ala).</Catalytic_Mechanism>
+  <Pfam_ID>PF01335:DED@@PF00656:Peptidase_C14</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>4</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>MACH</Alias>
+      <Alias>FADD-like ICE</Alias>
+      <Alias>Caspase-8 subunit p10</Alias>
+      <Alias>CASP-8</Alias>
+      <Alias>FADD-homologous ICE/ced-3-like protease</Alias>
+      <Alias>Apoptotic cysteine protease</Alias>
+      <Alias>MORT1-associated ced-3 homolog</Alias>
+      <Alias>Apoptotic protease Mch-5</Alias>
+      <Alias>CAP4</Alias>
+      <Alias>ICE-like apoptotic protease 5</Alias>
+      <Alias>Caspase-8 subunit p18</Alias>
+      <Alias>FLICE</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a mechanism in which the sulfhydryl group of a cysteine residue at the active center acts as a nucleophile.</Detail>
+      <Keyword>Cysteine-type peptidase activity</Keyword>
+      <Ontology_ID>GO:0008234</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein or proteins.</Detail>
+      <Keyword>Identical protein binding</Keyword>
+      <Ontology_ID>GO:0042802</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a mechanism in which the sulfhydryl group of a cysteine residue at the active center acts as a nucleophile.</Detail>
+      <Keyword>Cysteine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004197</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>219</Position>
+      <Original>Ser</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>285</Position>
+      <Original>Asp</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>248</Position>
+      <Original>Arg</Original>
+      <Variation>Trp</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Upregulation of the activity of a caspase, any of a group of cysteine proteases involved in apoptosis.</Detail>
+      <Keyword>Activation of caspase activity</Keyword>
+      <Ontology_ID>GO:0006919</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The hydrolysis of a peptide bond or bonds within a protein as part of the chemical reactions and pathways resulting in the breakdown of a protein by individual cells.</Detail>
+      <Keyword>Proteolysis involved in cellular protein catabolic process</Keyword>
+      <Ontology_ID>GO:0051603</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The conversion of proteins that induce or sustain apoptosis to an active form.</Detail>
+      <Keyword>Activation of pro-apoptotic gene products</Keyword>
+      <Ontology_ID>GO:0008633</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</Detail>
+      <Keyword>Innate immune response</Keyword>
+      <Ontology_ID>GO:0045087</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process induced by extracellular signals that directly activates any of the steps required for cell death by apoptosis.</Detail>
+      <Keyword>Induction of apoptosis by extracellular signals</Keyword>
+      <Ontology_ID>GO:0008624</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to a nucleotide-binding oligomerization domain containing (NOD) protein.</Detail>
+      <Keyword>Nucleotide-binding oligomerization domain containing signaling pathway</Keyword>
+      <Ontology_ID>GO:0070423</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a tumor necrosis factor stimulus.</Detail>
+      <Keyword>Response to tumor necrosis factor</Keyword>
+      <Ontology_ID>GO:0034612</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The breakdown of structures such as organelles, proteins, or other macromolecular structures during apoptosis.</Detail>
+      <Keyword>Cellular component disassembly involved in apoptosis</Keyword>
+      <Ontology_ID>GO:0006921</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of an I-kappaB kinase/NF-kappaB induced cascade.</Detail>
+      <Keyword>Positive regulation of I-kappaB kinase/NF-kappaB cascade</Keyword>
+      <Ontology_ID>GO:0043123</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process induced by intracellular signals that directly activates any of the steps required for cell death by apoptosis.</Detail>
+      <Keyword>Induction of apoptosis by intracellular signals</Keyword>
+      <Ontology_ID>GO:0008629</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a mechanical stimulus.</Detail>
+      <Keyword>Cellular response to mechanical stimulus</Keyword>
+      <Ontology_ID>GO:0071260</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>387</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>188</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>334</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>219</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MDFSRNLYDIGEQLDSEDLASLKFLSLDYIPQRKQEPIKDALMLFQRLQEKRMLEESNLSFLKELLFRINRLDLLITYLNTRKEEMERELQTPGRAQISAYRVMLYQISEEVSRSELRSFKFLLQEEISKCKLDDDMNLLDIFIEMEKRVILGEGKLDILKRVCAQINKSLLKIINDYEEFSKERSSSLEGSPDEFSNGEELCGVMTISDSPREQDSESQTLDKVYQMKSKPRGYCLIINNHNFAKAREKVPKLHSIRDRNGTHLDAGALTTTFEELHFEIKPHDDCTVEQIYEILKIYQLMDHSNMDCFICCILSHGDKGIIYGTDGQEAPIYELTSQFTGLKCPSLAGKPKVFFIQACQGDNYQKGIPVETDSEEQPYLEMDLSSPQTRYIPDEADFLLGMATVNNCVSYRNPAEGTWYIQSLCQSLRERCPRGDDILTILTEVNYEVSNKDDKKNMGKQMPQPTFTLRKKLVFPSD</Protein_Seq>
+    <DNA_Seq>GTGCTCTGAGTTTTTGGTTTCTGTTTCACCTTGTGTCTGAGCTGGTCTGAAGGCTGGTTGTTCAGACTGAGCTTCCTGCCTGCCTGTACCCCGCCAACAGCTTCAGAAGAAGGAGCAGCCCCTGGGTGCGTCCACTTTCTGGGCACGTGAGGTTGGGCCTTGGCCGCCTGAGCCCTTGAGTTGGTCACTTGAACCTTGGGAATATTGAGATTATATTCTCCTGCCTTTTAAAAAGATGGACTTCAGCAGAAATCTTTATGATATTGGGGAACAACTGGACAGTGAAGATCTGGCCTCCCTCAAGTTCCTGAGCCTGGACTACATTCCGCAAAGGAAGCAAGAACCCATCAAGGATGCCTTGATGTTATTCCAGAGACTCCAGGAAAAGAGAATGTTGGAGGAAAGCAATCTGTCCTTCCTGAAGGAGCTGCTCTTCCGAATTAATAGACTGGATTTGCTGATTACCTACCTAAACACTAGAAAGGAGGAGATGGAAAGGGAACTTCAGACACCAGGCAGGGCTCAAATTTCTGCCTACAGGGTCATGCTCTATCAGATTTCAGAAGAAGTGAGCAGATCAGAATTGAGGTCTTTTAAGTTTCTTTTGCAAGAGGAAATCTCCAAATGCAAACTGGATGATGACATGAACCTGCTGGATATTTTCATAGAGATGGAGAAGAGGGTCATCCTGGGAGAAGGAAAGTTGGACATCCTGAAAAGAGTCTGTGCCCAAATCAACAAGAGCCTGCTGAAGATAATCAACGACTATGAAGAATTCAGCAAAGGGGAGGAGTTGTGTGGGGTAATGACAATCTCGGACTCTCCAAGAGAACAGGATAGTGAATCACAGACTTTGGACAAAGTTTACCAAATGAAAAGCAAACCTCGGGGATACTGTCTGATCATCAACAATCACAATTTTGCAAAAGCACGGGAGAAAGTGCCCAAACTTCACAGCATTAGGGACAGGAATGGAACACACTTGGATGCAGGGGCTTTGACCACGACCTTTGAAGAGCTTCATTTTGAGATCAAGCCCCACGATGACTGCACAGTAGAGCAAATCTATGAGATTTTGAAAATCTACCAACTCATGGACCACAGTAACATGGACTGCTTCATCTGCTGTATCCTCTCCCATGGAGACAAGGGCATCATCTATGGCACTGATGGACAGGAGGCCCCCATCTATGAGCTGACATCTCAGTTCACTGGTTTGAAGTGCCCTTCCCTTGCTGGAAAACCCAAAGTGTTTTTTATTCAGGCTTGTCAGGGGGATAACTACCAGAAAGGTATACCTGTTGAGACTGATTCAGAGGAGCAACCCTATTTAGAAATGGATTTATCATCACCTCAAACGAGATATATCCCGGATGAGGCTGACTTTCTGCTGGGGATGGCCACTGTGAATAACTGTGTTTCCTACCGAAACCCTGCAGAGGGAACCTGGTACATCCAGTCACTTTGCCAGAGCCTGAGAGAGCGATGTCCTCGAGGCGATGATATTCTCACCATCCTGACTGAAGTGAACTATGAAGTAAGCAACAAGGATGACAAGAAAAACATGGGGAAACAGATGCCTCAGCCTACTTTCACACTAAGAAAAAAACTTGTCTTCCCTTCTGATTGATGGTGCTATTTTGTTTGTTTTGTTTTGTTTTGTTTTTTTGAGACAGAATCTCGCTCTGTCGCCCAGGCTGGAGTGCAGTGGCGTGATCTCGGCTCACCGCAAGCTCCGCCTCCCGGGTTCAGGCCATTCTCCTGCCTCAGCCTCCCGAGTAGCTGGGACTACAGGGGCCCGCCACCACACCTGGCTAATTTTTTAAAAATATTTTTAGTAGAGACAGGGTTTCACTGTGTTAGCCAGGGTGGTCTTGATCTCCTGACCTCGTGATCCACCCACCTCGGCCTCCCAAAGTGCTGGGATTACAGGCGTGAGCCACCGCGCCTGGCCGATGGTACTATTTAGATATAACACTATGTTTATTTACTAATTTTCTAGATTTTCTACTTTATTAATTGTTTTGCACTTTTTTATAAGAGCTAAAGTTAAATAGGATATTAACAACAATAACACTGTCTCCTTTCTCTTATGCTTAAGGCTTTGGGAATGTTTTTAGCTGGTGGCAATAAATACCAGACACGTACAAAATCCAGCTATGAATATAGAGGGCTTATGATTCAGATTGTTATCTATCAACTATAAGCCCACTGTTAATATTCTATTAACTTTAATTCTCTTTCAAAGCTAAATTCCACACTACCACATTAAAAAAATTAGAAAGTAGCCACGTATGGTGGCTCATGTCTATAATCCCAGCACTTTGGGAGGTTGAGGTGGGAGGATTGCTTGAACCCAAGAGGTCAAGGCTGCAGTGAGCCATGTTCACACCGCTGCACTCAAGCTTGGGTGACAGAACAAGACCCCGTCTCAAAAAAAATTTTTTTTTTAATAAAACAAAATTTGTTTGAAATCTTTTAAAAATTCAAATGATTTTTACAAGTTTTAAATAAGCTCTCCCCAAACTTGCTTTATGCCTTCTTATTGCTTTTATGATATATATATGCTTGGCTAACTATATTTGCTTTTTGCTAACAATGCTCTGGGGTCTTTTTATGCATTTGCATTTGCTCTTTCATCTCTGCTTGGATTATTTTAAATCATTAGGAATTAAGTTATCTTTAAAATTTAAGTATCTTTTTTCAAAAACATTTTTTAATAGAATAAAATATAATTTGATCTTATTAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Centrosome</CellLocal>
+      <Ontology_ID>GO:0005813</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrial outer membrane</CellLocal>
+      <Ontology_ID>GO:0005741</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CASP8</Gene_Name>
+    <Gene_Alias>MCH5</Gene_Alias>
+    <Gene_ID>841</Gene_ID>
+    <Genbank_ACCN>NM_001080124</Genbank_ACCN>
+    <Protein_ACCN>NP_001073593</Protein_ACCN>
+    <HGNC_ID>1509</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/841</Gene_URL>
+    <UCSC_ID>uc010ftf.2</UCSC_ID>
+    <EMBL_ID>ENSG00000064012</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q13158</Uniprot_ID>
+      <Gene_Name>FADD</Gene_Name>
+      <EBI_ID>EBI-494804</EBI_ID>
+      <PPI_EBI_URL>EBI-78060,EBI-494804</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q92851</Uniprot_ID>
+      <Gene_Name>CASP10</Gene_Name>
+      <EBI_ID>EBI-495095</EBI_ID>
+      <PPI_EBI_URL>EBI-78060,EBI-495095</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q13418</Uniprot_ID>
+      <Gene_Name>ILK</Gene_Name>
+      <EBI_ID>EBI-747644</EBI_ID>
+      <PPI_EBI_URL>EBI-78060,EBI-747644</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O00220</Uniprot_ID>
+      <Gene_Name>TNFRSF10A</Gene_Name>
+      <EBI_ID>EBI-518861</EBI_ID>
+      <PPI_EBI_URL>EBI-78060,EBI-518861</PPI_EBI_URL>
+      <Experiment_Number>9</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P25445</Uniprot_ID>
+      <Gene_Name>FAS</Gene_Name>
+      <EBI_ID>EBI-494743</EBI_ID>
+      <PPI_EBI_URL>EBI-78060,EBI-494743</PPI_EBI_URL>
+      <Experiment_Number>12</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q13546</Uniprot_ID>
+      <Gene_Name>RIPK1</Gene_Name>
+      <EBI_ID>EBI-358507</EBI_ID>
+      <PPI_EBI_URL>EBI-78060,EBI-358507</PPI_EBI_URL>
+      <Experiment_Number>22</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O60936</Uniprot_ID>
+      <Gene_Name>NOL3</Gene_Name>
+      <EBI_ID>EBI-740992</EBI_ID>
+      <PPI_EBI_URL>EBI-78060,EBI-740992</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P51572</Uniprot_ID>
+      <Gene_Name>BCAP31</Gene_Name>
+      <EBI_ID>EBI-77683</EBI_ID>
+      <PPI_EBI_URL>EBI-78060,EBI-77683</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q13618</Uniprot_ID>
+      <Gene_Name>CUL3</Gene_Name>
+      <EBI_ID>EBI-456129</EBI_ID>
+      <PPI_EBI_URL>EBI-78060,EBI-456129</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q14790</Uniprot_ID>
+      <Gene_Name>CASP8</Gene_Name>
+      <EBI_ID>EBI-78060</EBI_ID>
+      <PPI_EBI_URL>EBI-78060,EBI-78060</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Huntington's Disease</Disease_Name>
+      <Disease_Detail>Huntington's Disease</Disease_Detail>
+      <Disease_DB>HNT001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/huntingtons_disease?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer, Protection Against</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS079</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_protection_against?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hepatocellular Carcinoma, Somatic</Disease_Name>
+      <Disease_Detail>Hepatocellular Carcinoma</Disease_Detail>
+      <Disease_DB>HPT032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hepatocellular_carcinoma_somatic?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hepatocellular Carcinoma, Childhood</Disease_Name>
+      <Disease_Detail>Hepatocellular Carcinoma</Disease_Detail>
+      <Disease_DB>HPT031</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hepatocellular_carcinoma_childhood?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hepatoblastoma, Somatic</Disease_Name>
+      <Disease_Detail>Hepatoblastoma</Disease_Detail>
+      <Disease_DB>HPT033</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hepatoblastoma_somatic?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gastrointestinal Lymphoma</Disease_Name>
+      <Disease_Detail>Gastrointestinal Carcinoma</Disease_Detail>
+      <Disease_DB>GST014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gastrointestinal_lymphoma?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lung Cancer</Disease_Name>
+      <Disease_Detail>Lung Cancer</Disease_Detail>
+      <Disease_DB>LNG032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lung_cancer?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Talipes Equinovarus</Disease_Name>
+      <Disease_Detail>Talipes Equinovarus</Disease_Detail>
+      <Disease_DB>TLP001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/talipes_equinovarus?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dystrophinopathies</Disease_Name>
+      <Disease_Detail>Dystrophinopathies</Disease_Detail>
+      <Disease_DB>DYS032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dystrophinopathies?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS047</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Molluscum Contagiosum</Disease_Name>
+      <Disease_Detail>Molluscum Contagiosum</Disease_Detail>
+      <Disease_DB>MLL001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/molluscum_contagiosum?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lung Cancer, Protection Against</Disease_Name>
+      <Disease_Detail>Lung Cancer</Disease_Detail>
+      <Disease_DB>LNG068</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lung_cancer_protection_against?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Thoracic Cancer</Disease_Name>
+      <Disease_Detail>Thoracic Cancer</Disease_Detail>
+      <Disease_DB>THR012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/thoracic_cancer?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ovarian Cancer</Disease_Name>
+      <Disease_Detail>Ovarian Cancer</Disease_Detail>
+      <Disease_DB>OVR042</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ovarian_cancer?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Autoimmune Lymphoproliferative Syndrome</Disease_Name>
+      <Disease_Detail>Autoimmune Lymphoproliferative Syndrome</Disease_Detail>
+      <Disease_DB>ATM006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/autoimmune_lymphoproliferative_syndrome?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myocardial Infarction</Disease_Name>
+      <Disease_Detail>Myocardial Infarction</Disease_Detail>
+      <Disease_DB>MYC007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myocardial_infarction?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Caspase-8 Deficiency</Disease_Name>
+      <Disease_Detail>Caspase-8 Deficiency</Disease_Detail>
+      <Disease_DB>CSP001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/caspase_8_deficiency?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Liver Cancer</Disease_Name>
+      <Disease_Detail>Liver Cancer</Disease_Detail>
+      <Disease_DB>LVR011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/liver_cancer?search=CASP8#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF CASPASE-8 WITH THE TETRAPEPTIDE INHIBITOR ACE-IETD-ALDEHYDE</PDB_Title>
+      <PDB_ID>1QTN</PDB_ID>
+      <Resolution>1.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QTN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The atomic-resolution structure of human caspase-8, a key activator of apoptosis.</PubMed_Title>
+      <Author>Watt, W., et al.</Author>
+      <Journal>Structure Fold.Des.(1999)7:1135-1143</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10508785?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase-8 in Complex with DARPin-8.4</PDB_Title>
+      <PDB_ID>2Y1L</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Y1L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Caspase-8 in Complex with Darpin-8.4</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>alternative p35-caspase-8 complex</PDB_Title>
+      <PDB_ID>2FUN</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FUN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Native chemical ligation in covalent caspase inhibition by p35.</PubMed_Title>
+      <Author>Lu, M., et al.</Author>
+      <Journal>Chem.Biol.(2006)13:117-122</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16492559?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase 8 bound to a covalent inhibitor</PDB_Title>
+      <PDB_ID>3KJN</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KJN</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD04400002;ASD04400004</ASD_Ligand>
+      <PubMed_Title>Kinetic and structural characterization of caspase-3 and caspase-8 inhibition by a novel class of irreversible inhibitors.</PubMed_Title>
+      <Author>Wang, Z., et al.</Author>
+      <Journal>Biochim.Biophys.Acta(2010)1804:1817-1831</Journal>
+      <PubMed_ID>20580860</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Zymogen caspase-8:c-FLIPL protease domain complex</PDB_Title>
+      <PDB_ID>3H11</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3H11</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanism of procaspase-8 activation by c-FLIPL.</PubMed_Title>
+      <Author>Yu, J.W., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:8169-8174</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19416807?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CASPASE-8 IN COMPLEX WITH AZA-PEPTIDE MICHAEL ACCEPTOR INHIBITOR</PDB_Title>
+      <PDB_ID>2C2Z</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C2Z</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Design, Synthesis, and Evaluation of Aza-Peptide Michael Acceptors as Selective and Potent Inhibitors of Caspases-2, -3, -6, -7, -8, -9, and - 10.</PubMed_Title>
+      <Author>Ekici, O.D., et al.</Author>
+      <Journal>J.Med.Chem.(2006)49:5728</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16970398?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase 8 with covalent inhibitor</PDB_Title>
+      <PDB_ID>3KJQ</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KJQ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD04400005</ASD_Ligand>
+      <PubMed_Title>Kinetic and structural characterization of caspase-3 and caspase-8 inhibition by a novel class of irreversible inhibitors.</PubMed_Title>
+      <Author>Wang, Z., et al.</Author>
+      <Journal>Biochim.Biophys.Acta(2010)1804:1817-1831</Journal>
+      <PubMed_ID>20580860</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF CASPASE-8 WITH THE TRIPEPTIDE KETONE INHIBITOR ZEVD-DCBMK</PDB_Title>
+      <PDB_ID>1QDU</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QDU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The three-dimensional structure of caspase-8: an initiator enzyme in apoptosis.</PubMed_Title>
+      <Author>Blanchard, H., et al.</Author>
+      <Journal>Structure Fold.Des.(1999)7:1125-1133</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10508784?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE CASPASE-8/P35 COMPLEX</PDB_Title>
+      <PDB_ID>1I4E</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I4E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Covalent inhibition revealed by the crystal structure of the caspase-8/p35 complex.</PubMed_Title>
+      <Author>Xu, G., et al.</Author>
+      <Journal>Nature(2001)410:494-497</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11260720?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CASPASE-8 SPECIFICITY PROBED AT SUBSITE S4: CRYSTAL STRUCTURE OF THE CASPASE-8-Z-DEVD-CHO</PDB_Title>
+      <PDB_ID>1F9E</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1F9E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Caspase-8 specificity probed at subsite S(4): crystal structure of the caspase-8-Z-DEVD-cho complex.</PubMed_Title>
+      <Author>Blanchard, H., et al.</Author>
+      <Journal>J.Mol.Biol.(2000)302:9-16</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10964557?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution Structure of the Catalytic Domain of Procaspase-8</PDB_Title>
+      <PDB_ID>2K7Z</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2K7Z</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and biochemical studies on procaspase-8: new insights on initiator caspase activation.</PubMed_Title>
+      <Author>Keller, N., et al.</Author>
+      <Journal>Structure(2009)17:438-448</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19278658?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05416</Pathway_ID>
+      <Pathway_Title>Viral myocarditis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cardiovascular diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05161</Pathway_ID>
+      <Pathway_Title>Hepatitis B</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05016</Pathway_ID>
+      <Pathway_Title>Huntington's disease</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05168</Pathway_ID>
+      <Pathway_Title>Herpes simplex infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04210</Pathway_ID>
+      <Pathway_Title>Apoptosis</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04668</Pathway_ID>
+      <Pathway_Title>TNF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05142</Pathway_ID>
+      <Pathway_Title>Chagas disease (American trypanosomiasis)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04932</Pathway_ID>
+      <Pathway_Title>Non-alcoholic fatty liver disease (NAFLD)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Endocrine and metabolic diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05134</Pathway_ID>
+      <Pathway_Title>Legionellosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05152</Pathway_ID>
+      <Pathway_Title>Tuberculosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05145</Pathway_ID>
+      <Pathway_Title>Toxoplasmosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05010</Pathway_ID>
+      <Pathway_Title>Alzheimer's disease</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05142</Pathway_ID>
+      <Pathway_Title>Chagas disease (American trypanosomiasis)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04622</Pathway_ID>
+      <Pathway_Title>RIG-I-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04115</Pathway_ID>
+      <Pathway_Title>p53 signaling pathway</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04620</Pathway_ID>
+      <Pathway_Title>Toll-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04621</Pathway_ID>
+      <Pathway_Title>NOD-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.id.b.b.g.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1f9e</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.22.61</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/22/61.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD04400001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04400002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04400004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04400005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

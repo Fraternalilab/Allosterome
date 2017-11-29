@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07210000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A6H5</UniProt_ID>
+  <Seq_Length>443</Seq_Length>
+  <Molecule_Weight>49594</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3256</KEGG_ID>
+  <Orthology_ID>K03667</Orthology_ID>
+  <EBI_ID>EBI-369317</EBI_ID>
+  <Function_Summary>ATPase subunit of a proteasome-like degradation complex; this subunit has chaperone activity. The binding of ATP and its subsequent hydrolysis by HslU are essential for unfolding of protein substrates subsequently hydrolyzed by HslV. HslU recognizes the N-terminal part of its protein substrates and unfolds these before they are guided to HslV for hydrolysis.</Function_Summary>
+  <Pfam_ID>PF00004:AAA@@PF07724:AAA_2@@PF10431:ClpB_D2-small</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Unfoldase HslU</Alias>
+      <Alias>Heat shock protein HslU</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds formed between L-amino acids.</Detail>
+      <Keyword>Peptidase activity, acting on L-amino acid peptides</Keyword>
+      <Ontology_ID>GO:0070011</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate + 2 H+. May or may not be coupled to another reaction.</Detail>
+      <Keyword>ATPase activity</Keyword>
+      <Ontology_ID>GO:0016887</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which is transiently involved in the noncovalent folding, assembly and/or disassembly of other polypeptides or RNA molecules, including any transport and oligomerisation processes they may undergo, and the refolding and reassembly of protein and RNA molecules denatured by stress. Though involved in these processes, chaperones are not an integral part of these functioning molecules. Also used for metallochaperones, which function to provide a metal directly to target proteins while protecting this metal from scavengers.</Detail>
+      <Keyword>Chaperone</Keyword>
+      <Ontology_ID>KW-0143</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein or proteins.</Detail>
+      <Keyword>Identical protein binding</Keyword>
+      <Ontology_ID>GO:0042802</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).</Detail>
+      <Keyword>Response to stress</Keyword>
+      <Ontology_ID>GO:0006950</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a heat stimulus, a temperature stimulus above the optimal temperature for that organism.</Detail>
+      <Keyword>Response to heat</Keyword>
+      <Ontology_ID>GO:0009408</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSEMTPREIVSELDKHIIGQDNAKRSVAIALRNRWRRMQLNEELRHEVTPKNILMIGPTGVGKTEIARRLAKLANAPFIKVEATKFTEVGYVGKEVDSIIRDLTDAAVKMVRVQAIEKNRYRAEELAEERILDVLIPPAKNNWGQTEQQQEPSAARQAFRKKLREGQLDDKEIEIDLAAAPMGVEIMAPPGMEEMTSQLQSMFQNLGGQKQKARKLKIKDAMKLLIEEEAAKLVNPEELKQDAIDAVEQHGIVFIDEIDKICKRGESSGPDVSREGVQRDLLPLVEGCTVSTKHGMVKTDHILFIASGAFQIAKPSDLIPELQGRLPIRVELQALTTSDFERILTEPNASITVQYKALMATEGVNIEFTDSGIKRIAEAAWQVNESTENIGARRLHTVLERLMEEISYDASDLSGQNITIDADYVSKHLDALVADEDLSRFIL</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>HslUV protease complex</CellLocal>
+      <Ontology_ID>GO:0009376</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>hslU</Gene_Name>
+    <Gene_Alias>htpI</Gene_Alias>
+    <Gene_ID>12932793</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_418366</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/948430</Gene_URL>
+    <EMBL_ID>EBESCG00000017227</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P0A7B8</Uniprot_ID>
+      <Gene_Name>hslV</Gene_Name>
+      <EBI_ID>EBI-552265</EBI_ID>
+      <PPI_EBI_URL>EBI-369317,EBI-552265</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P0A6H5</Uniprot_ID>
+      <Gene_Name>hslU</Gene_Name>
+      <EBI_ID>EBI-369317</EBI_ID>
+      <PPI_EBI_URL>EBI-369317,EBI-369317</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Nucleotide-Dependent Conformational Changes in a Protease-Associated ATPase HslU</PDB_Title>
+      <PDB_ID>1HQY</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HQY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Nucleotide-dependent conformational changes in a protease-associated ATPase HsIU.</PubMed_Title>
+      <Author>Wang, J., et al.</Author>
+      <Journal>Structure(2001)9:1107-1116</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11709174?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSLV-HSLU FROM E.COLI</PDB_Title>
+      <PDB_ID>1E94</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1E94</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mutational Studies on Hslu and its Docking Mode with Hslv</PubMed_Title>
+      <Author>Song, H.K., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2000)97:14103</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11114186?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF THE HSLVU PEPTIDASE-ATPASE COMPLEX REVEAL AN ATP-DEPENDENT PROTEOLYSIS MECHANISM</PDB_Title>
+      <PDB_ID>1G4B</PDB_ID>
+      <Resolution>7.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G4B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the HslVU peptidase-ATPase complex reveal an ATP-dependent proteolysis mechanism.</PubMed_Title>
+      <Author>Wang, J., et al.</Author>
+      <Journal>Structure(2001)9:177-184</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11250202?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Correction of X-ray Intensities from an HslV-HslU co-crystal containing lattice translocation defects</PDB_Title>
+      <PDB_ID>1YYF</PDB_ID>
+      <Resolution>4.16</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YYF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Correction of X-ray intensities from an HslV-HslU co-crystal containing lattice-translocation defects.</PubMed_Title>
+      <Author>Wang, J., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(2005)61:932-941</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15983416?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRIGONAL CRYSTAL FORM OF HEAT SHOCK LOCUS U (HSLU) FROM ESCHERICHIA COLI</PDB_Title>
+      <PDB_ID>1DO2</PDB_ID>
+      <Resolution>4.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DO2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structures of HsIU and the ATP-dependent protease HsIU-HsIV.</PubMed_Title>
+      <Author>Bochtler, M., et al.</Author>
+      <Journal>Nature(2000)403:800-805</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10693812?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Nucleotide-Dependent Conformational Changes in a Protease-Associated ATPase HslU</PDB_Title>
+      <PDB_ID>1HT1</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HT1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Nucleotide-dependent conformational changes in a protease-associated ATPase HsIU.</PubMed_Title>
+      <Author>Wang, J., et al.</Author>
+      <Journal>Structure(2001)9:1107-1116</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11709174?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Nucleotide-Dependent Conformational Changes in a Protease-Associated ATPase HslU</PDB_Title>
+      <PDB_ID>1HT2</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HT2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Nucleotide-dependent conformational changes in a protease-associated ATPase HsIU.</PubMed_Title>
+      <Author>Wang, J., et al.</Author>
+      <Journal>Structure(2001)9:1107-1116</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11709174?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ORTHORHOMBIC CRYSTAL FORM OF HEAT SHOCK LOCUS U (HSLU) FROM ESCHERICHIA COLI</PDB_Title>
+      <PDB_ID>1DO0</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DO0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structures of HsIU and the ATP-dependent protease HsIU-HsIV.</PubMed_Title>
+      <Author>Bochtler, M., et al.</Author>
+      <Journal>Nature(2000)403:800-805</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10693812?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF THE HSLVU PEPTIDASE-ATPASE COMPLEX REVEAL AN ATP-DEPENDENT PROTEOLYSIS MECHANISM</PDB_Title>
+      <PDB_ID>1G4A</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G4A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the HslVU peptidase-ATPase complex reveal an ATP-dependent proteolysis mechanism.</PubMed_Title>
+      <Author>Wang, J., et al.</Author>
+      <Journal>Structure(2001)9:177-184</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11250202?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.bi.bg.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1do0</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD07210001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

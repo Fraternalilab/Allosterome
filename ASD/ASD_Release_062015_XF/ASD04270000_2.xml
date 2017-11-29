@@ -1,0 +1,851 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04270000_2</Organism_ID>
+  <Organism>Mouse</Organism>
+  <Organism_Latin>Mus musculus</Organism_Latin>
+  <UniProt_ID>Q05769</UniProt_ID>
+  <Seq_Length>604</Seq_Length>
+  <Molecule_Weight>69013</Molecule_Weight>
+  <KEGG_ID>mmu:19225</KEGG_ID>
+  <Function_Summary>Converts arachidonate to prostaglandin H2 (PGH2), a committed step in prostanoid synthesis. Constitutively expressed in some tissues in physiological conditions, such as the endothelium, kidney and brain, and in pathological conditions, such as in cancer. PTGS2 is responsible for production of inflammatory prostaglandins. Up-regulation of PTGS2 is also associated with increased cell adhesion, phenotypic changes, resistance to apoptosis and tumor angiogenesis. In cancer cells, PTGS2 is a key step in the production of prostaglandin E2 (PGE2), which plays important roles in modulating motility, proliferation and resistance to apoptosis.</Function_Summary>
+  <Catalytic_Mechanism>Arachidonate + AH(2) + 2 O(2) = prostaglandin H(2) + A + H(2)O.</Catalytic_Mechanism>
+  <Pfam_ID>PF03098:An_peroxidase</Pfam_ID>
+  <Allosteric_Activator_Count>3</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>COX-2</Alias>
+      <Alias>PES-2</Alias>
+      <Alias>Macrophage activation-associated marker protein P71/73</Alias>
+      <Alias>Cyclooxygenase-2</Alias>
+      <Alias>TIS10 protein</Alias>
+      <Alias>Gripghs</Alias>
+      <Alias>Prostaglandin H2 synthase 2</Alias>
+      <Alias>PHS II</Alias>
+      <Alias>PGHS-2</Alias>
+      <Alias>Prostaglandin-endoperoxide synthase 2</Alias>
+      <Alias>PGH synthase 2</Alias>
+      <Alias>Glucocorticoid-regulated inflammatory cyclooxygenase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: arachidonate + donor-H2 + 2 O2 = prostaglandin H2 + acceptor + H2O.</Detail>
+      <Keyword>Prostaglandin-endoperoxide synthase activity</Keyword>
+      <Ontology_ID>GO:0004666</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: donor + hydrogen peroxide = oxidized donor + 2 H2O.</Detail>
+      <Keyword>Peroxidase activity</Keyword>
+      <Ontology_ID>GO:0004601</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with heme, any compound of iron complexed in a porphyrin (tetrapyrrole) ring.</Detail>
+      <Keyword>Heme binding</Keyword>
+      <Ontology_ID>GO:0020037</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any enzyme.</Detail>
+      <Keyword>Enzyme binding</Keyword>
+      <Ontology_ID>GO:0019899</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of an oxidation-reduction (redox) reaction in which hydrogen or electrons are transferred from one donor, and two oxygen atoms is incorporated into a donor.</Detail>
+      <Keyword>Oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen</Keyword>
+      <Ontology_ID>GO:0016702</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a lipid.</Detail>
+      <Keyword>Lipid binding</Keyword>
+      <Ontology_ID>GO:0008289</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways by which prostaglandins are formed from arachidonic acid, and in which prostaglandin-endoperoxide synthase (cyclooxygenase) catalyzes the committed step in the conversion of arachidonic acid to the prostaglandin-endoperoxides PGG2 and PGH2.</Detail>
+      <Keyword>Cyclooxygenase pathway</Keyword>
+      <Ontology_ID>GO:0019371</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases or activates the frequency, rate, or extent of production of vascular endothelial growth factor.</Detail>
+      <Keyword>Positive regulation vascular endothelial growth factor production</Keyword>
+      <Ontology_ID>GO:0010575</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates, maintains or increases the frequency, rate or extent of glutamatergic synaptic transmission, the process of communication from a neuron to another neuron across a synapse using the neurotransmitter glutamate.</Detail>
+      <Keyword>Positive regulation of synaptic transmission, glutamatergic</Keyword>
+      <Ontology_ID>GO:0051968</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a mechanical stimulus.</Detail>
+      <Keyword>Cellular response to mechanical stimulus</Keyword>
+      <Ontology_ID>GO:0071260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving prostaglandins, any of a group of biologically active metabolites which contain a cyclopentane ring due to the formation of a bond between two carbons of a fatty acid. They have a wide range of biological activities.</Detail>
+      <Keyword>Prostaglandin metabolic process</Keyword>
+      <Ontology_ID>GO:0006693</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized cell acquires specialized features of a keratinocyte.</Detail>
+      <Keyword>Keratinocyte differentiation</Keyword>
+      <Ontology_ID>GO:0030216</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the rate, frequency, or extent of the appearance of any platelet-derived growth factor due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</Detail>
+      <Keyword>Positive regulation of platelet-derived growth factor production</Keyword>
+      <Ontology_ID>GO:0090362</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a fluid shear stress stimulus. Fluid shear stress is the force acting on an object in a system where the fluid is moving across a solid surface.</Detail>
+      <Keyword>Cellular response to fluid shear stress</Keyword>
+      <Ontology_ID>GO:0071498</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of stimulus by estradiol, a C18 steroid hormone hydroxylated at C3 and C17 that acts as a potent estrogen.</Detail>
+      <Keyword>Response to estradiol stimulus</Keyword>
+      <Ontology_ID>GO:0032355</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate, or extent of fever generation.</Detail>
+      <Keyword>Positive regulation of fever generation</Keyword>
+      <Ontology_ID>GO:0031622</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of nitric oxide.</Detail>
+      <Keyword>Positive regulation of nitric oxide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0045429</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the directed movement of calcium ions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Negative regulation of calcium ion transport</Keyword>
+      <Ontology_ID>GO:0051926</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a tumor necrosis factor stimulus.</Detail>
+      <Keyword>Response to tumor necrosis factor</Keyword>
+      <Ontology_ID>GO:0034612</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a fructose stimulus.</Detail>
+      <Keyword>Response to fructose stimulus</Keyword>
+      <Ontology_ID>GO:0009750</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The immediate defensive reaction (by vertebrate tissue) to infection or injury caused by chemical or physical agents. The process is characterized by local vasodilation, extravasation of plasma into intercellular spaces and accumulation of white blood cells and macrophages.</Detail>
+      <Keyword>Inflammatory response</Keyword>
+      <Ontology_ID>GO:0006954</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Blood vessel formation when new vessels emerge from the proliferation of pre-existing blood vessels.</Detail>
+      <Keyword>Angiogenesis</Keyword>
+      <Ontology_ID>GO:0001525</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the rate, frequency or extent of the appearance of a fibroblast growth factor due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</Detail>
+      <Keyword>Positive regulation of fibroblast growth factor production</Keyword>
+      <Ontology_ID>GO:0090271</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cell proliferation.</Detail>
+      <Keyword>Regulation of cell proliferation</Keyword>
+      <Ontology_ID>GO:0042127</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular and vascular changes occurring in the endometrium of the pregnant uterus just after the onset of blastocyst implantation. This process involves the proliferation and differentiation of the fibroblast-like endometrial stromal cells into large, polyploid decidual cells that eventually form the maternal component of the placenta.</Detail>
+      <Keyword>Decidualization</Keyword>
+      <Ontology_ID>GO:0046697</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving fatty acids, aliphatic monocarboxylic acids liberated from naturally occurring fats and oils by hydrolysis.</Detail>
+      <Keyword>Fatty acid metabolic process</Keyword>
+      <Ontology_ID>GO:0006631</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized cell acquires specialized features of a brown adipocyte, an animal connective tissue cell involved in adaptive thermogenesis. Brown adipocytes contain multiple small droplets of triglycerides and a high number of mitochondria.</Detail>
+      <Keyword>Brown fat cell differentiation</Keyword>
+      <Ontology_ID>GO:0050873</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of vasoconstriction.</Detail>
+      <Keyword>Positive regulation of vasoconstriction</Keyword>
+      <Ontology_ID>GO:0045907</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a fatty acid stimulus.</Detail>
+      <Keyword>Response to fatty acid</Keyword>
+      <Ontology_ID>GO:0070542</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate, or extent of production of transforming growth factor-beta.</Detail>
+      <Keyword>Positive regulation of transforming growth factor-beta production</Keyword>
+      <Ontology_ID>GO:0071636</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the rate or extent of smooth muscle cell proliferation.</Detail>
+      <Keyword>Positive regulation of smooth muscle cell proliferation</Keyword>
+      <Ontology_ID>GO:0048661</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of oxidative stress, a state often resulting from exposure to high levels of reactive oxygen species, e.g. superoxide anions, hydrogen peroxide (H2O2), and hydroxyl radicals.</Detail>
+      <Keyword>Response to oxidative stress</Keyword>
+      <Ontology_ID>GO:0006979</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the force with which blood travels through the circulatory system. The process is controlled by a balance of processes that increase pressure and decrease pressure.</Detail>
+      <Keyword>Regulation of blood pressure</Keyword>
+      <Ontology_ID>GO:0008217</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of dopaminergic synaptic transmission, the process of communication from a neuron to another neuron across a synapse using the neurotransmitter dopamine.</Detail>
+      <Keyword>Negative regulation of synaptic transmission, dopaminergic</Keyword>
+      <Ontology_ID>GO:0032227</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a manganese ion stimulus.</Detail>
+      <Keyword>Response to manganese ion</Keyword>
+      <Ontology_ID>GO:0010042</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents or reduces the rate or extent of progression through the cell cycle.</Detail>
+      <Keyword>Negative regulation of cell cycle</Keyword>
+      <Ontology_ID>GO:0045786</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of events required for an organism to receive a painful stimulus, convert it to a molecular signal, and recognize and characterize the signal. Pain is medically defined as the physical sensation of discomfort or distress caused by injury or illness, so can hence be described as a harmful stimulus which signals current (or impending) tissue damage. Pain may come from extremes of temperature, mechanical damage, electricity or from noxious chemical substances. This is a neurological process.</Detail>
+      <Keyword>Sensory perception of pain</Keyword>
+      <Ontology_ID>GO:0019233</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an ATP (adenosine 5'-triphosphate) stimulus.</Detail>
+      <Keyword>Cellular response to ATP</Keyword>
+      <Ontology_ID>GO:0071318</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a lithium (Li+) ion stimulus.</Detail>
+      <Keyword>Response to lithium ion</Keyword>
+      <Ontology_ID>GO:0010226</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the rate, frequency, or extent of brown fat cell differentiation. Brown fat cell differentiation is the process in which a relatively unspecialized cell acquires specialized features of a brown adipocyte, an animal connective tissue cell involved in adaptive thermogenesis. Brown adipocytes contain multiple small droplets of triglycerides and a high number of mitochondria.</Detail>
+      <Keyword>Positive regulation of brown fat cell differentiation</Keyword>
+      <Ontology_ID>GO:0090336</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The release of a mature ovum/oocyte from an ovary.</Detail>
+      <Keyword>Ovulation</Keyword>
+      <Ontology_ID>GO:0030728</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Preserving the permeability barrier between the blood and the brain in a stable functional or structural state. The cells in the brain are packed tightly together preventing the passage of most molecules from the blood into the brain. Only lipid soluble molecules or those that are actively transported can pass through the blood-brain barrier.</Detail>
+      <Keyword>Maintenance of blood-brain barrier</Keyword>
+      <Ontology_ID>GO:0035633</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an ultraviolet radiation (UV light) stimulus. Ultraviolet radiation is electromagnetic radiation with a wavelength in the range of 10 to 380 nanometers.</Detail>
+      <Keyword>Cellular response to UV</Keyword>
+      <Ontology_ID>GO:0034644</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of smooth muscle contraction.</Detail>
+      <Keyword>Positive regulation of smooth muscle contraction</Keyword>
+      <Ontology_ID>GO:0045987</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving lipids, compounds soluble in an organic solvent but not, or sparingly, in an aqueous solvent. Includes fatty acids; neutral fats, other fatty-acid esters, and soaps; long-chain (fatty) alcohols and waxes; sphingoids and other long-chain bases; glycolipids, phospholipids and sphingolipids; and carotenes, polyprenols, sterols, terpenes and other isoprenoids.</Detail>
+      <Keyword>Lipid metabolic process</Keyword>
+      <Ontology_ID>GO:0006629</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Attachment of the blastocyst to the uterine lining.</Detail>
+      <Keyword>Embryo implantation</Keyword>
+      <Ontology_ID>GO:0007566</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cyclical phases of growth (anagen), regression (catagen), quiescence (telogen), and shedding (exogen) in the life of a hair; one of the collection or mass of filaments growing from the skin of an animal, and forming a covering for a part of the head or for any part or the whole of the body.</Detail>
+      <Keyword>Hair cycle</Keyword>
+      <Ontology_ID>GO:0042633</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of a fatty acid, any of the aliphatic monocarboxylic acids that can be liberated by hydrolysis from naturally occurring fats and oils. Fatty acids are predominantly straight-chain acids of 4 to 24 carbon atoms, which may be saturated or unsaturated; branched fatty acids and hydroxy fatty acids also occur, and very long chain acids of over 30 carbons are found in waxes.</Detail>
+      <Keyword>Fatty acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006633</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating lowered oxygen tension. Hypoxia, defined as a decline in O2 levels below normoxic levels of 20.8 - 20.95%, results in metabolic adaptation at both the cellular and organismal level.</Detail>
+      <Keyword>Cellular response to hypoxia</Keyword>
+      <Ontology_ID>GO:0071456</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The deposition of calcium phosphate in bone tissue.</Detail>
+      <Keyword>Bone mineralization</Keyword>
+      <Ontology_ID>GO:0030282</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of smooth muscle contraction.</Detail>
+      <Keyword>Negative regulation of smooth muscle contraction</Keyword>
+      <Ontology_ID>GO:0045986</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a vitamin D stimulus.</Detail>
+      <Keyword>Response to vitamin D</Keyword>
+      <Ontology_ID>GO:0033280</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of lipids, compounds soluble in an organic solvent but not, or sparingly, in an aqueous solvent.</Detail>
+      <Keyword>Lipid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008610</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of prostaglandins, any of a group of biologically active metabolites which contain a cyclopentane ring.</Detail>
+      <Keyword>Prostaglandin biosynthetic process</Keyword>
+      <Ontology_ID>GO:0001516</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of transfer of NF-kappaB, a transcription factor for eukaryotic RNA polymerase II promoters, from the cytoplasm into the nucleus, across the nuclear membrane.</Detail>
+      <Keyword>Positive regulation of NF-kappaB import into nucleus</Keyword>
+      <Ontology_ID>GO:0042346</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a lipopolysaccharide stimulus; lipopolysaccharide is a major component of the cell wall of gram-negative bacteria.</Detail>
+      <Keyword>Response to lipopolysaccharide</Keyword>
+      <Ontology_ID>GO:0032496</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A process that increases synaptic plasticity, the ability of synapses to change as circumstances require. They may alter function, such as increasing or decreasing their sensitivity, or they may increase or decrease in actual numbers.</Detail>
+      <Keyword>Positive regulation of synaptic plasticity</Keyword>
+      <Ontology_ID>GO:0031915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of cell death by apoptosis.</Detail>
+      <Keyword>Positive regulation of apoptosis</Keyword>
+      <Ontology_ID>GO:0043065</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The activities involved in the mental information processing system that receives (registers), modifies, stores, and retrieves informational stimuli. The main stages involved in the formation and retrieval of memory are encoding (processing of received information by acquisition), storage (building a permanent record of received information as a result of consolidation) and retrieval (calling back the stored information and use it in a suitable way to execute a given task).</Detail>
+      <Keyword>Memory</Keyword>
+      <Ontology_ID>GO:0007613</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents or reduces the rate or extent of cell proliferation.</Detail>
+      <Keyword>Negative regulation of cell proliferation</Keyword>
+      <Ontology_ID>GO:0008285</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the frequency, rate or extent of cell migration involved in sprouting angiogenesis. Cell migration involved in sprouting angiogenesis is the orderly movement of endothelial cells into the extracellular matrix in order to form new blood vessels contributing to the process of sprouting angiogenesis.</Detail>
+      <Keyword>Positive regulation of cell migration involved in sprouting angiogenesis</Keyword>
+      <Ontology_ID>GO:0090050</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a glucocorticoid stimulus. Glucocorticoids are hormonal C21 corticosteroids synthesized from cholesterol with the ability to bind with the cortisol receptor and trigger similar effects. Glucocorticoids act primarily on carbohydrate and protein metabolism, and have anti-inflammatory effects.</Detail>
+      <Keyword>Response to glucocorticoid stimulus</Keyword>
+      <Ontology_ID>GO:0051384</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience.</Detail>
+      <Keyword>Learning</Keyword>
+      <Ontology_ID>GO:0007612</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a drug stimulus. A drug is a substance used in the diagnosis, treatment or prevention of a disease.</Detail>
+      <Keyword>Response to drug</Keyword>
+      <Ontology_ID>GO:0042493</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MLFRAVLLCAALGLSQAANPCCSNPCQNRGECMSTGFDQYKCDCTRTGFYGENCTTPEFLTRIKLLLKPTPNTVHYILTHFKGVWNIVNNIPFLRSLIMKYVLTSRSYLIDSPPTYNVHYGYKSWEAFSNLSYYTRALPPVADDCPTPMGVKGNKELPDSKEVLEKVLLRREFIPDPQGSNMMFAFFAQHFTHQFFKTDHKRGPGFTRGLGHGVDLNHIYGETLDRQHKLRLFKDGKLKYQVIGGEVYPPTVKDTQVEMIYPPHIPENLQFAVGQEVFGLVPGLMMYATIWLREHNRVCDILKQEHPEWGDEQLFQTSRLILIGETIKIVIEDYVQHLSGYHFKLKFDPELLFNQQFQYQNRIASEFNTLYHWHPLLPDTFNIEDQEYSFKQFLYNNSILLEHGLTQFVESFTRQIAGRVAGGRNVPIAVQAVAKASIDQSREMKYQSLNEYRKRFSLKPYTSFEELTGEKEMAAELKALYSDIDVMELYPALLVEKPRPDAIFGETMVELGAPFSLKGLMGNPICSPQYWKPSTFGGEVGFKIINTASIQSLICNNVKGCPFTSFNVQDPQPTKTATINASASHSRLDDINPTVLIKRRSTEL</Protein_Seq>
+    <DNA_Seq>CTTCAGGAGTCAGTCAGGACTCTGCTCACGAAGGAACTCAGCACTGCATCCTGCCAGCTCCACCGCCACCACTACTGCCACCTCCGCTGCCACCTCTGCGATGCTCTTCCGAGCTGTGCTGCTCTGCGCTGCCCTGGGGCTCAGCCAGGCAGCAAATCCTTGCTGTTCCAATCCATGTCAAAACCGTGGGGAATGTATGAGCACAGGATTTGACCAGTATAAGTGTGACTGTACCCGGACTGGATTCTATGGTGAAAACTGTACTACACCTGAATTTCTGACAAGAATCAAATTACTGCTGAAGCCCACCCCAAACACAGTGCACTACATCCTGACCCACTTCAAGGGAGTCTGGAACATTGTGAACAACATCCCCTTCCTGCGAAGTTTAATCATGAAATATGTGCTGACATCCAGATCATATTTGATTGACAGTCCACCTACTTACAATGTGCACTATGGTTACAAAAGCTGGGAAGCCTTCTCCAACCTCTCCTACTACACCAGGGCCCTTCCTCCCGTAGCAGATGACTGCCCAACTCCCATGGGTGTGAAGGGAAATAAGGAGCTTCCTGATTCAAAAGAAGTGCTGGAAAAGGTTCTTCTACGGAGAGAGTTCATCCCTGACCCCCAAGGCTCAAATATGATGTTTGCATTCTTTGCCCAGCACTTCACCCATCAGTTTTTCAAGACAGATCATAAGCGAGGACCTGGGTTCACCCGAGGACTGGGCCATGGAGTGGACTTAAATCACATTTATGGTGAAACTCTGGACAGACAACATAAACTGCGCCTTTTCAAGGATGGAAAATTGAAATATCAGGTCATTGGTGGAGAGGTGTATCCCCCCACAGTCAAAGACACTCAGGTAGAGATGATCTACCCTCCTCACATCCCTGAGAACCTGCAGTTTGCTGTGGGGCAGGAAGTCTTTGGTCTGGTGCCTGGTCTGATGATGTATGCCACCATCTGGCTTCGGGAGCACAACAGAGTGTGCGACATACTCAAGCAGGAGCATCCTGAGTGGGGTGATGAGCAACTATTCCAAACCAGCAGACTCATACTCATAGGAGAGACTATCAAGATAGTGATCGAAGACTACGTGCAACACCTGAGCGGTTACCACTTCAAACTCAAGTTTGACCCAGAGCTCCTTTTCAACCAGCAGTTCCAGTATCAGAACCGCATTGCCTCTGAATTCAACACACTCTATCACTGGCACCCCCTGCTGCCCGACACCTTCAACATTGAAGACCAGGAGTACAGCTTCAAACAGTTTCTCTACAACAACTCCATCCTCCTGGAACATGGACTCACTCAGTTTGTTGAGTCATTCACCAGACAGATTGCTGGCCGGGTTGCTGGGGGAAGAAATGTGCCAATTGCTGTACAAGCAGTGGCAAAGGCCTCCATTGACCAGAGCAGAGAGATGAAATACCAGTCTCTCAATGAGTACCGCAAACGCTTCTCCCTGAAGCCGTACACATCATTTGAAGAACTTACAGGAGAGAAGGAAATGGCTGCAGAATTGAAAGCCCTCTACAGTGACATCGATGTCATGGAACTGTACCCTGCCCTGCTGGTGGAAAAACCTCGTCCAGATGCTATCTTTGGGGAGACCATGGTAGAGCTTGGAGCACCATTCTCCTTGAAAGGACTTATGGGAAATCCCATCTGTTCTCCTCAATACTGGAAGCCGAGCACCTTTGGAGGCGAAGTGGGTTTTAAGATCATCAATACTGCCTCAATTCAGTCTCTCATCTGCAATAATGTGAAGGGGTGTCCCTTCACTTCTTTCAATGTGCAAGATCCACAGCCTACCAAAACAGCCACCATCAATGCAAGTGCCTCCCACTCCAGACTAGATGACATTAACCCTACAGTACTAATCAAAAGGCGTTCAACTGAGCTGTAAAAGTCTACTGACCATATTTATTTATTTATGTGAAGAATTTAATTTAATTATTTAATATTTATACTGAATTTTTTTTCATGTAACATCTTCCATAACAGAAGGCAATGTTCTTGAACAATGTTACATTTGTGAAGATTCCCTCCGGTGTTTGTCCTTTAAATATGTGTTACCTGAAACTGAAAGGAAATCAGCATTCATTCCTCTACATAAGCCAGTGAGAAGGGAAATGAATTTTGATATCTTTATACTTGAATTTCAGATCATGATTAGCTTAACAAGAACCAAGGAAAAATGTATGAATATGTGAGTGTTGTTACAAGATGAAAAATGCTGCAGGTATCAACACTGTTGGTTACAACTGTGTCTTCTTTACTATGATAGGAGCATGTAATGTGGAATTCTTCTTAAATCTTGCATATCTTTATCTCATCAAACAAAGGGGTCCAAGTTCAGTTTTAAATAAGCATTTAAGGCAGATACTGACAACAATCTCATTTTTTAAAATGTTGTCTTGAGACAAATAATTTGAAATTTCTAAATTGGGAGTTTGAATCACTTTTGAAAGCTCTTACTTTCTTAAGCTGTCAGGTTTGTACCGACATGGAGTAAACAGCTATCATAAACGTAAATCTCCAAAACTAGTAGAAATTATGTCATGATTGATGGTTAAGATACCATGTCAGGGATTGTCTTTTCTTAGAAGTAGTGAAAGCTACTTACTATGACAATCAGACCTTCCTTGTATGTCAAAATGCTGGTGTGGAAGGTGGTGGAGCCCGTGCTGCTCTGTCTTAACTATGAGTGTGAGCTTTAAAGCTCGTTGATGAGTGGTAGCCAGCAAAGCCTAGAGCAACAAAAGCTTCTACAAAGGAACTAACCAAGAACAAAGAAGGGTTCCCAATTAAAGATCACATTCAGGGTTAAACTTCCAAAGGAGACATCCTGATCCTGGTTTTGTGCTGGCCTGGTACTCAGTAGGTTTTTGCTGTGAGGTTAAAGACTTGCCAGGCTGAACTTCGAAACAGTTTTTCTGTTGCACAGTATGATGTAACAGTCCATCTCTCAATGCAATAGGTATCAGTGGCCTCGTGAGCTTCTTCACAATATTGATATGTCTTCCAGCCCATTGAACCTGGACTGCAGAAGGCCCCATGTCATGTGTGAGCTCAGCCTGGATGCCAGCATTGCTGCTCCTCTTAGTTCCGTTTCTCGTGGTCACTTTACTACGAGAAACGCTGATTGGGTTTTCGTAGCTGTGTTCCAGGTTTTTAGTATCAGAACTATTCTTTCTTTAACCTCTATTCATATTTTCTCTACTTGAAGTTTTACATTCAGGAAAACCTCAGCTCAGGACTACTATGTACCTCCCCTTTGGAGGGAAAAATTATTTTAGGTAAAAGGCAAAAATTTTTTAAAAATATTTTTATTTATAATTATATGGAAGGGCCCTACCAAGATGCTAGAAATATAGGGAGTTCCTGACAAGAAATTTCCATTCTTATTCTGAAGAATTGCTTTCTTACTTAAAAACAAAGACAGTTTGTGAGTAGTTCTGGGCAATAGGGATAAATATAAAACAATAATGATGATCATTTTCTACATCTCATTATCAGCTGAGGTACTGTATATTACTGAATTTATTGAAGATAGTTATGTCTTTTAGACATTGTTGTTATAAACTATGTTTAAGCCTACTACAAGTGTTTCTTTTTGCATTATGTTGGAATTGATGTACCTTTTTTATGATTACCTCTCTGAACTATGGTGTGAACAATCAAACAAAATGATGAGATTAACGTTCATGGATAAATTCTAAGAAAACTAGTGTATTTTTTTGAAAAGTTTGAAGTTAGAACTTAGGCTGTTGGAATTTACGCATAAAGCAGACTGCATAGATCCAATATTGACTGACCCAAGCATGTTATAAAGACTGACATTTTAGACATTTTGAAGGCCCTGTAAGTGTTTATTAATTAGTTAGAACTTAATTGATTAAAAAATATATCCAAAGCACTATAGGCATTAGAATTCGTGCATCAAGAAATGATGACAAATAATACTGTTATTTATATAAATAACTAAAAAGGGTGTCTAATGAAGAAATATATTTTATTACAAAGAAATTATAAAACATTTTGAAGATTATATGCTTTAAAAGTTTAAGATGAAAAAATAATCAACCTTAGAAAAAATGTATAAAAATATATAAATTGTTAATGTCATTGATTAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>The wound bed mesenchyme</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Microsome</CellLocal>
+      <Ontology_ID>GO:0005792</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Microsome membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum</CellLocal>
+      <Ontology_ID>GO:0005783</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum membrane</CellLocal>
+      <Ontology_ID>GO:0005789</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Caveola</CellLocal>
+      <Ontology_ID>GO:0005901</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Protein complex</CellLocal>
+      <Ontology_ID>GO:0043234</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Neuron projection</CellLocal>
+      <Ontology_ID>GO:0043005</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>Ptgs2</Gene_Name>
+    <Gene_Alias>Cox-2; Cox2; Pghs-b; Tis10</Gene_Alias>
+    <Gene_ID>19225</Gene_ID>
+    <Genbank_ACCN>NM_011198</Genbank_ACCN>
+    <Protein_ACCN>NP_035328</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/19225</Gene_URL>
+    <UCSC_ID>uc007cxv.1</UCSC_ID>
+    <EMBL_ID>ENSMUSG00000032487</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of arachidonic acid bound in the cyclooxygenase channel of G533V murine COX-2</PDB_Title>
+      <PDB_ID>3TZI</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3TZI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Investigating Substrate Promiscuity in Cyclooxygenase-2: THE ROLE OF ARG-120 AND RESIDUES LINING THE HYDROPHOBIC GROOVE.</PubMed_Title>
+      <Author>Vecchio, A.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2012)287:24619-24630</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22637474?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of 1-arachidonoyl glycerol bound to the cyclooxygenase channel of cyclooxygenase-2</PDB_Title>
+      <PDB_ID>3MDL</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MDL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structural basis of endocannabinoid oxygenation by cyclooxygenase-2.</PubMed_Title>
+      <Author>Vecchio, A.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:20736-20745</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21489986?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray structure of des-methylflurbiprofen bound to murine COX-2</PDB_Title>
+      <PDB_ID>4FM5</PDB_ID>
+      <Resolution>2.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4FM5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Substrate-Selective Inhibition of Cyclooxygenase-2: Development and Evaluation of Achiral Profen Probes.</PubMed_Title>
+      <Author>Windsor, M.A., et al.</Author>
+      <Journal>ACS Med Chem Lett(2012)3:759-763</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22984634?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of murine cyclooxygenase-2 with 13-methyl-arachidonic Acid</PDB_Title>
+      <PDB_ID>4RUT</PDB_ID>
+      <Resolution>2.16</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4RUT</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05450001</ASD_Ligand>
+      <PubMed_Title>13-methylarachidonic Acid is a positive allosteric modulator of endocannabinoid oxygenation by cyclooxygenase.</PubMed_Title>
+      <Author>Kudalkar, S.N., et al.</Author>
+      <Journal>J.Biol.Chem.(2015)290:7897-7909</Journal>
+      <PubMed_ID>25648895</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of alpha-linolenic acid bound to the cyclooxygenase channel of cyclooxygenase-2</PDB_Title>
+      <PDB_ID>4E1G</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4E1G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Investigating Substrate Promiscuity in Cyclooxygenase-2: THE ROLE OF ARG-120 AND RESIDUES LINING THE HYDROPHOBIC GROOVE.</PubMed_Title>
+      <Author>Vecchio, A.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2012)287:24619-24630</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22637474?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Murine Cyclooxygenase-2 Complex with Meloxicam</PDB_Title>
+      <PDB_ID>4M11</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4M11</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Oxicams Bind in a Novel Mode to the Cyclooxygenase Active Site via a Two-water-mediated H-bonding Network.</PubMed_Title>
+      <Author>Xu, S., et al.</Author>
+      <Journal>J.Biol.Chem.(2014)289:6799-6808</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24425867?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ARACHIDONIC ACID BOUND TO THE CYCLOOXYGENASE ACTIVE SITE OF COX-2</PDB_Title>
+      <PDB_ID>1CVU</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CVU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural insights into the stereochemistry of the cyclooxygenase reaction.</PubMed_Title>
+      <Author>Kiefer, J.R., et al.</Author>
+      <Journal>Nature(2000)405:97-101</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10811226?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of COX-2 with selective compound 23d-(R)</PDB_Title>
+      <PDB_ID>3NTG</PDB_ID>
+      <Resolution>2.19</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NTG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The novel benzopyran class of selective cyclooxygenase-2 inhibitors. Part 2: The second clinical candidate having a shorter and favorable human half-life.</PubMed_Title>
+      <Author>Wang, J.L., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:7159-7163</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20709553?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of SC-75416 bound at the COX-2 active site</PDB_Title>
+      <PDB_ID>3MQE</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MQE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The novel benzopyran class of selective cyclooxygenase-2 inhibitors. Part 2: The second clinical candidate having a shorter and favorable human half-life.</PubMed_Title>
+      <Author>Wang, J.L., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:7159-7163</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20709553?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of eicosapentaenoic acid bound to the cyclooxygenase channel of cyclooxygenase-2</PDB_Title>
+      <PDB_ID>3HS6</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HS6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of fatty acid substrate binding to cyclooxygenase-2.</PubMed_Title>
+      <Author>Vecchio, A.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:22152-22163</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20463020?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of arachidonic acid bound in the cyclooxygenase channel of L531F murine COX-2</PDB_Title>
+      <PDB_ID>3KRK</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KRK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of fatty acid substrate binding to cyclooxygenase-2.</PubMed_Title>
+      <Author>Vecchio, A.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:22152-22163</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20463020?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of arachidonic acid bound to the cyclooxygenase channel of cyclooxygenase-2</PDB_Title>
+      <PDB_ID>3HS5</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HS5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of fatty acid substrate binding to cyclooxygenase-2.</PubMed_Title>
+      <Author>Vecchio, A.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:22152-22163</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20463020?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of 6-methylthio naproxen analog bound to mCOX-2.</PDB_Title>
+      <PDB_ID>3NTB</PDB_ID>
+      <Resolution>2.27</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NTB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular basis for cyclooxygenase inhibition by the non-steroidal anti-inflammatory drug naproxen.</PubMed_Title>
+      <Author>Duggan, K.C., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:34950-34959</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20810665?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF DICLOFENAC BOUND TO THE CYCLOOXYGENASE ACTIVE SITE OF COX-2</PDB_Title>
+      <PDB_ID>1PXX</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PXX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A Novel Mechanism of Cyclooxygenase-2 Inhibition Involving Interactions with Ser-530 and Tyr-385.</PubMed_Title>
+      <Author>Rowlinson, S.W., et al.</Author>
+      <Journal>J.Biol.Chem.(2003)278:45763-45769</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12925531?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>High resolution structure of naproxen:COX-2 complex.</PDB_Title>
+      <PDB_ID>3NT1</PDB_ID>
+      <Resolution>1.73</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NT1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular basis for cyclooxygenase inhibition by the non-steroidal anti-inflammatory drug naproxen.</PubMed_Title>
+      <Author>Duggan, K.C., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:34950-34959</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20810665?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of palmitic acid bound to the cyclooxygenase channel of cyclooxygenase-2</PDB_Title>
+      <PDB_ID>3QH0</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QH0</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD09270001</ASD_Ligand>
+      <PubMed_Title>Human cyclooxygenase-2 is a sequence homodimer that functions as a conformational heterodimer.</PubMed_Title>
+      <Author>Dong, L., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:19035-19046</Journal>
+      <PubMed_ID>21467029</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of compound 5c-S bound at the active site of COX-2</PDB_Title>
+      <PDB_ID>3LN0</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LN0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The novel benzopyran class of selective cyclooxygenase-2 inhibitors. Part 2: The second clinical candidate having a shorter and favorable human half-life.</PubMed_Title>
+      <Author>Wang, J.L., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:7159-7163</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20709553?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF A MIXTURE OF ARACHIDONIC ACID AND PROSTAGLANDIN BOUND TO THE CYCLOOXYGENASE ACTIVE SITE OF COX-2: PROSTAGLANDIN STRUCTURE</PDB_Title>
+      <PDB_ID>1DDX</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DDX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural insights into the stereochemistry of the cyclooxygenase reaction.</PubMed_Title>
+      <Author>Kiefer, J.R., et al.</Author>
+      <Journal>Nature(2000)405:97-101</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10811226?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The structure of Ibuprofen bound to cyclooxygenase-2</PDB_Title>
+      <PDB_ID>4PH9</PDB_ID>
+      <Resolution>1.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4PH9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of ibuprofen bound to cyclooxygenase-2.</PubMed_Title>
+      <Author>Orlando, B.J., et al.</Author>
+      <Journal>J.Struct.Biol.(2015)189:62-66</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25463020?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of arachidonic acid bound to the cyclooxygenase channel of R513H murine COX-2</PDB_Title>
+      <PDB_ID>3OLT</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OLT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structural basis of endocannabinoid oxygenation by cyclooxygenase-2.</PubMed_Title>
+      <Author>Vecchio, A.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:20736-20745</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21489986?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CYCLOOXYGENASE-2 (PROSTAGLANDIN SYNTHASE-2) COMPLEXED WITH A NON-SELECTIVE INHIBITOR, INDOMETHACIN</PDB_Title>
+      <PDB_ID>4COX</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4COX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for selective inhibition of cyclooxygenase-2 by anti-inflammatory agents.</PubMed_Title>
+      <Author>Kurumbail, R.G., et al.</Author>
+      <Journal>Nature(1996)384:644-648</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8967954?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of (R)-naproxen bound to mCOX-2.</PDB_Title>
+      <PDB_ID>3Q7D</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3Q7D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>(R)-Profens are substrate-selective inhibitors of endocannabinoid oxygenation by COX-2.</PubMed_Title>
+      <Author>Duggan, K.C., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2011)7:803-809</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22053353?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of NS-398 bound to the cyclooxygenase channel of cyclooxygenase-2</PDB_Title>
+      <PDB_ID>3QMO</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QMO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of NS-398 bound to cyclooxygenase-2.</PubMed_Title>
+      <Author>Vecchio, A.J., et al.</Author>
+      <Journal>J.Struct.Biol.(2011)176:254-258</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21843643?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of lumiracoxib bound to the apo-mouse-cyclooxygenase-2</PDB_Title>
+      <PDB_ID>4OTY</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OTY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Exploring the molecular determinants of substrate-selective inhibition of cyclooxygenase-2 by lumiracoxib.</PubMed_Title>
+      <Author>Windsor, M.A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2013)23:5860-5864</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24060487?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of 1-arachidonoyl glycerol bound to the cyclooxygenase channel of R513H murine COX-2</PDB_Title>
+      <PDB_ID>3OLU</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OLU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structural basis of endocannabinoid oxygenation by cyclooxygenase-2.</PubMed_Title>
+      <Author>Vecchio, A.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:20736-20745</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21489986?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>UNINHIBITED MOUSE CYCLOOXYGENASE-2 (PROSTAGLANDIN SYNTHASE-2)</PDB_Title>
+      <PDB_ID>5COX</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=5COX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for selective inhibition of cyclooxygenase-2 by anti-inflammatory agents.</PubMed_Title>
+      <Author>Kurumbail, R.G., et al.</Author>
+      <Journal>Nature(1996)384:644-648</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8967954?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of docosahexaenoic acid bound to the cyclooxygenase channel of cyclooxygenase-2</PDB_Title>
+      <PDB_ID>3HS7</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HS7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of fatty acid substrate binding to cyclooxygenase-2.</PubMed_Title>
+      <Author>Vecchio, A.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:22152-22163</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20463020?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of celecoxib bound at the COX-2 active site</PDB_Title>
+      <PDB_ID>3LN1</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LN1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The novel benzopyran class of selective cyclooxygenase-2 inhibitors. Part 2: The second clinical candidate having a shorter and favorable human half-life.</PubMed_Title>
+      <Author>Wang, J.L., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:7159-7163</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20709553?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of (R)-flurbiprofen bound to mCOX-2</PDB_Title>
+      <PDB_ID>3RR3</PDB_ID>
+      <Resolution>2.84</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RR3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>(R)-Profens are substrate-selective inhibitors of endocannabinoid oxygenation by COX-2.</PubMed_Title>
+      <Author>Duggan, K.C., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2011)7:803-809</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22053353?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CYCLOOXYGENASE-2 (PROSTAGLANDIN SYNTHASE-2) COMPLEXED WITH A SELECTIVE INHIBITOR, SC-558 IN I222 SPACE GROUP</PDB_Title>
+      <PDB_ID>6COX</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=6COX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for selective inhibition of cyclooxygenase-2 by anti-inflammatory agents.</PubMed_Title>
+      <Author>Kurumbail, R.G., et al.</Author>
+      <Journal>Nature(1996)384:644-648</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8967954?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CYCLOOXYGENASE-2 (PROSTAGLANDIN SYNTHASE-2) COMPLEXED WITH A NON-SELECTIVE INHIBITOR, FLURBIPROFEN</PDB_Title>
+      <PDB_ID>3PGH</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PGH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for selective inhibition of cyclooxygenase-2 by anti-inflammatory agents.</PubMed_Title>
+      <Author>Kurumbail, R.G., et al.</Author>
+      <Journal>Nature(1996)384:644-648</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8967954?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Murine Cyclooxygenase-2 Complex with Isoxicam</PDB_Title>
+      <PDB_ID>4M10</PDB_ID>
+      <Resolution>2.01</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4M10</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Oxicams Bind in a Novel Mode to the Cyclooxygenase Active Site via a Two-water-mediated H-bonding Network.</PubMed_Title>
+      <Author>Xu, S., et al.</Author>
+      <Journal>J.Biol.Chem.(2014)289:6799-6808</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24425867?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CYCLOOXYGENASE-2 (PROSTAGLANDIN SYNTHASE-2) COMPLEXED WITH A SELECTIVE INHIBITOR, SC-558</PDB_Title>
+      <PDB_ID>1CX2</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CX2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for selective inhibition of cyclooxygenase-2 by anti-inflammatory agents.</PubMed_Title>
+      <Author>Kurumbail, R.G., et al.</Author>
+      <Journal>Nature(1996)384:644-648</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8967954?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04024</Pathway_ID>
+      <Pathway_Title>cAMP signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04921</Pathway_ID>
+      <Pathway_Title>Oxytocin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04022</Pathway_ID>
+      <Pathway_Title>cGMP-PKG signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04270</Pathway_ID>
+      <Pathway_Title>Vascular smooth muscle contraction</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Circulatory system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>All alpha proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.b.bie.b.d.e.html</SCOP_URL>
+    <CATH_Class>Class 2: Mainly Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1cvu</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <PDB_ID>4RUT</PDB_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.14.99.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/14/99/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05450001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09270001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-05-20</Create_Date>
+</Organism_Record>

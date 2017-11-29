@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05050000_1</Organism_ID>
+  <Organism>Mycobacterium tuberculosis</Organism>
+  <Organism_Latin>Mycobacterium tuberculosis</Organism_Latin>
+  <UniProt_ID>P9WMI8</UniProt_ID>
+  <Seq_Length>118</Seq_Length>
+  <Molecule_Weight>12495</Molecule_Weight>
+  <KEGG_ID>mtc:MT2050</KEGG_ID>
+  <Function_Summary>Metal-responsive transcriptional repressor for the cmt operon. Binding of cadmium or lead causes the repressor to dissociate from the DNA.</Function_Summary>
+  <Pfam_ID>PF01022:HTH_5</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with lead (Pb) ions.</Detail>
+      <Keyword>Lead ion binding</Keyword>
+      <Ontology_ID>GO:0032791</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a specific DNA sequence in order to modulate transcription. The transcription factor may or may not also interact selectively with a protein or macromolecular complex.</Detail>
+      <Keyword>Sequence-specific DNA binding transcription factor activity</Keyword>
+      <Ontology_ID>GO:0003700</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a lead ion stimulus.</Detail>
+      <Keyword>Response to lead ion</Keyword>
+      <Ontology_ID>GO:0010288</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a cadmium (Cd) ion stimulus.</Detail>
+      <Keyword>Response to cadmium ion</Keyword>
+      <Ontology_ID>GO:0046686</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of creating protein oligomers, compounds composed of a small number, usually between three and ten, of identical component monomers. Oligomers may be formed by the polymerization of a number of monomers or the depolymerization of a large protein polymer.</Detail>
+      <Keyword>Protein homooligomerization</Keyword>
+      <Ontology_ID>GO:0051260</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MLTCEMRESALARLGRALADPTRCRILVALLDGVCYPGQLAAHLGLTRSNVSNHLSCLRGCGLVVATYEGRQVRYALADSHLARALGELVQVVLAVDTDQPCVAERAASGEAVEMTGS</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Intracellular</CellLocal>
+      <Ontology_ID>GO:0005622</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>cmtR</Gene_Name>
+    <Genbank_ACCN>NC_000962</Genbank_ACCN>
+    <Protein_ACCN>NP_216510</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/923404</Gene_URL>
+    <EMBL_ID>EBMYCG00000070535</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>NMR structure of the cadmium metal-sensor CMTR from Mycobacterium tuberculosis</PDB_Title>
+      <PDB_ID>2JSC</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JSC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>NMR Structural Analysis of Cadmium Sensing by Winged Helix Repressor CmtR.</PubMed_Title>
+      <Author>Banci, L., et al.</Author>
+      <Journal>J.Biol.Chem.(2007)282:30181-30188</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17599915?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <CATH_Class>Class 1: Mainly Alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2jsc</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Wang Y, et al. Biochemistry. 2005,44(25):8976-8988.</Site_Reference>
+      <PubMed_ID>15966722</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

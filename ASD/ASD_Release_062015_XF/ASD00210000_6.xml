@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00210000_6</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P00894</UniProt_ID>
+  <Seq_Length>163</Seq_Length>
+  <Molecule_Weight>17977</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0078</KEGG_ID>
+  <Orthology_ID>K01653</Orthology_ID>
+  <Catalytic_Mechanism>2 pyruvate = 2-acetolactate + CO(2).</Catalytic_Mechanism>
+  <Pfam_ID>PF10369:ALS_ss_C</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>ALS-III</Alias>
+      <Alias>Acetohydroxy-acid synthase III small subunit</Alias>
+      <Alias>AHAS-III</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 2 pyruvate = 2-acetolactate + CO2.</Detail>
+      <Keyword>Acetolactate synthase activity</Keyword>
+      <Ontology_ID>GO:0003984</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of isoleucine, (2R*,3R*)-2-amino-3-methylpentanoic acid.</Detail>
+      <Keyword>Isoleucine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009097</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids containing a branched carbon skeleton, comprising isoleucine, leucine and valine.</Detail>
+      <Keyword>Branched chain family amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009082</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of valine, 2-amino-3-methylbutanoic acid.</Detail>
+      <Keyword>Valine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009099</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MRRILSVLLENESGALSRVIGLFSQRGYNIESLTVAPTDDPTLSRMTIQTVGDEKVLEQIEKQLHKLVDVLRVSELGQGAHVEREIMLVKIQASGYGRDEVKRNTEIFRGQIIDVTPSLYTVQLAGTSGKLDAFLASIRDVAKIVEVARSGVVGLSRGDKIMR</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>ilvH</Gene_Name>
+    <Gene_Alias>brnP</Gene_Alias>
+    <Gene_ID>12930387</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_414620</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947267</Gene_URL>
+    <EMBL_ID>EBESCG00000014998</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of the regulatory subunit of acetohydroxyacid synthase isozyme III from E. coli</PDB_Title>
+      <PDB_ID>2F1F</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F1F</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the Regulatory Subunit of Acetohydroxyacid Synthase Isozyme III from Escherichia coli.</PubMed_Title>
+      <Author>Kaplun, A., et al.</Author>
+      <Journal>J.Mol.Biol.(2006)357:951-963</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16458324?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00770</Pathway_ID>
+      <Pathway_Title>Pantothenate and CoA biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00660</Pathway_ID>
+      <Pathway_Title>C5-Branched dibasic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01210</Pathway_ID>
+      <Pathway_Title>2-Oxocarboxylic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01210</Pathway_ID>
+      <Pathway_Title>2-Oxocarboxylic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00290</Pathway_ID>
+      <Pathway_Title>Valine, leucine and isoleucine biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00290</Pathway_ID>
+      <Pathway_Title>Valine, leucine and isoleucine biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.bcj.cc.g.c.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2f1f</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.2.1.6</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/2/1/6.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00210001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00210002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

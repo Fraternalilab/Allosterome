@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11360000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P38919</UniProt_ID>
+  <Seq_Length>411</Seq_Length>
+  <Molecule_Weight>46871</Molecule_Weight>
+  <KEGG_ID>hsa:9775</KEGG_ID>
+  <Orthology_ID>K13025</Orthology_ID>
+  <EBI_ID>EBI-299104</EBI_ID>
+  <Function_Summary>ATP-dependent RNA helicase. Core component of the splicing-dependent multiprotein exon junction complex (EJC) deposited at splice junctions on mRNAs. The EJC is a dynamic structure consisting of core proteins and several peripheral nuclear and cytoplasmic associated factors that join the complex only transiently either during EJC assembly or during subsequent mRNA metabolism. The EJC marks the position of the exon-exon junction in the mature mRNA for the gene expression machinery and the core components remain bound to spliced mRNAs throughout all stages of mRNA metabolism thereby influencing downstream processes including nuclear mRNA export, subcellular mRNA localization, translation efficiency and nonsense-mediated mRNA decay (NMD). Its RNA-dependent ATPase and RNA-helicase activities are induced by CASC3, but abolished in presence of the MAGOH-RBM8A heterodimer, thereby trapping the ATP-bound EJC core onto spliced mRNA in a stable conformation. The inhibition of ATPase activity by the MAGOH-RBM8A heterodimer increases the RNA-binding affinity of the EJC. Involved in translational enhancement of spliced mRNAs after formation of the 80S ribosome complex. Binds spliced mRNA in sequence-independent manner, 20-24 nucleotides upstream of mRNA exon-exon junctions. Shows higher affinity for single-stranded RNA in an ATP-bound core EJC complex than after the ATP is hydrolyzed. Involved in the splicing modulation of BCL2L1/Bcl-X (and probably other apoptotic genes); specifically inhibits formation of proapoptotic isoforms such as Bcl-X(S); the function is different from the established EJC assembly.</Function_Summary>
+  <Catalytic_Mechanism>ATP + H(2)O = ADP + phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00270:DEAD@@PF00271:Helicase_C</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>ATP-dependent RNA helicase eIF4A-3</Alias>
+      <Alias>Eukaryotic initiation factor 4A-III, N-terminally processed</Alias>
+      <Alias>ATP-dependent RNA helicase DDX48</Alias>
+      <Alias>Nuclear matrix protein 265</Alias>
+      <Alias>Eukaryotic translation initiation factor 4A isoform 3</Alias>
+      <Alias>NMP 265</Alias>
+      <Alias>DEAD box protein 48</Alias>
+      <Alias>hNMP 265</Alias>
+      <Alias>eIF-4A-III</Alias>
+      <Alias>Eukaryotic initiation factor 4A-like NUK-34</Alias>
+      <Alias>eIF4A-III</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a sequence of adenylyl residues in an RNA molecule, such as the poly(A) tail, a sequence of adenylyl residues at the 3' end of eukaryotic mRNA.</Detail>
+      <Keyword>Poly(A) RNA binding</Keyword>
+      <Ontology_ID>GO:0008143</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate; this reaction drives the unwinding of an RNA helix.</Detail>
+      <Keyword>ATP-dependent RNA helicase activity</Keyword>
+      <Ontology_ID>GO:0004004</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: NTP + H2O = NDP + phosphate, to drive the unwinding of a DNA or RNA helix.</Detail>
+      <Keyword>Helicase activity</Keyword>
+      <Ontology_ID>GO:0004386</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with pre-messenger RNA (pre-mRNA) or messenger RNA (mRNA).</Detail>
+      <Keyword>MRNA binding</Keyword>
+      <Ontology_ID>GO:0003729</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an RNA molecule or a portion thereof.</Detail>
+      <Keyword>RNA binding</Keyword>
+      <Ontology_ID>GO:0003723</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Shortening of the poly(A) tail of a nuclear-transcribed mRNA from full length to an oligo(A) length.</Detail>
+      <Keyword>Nuclear-transcribed mRNA poly(A) tail shortening</Keyword>
+      <Ontology_ID>GO:0000289</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</Detail>
+      <Keyword>Gene expression</Keyword>
+      <Ontology_ID>GO:0010467</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A major pathway of degradation of nuclear-transcribed mRNAs that proceeds through a series of ordered steps that includes poly(A) tail shortening and that can regulate mRNA stability.</Detail>
+      <Keyword>Nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay</Keyword>
+      <Ontology_ID>GO:0000288</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The joining together of exons from one or more primary transcripts of nuclear messenger RNA (mRNA) and the excision of intron sequences, via a spliceosomal mechanism, so that mRNA consisting only of the joined exons is produced.</Detail>
+      <Keyword>Nuclear mRNA splicing, via spliceosome</Keyword>
+      <Ontology_ID>GO:0000398</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular chemical reactions and pathways involving RNA, ribonucleic acid, one of the two main type of nucleic acid, consisting of a long, unbranched macromolecule formed from ribonucleotides joined in 3',5'-phosphodiester linkage.</Detail>
+      <Keyword>RNA metabolic process</Keyword>
+      <Ontology_ID>GO:0016070</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of proteins by the translation of mRNA.</Detail>
+      <Keyword>Negative regulation of translation</Keyword>
+      <Ontology_ID>GO:0017148</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of proteins by the translation of mRNA.</Detail>
+      <Keyword>Positive regulation of translation</Keyword>
+      <Ontology_ID>GO:0045727</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the conversion of a primary ribosomal RNA (rRNA) transcript into one or more mature rRNA molecules.</Detail>
+      <Keyword>RRNA processing</Keyword>
+      <Ontology_ID>GO:0006364</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the conversion of a primary mRNA transcript into one or more mature mRNA(s) prior to translation into polypeptide.</Detail>
+      <Keyword>MRNA processing</Keyword>
+      <Ontology_ID>GO:0006397</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of proteins by the translation of mRNA.</Detail>
+      <Keyword>Regulation of translation</Keyword>
+      <Ontology_ID>GO:0006417</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP catabolic process</Keyword>
+      <Ontology_ID>GO:0006200</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The nonsense-mediated decay pathway for nuclear-transcribed mRNAs degrades mRNAs in which an amino-acid codon has changed to a nonsense codon; this prevents the translation of such mRNAs into truncated, and potentially harmful, proteins.</Detail>
+      <Keyword>Nuclear-transcribed mRNA catabolic process, nonsense-mediated decay</Keyword>
+      <Ontology_ID>GO:0000184</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving mRNA, messenger RNA, which is responsible for carrying the coded genetic 'message', transcribed from DNA, to sites of protein assembly at the ribosomes.</Detail>
+      <Keyword>MRNA metabolic process</Keyword>
+      <Ontology_ID>GO:0016071</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of mRNA, messenger ribonucleic acid, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>MRNA transport</Keyword>
+      <Ontology_ID>GO:0051028</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of a cytokine or chemokine binding to a cell surface receptor.</Detail>
+      <Keyword>Cytokine-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0019221</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of removing sections of the primary RNA transcript to remove sequences not present in the mature form of the RNA and joining the remaining sections to form the mature form of the RNA.</Detail>
+      <Keyword>RNA splicing</Keyword>
+      <Ontology_ID>GO:0008380</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>163</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>321</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1</Position>
+      <PTM_Type>N-acetylmethionine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>296</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>N-acetylalanine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>12</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MATTATMATSGSARKRLLKEEDMTKVEFETSEEVDVTPTFDTMGLREDLLRGIYAYGFEKPSAIQQRAIKQIIKGRDVIAQSQSGTGKTATFSISVLQCLDIQVRETQALILAPTRELAVQIQKGLLALGDYMNVQCHACIGGTNVGEDIRKLDYGQHVVAGTPGRVFDMIRRRSLRTRAIKMLVLDEADEMLNKGFKEQIYDVYRYLPPATQVVLISATLPHEILEMTNKFMTDPIRILVKRDELTLEGIKQFFVAVEREEWKFDTLCDLYDTLTITQAVIFCNTKRKVDWLTEKMREANFTVSSMHGDMPQKERESIMKEFRSGASRVLISTDVWARGLDVPQVSLIINYDLPNNRELYIHRIGRSGRYGRKGVAINFVKNDDIRILRDIEQYYSTQIDEMPMNVADLI</Protein_Seq>
+    <DNA_Seq>ACGCACGCACGTCTCTCGCTTTCGCATACTTAAGGCGTCTGTTCTCGGCAGCGGCACAGCGAGGTCGGCAGCGGCACAGCGAGGTCGGCAGCGGCACAGCGAGGTCGGCAGCGGCACAGCGAGGTCGGCAGCGGCAGCGAGGTCGGCAGCGGCACAGCGAGGTCGGCAGCGGCAGCGAGGTCGGCAGCGGCGCGCGCTGTGCTCTTCCGCGGACTCTGAATCATGGCGACCACGGCCACGATGGCGACCTCGGGCTCGGCGCGAAAGCGGCTGCTCAAAGAGGAAGACATGACTAAAGTGGAATTCGAGACCAGCGAGGAGGTGGATGTGACCCCCACGTTCGACACCATGGGCCTGCGGGAGGACCTGCTGCGGGGCATCTACGCTTACGGTTTTGAAAAACCATCAGCAATCCAGCAACGAGCAATCAAGCAGATCATCAAAGGGAGAGATGTCATCGCACAGTCTCAGTCCGGCACAGGAAAAACAGCCACCTTCAGTATCTCAGTCCTCCAGTGTTTGGATATTCAGGTTCGTGAAACTCAAGCTTTGATCTTGGCTCCCACAAGAGAGTTGGCTGTGCAGATCCAGAAGGGGCTGCTTGCTCTCGGTGACTACATGAATGTCCAGTGCCATGCCTGCATTGGAGGCACCAATGTTGGCGAGGACATCAGGAAGCTGGATTACGGACAGCATGTTGTCGCGGGCACTCCAGGGCGTGTTTTTGATATGATTCGTCGCAGAAGCCTAAGGACACGTGCTATCAAAATGTTGGTTTTGGATGAAGCTGATGAAATGTTGAATAAAGGTTTCAAAGAGCAGATTTACGATGTATACAGGTACCTGCCTCCAGCCACACAGGTGGTTCTCATCAGTGCCACGCTGCCACACGAGATTCTGGAGATGACCAACAAGTTCATGACCGACCCAATCCGCATCTTGGTGAAACGTGATGAATTGACTCTGGAAGGCATCAAGCAATTTTTCGTGGCAGTGGAGAGGGAAGAGTGGAAATTTGACACTCTGTGTGACCTCTACGACACACTGACCATCACTCAGGCGGTCATCTTCTGCAACACCAAAAGAAAGGTGGACTGGCTGACGGAGAAAATGAGGGAAGCCAACTTCACTGTATCCTCAATGCATGGAGACATGCCCCAGAAAGAGCGGGAGTCCATCATGAAGGAGTTCCGGTCGGGCGCCAGCCGAGTGCTTATTTCTACAGATGTCTGGGCCAGGGGGTTGGATGTCCCTCAGGTGTCCCTCATCATTAACTATGATCTCCCTAATAACAGAGAATTGTACATACACAGAATTGGGAGATCAGGTCGATACGGCCGGAAGGGTGTGGCCATTAACTTTGTAAAGAATGACGACATCCGCATCCTCAGAGATATCGAGCAGTACTATTCCACTCAGATTGATGAGATGCCGATGAACGTTGCTGATCTTATCTGAAGCAGCAGATCAGTGGGATGAGGGAGACTGTTCACCTGCTGTGTACTCCTGTTTGGAAGTATTTAGATCCAGATTCTACTTAATGGGGTTTATATGGACTTTCTTCTCATAAATGGCCTGCCGTCTCCCTTCCTTTGAAGAGGATATGGGGATTCTGCTCTCTTTTCTTATTTACATGTAAATAATACATTGTTCTAAGTCTTTTTCATTAAAAATTTAAAACTTTTCCCATAAACTCTATACTTCTAAGGTGCCACCACCTTCTCTAGTAACTTA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Others</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus speckle</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Catalytic step 2 spliceosome</CellLocal>
+      <Ontology_ID>GO:0071013</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Spliceosomal complex</CellLocal>
+      <Ontology_ID>GO:0005681</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nuclear speck</CellLocal>
+      <Ontology_ID>GO:0016607</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Exon-exon junction complex</CellLocal>
+      <Ontology_ID>GO:0035145</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>EIF4A3</Gene_Name>
+    <Gene_Alias>DDX48; KIAA0111</Gene_Alias>
+    <Gene_ID>9775</Gene_ID>
+    <Genbank_ACCN>NM_014740</Genbank_ACCN>
+    <Protein_ACCN>NP_055555</Protein_ACCN>
+    <HGNC_ID>18683</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/9775</Gene_URL>
+    <UCSC_ID>uc002jxs.3</UCSC_ID>
+    <EMBL_ID>ENSG00000141543</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q9BZI7</Uniprot_ID>
+      <Gene_Name>UPF3B</Gene_Name>
+      <EBI_ID>EBI-372780</EBI_ID>
+      <PPI_EBI_URL>EBI-299104,EBI-372780</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P61326</Uniprot_ID>
+      <Gene_Name>MAGOH</Gene_Name>
+      <EBI_ID>EBI-299134</EBI_ID>
+      <PPI_EBI_URL>EBI-299104,EBI-299134</PPI_EBI_URL>
+      <Experiment_Number>20</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9HCG8</Uniprot_ID>
+      <Gene_Name>CWC22</Gene_Name>
+      <EBI_ID>EBI-373289</EBI_ID>
+      <PPI_EBI_URL>EBI-299104,EBI-373289</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y5S9</Uniprot_ID>
+      <Gene_Name>RBM8A</Gene_Name>
+      <EBI_ID>EBI-447231</EBI_ID>
+      <PPI_EBI_URL>EBI-299104,EBI-447231</PPI_EBI_URL>
+      <Experiment_Number>21</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y2W1</Uniprot_ID>
+      <Gene_Name>THRAP3</Gene_Name>
+      <EBI_ID>EBI-352039</EBI_ID>
+      <PPI_EBI_URL>EBI-299104,EBI-352039</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O15234</Uniprot_ID>
+      <Gene_Name>CASC3</Gene_Name>
+      <EBI_ID>EBI-299118</EBI_ID>
+      <PPI_EBI_URL>EBI-299104,EBI-299118</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Richieri Costa Pereira Syndrome</Disease_Name>
+      <Disease_Detail>Richieri Costa Pereira Syndrome</Disease_Detail>
+      <Disease_DB>RCH006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/richieri_costa_pereira_syndrome?search=EIF4A3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Vaginal Cancer</Disease_Name>
+      <Disease_Detail>Vaginal Cancer</Disease_Detail>
+      <Disease_DB>VGN017</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/vaginal_cancer?search=EIF4A3#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of eIF4AIII-CWC22 complex</PDB_Title>
+      <PDB_ID>4C9B</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4C9B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of the Human Eif4Aiii-Cwc22 Complex Shows How a Dead-Box Protein is Inhibited by a Mif4G Domain</PubMed_Title>
+      <Author>Buchwald, G., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2013)110:E4611</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24218557?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The crystal structure of EJC in its transition state</PDB_Title>
+      <PDB_ID>3EX7</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EX7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanism of ATP turnover inhibition in the EJC</PubMed_Title>
+      <Author>Nielsen, K.H., et al.</Author>
+      <Journal>Rna(2009)15:67-75</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19033377?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CRYSTAL STRUCTURE OF THE EXON JUNCTION COMPLEX AT 3.2 A RESOLUTION</PDB_Title>
+      <PDB_ID>2J0Q</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J0Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Crystal Structure of the Exon Junction Complex Reveals How It Maintains a Stable Grip on Mrna.</PubMed_Title>
+      <Author>Bono, F., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2006)126:713</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16923391?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the human exon junction complex with a trapped DEAD-box helicase bound to RNA</PDB_Title>
+      <PDB_ID>2HYI</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HYI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the exon junction core complex with a trapped DEAD-box ATPase bound to RNA.</PubMed_Title>
+      <Author>Andersen, C.B.F., et al.</Author>
+      <Journal>Science(2006)313:1968-1972</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16931718?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CRYSTAL STRUCTURE OF EIF4AIII-BARENTSZ COMPLEX AT 3.0 A RESOLUTION</PDB_Title>
+      <PDB_ID>2J0U</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J0U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Crystal Structure of the Exon Junction Complex Reveals How It Mantains a Stable Grip on Mrna</PubMed_Title>
+      <Author>Bono, F., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2006)126:713</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16923391?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human apo-eIF4AIII</PDB_Title>
+      <PDB_ID>2HXY</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HXY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the exon junction core complex with a trapped DEAD-box ATPase bound to RNA.</PubMed_Title>
+      <Author>Andersen, C.B., et al.</Author>
+      <Journal>Science(2006)313:1968-1972</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16931718?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CRYSTAL STRUCTURE OF THE EXON JUNCTION COMPLEX AT 2.2 A RESOLUTION</PDB_Title>
+      <PDB_ID>2J0S</PDB_ID>
+      <Resolution>2.21</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J0S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Crystal Structure of the Exon Junction Complex Reveals How It Mantains a Stable Grip on Mrna</PubMed_Title>
+      <Author>Bono, F., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2006)126:713</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16923391?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE CORE MAGO-Y14-EIF4AIII-BARENTSZ-UPF3B ASSEMBLY SHOWS HOW THE EJC IS BRIDGED TO THE NMD MACHINERY</PDB_Title>
+      <PDB_ID>2XB2</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XB2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights Into the Recruitment of the Nmd Machinery from the Crystal Structure of a Core Ejc-Upf3B Complex.</PubMed_Title>
+      <Author>Buchwald, G., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:10050-10055</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20479275?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.6.4.13</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/6/4/13.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2014-04-17</Create_Date>
+</Organism_Record>

@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02910000_1</Organism_ID>
+  <Organism>Bacillus stearothermophilus</Organism>
+  <Organism_Latin>Bacillus stearothermophilus</Organism_Latin>
+  <UniProt_ID>P00953</UniProt_ID>
+  <Seq_Length>328</Seq_Length>
+  <Molecule_Weight>37193</Molecule_Weight>
+  <Catalytic_Mechanism>ATP + L-tryptophan + tRNA(Trp) = AMP + diphosphate + L-tryptophyl-tRNA(Trp).</Catalytic_Mechanism>
+  <Pfam_ID>PF00579:tRNA-synt_1b</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>4</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>TrpRS</Alias>
+      <Alias>Tryptophan--tRNA ligase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + L-tryptophan + tRNA(Trp) = AMP + diphosphate + L-tryptophanyl-tRNA(Trp).</Detail>
+      <Keyword>Tryptophan-tRNA ligase activity</Keyword>
+      <Ontology_ID>GO:0004830</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the formation of aminoacyl-tRNA from ATP, amino acid, and tRNA with the release of diphosphate and AMP.</Detail>
+      <Keyword>Aminoacyl-tRNA ligase activity</Keyword>
+      <Ontology_ID>GO:0004812</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process of coupling tryptophan to tryptophanyl-tRNA, catalyzed by tryptophanyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA.</Detail>
+      <Keyword>Tryptophanyl-tRNA aminoacylation</Keyword>
+      <Ontology_ID>GO:0006436</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA. Translation ends with the release of a polypeptide chain from the ribosome.</Detail>
+      <Keyword>Translation</Keyword>
+      <Ontology_ID>GO:0006412</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKTIFSGIQPSGVITIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQDPHELRQNIRRLAAKYLAVGIDPTQATLFIQSEVPAHAQAAWMLQCIVYIGELERMTQFKEKSAGKEAVSAGLLTYPPLMAADILLYNTDIVPVGEDQKQHIELTRDLAERFNKRYGELFTIPEARIPKVGARIMSLVDPTKKMSKSDPNPKAYITLLDDAKTIEKKIKSAVTDSEGTIRYDKEAKPGISNLLNIYSTLSGQSIEELERQYEGKGYGVFKADLAQVVIETLRPIQERYHHWMESEELDRVLDEGAEKANRVASEMVRKMEQAMGLGRRR</Protein_Seq>
+    <DNA_Seq>cagctgaatgttttccgtataatataaggcaaatctaggatcaaccgagcgatgagaaagaagagtacatattggcgatgccttcagagagcttgtggaaggtgcgaacaagcggctagccatatggaatgggctttcgagcttcccgccgaaccggcgacgcagtaggcgaggacgttccccgcgttacagggggccatgcgcaaagcatgggctgagcgattgcgcttcttgacgcaataaatagggtggcaccgcggtcctaccgtccctatcagagggctggcagggccttttttatttttggcttgagggagtgaagatcgatgaaaaccattttttccggcattcagccaagcggcgtcatcaccattggcaactatattggggcgctgcggcagtttgtcgagctgcagcatgaatacaactgctatttttgcatcgttgaccaacacgccattaccgtttggcaagacccacacgaactgcggcaaaacatccgccgcctcgccgcaaagtatttggccgtcggcatcgacccgacgcaagcgacgttgttcatccagtcagaagtgccggcgcacgctcaagccgcttggatgctgcagtgcatcgtttatatcggcgaacttgagcggatgacgcaatttaaagaaaaatcggccggcaaagaggcggtcagcgccgggctgctcacgtacccgccgctgatggccgctgacattttgctttataacaccgacatcgtcccggtcggcgaagaccaaaagcagcatatcgaattgacgcgggatctggccgagcgcttcaacaaacggtatggcgagctgtttacgatccctgaggcgcgcattccgaaagtcggcgcccgcatcatgtcgcttgtcgacccgacgaaaaaaatgagcaaatccgaccccaacccgaaagcgtacatcacactgcttgacgatgcgaaaacgatcgagaagaagatcaaaagcgcggtcaccgactcgga</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>trpS</Gene_Name>
+    <Genbank_ACCN>M14742</Genbank_ACCN>
+    <Protein_ACCN>AAA22873</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/nuccore/143783</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of Tryptophanyl-tRNA Synthetase Complexed with ATP and Tryptophanamide in a Pre-Transition state Conformation</PDB_Title>
+      <PDB_ID>1MAU</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MAU</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150001</ASD_Ligand>
+      <Ligand_Name>ADENOSINE-5'-TRIPHOSPHATE$CITRIC ACID$GLYCEROL$L-TRYPTOPHANAMIDE</Ligand_Name>
+      <PubMed_Title>Interconversion of ATP binding and conformational free energies by tryptophanyl-tRNA synthetase: structures of ATP bound to open and closed, pre-transition-state conformations.</PubMed_Title>
+      <Author>Retailleau P, et al.</Author>
+      <Journal>J Mol Biol.2003 Jan 3;325(1):39-63.</Journal>
+      <PubMed_ID>12473451</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Tryptophanyl-tRNA Synthetase Complexed with Tryptophan in an Open Conformation</PDB_Title>
+      <PDB_ID>1MB2</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MB2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>TRYPTOPHAN</Ligand_Name>
+      <PubMed_Title>Interconversion of ATP binding and conformational free energies by tryptophanyl-tRNA synthetase: structures of ATP bound to open and closed, pre-transition-state conformations.</PubMed_Title>
+      <Author>Retailleau P, et al.</Author>
+      <Journal>J Mol Biol.2003 Jan 3;325(1):39-63.</Journal>
+      <PubMed_ID>12473451</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>2.9 A CRYSTAL STRUCTURE OF LIGAND-FREE TRYPTOPHANYL-TRNA SYNTHETASE: DOMAIN MOVEMENTS FRAGMENT THE ADENINE NUCLEOTIDE BINDING SITE.</PDB_Title>
+      <PDB_ID>1D2R</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D2R</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>2.9 A crystal structure of ligand-free tryptophanyl-tRNA synthetase: domain movements fragment the adenine nucleotide binding site.</PubMed_Title>
+      <Author>Ilyin VA, et al.</Author>
+      <Journal>Protein Sci.2000 Feb;9(2):218-31.</Journal>
+      <PubMed_ID>10716174</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure Analysis of B. stearothermophilus Tryptophanyl-tRNA Synthetase Complexed with Tryptophan, AMP, and Inorganic Phosphate</PDB_Title>
+      <PDB_ID>3FI0</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FI0</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00030001</ASD_Ligand>
+      <Ligand_Name>ADENOSINE MONOPHOSPHATE$PHOSPHATE ION$TRYPTOPHAN</Ligand_Name>
+      <PubMed_Title>Independent saturation of three TrpRS subsites generates a partially assembled state similar to those observed in molecular simulations.</PubMed_Title>
+      <Author>Laowanapiban P, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2009 Feb 10;106(6):1790-5. Epub  2009 Jan 27.</Journal>
+      <PubMed_ID>19174517</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>1.7 HIGH RESOLUTION EXPERIMENTAL PHASES FOR TRYPTOPHANYL-TRNA SYNTHETASE COMPLEXED WITH TRYPTOPHANYL-5'AMP</PDB_Title>
+      <PDB_ID>1I6M</PDB_ID>
+      <Resolution>1.72</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I6M</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02910001</ASD_Ligand>
+      <Ligand_Name>GLYCEROL$AMMONIUM ION$SULFATE ION$TRYPTOPHANYL-5'AMP</Ligand_Name>
+      <PubMed_Title>High-resolution experimental phases for tryptophanyl-tRNA synthetase (TrpRS) complexed with tryptophanyl-5'AMP.</PubMed_Title>
+      <Author>Retailleau P, et al.</Author>
+      <Journal>Acta Crystallogr D Biol Crystallogr.2001 Nov;57(Pt 11):1595-608. Epub  2001 Oct 25.</Journal>
+      <PubMed_ID>11679724</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>1.7 HIGH RESOLUTION EXPERIMENTAL PHASES FOR TRYPTOPHANYL-TRNA SYNTHETASE COMPLEXED WITH TRYPTOPHANYL-5'AMP</PDB_Title>
+      <PDB_ID>1I6K</PDB_ID>
+      <Resolution>1.72</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I6K</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02910001</ASD_Ligand>
+      <Ligand_Name>GLYCEROL$AMMONIUM ION$SULFATE ION$TRYPTOPHANYL-5'AMP</Ligand_Name>
+      <PubMed_Title>High-resolution experimental phases for tryptophanyl-tRNA synthetase (TrpRS) complexed with tryptophanyl-5'AMP.</PubMed_Title>
+      <Author>Retailleau P, et al.</Author>
+      <Journal>Acta Crystallogr D Biol Crystallogr.2001 Nov;57(Pt 11):1595-608. Epub  2001 Oct 25.</Journal>
+      <PubMed_ID>11679724</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Independent saturation of three TrpRS subsites generates a partially-assembled state similar to those observed in molecular simulations</PDB_Title>
+      <PDB_ID>3FHJ</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FHJ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00030001</ASD_Ligand>
+      <Ligand_Name>ADENOSINE MONOPHOSPHATE$PHOSPHATE ION$TRYPTOPHAN</Ligand_Name>
+      <PubMed_Title>Independent saturation of three TrpRS subsites generates a partially assembled state similar to those observed in molecular simulations.</PubMed_Title>
+      <Author>Laowanapiban P, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2009 Feb 10;106(6):1790-5. Epub  2009 Jan 27.</Journal>
+      <PubMed_ID>19174517</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Tryptophanyl-tRNA Synthetase Complexed with ATP in an Open Conformation</PDB_Title>
+      <PDB_ID>1MAW</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MAW</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150001</ASD_Ligand>
+      <Ligand_Name>ADENOSINE-5'-TRIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Interconversion of ATP binding and conformational free energies by tryptophanyl-tRNA synthetase: structures of ATP bound to open and closed, pre-transition-state conformations.</PubMed_Title>
+      <Author>Retailleau P, et al.</Author>
+      <Journal>J Mol Biol.2003 Jan 3;325(1):39-63.</Journal>
+      <PubMed_ID>12473451</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Tryptophanyl-tRNA Synthetase Complexed with ATP in a Closed, Pre-transition State Conformation</PDB_Title>
+      <PDB_ID>1M83</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1M83</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150001</ASD_Ligand>
+      <Ligand_Name>ADENOSINE-5'-TRIPHOSPHATE$GLYCEROL</Ligand_Name>
+      <PubMed_Title>Interconversion of ATP binding and conformational free energies by tryptophanyl-tRNA synthetase: structures of ATP bound to open and closed, pre-transition-state conformations.</PubMed_Title>
+      <Author>Retailleau P, et al.</Author>
+      <Journal>J Mol Biol.2003 Jan 3;325(1):39-63.</Journal>
+      <PubMed_ID>12473451</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of B. stearothermophilus tryptophanyl tRNA synthetase in complex with adenosine tetraphosphate</PDB_Title>
+      <PDB_ID>2OV4</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OV4</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02910002</ASD_Ligand>
+      <Ligand_Name>ANILINE$ADENOSINE-5'-TETRAPHOSPHATE$GLYCEROL</Ligand_Name>
+      <PubMed_Title>Crystal Structure of Tryptophanyl-tRNA Synthetase Complexed with Adenosine-5' Tetraphosphate: Evidence for Distributed Use of Catalytic Binding Energy in Amino Acid Activation by Class I Aminoacyl-tRNA Synthetases.</PubMed_Title>
+      <Author>Retailleau P, et al.</Author>
+      <Journal>J Mol Biol.2007 May 25;369(1):108-28. Epub  2007 Mar 12.</Journal>
+      <PubMed_ID>17428498</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>1.7 HIGH RESOLUTION EXPERIMENTAL PHASES FOR TRYPTOPHANYL-TRNA SYNTHETASE COMPLEXED WITH TRYPTOPHANYL-5'AMP</PDB_Title>
+      <PDB_ID>1I6L</PDB_ID>
+      <Resolution>1.72</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I6L</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02910001</ASD_Ligand>
+      <Ligand_Name>GLYCEROL$AMMONIUM ION$SULFATE ION$TRYPTOPHANYL-5'AMP</Ligand_Name>
+      <PubMed_Title>High-resolution experimental phases for tryptophanyl-tRNA synthetase (TrpRS) complexed with tryptophanyl-5'AMP.</PubMed_Title>
+      <Author>Retailleau P, et al.</Author>
+      <Journal>Acta Crystallogr D Biol Crystallogr.2001 Nov;57(Pt 11):1595-608. Epub  2001 Oct 25.</Journal>
+      <PubMed_ID>11679724</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)@@Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.da.b.b.g.html@@http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.da.b.b.g.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta@@Mainly alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1i6k@@http://www.cathdb.info/pdb/1i6k</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,111,Lys;site,192,Lys;site,195,Lys</Site_Detail>
+      <Site_Reference>Weinreb V, et al. Structure. 2009,17(7):952-964.</Site_Reference>
+      <Site_Type>Induced-fit model</Site_Type>
+      <PubMed_ID>19604475</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.1.1.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/1/1/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00030001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02910001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02910002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

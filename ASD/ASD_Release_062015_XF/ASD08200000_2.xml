@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08200000_2</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P06974</UniProt_ID>
+  <Seq_Length>334</Seq_Length>
+  <Molecule_Weight>37849</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p1915</KEGG_ID>
+  <Orthology_ID>K02416</Orthology_ID>
+  <EBI_ID>EBI-560439</EBI_ID>
+  <Function_Summary>FliM is one of three proteins (FliG, FliN, FliM) that form the rotor-mounted switch complex (C ring), located at the base of the basal body. This complex interacts with the CheY and CheZ chemotaxis proteins, in addition to contacting components of the motor that determine the direction of flagellar rotation.</Function_Summary>
+  <Pfam_ID>PF02154:FliM@@PF01052:SpoA</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of movement along a polymeric molecule such as a microfilament or microtubule, coupled to the hydrolysis of a nucleoside triphosphate.</Detail>
+      <Keyword>Motor activity</Keyword>
+      <Ontology_ID>GO:0003774</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Cell motility due to movement of cilia or flagella.</Detail>
+      <Keyword>Ciliary or flagellar motility</Keyword>
+      <Ontology_ID>GO:0001539</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of a motile cell or organism, or the directed growth of a cell guided by a specific chemical concentration gradient. Movement may be towards a higher concentration (positive chemotaxis) or towards a lower concentration (negative chemotaxis).</Detail>
+      <Keyword>Chemotaxis</Keyword>
+      <Ontology_ID>GO:0006935</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MGDSILSQAEIDALLNGDSEVKDEPTASVSGESDIRPYDPNTQRRVVRERLQALEIINERFARHFRMGLFNLLRRSPDITVGAIRIQPYHEFARNLPVPTNLNLIHLKPLRGTGLVVFSPSLVFIAVDNLFGGDGRFPTKVEGREFTHTEQRVINRMLKLALEGYSDAWKAINPLEVEYVRSEMQVKFTNITTSPNDIVVNTPFHVEIGNLTGEFNICLPFSMIEPLRELLVNPPLENSRNEDQNWRDNLVRQVQHSQLELVANFADISLRLSQILKLNPGDVLPIEKPDRIIAHVDGVPVLTSQYGTLNGQYALRIEHLINPILNSLNEEQPK</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell inner membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Bacterial-type flagellum basal body</CellLocal>
+      <Ontology_ID>GO:0009425</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Bacterial-type flagellum</CellLocal>
+      <Ontology_ID>GO:0009288</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Bacterial flagellum basal body</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>fliM</Gene_Name>
+    <Gene_Alias>cheC2; fla AII; fla QII</Gene_Alias>
+    <Gene_ID>12932576</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_416455</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/946442</Gene_URL>
+    <EMBL_ID>EBESCG00000017236</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P15070</Uniprot_ID>
+      <Gene_Name>fliN</Gene_Name>
+      <EBI_ID>EBI-2011987</EBI_ID>
+      <PPI_EBI_URL>EBI-560439,EBI-2011987</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P0ABZ1</Uniprot_ID>
+      <Gene_Name>fliG</Gene_Name>
+      <EBI_ID>EBI-1126524</EBI_ID>
+      <PPI_EBI_URL>EBI-560439,EBI-1126524</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P76010</Uniprot_ID>
+      <Gene_Name>ycgR</Gene_Name>
+      <EBI_ID>EBI-554507</EBI_ID>
+      <PPI_EBI_URL>EBI-560439,EBI-554507</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of Unphosphorylated CheY Bound to the N-Terminus of FliM</PDB_Title>
+      <PDB_ID>2B1J</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2B1J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Switched or Not?: the Structure of Unphosphorylated CheY Bound to the N Terminus of FliM.</PubMed_Title>
+      <Author>Dyer, C.M., et al.</Author>
+      <Journal>J.Bacteriol.(2006)188:7354-7363</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17050923?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ACTIVATED CHEY BOUND TO THE N-TERMINUS OF FLIM</PDB_Title>
+      <PDB_ID>1F4V</PDB_ID>
+      <Resolution>2.22</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1F4V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of an activated response regulator bound to its target.</PubMed_Title>
+      <Author>Lee, S.Y., et al.</Author>
+      <Journal>Nat.Struct.Biol.(2001)8:52-56</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11135671?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of CheY D13K Y106W alone and in complex with a FliM peptide</PDB_Title>
+      <PDB_ID>1U8T</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1U8T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the Constitutively Active Double Mutant CheY(D13K Y106W) Alone and in Complex with a FliM Peptide</PubMed_Title>
+      <Author>Dyer, C.M., et al.</Author>
+      <Journal>J.Mol.Biol.(2004)342:1325-1335</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15351654?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.ch.b.b.b.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1f4v</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Conformational spread model</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

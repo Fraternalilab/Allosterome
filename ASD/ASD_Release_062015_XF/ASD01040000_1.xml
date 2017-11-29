@@ -1,0 +1,1857 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01040000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P03372</UniProt_ID>
+  <Seq_Length>595</Seq_Length>
+  <Molecule_Weight>66216</Molecule_Weight>
+  <KEGG_ID>hsa:2099</KEGG_ID>
+  <Orthology_ID>K08550</Orthology_ID>
+  <EBI_ID>EBI-78473</EBI_ID>
+  <Function_Summary>Nuclear hormone receptor. The steroid hormones and their receptors are involved in the regulation of eukaryotic gene expression and affect cellular proliferation and differentiation in target tissues. Ligand-dependent nuclear transactivation involves either direct homodimer binding to a palindromic estrogen response element (ERE) sequence or association with other DNA-binding transcription factors, such as AP-1/c-Jun, c-Fos, ATF-2, Sp1 and Sp3, to mediate ERE-independent signaling. Ligand binding induces a conformational change allowing subsequent or combinatorial association with multiprotein coactivator complexes through LXXLL motifs of their respective components. Mutual transrepression occurs between the estrogen receptor (ER) and NF-kappa-B in a cell-type specific manner. Decreases NF-kappa-B DNA-binding activity and inhibits NF-kappa-B-mediated transcription from the IL6 promoter and displace RELA/p65 and associated coregulators from the promoter. Recruited to the NF-kappa-B response element of the CCL2 and IL8 promoters and can displace CREBBP. Present with NF-kappa-B components RELA/p65 and NFKB1/p50 on ERE sequences. Can also act synergistically with NF-kappa-B to activate transcription involving respective recruitment adjacent response elements; the function involves CREBBP. Can activate the transcriptional activity of TFF1. Also mediates membrane-initiated estrogen signaling involving various kinase cascades. Isoform 3 is involved in activation of NOS3 and endothelial nitric oxide production. Isoforms lacking one or several functional domains are thought to modulate transcriptional activty by competitive ligand or DNA binding and/or heterodimerization with the full length receptor. Isoform 3 can bind to ERE and inhibit isoform 1.</Function_Summary>
+  <Pfam_ID>PF12743:ESR1_C@@PF00104:Hormone_recep@@PF02159:Oest_recep@@PF00105:zf-C4</Pfam_ID>
+  <Allosteric_Activator_Count>13</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>2</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Estradiol receptor</Alias>
+      <Alias>ER-alpha</Alias>
+      <Alias>Nuclear receptor subfamily 3 group A member 1</Alias>
+      <Alias>ER</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with zinc (Zn) ions.</Detail>
+      <Keyword>Zinc ion binding</Keyword>
+      <Ontology_ID>GO:0008270</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a steroid, any of a large group of substances that have in common a ring system based on 1,2-cyclopentanoperhydrophenanthrene.</Detail>
+      <Keyword>Steroid binding</Keyword>
+      <Ontology_ID>GO:0005496</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any enzyme.</Detail>
+      <Keyword>Enzyme binding</Keyword>
+      <Ontology_ID>GO:0019899</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a sequence of DNA that is part of a core promoter region composed of the transcription start site and binding sites for the basal transcription machinery. The transcribed region might be described as a gene, cistron, or operon.</Detail>
+      <Keyword>Core promoter sequence-specific DNA binding</Keyword>
+      <Ontology_ID>GO:0001046</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a lipid.</Detail>
+      <Keyword>Lipid binding</Keyword>
+      <Ontology_ID>GO:0008289</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Modulates the activity of nitric oxide synthase.</Detail>
+      <Keyword>Nitric-oxide synthase regulator activity</Keyword>
+      <Ontology_ID>GO:0030235</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with the beta subunit of the catenin complex.</Detail>
+      <Keyword>Beta-catenin binding</Keyword>
+      <Ontology_ID>GO:0008013</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with the estrogen response element (ERE), a conserved sequence found in the promoters of genes whose expression is regulated in response to estrogen.</Detail>
+      <Keyword>Estrogen response element binding</Keyword>
+      <Ontology_ID>GO:0034056</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein or proteins.</Detail>
+      <Keyword>Identical protein binding</Keyword>
+      <Ontology_ID>GO:0042802</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein that positively regulates either the transcription of one or more genes, or the translation of mRNA.</Detail>
+      <Keyword>Activator</Keyword>
+      <Ontology_ID>KW-0010</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>364</Position>
+      <Original>Val</Original>
+      <Variation>Glu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>6</Position>
+      <Original>His</Original>
+      <Variation>Tyr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>160</Position>
+      <Original>Gly</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>77</Position>
+      <Original>Gly</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>400</Position>
+      <Original>Gly</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>264</Position>
+      <Original>Met</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the activity of a transcription factor, any factor involved in the initiation or regulation of transcription.</Detail>
+      <Keyword>Negative regulation of transcription factor activity</Keyword>
+      <Ontology_ID>GO:0043433</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of transcription from the RNA polymerase II promoter.</Detail>
+      <Keyword>Positive regulation of transcription from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0045944</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of activity of a transcription factor, any factor involved in the initiation or regulation of transcription.</Detail>
+      <Keyword>Positive regulation of transcription factor activity</Keyword>
+      <Ontology_ID>GO:0051091</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which a ligand-bound hormone receptor acts in the nucleus to modulate the frequency, rate or extent of transcription from an RNA polymerase II promoter.</Detail>
+      <Keyword>Regulation of transcription from RNA polymerase II promoter by nuclear hormone receptor</Keyword>
+      <Ontology_ID>GO:0034339</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that decreases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene's coding sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</Detail>
+      <Keyword>Negative regulation of gene expression</Keyword>
+      <Ontology_ID>GO:0010629</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of retinoic acid receptor signaling pathway activity.</Detail>
+      <Keyword>Positive regulation of retinoic acid receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048386</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the activity of the enzyme nitric-oxide synthase.</Detail>
+      <Keyword>Positive regulation of nitric-oxide synthase activity</Keyword>
+      <Ontology_ID>GO:0051000</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of nitric oxide.</Detail>
+      <Keyword>Positive regulation of nitric oxide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0045429</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of an I-kappaB kinase/NF-kappaB induced cascade.</Detail>
+      <Keyword>Negative regulation of I-kappaB kinase/NF-kappaB cascade</Keyword>
+      <Ontology_ID>GO:0043124</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of stimulus by estradiol, a C18 steroid hormone hydroxylated at C3 and C17 that acts as a potent estrogen.</Detail>
+      <Keyword>Response to estradiol stimulus</Keyword>
+      <Ontology_ID>GO:0032355</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>260</Position>
+      <PTM_Type>Asymmetric dimethylarginine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>118</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>106</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>167</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>7</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>537</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>10</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>104</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTMTLHTKASGMALLHQIQGNELEPLNRPQLKIPLERPLGEVYLDSSKPAVYNYPEGAAYEFNAAAAANAQVYGQTGLPYGPGSEAAAFGSNGLGGFPPLNSVSPSPLMLLHPPPQLSPFLQPHGQQVPYYLENEPSGYTVREAGPPAFYRPNSDNRRQGGRERLASTNDKGSMAMESAKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHNDYMCPATNQCTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRRGGRMLKHKRQRDDGEGRGEVGSAGDMRAANLWPSPLMIKRSKKNSLALSLTADQMVSALLDAEPPILYSEYDPTRPFSEASMMGLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLECAWLEILMIGLVWRSMEHPGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEFVCLKSIILLNSGVYTFLSSTLKSLEEKDHIHRVLDKITDTLIHLMAKAGLTLQQQHQRLAQLLLILSHIRHMSNKGMEHLYSMKCKNVVPLYDLLLEMLDAHRLHAPTSRGGASVEETDQSHLATAGSTSSHSLQKYYITGEAEGFPATV</Protein_Seq>
+    <DNA_Seq>GAATTCCAAAATTGTGATGTTTCTTGTATTTTTGATGAAGGAGAAATACTGTAATGATCACTGTTTACACTATGTACACTTTAGGCCAGCCCTTTGTAGCGTTATACAAACTGAAAGCACACCGGACCCGCAGGCTCCCGGGGCAGGGCCGGGGCCAGAGCTCGCGTGTCGGCGGGACATGCGCTGCGTCGCCTCTAACCTCGGGCTGTGCTCTTTTTCCAGGTGGCCCGCCGGTTTCTGAGCCTTCTGCCCTGCGGGGACACGGTCTGCACCCTGCCCGCGGCCACGGACCATGACCATGACCCTCCACACCAAAGCATCTGGGATGGCCCTACTGCATCAGATCCAAGGGAACGAGCTGGAGCCCCTGAACCGTCCGCAGCTCAAGATCCCCCTGGAGCGGCCCCTGGGCGAGGTGTACCTGGACAGCAGCAAGCCCGCCGTGTACAACTACCCCGAGGGCGCCGCCTACGAGTTCAACGCCGCGGCCGCCGCCAACGCGCAGGTCTACGGTCAGACCGGCCTCCCCTACGGCCCCGGGTCTGAGGCTGCGGCGTTCGGCTCCAACGGCCTGGGGGGTTTCCCCCCACTCAACAGCGTGTCTCCGAGCCCGCTGATGCTACTGCACCCGCCGCCGCAGCTGTCGCCTTTCCTGCAGCCCCACGGCCAGCAGGTGCCCTACTACCTGGAGAACGAGCCCAGCGGCTACACGGTGCGCGAGGCCGGCCCGCCGGCATTCTACAGGCCAAATTCAGATAATCGACGCCAGGGTGGCAGAGAAAGATTGGCCAGTACCAATGACAAGGGAAGTATGGCTATGGAATCTGCCAAGGAGACTCGCTACTGTGCAGTGTGCAATGACTATGCTTCAGGCTACCATTATGGAGTCTGGTCCTGTGAGGGCTGCAAGGCCTTCTTCAAGAGAAGTATTCAAGGACATAACGACTATATGTGTCCAGCCACCAACCAGTGCACCATTGATAAAAACAGGAGGAAGAGCTGCCAGGCCTGCCGGCTCCGCAAATGCTACGAAGTGGGAATGATGAAAGGTGGGATACGAAAAGACCGAAGAGGAGGGAGAATGTTGAAACACAAGCGCCAGAGAGATGATGGGGAGGGCAGGGGTGAAGTGGGGTCTGCTGGAGACATGAGAGCTGCCAACCTTTGGCCAAGCCCGCTCATGATCAAACGCTCTAAGAAGAACAGCCTGGCCTTGTCCCTGACGGCCGACCAGATGGTCAGTGCCTTGTTGGATGCTGAGCCCCCCATACTCTATTCCGAGTATGATCCTACCAGACCCTTCAGTGAAGCTTCGATGATGGGCTTACTGACCAACCTGGCAGACAGGGAGCTGGTTCACATGATCAACTGGGCGAAGAGGGTGCCAGGCTTTGTGGATTTGACCCTCCATGATCAGGTCCACCTTCTAGAATGTGCCTGGCTAGAGATCCTGATGATTGGTCTCGTCTGGCGCTCCATGGAGCACCCAGTGAAGCTACTGTTTGCTCCTAACTTGCTCTTGGACAGGAACCAGGGAAAATGTGTAGAGGGCATGGTGGAGATCTTCGACATGCTGCTGGCTACATCATCTCGGTTCCGCATGATGAATCTGCAGGGAGAGGAGTTTGTGTGCCTCAAATCTATTATTTTGCTTAATTCTGGAGTGTACACATTTCTGTCCAGCACCCTGAAGTCTCTGGAAGAGAAGGACCATATCCACCGAGTCCTGGACAAGATCACAGACACTTTGATCCACCTGATGGCCAAGGCAGGCCTGACCCTGCAGCAGCAGCACCAGCGGCTGGCCCAGCTCCTCCTCATCCTCTCCCACATCAGGCACATGAGTAACAAAGGCATGGAGCATCTGTACAGCATGAAGTGCAAGAACGTGGTGCCCCTCTATGACCTGCTGCTGGAGATGCTGGACGCCCACCGCCTACATGCGCCCACTAGCCGTGGAGGGGCATCCGTGGAGGAGACGGACCAAAGCCACTTGGCCACTGCGGGCTCTACTTCATCGCATTCCTTGCAAAAGTATTACATCACGGGGGAGGCAGAGGGTTTCCCTGCCACAGTCTGAGAGCTCCCTGGC</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ESR1</Gene_Name>
+    <Gene_Alias>ESR; NR3A1</Gene_Alias>
+    <Gene_ID>2099</Gene_ID>
+    <Genbank_ACCN>NM_000125</Genbank_ACCN>
+    <Protein_ACCN>NP_000116</Protein_ACCN>
+    <HGNC_ID>3467</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/2099</Gene_URL>
+    <UCSC_ID>uc003qom.4</UCSC_ID>
+    <EMBL_ID>ENSG00000091831</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q99966</Uniprot_ID>
+      <Gene_Name>CITED1</Gene_Name>
+      <EBI_ID>EBI-2624951</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-2624951</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P08047</Uniprot_ID>
+      <Gene_Name>SP1</Gene_Name>
+      <EBI_ID>EBI-298336</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-298336</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q8N895</Uniprot_ID>
+      <Gene_Name>ZNF366</Gene_Name>
+      <EBI_ID>EBI-2813661</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-2813661</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q04206</Uniprot_ID>
+      <Gene_Name>RELA</Gene_Name>
+      <EBI_ID>EBI-73886</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-73886</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O00165</Uniprot_ID>
+      <Gene_Name>HAX1</Gene_Name>
+      <EBI_ID>EBI-357001</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-357001</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y6Q9</Uniprot_ID>
+      <Gene_Name>NCOA3</Gene_Name>
+      <EBI_ID>EBI-81196</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-81196</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P53041</Uniprot_ID>
+      <Gene_Name>PPP5C</Gene_Name>
+      <EBI_ID>EBI-716663</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-716663</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y294</Uniprot_ID>
+      <Gene_Name>ASF1A</Gene_Name>
+      <EBI_ID>EBI-749553</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-749553</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P38398</Uniprot_ID>
+      <Gene_Name>BRCA1</Gene_Name>
+      <EBI_ID>EBI-349905</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-349905</PPI_EBI_URL>
+      <Experiment_Number>12</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P60660</Uniprot_ID>
+      <Gene_Name>MYL6</Gene_Name>
+      <EBI_ID>EBI-300817</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-300817</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q12778</Uniprot_ID>
+      <Gene_Name>FOXO1</Gene_Name>
+      <EBI_ID>EBI-1108782</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-1108782</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q14151</Uniprot_ID>
+      <Gene_Name>SAFB2</Gene_Name>
+      <EBI_ID>EBI-352869</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-352869</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9UN36</Uniprot_ID>
+      <Gene_Name>NDRG2</Gene_Name>
+      <EBI_ID>EBI-3895741</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-3895741</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O14686</Uniprot_ID>
+      <Gene_Name>MLL2</Gene_Name>
+      <EBI_ID>EBI-996065</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-996065</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P55345</Uniprot_ID>
+      <Gene_Name>PRMT2</Gene_Name>
+      <EBI_ID>EBI-78458</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-78458</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P20290-2</Uniprot_ID>
+      <Gene_Name>BTF3</Gene_Name>
+      <EBI_ID>EBI-1054703</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-1054703</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q99623</Uniprot_ID>
+      <Gene_Name>PHB2</Gene_Name>
+      <EBI_ID>EBI-358348</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-358348</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P00533</Uniprot_ID>
+      <Gene_Name>EGFR</Gene_Name>
+      <EBI_ID>EBI-297353</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-297353</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P05627</Uniprot_ID>
+      <Gene_Name>Jun</Gene_Name>
+      <EBI_ID>EBI-764369</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-764369</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O00429</Uniprot_ID>
+      <Gene_Name>DNM1L</Gene_Name>
+      <EBI_ID>EBI-724571</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-724571</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q92841</Uniprot_ID>
+      <Gene_Name>DDX17</Gene_Name>
+      <EBI_ID>EBI-746012</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-746012</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P60763</Uniprot_ID>
+      <Gene_Name>RAC3</Gene_Name>
+      <EBI_ID>EBI-767084</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-767084</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P03372</Uniprot_ID>
+      <Gene_Name>ESR1</Gene_Name>
+      <EBI_ID>EBI-78473</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-78473</PPI_EBI_URL>
+      <Experiment_Number>8</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q00987</Uniprot_ID>
+      <Gene_Name>MDM2</Gene_Name>
+      <EBI_ID>EBI-389668</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-389668</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O43251</Uniprot_ID>
+      <Gene_Name>RBFOX2</Gene_Name>
+      <EBI_ID>EBI-746056</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-746056</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q96HI0</Uniprot_ID>
+      <Gene_Name>SENP5</Gene_Name>
+      <EBI_ID>EBI-3895753</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-3895753</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9JLI4</Uniprot_ID>
+      <Gene_Name>Ncoa6</Gene_Name>
+      <EBI_ID>EBI-286271</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-286271</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P17844</Uniprot_ID>
+      <Gene_Name>DDX5</Gene_Name>
+      <EBI_ID>EBI-351962</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-351962</PPI_EBI_URL>
+      <Experiment_Number>8</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9BQ69</Uniprot_ID>
+      <Gene_Name>MACROD1</Gene_Name>
+      <EBI_ID>EBI-5324932</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-5324932</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q15596</Uniprot_ID>
+      <Gene_Name>NCOA2</Gene_Name>
+      <EBI_ID>EBI-81236</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-81236</PPI_EBI_URL>
+      <Experiment_Number>8</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P62952</Uniprot_ID>
+      <Gene_Name>BLCAP</Gene_Name>
+      <EBI_ID>EBI-3895726</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-3895726</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P29353</Uniprot_ID>
+      <Gene_Name>SHC1</Gene_Name>
+      <EBI_ID>EBI-78835</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-78835</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q02447</Uniprot_ID>
+      <Gene_Name>SP3</Gene_Name>
+      <EBI_ID>EBI-348158</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-348158</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9H467</Uniprot_ID>
+      <Gene_Name>CUEDC2</Gene_Name>
+      <EBI_ID>EBI-1248228</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-1248228</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P12931</Uniprot_ID>
+      <Gene_Name>SRC</Gene_Name>
+      <EBI_ID>EBI-621482</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-621482</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q96AQ6</Uniprot_ID>
+      <Gene_Name>PBXIP1</Gene_Name>
+      <EBI_ID>EBI-740845</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-740845</PPI_EBI_URL>
+      <Experiment_Number>9</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q15788</Uniprot_ID>
+      <Gene_Name>NCOA1</Gene_Name>
+      <EBI_ID>EBI-455189</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-455189</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q12802</Uniprot_ID>
+      <Gene_Name>AKAP13</Gene_Name>
+      <EBI_ID>EBI-1373806</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-1373806</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P19838</Uniprot_ID>
+      <Gene_Name>NFKB1</Gene_Name>
+      <EBI_ID>EBI-697771</EBI_ID>
+      <PPI_EBI_URL>EBI-78473,EBI-697771</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Leiomyoma</Disease_Name>
+      <Disease_Detail>Leiomyoma</Disease_Detail>
+      <Disease_DB>LMY002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leiomyoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Trigeminal Autonomic Cephalalgia</Disease_Name>
+      <Disease_Detail>Trigeminal Autonomic Cephalalgia</Disease_Detail>
+      <Disease_DB>TRG013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/trigeminal_autonomic_cephalalgia?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Aromatase Deficiency</Disease_Name>
+      <Disease_Detail>Aromatase Deficiency</Disease_Detail>
+      <Disease_DB>ARM001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/aromatase_deficiency?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Endometriosis</Disease_Name>
+      <Disease_Detail>Endometriosis</Disease_Detail>
+      <Disease_DB>END044</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/endometriosis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Polymorphous Low-Grade Adenocarcinoma</Disease_Name>
+      <Disease_Detail>Polymorphous Low-Grade Adenocarcinoma</Disease_Detail>
+      <Disease_DB>PLY040</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/polymorphous_low_grade_adenocarcinoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Disease</Disease_Name>
+      <Disease_Detail>Breast Disease</Disease_Detail>
+      <Disease_DB>BRS051</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_disease?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hydrocele</Disease_Name>
+      <Disease_Detail>Hydrocele</Disease_Detail>
+      <Disease_DB>HYD005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hydrocele?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hdl Response to Hormone Replacement, Augmented</Disease_Name>
+      <Disease_Detail>Hdl Response to Hormone Replacement, Augmented</Disease_Detail>
+      <Disease_DB>HDL002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hdl_response_to_hormone_replacement_augmented?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ovarian Serous Cystadenocarcinoma</Disease_Name>
+      <Disease_Detail>Ovarian Cancer</Disease_Detail>
+      <Disease_DB>OVR012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ovarian_serous_cystadenocarcinoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Meningioma</Disease_Name>
+      <Disease_Detail>Meningioma</Disease_Detail>
+      <Disease_DB>MNN012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/meningioma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Inflammatory Breast Carcinoma</Disease_Name>
+      <Disease_Detail>Inflammatory Breast Carcinoma</Disease_Detail>
+      <Disease_DB>INF023</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/inflammatory_breast_carcinoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Adenocarcinoma</Disease_Name>
+      <Disease_Detail>Adenocarcinoma</Disease_Detail>
+      <Disease_DB>ADN016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adenocarcinoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Fibroadenoma</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS053</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_fibroadenoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Intravenous Leiomyomatosis</Disease_Name>
+      <Disease_Detail>Intravenous Leiomyomatosis</Disease_Detail>
+      <Disease_DB>INT020</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/intravenous_leiomyomatosis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Vulvar Syringoma</Disease_Name>
+      <Disease_Detail>Vulvar Syringoma</Disease_Detail>
+      <Disease_DB>VLV019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/vulvar_syringoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lobular Neoplasia</Disease_Name>
+      <Disease_Detail>Lobular Neoplasia</Disease_Detail>
+      <Disease_DB>LBL001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lobular_neoplasia?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Primary Pigmented Nodular Adrenocortical Disease</Disease_Name>
+      <Disease_Detail>Primary Pigmented Nodular Adrenocortical Disease</Disease_Detail>
+      <Disease_DB>PRM051</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/primary_pigmented_nodular_adrenocortical_disease?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Trigeminal Neuralgia</Disease_Name>
+      <Disease_Detail>Trigeminal Neuralgia</Disease_Detail>
+      <Disease_DB>TRG002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/trigeminal_neuralgia?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Adenosarcoma</Disease_Name>
+      <Disease_Detail>Adenosarcoma</Disease_Detail>
+      <Disease_DB>ADN020</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adenosarcoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Juvenile Nasopharyngeal Angiofibroma</Disease_Name>
+      <Disease_Detail>Juvenile Nasopharyngeal Angiofibroma</Disease_Detail>
+      <Disease_DB>JVN033</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/juvenile_nasopharyngeal_angiofibroma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dental Fluorosis</Disease_Name>
+      <Disease_Detail>Dental Fluorosis</Disease_Detail>
+      <Disease_DB>DNT001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dental_fluorosis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Spondylolisthesis</Disease_Name>
+      <Disease_Detail>Spondylolisthesis</Disease_Detail>
+      <Disease_DB>SPN019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/spondylolisthesis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Migraine</Disease_Name>
+      <Disease_Detail>Migraine</Disease_Detail>
+      <Disease_DB>MGR002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/migraine?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myocardial Infarction</Disease_Name>
+      <Disease_Detail>Myocardial Infarction</Disease_Detail>
+      <Disease_DB>MYC007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myocardial_infarction?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ovarian Cancer</Disease_Name>
+      <Disease_Detail>Ovarian Cancer</Disease_Detail>
+      <Disease_DB>OVR042</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ovarian_cancer?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Sebaceous Adenoma</Disease_Name>
+      <Disease_Detail>Sebaceous Adenoma</Disease_Detail>
+      <Disease_DB>SBC009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/sebaceous_adenoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Trigonitis</Disease_Name>
+      <Disease_Detail>Trigonitis</Disease_Detail>
+      <Disease_DB>TRG001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/trigonitis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>in Situ Carcinoma</Disease_Name>
+      <Disease_Detail>in Situ Carcinoma</Disease_Detail>
+      <Disease_DB>INS002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/in_situ_carcinoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Syringoma</Disease_Name>
+      <Disease_Detail>Syringoma</Disease_Detail>
+      <Disease_DB>SYR003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/syringoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Benign Metastasizing Leiomyoma</Disease_Name>
+      <Disease_Detail>Benign Metastasizing Leiomyoma</Disease_Detail>
+      <Disease_DB>BNG041</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/benign_metastasizing_leiomyoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Catamenial Pneumothorax</Disease_Name>
+      <Disease_Detail>Catamenial Pneumothorax</Disease_Detail>
+      <Disease_DB>CTM001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/catamenial_pneumothorax?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lymphangioleiomyomatosis</Disease_Name>
+      <Disease_Detail>Lymphangioleiomyomatosis</Disease_Detail>
+      <Disease_DB>LYM007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lymphangioleiomyomatosis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Osteoporosis</Disease_Name>
+      <Disease_Detail>Osteoporosis</Disease_Detail>
+      <Disease_DB>OST002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/osteoporosis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Intestinal Obstruction</Disease_Name>
+      <Disease_Detail>Intestinal Obstruction</Disease_Detail>
+      <Disease_DB>INT070</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/intestinal_obstruction?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Progesterone-Receptor Positive Breast Cancer</Disease_Name>
+      <Disease_Detail>Progesterone-Receptor Positive Breast Cancer</Disease_Detail>
+      <Disease_DB>PRG002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/progesterone_receptor_positive_breast_cancer?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Uterine Disease</Disease_Name>
+      <Disease_Detail>Uterine Disease</Disease_Detail>
+      <Disease_DB>UTR038</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/uterine_disease?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Leiomyomatosis</Disease_Name>
+      <Disease_Detail>Leiomyomatosis</Disease_Detail>
+      <Disease_DB>LMY003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leiomyomatosis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Beta Thalassemia</Disease_Name>
+      <Disease_Detail>Beta Thalassemia</Disease_Detail>
+      <Disease_DB>BTT002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/beta_thalassemia?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Adenocarcinoma in Situ</Disease_Name>
+      <Disease_Detail>Adenocarcinoma</Disease_Detail>
+      <Disease_DB>ADN012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adenocarcinoma_in_situ?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dosage-Sensitive Sex Reversal</Disease_Name>
+      <Disease_Detail>Dosage-Sensitive Sex Reversal</Disease_Detail>
+      <Disease_DB>DSG001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dosage_sensitive_sex_reversal?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gender Identity Disorder</Disease_Name>
+      <Disease_Detail>Gender Identity Disorder</Disease_Detail>
+      <Disease_DB>GND002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gender_identity_disorder?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Vaginitis</Disease_Name>
+      <Disease_Detail>Vaginitis</Disease_Detail>
+      <Disease_DB>VGN023</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/vaginitis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Estrogen Resistance</Disease_Name>
+      <Disease_Detail>Estrogen Resistance</Disease_Detail>
+      <Disease_DB>EST007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/estrogen_resistance?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Progesterone Resistance</Disease_Name>
+      <Disease_Detail>Progesterone Resistance</Disease_Detail>
+      <Disease_DB>PRG014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/progesterone_resistance?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Glassy Cell Carcinoma of the Cervix</Disease_Name>
+      <Disease_Detail>Glassy Cell Carcinoma of the Cervix</Disease_Detail>
+      <Disease_DB>GLS012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/glassy_cell_carcinoma_of_the_cervix?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Microglandular Adenosis</Disease_Name>
+      <Disease_Detail>Microglandular Adenosis</Disease_Detail>
+      <Disease_DB>MCR019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/microglandular_adenosis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Malignant Peritoneal Mesothelioma</Disease_Name>
+      <Disease_Detail>Malignant Peritoneal Mesothelioma</Disease_Detail>
+      <Disease_DB>MLG002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/malignant_peritoneal_mesothelioma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lumbar Disc Disease</Disease_Name>
+      <Disease_Detail>Lumbar Disc Disease</Disease_Detail>
+      <Disease_DB>LMB051</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lumbar_disc_disease?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Spondylosis</Disease_Name>
+      <Disease_Detail>Spondylosis</Disease_Detail>
+      <Disease_DB>SPN020</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/spondylosis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Postpartum Depression</Disease_Name>
+      <Disease_Detail>Postpartum Depression</Disease_Detail>
+      <Disease_DB>PST021</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/postpartum_depression?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Serous Cystadenocarcinoma</Disease_Name>
+      <Disease_Detail>Serous Cystadenocarcinoma</Disease_Detail>
+      <Disease_DB>SRS001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/serous_cystadenocarcinoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cellular Leiomyoma</Disease_Name>
+      <Disease_Detail>Cellular Leiomyoma</Disease_Detail>
+      <Disease_DB>CLL005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cellular_leiomyoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Female Breast Carcinoma</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>FML027</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/female_breast_carcinoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cerebral Meningioma</Disease_Name>
+      <Disease_Detail>Cerebral Meningioma</Disease_Detail>
+      <Disease_DB>CRB036</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cerebral_meningioma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Atherosclerosis</Disease_Name>
+      <Disease_Detail>Atherosclerosis</Disease_Detail>
+      <Disease_DB>ATH003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/atherosclerosis?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Endometrial Carcinoma</Disease_Name>
+      <Disease_Detail>Endometrial Cancer</Disease_Detail>
+      <Disease_DB>END042</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/endometrial_carcinoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Skin Tag</Disease_Name>
+      <Disease_Detail>Skin Tag</Disease_Detail>
+      <Disease_DB>SKN023</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/skin_tag?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS047</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hidradenocarcinoma</Disease_Name>
+      <Disease_Detail>Hidradenocarcinoma</Disease_Detail>
+      <Disease_DB>HDR006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hidradenocarcinoma?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Vulvar Vestibulitis Syndrome</Disease_Name>
+      <Disease_Detail>Vulvar Vestibulitis Syndrome</Disease_Detail>
+      <Disease_DB>VLV042</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/vulvar_vestibulitis_syndrome?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ovarian Disease</Disease_Name>
+      <Disease_Detail>Ovarian Disease</Disease_Detail>
+      <Disease_DB>OVR049</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ovarian_disease?search=ESR1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Estrogen Receptor</PDB_Title>
+      <PDB_ID>3OSA</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OSA</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01048003</ASD_Ligand>
+      <PubMed_Title>Coupling of receptor conformation and ligand orientation determine graded activity.</PubMed_Title>
+      <Author>Bruning, J.B., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2010)6:837-843</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20924370?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Estrogen Receptor Alpha Ligand-Binding Domain In Complex With OBCP-2M and A Glucocorticoid Receptor Interacting Protein 1 NR Box II Peptide</PDB_Title>
+      <PDB_ID>2FAI</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FAI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-[(1S,2S,5S,9R)-5-(HYDROXYMETHYL)-8,9-DIMETHYL- 3-OXABICYCLO[3.3.1]NON-7-EN-2
+-YL]PHENOL</Ligand_Name>
+      <PubMed_Title>Identification of ligands with bicyclic scaffolds provides insights into mechanisms of estrogen receptor subtype selectivity.</PubMed_Title>
+      <Author>Hsieh RW, et al.</Author>
+      <Journal>J Biol Chem.2006 Jun 30;281(26):17909-19. Epub  2006 Apr 28.</Journal>
+      <PubMed_ID>16648639</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA RECOGNITION BY THE OESTROGEN RECEPTOR: FROM SOLUTION TO THE CRYSTAL</PDB_Title>
+      <PDB_ID>1HCP</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HCP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ZINC ION</Ligand_Name>
+      <PubMed_Title>DNA recognition by the oestrogen receptor: from solution to the crystal.</PubMed_Title>
+      <Author>Schwabe, J.W.,et.al.</Author>
+      <Journal>Structure. 1993 1: 187-204</Journal>
+      <PubMed_ID>16100953</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Estrogen Receptor Alpha Ligand-binding Domain in Complex with the Antagonist Ligand 4-D</PDB_Title>
+      <PDB_ID>1SJ0</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SJ0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(2S,3R)-2-(4-(2-(PIPERIDIN-1-YL)ETHOXY)PHENYL)- 2,3-DIHYDRO-3-(4
+-HYDROXYPHENYL)BENZO[B][1,4]OXATHIIN- 6-OL</Ligand_Name>
+      <PubMed_Title>Estrogen Receptor Ligands. II. Discovery of Benzoxathiins as Potent, Selective Estrogen Receptor alpha Modulators.</PubMed_Title>
+      <Author>Kim S, et al.</Author>
+      <Journal>J Med Chem.2004 Apr 22;47(9):2171-5.</Journal>
+      <PubMed_ID>15084115</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Benzopyrans are Selective Estrogen Receptor beta Agonists (SERBAs) with Novel Activity in Models of Benign Prostatic Hyperplasia</PDB_Title>
+      <PDB_ID>2I0J</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2I0J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3AS,4R,9BR)-4-(4-HYDROXYPHENYL)-1,2,3,3A,4,9B- HEXAHYDROCYCLOPENTA[C]CHROMEN-8
+-OL</Ligand_Name>
+      <PubMed_Title>Benzopyrans are selective estrogen receptor Beta agonists with novel activity in models of benign prostatic hyperplasia.</PubMed_Title>
+      <Author>Norman BH, et al.</Author>
+      <Journal>J Med Chem.2006 Oct 19;49(21):6155-7.</Journal>
+      <PubMed_ID>17034120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Estrogen Receptor Alpha Ligand Binding Domain Complexed with an Oxabicyclic Derivative Compound</PDB_Title>
+      <PDB_ID>2QR9</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QR9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>dimethyl (1R,4S)-5,6-bis(4-hydroxyphenyl)- 7-oxabicyclo[2.2.1]hepta-2,5-diene
+-2,3-dicarboxylate</Ligand_Name>
+      <PubMed_Title>NFkappaB selectivity of estrogen receptor ligands revealed by comparative crystallographic analyses</PubMed_Title>
+      <Author>Nettles KW, et al.</Author>
+      <Journal>Nat Chem Biol.2008 Apr;4(4):241-7. Epub  2008 Mar 16.</Journal>
+      <PubMed_ID>18344977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Set7/9-ER-Sinefungin complex</PDB_Title>
+      <PDB_ID>3CBP</PDB_ID>
+      <Resolution>1.42</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CBP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>BETA-MERCAPTOETHANOL $ GLYCEROL $ ADENOSYL-ORNITHINE</Ligand_Name>
+      <PubMed_Title>Regulation of estrogen receptor alpha by the SET7 lysine methyltransferase.</PubMed_Title>
+      <Author>Subramanian K, et al.</Author>
+      <Journal>Mol Cell.2008 May 9;30(3):336-47.</Journal>
+      <PubMed_ID>18471979</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human estrogen receptor alpha ligand-binding domain in complex with OBCP-1M and a glucocorticoid receptor interacting protein 1 NR box II peptide</PDB_Title>
+      <PDB_ID>2B1V</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2B1V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-[(1S,2S,5S)-5-(HYDROXYMETHYL)-8-METHYL- 3-OXABICYCLO[3.3.1]NON-7-EN-2
+-YL]PHENOL</Ligand_Name>
+      <PubMed_Title>Identification of ligands with bicyclic scaffolds provides insights into mechanisms of estrogen receptor subtype selectivity.</PubMed_Title>
+      <Author>Hsieh RW, et al.</Author>
+      <Journal>J Biol Chem.2006 Jun 30;281(26):17909-19. Epub  2006 Apr 28.</Journal>
+      <PubMed_ID>16648639</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Estrogen Receptor Alpha Ligand Binding Domain complexed with Burned Meat Compound 4-OH-PhIP</PDB_Title>
+      <PDB_ID>2QSE</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QSE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(2-amino-1-methyl-1H-imidazo[4,5-b]pyridin- 6-yl)phenol</Ligand_Name>
+      <PubMed_Title>NFkappaB selectivity of estrogen receptor ligands revealed by comparative crystallographic analyses</PubMed_Title>
+      <Author>Nettles KW, et al.</Author>
+      <Journal>Nat Chem Biol.2008 Apr;4(4):241-7. Epub  2008 Mar 16.</Journal>
+      <PubMed_ID>18344977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Estrogen Receptor alpha-lasofoxifene complex</PDB_Title>
+      <PDB_ID>2OUZ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OUZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(5R,6S)-6-PHENYL-5-[4-(2-PYRROLIDIN-1-YLETHOXY)PHENYL]- 5,6,7,8
+-TETRAHYDRONAPHTHALEN-2-OL</Ligand_Name>
+      <PubMed_Title>The 2.0 A crystal structure of the ER{alpha} ligand-binding domain complexed with lasofoxifene</PubMed_Title>
+      <Author>Vajdos FF, et al.</Author>
+      <Journal>Protein Sci.2007 May;16(5):897-905.</Journal>
+      <PubMed_ID>17456742</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Estrogen receptor alpha ligand-binding domain in complex with a SERM</PDB_Title>
+      <PDB_ID>2R6Y</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2R6Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[6-hydroxy-2-(4-hydroxyphenyl)-1-benzothien- 3-yl][4-(2-pyrrolidin-1
+-ylethoxy)phenyl]methanone</Ligand_Name>
+      <PubMed_Title>Prediction of the tissue-specificity of selective estrogen receptor modulators by using a single biochemical method.</PubMed_Title>
+      <Author>Dai SY, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2008 May 20;105(20):7171-6. Epub  2008 May 12.</Journal>
+      <PubMed_ID>18474858</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN ESTROGEN RECEPTOR LIGAND-BINDING DOMAIN IN COMPLEX WITH 17BETA-ESTRADIOL</PDB_Title>
+      <PDB_ID>1ERE</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ERE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ESTRADIOL</Ligand_Name>
+      <PubMed_Title>Molecular basis of agonism and antagonism in the oestrogen receptor.</PubMed_Title>
+      <Author>Brzozowski, A.M.,et.al.</Author>
+      <Journal>Nature. 1997 389: 753-758</Journal>
+      <PubMed_ID>9338790</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HOMOLOGOUS-EXTENSION-BASED MODEL OF HUMAN ESTROGEN RECEPTOR WITH BOUND ESTRADIOL, THEORETICAL MODEL</PDB_Title>
+      <PDB_ID>1AKF</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/results/modelResults.do</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>HOMOLOGY MODEL FOR THE LIGAND-BINDING DOMAIN OF JRNL THE HUMAN ESTROGEN RECEPTOR.</PubMed_Title>
+      <Author>ANSTEAD,G.M., et.al</Author>
+      <Journal>J.BIOMOL.STRUCT.DYN.1998(15),841</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Estrogen Receptor Alpha Ligand Binding Domain Complexed to an Ether Estradiol Compound</PDB_Title>
+      <PDB_ID>2QGT</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QGT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(9BETA,11ALPHA,13ALPHA,14BETA,17ALPHA)-11- (METHOXYMETHYL)ESTRA-1(10),2,4-TRIENE
+-3,17- DIOL</Ligand_Name>
+      <PubMed_Title>NFkappaB selectivity of estrogen receptor ligands revealed by comparative crystallographic analyses</PubMed_Title>
+      <Author>Nettles KW, et al.</Author>
+      <Journal>Nat Chem Biol.2008 Apr;4(4):241-7. Epub  2008 Mar 16.</Journal>
+      <PubMed_ID>18344977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human estrogen receptor alpha ligand-binding domain in complex with estradiol and the E2#23 FN3 monobody</PDB_Title>
+      <PDB_ID>2OCF</PDB_ID>
+      <Resolution>2.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OCF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ESTRADIOL</Ligand_Name>
+      <PubMed_Title>Crystal structure of human estrogen receptor alpha ligand-binding domain in complex with estradiol and the E2#23 FN3 monobody</PubMed_Title>
+      <Author>Rajan, S.S, et.al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN OESTROGEN RECEPTOR ALPHA LIGAND-BINDING DOMAIN IN COMPLEX WITH 17BETA-OESTRADIOL AND TIF2 NRBOX3 PEPTIDE</PDB_Title>
+      <PDB_ID>1GWR</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GWR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ESTRADIOL</Ligand_Name>
+      <PubMed_Title>Interaction of Transcriptional Intermediary Factor 2 Nuclear Receptor Box Peptides with the Coactivator Binding Site of Estrogen Receptor Alpha.</PubMed_Title>
+      <Author>Warnmark, A.,et.al.</Author>
+      <Journal>J.Biol.Chem.. 2002 277: 21862</Journal>
+      <PubMed_ID>11937504</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Estrogen Receptor Alpha Ligand Binding Domain Complexed with an Oxabicyclic diarylethylene Compound</PDB_Title>
+      <PDB_ID>2QH6</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QH6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>DIETHYL (1R,2S,3R,4S)-5,6-BIS(4-HYDROXYPHENYL)- 7-OXABICYCLO[2.2.1]HEPT-5-ENE
+-2,3-DICARBOXYLATE</Ligand_Name>
+      <PubMed_Title>NFkappaB selectivity of estrogen receptor ligands revealed by comparative crystallographic analyses</PubMed_Title>
+      <Author>Nettles KW, et al.</Author>
+      <Journal>Nat Chem Biol.2008 Apr;4(4):241-7. Epub  2008 Mar 16.</Journal>
+      <PubMed_ID>18344977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human estrogen receptor alpha ligand-binding domain in complex with compound 4</PDB_Title>
+      <PDB_ID>1YIM</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YIM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(2R,3R,4S)-3-(4-HYDROXYPHENYL)-4-METHYL-2- [4-(2-PYRROLIDIN-1
+-YLETHOXY)PHENYL]CHROMAN- 6-OL</Ligand_Name>
+      <PubMed_Title>Estrogen receptor ligands. Part 10: Chromanes: old scaffolds for new SERAMs.</PubMed_Title>
+      <Author>Tan Q, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Mar 15;15(6):1675-81.</Journal>
+      <PubMed_ID>15745820</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SET7/9-ER-AdoMet complex</PDB_Title>
+      <PDB_ID>3CBM</PDB_ID>
+      <Resolution>1.69</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CBM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>BETA-MERCAPTOETHANOL $ S-ADENOSYL-L-HOMOCYSTEINE</Ligand_Name>
+      <PubMed_Title>Regulation of estrogen receptor alpha by the SET7 lysine methyltransferase.</PubMed_Title>
+      <Author>Subramanian K, et al.</Author>
+      <Journal>Mol Cell.2008 May 9;30(3):336-47.</Journal>
+      <PubMed_ID>18471979</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MUTANT ESTROGEN NUCLEAR RECEPTOR LIGAND BINDING DOMAIN COMPLEXED WITH ESTRADIOL</PDB_Title>
+      <PDB_ID>1QKT</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QKT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ESTRADIOL</Ligand_Name>
+      <PubMed_Title>Crystal Structure of a Mutant Heralpha Ligand-Binding Domain Reveals Key Structural Features for the Mechanism of Partial Agonism</PubMed_Title>
+      <Author>Gangloff M, et al.</Author>
+      <Journal>J Biol Chem.2001 May 4;276(18):15059-65. Epub  2001 Feb 6.</Journal>
+      <PubMed_ID>11278577</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ESTROGEN RECEPTOR ALPHA COMPLEXED WITH GENISTEIN</PDB_Title>
+      <PDB_ID>1X7R</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1X7R</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>GENISTEIN</Ligand_Name>
+      <PubMed_Title>Understanding the Selectivity of Genistein for Human Estrogen Receptor-Beta Using X-Ray Crystallography and Computational Methods</PubMed_Title>
+      <Author>Manas ES, et al.</Author>
+      <Journal>Structure.2004 Dec;12(12):2197-207.</Journal>
+      <PubMed_ID>15576033</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human estrogen receptor alpha ligand-binding domain and a glucocorticoid receptor-interacting protein 1 NR box II peptide</PDB_Title>
+      <PDB_ID>2B23</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2B23</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>NFkappaB selectivity of estrogen receptor ligands revealed by comparative crystallographic analyses</PubMed_Title>
+      <Author>Nettles KW, et al.</Author>
+      <Journal>Nat Chem Biol.2008 Apr;4(4):241-7. Epub  2008 Mar 16.</Journal>
+      <PubMed_ID>18344977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Estrogen Receptor alpha Complexed to a B-N Substituted Ligand</PDB_Title>
+      <PDB_ID>2Q6J</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Q6J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-[(DIMESITYLBORYL)(2,2,2-TRIFLUOROETHYL)AMINO]PHENOL</Ligand_Name>
+      <PubMed_Title>Elemental isomerism: a boron-nitrogen surrogate for a carbon-carbon double bond increases the chemical diversity of estrogen receptor ligands</PubMed_Title>
+      <Author>Zhou HB, et al.</Author>
+      <Journal>Chem Biol.2007 Jun;14(6):659-69.</Journal>
+      <PubMed_ID>17584613</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN ESTROGEN RECEPTOR ALPHA LIGAND-BINDING DOMAIN IN COMPLEX WITH COMPOUND 18</PDB_Title>
+      <PDB_ID>1XP9</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XP9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(2S,3R)-3-(4-HYDROXYPHENYL)-2-(4-{[(2S)-2- PYRROLIDIN-1-YLPROPYL]OXY}PHENYL)-2,3
+-DIHYDRO- 1,4-BENZOXATHIIN-6-OL</Ligand_Name>
+      <PubMed_Title>Estrogen receptor ligands. Part 9: Dihydrobenzoxathiin SERAMs with alkyl substituted pyrrolidine side chains and linkers.</PubMed_Title>
+      <Author>Blizzard TA, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Jan 3;15(1):107-13.</Journal>
+      <PubMed_ID>15582421</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN ESTROGEN RECEPTOR ALPHA LIGAND-BINDING DOMAIN IN COMPLEX WITH 4-HYDROXYTAMOXIFEN</PDB_Title>
+      <PDB_ID>3ERT</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ERT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-HYDROXYTAMOXIFEN</Ligand_Name>
+      <PubMed_Title>The structural basis of estrogen receptor/coactivator recognition and the antagonism of this interaction by tamoxifen.</PubMed_Title>
+      <Author>Shiau AK, et al.</Author>
+      <Journal>Cell.1998 Dec 23;95(7):927-37.</Journal>
+      <PubMed_ID>9875847</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>A SERM Designed for the Treatment of Uterine Leiomyoma with Unique Tissue Specificity for Uterus and Ovaries in Rats</PDB_Title>
+      <PDB_ID>2AYR</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AYR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-(4-METHYLSULFONYL-PHENYL)-5-[4-(2-PIPERIDIN- 1-YLETHOXY)PHENOXY]NAPHTHALEN-2
+-OL</Ligand_Name>
+      <PubMed_Title>A selective estrogen receptor modulator designed for the treatment of uterine leiomyoma with unique tissue specificity for uterus and ovaries in rats</PubMed_Title>
+      <Author>Hummel CW, et al.</Author>
+      <Journal>J Med Chem.2005 Nov 3;48(22):6772-5.</Journal>
+      <PubMed_ID>16250633</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Estrogen Receptor Alpha Ligand Binding Domain Mutant 537S Complexed with Genistein</PDB_Title>
+      <PDB_ID>2QA8</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QA8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>GENISTEIN</Ligand_Name>
+      <PubMed_Title>NFkappaB selectivity of estrogen receptor ligands revealed by comparative crystallographic analyses</PubMed_Title>
+      <Author>Nettles KW, et al.</Author>
+      <Journal>Nat Chem Biol.2008 Apr;4(4):241-7. Epub  2008 Mar 16.</Journal>
+      <PubMed_ID>18344977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray structure of ERalpha LBD bound to a tetrahydroisoquinoline SERM ligand at 2.05A resolution</PDB_Title>
+      <PDB_ID>1XQC</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XQC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(1S)-1-{4-[(9AR)-OCTAHYDRO-2H-PYRIDO[1,2- A]PYRAZIN-2-YL]PHENYL}-2-PHENYL
+-1,2,3,4-TETRAHYDROISOQUINOLIN- 6-OL</Ligand_Name>
+      <PubMed_Title>Selective Estrogen Receptor Modulators with Conformationally Restricted Side Chains. Synthesis and Structure-Activity Relationship of ERalpha-Selective Tetrahydroisoquinoline Ligands</PubMed_Title>
+      <Author>Renaud J, et al.</Author>
+      <Journal>J Med Chem.2005 Jan 27;48(2):364-79.</Journal>
+      <PubMed_ID>15658851</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Estrogen Receptor alpha Ligand-binding Domain in Complex with (R,R)-5,11-cis-diethyl-5,6,11,12-tetrahydrochrysene-2,8-diol and a Glucocorticoid Receptor Interacting Protein 1 NR box II Peptide</PDB_Title>
+      <PDB_ID>1L2I</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1L2I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>CHLORIDE ION $ (R,R)-5,11-CIS-DIETHYL-5,6,11,12-TETRAHYDROCHRYSENE- 2,8-DIOL</Ligand_Name>
+      <PubMed_Title>Structural characterization of a subtype-selective ligand reveals a novel mode of estrogen receptor antagonism.</PubMed_Title>
+      <Author>Shiau, A.K.,et.al.</Author>
+      <Journal>Nat.Struct.Biol.. 2002 9: 359-364</Journal>
+      <PubMed_ID>11953755</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human estrogen receptor alpha ligand-binding domain in complex with 17methyl-17alpha-dihydroequilenin and a glucoc interacting protein 1 NR box II peptide</PDB_Title>
+      <PDB_ID>2B1Z</PDB_ID>
+      <Resolution>1.78</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2B1Z</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>17-METHYL-17-ALPHA-DIHYDROEQUILENIN</Ligand_Name>
+      <PubMed_Title>Molecular characterization of a B-ring unsaturated estrogen: implications for conjugated equine estrogen components of premarin.</PubMed_Title>
+      <Author>Hsieh RW, et al.</Author>
+      <Journal>Steroids.2008 Jan;73(1):59-68. Epub  2007 Sep 11.</Journal>
+      <PubMed_ID>17949766</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Estrogen Receptor Alpha Ligand Binding Domain Complexed with WAY-169916</PDB_Title>
+      <PDB_ID>2QZO</PDB_ID>
+      <Resolution>1.72</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QZO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-[1-allyl-7-(trifluoromethyl)-1H-indazol- 3-yl]benzene-1,3-diol</Ligand_Name>
+      <PubMed_Title>Estrogen Receptor Conformation Determines An Ensemble of Ligand Binding Modes</PubMed_Title>
+      <Author>Bruning, J.B, et.al</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN ESTROGEN RECEPTOR LIGAND-BINDING DOMAIN IN COMPLEX WITH RALOXIFENE</PDB_Title>
+      <PDB_ID>1ERR</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ERR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>RALOXIFENE</Ligand_Name>
+      <PubMed_Title>Molecular basis of agonism and antagonism in the oestrogen receptor.</PubMed_Title>
+      <Author>Brzozowski, A.M.,et.al.</Author>
+      <Journal>Nature. 1997 389: 753-758</Journal>
+      <PubMed_ID>9338790</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN ESTROGEN RECEPTOR ALPHA LIGAND-BINDING DOMAIN IN COMPLEX WITH DIETHYLSTILBESTROL AND A GLUCOCORTICOID RECEPTOR INTERACTING PROTEIN 1 NR BOX II PEPTIDE</PDB_Title>
+      <PDB_ID>3ERD</PDB_ID>
+      <Resolution>2.03</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ERD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ACETIC ACID $ CHLORIDE ION $ DIETHYLSTILBESTROL</Ligand_Name>
+      <PubMed_Title>The structural basis of estrogen receptor/coactivator recognition and the antagonism of this interaction by tamoxifen.</PubMed_Title>
+      <Author>Shiau AK, et al.</Author>
+      <Journal>Cell.1998 Dec 23;95(7):927-37.</Journal>
+      <PubMed_ID>9875847</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Estrogen Receptor Alpha Ligand-Binding Domain In Complex With OBCP-1M-G and A Glucocorticoid Receptor Interacting Protein 1 NR Box II Peptide</PDB_Title>
+      <PDB_ID>2G44</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2G44</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-[(1S,2R,5S)-4,4,8-TRIMETHYL-3-OXABICYCLO[3.3.1]NON- 7-EN-2-YL]PHENOL</Ligand_Name>
+      <PubMed_Title>Discovery and characterization of novel estrogen   receptor agonist ligands and development of biochips for   nuclear receptor drug discovery</PubMed_Title>
+      <Author>Hsieh, R.W. et. Al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the ER alpha ligand binding domain with the agonist ortho-trifluoromethylphenylvinyl estradiol</PDB_Title>
+      <PDB_ID>2P15</PDB_ID>
+      <Resolution>1.94</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2P15</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(17BETA)-17-{(E)-2-[2-(TRIFLUOROMETHYL)PHENYL]VINYL}ESTRA- 1(10),2,4-TRIENE-3,17
+-DIOL</Ligand_Name>
+      <PubMed_Title>Structural plasticity in the oestrogen receptor ligand-binding domain.</PubMed_Title>
+      <Author>Nettles KW, et al.</Author>
+      <Journal>EMBO Rep.2007 Jun;8(6):563-8. Epub  2007 Apr 27.</Journal>
+      <PubMed_ID>17468738</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Estrogen receptor alpha ligand-binding domain complxed to a benzopyran ligand</PDB_Title>
+      <PDB_ID>2Q70</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Q70</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3AS,4R,9BR)-2,2-DIFLUORO-4-(4-HYDROXYPHENYL)- 1,2,3,3A,4,9B-HEXAHYDROCYCLOPENTA
+[C]CHROMEN- 8-OL</Ligand_Name>
+      <PubMed_Title>Benzopyrans as selective estrogen receptor beta agonists (SERBAs). Part 3: synthesis of cyclopentanone and cyclohexanone intermediates for C-ring modification.</PubMed_Title>
+      <Author>Richardson TI, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2007 Sep 1;17(17):4824-8. Epub  2007 Jun 20.</Journal>
+      <PubMed_ID>17614275</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Estrogen Receptor Alpha Ligand-Binding Domain In Complex With OBCP-3M and A Glucocorticoid Receptor Interacting Protein 1 Nr Box II Peptide</PDB_Title>
+      <PDB_ID>1ZKY</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZKY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-[(1S,2S,5S)-5-(HYDROXYMETHYL)-6,8,9-TRIMETHYL- 3-OXABICYCLO[3.3.1]NON-7-EN-2
+-YL]PHENOL</Ligand_Name>
+      <PubMed_Title>Identification of ligands with bicyclic scaffolds provides insights into mechanisms of estrogen receptor subtype selectivity.</PubMed_Title>
+      <Author>Hsieh RW, et al.</Author>
+      <Journal>J Biol Chem.2006 Jun 30;281(26):17909-19. Epub  2006 Apr 28.</Journal>
+      <PubMed_ID>16648639</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN ESTROGEN RECEPTOR ALPHA LIGAND-BINDING DOMAIN IN COMPLEX WITH COMPOUND 16</PDB_Title>
+      <PDB_ID>1XP6</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XP6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(2S,3R)-2-(4-{2-[(3S,4S)-3,4-DIMETHYLPYRROLIDIN- 1-YL]ETHOXY}PHENYL)-3-(4
+-HYDROXYPHENYL)-2,3- DIHYDRO-1,4-BENZOXATHIIN-6-OL</Ligand_Name>
+      <PubMed_Title>Estrogen receptor ligands. Part 9: Dihydrobenzoxathiin SERAMs with alkyl substituted pyrrolidine side chains and linkers.</PubMed_Title>
+      <Author>Blizzard TA, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Jan 3;15(1):107-13.</Journal>
+      <PubMed_ID>15582421</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Estrogen Receptor</PDB_Title>
+      <PDB_ID>3OS9</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OS9</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01048002</ASD_Ligand>
+      <PubMed_Title>Coupling of receptor conformation and ligand orientation determine graded activity.</PubMed_Title>
+      <Author>Bruning, J.B., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2010)6:837-843</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20924370?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human estrogen receptor alpha ligand-binding domain in complex with 2-(but-1-enyl)-17beta-estradiol and a glucocorticoid receptor interacting protein 1 NR BOX II Peptide</PDB_Title>
+      <PDB_ID>2G5O</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2G5O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(9ALPHA,13BETA,17BETA)-2-[(1Z)-BUT-1-EN-1- YL]ESTRA-1,3,5(10)-TRIENE-3,17-DIOL</Ligand_Name>
+      <PubMed_Title>Human estrogen receptor alpha ligand-binding domain in complex with 2-(but-1-enyl)-17beta-estradiol and a glucocorticoid receptor interacting protein 1 NR BOX II Peptide</PubMed_Title>
+      <Author>Hsieh, R.W. et. Al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Estrogen Receptor Alpha Ligand Binding Domain Complexed with a Chloro-Indazole Compound</PDB_Title>
+      <PDB_ID>2QGW</PDB_ID>
+      <Resolution>2.39</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QGW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-CHLORO-2-(4-HYDROXYPHENYL)-2H-INDAZOL-5- OL</Ligand_Name>
+      <PubMed_Title>NFkappaB selectivity of estrogen receptor ligands revealed by comparative crystallographic analyses</PubMed_Title>
+      <Author>Nettles KW, et al.</Author>
+      <Journal>Nat Chem Biol.2008 Apr;4(4):241-7. Epub  2008 Mar 16.</Journal>
+      <PubMed_ID>18344977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Helix-stabilized cyclic peptides as selective inhibitors of steroid receptor-coactivator interactions</PDB_Title>
+      <PDB_ID>1PCG</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PCG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ESTRADIOL</Ligand_Name>
+      <PubMed_Title>Helix-stabilized cyclic peptides as selective inhibitors of steroid receptor-coactivator interactions</PubMed_Title>
+      <Author>Leduc AM, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2003 Sep 30;100(20):11273-8. Epub  2003 Sep 17.</Journal>
+      <PubMed_ID>13679575</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SET7/9-ER-AdoHcy complex</PDB_Title>
+      <PDB_ID>3CBO</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CBO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>BETA-MERCAPTOETHANOL $ GLYCEROL $ S-ADENOSYL-L-HOMOCYSTEINE</Ligand_Name>
+      <PubMed_Title>Regulation of estrogen receptor alpha by the SET7 lysine methyltransferase.</PubMed_Title>
+      <Author>Subramanian K, et al.</Author>
+      <Journal>Mol Cell.2008 May 9;30(3):336-47.</Journal>
+      <PubMed_ID>18471979</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN ESTROGEN RECEPTOR ALPHA LIGAND-BINDING DOMAIN IN COMPLEX WITH COMPOUND 15</PDB_Title>
+      <PDB_ID>1XP1</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XP1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(2S,3R)-2-(4-{2-[(3R,4R)-3,4-DIMETHYLPYRROLIDIN- 1-YL]ETHOXY}PHENYL)-3-(4
+-HYDROXYPHENYL)-2,3- DIHYDRO-1,4-BENZOXATHIIN-6-OL</Ligand_Name>
+      <PubMed_Title>Estrogen receptor ligands. Part 9: Dihydrobenzoxathiin SERAMs with alkyl substituted pyrrolidine side chains and linkers.</PubMed_Title>
+      <Author>Blizzard TA, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Jan 3;15(1):107-13.</Journal>
+      <PubMed_ID>15582421</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ESTROGEN RECEPTOR ALPHA LIGAND-BINDING DOMAIN COMPLEXED TO ESTRADIOL</PDB_Title>
+      <PDB_ID>1A52</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1A52</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>GOLD ION $ ESTRADIOL</Ligand_Name>
+      <PubMed_Title>Crystallographic comparison of the estrogen and progesterone receptor's ligand binding domains.</PubMed_Title>
+      <Author>Tanenbaum, D.M.,et.al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA. 1998 95: 5998-6003</Journal>
+      <PubMed_ID>9600906</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Estrogen Receptor Alpha mutant 537S Complexed with 4-(6-hydroxy-1H-indazol-3-yl)benzene-1,3-diol</PDB_Title>
+      <PDB_ID>2QA6</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QA6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(6-HYDROXY-1H-INDAZOL-3-YL)BENZENE-1,3- DIOL</Ligand_Name>
+      <PubMed_Title>NFkappaB selectivity of estrogen receptor ligands revealed by comparative crystallographic analyses</PubMed_Title>
+      <Author>Nettles KW, et al.</Author>
+      <Journal>Nat Chem Biol.2008 Apr;4(4):241-7. Epub  2008 Mar 16.</Journal>
+      <PubMed_ID>18344977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF ESTROGEN RECEPTOR IN COMPLEX WITH A SELECTIVE AND POTENT TETRAHYDROISOCHIOLIN LIGAND.</PDB_Title>
+      <PDB_ID>1UOM</PDB_ID>
+      <Resolution>2.28</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UOM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-PHENYL-1-[4-(2-PIPERIDIN-1-YL-ETHOXY)-PHENYL]- 1,2,3,4-TETRAHYDRO-ISOQUINOLIN
+-6-OL</Ligand_Name>
+      <PubMed_Title>Estrogen Receptor Modulators: Identification and Structure-Activity Relationships of Potent Eralpha-Selective Tetrahydroisoquinoline Ligands</PubMed_Title>
+      <Author>Renaud J, et al.</Author>
+      <Journal>J Med Chem.2003 Jul 3;46(14):2945-57.</Journal>
+      <PubMed_ID>12825935</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ESTROGEN RECEPTOR ALPHA LBD IN COMPLEX WITH A PHAGE-DISPLAY DERIVED PEPTIDE ANTAGONIST</PDB_Title>
+      <PDB_ID>2BJ4</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BJ4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-HYDROXYTAMOXIFEN</Ligand_Name>
+      <PubMed_Title>Delineation of a Unique Protein-Protein Interaction Site on the Surface of the Estrogen Receptor</PubMed_Title>
+      <Author>Kong EH, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2005 Mar 8;102(10):3593-8. Epub  2005 Feb 23.</Journal>
+      <PubMed_ID>15728727</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human estrogen receptor alpha ligand-binding domain in complex with compound 1D</PDB_Title>
+      <PDB_ID>2IOK</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IOK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[(1R)-3-(4-HYDROXYPHENYL)-1-METHYLPROPYL]- 2-(2-PHENYL-1H-INDOL-3-YL)ACETAMIDE</Ligand_Name>
+      <PubMed_Title>Estrogen receptor ligands. Part 16: 2-Aryl indoles as highly subtype selective ligands for ERalpha</PubMed_Title>
+      <Author>Dykstra KD, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2007 Apr 15;17(8):2322-8. Epub  2007 Jan 25.</Journal>
+      <PubMed_ID>17289385</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ESTROGEN RECEPTOR ALPHA COMPLEXED WITH WAY-244</PDB_Title>
+      <PDB_ID>1X7E</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1X7E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[5-HYDROXY-2-(4-HYDROXYPHENYL)-1-BENZOFURAN- 7-YL]ACETONITRILE</Ligand_Name>
+      <PubMed_Title>Structure-Based Design of Estrogen Receptor-Beta Selective Ligands</PubMed_Title>
+      <Author>Manas ES, et al.</Author>
+      <Journal>J Am Chem Soc.2004 Nov 24;126(46):15106-19.</Journal>
+      <PubMed_ID>15548008</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN ESTROGEN RECEPTOR ALPHA LIGAND-BINDING DOMAIN IN COMPLEX WITH COMPOUND 19</PDB_Title>
+      <PDB_ID>1XPC</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XPC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(2S,3R)-3-(4-HYDROXYPHENYL)-2-(4-{[(2R)-2- PYRROLIDIN-1-YLPROPYL]OXY}PHENYL)-2,3
+-DIHYDRO- 1,4-BENZOXATHIIN-6-OL</Ligand_Name>
+      <PubMed_Title>Estrogen receptor ligands. Part 9: Dihydrobenzoxathiin SERAMs with alkyl substituted pyrrolidine side chains and linkers.</PubMed_Title>
+      <Author>Blizzard TA, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Jan 3;15(1):107-13.</Journal>
+      <PubMed_ID>15582421</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Estrogen receptor alpha LBD with GW368</PDB_Title>
+      <PDB_ID>3DT3</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DT3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(4-hydroxyphenoxy)-6-(3-hydroxyphenyl)- 7-methylnaphthalen-2-ol</Ligand_Name>
+      <PubMed_Title>Synthesis of 3-alkyl naphthalenes as novel estrogen receptor ligands.</PubMed_Title>
+      <Author>Fang J, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2008 Sep 15;18(18):5075-7. Epub  2008 Aug 5.</Journal>
+      <PubMed_ID>18722117</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>WILD TYPE ESTROGEN NUCLEAR RECEPTOR LIGAND BINDING DOMAIN COMPLEXED WITH ESTRADIOL</PDB_Title>
+      <PDB_ID>1QKU</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QKU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ESTRADIOL</Ligand_Name>
+      <PubMed_Title>Crystal Structure of a Mutant Heralpha Ligand-Binding Domain Reveals Key Structural Features for the Mechanism of Partial Agonism.</PubMed_Title>
+      <Author>Gangloff M, et al.</Author>
+      <Journal>J Biol Chem.2001 May 4;276(18):15059-65. Epub  2001 Feb 6.</Journal>
+      <PubMed_ID>11278577</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ESTROGEN RECEPTOR ALPHA LBD IN COMPLEX WITH AN AFFINITY-SELECTED COREPRESSOR PEPTIDE</PDB_Title>
+      <PDB_ID>2JFA</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JFA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>RALOXIFENE $ SULFATE ION</Ligand_Name>
+      <PubMed_Title>Structural Insights Into Corepressor Recognition by Antagonist-Bound Estrogen Receptors.</PubMed_Title>
+      <Author>Heldring N, et al.</Author>
+      <Journal>J Biol Chem.2007 Apr 6;282(14):10449-55. Epub  2007 Feb 5.</Journal>
+      <PubMed_ID>17283072</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CRYSTAL STRUCTURE OF THE ESTROGEN RECEPTOR DNA-BINDING DOMAIN BOUND TO DNA: HOW RECEPTORS DISCRIMINATE BETWEEN THEIR RESPONSE ELEMENTS</PDB_Title>
+      <PDB_ID>1HCQ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HCQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ZINC ION</Ligand_Name>
+      <PubMed_Title>The crystal structure of the estrogen receptor DNA-binding domain bound to DNA: how receptors discriminate between their response elements.</PubMed_Title>
+      <Author>Schwabe, J.W.,et.al.</Author>
+      <Journal>Cell(Cambridge,Mass.). 1993 75: 567-578</Journal>
+      <PubMed_ID>8221895</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Estrogen receptor alpha ligand-binding domain in complex with a benzopyran agonist</PDB_Title>
+      <PDB_ID>2QE4</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QE4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3AS,4R,9BR)-4-(4-HYDROXYPHENYL)-6-(METHOXYMETHYL)- 1,2,3,3A,4,9B
+-HEXAHYDROCYCLOPENTA[C]CHROMEN- 8-OL</Ligand_Name>
+      <PubMed_Title>Benzopyrans as selective estrogen receptor beta agonists (SERBAs). Part 4: Functionalization of the benzopyran A-ring.</PubMed_Title>
+      <Author>Norman BH, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2007 Sep 15;17(18):5082-5. Epub  2007 Jul 13.</Journal>
+      <PubMed_ID>17662603</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Benzopyrans as Selective Estrogen Receptor b Agonists (SERBAs). Part 2: Structure Activity Relationship Studies on the Benzopyran Scaffold.</PDB_Title>
+      <PDB_ID>2POG</PDB_ID>
+      <Resolution>1.84</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2POG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3AS,4R,9BR)-4-(4-HYDROXYPHENYL)-1,2,3,3A,4,9B- HEXAHYDROCYCLOPENTA[C]CHROMEN-9
+-OL</Ligand_Name>
+      <PubMed_Title>Benzopyrans as selective estrogen receptor beta agonists (SERBAs). Part 2: structure-activity relationship studies on the benzopyran scaffold.</PubMed_Title>
+      <Author>Richardson TI, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2007 Jul 1;17(13):3570-4. Epub  2007 Apr 25.</Journal>
+      <PubMed_ID>17485205</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Estrogen Receptor Alpha Ligand Binding Domain Complexed to Burned Meat Compound PhIP</PDB_Title>
+      <PDB_ID>2QXM</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QXM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-AMINO-1-METHYL-6-PHENYLIMIDAZO[4,5-B]PYRIDINE</Ligand_Name>
+      <PubMed_Title>NFkappaB selectivity of estrogen receptor ligands revealed by comparative crystallographic analyses</PubMed_Title>
+      <Author>Nettles KW, et al.</Author>
+      <Journal>Nat Chem Biol.2008 Apr;4(4):241-7. Epub  2008 Mar 16.</Journal>
+      <PubMed_ID>18344977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Antagonizing Mutant 536S of the Estrogen Receptor Alpha Ligand Binding Domain Complexed to Raloxifene</PDB_Title>
+      <PDB_ID>2QXS</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QXS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>RALOXIFENE</Ligand_Name>
+      <PubMed_Title>Estrogen Receptor Conformation Determines An Ensemble of Ligand Binding Modes</PubMed_Title>
+      <Author>Bruning, J.B, et.al</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human estrogen receptor alpha ligand-binding domain in complex with compound 11F</PDB_Title>
+      <PDB_ID>2IOG</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IOG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[(1R)-3-(4-HYDROXYPHENYL)-1-METHYLPROPYL]- 2-[2-PHENYL-6-(2-PIPERIDIN-1
+-YLETHOXY)-1H- INDOL-3-YL]ACETAMIDE</Ligand_Name>
+      <PubMed_Title>Estrogen receptor ligands. Part 16: 2-Aryl indoles as highly subtype selective ligands for ERalpha</PubMed_Title>
+      <Author>Dykstra KD, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2007 Apr 15;17(8):2322-8. Epub  2007 Jan 25.</Journal>
+      <PubMed_ID>17289385</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human estrogen receptor alpha ligand-binding domain in complex with compound 3F</PDB_Title>
+      <PDB_ID>1YIN</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YIN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(2R,3R,4S)-5-FLUORO-3-(4-HYDROXYPHENYL)-4- METHYL-2-[4-(2-PIPERIDIN-1
+-YLETHOXY)PHENYL]CHROMAN- 6-OL</Ligand_Name>
+      <PubMed_Title>Estrogen receptor ligands. Part 10: Chromanes: old scaffolds for new SERAMs.</PubMed_Title>
+      <Author>Tan Q, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Mar 15;15(6):1675-81.</Journal>
+      <PubMed_ID>15745820</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ESTROGEN RECEPTOR ALPHA LBD IN COMPLEX WITH A TAMOXIFEN-SPECIFIC PEPTIDE ANTAGONIST</PDB_Title>
+      <PDB_ID>2JF9</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JF9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>BICARBONATE ION $ CALCIUM ION $ 1,2-ETHANEDIOL $ 4-HYDROXYTAMOXIFEN</Ligand_Name>
+      <PubMed_Title>Structural Insights Into Corepressor Recognition by Antagonist-Bound Estrogen Receptors.</PubMed_Title>
+      <Author>Heldring N, et al.</Author>
+      <Journal>J Biol Chem.2007 Apr 6;282(14):10449-55. Epub  2007 Feb 5.</Journal>
+      <PubMed_ID>17283072</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Estrogen receptor alpha ligand-binding domain complexed to a SERM</PDB_Title>
+      <PDB_ID>2R6W</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2R6W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[6-hydroxy-2-(4-hydroxyphenyl)-1-benzothien- 3-yl]{4-[2-(4-methylpiperidin-1
+-yl)ethoxy]phenyl}methanone</Ligand_Name>
+      <PubMed_Title>Prediction of the tissue-specificity of selective estrogen receptor modulators by using a single biochemical method.</PubMed_Title>
+      <Author>Dai SY, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2008 May 20;105(20):7171-6. Epub  2008 May 12.</Journal>
+      <PubMed_ID>18474858</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Estrogen Receptor</PDB_Title>
+      <PDB_ID>3OS8</PDB_ID>
+      <Resolution>2.03</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OS8</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01048001</ASD_Ligand>
+      <PubMed_Title>Coupling of receptor conformation and ligand orientation determine graded activity.</PubMed_Title>
+      <Author>Bruning, J.B., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2010)6:837-843</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20924370?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN OESTROGEN RECEPTOR ALPHA LIGAND-BINDING DOMAIN IN COMPLEX WITH RALOXIFENE CORE AND TIF2 NRBOX2 PEPTIDE</PDB_Title>
+      <PDB_ID>1GWQ</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GWQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>RALOXIFENE CORE</Ligand_Name>
+      <PubMed_Title>Interaction of Transcriptional Intermediary Factor 2 Nuclear Receptor Box Peptides with the Coactivator Binding Site of Estrogen Receptor Alpha.</PubMed_Title>
+      <Author>Warnmark, A.,et.al.</Author>
+      <Journal>J.Biol.Chem.. 2002 277: 21862</Journal>
+      <PubMed_ID>11937504</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Estrogen Receptor Alpha Ligand Binding Domain Mutant 537S Complexed with an Ethyl Indazole Compound</PDB_Title>
+      <PDB_ID>2QAB</PDB_ID>
+      <Resolution>1.89</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QAB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-ETHYL-2-(4-HYDROXYPHENYL)-2H-INDAZOL-5- OL</Ligand_Name>
+      <PubMed_Title>NFkappaB selectivity of estrogen receptor ligands revealed by comparative crystallographic analyses</PubMed_Title>
+      <Author>Nettles KW, et al.</Author>
+      <Journal>Nat Chem Biol.2008 Apr;4(4):241-7. Epub  2008 Mar 16.</Journal>
+      <PubMed_ID>18344977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Estrogen Receptor alpha Ligand-Binding Domain In Complex With GW5638</PDB_Title>
+      <PDB_ID>1R5K</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1R5K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(2E)-3-{4-[(1E)-1,2-DIPHENYLBUT-1-ENYL]PHENYL}ACRYLIC ACID</Ligand_Name>
+      <PubMed_Title>Structural basis for an unexpected mode of SERM-mediated ER antagonism.</PubMed_Title>
+      <Author>Wu YL, et al.</Author>
+      <Journal>Mol Cell.2005 May 13;18(4):413-24.</Journal>
+      <PubMed_ID>15893725</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF A WILD TYPE HER ALPHA LBD AT 2.9 ANGSTROM RESOLUTION</PDB_Title>
+      <PDB_ID>1G50</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G50</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ESTRADIOL</Ligand_Name>
+      <PubMed_Title>Overexpression, Purification, and Crystal Structure of Native ER alpha LBD</PubMed_Title>
+      <Author>Eiler, S.,et.al.</Author>
+      <Journal>Protein Expr.Purif.. 2001 22: 165-173</Journal>
+      <PubMed_ID>11437591</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04917</Pathway_ID>
+      <Pathway_Title>Prolactin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04915</Pathway_ID>
+      <Pathway_Title>Estrogen signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04961</Pathway_ID>
+      <Pathway_Title>Endocrine and other factor-regulated calcium reabsorption</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Excretory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04917</Pathway_ID>
+      <Pathway_Title>Prolactin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04915</Pathway_ID>
+      <Pathway_Title>Estrogen signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04915</Pathway_ID>
+      <Pathway_Title>Estrogen signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04919</Pathway_ID>
+      <Pathway_Title>Thyroid hormone signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05205</Pathway_ID>
+      <Pathway_Title>Proteoglycans in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04915</Pathway_ID>
+      <Pathway_Title>Estrogen signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>All alpha proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.b.cdh.b.b.ba.html</SCOP_URL>
+    <CATH_Class>Mainly alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1a52</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Nettles KW, et al. Mol.Cell. 2004,13(3):317-327.</Site_Reference>
+      <Site_Type>Oligomerization</Site_Type>
+      <PubMed_ID>14967140</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00680001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00680002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01040002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01040004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01040005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01040006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01040007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01042001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01042002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01042003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01042004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01042005</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01042006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01048001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01048002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01048003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

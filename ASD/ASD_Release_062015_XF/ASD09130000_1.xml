@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD09130000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P42575</UniProt_ID>
+  <Seq_Length>452</Seq_Length>
+  <Molecule_Weight>50685</Molecule_Weight>
+  <KEGG_ID>hsa:835</KEGG_ID>
+  <Orthology_ID>K02186</Orthology_ID>
+  <EBI_ID>EBI-520342</EBI_ID>
+  <Function_Summary>Involved in the activation cascade of caspases responsible for apoptosis execution. Might function by either activating some proteins required for cell death or inactivating proteins necessary for cell survival.</Function_Summary>
+  <Catalytic_Mechanism>Strict requirement for an Asp residue at P1, with 316-asp being essential for proteolytic activity and has a preferred cleavage sequence of Val-Asp-Val-Ala-Asp-|-.</Catalytic_Mechanism>
+  <Pfam_ID>PF00619:CARD@@PF00656:Peptidase_C14</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>4</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Caspase-2 subunit p18</Alias>
+      <Alias>Neural precursor cell expressed developmentally down-regulated protein 2</Alias>
+      <Alias>Caspase-2 subunit p12</Alias>
+      <Alias>CASP-2</Alias>
+      <Alias>Caspase-2 subunit p13</Alias>
+      <Alias>Protease ICH-1</Alias>
+      <Alias>NEDD-2</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a mechanism in which the sulfhydryl group of a cysteine residue at the active center acts as a nucleophile.</Detail>
+      <Keyword>Cysteine-type peptidase activity</Keyword>
+      <Ontology_ID>GO:0008234</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a mechanism in which the sulfhydryl group of a cysteine residue at the active center acts as a nucleophile.</Detail>
+      <Keyword>Cysteine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004197</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a specific domain of a protein.</Detail>
+      <Keyword>Protein domain specific binding</Keyword>
+      <Ontology_ID>GO:0019904</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any enzyme.</Detail>
+      <Keyword>Enzyme binding</Keyword>
+      <Ontology_ID>GO:0019899</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>105</Position>
+      <Original>Ala</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>441</Position>
+      <Original>Arg</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>178</Position>
+      <Original>Pro</Original>
+      <Variation>Ala</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>172</Position>
+      <Original>Val</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds.</Detail>
+      <Keyword>Proteolysis</Keyword>
+      <Ontology_ID>GO:0006508</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cascade of processes induced by the cell cycle regulator phosphoprotein p53, or an equivalent protein, in response to the detection of DNA damage and resulting in the stopping or reduction in rate of the cell cycle.</Detail>
+      <Keyword>DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest</Keyword>
+      <Ontology_ID>GO:0006977</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a mechanical stimulus.</Detail>
+      <Keyword>Cellular response to mechanical stimulus</Keyword>
+      <Ontology_ID>GO:0071260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process induced by extracellular signals that directly activates any of the steps required for cell death by apoptosis.</Detail>
+      <Keyword>Induction of apoptosis by extracellular signals</Keyword>
+      <Ontology_ID>GO:0008624</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any protein maturation process achieved by the cleavage of peptide bonds.</Detail>
+      <Keyword>Protein processing</Keyword>
+      <Ontology_ID>GO:0016485</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the nerve growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Nerve growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048011</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>N-acetylalanine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAAPSAGSWSTFQHKELMAADRGRRILGVCGMHPHHQETLKKNRVVLAKQLLLSELLEHLLEKDIITLEMRELIQAKVGSFSQNVELLNLLPKRGPQAFDAFCEALRETKQGHLEDMLLTTLSGLQHVLPPLSCDYDLSLPFPVCESCPLYKKLRLSTDTVEHSLDNKDGPVCLQVKPCTPEFYQTHFQLAYRLQSRPRGLALVLSNVHFTGEKELEFRSGGDVDHSTLVTLFKLLGYDVHVLCDQTAQEMQEKLQNFAQLPAHRVTDSCIVALLSHGVEGAIYGVDGKLLQLQEVFQLFDNANCPSLQNKPKMFFIQACRGDETDRGVDQQDGKNHAGSPGCEESDAGKEKLPKMRLPTRSDMICGYACLKGTAAMRNTKRGSWYIEALAQVFSERACDMHVADMLVKVNALIKDREGYAPGTEFHRCKEMSEYCSTLCRHLYLFPGHPPT</Protein_Seq>
+    <DNA_Seq>AGAGGAAGAGAACGATTTAAGGAGCGAATACTACTGGTAAACTAATGGAAGAAATCTGCTGCACCACTGGATATTGGGAGTGTGTGGCATGCATCCTCATCATCAGGAAACTCTAAAAAAGAACCGAGTGGTGCTAGCCAAACAGCTGTTGTTGAGCGAATTGTTAGAACATCTTCTGGAGAAGGACATCATCACCTTGGAAATGAGGGAGCTCATCCAGGCCAAAGTGGGCAGTTTCAGCCAGAATGTGGAACTCCTCAACTTGCTGCCTAAGAGGGGTCCCCAAGCTTTTGATGCCTTCTGTGAAGCACTGAGGGAGACCAAGCAAGGCCACCTGGAGGATATGTTGCTCACCACCCTTTCTGGGCTTCAGCATGTACTCCCACCGTTGAGCTGTGACTACGACTTGAGTCTCCCTTTTCCGGTGTGTGAGTCCTGTCCCCTTTACAAGAAGCTCCGCCTGTCGACAGATACTGTGGAACACTCCCTAGACAATAAAGATGGTCCTGTCTGCCTTCAGGTGAAGCCTTGCACTCCTGAATTTTATCAAACACACTTCCAGCTGGCATATAGGTTGCAGTCTCGGCCTCGTGGCCTAGCACTGGTGTTGAGCAATGTGCACTTCACTGGAGAGAAAGAACTGGAATTTCGCTCTGGAGGGGATGTGGACCACAGTACTCTAGTCACCCTCTTCAAGCTTTTGGGCTATGACGTCCATGTTCTATGTGACCAGACTGCACAGGAAATGCAAGAGAAACTGCAGAATTTTGCACAGTTACCTGCACACCGAGTCACGGACTCCTGCATCGTGGCACTCCTCTCGCATGGTGTGGAGGGCGCCATCTATGGTGTGGATGGGAAACTGCTCCAGCTCCAAGAGGTTTTTCAGCTCTTTGACAACGCCAACTGCCCAAGCCTACAGAACAAACCAAAAATGTTCTTCATCCAGGCCTGCCGTGGAGGTGCTATTGGATCCCTTGGGCACCTCCTTCTGTTCACTGCTGCCACCGCCTCTCTTGCTCTATGAGACTGATCGTGGGGTTGACCAACAAGATGGAAAGAACCACGCAGGATCCCCTGGGTGCGAGGAGAGTGATGCCGGTAAAGAAAAGTTGCCGAAGATGAGACTGCCCACGCGCTCAGACATGATATGCGGCTATGCCTGCCTCAAAGGGACTGCCGCCATGCGGAACACCAAACGAGGTTCCTGGTACATCGAGGCTCTTGCTCAAGTGTTTTCTGAGCGGGCTTGTGATATGCACGTGGCCGACATGCTGGTTAAGGTGAACGCACTTATCAAGGATCGGGAAGGTTATGCTCCTGGCACAGAATTCCACCGGTGCAAGGAGATGTCTGAATACTGCAGCACTCTGTGCCGCCACCTCTACCTGTTCCCAGGACACCCTCCCACATGATGTCACCTCCCCATCATCCACGCCAAGTGGAAGCCACTGGACCACAGGAGGTGTGATAGAGCCTTTGATCTTCAGGATGCACGGTTTCTGTTCTGCCCCCTCAGGGATGTGGGAATCTCCCAGACTTGTTTCCTGTGCCCATCATCTCTGCCTTTGAGTGTGGGACTCCAGGCCAGCTCCTTTTCTGTGAAGCCCTTTGCCTGTAGAGCCAGCCTTGGTTGGACCTATTGCCAGGAATGTTTCAGCTGCAGTTGAAGAGCCTGACAAGTGAAGTTGTAAACACAGTGTGGTTATGGGGAGAGGGCATATAAATTCCCCATATTTGTGTTCAGTTCCAGCTTTTGTAGATGGCACTTTAGTGATTGCTTTTATTACATTAGTTAAGATGTCTGAGAGACCATCTCCTATCTTTTATTTCATTCATATCCTCCGCCCTTTTTGTCCTAGAGTGAGAGTTTGGAAGGTGTCCAAATTTAATGTAGACATTATCTTTTGGCTCTGAAGAAGCAAACATGACTAGAGACGCACCTTGCTGCAGTGTCCAGAAGCGGCCTGTGCGTTCCCTTCAGTACTGCAGCGCCACCCAGTGGAAGGACACTCTTGGCTCGTTTGGGCTCAAGGCACCGCAGCCTGTCAGCCAACATTGCCTTGCATTTGTACCTTATTGATCTTTGCCCATGGAAGTCTCAAAGATCTTTCGTTGGTTGTTTCTCTGAGCTTTGTTACTGAAATGAGCCTCGTGGGGAGCATCAGAGAAGGCCAGGAAGAATGGTGTGTTTCCCTAGACTCTGTAACCACCTCTCTGTCTTTTTCCTTCCTGAGAAACGTCCATCTCTCTCCCTTACTATTCCCACTTTCATTCAATCAACCTGCACTTCATATCTAGATTTCTAGAAAAGCTTCCTAGCTTATCTCCCTGCTTCATATCTCTCCCTTCTTTACCTTCATTTCATCCTGTTGGCTGCTGCCACCAAATCTGTCTAGAATCCTGCTTTACAGGATCATGTAAATGCTCAAAGATGTAATGTAGTTCTTTGTTCCTGCTTTCTCTTTCAGTATTAAACTCTCCTTTGATATTATGTGGCTTTTATTTCAGTGCCATACATGTTATTGTTTTCAACCTAGAAACCTTTATCCCTGCTTATCTGAAACTTCCCAACTTCCCTGTTCTTTAAGACTTTTTTTTTTTTTTTTTTTTTTTTTGAGACAGAGTCTCGCTCTGTCGCCCAGGCTGGAGGGCAGTGGCACGATCTCAGCTCACTGCAAGCTCCAACTCCCGGGTTCACGCCATTCTCCTGCCTCAGCCTTCCAAGTAGCTGGGACTACAGGTGCCCGCCACCGTGCCCGGCTAATTTTTTTGTATTTTTAGTAGAGACAGGGTTTCACCATGTTAGCCGGGATGGTCTTGATCTCCTGACCTCATGATCCACCCACCTCAGCCTCCCAAAGTGTTGGGATTACAGGCGTGAGCCACTGCGCCCGGGCAAGACCTTTTTTTAAAAAAAAAAAAAAAAAAACTTCCATTCTTTCTTCCTCCAGTCTGTTCTCACATAACAGAGTAGTTTTGGTTTTTAATTTTTTTTGGTTGTTTGCTGTTTTTTGTTTTTTAAGGTGAGTTCTCACTATGTTTCTCAGACTGGTCTCGAACTCCTGGCCTCAAGCCATCTTCCCGCCTCAGCCTCTCAAATAGCTGGGCTTACAGGCATGAGCCACCACACCTGGCCAGGATTTGGTTGTTTAAATATAAATCTGATCACCCCCCTGCTTAGAACCCTTCTGCTTTCTATTACCCCTCATTTAAAATGTAAACTCTTCACCTTGGTTTATGAGAACTGGTTCTTGCCTTCCCCTTGAACCTCATTAAATGGTGATTTCTTGCTAAGCTCCAGCCCGAGTGGTCTCCTCTCAGCTTCTAATTTTGTGCTCTTTCCTGCCCTTTTCCTGGGCCTTCTCAGCTCTCCACCCCCACCACTCTTGACTCAGGTGGTGTCCTTCTTCCTCAAGTCTTGACAATTCCCGGGCCCTTCAGTCCCTGAGCAGTCTACTTCTGTGTCTGTCACCACATCTTGTCTTTTCCCCTCATTGCATTTATTGCAGTTTATATATATGCTACTTTTACTTGTTCATTTCTGTCTCCCCTACCAGGCTGTAAATGAGGGCAGAAACCTTGTTTGTTTTATTCACCATCATGTACCAAGTGCTTGGCACATAGTGGGCCTTCATTAAATGTTTGTTGAATAAAAGAGGGAAGAAGGCAAGCCAACCTTAGCTACAATCCTACCTTTTGATAAAATGTTCCTTTTGACAATATACACGGATTATTATTTGTACTTTGTTTTTCCATGTGTTTTGCTTTTATCCACTGGCATTTTTAGCTCCTTGAAGACATATCATGTGTGAGATAACTTCCTTCACATCTCCCATGGTCCCTAGCAAAATGCTAGGCCTGTAGTAGTCAAGGTGCTCAATAAATATTTGTTTGGGTGGTTTGTGAGCCTTGCTGCCAAGTCCTGCCTTTGGGTCGACATAGTATGGAAGTATTTGAGAGAGAGAACCTTTCCACTCCCACTGCCAGGATTTTGTATTGCCATCGGGTGCCAAATAAATGCTCATATTTATTACTGAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Placenta</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Embryonic lung</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Lung</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Heart</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Skeletal muscle</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Embryonic kidney</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Liver</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Embryonic brain</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Embryonic liver</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Kidney</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Brain</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Embryonic heart</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CASP2</Gene_Name>
+    <Gene_Alias>ICH1; NEDD2</Gene_Alias>
+    <Gene_ID>835</Gene_ID>
+    <Genbank_ACCN>NM_001224</Genbank_ACCN>
+    <Protein_ACCN>NP_001215</Protein_ACCN>
+    <HGNC_ID>1503</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/835</Gene_URL>
+    <UCSC_ID>uc003wco.3</UCSC_ID>
+    <EMBL_ID>ENSG00000106144</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P42575-1</Uniprot_ID>
+      <Gene_Name>CASP2</Gene_Name>
+      <EBI_ID>EBI-520357</EBI_ID>
+      <PPI_EBI_URL>EBI-520342,EBI-520357</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P78527</Uniprot_ID>
+      <Gene_Name>PRKDC</Gene_Name>
+      <EBI_ID>EBI-352053</EBI_ID>
+      <PPI_EBI_URL>EBI-520342,EBI-352053</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P78560</Uniprot_ID>
+      <Gene_Name>CRADD</Gene_Name>
+      <EBI_ID>EBI-520375</EBI_ID>
+      <PPI_EBI_URL>EBI-520342,EBI-520375</PPI_EBI_URL>
+      <Experiment_Number>9</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Saethre-Chotzen Syndrome</Disease_Name>
+      <Disease_Detail>Saethre-Chotzen Syndrome</Disease_Detail>
+      <Disease_DB>STH001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/saethre_chotzen_syndrome?search=CASP2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Temporal Lobe Epilepsy</Disease_Name>
+      <Disease_Detail>Temporal Lobe Epilepsy</Disease_Detail>
+      <Disease_DB>TMP001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/temporal_lobe_epilepsy?search=CASP2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myocardial Infarction</Disease_Name>
+      <Disease_Detail>Myocardial Infarction</Disease_Detail>
+      <Disease_DB>MYC007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myocardial_infarction?search=CASP2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Retinal Ischemia</Disease_Name>
+      <Disease_Detail>Retinal Ischemia</Disease_Detail>
+      <Disease_DB>RTN003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/retinal_ischemia?search=CASP2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Primary Effusion Lymphoma</Disease_Name>
+      <Disease_Detail>Primary Effusion Lymphoma</Disease_Detail>
+      <Disease_DB>PRM042</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/primary_effusion_lymphoma?search=CASP2#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Inhibition of caspase-2 by a designed ankyrin repeat protein (DARPin)</PDB_Title>
+      <PDB_ID>2P2C</PDB_ID>
+      <Resolution>3.24</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2P2C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Inhibition of Caspase-2 by a Designed Ankyrin Repeat Protein: Specificity, Structure, and Inhibition Mechanism.</PubMed_Title>
+      <Author>Schweizer, A., et al.</Author>
+      <Journal>Structure(2007)15:625-636</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17502107?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Apo Caspase2</PDB_Title>
+      <PDB_ID>3R7S</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3R7S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and enzymatic insights into caspase-2 protein substrate recognition and catalysis.</PubMed_Title>
+      <Author>Tang, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:34147-34154</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21828056?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CASPASE2 IN COMPLEX WITH CHDI LIGAND 33c</PDB_Title>
+      <PDB_ID>3RJM</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RJM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Exploiting differences in caspase-2 and -3 S(2) subsites for selectivity: Structure-based design, solid-phase synthesis and in vitro activity of novel substrate-based caspase-2 inhibitors.</PubMed_Title>
+      <Author>Maillard, M.C., et al.</Author>
+      <Journal>Bioorg.Med.Chem.(2011)19:5833-5851</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21903398?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase-2 bound with two copies of Ac-DVAD-CHO</PDB_Title>
+      <PDB_ID>3R7N</PDB_ID>
+      <Resolution>2.33</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3R7N</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and enzymatic insights into caspase-2 protein substrate recognition and catalysis.</PubMed_Title>
+      <Author>Tang, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:34147-34154</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21828056?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase-2 T380A bound with Ac-VDVAD-CHO</PDB_Title>
+      <PDB_ID>3R6L</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3R6L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and enzymatic insights into caspase-2 protein substrate recognition and catalysis.</PubMed_Title>
+      <Author>Tang, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:34147-34154</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21828056?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of active caspase-2 bound with Ac-VDVAD-CHO</PDB_Title>
+      <PDB_ID>3R6G</PDB_ID>
+      <Resolution>2.07</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3R6G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and enzymatic insights into caspase-2 protein substrate recognition and catalysis.</PubMed_Title>
+      <Author>Tang, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:34147-34154</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21828056?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase-2 bound to one copy of Ac-DVAD-CHO</PDB_Title>
+      <PDB_ID>3R7B</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3R7B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and enzymatic insights into caspase-2 protein substrate recognition and catalysis.</PubMed_Title>
+      <Author>Tang, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:34147-34154</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21828056?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of active caspase-2 bound with Ac-ADVAD-CHO</PDB_Title>
+      <PDB_ID>3R5J</PDB_ID>
+      <Resolution>1.77</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3R5J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and enzymatic insights into caspase-2 protein substrate recognition and catalysis.</PubMed_Title>
+      <Author>Tang, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:34147-34154</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21828056?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Human Caspase-2 in Complex with Acetyl-Leu-Asp-Glu-Ser-Asp-cho</PDB_Title>
+      <PDB_ID>1PYO</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PYO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of caspase-2, apical initiator of the intrinsic apoptotic pathway.</PubMed_Title>
+      <Author>Schweizer, A., et al.</Author>
+      <Journal>J.Biol.Chem.(2003)278:42441-42447</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12920126?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.id.b.b.e.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1pyo</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.22.55</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/22/55.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00520002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

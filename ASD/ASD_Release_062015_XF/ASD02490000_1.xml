@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02490000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q15119</UniProt_ID>
+  <Seq_Length>407</Seq_Length>
+  <Molecule_Weight>46154</Molecule_Weight>
+  <KEGG_ID>hsa:5164</KEGG_ID>
+  <Orthology_ID>K00898</Orthology_ID>
+  <Function_Summary>Inhibits the mitochondrial pyruvate dehydrogenase complex by phosphorylation of the E1 alpha subunit, thus contributing to the regulation of glucose metabolism.</Function_Summary>
+  <Catalytic_Mechanism>ATP + [pyruvate dehydrogenase (acetyl-transferring)] = ADP + [pyruvate dehydrogenase (acetyl-transferring)] phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF10436:BCDHK_Adom3@@PF02518:HATPase_c</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>8</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>PDK2</Alias>
+      <Alias>Pyruvate dehydrogenase kinase 2</Alias>
+      <Alias>Pyruvate dehydrogenase, lipoamide, kinase isozyme 2, mitochondrial</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + pyruvate dehydrogenase (acetyl-transferring) = ADP + pyruvate dehydrogenase (acetyl-transferring) phosphate.</Detail>
+      <Keyword>Pyruvate dehydrogenase (acetyl-transferring) kinase activity</Keyword>
+      <Ontology_ID>GO:0004740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the phosphorylation of a histidine residue in response to detection of an extracellular signal such as a chemical ligand or change in environment, to initiate a change in cell state or activity. The two-component sensor is a histidine kinase that autophosphorylates a histidine residue in its active site. The phosphate is then transferred to an aspartate residue in a downstream response regulator, to trigger a response.</Detail>
+      <Keyword>Two-component sensor activity</Keyword>
+      <Ontology_ID>GO:0000155</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>342</Position>
+      <Original>Gly</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving pyruvate, 2-oxopropanoate.</Detail>
+      <Keyword>Pyruvate metabolic process</Keyword>
+      <Ontology_ID>GO:0006090</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation of peptidyl-histidine to form peptidyl-1'-phospho-L-histidine (otherwise known as tau-phosphohistidine, tele-phosphohistidine) or peptidyl-3'-phospho-L-histidine (otherwise known as pi-phosphohistidine, pros-phosphohistidine).</Detail>
+      <Keyword>Peptidyl-histidine phosphorylation</Keyword>
+      <Ontology_ID>GO:0018106</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of acetyl-CoA from pyruvate.</Detail>
+      <Keyword>Regulation of acetyl-CoA biosynthetic process from pyruvate</Keyword>
+      <Ontology_ID>GO:0010510</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving carbohydrates, any of a group of organic compounds based of the general formula Cx(H2O)y. Includes the formation of carbohydrate derivatives by the addition of a carbohydrate residue to another molecule.</Detail>
+      <Keyword>Carbohydrate metabolic process</Keyword>
+      <Ontology_ID>GO:0005975</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving glucose, the aldohexose gluco-hexose. D-glucose is dextrorotatory and is sometimes known as dextrose; it is an important source of energy for living organisms and is found free as well as combined in homo- and hetero-oligosaccharides and polysaccharides.</Detail>
+      <Keyword>Glucose metabolic process</Keyword>
+      <Ontology_ID>GO:0006006</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MRWVWALLKNASLAGAPKYIEHFSKFSPSPLSMKQFLDFGSSNACEKTSFTFLRQELPVRLANIMKEINLLPDRVLSTPSVQLVQSWYVQSLLDIMEFLDKDPEDHRTLSQFTDALVTIRNRHNDVVPTMAQGVLEYKDTYGDDPVSNQNIQYFLDRFYLSRISIRMLINQHTLIFDGSTNPAHPKHIGSIDPNCNVSEVVKDAYDMAKLLCDKYYMASPDLEIQEINAANSKQPIHMVYVPSHLYHMLFELFKNAMRATVESHESSLILPPIKVMVALGEEDLSIKMSDRGGGVPLRKIERLFSYMYSTAPTPQPGTGGTPLAGFGYGLPISRLYAKYFQGDLQLFSMEGFGTDAVIYLKALSTDSVERLPVYNKSAWRHYQTIQEAGDWCVPSTEPKNTSTYRVS</Protein_Seq>
+    <DNA_Seq>GTGGCTGCCCGCGCGGGGACCACAACCAAAGTCGCGGCCGCCGCAGCCATGCGCTGGGTGTGGGCGCTGCTGAAGAATGCGTCCCTGGCAGGGGCGCCCAAGTACATAGAGCACTTCAGCAAGTTCTCCCCGTCCCCGCTGTCCATGAAGCAGTTTCTGGACTTCGGATCCAGCAATGCCTGTGAGAAAACCTCCTTCACCTTCCTCAGGCAGGAGCTGCCTGTGCGCCTGGCCAACATCATGAAAGAGATCAACCTGCTTCCCGACCGAGTGCTGAGCACACCCACCGTGCAGCTGGTGCAGAGCTGGTATGTCCAGAGCCTCCTGGACATCATGGAGTTCCTGGACAAGGATCCTGAGGACCATCGCACCCTGAGCCAGTTCACTGACGCCCTGGTCACCATCCGGAACCGGCACAACGACGTGGTGCCCACCATGGCACAAGGCGTGCTCGAGTACAAGGACACCTACGGCGATGACCCCGTCTCCAACCAGAACATCCAGTACTTCCTGGACCGCTTCTACCTCAGCCGCATCTCCATCCGCATGCTCATCAACCAGCACACCCTCATCTTTGATGGCAGCACCAACCCAGCCCATCCCAAACACATCGGCAGCATCGACCCCAACTGCAACGTCTCTGAGGTGGTCAAAGATGCCTACGACATGGCTAAGCTCCTGTGTGACAAGTATTACATGGCCTCACCTGACCTGGAGATCCAGGAGATCAATGCAGCCAACTCCAAACAGCCGATTCACATGGTCTACGTCCCCTCCCACCTCTACCACATGCTCTTTGAGCTCTTCAAGAATGCCATGAGGGCGACTGTGGAAAGCCATGAGTCCAGCCTCATTCTCCCACCCATCAAGGTCATGGTGGCCTTGGGTGAGGAAGATCTGTCCATCAAGATGAGTGACCGAGGTGGGGGTGTTCCCTTGAGGAAGATTGAGCGACTCTTCAGCTATATGTACTCCACAGCACCCACCCCCCAGCCTGGCACCGGGGGAACGCCGCTGGCTGGCTTTGGTTATGGGCTCCCCATTTCCCGCCTCTACGCCAAGTACTTCCAGGGAGACCTGCAGCTCTTCTCCATGGAAGGCTTTGGGACCGATGCTGTCATCTATCTCAAGGCCCTGTCCACGGACTCGGTGGAGCGCCTGCCTGTCTACAACAAGTCAGCCTGGCGCCACTACCAGACCATCCAGGAGGCCGGCGACTGGTGTGTGCCCAGCACGGAGCCCAAGAACACGTCCACGTACCGCGTCACGTAAGGGCCGCCGTGCATCTGCACCTGAGAGGACGGACTGCCGCCTCTGGGTCCCCCCACCGTGGTGCCCCTCACCATCCTCCTGGGGGAGCAGGGGGTGGGTTCTCCCTGATGACCAGGTTCTGTCTCTATGGAAGTCACTGCGGTGAATAGG</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondria</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>PDK2</Gene_Name>
+    <Gene_Alias>PDHK2</Gene_Alias>
+    <Gene_ID>5164</Gene_ID>
+    <Genbank_ACCN>NM_001199898</Genbank_ACCN>
+    <Protein_ACCN>NP_001186827</Protein_ACCN>
+    <HGNC_ID>8810</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5164</Gene_URL>
+    <UCSC_ID>uc002iqb.3</UCSC_ID>
+    <EMBL_ID>ENSG00000005882</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF HUMAN PYRUVATE DEHYDROGENASE KINASE 2 CONTAINING PHYSIOLOGICAL AND SYNTHETIC LIGANDS</PDB_Title>
+      <PDB_ID>2BU2</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2BU2</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02490001</ASD_Ligand>
+      <Ligand_Name>ADENOSINE-5'-TRIPHOSPHATE$4-({(2R,5S)-2,5-DIMETHYL-4-[(2R)-3,3,3-TRIFLUORO- 2-HYDROXY-2
+-METHYLPROPANOYL]PIPERAZIN-1-YL}CARBONYL)BENZONITRILE</Ligand_Name>
+      <PubMed_Title>Regulatory roles of the N-terminal domain based on crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands.</PubMed_Title>
+      <Author>Knoechel TR, et al.</Author>
+      <Journal>Biochemistry. 2006 Jan 17;45(2):402-15.</Journal>
+      <PubMed_ID>16401071</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF HUMAN PYRUVATE DEHYDROGENASE KINASE 2 CONTAINING PHYSIOLOGICAL AND SYNTHETIC LIGANDS</PDB_Title>
+      <PDB_ID>2BU6</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2BU6</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02490006</ASD_Ligand>
+      <Ligand_Name>(N-{4-[(ETHYLANILINO)SULFONYL]-2-METHYLPHENYL}- 3,3,3-TRIFLUORO-2-HYDROXY-2
+-METHYLPROPANAMIDE</Ligand_Name>
+      <PubMed_Title>Regulatory roles of the N-terminal domain based on crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands.</PubMed_Title>
+      <Author>Knoechel TR, et al.</Author>
+      <Journal>Biochemistry. 2006 Jan 17;45(2):402-15.</Journal>
+      <PubMed_ID>16401071</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF HUMAN PYRUVATE DEHYDROGENASE KINASE 2 CONTAINING PHYSIOLOGICAL AND SYNTHETIC LIGANDS</PDB_Title>
+      <PDB_ID>2BU7</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2BU7</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02498001</ASD_Ligand>
+      <Ligand_Name>N-(2-AMINOETHYL)-2-{3-CHLORO-4-[(4-ISOPROPYLBENZYL)OXY]PHENYL} ACETAMIDE</Ligand_Name>
+      <PubMed_Title>Regulatory roles of the N-terminal domain based on crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands.</PubMed_Title>
+      <Author>Knoechel TR, et al.</Author>
+      <Journal>Biochemistry. 2006 Jan 17;45(2):402-15.</Journal>
+      <PubMed_ID>16401071</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the PDHK2-L2 complex.</PDB_Title>
+      <PDB_ID>3CRK</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3CRK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and functional insights into the molecular mechanisms responsible for the regulation of pyruvate dehydrogenase kinase 2.</PubMed_Title>
+      <Author>Green T, et al.</Author>
+      <Journal>(2008) J.Biol.Chem. 283: 15789-15798</Journal>
+      <PubMed_ID>18387944</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF HUMAN PYRUVATE DEHYDROGENASE KINASE 2 CONTAINING PHYSIOLOGICAL AND SYNTHETIC LIGANDS</PDB_Title>
+      <PDB_ID>2BTZ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2BTZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Regulatory roles of the N-terminal domain based on crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands.</PubMed_Title>
+      <Author>Knoechel TR, et al.</Author>
+      <Journal>Biochemistry. 2006 Jan 17;45(2):402-15.</Journal>
+      <PubMed_ID>16401071</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF HUMAN PYRUVATE DEHYDROGENASE KINASE 2 CONTAINING PHYSIOLOGICAL AND SYNTHETIC LIGANDS</PDB_Title>
+      <PDB_ID>2BU8</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2BU8</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02490002</ASD_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE$DICHLORO-ACETIC ACID</Ligand_Name>
+      <PubMed_Title>Regulatory roles of the N-terminal domain based on crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands.</PubMed_Title>
+      <Author>Knoechel TR, et al.</Author>
+      <Journal>Biochemistry. 2006 Jan 17;45(2):402-15.</Journal>
+      <PubMed_ID>16401071</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the PDHK2-L2 complex.</PDB_Title>
+      <PDB_ID>3CRL</PDB_ID>
+      <Resolution>2.61</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3CRL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHOAMINOPHOSPHONIC ACID-ADENYLATE ESTER</Ligand_Name>
+      <PubMed_Title>Structural and functional insights into the molecular mechanisms responsible for the regulation of pyruvate dehydrogenase kinase 2.</PubMed_Title>
+      <Author>Green T, et al.</Author>
+      <Journal>(2008) J.Biol.Chem. 283: 15789-15798</Journal>
+      <PubMed_ID>18387944</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF HUMAN PYRUVATE DEHYDROGENASE KINASE 2 CONTAINING PHYSIOLOGICAL AND SYNTHETIC LIGANDS</PDB_Title>
+      <PDB_ID>2BU5</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2BU5</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02490001</ASD_Ligand>
+      <Ligand_Name>4-({(2R,5S)-2,5-DIMETHYL-4-[(2R)-3,3,3-TRIFLUORO- 2-HYDROXY-2
+-METHYLPROPANOYL]PIPERAZIN-1-YL}CARBONYL)BENZONITRILE</Ligand_Name>
+      <PubMed_Title>Regulatory roles of the N-terminal domain based on crystal structures of human pyruvate dehydrogenase kinase 2 containing physiological and synthetic ligands.</PubMed_Title>
+      <Author>Knoechel TR, et al.</Author>
+      <Journal>Biochemistry. 2006 Jan 17;45(2):402-15.</Journal>
+      <PubMed_ID>16401071</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <CATH_Class>Mainly alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/cathnode/1.20.140.20</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,71,Leu;site,155,Leu;site,72,Pro;site,75,Val;site,81,Val;site,134,Val;site,146,Val;site,74,Arg;site,80,Ser;site,147,Ser;site,130,Met;site,133,Gly;site,137,Tyr;site,382,Tyr;site,150,Asn;site,154,Phe;site,151,Ile;site,258,Arg;site,310,Thr;site,328,Tyr</Site_Detail>
+      <Site_Reference>Knoechel TR, et al. Biochemistry. 2006,45(2):402-415.;Klyuyeva A, et al. Biochemistry. 2008,47(32):8358-8366.</Site_Reference>
+      <Site_Type>Open-Close</Site_Type>
+      <PDB_ID>2BU2;2BU5;2BU6;2BU8</PDB_ID>
+      <PubMed_ID>16401071;18627174</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00340002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02490001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02490002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02490003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02490004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02490005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02490006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02498001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

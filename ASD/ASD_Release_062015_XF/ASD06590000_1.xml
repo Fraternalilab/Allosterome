@@ -1,0 +1,667 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06590000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q03431</UniProt_ID>
+  <Seq_Length>593</Seq_Length>
+  <Molecule_Weight>66361</Molecule_Weight>
+  <KEGG_ID>hsa:5745</KEGG_ID>
+  <Orthology_ID>K04585</Orthology_ID>
+  <Function_Summary>This is a receptor for parathyroid hormone and for parathyroid hormone-related peptide. The activity of this receptor is mediated by G proteins which activate adenylyl cyclase and also a phosphatidylinositol-calcium second messenger system.</Function_Summary>
+  <Pfam_ID>PF00002:7tm_2@@PF02793:HRM</Pfam_ID>
+  <Allosteric_Activator_Count>12</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>76</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>PTH1 receptor</Alias>
+      <Alias>PTH/PTHrP type I receptor</Alias>
+      <Alias>PTH/PTHr receptor</Alias>
+      <Alias>Parathyroid hormone 1 receptor</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Combining with parathyroid hormone to initiate a change in cell activity.</Detail>
+      <Keyword>Parathyroid hormone receptor activity</Keyword>
+      <Ontology_ID>GO:0004991</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any peptide with hormonal activity in animals.</Detail>
+      <Keyword>Peptide hormone binding</Keyword>
+      <Ontology_ID>GO:0017046</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a domain within the same polypeptide.</Detail>
+      <Keyword>Protein self-association</Keyword>
+      <Ontology_ID>GO:0043621</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>223</Position>
+      <Original>His</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>150</Position>
+      <Original>Arg</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>132</Position>
+      <Original>Pro</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>458</Position>
+      <Original>Ile</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>410</Position>
+      <Original>Thr</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>410</Position>
+      <Original>Thr</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a G-protein coupled receptor binding to its physiological ligand.</Detail>
+      <Keyword>G-protein coupled receptor protein signaling pathway</Keyword>
+      <Ontology_ID>GO:0007186</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal, e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light, and ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell, and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</Detail>
+      <Keyword>Signal transduction</Keyword>
+      <Ontology_ID>GO:0007165</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MGTARIAPGLALLLCCPVLSSAYALVDADDVMTKEEQIFLLHRAQAQCEKRLKEVLQRPASIMESDKGWTSASTSGKPRKDKASGKLYPESEEDKEAPTGSRYRGRPCLPEWDHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWELVPGHNRTWANYSECVKFLTNETREREVFDRLGMIYTVGYSVSLASLTVAVLILAYFRRLHCTRNYIHMHLFLSFMLRAVSIFVKDAVLYSGATLDEAERLTEEELRAIAQAPPPPATAAAGYAGCRVAVTFFLYFLATNYYWILVEGLYLHSLIFMAFFSEKKYLWGFTVFGWGLPAVFVAVWVSVRATLANTGCWDLSSGNKKWIIQVPILASIVLNFILFINIVRVLATKLRETNAGRCDTRQQYRKLLKSTLVLMPLFGVHYIVFMATPYTEVSGTLWQVQMHYEMLFNSFQGFFVAIIYCFCNGEVQAEIKKSWSRWTLALDFKRKARSGSSSYSYGPMVSHTSVTNVGPRVGLGLPLSPRLLPTATTNGHPQLPGHAKPGTPALETLETTPPAMAAPKDDGFLNGSCSGLDEEASGPERPPALLQEEWETVM</Protein_Seq>
+    <DNA_Seq>CCACAGAAGCTGCTCAGGGACTATCCATGGCCTCCCCGTGGCCAACTTGAGTCTGCTCTGCAGCTTTAGGCCCGACTTGGAAGGCCCATGGGCTGCAGATGAGGAAACTGAGGTCCAGACAGCCGAAGAGTGGTAGTGTCCAGGACACACAACTGGGCCGGCGGCGGCGGCTGCCCCGAGGGACGCGGCCCTAGGCGGTGGCGATGGGGACCGCCCGGATCGCACCCGGCCTGGCGCTCCTGCTCTGCTGCCCCGTGCTCAGCTCCGCGTACGCGCTGGTGGATGCAGATGACGTCATGACTAAAGAGGAACAGATCTTCCTGCTGCACCGTGCTCAGGCCCAGTGCGAAAAACGGCTCAAGGAGGTCCTGCAGAGGCCAGCCAGCATAATGGAATCAGACAAGGGATGGACATCTGCGTCCACATCAGGGAAGCCCAGGAAAGATAAGGCATCTGGGAAGCTCTACCCTGAGTCTGAGGAGGACAAGGAGGCACCCACTGGCAGCAGGTACCGAGGGCGCCCCTGTCTGCCGGAATGGGACCACATCCTGTGCTGGCCGCTGGGGGCACCAGGTGAGGTGGTGGCTGTGCCCTGTCCGGACTACATTTATGACTTCAATCACAAAGGCCATGCCTACCGACGCTGTGACCGCAATGGCAGCTGGGAGCTGGTGCCTGGGCACAACAGGACGTGGGCCAACTACAGCGAGTGTGTCAAATTTCTCACCAATGAGACTCGTGAACGGGAGGTGTTTGACCGCCTGGGCATGATTTACACCGTGGGCTACTCCGTGTCCCTGGCGTCCCTCACCGTAGCTGTGCTCATCCTGGCCTACTTTAGGCGGCTGCACTGCACGCGCAACTACATCCACATGCACCTGTTCCTGTCCTTCATGCTGCGCGCCGTGAGCATCTTCGTCAAGGACGCTGTGCTCTACTCTGGCGCCACGCTTGATGAGGCTGAGCGCCTCACCGAGGAGGAGCTGCGCGCCATCGCCCAGGCGCCCCCGCCGCCTGCCACCGCCGCTGCCGGCTACGCGGGCTGCAGGGTGGCTGTGACCTTCTTCCTTTACTTCCTGGCCACCAACTACTACTGGATTCTGGTGGAGGGGCTGTACCTGCACAGCCTCATCTTCATGGCCTTCTTCTCAGAGAAGAAGTACCTGTGGGGCTTCACAGTCTTCGGCTGGGGTCTGCCCGCTGTCTTCGTGGCTGTGTGGGTCAGTGTCAGAGCTACCCTGGCCAACACCGGGTGCTGGGACTTGAGCTCCGGGAACAAAAAGTGGATCATCCAGGTGCCCATCCTGGCCTCCATTGTGCTCAACTTCATCCTCTTCATCAATATCGTCCGGGTGCTCGCCACCAAGCTGCGGGAGACCAACGCCGGCCGGTGTGACACACGGCAGCAGTACCGGAAGCTGCTCAAATCCACGCTGGTGCTCATGCCCCTCTTTGGCGTCCACTACATTGTCTTCATGGCCACACCATACACCGAGGTCTCAGGGACGCTCTGGCAAGTCCAGATGCACTATGAGATGCTCTTCAACTCCTTCCAGGGATTTTTTGTCGCAATCATATACTGTTTCTGCAATGGCGAGGTACAAGCTGAGATCAAGAAATCTTGGAGCCGCTGGACACTGGCACTGGACTTCAAGCGAAAGGCACGCAGCGGGAGCAGCAGCTATAGCTACGGCCCCATGGTGTCCCACACAAGTGTGACCAATGTCGGCCCCCGTGTGGGACTCGGCCTGCCCCTCAGCCCCCGCCTACTGCCCACTGCCACCACCAACGGCCACCCTCAGCTGCCTGGCCATGCCAAGCCAGGGACCCCAGCCCTGGAGACCCTCGAGACCACACCACCTGCCATGGCTGCTCCCAAGGACGATGGGTTCCTCAACGGCTCCTGCTCAGGCCTGGACGAGGAGGCCTCTGGGCCTGAGCGGCCACCTGCCCTGCTACAGGAAGAGTGGGAGACAGTCATGTGACCAGGCGCTGGGGGCTGGACCTGCTGACATAGTGGATGGACAGATGGACCAAAAGATGGGTGGTTGAATGATTTCCCACTCAGGGCTGGGGCCAAGAGGAAAAACAGGGAAAAAAAGAAAAAAAAAAGAAAAAGGAAAAGGAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005887</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>PTH1R</Gene_Name>
+    <Gene_Alias>PTHR; PTHR1</Gene_Alias>
+    <Gene_ID>5745</Gene_ID>
+    <Genbank_ACCN>NM_000316</Genbank_ACCN>
+    <Protein_ACCN>NP_000307</Protein_ACCN>
+    <HGNC_ID>9608</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5745</Gene_URL>
+    <UCSC_ID>uc003cqm.3</UCSC_ID>
+    <EMBL_ID>ENSG00000160801</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Eiken Syndrome</Disease_Name>
+      <Disease_Detail>Eiken Syndrome</Disease_Detail>
+      <Disease_DB>EKN001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/eiken_syndrome?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Humoral Hypercalcemia of Malignancy</Disease_Name>
+      <Disease_Detail>Humoral Hypercalcemia of Malignancy</Disease_Detail>
+      <Disease_DB>HMR009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/humoral_hypercalcemia_of_malignancy?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Chondrodysplasia Blomstrand Type</Disease_Name>
+      <Disease_Detail>Chondrodysplasia</Disease_Detail>
+      <Disease_DB>CHN025</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/chondrodysplasia_blomstrand_type?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Failure of Tooth Eruption, Primary</Disease_Name>
+      <Disease_Detail>Failure of Tooth Eruption, Primary</Disease_Detail>
+      <Disease_DB>FLR007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/failure_of_tooth_eruption_primary?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Tooth Ankylosis</Disease_Name>
+      <Disease_Detail>Tooth Ankylosis</Disease_Detail>
+      <Disease_DB>TTH001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/tooth_ankylosis?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hypercalcemia</Disease_Name>
+      <Disease_Detail>Hypercalcemia</Disease_Detail>
+      <Disease_DB>HYP004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypercalcemia?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Heart Cancer</Disease_Name>
+      <Disease_Detail>Heart Cancer</Disease_Detail>
+      <Disease_DB>HRT007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/heart_cancer?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Jansen's Metaphyseal Chondrodysplasia</Disease_Name>
+      <Disease_Detail>Jansen's Metaphyseal Chondrodysplasia</Disease_Detail>
+      <Disease_DB>JNS002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/jansens_metaphyseal_chondrodysplasia?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Oncogenic Osteomalacia</Disease_Name>
+      <Disease_Detail>Oncogenic Osteomalacia</Disease_Detail>
+      <Disease_DB>ONC003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/oncogenic_osteomalacia?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pseudohypoparathyroidism</Disease_Name>
+      <Disease_Detail>Pseudohypoparathyroidism</Disease_Detail>
+      <Disease_DB>PSD015</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pseudohypoparathyroidism?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Thanatophoric Dysplasia</Disease_Name>
+      <Disease_Detail>Thanatophoric Dysplasia</Disease_Detail>
+      <Disease_DB>THN001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/thanatophoric_dysplasia?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Chondrodysplasia</Disease_Name>
+      <Disease_Detail>Chondrodysplasia</Disease_Detail>
+      <Disease_DB>CHN015</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/chondrodysplasia?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Metaphyseal Dysplasia</Disease_Name>
+      <Disease_Detail>Metaphyseal Dysplasia</Disease_Detail>
+      <Disease_DB>MTP001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/metaphyseal_dysplasia?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ollier Disease</Disease_Name>
+      <Disease_Detail>Ollier Disease</Disease_Detail>
+      <Disease_DB>OLL001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ollier_disease?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ossification of the Posterior Longitudinal Ligament of the Spine</Disease_Name>
+      <Disease_Detail>Ossification of the Posterior Longitudinal Ligament of the Spine</Disease_Detail>
+      <Disease_DB>OSS010</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ossification_of_the_posterior_longitudinal_ligament_of_the_spine?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Enchondroma</Disease_Name>
+      <Disease_Detail>Enchondroma</Disease_Detail>
+      <Disease_DB>ENC014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/enchondroma?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Osteomalacia</Disease_Name>
+      <Disease_Detail>Osteomalacia</Disease_Detail>
+      <Disease_DB>OST011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/osteomalacia?search=PTH1R#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of the extracellular domain of the human parathyroid hormone receptor (PTH1R) in complex with parathyroid hormone-related protein (PTHrP)</PDB_Title>
+      <PDB_ID>3H3G</PDB_ID>
+      <Resolution>1.94</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3H3G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for parathyroid hormone-related protein binding to the parathyroid hormone receptor and design of conformation-selective peptides.</PubMed_Title>
+      <Author>Pioszak, A.A., et al.</Author>
+      <Journal>J.Biol.Chem.(2009)284:28382-28391</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19674967?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PTH RECEPTOR N-TERMINUS FRAGMENT, NMR, 1 STRUCTURE</PDB_Title>
+      <PDB_ID>1BL1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BL1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Binding domain of human parathyroid hormone receptor: from conformation to function.</PubMed_Title>
+      <Author>Pellegrini, M., et al.</Author>
+      <Journal>Biochemistry(1998)37:12737-12743</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9737850?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the G-protein Betagamma subunit bound to a c-terminal region of the pth1 parathyroid hormone receptor</PDB_Title>
+      <PDB_ID>3KJ5</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+    <PDB>
+      <PDB_Title>Dimeric structure of the ligand-free extracellular domain of the human parathyroid hormone receptor (PTH1R)</PDB_Title>
+      <PDB_ID>3L2J</PDB_ID>
+      <Resolution>3.24</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3L2J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Dimeric arrangement of the parathyroid hormone receptor and a structural mechanism for ligand-induced dissociation.</PubMed_Title>
+      <Author>Pioszak, A.A., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:12435-12444</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20172855?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of human parathyroid hormone in complex with the extracellular domain of its G-protein-coupled receptor (PTH1R)</PDB_Title>
+      <PDB_ID>3C4M</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C4M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular recognition of parathyroid hormone by its G protein-coupled receptor.</PubMed_Title>
+      <Author>Pioszak, A.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2008)105:5034-5039</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18375760?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04961</Pathway_ID>
+      <Pathway_Title>Endocrine and other factor-regulated calcium reabsorption</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Excretory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04080</Pathway_ID>
+      <Pathway_Title>Neuroactive ligand-receptor interaction</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signaling molecules and interaction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Peptides</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.ba.bh.b.b.b.html</SCOP_URL>
+  </Fold>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD06590001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590005</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590013</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590027</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590028</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590031</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590032</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590038</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590048</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590049</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590050</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590056</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590069</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590081</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590082</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590083</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590084</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590085</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06590088</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06120000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>O60701</UniProt_ID>
+  <Seq_Length>494</Seq_Length>
+  <Molecule_Weight>55024</Molecule_Weight>
+  <KEGG_ID>hsa:7358</KEGG_ID>
+  <Orthology_ID>K00012</Orthology_ID>
+  <Function_Summary>Involved in the biosynthesis of glycosaminoglycans; hyaluronan, chondroitin sulfate, and heparan sulfate.</Function_Summary>
+  <Catalytic_Mechanism>UDP-glucose + 2 NAD(+) + H(2)O = UDP-glucuronate + 2 NADH.</Catalytic_Mechanism>
+  <Pfam_ID>PF00984:UDPG_MGDP_dh@@PF03720:UDPG_MGDP_dh_C@@PF03721:UDPG_MGDP_dh_N</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>3</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>UDP-Glc dehydrogenase</Alias>
+      <Alias>UDPGDH</Alias>
+      <Alias>UDP-GlcDH</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Any molecular entity that serves as an electron acceptor and electron donor in an electron transport system.</Detail>
+      <Keyword>Electron carrier activity</Keyword>
+      <Ontology_ID>GO:0009055</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with nicotinamide adenine dinucleotide, a coenzyme involved in many redox and biosynthetic reactions; binding may be to either the oxidized form, NAD+, or the reduced form, NADH.</Detail>
+      <Keyword>NAD binding</Keyword>
+      <Ontology_ID>GO:0051287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: H(2)O + 2 NAD(+) + UDP-alpha-D-glucose = 3 H(+) + 2 NADH + UDP-alpha-D-glucuronate.</Detail>
+      <Keyword>UDP-glucose 6-dehydrogenase activity</Keyword>
+      <Ontology_ID>GO:0003979</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of UDP-glucuronate, a substance composed of glucuronic acid in glycosidic linkage with uridine diphosphate.</Detail>
+      <Keyword>UDP-glucuronate biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006065</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving a xenobiotic compound, a compound foreign to living organisms. Used of chemical compounds, e.g. a xenobiotic chemical, such as a pesticide.</Detail>
+      <Keyword>Xenobiotic metabolic process</Keyword>
+      <Ontology_ID>GO:0006805</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of glycosaminoglycans, any of a group of polysaccharides that contain amino sugars.</Detail>
+      <Keyword>Glycosaminoglycan biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006024</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving UDP-glucose, uridinediphosphoglucose, a substance composed of glucose in glycosidic linkage with uridine diphosphate.</Detail>
+      <Keyword>UDP-glucose metabolic process</Keyword>
+      <Ontology_ID>GO:0006011</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>173</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>434</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>107</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>473</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MFEIKKICCIGAGYVGGPTCSVIAHMCPEIRVTVVDVNESRINAWNSPTLPIYEPGLKEVVESCRGKNLFFSTNIDDAIKEADLVFISVNTPTKTYGMGKGRAADLKYIEACARRIVQNSNGYKIVTEKSTVPVRAAESIRRIFDANTKPNLNLQVLSNPEFLAEGTAIKDLKNPDRVLIGGDETPEGQRAVQALCAVYEHWVPREKILTTNTWSSELSKLAANAFLAQRISSINSISALCEATGADVEEVATAIGMDQRIGNKFLKASVGFGGSCFQKDVLNLVYLCEALNLPEVARYWQQVIDMNDYQRRRFASRIIDSLFNTVTDKKIAILGFAFKKDTGDTRESSSIYISKYLMDEGAHLHIYDPKVPREQIVVDLSHPGVSEDDQVSRLVTISKDPYEACDGAHAVVICTEWDMFKELDYERIHKKMLKPAFIFDGRRVLDGLHNELQTIGFQIETIGKKVSSKRIPYAPSGEIPKFSLQDPPNKKPKV</Protein_Seq>
+    <DNA_Seq>GTGAAGGAAATAGGGACCTGGCCCTGGGCCTTGTGTAGCGGGAGGGGGAGCTAGGAAGCAGCTGAGGGCAGAATCCAGGAGGGCCTGGCTGCGGGGGAATGAAGCCTCCGCCTTCGCAGGCAAAAGCCTTTAAATACGGGCTCAGGCCCGGGACTCAGAGTGTAACGCGTGGCAGCCTGAGGGAGGGGCGTGCGCCGAGAGGGAGCTCAGATCGAGCGGGGCGCGGGTGGAGAAGCTGCGGCGGCGCGGCCCGTAGGAAGGTGCTGTCCGAACGATCGGGATAGGAGCGGTCCCTGCGCTTGCTGCTGGGAAGTGGTACAATCATGTTTGAAATTAAGAAGATCTGTTGCATCGGTGCAGGCTATGTTGGAGGACCCACATGTAGTGTCATTGCTCATATGTGTCCTGAAATCAGGGTAACGGTTGTTGATGTCAATGAATCAAGAATCAATGCGTGGAATTCTCCTACACTTCCTATTTATGAGCCAGGACTAAAAGAAGTGGTAGAATCCTGTCGAGGAAAAAATCTTTTTTTTTCTACCAATATTGATGATGCCATCAAAGAAGCTGATCTTGTATTTATTTCTGTGCTGTCCAACCCTGAGTTTCTGGCAGAGGGAACAGCCATCAAGGACCTAAAGAACCCAGACAGAGTACTGATTGGAGGGGATGAAACTCCAGAGGGCCAGAGAGCTGTGCAGGCCCTGTGTGCTGTATATGAGCACTGGGTTCCCAGAGAAAAGATCCTCACCACTAATACTTGGTCTTCAGAGCTTTCCAAACTGGCAGCAAATGCTTTTCTTGCCCAGAGAATAAGCAGCATTAACTCCATAAGTGCTCTGTGTGAAGCAACAGGAGCTGATGTAGAAGAGGTAGCAACAGCGATTGGAATGGACCAGAGAATTGGAAACAAGTTTCTAAAAGCCAGTGTTGGGTTTGGTGGGAGCTGTTTCCAAAAGGATGTTCTGAATTTGGTTTATCTCTGTGAGGCTCTGAATTTGCCAGAAGTAGCTCGTTATTGGCAGCAGGTCATAGACATGAATGACTACCAGAGGAGGAGGTTTGCTTCCCGGATCATAGATAGTCTGTTTAATACAGTAACTGATAAGAAGATAGCTATTTTGGGATTTGCATTCAAAAAGGACACTGGTGATACAAGAGAATCTTCTAGTATATATATTAGCAAATATTTGATGGATGAAGGTGCACATCTACATATATATGATCCAAAAGTACCTAGGGAACAAATAGTTGTGGATCTTTCTCATCCAGGTGTTTCAGAGGATGACCAAGTGTCCCGGCTCGTGACCATTTCCAAGGATCCATATGAAGCATGTGATGGTGCCCATGCTGTTGTTATTTGCACTGAGTGGGACATGTTTAAGGAATTGGATTATGAACGCATTCATAAAAAAATGCTAAAGCCAGCCTTTATCTTCGATGGACGGCGTGTCCTGGATGGGCTCCACAATGAACTACAAACCATTGGCTTCCAGATTGAAACAATTGGCAAAAAGGTGTCTTCAAAGAGAATTCCATATGCTCCTTCTGGTGAAATTCCGAAGTTTAGTCTTCAAGATCCACCTAACAAGAAACCTAAAGTGTAGAGATTGCCATTTTTATTTGTGATTTTTTTTTTTTTTTTTTGGTACTTCAGGATAGCAAATATCTATCTGCTATTAAATGGTAAATGAACCAAGTGTTTTTTTTTGTTTTTTTTTTGAGACAGAGTCTCACTGTTGCCCAGGCTGGAGTGCAGTGGTGCAATCTCGGCTCACTGCAAGCTCTGCTTCCCAGGTTCACGCCATTCTCCTGGCTCAGCCTCCCAAGTAGCTGGGACTACAGGCACCCGCCACAGTGCCTGGCTAATTTTTTGTATTTTTAGTAGAGACAGGGTTTCACCATGTGAGCCAGGATGGTCTCAATCTCCTGACCTTGTGAACCACCCGTCTCGGCCTCCCAAAGTGCTGGGATTACAGGTGTGAGCCACCACGCCTGGCCCATGAACCAAGTGTTTTTAAGGAAACAAAACTATTTTTTTAATCATCAGATTTATACTAGCTATATGGATATTAGCATATCTGGTAATTATGAATCTAGAATTTTTTTACATATTTTTATAATACTGTTAGCTCAGTTATTGGATGAGTGAAAGATAATCATGTTGGTTTTAATAGTGTCAATTTTTGTAAAATAAAAATTAAACTTCAAACTCTTTACTTTATAAATTGTCCATAGGCCACACTTTAATATCACATTATAAAGGGAAGGACAGTCTTCATTCCTCCTGGTTATTGGTTTGTTTGTCATTAAAGATATATTTTGAATCCATGAAATTGCTATGCTAAACAGCCTTTACATGTATGGTCTGGTTAAAGTTCCTTTGTTCCTTTTGTTTTAATAAAATGTGTCACTGATTTTTTAGCTCAAAATCATCACTGTTAATTTCCAGTCACCCCAAATATGGTTAAAAGATTTTTTTTTTAATCATGAAGAGAAAATTAGTAGCATTTCTTTCTCTCCCCATTATTTATTGGTTTTCCTCACTAATCTTTTTTTTTTTAGTCCAAAAGCCAAAAATATTTATCTTGGTTTTACATTTTAATTTCCATTCTTAATTGTAATTTTTTTCTTTAAATAAGGAAACCAATATAATCTCATGTATAAAAACTTAAATATTTTACAAGTTACATATAGCATCATTCTAAAATAAGAATTTTTTTTGTTTTCTGTCTGCTTTTTTCTTATGTCTCTTGTTGAGTTTTATATTTTCAGTGGTTATTTTTGCTTGTGTTAGATCATTATTAAAATATATCCAATGTCCCTTTGATACTTGTGCTCTGCTGAGAATGTACAGTTTGCATTAAACATCCCAGGTCTCATCCTTCAGGAATTTTGCAGTTCAATGAGAAGAGGGAGACAAATATAAAGATGAGGACAGAAGCATCTCTACAGATGAAAATTACATAAATAAAACATTCTCCATCAACAACTAAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>UGDH</Gene_Name>
+    <Gene_ID>7358</Gene_ID>
+    <Genbank_ACCN>NM_001184700</Genbank_ACCN>
+    <Protein_ACCN>NP_001171629</Protein_ACCN>
+    <HGNC_ID>12525</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/7358</Gene_URL>
+    <UCSC_ID>uc003guk.2</UCSC_ID>
+    <EMBL_ID>ENSG00000109814</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Hypoxia</Disease_Name>
+      <Disease_Detail>Hypoxia</Disease_Detail>
+      <Disease_DB>HYP266</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypoxia?search=UGDH#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of Human UDP-Glucose Dehydrogenase</PDB_Title>
+      <PDB_ID>3TDK</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3TDK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis of Cooperativity in Human UDP-Glucose Dehydrogenase.</PubMed_Title>
+      <Author>Rajakannan, V., et al.</Author>
+      <Journal>Plos One(2011)6:e25226-e25226</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21984906?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human UDP-glucose dehydrogenase product complex with UDP-glucuronate</PDB_Title>
+      <PDB_ID>2QG4</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QG4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and mechanism of human UDP-glucose 6-dehydrogenase.</PubMed_Title>
+      <Author>Egger, S., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:23877-23887</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21502315?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of human UDP-glucose dehydrogenase complexed with NADH and UDP-glucose</PDB_Title>
+      <PDB_ID>2Q3E</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Q3E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and mechanism of human UDP-glucose 6-dehydrogenase.</PubMed_Title>
+      <Author>Egger, S., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:23877-23887</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21502315?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Dimeric hUGDH, K94E</PDB_Title>
+      <PDB_ID>4EDF</PDB_ID>
+      <Resolution>2.08</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4EDF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Cofactor Binding Triggers a Molecular Switch To Allosterically Activate Human UDP-{alpha}-d-glucose 6-Dehydrogenase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Role of Packing Defects in the Evolution of Allostery and Induced Fit in Human UDP-Glucose Dehydrogenase.</PDB_Title>
+      <PDB_ID>3PTZ</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PTZ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD06120004</ASD_Ligand>
+      <PubMed_Title>Role of Packing Defects in the Evolution of Allostery and Induced Fit in Human UDP-Glucose Dehydrogenase.</PubMed_Title>
+      <Author>Kadirvelraj, R., et al.</Author>
+      <Journal>Biochemistry(2011)50:5780-5789</Journal>
+      <PubMed_ID>21595445</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human UDP-glucose dehydrogenase Glu161Gln, in complex with thiohemiacetal intermediate</PDB_Title>
+      <PDB_ID>3KHU</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KHU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and Kinetic Evidence That Catalytic Reaction of Human UDP-glucose 6-Dehydrogenase Involves Covalent Thiohemiacetal and Thioester Enzyme Intermediates.</PubMed_Title>
+      <Author>Egger, S., et al.</Author>
+      <Journal>J.Biol.Chem.(2012)287:2119-2129</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22123821?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of UDP-glucose dehydrogenase V132 deletion</PDB_Title>
+      <PDB_ID>3TF5</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3TF5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational flexibility in the allosteric regulation of human UDP-{alpha}-D-glucose 6-dehydrogenase.</PubMed_Title>
+      <Author>Sennett, N.C., et al.</Author>
+      <Journal>Biochemistry(2011)50:9651-9663</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21961565?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Role of Packing Defects in the Evolution of Allostery and Induced Fit in Human UDP-Glucose Dehydrogenase.</PDB_Title>
+      <PDB_ID>3PRJ</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PRJ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD06120004</ASD_Ligand>
+      <PubMed_Title>Role of Packing Defects in the Evolution of Allostery and Induced Fit in Human UDP-Glucose Dehydrogenase.</PubMed_Title>
+      <Author>Kadirvelraj, R., et al.</Author>
+      <Journal>Biochemistry(2011)50:5780-5789</Journal>
+      <PubMed_ID>21595445</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human UDP-glucose dehydrogenase Thr131Ala, apo form.</PDB_Title>
+      <PDB_ID>3ITK</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ITK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and mechanism of human UDP-glucose 6-dehydrogenase.</PubMed_Title>
+      <Author>Egger, S., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:23877-23887</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21502315?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00040</Pathway_ID>
+      <Pathway_Title>Pentose and glucuronate interconversions</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00500</Pathway_ID>
+      <Pathway_Title>Starch and sucrose metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00053</Pathway_ID>
+      <Pathway_Title>Ascorbate and aldarate metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00520</Pathway_ID>
+      <Pathway_Title>Amino sugar and nucleotide sugar metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2qg4</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,131,Thr;site,162,Phe;site,163,Leu;site,165,Glu;site,260,Arg;site,267,Lys;site,269,Ser;site,273,Gly;site,338,Phe;site,442,Arg</Site_Detail>
+      <Site_Reference>Kadirvelraj R, et al. Biochemistry. 2011,50(25):5780-5789.</Site_Reference>
+      <Site_Type>Oligomerization</Site_Type>
+      <PDB_ID>3PRJ;3PTZ</PDB_ID>
+      <PubMed_ID>21595445</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.1.1.22</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/22.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD06120001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06120002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06120004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06128001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

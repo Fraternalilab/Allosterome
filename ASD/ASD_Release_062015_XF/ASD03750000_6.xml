@@ -1,0 +1,616 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03750000_6</Organism_ID>
+  <Organism>Bovine</Organism>
+  <Organism_Latin>Bos taurus</Organism_Latin>
+  <UniProt_ID>P00735</UniProt_ID>
+  <Seq_Length>625</Seq_Length>
+  <Molecule_Weight>70506</Molecule_Weight>
+  <KEGG_ID>bta:280685</KEGG_ID>
+  <Orthology_ID>K01313</Orthology_ID>
+  <EBI_ID>EBI-990806</EBI_ID>
+  <Function_Summary>Thrombin, which cleaves bonds after Arg and Lys, converts fibrinogen to fibrin and activates factors V, VII, VIII, XIII, and, in complex with thrombomodulin, protein C. Functions in blood homeostasis, inflammation and wound healing (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>Selective cleavage of Arg-|-Gly bonds in fibrinogen to form fibrin and release fibrinopeptides A and B.</Catalytic_Mechanism>
+  <Pfam_ID>PF00594:Gla@@PF00051:Kringle@@PF09396:Thrombin_light@@PF00089:Trypsin</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>5</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>3</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Activation peptide fragment 2</Alias>
+      <Alias>Coagulation factor II</Alias>
+      <Alias>Thrombin heavy chain</Alias>
+      <Alias>Thrombin light chain</Alias>
+      <Alias>Activation peptide fragment 1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004252</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with thrombospondin to initiate a change in cell activity.</Detail>
+      <Keyword>Thrombospondin receptor activity</Keyword>
+      <Ontology_ID>GO:0070053</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type peptidase activity</Keyword>
+      <Ontology_ID>GO:0008236</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with calcium ions (Ca2+).</Detail>
+      <Keyword>Calcium ion binding</Keyword>
+      <Ontology_ID>GO:0005509</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>600</Position>
+      <Original>Asp</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds.</Detail>
+      <Keyword>Proteolysis</Keyword>
+      <Ontology_ID>GO:0006508</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>An ongoing process that solubilizes fibrin, chiefly by the proteolytic action of plasmin, resulting in the removal of small blood clots.</Detail>
+      <Keyword>Fibrinolysis</Keyword>
+      <Ontology_ID>GO:0042730</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</Detail>
+      <Keyword>Platelet activation</Keyword>
+      <Ontology_ID>GO:0030168</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of collagen, any of a group of fibrous proteins of very high tensile strength that form the main component of connective tissue in animals.</Detail>
+      <Keyword>Positive regulation of collagen biosynthetic process</Keyword>
+      <Ontology_ID>GO:0032967</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of cell growth.</Detail>
+      <Keyword>Positive regulation of cell growth</Keyword>
+      <Ontology_ID>GO:0030307</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of blood coagulation.</Detail>
+      <Keyword>Positive regulation of blood coagulation</Keyword>
+      <Ontology_ID>GO:0030194</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The stopping of bleeding (loss of body fluid) or the arrest of the circulation to an organ or part.</Detail>
+      <Keyword>Hemostasis</Keyword>
+      <Ontology_ID>GO:0007599</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the surface configuration of a cell.</Detail>
+      <Keyword>Regulation of cell shape</Keyword>
+      <Ontology_ID>GO:0008360</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of reactive oxygen species metabolic process.</Detail>
+      <Keyword>Positive regulation of reactive oxygen species metabolic process</Keyword>
+      <Ontology_ID>GO:2000379</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of addition of phosphate groups to amino acids within a protein.</Detail>
+      <Keyword>Positive regulation of protein phosphorylation</Keyword>
+      <Ontology_ID>GO:0001934</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the rate or extent of cell proliferation.</Detail>
+      <Keyword>Positive regulation of cell proliferation</Keyword>
+      <Ontology_ID>GO:0008284</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The sequential process in which the multiple coagulation factors of the blood interact, ultimately resulting in the formation of an insoluble fibrin clot; it may be divided into three stages: stage 1, the formation of intrinsic and extrinsic prothrombin converting principle; stage 2, the formation of thrombin; stage 3, the formation of stable fibrin polymers.</Detail>
+      <Keyword>Blood coagulation</Keyword>
+      <Ontology_ID>GO:0007596</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of astrocyte differentiation.</Detail>
+      <Keyword>Negative regulation of astrocyte differentiation</Keyword>
+      <Ontology_ID>GO:0048712</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the hydrolysis of a peptide bond or bonds within a protein.</Detail>
+      <Keyword>Negative regulation of proteolysis</Keyword>
+      <Ontology_ID>GO:0045861</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>An acute inflammatory response that involves non-antibody proteins whose concentrations in the plasma increase in response to infection or injury of homeothermic animals.</Detail>
+      <Keyword>Acute-phase response</Keyword>
+      <Ontology_ID>GO:0006953</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals initiated by the binding of an extracellular ligand to a receptor on the surface of the target cell.</Detail>
+      <Keyword>Cell surface receptor linked signaling pathway</Keyword>
+      <Ontology_ID>GO:0007166</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the phosphatidylinositol 3-kinase cascade.</Detail>
+      <Keyword>Positive regulation of phosphatidylinositol 3-kinase cascade</Keyword>
+      <Ontology_ID>GO:0014068</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the maintenance of an internal steady state of calcium ions within the cytosol of a cell or between the cytosol and its surroundings.</Detail>
+      <Keyword>Cytosolic calcium ion homeostasis</Keyword>
+      <Ontology_ID>GO:0051480</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the release into the cytosolic compartment of calcium ions sequestered in the endoplasmic reticulum or mitochondria.</Detail>
+      <Keyword>Positive regulation of release of sequestered calcium ion into cytosol</Keyword>
+      <Ontology_ID>GO:0051281</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>51</Position>
+      <PTM_Type>4-carboxyglutamate</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>70</Position>
+      <PTM_Type>4-carboxyglutamate</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>58</Position>
+      <PTM_Type>4-carboxyglutamate</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>50</Position>
+      <PTM_Type>4-carboxyglutamate</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>73</Position>
+      <PTM_Type>4-carboxyglutamate</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>76</Position>
+      <PTM_Type>4-carboxyglutamate</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>64</Position>
+      <PTM_Type>4-carboxyglutamate</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>60</Position>
+      <PTM_Type>4-carboxyglutamate</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>69</Position>
+      <PTM_Type>4-carboxyglutamate</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>63</Position>
+      <PTM_Type>4-carboxyglutamate</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MARVRGPRLPGCLALAALFSLVHSQHVFLAHQQASSLLQRARRANKGFLEEVRKGNLERECLEEPCSREEAFEALESLSATDAFWAKYTACESARNPREKLNECLEGNCAEGVGMNYRGNVSVTRSGIECQLWRSRYPHKPEINSTTHPGADLRENFCRNPDGSITGPWCYTTSPTLRREECSVPVCGQDRVTVEVIPRSGGSTTSQSPLLETCVPDRGREYRGRLAVTTSGSRCLAWSSEQAKALSKDQDFNPAVPLAENFCRNPDGDEEGAWCYVADQPGDFEYCDLNYCEEPVDGDLGDRLGEDPDPDAAIEGRTSEDHFQPFFNEKTFGAGEADCGLRPLFEKKQVQDQTEKELFESYIEGRIVEGQDAEVGLSPWQVMLFRKSPQELLCGASLISDRWVLTAAHCLLYPPWDKNFTVDDLLVRIGKHSRTRYERKVEKISMLDKIYIHPRYNWKENLDRDIALLKLKRPIELSDYIHPVCLPDKQTAAKLLHAGFKGRVTGWGNRRETWTTSVAEVQPSVLQVVNLPLVERPVCKASTRIRITDNMFCAGYKPGEGKRGDACEGDSGGPFVMKSPYNNRWYQMGIVSWGEGCDRDGKYGFYTHVFRLKKWIQKVIDRLGS</Protein_Seq>
+    <DNA_Seq>ACACCATGGCGCGCGTCCGAGGCCCGCGGCTGCCTGGCTGCCTGGCCCTGGCTGCCCTGTTCAGCCTCGTGCACAGCCAGCATGTGTTCCTGGCCCATCAGCAAGCATCCTCGCTGCTCCAGAGGGCCCGCCGTGCCAACAAGGGCTTCCTGGAGGAGGTGCGGAAGGGCAACCTGGAGCGAGAGTGCCTGGAGGAGCCATGCAGCCGCGAGGAGGCCTTCGAGGCCCTGGAGTCTCTCAGTGCCACGGATGCGTTCTGGGCCAAGTACACAGCTTGTGAGTCAGCGAGAAATCCTCGAGAAAAGCTCAATGAATGTCTGGAAGGAAACTGCGCTGAAGGTGTGGGGATGAACTACCGAGGGAACGTGAGCGTCACCCGGTCAGGCATCGAGTGCCAGCTGTGGAGAAGTCGCTACCCACATAAGCCAGAAATCAACTCTACCACCCACCCGGGGGCTGACCTGCGGGAGAATTTTTGCCGCAACCCGGATGGCAGCATTACTGGGCCCTGGTGCTACACCACATCCCCGACTCTGCGGAGAGAAGAGTGCAGCGTCCCGGTGTGCGGCCAGGACCGAGTCACAGTGGAGGTGATCCCCCGGTCGGGAGGCTCCACTACCAGTCAGTCGCCTCTACTGGAAACATGCGTCCCGGACCGCGGCCGGGAGTACCGGGGGCGACTGGCGGTGACCACACACGGGTCCCGCTGCCTTGCCTGGAGCAGCGAGCAGGCCAAGGCCCTGAGCAAGCACCAGGACTTCAACCCGGCCGTGCCCCTGGCGGAGAACTTCTGCCGCAACCCAGACGGGGACGAGGAGGGCGCCTGGTGCTACGTGGCCGACCAGCCTGGCGACTTTGAGTATTGTGACCTGAACTACTGCGAGGAGCCGGTGGATGGAGACCTGGGAGACAGGCTGGGTGAGGACCCGGACCCGGACGCGGCCATCGAGGGACGCACGTCTGAGGACCATTTCCAGCCCTTCTTCAACGAGAAGACCTTTGGCGCCGGGGAGGCCGACTGTGGCCTGCGACCCCTGTTCGAGAAGAAGCAGGTGCAGGACCAAACGGAGAAGGAGCTTTTCGAGTCCTACATCGAGGGGCGCATCGTGGAGGGTCAGGACGCGGAGGTTGGCCTCTCGCCCTGGCAGGTGATGCTCTTTCGTAAGAGTCCCCAGGAGCTGCTCTGTGGGGCCAGCCTCATCAGTGACCGCTGGGTCCTCACGGCTGCCCACTGTCTCCTGTACCCGCCTTGGGACAAGAACTTCACCGTGGATGACCTGCTGGTGCGCATCGGCAAGCACTCCCGCACCAGGTATGAGCGGAAGGTTGAAAAGATCTCCATGCTGGACAAGATCTACATCCACCCCAGGTACAACTGGAAGGAGAATCTGGACCGGGACATCGCCCTGCTGAAGCTCAAGAGGCCCATCGAGTTATCCGACTACATCCACCCCGTGTGCCTGCCCGACAAGCAGACAGCAGCCAAGCTGCTCCACGCTGGGTTCAAAGGGCGGGTGACGGGCTGGGGCAACCGGAGGGAGACGTGGACCACCAGCGTGGCCGAGGTGCAGCCCAGCGTCCTCCAGGTGGTCAACCTGCCTCTCGTGGAGCGGCCCGTGTGCAAGGCCTCCACCCGGATCCGCATCACCGACAACATGTTCTGTGCCGGTTACAAGCCTGGTGAAGGCAAACGAGGGGACGCTTGTGAGGGCGACAGCGGGGGACCCTTCGTCATGAAGAGCCCCTATAACAACCGCTGGTATCAAATGGGCATCGTCTCATGGGGTGAAGGCTGTGACAGGGATGGAAAATATGGCTTCTACACACACGTCTTCCGCCTGAAGAAGTGGATACAGAAAGTCATTGATCGGTTAGGAAGTTAGGGAGCCACCCACATTCCAAGGCTCCTCACTGCAAAATCTCAGAGGCCAATCCAGTGAATGAATTATTTTTGTGGTTTGTTCCTAAAACTATCTTTCTCAATAAAAGTGACTCTATCAACGAG</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular space</CellLocal>
+      <Ontology_ID>GO:0005615</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular region</CellLocal>
+      <Ontology_ID>GO:0005576</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Secreted</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>F2</Gene_Name>
+    <Gene_ID>280685</Gene_ID>
+    <Genbank_ACCN>NM_173877</Genbank_ACCN>
+    <Protein_ACCN>NP_776302</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/280685</Gene_URL>
+    <EMBL_ID>ENSBTAG00000007148</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q4W8J9</Uniprot_ID>
+      <Gene_Name>coa</Gene_Name>
+      <EBI_ID>EBI-990838</EBI_ID>
+      <PPI_EBI_URL>EBI-990806,EBI-990838</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>THROMBIN INHIBITOR FROM TRIATOMA PALLIDIPENNIS</PDB_Title>
+      <PDB_ID>1AVG</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1AVG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the thrombin complex with triabin, a lipocalin-like exosite-binding inhibitor derived from a triatomine bug.</PubMed_Title>
+      <Author>Fuentes-Prior, P., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(1997)94:11845-11850</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9342325?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF INSECT DERIVED DOUBLE DOMAIN KAZAL INHIBITOR RHODNIIN IN COMPLEX WITH THROMBIN</PDB_Title>
+      <PDB_ID>1TBR</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TBR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Two heads are better than one: crystal structure of the insect derived double domain Kazal inhibitor rhodniin in complex with thrombin.</PubMed_Title>
+      <Author>van de Locht, A., et al.</Author>
+      <Journal>EMBO J.(1995)14:5149-5157</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7489704?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Thrombin-bound boophilin displays a functional and accessible reactive-site loop</PDB_Title>
+      <PDB_ID>2ODY</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ODY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Isolation, cloning and structural characterisation of boophilin, a multifunctional kunitz-type proteinase inhibitor from the cattle tick.</PubMed_Title>
+      <Author>Macedo-Ribeiro, S., et al.</Author>
+      <Journal>Plos One(2008)3:e1624-e1624</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18286181?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THROMBIN COMPLEXED WITH FIBRINOPEPTIDE A ALPHA (RESIDUES 7-19). THREE COMPLEXES, ONE WITH EPSILON-THROMBIN AND TWO WITH ALPHA-THROMBIN</PDB_Title>
+      <PDB_ID>1UCY</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UCY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bovine thrombin complexed with an uncleavable analog of residues 7-19 of fibrinogen A alpha: geometry of the catalytic triad and interactions of the P1', P2', and P3' substrate residues.</PubMed_Title>
+      <Author>Martin, P.D., et al.</Author>
+      <Journal>Biochemistry(1996)35:13030-13039</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8855938?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF BOVINE THROMBIN COMPLEX WITH PROTEASE INHIBITOR ECOTIN</PDB_Title>
+      <PDB_ID>1ID5</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ID5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of thrombin-ecotin reveals conformational changes and extended interactions.</PubMed_Title>
+      <Author>Wang, S.X., et al.</Author>
+      <Journal>Biochemistry(2001)40:10038-10046</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11513582?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>REFINED 2.3 ANGSTROMS X-RAY CRYSTAL STRUCTURE OF BOVINE THROMBIN COMPLEXES FORMED WITH THE BENZAMIDINE AND ARGININE-BASED THROMBIN INHIBITORS NAPAP, 4-TAPAP AND MQPA: A STARTING POINT FOR IMPROVING ANTITHROMBOTICS</PDB_Title>
+      <PDB_ID>1ETS</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ETS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Refined 2.3 A X-ray crystal structure of bovine thrombin complexes formed with the benzamidine and arginine-based thrombin inhibitors NAPAP, 4-TAPAP and MQPA. A starting point for improving antithrombotics.</PubMed_Title>
+      <Author>Brandstetter, H., et al.</Author>
+      <Journal>J.Mol.Biol.(1992)226:1085-1099</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1518046?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CRYSTAL STRUCTURE OF FIBRINOGEN-AA PEPTIDE 1-23 (F8Y) BOUND TO BOVINE THROMBIN EXPLAINS WHY THE MUTATION OF PHE-8 TO TYROSINE STRONGLY INHIBITS NORMAL CLEAVAGE AT ARGININE-16</PDB_Title>
+      <PDB_ID>1YCP</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YCP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of fibrinogen-Aalpha peptide 1-23 (F8Y) bound to bovine thrombin explains why the mutation of Phe-8 to tyrosine strongly inhibits normal cleavage at Arg-16.</PubMed_Title>
+      <Author>Malkowski, M.G., et al.</Author>
+      <Journal>Biochem.J.(1997)326:815-822</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9307032?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CA+2 ION AND MEMBRANE BINDING STRUCTURE OF THE GLA DOMAIN OF CA-PROTHROMBIN FRAGMENT 1</PDB_Title>
+      <PDB_ID>2PF2</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PF2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Ca2+ ion and membrane binding structure of the Gla domain of Ca-prothrombin fragment 1.</PubMed_Title>
+      <Author>Soriano-Garcia, M., et al.</Author>
+      <Journal>Biochemistry(1992)31:2554-2566</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1547238?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF INSECT DERIVED DOUBLE DOMAIN KAZAL INHIBITOR RHODNIIN IN COMPLEX WITH THROMBIN</PDB_Title>
+      <PDB_ID>1TBQ</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TBQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Two heads are better than one: crystal structure of the insect derived double domain Kazal inhibitor rhodniin in complex with thrombin.</PubMed_Title>
+      <Author>van de Locht, A., et al.</Author>
+      <Journal>EMBO J.(1995)14:5149-5157</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7489704?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF SERINE PROTEINASE</PDB_Title>
+      <PDB_ID>1TOC</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TOC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The ornithodorin-thrombin crystal structure, a key to the TAP enigma?</PubMed_Title>
+      <Author>van de Locht, A., et al.</Author>
+      <Journal>EMBO J.(1996)15:6011-6017</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8947023?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>REFINED 2.3 ANGSTROMS X-RAY CRYSTAL STRUCTURE OF BOVINE THROMBIN COMPLEXES FORMED WITH THE BENZAMIDINE AND ARGININE-BASED THROMBIN INHIBITORS NAPAP, 4-TAPAP AND MQPA: A STARTING POINT FOR IMPROVING ANTITHROMBOTICS</PDB_Title>
+      <PDB_ID>1ETT</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ETT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Refined 2.3 A X-ray crystal structure of bovine thrombin complexes formed with the benzamidine and arginine-based thrombin inhibitors NAPAP, 4-TAPAP and MQPA. A starting point for improving antithrombotics.</PubMed_Title>
+      <Author>Brandstetter, H., et al.</Author>
+      <Journal>J.Mol.Biol.(1992)226:1085-1099</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1518046?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF RESIDUES 7-16 OF THE A ALPHA CHAIN OF HUMAN FIBRINOGEN BOUND TO BOVINE THROMBIN AT 2.3 ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>1BBR</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BBR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of residues 7-16 of the A alpha-chain of human fibrinogen bound to bovine thrombin at 2.3-A resolution.</PubMed_Title>
+      <Author>Martin, P.D., et al.</Author>
+      <Journal>J.Biol.Chem.(1992)267:7911-7920</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1560020?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF BOVINE PROTHROMBIN FRAGMENT 1 REFINED AT 2.25 ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>2PF1</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PF1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of bovine prothrombin fragment 1 refined at 2.25 A resolution.</PubMed_Title>
+      <Author>Seshadri, T.P., et al.</Author>
+      <Journal>J.Mol.Biol.(1991)220:481-494</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1856869?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF A COMPLEX OF BOVINE ALPHA-THROMBIN AND RECOMBINANT HIRUDIN AT 2.8 ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>1HRT</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HRT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of a complex of bovine alpha-thrombin and recombinant hirudin at 2.8-A resolution.</PubMed_Title>
+      <Author>Vitali, J., et al.</Author>
+      <Journal>J.Biol.Chem.(1992)267:17670-17678</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1517214?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Staphylocoagulase bound to bovine thrombin</PDB_Title>
+      <PDB_ID>2A1D</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2A1D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for Reduced Staphylocoagulase-mediated Bovine Prothrombin Activation</PubMed_Title>
+      <Author>Friedrich, R., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:1188-1195</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16230338?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THROMBIN:HIRUDIN 51-65 COMPLEX</PDB_Title>
+      <PDB_ID>1VIT</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VIT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a bovine thrombin-hirudin51-65 complex determined by a combination of molecular replacement and graphics. Incorporation of known structural information in molecular replacement.</PubMed_Title>
+      <Author>Vitali, J., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(1996)52:453-464</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15299666?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE X-RAY CRYSTAL STRUCTURE OF PPACK-MEIZOTHROMBIN DESF1: KRINGLE/THROMBIN AND CARBOHYDRATE/KRINGLE/THROMBIN INTERACTIONS AND LOCATION OF THE LINKER CHAIN</PDB_Title>
+      <PDB_ID>1A0H</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1A0H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>1 - 1A0H : Thrombin is built as a large inactive precursor, which is then activated when needed by removing part of the protein chain. This structure shows thrombin halfway through the activation process, when part of the protein chain has been removed.</PubMed_Title>
+      <Author>Martin, P.D., et al.</Author>
+      <Journal>Structure(1997)5:1681-1693</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9438869?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CO-CRYSTAL STRUCTURE OF UNLIGANDED BOVINE ALPHA-THROMBIN AND PRETHROMBIN-2: MOVEMENT OF THE YPPW SEGMENT AND ACTIVE SITE RESIDUES UPON LIGAND BINDING</PDB_Title>
+      <PDB_ID>1MKW</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MKW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The co-crystal structure of unliganded bovine alpha-thrombin and prethrombin-2: movement of the Tyr-Pro-Pro-Trp segment and active site residues upon ligand binding.</PubMed_Title>
+      <Author>Malkowski, M.G., et al.</Author>
+      <Journal>Protein Sci.(1997)6:1438-1448</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9232645?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>BOVINE THROMBIN--BM14.1248 COMPLEX</PDB_Title>
+      <PDB_ID>1UVT</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UVT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Enzyme flexibility, solvent and 'weak' interactions characterize thrombin-ligand interactions: implications for drug design.</PubMed_Title>
+      <Author>Engh, R.A., et al.</Author>
+      <Journal>Structure(1996)4:1353-1362</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8939759?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>BOVINE PROTHROMBIN FRAGMENT 1 IN COMPLEX WITH CALCIUM AND LYSOPHOSPHOTIDYLSERINE</PDB_Title>
+      <PDB_ID>1NL2</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NL2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of membrane binding by Gla domains of vitamin K-dependent proteins.</PubMed_Title>
+      <Author>Huang, M., et al.</Author>
+      <Journal>Nat.Struct.Biol.(2003)10:751-756</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12923575?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>BOVINE PROTHROMBIN FRAGMENT 1 IN COMPLEX WITH CALCIUM ION</PDB_Title>
+      <PDB_ID>1NL1</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NL1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of membrane binding by Gla domains of vitamin K-dependent proteins.</PubMed_Title>
+      <Author>Huang, M., et al.</Author>
+      <Journal>Nat.Struct.Biol.(2003)10:751-756</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12923575?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>BOVINE THROMBIN--BM12.1700 COMPLEX</PDB_Title>
+      <PDB_ID>1UVU</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UVU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Enzyme flexibility, solvent and 'weak' interactions characterize thrombin-ligand interactions: implications for drug design.</PubMed_Title>
+      <Author>Engh, R.A., et al.</Author>
+      <Journal>Structure(1996)4:1353-1362</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8939759?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structures of the noncovalent complexes of human and bovine prothrombin fragment 2 with human ppack-thrombin</PDB_Title>
+      <PDB_ID>2HPP</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HPP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the noncovalent complexes of human and bovine prothrombin fragment 2 with human PPACK-thrombin.</PubMed_Title>
+      <Author>Arni, R.K., et al.</Author>
+      <Journal>Biochemistry(1993)32:4727-4737</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8387813?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>2.9 Angstrom crystal structure of bovine thrombin in tetragonal spacegroup</PDB_Title>
+      <PDB_ID>3PMB</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PMB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Interaction of thrombin with sucrose octasulfate.</PubMed_Title>
+      <Author>Desai, B.J., et al.</Author>
+      <Journal>Biochemistry(2011)50:6973-6982</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21736375?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>2.2 Angstrom crystal structure of the complex between Bovine Thrombin and Sucrose Octasulfate</PDB_Title>
+      <PDB_ID>3PMA</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PMA</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03750006</ASD_Ligand>
+      <PubMed_Title>Interaction of thrombin with sucrose octasulfate.</PubMed_Title>
+      <Author>Desai, B.J., et al.</Author>
+      <Journal>Biochemistry(2011)50:6973-6982</Journal>
+      <PubMed_ID>21736375</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CO-CRYSTAL STRUCTURE OF UNLIGANDED BOVINE ALPHA-THROMBIN AND PRETHROMBIN-2: MOVEMENT OF THE YPPW SEGMENT AND ACTIVE SITE RESIDUES UPON LIGAND BINDING</PDB_Title>
+      <PDB_ID>1MKX</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MKX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The co-crystal structure of unliganded bovine alpha-thrombin and prethrombin-2: movement of the Tyr-Pro-Pro-Trp segment and active site residues upon ligand binding.</PubMed_Title>
+      <Author>Malkowski, M.G., et al.</Author>
+      <Journal>Protein Sci.(1997)6:1438-1448</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9232645?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>REFINED 2.3 ANGSTROMS X-RAY CRYSTAL STRUCTURE OF BOVINE THROMBIN COMPLEXES FORMED WITH THE BENZAMIDINE AND ARGININE-BASED THROMBIN INHIBITORS NAPAP, 4-TAPAP AND MQPA: A STARTING POINT FOR IMPROVING ANTITHROMBOTICS</PDB_Title>
+      <PDB_ID>1ETR</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ETR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Refined 2.3 A X-ray crystal structure of bovine thrombin complexes formed with the benzamidine and arginine-based thrombin inhibitors NAPAP, 4-TAPAP and MQPA. A starting point for improving antithrombotics.</PubMed_Title>
+      <Author>Brandstetter, H., et al.</Author>
+      <Journal>J.Mol.Biol.(1992)226:1085-1099</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1518046?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIFFERENCES IN THE METAL ION STRUCTURE BETWEEN SR-AND CA-PROTHROMBIN FRAGMENT 1</PDB_Title>
+      <PDB_ID>2SPT</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2SPT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Differences in the metal ion structure between Sr- and Ca-prothrombin fragment 1.</PubMed_Title>
+      <Author>Seshadri, T.P., et al.</Author>
+      <Journal>Biochemistry(1994)33:1087-1092</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8110739?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04540</Pathway_ID>
+      <Pathway_Title>Gap junction</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05130</Pathway_ID>
+      <Pathway_Title>Pathogenic Escherichia coli infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05130</Pathway_ID>
+      <Pathway_Title>Pathogenic Escherichia coli infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04540</Pathway_ID>
+      <Pathway_Title>Gap junction</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.21.5</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/21/5.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00290006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03750001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03750002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03750003</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03750004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03750005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03750006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03758001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

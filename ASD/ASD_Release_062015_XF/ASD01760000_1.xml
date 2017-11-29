@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01760000_1</Organism_ID>
+  <Organism>Bifidobacterium longum</Organism>
+  <Organism_Latin>Bifidobacterium longum</Organism_Latin>
+  <UniProt_ID>P0CW93</UniProt_ID>
+  <Seq_Length>320</Seq_Length>
+  <Molecule_Weight>34240</Molecule_Weight>
+  <KEGG_ID>blo:BL1308</KEGG_ID>
+  <Orthology_ID>K00016</Orthology_ID>
+  <Catalytic_Mechanism>(S)-lactate + NAD(+) = pyruvate + NADH.</Catalytic_Mechanism>
+  <Pfam_ID>PF02866:Ldh_1_C@@PF00056:Ldh_1_N</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>L-LDH</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: (S)-lactate + NAD+ = pyruvate + NADH + H+.</Detail>
+      <Keyword>L-lactate dehydrogenase activity</Keyword>
+      <Ontology_ID>GO:0004459</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a monosaccharide (generally glucose) into pyruvate, with the concomitant production of a small amount of ATP. Pyruvate may be converted to ethanol, lactate, or other small molecules, or fed into the TCA cycle.</Detail>
+      <Keyword>Glycolysis</Keyword>
+      <Ontology_ID>GO:0006096</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>228</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAETTVKPTKLAVIGAGAVGSTLAFAAAQRGIAREIVLEDIAKERVEAEVLDMQHGSSFYPTVSIDGSDDPEICRDADMVVITAGPRQKPGQSRLELVGATVNILKAIMPNLVKVAPNAIYMLITNPVDIATHVAQKLTGLPENQIFGSGTNLDSARLRFLIAQQTGVNVKNVHAYIAGEHGDSEVPLWESATIGGVPMCDWTPLPGHDPLDADKREEIHQEVKNAAYKIINGKGATNYAIGMSGVDIIEAVLHDTNRILPVSSMLKDFHGISDICMSVPTLLNRQGVNNTINTPVSDKELAALKRSAETLKETAAQFGF</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ldh2</Gene_Name>
+    <Gene_Alias>ldh</Gene_Alias>
+    <Gene_ID>1022790</Gene_ID>
+    <Genbank_ACCN>NC_004307</Genbank_ACCN>
+    <Protein_ACCN>NP_696472</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1022790</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>MOLECULAR BASIS OF ALLOSTERIC ACTIVATION OF BACTERIAL L-LACTATE DEHYDROGENASE</PDB_Title>
+      <PDB_ID>1LLD</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1LLD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADP</Ligand_Name>
+      <PubMed_Title>Molecular basis of allosteric activation of bacterial L-lactate dehydrogenase</PubMed_Title>
+      <Author>Iwata S</Author>
+      <Journal>J Mol Biol. 1993 Mar 5;230(1):21-7</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=8450537</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>T AND R STATES IN THE CRYSTALS OF BACTERIAL L-LACTATE DEHYDROGENASE REVEAL THE MECHANISM FOR ALLOSTERIC CONTROL</PDB_Title>
+      <PDB_ID>1LTH</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1LTH</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00200001</ASD_Ligand>
+      <Ligand_Name>BETA-FRUCTOSE-1,6-DIPHOSPHATE$NICOTINAMIDE-ADENINE-DINUCLEOTIDE$OXAMIC ACID</Ligand_Name>
+      <PubMed_Title>T and R states in the crystals of bacterial L-lactate dehydrogenase reveal the mechanism for allosteric control</PubMed_Title>
+      <Author>Iwata S</Author>
+      <Journal>Nat Struct Biol. 1994 Mar;1(3):176-85</Journal>
+      <PubMed_ID>7656036</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00270</Pathway_ID>
+      <Pathway_Title>Cysteine and methionine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00620</Pathway_ID>
+      <Pathway_Title>Pyruvate metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00640</Pathway_ID>
+      <Pathway_Title>Propanoate metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04922</Pathway_ID>
+      <Pathway_Title>Glucagon signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00010</Pathway_ID>
+      <Pathway_Title>Glycolysis / Gluconeogenesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.c.b.g.cf.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1lld</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,172,Asn;site,176,Tyr;site,159,Arg;site,174,His</Site_Detail>
+      <Site_Reference>Iwata S, et al. Nat.Struct.Biol. 1994,1(3):176-185.;Selwood T, et al. Arch Biochem Biophys. 2012, 519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PDB_ID>1LTH</PDB_ID>
+      <PubMed_ID>7656036;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.1.1.27</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/27.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00200001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

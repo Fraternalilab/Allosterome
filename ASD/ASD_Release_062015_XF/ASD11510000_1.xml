@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11510000_1</Organism_ID>
+  <Organism>Bovine</Organism>
+  <Organism_Latin>Bos taurus</Organism_Latin>
+  <UniProt_ID>P02633</UniProt_ID>
+  <Seq_Length>79</Seq_Length>
+  <Molecule_Weight>8918</Molecule_Weight>
+  <KEGG_ID>bta:281658</KEGG_ID>
+  <Orthology_ID>K14734</Orthology_ID>
+  <Pfam_ID>PF00036:EF-hand_1@@PF01023:S_100</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>4</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Calbindin-D9k</Alias>
+      <Alias>S100 calcium-binding protein G</Alias>
+      <Alias>CABP</Alias>
+      <Alias>Vitamin D-dependent calcium-binding protein, intestinal</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with calcium ions (Ca2+).</Detail>
+      <Keyword>Calcium ion binding</Keyword>
+      <Ontology_ID>GO:0005509</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with vitamin D, any of a group of related, fat-soluble compounds that are derived from delta-5,7 steroids and play a central role in calcium metabolism. Specific forms of vitamin D include calciferol (ergocalciferol; vitamin D2) and cholecalciferol (calciol; vitamin D3).</Detail>
+      <Keyword>Vitamin D binding</Keyword>
+      <Ontology_ID>GO:0005499</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <PTM_List>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>N-acetylserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSAKKSPEELKGIFEKYAAKEGDPNQLSKEELKLLLQTEFPSLLKGPSTLDELFEELDKNGDGEVSFEEFQVLVKKISQ</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Basolateral plasma membrane</CellLocal>
+      <Ontology_ID>GO:0016323</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Apical plasma membrane</CellLocal>
+      <Ontology_ID>GO:0016324</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>S100G</Gene_Name>
+    <Gene_Alias>CALB3; S100D</Gene_Alias>
+    <Gene_ID>281658</Gene_ID>
+    <Genbank_ACCN>NM_174257</Genbank_ACCN>
+    <Protein_ACCN>NP_776682</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/281658</Gene_URL>
+    <EMBL_ID>ENSBTAG00000017020</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>BOVINE CALBINDIN D9K BINDING MG2+</PDB_Title>
+      <PDB_ID>1IG5</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1IG5</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Structural basis for the negative allostery between Ca(2+)- and Mg(2+)-binding in the intracellular Ca(2+)-receptor calbindin D9k.</PubMed_Title>
+      <Author>Andersson, M., et al.</Author>
+      <Journal>Protein Sci.(1997)6:1139-1147</Journal>
+      <PubMed_ID>9194174</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>BOVINE CALBINDIN D9K BINDING MN2+</PDB_Title>
+      <PDB_ID>1IGV</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1IGV</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00890024</ASD_Ligand>
+      <PubMed_Title>Structural basis for the negative allostery between Ca(2+)- and Mg(2+)-binding in the intracellular Ca(2+)-receptor calbindin D9k.</PubMed_Title>
+      <Author>Andersson, M., et al.</Author>
+      <Journal>Protein Sci.(1997)6:1139-1147</Journal>
+      <PubMed_ID>9194174</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE REFINED STRUCTURE OF VITAMIN D-DEPENDENT CALCIUM-BINDING PROTEIN FROM BOVINE INTESTINE. MOLECULAR DETAILS, ION BINDING, AND IMPLICATIONS FOR THE STRUCTURE OF OTHER CALCIUM-BINDING PROTEINS</PDB_Title>
+      <PDB_ID>3ICB</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ICB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11630001</ASD_Ligand>
+      <PubMed_Title>The refined structure of vitamin D-dependent calcium-binding protein from bovine intestine. Molecular details, ion binding, and implications for the structure of other calcium-binding proteins.</PubMed_Title>
+      <Author>Szebenyi, D.M., et al.</Author>
+      <Journal>J.Biol.Chem.(1986)261:8761-8777</Journal>
+      <PubMed_ID>3722173</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04978</Pathway_ID>
+      <Pathway_Title>Mineral absorption</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Digestive system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04978</Pathway_ID>
+      <Pathway_Title>Mineral absorption</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Digestive system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04978</Pathway_ID>
+      <Pathway_Title>Mineral absorption</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Digestive system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04978</Pathway_ID>
+      <Pathway_Title>Mineral absorption</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Digestive system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00240007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00330030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11630001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2014-06-12</Create_Date>
+</Organism_Record>

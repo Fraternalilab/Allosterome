@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08550000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P60472</UniProt_ID>
+  <Seq_Length>253</Seq_Length>
+  <Molecule_Weight>28444</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0170</KEGG_ID>
+  <Orthology_ID>K00806</Orthology_ID>
+  <Function_Summary>Generates ditrans,octacis-undecaprenyl pyrophosphate (UPP) from isopentenyl pyrophosphate (IPP) and farnesyl diphosphate. UPP is the precursor of glycosyl carrier lipid in the biosynthesis of bacterial cell wall polysaccharide components such as peptidoglycan and lipopolysaccharide.</Function_Summary>
+  <Catalytic_Mechanism>(2E,6E)-farnesyl diphosphate + 8 isopentenyl diphosphate = 8 diphosphate + di-trans,octa-cis-undecaprenyl diphosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF01255:Prenyltransf</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Undecaprenyl diphosphate synthase</Alias>
+      <Alias>Di-trans,poly-cis-decaprenylcistransferase</Alias>
+      <Alias>UDS</Alias>
+      <Alias>UPP synthase</Alias>
+      <Alias>Ditrans,polycis-undecaprenyl-diphosphate synthase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: di-trans-poly-cis-decaprenyl diphosphate + isopentenyl diphosphate = diphosphate + di-trans-poly-cis-undecaprenyl diphosphate.</Detail>
+      <Keyword>Di-trans,poly-cis-decaprenylcistransferase activity</Keyword>
+      <Ontology_ID>GO:0008834</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of the cell wall, the rigid or semi-rigid envelope lying outside the cell membrane of plant, fungal and most prokaryotic cells, maintaining their shape and protecting them from osmotic lysis.</Detail>
+      <Keyword>Cellular cell wall organization</Keyword>
+      <Ontology_ID>GO:0007047</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of biochemical and morphological phases and events that occur in a cell during successive cell replication or nuclear replication events. Canonically, the cell cycle comprises the replication and segregation of genetic material followed by the division of the cell, but in endocycles or syncytial cells nuclear replication or nuclear division may not be followed by cell division.</Detail>
+      <Keyword>Cell cycle</Keyword>
+      <Ontology_ID>GO:0007049</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the surface configuration of a cell.</Detail>
+      <Keyword>Regulation of cell shape</Keyword>
+      <Ontology_ID>GO:0008360</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of a cell wall of the type found in Gram-negative bacteria. The cell wall is the rigid or semi-rigid envelope lying outside the cell membrane.</Detail>
+      <Keyword>Gram-negative-bacterium-type cell wall biogenesis</Keyword>
+      <Ontology_ID>GO:0043164</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of polyprenols, prenols with more than 4 isoprenoid residues, which may be all-trans, or a mixture of cis and trans.</Detail>
+      <Keyword>Polyprenol biosynthetic process</Keyword>
+      <Ontology_ID>GO:0016094</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of peptidoglycans, any of a class of glycoconjugates found in bacterial cell walls.</Detail>
+      <Keyword>Peptidoglycan biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009252</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process resulting in the physical partitioning and separation of a cell into daughter cells.</Detail>
+      <Keyword>Cell division</Keyword>
+      <Ontology_ID>GO:0051301</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MMLSATQPLSEKLPAHGCRHVAIIMDGNGRWAKKQGKIRAFGHKAGAKSVRRAVSFAANNGIEALTLYAFSSENWNRPAQEVSALMELFVWALDSEVKSLHRHNVRLRIIGDTSRFNSRLQERIRKSEALTAGNTGLTLNIAANYGGRWDIVQGVRQLAEKVQQGNLQPDQIDEEMLNQHVCMHELAPVDLVIRTGGEHRISNFLLWQIAYAELYFTDVLWPDFDEQDFEGALNAFANRERRFGGTEPGDETA</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ispU</Gene_Name>
+    <Gene_Alias>ispU; rth; yaeS</Gene_Alias>
+    <Gene_ID>12931773</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_414716</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/944874</Gene_URL>
+    <EMBL_ID>EBESCG00000013836</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of the D26A mutant UPPs in complex with magnesium and isopentenyl pyrophosphate</PDB_Title>
+      <PDB_ID>1X09</PDB_ID>
+      <Resolution>1.87</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1X09</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of undecaprenyl pyrophosphate synthase in complex with magnesium, isopentenyl pyrophosphate, and farnesyl thiopyrophosphate: roles of the metal ion and conserved residues in catalysis.</PubMed_Title>
+      <Author>Guo, R.T., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:20762-20774</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15788389?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>E. coli undecaprenyl pyrophosphate synthase in complex with BPH-675</PDB_Title>
+      <PDB_ID>2E9C</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2E9C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bisphosphonates target multiple sites in both cis- and trans-prenyltransferases</PubMed_Title>
+      <Author>Guo, R.T., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2007)104:10022-10027</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17535895?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>E. coli undecaprenyl pyrophosphate synthase in complex with Triton X-100, magnesium and sulfate</PDB_Title>
+      <PDB_ID>1UEH</PDB_ID>
+      <Resolution>1.73</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UEH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Catalytic mechanism revealed by the crystal structure of undecaprenyl pyrophosphate synthase in complex with sulfate, magnesium, and triton</PubMed_Title>
+      <Author>Chang, S.-Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2003)278:29298-29307</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12756244?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of E.coli undecaprenyl pyrophosphate synthase</PDB_Title>
+      <PDB_ID>1JP3</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JP3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanism of product chain length determination and the role of a flexible loop in Escherichia coli undecaprenyl-pyrophosphate synthase catalysis.</PubMed_Title>
+      <Author>Ko, T.P., et al.</Author>
+      <Journal>J.Biol.Chem.(2001)276:47474-47482</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11581264?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>E. coli undecaprenyl pyrophosphate synthase in complex with BPH-628</PDB_Title>
+      <PDB_ID>2E9A</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2E9A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bisphosphonates target multiple sites in both cis- and trans-prenyltransferases</PubMed_Title>
+      <Author>Guo, R.T., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2007)104:10022-10027</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17535895?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of Undecaprenyl Diphosphate synthase</PDB_Title>
+      <PDB_ID>3QAS</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QAS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Applying Molecular Dynamics Simulations to Identify Rarely Sampled Ligand-bound Conformational States of Undecaprenyl Pyrophosphate Synthase, an Antibacterial Target.</PubMed_Title>
+      <Author>Sinko, W., et al.</Author>
+      <Journal>Chem.Biol.Drug Des.(2011)77:412-420</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21294851?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>E. coli undecaprenyl pyrophosphate synthase in complex with BPH-608</PDB_Title>
+      <PDB_ID>2E99</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2E99</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bisphosphonates target multiple sites in both cis- and trans-prenyltransferases</PubMed_Title>
+      <Author>Guo, R.T., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2007)104:10022-10027</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17535895?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>E. coli undecaprenyl pyrophosphate synthase in complex with BPH-676</PDB_Title>
+      <PDB_ID>2E9D</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2E9D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bisphosphonates target multiple sites in both cis- and trans-prenyltransferases</PubMed_Title>
+      <Author>Guo, R.T., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2007)104:10022-10027</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17535895?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of D26A mutant UPPs in complex with Mg, IPP and FsPP</PDB_Title>
+      <PDB_ID>1X08</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1X08</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of undecaprenyl pyrophosphate synthase in complex with magnesium, isopentenyl pyrophosphate, and farnesyl thiopyrophosphate: roles of the metal ion and conserved residues in catalysis.</PubMed_Title>
+      <Author>Guo, R.T., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:20762-20774</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15788389?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of undecaprenyl pyrophosphate synthase in complex with Mg, IPP and Fspp</PDB_Title>
+      <PDB_ID>1X06</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1X06</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of undecaprenyl pyrophosphate synthase in complex with magnesium, isopentenyl pyrophosphate, and farnesyl thiopyrophosphate: roles of the metal ion and conserved residues in catalysis.</PubMed_Title>
+      <Author>Guo, R.T., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:20762-20774</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15788389?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Undecaprenyl Pyrophosphate Synthase with farnesyl pyrophosphate</PDB_Title>
+      <PDB_ID>1V7U</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1V7U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Substrate binding mode and reaction mechanism of undecaprenyl pyrophosphate synthase deduced from crystallographic studies</PubMed_Title>
+      <Author>Chang, S.-Y., et al.</Author>
+      <Journal>Protein Sci.(2004)13:971-978</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15044730?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of undecaprenyl pyrophosphate synthase in complex with Mg and IPP</PDB_Title>
+      <PDB_ID>1X07</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1X07</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of undecaprenyl pyrophosphate synthase in complex with magnesium, isopentenyl pyrophosphate, and farnesyl thiopyrophosphate: roles of the metal ion and conserved residues in catalysis.</PubMed_Title>
+      <Author>Guo, R.T., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:20762-20774</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15788389?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>E. coli undecaprenyl pyrophosphate synthase in complex with BPH-629</PDB_Title>
+      <PDB_ID>2E98</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2E98</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bisphosphonates target multiple sites in both cis- and trans-prenyltransferases</PubMed_Title>
+      <Author>Guo, R.T., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2007)104:10022-10027</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17535895?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00900</Pathway_ID>
+      <Pathway_Title>Terpenoid backbone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of terpenoids and polyketides</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.ei.b.b.c.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1jp3</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.5.1.31</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/5/1/31.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD08550001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08550002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

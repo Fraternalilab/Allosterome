@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04120000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P55263</UniProt_ID>
+  <Seq_Length>362</Seq_Length>
+  <Molecule_Weight>40545</Molecule_Weight>
+  <KEGG_ID>hsa:132</KEGG_ID>
+  <Orthology_ID>K00856</Orthology_ID>
+  <Function_Summary>ATP dependent phosphorylation of adenosine and other related nucleoside analogs to monophosphate derivatives. Serves as a potential regulator of concentrations of extracellular adenosine and intracellular adenine nucleotides.</Function_Summary>
+  <Catalytic_Mechanism>ATP + adenosine = ADP + AMP.</Catalytic_Mechanism>
+  <Pfam_ID>PF00294:PfkB</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>49</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>AK</Alias>
+      <Alias>Adenosine 5'-phosphotransferase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphorus-containing group from one compound (donor) to an alcohol group (acceptor).</Detail>
+      <Keyword>Phosphotransferase activity, alcohol group as acceptor</Keyword>
+      <Ontology_ID>GO:0016773</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + adenosine = ADP + AMP.</Detail>
+      <Keyword>Adenosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004001</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>235</Position>
+      <Original>Asp</Original>
+      <Variation>Ala</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>30</Position>
+      <Original>Gly</Original>
+      <Variation>Glu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>318</Position>
+      <Original>Ala</Original>
+      <Variation>Glu</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving purine bases, one of the two classes of nitrogen-containing ring compounds found in DNA and RNA, which include adenine and guanine.</Detail>
+      <Keyword>Purine base metabolic process</Keyword>
+      <Ontology_ID>GO:0006144</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process which produces a purine nucleoside from derivatives of it, without de novo synthesis.</Detail>
+      <Keyword>Purine ribonucleoside salvage</Keyword>
+      <Ontology_ID>GO:0006166</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>N-acetylalanine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>77</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAAAEEEPKPKKLKVEAPQALRENILFGMGNPLLDISAVVDKDFLDKYSLKPNDQILAEDKHKELFDELVKKFKVEYHAGGSTQNSIKVAQWMIQQPHKAATFFGCIGIDKFGEILKRKAAEAHVDAHYYEQNEQPTGTCAACITGDNRSLIANLAAANCYKKEKHLDLEKNWMLVEKARVCYIAGFFLTVSPESVLKVAHHASENNRIFTLNLSAPFISQFYKESLMKVMPYVDILFGNETEAATFAREQGFETKDIKEIAKKTQALPKMNSKRQRIVIFTQGRDDTIMATESEVTAFAVLDQDQKEIIDTNGAGDAFVGGFLSQLVSDKPLTECIRAGHYAASIIIRRTGCTFPEKPDFH</Protein_Seq>
+    <DNA_Seq>CGGCCATTTTTGGGGCGGGCACCCAATCTCTCGCCCTGTAAACTGCGGGGTGACGGGACGCTGTTACTAGGACTCAAGATGGCCACCGCGCCCGCTAGTCATCTCGCTAGCCCGCGCGCCAGTGAGCTGGCACGAGACACGCGGTGGCCCACGGCGTCTGGGGACGATCTCCAGCCCTTCGCACGGGGCGGAGCGCCCGCCTTCCCTCCAATCAGCACGCCGGGCCGGCTAGCCAGGGGCCGCCCGCGCGCGGGGTGTGTGAGGACGCGCTCCCAGTCGCTGAGTGCCTGAGCCGGGAAGCAGTTGCTGTGGTACCTGCTGCTGCCCGAGCGGACGTAGAGCATCGGACGCGGGCGCCGTGGCGCTGGGCAGGAGGGCGAAGCCATGACGTCAGTCAGAGAAAATATTCTCTTTGGAATGGGAAATCCTCTGCTTGACATCTCTGCTGTAGTGGACAAAGATTTCCTTGATAAGTATTCTCTGAAACCAAATGACCAAATCTTGGCTGAAGACAAACACAAGGAACTGTTTGATGAACTTGTGAAAAAATTCAAAGTCGAATATCATGCTGGTGGCTCTACCCAGAATTCAATTAAAGTGGCTCAGTGGATGATTCAACAGCCACACAAAGCAGCAACATTTTTTGGATGCATTGGGATAGATAAATTTGGGGAGATCCTGAAGAGAAAAGCTGCTGAAGCCCATGTGGATGCTCATTACTACGAGCAGAATGAGCAGCCAACAGGAACTTGTGCTGCATGCATCACTGGTGACAACAGGTCCCTCATAGCTAATCTTGCTGCTGCCAATTGTTATAAAAAGGAAAAACATCTTGATCTGGAGAAAAACTGGATGTTGGTAGAAAAAGCAAGAGTTTGTTATATAGCAGGCTTTTTTCTTACAGTTTCCCCAGAGTCAGTATTAAAGGTGGCTCACCATGCTTCTGAAAACAACAGGATTTTCACTTTGAATCTATCTGCACCGTTTATTAGCCAGTTCTACAAGGAATCATTGATGAAAGTTATGCCTTATGTTGATATACTTTTTGGAAATGAGACAGAAGCTGCCACTTTTGCTAGAGAGCAAGGCTTTGAGACTAAAGACATTAAAGAGATAGCCAAAAAGACACAAGCCCTGCCAAAGATGAACTCAAAGAGGCAGCGAATCGTGATCTTCACCCAAGGGAGAGATGACACTATAATGGCTACAGAAAGTGAAGTCACTGCTTTTGCTGTCTTGGATCAAGACCAGAAAGAAATTATTGATACCAATGGAGCTGGAGATGCATTTGTTGGAGGTTTTCTGTCTCAACTGGTCTCTGACAAGCCTCTGACTGAATGTATCCGTGCTGGCCACTATGCAGCAAGCATCATAATTAGACGGACTGGCTGCACCTTTCCTGAGAAGCCAGACTTCCACTGATGGAAGAGCTGAAAACACAAGCCCAGGAGTGCAGACACTGCCCTAATTGCTTCCTGAGAATTCCCATATTAATAAAGAAGAAAATTATCTGCCATTTTTTCCTACTATAATAATGCTGAATCTTAATTTAGAGGGTACAAGGGTATGGTAATGCTTGTAGAATCTTTATTATCTCAACAATCTAAAAAATGATGTTTATTTCCATAGTTTGATAGTGCCACTTAAATGCCAATTAAACAAGAATATAACATTTCAATAGAAATTTTTATTTCATTTTCAATTACTTTGTAAATTCGTGTGTATTTAGTACACTGATTTGTTTTTTTACATTTCTGCTTTGAATGCAGATGCAATTTAATATAATAGATTTTTTAATGAATTAATCTTAACATAGTAATCTTTAGCTTTTTATACAAATATATTTAATTTAGGAGTATATGTGTGTCTATACACACACATACATAAATATACCACATATACACCTGATAGTCAAATAAGGTACAGAAATTTTATCTTGTCAATTATGCCAAATAATCTCTTTAATGTGCACTCAAACATGTAATAAACTTTGGATAATTAAATAATGTGCCAAATTTAAGTTGTACCACAATATTCAAATCATAGTCTTATGGAACTCTGTAATTGGACACAAACAAAAACTTGTCATATAGGAATTTTTTTCTGTCTTTTCCCTGTGTACAGCAAACTGAGGAAGAAAGATCATTATTTAATACTGGGCCCTGAAATGACACCCAATTTGTTAATGGAATTATGAAGAACAGCAATATAATACACTGAAGAATAACTTAGTATCAGAGACCAATAAATCACTTTTTTAAGGATGACAAAATGGTATAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ADK</Gene_Name>
+    <Gene_ID>132</Gene_ID>
+    <Genbank_ACCN>NM_001123</Genbank_ACCN>
+    <Protein_ACCN>NP_001114</Protein_ACCN>
+    <HGNC_ID>257</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/132</Gene_URL>
+    <UCSC_ID>uc001jwi.3</UCSC_ID>
+    <EMBL_ID>ENSG00000156110</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Hypermethioninemia Due to Adenosine Kinase Deficiency</Disease_Name>
+      <Disease_Detail>Hypermethioninemia</Disease_Detail>
+      <Disease_DB>HYP241</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypermethioninemia_due_to_adenosine_kinase_deficiency?search=ADK#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Rasmussen Encephalitis</Disease_Name>
+      <Disease_Detail>Rasmussen Encephalitis</Disease_Detail>
+      <Disease_DB>RSM001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/rasmussen_encephalitis?search=ADK#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ischemia</Disease_Name>
+      <Disease_Detail>Ischemia</Disease_Detail>
+      <Disease_DB>ISC004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ischemia?search=ADK#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hypermethioninemia</Disease_Name>
+      <Disease_Detail>Hypermethioninemia</Disease_Detail>
+      <Disease_DB>HYP003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypermethioninemia?search=ADK#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Human Adenosine Kinase in Complex With 5'-Deoxy-5-Iodotubercidin</PDB_Title>
+      <PDB_ID>2I6A</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2I6A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of human adenosine kinase inhibitor complexes reveal two distinct binding modes.</PubMed_Title>
+      <Author>Muchmore, S.W., et al.</Author>
+      <Journal>J.Med.Chem.(2006)49:6726-6731</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17154503?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Adenosine Kinase in Complex with An Acetylinic Inhibitor</PDB_Title>
+      <PDB_ID>2I6B</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2I6B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of human adenosine kinase inhibitor complexes reveal two distinct binding modes.</PubMed_Title>
+      <Author>Muchmore, S.W., et al.</Author>
+      <Journal>J.Med.Chem.(2006)49:6726-6731</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17154503?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF HUMAN ADENOSINE KINASE AT 1.50 ANGSTROMS</PDB_Title>
+      <PDB_ID>1BX4</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BX4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of human adenosine kinase at 1.5 A resolution.</PubMed_Title>
+      <Author>Mathews, I.I., et al.</Author>
+      <Journal>Biochemistry(1998)37:15607-15620</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9843365?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00230</Pathway_ID>
+      <Pathway_Title>Purine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.bad.b.e.i.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1bx4</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.1.20</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/1/20.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02560044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04122051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

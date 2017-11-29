@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02000000_2</Organism_ID>
+  <Organism>Baker's yeast</Organism>
+  <Organism_Latin>Saccharomyces cerevisiae</Organism_Latin>
+  <UniProt_ID>P06700</UniProt_ID>
+  <Seq_Length>562</Seq_Length>
+  <Molecule_Weight>63262</Molecule_Weight>
+  <KEGG_ID>sce:YDL042C</KEGG_ID>
+  <Orthology_ID>K11121</Orthology_ID>
+  <EBI_ID>EBI-17219</EBI_ID>
+  <Function_Summary>NAD-dependent deacetylase, which participates in a wide range of cellular events including chromosome silencing, chromosome segregation, DNA recombination and the determination of life span. Involved in transcriptional repression of the silent mating-type loci HML and HMR and telomeric silencing via its association with SIR3 and SIR4. Plays a central role in ribosomal DNA (rDNA) silencing via its association with the RENT complex, preventing hyperrecombination, and repressing transcription from foreign promoters, which contributes to extending life span. Probably represses transcription via the formation of heterochromatin structure, which involves the compaction of chromatin fiber into a more condensed form, although this complex in at least one case can still bind euchromatic levels of positive transcription regulators. Although it displays some NAD-dependent histone deacetylase activity on histone H3K9Ac and H3K14Ac and histone H4K16Ac in vitro, such activity is unclear in vivo and may not be essential.</Function_Summary>
+  <Catalytic_Mechanism>NAD(+) + an acetylprotein = nicotinamide + O-acetyl-ADP-ribose + a protein.</Catalytic_Mechanism>
+  <Pfam_ID>PF04574:DUF592@@PF02146:SIR2</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Regulatory protein SIR2</Alias>
+      <Alias>Silent information regulator 2</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with zinc (Zn) ions.</Detail>
+      <Keyword>Zinc ion binding</Keyword>
+      <Ontology_ID>GO:0008270</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: histone H3 N6-acetyl-L-lysine (position 14) + H2O = histone H3 L-lysine (position 14) + acetate. This reaction requires the presence of NAD, and represents the removal of an acetyl group from lysine at position 14 of the histone H3 protein.</Detail>
+      <Keyword>NAD-dependent histone deacetylase activity (H3-K14 specific)</Keyword>
+      <Ontology_ID>GO:0032041</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: histone H3 N6-acetyl-L-lysine (position 9) + H2O = histone H3 L-lysine (position 9) + acetate. This reaction requires the presence of NAD, and represents the removal of an acetyl group from lysine at position 9 of the histone H3 protein.</Detail>
+      <Keyword>NAD-dependent histone deacetylase activity (H3-K9 specific)</Keyword>
+      <Ontology_ID>GO:0046969</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: histone H4 N6-acetyl-L-lysine (position 16) + H2O = histone H4 L-lysine (position 16) + acetate. This reaction requires the presence of NAD, and represents the removal of an acetyl group from lysine at position 16 of the histone H4 protein.</Detail>
+      <Keyword>NAD-dependent histone deacetylase activity (H4-K16 specific)</Keyword>
+      <Ontology_ID>GO:0046970</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with the oxidized form, NAD, of nicotinamide adenine dinucleotide, a coenzyme involved in many redox and biosynthetic reactions.</Detail>
+      <Keyword>NAD+ binding</Keyword>
+      <Ontology_ID>GO:0070403</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process associated with progression of the cell from its inception to the end of its lifespan that occurs when the cell is in a non-dividing, or quiescent, state.</Detail>
+      <Keyword>Chronological cell aging</Keyword>
+      <Ontology_ID>GO:0001300</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The formation or destruction of chromatin structures.</Detail>
+      <Keyword>Chromatin assembly or disassembly</Keyword>
+      <Ontology_ID>GO:0006333</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</Detail>
+      <Keyword>DNA repair</Keyword>
+      <Ontology_ID>GO:0006281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Repression of transcription of ribosomal DNA by altering the structure of chromatin.</Detail>
+      <Keyword>Chromatin silencing at rDNA</Keyword>
+      <Ontology_ID>GO:0000183</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of DNA replication.</Detail>
+      <Keyword>Negative regulation of DNA replication</Keyword>
+      <Ontology_ID>GO:0008156</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Repression of transcription at silent mating-type loci by alteration of the structure of chromatin.</Detail>
+      <Keyword>Chromatin silencing at silent mating-type cassette</Keyword>
+      <Ontology_ID>GO:0030466</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of DNA recombination.</Detail>
+      <Keyword>Negative regulation of DNA recombination</Keyword>
+      <Ontology_ID>GO:0045910</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process, which occurs as a dividing cell ages, leading to expression of genes that are typically not expressed due to silencing by regulatory proteins.</Detail>
+      <Keyword>Loss of chromatin silencing involved in replicative cell aging</Keyword>
+      <Ontology_ID>GO:0001308</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Repression of transcription of telomeric DNA by altering the structure of chromatin.</Detail>
+      <Keyword>Chromatin silencing at telomere</Keyword>
+      <Ontology_ID>GO:0006348</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The alteration of DNA or protein in chromatin, which may result in changing the chromatin structure.</Detail>
+      <Keyword>Chromatin modification</Keyword>
+      <Ontology_ID>GO:0016568</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The repair of a double-strand break in DNA in which the two broken ends are rejoined with little or no sequence complementarity. Information at the DNA ends may be lost due to the modification of broken DNA ends.</Detail>
+      <Keyword>Double-strand break repair via nonhomologous end joining</Keyword>
+      <Ontology_ID>GO:0006303</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>400</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>23</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTIPHMKYAVSKTSENKVSNTVSPTQDKDAIRKQPDDIINNDEPSHKKIKVAQPDSLRETNTTDPLGHTKAALGEVASMELKPTNDMDPLAVSAASVVSMSNDVLKPETPKGPIIISKNPSNGIFYGPSFTKRESLNARMFLKYYGAHKFLDTYLPEDLNSLYIYYLIKLLGFEVKDQALIGTINSIVHINSQERVQDLGSAISVTNVEDPLAKKQTVRLIKDLQRAINKVLCTRLRLSNFFTIDHFIQKLHTARKILVLTGAGVSTSLGIPDFRSSEGFYSKIKHLGLDDPQDVFNYNIFMHDPSVFYNIANMVLPPEKIYSPLHSFIKMLQMKGKLLRNYTQNIDNLESYAGISTDKLVQCHGSFATATCVTCHWNLPGERIFNKIRNLELPLCPYCYKKRREYFPEGYNNKVGVAASQGSMSERPPYILNSYGVLKPDITFFGEALPNKFHKSIREDILECDLLICIGTSLKVAPVSEIVNMVPSHVPQVLINRDPVKHAEFDLSLLGYCDDIAAMVAQKCGWTIPHKKWNDLKNKNFKCQEKDKGVYVVTSDEHPKTL</Protein_Seq>
+    <DNA_Seq>ATGACCATCCCACATATGAAATACGCCGTATCAAAGACTAGCGAAAATAAGGTTTCAAATACAGTAAGCCCCACACAAGATAAAGACGCGATCAGAAAACAACCCGATGACATTATAAATAATGATGAACCTTCACATAAGAAGATAAAAGTAGCACAGCCGGATTCCTTGAGGGAAACCAACACAACAGATCCACTTGGGCACACTAAAGCTGCGCTCGGAGAAGTGGCATCGATGGAGCTCAAACCAACTAATGACATGGATCCCTTGGCAGTGTCAGCAGCTTCAGTAGTGTCAATGTCCAATGACGTTTTGAAACCAGAGACGCCCAAGGGGCCAATCATAATCAGTAAAAACCCATCAAATGGTATTTTCTATGGTCCCTCCTTCACTAAACGAGAGTCTCTCAATGCTCGAATGTTTCTGAAATACTATGGTGCACACAAATTTTTAGACACTTACCTCCCCGAGGATTTGAACTCGTTATACATTTACTATCTTATCAAGTTGCTAGGCTTTGAAGTTAAAGATCAAGCGCTTATCGGCACCATCAACAGTATTGTCCATATCAACTCGCAAGAGCGTGTTCAAGATTTGGGAAGTGCAATATCTGTCACAAATGTTGAAGACCCATTGGCAAAAAAGCAAACAGTTCGTCTAATCAAAGATTTGCAAAGAGCAATTAACAAAGTTCTATGTACAAGATTAAGATTATCCAATTTTTTCACTATTGATCATTTTATTCAAAAATTACATACCGCTAGAAAAATTTTGGTCCTGACTGGTGCAGGTGTTTCAACTTCATTAGGGATCCCGGACTTCAGATCTTCTGAGGGGTTCTATTCAAAGATCAAACATTTGGGGCTCGATGATCCCCAAGACGTTTTCAATTACAATATATTTATGCACGACCCCTCTGTTTTCTATAATATTGCCAATATGGTTTTACCTCCAGAAAAAATTTATTCTCCATTGCATAGTTTCATTAAGATGCTACAAATGAAAGGGAAATTATTGAGAAATTATACTCAAAACATTGATAATTTGGAATCTTATGCGGGAATAAGCACAGATAAACTGGTGCAGTGCCATGGCTCTTTTGCTACTGCCACCTGCGTTACCTGCCATTGGAACCTACCCGGTGAGAGGATATTTAATAAAATTAGAAACCTCGAACTTCCACTATGCCCGTACTGTTACAAAAAAAGAAGAGAATATTTCCCAGAGGGATATAATAATAAAGTAGGTGTTGCTGCATCACAGGGTTCAATGTCGGAAAGGCCTCCATATATCCTTAACTCATATGGCGTTCTCAAACCAGATATCACATTCTTTGGCGAAGCACTGCCAAATAAATTTCATAAGAGCATTCGCGAAGATATCTTAGAATGTGATTTGTTGATTTGCATTGGGACAAGTTTAAAAGTAGCGCCAGTGTCTGAAATCGTAAACATGGTTCCTTCCCACGTTCCCCAAGTCCTGATTAATCGTGATCCCGTCAAGCACGCAGAATTTGATTTATCTCTTTTGGGGTACTGTGATGACATTGCAGCTATGGTAGCCCAAAAATGTGGCTGGACGATTCCGCATAAGAAATGGAACGATTTGAAGAACAAGAACTTTAAATGCCAAGAGAAGGATAAGGGCGTGTATGTCGTTACATCAGATGAACATCCCAAAACCCTCTAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nuclear telomeric heterochromatin</CellLocal>
+      <Ontology_ID>GO:0005724</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nuclear telomere cap complex</CellLocal>
+      <Ontology_ID>GO:0000783</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>RENT complex</CellLocal>
+      <Ontology_ID>GO:0030869</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>SIR2</Gene_Name>
+    <Gene_Alias>MAR1</Gene_Alias>
+    <Gene_ID>851520</Gene_ID>
+    <Genbank_ACCN>NM_001180101</Genbank_ACCN>
+    <Protein_ACCN>NP_010242</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/851520</Gene_URL>
+    <EMBL_ID>YDL042C</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q00684</Uniprot_ID>
+      <Gene_Name>CDC14</Gene_Name>
+      <EBI_ID>EBI-4192</EBI_ID>
+      <PPI_EBI_URL>EBI-17219,EBI-4192</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P11978</Uniprot_ID>
+      <Gene_Name>SIR4</Gene_Name>
+      <EBI_ID>EBI-17237</EBI_ID>
+      <PPI_EBI_URL>EBI-17219,EBI-17237</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of Sir2 C543S mutant in complex with SID domain of Sir4</PDB_Title>
+      <PDB_ID>4IAO</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4IAO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for allosteric stimulation of Sir2 activity by Sir4 binding</PubMed_Title>
+      <Author>Hsu, H.C., et al.</Author>
+      <Journal>Genes Dev.(2013)27:64-73</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23307867?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Sir2 deacetylase</PDB_Title>
+      <PDB_ID>2HJH</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HJH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Autoregulation of the yeast Sir2 deacetylase by reaction and trapping of a pseudosubstrate motif in the active site</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00760</Pathway_ID>
+      <Pathway_Title>Nicotinate and nicotinamide metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01210</Pathway_ID>
+      <Pathway_Title>2-Oxocarboxylic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01210</Pathway_ID>
+      <Pathway_Title>2-Oxocarboxylic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.5.1.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/5/1/-.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02000001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07260001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

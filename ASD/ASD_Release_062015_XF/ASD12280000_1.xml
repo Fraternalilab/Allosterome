@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD12280000_1</Organism_ID>
+  <Organism>Purple cone</Organism>
+  <Organism_Latin>Conus purpurascens</Organism_Latin>
+  <UniProt_ID>P56529</UniProt_ID>
+  <Seq_Length>75</Seq_Length>
+  <Molecule_Weight>8348</Molecule_Weight>
+  <Function_Summary>Psi-conotoxins act on postsynaptic membranes, and act as non-competitive antagonist of nicotinic acetylcholine receptors (nAChR). Is more toxic than Psi-conotoxin PIIIF. Has paralytic activity when injected intraperitoneally into goldfish.</Function_Summary>
+  <Pfam_ID>PF02950:Conotoxin</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Psi-conotoxin P3.8</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting (directly or indirectly) with acetylcholine receptors such that the proportion of receptors in the active form is decreased.</Detail>
+      <Keyword>Acetylcholine receptor inhibitor activity</Keyword>
+      <Ontology_ID>GO:0030550</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Stops, prevents, or reduces the activity of an ion channel.</Detail>
+      <Keyword>Ion channel inhibitor activity</Keyword>
+      <Ontology_ID>GO:0008200</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The set of specific processes that generate the ability of an organism to cause disease in another.</Detail>
+      <Keyword>Pathogenesis</Keyword>
+      <Ontology_ID>GO:0009405</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>64</Position>
+      <PTM_Type>4-hydroxyproline</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>74</Position>
+      <PTM_Type>Glycine amide</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>52</Position>
+      <PTM_Type>4-hydroxyproline</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>53</Position>
+      <PTM_Type>4-hydroxyproline</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSKLGALLTICLLLFPITALLMDGDQPADRPAERMDYDISSEVHRLLERRHPPCCMYGRCRRYPGCSSASCCQGG</Protein_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Venom duct</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular region</CellLocal>
+      <Ontology_ID>GO:0005576</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Postsynaptic membrane</CellLocal>
+      <Ontology_ID>GO:0045211</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Secreted</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <molGene/>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Psi-conotoxin PIIIE</PDB_Title>
+      <PDB_ID>ASD12280000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Peptides</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.ba.dc.b.e.b.html</SCOP_URL>
+  </Fold>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00240001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-04-08</Create_Date>
+</Organism_Record>

@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04450000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0AE67</UniProt_ID>
+  <Seq_Length>129</Seq_Length>
+  <Molecule_Weight>14097</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p1858</KEGG_ID>
+  <Orthology_ID>K03413</Orthology_ID>
+  <Function_Summary>Involved in the transmission of sensory signals from the chemoreceptors to the flagellar motors. In its active (phosphorylated or acetylated) form, CheY exhibits enhanced binding to a switch component, FliM, at the flagellar motor which induces a change from counterclockwise to clockwise flagellar rotation. Overexpression of CheY in association with MotA and MotB improves motility of a ycgR disruption, suggesting there is an interaction (direct or indirect) between the c-di-GMP-binding flagellar brake protein and the flagellar stator.</Function_Summary>
+  <Pfam_ID>PF00072:Response_reg</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Responds to a two-component sensor to initiate a change in cell state or activity. The activity of the response regulator is regulated by transfer of a phosphate from a histidine residue in the sensor, to an aspartate residue in the response regulator. Many but not all response regulators act as transcriptional regulators to elicit a response.</Detail>
+      <Keyword>Two-component response regulator activity</Keyword>
+      <Ontology_ID>GO:0000156</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cellular DNA-dependent transcription.</Detail>
+      <Keyword>Regulation of transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006355</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Cell motility due to the motion of one or more flagella.</Detail>
+      <Keyword>Flagellar cell motility</Keyword>
+      <Ontology_ID>GO:0060286</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of a motile cell or organism, or the directed growth of a cell guided by a specific chemical concentration gradient. Movement may be towards a higher concentration (positive chemotaxis) or towards a lower concentration (negative chemotaxis).</Detail>
+      <Keyword>Chemotaxis</Keyword>
+      <Ontology_ID>GO:0006935</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Cell motility due to movement of cilia or flagella.</Detail>
+      <Keyword>Ciliary or flagellar motility</Keyword>
+      <Ontology_ID>GO:0001539</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The addition of an acetyl group to a protein amino acid. An acetyl group is CH3CO-, derived from acetic</Detail>
+      <Keyword>Protein acetylation</Keyword>
+      <Ontology_ID>GO:0006473</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A conserved series of molecular signals found in prokaryotes and eukaryotes; involves autophosphorylation of a histidine kinase and the transfer of the phosphate group to an aspartate that then acts as a phospho-donor to response regulator proteins.</Detail>
+      <Keyword>Two-component signal transduction system (phosphorelay)</Keyword>
+      <Ontology_ID>GO:0000160</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>92</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>57</Position>
+      <PTM_Type>4-aspartylphosphate</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>109</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MADKELKFLVVDDFSTMRRIVRNLLKELGFNNVEEAEDGVDALNKLQAGGYGFVISDWNMPNMDGLELLKTIRADGAMSALPVLMVTAEAKKENIIAAAQAGASGYVVKPFTAATLEEKLNKIFEKLGM</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>cheY</Gene_Name>
+    <Gene_ID>12930559</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_416396</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/946393</Gene_URL>
+    <EMBL_ID>EBESCG00000016846</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>STRUCTURE OF CHEMOTAXIS PROTEIN CHEY</PDB_Title>
+      <PDB_ID>5CHY</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=5CHY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of CheY mutants Y106W and T87I/Y106W. CheY activation correlates with movement of residue 106.</PubMed_Title>
+      <Author>Zhu, X., et al.</Author>
+      <Journal>J.Biol.Chem.(1997)272:5000-5006</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9030562?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural and functional effects of substitution at position T+1 in CheY: CheYA88V-BeF3-Mg complex</PDB_Title>
+      <PDB_ID>3OLV</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OLV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Dual Roles for position T+1 in Response Regulator phosphorylation and dephosphorylation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of E. Coli CheY mutant A113P in the absence of Sulfate</PDB_Title>
+      <PDB_ID>3OO1</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OO1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Exploring the effect of an allosteric site on conformational coupling in CheY</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural and functional effects of substitution at position T+1 in CheY: CheYA88M-BeF3-Mn complex</PDB_Title>
+      <PDB_ID>3OLY</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OLY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Dual Roles for position T+1 in Response Regulator   phosphorylation and dephosphorylation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>SIGNAL TRANSDUCTION PROTEIN CHEY MUTANT WITH MET 17 REPLACED BY GLY (M17G)</PDB_Title>
+      <PDB_ID>1YMU</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YMU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The three-dimensional structure of two mutants of the signal transduction protein CheY suggest its molecular activation mechanism.</PubMed_Title>
+      <Author>Bellsolell, L., et al.</Author>
+      <Journal>J.Mol.Biol.(1996)257:116-128</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8632450?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF CHEMOTAXIS PROTEIN CHEY</PDB_Title>
+      <PDB_ID>6CHY</PDB_ID>
+      <Resolution>2.33</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=6CHY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of CheY mutants Y106W and T87I/Y106W. CheY activation correlates with movement of residue 106.</PubMed_Title>
+      <Author>Zhu, X., et al.</Author>
+      <Journal>J.Biol.Chem.(1997)272:5000-5006</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9030562?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF CHEY MUTANT F14N, V86T</PDB_Title>
+      <PDB_ID>1AB6</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1AB6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure analysis of two CheY mutants: importance of the hydrogen-bond contribution to protein stability.</PubMed_Title>
+      <Author>Wilcock, D., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(1998)54:378-385</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9761905?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural and functional effects of substitution at position T+1 in CheY: CheYA88T-BeF3-Mn complex</PDB_Title>
+      <PDB_ID>3OLW</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OLW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Dual Roles for position T+1 in Response Regulator phosphorylation and dephosphorylation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>SIGNAL TRANSDUCTION PROTEIN CHEY MUTANT WITH PHE 14 REPLACED BY GLY, SER 15 REPLACED BY GLY, AND MET 17 REPLACED BY GLY</PDB_Title>
+      <PDB_ID>1YMV</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YMV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The three-dimensional structure of two mutants of the signal transduction protein CheY suggest its molecular activation mechanism.</PubMed_Title>
+      <Author>Bellsolell, L., et al.</Author>
+      <Journal>J.Mol.Biol.(1996)257:116-128</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8632450?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of apo CheY A113P</PDB_Title>
+      <PDB_ID>3OO0</PDB_ID>
+      <Resolution>1.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OO0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Exploring the effect of an allosteric site on conformational coupling in CheY</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural and functional effects of substitution at position T+1 in CheY: CheYA88S-BeF3-Mn complex</PDB_Title>
+      <PDB_ID>3OLX</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OLX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Dual Roles for position T+1 in Response Regulator phosphorylation and dephosphorylation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CHEY-BINDING DOMAIN OF CHEA IN COMPLEX WITH CHEY</PDB_Title>
+      <PDB_ID>1A0O</PDB_ID>
+      <Resolution>2.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1A0O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the CheY-binding domain of histidine kinase CheA in complex with CheY.</PubMed_Title>
+      <Author>Welch, M., et al.</Author>
+      <Journal>Nat.Struct.Biol.(1998)5:25-29</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9437425?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF CHEY MUTANT F14N, V21T</PDB_Title>
+      <PDB_ID>1AB5</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1AB5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure analysis of two CheY mutants: importance of the hydrogen-bond contribution to protein stability.</PubMed_Title>
+      <Author>Wilcock, D., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(1998)54:378-385</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9761905?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.ch.b.b.b.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1a0o</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Population shift</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08230000_1</Organism_ID>
+  <Organism>Vibrio cholerae</Organism>
+  <Organism_Latin>Vibrio cholerae</Organism_Latin>
+  <UniProt_ID>P01555</UniProt_ID>
+  <Seq_Length>258</Seq_Length>
+  <Molecule_Weight>29336</Molecule_Weight>
+  <KEGG_ID>vch:VC1457</KEGG_ID>
+  <Orthology_ID>K10928</Orthology_ID>
+  <EBI_ID>EBI-1038392</EBI_ID>
+  <Function_Summary>The A1 chain catalyzes the ADP-ribosylation of Gs alpha, a GTP-binding regulatory protein, to activate the adenylate cyclase. This leads to an overproduction of cAMP and eventually to a hypersecretion of chloride and bicarbonate followed by water, resulting in the characteristic cholera stool. The A2 chain tethers A1 to the pentameric ring.</Function_Summary>
+  <Catalytic_Mechanism>NAD(+) + peptide diphthamide = nicotinamide + peptide N-(ADP-D-ribosyl)diphthamide.</Catalytic_Mechanism>
+  <Pfam_ID>PF01375:Enterotoxin_a</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Cholera enterotoxin subunit A1</Alias>
+      <Alias>Cholera enterotoxin subunit A2</Alias>
+      <Alias>Cholera enterotoxin alpha chain</Alias>
+      <Alias>Cholera enterotoxin, A chain</Alias>
+      <Alias>Cholera enterotoxin A1 chain</Alias>
+      <Alias>NAD(+)--diphthamide ADP-ribosyltransferase</Alias>
+      <Alias>Cholera enterotoxin A2 chain</Alias>
+      <Alias>Cholera enterotoxin gamma chain</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: peptide diphthamide + NAD+ = peptide N-(ADP-D-ribosyl)diphthamide + niacinamide.</Detail>
+      <Keyword>NAD+-diphthamide ADP-ribosyltransferase activity</Keyword>
+      <Ontology_ID>GO:0047286</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: NAD+ + (ADP-D-ribosyl)(n)-acceptor = nicotinamide + (ADP-D-ribosyl)(n+1)-acceptor.</Detail>
+      <Keyword>NAD+ ADP-ribosyltransferase activity</Keyword>
+      <Ontology_ID>GO:0003950</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a glycosyl group from one compound (donor) to another (acceptor).</Detail>
+      <Keyword>Transferase activity, transferring glycosyl groups</Keyword>
+      <Ontology_ID>GO:0016757</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The set of specific processes that generate the ability of an organism to cause disease in another.</Detail>
+      <Keyword>Pathogenesis</Keyword>
+      <Ontology_ID>GO:0009405</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in an organism that results in the killing of cells of another organism, including in some cases the death of the other organism. Killing here refers to the induction of death in one cell by another cell, not cell-autonomous death due to internal or other environmental conditions.</Detail>
+      <Keyword>Killing of cells of other organism</Keyword>
+      <Ontology_ID>GO:0031640</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The transfer, from NAD, of ADP-ribose to protein amino acids.</Detail>
+      <Keyword>Protein ADP-ribosylation</Keyword>
+      <Ontology_ID>GO:0006471</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MVKIIFVFFIFLSSFSYANDDKLYRADSRPPDEIKQSGGLMPRGQSEYFDRGTQMNINLYDHARGTQTGFVRHDDGYVSTSISLRSAHLVGQTILSGHSTYYIYVIATAPNMFNVNDVLGAYSPHPDEQEVSALGGIPYSQIYGWYRVHFGVLDEQLHRNRGYRDRYYSNLDIAPAADGYGLAGFPPEHRAWREEPWIHHAPPGCGNAPRSSMSNTCDEKTQSLGVKFLDEYQSKVKRQIFSGYQSDIDTHNRIKDEL</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular region</CellLocal>
+      <Ontology_ID>GO:0005576</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ctxA</Gene_Name>
+    <Gene_Alias>toxA</Gene_Alias>
+    <Gene_ID>2613963</Gene_ID>
+    <Genbank_ACCN>NC_002505</Genbank_ACCN>
+    <Protein_ACCN>NP_231100</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/2613963</Gene_URL>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P01556</Uniprot_ID>
+      <Gene_Name>ctxB</Gene_Name>
+      <EBI_ID>EBI-1038383</EBI_ID>
+      <PPI_EBI_URL>EBI-1038392,EBI-1038383</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Cholera toxin A1 subunit bound to its substrate, NAD+, and its human protein activator, ARF6</PDB_Title>
+      <PDB_ID>2A5F</PDB_ID>
+      <Resolution>2.02</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2A5F</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the activation of cholera toxin by human ARF6-GTP.</PubMed_Title>
+      <Author>O'Neal, C.J., et al.</Author>
+      <Journal>Science(2005)309:1093-1096</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16099990?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural basis for the activation of cholera toxin by human ARF6-GTP</PDB_Title>
+      <PDB_ID>2A5D</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2A5D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the activation of cholera toxin by human ARF6-GTP.</PubMed_Title>
+      <Author>O'Neal, C.J., et al.</Author>
+      <Journal>Science(2005)309:1093-1096</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16099990?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Cholera holotoxin, Crystal form 2</PDB_Title>
+      <PDB_ID>1S5F</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S5F</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of an intrinsically active cholera toxin mutant yield insight into the toxin activation mechanism</PubMed_Title>
+      <Author>O'Neal, C.J., et al.</Author>
+      <Journal>Biochemistry(2004)43:3772-3782</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15049684?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Cholera holotoxin with an A-subunit Y30S mutation Form 3</PDB_Title>
+      <PDB_ID>1S5B</PDB_ID>
+      <Resolution>2.13</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S5B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of an intrinsically active cholera toxin mutant yield   insight into the toxin activation mechanism</PubMed_Title>
+      <Author>O'Neal, C.J., et al.</Author>
+      <Journal>Biochemistry(2004)43:3772-3782</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15049684?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Cholera holotoxin with an A-subunit Y30S mutation, Crystal form 2</PDB_Title>
+      <PDB_ID>1S5D</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S5D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of an intrinsically active cholera toxin    mutant yield insight into the toxin activation mechanism</PubMed_Title>
+      <Author>O'Neal, C.J., et al.</Author>
+      <Journal>Biochemistry(2004)43:3772-3782</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15049684?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CHOLERA TOXIN</PDB_Title>
+      <PDB_ID>1XTC</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XTC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The three-dimensional crystal structure of cholera toxin.</PubMed_Title>
+      <Author>Zhang, R.G., et al.</Author>
+      <Journal>J.Mol.Biol.(1995)251:563-573</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7658473?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Cholera holotoxin, Crystal form 1</PDB_Title>
+      <PDB_ID>1S5E</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S5E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of an intrinsically active cholera toxin mutant yield    insight into the toxin activation mechanism</PubMed_Title>
+      <Author>O'Neal, C.J., et al.</Author>
+      <Journal>Biochemistry(2004)43:3772-3782</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15049684?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Cholera holotoxin with an A-subunit Y30S mutation, Crystal form 1</PDB_Title>
+      <PDB_ID>1S5C</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S5C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of an intrinsically active cholera toxin mutant yield   insight into the toxin activation mechanism</PubMed_Title>
+      <Author>O'Neal, C.J., et al.</Author>
+      <Journal>Biochemistry(2004)43:3772-3782</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15049684?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Cholera toxin A1 subunit bound to ARF6(Q67L)</PDB_Title>
+      <PDB_ID>2A5G</PDB_ID>
+      <Resolution>2.66</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2A5G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the activation of cholera toxin by human ARF6-GTP.</PubMed_Title>
+      <Author>O'Neal, C.J., et al.</Author>
+      <Journal>Science(2005)309:1093-1096</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16099990?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05110</Pathway_ID>
+      <Pathway_Title>Vibrio cholerae infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05110</Pathway_ID>
+      <Pathway_Title>Vibrio cholerae infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05111</Pathway_ID>
+      <Pathway_Title>Vibrio cholerae pathogenic cycle</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05110</Pathway_ID>
+      <Pathway_Title>Vibrio cholerae infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.ddd.b.b.g.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1s5b</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

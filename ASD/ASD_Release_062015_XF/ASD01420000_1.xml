@@ -1,0 +1,2077 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01420000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P07900</UniProt_ID>
+  <Seq_Length>732</Seq_Length>
+  <Molecule_Weight>84660</Molecule_Weight>
+  <KEGG_ID>hsa:3320</KEGG_ID>
+  <Orthology_ID>K04079</Orthology_ID>
+  <EBI_ID>EBI-296047</EBI_ID>
+  <Function_Summary>Molecular chaperone that promotes the maturation, structural maintenance and proper regulation of specific target proteins involved for instance in cell cycle control and signal transduction. Undergoes a functional cycle that is linked to its ATPase activity. This cycle probably induces conformational changes in the client proteins, thereby causing their activation. Interacts dynamically with various co-chaperones that modulate its substrate recognition, ATPase cycle and chaperone function.</Function_Summary>
+  <Pfam_ID>PF02518:HATPase_c@@PF00183:HSP90</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>230</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>HSP 86</Alias>
+      <Alias>Heat shock 90kD protein 1, alpha</Alias>
+      <Alias>Heat shock 90kDa protein 1, alpha</Alias>
+      <Alias>Heat shock protein HSP 90-alpha</Alias>
+      <Alias>Renal carcinoma antigen NY-REN-38</Alias>
+      <Alias>Heat shock 90kD protein 1, alpha-like 4</Alias>
+      <Alias>Heat shock 86 kDa</Alias>
+      <Alias>Heat shock 90kD protein, alpha-like 4</Alias>
+      <Alias>Hsp90</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an unfolded protein.</Detail>
+      <Keyword>Unfolded protein binding</Keyword>
+      <Ontology_ID>GO:0051082</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which is transiently involved in the noncovalent folding, assembly and/or disassembly of other polypeptides or RNA molecules, including any transport and oligomerisation processes they may undergo, and the refolding and reassembly of protein and RNA molecules denatured by stress. Though involved in these processes, chaperones are not an integral part of these functioning molecules. Also used for metallochaperones, which function to provide a metal directly to target proteins while protecting this metal from scavengers.</Detail>
+      <Keyword>Chaperone</Keyword>
+      <Ontology_ID>KW-0143</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a tetratricopeptide repeat (TPR) domain of a protein, the consensus sequence of which is defined by a pattern of small and large hydrophobic amino acids and a structure composed of helices.</Detail>
+      <Keyword>TPR domain binding</Keyword>
+      <Ontology_ID>GO:0030911</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Modulates the activity of nitric oxide synthase.</Detail>
+      <Keyword>Nitric-oxide synthase regulator activity</Keyword>
+      <Ontology_ID>GO:0030235</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate + 2 H+. May or may not be coupled to another reaction.</Detail>
+      <Keyword>ATPase activity</Keyword>
+      <Ontology_ID>GO:0016887</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).</Detail>
+      <Keyword>Response to stress</Keyword>
+      <Ontology_ID>GO:0006950</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal, e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light, and ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell, and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</Detail>
+      <Keyword>Signal transduction</Keyword>
+      <Ontology_ID>GO:0007165</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemotaxis process that directs the migration of an axon growth cone to a specific target site in response to a combination of attractive and repulsive cues.</Detail>
+      <Keyword>Axon guidance</Keyword>
+      <Ontology_ID>GO:0007411</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the activity of the enzyme nitric-oxide synthase.</Detail>
+      <Keyword>Regulation of nitric-oxide synthase activity</Keyword>
+      <Ontology_ID>GO:0050999</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The aggregation, arrangement and bonding together of a set of components to form a protein complex, mediated by chaperone molecules that do not form part of the finished complex.</Detail>
+      <Keyword>Chaperone-mediated protein complex assembly</Keyword>
+      <Ontology_ID>GO:0051131</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process carried out by a cell that restores the biological activity of an unfolded or misfolded protein, using helper proteins such as chaperones.</Detail>
+      <Keyword>Protein refolding</Keyword>
+      <Ontology_ID>GO:0042026</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of nitric oxide.</Detail>
+      <Keyword>Positive regulation of nitric oxide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0045429</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Progression from G2 phase to M phase of the mitotic cell cycle.</Detail>
+      <Keyword>G2/M transition of mitotic cell cycle</Keyword>
+      <Ontology_ID>GO:0000086</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving nitric oxide, nitrogen monoxide (NO), a colorless gas only slightly soluble in water.</Detail>
+      <Keyword>Nitric oxide metabolic process</Keyword>
+      <Ontology_ID>GO:0046209</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The import of proteins into the outer membrane of the mitochondrion. Outer membrane proteins have a short matrix-targeting sequence followed by a long stretch of hydrophobic amino acids at the N-terminus. The hydrophobic sequence functions as a stop-transfer sequence that both prevents transfer of the protein into the matrix and anchors it as an integral protein in the outer membrane.</Detail>
+      <Keyword>Protein import into mitochondrial outer membrane</Keyword>
+      <Ontology_ID>GO:0045040</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an unfolded protein stimulus.</Detail>
+      <Keyword>Response to unfolded protein</Keyword>
+      <Ontology_ID>GO:0006986</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>224</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>7</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>585</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>263</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>492</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>443</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>313</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>489</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>410</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>231</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>252</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>458</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>576</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>5</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>598</Position>
+      <PTM_Type>S-nitrosocysteine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>399</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MPEETQTQDQPMEEEEVETFAFQAEIAQLMSLIINTFYSNKEIFLRELISNSSDALDKIRYESLTDPSKLDSGKELHINLIPNKQDRTLTIVDTGIGMTKADLINNLGTIAKSGTKAFMEALQAGADISMIGQFGVGFYSAYLVAEKVTVITKHNDDEQYAWESSAGGSFTVRTDTGEPMGRGTKVILHLKEDQTEYLEERRIKEIVKKHSQFIGYPITLFVEKERDKEVSDDEAEEKEDKEEEKEKEEKESEDKPEIEDVGSDEEEEKKDGDKKKKKKIKEKYIDQEELNKTKPIWTRNPDDITNEEYGEFYKSLTNDWEDHLAVKHFSVEGQLEFRALLFVPRRAPFDLFENRKKKNNIKLYVRRVFIMDNCEELIPEYLNFIRGVVDSEDLPLNISREMLQQSKILKVIRKNLVKKCLELFTELAEDKENYKKFYEQFSKNIKLGIHEDSQNRKKLSELLRYYTSASGDEMVSLKDYCTRMKENQKHIYYITGETKDQVANSAFVERLRKHGLEVIYMIEPIDEYCVQQLKEFEGKTLVSVTKEGLELPEDEEEKKKQEEKKTKFENLCKIMKDILEKKVEKVVVSNRLVTSPCCIVTSTYGWTANMERIMKAQALRDNSTMGYMAAKKHLEINPDHSIIETLRQKAEADKNDKSVKDLVILLYETALLSSGFSLEDPQTHANRIYRMIKLGLGIDEDDPTADDTSAAVTEEMPPLEGDDDTSRMEEVD</Protein_Seq>
+    <DNA_Seq>CCGGCCCGGTGTGGCTGTGCCGTTGGTCCTGTGCGGTCACTTAGCCAAGATGCCTGAGGAAACCCAGACCCAAGACCAACCGATGGAGGAGGAGGAGGTTGAGACGTTCGCCTTTCAGGCAGAAATTGCCCAGTTGATGTCATTGATCATCAATACTTTCTACTCGAACAAAGAGATCTTTCTGAGAGAGCTCATTTCAAATTCATCAGATGCATTGGACAAAATCCGGTATGAAAGCTTGACAGATCCCAGTAAATTAGACTCTGGGAAAGAGCTGCATATTAACCTTATACCGAACAAACAAGATCGAACTCTCACTATTGTGGATACTGGAATTGGAATGACCAAGGCTGACTTGATCAATAACCTTGGTACTATCGCCAAGTCTGGGACCAAAGCGTTCATGGAAGCTTTGCAGGCTGGTGCAGATATCTCTATGATTGGCCAGTTCGGTGTTGGTTTTTATTCTGCTTATTTGGTTGCTGAGAAAGTAACTGTGATCACCAAACATAACGATGATGAGCAGTACGCTTGGGAGTCCTCAGCAGGGGGATCATTCACAGTGAGGACAGACACAGGTGAACCTATGGGTCGTGGAACAAAAGTTATCCTACACCTGAAAGAAGACCAAACTGAGTACTTGGAGGAACGAAGAATAAAGGAGATTGTGAAGAAACATTCTCAGTTTATTGGATATCCCATTACTCTTTTTGTGGAGAAGGAACGTGATAAAGAAGTAAGCGATGATGAGGCTGAAGAAAAGGAAGACAAAGAAGAAGAAAAAGAAAAAGAAGAGAAAGAGTCGGAAGACAAACCTGAAATTGAAGATGTTGGTTCTGATGAGGAAGAAGAAAAGAAGGATGGTGACAAGAAGAAGAAGAAGAAGATTAAGGAAAAGTACATCGATCAAGAAGAGCTCAACAAAACAAAGCCCATCTGGACCAGAAATCCCGACGATATTACTAATGAGGAGTACGGAGAATTC</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Melanosome</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>HSP90AA1</Gene_Name>
+    <Gene_Alias>HSP90A; HSPC1; HSPCA</Gene_Alias>
+    <Gene_ID>3320</Gene_ID>
+    <Genbank_ACCN>NM_001017963</Genbank_ACCN>
+    <Protein_ACCN>NP_001017963</Protein_ACCN>
+    <HGNC_ID>5253</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3320</Gene_URL>
+    <UCSC_ID>uc001ykv.4</UCSC_ID>
+    <EMBL_ID>ENSG00000080824</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P61247</Uniprot_ID>
+      <Gene_Name>RPS3A</Gene_Name>
+      <EBI_ID>EBI-352378</EBI_ID>
+      <PPI_EBI_URL>EBI-296047,EBI-352378</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q96G23</Uniprot_ID>
+      <Gene_Name>CERS2</Gene_Name>
+      <EBI_ID>EBI-1057080</EBI_ID>
+      <PPI_EBI_URL>EBI-296047,EBI-1057080</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9UHD1</Uniprot_ID>
+      <Gene_Name>CHORDC1</Gene_Name>
+      <EBI_ID>EBI-2550959</EBI_ID>
+      <PPI_EBI_URL>EBI-296047,EBI-2550959</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P53041</Uniprot_ID>
+      <Gene_Name>PPP5C</Gene_Name>
+      <EBI_ID>EBI-716663</EBI_ID>
+      <PPI_EBI_URL>EBI-296047,EBI-716663</PPI_EBI_URL>
+      <Experiment_Number>8</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P07900</Uniprot_ID>
+      <Gene_Name>HSP90AA1</Gene_Name>
+      <EBI_ID>EBI-296047</EBI_ID>
+      <PPI_EBI_URL>EBI-296047,EBI-296047</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q15185</Uniprot_ID>
+      <Gene_Name>PTGES3</Gene_Name>
+      <EBI_ID>EBI-1049387</EBI_ID>
+      <PPI_EBI_URL>EBI-296047,EBI-1049387</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9UNE7</Uniprot_ID>
+      <Gene_Name>STUB1</Gene_Name>
+      <EBI_ID>EBI-357085</EBI_ID>
+      <PPI_EBI_URL>EBI-296047,EBI-357085</PPI_EBI_URL>
+      <Experiment_Number>9</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O95433</Uniprot_ID>
+      <Gene_Name>AHSA1</Gene_Name>
+      <EBI_ID>EBI-448610</EBI_ID>
+      <PPI_EBI_URL>EBI-296047,EBI-448610</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P05412</Uniprot_ID>
+      <Gene_Name>JUN</Gene_Name>
+      <EBI_ID>EBI-852823</EBI_ID>
+      <PPI_EBI_URL>EBI-296047,EBI-852823</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Hand-Foot-Genital Syndrome</Disease_Name>
+      <Disease_Detail>Hand-Foot-Genital Syndrome</Disease_Detail>
+      <Disease_DB>HND004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hand_foot_genital_syndrome?search=HSP90AA1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Primary Hyperoxaluria</Disease_Name>
+      <Disease_Detail>Primary Hyperoxaluria</Disease_Detail>
+      <Disease_DB>PRM002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/primary_hyperoxaluria?search=HSP90AA1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gastrointestinal Stromal Tumor</Disease_Name>
+      <Disease_Detail>Gastrointestinal Stromal Tumor</Disease_Detail>
+      <Disease_DB>GST019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gastrointestinal_stromal_tumor?search=HSP90AA1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lobular Neoplasia</Disease_Name>
+      <Disease_Detail>Lobular Neoplasia</Disease_Detail>
+      <Disease_DB>LBL001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lobular_neoplasia?search=HSP90AA1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Neuronal Intranuclear Inclusion Disease</Disease_Name>
+      <Disease_Detail>Neuronal Intranuclear Inclusion Disease</Disease_Detail>
+      <Disease_DB>NRN008</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/neuronal_intranuclear_inclusion_disease?search=HSP90AA1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(4-METHOXY-BENZYL)-9H-PURIN-6-YLAMINE</PDB_Title>
+      <PDB_ID>1UY7</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UY7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>9-BUTYL-8-(4-METHOXYBENZYL)-9H-PURIN-6-AMINE</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Discovery of Benzisoxazoles as Potent Inhibitors of Chaperone Hsp90</PDB_Title>
+      <PDB_ID>3BM9</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BM9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-bromo-6-(6-hydroxy-1,2-benzisoxazol-3-yl)benzene- 1,3-diol</Ligand_Name>
+      <PubMed_Title>Discovery of benzisoxazoles as potent inhibitors of chaperone heat shock protein 90.</PubMed_Title>
+      <Author>Gopalsamy A, et al.</Author>
+      <Journal>J Med Chem.2008 Feb 14;51(3):373-5. Epub  2008 Jan 16.</Journal>
+      <PubMed_ID>18197612</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(2,5-DIMETHOXY-BENZYL)-9H-PURIN-6-YLAMINE</PDB_Title>
+      <PDB_ID>1UYC</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UYC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>9-BUTYL-8-(2,5-DIMETHOXY-BENZYL)-9H-PURIN- 6-YLAMINE</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE INHIBITORS OF THE HSP90 CHAPERONE</PDB_Title>
+      <PDB_ID>2WI3</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WI3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>MAGNESIUM ION $ 4-methyl-6-(methylsulfanyl)-1,3,5-triazin- 2-amine</Ligand_Name>
+      <PubMed_Title>Combining Hit Identification Strategies: Fragment-Based and in Silico Approaches to Orally Active 2-Aminothieno[2,3-D]Pyrimidine Inhibitors of the Hsp90 Molecular Chaperone.</PubMed_Title>
+      <Author>Brough PA, et al.</Author>
+      <Journal>J Med Chem.2009 Aug 13;52(15):4794-809.</Journal>
+      <PubMed_ID>19610616</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSP90 N-terminal domain in complex with 1-{4-[(2R)-1-(5-chloro-2,4-dihydroxybenzoyl)pyrrolidin-2-yl]benzyl}-3,3-difluoropyrrolidinium</PDB_Title>
+      <PDB_ID>3HEK</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HEK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(1S,2R)-1-[(5-chloro-2,4-dihydroxyphenyl)carbonyl]- 2-{4-[(3,3
+-difluoropyrrolidin-1-yl)methyl]phenyl}pyrrolidinium $ PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Solution-phase parallel synthesis of Hsp90 inhibitors</PubMed_Title>
+      <Author>Cho-Schultz S, et al.</Author>
+      <Journal>J Comb Chem.2009 Sep-Oct;11(5):860-74.</Journal>
+      <PubMed_ID>19583220</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 8-(2,5-DIMETHOXY-BENZYL)-2-FLUORO-9H-PURIN-6-YLAMINE</PDB_Title>
+      <PDB_ID>1UYG</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UYG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>8-(2,5-DIMETHOXY-BENZYL)-2-FLUORO-9H-PURIN- 6-YLAMINE</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SOLUTION STRUCTURE OF THE TPR DOMAIN FROM PROTEIN PHOSPHATASE 5 IN COMPLEX WITH HSP90 DERIVED PEPTIDE</PDB_Title>
+      <PDB_ID>2BUG</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BUG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Diversity in the Tpr Domain-Mediated Interaction of Protein Phosphatase 5 with Hsp90.</PubMed_Title>
+      <Author>Cliff MJ, et al.</Author>
+      <Journal>Structure.2006 Mar;14(3):415-26.</Journal>
+      <PubMed_ID>16531226</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human heat-shock protein 90 (HSP90) in complex with {4-[3-(2,4-dihydroxy-5-isopropyl-phenyl)-5-thioxo- 1,5-dihydro-[1,2,4]triazol-4-yl]-benzyl}-carbamic acid ethyl ester {ZK 2819}</PDB_Title>
+      <PDB_ID>3HHU</PDB_ID>
+      <Resolution>1.59</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HHU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ethyl (4-{3-[2,4-dihydroxy-5-(1-methylethyl)phenyl]- 5-sulfanyl-4H-1,2,4-triazol
+-4-yl}benzyl)carbamate</Ligand_Name>
+      <PubMed_Title>Potent triazolothione inhibitor of heat-shock protein-90.</PubMed_Title>
+      <Author>Feldman RI, et al.</Author>
+      <Journal>Chem Biol Drug Des.2009 Jul;74(1):43-50.</Journal>
+      <PubMed_ID>19519743</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 8-(2-CHLORO-3,4,5-TRIMETHOXY-BENZYL) -2-FLUORO-9-PENT-4-YLNYL-9H-PURIN-6-YLAMINE</PDB_Title>
+      <PDB_ID>1UYF</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UYF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>8-(2-CHLORO-3,4,5-TRIMETHOXY-BENZYL)-2-FLUORO- 9-PENT-4-YLNYL-9H-PURIN-6-YLAMINE</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 8-BENZO[1,3]DIOXOL-,5-YLMETHYL-9-BUT YL-2-FLUORO-9H-PURIN-6-YLAMINE</PDB_Title>
+      <PDB_ID>1UYK</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UYK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>8-BENZO[1,3]DIOXOL-,5-YLMETHYL-9-BUTYL-2- FLUORO-9H-PURIN-6-YLAMINE</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE INHIBITORS OF THE HSP90 CHAPERONE</PDB_Title>
+      <PDB_ID>2WI6</PDB_ID>
+      <Resolution>2.18</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WI6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-AMINO-4-(2,4-DICHLOROPHENYL)-N-ETHYLTHIENO[2,3- D]PYRIMIDINE-6-CARBOXAMIDE</Ligand_Name>
+      <PubMed_Title>Combining Hit Identification Strategies: Fragment-Based and in Silico Approaches to Orally Active 2-Aminothieno[2,3-D]Pyrimidine Inhibitors of the Hsp90 Molecular Chaperone.</PubMed_Title>
+      <Author>Brough PA, et al.</Author>
+      <Journal>J Med Chem.2009 Aug 13;52(15):4794-809.</Journal>
+      <PubMed_ID>19610616</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>GELDANAMYCIN BOUND TO THE HSP90 GELDANAMYCIN-BINDING DOMAIN</PDB_Title>
+      <PDB_ID>1YET</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YET</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>GELDANAMYCIN</Ligand_Name>
+      <PubMed_Title>Crystal structure of an Hsp90-geldanamycin complex: targeting of a protein chaperone by an antitumor agent.</PubMed_Title>
+      <Author>Stebbins CE, et al.</Author>
+      <Journal>Cell.1997 Apr 18;89(2):239-50.</Journal>
+      <PubMed_ID>9108479</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(3-TRIMETHOXY-BENZYL)-9H-PURIN-6YLAMINE</PDB_Title>
+      <PDB_ID>1UY8</PDB_ID>
+      <Resolution>1.98</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UY8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>9-BUTYL-8-(3-METHOXYBENZYL)-9H-PURIN-6-AMINE</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NOVEL, POTENT SMALL MOLECULE INHIBITORS OF THE MOLECULAR CHAPERONE HSP90 DISCOVERED THROUGH STRUCTURE-BASED DESIGN</PDB_Title>
+      <PDB_ID>2BSM</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BSM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(5-CHLORO-2,4-DIHYDROXYPHENYL)-N-ETHYL- 4-(4-METHOXYPHENYL)-1H-PYRAZOLE-3
+-CARBOXAMIDE</Ligand_Name>
+      <PubMed_Title>Novel, Potent Small-Molecule Inhibitors of the Molecular Chaperone Hsp90 Discovered Through Structure-Based Design.</PubMed_Title>
+      <Author>Dymock BW, et al.</Author>
+      <Journal>J Med Chem.2005 Jun 30;48(13):4212-5.</Journal>
+      <PubMed_ID>15974572</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NOVEL, POTENT SMALL MOLECULE INHIBITORS OF THE MOLECULAR CHAPERONE HSP90 DISCOVERED THROUGH STRUCTURE-BASED DESIGN</PDB_Title>
+      <PDB_ID>2BT0</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BT0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-[4-(2,3-DIHYDRO-1,4-BENZODIOXIN-6-YL)-3- METHYL-1H-PYRAZOL-5-YL]-6
+-ETHYLBENZENE-1,3- DIOL</Ligand_Name>
+      <PubMed_Title>Novel, Potent Small-Molecule Inhibitors of the Molecular Chaperone Hsp90 Discovered Through Structure-Based Design.</PubMed_Title>
+      <Author>Dymock BW, et al.</Author>
+      <Journal>J Med Chem.2005 Jun 30;48(13):4212-5.</Journal>
+      <PubMed_ID>15974572</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>4,5 DIARYL ISOXAZOLE HSP90 CHAPERONE INHIBITORS: POTENTIAL THERAPEUTIC AGENTS FOR THE TREATMENT OF CANCER</PDB_Title>
+      <PDB_ID>2VCJ</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2VCJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(5-chloro-2,4-dihydroxyphenyl)-N-ethyl- 4-[4-(morpholin-4
+-ylmethyl)phenyl]isoxazole- 3-carboxamide</Ligand_Name>
+      <PubMed_Title>4,5-Diarylisoxazole Hsp90 Chaperone Inhibitors: Potential Therapeutic Agents for the Treatment of Cancer.</PubMed_Title>
+      <Author>Brough PA, et al.</Author>
+      <Journal>J Med Chem.2008 Jan 24;51(2):196-218. Epub  2007 Nov 20.</Journal>
+      <PubMed_ID>18020435</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 8-(2-CHLORO-3,4,5-TRIMETHOXY-BENZYL) -9-PENT-4-YLNYL-9H-PURIN-6-YLAMINE</PDB_Title>
+      <PDB_ID>1UYE</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UYE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>8-(2-CHLORO-3,4,5-TRIMETHOXY-BENZYL)-9-PENT- 4-YLNYL-9H-PURIN-6-YLAMINE</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSP90 complexed with A917985</PDB_Title>
+      <PDB_ID>2QG2</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QG2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-({2-[(2-AMINO-6-METHYLPYRIMIDIN-4-YL)ETHYNYL]BENZYL}AMINO)- 1,3-OXAZOL-2(3H)
+-ONE</Ligand_Name>
+      <PubMed_Title>Discovery and design of novel HSP90 inhibitors using multiple fragment-based design strategies.</PubMed_Title>
+      <Author>Huth JR, et al.</Author>
+      <Journal>Chem Biol Drug Des.2007 Jul;70(1):1-12.</Journal>
+      <PubMed_ID>17630989</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>INHIBITION OF THE HSP90 MOLECULAR CHAPERONE IN VITRO AND IN VIVO BY NOVEL, SYNTHETIC, POTENT RESORCINYLIC PYRAZOLE, ISOXAZOLE AMIDE ANALOGS</PDB_Title>
+      <PDB_ID>2UWD</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2UWD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(5-CHLORO-2,4-DIHYDROXYPHENYL)-N-ETHYL- 4-(4-METHOXYPHENYL)ISOXAZOLE-3
+-CARBOXAMIDE $ MAGNESIUM ION $ SULFATE ION</Ligand_Name>
+      <PubMed_Title>Inhibition of the Heat Shock Protein 90 Molecular Chaperone in Vitro and in Vivo by Novel, Synthetic, Potent Resorcinylic Pyrazole/Isoxazole Amide Analogues.</PubMed_Title>
+      <Author>Sharp SY, et al.</Author>
+      <Journal>Mol Cancer Ther.2007 Apr;6(4):1198-211.</Journal>
+      <PubMed_ID>17431102</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>3-(5-CHLORO-2,4-DIHYDROXYPHENYL)-PYRAZOLE-4-CARBOXAMIDES AS INHIBITORS OF THE HSP90 MOLECULAR CHAPERONE</PDB_Title>
+      <PDB_ID>2BYI</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BYI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-(5-CHLORO-2,4-DIHYDROXY-PHENYL)-1H-PYRAZOLE- 4-CARBOXYLIC ACID 4-SULFAMOYL
+-BENZYLAMIDE</Ligand_Name>
+      <PubMed_Title>3-(5-Chloro-2,4-Dihydroxyphenyl)-Pyrazole-4-Carboxamides as Inhibitors of the Hsp90 Molecular Chaperone.</PubMed_Title>
+      <Author>Brough PA, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Dec 1;15(23):5197-201. Epub  2005 Oct 5.</Journal>
+      <PubMed_ID>16213716</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSP90 N-terminal domain in complex with (1R)-2-(5-chloro-2,4-dihydroxybenzoyl)-N-ethylisoindoline-1-carboxamide</PDB_Title>
+      <PDB_ID>3K98</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3K98</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(1R)-2-[(5-chloro-2,4-dihydroxyphenyl)carbonyl]- N-ethyl-2,3-dihydro-1H
+-isoindole-1-carboxamide $ PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Dihydroxyphenylisoindoline amides as orally bioavailable inhibitors of the heat shock protein 90 (hsp90) molecular chaperone.</PubMed_Title>
+      <Author>Kung PP, et al.</Author>
+      <Journal>J Med Chem.2010 Jan 14;53(1):499-503.</Journal>
+      <PubMed_ID>19908836</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human HSP90alpha complexed with dihydroxyphenylpyrazoles</PDB_Title>
+      <PDB_ID>1YC4</PDB_ID>
+      <Resolution>1.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YC4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(1H-IMIDAZOL-4-YL)-3-(5-ETHYL-2,4-DIHYDROXY- PHENYL)-1H-PYRAZOLE</Ligand_Name>
+      <PubMed_Title>Crystal structures of human HSP90alpha-complexed with dihydroxyphenylpyrazoles.</PubMed_Title>
+      <Author>Kreusch A, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Mar 1;15(5):1475-8.</Journal>
+      <PubMed_ID>15713410</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Hsp90 in complex with 17-desmethoxy-17-N,N-Dimethylaminoethylamino-Geldanamycin</PDB_Title>
+      <PDB_ID>1OSF</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OSF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ACETIC ACID $ 17-DESMETHOXY-17-N,N-DIMETHYLAMINOETHYLAMINO- GELDANAMYCIN $ (4S)-2-METHYL-2,4-PENTANEDIOL</Ligand_Name>
+      <PubMed_Title>Crystal Structure and Molecular Modeling of 17-DMAG in Complex with Human Hsp90</PubMed_Title>
+      <Author>Jez JM, et al.</Author>
+      <Journal>Chem Biol.2003 Apr;10(4):361-8.</Journal>
+      <PubMed_ID>12725864</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE-ACTIVITY RELATIONSHIPS IN PURINE-BASED INHIBITOR BINDING TO HSP90 ISOFORMS</PDB_Title>
+      <PDB_ID>1UYL</PDB_ID>
+      <Resolution>1.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UYL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of HSP90 bound with a novel fragment</PDB_Title>
+      <PDB_ID>3FT5</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FT5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-methyl-7,8-dihydro-5H-thiopyrano[4,3-d]pyrimidin- 2-amine</Ligand_Name>
+      <PubMed_Title>Fragment-based Identification of Hsp90 Inhibitors.</PubMed_Title>
+      <Author>Barker JJ, et al.</Author>
+      <Journal>ChemMedChem.2009 Jun;4(6):963-6.</Journal>
+      <PubMed_ID>19301319</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSP90 complexed with A943037</PDB_Title>
+      <PDB_ID>2QG0</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QG0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[(2-AMINO-6-METHYLPYRIMIDIN-4-YL)METHYL]- 3-{[(E)-(2-OXODIHYDROFURAN-3(2H)
+-YLIDENE)METHYL]AMINO}BENZENESULFONAMIDE</Ligand_Name>
+      <PubMed_Title>Discovery and design of novel HSP90 inhibitors using multiple fragment-based design strategies.</PubMed_Title>
+      <Author>Huth JR, et al.</Author>
+      <Journal>Chem Biol Drug Des.2007 Jul;70(1):1-12.</Journal>
+      <PubMed_ID>17630989</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Discovery of Benzisoxazoles as Potent Inhibitors of Chaperone Hsp90</PDB_Title>
+      <PDB_ID>3BMY</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BMY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-chloro-6-{5-[(2-morpholin-4-ylethyl)amino]- 1,2-benzisoxazol-3-yl}benzene-1,3
+-diol</Ligand_Name>
+      <PubMed_Title>Discovery of benzisoxazoles as potent inhibitors of chaperone heat shock protein 90.</PubMed_Title>
+      <Author>Gopalsamy A, et al.</Author>
+      <Journal>J Med Chem.2008 Feb 14;51(3):373-5. Epub  2008 Jan 16.</Journal>
+      <PubMed_ID>18197612</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Dihydroxylphenyl amides as inhibitors of the Hsp90 molecular chaperone</PDB_Title>
+      <PDB_ID>3EKO</PDB_ID>
+      <Resolution>1.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EKO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHATE ION $ 2-(1H-pyrrol-1-ylcarbonyl)benzene-1,3,5-triol</Ligand_Name>
+      <PubMed_Title>Dihydroxylphenyl amides as inhibitors of the Hsp90 molecular chaperone.</PubMed_Title>
+      <Author>Kung PP, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2008 Dec 1;18(23):6273-8. Epub  2008 Sep 26.</Journal>
+      <PubMed_ID>18929486</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90 WITH 4-CHLORO-6-(4-PIPERAZIN-1-YL-1H-PYRAZOL-3-YL)-BENZENE-1,2-DIOL</PDB_Title>
+      <PDB_ID>2CCS</PDB_ID>
+      <Resolution>1.79</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CCS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-CHLORO-6-(4-PIPERAZIN-1-YL-1H-PYRAZOL-5- YL)BENZENE-1,3-DIOL</Ligand_Name>
+      <PubMed_Title>4-Amino Derivatives of the Hsp90 Inhibitor Cct018159.</PubMed_Title>
+      <Author>Barril X, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2006 May 1;16(9):2543-8. Epub  2006 Feb 9.</Journal>
+      <PubMed_ID>16480864</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>3-(5-CHLORO-2,4-DIHYDROXYPHENYL)-PYRAZOLE-4-CARBOXAMIDES AS INHIBITORS OF THE HSP90 MOLECULAR CHAPERONE</PDB_Title>
+      <PDB_ID>2BYH</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BYH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(4-ACETYLPHENYL)-5-(5-CHLORO-2,4-DIHYDROXYPHENYL)- 1H-PYRAZOLE-4-CARBOXAMIDE</Ligand_Name>
+      <PubMed_Title>3-(5-Chloro-2,4-Dihydroxyphenyl)-Pyrazole-4-Carboxamides as Inhibitors of the Hsp90 Molecular Chaperone.</PubMed_Title>
+      <Author>Brough PA, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Dec 1;15(23):5197-201. Epub  2005 Oct 5.</Journal>
+      <PubMed_ID>16213716</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>4,5 DIARYL ISOXAZOLE HSP90 CHAPERONE INHIBITORS: POTENTIAL THERAPEUTIC AGENTS FOR THE TREATMENT OF CANCER</PDB_Title>
+      <PDB_ID>2VCI</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2VCI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-[2,4-DIHYDROXY-5-(1-METHYLETHYL)PHENYL]- N-ETHYL-4-[4-(MORPHOLIN-4
+-YLMETHYL)PHENYL]ISOXAZOLE- 3-CARBOXAMIDE</Ligand_Name>
+      <PubMed_Title>4,5-Diarylisoxazole Hsp90 Chaperone Inhibitors: Potential Therapeutic Agents for the Treatment of Cancer.</PubMed_Title>
+      <Author>Brough PA, et al.</Author>
+      <Journal>J Med Chem.2008 Jan 24;51(2):196-218. Epub  2007 Nov 20.</Journal>
+      <PubMed_ID>18020435</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 8-(2,5-DIMETHOXY-BENZYL)-2-FLUORO-9-PENT-9H-PURIN-6-YLAMINE</PDB_Title>
+      <PDB_ID>1UYI</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UYI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>8-(2,5-DIMETHOXY-BENZYL)-2-FLUORO-9-PENT- 9H-PURIN-6-YLAMINE</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of human HSP90alpha complexed with dihydroxyphenylpyrazoles</PDB_Title>
+      <PDB_ID>1YC3</PDB_ID>
+      <Resolution>2.12</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YC3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(1,3-BENZODIOXOL-5-YL)-5-(5-ETHYL-2,4-DIHYDROXYPHENYL)- 2H-PYRAZOLE-3
+-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Crystal structures of human HSP90alpha-complexed with dihydroxyphenylpyrazoles.</PubMed_Title>
+      <Author>Kreusch A, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Mar 1;15(5):1475-8.</Journal>
+      <PubMed_ID>15713410</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(2,5-DIMETHOXY-BENZYL)-2-FLUORO-9H-PURIN-6-YLAMINE</PDB_Title>
+      <PDB_ID>1UYH</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UYH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>9-BUTYL-8-(2,5-DIMETHOXY-BENZYL)-2-FLUORO- 9H-PURIN-6-YLAMINE</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 8-BENZO[1,3]DIOXOL-,5-YLMETHYL-9-BUTYL-9H-PURIN-6-YLAMINE</PDB_Title>
+      <PDB_ID>1UY9</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UY9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>8-BENZO[1,3]DIOXOL-,5-YLMETHYL-9-BUTYL-9H-</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structures of human HSP90alpha complexed with dihydroxyphenylpyrazoles</PDB_Title>
+      <PDB_ID>1YC1</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YC1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(1,3-BENZODIOXOL-5-YL)-5-(5-ETHYL-2,4-DIHYDROXYPHENYL)- 2H-PYRAZOLE-3
+-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Crystal structures of human HSP90alpha-complexed with dihydroxyphenylpyrazoles.</PubMed_Title>
+      <Author>Kreusch A, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Mar 1;15(5):1475-8.</Journal>
+      <PubMed_ID>15713410</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE INHIBITORS OF THE HSP90 CHAPERONE</PDB_Title>
+      <PDB_ID>2WI2</PDB_ID>
+      <Resolution>2.09</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WI2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>DIMETHYL SULFOXIDE $ 4-METHYL-6-(METHYLSULFANYL)-1,3,5-TRIAZIN- 2-AMINE</Ligand_Name>
+      <PubMed_Title>Combining Hit Identification Strategies: Fragment-Based and in Silico Approaches to Orally Active 2-Aminothieno[2,3-D]Pyrimidine Inhibitors of the Hsp90 Molecular Chaperone.</PubMed_Title>
+      <Author>Brough PA, et al.</Author>
+      <Journal>J Med Chem.2009 Aug 13;52(15):4794-809.</Journal>
+      <PubMed_ID>19610616</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90 WITH 5-(5-CHLORO-2,4-DIHYDROXY-PHENYL)-4-PIPERAZIN-1-YL-2H-PYRAZOLE-3-CARBOXYLIC ACID ETHYLAMIDE</PDB_Title>
+      <PDB_ID>2CCT</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CCT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(5-CHLORO-2,4-DIHYDROXYPHENYL)-N-ETHYL- 4-PIPERAZIN-1-YL-1H-PYRAZOLE-3
+-CARBOXAMIDE</Ligand_Name>
+      <PubMed_Title>4-Amino Derivatives of the Hsp90 Inhibitor Cct018159.</PubMed_Title>
+      <Author>Barril X, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2006 May 1;16(9):2543-8. Epub  2006 Feb 9.</Journal>
+      <PubMed_ID>16480864</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90 WITH 4-CHLORO-6-(4-(4-(4-METHANESULPHONYL-BENZYL)-PIERAZIN-1-YL)-1H-PYRAZOL-3-YL)-BENZENE-1,3-DIOL</PDB_Title>
+      <PDB_ID>2CCU</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CCU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-CHLORO-6-(4-{4-[4-(METHYLSULFONYL)BENZYL]PIPERAZIN- 1-YL}-1H-PYRAZOL-5
+-YL)BENZENE-1,3-DIOL</Ligand_Name>
+      <PubMed_Title>4-Amino Derivatives of the Hsp90 Inhibitor Cct018159.</PubMed_Title>
+      <Author>Barril X, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2006 May 1;16(9):2543-8. Epub  2006 Feb 9.</Journal>
+      <PubMed_ID>16480864</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90 GELDANAMYCIN-BINDING DOMAIN, OPEN CONFORMATION</PDB_Title>
+      <PDB_ID>1YES</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YES</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of an Hsp90-geldanamycin complex: targeting of a protein chaperone by an antitumor agent.</PubMed_Title>
+      <Author>Stebbins CE, et al.</Author>
+      <Journal>Cell.1997 Apr 18;89(2):239-50.</Journal>
+      <PubMed_ID>9108479</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE CHIP U-BOX E3 UBIQUITIN LIGASE</PDB_Title>
+      <PDB_ID>2C2L</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C2L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>NICKEL (II) ION $ SULFATE ION</Ligand_Name>
+      <PubMed_Title>Chaperoned Ubiquitylation-Crystal Structures of the Chip U Box E3 Ubiquitin Ligase and a Chip-Ubc13-Uev1A Complex</PubMed_Title>
+      <Author>Zhang M, et al.</Author>
+      <Journal>Mol Cell.2005 Nov 23;20(4):525-38.</Journal>
+      <PubMed_ID>16307917</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Benzamide Tetrahydro-4H-carbazol-4-one bound to Hsp90</PDB_Title>
+      <PDB_ID>3D0B</PDB_ID>
+      <Resolution>1.74</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3D0B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-[(2-methoxyethyl)amino]-4-(4-oxo-1,2,3,4- tetrahydro-9H-carbazol-9
+-yl)benzamide</Ligand_Name>
+      <PubMed_Title>Discovery of benzamide tetrahydro-4H-carbazol-4-ones as novel small molecule inhibitors of Hsp90</PubMed_Title>
+      <Author>Barta TE, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2008 Jun 15;18(12):3517-21. Epub  2008 May 9.</Journal>
+      <PubMed_ID>18511277</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSP90 N-TERMINAL DOMAIN BOUND TO ADP-MG</PDB_Title>
+      <PDB_ID>1BYQ</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BYQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE $ MAGNESIUM ION</Ligand_Name>
+      <PubMed_Title>In vivo function of Hsp90 is dependent on ATP binding and ATP hydrolysis.</PubMed_Title>
+      <Author>Obermann WM, et al.</Author>
+      <Journal>J Cell Biol.1998 Nov 16;143(4):901-10.</Journal>
+      <PubMed_ID>9817749</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSP90 complexed with A56322</PDB_Title>
+      <PDB_ID>2QF6</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QF6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-(3-BROMO-2-NAPHTHYL)-1,3,5-TRIAZINE-2,4- DIAMINE</Ligand_Name>
+      <PubMed_Title>Discovery and design of novel HSP90 inhibitors using multiple fragment-based design strategies.</PubMed_Title>
+      <Author>Huth JR, et al.</Author>
+      <Journal>Chem Biol Drug Des.2007 Jul;70(1):1-12.</Journal>
+      <PubMed_ID>17630989</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90 GELDANAMYCIN-BINDING DOMAIN, CLOSED CONFORMATION</PDB_Title>
+      <PDB_ID>1YER</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YER</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of an Hsp90-geldanamycin complex: targeting of a protein chaperone by an antitumor agent.</PubMed_Title>
+      <Author>Stebbins CE, et al.</Author>
+      <Journal>Cell.1997 Apr 18;89(2):239-50.</Journal>
+      <PubMed_ID>9108479</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human CDC37-HSP90 docking model based on NMR</PDB_Title>
+      <PDB_ID>2K5B</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2K5B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The human Cdc37.Hsp90 complex studied by heteronuclear NMR spectroscopy</PubMed_Title>
+      <Author>Sreeramulu S, et al.</Author>
+      <Journal>J Biol Chem.2009 Feb 6;284(6):3885-96. Epub  2008 Dec 10.</Journal>
+      <PubMed_ID>19073599</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE INHIBITORS OF THE HSP90 CHAPERONE</PDB_Title>
+      <PDB_ID>2WI1</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WI1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>MAGNESIUM ION $ 4-(2-methoxyethoxy)-6-methylpyrimidin-2-amine</Ligand_Name>
+      <PubMed_Title>Combining Hit Identification Strategies: Fragment-Based and in Silico Approaches to Orally Active 2-Aminothieno[2,3-D]Pyrimidine Inhibitors of the Hsp90 Molecular Chaperone.</PubMed_Title>
+      <Author>Brough PA, et al.</Author>
+      <Journal>J Med Chem.2009 Aug 13;52(15):4794-809.</Journal>
+      <PubMed_ID>19610616</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE-BASED DISCOVERY OF A NEW CLASS OF HSP90 INHIBITORS</PDB_Title>
+      <PDB_ID>2BZ5</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BZ5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2,5-DICHLORO-N-[4-HYDROXY-3-(2-HYDROXY-1- NAPHTHYL)PHENYL]BENZENESULFONAMIDE</Ligand_Name>
+      <PubMed_Title>Structure-Based Discovery of a New Class of Hsp90 Inhibitors.</PubMed_Title>
+      <Author>Barril X, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 Dec 1;15(23):5187-91. Epub  2005 Oct 3.</Journal>
+      <PubMed_ID>16202589</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Dihydroxylphenyl amides as inhibitors of the Hsp90 molecular chaperone</PDB_Title>
+      <PDB_ID>3EKR</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EKR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHATE ION $ 4-{[(2R)-2-(2-methylphenyl)pyrrolidin-1-yl]carbonyl}benzene- 1,3-diol</Ligand_Name>
+      <PubMed_Title>Dihydroxylphenyl amides as inhibitors of the Hsp90 molecular chaperone.</PubMed_Title>
+      <Author>Kung PP, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2008 Dec 1;18(23):6273-8. Epub  2008 Sep 26.</Journal>
+      <PubMed_ID>18929486</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of human Hsp90-alpha bound to the potent water soluble inhibitor PU-H71</PDB_Title>
+      <PDB_ID>2FWZ</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FWZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>8-[(6-IODO-1,3-BENZODIOXOL-5-YL)THIO]-9-[3- (ISOPROPYLAMINO)PROPYL]-9H-PURIN-6
+-AMINE</Ligand_Name>
+      <PubMed_Title>Structural and quantum chemical studies of 8-aryl-sulfanyl adenine class Hsp90 inhibitors.</PubMed_Title>
+      <Author>Immormino RM, et al.</Author>
+      <Journal>J Med Chem.2006 Aug 10;49(16):4953-60.</Journal>
+      <PubMed_ID>16884307</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSP90 N-terminal domain in complex with 4-(1,3-dihydro-2H-isoindol-2-ylcarbonyl)benzene-1,3-diol</PDB_Title>
+      <PDB_ID>3K99</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3K99</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(1,3-dihydro-2H-isoindol-2-ylcarbonyl)benzene- 1,3-diol</Ligand_Name>
+      <PubMed_Title>Dihydroxyphenylisoindoline amides as orally bioavailable inhibitors of the heat shock protein 90 (hsp90) molecular chaperone.</PubMed_Title>
+      <Author>Kung PP, et al.</Author>
+      <Journal>J Med Chem.2010 Jan 14;53(1):499-503.</Journal>
+      <PubMed_ID>19908836</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of human Hsp90-alpha bound to the potent water soluble inhibitor PU-H64</PDB_Title>
+      <PDB_ID>2FWY</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FWY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>8-(6-BROMO-BENZO[1,3]DIOXOL-5-YLSULFANYL)- 9-(3-ISOPROPYLAMINO-PROPYL)-ADENINE</Ligand_Name>
+      <PubMed_Title>Structural and quantum chemical studies of 8-aryl-sulfanyl adenine class Hsp90 inhibitors.</PubMed_Title>
+      <Author>Immormino RM, et al.</Author>
+      <Journal>J Med Chem.2006 Aug 10;49(16):4953-60.</Journal>
+      <PubMed_ID>16884307</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE INHIBITORS OF THE HSP90 CHAPERONE</PDB_Title>
+      <PDB_ID>2WI7</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WI7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-amino-4-[2,4-dichloro-5-(2-pyrrolidin-1- ylethoxy)phenyl]-N-ethylthieno[2,3
+-d]pyrimidine- 6-carboxamide</Ligand_Name>
+      <PubMed_Title>Combining Hit Identification Strategies: Fragment-Based and in Silico Approaches to Orally Active 2-Aminothieno[2,3-D]Pyrimidine Inhibitors of the Hsp90 Molecular Chaperone.</PubMed_Title>
+      <Author>Brough PA, et al.</Author>
+      <Journal>J Med Chem.2009 Aug 13;52(15):4794-809.</Journal>
+      <PubMed_ID>19610616</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSP90 N-terminal domain in complex with 4-chloro-6-{[(2R)-2-(2-methylphenyl)pyrrolidin-1-yl]carbonyl}benzene-1,3-diol</PDB_Title>
+      <PDB_ID>3K97</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3K97</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-chloro-6-{[(2R)-2-(2-methylphenyl)pyrrolidin- 1-yl]carbonyl}benzene-1,3-diol $ DIMETHYL SULFOXIDE</Ligand_Name>
+      <PubMed_Title>Dihydroxyphenylisoindoline amides as orally bioavailable inhibitors of the heat shock protein 90 (hsp90) molecular chaperone.</PubMed_Title>
+      <Author>Kung PP, et al.</Author>
+      <Journal>J Med Chem.2010 Jan 14;53(1):499-503.</Journal>
+      <PubMed_ID>19908836</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of HSP90 bound with a noval fragment.</PDB_Title>
+      <PDB_ID>3FT8</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FT8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(5E,7S)-2-amino-7-(4-fluoro-2-pyridin-3-ylphenyl)- 4-methyl-7,8
+-dihydroquinazolin-5(6H)-one oxime</Ligand_Name>
+      <PubMed_Title>Fragment-based identification of Hsp90 inhibitors.</PubMed_Title>
+      <Author>Barker JJ, et al.</Author>
+      <Journal>ChemMedChem.2009 Jun;4(6):963-6.</Journal>
+      <PubMed_ID>19301319</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of human Hsp90-alpha bound to the potent water soluble inhibitor PU-DZ8</PDB_Title>
+      <PDB_ID>2H55</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H55</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-FLUORO-8-[(6-IODO-1,3-BENZODIOXOL-5-YL)METHYL]- 9-[3-(ISOPROPYLAMINO)PROPYL]
+-9H-PURIN-6-AMINE</Ligand_Name>
+      <PubMed_Title>Structural and quantum chemical studies of 8-aryl-sulfanyl adenine class Hsp90 inhibitors.</PubMed_Title>
+      <Author>Immormino RM, et al.</Author>
+      <Journal>J Med Chem.2006 Aug 10;49(16):4953-60.</Journal>
+      <PubMed_ID>16884307</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(2-CHLORO-3,4,5-TRIMETHOXY-BENZYL)-9H-PURIN-6-YLAMINE</PDB_Title>
+      <PDB_ID>1UYD</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UYD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>9-BUTYL-8-(2-CHLORO-3,4,5-TRIMETHOXY-BENZYL)- 9H-PURIN-6-YLAMINE</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSP90 complexed with A143571 and A516383</PDB_Title>
+      <PDB_ID>2QFO</PDB_ID>
+      <Resolution>1.68</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QFO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-METHYL-6-(TRIFLUOROMETHYL)PYRIMIDIN-2-AMINE $ (3E)-3-[(phenylamino)methylidene]dihydrofuran- 2(3H)-one</Ligand_Name>
+      <PubMed_Title>Discovery and design of novel HSP90 inhibitors using multiple fragment-based design strategies.</PubMed_Title>
+      <Author>Huth JR, et al.</Author>
+      <Journal>Chem Biol Drug Des.2007 Jul;70(1):1-12.</Journal>
+      <PubMed_ID>17630989</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90 WITH 4-(4-(2,3-DIHYDRO-BENZOL(1,4)DIOXIN-6-YL)-5-METHYL-1H-PYRAZOL-3-YL)-6-ETHYL-BENZENE-1,3-DIOL</PDB_Title>
+      <PDB_ID>2CDD</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CDD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-[4-(2,3-DIHYDRO-1,4-BENZODIOXIN-6-YL)-3- METHYL-1H-PYRAZOL-5-YL]-6
+-ETHYLBENZENE-1,3- DIOL</Ligand_Name>
+      <PubMed_Title>A Fluorescence Polarization Assay for Inhibitors of Hsp90.</PubMed_Title>
+      <Author>Howes R, et al.</Author>
+      <Journal>Anal Biochem.2006 Mar 15;350(2):202-13. Epub  2006 Jan 23.</Journal>
+      <PubMed_ID>16460658</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(3,4,5-TRIMETHOXY-BENZYL)-9H-PURIN-6-YLAMINE</PDB_Title>
+      <PDB_ID>1UY6</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UY6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>9-BUTYL-8-(3,4,5-TRIMETHOXYBENZYL)-9H-PURIN- 6-AMINE</Ligand_Name>
+      <PubMed_Title>Structure-Activity Relationships in Purine-Based Inhibitor Binding to Hsp90 Isoforms</PubMed_Title>
+      <Author>Wright L, et al.</Author>
+      <Journal>Chem Biol.2004 Jun;11(6):775-85.</Journal>
+      <PubMed_ID>15217611</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE INHIBITORS OF THE HSP90 CHAPERONE</PDB_Title>
+      <PDB_ID>2WI5</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WI5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3,6-DIAMINO-5-CYANO-4-(4-ETHOXYPHENYL)THIENO[2,3- B]PYRIDINE-2-CARBOXAMIDE</Ligand_Name>
+      <PubMed_Title>Combining Hit Identification Strategies: Fragment-Based and in Silico Approaches to Orally Active 2-Aminothieno[2,3-D]Pyrimidine Inhibitors of the Hsp90 Molecular Chaperone.</PubMed_Title>
+      <Author>Brough PA, et al.</Author>
+      <Journal>J Med Chem.2009 Aug 13;52(15):4794-809.</Journal>
+      <PubMed_ID>19610616</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSP90 ALPHA ATPASE DOMAIN WITH BOUND SMALL MOLECULE FRAGMENT</PDB_Title>
+      <PDB_ID>2JJC</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JJC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>DIMETHYL SULFOXIDE $ PYRIMIDIN-2-AMINE</Ligand_Name>
+      <PubMed_Title>Recent Developments in Fragment-Based Drug Discovery.</PubMed_Title>
+      <Author>Congreve M, et al.</Author>
+      <Journal>J Med Chem.2008 Jul 10;51(13):3661-80. Epub  2008 May 6.</Journal>
+      <PubMed_ID>18457385</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE INHIBITORS OF THE HSP90 CHAPERONE</PDB_Title>
+      <PDB_ID>2WI4</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WI4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(2,4-dichlorophenyl)-5-phenyldiazenyl-pyrimidin- 2-amine</Ligand_Name>
+      <PubMed_Title>Combining Hit Identification Strategies: Fragment-Based and in Silico Approaches to Orally Active 2-Aminothieno[2,3-D]Pyrimidine Inhibitors of the Hsp90 Molecular Chaperone.</PubMed_Title>
+      <Author>Brough PA, et al.</Author>
+      <Journal>J Med Chem.2009 Aug 13;52(15):4794-809.</Journal>
+      <PubMed_ID>19610616</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04612</Pathway_ID>
+      <Pathway_Title>Antigen processing and presentation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05215</Pathway_ID>
+      <Pathway_Title>Prostate cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04626</Pathway_ID>
+      <Pathway_Title>Plant-pathogen interaction</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Environmental adaptation</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04915</Pathway_ID>
+      <Pathway_Title>Estrogen signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04914</Pathway_ID>
+      <Pathway_Title>Progesterone-mediated oocyte maturation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04621</Pathway_ID>
+      <Pathway_Title>NOD-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04151</Pathway_ID>
+      <Pathway_Title>PI3K-Akt signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.cff.b.b.c.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1byq</CATH_URL>
+  </Fold>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01028150</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420056</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420081</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420082</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420083</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420084</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420085</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420088</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420089</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420091</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420092</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420093</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420094</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420095</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420096</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420097</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420098</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420099</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420100</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420102</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420103</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420104</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420105</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420106</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420107</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420108</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420109</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420110</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420111</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420114</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420116</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420117</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420118</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420119</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420120</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420121</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420123</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420128</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420129</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420130</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420131</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420135</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420149</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420159</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420160</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420161</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420163</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420164</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420165</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420167</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420168</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420169</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420170</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420171</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420172</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420173</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420174</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420175</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420176</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420178</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420179</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420180</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420181</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420182</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420183</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420186</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420198</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420200</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420201</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420202</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420204</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420205</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420206</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420207</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420208</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420209</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420213</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420216</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420217</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420218</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420223</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420225</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420231</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420236</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420237</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420246</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420248</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420286</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420332</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420333</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420334</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420337</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420338</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420340</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420344</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420345</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420346</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420350</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420351</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420354</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420357</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420360</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420361</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420365</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420372</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420446</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420453</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420456</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420457</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420458</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420460</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420461</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420464</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420467</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420468</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420682</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420685</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420686</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420689</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420690</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01420692</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590090</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590262</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590263</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590264</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590265</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590266</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590267</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590268</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590269</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590270</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590272</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590274</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590276</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590277</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590281</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590282</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590284</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590286</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590289</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590290</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590291</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590292</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590294</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590297</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590299</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590300</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590301</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590302</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590303</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590304</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590305</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590306</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590308</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590309</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590310</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590312</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590313</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590315</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590316</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04590317</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

@@ -1,0 +1,492 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05610000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q13546</UniProt_ID>
+  <Seq_Length>671</Seq_Length>
+  <Molecule_Weight>75931</Molecule_Weight>
+  <KEGG_ID>hsa:8737</KEGG_ID>
+  <Orthology_ID>K02861</Orthology_ID>
+  <EBI_ID>EBI-358507</EBI_ID>
+  <Function_Summary>Serine-threonine kinase which transduces inflammatory and cell-death signals (necroptosis) following death receptors ligation, activation of pathogen recognition receptors (PRRs), and DNA damage. Upon activation of TNFR1 by the TNF-alpha family cytokines, TRADD and TRAF2 are recruited to the receptor. Ubiquitination by TRAF2 via 'Lys-63'-link chains acts as a critical enhancer of communication with downstream signal transducers in the mitogen-activated protein kinase pathway and the NF-kappa-B pathway, which in turn mediate downstream events including the activation of genes encoding inflammatory molecules. Polyubiquitinated protein binds to IKBKG/NEMO, the regulatory subunit of the IKK complex, a critical event for NF-kappa-B activation. Interaction with other cellular RHIM-containing adapters initiates gene activation and cell death. RIPK1 and RIPK3 association, in particular, forms a necroptosis-inducing complex.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a protein = ADP + a phosphoprotein.</Catalytic_Mechanism>
+  <Pfam_ID>PF00531:Death@@PF07714:Pkinase_Tyr@@PF12721:RHIM</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>3</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>RIP-1</Alias>
+      <Alias>Receptor-interacting protein 1</Alias>
+      <Alias>Cell death protein RIP</Alias>
+      <Alias>Serine/threonine-protein kinase RIP</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any member of the death receptor (DR) family. The DR family falls within the tumor necrosis factor receptor superfamily and is characterized by a cytoplasmic region of ~80 residues termed the death domain (DD).</Detail>
+      <Keyword>Death receptor binding</Keyword>
+      <Ontology_ID>GO:0005123</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a death domain of a protein. The death domain (DD) is a homotypic protein interaction module composed of a bundle of six alpha-helices. DD bind each other forming oligomers. Some DD-containing proteins are involved in the regulation of apoptosis and inflammation through their activation of caspases and NF-kappaB.</Detail>
+      <Keyword>Death domain binding</Keyword>
+      <Ontology_ID>GO:0070513</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>443</Position>
+      <Original>Ala</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>438</Position>
+      <Original>Ala</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>81</Position>
+      <Original>Val</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>404</Position>
+      <Original>Ala</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>569</Position>
+      <Original>Ala</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>220</Position>
+      <Original>Ala</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>64</Position>
+      <Original>Ala</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>234</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process induced by extracellular signals that directly activates any of the steps required for cell death by apoptosis.</Detail>
+      <Keyword>Induction of apoptosis by extracellular signals</Keyword>
+      <Ontology_ID>GO:0008624</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals initiated by binding of an extracellular ligand to the Toll receptor on the surface of the target cell.</Detail>
+      <Keyword>Toll signaling pathway</Keyword>
+      <Ontology_ID>GO:0008063</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of transcription from the RNA polymerase II promoter.</Detail>
+      <Keyword>Positive regulation of transcription from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0045944</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The initiation of the activity of the inactive enzyme JUN kinase by phosphorylation by a JUN kinase kinase (JNKK).</Detail>
+      <Keyword>Activation of JUN kinase activity</Keyword>
+      <Ontology_ID>GO:0007257</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the activity of an ATP:ADP antiporter.</Detail>
+      <Keyword>Regulation of ATP</Keyword>
+      <Ontology_ID>GO:0070926</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that starts the inactive process of necroptosis as a result of a signal outside the cell. Necroptosis is a necrotic cell death process that results from the activation of endogenous cellular processes, such as signaling involving death domain receptors and Toll-like receptors.</Detail>
+      <Keyword>Induction of necroptosis by extracellular signals</Keyword>
+      <Ontology_ID>GO:0060555</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</Detail>
+      <Keyword>Innate immune response</Keyword>
+      <Ontology_ID>GO:0045087</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals generated as a consequence of tumor necrosis factor binding to a cell surface receptor.</Detail>
+      <Keyword>Tumor necrosis factor-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0033209</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to a toll-like receptor where the TRIF adaptor mediates transduction of the signal. Toll-like receptors directly bind pattern motifs from a variety of microbial sources to initiate innate immune response.</Detail>
+      <Keyword>TRIF-dependent toll-like receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0035666</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to toll-like receptor 4.</Detail>
+      <Keyword>Toll-like receptor 4 signaling pathway</Keyword>
+      <Ontology_ID>GO:0034142</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation by a protein of one or more of its own amino acid residues, or residues on an identical protein.</Detail>
+      <Keyword>Protein autophosphorylation</Keyword>
+      <Ontology_ID>GO:0046777</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate, or extent of interleukin-8 production.</Detail>
+      <Keyword>Positive regulation of interleukin-8 production</Keyword>
+      <Ontology_ID>GO:0032757</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to toll-like receptor 3.</Detail>
+      <Keyword>Toll-like receptor 3 signaling pathway</Keyword>
+      <Ontology_ID>GO:0034138</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate, or extent of type I interferon production. Type I interferons include the interferon-alpha, beta, delta, episilon, zeta, kappa, tau, and omega gene families.</Detail>
+      <Keyword>Positive regulation of type I interferon production</Keyword>
+      <Ontology_ID>GO:0032481</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Upregulation of the activity of a caspase, any of a group of cysteine proteases involved in apoptosis.</Detail>
+      <Keyword>Activation of caspase activity</Keyword>
+      <Ontology_ID>GO:0006919</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of an I-kappaB kinase/NF-kappaB induced cascade.</Detail>
+      <Keyword>Positive regulation of I-kappaB kinase/NF-kappaB cascade</Keyword>
+      <Ontology_ID>GO:0043123</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate, or extent of tumor necrosis factor production.</Detail>
+      <Keyword>Positive regulation of tumor necrosis factor production</Keyword>
+      <Ontology_ID>GO:0032760</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of activity of the transcription factor NF-kappaB.</Detail>
+      <Keyword>Positive regulation of NF-kappaB transcription factor activity</Keyword>
+      <Ontology_ID>GO:0051092</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of anti-apoptosis.</Detail>
+      <Keyword>Positive regulation of anti-apoptosis</Keyword>
+      <Ontology_ID>GO:0045768</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The conversion of proteins that induce or sustain apoptosis to an active form.</Detail>
+      <Keyword>Activation of pro-apoptotic gene products</Keyword>
+      <Ontology_ID>GO:0008633</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of reactive oxygen species metabolic process.</Detail>
+      <Keyword>Positive regulation of reactive oxygen species metabolic process</Keyword>
+      <Ontology_ID>GO:2000379</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>303</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>320</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>384</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>166</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>389</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>25</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>6</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>333</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>161</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>387</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>20</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MQPDMSLNVIKMKSSDFLESAELDSGGFGKVSLCFHRTQGLMIMKTVYKGPNCIEHNEALLEEAKMMNRLRHSRVVKLLGVIIEEGKYSLVMEYMEKGNLMHVLKAEMSTPLSVKGRIILEIIEGMCYLHGKGVIHKDLKPENILVDNDFHIKIADLGLASFKMWSKLNNEEHNELREVDGTAKKNGGTLYYMAPEHLNDVNAKPTEKSDVYSFAVVLWAIFANKEPYENAICEQQLIMCIKSGNRPDVDDITEYCPREIISLMKLCWEANPEARPTFPGIEEKFRPFYLSQLEESVEEDVKSLKKEYSNENAVVKRMQSLQLDCVAVPSSRSNSATEQPGSLHSSQGLGMGPVEESWFAPSLEHPQEENEPSLQSKLQDEANYHLYGSRMDRQTKQQPRQNVAYNREEERRRRVSHDPFAQQRPYENFQNTEGKGTAYSSAASHGNAVHQPSGLTSQPQVLYQNNGLYSSHGFGTRPLDPGTAGPRVWYRPIPSHMPSLHNIPVPETNYLGNTPTMPFSSLPPTDESIKYTIYNSTGIQIGAYNYMEIGGTSSSLLDSTNTNFKEEPAAKYQAIFDNTTSLTDKHLDPIRENLGKHWKNCARKLGFTQSQIDEIDHDYERDGLKEKVYQMLQKWVMREGIKGATVGKLAQALHQCSRIDLLSSLIYVSQN</Protein_Seq>
+    <DNA_Seq>ATGCAACCAGACATGTCCTTGAATGTCATTAAGATGAAATCCAGTGACTTCCTGGAGAGTGCAGAACTGGACAGCGGAGGCTTTGGGAAGGTGTCTCTGTGTTTCCACAGAACCCAGGGACTCATGATCATGAAAACAGTGTACAAGGGGCCCAACTGCATTGAGCACAACGAGGCCCTCTTGGAGGAGGCGAAGATGATGAACAGACTGAGACACAGCCGGGTGGTGAAGCTCCTGGGCGTCATCATAGAGGAAGGGAAGTACTCCCTGGTGATGGAGTACATGGAGAAGGGCAACCTGATGCACGTGCTGAAAGCCGAGATGAGTACTCCGCTTTCTGTAAAAGGAAGGATAATTTTGGAAATCATTGAAGGAATGTGCTACTTACATGGAAAAGGCGTGATACACAAGGACCTGAAGCCTGAAAATATCCTTGTTGATAATGACTTCCACATTAAGATCGCAGACCTCGGCCTTGCCTCCTTTAAGATGTGGAGCAAACTGAATAATGAAGAGCACAATGAGCTGAGGGAAGTGGACGGCACCGCTAAGAAGAATGGCGGCACCCTCTACTACATGGCGCCCGAGCACCTGAATGACGTCAACGCAAAGCCCACAGAGAAGTCGGATGTGTACAGCTTTGCTGTAGTACTCTGGGCGATATTTGCAAATAAGGAGCCATATGAAAATGCTATCTGTGAGCAGCAGTTGATAATGTGCATAAAATCTGGGAACAGGCCAGATGTGGATGACATCACTGAGTACTGCCCAAGAGAAATTATCAGTCTCATGAAGCTCTGCTGGGAAGCGAATCCGGAAGCTCGGCCGACATTTCCTGGCATTGAAGAAAAATTTAGGCCTTTTTATTTAAGTCAATTAGAAGAAAGTGTAGAAGAGGACGTGAAGAGTTTAAAGAAAGAGTATTCAAACGAAAATGCAGTTGTGAAGAGAATGCAGTCTCTTCAACTTGATTGTGTGGCAGTACCTTCAAGCCGGTCAAATTCAGCCACAGAACAGCCTGGTTCACTGCACAGTTCCCAGGGACTTGGGATGGGTCCTGTGGAGGAGTCCTGGTTTGCTCCTTCCCTGGAGCACCCACAAGAAGAGAATGAGCCCAGCCTGCAGAGTAAACTCCAAGACGAAGCCAACTACCATCTTTATGGCAGCCGCATGGACAGGCAGACGAAACAGCAGCCCAGACAGAATGTGGCTTACAACAGAGAGGAGGAAAGGAGACGCAGGGTCTCCCATGACCCTTTTGCACAGCAAAGACCTTACGAGAATTTTCAGAATACAGAGGGAAAAGGCACTGCTTATTCCAGTGCAGCCAGTCATGGTAATGCAGTGCACCAGCCCTCAGGGCTCACCAGCCAACCTCAAGTACTGTATCAGAACAATGGATTATATAGCTCACATGGCTTTGGAACAAGACCACTGGATCCAGGAACAGCAGGTCCCAGAGTTTGGTACAGGCCAATTCCAAGTCATATGCCTAGTCTGCATAATATCCCAGTGCCTGAGACCAACTATCTAGGAAATACACCCACCATGCCATTCAGCTCCTTGCCACCAACAGATGAATCTATAAAATATACCATATACAATAGTACTGGCATTCAGATTGGAGCCTACAATTATATGGAGATTGGTGGGACGAGTTCATCACTACTAGACAGCACAAATACGAACTTCAAAGAAGAGCCAGCTGCTAAGTACCAAGCTATCTTTGATAATACCACTAGTCTGACGGATAAACACCTGGACCCAATCAGGGAAAATCTGGGAAAGCACTGGAAAAACTGTGCCCGTAAACTGGGCTTCACACAGTCTCAGATTGATGAAATTGACCATGACTATGAGCGAGATGGACTGAAAGAAAAGGTTTACCAGATGCTCCAAAAGTGGGTGATGAGGGAAGGCATAAAGGGAGCCACGGTGGGGAAGCTGGCCCAGGCGCTCCACCAGTGTTCCAGGATCGACCTTCTGAGCAGCTTGATTTACGTCAGCCAGAACTAACCCTGGATGGGCTACGGCAGCTGAAGTGGACGCCTCACTTAGTGGATAACCCCAGAAAGTTGGCTGCCTCAGAGCATTCAGAATTCTGTCCTCACTGATAGGGGTTCTGTGTCTGCAGAAATTTTGTTTCCTGTACTTCATAGCTGGAGAATGGGGAAAGAAATCTGCAGCAAAGGGGTCTCACTCTGTTGCCAGGCTGGTCTCAAACTTCTGGACTCAAGTGATCCTCCCGCCTCGGCCTTCCAAAGTGCTGGGATATCAGGCACTGAGCCACTGCGCCCAGCCAACAATCCGCTCTGAGGAAAGCGTAAGCAGGAAGACCTCTTAATGGCATAGCACCAATAAAAAAATGACTCCTAGTTGTGTTTGGAAAGGGAGAGAAGAGATGTCTGAGGAAGGTCATGTTCTTTCAGCTTATGGCATTTCCTAGAGTTTTGTTGAAGCAAGAAGAAAAACTCAGAGAATATAAAATCAACTTTTAAAATTGTGTGCTCTCTTCTTCACGTAGGCTCCTGTTAAAAACAAAGTGCAGTCAGATTCTAAGCCCTGTTCAGAGACTTCGTGGATCACAGCTGCAGCTCACCGCCACATCACAGGATCCGTTAACGTTAATACCCAATACTCTGTCAGCCACTGTAGGCTCTAAGAACCACGTGCAGTCTTCAGCCCATTAAATTATCGATTATTTTTTAATGAATTGAATTTATATTGAGTCTTCAAATTAACTGAATGGATTTAAAGGGGTACCAAGGAGGGGGGAAACATCAGAATTTCCCAGGCAGTTGTTGCAAGGAATTGGTACTAACCGTGACTACAACAAAAATTCTTGATTGACTTTTAAAGTTATTTCCTGGCATTCTGGTACCTTCACCCAGCCTGAGTGCCCTGGAGAGGGAACAGGAAATGCTGATCTCTACCCCTGGGTGAGACCAGAACCTCAGGGCTGATACTGTTGAGTGGCTTCCTCGGTTTACTCTGTGTACTGTGAAAGTATTTTCATATTTTTTCTGTGTGCCAGAGTGAAAAAGGACAGCTTCTGAGTGTGGTAATTGTGCCTCTAGCACCCAGCCTTTCAAAGCCCACCTGAAACCTGGGGGTGGATGAAAGAACTAGAATAGAAGACTGAAGCTGGGTAGGCCGCTCAGTGTCCACTGGCATTTTGCTAAACCGACAAGGAAGGCTGTGTGCTTAGCTCTCCCCAGAGGGAGGGCGAGAAGGGTGTGGTGATGGTCAATCTGGCTGTCGGAACAGATTCTGGTGTCTTGGGCTGATAACAGTGTTGTTGATTCTGATTGTGAATCCCCTCAACTCTAGCAGACACATACACACCCCTGAAATGGGGCTGCAGAGCAGGCTGTCTCAGCCTTGCCACTGTCGGCATCTCGGCCTGGGTAATTCTGTTGTGGGGACTGTCCTGTTCCTTGTAGGATGTTTAGTAGCATCCCTGCCCCCACCTACTAGATGCCAGGGGCACTGTTCTCCCCAGCCCCCCGCCCCAGTTGTGACAATAGTCTCTAAACATTGTCAAATGGTCCAAGGAAAGGGGAAAATTGCCCCGGTTGAGAAGAGCACTGCTGTAAAGTAATGAGCCTCGGCTCTCCTGTCTGCACCTGTCCGGTTACTACTTGGCCACCACGCAGCCTTGGCTCCTACAGCCCAAAAGGGAGAATGGAGGGAGGCTCCAGGCTTTGCTGGAGGGGCCTGGGTGAGTTCTGTTTGCTCCTTGTACCACCATCCAAATGGTGTTATCAAATCTCTTAGATTCCAAAGAGGTTGAATAATTAATGTTCAAAGGCAAGAGGGCAAGGCATTTTTTAACACTTTTTAAAATAAAAATTTATACCACAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Death-inducing signaling complex</CellLocal>
+      <Ontology_ID>GO:0031264</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endosome membrane</CellLocal>
+      <Ontology_ID>GO:0010008</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Receptor complex</CellLocal>
+      <Ontology_ID>GO:0043235</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>RIPK1</Gene_Name>
+    <Gene_Alias>RIP; RIP1</Gene_Alias>
+    <Gene_ID>8737</Gene_ID>
+    <Genbank_ACCN>NM_003804</Genbank_ACCN>
+    <Protein_ACCN>NP_003795</Protein_ACCN>
+    <HGNC_ID>10019</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/8737</Gene_URL>
+    <UCSC_ID>uc011dhs.2</UCSC_ID>
+    <EMBL_ID>ENSG00000137275</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q13158</Uniprot_ID>
+      <Gene_Name>FADD</Gene_Name>
+      <EBI_ID>EBI-494804</EBI_ID>
+      <PPI_EBI_URL>EBI-358507,EBI-494804</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q92851</Uniprot_ID>
+      <Gene_Name>CASP10</Gene_Name>
+      <EBI_ID>EBI-495095</EBI_ID>
+      <PPI_EBI_URL>EBI-358507,EBI-495095</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q14790</Uniprot_ID>
+      <Gene_Name>CASP8</Gene_Name>
+      <EBI_ID>EBI-78060</EBI_ID>
+      <PPI_EBI_URL>EBI-358507,EBI-78060</PPI_EBI_URL>
+      <Experiment_Number>22</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P48729</Uniprot_ID>
+      <Gene_Name>CSNK1A1</Gene_Name>
+      <EBI_ID>EBI-1383726</EBI_ID>
+      <PPI_EBI_URL>EBI-358507,EBI-1383726</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P19438</Uniprot_ID>
+      <Gene_Name>TNFRSF1A</Gene_Name>
+      <EBI_ID>EBI-299451</EBI_ID>
+      <PPI_EBI_URL>EBI-358507,EBI-299451</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q13490</Uniprot_ID>
+      <Gene_Name>BIRC2</Gene_Name>
+      <EBI_ID>EBI-514538</EBI_ID>
+      <PPI_EBI_URL>EBI-358507,EBI-514538</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y6K9</Uniprot_ID>
+      <Gene_Name>IKBKG</Gene_Name>
+      <EBI_ID>EBI-81279</EBI_ID>
+      <PPI_EBI_URL>EBI-358507,EBI-81279</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q13489</Uniprot_ID>
+      <Gene_Name>BIRC3</Gene_Name>
+      <EBI_ID>EBI-517709</EBI_ID>
+      <PPI_EBI_URL>EBI-358507,EBI-517709</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q8IVM0</Uniprot_ID>
+      <Gene_Name>CCDC50</Gene_Name>
+      <EBI_ID>EBI-723996</EBI_ID>
+      <PPI_EBI_URL>EBI-358507,EBI-723996</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y572</Uniprot_ID>
+      <Gene_Name>RIPK3</Gene_Name>
+      <EBI_ID>EBI-298250</EBI_ID>
+      <PPI_EBI_URL>EBI-358507,EBI-298250</PPI_EBI_URL>
+      <Experiment_Number>12</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P04083</Uniprot_ID>
+      <Gene_Name>ANXA1</Gene_Name>
+      <EBI_ID>EBI-354007</EBI_ID>
+      <PPI_EBI_URL>EBI-358507,EBI-354007</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Receptor-interacting serine/threonine-protein kinase 1</PDB_Title>
+      <PDB_ID>ASD05610000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04620</Pathway_ID>
+      <Pathway_Title>Toll-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05160</Pathway_ID>
+      <Pathway_Title>Hepatitis C</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04623</Pathway_ID>
+      <Pathway_Title>Cytosolic DNA-sensing pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04210</Pathway_ID>
+      <Pathway_Title>Apoptosis</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04064</Pathway_ID>
+      <Pathway_Title>NF-kappa B signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04668</Pathway_ID>
+      <Pathway_Title>TNF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04668</Pathway_ID>
+      <Pathway_Title>TNF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04064</Pathway_ID>
+      <Pathway_Title>NF-kappa B signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04064</Pathway_ID>
+      <Pathway_Title>NF-kappa B signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04668</Pathway_ID>
+      <Pathway_Title>TNF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04622</Pathway_ID>
+      <Pathway_Title>RIG-I-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05169</Pathway_ID>
+      <Pathway_Title>Epstein-Barr virus infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD05613001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05613002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05613003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

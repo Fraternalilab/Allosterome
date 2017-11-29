@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03000000_3</Organism_ID>
+  <Organism>Escherichia coli </Organism>
+  <Organism_Latin>Escherichia coli </Organism_Latin>
+  <UniProt_ID>P0A8F0</UniProt_ID>
+  <Seq_Length>208</Seq_Length>
+  <Molecule_Weight>22533</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p2451</KEGG_ID>
+  <Orthology_ID>K00761</Orthology_ID>
+  <EBI_ID>EBI-909572</EBI_ID>
+  <Function_Summary>Catalyzes the conversion of uracil and 5-phospho-alpha-D-ribose 1-diphosphate (PRPP) to UMP and diphosphate.</Function_Summary>
+  <Catalytic_Mechanism>UMP + diphosphate = uracil + 5-phospho-alpha-D-ribose 1-diphosphate.</Catalytic_Mechanism>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>UMP pyrophosphorylase</Alias>
+      <Alias>UPRTase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: diphosphate + UMP = 5-phospho-alpha-D-ribose 1-diphosphate + uracil.</Detail>
+      <Keyword>Uracil phosphoribosyltransferase activity</Keyword>
+      <Ontology_ID>GO:0004845</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with GTP, guanosine triphosphate.</Detail>
+      <Keyword>GTP binding</Keyword>
+      <Ontology_ID>GO:0005525</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a glycosyl group from one compound (donor) to another (acceptor).</Detail>
+      <Keyword>Transferase activity, transferring glycosyl groups</Keyword>
+      <Ontology_ID>GO:0016757</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that generates uracil, 2,4-dioxopyrimidine, from derivatives of it without de novo synthesis.</Detail>
+      <Keyword>Uracil salvage</Keyword>
+      <Ontology_ID>GO:0006223</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process which produces UMP, uridine monophosphate, from derivatives of it (e.g. cytidine, uridine, cytosine) without de novo synthesis.</Detail>
+      <Keyword>UMP salvage</Keyword>
+      <Ontology_ID>GO:0044206</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKIVEVKHPLVKHKLGLMREQDISTKRFRELASEVGSLLTYEATADLETEKVTIEGWNGPVEIDQIKGKKITVVPILRAGLGMMDGVLENVPSARISVVGMYRNEETLEPVPYFQKLVSNIDERMALIVDPMLATGGSVIATIDLLKKAGCSSIKVLVLVAAPEGIAALEKAHPDVELYTASIDQGLNEHGYIIPGLGDAGDKIFGTK</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>upp</Gene_Name>
+    <Gene_Alias>uraP</Gene_Alias>
+    <Gene_ID>12932444</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_416993</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/946979</Gene_URL>
+    <EMBL_ID>BAA16386</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P0A8F0</Uniprot_ID>
+      <Gene_Name>upp</Gene_Name>
+      <EBI_ID>EBI-909572</EBI_ID>
+      <PPI_EBI_URL>EBI-909572,EBI-909572</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Structure of Uracil phosphoribosyl transferase</PDB_Title>
+      <PDB_ID>2EHJ</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2EHJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of Uracil phosphoribosyl transferase</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00240</Pathway_ID>
+      <Pathway_Title>Pyrimidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/version/latest/domain/2ehjD00</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Jensen KF, et al. Eur J Biochem. 1996,240(3):637-645.;Selwood T, et al. Arch Biochem Biophys. 2012,519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PubMed_ID>8856065;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.4.2.9</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/4/2/9.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00070007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00150003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00290006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-11-07</Create_Date>
+</Organism_Record>

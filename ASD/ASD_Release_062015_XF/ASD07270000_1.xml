@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07270000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A7B8</UniProt_ID>
+  <Seq_Length>176</Seq_Length>
+  <Molecule_Weight>19093</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3255</KEGG_ID>
+  <Orthology_ID>K01419</Orthology_ID>
+  <EBI_ID>EBI-552265</EBI_ID>
+  <Function_Summary>Protease subunit of a proteasome-like degradation complex believed to be a general protein degrading machinery. The complex has been shown to be involved in the specific degradation of heat shock induced transcription factors such as RpoH and SulA. In addition, small hydrophobic peptides are also hydrolyzed by HslV. HslV has weak protease activity even in the absence of HslU, but this activity is induced more than 100-fold in the presence of HslU. HslU recognizes protein substrates and unfolds these before guiding them to HslV for hydrolysis. HslV is not believed to degrade folded proteins.</Function_Summary>
+  <Catalytic_Mechanism>ATP-dependent cleavage of peptide bonds with broad specificity.</Catalytic_Mechanism>
+  <Pfam_ID>PF00227:Proteasome</Pfam_ID>
+  <Allosteric_Activator_Count>4</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Heat shock protein HslV</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein or proteins.</Detail>
+      <Keyword>Identical protein binding</Keyword>
+      <Ontology_ID>GO:0042802</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal peptide bonds in a polypeptide chain by a mechanism in which the hydroxyl group of a threonine residue at the active center acts as a nucleophile.</Detail>
+      <Keyword>Threonine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004298</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a heat stimulus, a temperature stimulus above the optimal temperature for that organism.</Detail>
+      <Keyword>Response to heat</Keyword>
+      <Ontology_ID>GO:0009408</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The hydrolysis of a peptide bond or bonds within a protein as part of the chemical reactions and pathways resulting in the breakdown of a protein by individual cells.</Detail>
+      <Keyword>Proteolysis involved in cellular protein catabolic process</Keyword>
+      <Ontology_ID>GO:0051603</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).</Detail>
+      <Keyword>Response to stress</Keyword>
+      <Ontology_ID>GO:0006950</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTTIVSVRRNGHVVIAGDGQATLGNTVMKGNVKKVRRLYNDKVIAGFAGGTADAFTLFELFERKLEMHQGHLVKAAVELAKDWRTDRMLRKLEALLAVADETASLIITGNGDVVQPENDLIAIGSGGPYAQAAARALLENTELSAREIAEKALDIAGDICIYTNHFHTIEELSYKA</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Proteasome core complex</CellLocal>
+      <Ontology_ID>GO:0005839</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>HslUV protease complex</CellLocal>
+      <Ontology_ID>GO:0009376</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>hslV</Gene_Name>
+    <Gene_Alias>htpO; yiiC</Gene_Alias>
+    <Gene_ID>12932787</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_418367</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/948429</Gene_URL>
+    <EMBL_ID>EBESCG00000016133</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P0A7B8</Uniprot_ID>
+      <Gene_Name>hslV</Gene_Name>
+      <EBI_ID>EBI-552265</EBI_ID>
+      <PPI_EBI_URL>EBI-552265,EBI-552265</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P0A6H5</Uniprot_ID>
+      <Gene_Name>hslU</Gene_Name>
+      <EBI_ID>EBI-369317</EBI_ID>
+      <PPI_EBI_URL>EBI-552265,EBI-369317</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Nucleotide-Dependent Conformational Changes in a Protease-Associated ATPase HslU</PDB_Title>
+      <PDB_ID>1HT1</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HT1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Nucleotide-dependent conformational changes in a protease-associated ATPase HsIU.</PubMed_Title>
+      <Author>Wang, J., et al.</Author>
+      <Journal>Structure(2001)9:1107-1116</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11709174?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF THE HSLVU PEPTIDASE-ATPASE COMPLEX REVEAL AN ATP-DEPENDENT PROTEOLYSIS MECHANISM</PDB_Title>
+      <PDB_ID>1G4A</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G4A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the HslVU peptidase-ATPase complex reveal an ATP-dependent proteolysis mechanism.</PubMed_Title>
+      <Author>Wang, J., et al.</Author>
+      <Journal>Structure(2001)9:177-184</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11250202?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HSLV-HSLU FROM E.COLI</PDB_Title>
+      <PDB_ID>1E94</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1E94</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mutational Studies on Hslu and its Docking Mode with Hslv</PubMed_Title>
+      <Author>Song, H.K., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2000)97:14103</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11114186?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HSLV (CLPQ) AT 3.8 ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>1NED</PDB_ID>
+      <Resolution>3.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NED</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of heat shock locus V (HslV) from Escherichia coli.</PubMed_Title>
+      <Author>Bochtler, M., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(1997)94:6070-6074</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9177170?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Nucleotide-Dependent Conformational Changes in a Protease-Associated ATPase HslU</PDB_Title>
+      <PDB_ID>1HT2</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HT2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Nucleotide-dependent conformational changes in a protease-associated ATPase HsIU.</PubMed_Title>
+      <Author>Wang, J., et al.</Author>
+      <Journal>Structure(2001)9:1107-1116</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11709174?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF THE HSLVU PEPTIDASE-ATPASE COMPLEX REVEAL AN ATP-DEPENDENT PROTEOLYSIS MECHANISM</PDB_Title>
+      <PDB_ID>1G4B</PDB_ID>
+      <Resolution>7.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G4B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the HslVU peptidase-ATPase complex reveal an ATP-dependent proteolysis mechanism.</PubMed_Title>
+      <Author>Wang, J., et al.</Author>
+      <Journal>Structure(2001)9:177-184</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11250202?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Nucleotide-Dependent Conformational Changes in a Protease-Associated ATPase HslU</PDB_Title>
+      <PDB_ID>1HQY</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HQY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Nucleotide-dependent conformational changes in a protease-associated ATPase HsIU.</PubMed_Title>
+      <Author>Wang, J., et al.</Author>
+      <Journal>Structure(2001)9:1107-1116</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11709174?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.bi.bg.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1e94</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Allosteric_Pathway>
+    <Pathway>L71, V76, L88, L91</Pathway>
+    <Method>Structural analysis, mutations</Method>
+    <Verified__Residue>L71, V76, L88, L91</Verified__Residue>
+    <PubMed_Title>Lichi Shi, et al.Proc Natl Acad Sci U S A. 2014 February 11; 111(6): 2140-2145.</PubMed_Title>
+    <PubMed_ID>24469799</PubMed_ID>
+    <is__ref__img>No</is__ref__img>
+    <is__display>Yes</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.25.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/25/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD07270001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07270002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07270003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07270004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

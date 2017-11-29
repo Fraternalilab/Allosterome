@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02840000_1</Organism_ID>
+  <Organism>Chicken</Organism>
+  <Organism_Latin>Gallus gallus</Organism_Latin>
+  <UniProt_ID>Q6S7R6</UniProt_ID>
+  <Seq_Length>208</Seq_Length>
+  <Molecule_Weight>23628</Molecule_Weight>
+  <KEGG_ID>gga:396428</KEGG_ID>
+  <Orthology_ID>K12044</Orthology_ID>
+  <Pfam_ID>PF00992:Troponin@@PF11636:Troponin-I_N</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>TnI</Alias>
+      <Alias>Cardiac troponin I</Alias>
+      <Alias>Troponin I, cardiac muscle</Alias>
+  </Alias_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAEEEEPKPPPLRRKSSANYRGYAVEPHAKRQSKISASRKLQLKTLLLQRAKRELEREEQERAGEKQRHLGELCPPPELEGLGVAQLQELCRELHARIGRVDEERYDMGTRVSKNMAEMEELRRRVAGGRFVRPALRRVRLSADAMMAALLGSKHRVGTDLRAGLRQVRKDDAEKESREVGDWRKNVDALSGMEGRKKKFEAPGGGQG</Protein_Seq>
+    <DNA_Seq>CAGCACCGATGCACGATGGCTGAGGAAGAGGAGCCGAAGCCCCCCCCTCTGCGGCGCAAATCATCCGCCAACTACCGGGGTTACGCTGTGGAGCCCCACGCCAAGAGACAATCCAAGATCTCGGCTTCCCGCAAGCTGCAGCTCAAGACGTTGCTGCTGCAGAGAGCAAAGCGGGAGTTGGAGCGCGAGGAGCAGGAGAGGGCAGGAGAGAAACAGCGGCACCTGGGGGAGCTGTGCCCCCCCCCGGAGCTGGAGGGCTTGGGGGTGGCCCAGCTGCAGGAGCTGTGCCGGGAGCTGCACGCCCGCATAGGGCGCGTGGATGAGGAGCGCTACGACATGGGGACGCGCGTCAGCAAGAACATGGCCGAGATGGAGGAGCTGCGGCGCCGCGTGGCCGGGGGTCGCTTTGTTCGCCCCGCGCTGCGCCGCGTGCGGCTGTCGGCCGACGCCATGATGGCGGCGCTGCTGGGCTCCAAGCACCGCGTGGGCACCGACCTGAGGGCCGGGCTGCGGCAGGTGCGGAAGGACGACGCCGAGAAGGAGAGCCGCGAGGTCGGCGATTGGCGGAAGAACGTGGACGCGCTGAGCGGCATGGAGGGGCGCAAGAAGAAGTTCGAGGCGCCGGGGGGGGGGCAGGGCTGAGGACC</DNA_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_ID>396428</Gene_ID>
+    <Genbank_ACCN>NM_213570</Genbank_ACCN>
+    <Protein_ACCN>NP_998735</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/396428</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Troponin I</PDB_Title>
+      <PDB_ID>ASD02840000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04260</Pathway_ID>
+      <Pathway_Title>Cardiac muscle contraction</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Circulatory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04024</Pathway_ID>
+      <Pathway_Title>cAMP signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04261</Pathway_ID>
+      <Pathway_Title>Adrenergic signaling in cardiomyocytes</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Circulatory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04260</Pathway_ID>
+      <Pathway_Title>Cardiac muscle contraction</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Circulatory system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>domain,the COOH terminus</Site_Detail>
+      <Site_Reference>Jin JP, et al. Biochemistry. 2001,40(8):2623-26231.</Site_Reference>
+      <Site_Type>Allosteric switch</Site_Type>
+      <PubMed_ID>11327886</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00240009</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

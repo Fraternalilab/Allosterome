@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04070000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P42684</UniProt_ID>
+  <Seq_Length>1182</Seq_Length>
+  <Molecule_Weight>128343</Molecule_Weight>
+  <KEGG_ID>hsa:27</KEGG_ID>
+  <Orthology_ID>K08887</Orthology_ID>
+  <EBI_ID>EBI-1102694</EBI_ID>
+  <Function_Summary>Non-receptor tyrosine-protein kinase that plays an ABL1-overlapping role in key processes linked to cell growth and survival such as cytoskeleton remodeling in response to extracellular stimuli, cell motility and adhesion and receptor endocytosis. Coordinates actin remodeling through tyrosine phosphorylation of proteins controlling cytoskeleton dynamics like MYH10 (involved in movement); CTTN (involved in signaling); or TUBA1 and TUBB (microtubule subunits). Binds directly F-actin and regulates actin cytoskeletal structure through its F-actin-bundling activity. Involved in the regulation of cell adhesion and motility through phosphorylation of key regulators of these processes such as CRK, CRKL, DOK1 or ARHGAP35. Adhesion-dependent phosphorylation of ARHGAP35 promotes its association with RASA1, resulting in recruitment of ARHGAP35 to the cell periphery where it inhibits RHO. Phosphorylates multiple receptor tyrosine kinases like PDGFRB and other substrates which are involved in endocytosis regulation such as RIN1. In brain, may regulate neurotransmission by phosphorylating proteins at the synapse. ABL2 acts also as a regulator of multiple pathological signaling cascades during infection. Pathogens can highjack ABL2 kinase signaling to reorganize the host actin cytoskeleton for multiple purposes, like facilitating intracellular movement and host cell exit. Finally, functions as its own regulator through autocatalytic activity as well as through phosphorylation of its inhibitor, ABI1.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a [protein]-L-tyrosine = ADP + a [protein]-L-tyrosine phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF08919:F_actin_bind@@PF07714:Pkinase_Tyr@@PF00017:SH2@@PF00018:SH3_1</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Abelson murine leukemia viral oncogene homolog 2</Alias>
+      <Alias>Tyrosine-protein kinase ARG</Alias>
+      <Alias>Abelson-related gene protein</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a protein tyrosine = ADP + protein tyrosine phosphate.</Detail>
+      <Keyword>Protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004713</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an actin filament, also known as F-actin, a helical filamentous polymer of globular G-actin subunits.</Detail>
+      <Keyword>Actin filament binding</Keyword>
+      <Ontology_ID>GO:0051015</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with manganese (Mn) ions.</Detail>
+      <Keyword>Manganese ion binding</Keyword>
+      <Ontology_ID>GO:0030145</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a non-membrane spanning protein L-tyrosine = ADP + a non-membrane spanning protein L-tyrosine phosphate.</Detail>
+      <Keyword>Non-membrane spanning protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004715</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with monomeric actin, also known as G-actin.</Detail>
+      <Keyword>Actin monomer binding</Keyword>
+      <Ontology_ID>GO:0003785</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>946</Position>
+      <Original>Val</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>930</Position>
+      <Original>Lys</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1085</Position>
+      <Original>Ser</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>769</Position>
+      <Original>Thr</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>519</Position>
+      <Original>Arg</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>99</Position>
+      <Original>Glu</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>996</Position>
+      <Original>Pro</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>78</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1101</Position>
+      <Original>Thr</Original>
+      <Variation>Ala</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that increases the rate, frequency or extent of neuron projection development. Neuron projection development is the process whose specific outcome is the progression of a neuron projection over time, from its formation to the mature structure. A neuron projection is any process extending from a neural cell, such as axons or dendrites (collectively called neurites).</Detail>
+      <Keyword>Positive regulation of neuron projection development</Keyword>
+      <Ontology_ID>GO:0010976</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a retinoic acid stimulus.</Detail>
+      <Keyword>Cellular response to retinoic acid</Keyword>
+      <Ontology_ID>GO:0071300</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The attachment of a cell, either to another cell or to an underlying substrate such as the extracellular matrix, via cell adhesion molecules.</Detail>
+      <Keyword>Cell adhesion</Keyword>
+      <Ontology_ID>GO:0007155</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of attachment of a cell to another cell or to the extracellular matrix.</Detail>
+      <Keyword>Regulation of cell adhesion</Keyword>
+      <Ontology_ID>GO:0030155</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of actin cytoskeleton reorganization.</Detail>
+      <Keyword>Regulation of actin cytoskeleton reorganization</Keyword>
+      <Ontology_ID>GO:2000249</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cell motility.</Detail>
+      <Keyword>Regulation of cell motility</Keyword>
+      <Ontology_ID>GO:2000145</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of oxidoreductase activity, the catalysis of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered.</Detail>
+      <Keyword>Positive regulation of oxidoreductase activity</Keyword>
+      <Ontology_ID>GO:0051353</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of autophagy. Autophagy is the process in which cells digest parts of their own cytoplasm.</Detail>
+      <Keyword>Regulation of autophagy</Keyword>
+      <Ontology_ID>GO:0010506</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal, e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light, and ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell, and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</Detail>
+      <Keyword>Signal transduction</Keyword>
+      <Ontology_ID>GO:0007165</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation of peptidyl-tyrosine to form peptidyl-O4'-phospho-L-tyrosine.</Detail>
+      <Keyword>Peptidyl-tyrosine phosphorylation</Keyword>
+      <Ontology_ID>GO:0018108</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemotaxis process that directs the migration of an axon growth cone to a specific target site in response to a combination of attractive and repulsive cues.</Detail>
+      <Keyword>Axon guidance</Keyword>
+      <Ontology_ID>GO:0007411</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of endocytosis.</Detail>
+      <Keyword>Regulation of endocytosis</Keyword>
+      <Ontology_ID>GO:0030100</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>820</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>633</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>492</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>440</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>272</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>299</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>303</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>231</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>671</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>310</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>819</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>783</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>784</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>116</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>515</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>602</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>620</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>915</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>683</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>864</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>781</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>815</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>631</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>261</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>817</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>96</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>818</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>439</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>938</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>275</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>655</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>71</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>936</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>203</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>568</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>718</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MGQQVGRVGEAPGLQQPQPRGIRGSSAARPSGRRRDPAGRTTETGFNIFTQHDHFASCVEDGFEGDKTGGSSPEALHRPYGCDVEPQALNEAIRWSSKENLLGATESDPNLFVALYDFVASGDNTLSITKGEKLRVLGYNQNGEWSEVRSKNGQGWVPSNYITPVNSLEKHSWYHGPVSRSAAEYLLSSLINGSFLVRESESSPGQLSISLRYEGRVYHYRINTTADGKVYVTAESRFSTLAELVHHHSTVADGLVTTLHYPAPKCNKPTVYGVSPIHDKWEMERTDITMKHKLGGGQYGEVYVGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQLLGVCTLEPPFYIVTEYMPYGNLLDYLRECNREEVTAVVLLYMATQISSAMEYLEKKNFIHRDLAARNCLVGENHVVKVADFGLSRLMTGDTYTAHAGAKFPIKWTAPESLAYNTFSIKSDVWAFGVLLWEIATYGMSPYPGIDLSQVYDLLEKGYRMEQPEGCPPKVYELMRACWKWSPADRPSFAETHQAFETMFHDSSISEEVAEELGRAASSSSVVPYLPRLPILPSKTRTLKKQVENKENIEGAQDATENSASSLAPGFIRGAQASSGSPALPRKQRDKSPSSLLEDAKETCFTRDRKGGFFSSFMKKRNAPTPPKRSSSFREMENQPHKKYELTGNFSSVASLQHADGFSFTPAQQEANLVPPKCYGGSFAQRNLCNDDGGGGGGSGTAGGGWSGITGFFTPRLIKKTLGLRAGKPTASDDTSKPFPRSNSTSSMSSGLPEQDRMAMTLPRNCQRSKLQLERTVSTSSQPEENVDRANDMLPKKSEESAAPSRERPKAKLLPRGATALPLRTPSGDLAITEKDPPGVGVAGVAAAPKGKEKNGGARLGMAGVPEDGEQPGWPSPAKAAPVLPTTHNHKVPVLISPTLKHTPADVQLIGTDSQGNKFKLLSEHQVTSSGDKDRPRRVKPKCAPPPPPVMRLLQHPSICSDPTEEPTALTAGQSTSETQEGGKKAALGAVPISGKAGRPVMPPPQVPLPTSSISPAKMANGTAGTKVALRKTKQAAEKISADKISKEALLECADLLSSALTEPVPNSQLVDTGHQLLDYCSGYVDCIPQTRNKFAFREAVSKLELSLQELQVSSAAAGVPGTNPVLNNLLSCVQEISDVVQR</Protein_Seq>
+    <DNA_Seq>CTCTTTACACAGAACAGTTTAACTTTTGTGCTTCTGGGCAGAGGTATGGTCCTTGGGACAGTTCTCCTTCCACCTAATAGTTATGGCAGAGATCAGGACACTTCACTTTGCTGCCTGTGCACTGAGGCCTCAGAATCTGCTCTACCCGACTTAACAGATCACTTTGCCAGCTGTGTGGAGGATGGATTTGAGGGAGACAAGACTGGAGGCAGTAGTCCAGAAGCTTTGCATCGTCCCTATGGTTGTGATGTTGAACCCCAGGCACTAAATGAGGCTATCAGGTGGAGCTCCAAGGAGAACTTGCTCGGAGCCACTGAGAGTGACCCTAATCTCTTCGTTGCACTTTATGATTTTGTAGCAAGTGGTGATAACACACTCAGCATCACTAAAGGTGAAAAGCTACGAGTCCTTGGTTACAACCAGAATGGTGAGTGGAGTGAAGTTCGCTCTAAGAATGGGCAGGGCTGGGTGCCAAGCAACTACATCACCCCAGTGAACAGCCTGGAAAAACACTCCTGGTACCATGGACCTGTGTCACGCAGTGCAGCTGAGTATCTGCTCAGCAGTCTAATCAATGGCAGCTTCCTGGTGCGAGAAAGTGAGAGTAGCCCTGGGCAGCTGTCCATCTCGCTCAGGTACGAGGGACGTGTGTATCACTACAGGATCAATACCACTGCAGATGGCAAGGTGTATGTGACTGCTGAGAGCCGCTTCAGCACCTTGGCAGAGCTTGTACACCATCACTCCACAGTGGCTGATGGGCTGGTGACAACATTACACTACCCAGCACCCAAGTGTAATAAGCCTACAGTCTATGGTGTGTCCCCCATCCACGACAAATGGGAAATGGAGCGAACAGATATTACCATGAAGCACAAACTTGGGGGCGGTCAGTATGGAGAGGTTTACGTTGGCGTCTGGAAGAAATACAGCCTTACAGTTGCTGTGAAAACATTGAAGGAAGATACCATGGAGGTAGAAGAATTCCTGAAAGAAGCTGCAGTAATGAAGGAAATCAAGCATCCTAATCTGGTACAACTTTTAGGTGTGTGTACTTTGGAGCCACCATTTTACATTGTGACTGAATACATGCCATACGGGAATTTGCTGGATTACCTCCGAGAATGCAACCGAGAAGAGGTGACTGCAGTTGTGCTGCTCTACATGGCCACTCAGATTTCTTCTGCAATGGAGTACTTAGAGAAGAAGAATTTCATCCATAGAGATCTTGCAGCTCGTAACTGCCTAGTGGGAGAAAACCATGTGGTAAAAGTGGCTGACTTTGGCTTAAGTAGATTGATGACTGGAGACACTTATACTGCTCATGCTGGAGCCAAATTTCCTATTAAGTGGACAGCACCAGAGAGTCTTGCCTACAATACCTTCTCAATTAAATCTGACGTCTGGGCTTTTGGGGTATTGTTGTGGGAAATTGCTACCTATGGAATGTCACCATATCCAGGTATTGACCTGTCTCAGGTCTATGACCTACTAGAAAAAGGATATCGAATGGAACAGCCTGAGGGATGCCCCCCTAAGGTTTATGAACTTATGAGAGCATGCTGGAAGTGGAGCCCTGCCGATAGGCCCTCTTTTGCTGAAACACACCAAGCTTTTGAAACCATGTTCCATGACTCCAGCATTTCTGAAGAGGTAGCTGAGGAGCTTGGGAGAGCCGCCTCCTCGTCATCTGTTGTTCCATACCTGCCCCGGCTACCTATACTTCCTTCCAAGACTCGGACACTGAAGAAACAGGTGGAGAACAAGGAGAACATTGAAGGGGCACAAGATGCCACAGAAAATTCTGCTTCCAGTTTAGCACCAGGGTTCATCAGAGGTGCACAGGCCTCTAGTGGATCCCCAGCACTGCCTCGAAAGCAAAGAGACAAGTCACCCAGCAGCCTCTTGGAAGATGCCAAAGAGACATGCTTCACCAGGGATAGGAAGGGGGGCTTCTTCAGCTCCTTCATGAAGAAGAGAAATGCTCCTACACCCCCCAAACGCAGCAGCTCCTTCCGAGAAATGGAGAATCAGCCCCATAAGAAATACGAACTCACGGGGCTTCCAGAGCAGGATAGGATGGCAATGACCCTTCCCAGGAACTGCCAGAGGTCCAAACTCCAGCTGGAAAGGACAGTGTCCACCTCTTCTCAGCCAGAAGAGAATGTGGACAGGGCCAATGACATGCTTCCAAAAAAATCAGAGGAAAGTGCTGCTCCAAGCAGGGAGAGACCAAAAGCCAAGTTATTGCCCAGAGGAGCCACAGCTCTTCCTCTCAGAACACCCTCTGGGGATCTAGCCATTACAGAGAAGGACCCTCCAGGGGTGGGAGTGGCTGGAGTGGCAGCTGCCCCCAAGGGTAAAGAGAAGAATGGTGGGGCACGACTTGGGATGGCTGGAGTTCCAGAGGATGGAGAGCAGCCGGGCTGGCCTTCTCCAGCCAAGGCTGCCCCCGTCCTCCCAACCACTCACAACCACAAAGTGCCAGTCCTTATCTCACCCACTCTGAAACACACTCCAGCTGACGTGCAGCTCATTGGCACAGACTCTCAGGGGAATAAATTCAAGCTCTTATCTGAGCATCAGGTCACATCCTCTGGAGACAAGGACCGACCCCGACGGGTAAAACCAAAGTGTGCCCCACCCCCACCACCAGTGATGAGACTACTGCAGCATCCGTCCATCTGCTCAGACCCTACAGAAGAGCCAACTGCCCTAACTGCAGGACAGTCCACATCAGAAACACAGGAAGGAGGAAAGAAGGCAGCTCTGGGCGCAGTGCCCATCAGTGGGAAAGCTGGGAGGCCAGTGATGCCTCCACCTCAAGTGCCTCTGCCCACATCTTCCATCTCGCCAGCCAAAATGGCCAATGGCACAGCAGGTACTAAAGTGGCTCTGAGAAAAACCAAACAGGCCGCTGAGAAAATCTCAGCAGACAAAATCAGCAAAGAGGCCCTGCTGGAATGTGCTGACCTACTGTCCAGTGCACTCACGGAACCTGTGCCCAACAGCCAGCTGGTAGACACTGGACACCAGCTGCTTGACTACTGCTCAGGCTATGTGGACTGCATCCCTCAAACTCGCAACAAATTTGCCTTCCGAGAGGCTGTGAGCAAACTGGAACTCAGCCTGCAGGAGCTACAGGTTTCTTCAGCAGCTGCTGGTGTGCCCGGGACAAACCCTGTCCTTAATAACTTATTGTCATGTGTACAGGAAATCAGTGATGTGGTGCAGAGGTAGCCACTGTTAGCCTGGTGGGAAAATGCACACATTTCTGAGGGGAGAGGGAAAAGGACTTGTTTTCCTGTGTTCTTGTTTTCAGAAAATGAAAGACTCATACTTGAGTGTGTTTATGTGAAGTACCTCAGATCCCTGAGTTCTCACGTTTACAGTTTCATCTCAAAAATAAGAAGCAAACCACATAAGTATAGGAGAGGTAAATTAAGTGGGGGCAAGGCAGTAGTGGACAGGGTTGGAAACTGCACTGGAAAATAGGGAACATGTGTATGTCATAAGGAAGGCAATGCAGCCCATCCCTACCTGGAATGCTGGGAAGTGCTAGGCAGGGCTGCTCTCAGCAAGACTGCAGCAGCTGCACCCAGACCTGGGGCTCTGGTAGGTACTAATGGTGATTATGCTCCAATTTACCTAATGAATTTGGTGGGACAGCAGAAAAGAAAGCTGGGAATGTACCAAGAGAAATTTTTGTTCAGGGCTGTTGGAAGTAGCTGTTAGCCTTGCTTCCACAAGGCCATTGCTGCTGTAATAAGAACTGCAAATCAGAGTGCTACAACATAAAACTGGGAAATATGGCCCTATCTGAATGCCTCTGTCCTATTTTCCGCTGGTGTATCAGTTAGTGCAGGAAGTAAAGAATGCTGGAAAGTTGAATCAGAAATTGAAAACCTTCTAAAATCTTACACAGATTAGCAGAAGTCACTTCTCCCAGTCTGGTATATTATTTCATAATGGACCAGGATCGGCTTCCTGCCTGTTGGTGGCTATCTGTAAACCATAAGTACAGGGGTCTCCCTAGTGGTTCTTCTCTGTCTTTTGCTGGGCAGGCTGTCTTCCTTTATTCCTGGTAGCATTCAGAGCATTAACCAGTGTTGATTTTGAAAATAGTAGTCCCTACAGGTTCTCACAAAGGAATGAATCCTGTTCTGATACAGTTCCCCTGCATACTGACATACTGGCCAAGGACTTGAGCAGCTGTGTATTTTTCTTTATCAACTAAAATACCAGGGAGATGGTCTTTTCTTGAAACCCAGTGGCCTGTATGTGACTGAGAGGAAAAGCTGGCTTGGTCCTAATGGCTGTTTCTCTGTACCTTTCCCTTCCCTTACCACCTTAAGCCCAATCCAGGTAGAGAATAGGGAGAGGCATTCTCCTCTCTATGGATTTGAAGTGAATCACCCCCACATTATTCTCACATGCTTTTCTTCTCTCACATATTCCTCCCTACTCCCCCACCCAATCATTGTGCTTATTTGTACAGATCTTATTGGGAATATTCTTTATTTATTTTGTCATTTCACTTCTATTTTAAGAATGCATAATTGAAGGAGTAGTCATTTTCAGGGAGCACCAGGTAGACCCTGGGAACCTAATGACTTAATCCTTAAATATGTTTTGCCCTTGAAAAATAGGCCTTTTCCTTCCTTCCTTAGTTATAATTGTGGAAGCTAATTAGGATGGCATGGAAGTGAATCTAATGAGTTAGGTATTATTAATGTTCTTGGTATCGGGTCTAATTCCAGTTACTGCTTCATTCTCTTTTTAAAGCTTTATGAATACTTCCCCCATCCTCCCCAAGGAGAGCTCAATACACACATATTTTTATTTTATTCTCTCAAAGGAATATTAGCTTAGGAAGATAGGAATTCAACATTGAGCACTGAGTTTTCTTCTGGCTCTGTCATTGATACACTGTCAAACCACAGCCTCATCTCTTAATCTATTTAATTAAGGTAACAGTACATGTTCTCAAGGGTGTTGCAAGTAAGTGTGCAGCTATCCCTTGGAGAGCCTCTCTGGAAAGCTCTTTTAGTGCAGTGTTGTTATGCTGAATTGTTTTCCATTATCTTATTTGCTGAGTAGAAAATATTAATGAAATTAAGAATTGTTGAGATTATATGAATTGGGCTAGAATACTAAGGGGAAAACTATGTTTTGAATAGAGTTTGGCATTTTTGACCAAGAACAAAATTGAGTTTTCATTGGAAAGAAAGGAAACCTTGATTCTTACCATTGCTGCTCCAAAGGAGGCCCAGGTTAAGAGGATTAGAGGAGACACGCGGTGCTGGGCATTCCTGGCAGGTGTTGGGTGATCCCCGCAGTATGTCACCTGCAGTTGCAGCACAGGCAGCTAGTGATTGGGTTCATCTCCTCCTAGTGGTTGGAAGAGAACTCAGATGTAAAAACCAGCGGTCCTTCTCCCACCTTCTTTCCTGCCATTCTTGCTCATCATACATGTCCGTAAACTTGAAGAACTCGTTTTAGCAGCTAGCCTTTTAAGGTCGAGGATGGGAAAGCTAAAACTGTAGAATATTATTATGCTGCTTTTTAGGTTTATCCCTGTTGTTGTGGGATGCAAGTTAAGGGATTGTAATTGTTTTTCAGGGTTTTTTTGTTTTTTGTTTTTTAAGCAAGGGCTCTATTTTCCCTTGAGAGTTCTGGAACTAAGCCTTGGAGAAACACTACTGAGTGTATTTAGGCTCCCTGGTTTTCTTGCCCAACAACAATCTGAAGGGTAGGGGGTGGGGGCTGTGTCTTACTCAGGGGCAGCACCTAGCTGTCTTGCCTACAGTGGGTGCACGATATATAAATGGAATTGATTTTTGTCAACACTGTCAAGAGTGGCATTGACTATTGGAGCATACCCCGTCCACATGATGCTTGAACTATGTAACTTCAGGGGTTGAGGGCTCAAGGTTCAGGTTAAAGAGGCACTGTCAACTTACTATACAAGCATAATTTAGGTTTTTCCTTTTTCTACTTGAAAAGGACCAGCTTAAACACAAACCCTTATGTAAATTAAAAGGTTTGAATCCAAAGCAGAGAGAACTGCTTCTGGAAAAGTGTAGTTTAATTTTAACTATTCTAAAAGCAATGAGCAAAGGCCCTTGTCCAAGGCGTTGACAGTTTTCTAAAGTGGTTATGCTGTATATCTGGATGCATGCCTTTGGGCTGCCACTGCTTGATTCCTTTCATGTACAGATAATATTACTTCAGTTTAGATTTCCCACTTTAAAATGCAGTGATTTGTGTTGAATACATCTTGATTGTGCTTTACCTAAAGTATTTTCTTAAAAGGCTTTGTGTAAAATTTAAATGTATATATTTTCCTGTAGACTTCCATCATGATTTTCAGAGATTAGCCTTAAAAAATTTGGCCCTAAGAAATTCATTCAGTGTTTTTCTAGATGACCTCTGTACATAGAGGTCATTATAGTGGAGACCCTTTACCAGCAGCATTTTAAGATTTAAATTAGATAGAAAGTTTCTTAGGATTCAACTGAAAATTGGCTAGTAAAATATGTCCCAGGTAATAAAGCATGCTGACTTTGCTAAGGCACTGCCCATTTTTATTTAACTAAAGTCATGGAGATTTTGAGTTTAAAGGATGCAGTATAGATAGTGGTTTAGTGTTTAGGCTCTAATGCCAGTCTAAAAGGCAAGTCATTTAACCTTGGGAGCCTCAGTTTCCTCACTGTAAAACAGGGATAATAATAGTAACTACCTCAGGGTTGTTGTAAGGATTAAATGAGATGATATTTGTAAGATACTTAGCTCAAGTGCCTGGCACACAATGAGCACACTCTATAAATGTTCTACTACTACTATTATTAACACCTAGTCTAGGGATGCACAGCAGAATCCCCTAGGGTTAAAAAACAAAACAAAACAAACAAAAAAAACTGACGGAATAGCCCCACTCCAGATCAGAATTCCCAGTGGGCTGGGGTCTCGGCCAGTGTATTCTCCAGTAATCTCGCCAGGTGTTTGAAACACCCAGTGCTATCTGAAAACTATCAGTACCCCAACCCTTTGGTTTATAGATTAAGAAACTAGCAGAAGATGGTTAAATTACTTGCCTATTGTCTCAGAACGGTTAATTAGTGGCGGAGCCAAGGCTAGAATTCAAGTCTCTTGACTTTATGGTTGTGGGGTCTTTCCACCATACCTGCTGCCATGTGAGACACTGCAAAAAAGTGGCTCAGACCGACAATCAGCCTGTGTGGTGCTGCACACTTTCTAAAGCACATGCTCCTGACACTTTGACCTTAAGGGGCTTGAATGTGGAGTAATGGGAACACAAGCCAAGCAAGCACTCAGTAGAATTCAGTCATTTAAAAAATTCAATGGGGTCATTCTTTTGGACAGACCTCAGCAACACAGCAATGTGCACTTTGTAGTAAAGAAATACCAACTTGAGTTTTTAAAAAACCTAGTTAGTCCTACATTCCCTTTTCTTTAAAAAAACTTTATTGTTCACATTATTTTAATGACTATGAGATAATGTATATGACAGCACTTTGAGAAAATATCAACTGTAATATAACTATAAGGTTGTAGTATTGTCTGTTTAAAAGATAAGACAGTTGATTCAATGTGGATGGACCCTGTGGGGTACCTGAAAATGTAGATACGTAAGAATCACCTCTGTCATTTATCACATTTAGAAATATGAAACTGCTTAACAGGTATGAGCAGGTATAGCAAGTGTTTGCTAAAGTTGTAGTTCAGAGCTGAATTACTTCAGGAAACTAGGGACCAACTTTTTGGTTTAATTCCGATCTTTAAAAAGTAAGAATGTGTACTCACTCCAGAACACAGAAGCTCTTCCAAGGACCTTGACTCAAGAAGGATGAGGTCCTCTTACTCTTCTCCATTTATCCACTATATGCTTGGCCATTTATCCTAAATGTGGTGGGAACAGACTTGTTATCTGTTGATGTTGACAGTGTCTTTTTTAACCTATGTCCTGCATAGTTTTGTTAGGTTTACAGGGGGAGGTGGATGGCCATAAAACCAGTGCACTTTGGGAATTACTTTTCTAGGATTTCCTACCAGTTATAAATGACATTGACATTTGTCATCTTTTTTTTCTTTTTCTAAAAAGAATAGCTGAATTTAATTCACCTATTATAAAATACTCAAAAGTAAATTGCCTTGGTGGCCACTTCTGAATTATAGCTACATTTCATTATGACCCCTTCTGCTCCCTTCCATTTTGCTACTGATGTCATTCTTGTTATCAGGCTGTGCCCCTACCAGGAGTTCATATTGGGTTGACAGGGTTATCTATATTTTTGTTCTTGATTTTTGAGTTTCATCATCTTGCATTAAATTGTTCCACCTGGATTTGGGGTTCATCTCTGTGCCCTAAGGATCTGCTATGACCAATCCTCTTTTTGTAGGTGGGTCTCTGGCTTAAGTATTGATAGGCTTCAGCGGTTTGTGTCTCTGTCTTAGCTTGTATCAAGCCAGTAGTAGCTCACTTCCTTTGTAAATTCCTGCTTCAGTCTGGGATCCGTAGGAGTATGTGAGAACTTCTGAAACGTCTCCAACTCTTAACAGTCAAGATATCTATATCATTTGGATAGAGTTCTGGTTTTCCAACTACTAGACTTAAAGAAATTCTGGCCGGGTGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGGGGCTGAGGCGGGTGGATCACGAGGTCAGGAGATTGAGACCATCCTGGCTAACACGGTGAAACCCCACCTCTACTAAAAATACAAAAACTTAGCTGGGCGTGGTGGCGGGCGCCTGTAGTCCCAGCTACTGGGGAGGCTGAGGCAGGAGAATGGCGTGAACCCAGGAGGCGGAGCTTGCAGTGAGCCCAGATCGCGCCACTGCACTCCAGCCTGGGTGACAGTGAGACTCCGTCTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAATTCTAATGCAAAGCTTGCTTTTTTTTTCTTTTTTCCAGCAAGCCAGTAGTAATAGTTATTGTTACTTGCTCTGTTCAGCACAACTGTAGTTCACTTGAACTTCACTGTCATTCCCTACGCTCCTCTCTTACTGAGAAGCATGGGTGGGATTCAGGGCTGTGGGACAAGCTACAGCCTACTCTGGAGCACTCACCCCCATGACTCAGTCCAGCCTGTCTCTTGGGAAGTTTATTGCAATGTGCAGACGGATGAATTTCTGCTTTTCATGCCACCTCTCTGAGGTATGTATTCTATCTTGAGTATGTACAAGATGATACCTTTTGGCTGGGCACAGTGGCTCGTGCCTGTAATCCCAGCACTTTGGGAGACCAAGATGGGCGGATCACTTGAGGTCAGGAGTTTGAGACCAGCCTGGCCAACATGGTGAAACCCCGTCTCTACTAAAAATATAAAAATTAGCCGGGCGTAGTACATGCCTGTAATCCCAGCTACTCCCGAGGCTGAGGCAGAATTGCTTGAACCCAGGAGGCGGAGGTTGCAGTGAGCTGAGATCGCGCCGCTGCACTCCAGCCTAAGTGACAGAGTGAGACACGTTAAGAAGAAAAAAAAAAAAAAGGATACCTTCATTTCTGACTCAATATCCTAGATCCAAAGGACAGGAAATTAGGGAAGGCTTCACCCTGTGGGATCAAGATAAGAAGATCCCATACTTCTTCCCAGGTAAGGAGGCCTGTGGCAGGTCATGATTCAAAGCTGACTTGGAATGGCAGAAACTGCTGAGAGGCCACCCTTGGAGATTTGTGCCTTCAAAGATGGGTTTCATGAGTCTCAGAGAGGAAAAGACTTGTCAGCTGGGTTGATTTTGCATGATTATTGAACTAGAGCTGGTAGACACGAGCTTCTCAGATGGCAGTGGCCAGATCCTCCATCTGTGAGAATCCGCCACTTGAAGTGGTTTCCTGAGAGTGTTCACTTGGCAGTTGCTGCGTTTCTCAAGCCCACCTGGCGAGGTCTCGCCGGACCCTTCCCTCCAAGTGCACTTACTTCTTCATCCCCATGTACATCTCTAACTTTGAAATTGTTTACCTCTCCTACAAAAATCTTACCTTTTGACCTGAGCAGAGTAGCAAAGCCCTGTTCACTCTGAGGGAGCAGCTGGCGTGTTGAAGGGGAAAGGCCAGGCACAGCACTGTCCTCAGACCACACCATATTTGGAGCAGAATTGTGATACATGTCATCTGTGTCTATTCTGGAAGGTTCTTTGTTCATCACTGTACTCGCATCAGCAAATTTTCAGGGTCCTACCTGTCACTCCAGGCTACTGAGCTGAACCCTCAGAAGCTGAGGTCTCCGAGCATGCTAAGTAACCTTTTAGAAAAGCTGGAGGCAAACTGTCGAATGCTAGCAGGCTTTATGAAAGGAAACATAAGGAGTTTGTGTAGTCAGAACTTGCTTAAATTTGCTTCGGAATTAGGCACCATAAACTTTAGTTGGAGAATGGGACTTAAATTTTCACATATATGTATACTTAATTTTCAGCAATTATGACACAATAAAAAGAATATGCAAATTTATTGTTGTTTCAGAAGGTTTTGCAGGACTGGGAACGCTTTAGTGTCATCAACAGTAAACCTCAGATACTGTTCTGCACAGTTCAGAAGTACCATACCAGGTATTGTGAGTGGCAAGAACGCCAGGGGACAGAGATGCTTCTGGTAGATGAGGGCCAGAGAAACCAGCTCTCCTCCATTTTGACAGCAATTTCTCACTGTGGCCATTTGGCCTCCATTATGTTTTGAGAGGAATTTCTTGAGATCTTGAGAAATCACCATGATTAGGCCAATTGTCAATCAGTATTCAGAAACTAGAAAGGAACAATGAGATACTTGTTTATGGTTCTTTAGGGCATATGTTTGAAAACCCTCTCATCTCAGATCTGTATAGCTGGTGTGTGTTTGTGTCCATAAATACACGTGCATTGCTGTCGTGCCCATTAAGAAAGGGGGAGTAAGTAAAAGAGGAATCGCTCAGATCTTTCCTTGGATGAACAGCAGTGGCGTGGTTGGTGTGTTGACTGTGAACAGGCTGACTTAGCTGTTGATGTATACTCAGAACCTCCATCTCCTCCCAGACCCTGCACTTTTCCTTCTCTGCAGTCTGATTCTCTAATGACTGTCACTGGACAAACCCCAGTTTTATGCTCGCTTAGTAAAAATAAGTTTAAACATTTCATGGTGGTTGACAGAACTTTGTCCCCAAACATGCGGATTCAATTCTTTAAAACTCGTTGAACGTTTATACCAAAGGTCCCGCCCCGCAGGTGTGTATGTGGTGCACAGAGGGTGAGGTTTGGAGCATCGGGCACTGTGTGCATTGCTAAGGGGACATAGTGAGACAATGTGGGATTTAACTAAAAACACATCAATTGTGTGTCACATTACCAGTGTTGTCAGGTATTTGTTCTTAATTGTTATTGTAATATATTTTCAGTTGTTTTTCTAATTTAATTCTCTCCGTCTGTTGTCTGACTGTGAACTGCTAACAGTGTTAAACTTGATGTAAATAAATGAGGCCCTTGAAAGGGACTGCTTTCTCTGTCTTCTCACAAGGTTTGCCAAGTTGTGTTCTGTTTTAAATAAAGGTTGCAATATTTTATTGGCAAAGTAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoskeleton</CellLocal>
+      <Ontology_ID>GO:0005856</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Actin cytoskeleton</CellLocal>
+      <Ontology_ID>GO:0015629</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ABL2</Gene_Name>
+    <Gene_Alias>ABLL; ARG</Gene_Alias>
+    <Gene_ID>27</Gene_ID>
+    <Genbank_ACCN>NM_001136000</Genbank_ACCN>
+    <Protein_ACCN>NP_001129472</Protein_ACCN>
+    <HGNC_ID>77</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/27</Gene_URL>
+    <UCSC_ID>uc010pnh.2</UCSC_ID>
+    <EMBL_ID>ENSG00000143322</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P19174</Uniprot_ID>
+      <Gene_Name>PLCG1</Gene_Name>
+      <EBI_ID>EBI-79387</EBI_ID>
+      <PPI_EBI_URL>EBI-1102694,EBI-79387</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P12931</Uniprot_ID>
+      <Gene_Name>SRC</Gene_Name>
+      <EBI_ID>EBI-621482</EBI_ID>
+      <PPI_EBI_URL>EBI-1102694,EBI-621482</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P62993</Uniprot_ID>
+      <Gene_Name>GRB2</Gene_Name>
+      <EBI_ID>EBI-401755</EBI_ID>
+      <PPI_EBI_URL>EBI-1102694,EBI-401755</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P46108</Uniprot_ID>
+      <Gene_Name>CRK</Gene_Name>
+      <EBI_ID>EBI-886</EBI_ID>
+      <PPI_EBI_URL>EBI-1102694,EBI-886</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q13671</Uniprot_ID>
+      <Gene_Name>RIN1</Gene_Name>
+      <EBI_ID>EBI-366017</EBI_ID>
+      <PPI_EBI_URL>EBI-1102694,EBI-366017</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P16333</Uniprot_ID>
+      <Gene_Name>NCK1</Gene_Name>
+      <EBI_ID>EBI-389883</EBI_ID>
+      <PPI_EBI_URL>EBI-1102694,EBI-389883</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P06241</Uniprot_ID>
+      <Gene_Name>FYN</Gene_Name>
+      <EBI_ID>EBI-515315</EBI_ID>
+      <PPI_EBI_URL>EBI-1102694,EBI-515315</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P27986</Uniprot_ID>
+      <Gene_Name>PIK3R1</Gene_Name>
+      <EBI_ID>EBI-79464</EBI_ID>
+      <PPI_EBI_URL>EBI-1102694,EBI-79464</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Leukemia, Acute Myeloid, with Eosinophilia</Disease_Name>
+      <Disease_Detail>Acute Myeloid Leukemia</Disease_Detail>
+      <Disease_DB>LKM020</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leukemia_acute_myeloid_with_eosinophilia?search=ABL2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Leukemia</Disease_Name>
+      <Disease_Detail>Leukemia</Disease_Detail>
+      <Disease_DB>LKM002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leukemia?search=ABL2#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>The crystal structure of human ABL2 in complex with GLEEVEC</PDB_Title>
+      <PDB_ID>3GVU</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GVU</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00740007</ASD_Ligand>
+      <PubMed_Title>The crystal structure of human ABL2 in complex with GLEEVEC</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of the human ABL2 SH2 domain</PDB_Title>
+      <PDB_ID>2ECD</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ECD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution structure of the human ABL2 SH2 domain</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Lysozyme contamination facilitates crystallization of a hetero-trimericCortactin:Arg:Lysozyme complex</PDB_Title>
+      <PDB_ID>3ULR</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ULR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Lysozyme contamination facilitates crystallization of a heterotrimeric cortactin-Arg-lysozyme complex.</PubMed_Title>
+      <Author>Liu, W., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.F(2012)68:154-158</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22297987?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of C-terminal Domain of Tyrosine-protein kinase ABL2 from Homo sapiens, Northeast Structural Genomics Consortium (NESG) target HR5537A</PDB_Title>
+      <PDB_ID>2KK1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2KK1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>NMR structure of F-actin-binding domain of Arg/Abl2 from Homo sapiens.</PubMed_Title>
+      <Author>Liu, G., et al.</Author>
+      <Journal>Proteins(2010)78:1326-1330</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20077570?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The crystal structure of human ABL2 in complex with 5-AMINO-3-{[4-(AMINOSULFONYL)PHENYL]AMINO}-N-(2,6-DIFLUOROPHENYL)-1H-1,2,4-TRIAZOLE-1-CARBOTHIOAMIDE</PDB_Title>
+      <PDB_ID>3HMI</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HMI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The crystal structure of human ABL2 in complex with 5-AMINO-3-{[4-(AMINOSULFONYL)PHENYL]AMINO}-N-(2,6-DIFLUOROPHENYL)-1H-1,2,4-TRIAZOLE-1-CARBOTHIOAMIDE</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN ABL2 IN COMPLEX WITH AURORA KINASE INHIBITOR VX-680</PDB_Title>
+      <PDB_ID>2XYN</PDB_ID>
+      <Resolution>2.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XYN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Abl-Related Gene (Abl2) in Complex with Imatinib, Tozasertib (Vx-680), and a Type I Inhibitor of the Triazole Carbothioamide Class.</PubMed_Title>
+      <Author>Salah, E., et al.</Author>
+      <Journal>J.Med.Chem.(2011)54:2359-2367</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21417343?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2ecd</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,378,Arg;site,383,Ala;site,384,Val;site,386,Leu;site,390,Ala;site,481,Tyr;site,511,Pro;site,514,Val;site,543,Phe</Site_Detail>
+      <Site_Reference>Salah E, et al. J Med Chem. 2011,54(7):2359-2367.</Site_Reference>
+      <PDB_ID>3GVU</PDB_ID>
+      <PubMed_ID>21417343</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.10.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/10/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00740007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04078001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

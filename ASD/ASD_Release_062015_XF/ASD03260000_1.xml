@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03260000_1</Organism_ID>
+  <Organism>Bovine</Organism>
+  <Organism_Latin>Bos taurus</Organism_Latin>
+  <UniProt_ID>P16116</UniProt_ID>
+  <Seq_Length>315</Seq_Length>
+  <Molecule_Weight>35919</Molecule_Weight>
+  <Function_Summary>Catalyzes the NADPH-dependent reduction of a wide variety of carbonyl-containing compounds to their corresponding alcohols with a broad range of catalytic efficiencies.</Function_Summary>
+  <Catalytic_Mechanism>Alditol + NAD(P)(+) = aldose + NAD(P)H.@@17-alpha,20-alpha-dihydroxypregn-4-en-3-one + NAD(P)(+) = 17-alpha-hydroxyprogesterone + NAD(P)H.</Catalytic_Mechanism>
+  <Pfam_ID>PF00248:Aldo_ket_red</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>AR</Alias>
+      <Alias>20-alpha-HSD</Alias>
+      <Alias>20-alpha-hydroxysteroid dehydrogenase</Alias>
+      <Alias>Aldehyde reductase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: NAD(P)+ + 17-alpha,20-alpha-dihydroxypregn-4-en-3-one = NAD(P)H + H+ + 17-alpha-hydroxyprogesterone.</Detail>
+      <Keyword>17-alpha,20-alpha-dihydroxypregn-4-en-3-one dehydrogenase activity</Keyword>
+      <Ontology_ID>GO:0047006</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: an alditol + NADP+ = an aldose + NADPH + H+.</Detail>
+      <Keyword>Aldehyde reductase activity</Keyword>
+      <Ontology_ID>GO:0004032</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>4</Position>
+      <Original>Ile</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>6</Position>
+      <Original>Leu</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>39</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1</Position>
+      <PTM_Type>N-acetylalanine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>94</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>221</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>22</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>262</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>AHNIVLYTGAKMPILGLGTWKSPPGKVTEAVKVAIDLGYRHIDCAHVYQNENEVGLALQAKLQEQVVKREDLFIVSKLWCTYHDKDLVKGACQKTLSDLKLDYLDLYLIHWPTGFKPGKDFFPLDEDGNVIPSEKDFVDTWTAMEELVDEGLVKAIGVSNFNHLQVEKILNKPGLKYKPAVNQIECHPYLTQEKLIQYCNSKGIVVTAYSPLGSPDRPWAKPEDPSILEDPRIKAIADKYNKTTAQVLIRFPIQRNLIVIPKSVTPERIAENFQVFDFELDKEDMNTLLSYNRDWRACALVSCASHRDYPFHEEF</Protein_Seq>
+    <DNA_Seq>CCTGGAAGTCCCCTCCAGGCAAAGTGACAGAGGCTGTGAAGGTGGCAATCGACCTTGGGTACCGTCACATTGACTGTGCCCACGTGTACCAGAATGAGAACGAGGTGGGTTTGGCCCTCCAGGCAAAGCTGCAGGAGAAAGTGGTGAAGCGTGAGGACCTCTTCATCGTCAGCAAGCTGTGGTGCACGTATCACGACAAGGACCTGGTGAAAGGTGCCTGCCAGAAGACGCTCAGCGACCTGAAGCTGGACTACCTGGACCTCTACCTCATCCACTGGCCCACAGGCTTCAAGCCTGGGAAGGACTTCTTCCCATTGGATGAGGACGGCAACGTGATTCCCAGTGAGAAAGATTTCGTGGATACCTGGACGGCCATGGAAGAGCTGGTGGACGAAGGGCTGGTGAAAGCTATTGGAGTCTCCAACTTCAACCATCTCCAAGTGGAGAAGATCTTAAACAAACCTGGCTTAAAATACAAGCCGGCGGTTAACCAGATCGAGTGCCACCCATACCTCACTCAGGAGAAGTTAATCCAGTACTGCAACTCCAAAGGCATTGTGGTGACTGCCTATAGTCCCCTCGGCTCTCCTGACAGGCCCTGGGCCAAGCCGGAGGACCCTTCCATACTGGAGGACCCCAGGATCAAAGCGATTGCAGACAAGTACAATAAAACCACAGCCCAGGTGCTGATCCGATTCCCCATACAGAGGAACCTGATCGTGATCCCCAAGTCAGTGACACCTGAACGCATTGCTGAGAACTTCCAGGTCTTTGACTTTGAACTGGACAAGGAGGATATGAACACCTTGCTGAGCTACAACAGGGACTGGAGGGCCTGTGCCTTGGTGAGCTGTGCCTCCCACAGGGATTACCCCTTCCACGAGGAGTTCTGAAGGCGTTCTGAAGCTGCGGCCGCCTGCCCTTGCCCAGGTGACCCGCCGTCTCCCACCTCACTCTTCTTGTGTGTAGCGTAATTTGGCCCGTGTCCCTCAGTGGTGGGTCAGCAACTTCTAGACAAACCCGCGAGGGCTCGGCCAGCTTGGTGTCGGGTCCAAAGAGCAGAATCAGTAGATTAGTAGAAGTCTCTTCAGTTTTCCTTTGCCCTTCTAGTCTGGGGATCTGGGGAACATGCAACCCAAATACTCTTTTCTAAATT</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Embryonic epithelial cells (EUE)</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>AKR1B1</Gene_Name>
+    <Genbank_ACCN>M31463</Genbank_ACCN>
+    <Protein_ACCN>AAA30370</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/317748</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of  Aldose reductase</PDB_Title>
+      <PDB_ID>2GO6</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>3D-Structure of Bovine Aldose Reductase</PubMed_Title>
+      <Author>Gyananath G, et al.</Author>
+    </PDB>
+  </PDB_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.1.1.21</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/21.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD03240377</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

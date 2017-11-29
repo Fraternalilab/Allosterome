@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03700000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P35968</UniProt_ID>
+  <Seq_Length>1356</Seq_Length>
+  <Molecule_Weight>151527</Molecule_Weight>
+  <KEGG_ID>hsa:3791</KEGG_ID>
+  <Orthology_ID>K05098</Orthology_ID>
+  <EBI_ID>EBI-1005487</EBI_ID>
+  <Function_Summary>Tyrosine-protein kinase that acts as a cell-surface receptor for VEGFA, VEGFC and VEGFD. Plays an essential role in the regulation of angiogenesis, vascular development, vascular permeability, and embryonic hematopoiesis. Promotes proliferation, survival, migration and differentiation of endothelial cells. Promotes reorganization of the actin cytoskeleton. Isoforms lacking a transmembrane domain, such as isoform 2 and isoform 3, may function as decoy receptors for VEGFA, VEGFC and/or VEGFD. Isoform 2 plays an important role as negative regulator of VEGFA- and VEGFC-mediated lymphangiogenesis by limiting the amount of free VEGFA and/or VEGFC and preventing their binding to FLT4. Modulates FLT1 and FLT4 signaling by forming heterodimers. Binding of vascular growth factors to isoform 1 leads to the activation of several signaling cascades. Activation of PLCG1 leads to the production of the cellular signaling molecules diacylglycerol and inositol 1,4,5-trisphosphate and the activation of protein kinase C. Mediates activation of MAPK1/ERK2, MAPK3/ERK1 and the MAP kinase signaling pathway, as well as of the AKT1 signaling pathway. Mediates phosphorylation of PIK3R1, the regulatory subunit of phosphatidylinositol 3-kinase, reorganization of the actin cytoskeleton and activation of PTK2/FAK1. Required for VEGFA-mediated induction of NOS2 and NOS3, leading to the production of the signaling molecule nitric oxide (NO) by endothelial cells. Phosphorylates PLCG1. Promotes phosphorylation of FYN, NCK1, NOS3, PIK3R1, PTK2/FAK1 and SRC.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a [protein]-L-tyrosine = ADP + a [protein]-L-tyrosine phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF07679:I-set@@PF07714:Pkinase_Tyr@@PF07686:V-set</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>19</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Soluble VEGFR2</Alias>
+      <Alias>Tyrosine kinase growth factor receptor</Alias>
+      <Alias>Fetal liver kinase 1</Alias>
+      <Alias>Protein-tyrosine kinase receptor Flk-1</Alias>
+      <Alias>VEGF Receptor 2</Alias>
+      <Alias>Fetal liver kinase-1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any growth factor, proteins or polypeptides that stimulate a cell or organism to grow or proliferate.</Detail>
+      <Keyword>Growth factor binding</Keyword>
+      <Ontology_ID>GO:0019838</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a protein tyrosine = ADP + protein tyrosine phosphate.</Detail>
+      <Keyword>Protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004713</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with Hsp90 proteins, any of a group of heat shock proteins around 90kDa in size.</Detail>
+      <Keyword>Hsp90 protein binding</Keyword>
+      <Ontology_ID>GO:0051879</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an integrin.</Detail>
+      <Keyword>Integrin binding</Keyword>
+      <Ontology_ID>GO:0005178</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with vascular endothelial growth factor to initiate a change in cell activity.</Detail>
+      <Keyword>Vascular endothelial growth factor receptor activity</Keyword>
+      <Ontology_ID>GO:0005021</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + receptor signalling protein tyrosine = ADP + receptor signalling protein phosphate.</Detail>
+      <Keyword>Receptor signaling protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004716</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>873</Position>
+      <Original>Gly</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1147</Position>
+      <Original>Pro</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>136</Position>
+      <Original>Val</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>462</Position>
+      <Original>Leu</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>539</Position>
+      <Original>Gly</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>472</Position>
+      <Original>Gln</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>814</Position>
+      <Original>Asp</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>248</Position>
+      <Original>Ala</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>2</Position>
+      <Original>Gln</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>952</Position>
+      <Original>Val</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>848</Position>
+      <Original>Val</Original>
+      <Variation>Glu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>275</Position>
+      <Original>Arg</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>689</Position>
+      <Original>Thr</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>297</Position>
+      <Original>Val</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1065</Position>
+      <Original>Ala</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>482</Position>
+      <Original>Cys</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Blood vessel formation when new vessels emerge from the proliferation of pre-existing blood vessels.</Detail>
+      <Keyword>Angiogenesis</Keyword>
+      <Ontology_ID>GO:0001525</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents or reduces the frequency, rate or extent of endothelial cell apoptosis.</Detail>
+      <Keyword>Negative regulation of endothelial cell apoptosis</Keyword>
+      <Ontology_ID>GO:2000352</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the ERK1 and ERK2 cascade.</Detail>
+      <Keyword>Positive regulation of ERK1 and ERK2 cascade</Keyword>
+      <Ontology_ID>GO:0070374</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which relatively unspecialized cells, e.g. embryonic or regenerative cells, acquire specialized structural and/or functional features that characterize the cells, tissues, or organs of the mature organism or some other relatively stable phase of the organism's life history. Differentiation includes the processes involved in commitment of a cell to a specific fate and its subsequent development to the mature state.</Detail>
+      <Keyword>Cell differentiation</Keyword>
+      <Ontology_ID>GO:0030154</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which an organism has an effect on an organism of a different species.</Detail>
+      <Keyword>Interspecies interaction between organisms</Keyword>
+      <Ontology_ID>GO:0044419</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the rate or extent of endothelial cell proliferation.</Detail>
+      <Keyword>Positive regulation of endothelial cell proliferation</Keyword>
+      <Ontology_ID>GO:0001938</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The differentiation of endothelial cells from progenitor cells during blood vessel development, and the de novo formation of blood vessels and tubes.</Detail>
+      <Keyword>Vasculogenesis</Keyword>
+      <Ontology_ID>GO:0001570</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the phosphatidylinositol 3-kinase cascade.</Detail>
+      <Keyword>Positive regulation of phosphatidylinositol 3-kinase cascade</Keyword>
+      <Ontology_ID>GO:0014068</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases angiogenesis.</Detail>
+      <Keyword>Positive regulation of angiogenesis</Keyword>
+      <Ontology_ID>GO:0045766</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the directed movement of a motile cell or organism towards a higher concentration in a concentration gradient of a specific chemical.</Detail>
+      <Keyword>Positive regulation of positive chemotaxis</Keyword>
+      <Ontology_ID>GO:0050927</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The orderly movement of endothelial cells into the extracellular matrix in order to form new blood vessels involved in sprouting angiogenesis.</Detail>
+      <Keyword>Cell migration involved in sprouting angiogenesis</Keyword>
+      <Ontology_ID>GO:0002042</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of the enzyme nitric oxide synthase.</Detail>
+      <Keyword>Positive regulation of nitric-oxide synthase biosynthetic process</Keyword>
+      <Ontology_ID>GO:0051770</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals in which a cell uses calcium ions released from an intracellular store to convert a signal into a response.</Detail>
+      <Keyword>Calcium-mediated signaling using intracellular calcium source</Keyword>
+      <Ontology_ID>GO:0035584</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of vascular endothelial growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Vascular endothelial growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048010</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the surface configuration of a cell.</Detail>
+      <Keyword>Regulation of cell shape</Keyword>
+      <Ontology_ID>GO:0008360</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the rate, frequency, or extent of the orderly movement of an endothelial cell into the extracellular matrix to form an endothelium.</Detail>
+      <Keyword>Positive regulation of endothelial cell migration</Keyword>
+      <Ontology_ID>GO:0010595</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The stages of blood cell formation that take place within the embryo.</Detail>
+      <Keyword>Embryonic hemopoiesis</Keyword>
+      <Ontology_ID>GO:0035162</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of focal adhesion assembly, the establishment and maturation of focal adhesions.</Detail>
+      <Keyword>Positive regulation of focal adhesion assembly</Keyword>
+      <Ontology_ID>GO:0051894</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The biological process whose specific outcome is the progression of a multicellular organism over time from an initial condition (e.g. a zygote or a young adult) to a later condition (e.g. a multicellular animal or an aged adult).</Detail>
+      <Keyword>Multicellular organismal development</Keyword>
+      <Ontology_ID>GO:0007275</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>801</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1309</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>951</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1305</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1319</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1059</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1054</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1214</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1175</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>996</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MQSKVLLAVALWLCVETRAASVGLPSVSLDLPRLSIQKDILTIKANTTLQITCRGQRDLDWLWPNNQSGSEQRVEVTECSDGLFCKTLTIPKVIGNDTGAYKCFYRETDLASVIYVYVQDYRSPFIASVSDQHGVVYITENKNKTVVIPCLGSISNLNVSLCARYPEKRFVPDGNRISWDSKKGFTIPSYMISYAGMVFCEAKINDESYQSIMYIVVVVGYRIYDVVLSPSHGIELSVGEKLVLNCTARTELNVGIDFNWEYPSSKHQHKKLVNRDLKTQSGSEMKKFLSTLTIDGVTRSDQGLYTCAASSGLMTKKNSTFVRVHEKPFVAFGSGMESLVEATVGERVRIPAKYLGYPPPEIKWYKNGIPLESNHTIKAGHVLTIMEVSERDTGNYTVILTNPISKEKQSHVVSLVVYVPPQIGEKSLISPVDSYQYGTTQTLTCTVYAIPPPHHIHWYWQLEEECANEPSQAVSVTNPYPCEEWRSVEDFQGGNKIEVNKNQFALIEGKNKTVSTLVIQAANVSALYKCEAVNKVGRGERVISFHVTRGPEITLQPDMQPTEQESVSLWCTADRSTFENLTWYKLGPQPLPIHVGELPTPVCKNLDTLWKLNATMFSNSTNDILIMELKNASLQDQGDYVCLAQDRKTKKRHCVVRQLTVLERVAPTITGNLENQTTSIGESIEVSCTASGNPPPQIMWFKDNETLVEDSGIVLKDGNRNLTIRRVRKEDEGLYTCQACSVLGCAKVEAFFIIEGAQEKTNLEIIILVGTAVIAMFFWLLLVIILRTVKRANGGELKTGYLSIVMDPDELPLDEHCERLPYDASKWEFPRDRLKLGKPLGRGAFGQVIEADAFGIDKTATCRTVAVKMLKEGATHSEHRALMSELKILIHIGHHLNVVNLLGACTKPGGPLMVIVEFCKFGNLSTYLRSKRNEFVPYKTKGARFRQGKDYVGAIPVDLKRRLDSITSSQSSASSGFVEEKSLSDVEEEEAPEDLYKDFLTLEHLICYSFQVAKGMEFLASRKCIHRDLAARNILLSEKNVVKICDFGLARDIYKDPDYVRKGDARLPLKWMAPETIFDRVYTIQSDVWSFGVLLWEIFSLGASPYPGVKIDEEFCRRLKEGTRMRAPDYTTPEMYQTMLDCWHGEPSQRPTFSELVEHLGNLLQANAQQDGKDYIVLPISETLSMEEDSGLSLPTSPVSCMEEEEVCDPKFHYDNTAGISQYLQNSKRKSRPVSVKTFEDIPLEEPEVKVIPDDNQTDSGMVLASEELKTLEDRTKLSPSFGGMVPSKSRESVASEGSNQTSGYQSGYHSDDTDTTVYSSEEAELLKLIEIGVQTGSTAQILQPDSGTTLSSPPV</Protein_Seq>
+    <DNA_Seq>ACTGAGTCCCGGGACCCCGGGAGAGCGGTCAGTGTGTGGTCGCTGCGTTTCCTCTGCCTGCGCCGGGCATCACTTGCGCGCCGCAGAAAGTCCGTCTGGCAGCCTGGATATCCTCTCCTACCGGCACCCGCAGACGCCCCTGCAGCCGCCGGTCGGCGCCCGGGCTCCCTAGCCCTGTGCGCTCAACTGTCCTGCGCTGCGGGGTGCCGCGAGTTCCACCTCCGCGCCTCCTTCTCTAGACAGGCGCTGGGAGAAAGAACCGGCTCCCGAGTTCTGGGCATTTCGCCCGGCTCGAGGTGCAGGATGCAGAGCAAGGTGCTGCTGGCCGTCGCCCTGTGGCTCTGCGTGGAGACCCGGGCCGCCTCTGTGGGTTTGCCTAGTGTTTCTCTTGATCTGCCCAGGCTCAGCATACAAAAAGACATACTTACAATTAAGGCTAATACAACTCTTCAAATTACTTGCAGGGGACAGAGGGACTTGGACTGGCTTTGGCCCAATAATCAGAGTGGCAGTGAGCAAAGGGTGGAGGTGACTGAGTGCAGCGATGGCCTCTTCTGTAAGACACTCACAATTCCAAAAGTGATCGGAAATGACACTGGAGCCTACAAGTGCTTCTACCGGGAAACTGACTTGGCCTCGGTCATTTATGTCTATGTTCAAGATTACAGATCTCCATTTATTGCTTCTGTTAGTGACCAACATGGAGTCGTGTACATTACTGAGAACAAAAACAAAACTGTGGTGATTCCATGTCTCGGGTCCATTTCAAATCTCAACGTGTCACTTTGTGCAAGATACCCAGAAAAGAGATTTGTTCCTGATGGTAACAGAATTTCCTGGGACAGCAAGAAGGGCTTTACTATTCCCAGCTACATGATCAGCTATGCTGGCATGGTCTTCTGTGAAGCAAAAATTAATGATGAAAGTTACCAGTCTATTATGTACATAGTTGTCGTTGTAGGGTATAGGATTTATGATGTGGTTCTGAGTCCGTCTCATGGAATTGAACTATCTGTTGGAGAAAAGCTTGTCTTAAATTGTACAGCAAGAACTGAACTAAATGTGGGGATTGACTTCAACTGGGAATACCCTTCTTCGAAGCATCAGCATAAGAAACTTGTAAACCGAGACCTAAAAACCCAGTCTGGGAGTGAGATGAAGAAATTTTTGAGCACCTTAACTATAGATGGTGTAACCCGGAGTGACCAAGGATTGTACACCTGTGCAGCATCCAGTGGGCTGATGACCAAGAAGAACAGCACATTTGTCAGGGTCCATGAAAAACCTTTTGTTGCTTTTGGAAGTGGCATGGAATCTCTGGTGGAAGCCACGGTGGGGGAGCGTGTCAGAATCCCTGCGAAGTACCTTGGTTACCCACCCCCAGAAATAAAATGGTATAAAAATGGAATACCCCTTGAGTCCAATCACACAATTAAAGCGGGGCATGTACTGACGATTATGGAAGTGAGTGAAAGAGACACAGGAAATTACACTGTCATCCTTACCAATCCCATTTCAAAGGAGAAGCAGAGCCATGTGGTCTCTCTGGTTGTGTATGTCCCACCCCAGATTGGTGAGAAATCTCTAATCTCTCCTGTGGATTCCTACCAGTACGGCACCACTCAAACGCTGACATGTACGGTCTATGCCATTCCTCCCCCGCATCACATCCACTGGTATTGGCAGTTGGAGGAAGAGTGCGCCAACGAGCCCAGCCAAGCTGTCTCAGTGACAAACCCATACCCTTGTGAAGAATGGAGAAGTGTGGAGGACTTCCAGGGAGGAAATAAAATTGAAGTTAATAAAAATCAATTTGCTCTAATTGAAGGAAAAAACAAAACTGTAAGTACCCTTGTTATCCAAGCGGCAAATGTGTCAGCTTTGTACAAATGTGAAGCGGTCAACAAAGTCGGGAGAGGAGAGAGGGTGATCTCCTTCCACGTGACCAGGGGTCCTGAAATTACTTTGCAACCTGACATGCAGCCCACTGAGCAGGAGAGCGTGTCTTTGTGGTGCACTGCAGACAGATCTACGTTTGAGAACCTCACATGGTACAAGCTTGGCCCACAGCCTCTGCCAATCCATGTGGGAGAGTTGCCCACACCTGTTTGCAAGAACTTGGATACTCTTTGGAAATTGAATGCCACCATGTTCTCTAATAGCACAAATGACATTTTGATCATGGAGCTTAAGAATGCATCCTTGCAGGACCAAGGAGACTATGTCTGCCTTGCTCAAGACAGGAAGACCAAGAAAAGACATTGCGTGGTCAGGCAGCTCACAGTCCTAGAGCGTGTGGCACCCACGATCACAGGAAACCTGGAGAATCAGACGACAAGTATTGGGGAAAGCATCGAAGTCTCATGCACGGCATCTGGGAATCCCCCTCCACAGATCATGTGGTTTAAAGATAATGAGACCCTTGTAGAAGACTCAGGCATTGTATTGAAGGATGGGAACCGGAACCTCACTATCCGCAGAGTGAGGAAGGAGGACGAAGGCCTCTACACCTGCCAGGCATGCAGTGTTCTTGGCTGTGCAAAAGTGGAGGCATTTTTCATAATAGAAGGTGCCCAGGAAAAGACGAACTTGGAAATCATTATTCTAGTAGGCACGGCGGTGATTGCCATGTTCTTCTGGCTACTTCTTGTCATCATCCTACGGACCGTTAAGCGGGCCAATGGAGGGGAACTGAAGACAGGCTACTTGTCCATCGTCATGGATCCAGATGAACTCCCATTGGATGAACATTGTGAACGACTGCCTTATGATGCCAGCAAATGGGAATTCCCCAGAGACCGGCTGAAGCTAGGTAAGCCTCTTGGCCGTGGTGCCTTTGGCCAAGTGATTGAAGCAGATGCCTTTGGAATTGACAAGACAGCAACTTGCAGGACAGTAGCAGTCAAAATGTTGAAAGAAGGAGCAACACACAGTGAGCATCGAGCTCTCATGTCTGAACTCAAGATCCTCATTCATATTGGTCACCATCTCAATGTGGTCAACCTTCTAGGTGCCTGTACCAAGCCAGGAGGGCCACTCATGGTGATTGTGGAATTCTGCAAATTTGGAAACCTGTCCACTTACCTGAGGAGCAAGAGAAATGAATTTGTCCCCTACAAGACCAAAGGGGCACGATTCCGTCAAGGGAAAGACTACGTTGGAGCAATCCCTGTGGATCTGAAACGGCGCTTGGACAGCATCACCAGTAGCCAGAGCTCAGCCAGCTCTGGATTTGTGGAGGAGAAGTCCCTCAGTGATGTAGAAGAAGAGGAAGCTCCTGAAGATCTGTATAAGGACTTCCTGACCTTGGAGCATCTCATCTGTTACAGCTTCCAAGTGGCTAAGGGCATGGAGTTCTTGGCATCGCGAAAGTGTATCCACAGGGACCTGGCGGCACGAAATATCCTCTTATCGGAGAAGAACGTGGTTAAAATCTGTGACTTTGGCTTGGCCCGGGATATTTATAAAGATCCAGATTATGTCAGAAAAGGAGATGCTCGCCTCCCTTTGAAATGGATGGCCCCAGAAACAATTTTTGACAGAGTGTACACAATCCAGAGTGACGTCTGGTCTTTTGGTGTTTTGCTGTGGGAAATATTTTCCTTAGGTGCTTCTCCATATCCTGGGGTAAAGATTGATGAAGAATTTTGTAGGCGATTGAAAGAAGGAACTAGAATGAGGGCCCCTGATTATACTACACCAGAAATGTACCAGACCATGCTGGACTGCTGGCACGGGGAGCCCAGTCAGAGACCCACGTTTTCAGAGTTGGTGGAACATTTGGGAAATCTCTTGCAAGCTAATGCTCAGCAGGATGGCAAAGACTACATTGTTCTTCCGATATCAGAGACTTTGAGCATGGAAGAGGATTCTGGACTCTCTCTGCCTACCTCACCTGTTTCCTGTATGGAGGAGGAGGAAGTATGTGACCCCAAATTCCATTATGACAACACAGCAGGAATCAGTCAGTATCTGCAGAACAGTAAGCGAAAGAGCCGGCCTGTGAGTGTAAAAACATTTGAAGATATCCCGTTAGAAGAACCAGAAGTAAAAGTAATCCCAGATGACAACCAGACGGACAGTGGTATGGTTCTTGCCTCAGAAGAGCTGAAAACTTTGGAAGACAGAACCAAATTATCTCCATCTTTTGGTGGAATGGTGCCCAGCAAAAGCAGGGAGTCTGTGGCATCTGAAGGCTCAAACCAGACAAGCGGCTACCAGTCCGGATATCACTCCGATGACACAGACACCACCGTGTACTCCAGTGAGGAAGCAGAACTTTTAAAGCTGATAGAGATTGGAGTGCAAACCGGTAGCACAGCCCAGATTCTCCAGCCTGACTCGGGGACCACACTGAGCTCTCCTCCTGTTTAAAAGGAAGCATCCACACCCCAACTCCCGGACATCACATGAGAGGTCTGCTCAGATTTTGAAGTGTTGTTCTTTCCACCAGCAGGAAGTAGCCGCATTTGATTTTCATTTCGACAACAGAAAAAGGACCTCGGACTGCAGGGAGCCAGTCTTCTAGGCATATCCTGGAAGAGGCTTGTGACCCAAGAATGTGTCTGTGTCTTCTCCCAGTGTTGACCTGATCCTCTTTTTTCATTCATTTAAAAAGCATTATCATGCCCCTGCTGCGGGTCTCACCATGGGTTTAGAACAAAGAGCTTCAAGCAATGGCCCCATCCTCAAAGAAGTAGCAGTACCTGGGGAGCTGACACTTCTGTAAAACTAGAAGATAAACCAGGCAACGTAAGTGTTCGAGGTGTTGAAGATGGGAAGGATTTGCAGGGCTGAGTCTATCCAAGAGGCTTTGTTTAGGACGTGGGTCCCAAGCCAAGCCTTAAGTGTGGAATTCGGATTGATAGAAAGGAAGACTAACGTTACCTTGCTTTGGAGAGTACTGGAGCCTGCAAATGCATTGTGTTTGCTCTGGTGGAGGTGGGCATGGGGTCTGTTCTGAAATGTAAAGGGTTCAGACGGGGTTTCTGGTTTTAGAAGGTTGCGTGTTCTTCGAGTTGGGCTAAAGTAGAGTTCGTTGTGCTGTTTCTGACTCCTAATGAGAGTTCCTTCCAGACCGTTAGCTGTCTCCTTGCCAAGCCCCAGGAAGAAAATGATGCAGCTCTGGCTCCTTGTCTCCCAGGCTGATCCTTTATTCAGAATACCACAAAGAAAGGACATTCAGCTCAAGGCTCCCTGCCGTGTTGAAGAGTTCTGACTGCACAAACCAGCTTCTGGTTTCTTCTGGAATGAATACCCTCATATCTGTCCTGATGTGATATGTCTGAGACTGAATGCGGGAGGTTCAATGTGAAGCTGTGTGTGGTGTCAAAGTTTCAGGAAGGATTTTACCCTTTTGTTCTTCCCCCTGTCCCCAACCCACTCTCACCCCGCAACCCATCAGTATTTTAGTTATTTGGCCTCTACTCCAGTAAACCTGATTGGGTTTGTTCACTCTCTGAATGATTATTAGCCAGACTTCAAAATTATTTTATAGCCCAAATTATAACATCTATTGTATTATTTAGACTTTTAACATATAGAGCTATTTCTACTGATTTTTGCCCTTGTTCTGTCCTTTTTTTCAAAAAAGAAAATGTGTTTTTTGTTTGGTACCATAGTGTGAAATGCTGGGAACAATGACTATAAGACATGCTATGGCACATATATTTATAGTCTGTTTATGTAGAAACAAATGTAATATATTAAAGCCTTATATATAATGAACTTTGTACTATTCACATTTTGTATCAGTATTATGTAGCATAACAAAGGTCATAATGCTTTCAGCAATTGATGTCATTTTATTAAAGAACATTGAAAAACTTGA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane Associated</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>KDR</Gene_Name>
+    <Gene_Alias>FLK1; VEGFR2</Gene_Alias>
+    <Gene_ID>3791</Gene_ID>
+    <Genbank_ACCN>NM_002253</Genbank_ACCN>
+    <Protein_ACCN>NP_002244</Protein_ACCN>
+    <HGNC_ID>6307</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3791</Gene_URL>
+    <UCSC_ID>uc003has.3</UCSC_ID>
+    <EMBL_ID>ENSG00000128052</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P12931</Uniprot_ID>
+      <Gene_Name>SRC</Gene_Name>
+      <EBI_ID>EBI-621482</EBI_ID>
+      <PPI_EBI_URL>EBI-1005487,EBI-621482</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P35916</Uniprot_ID>
+      <Gene_Name>FLT4</Gene_Name>
+      <EBI_ID>EBI-1005467</EBI_ID>
+      <PPI_EBI_URL>EBI-1005487,EBI-1005467</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Leukostasis</Disease_Name>
+      <Disease_Detail>Leukostasis</Disease_Detail>
+      <Disease_DB>LKS001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leukostasis?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Thyroid Cancer</Disease_Name>
+      <Disease_Detail>Thyroid Cancer</Disease_Detail>
+      <Disease_DB>THY028</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/thyroid_cancer?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Capillary Hemangioma</Disease_Name>
+      <Disease_Detail>Capillary Hemangioma</Disease_Detail>
+      <Disease_DB>CPL006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/capillary_hemangioma?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Epithelioid Hemangioendothelioma</Disease_Name>
+      <Disease_Detail>Epithelioid Hemangioendothelioma</Disease_Detail>
+      <Disease_DB>EPT020</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/epithelioid_hemangioendothelioma?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colorectal Cancer</Disease_Name>
+      <Disease_Detail>Colorectal Cancer</Disease_Detail>
+      <Disease_DB>CLR023</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colorectal_cancer?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hemangioma, Capillary Infantile, Somatic</Disease_Name>
+      <Disease_Detail>Hemangioma</Disease_Detail>
+      <Disease_DB>HMN026</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hemangioma_capillary_infantile_somatic?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Olecranon Bursitis</Disease_Name>
+      <Disease_Detail>Olecranon Bursitis</Disease_Detail>
+      <Disease_DB>OLC001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/olecranon_bursitis?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Kaposi's Sarcoma</Disease_Name>
+      <Disease_Detail>Kaposi's Sarcoma</Disease_Detail>
+      <Disease_DB>KPS001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/kaposis_sarcoma?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Renal Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Renal Cell Carcinoma</Disease_Detail>
+      <Disease_DB>RNL014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/renal_cell_carcinoma?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hemangioma, Capillary Infantile</Disease_Name>
+      <Disease_Detail>Hemangioma</Disease_Detail>
+      <Disease_DB>HMN027</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hemangioma_capillary_infantile?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hemangioma</Disease_Name>
+      <Disease_Detail>Hemangioma</Disease_Detail>
+      <Disease_DB>HMN010</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hemangioma?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Thoracic Cancer</Disease_Name>
+      <Disease_Detail>Thoracic Cancer</Disease_Detail>
+      <Disease_DB>THR012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/thoracic_cancer?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gastrointestinal Stromal Tumor</Disease_Name>
+      <Disease_Detail>Gastrointestinal Stromal Tumor</Disease_Detail>
+      <Disease_DB>GST019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gastrointestinal_stromal_tumor?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cervical Adenosquamous Carcinoma</Disease_Name>
+      <Disease_Detail>Cervical Cancer</Disease_Detail>
+      <Disease_DB>CRV033</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cervical_adenosquamous_carcinoma?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Fibrosarcoma of Bone</Disease_Name>
+      <Disease_Detail>Fibrosarcoma of Bone</Disease_Detail>
+      <Disease_DB>FBR002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/fibrosarcoma_of_bone?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Oligodendroglioma</Disease_Name>
+      <Disease_Detail>Oligodendroglioma</Disease_Detail>
+      <Disease_DB>OLG002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/oligodendroglioma?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Bursitis</Disease_Name>
+      <Disease_Detail>Bursitis</Disease_Detail>
+      <Disease_DB>BRS064</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/bursitis?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Adenosquamous Carcinoma</Disease_Name>
+      <Disease_Detail>Adenosquamous Carcinoma</Disease_Detail>
+      <Disease_DB>ADN009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adenosquamous_carcinoma?search=KDR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Angiosarcoma</Disease_Name>
+      <Disease_Detail>Angiosarcoma</Disease_Detail>
+      <Disease_DB>ANG020</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/angiosarcoma?search=KDR#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Structure of VEGFR2 kinase domain in complex with BIBF1120</PDB_Title>
+      <PDB_ID>3C7Q</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C7Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>SULFATE ION$methyl (3Z)-3-{[(4-{methyl[(4-methylpiperazin- 1-yl)acetyl]amino}phenyl)amino]
+(phenyl)methylidene}- 2-oxo-2,3-dihydro-1H-indole-6-carboxylate</Ligand_Name>
+      <PubMed_Title>BIBF 1120: triple angiokinase inhibitor with sustained receptor blockade and good antitumor efficacy.</PubMed_Title>
+      <Author>Hilberg F, et al.</Author>
+      <Journal>Cancer Res.2008 Jun 15;68(12):4774-82.</Journal>
+      <PubMed_ID>18559524</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a pyridone inhibitor</PDB_Title>
+      <PDB_ID>3CP9</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CP9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-(2-aminoquinazolin-6-yl)-1-(3,3-dimethylindolin- 6-yl)-4-methylpyridin-2(1H)
+-one</Ligand_Name>
+      <PubMed_Title>Discovery of Aryl Aminoquinazoline Pyridones as Potent, Selective, and Orally Efficacious Inhibitors of Receptor Tyrosine Kinase c-Kit.</PubMed_Title>
+      <Author>Hu E, et al.</Author>
+      <Journal>J Med Chem.2008 Jun 12;51(11):3065-8. Epub  2008 May 1.</Journal>
+      <PubMed_ID>18447379</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a 2,3-dihydro-1,4-benzoxazine inhibitor</PDB_Title>
+      <PDB_ID>2RL5</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2RL5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>O-PHOSPHOTYROSINE (parent: TYR)(type: lPeptideLinking)</Ligand_Name>
+      <PubMed_Title>Novel 2,3-dihydro-1,4-benzoxazines as potent and orally bioavailable inhibitors of tumor-driven angiogenesis.</PubMed_Title>
+      <Author>La DS, et al.</Author>
+      <Journal>J Med Chem.2008 Mar 27;51(6):1695-705. Epub  2008 Feb 27.</Journal>
+      <PubMed_ID>18311900</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of VEGFR2 in complex with a 3,4,5-trimethoxy aniline containing pyrimidine</PDB_Title>
+      <PDB_ID>3CJF</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CJF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N~4~-(3-methyl-1H-indazol-6-yl)-N~2~-(3,4,5- trimethoxyphenyl)pyrimidine-2,4
+-diamine$SULFATE ION</Ligand_Name>
+      <PubMed_Title>Discovery of 5-[[4-[(2,3-dimethyl-2H-indazol-6-yl)methylamino]-2-pyrimidinyl]amino]-2-methyl-benzenesulfonamide (Pazopanib), a novel and potent vascular endothelial growth factor receptor inhibitor.</PubMed_Title>
+      <Author>Harris PA, et al.</Author>
+      <Journal>J Med Chem.2008 Aug 14;51(15):4632-40. Epub  2008 Jul 12.</Journal>
+      <PubMed_ID>18620382</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of VEGFR2 extracellular domain D7</PDB_Title>
+      <PDB_ID>3KVQ</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KVQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Direct contacts between extracellular membrane-proximal domains are required for VEGF receptor activation and cell signaling</PubMed_Title>
+      <Author>Yang Y, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2010 Feb 2;107(5):1906-11. Epub  2010 Jan 11.</Journal>
+      <PubMed_ID>20080685</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a benzoxazole inhibitor</PDB_Title>
+      <PDB_ID>2QU6</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QU6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-({2-[(4-chloro-3-{[(2S)-1-methylpyrrolidin- 2-yl]methoxy}phenyl)amino]-1,3
+-benzoxazol- 5-yl}oxy)-N-methylpyridine-2-carboxamide$SULFATE ION</Ligand_Name>
+      <PubMed_Title>Design, Synthesis, and Evaluation of Orally Active Benzimidazoles and Benzoxazoles as Vascular Endothelial Growth Factor-2 Receptor Tyrosine Kinase Inhibitors.</PubMed_Title>
+      <Author>Potashman MH, et al.</Author>
+      <Journal>J Med Chem.2007 Sep 6;50(18):4351-73. Epub  2007 Aug 15.</Journal>
+      <PubMed_ID>17696416</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a nicotinamide inhibitor</PDB_Title>
+      <PDB_ID>2P2I</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2P2I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(4-phenoxyphenyl)-2-[(pyridin-4-ylmethyl)amino]nicotinamide</Ligand_Name>
+      <PubMed_Title>Evolution of a Highly Selective and Potent 2-(Pyridin-2-yl)-1,3,5-triazine Tie-2 Kinase Inhibitor</PubMed_Title>
+      <Author>Hodous BL, et al.</Author>
+      <Journal>J Med Chem.2007 Feb 22;50(4):611-26. Epub  2007 Jan 25.</Journal>
+      <PubMed_ID>17253678</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with motesanib</PDB_Title>
+      <PDB_ID>3EFL</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EFL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(3,3-dimethyl-2,3-dihydro-1H-indol-6-yl)- 2-[(pyridin-4
+-ylmethyl)amino]pyridine-3-carboxamide</Ligand_Name>
+      <PubMed_Title>Discovery of Motesanib</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a benzisoxazole inhibitor</PDB_Title>
+      <PDB_ID>3DTW</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DTW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-chloro-N-pyrimidin-5-yl-3-{[3-(trifluoromethyl)phenyl]amino}- 1,2
+-benzisoxazole-7-carboxamide</Ligand_Name>
+      <PubMed_Title>Discovery of amido-benzisoxazoles as potent c-Kit inhibitors.</PubMed_Title>
+      <Author>Kunz RK, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2008 Sep 15;18(18):5115-7. Epub  2008 Jul 31.</Journal>
+      <PubMed_ID>18723346</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a benzamide inhibitor</PDB_Title>
+      <PDB_ID>3BE2</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BE2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-{3-[3-(DIMETHYLAMINO)PROPYL]-5-(TRIFLUOROMETHYL)PHENYL}- 4-METHYL-3-[(3
+-PYRIMIDIN-4-YLPYRIDIN-2-YL)AMINO]BENZAMIDE</Ligand_Name>
+      <PubMed_Title>Naphthamides as novel and potent vascular endothelial growth factor receptor tyrosine kinase inhibitors: design, synthesis, and evaluation.</PubMed_Title>
+      <Author>Harmange JC, et al.</Author>
+      <Journal>J Med Chem.2008 Mar 27;51(6):1649-67. Epub  2008 Mar 7.</Journal>
+      <PubMed_ID>18324761</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a bisamide inhibitor</PDB_Title>
+      <PDB_ID>3CPB</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CPB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N'-(6-aminopyridin-3-yl)-N-(2-cyclopentylethyl)- 4-methyl-benzene-1,3
+-dicarboxamide</Ligand_Name>
+      <PubMed_Title>Discovery of Aryl Aminoquinazoline Pyridones as Potent, Selective, and Orally Efficacious Inhibitors of Receptor Tyrosine Kinase c-Kit.</PubMed_Title>
+      <Author>Hu E, et al.</Author>
+      <Journal>J Med Chem.2008 Jun 12;51(11):3065-8. Epub  2008 May 1.</Journal>
+      <PubMed_ID>18447379</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a naphthamide inhibitor</PDB_Title>
+      <PDB_ID>3B8Q</PDB_ID>
+      <Resolution>2.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3B8Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(4-chlorophenyl)-6-[(6,7-dimethoxyquinolin- 4-yl)oxy]naphthalene-1-carboxamide</Ligand_Name>
+      <PubMed_Title>Naphthamides as Novel and Potent Vascular Endothelial Growth Factor   Receptor Tyrosine Kinase Inhibitors: Design, Synthesis and Evaluation</PubMed_Title>
+      <Author>Harmange JC, et al.</Author>
+      <Journal>J Med Chem.2008 Mar 27;51(6):1649-67. Epub  2008 Mar 7.</Journal>
+      <PubMed_ID>18324761</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a pyridone inhibitor</PDB_Title>
+      <PDB_ID>3CPC</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CPC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-(2-aminoquinazolin-6-yl)-4-methyl-1-[3- (trifluoromethyl)phenyl]pyridin-2(1H)
+-one</Ligand_Name>
+      <PubMed_Title>Discovery of Aryl Aminoquinazoline Pyridones as Potent, Selective, and Orally Efficacious Inhibitors of Receptor Tyrosine Kinase c-Kit.</PubMed_Title>
+      <Author>Hu E, et al.</Author>
+      <Journal>J Med Chem.2008 Jun 12;51(11):3065-8. Epub  2008 May 1.</Journal>
+      <PubMed_ID>18447379</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Vegfr2 in complex with a novel 4-amino-furo[2,3-d]pyrimidine</PDB_Title>
+      <PDB_ID>1YWN</PDB_ID>
+      <Resolution>1.71</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YWN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-{4-[4-AMINO-6-(4-METHOXYPHENYL)FURO[2,3- D]PYRIMIDIN-5-YL]PHENYL}-N'-[2-FLUORO
+-5-(TRIFLUOROMETHYL)PHENYL]UREA</Ligand_Name>
+      <PubMed_Title>Novel 4-amino-furo[2,3-d]pyrimidines as Tie-2 and VEGFR2 dual inhibitors</PubMed_Title>
+      <Author>Miyazaki Y, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2005 May 2;15(9):2203-7.</Journal>
+      <PubMed_ID>15837294</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Vegfr2 with a benzimidazole-urea inhibitor</PDB_Title>
+      <PDB_ID>2OH4</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OH4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>METHYL (5-{4-[({[2-FLUORO-5-
+(TRIFLUOROMETHYL)PHENYL]AMINO}CARBONYL)AMINO]PHENOXY}- 1H-BENZIMIDAZOL-2-YL)CARBAMATE$SULFATE ION</Ligand_Name>
+      <PubMed_Title>Discovery of Novel Benzimidazoles as Potent Inhibitors of TIE-2 and VEGFR-2 Tyrosine Kinase Receptors.</PubMed_Title>
+      <Author>Hasegawa M, et al.</Author>
+      <Journal>J Med Chem.2007 Sep 6;50(18):4453-70. Epub  2007 Aug 4.</Journal>
+      <PubMed_ID>17676829</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of VEGFR2 in complex with a 2-anilino-5-aryl-oxazole inhibitor</PDB_Title>
+      <PDB_ID>1Y6A</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Y6A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[5-(ETHYLSULFONYL)-2-METHOXYPHENYL]-5-[3- (2-PYRIDINYL)PHENYL]-1,3-OXAZOL-2
+-AMINE</Ligand_Name>
+      <PubMed_Title>Discovery and evaluation of 2-anilino-5-aryloxazoles as a novel class of VEGFR2 kinase inhibitors.</PubMed_Title>
+      <Author>Harris PA, et al.</Author>
+      <Journal>J Med Chem.2005 Mar 10;48(5):1610-9.</Journal>
+      <PubMed_ID>15743202</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN VASCULAR ENDOTHELIAL GROWTH FACTOR RECEPTOR 2 (KDR) KINASE DOMAIN</PDB_Title>
+      <PDB_ID>1VR2</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VR2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the kinase domain of human vascular endothelial growth factor receptor 2: a key enzyme in angiogenesis.</PubMed_Title>
+      <Author>McTigue MA, et al.</Author>
+      <Journal>Structure.1999 Mar 15;7(3):319-30.</Journal>
+      <PubMed_ID>10368301</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a pyridinyl-triazine inhibitor</PDB_Title>
+      <PDB_ID>2P2H</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2P2H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(2-anilinopyridin-3-yl)-N-(3,4,5-trimethoxyphenyl)- 1,3,5-triazin-2-amine</Ligand_Name>
+      <PubMed_Title>Evolution of a Highly Selective and Potent 2-(Pyridin-2-yl)-1,3,5-triazine Tie-2 Kinase Inhibitor</PubMed_Title>
+      <Author>Hodous BL, et al.</Author>
+      <Journal>J Med Chem.2007 Feb 22;50(4):611-26. Epub  2007 Jan 25.</Journal>
+      <PubMed_ID>17253678</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF VEGF-C IN COMPLEX WITH DOMAINS 2 AND 3 OF VEGFR2 IN A TETRAGONAL CRYSTAL FORM</PDB_Title>
+      <PDB_ID>2X1X</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2X1X</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>BETA-D-MANNOSE$MERCURY (II) ION$N-ACETYL-D-GLUCOSAMINE</Ligand_Name>
+      <PubMed_Title>Structural Determinants of Growth Factor Binding and Specificity by Vegf-Receptor 2</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a pyridyl-pyrimidine benzimidazole inhibitor</PDB_Title>
+      <PDB_ID>3EWH</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EWH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1,2-ETHANEDIOL$N-[4-({3-[2-(methylamino)pyrimidin-4-yl]pyridin- 2-yl}oxy)naphthalen-1-yl]-6-
+(trifluoromethyl)- 1H-benzimidazol-2-amine</Ligand_Name>
+      <PubMed_Title>Pyridyl-pyrimidine benzimidazole derivatives as potent, selective, and orally bioavailable inhibitors of Tie-2 kinase.</PubMed_Title>
+      <Author>Cee VJ, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2009 Jan 15;19(2):424-7. Epub  2008 Nov 20.</Journal>
+      <PubMed_ID>19062275</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of VEGFR2 in complex with a 3,4,5-trimethoxy aniline containing pyrimidine</PDB_Title>
+      <PDB_ID>3CJG</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CJG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N~4~-methyl-N~4~-(3-methyl-1H-indazol-6-yl)- N~2~-(3,4,5
+-trimethoxyphenyl)pyrimidine-2,4- diamine$SULFATE ION</Ligand_Name>
+      <PubMed_Title>Discovery of 5-[[4-[(2,3-dimethyl-2H-indazol-6-yl)methylamino]-2-pyrimidinyl]amino]-2-methyl-benzenesulfonamide (Pazopanib), a novel and potent vascular endothelial growth factor receptor inhibitor.</PubMed_Title>
+      <Author>Harris PA, et al.</Author>
+      <Journal>J Med Chem.2008 Aug 14;51(15):4632-40. Epub  2008 Jul 12.</Journal>
+      <PubMed_ID>18620382</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a naphthamide inhibitor</PDB_Title>
+      <PDB_ID>3B8R</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3B8R</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-cyclopropyl-6-[(6,7-dimethoxyquinolin-4- yl)oxy]naphthalene-1-carboxamide$1,2-ETHANEDIOL</Ligand_Name>
+      <PubMed_Title>Evaluation of a Series of Naphthamides as Potent, Orally Active Vascular  Endothelial Growth Factor Receptor-2 Tyrosine Kinase Inhibitors</PubMed_Title>
+      <Author>Weiss MM, et al.</Author>
+      <Journal>J Med Chem.2008 Mar 27;51(6):1668-80. Epub  2008 Mar 7.</Journal>
+      <PubMed_ID>18324759</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of VEGFR2 in complex with a 2-anilino-5-aryl-oxazole inhibitor</PDB_Title>
+      <PDB_ID>1Y6B</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Y6B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(CYCLOPROPYLMETHYL)-4-(METHYLOXY)-3-({5- [3-(3-PYRIDINYL)PHENYL]-1,3-OXAZOL-2
+-YL}AMINO)BENZENESULFONAMIDE</Ligand_Name>
+      <PubMed_Title>Discovery and evaluation of 2-anilino-5-aryloxazoles as a novel class of VEGFR2 kinase inhibitors.</PubMed_Title>
+      <Author>Harris PA, et al.</Author>
+      <Journal>J Med Chem.2005 Mar 10;48(5):1610-9.</Journal>
+      <PubMed_ID>15743202</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the VEGFR2 kinase domain in complex with a benzimidazole inhibitor</PDB_Title>
+      <PDB_ID>2QU5</PDB_ID>
+      <Resolution>2.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QU5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-[[2-[[4-chloro-3-(trifluoromethyl)phenyl]amino]- 3H-benzimidazol-5-yl]oxy]-N
+-methyl-pyridine- 2-carboxamide</Ligand_Name>
+      <PubMed_Title>Design, Synthesis, and Evaluation of Orally Active Benzimidazoles and Benzoxazoles as Vascular Endothelial Growth Factor-2 Receptor Tyrosine Kinase Inhibitors.</PubMed_Title>
+      <Author>Potashman MH, et al.</Author>
+      <Journal>J Med Chem.2007 Sep 6;50(18):4351-73. Epub  2007 Aug 15.</Journal>
+      <PubMed_ID>17696416</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF VEGF-C IN COMPLEX WITH DOMAINS 2 AND 3 OF VEGFR2</PDB_Title>
+      <PDB_ID>2X1W</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2X1W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>BETA-D-MANNOSE$CESIUM ION$N-ACETYL-D-GLUCOSAMINE</Ligand_Name>
+      <PubMed_Title>Structural Determinants of Growth Factor Binding and Specificity by Vegf Receptor 2.</PubMed_Title>
+      <PubMed_ID>20145116</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05205</Pathway_ID>
+      <Pathway_Title>Proteoglycans in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04060</Pathway_ID>
+      <Pathway_Title>Cytokine-cytokine receptor interaction</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signaling molecules and interaction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05205</Pathway_ID>
+      <Pathway_Title>Proteoglycans in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04370</Pathway_ID>
+      <Pathway_Title>VEGF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05205</Pathway_ID>
+      <Pathway_Title>Proteoglycans in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.daa.b.b.fd.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1vr2</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.10.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/10/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01022001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01022015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03700001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03700002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03700003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03700004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

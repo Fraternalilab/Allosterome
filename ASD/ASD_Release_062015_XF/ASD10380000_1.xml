@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD10380000_1</Organism_ID>
+  <Organism>Mycobacterium smegmatis</Organism>
+  <Organism_Latin>Mycobacterium smegmatis</Organism_Latin>
+  <UniProt_ID>A0QZ42</UniProt_ID>
+  <Seq_Length>452</Seq_Length>
+  <Molecule_Weight>51373</Molecule_Weight>
+  <KEGG_ID>msm:MSMEG_3890</KEGG_ID>
+  <Orthology_ID>K13571</Orthology_ID>
+  <Function_Summary>Catalyzes the covalent attachment of the prokaryotic ubiquitin-like protein modifier Pup to the proteasomal substrate proteins, thereby targeting them for proteasomal degradation. This tagging system is termed pupylation. The ligation reaction likely involves the side-chain carboxylate of the C-terminal glutamate of Pup and the side-chain amino group of a substrate lysine.</Function_Summary>
+  <Catalytic_Mechanism>ATP + [Pup] + [protein]-lysine = ADP + phosphate + [protein]-N-pupyllysine.</Catalytic_Mechanism>
+  <Pfam_ID>PF03136:Pup_ligase</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Proteasome accessory factor A</Alias>
+      <Alias>Pup-conjugating enzyme</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of ATP-dependent isopeptide bond formation between the carboxy-terminal residues of a small conjugating protein such as ubiquitin or a ubiquitin-like protein, and a substrate lysine residue. This function may be performed alone or in conjunction with an E3, ubiquitin-like protein ligase.</Detail>
+      <Keyword>Small conjugating protein ligase activity</Keyword>
+      <Ontology_ID>GO:0019787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Protein involved in ubiquitin-like modifier processing, activation, conjugation or deconjugation such as Ubl-activating enzymes (E1s), Ubl-conjugating enzymes (E2s), Ubl-protein ligases (E3s), some thiol proteases (Ubiquitin carboxyl-terminal hydrolases (UCH), Ubiquitin-specific processing proteases (UBP) and ubiquitin-like proteases) and the ubiquitin-like modifier proteins. Besides signaling proteolysis, ubiquitination for example can be a signal for trafficking, kinase activation and other nonproteolytic fates.</Detail>
+      <Keyword>Ubl conjugation pathway</Keyword>
+      <Ontology_ID>KW-0833</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds that is mediated by the proteasome.</Detail>
+      <Keyword>Proteasomal protein catabolic process</Keyword>
+      <Ontology_ID>GO:0010498</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds, initiated by the covalent modification of the target protein.</Detail>
+      <Keyword>Modification-dependent protein catabolic process</Keyword>
+      <Ontology_ID>GO:0019941</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a Pup protein is conjugated to a target protein via an isopeptide bond between the carboxyl terminus of Pup and the epsilon-amino group of a lysine residue of the target protein.</Detail>
+      <Keyword>Protein pupylation</Keyword>
+      <Ontology_ID>GO:0070490</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MQRRIMGIETEFGVTCTFHGHRRLSPDEVARYLFRRVVSWGRSSNVFLRNGARLYLDVGSHPEYATAECDNLIQLVTHDRAGERVLEDLLIDAEQRLADEGIGGDIYLFKNNTDSAGNSYGCHENYLIVRAGEFSRISDVLLPFLVTRQLICGAGKVLQTPKAATFCLSQRAEHIWEGVSSATTRSRPIINTRDEPHADAEKYRRLHVIVGDSNMCEATTMLKVGTASLVLEMIEAGVPFRDFSLDNPIRAIREVSHDLTGRRPVRLAGGRQASALDIQREYYSRAVEYLQSREPNTQIEQVVDLWGRQLDAVESQDFAKVDTEIDWVIKRKLFQRYQDRYNMELSDPKISQLDLAYHDIKRGRGVFDLLQRKGLAARITTDEEIDAAVTTPPQTTRAKLRGEFISAAQEAGRDFTVDWVHLKLNDQAQRTVLCKDPFRSVDERVKRLIASM</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>pafA</Gene_Name>
+    <Gene_ID>4534506</Gene_ID>
+    <Genbank_ACCN>NC_018289</Genbank_ACCN>
+    <Protein_ACCN>YP_006568553</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/4534506</Gene_URL>
+    <EMBL_ID>MSMEG_3890</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Pup--protein ligase</PDB_Title>
+      <PDB_ID>ASD10380000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Ofer N, et al. J Biol Chem. 2013 Apr 19;288(16):11287-93.</Site_Reference>
+      <Site_Type>Protein-induced </Site_Type>
+      <PubMed_ID>23471967</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.3.2.n2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/3/2/n2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2013-04-28</Create_Date>
+</Organism_Record>

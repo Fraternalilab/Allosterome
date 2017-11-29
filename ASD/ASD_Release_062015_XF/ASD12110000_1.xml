@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD12110000_1</Organism_ID>
+  <Organism>Bifidobacterium longum subsp. longum</Organism>
+  <Organism_Latin>Bifidobacterium longum subsp. longum</Organism_Latin>
+  <UniProt_ID>E8ME30</UniProt_ID>
+  <Seq_Length>320</Seq_Length>
+  <Molecule_Weight>34240</Molecule_Weight>
+  <KEGG_ID>blm:BLLJ_1290</KEGG_ID>
+  <Orthology_ID>K00016</Orthology_ID>
+  <Catalytic_Mechanism>(S)-lactate + NAD(+) = pyruvate + NADH.</Catalytic_Mechanism>
+  <Pfam_ID>PF02866:Ldh_1_C@@PF00056:Ldh_1_N</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>L-LDH 2</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: (S)-lactate + NAD+ = pyruvate + NADH + H+.</Detail>
+      <Keyword>L-lactate dehydrogenase activity</Keyword>
+      <Ontology_ID>GO:0004459</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving carbohydrates, any of a group of organic compounds based of the general formula Cx(H2O)y, as carried out by individual cells.</Detail>
+      <Keyword>Cellular carbohydrate metabolic process</Keyword>
+      <Ontology_ID>GO:0044262</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a monosaccharide (generally glucose) into pyruvate, with the concomitant production of a small amount of ATP. Pyruvate may be converted to ethanol, lactate, or other small molecules, or fed into the TCA cycle.</Detail>
+      <Keyword>Glycolysis</Keyword>
+      <Ontology_ID>GO:0006096</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>228</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAETTVKPTKLAVIGAGAVGSTLAFAAAQRGIAREIVLEDIAKERVEAEVLDMQHGSSFYPTVSIDGSDDPEICRDADMVVITAGPRQKPGQSRLELVGATVNILKAIMPNLVKVAPNAIYMLITNPVDIATHVAQKLTGLPENQIFGSGTNLDSARLRFLIAQQTGVNVKNVHAYIAGEHGDSEVPLWESATIGGVPMCDWTPLPGHDPLDADKREEIHQEVKNAAYKIINGKGATNYAIGMSGVDIIEAVLHDTNRILPVSSMLKDFHGISDICMSVPTLLNRQGVNNTINTPVSDKELAALKRSAETLKETAAQFGF</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ldh2</Gene_Name>
+    <Gene_Alias>ldh</Gene_Alias>
+    <Genbank_ACCN>NC_015067</Genbank_ACCN>
+    <Protein_ACCN>YP_004221049</Protein_ACCN>
+    <EMBL_ID>BLLJ_1290</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>T AND R STATES IN THE CRYSTALS OF BACTERIAL L-LACTATE DEHYDROGENASE REVEAL THE MECHANISM FOR ALLOSTERIC CONTROL</PDB_Title>
+      <PDB_ID>1LTH</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LTH</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00200001</ASD_Ligand>
+      <PubMed_Title>1 - 1LTH : Lactate dehydrogenase creates lactic acid as part of anaerobic respiration. This structure includes two molecules of a bacterial LDH, one in the active state and one in the inactive state.</PubMed_Title>
+      <Author>Iwata, S., et al.</Author>
+      <Journal>Nat.Struct.Biol.(1994)1:176-185</Journal>
+      <PubMed_ID>7656036</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MOLECULAR BASIS OF ALLOSTERIC ACTIVATION OF BACTERIAL L-LACTATE DEHYDROGENASE</PDB_Title>
+      <PDB_ID>1LLD</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LLD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular basis of allosteric activation of bacterial L-lactate dehydrogenase.</PubMed_Title>
+      <Author>Iwata, S., et al.</Author>
+      <Journal>J.Mol.Biol.(1993)230:21-27</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8450537?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1lld</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <PDB_ID>1LTH</PDB_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.1.1.27</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/27.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00200001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-04-08</Create_Date>
+</Organism_Record>

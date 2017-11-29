@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06430000_1</Organism_ID>
+  <Organism>Mycobacterium tuberculosis</Organism>
+  <Organism_Latin>Mycobacterium tuberculosis</Organism_Latin>
+  <UniProt_ID>P9WP48</UniProt_ID>
+  <Seq_Length>119</Seq_Length>
+  <Molecule_Weight>12800</Molecule_Weight>
+  <KEGG_ID>mtc:MT0995</KEGG_ID>
+  <Function_Summary>Copper-sensitive repressor that has a key role in copper homeostasis. It is part of the cso operon involved in the cellular response to increasing concentrations of copper inside the bacterium, which can be highly toxic. In the presence of copper, CsoR fully dissociates from the promoter in the cso operon, leading to the transcription of its genes. Binds to a GC-rich pseudopallindromic sequence, 5'-GTAGCCCACCCCCAGTGGGGTGGGA-3', in the cso promoter region.</Function_Summary>
+  <Pfam_ID>PF02583:Trns_repr_metal</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Copper-sensitive operon repressor</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a silver ion stimulus.</Detail>
+      <Keyword>Response to silver ion</Keyword>
+      <Ontology_ID>GO:0010272</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cellular DNA-dependent transcription.</Detail>
+      <Keyword>Regulation of transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006355</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a copper ion stimulus.</Detail>
+      <Keyword>Response to copper ion</Keyword>
+      <Ontology_ID>GO:0046688</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MSKELTAKKRAALNRLKTVRGHLDGIVRMLESDAYCVDVMKQISAVQSSLERANRVMLHNHLETCFSTAVLDGHGQAAIEELIDAVKFTPALTGPHARLGGAAVGESATEEPMPDASNM</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>csoR</Gene_Name>
+    <Genbank_ACCN>NC_000962</Genbank_ACCN>
+    <Protein_ACCN>NP_215482</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/926391</Gene_URL>
+    <EMBL_ID>EBMYCG00000069057</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of Cu(I) bound CsoR from Mycobacterium tuberculosis.</PDB_Title>
+      <PDB_ID>2HH7</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HH7</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD06432001</ASD_Ligand>
+      <PubMed_Title>CsoR is a novel Mycobacterium tuberculosis copper-sensing transcriptional regulator.</PubMed_Title>
+      <Author>Liu, T., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2007)3:60-68</Journal>
+      <PubMed_ID>17143269</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,36,Cys;site,61,His;site,65,Cys</Site_Detail>
+      <Site_Reference>Liu T, et al. Nat Chem Biol. 2007,3(1):60-68.</Site_Reference>
+      <Site_Type>Allosteric switch</Site_Type>
+      <PDB_ID>2HH7</PDB_ID>
+      <PubMed_ID>17143269</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Allosteric_Pathway>
+    <Pathway>C36@@H61@@C65, Y35@@E81</Pathway>
+    <Method>Mutation, unnatural amino acid incorporation by native chemical ligation, fluorescence anisotropy, Cu(I) X-ray absorption spectroscopy.</Method>
+    <Verified__Residue>Y35, E81, H61</Verified__Residue>
+    <PubMed_Title>Ma Z, et al. J Am Chem Soc. 2009,131(50):18044-18045.</PubMed_Title>
+    <PubMed_ID>19928961</PubMed_ID>
+    <is__ref__img>No</is__ref__img>
+    <is__display>Yes</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD06432001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

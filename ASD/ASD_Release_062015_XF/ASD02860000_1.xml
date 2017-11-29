@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02860000_1</Organism_ID>
+  <Organism>Trypanosoma cruzi</Organism>
+  <Organism_Latin>Trypanosoma cruzi</Organism_Latin>
+  <UniProt_ID>P28593</UniProt_ID>
+  <Seq_Length>492</Seq_Length>
+  <Molecule_Weight>53868</Molecule_Weight>
+  <Function_Summary>Trypanothione is the parasite analog of glutathione; this enzyme is the equivalent of glutathione reductase.</Function_Summary>
+  <Catalytic_Mechanism>Trypanothione + NADP(+) = trypanothione disulfide + NADPH.</Catalytic_Mechanism>
+  <Pfam_ID>PF00070:Pyr_redox@@PF07992:Pyr_redox_2@@PF02852:Pyr_redox_dim</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>11</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>TR</Alias>
+      <Alias>N(1),N(8)-bis(glutathionyl)spermidine reductase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: NADP+ + trypanothione = NADPH + H+ + trypanothione disulfide.</Detail>
+      <Keyword>Trypanothione-disulfide reductase activity</Keyword>
+      <Ontology_ID>GO:0015042</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with FAD, flavin-adenine dinucleotide, the coenzyme or the prosthetic group of various flavoprotein oxidoreductase enzymes, in either the oxidized form, FAD, or the reduced form, FADH2.</Detail>
+      <Keyword>Flavin adenine dinucleotide binding</Keyword>
+      <Ontology_ID>GO:0050660</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of an oxidation-reduction (redox) reaction that interconverts reduced sulfide groups and oxidized disulfide bonds in a substrate.</Detail>
+      <Keyword>Disulfide oxidoreductase activity</Keyword>
+      <Ontology_ID>GO:0015036</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>353</Position>
+      <Original>Asn</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>441</Position>
+      <Original>Val</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>156</Position>
+      <Original>Asn</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>140</Position>
+      <Original>Glu</Original>
+      <Variation>Ala</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>95</Position>
+      <Original>Lys</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that maintains the redox environment of a cell or compartment within a cell.</Detail>
+      <Keyword>Cell redox homeostasis</Keyword>
+      <Ontology_ID>GO:0045454</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MMSKIFDLVVIGAGSGGLEAAWNAATLYKKRVAVIDVQMVHGPPFFSALGGTCVNVGCVPKKLMVTGAQYMEHLRESAGFGWEFDRTTLRAEWKKLIAVKDEAVLNINKSYEEMFRDTEGLEFFLGWGSLESKNVVNVRESADPASAVKERLETENILLASGSWPHMPNIPGIEHCISSNEAFYLPEPPRRVLTVGGGFISVEFAGIFNAYKPKDGQVTLCYRGEMILRGFDHTLREELTKQLTANGIQILTKENPAKVELNADGSKSVTFESGKKMDFDLVMMAIGRSPRTKDLQLQNAGVMIKNGGVQVDEYSRTNVSNIYAIGDVTNRVMLTPVAINEAAALVDTVFGTNPRKTDHTRVASAVFSIPPIGTCGLIEEVASKRYEVVAVYLSSFTPLMHNISGSKYKTFVAKIITNHSDGTVLGVHLLGDNAPEIIQGVGICLKLNAKISDFYNTIGVHPTSAEELCSMRTPSYYYVKGEKMEKPSEASL</Protein_Seq>
+    <DNA_Seq>TTTATTTTTATTTTTATTTTTATTTTTATTTTTGAAACTATATCCAAAACGATTGCTTCCCCCTTACAATATTCCAGAAGAATCATGATGTCAAAAATTTTTGATTTGGTTGTCATTGGCGCCGGCTCGGGCGGACTGGAGGCTGCTTGGAACGCGGCGACACTCTACAAGAAGCGGGTTGCGGTGATTGATGTTCAGATGGTTCACGGGCCCCCGTTTTTTTCTGCTCTAGGCGGCACGTGTGTCAATGTTGGCTGCGTTCCGAAGAAATTGATGGTTACAGGGGCCCAATACATGGAACACCTGCGCGAGTCCGCTGGGTTCGGGTGGGAGTTTGATCGCACCACTCTCAGGGCGGAATGGAAGAAACTTATTGCTGTCAAGGACGAGGCGGTGCTGAATATCAACAAGAGTTATGAGGAGATGTTTCGGGACACGGAGGGTCTGGAGTTTTTTCTGGGCTGGGGATCACTGGAGTCAAAGAATGTCGTCAATGTTCGCGAGAGTGCCGACCCGGCCAGCGCAGTGAAGGAGCGCCTGGAGACGGAGAACATTCTACTTGCCAGTGGTTCGTGGCCGCACATGCCAAACATCCCTGGTATTGAGCATTGCATCAGCAGCAATGAGGCATTTTACCTGCCGGAGCCACCGCGTCGTGTCCTCACTGTCGGCGGAGGTTTCATTTCCGTGGAGTTCGCCGGCATTTTTAACGCCTACAAGCCGAAAGACGGACAAGTGACGTTGTGCTACCGCGGTGAAATGATCCTTCGTGGCTTTGACCACACTCTCCGTGAGGAACTCACAAAGCAGCTCACCGCCAACGGCATTCAAATCCTTACAAAGGAAAATCCGGCCAAGGTGGAGTTGAACGCGGATGGCAGCAAAAGTGTTACTTTCGAGAGCGGCAAAAAGATGGACTTTGATCTTGTCATGATGGCGATTGGCCGTTCTCCCCGAACAAAGGATTTACAGCTGCAAAACGCCGGCGTCATGATCAAGAACGGTGGTGTGCAGGTGGACGAGTACTCGCGCACGAATGTTTCCAACATTTACGCCATCGGTGACGTCACAAATCGTGTCATGTTGACACCCGTTGCCATAAATGAAGCCGCTGCCCTTGTGGATACCGTCTTTGGTACCAATCCGCGAAAGACGGACCACACCCGTGTGGCGAGTGCCGTCTTCTCTATTCCTCCAATTGGTACCTGCGGTCTCATTGAAGAGGTTGCATCCAAGCGCTACGAGGTGGTGGCGGTATACCTTTCCAGCTTTACCCCGCTCATGCACAACATCAGCGGATCAAAGTATAAGACTTTTGTTGCAAAGATAATTACCAACCACTCCGATGGCACTGTGCTTGGTGTACATCTTCTTGGGGACAATGCCCCAGAAATCATCCAAGGTGTTGGTATCTGTCTCAAGTTAAATGCCAAAATATCCGACTTCTACAACACTATTGGTGTGCATCCCACAAGTGCGGAGGAGCTGTGCTCCATGCGCACTCCTTCTTACTACTATGTTAAAGGTGAGAAGATGGAAAAGCCTTCAGAGGCATCTCTGTAAGGAAAGAGGATGAATCCGTAAAAGGGAGAACCTGAAAGGAAGCAAAACTGCCTTTTGTAATTATTTAATTAAGAACAATGAAAAGCAAAAAGGAAAAACGAAAACTAAGAGCAGAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>TPR</Gene_Name>
+    <Genbank_ACCN>M38051</Genbank_ACCN>
+    <Protein_ACCN>AAA63547</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3531726</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF TRYPANOSOMA CRUZI TRYPANOTHIONE REDUCTASE IN COMPLEX WITH TRYPANOTHIONE, AND THE STRUCTURE-BASED DISCOVERY OF NEW NATURAL PRODUCT INHIBITORS</PDB_Title>
+      <PDB_ID>1BZL</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BZL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>FLAVIN-ADENINE DINUCLEOTIDE, BIS(GAMMA-GLUTAMYL-CYSTEINYL-GLYCINYL)SPERMIDINE</Ligand_Name>
+      <PubMed_Title>Crystal structure of Trypanosoma cruzi trypanothione reductase in complex with trypanothione, and the structure-based discovery of new natural product inhibitors.</PubMed_Title>
+      <Author>Bond CS, et al.</Author>
+      <Journal>(1999) Structure Fold.Des. 7: 81-89</Journal>
+      <PubMed_ID>10368274</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPANOSOMA CRUZI TRYPANOTHIONE REDUCTASE (OXIDIZED FORM)</PDB_Title>
+      <PDB_ID>1AOG</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1AOG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>FLAVIN-ADENINE DINUCLEOTIDE, MALEIC ACID</Ligand_Name>
+      <PubMed_Title>The crystal structure of trypanothione reductase from the human pathogen Trypanosoma cruzi at 2.3 A resolution.</PubMed_Title>
+      <Author>Zhang Y, et al.</Author>
+      <Journal>(1996) Protein Sci. 5: 52-61</Journal>
+      <PubMed_ID>8771196</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF TRYPANOSOMA CRUZI TRYPANOTHIONE REDUCTASE IN THE OXIDIZED AND NADPH REDUCED STATE</PDB_Title>
+      <PDB_ID>1NDA</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NDA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>FLAVIN-ADENINE DINUCLEOTIDE</Ligand_Name>
+      <PubMed_Title>The structure of Trypanosoma cruzi trypanothione reductase in the oxidized and NADPH reduced state.</PubMed_Title>
+      <Author>Lantwin CB, et al.</Author>
+      <Journal>(1994) Proteins 18: 161-173</Journal>
+      <PubMed_ID>8159665</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF TRYPANOSOMA CRUZI TRYPANOTHIONE REDUCTASE IN COMPLEX WITH THE INHIBITOR QUINACRINE MUSTARD</PDB_Title>
+      <PDB_ID>1GXF</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GXF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>FLAVIN-ADENINE DINUCLEOTIDE, MALEIC ACID, QUINACRINE MUSTARD</Ligand_Name>
+      <PubMed_Title>Two interacting binding sites for quinacrine derivatives in the active site of trypanothione reductase: a template for drug design.</PubMed_Title>
+      <Author>Saravanamuthu A, et al.</Author>
+      <Journal>(2004) J.Biol.Chem. 279: 29493</Journal>
+      <PubMed_ID>15102853</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.d.b.f.f.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1gxf</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.8.1.12</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/12.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02860001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02860002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02860003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02860004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02860005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02860006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02860007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02860008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02860009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02860010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02860011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

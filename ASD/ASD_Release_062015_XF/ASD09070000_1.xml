@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD09070000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P00962</UniProt_ID>
+  <Seq_Length>554</Seq_Length>
+  <Molecule_Weight>63478</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0659</KEGG_ID>
+  <Orthology_ID>K01886</Orthology_ID>
+  <Catalytic_Mechanism>ATP + L-glutamine + tRNA(Gln) = AMP + diphosphate + L-glutaminyl-tRNA(Gln).</Catalytic_Mechanism>
+  <Pfam_ID>PF00749:tRNA-synt_1c@@PF03950:tRNA-synt_1c_C</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Glutaminyl-tRNA synthetase</Alias>
+      <Alias>GlnRS</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the formation of aminoacyl-tRNA from ATP, amino acid, and tRNA with the release of diphosphate and AMP.</Detail>
+      <Keyword>Aminoacyl-tRNA ligase activity</Keyword>
+      <Ontology_ID>GO:0004812</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + L-glutamine + tRNA(Gln) = AMP + diphosphate + L-glutaminyl-tRNA(Gln).</Detail>
+      <Keyword>Glutamine-tRNA ligase activity</Keyword>
+      <Ontology_ID>GO:0004819</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA. Translation ends with the release of a polypeptide chain from the ribosome.</Detail>
+      <Keyword>Translation</Keyword>
+      <Ontology_ID>GO:0006412</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of coupling glutamine to glutaminyl-tRNA, catalyzed by glutaminyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'- adenosine residue of the tRNA.</Detail>
+      <Keyword>Glutaminyl-tRNA aminoacylation</Keyword>
+      <Ontology_ID>GO:0006425</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSEAEARPTNFIRQIIDEDLASGKHTTVHTRFPPEPNGYLHIGHAKSICLNFGIAQDYKGQCNLRFDDTNPVKEDIEYVESIKNDVEWLGFHWSGNVRYSSDYFDQLHAYAIELINKGLAYVDELTPEQIREYRGTLTQPGKNSPYRDRSVEENLALFEKMRAGGFEEGKACLRAKIDMASPFIVMRDPVLYRIKFAEHHQTGNKWCIYPMYDFTHCISDALEGITHSLCTLEFQDNRRLYDWVLDNITIPVHPRQYEFSRLNLEYTVMSKRKLNLLVTDKHVEGWDDPRMPTISGLRRRGYTAASIREFCKRIGVTKQDNTIEMASLESCIREDLNENAPRAMAVIDPVKLVIENYQGEGEMVTMPNHPNKPEMGSRQVPFSGEIWIDRADFREEANKQYKRLVLGKEVRLRNAYVIKAERVEKDAEGNITTIFCTYDADTLSKDPADGRKVKGVIHWVSAAHALPVEIRLYDRLFSVPNPGAADDFLSVINPESLVIKQGFAEPSLKDAVAGKAFQFEREGYFCLDSRHSTAEKPVFNRTVGLRDTWAKVGE</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>glnS</Gene_Name>
+    <Gene_ID>12932213</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_415206</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/945310</Gene_URL>
+    <EMBL_ID>EBESCG00000017012</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>GLUTAMINYL-TRNA SYNTHETASE MUTANT I129T COMPLEXED WITH GLUTAMINE TRANSFER RNA</PDB_Title>
+      <PDB_ID>1QRU</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QRU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of three misacylating mutants of Escherichia coli glutaminyl-tRNA synthetase complexed with tRNA(Gln) and ATP.</PubMed_Title>
+      <Author>Arnez, J.G., et al.</Author>
+      <Journal>Biochemistry(1996)35:14725-14733</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8942633?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>GLUTAMINYL-TRNA SYNTHETASE MUTANT D235G COMPLEXED WITH GLUTAMINE TRANSFER RNA</PDB_Title>
+      <PDB_ID>1QRT</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QRT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of three misacylating mutants of Escherichia coli glutaminyl-tRNA synthetase complexed with tRNA(Gln) and ATP.</PubMed_Title>
+      <Author>Arnez, J.G., et al.</Author>
+      <Journal>Biochemistry(1996)35:14725-14733</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8942633?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glutaminyl-tRNA synthetase mutant C229R with bound analog 5'-O-[N-(L-GLUTAMYL)-SULFAMOYL]ADENOSINE</PDB_Title>
+      <PDB_ID>2RE8</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2RE8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A rationally engineered misacylating aminoacyl-tRNA synthetase.</PubMed_Title>
+      <Author>Bullock, T.L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2008)105:7428-7433</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18477696?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS OF ANTICODON LOOP RECOGNITION BY GLUTAMINYL-TRNA SYNTHETASE</PDB_Title>
+      <PDB_ID>1GTR</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GTR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of anticodon loop recognition by glutaminyl-tRNA synthetase.</PubMed_Title>
+      <Author>Rould, M.A., et al.</Author>
+      <Journal>Nature(1991)352:213-218</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1857417?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Unliganded glutaminyl-tRNA synthetase</PDB_Title>
+      <PDB_ID>1NYL</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NYL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>tRNA-Dependent Active Site Assembly in a Class I Aminoacyl-tRNA Synthetase.</PubMed_Title>
+      <Author>Sherlin, L.D., et al.</Author>
+      <Journal>Structure(2003)11:591-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12737824?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>GLUTAMINYL-TRNA SYNTHETASE MUTANT D235N COMPLEXED WITH GLUTAMINE TRANSFER RNA</PDB_Title>
+      <PDB_ID>1QRS</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QRS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of three misacylating mutants of Escherichia coli glutaminyl-tRNA synthetase complexed with tRNA(Gln) and ATP.</PubMed_Title>
+      <Author>Arnez, J.G., et al.</Author>
+      <Journal>Biochemistry(1996)35:14725-14733</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8942633?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF GLUTAMINYL-TRNA SYNTHETASE COMPLEXED WITH A TRNA-GLN MUTANT AND AN ACTIVE-SITE INHIBITOR</PDB_Title>
+      <PDB_ID>1EUQ</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EUQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Influence of transfer RNA tertiary structure on aminoacylation efficiency by glutaminyl and cysteinyl-tRNA synthetases.</PubMed_Title>
+      <Author>Sherlin, L.D., et al.</Author>
+      <Journal>J.Mol.Biol.(2000)299:431-446</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10860750?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>GLUTAMINYL-TRNA SYNTHETASE COMPLEXED WITH A TRNA MUTANT AND AN ACTIVE SITE INHIBITOR</PDB_Title>
+      <PDB_ID>1EUY</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EUY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Influence of transfer RNA tertiary structure on aminoacylation efficiency by glutaminyl and cysteinyl-tRNA synthetases.</PubMed_Title>
+      <Author>Sherlin, L.D., et al.</Author>
+      <Journal>J.Mol.Biol.(2000)299:431-446</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10860750?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glutaminyl-tRNA synthetase mutant C229R with bound analog 5'-O-[N-(L-GLUTAMINYL)-SULFAMOYL]ADENOSINE</PDB_Title>
+      <PDB_ID>2RD2</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2RD2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A rationally engineered misacylating aminoacyl-tRNA synthetase.</PubMed_Title>
+      <Author>Bullock, T.L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2008)105:7428-7433</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18477696?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF A TIGHT-BINDING GLUTAMINE TRNA BOUND TO GLUTAMINE AMINOACYL TRNA SYNTHETASE</PDB_Title>
+      <PDB_ID>1EXD</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EXD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Tertiary core rearrangements in a tight binding transfer RNA aptamer.</PubMed_Title>
+      <Author>Bullock, T.L., et al.</Author>
+      <Journal>Nat.Struct.Biol.(2000)7:497-504</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10881199?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of E.coli glutaminyl-tRNA synthetase complexed with trnagln and ATP at 2.8 Angstroms resolution</PDB_Title>
+      <PDB_ID>1GSG</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GSG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of E. coli glutaminyl-tRNA synthetase complexed with tRNA(Gln) and ATP at 2.8 A resolution.</PubMed_Title>
+      <Author>Rould, M.A., et al.</Author>
+      <Journal>Science(1989)246:1135-1142</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/2479982?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glutaminyl-tRNA synthetase complexed to glutamine and 2'deoxy A76 glutamine tRNA</PDB_Title>
+      <PDB_ID>1ZJW</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZJW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>tRNA-dependent Aminoacyl-adenylate Hydrolysis by a Nonediting Class I Aminoacyl-tRNA Synthetase.</PubMed_Title>
+      <Author>Gruic-Sovulj, I., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:23978-23986</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15845536?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR TRANSFER RNA AMINOACEYLATION BY ESCHERICHIA COLI GLUTAMINYL-TRNA SYNTHETASE</PDB_Title>
+      <PDB_ID>1GTS</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GTS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for transfer RNA aminoacylation by Escherichia coli glutaminyl-tRNA synthetase.</PubMed_Title>
+      <Author>Perona, J.J., et al.</Author>
+      <Journal>Biochemistry(1993)32:8758-8771</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8364025?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF L-GLUTAMATE AND AMPCPP BOUND TO GLUTAMINE AMINOACYL TRNA SYNTHETASE</PDB_Title>
+      <PDB_ID>1O0C</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1O0C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Amino Acid Discrimination by a class I aminoacyl-tRNA synthetase   specified by negative determinants</PubMed_Title>
+      <Author>Bullock, T.L., et al.</Author>
+      <Journal>J.Mol.Biol.(2003)328:395-408</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12691748?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>GLUTAMINYL-TRNA SYNTHETASE COMPLEXED WITH TRNA AND AN AMINO ACID ANALOG</PDB_Title>
+      <PDB_ID>1QTQ</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QTQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>How glutaminyl-tRNA synthetase selects glutamine.</PubMed_Title>
+      <Author>Rath, V.L., et al.</Author>
+      <Journal>Structure(1998)6:439-449</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9562563?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF L-GLUTAMINE AND AMPCPP BOUND TO GLUTAMINE AMINOACYL TRNA SYNTHETASE</PDB_Title>
+      <PDB_ID>1O0B</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1O0B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Amino Acid Discrimination by a class I aminoacyl-tRNA synthetase   specified by negative determinants</PubMed_Title>
+      <Author>Bullock, T.L., et al.</Author>
+      <Journal>J.Mol.Biol.(2003)328:395-408</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12691748?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00970</Pathway_ID>
+      <Pathway_Title>Aminoacyl-tRNA biosynthesis</Pathway_Title>
+      <Pathway_Class>Genetic Information Processing</Pathway_Class>
+      <Pathway_Subclass>Translation</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.da.b.b.i.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1euq</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>RNA-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.1.1.18</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/1/1/18.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

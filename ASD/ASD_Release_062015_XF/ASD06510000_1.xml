@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06510000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P03024</UniProt_ID>
+  <Seq_Length>343</Seq_Length>
+  <Molecule_Weight>37094</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p2771</KEGG_ID>
+  <Orthology_ID>K02529</Orthology_ID>
+  <Function_Summary>Repressor of the galactose operon. Binds galactose as an inducer.</Function_Summary>
+  <Pfam_ID>PF00356:LacI</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Galactose operon repressor</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a specific DNA sequence in order to modulate transcription. The transcription factor may or may not also interact selectively with a protein or macromolecular complex.</Detail>
+      <Keyword>Sequence-specific DNA binding transcription factor activity</Keyword>
+      <Ontology_ID>GO:0003700</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving carbohydrates, any of a group of organic compounds based of the general formula Cx(H2O)y. Includes the formation of carbohydrate derivatives by the addition of a carbohydrate residue to another molecule.</Detail>
+      <Keyword>Carbohydrate metabolic process</Keyword>
+      <Ontology_ID>GO:0005975</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving galactose, the aldohexose galacto-hexose. D-galactose is widely distributed in combined form in plants, animals and microorganisms as a constituent of oligo- and polysaccharides; it also occurs in galactolipids and as its glucoside in lactose and melibiose.</Detail>
+      <Keyword>Galactose metabolic process</Keyword>
+      <Ontology_ID>GO:0006012</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MATIKDVARLAGVSVATVSRVINNSPKASEASRLAVHSAMESLSYHPNANARALAQQTTETVGLVVGDVSDPFFGAMVKAVEQVAYHTGNFLLIGNGYHNEQKERQAIEQLIRHRCAALVVHAKMIPDADLASLMKQMPGMVLINRILPGFENRCIALDDRYGAWLATRHLIQQGHTRIGYLCSNHSISDAEDRLQGYYDALAESGIAANDRLVTFGEPDESGGEQAMTELLGRGRNFTAVACYNDSMAAGAMGVLNDNGIDVPGEISLIGFDDVLVSRYVRPRLTTVRYPIVTMATQAAELALALADNRPLPEITNVFSPTLVRRHSVSTPSLEASHHATSD</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Intracellular</CellLocal>
+      <Ontology_ID>GO:0005622</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>galR</Gene_Name>
+    <Gene_ID>12933970</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_417314</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947314</Gene_URL>
+    <EMBL_ID>EBESCG00000016448</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of HTH-type transcriptional regulator galR</PDB_Title>
+      <PDB_ID>ASD06510000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD06510001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

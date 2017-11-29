@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01600000_2</Organism_ID>
+  <Organism>Thermotoga maritima</Organism>
+  <Organism_Latin>Thermotoga maritima</Organism_Latin>
+  <UniProt_ID>Q9X0C6</UniProt_ID>
+  <Seq_Length>253</Seq_Length>
+  <Molecule_Weight>27719</Molecule_Weight>
+  <KEGG_ID>tma:TM1036</KEGG_ID>
+  <Orthology_ID>K02500</Orthology_ID>
+  <Function_Summary>IGPS catalyzes the conversion of PRFAR and glutamine to IGP, AICAR and glutamate. The HisF subunit catalyzes the cyclization activity that produces IGP and AICAR from PRFAR using the ammonia provided by the HisH subunit.</Function_Summary>
+  <Catalytic_Mechanism>5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide + L-glutamine = imidazole-glycerol phosphate + 5-aminoimidazol-4-carboxamide ribonucleotide + L-glutamate + H(2)O.</Catalytic_Mechanism>
+  <Pfam_ID>PF00977:His_biosynth</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Imidazole glycerol phosphate synthase subunit hisF</Alias>
+      <Alias>IGP synthase cyclase subunit</Alias>
+      <Alias>IGP synthase subunit hisF</Alias>
+      <Alias>IGPS subunit hisF</Alias>
+      <Alias>ImGP synthase subunit hisF</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: phosphoribulosylformimino-AICAR-P + L-glutamine = D-erythro-imidazole-glycerol-phosphate + aminoimidazole carboxamide ribonucleotide + L-glutamate + 2 H+.</Detail>
+      <Keyword>Imidazoleglycerol-phosphate synthase activity</Keyword>
+      <Ontology_ID>GO:0000107</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of histidine, 2-amino-3-(1H-imidazol-4-yl)propanoic acid.</Detail>
+      <Keyword>Histidine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0000105</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MLAKRIIACLDVKDGRVVKGTNFENLRDSGDPVELGKFYSEIGIDELVFLDITASVEKRKTMLELVEKVAEQIDIPFTVGGGIHDFETASELILRGADKVSINTAAVENPSLITQIAQTFGSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLAGADAALAASVFHFREIDVRELKEYLKKHGVNVRLEGL</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>hisF</Gene_Name>
+    <Gene_ID>897046</Gene_ID>
+    <Genbank_ACCN>NC_000853</Genbank_ACCN>
+    <Protein_ACCN>NP_228842</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/897046</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CYCLASE SUBUNIT OF IMIDAZOLEGLYCEROLPHOSPHATE SYNTHASE FROM THERMOTOGA MARITIMA</PDB_Title>
+      <PDB_ID>1THF</PDB_ID>
+      <Resolution>1.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1THF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Structural evidence for evolution of the beta/alpha barrel scaffold by gene duplication and fusion.</PubMed_Title>
+      <Author>Lang D, et al.</Author>
+      <Journal>Science.2000 Sep 1;289(5484):1546-50.</Journal>
+      <PubMed_ID>10968789</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL EVIDENCE FOR AMMONIA TUNNELING ACROSS THE (BETA/ALPHA)8 BARREL OF THE IMIDAZOLE GLYCEROL PHOSPHATE SYNTHASE BIENZYME COMPLEX.</PDB_Title>
+      <PDB_ID>1GPW</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GPW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Structural Evidence for Ammonia Tunneling Across the (Beta Alpha)(8) Barrel of the Imidazole Glycerol Phosphate Synthase Bienzyme Complex.</PubMed_Title>
+      <Author>Douangamath A, et al.</Author>
+      <Journal>Structure.2002 Feb;10(2):185-93.</Journal>
+      <PubMed_ID>11839304</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF AN ARTIFICIAL (BA)8-BARREL PROTEIN DESIGNED FROM IDENTICAL HALF BARRELS</PDB_Title>
+      <PDB_ID>2W6R</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2W6R</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>High Resolution Crystal Structure of an Artificial (Ba)8-Barrel Protein Designed from Identical Half Barrels</PubMed_Title>
+      <Author>Hocker B, et al.</Author>
+      <Journal>Biochemistry. 2009 Feb 17;48(6):1145-7.</Journal>
+      <PubMed_ID>19166324</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>A beta/alpha-barrel built by the combination of fragments from different folds</PDB_Title>
+      <PDB_ID>3CWO</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CWO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>SULFATE ION</Ligand_Name>
+      <PubMed_Title>A beta alpha-barrel built by the combination of fragments from different folds.</PubMed_Title>
+      <Author>Bharat TA, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2008 Jul 22;105(29):9942-7. Epub  2008 Jul 15.</Journal>
+      <PubMed_ID>18632584</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Imidazole glycerol phosphate synthase subunit hisF (EC 4.1.3.-) (tm1036) from Thermotoga maritima at 1.64 A resolution</PDB_Title>
+      <PDB_ID>2A0N</PDB_ID>
+      <Resolution>1.64</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2A0N</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>IODIDE ION $PHOSPHATE ION $Unknown ligand</Ligand_Name>
+      <PubMed_Title>Crystal structure of Imidazole glycerol phosphate synthase subunit hisF (EC 4.1.3.-) (tm1036) from Thermotoga maritima at 1.64 A resolution</PubMed_Title>
+      <Author>Joint Center for Structural Genomics (JCSG)</Author>
+      <Journal>To be published</Journal>
+      <PubMed_ID>Not in PubMed</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a cyclase subunit of imidazolglycerolphosphate synthase</PDB_Title>
+      <PDB_ID>1VH7</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VH7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Structural analysis of a set of proteins resulting from a bacterial genomics project</PubMed_Title>
+      <Author>Badger J, et al.</Author>
+      <Journal>Proteins.2005 Sep 1;60(4):787-96.</Journal>
+      <PubMed_ID>16021622</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00340</Pathway_ID>
+      <Pathway_Title>Histidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00340</Pathway_ID>
+      <Pathway_Title>Histidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.b.c.b.d.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1gpw</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,11,Asp;site,176,Asp;site,130,Asp;site,144,Ser;site,225,Ser;site,201,Ser;site,104,Thr;site,19,Lys</Site_Detail>
+      <Site_Reference>Amaro RE, et al. Biochemistry. 2007,46(8):2156-2173.;Lipchock J, et al. J.Biomol.NMR. 2009,45(1-2):73-84.</Site_Reference>
+      <Site_Type>Koshland-Nemethy-Filmer model (KNF model)</Site_Type>
+      <PubMed_ID>17261030;19565337</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Allosteric_Pathway>
+    <Method>Molecular dynamics simulations, community network analysis, NMR. </Method>
+    <Verified__Residue>V48, L50</Verified__Residue>
+    <PubMed_Title>Rivalta I, et al. Proc Natl Acad Sci U S A. 2012,109(22):E1428-1436.</PubMed_Title>
+    <PubMed_ID>22586084</PubMed_ID>
+    <is__ref__img>Yes</is__ref__img>
+    <is__display>No</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.4.2.-@@4.1.3.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/4/2/</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01600001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

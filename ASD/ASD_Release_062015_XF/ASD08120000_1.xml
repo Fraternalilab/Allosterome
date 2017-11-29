@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08120000_1</Organism_ID>
+  <Organism>Bacillus anthracis</Organism>
+  <Organism_Latin>Bacillus anthracis</Organism_Latin>
+  <UniProt_ID>P40136</UniProt_ID>
+  <Seq_Length>800</Seq_Length>
+  <Molecule_Weight>92478</Molecule_Weight>
+  <KEGG_ID>bar:GBAA_pXO1_0142</KEGG_ID>
+  <Orthology_ID>K11029</Orthology_ID>
+  <EBI_ID>EBI-457011</EBI_ID>
+  <Function_Summary>One of the three proteins composing the anthrax toxin, the agent which infects many mammalian species and that may cause death. EF is a calmodulin-dependent adenylyl cyclase that, when associated with PA, causes edema. EF is not toxic by itself and it is required for the survival of germinated spores within macrophages at the early stages of infection. Provokes dramatic elevation of intracellular cAMP levels in the host.</Function_Summary>
+  <Catalytic_Mechanism>ATP = 3',5'-cyclic AMP + diphosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF03497:Anthrax_toxA@@PF07737:ATLF</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>EF</Alias>
+      <Alias>Adenylyl cyclase</Alias>
+      <Alias>Anthrax edema toxin adenylate cyclase component</Alias>
+      <Alias>ATP pyrophosphate-lyase</Alias>
+      <Alias>Edema factor</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with calmodulin, a calcium-binding protein with many roles, both in the calcium-bound and calcium-free states.</Detail>
+      <Keyword>Calmodulin binding</Keyword>
+      <Ontology_ID>GO:0005516</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP = 3',5'-cyclic AMP + diphosphate, stimulated by calcium-bound calmodulin.</Detail>
+      <Keyword>Calcium- and calmodulin-responsive adenylate cyclase activity</Keyword>
+      <Ontology_ID>GO:0008294</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of the nucleotide cAMP (cyclic AMP, adenosine 3',5'-cyclophosphate).</Detail>
+      <Keyword>CAMP biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006171</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The set of specific processes that generate the ability of an organism to cause disease in another.</Detail>
+      <Keyword>Pathogenesis</Keyword>
+      <Ontology_ID>GO:0009405</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTRNKFIPNKFSIISFSVLLFAISSSQAIEVNAMNEHYTESDIKRNHKTEKNKTEKEKFKDSINNLVKTEFTNETLDKIQQTQDLLKKIPKDVLEIYSELGGEIYFTDIDLVEHKELQDLSEEEKNSMNSRGEKVPFASRFVFEKKRETPKLIINIKDYAINSEQSKEVYYEIGKGISLDIISKDKSLDPEFLNLIKSLSDDSDSSDLLFSQKFKEKLELNNKSIDINFIKENLTEFQHAFSLAFSYYFAPDHRTVLELYAPDMFEYMNKLEKGGFEKISESLKKEGVEKDRIDVLKGEKALKASGLVPEHADAFKKIARELNTYILFRPVNKLATNLIKSGVATKGLNVHGKSSDWGPVAGYIPFDQDLSKKHGQQLAVEKGNLENKKSITEHEGEIGKIPLKLDHLRIEELKENGIILKGKKEIDNGKKYYLLESNNQVYEFRISDENNEVQYKTKEGKITVLGEKFNWRNIEVMAKNVEGVLKPLTADYDLFALAPSLTEIKKQIPQKEWDKVVNTPNSLEKQKGVTNLLIKYGIERKPDSTKGTLSNWQKQMLDRLNEAVKYTGYTGGDVVNHGTEQDNEEFPEKDNEIFIINPEGEFILTKNWEMTGRFIEKNITGKDYLYYFNRSYNKIAPGNKAYIEWTDPITKAKINTIPTSAEFIKNLSSIRRSSNVGVYKDSGDKDEFAKKESVKKIAGYLSDYYNSANHIFSQEKKRKISIFRGIQAYNEIENVLKSKQIAPEYKNYFQYLKERITNQVQLLLTHQKSNIEFKLLYKQLNFTENETDNFEVFQKIIDEK</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular region</CellLocal>
+      <Ontology_ID>GO:0005576</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Secreted</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>cya</Gene_Name>
+    <Gene_ID>1158701</Gene_ID>
+    <Genbank_ACCN>NC_001496</Genbank_ACCN>
+    <Protein_ACCN>NP_052818</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3361726</Gene_URL>
+    <EMBL_ID>EBBACG00000019097</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P62155</Uniprot_ID>
+      <Gene_Name>calm2</Gene_Name>
+      <EBI_ID>EBI-397568</EBI_ID>
+      <PPI_EBI_URL>EBI-457011,EBI-397568</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P62158</Uniprot_ID>
+      <Gene_Name>CALM3</Gene_Name>
+      <EBI_ID>EBI-397435</EBI_ID>
+      <PPI_EBI_URL>EBI-457011,EBI-397435</PPI_EBI_URL>
+      <Experiment_Number>8</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of anthrax edema factor (EF) in complex with calmodulin and pyrophosphate</PDB_Title>
+      <PDB_ID>1Y0V</PDB_ID>
+      <Resolution>3.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Y0V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Calcium-independent calmodulin binding and two-metal-ion catalytic mechanism of anthrax edema factor</PubMed_Title>
+      <Author>Shen, Y., et al.</Author>
+      <Journal>Embo J.(2005)24:929-941</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15719022?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the adenylyl cyclase domain of anthrax edema factor (EF) in complex with calmodulin and 2' deoxy, 3' anthraniloyl ATP</PDB_Title>
+      <PDB_ID>1LVC</PDB_ID>
+      <Resolution>3.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LVC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Physiological calcium concentrations regulate calmodulin binding and catalysis of adenylyl cyclase exotoxins</PubMed_Title>
+      <Author>Shen, Y., et al.</Author>
+      <Journal>Embo J.(2002)21:6721-6732</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12485993?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of anthrax edema factor (EF) truncation mutant, EF-delta 64 in complex with calmodulin</PDB_Title>
+      <PDB_ID>1XFU</PDB_ID>
+      <Resolution>3.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XFU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Calcium-independent calmodulin binding and two-metal-ion catalytic mechanism of anthrax edema factor.</PubMed_Title>
+      <Author>Shen, Y., et al.</Author>
+      <Journal>EMBO J.(2005)24:929-941</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15719022?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of anthrax edema factor (EF) in complex with calmodulin in the presence of 10 millimolar exogenously added calcium chloride</PDB_Title>
+      <PDB_ID>1XFX</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XFX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Calcium-independent calmodulin binding and two-metal-ion catalytic mechanism of anthrax edema factor.</PubMed_Title>
+      <Author>Shen, Y., et al.</Author>
+      <Journal>EMBO J.(2005)24:929-941</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15719022?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the adenylyl cyclase domain of anthrax edema factor (EF) in complex with calmodulin and 3' deoxy-ATP</PDB_Title>
+      <PDB_ID>1K90</PDB_ID>
+      <Resolution>2.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K90</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the activation of anthrax adenylyl cyclase exotoxin by calmodulin.</PubMed_Title>
+      <Author>Drum, C.L., et al.</Author>
+      <Journal>Nature(2002)415:396-402</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11807546?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of anthrax edema factor (EF) in complex with calmodulin</PDB_Title>
+      <PDB_ID>1XFY</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XFY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Calcium-independent calmodulin binding and two-metal-ion catalytic mechanism of anthrax edema factor.</PubMed_Title>
+      <Author>Shen, Y., et al.</Author>
+      <Journal>EMBO J.(2005)24:929-941</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15719022?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of anthrax edema factor (EF) in complex with calmodulin and 3'5' cyclic AMP (cAMP)</PDB_Title>
+      <PDB_ID>1XFW</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XFW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Calcium-independent calmodulin binding and two-metal-ion catalytic mechanism of anthrax edema factor.</PubMed_Title>
+      <Author>Shen, Y., et al.</Author>
+      <Journal>EMBO J.(2005)24:929-941</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15719022?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of Anthrax Edema Factor-Calmodulin-alpha,beta-methyleneadenosine 5'-triphosphate Complex Reveals an Alternative Mode of ATP Binding to the Catalytic Site</PDB_Title>
+      <PDB_ID>1S26</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S26</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of anthrax edema factor-calmodulin-adenosine-5'-(alpha,beta-methylene)-triphosphate complex reveals an alternative mode of ATP binding to the catalytic site</PubMed_Title>
+      <Author>Shen, Y., et al.</Author>
+      <Journal>Biochem.Biophys.Res.Commun.(2004)317:309-314</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15063758?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of anthrax edema factor (EF) in complex with calmodulin in the presence of 1 millimolar exogenously added calcium chloride</PDB_Title>
+      <PDB_ID>1XFZ</PDB_ID>
+      <Resolution>3.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XFZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Calcium-independent calmodulin binding and two-metal-ion catalytic mechanism of anthrax edema factor.</PubMed_Title>
+      <Author>Shen, Y., et al.</Author>
+      <Journal>EMBO J.(2005)24:929-941</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15719022?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the adenylyl cyclase domain of anthrax edema factor (EF) in complex with calmodulin, 3',5' cyclic AMP (cAMP), and pyrophosphate</PDB_Title>
+      <PDB_ID>1SK6</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SK6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and kinetic analyses of the interaction of anthrax adenylyl cyclase toxin with reaction products cAMP and pyrophosphate.</PubMed_Title>
+      <Author>Guo, Q., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:29427-29435</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15131111?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the adenylyl cyclase domain of anthrax edema factor (EF)</PDB_Title>
+      <PDB_ID>1K8T</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K8T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the activation of anthrax adenylyl cyclase exotoxin by calmodulin</PubMed_Title>
+      <Author>Drum, C.L., et al.</Author>
+      <Journal>Nature(2002)415:396-402</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11807546?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the adenylyl cyclase domain of anthrax edema factor (EF) in complex with calmodulin</PDB_Title>
+      <PDB_ID>1K93</PDB_ID>
+      <Resolution>2.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K93</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the activation of anthrax adenylyl cyclase exotoxin by calmodulin.</PubMed_Title>
+      <Author>Drum, C.L., et al.</Author>
+      <Journal>Nature(2002)415:396-402</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11807546?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of anthrax edema factor (EF) in complex with calmodulin and 3' deoxy-ATP</PDB_Title>
+      <PDB_ID>1XFV</PDB_ID>
+      <Resolution>3.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XFV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Calcium-independent calmodulin binding and two-metal-ion catalytic mechanism of anthrax edema factor.</PubMed_Title>
+      <Author>Shen, Q., et al.</Author>
+      <Journal>EMBO J.(2005)24:929-941</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15719022?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the EF3-CaM complexed with PMEApp</PDB_Title>
+      <PDB_ID>1PK0</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PK0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Selective inhibition of anthrax edema factor by adefovir, a drug for chronic hepatitis B virus infection.</PubMed_Title>
+      <Author>Shen, Y., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2004)101:3242-3247</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14978283?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05133</Pathway_ID>
+      <Pathway_Title>Pertussis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05133</Pathway_ID>
+      <Pathway_Title>Pertussis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>All alpha proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.b.ff.b.g.bg.html</SCOP_URL>
+    <CATH_Class>Class 1: Mainly Alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1k90</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.6.1.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/6/1/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD08120001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08120002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

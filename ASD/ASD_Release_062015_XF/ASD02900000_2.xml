@@ -1,0 +1,824 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02900000_2</Organism_ID>
+  <Organism>Salmonella typhimurium</Organism>
+  <Organism_Latin>Salmonella typhimurium</Organism_Latin>
+  <UniProt_ID>P0A2K1</UniProt_ID>
+  <Seq_Length>397</Seq_Length>
+  <Molecule_Weight>42868</Molecule_Weight>
+  <KEGG_ID>stm:STM1726</KEGG_ID>
+  <Orthology_ID>K01696</Orthology_ID>
+  <EBI_ID>EBI-1028431</EBI_ID>
+  <Function_Summary>The beta subunit is responsible for the synthesis of L-tryptophan from indole and L-serine.</Function_Summary>
+  <Catalytic_Mechanism>L-serine + 1-C-(indol-3-yl)glycerol 3-phosphate = L-tryptophan + glyceraldehyde 3-phosphate + H(2)O.</Catalytic_Mechanism>
+  <Pfam_ID>PF00291:PALP</Pfam_ID>
+  <Allosteric_Activator_Count>7</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>8</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>7</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Tryptophan synthase beta chain</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-serine + 1-(indol-3-yl)glycerol 3-phosphate = L-tryptophan + glyceraldehyde 3-phosphate + H2O.</Detail>
+      <Keyword>Tryptophan synthase activity</Keyword>
+      <Ontology_ID>GO:0004834</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with pyridoxal 5' phosphate, 3-hydroxy-5-(hydroxymethyl)-2-methyl4-pyridine carboxaldehyde 5' phosphate, the biologically active form of vitamin B6.</Detail>
+      <Keyword>Pyridoxal phosphate binding</Keyword>
+      <Ontology_ID>GO:0030170</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of tryptophan, the chiral amino acid 2-amino-3-(1H-indol-3-yl)propanoic acid; tryptophan is synthesized from chorismate via anthranilate.</Detail>
+      <Keyword>Tryptophan biosynthetic process</Keyword>
+      <Ontology_ID>GO:0000162</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of aromatic amino acid family, amino acids with aromatic ring (phenylalanine, tyrosine, tryptophan).</Detail>
+      <Keyword>Aromatic amino acid family biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009073</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>87</Position>
+      <PTM_Type>N6-(pyridoxal phosphate)lysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTTLLNPYFGEFGGMYVPQILMPALNQLEEAFVSAQKDPEFQAQFADLLKNYAGRPTALTKCQNITAGTRTTLYLKREDLLHGGAHKTNQVLGQALLAKRMGKSEIIAETGAGQHGVASALASALLGLKCRIYMGAKDVERQSPNVFRMRLMGAEVIPVHSGSATLKDACNEALRDWSGSYETAHYMLGTAAGPHPYPTIVREFQRMIGEETKAQILDKEGRLPDAVIACVGGGSNAIGMFADFINDTSVGLIGVEPGGHGIETGEHGAPLKHGRVGIYFGMKAPMMQTADGQIEESYSISAGLDFPSVGPQHAYLNSIGRADYVSITDDEALEAFKTLCRHEGIIPALESSHALAHALKMMREQPEKEQLLVVNLSGRGDKDIFTVHDILKARGEI</Protein_Seq>
+    <DNA_Seq>atgacaacacttctcaacccctactttggtgaattcggcggcatgtatgtgccgcagatcctgatgcctgcgctgaaccagcttgaagaggccttcgtccgcgcgcaaaaggatcctgaatttcaggcgcaattcgccgatctgctaaaaaactacgcgggacgccccaccgcgctgacgaaatgccagaacattaccgccggtacgcgtaccacgttgtatttaaagcgcgaagatttactgcacggcggcgcgcacaaaaccaatcaggtactgggtcaggcgctgctggccaaacggatgggtaaaagcgagattatcgctgaaaccggcgccggtcagcacggcgtcgcctctgcgctcgccagcgccctgctgggtctgaaatgccgtatctatatgggcgccaaagacgttgagcgccagtcgccgaacgtcttccgtatgcgtctgatgggcgctgaggtcatcccggttcatagcggctccgctacgctaaaagatgcctgtaacgaggcgctgcgcgactggtccggtagttacgaaaccgcgcactatatgctcggcacggcggcaggaccgcatccctatcccaccatcgttcgcgagttccagcgcatgattggcgaagagacgaaagcgcaaatcctcgacaaagagggccgtctgccagatgccgttatcgcttgcgtcggtggcggctcaaacgctatcgggatgtttgccgattttattaatgataccagcgtcgggctaataggcgttgaacctggtggtcatggtattgaaaccggcgagcatggcgcgccgcttaaacatggtcgcgttggcatctatttcgggatgaaagcgccgatgatgcaaacagcagacgggcaaattgaagagtcctattccatttccgccgggctcgatttcccgtccgttgggccgcaacatgcgtacctgaacagcatcggacgcgcggattatgtctccattaccgatgatgaggcgctgg</DNA_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>trpB</Gene_Name>
+    <Gene_ID>1253245</Gene_ID>
+    <Genbank_ACCN>NC_003197</Genbank_ACCN>
+    <Protein_ACCN>NP_460685</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1253245</Gene_URL>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P00929</Uniprot_ID>
+      <Gene_Name>trpA</Gene_Name>
+      <EBI_ID>EBI-1028423</EBI_ID>
+      <PPI_EBI_URL>EBI-1028431,EBI-1028423</PPI_EBI_URL>
+      <Experiment_Number>20</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE IN COMPLEX WITH N-(4'-TRIFLUOROMETHOXYBENZOYL)-2-AMINO-1-ETHYLPHOSPHATE (F6) -LOWF6 COMPLEX</PDB_Title>
+      <PDB_ID>2CLE</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CLE</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02908001</ASD_Ligand>
+      <Ligand_Name>2-{[4-(TRIFLUOROMETHOXY)BENZOYL]AMINO}ETHYL DIHYDROGEN PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Synthesis and Characterization of Allosteric Probes of Substrate Channeling in the Tryptophan Synthase Bienzyme Complex.</PubMed_Title>
+      <Author>Ngo H, et al.</Author>
+      <Journal>Biochemistry.2007 Jul 3;46(26):7713-27. Epub  2007 Jun 9.</Journal>
+      <PubMed_ID>17559195</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE (EXTERNAL ALDIMINE STATE) IN COMPLEX WITH N-(4'-TRIFLUOROMETHOXYBENZENESULFONYL)-2-AMINO-1-ETHYLPHOSPHATE (F9)</PDB_Title>
+      <PDB_ID>2CLL</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CLL</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900008</ASD_Ligand>
+      <Ligand_Name>2-({[4-(TRIFLUOROMETHOXY)PHENYL]SULFONYL}AMINO)ETHYL DIHYDROGEN PHOSPHATE$[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL- PYRIDIN-4-YLMETHYL]-SERINE</Ligand_Name>
+      <PubMed_Title>Allosteric Regulation of Substrate Channeling in Tryptophan Synthase: Modulation of the L-Serine Reaction in Stage I of the Beta-Reaction by Alpha-Site Ligands.</PubMed_Title>
+      <Author>Ngo H, et al.</Author>
+      <Journal>Biochemistry.2007 Jul 3;46(26):7740-53. Epub  2007 Jun 9.</Journal>
+      <PubMed_ID>17559232</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ALPHAT183V MUTANT OF TRYPTOPHAN SYNTHASE FROM SALMONELLA TYPHIMURIUM WITH Indole Glycerol Phosphate</PDB_Title>
+      <PDB_ID>1KFB</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KFB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900006</ASD_Ligand>
+      <Ligand_Name>INDOLE-3-GLYCEROL PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>On the Role of alphaTHR183 in the Allosteric Regulation and Catalytic Mechanism of Tryptophan Synthase</PubMed_Title>
+      <Author>Kulik V, et al.</Author>
+      <Journal>J Mol Biol.2002 Dec 6;324(4):677-90.</Journal>
+      <PubMed_ID>12460570</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE IN COMPLEX WITH GP, ALPHA-D,L-GLYCEROL-PHOSPHATE, CS, PH6.5</PDB_Title>
+      <PDB_ID>2J9X</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J9X</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02908005</ASD_Ligand>
+      <Ligand_Name>DIMETHYL SULFOXIDE$SN-GLYCEROL-3-PHOSPHATE$2-[({3-HYDROXY-2-METHYL-5-[(PHOSPHONOOXY)METHYL]PYRIDIN- 4-YL}METHYL)AMINO]ACRYLIC ACID</Ligand_Name>
+      <PubMed_Title>Allosteric Regulation of Substrate Channeling in Tryptophan Synthase: Modulation of the L-Serine Reaction in Stage I of the Beta-Reaction by Alpha-Site Ligands.</PubMed_Title>
+      <Author>Ngo H, et al.</Author>
+      <Journal>Biochemistry.2007 Jul 3;46(26):7740-53. Epub  2007 Jun 9.</Journal>
+      <PubMed_ID>17559232</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF WILD-TYPE TRYPTOPHAN SYNTHASE COMPLEXED WITH INDOLE GLYCEROL PHOSPHATE</PDB_Title>
+      <PDB_ID>1QOQ</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QOQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>INDOLE-3-GLYCEROL PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal Structure of Wild-Type Tryptophan Synthase Complexed with the Natural Substrate Indole-3-Glycerol Phosphate.</PubMed_Title>
+      <Author>Weyand M, et al.</Author>
+      <Journal>Biochemistry.1999 Dec 14;38(50):16469-80.</Journal>
+      <PubMed_ID>10600108</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE (E.C.4.2.1.20) IN THE PRESENCE OF CESIUM, ROOM TEMPERATURE</PDB_Title>
+      <PDB_ID>1TTP</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TTP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Exchange of K+ or Cs+ for Na+ induces local and long-range changes in the three-dimensional structure of the tryptophan synthase alpha2beta2 complex.</PubMed_Title>
+      <Author>Rhee S, et al.</Author>
+      <Journal>Biochemistry.1996 Apr 2;35(13):4211-21.</Journal>
+      <PubMed_ID>8672457</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF MUTANT (BETAK87T) TRYPTOPHAN SYNTHASE ALPHA2 BETA2 COMPLEX WITH LIGANDS BOUND TO THE ACTIVE SITES OF THE ALPHA AND BETA SUBUNITS REVEAL LIGAND-INDUCED CONFORMATIONAL CHANGES</PDB_Title>
+      <PDB_ID>2TRS</PDB_ID>
+      <Resolution>2.04</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2TRS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>INDOLE-3-PROPANOL PHOSPHATE$[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL- PYRIDIN-4-YLMETHYL]-SERINE</Ligand_Name>
+      <PubMed_Title>Crystal structures of a mutant (betaK87T) tryptophan synthase alpha2beta2 complex with ligands bound to the active sites of the alpha- and beta-subunits reveal ligand-induced conformational changes.</PubMed_Title>
+      <Author>Rhee S, et al.</Author>
+      <Journal>Biochemistry.1997 Jun 24;36(25):7664-80.</Journal>
+      <PubMed_ID>9201907</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF BACTERIAL TRYPTOPHAN SYNTHASE WITH THE TRANSITION STATE ANALOGUE INHIBITOR 4-(2-HYDROXY-4-FLUOROPHENYLTHIO)-BUTYLPHOSPHONIC ACID</PDB_Title>
+      <PDB_ID>1C9D</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1C9D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(2-HYDROXYPHENYLTHIO)-1-BUTENYLPHOSPHONIC ACID$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies of phosphonate-based alpha-reaction transition-state analogues complexed to tryptophan synthase.</PubMed_Title>
+      <Author>Sachpatzidis A, et al.</Author>
+      <Journal>Biochemistry.1999 Sep 28;38(39):12665-74.</Journal>
+      <PubMed_ID>10504236</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE Q114N MUTANT IN COMPLEX WITH COMPOUND II</PDB_Title>
+      <PDB_ID>2J9Y</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J9Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3E)-4-{3-HYDROXY-2-METHYL-5-[(PHOSPHONOOXY)METHYL]PYRIDIN- 4-YL}-2-IMINOBUT-3
+-ENOIC ACID</Ligand_Name>
+      <PubMed_Title>Betaq114N and Betat110V Mutations Reveal a Critically Important Role of the Substrate Alpha-Carboxylate Site in the Reaction Specificity of Tryptophan Synthase.</PubMed_Title>
+      <Author>Blumenstein L, et al.</Author>
+      <Journal>Biochemistry.2007 Dec 11;46(49):14100-16. Epub  2007 Nov 16.</Journal>
+      <PubMed_ID>18004874</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF WILD-TYPE TRYPTOPHAN SYNTHASE COMPLEXED WITH N-[1H-INDOL-3-YL-ACETYL]GLYCINE ACID</PDB_Title>
+      <PDB_ID>1K7E</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K7E</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900001</ASD_Ligand>
+      <Ligand_Name>N-[1H-INDOL-3-YL-ACETYL]GLYCINE ACID$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structures of a new class of allosteric effectors complexed to tryptophan synthase.</PubMed_Title>
+      <Author>Weyand M, et al.</Author>
+      <Journal>J Biol Chem.2002 Mar 22;277(12):10647-52. Epub  2001 Dec 26.</Journal>
+      <PubMed_ID>11756456</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE T110 MUTANT COMPLEX</PDB_Title>
+      <PDB_ID>2J9Z</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J9Z</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Betaq114N and Betat110V Mutations Reveal a Critically Important Role of the Substrate Alpha-Carboxylate Site in the Reaction Specificity of Tryptophan Synthase.</PubMed_Title>
+      <Author>Blumenstein L, et al.</Author>
+      <Journal>Biochemistry.2007 Dec 11;46(49):14100-16. Epub  2007 Nov 16.</Journal>
+      <PubMed_ID>18004874</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE (EXTERNAL ALDIMINE STATE) IN COMPLEX WITH N-(4'-TRIFLUOROMETHOXYBENZOYL)-2-AMINO-1-ETHYLPHOSPHATE (F6F)</PDB_Title>
+      <PDB_ID>2CLM</PDB_ID>
+      <Resolution>1.51</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CLM</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02908001</ASD_Ligand>
+      <Ligand_Name>2-{[4-(TRIFLUOROMETHOXY)BENZOYL]AMINO}ETHYL DIHYDROGEN PHOSPHATE$[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL- PYRIDIN-4-YLMETHYL]-SERINE</Ligand_Name>
+      <PubMed_Title>Allosteric Regulation of Substrate Channeling in Tryptophan Synthase: Modulation of the L-Serine Reaction in Stage I of the Beta-Reaction by Alpha-Site Ligands.</PubMed_Title>
+      <Author>Ngo H, et al.</Author>
+      <Journal>Biochemistry.2007 Jul 3;46(26):7740-53. Epub  2007 Jun 9.</Journal>
+      <PubMed_ID>17559232</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF BACTERIAL TRYPTOPHAN SYNTHASE WITH THE TRANSITION STATE ANALOGUE INHIBITOR 4-(2-HYDROXYPHENYLSULFINYL)-BUTYLPHOSPHONIC ACID</PDB_Title>
+      <PDB_ID>1CW2</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CW2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(2-HYDROXYPHENYLTHIO)-1-BUTENYLPHOSPHONIC ACID$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies of phosphonate-based alpha-reaction transition-state analogues complexed to tryptophan synthase.</PubMed_Title>
+      <Author>Sachpatzidis A, et al.</Author>
+      <Journal>Biochemistry.1999 Sep 28;38(39):12665-74.</Journal>
+      <PubMed_ID>10504236</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF BACTERIAL TRYPTOPHAN SYNTHASE WITH THE TRANSITION STATE ANALOGUE INHIBITOR 4-(2-HYDROXYPHENYLTHIO)-BUTYLPHOSPHONIC ACID</PDB_Title>
+      <PDB_ID>1C8V</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1C8V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(2-HYDROXYPHENYLTHIO)-1-BUTENYLPHOSPHONIC ACID$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies of phosphonate-based alpha-reaction transition-state analogues complexed to tryptophan synthase.</PubMed_Title>
+      <Author>Sachpatzidis A, et al.</Author>
+      <Journal>Biochemistry.1999 Sep 28;38(39):12665-74.</Journal>
+      <PubMed_ID>10504236</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF BETAA169L/BETAC170W DOUBLE MUTANT OF TRYPTOPHAN SYNTHASE COMPLEXED WITH 5-FLUORO-INDOLE-PROPANOL PHOSPHATE</PDB_Title>
+      <PDB_ID>1FUY</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FUY</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900013</ASD_Ligand>
+      <Ligand_Name>5-FLUOROINDOLE PROPANOL PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structural basis for the impaired channeling and allosteric inter-subunit communication in the beta A169L/beta C170W mutant of tryptophan synthase.</PubMed_Title>
+      <Author>Weyand M, et al.</Author>
+      <Journal>J Biol Chem.2000 Dec 29;275(52):41058-63.</Journal>
+      <PubMed_ID>11034989</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of a tryptophan synthase quinonoid intermediate</PDB_Title>
+      <PDB_ID>3CEP</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CEP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02908005</ASD_Ligand>
+      <Ligand_Name>GLYCERALDEHYDE-3-PHOSPHATE$INDOLINE$PYRIDOXAL-5'-PHOSPHATE$(2Z)-3-HYDROXY-2-IMINOPROPANOIC ACID</Ligand_Name>
+      <PubMed_Title>Structure and mechanistic implications of a tryptophan synthase quinonoid intermediate.</PubMed_Title>
+      <Author>Barends TR, et al.</Author>
+      <Journal>Chembiochem.2008 May 5;9(7):1024-8.</Journal>
+      <PubMed_ID>18351684</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF WILD-TYPE TRYPTOPHAN SYNTHASE COMPLEXED WITH L-SERINE</PDB_Title>
+      <PDB_ID>1KFJ</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KFJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL- PYRIDIN-4-YLMETHYL]-SERINE</Ligand_Name>
+      <PubMed_Title>On the role of alphaThr183 in the allosteric regulation and catalytic mechanism of tryptophan synthase.</PubMed_Title>
+      <Author>Kulik V, et al.</Author>
+      <Journal>J Mol Biol.2002 Dec 6;324(4):677-90.</Journal>
+      <PubMed_ID>12460570</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF MUTANT (BETAK87T) TRYPTOPHAN SYNTHASE ALPHA2 BETA2 COMPLEX WITH LIGANDS BOUND TO THE ACTIVE SITES OF THE ALPHA AND BETA SUBUNITS REVEAL LIGAND-INDUCED CONFORMATIONAL CHANGES</PDB_Title>
+      <PDB_ID>2TYS</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2TYS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL- PYRIDIN-4-YLMETHYL]-L-TRYPTOPHANE  C19 H20 N3 O7 P  Ligand Explorer</Ligand_Name>
+      <PubMed_Title>Crystal structures of a mutant (betaK87T) tryptophan synthase alpha2beta2 complex with ligands bound to the active sites of the alpha- and beta-subunits reveal ligand-induced conformational changes.</PubMed_Title>
+      <Author>Rhee S, et al.</Author>
+      <Journal>Biochemistry.1997 Jun 24;36(25):7664-80.</Journal>
+      <PubMed_ID>9201907</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE (E.C.4.2.1.20) FROM SALMONELLA TYPHIMURIUM</PDB_Title>
+      <PDB_ID>1BKS</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BKS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Refined Structure of the Native Form of the Tryptophan Synthase Multienzyme Complex from Salmonella Typhimurium</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE IN COMPLEX WITH N-(4'-TRIFLUOROMETHOXYBENZOYL)-2-AMINO-1-ETHYLPHOSPHATE (F6)</PDB_Title>
+      <PDB_ID>2CLF</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CLF</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02908001</ASD_Ligand>
+      <Ligand_Name>2-{[4-(TRIFLUOROMETHOXY)BENZOYL]AMINO}ETHYL DIHYDROGEN PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Synthesis and Characterization of Allosteric Probes of Substrate Channeling in the Tryptophan Synthase Bienzyme Complex.</PubMed_Title>
+      <Author>Ngo H, et al.</Author>
+      <Journal>Biochemistry.2007 Jul 3;46(26):7713-27. Epub  2007 Jun 9.</Journal>
+      <PubMed_ID>17559195</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF WILD-TYPE TRYPTOPHAN SYNTHASE COMPLEXED WITH N-[1H-INDOL-3-YL-ACETYL]ASPARTIC ACID</PDB_Title>
+      <PDB_ID>1K3U</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K3U</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02908006</ASD_Ligand>
+      <Ligand_Name>N-[1H-INDOL-3-YL-ACETYL]ASPARTIC ACID$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structures of a new class of allosteric effectors complexed to tryptophan synthase.</PubMed_Title>
+      <Author>Weyand M, et al.</Author>
+      <Journal>J Biol Chem.2002 Mar 22;277(12):10647-52. Epub  2001 Dec 26.</Journal>
+      <PubMed_ID>11756456</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Tryptophan synthase complexed with IGP, pH 7.0, internal aldimine</PDB_Title>
+      <PDB_ID>2RHG</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2RHG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>INDOLE-3-GLYCEROL PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Tryptophan synthase complexed with IGP, pH 7.0, internal aldimine</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF WILD-TYPE TRYPTOPHAN SYNTHASE</PDB_Title>
+      <PDB_ID>2WSY</PDB_ID>
+      <Resolution>3.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WSY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Loop closure and intersubunit communication in tryptophan synthase.</PubMed_Title>
+      <Author>Schneider TR, et al.</Author>
+      <Journal>Biochemistry.1998 Apr 21;37(16):5394-406.</Journal>
+      <PubMed_ID>9548921</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE IN COMPLEX WITH D-GLYCERALDEHYDE 3-PHOSPHATE (G3P)</PDB_Title>
+      <PDB_ID>2CLK</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CLK</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900029</ASD_Ligand>
+      <Ligand_Name>GLYCERALDEHYDE-3-PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Synthesis and Characterization of Allosteric Probes of Substrate Channeling in the Tryptophan Synthase Bienzyme Complex.</PubMed_Title>
+      <Author>Ngo H, et al.</Author>
+      <Journal>Biochemistry.2007 Jul 3;46(26):7713-27. Epub  2007 Jun 9.</Journal>
+      <PubMed_ID>17559195</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE IN COMPLEX WITH (NAPHTHALENE-2'-SULFONYL)-2-AMINO-1-ETHYLPHOSPHATE (F19)</PDB_Title>
+      <PDB_ID>2CLH</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CLH</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900010</ASD_Ligand>
+      <Ligand_Name>2-{[4-(TRIFLUOROMETHOXY)BENZOYL]AMINO}ETHYL DIHYDROGEN PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Synthesis and Characterization of Allosteric Probes of Substrate Channeling in the Tryptophan Synthase Bienzyme Complex.</PubMed_Title>
+      <Author>Ngo H, et al.</Author>
+      <Journal>Biochemistry.2007 Jul 3;46(26):7713-27. Epub  2007 Jun 9.</Journal>
+      <PubMed_ID>17559195</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Tryptophan Synthase From Salmonella Typhimurium</PDB_Title>
+      <PDB_ID>1KFK</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KFK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>On the role of alphaThr183 in the allosteric regulation and catalytic mechanism of tryptophan synthase.</PubMed_Title>
+      <Author>Kulik V, et al.</Author>
+      <Journal>J Mol Biol.2002 Dec 6;324(4):677-90.</Journal>
+      <PubMed_ID>12460570</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ALPHAT183V MUTANT OF TRYPTOPHAN SYNTHASE FROM SALMONELLA TYPHIMURIUM With Indole Propanol Phosphate</PDB_Title>
+      <PDB_ID>1KFC</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KFC</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900004</ASD_Ligand>
+      <Ligand_Name>INDOLE-3-PROPANOL PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>On the Role of AlphaTHR183 in the Allosteric Regulation and Catalytic Mechanism of Tryptophan Synthase</PubMed_Title>
+      <Author>Kulik V, et al.</Author>
+      <Journal>J Mol Biol.2002 Dec 6;324(4):677-90.</Journal>
+      <PubMed_ID>12460570</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure Of AlphaT183V Mutant Of Tryptophan Synthase From Salmonella Typhimurium</PDB_Title>
+      <PDB_ID>1K8X</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K8X</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>On the Role of AlphaThr183 in the Allosteric Regulation and Catalytic Mechanism of Tryptophan Synthase</PubMed_Title>
+      <Author>Kulik V, et al.</Author>
+      <Journal>J Mol Biol.2002 Dec 6;324(4):677-90.</Journal>
+      <PubMed_ID>12460570</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF WILD-TYPE TRYPTOPHAN SYNTHASE COMPLEXED WITH INDOLE PROPANOL PHOSPHATE</PDB_Title>
+      <PDB_ID>1QOP</PDB_ID>
+      <Resolution>1.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QOP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>INDOLE-3-PROPANOL PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal Structure of Wild-Type Tryptophan Synthase Complexed with the Natural Substrate Indole-3-Glycerol Phosphate</PubMed_Title>
+      <Author>Weyand M, et al.</Author>
+      <Journal>Biochemistry.1999 Dec 14;38(50):16469-80.</Journal>
+      <PubMed_ID>10600108</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYO-CRYSTALLOGRAPHY OF A TRUE SUBSTRATE, INDOLE-3-GLYCEROL PHOSPHATE, BOUND TO A MUTANT (ALPHA D60N) TRYPTOPHAN SYNTHASE ALPHA2BETA2 COMPLEX REVEALS THE CORRECT ORIENTATION OF ACTIVE SITE ALPHA GLU 49</PDB_Title>
+      <PDB_ID>1A5B</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1A5B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>INDOLE-3-GLYCEROL PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Cryo-crystallography of a true substrate, indole-3-glycerol phosphate, bound to a mutant (alphaD60N) tryptophan synthase alpha2beta2 complex reveals the correct orientation of active site alphaGlu49.</PubMed_Title>
+      <Author>Rhee S, et al.</Author>
+      <Journal>J Biol Chem.1998 Apr 10;273(15):8553-5.</Journal>
+      <PubMed_ID>9535826</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE IN COMPLEX WITH N-(4'-TRIFLUOROMETHOXYBENZENESULFONYL)-2-AMINO-1-ETHYLPHOSPHATE (F9)</PDB_Title>
+      <PDB_ID>2CLI</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CLI</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900008</ASD_Ligand>
+      <Ligand_Name>2-{[4-(TRIFLUOROMETHOXY)BENZOYL]AMINO}ETHYL DIHYDROGEN PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Synthesis and Characterization of Allosteric Probes of Substrate Channeling in the Tryptophan Synthase Bienzyme Complex.</PubMed_Title>
+      <Author>Ngo H, et al.</Author>
+      <Journal>Biochemistry.2007 Jul 3;46(26):7713-27. Epub  2007 Jun 9.</Journal>
+      <PubMed_ID>17559195</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF WILD-TYPE TRYPTOPHAN SYNTHASE COMPLEXED WITH N-[1H-INDOL-3-YL-ACETYL]VALINE ACID</PDB_Title>
+      <PDB_ID>1K7F</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K7F</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02908007</ASD_Ligand>
+      <Ligand_Name>N-[1H-INDOL-3-YL-ACETYL]GLYCINE ACID$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structures of a new class of allosteric effectors complexed to tryptophan synthase.</PubMed_Title>
+      <Author>Weyand M, et al.</Author>
+      <Journal>J Biol Chem.2002 Mar 22;277(12):10647-52. Epub  2001 Dec 26.</Journal>
+      <PubMed_ID>11756456</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF BACTERIAL TRYPTOPHAN SYNTHASE WITH THE TRANSITION STATE ANALOGUE INHIBITOR 4-(2-AMINOPHENYLTHIO)-BUTYLPHOSPHONIC ACID</PDB_Title>
+      <PDB_ID>1CX9</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CX9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(2-HYDROXYPHENYLTHIO)-1-BUTENYLPHOSPHONIC ACID$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies of phosphonate-based alpha-reaction transition-state analogues complexed to tryptophan synthase.</PubMed_Title>
+      <Author>Sachpatzidis A, et al.</Author>
+      <Journal>Biochemistry.1999 Sep 28;38(39):12665-74.</Journal>
+      <PubMed_ID>10504236</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>WILDTYPE TRYPTOPHAN SYNTHASE COMPLEXED WITH GLYCEROL PHOSPHATE</PDB_Title>
+      <PDB_ID>1WBJ</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1WBJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>SN-GLYCEROL-3-PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>On the Structural Basis of the Catalytic Mechanism and the Regulation of the Alpha Subunit of Tryptophan Synthase from Salmonella Typhimurium and Bx1 from Maize, Two Evolutionarily Related Enzymes.</PubMed_Title>
+      <Author>Kulik V, et al.</Author>
+      <Journal>J Mol Biol.2005 Sep 23;352(3):608-20.</Journal>
+      <PubMed_ID>16120446</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE (E.C.4.2.1.20) WITH A MUTATION OF LYS 87-&gt;THR IN THE B SUBUNIT AND IN THE PRESENCE OF LIGAND L-SERINE</PDB_Title>
+      <PDB_ID>1UBS</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UBS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE$SERINE</Ligand_Name>
+      <PubMed_Title>Exchange of K+ or Cs+ for Na+ induces local and long-range changes in the three-dimensional structure of the tryptophan synthase alpha2beta2 complex.</PubMed_Title>
+      <Author>Rhee S, et al.</Author>
+      <Journal>Biochemistry.1996 Apr 2;35(13):4211-21.</Journal>
+      <PubMed_ID>8672457</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYO-CRYSTALLOGRAPHY OF A TRUE SUBSTRATE, INDOLE-3-GLYCEROL PHOSPHATE, BOUND TO A MUTANT (ALPHAD60N) TRYPTOPHAN SYNTHASE ALPHA2BETA2 COMPLEX REVEALS THE CORRECT ORIENTATION OF ACTIVE SITE ALPHA GLU 49</PDB_Title>
+      <PDB_ID>1A5A</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1A5A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Cryo-crystallography of a true substrate, indole-3-glycerol phosphate, bound to a mutant (alphaD60N) tryptophan synthase alpha2beta2 complex reveals the correct orientation of active site alphaGlu49.</PubMed_Title>
+      <Author>Rhee S, et al.</Author>
+      <Journal>J Biol Chem.1998 Apr 10;273(15):8553-5.</Journal>
+      <PubMed_ID>9535826</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRP SYNTHASE (D60N-IPP-SER) WITH K+</PDB_Title>
+      <PDB_ID>1BEU</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BEU</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900004</ASD_Ligand>
+      <Ligand_Name>INDOLE-3-PROPANOL PHOSPHATE$[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL- PYRIDIN-4-YLMETHYL]-SERINE</Ligand_Name>
+      <PubMed_Title>Cryocrystallography and microspectrophotometry of a mutant (alpha D60N) tryptophan synthase alpha 2 beta 2 complex reveals allosteric roles of alpha Asp60.</PubMed_Title>
+      <Author>Rhee S, et al.</Author>
+      <Journal>Biochemistry.1998 Jul 28;37(30):10653-9.</Journal>
+      <PubMed_ID>9692955</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE (EXTERNAL ALDIMINE STATE) IN COMPLEX WITH (NAPHTHALENE-2'-SULFONYL)-2-AMINO-1-ETHYLPHOSPHATE (F19)</PDB_Title>
+      <PDB_ID>2CLO</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CLO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900010</ASD_Ligand>
+      <Ligand_Name>2-{[4-(TRIFLUOROMETHOXY)BENZOYL]AMINO}ETHYL DIHYDROGEN PHOSPHATE$[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL- PYRIDIN-4-YLMETHYL]-SERINE</Ligand_Name>
+      <PubMed_Title>Allosteric Regulation of Substrate Channeling in Tryptophan Synthase: Modulation of the L-Serine Reaction in Stage I of the Beta-Reaction by Alpha-Site Ligands.</PubMed_Title>
+      <Author>Ngo H, et al.</Author>
+      <Journal>Biochemistry.2007 Jul 3;46(26):7740-53. Epub  2007 Jun 9.</Journal>
+      <PubMed_ID>17559232</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRYPTOPHAN SYNTHASE (E.C.4.2.1.20) IN THE PRESENCE OF POTASSIUM AT ROOM TEMPERATURE</PDB_Title>
+      <PDB_ID>1TTQ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TTQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Exchange of K+ or Cs+ for Na+ induces local and long-range changes in the three-dimensional structure of the tryptophan synthase alpha2beta2 complex.</PubMed_Title>
+      <Author>Rhee S, et al.</Author>
+      <Journal>Biochemistry.1996 Apr 2;35(13):4211-21.</Journal>
+      <PubMed_ID>8672457</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF WILD-TYPE TRYPTOPHAN SYNTHASE COMPLEXED WITH 5-FLUOROINDOLE PROPANOL PHOSPHATE</PDB_Title>
+      <PDB_ID>1A50</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1A50</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-FLUOROINDOLE PROPANOL PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Loop closure and intersubunit communication in tryptophan synthase.</PubMed_Title>
+      <Author>Schneider TR, et al.</Author>
+      <Journal>Biochemistry.1998 Apr 21;37(16):5394-406.</Journal>
+      <PubMed_ID>9548921</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure Of Wild-Type Tryptophan Synthase Complexed With 1-[(2-hydroxylphenyl)amino]3-glycerolphosphate</PDB_Title>
+      <PDB_ID>1TJP</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TJP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900027</ASD_Ligand>
+      <Ligand_Name>1-[(2-HYDROXYLPHENYL)AMINO]3-GLYCEROLPHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>On the structural basis of the catalytic mechanism and the regulation of the alpha subunit of tryptophan synthase from Salmonella typhimurium and BX1 from maize, two evolutionarily related enzymes.</PubMed_Title>
+      <Author>Kulik V, et al.</Author>
+      <Journal>J Mol Biol.2005 Sep 23;352(3):608-20.</Journal>
+      <PubMed_ID>16120446</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE TRYPTOPHAN SYNTHASE BETA-SER178PRO MUTANT COMPLEXED WITH N-[1H-INDOL-3-YL-ACETYL]GLYCINE ACID</PDB_Title>
+      <PDB_ID>1K8Z</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K8Z</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900001</ASD_Ligand>
+      <Ligand_Name>N-[1H-INDOL-3-YL-ACETYL]GLYCINE ACID$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structure of the beta Ser178--&gt; Pro mutant of tryptophan synthase. A</PubMed_Title>
+      <Author>Weyand M, et al.</Author>
+      <Journal>J Biol Chem.2002 Mar 22;277(12):10653-60. Epub  2001 Dec 26.</Journal>
+      <PubMed_ID>11756454</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF MUTANT (BETAK87T) TRYPTOPHAN SYNTHASE ALPHA2 BETA2 COMPLEX WITH LIGANDS BOUND TO THE ACTIVE SITES OF THE ALPHA AND BETA SUBUNITS REVEAL LIGAND-INDUCED CONFORMATIONAL CHANGES</PDB_Title>
+      <PDB_ID>2TSY</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2TSY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>SN-GLYCEROL-3-PHOSPHATE$[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL- PYRIDIN-4-YLMETHYL]-SERINE</Ligand_Name>
+      <PubMed_Title>Crystal structures of a mutant (betaK87T) tryptophan synthase alpha2beta2 complex with ligands bound to the active sites of the alpha- and beta-subunits reveal ligand-induced conformational changes.</PubMed_Title>
+      <Author>Rhee S, et al.</Author>
+      <Journal>Biochemistry.1997 Jun 24;36(25):7664-80.</Journal>
+      <PubMed_ID>9201907</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE BETA-SER178PRO MUTANT OF TRYPTOPHAN SYNTHASE</PDB_Title>
+      <PDB_ID>1K7X</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K7X</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structure of the beta Ser178--&gt; Pro mutant of tryptophan synthase. A</PubMed_Title>
+      <Author>Weyand M, et al.</Author>
+      <Journal>J Biol Chem.2002 Mar 22;277(12):10653-60. Epub  2001 Dec 26.</Journal>
+      <PubMed_ID>11756454</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE TRYPTOPHAN SYNTHASE BETA-SER178PRO MUTANT COMPLEXED WITH D,L-ALPHA-GLYCEROL-3-PHOSPHATE</PDB_Title>
+      <PDB_ID>1K8Y</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K8Y</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900028</ASD_Ligand>
+      <Ligand_Name>1,3-DIHYDROXYACETONEPHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structure of the beta Ser178--&gt; Pro mutant of tryptophan synthase. A</PubMed_Title>
+      <Author>Weyand M, et al.</Author>
+      <Journal>J Biol Chem.2002 Mar 22;277(12):10653-60. Epub  2001 Dec 26.</Journal>
+      <PubMed_ID>11756454</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ALPHAT183V MUTANT OF TRYPTOPHAN SYNTHASE FROM SALMONELLA TYPHIMURIUM WITH L-Ser Bound To The Beta Site</PDB_Title>
+      <PDB_ID>1KFE</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KFE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL- PYRIDIN-4-YLMETHYL]-SERINE</Ligand_Name>
+      <PubMed_Title>On the Role of AlphaTHR183 in the Allosteric Regulation and Catalytic Mechanism of Tryptophan Synthase</PubMed_Title>
+      <Author>Kulik V, et al.</Author>
+      <Journal>J Mol Biol.2002 Dec 6;324(4):677-90.</Journal>
+      <PubMed_ID>12460570</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Tryptophan synthase complexed with IGP, internal aldimine, pH 9.0</PDB_Title>
+      <PDB_ID>2RH9</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2RH9</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02900006</ASD_Ligand>
+      <Ligand_Name>INDOLE-3-GLYCEROL PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Tryptophan synthase complexed with IGP, internal aldimine, pH 9.0.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF WILD-TYPE TRYPTOPHAN SYNTHASE COMPLEXED WITH 5-FLUOROINDOLE PROPANOL PHOSPHATE AND L-SER BOUND AS AMINO ACRYLATE TO THE BETA SITE</PDB_Title>
+      <PDB_ID>1A5S</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1A5S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-FLUOROINDOLE PROPANOL PHOSPHATE$PYRIDOXAL-5'-PHOSPHATE$SERINE</Ligand_Name>
+      <PubMed_Title>Loop closure and intersubunit communication in tryptophan synthase.</PubMed_Title>
+      <Author>Schneider TR, et al.</Author>
+      <Journal>Biochemistry.1998 Apr 21;37(16):5394-406.</Journal>
+      <PubMed_ID>9548921</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF BACTERIAL TRYPTOPHAN SYNTHASE WITH THE TRANSITION STATE ANALOGUE INHIBITOR 4-(2-HYDROXYPHENYLTHIO)-1-BUTENYLPHOSPHONIC ACID</PDB_Title>
+      <PDB_ID>1C29</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1C29</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(2-HYDROXYPHENYLTHIO)-1-BUTENYLPHOSPHONIC ACID$PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies of phosphonate-based alpha-reaction transition-state analogues complexed to tryptophan synthase.</PubMed_Title>
+      <Author>Sachpatzidis A, et al.</Author>
+      <Journal>Biochemistry.1999 Sep 28;38(39):12665-74.</Journal>
+      <PubMed_ID>10504236</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00400</Pathway_ID>
+      <Pathway_Title>Phenylalanine, tyrosine and tryptophan biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00400</Pathway_ID>
+      <Pathway_Title>Phenylalanine, tyrosine and tryptophan biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00400</Pathway_ID>
+      <Pathway_Title>Phenylalanine, tyrosine and tryptophan biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00260</Pathway_ID>
+      <Pathway_Title>Glycine, serine and threonine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.b.c.e.i.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1a50</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.2.1.20</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/2/1/20.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00160001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00390001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900008</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900009</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900010</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900011</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900013</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900027</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900028</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02900029</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02908001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02908004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02908005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02908006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02908007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

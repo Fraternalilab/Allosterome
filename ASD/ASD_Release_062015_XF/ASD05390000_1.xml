@@ -1,0 +1,790 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05390000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P42336</UniProt_ID>
+  <Seq_Length>1068</Seq_Length>
+  <Molecule_Weight>124284</Molecule_Weight>
+  <KEGG_ID>hsa:5290</KEGG_ID>
+  <Orthology_ID>K00922</Orthology_ID>
+  <Function_Summary>Phosphoinositide-3-kinase (PI3K) that phosphorylates PtdIns (Phosphatidylinositol), PtdIns4P (Phosphatidylinositol 4-phosphate) and PtdIns(4,5)P2 (Phosphatidylinositol 4,5-bisphosphate) to generate phosphatidylinositol 3,4,5-trisphosphate (PIP3). PIP3 plays a key role by recruiting PH domain-containing proteins to the membrane, including AKT1 and PDPK1, activating signaling cascades involved in cell growth, survival, proliferation, motility and morphology. Participates in cellular signaling in response to various growth factors. Involved in the activation of AKT1 upon stimulation by receptor tyrosine kinases ligands such as EGF, insulin, IGF1, VEGFA and PDGF. Involved in signaling via insulin-receptor substrate (IRS) proteins. Essential in endothelial cell migration during vascular development through VEGFA signaling, possibly by regulating RhoA activity. Required for lymphatic vasculature development, possibly by binding to RAS and by activation by EGF and FGF2, but not by PDGF. Regulates invadopodia formation in breast cancer cells through the PDPK1-AKT1 pathway. Participates in cardiomyogenesis in embryonic stem cells through a AKT1 pathway. Participates in vasculogenesis in embryonic stem cells through PDK1 and protein kinase C pathway. Has also serine-protein kinase activity: phosphorylates PIK3R1 (p85alpha regulatory subunit), EIF4EBP1 and HRAS.</Function_Summary>
+  <Catalytic_Mechanism>ATP + 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate = ADP + 1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate.@@ATP + a protein = ADP + a phosphoprotein.</Catalytic_Mechanism>
+  <Pfam_ID>PF00454:PI3_PI4_kinase@@PF00792:PI3K_C2@@PF02192:PI3K_p85B@@PF00794:PI3K_rbd@@PF00613:PI3Ka</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Phosphatidylinositol 4,5-bisphosphate 3-kinase 110 kDa catalytic subunit alpha</Alias>
+      <Alias>2.7.11.1&lt;/ecNumber</Alias>
+      <Alias>PtdIns-3-kinase subunit alpha</Alias>
+      <Alias>PtdIns-3-kinase subunit p110-alpha</Alias>
+      <Alias>Phosphoinositide-3-kinase catalytic alpha polypeptide</Alias>
+      <Alias>PI3K-alpha</Alias>
+      <Alias>PI3Kalpha</Alias>
+      <Alias>Serine/threonine protein kinase PIK3CA</Alias>
+      <Alias>PI3-kinase subunit alpha</Alias>
+      <Alias>p110alpha</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 1-phosphatidyl-1D-myo-inositol + ATP = a 1-phosphatidyl-1D-myo-inositol 3-phosphate + ADP + 2 H(+).</Detail>
+      <Keyword>1-phosphatidylinositol-3-kinase activity</Keyword>
+      <Ontology_ID>GO:0016303</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate + ATP = a 1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate + ADP + 2 H(+).</Detail>
+      <Keyword>Phosphatidylinositol-4,5-bisphosphate 3-kinase activity</Keyword>
+      <Ontology_ID>GO:0046934</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>545</Position>
+      <Original>Glu</Original>
+      <Variation>Ala</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>542</Position>
+      <Original>Glu</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1047</Position>
+      <Original>His</Original>
+      <Variation>Tyr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1035</Position>
+      <Original>Ala</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>43</Position>
+      <Original>Ile</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1052</Position>
+      <Original>Thr</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1021</Position>
+      <Original>Tyr</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>545</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>332</Position>
+      <Original>Ser</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1007</Position>
+      <Original>Gly</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>420</Position>
+      <Original>Cys</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1047</Position>
+      <Original>His</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1025</Position>
+      <Original>Thr</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>546</Position>
+      <Original>Gln</Original>
+      <Variation>Glu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1043</Position>
+      <Original>Met</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>453</Position>
+      <Original>Glu</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1021</Position>
+      <Original>Tyr</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1050</Position>
+      <Original>Gly</Original>
+      <Variation>Asp</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>546</Position>
+      <Original>Gln</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1023</Position>
+      <Original>Arg</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>545</Position>
+      <Original>Glu</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>391</Position>
+      <Original>Ile</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1065</Position>
+      <Original>His</Original>
+      <Variation>Tyr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>106</Position>
+      <Original>Gly</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>343</Position>
+      <Original>Tyr</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>546</Position>
+      <Original>Gln</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>546</Position>
+      <Original>Gln</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>542</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>38</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1021</Position>
+      <Original>Tyr</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>88</Position>
+      <Original>Arg</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>542</Position>
+      <Original>Glu</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1047</Position>
+      <Original>His</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1065</Position>
+      <Original>His</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the nerve growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Nerve growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048011</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Blood vessel formation when new vessels emerge from the proliferation of pre-existing blood vessels.</Detail>
+      <Keyword>Angiogenesis</Keyword>
+      <Ontology_ID>GO:0001525</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The orderly movement of an endothelial cell into the extracellular matrix to form an endothelium.</Detail>
+      <Keyword>Endothelial cell migration</Keyword>
+      <Ontology_ID>GO:0043542</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of an epidermal growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Epidermal growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0007173</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The movement of a leukocyte within or between different tissues and organs of the body.</Detail>
+      <Keyword>Leukocyte migration</Keyword>
+      <Ontology_ID>GO:0050900</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals initiated by the cross-linking of an antigen receptor on a T cell.</Detail>
+      <Keyword>T cell receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0050852</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</Detail>
+      <Keyword>Platelet activation</Keyword>
+      <Ontology_ID>GO:0030168</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a fibroblast growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Fibroblast growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0008543</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of providing, via surface-bound receptor-ligand pairs, a second, antigen-independent, signal in addition to that provided by the T cell receptor to augment T cell activation.</Detail>
+      <Keyword>T cell costimulation</Keyword>
+      <Ontology_ID>GO:0031295</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Muscle contraction of cardiac muscle tissue.</Detail>
+      <Keyword>Cardiac muscle contraction</Keyword>
+      <Ontology_ID>GO:0060048</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals in which a cell uses a phosphatidylinositol-mediated signaling to convert a signal into a response. Phosphatidylinositols include phosphatidylinositol (PtdIns) and its phosphorylated derivatives.</Detail>
+      <Keyword>Phosphatidylinositol-mediated signaling</Keyword>
+      <Ontology_ID>GO:0048015</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MPPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAEREEFFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREIGFAIGMPVCEFDMVKDPEVQDFRRNILNVCKEAVDLRDLNSPHSRAMYVYPPNVESSPELPKHIYNKLDKGQIIVVIWVIVSPNNDKQKYTLKINHDCVPEQVIAEAIRKKTRSMLLSSEQLKLCVLEYQGKYILKVCGCDEYFLEKYPLSQYKYIRSCIMLGRMPNLMLMAKESLYSQLPMDCFTMPSYSRRISTATPYMNGETSTKSLWVINSALRIKILCATYVNVNIRDIDKIYVRTGIYHGGEPLCDNVNTQRVPCSNPRWNEWLNYDIYIPDLPRAARLCLSICSVKGRKGAKEEHCPLAWGNINLFDYTDTLVSGKMALNLWPVPHGLEDLLNPIGVTGSNPNKETPCLELEFDWFSSVVKFPDMSVIEEHANWSVSREAGFSYSHAGLSNRLARDNELRENDKEQLKAISTRDPLSEITEQEKDFLWSHRHYCVTIPEILPKLLLSVKWNSRDEVAQMYCLVKDWPPIKPEQAMELLDCNYPDPMVRGFAVRCLEKYLTDDKLSQYLIQLVQVLKYEQYLDNLLVRFLLKKALTNQRIGHFFFWHLKSEMHNKTVSQRFGLLLESYCRACGMYLKHLNRQVEAMEKLINLTDILKQEKKDETQKVQMKFLVEQMRRPDFMDALQGFLSPLNPAHQLGNLRLEECRIMSSAKRPLWLNWENPDIMSELLFQNNEIIFKNGDDLRQDMLTLQIIRIMENIWQNQGLDLRMLPYGCLSIGDCVGLIEVVRNSHTIMQIQCKGGLKGALQFNSHTLHQWLKDKNKGEIYDAAIDLFTRSCAGYCVATFILGIGDRHNSNIMVKDDGQLFHIDFGHFLDHKKKKFGYKRERVPFVLTQDFLIVISKGAQECTKTREFERFQEMCYKAYLAIRQHANLFINLFSMMLGSGMPELQSFDDIAYIRKTLALDKTEQEALEYFMKQMNDAHHGGWTTKMDWIFHTIKQHALN</Protein_Seq>
+    <DNA_Seq>TCTCCCTCGGCGCCGCCGCCGCCGCCCGCGGGGCTGGGACCCGATGCGGTTAGAGCCGCGGAGCCTGGAAGAGCCCCGAGCGTTTCTGCTTTGGGACAACCATACATCTAATTCCTTAAAGTAGTTTTATATGTAAAACTTGCAAAGAATCAGAACAATGCCTCCACGACCATCATCAGGTGAACTGTGGGGCATCCACTTGATGCCCCCAAGAATCCTAGTAGAATGTTTACTACCAAATGGAATGATAGTGACTTTAGAATGCCTCCGTGAGGCTACATTAATAACCATAAAGCATGAACTATTTAAAGAAGCAAGAAAATACCCCCTCCATCAACTTCTTCAAGATGAATCTTCTTACATTTTCGTAAGTGTTACTCAAGAAGCAGAAAGGGAAGAATTTTTTGATGAAACAAGACGACTTTGTGACCTTCGGCTTTTTCAACCCTTTTTAAAAGTAATTGAACCAGTAGGCAACCGTGAAGAAAAGATCCTCAATCGAGAAATTGGTTTTGCTATCGGCATGCCAGTGTGTGAATTTGATATGGTTAAAGATCCAGAAGTACAGGACTTCCGAAGAAATATTCTGAACGTTTGTAAAGAAGCTGTGGATCTTAGGGACCTCAATTCACCTCATAGTAGAGCAATGTATGTCTATCCTCCAAATGTAGAATCTTCACCAGAATTGCCAAAGCACATATATAATAAATTAGATAAAGGGCAAATAATAGTGGTGATCTGGGTAATAGTTTCTCCAAATAATGACAAGCAGAAGTATACTCTGAAAATCAACCATGACTGTGTACCAGAACAAGTAATTGCTGAAGCAATCAGGAAAAAAACTCGAAGTATGTTGCTATCCTCTGAACAACTAAAACTCTGTGTTTTAGAATATCAGGGCAAGTATATTTTAAAAGTGTGTGGATGTGATGAATACTTCCTAGAAAAATATCCTCTGAGTCAGTATAAGTATATAAGAAGCTGTATAATGCTTGGGAGGATGCCCAATTTGATGTTGATGGCTAAAGAAAGCCTTTATTCTCAACTGCCAATGGACTGTTTTACAATGCCATCTTATTCCAGACGCATTTCCACAGCTACACCATATATGAATGGAGAAACATCTACAAAATCCCTTTGGGTTATAAATAGTGCACTCAGAATAAAAATTCTTTGTGCAACCTACGTGAATGTAAATATTCGAGACATTGATAAGATCTATGTTCGAACAGGTATCTACCATGGAGGAGAACCCTTATGTGACAATGTGAACACTCAAAGAGTACCTTGTTCCAATCCCAGGTGGAATGAATGGCTGAATTATGATATATACATTCCTGATCTTCCTCGTGCTGCTCGACTTTGCCTTTCCATTTGCTCTGTTAAAGGCCGAAAGGGTGCTAAAGAGGAACACTGTCCATTGGCATGGGGAAATATAAACTTGTTTGATTACACAGACACTCTAGTATCTGGAAAAATGGCTTTGAATCTTTGGCCAGTACCTCATGGATTAGAAGATTTGCTGAACCCTATTGGTGTTACTGGATCAAATCCAAATAAAGAAACTCCATGCTTAGAGTTGGAGTTTGACTGGTTCAGCAGTGTGGTAAAGTTCCCAGATATGTCAGTGATTGAAGAGCATGCCAATTGGTCTGTATCCCGAGAAGCAGGATTTAGCTATTCCCACGCAGGACTGAGTAACAGACTAGCTAGAGACAATGAATTAAGGGAAAATGACAAAGAACAGCTCAAAGCAATTTCTACACGAGATCCTCTCTCTGAAATCACTGAGCAGGAGAAAGATTTTCTATGGAGTCACAGACACTATTGTGTAACTATCCCCGAAATTCTACCCAAATTGCTTCTGTCTGTTAAATGGAATTCTAGAGATGAAGTAGCCCAGATGTATTGCTTGGTAAAAGATTGGCCTCCAATCAAACCTGAACAGGCTATGGAACTTCTGGACTGTAATTACCCAGATCCTATGGTTCGAGGTTTTGCTGTTCGGTGCTTGGAAAAATATTTAACAGATGACAAACTTTCTCAGTATTTAATTCAGCTAGTACAGGTCCTAAAATATGAACAATATTTGGATAACTTGCTTGTGAGATTTTTACTGAAGAAAGCATTGACTAATCAAAGGATTGGGCACTTTTTCTTTTGGCATTTAAAATCTGAGATGCACAATAAAACAGTTAGCCAGAGGTTTGGCCTGCTTTTGGAGTCCTATTGTCGTGCATGTGGGATGTATTTGAAGCACCTGAATAGGCAAGTCGAGGCAATGGAAAAGCTCATTAACTTAACTGACATTCTCAAACAGGAGAAGAAGGATGAAACACAAAAGGTACAGATGAAGTTTTTAGTTGAGCAAATGAGGCGACCAGATTTCATGGATGCTCTACAGGGCTTTCTGTCTCCTCTAAACCCTGCTCATCAACTAGGAAACCTCAGGCTTGAAGAGTGTCGAATTATGTCCTCTGCAAAAAGGCCACTGTGGTTGAATTGGGAGAACCCAGACATCATGTCAGAGTTACTGTTTCAGAACAATGAGATCATCTTTAAAAATGGGGATGATTTACGGCAAGATATGCTAACACTTCAAATTATTCGTATTATGGAAAATATCTGGCAAAATCAAGGTCTTGATCTTCGAATGTTACCTTATGGTTGTCTGTCAATCGGTGACTGTGTGGGACTTATTGAGGTGGTGCGAAATTCTCACACTATTATGCAAATTCAGTGCAAAGGCGGCTTGAAAGGTGCACTGCAGTTCAACAGCCACACACTACATCAGTGGCTCAAAGACAAGAACAAAGGAGAAATATATGATGCAGCCATTGACCTGTTTACACGTTCATGTGCTGGATACTGTGTAGCTACCTTCATTTTGGGAATTGGAGATCGTCACAATAGTAACATCATGGTGAAAGACGATGGACAACTGTTTCATATAGATTTTGGACACTTTTTGGATCACAAGAAGAAAAAATTTGGTTATAAACGAGAACGTGTGCCATTTGTTTTGACACAGGATTTCTTAATAGTGATTAGTAAAGGAGCCCAAGAATGCACAAAGACAAGAGAATTTGAGAGGTTTCAGGAGATGTGTTACAAGGCTTATCTAGCTATTCGACAGCATGCCAATCTCTTCATAAATCTTTTCTCAATGATGCTTGGCTCTGGAATGCCAGAACTACAATCTTTTGATGACATTGCATACATTCGAAAGACCCTAGCCTTAGATAAAACTGAGCAAGAGGCTTTGGAGTATTTCATGAAACAAATGAATGATGCACATCATGGTGGCTGGACAACAAAAATGGATTGGATCTTCCACACAATTAAACAGCATGCATTGAACTGAAAAGATAACTGAGAAAATGAAAGCTCACTCTGGATTCCACACTGCACTGTTAATAACTCTCAGCAGGCAAAGACCGATTGCATAGGAATTGCACAATCCATGAACAGCATTAGAATTTACAGCAAGAACAGAAATAAAATACTATATAATTTAAATAATGTAAACGCAAACAGGGTTTGATAGCACTTAAACTAGTTCATTTCAAAATTAAGCTTTAGAATAATGCGCAATTTCATGTTATGCCTTAAGTCCAAAAAGGTAAACTTTGAAGATTGTTTGTATCTTTTTTTAAAAAACAAAACAAAACAAAAATCCCCAAAATATATAGAAATGATGGAGAAGGAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>PIK3CA</Gene_Name>
+    <Gene_ID>5290</Gene_ID>
+    <Genbank_ACCN>NM_006218</Genbank_ACCN>
+    <Protein_ACCN>NP_006209</Protein_ACCN>
+    <HGNC_ID>8975</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5290</Gene_URL>
+    <UCSC_ID>uc003fjk.3</UCSC_ID>
+    <EMBL_ID>ENSG00000121879</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Adenocarcinoma, Ovarian, Somatic</Disease_Name>
+      <Disease_Detail>Adenocarcinoma</Disease_Detail>
+      <Disease_DB>ADN034</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adenocarcinoma_ovarian_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colorectal Cancer, Somatic</Disease_Name>
+      <Disease_Detail>Colorectal Cancer</Disease_Detail>
+      <Disease_DB>CLR034</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colorectal_cancer_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Nephrogenic Systemic Fibrosis</Disease_Name>
+      <Disease_Detail>Nephrogenic Systemic Fibrosis</Disease_Detail>
+      <Disease_DB>NPH018</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/nephrogenic_systemic_fibrosis?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cowden Syndrome 5</Disease_Name>
+      <Disease_Detail>Cowden Syndrome</Disease_Detail>
+      <Disease_DB>CWD004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cowden_syndrome_5?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Megalencephaly-Capillary Malformation-Polymicrogyria Syndrome, Somatic</Disease_Name>
+      <Disease_Detail>Megalencephaly</Disease_Detail>
+      <Disease_DB>MGL023</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/megalencephaly_capillary_malformation_polymicrogyria_syndrome_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Thyroid Cancer</Disease_Name>
+      <Disease_Detail>Thyroid Cancer</Disease_Detail>
+      <Disease_DB>THY028</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/thyroid_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hemimegalencephaly</Disease_Name>
+      <Disease_Detail>Hemimegalencephaly</Disease_Detail>
+      <Disease_DB>HMM003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hemimegalencephaly?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hepatocellular Carcinoma, Childhood</Disease_Name>
+      <Disease_Detail>Hepatocellular Carcinoma</Disease_Detail>
+      <Disease_DB>HPT031</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hepatocellular_carcinoma_childhood?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Melanoma</Disease_Name>
+      <Disease_Detail>Melanoma</Disease_Detail>
+      <Disease_DB>MLN008</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/melanoma?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colonic Adenoma Recurrence, Reduced Risk of</Disease_Name>
+      <Disease_Detail>Colon Cancer</Disease_Detail>
+      <Disease_DB>CLN029</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colonic_adenoma_recurrence_reduced_risk_of?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Omphalocele Cleft Palate Syndrome Lethal</Disease_Name>
+      <Disease_Detail>Omphalocele Cleft Palate Syndrome Lethal</Disease_Detail>
+      <Disease_DB>OMP001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/omphalocele_cleft_palate_syndrome_lethal?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Segmental Progressive Overgrowth Syndrome with Fibroadipose Hyperplasia</Disease_Name>
+      <Disease_Detail>Segmental Progressive Overgrowth Syndrome with Fibroadipose Hyperplasia</Disease_Detail>
+      <Disease_DB>SGM005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/segmental_progressive_overgrowth_syndrome_with_fibroadipose_hyperplasia?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS047</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer, Lobular</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS082</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_lobular?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cowden Disease</Disease_Name>
+      <Disease_Detail>Cowden Disease</Disease_Detail>
+      <Disease_DB>CWD001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cowden_disease?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cloves Syndrome</Disease_Name>
+      <Disease_Detail>Cloves Syndrome</Disease_Detail>
+      <Disease_DB>CLV005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cloves_syndrome?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Macrocephaly-Capillary Malformation</Disease_Name>
+      <Disease_Detail>Macrodactyly</Disease_Detail>
+      <Disease_DB>MCR033</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/macrocephaly_capillary_malformation?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cowden Syndrome 1</Disease_Name>
+      <Disease_Detail>Cowden Syndrome</Disease_Detail>
+      <Disease_DB>CWD006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cowden_syndrome_1?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Stomach Cancer, Childhood</Disease_Name>
+      <Disease_Detail>Stomach Cancer</Disease_Detail>
+      <Disease_DB>STM011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/stomach_cancer_childhood?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gastric Cancer, Somatic</Disease_Name>
+      <Disease_Detail>Gastric Cancer</Disease_Detail>
+      <Disease_DB>GST060</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gastric_cancer_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Nevus Sebaceous, Somatic</Disease_Name>
+      <Disease_Detail>Nevus Sebaceous, Somatic</Disease_Detail>
+      <Disease_DB>NVS013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/nevus_sebaceous_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hepatoblastoma, Somatic</Disease_Name>
+      <Disease_Detail>Hepatoblastoma</Disease_Detail>
+      <Disease_DB>HPT033</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hepatoblastoma_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ethmoid Sinus Adenocarcinoma</Disease_Name>
+      <Disease_Detail>Ethmoid Sinus Adenocarcinoma</Disease_Detail>
+      <Disease_DB>ETH001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ethmoid_sinus_adenocarcinoma?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colon Cancer</Disease_Name>
+      <Disease_Detail>Colon Cancer</Disease_Detail>
+      <Disease_DB>CLN016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colon_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hepatocellular Fibrolamellar Carcinoma</Disease_Name>
+      <Disease_Detail>Hepatocellular Carcinoma</Disease_Detail>
+      <Disease_DB>HPT012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hepatocellular_fibrolamellar_carcinoma?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colon Cancer, Somatic</Disease_Name>
+      <Disease_Detail>Colon Cancer</Disease_Detail>
+      <Disease_DB>CLN030</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colon_cancer_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Glioblastoma</Disease_Name>
+      <Disease_Detail>Glioblastoma</Disease_Detail>
+      <Disease_DB>GLB002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/glioblastoma?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ovarian Clear Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Ovarian Cancer</Disease_Detail>
+      <Disease_DB>OVR106</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ovarian_clear_cell_carcinoma?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Liver Cancer</Disease_Name>
+      <Disease_Detail>Liver Cancer</Disease_Detail>
+      <Disease_DB>LVR011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/liver_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ovarian Cancer, Somatic</Disease_Name>
+      <Disease_Detail>Ovarian Cancer</Disease_Detail>
+      <Disease_DB>OVR078</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ovarian_cancer_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colorectal Cancer</Disease_Name>
+      <Disease_Detail>Colorectal Cancer</Disease_Detail>
+      <Disease_DB>CLR023</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colorectal_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer, Early-Onset</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS076</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_early_onset?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Megalencephaly-Polymicrogyria-Polydactyly-Hydrocephalus Syndrome 1</Disease_Name>
+      <Disease_Detail>Megalencephaly</Disease_Detail>
+      <Disease_DB>MGL030</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/megalencephaly_polymicrogyria_polydactyly_hydrocephalus_syndrome_1?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hepatocellular Carcinoma</Disease_Name>
+      <Disease_Detail>Hepatocellular Carcinoma</Disease_Detail>
+      <Disease_DB>HPT023</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hepatocellular_carcinoma?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Clove Syndrome, Somatic</Disease_Name>
+      <Disease_Detail>Cloves Syndrome</Disease_Detail>
+      <Disease_DB>CLV009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/clove_syndrome_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Megalencephaly-Capillary Malformation Syndrome</Disease_Name>
+      <Disease_Detail>Megalencephaly</Disease_Detail>
+      <Disease_DB>MGL021</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/megalencephaly_capillary_malformation_syndrome?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Nonsmall Cell Lung Cancer, Somatic</Disease_Name>
+      <Disease_Detail>Nonsmall Cell Lung Cancer</Disease_Detail>
+      <Disease_DB>NNS020</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/nonsmall_cell_lung_cancer_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pik3ca-Related Segmental Overgrowth</Disease_Name>
+      <Disease_Detail>Pik3ca-Related Segmental Overgrowth</Disease_Detail>
+      <Disease_DB>PK3001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pik3ca_related_segmental_overgrowth?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Megalencephaly</Disease_Name>
+      <Disease_Detail>Megalencephaly</Disease_Detail>
+      <Disease_DB>MGL013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/megalencephaly?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colonic Benign Neoplasm</Disease_Name>
+      <Disease_Detail>Colon Cancer</Disease_Detail>
+      <Disease_DB>CLN045</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colonic_benign_neoplasm?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ovarian Epithelial Cancer</Disease_Name>
+      <Disease_Detail>Ovarian Cancer</Disease_Detail>
+      <Disease_DB>OVR094</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ovarian_epithelial_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ovarian Cancer</Disease_Name>
+      <Disease_Detail>Ovarian Cancer</Disease_Detail>
+      <Disease_DB>OVR042</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ovarian_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer, Protection Against</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS079</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_protection_against?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Stomach Cancer, Familial</Disease_Name>
+      <Disease_Detail>Stomach Cancer</Disease_Detail>
+      <Disease_DB>STM012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/stomach_cancer_familial?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Primary Malignant Lymphoma</Disease_Name>
+      <Disease_Detail>Primary Malignant Lymphoma</Disease_Detail>
+      <Disease_DB>PRM046</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/primary_malignant_lymphoma?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Adenocarcinoma</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS044</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_adenocarcinoma?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Keratosis</Disease_Name>
+      <Disease_Detail>Keratosis</Disease_Detail>
+      <Disease_DB>KRT009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/keratosis?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Macrodactyly of Fingers, Unilateral</Disease_Name>
+      <Disease_Detail>Macrodactyly</Disease_Detail>
+      <Disease_DB>MCR188</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/macrodactyly_of_fingers_unilateral?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Non-Small Cell Lung Carcinoma</Disease_Name>
+      <Disease_Detail>Non-Small Cell Lung Carcinoma</Disease_Detail>
+      <Disease_DB>NNS005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/non_small_cell_lung_carcinoma?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer, Somatic</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS069</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Urinary Tract Obstruction</Disease_Name>
+      <Disease_Detail>Urinary Tract Obstruction</Disease_Detail>
+      <Disease_DB>URN010</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/urinary_tract_obstruction?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer Susceptibility</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS081</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_susceptibility?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hepatocellular Carcinoma, Somatic</Disease_Name>
+      <Disease_Detail>Hepatocellular Carcinoma</Disease_Detail>
+      <Disease_DB>HPT032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hepatocellular_carcinoma_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Male Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>MLB002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/male_breast_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Leopard Syndrome</Disease_Name>
+      <Disease_Detail>Leopard Syndrome</Disease_Detail>
+      <Disease_DB>LPR002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leopard_syndrome?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Keratosis, Seborrheic, Somatic</Disease_Name>
+      <Disease_Detail>Keratosis</Disease_Detail>
+      <Disease_DB>KRT036</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/keratosis_seborrheic_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lipomatosis</Disease_Name>
+      <Disease_Detail>Lipomatosis</Disease_Detail>
+      <Disease_DB>LPM005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lipomatosis?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Stomach Cancer</Disease_Name>
+      <Disease_Detail>Stomach Cancer</Disease_Detail>
+      <Disease_DB>STM004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/stomach_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Macrodactyly of Toes, Unilateral</Disease_Name>
+      <Disease_Detail>Macrodactyly</Disease_Detail>
+      <Disease_DB>MCR190</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/macrodactyly_of_toes_unilateral?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ovary Epithelial Cancer</Disease_Name>
+      <Disease_Detail>Ovarian Cancer</Disease_Detail>
+      <Disease_DB>OVR060</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ovary_epithelial_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lung Cancer</Disease_Name>
+      <Disease_Detail>Lung Cancer</Disease_Detail>
+      <Disease_DB>LNG032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lung_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Tuberous Sclerosis</Disease_Name>
+      <Disease_Detail>Tuberous Sclerosis</Disease_Detail>
+      <Disease_DB>TBR001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/tuberous_sclerosis?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gastric Cancer</Disease_Name>
+      <Disease_Detail>Gastric Cancer</Disease_Detail>
+      <Disease_DB>GST053</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gastric_cancer?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Epidermal Nevus, Somatic</Disease_Name>
+      <Disease_Detail>Epidermal Nevus</Disease_Detail>
+      <Disease_DB>EPD053</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/epidermal_nevus_somatic?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hemihyperplasia-Multiple Lipomatosis Syndrome</Disease_Name>
+      <Disease_Detail>Hemihyperplasia-Multiple Lipomatosis Syndrome</Disease_Detail>
+      <Disease_DB>HMH003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hemihyperplasia_multiple_lipomatosis_syndrome?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Roberts Syndrome</Disease_Name>
+      <Disease_Detail>Roberts Syndrome</Disease_Detail>
+      <Disease_DB>RBR001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/roberts_syndrome?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dermatosis Papulosa Nigra</Disease_Name>
+      <Disease_Detail>Dermatosis Papulosa Nigra</Disease_Detail>
+      <Disease_DB>DRM003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dermatosis_papulosa_nigra?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer, Invasive Ductal</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS077</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_invasive_ductal?search=PIK3CA#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of p110alpha H1047R mutant in complex with niSH2 of p85alpha</PDB_Title>
+      <PDB_ID>3HIZ</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HIZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A frequent kinase domain mutation that changes the interaction between PI3K{alpha} and the membrane.</PubMed_Title>
+      <Author>Mandelker, D., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:16996-17001</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19805105?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of p110alpha H1047R mutant in complex with niSH2 of p85alpha and the drug wortmannin</PDB_Title>
+      <PDB_ID>3HHM</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HHM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A frequent kinase domain mutation that changes the interaction between PI3K{alpha} and the membrane.</PubMed_Title>
+      <Author>Mandelker, D., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:16996-17001</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19805105?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of a human p110alpha/p85alpha complex</PDB_Title>
+      <PDB_ID>2RD0</PDB_ID>
+      <Resolution>3.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2RD0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of a human p110alpha/p85alpha complex elucidates the effects of oncogenic PI3Kalpha mutations.</PubMed_Title>
+      <Author>Huang, C.H., et al.</Author>
+      <Journal>Science(2007)318:1744-1748</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18079394?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of the C2 domain from human PI3-kinase p110 subunit alpha</PDB_Title>
+      <PDB_ID>2ENQ</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ENQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution structure of the C2 domain from human PI3-kinase p110 subunit alpha</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of p110alpha in complex with iSH2 of p85alpha and the inhibitor PIK-108</PDB_Title>
+      <PDB_ID>4A55</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4A55</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Regulation of Lipid Binding Underlies the Activation Mechanism of Class Ia Pi3-Kinases.</PubMed_Title>
+      <Author>Hon, W.-C., et al.</Author>
+      <Journal>Oncogene(2012)31:3655</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22120714?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2rd0</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.1.153</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/1/153.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD05398001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

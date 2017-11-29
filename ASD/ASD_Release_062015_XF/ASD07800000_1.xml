@@ -1,0 +1,794 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07800000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P49327</UniProt_ID>
+  <Seq_Length>2511</Seq_Length>
+  <Molecule_Weight>273427</Molecule_Weight>
+  <KEGG_ID>hsa:2194</KEGG_ID>
+  <Orthology_ID>K00665</Orthology_ID>
+  <Function_Summary>Fatty acid synthetase catalyzes the formation of long-chain fatty acids from acetyl-CoA, malonyl-CoA and NADPH. This multifunctional protein has 7 catalytic activities and an acyl carrier protein.</Function_Summary>
+  <Catalytic_Mechanism>Acetyl-CoA + n malonyl-CoA + 2n NADPH = a long-chain fatty acid + (n+1) CoA + n CO(2) + 2n NADP(+).@@Acetyl-CoA + [acyl-carrier-protein] = CoA + acetyl-[acyl-carrier-protein].@@Malonyl-CoA + [acyl-carrier-protein] = CoA + malonyl-[acyl-carrier-protein].@@Acyl-[acyl-carrier-protein] + malonyl-[acyl-carrier-protein] = 3-oxoacyl-[acyl-carrier-protein] + CO(2) + [acyl-carrier-protein].@@(3R)-3-hydroxyacyl-[acyl-carrier-protein] + NADP(+) = 3-oxoacyl-[acyl-carrier-protein] + NADPH.@@(3R)-3-hydroxypalmitoyl-[acyl-carrier-protein] = hexadec-2-enoyl-[acyl-carrier-protein] + H(2)O.@@Acyl-[acyl-carrier-protein] + NADP(+) = trans-2,3-dehydroacyl-[acyl-carrier-protein] + NADPH.@@Oleoyl-[acyl-carrier-protein] + H(2)O = [acyl-carrier-protein] + oleate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00698:Acyl_transf_1@@PF00106:adh_short@@PF00107:ADH_zinc_N@@PF00109:ketoacyl-synt@@PF02801:Ketoacyl-synt_C@@PF08242:Methyltransf_12@@PF00550:PP-binding@@PF00975:Thioesterase</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Oleoyl-[acyl-carrier-protein] hydrolase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: palmitoyl-[acyl-carrier protein] + H2O =</Detail>
+      <Keyword>Palmitoyl-[acyl-carrier-protein] hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016296</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: oleoyl-[acyl-carrier protein] + H2O =</Detail>
+      <Keyword>Oleoyl-[acyl-carrier-protein] hydrolase activity</Keyword>
+      <Ontology_ID>GO:0004320</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: acyl-[acyl-carrier protein] + malonyl-[acyl-carrier protein] = 3-oxoacyl-[acyl-carrier protein] + CO2 +</Detail>
+      <Keyword>3-oxoacyl-[acyl-carrier-protein] synthase activity</Keyword>
+      <Ontology_ID>GO:0004315</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively with phosphopantetheine, the vitamin pantetheine 4'-(dihydrogen phosphate).</Detail>
+      <Keyword>Phosphopantetheine binding</Keyword>
+      <Ontology_ID>GO:0031177</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: malonyl-CoA +</Detail>
+      <Keyword>0004314</Keyword>
+      <Ontology_ID>GO</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: acyl-[acyl-carrier protein] + NADP+ = trans-2,3-dehydroacyl-[acyl-carrier protein] + NADPH + H+.</Detail>
+      <Keyword>Enoyl-[acyl-carrier-protein] reductase (NADPH, B-specific) activity</Keyword>
+      <Ontology_ID>GO:0004319</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: (3R)-3-hydroxypalmitoyl-[acyl-carrier protein] = 2-hexadecenoyl-[acyl-carrier protein] + H2O.</Detail>
+      <Keyword>3-hydroxypalmitoyl-[acyl-carrier-protein] dehydratase activity</Keyword>
+      <Ontology_ID>GO:0004317</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a cofactor, a substance that is required for the activity of an enzyme or other protein. Cofactors may be inorganic, such as the metal atoms zinc, iron, and copper in certain forms, or organic, in which case they are referred to as coenzymes. Cofactors may either be bound tightly to active sites or bind loosely with the substrate.</Detail>
+      <Keyword>Cofactor binding</Keyword>
+      <Ontology_ID>GO:0048037</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: myristoyl-[acyl-carrier protein] + H2O =</Detail>
+      <Keyword>Myristoyl-[acyl-carrier-protein] hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016295</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with zinc (Zn) ions.</Detail>
+      <Keyword>Zinc ion binding</Keyword>
+      <Ontology_ID>GO:0008270</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: acetyl-CoA +</Detail>
+      <Keyword>0004313</Keyword>
+      <Ontology_ID>GO</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: (3R)-3-hydroxyacyl-[acyl-carrier protein] + NADP+ = 3-oxoacyl-[acyl-carrier protein] + NADPH + H+.</Detail>
+      <Keyword>3-oxoacyl-[acyl-carrier-protein] reductase activity</Keyword>
+      <Ontology_ID>GO:0004316</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Enables the directed movement of acyl groups into, out of, within or between cells.</Detail>
+      <Keyword>Acyl carrier activity</Keyword>
+      <Ontology_ID>GO:0000036</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>1483</Position>
+      <Original>Val</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1888</Position>
+      <Original>Ile</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1694</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of a fatty acid, any of the aliphatic monocarboxylic acids that can be liberated by hydrolysis from naturally occurring fats and oils. Fatty acids are predominantly straight-chain acids of 4 to 24 carbon atoms, which may be saturated or unsaturated; branched fatty acids and hydroxy fatty acids also occur, and very long chain acids of over 30 carbons are found in waxes.</Detail>
+      <Keyword>Fatty acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006633</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of lipids, compounds soluble in an organic solvent but not, or sparingly, in an aqueous solvent.</Detail>
+      <Keyword>Lipid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008610</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of a long-chain fatty-acyl-CoA any derivative of coenzyme A in which the sulfhydryl group is in a thioester linkage with a long-chain fatty-acyl group. Long-chain fatty-acyl-CoAs have chain lengths ranging from C12-18.</Detail>
+      <Keyword>Long-chain fatty-acyl-CoA biosynthetic process</Keyword>
+      <Ontology_ID>GO:0035338</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways by which a cell derives energy from stored compounds such as fats or glycogen.</Detail>
+      <Keyword>Energy reserve metabolic process</Keyword>
+      <Ontology_ID>GO:0006112</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways by which individual cells transform chemical substances.</Detail>
+      <Keyword>Positive regulation of cellular metabolic process</Keyword>
+      <Ontology_ID>GO:0031325</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of a triglyceride, any triester of glycerol.</Detail>
+      <Keyword>Triglyceride biosynthetic process</Keyword>
+      <Ontology_ID>GO:0019432</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving pantothenate, the anion of pantothenic acid, the amide of beta-alanine and pantoic acid. It is a B complex vitamin that is a constituent of coenzyme A and is distributed ubiquitously in foods.</Detail>
+      <Keyword>Pantothenate metabolic process</Keyword>
+      <Ontology_ID>GO:0015939</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>70</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1704</Position>
+      <PTM_Type>N6-(pyridoxal phosphate)lysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>2156</Position>
+      <PTM_Type>O-(pantetheine 4'-phosphoryl)serine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>2204</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1704</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1</Position>
+      <PTM_Type>N-acetylmethionine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>2236</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>298</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1847</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>2198</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>528</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1752</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>207</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1771</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1995</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>673</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>436</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MEEVVIAGMSGKLPESENLQEFWDNLIGGVDMVTDDDRRWKAGLYGLPRRSGKLKDLSRFDASFFGVHPKQAHTMDPQLRLLLEVTYEAIVDGGINPDSLRGTHTGVWVGVSGSETSEALSRDPETLVGYSMVGCQRAMMANRLSFFFDFRGPSIALDTACSSSLMALQNAYQAIHSGQCPAAIVGGINVLLKPNTSVQFLRLGMLSPEGTCKAFDTAGNGYCRSEGVVAVLLTKKSLARRVYATILNAGTNTDGFKEQGVTFPSGDIQEQLIRSLYQSAGVAPESFEYIEAHGTGTKVGDPQELNGITRALCATRQEPLLIGSTKSNMGHPEPASGLAALAKVLLSLEHGLWAPNLHFHSPNPEIPALLDGRLQVVDQPLPVRGGNVGINSFGFGGSNVHIILRPNTQPPPAPAPHATLPRLLRASGRTPEAVQKLLEQGLRHSQDLAFLSMLNDIAAVPATAMPFRGYAVLGGERGGPEVQQVPAGERPLWFICSGMGTQWRGMGLSLMRLDRFRDSILRSDEAVKPFGLKVSQLLLSTDESTFDDIVHSFVSLTAIQIGLIDLLSCMGLRPDGIVGHSLGEVACGYADGCLSQEEAVLAAYWRGQCIKEAHLPPGAMAAVGLSWEECKQRCPPGVVPACHNSKDTVTISGPQAPVFEFVEQLRKEGVFAKEVRTGGMAFHSYFMEAIAPPLLQELKKVIREPKPRSARWLSTSIPEAQWHSSLARTSSAEYNVNNLVSPVLFQEALWHVPEHAVVLEIAPHALLQAVLKRGLKPSCTIIPLMKKDHRDNLEFFLAGIGRLHLSGIDANPNALFPPVEFPAPRGTPLISPLIKWDHSLAWDVPAAEDFPNGSGSPSAAIYNIDTSSESPDHYLVDHTLDGRVLFPATGYLSIVWKTLARALGLGVEQLPVVFEDVVLHQATILPKTGTVSLEVRLLEASRAFEVSENGNLVVSGKVYQWDDPDPRLFDHPESPTPNPTEPLFLAQAEVYKELRLRGYDYGPHFQGILEASLEGDSGRLLWKDNWVSFMDTMLQMSILGSAKHGLYLPTRVTAIHIDPATHRQKLYTLQDKAQVADVVVSRWLRVTVAGGVHISGLHTESAPRRQQEQQVPILEKFCFTPHTEEGCLSERAALQEELQLCKGLVQALQTKVTQQGLKMVVPGLDGAQIPRDPSQQELPRLLSAACRLQLNGNLQLELAQVLAQERPKLPEDPLLSGLLDSPALKACLDTAVENMPSLKMKVVEVLAGHGHLYSRIPGLLSPHPLLQLSYTATDRHPQALEAAQAELQQHDVAQGQWDPADPAPSALGSADLLVCNCAVAALGDPASALSNMVAALREGGFLLLHTLLRGHPLGDIVAFLTSTEPQYGQGILSQDAWESLFSRVSLRLVGLKKSFYGSTLFLCRRPTPQDSPIFLPVDDTSFRWVESLKGILADEDSSRPVWLKAINCATSGVVGLVNCLRREPGGNRLRCVLLSNLSSTSHVPEVDPGSAELQKVLQGDLVMNVYRDGAWGAFRHFLLEEDKPEEPTAHAFVSTLTRGDLSSIRWVCSSLRHAQPTCPGAQLCTVYYASLNFRDIMLATGKLSPDAIPGKWTSQDSLLGMEFSGRDASGKRVMGLVPAKGLATSVLLSPDFLWDVPSNWTLEEAASVPVVYSTAYYALVVRGRVRPGETLLIHSGSGGVGQAAIAIALSLGCRVFTTVGSAEKRAYLQARFPQLDSTSFANSRDTSFEQHVLWHTGGKGVDLVLNSLAEEKLQASVRCLATHGRFLEIGKFDLSQNHPLGMAIFLKNVTFHGVLLDAFFNESSADWREVWALVQAGIRDGVVRPLKCTVFHGAQVEDAFRYMAQGKHIGKVVVQVLAEEPEAVLKGAKPKLMSAISKTFCPAHKSYIIAGGLGGFGLELAQWLIQRGVQKLVLTSRSGIRTGYQAKQVRRWRRQGVQVQVSTSNISSLEGARGLIAEAAQLGPVGGVFNLAVVLRDGLLENQTPEFFQDVCKPKYSGTLNLDRVTREACPELDYFVVFSSVSCGRGNAGQSNYGFANSAMERICEKRRHEGLPGLAVQWGAIGDVGILVETMSTNDTIVSGTLPQRMASCLEVLDLFLNQPHMVLSSFVLAEKAAAYRDRDSQRDLVEAVAHILGIRDLAAVNLDSSLADLGLDSLMSVEVRQTLERELNLVLSVREVRQLTLRKLQELSSKADEASELACPTPKEDGLAQQQTQLNLRSLLVNPEGPTLMRLNSVQSSERPLFLVHPIEGSTTVFHSLASRLSIPTYGLQCTRAAPLDSIHSLAAYYIDCIRQVQPEGPYRVAGYSYGACVAFEMCSQLQAQQSPAPTHNSLFLFDGSPTYVLAYTQSYRAKLTPGCEAEAETEAICFFVQQFTDMEHNRVLEALLPLKGLEERVAAAVDLIIKSHQGLDRQELSFAARSFYYKLRAAEQYTPKAKYHGNVMLLRAKTGGAYGEDLGADYNLSQVCDGKVSVHVIEGDHRTLLEGSGLESIISIIHSSLAEPRVSVREG</Protein_Seq>
+    <DNA_Seq>GAGAGACGGCAGCGGCCCCGGCCTCCCTCTCCGCCGCGCTTCAGCCTCCCGCTCCGCCGCGCTCCAGCCTCGCTCTCCGCCGCCCGCACCGCCGCCCGCGCCCTCACCAGAGCAGCCATGGAGGAGGTGGTGATTGCCGGCATGTCCGGGAAGCTGCCAGAGTCGGAGAACTTGCAGGAGTTCTGGGACAACCTCATCGGCGGTGTGGACATGGTCACGGACGATGACCGTCGCTGGAAGGCGGGGCTCTACGGCCTGCCCCGGCGGTCCGGCAAGCTGAAGGACCTGTCTAGGTTTGATGCCTCCTTCTTCGGAGTCCACCCCAAGCAGGCACACACGATGGACCCTCAGCTGCGGCTGCTGCTGGAAGTCACCTATGAAGCCATCGTGGACGGAGGCATCAACCCAGATTCACTCCGAGGAACACACACTGGCGTCTGGGTGGGCGTGAGCGGCTCTGAGACCTCGGAGGCCCTGAGCCGAGACCCCGAGACACTCGTGGGCTACAGCATGGTGGGCTGCCAGCGAGCGATGATGGCCAACCGGCTCTCCTTCTTCTTCGACTTCAGAGGGCCCAGCATCGCACTGGACACAGCCTGCTCCTCCAGCCTGATGGCCCTGCAGAACGCCTACCAGGCCATCCACAGCGGGCAGTGCCCTGCCGCCATCGTGGGGGGCATCAATGTCCTGCTGAAGCCCAACACCTCCGTGCAGTTCTTGAGGCTGGGGATGCTCAGCCCCGAGGGCACCTGCAAGGCCTTCGACACAGCGGGGAATGGGTACTGCCGCTCGGAGGGTGTGGTGGCCGTCCTGCTGACCAAGAAGTCCCTGGCCCGGCGGGTGTACGCCACCATCCTGAACGCCGGCACCAATACAGATGGCTTCAAGGAGCAAGGCGTGACCTTCCCCTCAGGGGATATCCAGGAGCAGCTCATCCGCTCGTTGTACCAGTCGGCCGGAGTGGCCCCTGAGTCATTTGAATACATCGAAGCCCACGGCACAGGCACCAAGGTGGGCGACCCCCAGGAGCTGAATGGCATCACCCGAGCCCTGTGCGCCACCCGCCAGGAGCCGCTGCTCATCGGCTCCACCAAGTCCAACATGGGGCACCCGGAGCCAGCCTCGGGGCTGGCAGCCCTGGCCAAGGTGCTGCTGTCCCTGGAGCACGGGCTCTGGGCCCCCAACCTGCACTTCCATAGCCCCAACCCTGAGATCCCAGCGCTGTTGGATGGGCGGCTGCAGGTGGTGGACCAGCCCCTGCCCGTCCGTGGCGGCAACGTGGGCATCAACTCCTTTGGCTTCGGGGGCTCCAACGTGCACATCATCCTGAGGCCCAACACGCAGCCGCCCCCCGCACCCGCCCCACATGCCACCCTGCCCCGTCTGCTGCGGGCCAGCGGACGCACCCCTGAGGCCGTGCAGAAGCTGCTGGAGCAGGGCCTCCGGCACAGCCAGGACCTGGCTTTCCTGAGCATGCTGAACGACATCGCGGCTGTCCCCGCCACCGCCATGCCCTTCCGTGGCTACGCTGTGCTGGGTGGTGAGCGCGGTGGCCCAGAGGTGCAGCAGGTGCCCGCTGGCGAGCGCCCGCTCTGGTTCATCTGCTCTGGGATGGGCACACAGTGGCGCGGGATGGGGCTGAGCCTCATGCGCCTGGACCGCTTCCGAGATTCCATCCTACGCTCCGATGAGGCTGTGAAGCCATTCGGCCTGAAGGTGTCACAGCTGCTGCTGAGCACAGACGAGAGCACCTTTGATGACATCGTCCATTCGTTTGTGAGCCTGACTGCCATCCAGATAGGCCTCATAGACCTGCTGAGCTGCATGGGGCTGAGGCCAGATGGCATCGTCGGCCACTCCCTGGGGGAGGTGGCCTGTGGCTACGCCGACGGCTGCCTGTCCCAGGAGGAGGCCGTCCTCGCTGCCTACTGGAGGGGACAGTGCATCAAAGAAGCCCATCTCCCGCCGGGCGCCATGGCAGCCGTGGGCTTGTCCTGGGAGGAGTGTAAACAGCGCTGCCCCCCGGGCGTGGTGCCCGCCTGCCACAACTCCAAGGACACAGTCACCATCTCGGGACCTCAGGCCCCGGTGTTTGAGTTCGTGGAGCAGCTGAGGAAGGAGGGTGTGTTTGCCAAGGAGGTGCGGACCGGCGGTATGGCCTTCCACTCCTACTTCATGGAGGCCATCGCACCCCCACTGCTGCAGGAGCTCAAGAAGGTGATCCGGGAGCCGAAGCCACGTTCAGCCCGCTGGCTCAGCACCTCTATCCCCGAGGCCCAGTGGCACAGCAGCCTGGCACGCACGTCCTCCGCCGAGTACAATGTCAACAACCTGGTGAGCCCTGTGCTGTTCCAGGAGGCCCTGTGGCACGTGCCTGAGCACGCGGTGGTGCTGGAGATCGCGCCCCACGCCCTGCTGCAGGCTGTCCTGAAGCGTGGCCTGAAGCCGAGCTGCACCATCATCCCCCTGATGAAGAAGGATCACAGGGACAACCTGGAGTTCTTCCTGGCCGGCATCGGCAGGCTGCACCTCTCAGGCATCGACGCCAACCCCAATGCCTTGTTCCCACCTGTGGAGTTCCCAGCTCCCCGAGGAACTCCCCTCATCTCCCCACTCATCAAGTGGGACCACAGCCTGGCCTGGGACGTGCCGGCCGCCGAGGACTTCCCCAACGGTTCAGGTTCCCCCTCAGCCGCCATCTACAACATCGACACCAGCTCCGAGTCTCCTGACCACTACCTGGTGGACCACACCCTCGACGGTCGCGTCCTCTTCCCCGCCACTGGCTACCTGAGCATAGTGTGGAAGACGCTGGCCCGCGCCCTGGGCCTGGGCGTCGAGCAGCTGCCTGTGGTGTTTGAGGATGTGGTGCTGCACCAGGCCACCATCCTGCCCAAGACTGGGACAGTGTCCCTGGAGGTACGGCTCCTGGAGGCCTCCCGTGCCTTCGAGGTGTCAGAGAACGGCAACCTGGTAGTGAGTGGGAAGGTGTACCAGTGGGATGACCCTGACCCCAGGCTCTTCGACCACCCGGAAAGCCCCACCCCCAACCCCACGGAGCCCCTCTTCCTGGCCCAGGCTGAAGTTTACAAGGAGCTGCGTCTGCGTGGCTACGACTACGGCCCTCATTTCCAGGGCATCCTGGAGGCCAGCCTGGAAGGTGACTCGGGGAGGCTGCTGTGGAAGGATAACTGGGTGAGCTTCATGGACACCATGCTGCAGATGTCCATCCTGGGCTCGGCCAAGCACGGCCTGTACCTGCCCACCCGTGTCACCGCCATCCACATCGACCCTGCCACCCACAGGCAGAAGCTGTACACACTGCAGGACAAGGCCCAAGTGGCTGACGTGGTGGTGAGCAGGTGGCTGAGGGTCACAGTGGCCGGAGGCGTCCACATCTCCGGGCTCCACACTGAGTCGGCCCCGCGGCGGCAGCAGGAGCAGCAGGTGCCCATCCTGGAGAAGTTTTGCTTCACTCCCCACACGGAGGAGGGGTGCCTGTCTGAGCGCGCTGCCCTGCAGGAGGAGCTGCAACTGTGCAAGGGGCTGGTGCAGGCACTGCAGACCAAGGTGACCCAGCAGGGGCTGAAGATGGTGGTGCCCGGACTGGATGGGGCCCAGATCCCCCGGGACCCCTCACAGCAGGAACTGCCCCGGCTGTTGTCGGCTGCCTGCAGGCTTCAGCTCAACGGGAACCTGCAGCTGGAGCTGGCGCAGGTGCTGGCCCAGGAGAGGCCCAAGCTGCCAGAGGACCCTCTGCTCAGCGGCCTCCTGGACTCCCCGGCACTCAAGGCCTGCCTGGACACTGCCGTGGAGAACATGCCCAGCCTGAAGATGAAGGTGGTGGAGGTGCTGGCTGGCCACGGTCACCTGTATTCCCGCATCCCAGGCCTGCTCAGCCCCCATCCCCTGCTGCAGCTGAGCTACACGGCCACCGACCGCCACCCCCAGGCCCTGGAGGCTGCCCAGGCCGAGCTGCAGCAGCACGACGTTGCCCAGGGCCAGTGGGATCCCGCAGACCCTGCCCCCAGCGCCCTGGGCAGCGCCGACCTCCTGGTGTGCAACTGTGCTGTGGCTGCCCTCGGGGACCCGGCCTCAGCTCTCAGCAACATGGTGGCTGCCCTGAGAGAAGGGGGCTTTCTGCTCCTGCACACACTGCTCCGGGGGCACCCCCTCGGGGACATCGTGGCCTTCCTCACCTCCACTGAGCCGCAGTATGGCCAGGGCATCCTGAGCCAGGACGCGTGGGAGAGCCTCTTCTCCAGGGTGTCGCTGCGCCTGGTGGGCCTGAAGAAGTCCTTCTACGGCTCCACGCTCTTCCTGTGCCGCCGGCCCACCCCGCAGGACAGCCCCATCTTCCTGCCGGTGGACGATACCAGCTTCCGCTGGGTGGAGTCTCTGAAGGGCATCCTGGCTGACGAAGACTCTTCCCGGCCTGTGTGGCTGAAGGCCATCAACTGTGCCACCTCGGGCGTGGTGGGCTTGGTGAACTGTCTCCGCCGAGAGCCCGGCGGGAACCGCCTCCGGTGTGTGCTGCTCTCCAACCTCAGCAGCACCTCCCACGTCCCGGAGGTGGACCCGGGCTCCGCAGAACTGCAGAAGGTGTTGCAGGGAGACCTGGTGATGAACGTCTACCGCGACGGGGCCTGGGGGGCTTTCCGCCACTTCCTGCTGGAGGAGGACAAGCCTGAGGAGCCGACGGCACATGCCTTTGTGAGCACCCTCACCCGGGGGGACCTGTCCTCCATCCGCTGGGTCTGCTCCTCGCTGCGCCATGCCCAGCCCACCTGCCCTGGCGCCCAGCTCTGCACGGTCTACTACGCCTCCCTCAACTTCCGCGACATCATGCTGGCCACTGGCAAGCTGTCCCCTGATGCCATCCCAGGGAAGTGGACCTCCCAGGACAGCCTGCTAGGTATGGAGTTCTCGGGCCGAGACGCCAGCGGCAAGCGTGTGATGGGACTGGTGCCTGCCAAGGGCCTGGCCACCTCTGTCCTGCTGTCACCGGACTTCCTCTGGGATGTGCCTTCCAACTGGACGCTGGAGGAGGCGGCCTCGGTGCCTGTCGTCTACAGCACGGCCTACTACGCGCTGGTGGTGCGTGGGCGGGTGCGCCCCGGGGAGACGCTGCTCATCCACTCGGGCTCGGGCGGCGTGGGCCAGGCCGCCATCGCCATCGCCCTCAGTCTGGGCTGCCGCGTCTTCACCACCGTGGGGTCGGCTGAGAAGCGGGCGTACCTCCAGGCCAGGTTCCCCCAGCTCGACAGCACCAGCTTCGCCAACTCCCGGGACACATCCTTCGAGCAGCATGTGCTGTGGCACACGGGCGGGAAGGGCGTTGACCTGGTCTTGAACTCCTTGGCGGAAGAGAAGCTGCAGGCCAGCGTGAGGTGCTTGGCTACGCACGGTCGCTTCCTGGAAATTGGCAAATTCGACCTTTCTCAGAACCACCCGCTCGGCATGGCTATCTTCCTGAAGAACGTGACATTCCACGGGGTCCTACTGGATGCGTTCTTCAACGAGAGCAGTGCTGACTGGCGGGAGGTGTGGGCGCTTGTGCAGGCCGGCATCCGGGATGGGGTGGTACGGCCCCTCAAGTGCACGGTGTTCCATGGGGCCCAGGTGGAGGACGCCTTCCGCTACATGGCCCAAGGGAAGCACATTGGCAAAGTCGTCGTGCAGGTGCTTGCGGAGGAGCCGGAGGCAGTGCTGAAGGGGGCCAAACCCAAGCTGATGTCGGCCATCTCCAAGACCTTCTGCCCGGCCCACAAGAGCTACATCATCGCTGGTGGTCTGGGTGGCTTCGGCCTGGAGTTGGCGCAGTGGCTGATACAGCGTGGGGTGCAGAAGCTCGTGTTGACTTCTCGCTCCGGGATCCGGACAGGCTACCAGGCCAAGCAGGTCCGCCGGTGGAGGCGCCAGGGCGTACAGGTGCAGGTGTCCACCAGCAACATCAGCTCACTGGAGGGGGCCCGGGGCCTCATTGCCGAGGCGGCGCAGCTTGGGCCCGTGGGCGGCGTCTTCAACCTGGCCGTGGTCTTGAGAGATGGCTTGCTGGAGAACCAGACCCCAGAGTTCTTCCAGGACGTCTGCAAGCCCAAGTACAGCGGCACCCTGAACCTGGACAGGGTGACCCGAGAGGCGTGCCCTGAGCTGGACTACTTTGTGGTCTTCTCCTCTGTGAGCTGCGGGCGTGGCAATGCGGGACAGAGCAACTACGGCTTTGCCAATTCCGCCATGGAGCGTATCTGTGAGAAACGCCGGCACGAAGGCCTCCCAGGCCTGGCCGTGCAGTGGGGCGCCATCGGCGACGTGGGCATTTTGGTGGAGACGATGAGCACCAACGACACGATCGTCAGTGGCACGCTGCCCCAGCGCATGGCGTCCTGCCTGGAGGTGCTGGACCTCTTCCTGAACCAGCCCCACATGGTCCTGAGCAGCTTTGTGCTGGCTGAGAAGGCTGCGGCCTATAGGGACAGGGACAGCCAGCGGGACCTGGTGGAGGCCGTGGCACACATCCTGGGCATCCGCGACTTGGCTGCTGTCAACCTGGACAGCTCACTGGCGGACCTGGGCCTGGACTCGCTCATGAGCGTGGAGGTGCGCCAGACGCTGGAGCGTGAGCTCAACCTGGTGCTGTCCGTGCGCGAGGTGCGGCAACTCACGCTCCGGAAACTGCAGGAGCTGTCCTCAAAGGCGGATGAGGCCAGCGAGCTGGCATGCCCCACGCCCAAGGAGGATGGTCTGGCCCAGCAGCAGACTCAGCTGAACCTGCGCTCCCTGCTGGTGAACCCGGAGGGCCCCACCCTGATGCGGCTCAACTCCGTGCAGAGCTCGGAGCGGCCCCTGTTCCTGGTGCACCCAATCGAGGGCTCCACCACCGTGTTCCACAGCCTGGCCTCCCGGCTCAGCATCCCCACCTATGGCCTGCAGTGCACCCGAGCTGCGCCCCTTGACAGCATCCACAGCCTGGCTGCCTACTACATCGACTGCATCAGGCAGGTGCAGCCCGAGGGCCCCTACCGCGTGGCCGGCTACTCCTACGGGGCCTGCGTGGCCTTTGAAATGTGCTCCCAGCTGCAGGCCCAGCAGAGCCCAGCCCCCACCCACAACAGCCTCTTCCTGTTCGACGGCTCGCCCACCTACGTACTGGCCTACACCCAGAGCTACCGGGCAAAGCTGACCCCAGGCTGTGAGGCTGAGGCTGAGACGGAGGCCATATGCTTCTTCGTGCAGCAGTTCACGGACATGGAGCACAACAGGGTGCTGGAGGCGCTGCTGCCGCTGAAGGGCCTAGAGGAGCGTGTGGCAGCCGCCGTGGACCTGATCATCAAGAGCCACCAGGGCCTGGACCGCCAGGAGCTGAGCTTTGCGGCCCGGTCCTTCTACTACAAGCTGCGTGCCGCTGAGCAGTACACACCCAAGGCCAAGTACCATGGCAACGTGATGCTACTGCGCGCCAAGACGGGTGGCGCCTACGGCGAGGACCTGGGCGCGGACTACAACCTCTCCCAGGTATGCGACGGGAAAGTATCCGTCCACGTCATCGAGGGTGACCACCGCACGCTGCTGGAGGGCAGCGGCCTGGAGTCCATCATCAGCATCATCCACAGCTCCCTGGCTGAGCCACGCGTGAGCGTGCGGGAGGGCTAGGCCCGTGCCCCCGCCTGCCACCGGAGGTCACTCCACCATCCCCACCCCACCCCACCCCACCCCCGCCATGCAACGGGATTGAAGGGTCCTGCCGGTGGGACCCTGTCCGGCCCAGTGCCACTGCCCCCCGAGGCTGCTAGATGTAGGTGTTAGGCATGTCCCACCCACCCGCCGCCTCCCACGGCACCTCGGGGACACCAGAGCTGCCGACTTGGAGACTCCTGGTCTGTGAAGAGCCGGTGGTGCCCGTGCCCGCAGGAACTGGGCTGGGCCTCGTGCGCCCGTGGGGTCTGCGCTTGGTCTTTCTGTGCTTGGATTTGCATATTTATTGCATTGCTGGTAGAGACCCCCAGGCCTGTCCACCCTGCCAAGACTCCTCAGGCAGCGTGTGGGTCCCGCACTCTGCCCCCATTTCCCCGATGTCCCCTGCGGGCGCGGGCAGCCACCCAAGCCTGCTGGCTGCGGCCCCCTCTCGGCCAGGCATTGGCTCAGCCCGCTGAGTGGGGGGTCGTGGGCCAGTCCCCGAGGAGCTGGGCCCCTGCACAGGCACACAGGGCCCGGCCACACCCAGCGGCCCCCCGCACAGCCACCCGTGGGGTGCTGCCCTTATGCCCGGCGCCGGGCACCAACTCCATGTTTGGTGTTTGTCTGTGTTTGTTTTTCAAGAAATGATTCAAATTGCTGCTTGGATTTTGAAATTTACTGTAACTGTCAGTGTACACGTCTGGACCCCGTTTCATTTTTACACCAATTTGGTAAAAATGCTGCTCTCAGCCTCCCACAATTAAACCGCATGTGATCTCCAAAAAAAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Golgi apparatus</CellLocal>
+      <Ontology_ID>GO:0005794</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Melanosome</CellLocal>
+      <Ontology_ID>GO:0042470</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>FASN</Gene_Name>
+    <Gene_Alias>FAS</Gene_Alias>
+    <Gene_ID>2194</Gene_ID>
+    <Genbank_ACCN>NM_004104</Genbank_ACCN>
+    <Protein_ACCN>NP_004095</Protein_ACCN>
+    <HGNC_ID>3594</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/2194</Gene_URL>
+    <UCSC_ID>uc002kdu.3</UCSC_ID>
+    <EMBL_ID>ENSG00000169710</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Insulin Resistance</Disease_Name>
+      <Disease_Detail>Insulin Resistance</Disease_Detail>
+      <Disease_DB>INS005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/insulin_resistance?search=FASN#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Trophoblastic Neoplasm</Disease_Name>
+      <Disease_Detail>Trophoblastic Neoplasm</Disease_Detail>
+      <Disease_DB>TRP005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/trophoblastic_neoplasm?search=FASN#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Obesity</Disease_Name>
+      <Disease_Detail>Obesity</Disease_Detail>
+      <Disease_DB>OBS005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/obesity?search=FASN#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS047</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer?search=FASN#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Prostate Cancer</Disease_Name>
+      <Disease_Detail>Prostate Cancer</Disease_Detail>
+      <Disease_DB>PRS040</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/prostate_cancer?search=FASN#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE MAT DOMAIN OF HUMAN FAS WITH MALONYL-COA</PDB_Title>
+      <PDB_ID>2JFK</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JFK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the MAT Domain of Human Fas with Malonyl-Coa</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Human Fatty Acid Synthase Thioesterase Domain with an Activate Site-Specific Polyunsaturated Fatty Acyl Adduct</PDB_Title>
+      <PDB_ID>3TJM</PDB_ID>
+      <Resolution>1.48</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3TJM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of FAS thioesterase domain with polyunsaturated fatty acyl adduct and inhibition by dihomo-gamma-linolenic acid.</PubMed_Title>
+      <Author>Zhang, W., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2011)108:15757-15762</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21908709?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the thioesterase domain of human fatty acid synthase inhibited by Orlistat</PDB_Title>
+      <PDB_ID>2PX6</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PX6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the thioesterase domain of human fatty acid synthase inhibited by Orlistat.</PubMed_Title>
+      <Author>Pemble, C.W., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:704-709</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17618296?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF AMINOADIPATE-SEMIALDEHYDE DEHYDROGENASE-PHOSPHOPANTETHEINYL TRANSFERASE IN COMPLEX WITH CYTOSOLIC ACYL CARRIER PROTEIN AND COENZYME A</PDB_Title>
+      <PDB_ID>2CG5</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CG5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanism and Substrate Recognition of Human Holo Acp Synthase.</PubMed_Title>
+      <Author>Bunkoczi, G., et al.</Author>
+      <Journal>Chem.Biol.(2007)14:1243</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18022563?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human fatty acid synthase: Structure and substrate selectivity of the thioesterase domain</PDB_Title>
+      <PDB_ID>1XKT</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XKT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Human fatty acid synthase: structure and substrate selectivity of the thioesterase domain.</PubMed_Title>
+      <Author>Chakravarty, B., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2004)101:15567-15572</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15507492?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE MAT DOMAIN OF HUMAN FAS</PDB_Title>
+      <PDB_ID>2JFD</PDB_ID>
+      <Resolution>2.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JFD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the MAT Domain of Human Fas</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the Human Fatty Acid Synthase KS-MAT Didomain as a Framework for Inhibitor Design.</PDB_Title>
+      <PDB_ID>3HHD</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HHD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the human fatty acid synthase KS-MAT didomain as a framework for inhibitor design.</PubMed_Title>
+      <Author>Pappenberger, G., et al.</Author>
+      <Journal>J.Mol.Biol.(2010)397:508-519</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20132826?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04910</Pathway_ID>
+      <Pathway_Title>Insulin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01212</Pathway_ID>
+      <Pathway_Title>Fatty acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04152</Pathway_ID>
+      <Pathway_Title>AMPK signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00061</Pathway_ID>
+      <Pathway_Title>Fatty acid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.baa.b.cj.e.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1xkt</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.3.1.85</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/3/1/85.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 2.3.1.38</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 2/3/1/38.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 2.3.1.39</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 2/3/1/39.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 2.3.1.41</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 2/3/1/41.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 1.1.1.100</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 1/1/1/100.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 4.2.1.61</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 4/2/1/61.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 1.3.1.10</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 1/3/1/10.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 3.1.2.14</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 3/1/2/14.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01500001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07800001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

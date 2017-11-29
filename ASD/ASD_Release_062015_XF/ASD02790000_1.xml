@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02790000_1</Organism_ID>
+  <Organism>Mouse-ear cress</Organism>
+  <Organism_Latin>Arabidopsis thaliana</Organism_Latin>
+  <UniProt_ID>Q9S7B5</UniProt_ID>
+  <Seq_Length>526</Seq_Length>
+  <Molecule_Weight>57777</Molecule_Weight>
+  <KEGG_ID>ath:AT4G29840</KEGG_ID>
+  <Orthology_ID>K01733</Orthology_ID>
+  <Function_Summary>Catalyzes the gamma-elimination of phosphate from L-phosphohomoserine and the beta-addition of water to produce L-threonine.</Function_Summary>
+  <Catalytic_Mechanism>O-phospho-L-homoserine + H(2)O = L-threonine + phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00291:PALP</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Chloroplastic</Alias>
+      <Alias>Threonine synthase 1</Alias>
+      <Alias>Protein METHIONINE OVER-ACCUMULATOR 2</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with pyridoxal 5' phosphate, 3-hydroxy-5-(hydroxymethyl)-2-methyl4-pyridine carboxaldehyde 5' phosphate, the biologically active form of vitamin B6.</Detail>
+      <Keyword>Pyridoxal phosphate binding</Keyword>
+      <Ontology_ID>GO:0030170</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: O-phospho-L-homoserine + H2O = L-threonine + phosphate.</Detail>
+      <Keyword>Threonine synthase activity</Keyword>
+      <Ontology_ID>GO:0004795</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of threonine (2-amino-3-hydroxybutyric acid), a polar, uncharged, essential amino acid found in peptide linkage in proteins.</Detail>
+      <Keyword>Threonine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009088</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>203</Position>
+      <PTM_Type>N6-(pyridoxal phosphate)lysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MASSCLFNASVSSLNPKQDPIRRHRSTSLLRHRPVVISCTADGNNIKAPIETAVKPPHRTEDNIRDEARRNRSNAVNPFSAKYVPFNAAPGSTESYSLDEIVYRSRSGGLLDVEHDMEALKRFDGAYWRDLFDSRVGKSTWPYGSGVWSKKEWVLPEIDDDDIVSAFEGNSNLFWAERFGKQFLGMNDLWVKHCGISHTGSFKDLGMTVLVSQVNRLRKMKRPVVGVGCASTGDTSAALSAYCASAGIPSIVFLPANKISMAQLVQPIANGAFVLSIDTDFDGCMKLIREITAELPIYLANSLNSLRLEGQKTAAIEILQQFDWQVPDWVIVPGGNLGNIYAFYKGFKMCQELGLVDRIPRMVCAQAANANPLYLHYKSGWKDFKPMTASTTFASAIQIGDPVSIDRAVYALKKCNGIVEEATEEELMDAMAQADSTGMFICPHTGVALTALFKLRNQGVIAPTDRTVVVSTAHGLKFTQSKIDYHSNAIPDMACRFSNPPVDVKADFGAVMDVLKSYLGSNTLTS</Protein_Seq>
+    <DNA_Seq>GATGTAATTGTTCATTTTCCATCAAATTCCTCTGGATGCAGTATTTAATTGATTACAAATTTGGCCAACTTACACATTGTTACTACTAGAGTTTCAATCTATATCATGATGGTGTATTGGTGTTATATCAAAATTAAAACGTGATTCTTATGTGAATTTTTATGTTCAACATTATTGTTTTCTTTGGGTCAAATGTAACCTTTTATCTTTTTGTCATCAACATGAATGTTCCTTATAACATGCACTTTATTAGCCTGTTTAAAGCAAAACGTGACAAAACATAAATATTCAATTGCTATATACGGAAAGCGATCCAGATATTTGAATGATTAATGGGCCCAAAATATCTCTCTACGTCACATACATAATCCCAATTAACCTAAAAGCTTAAACCGACTAGCCGGTTCTAAGACATTTCCGGTTTAAGTATCTGAATATAGTTTTCTCTCTCTCTCACTCGTGTCCTCTCCTCAAAATCCTCAGCCGCATCTCACTTCTCATTCTCTAGAAAAAATGGCTTCGTCTTGTCTCTTCAATGCCTCTGTATCGTCCTTAAACCCTAAACAAGACCCCATCCGCCGCCACCGGTCAACCTCTCTCCTCCGCCACCGCCCCGTCGTCATCTCCTGTACCGCCGATGGCAACAACATCAAAGCCCCGATCGAGACAGCGGTCAAGCCTCCTCACCGTACCGAGGATAACATTCGAGATGAGGCTCGTCGTAATCGTTCCAACGCCGTGAATCCATTTTCAGCTAAATACGTTCCGTTTAATGCAGCTCCTGGATCCACGGAGTCTTACTCTCTCGACGAGATCGTGTACCGTAGCCGCTCCGGTGGTTTGCTTGATGTCGAACACGATATGGAGGCTTTGAAGCGATTCGATGGCGCGTATTGGCGTGATCTCTTCGATTCGCGTGTTGGTAAAAGCACATGGCCTTATGGATCGGGTGTTTGGTCGAAGAAAGAGTGGGTTCTTCCTGAGATCGATGACGACGACATCGTTTCAGCTTTTGAAGGAAACTCGAATCTGTTCTGGGCAGAGAGATTTGGTAAGCAGTTTCTAGGTATGAATGATCTGTGGGTGAAACACTGTGGGATTAGTCATACAGGAAGTTTCAAGGATCTTGGAATGACTGTTTTGGTTAGTCAAGTTAATCGTCTGAGAAAGATGAAACGACCTGTGGTTGGTGTCGGATGTGCTTCCACCGGAGATACTTCTGCTGCTCTATCTGCTTACTGCGCCTCCGCTGGAATCCCATCGATTGTGTTTTTACCGGCGAACAAGATCTCTATGGCTCAGCTGGTTCAGCCGATAGCTAATGGTGCGTTTGTTTTGAGTATTGACACTGATTTTGATGGGTGTATGAAGCTGATTAGAGAGATAACTGCGGAATTGCCGATTTATTTGGCGAATTCGTTGAATAGTTTGAGGTTAGAAGGGCAGAAAACTGCAGCTATTGAGATTTTGCAGCAGTTTGATTGGCAAGTTCCTGATTGGGTGATTGTTCCTGGAGGTAACCTAGGAAACATCTATGCCTTTTACAAAGGGTTTAAGATGTGTCAAGAACTGGGACTTGTCGATAGGATCCCGAGGATGGTCTGTGCACAAGCAGCTAATGCTAATCCTCTTTACTTGCACTACAAGTCTGGTTGGAAGGACTTCAAGCCCATGACTGCAAGTACCACTTTCGCCTCTGCGATTCAGATCGGTGACCCTGTCTCCATCGATAGAGCTGTGTACGCTCTCAAGAAGTGCAATGGTATTGTAGAAGAAGCCACAGAGGAGGAGCTGATGGATGCGATGGCTCAAGCGGATTCGACAGGAATGTTTATCTGTCCTCATACAGGTGTTGCTCTAACTGCTCTGTTCAAGCTGAGGAATCAAGGAGTGATTGCACCGACTGATCGAACTGTGGTAGTGAGTACTGCTCATGGGTTGAAGTTTACTCAGTCTAAGATAGATTATCACTCCAATGCCATCCCTGACATGGCTTGCAGATTCTCCAATCCTCCTGTTGATGTGAAAGCAGATTTCGGAGCTGTCATGGATGTTCTCAAGAGTTACTTAGGAAGTAATACACTTACGTCATAAGAGACAAGACCATAATCTTTAGCTGTTTTGTTTTTTGAAAACTTTTAGACGTTTGTTTGCGTTACTCTTCAACTCATCTCTCTGTGATCTTTATCTGTTTCTCAGTTTTCCAATAAAGTTCTATCGCAAAGTTTGAATC</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Chloroplast</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plastid</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>TS1</Gene_Name>
+    <Gene_Alias>MTO2</Gene_Alias>
+    <Gene_ID>829106</Gene_ID>
+    <Genbank_ACCN>NM_119130</Genbank_ACCN>
+    <Protein_ACCN>NP_194713</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/829106</Gene_URL>
+    <EMBL_ID>AT4G29840</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTALLOGRAPHIC STRUCTURE OF ARABIDOPSIS THALIANA THREONINE SYNTHASE COMPLEXED WITH PYRIDOXAL PHOSPHATE AND S-ADENOSYLMETHIONINE</PDB_Title>
+      <PDB_ID>2C2B</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C2B</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00350007</ASD_Ligand>
+      <Ligand_Name>S-ADENOSYLMETHIONINE$2-AMINO-2-HYDROXYMETHYL-PROPANE-1,3-DIOL</Ligand_Name>
+      <PubMed_Title>Allosteric threonine synthase. Reorganization of the pyridoxal phosphate site upon asymmetric activation through S-adenosylmethionine binding to a novel site</PubMed_Title>
+      <Author>Mas-Droux C, et al.</Author>
+      <Journal>J Biol Chem. 2006 Feb 24;281(8):5188-96. Epub 2005 Nov 29.</Journal>
+      <PubMed_ID>16319072</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THREONINE SYNTHASE FROM ARABIDOPSIS THALIANA</PDB_Title>
+      <PDB_ID>1E5X</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1E5X</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>SELENOMETHIONINE$SELENOMETHIONINE SELENOXIDE</Ligand_Name>
+      <PubMed_Title>Crystal structure of threonine synthase from Arabidopsis thaliana.</PubMed_Title>
+      <Author>Thomazeau K, et al.</Author>
+      <Journal>Protein Sci. 2001 Mar;10(3):638-48.</Journal>
+      <PubMed_ID>11344332</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THREONINE SYNTHASE FROM ARABIDOPSIS THALIANA IN COMPLEX WITH ITS COFACTOR PYRIDOXAL PHOSPHATE</PDB_Title>
+      <PDB_ID>2C2G</PDB_ID>
+      <Resolution>2.61</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C2G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-LYSINE(3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHANE)</Ligand_Name>
+      <PubMed_Title>Allosteric threonine synthase. Reorganization of the pyridoxal phosphate site upon asymmetric activation through S-adenosylmethionine binding to a novel site</PubMed_Title>
+      <Author>Mas-Droux C, et al.</Author>
+      <Journal>J Biol Chem. 2006 Feb 24;281(8):5188-96. Epub 2005 Nov 30.</Journal>
+      <PubMed_ID>16319072</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00750</Pathway_ID>
+      <Pathway_Title>Vitamin B6 metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00260</Pathway_ID>
+      <Pathway_Title>Glycine, serine and threonine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.bbh.b.b.bc.html</SCOP_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,141,Trp;site,165,Ser;site,142,Pro;site,144,Gly;site,172,Asn;site,173,Leu;site,190,Trp;site,187,Asn;site,181,Lys</Site_Detail>
+      <Site_Reference>Mas-Droux C, et al.J Biol Chem. 2006,281(8):5188-5196.</Site_Reference>
+      <Site_Type>Two-site allosteric model</Site_Type>
+      <PDB_ID>2C2B</PDB_ID>
+      <PubMed_ID>16319072</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.2.3.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/2/3/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00350007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02790001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

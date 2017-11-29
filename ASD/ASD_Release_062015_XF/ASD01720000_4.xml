@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01720000_4</Organism_ID>
+  <Organism>Baker's yeast</Organism>
+  <Organism_Latin>Saccharomyces cerevisiae</Organism_Latin>
+  <UniProt_ID>P28241</UniProt_ID>
+  <Seq_Length>369</Seq_Length>
+  <Molecule_Weight>39739</Molecule_Weight>
+  <KEGG_ID>sce:YOR136W</KEGG_ID>
+  <Orthology_ID>K00030</Orthology_ID>
+  <EBI_ID>EBI-8883</EBI_ID>
+  <Function_Summary>Performs an essential role in the oxidative function of the citric acid cycle. Also binds RNA; specifically to the 5'-untranslated leaders of mitochondrial mRNAs.</Function_Summary>
+  <Catalytic_Mechanism>Isocitrate + NAD(+) = 2-oxoglutarate + CO(2) + NADH.</Catalytic_Mechanism>
+  <Pfam_ID>PF00180:Iso_dh</Pfam_ID>
+  <Allosteric_Activator_Count>20</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>6</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>4</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>NAD(+)-specific ICDH</Alias>
+      <Alias>Isocitric dehydrogenase</Alias>
+      <Alias>Isocitrate dehydrogenase [NAD] subunit 2, mitochondrial</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: isocitrate + NAD+ = 2-oxoglutarate + CO2 + NADH + H+.</Detail>
+      <Keyword>Isocitrate dehydrogenase (NAD+) activity</Keyword>
+      <Ontology_ID>GO:0004449</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an RNA molecule or a portion thereof.</Detail>
+      <Keyword>RNA binding</Keyword>
+      <Ontology_ID>GO:0003723</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with nicotinamide adenine dinucleotide, a coenzyme involved in many redox and biosynthetic reactions; binding may be to either the oxidized form, NAD+, or the reduced form, NADH.</Detail>
+      <Keyword>NAD binding</Keyword>
+      <Ontology_ID>GO:0051287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of glutamate, the anion of 2-aminopentanedioic acid.</Detail>
+      <Keyword>Glutamate biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006537</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving isocitrate, the anion of isocitric acid, 1-hydroxy-1,2,3-propanetricarboxylic acid. Isocitrate is an important intermediate in the TCA cycle and the glycoxylate cycle.</Detail>
+      <Keyword>Isocitrate metabolic process</Keyword>
+      <Ontology_ID>GO:0006102</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A nearly universal metabolic pathway in which the acetyl group of acetyl coenzyme A is effectively oxidized to two CO2 and four pairs of electrons are transferred to coenzymes. The acetyl group combines with oxaloacetate to form citrate, which undergoes successive transformations to isocitrate, 2-oxoglutarate, succinyl-CoA, succinate, fumarate, malate, and oxaloacetate again, thus completing the cycle. In eukaryotes the tricarboxylic acid is confined to the mitochondria. See also glyoxylate cycle.</Detail>
+      <Keyword>Tricarboxylic acid cycle</Keyword>
+      <Ontology_ID>GO:0006099</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>360</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>153</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>349</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>105</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MLRNTFFRNTSRRFLATVKQPSIGRYTGKPNPSTGKYTVSFIEGDGIGPEISKSVKKIFSAANVPIEWESCDVSPIFVNGLTTIPDPAVQSITKNLVALKGPLATPIGKGHRSLNLTLRKTFGLFANVRPAKSIEGFKTTYENVDLVLIRENTEGEYSGIEHIVCPGVVQSIKLITRDASERVIRYAFEYARAIGRPRVIVVHKSTIQRLADGLFVNVAKELSKEYPDLTLETELIDNSVLKVVTNPSAYTDAVSVCPNLYGDILSDLNSGLSAGSLGLTPSANIGHKISIFEAVHGSAPDIAGQDKANPTALLLSSVMMLNHMGLTNHADQIQNAVLSTIASGPENRTGDLAGTATTSSFTEAVIKRL</Protein_Seq>
+    <DNA_Seq>ATGTTGAGAAATACTTTTTTTAGAAACACCTCGAGGAGGTTTTTGGCTACTGTAAAGCAACCTTCAATCGGAAGATATACCGGCAAACCTAACCCTTCTACCGGCAAATACACGGTCTCGTTCATTGAAGGTGATGGTATCGGACCTGAAATTTCCAAGTCTGTAAAGAAAATCTTTAGTGCAGCAAACGTCCCCATAGAATGGGAATCTTGTGATGTTAGCCCTATCTTTGTCAACGGATTAACGACCATTCCTGACCCTGCCGTACAATCTATCACAAAAAACCTGGTTGCACTAAAAGGTCCACTAGCTACACCTATTGGTAAAGGTCACAGATCTTTGAATTTGACATTGAGAAAAACATTTGGGTTATTTGCCAACGTTCGTCCCGCAAAGTCTATTGAAGGTTTTAAGACCACTTACGAAAACGTTGATTTAGTTCTTATCAGAGAGAATACCGAAGGTGAATATTCTGGTATCGAACACATAGTTTGCCCTGGCGTTGTTCAATCTATTAAACTGATCACAAGAGATGCCTCTGAGCGAGTCATTAGATACGCTTTTGAATATGCAAGAGCCATCGGCAGACCAAGAGTTATTGTGGTACATAAATCTACTATCCAGAGATTAGCTGATGGTTTATTCGTTAATGTTGCCAAAGAACTATCCAAAGAGTATCCTGACCTTACTTTAGAAACTGAACTTATTGATAACAGTGTGTTAAAGGTGGTCACCAACCCATCTGCTTACACAGACGCTGTTTCTGTTTGTCCAAATCTATACGGTGATATCTTGTCCGACTTGAACTCTGGTTTGAGCGCCGGTTCTTTAGGTTTAACTCCATCTGCCAATATTGGTCATAAAATCTCGATCTTTGAAGCTGTCCATGGCTCTGCCCCTGATATTGCCGGTCAAGATAAAGCGAATCCAACTGCCCTACTTTTATCTTCAGTAATGATGTTAAACCACATGGGTCTAACGAATCATGCTGACCAAATTCAAAATGCAGTATTGTCTACTATCGCATCAGGTCCAGAAAACAGAACAGGTGACTTGGCTGGTACTGCTACTACTTCATCATTCACTGAAGCAGTCATCAAGAGATTATAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondria</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>IDH2</Gene_Name>
+    <Gene_ID>854303</Gene_ID>
+    <Genbank_ACCN>NM_001183555</Genbank_ACCN>
+    <Protein_ACCN>NP_014779</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/854303</Gene_URL>
+    <EMBL_ID>YOR136W</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P28834</Uniprot_ID>
+      <Gene_Name>IDH1</Gene_Name>
+      <EBI_ID>EBI-8878</EBI_ID>
+      <PPI_EBI_URL>EBI-8883,EBI-8878</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Yeast Isocitrate Dehydrogenase (Apo Form)</PDB_Title>
+      <PDB_ID>3BLX</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=3BLX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Allosteric motions in structures of yeast NAD+-specific isocitrate dehydrogenase</PubMed_Title>
+      <Author>Taylor AB, et al.</Author>
+      <Journal>J Biol Chem. 2008 Apr 18;283(16):10872-80</Journal>
+      <PubMed_ID>18256028</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast Isocitrate Dehydrogenase with Citrate Bound in the Regulatory Subunits</PDB_Title>
+      <PDB_ID>3BLV</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=3BLV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>CITRATE ANION</Ligand_Name>
+      <PubMed_Title>Allosteric motions in structures of yeast NAD+-specific isocitrate dehydrogenase</PubMed_Title>
+      <Author>Taylor AB, et al.</Author>
+      <Journal>J Biol Chem. 2008 Apr 18;283(16):10872-80</Journal>
+      <PubMed_ID>18256028</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Yeast Isocitrate Dehydrogenase with Citrate and AMP Bound in the Regulatory Subunits</PDB_Title>
+      <PDB_ID>3BLW</PDB_ID>
+      <Resolution>4.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=3BLW</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00030001</ASD_Ligand>
+      <Ligand_Name>CITRATE ANION$ADENOSINE MONOPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Allosteric motions in structures of yeast NAD+-specific isocitrate dehydrogenase</PubMed_Title>
+      <Author>Taylor AB, et al.</Author>
+      <Journal>J Biol Chem. 2008 Apr 18;283(16):10872-80</Journal>
+      <PubMed_ID>18256028</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00720</Pathway_ID>
+      <Pathway_Title>Carbon fixation pathways in prokaryotes</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00020</Pathway_ID>
+      <Pathway_Title>Citrate cycle (TCA cycle)</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01210</Pathway_ID>
+      <Pathway_Title>2-Oxocarboxylic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01210</Pathway_ID>
+      <Pathway_Title>2-Oxocarboxylic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01210</Pathway_ID>
+      <Pathway_Title>2-Oxocarboxylic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00480</Pathway_ID>
+      <Pathway_Title>Glutathione metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of other amino acids</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00020</Pathway_ID>
+      <Pathway_Title>Citrate cycle (TCA cycle)</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/3blx</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Taylor AB, et al. J Biol Chem. 2008,283(16):10872-10880.;Anderson SL, et al. Biochemistry. 2000,39(19):5623-5629.</Site_Reference>
+      <Site_Type>Two-site allosteric model; RNA-induced</Site_Type>
+      <PDB_ID>3BLV;3BLW</PDB_ID>
+      <PubMed_ID>18256028;10801312</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.1.1.41</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/41.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00030001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240008</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00360007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00710001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00860009</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00870006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01240010</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720005</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720008</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720012</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720013</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720014</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720015</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720016</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720017</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720018</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720019</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720023</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720024</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720025</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720026</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720027</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

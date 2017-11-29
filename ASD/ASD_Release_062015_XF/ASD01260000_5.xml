@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01260000_5</Organism_ID>
+  <Organism>Sus scrofa domesticus</Organism>
+  <Organism_Latin>Sus scrofa domesticus</Organism_Latin>
+  <UniProt_ID>Q7M2K2</UniProt_ID>
+  <Seq_Length>10</Seq_Length>
+  <Molecule_Weight>1004</Molecule_Weight>
+  <Allosteric_Activator_Count>8</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>3</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Glyceraldehyde-3-phosphate dehydrogenase (Phosphorylating)</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: D-glyceraldehyde 3-phosphate + phosphate + NAD+ = 3-phospho-D-glyceroyl phosphate + NADH + H+.</Detail>
+      <Keyword>Glyceraldehyde-3-phosphate dehydrogenase (phosphorylating) activity</Keyword>
+      <Ontology_ID>GO:0004365</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Molecule_Seq>
+    <Protein_Seq>GKVKVGVNGF</Protein_Seq>
+  </Molecule_Seq>
+  <molGene/>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Glyceraldehyde-3-phosphate dehydrogenase (Phosphorylating)</PDB_Title>
+      <PDB_ID>ASD01260000_5</PDB_ID>
+      <Resolution>-1.0</Resolution>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00010</Pathway_ID>
+      <Pathway_Title>Glycolysis / Gluconeogenesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00710</Pathway_ID>
+      <Pathway_Title>Carbon fixation in photosynthetic organisms</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05010</Pathway_ID>
+      <Pathway_Title>Alzheimer's disease</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Selwood T, et al. Arch Biochem Biophys. 2012,519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PubMed_ID>22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00030001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00200001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00360004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260005</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260009</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260013</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04400004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-11-07</Create_Date>
+</Organism_Record>

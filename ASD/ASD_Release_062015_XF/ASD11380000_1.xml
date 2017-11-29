@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11380000_1</Organism_ID>
+  <Organism>Pyrococcus horikoshii</Organism>
+  <Organism_Latin>Pyrococcus horikoshii</Organism_Latin>
+  <UniProt_ID>O59413</UniProt_ID>
+  <Seq_Length>166</Seq_Length>
+  <Molecule_Weight>18624</Molecule_Weight>
+  <KEGG_ID>pho:PH1704</KEGG_ID>
+  <Orthology_ID>K05520</Orthology_ID>
+  <Pfam_ID>PF01965:DJ-1_PfpI</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Intracellular protease I</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of any glycosyl bond.</Detail>
+      <Keyword>Hydrolase activity, acting on glycosyl bonds</Keyword>
+      <Ontology_ID>GO:0016798</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds.</Detail>
+      <Keyword>Proteolysis</Keyword>
+      <Ontology_ID>GO:0006508</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKVLFLTANEFEDVELIYPYHRLKEEGHEVYIASFERGTITGKHGYSVKVDLTFDKVNPEEFDALVLPGGRAPERVRLNEKAVSIARKMFSEGKPVASICHGPQILISAGVLRGRKGTSYPGIKDDMINAGVEWVDAEVVVDGNWVSSRVPADLYAWMREFVKLLK</Protein_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Others</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>pfpI</Gene_Name>
+    <Gene_ID>1442551</Gene_ID>
+    <Genbank_ACCN>NC_000961</Genbank_ACCN>
+    <Protein_ACCN>NP_143548</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1442551</Gene_URL>
+    <EMBL_ID>BAA30818</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF A NOVEL INTRACELLULAR PROTEASE FROM PYROCOCCUS HORIKOSHII AT 2 A RESOLUTION</PDB_Title>
+      <PDB_ID>1G2I</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G2I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of an intracellular protease from Pyrococcus horikoshii at 2-A resolution.</PubMed_Title>
+      <Author>Du, X., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2000)97:14079-14084</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11114201?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.2.-.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/2/-/-.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01330001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2014-04-17</Create_Date>
+</Organism_Record>

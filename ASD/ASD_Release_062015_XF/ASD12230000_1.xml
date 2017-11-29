@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD12230000_1</Organism_ID>
+  <Organism>Mycobacterium tuberculosis</Organism>
+  <Organism_Latin>Mycobacterium tuberculosis</Organism_Latin>
+  <UniProt_ID>P9WJJ7</UniProt_ID>
+  <Seq_Length>285</Seq_Length>
+  <Molecule_Weight>29951</Molecule_Weight>
+  <KEGG_ID>mtu:Rv1596</KEGG_ID>
+  <Orthology_ID>K00767</Orthology_ID>
+  <Function_Summary>Involved in the catabolism of quinolinic acid (QA).</Function_Summary>
+  <Catalytic_Mechanism>Beta-nicotinate D-ribonucleotide + diphosphate + CO(2) = pyridine-2,3-dicarboxylate + 5-phospho-alpha-D-ribose 1-diphosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF01729:QRPTase_C@@PF02749:QRPTase_N</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>QAPRTase</Alias>
+      <Alias>Quinolinate phosphoribosyltransferase [decarboxylating]</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: CO(2) + diphosphate + nicotinate D-ribonucleotide = 5-phospho-alpha-D-ribose 1-diphosphate + 2 H(+) + quinolinate.</Detail>
+      <Keyword>Nicotinate-nucleotide diphosphorylase (carboxylating) activity</Keyword>
+      <Ontology_ID>GO:0004514</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a glycosyl group from one compound (donor) to another (acceptor).</Detail>
+      <Keyword>Transferase activity, transferring glycosyl groups</Keyword>
+      <Ontology_ID>GO:0016757</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of a pyridine nucleotide, a nucleotide characterized by a pyridine derivative as a nitrogen base.</Detail>
+      <Keyword>Pyridine nucleotide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0019363</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of nicotinamide adenine dinucleotide, a coenzyme present in most living cells and derived from the B vitamin nicotinic acid; biosynthesis may be of either the oxidized form, NAD, or the reduced form, NADH.</Detail>
+      <Keyword>NAD biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009435</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MGLSDWELAAARAAIARGLDEDLRYGPDVTTLATVPASATTTASLVTREAGVVAGLDVALLTLNEVLGTNGYRVLDRVEDGARVPPGEALMTLEAQTRGLLTAERTMLNLVGHLSGIATATAAWVDAVRGTKAKIRDTRKTLPGLRALQKYAVRTGGGVNHRLGLGDAALIKDNHVAAAGSVVDALRAVRNAAPDLPCEVEVDSLEQLDAVLPEKPELILLDNFAVWQTQTAVQRRDSRAPTVMLESSGGLSLQTAATYAETGVDYLAVGALTHSVRVLDIGLDM</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell wall</CellLocal>
+      <Ontology_ID>GO:0005618</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>nadC</Gene_Name>
+    <Gene_ID>886281</Gene_ID>
+    <Genbank_ACCN>NC_000962</Genbank_ACCN>
+    <Protein_ACCN>NP_216112</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/886281</Gene_URL>
+    <EMBL_ID>Rv1596</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Structure of Quinolinic Acid Phosphoribosyltransferase from Mycobacterium Tuberculosis: A Potential TB Drug Target</PDB_Title>
+      <PDB_ID>1QPQ</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QPQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of quinolinic acid phosphoribosyltransferase from Mycobacterium tuberculosis: a potential TB drug target.</PubMed_Title>
+      <Author>Sharma, V., et al.</Author>
+      <Journal>Structure(1998)6:1587-1599</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9862811?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Quinolinate Phosphoribosyl Transferase from Mycobacterium Tuberculosis in Complex with NCNN</PDB_Title>
+      <PDB_ID>1QPN</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QPN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of quinolinic acid phosphoribosyltransferase from Mycobacterium tuberculosis: a potential TB drug target.</PubMed_Title>
+      <Author>Sharma, V., et al.</Author>
+      <Journal>Structure(1998)6:1587-1599</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9862811?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Quinolinate Phosphoribosyl Transferase (QAPRTase) Apo-Enzyme from Mycobacterium Tuberculosis</PDB_Title>
+      <PDB_ID>1QPO</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QPO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <PubMed_Title>Crystal structure of quinolinic acid phosphoribosyltransferase from Mycobacterium tuberculosis: a potential TB drug target.</PubMed_Title>
+      <Author>Sharma, V., et al.</Author>
+      <Journal>Structure(1998)6:1587-1599</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9862811?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>QUINOLINATE PHOSPHORIBOSYLTRANSFERASE (QAPRTASE) FROM MYCOBACTERIUM TUBERCULOSIS IN COMPLEX WITH PHTHALATE AND PRPCP</PDB_Title>
+      <PDB_ID>1QPR</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QPR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of quinolinic acid phosphoribosyltransferase from Mycobacterium tuberculosis: a potential TB drug target.</PubMed_Title>
+      <Author>Sharma, V., et al.</Author>
+      <Journal>Structure(1998)6:1587-1599</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9862811?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00760</Pathway_ID>
+      <Pathway_Title>Nicotinate and nicotinamide metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.b.bi.b.c.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1qpn</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <PDB_ID>1QPO</PDB_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.4.2.19</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/4/2/19.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD03640003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-04-08</Create_Date>
+</Organism_Record>

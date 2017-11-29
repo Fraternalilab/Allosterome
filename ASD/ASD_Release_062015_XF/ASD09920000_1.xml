@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD09920000_1</Organism_ID>
+  <Organism>Methanothermobacter thermautotrophicus</Organism>
+  <Organism_Latin>Methanothermobacter thermautotrophicus</Organism_Latin>
+  <UniProt_ID>O27564</UniProt_ID>
+  <Seq_Length>336</Seq_Length>
+  <Molecule_Weight>37314</Molecule_Weight>
+  <KEGG_ID>mth:MTH1520</KEGG_ID>
+  <Orthology_ID>K10716</Orthology_ID>
+  <EBI_ID>EBI-1101987</EBI_ID>
+  <Function_Summary>Calcium-gated potassium channel.</Function_Summary>
+  <Pfam_ID>PF07885:Ion_trans_2@@PF02080:TrkA_C@@PF02254:TrkA_N</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of cation from one side of the membrane to the other.</Detail>
+      <Keyword>Cation transmembrane transporter activity</Keyword>
+      <Ontology_ID>GO:0008324</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of facilitated diffusion of an ion (by an energy-independent process) by passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.</Detail>
+      <Keyword>Ion channel activity</Keyword>
+      <Ontology_ID>GO:0005216</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of charged atoms or small charged molecules into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Ion transport</Keyword>
+      <Ontology_ID>GO:0006811</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of potassium ions (K+) into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Potassium ion transport</Keyword>
+      <Ontology_ID>GO:0006813</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MVLVIEIIRKHLPRVLKVPATRILLLVLAVIIYGTAGFHFIEGESWTVSLYWTFVTIATVGYGDYSPSTPLGMYFTVTLIVLGIGTFAVAVERLLEFLINREQMKLMGLIDVAKSRHVVICGWSESTLECLRELRGSEVFVLAEDENVRKKVLRSGANFVHGDPTRVSDLEKANVRGARAVIVDLESDSETIHCILGIRKIDESVRIIAEAERYENIEQLRMAGADQVISPFVISGRLMSRSIDDGYEAMFVQDVLAEESTRRMVEVPIPEGSKLEGVSVLDADIHDVTGVIIIGVGRGDELIIDPPRDYSFRAGDIILGIGKPEEIERLKNYISA</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>mthK</Gene_Name>
+    <Gene_ID>1471789</Gene_ID>
+    <Genbank_ACCN>NC_000916</Genbank_ACCN>
+    <Protein_ACCN>NP_276634</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1471789</Gene_URL>
+    <EMBL_ID>MTH_1520</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>O27564</Uniprot_ID>
+      <Gene_Name>mthK</Gene_Name>
+      <EBI_ID>EBI-1101987</EBI_ID>
+      <PPI_EBI_URL>EBI-1101987,EBI-1101987</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structures of the MthK RCK Domain in Ca2+ bound form</PDB_Title>
+      <PDB_ID>2AEF</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AEF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the MthK RCK Domain and the Effect of Ca2+ on Gating Ring Stability</PubMed_Title>
+      <Author>Dong, J., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:41716-41724</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16227203?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>High resolution open MthK pore structure crystallized in 100 mM K+ and further soaked in 99 mM Na+/1 mM K+.</PDB_Title>
+      <PDB_ID>3LDD</PDB_ID>
+      <Resolution>1.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LDD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Novel insights into K(+) selectivity from high-resolution structures of an open K(+) channel pore.</PubMed_Title>
+      <Author>Ye, S., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2010)17:1019-1023</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20676101?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of MthK Pore</PDB_Title>
+      <PDB_ID>4HYO</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4HYO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The voltage-dependent gate in MthK potassium channels is located at the selectivity filter.</PubMed_Title>
+      <Author>Posson, D.J., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2013)20:159-166</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23262489?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MthK RCK domain D184N mutant, Ca2+-bound</PDB_Title>
+      <PDB_ID>3RBX</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RBX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of multiple Ca2+-binding sites in a K+ channel RCK domain</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MthK rck domain in its ligand-free gating-ring form</PDB_Title>
+      <PDB_ID>2FY8</PDB_ID>
+      <Resolution>2.79</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FY8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of a Ligand-free MthK Gating Ring: Insights into the Ligand Gating Mechanism of K(+) Channels.</PubMed_Title>
+      <Author>Ye, S., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2006)126:1161-1173</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16990139?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the isolated MthK RCK domain</PDB_Title>
+      <PDB_ID>2OGU</PDB_ID>
+      <Resolution>3.23</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OGU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Dynamic oligomeric conversions of the cytoplasmic RCK domains mediate MthK potassium channel activity.</PubMed_Title>
+      <Author>Kuo, M.M., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2007)104:2151-2156</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17287352?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MthK channel pore T59A mutant</PDB_Title>
+      <PDB_ID>3OUS</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OUS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Tuning the ion selectivity of tetrameric cation channels by changing the number of ion binding sites.</PubMed_Title>
+      <Author>Derebe, M.G., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2011)108:598-602</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21187421?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structures of MthK RCK gating ring bound to Barium</PDB_Title>
+      <PDB_ID>4EI2</PDB_ID>
+      <Resolution>3.11</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4EI2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of a Ba(2+)-Bound Gating Ring Reveals Elementary Steps in RCK Domain Activation.</PubMed_Title>
+      <Author>Smith, F.J., et al.</Author>
+      <Journal>Structure(2012)20:2038-2047</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23085076?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MthK channel pore E92Q mutant</PDB_Title>
+      <PDB_ID>3R65</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3R65</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crucial points within the pore as determinants of K+ channel conductance and gating</PubMed_Title>
+      <Author>Shi, N., et al.</Author>
+      <Journal>J.Mol.Biol.(2011)411:27-35</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21554888?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MthK pore crystallized in presence of TBSb</PDB_Title>
+      <PDB_ID>4HZ3</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4HZ3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The voltage-dependent gate in MthK potassium channels is located at the selectivity filter.</PubMed_Title>
+      <Author>Posson, D.J., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2013)20:159-166</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23262489?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MthK channel, Ca2+-bound</PDB_Title>
+      <PDB_ID>3RBZ</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RBZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of multiple Ca2+-binding sites in a K+ channel RCK domain</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structures of the MthK RCK Domain</PDB_Title>
+      <PDB_ID>2AEM</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AEM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the MthK RCK Domain and the Effect of Ca2+ on Gating Ring Stability</PubMed_Title>
+      <Author>Dong, J., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:41716-41724</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16227203?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>High resolution open MthK pore structure crystallized in 100 mM K+ and further soaked in 100 mM Na+.</PDB_Title>
+      <PDB_ID>3LDE</PDB_ID>
+      <Resolution>2.21</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LDE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Novel insights into K(+) selectivity from high-resolution structures of an open K(+) channel pore.</PubMed_Title>
+      <Author>Ye, S., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2010)17:1019-1023</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20676101?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MTHK AT 3.3 A</PDB_Title>
+      <PDB_ID>1LNQ</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LNQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>CRYSTAL STRUCTURE AND MECHANISM OF A CALCIUM-GATED POTASSIUM CHANNEL</PubMed_Title>
+      <Author>JIANG, Y., et al.</Author>
+      <Journal>Nature(2002)417:515-522</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12037559?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structures of the MthK RCK Domain in no Ca2+ bound form</PDB_Title>
+      <PDB_ID>2AEJ</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AEJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the MthK RCK Domain and the Effect of Ca2+ on Gating Ring Stability</PubMed_Title>
+      <Author>Dong, J., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:41716-41724</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16227203?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>High resolution open MthK pore structure crystallized in 100 mM K+</PDB_Title>
+      <PDB_ID>3LDC</PDB_ID>
+      <Resolution>1.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LDC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Novel insights into K(+) selectivity from high-resolution structures of an open K(+) channel pore.</PubMed_Title>
+      <Author>Ye, S., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2010)17:1019-1023</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20676101?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the mthk rck in complex with cadmium</PDB_Title>
+      <PDB_ID>3KXD</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KXD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the MthK RCK in complex with cadmium.</PubMed_Title>
+      <Author>Dvir, H., et al.</Author>
+      <Journal>J.Struct.Biol.(2010)171:231-237</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20371380?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.c.b.j.e.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1lnq</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,184,Asp;site,210,Glu;site,212,Glu</Site_Detail>
+      <Site_Reference>Kong C, et al. Elife. 2012;1:e00184. doi: 10.7554/eLife.00184.</Site_Reference>
+      <PubMed_ID>23240087</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00240009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00870006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02630002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

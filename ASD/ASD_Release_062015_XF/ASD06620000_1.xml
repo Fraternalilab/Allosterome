@@ -1,0 +1,560 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06620000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q9UPY3</UniProt_ID>
+  <Seq_Length>1922</Seq_Length>
+  <Molecule_Weight>218682</Molecule_Weight>
+  <KEGG_ID>hsa:23405</KEGG_ID>
+  <Orthology_ID>K11592</Orthology_ID>
+  <EBI_ID>EBI-395506</EBI_ID>
+  <Function_Summary>Required for formation of the RNA induced silencing complex (RISC). Component of the RISC loading complex (RLC), also known as the micro-RNA (miRNA) loading complex (miRLC), which is composed of DICER1, EIF2C2/AGO2 and TARBP2. Within the RLC/miRLC, DICER1 and TARBP2 are required to process precursor miRNAs (pre-miRNAs) to mature miRNAs and then load them onto EIF2C2/AGO2. EIF2C2/AGO2 bound to the mature miRNA constitutes the minimal RISC and may subsequently dissociate from DICER1 and TARBP2. Also cleaves double-stranded RNA to produce short interfering RNAs (siRNAs) which target the selective destruction of complementary RNAs.</Function_Summary>
+  <Pfam_ID>PF00270:DEAD@@PF03368:dsRNA_bind@@PF00271:Helicase_C@@PF02170:PAZ@@PF00636:Ribonuclease_3</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>40</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Helicase MOI</Alias>
+      <Alias>Helicase with RNase motif</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages within nucleic acids by creating internal breaks.</Detail>
+      <Keyword>Endonuclease activity</Keyword>
+      <Ontology_ID>GO:0004519</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate, to drive the unwinding of a DNA or RNA helix.</Detail>
+      <Keyword>ATP-dependent helicase activity</Keyword>
+      <Ontology_ID>GO:0008026</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an RNA molecule or a portion thereof.</Detail>
+      <Keyword>RNA binding</Keyword>
+      <Ontology_ID>GO:0003723</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with double-stranded RNA.</Detail>
+      <Keyword>Double-stranded RNA binding</Keyword>
+      <Ontology_ID>GO:0003725</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the endonucleolytic cleavage of RNA with 5'-phosphomonoesters and 3'-OH termini; makes two staggered cuts in both strands of dsRNA, leaving a 3' overhang of 2 nt.</Detail>
+      <Keyword>Ribonuclease III activity</Keyword>
+      <Ontology_ID>GO:0004525</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: NTP + H2O = NDP + phosphate, to drive the unwinding of a DNA or RNA helix.</Detail>
+      <Keyword>Helicase activity</Keyword>
+      <Ontology_ID>GO:0004386</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages within nucleic acids.</Detail>
+      <Keyword>Nuclease activity</Keyword>
+      <Ontology_ID>GO:0004518</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>1810</Position>
+      <Original>Asp</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1709</Position>
+      <Original>Asp</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1709</Position>
+      <Original>Asp</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1810</Position>
+      <Original>Asp</Original>
+      <Variation>Tyr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1810</Position>
+      <Original>Asp</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1813</Position>
+      <Original>Glu</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1813</Position>
+      <Original>Glu</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>839</Position>
+      <Original>Ser</Original>
+      <Variation>Phe</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1813</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1709</Position>
+      <Original>Asp</Original>
+      <Variation>Glu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1583</Position>
+      <Original>Leu</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1705</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process involved in the conversion of a pre-microRNA transcript into a mature microRNA molecule.</Detail>
+      <Keyword>Pre-microRNA processing</Keyword>
+      <Ontology_ID>GO:0031054</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that decreases the frequency or extent of the multiplication or reproduction of Schwann cells, resulting in the expansion of their population. Schwann cells are a type of glial cell in the peripheral nervous system.</Detail>
+      <Keyword>Negative regulation of Schwann cell proliferation</Keyword>
+      <Ontology_ID>GO:0010626</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of transcription from an RNA polymerase II promoter.</Detail>
+      <Keyword>Negative regulation of transcription from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0000122</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of Schwann cell differentiation.</Detail>
+      <Keyword>Positive regulation of Schwann cell differentiation</Keyword>
+      <Ontology_ID>GO:0014040</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the wraps of cell membrane that constitute myelin are laid down around an axon by an oligodendrocyte in the peripheral nervous system.</Detail>
+      <Keyword>Peripheral nervous system myelin formation</Keyword>
+      <Ontology_ID>GO:0032290</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the formation of a myelin sheath around nerve axons.</Detail>
+      <Keyword>Positive regulation of myelination</Keyword>
+      <Ontology_ID>GO:0031643</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which small interfering RNAs target cognate mRNA molecules for degradation.</Detail>
+      <Keyword>Targeting of mRNA for destruction involved in RNA interference</Keyword>
+      <Ontology_ID>GO:0030423</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Cleavage of double-stranded RNA to form small interfering RNA molecules (siRNAs) of 21-23 nucleotides, in the context of RNA interference.</Detail>
+      <Keyword>Production of siRNA involved in RNA interference</Keyword>
+      <Ontology_ID>GO:0030422</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which RNA molecules inactivate expression of target genes.</Detail>
+      <Keyword>Gene silencing by RNA</Keyword>
+      <Ontology_ID>GO:0031047</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the anatomical structures of a neuron projection are generated and organized. A neuron projection is any process extending from a neural cell, such as axons or dendrites.</Detail>
+      <Keyword>Neuron projection morphogenesis</Keyword>
+      <Ontology_ID>GO:0048812</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of a nerve over time, from its formation to the mature structure.</Detail>
+      <Keyword>Nerve development</Keyword>
+      <Ontology_ID>GO:0021675</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>1016</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>664</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MKSPALQPLSMAGLQLMTPASSPMGPFFGLPWQQEAIHDNIYTPRKYQVELLEAALDHNTIVCLNTGSGKTFIAVLLTKELSYQIRGDFSRNGKRTVFLVNSANQVAQQVSAVRTHSDLKVGEYSNLEVNASWTKERWNQEFTKHQVLIMTCYVALNVLKNGYLSLSDINLLVFDECHLAILDHPYREIMKLCENCPSCPRILGLTASILNGKCDPEELEEKIQKLEKILKSNAETATDLVVLDRYTSQPCEIVVDCGPFTDRSGLYERLLMELEEALNFINDCNISVHSKERDSTLISKQILSDCRAVLVVLGPWCADKVAGMMVRELQKYIKHEQEELHRKFLLFTDTFLRKIHALCEEHFSPASLDLKFVTPKVIKLLEILRKYKPYERQQFESVEWYNNRNQDNYVSWSDSEDDDEDEEIEEKEKPETNFPSPFTNILCGIIFVERRYTAVVLNRLIKEAGKQDPELAYISSNFITGHGIGKNQPRNKQMEAEFRKQEEVLRKFRAHETNLLIATSIVEEGVDIPKCNLVVRFDLPTEYRSYVQSKGRARAPISNYIMLADTDKIKSFEEDLKTYKAIEKILRNKCSKSVDTGETDIDPVMDDDDVFPPYVLRPDDGGPRVTINTAIGHINRYCARLPSDPFTHLAPKCRTRELPDGTFYSTLYLPINSPLRASIVGPPMSCVRLAERVVALICCEKLHKIGELDDHLMPVGKETVKYEEELDLHDEEETSVPGRPGSTKRRQCYPKAIPECLRDSYPRPDQPCYLYVIGMVLTTPLPDELNFRRRKLYPPEDTTRCFGILTAKPIPQIPHFPVYTRSGEVTISIELKKSGFMLSLQMLELITRLHQYIFSHILRLEKPALEFKPTDADSAYCVLPLNVVNDSSTLDIDFKFMEDIEKSEARIGIPSTKYTKETPFVFKLEDYQDAVIIPRYRNFDQPHRFYVADVYTDLTPLSKFPSPEYETFAEYYKTKYNLDLTNLNQPLLDVDHTSSRLNLLTPRHLNQKGKALPLSSAEKRKAKWESLQNKQILVPELCAIHPIPASLWRKAVCLPSILYRLHCLLTAEELRAQTASDAGVGVRSLPADFRYPNLDFGWKKSIDSKSFISISNSSSAENDNYCKHSTIVPENAAHQGANRTSSLENHDQMSVNCRTLLSESPGKLHVEVSADLTAINGLSYNQNLANGSYDLANRDFCQGNQLNYYKQEIPVQPTTSYSIQNLYSYENQPQPSDECTLLSNKYLDGNANKSTSDGSPVMAVMPGTTDTIQVLKGRMDSEQSPSIGYSSRTLGPNPGLILQALTLSNASDGFNLERLEMLGDSFLKHAITTYLFCTYPDAHEGRLSYMRSKKVSNCNLYRLGKKKGLPSRMVVSIFDPPVNWLPPGYVVNQDKSNTDKWEKDEMTKDCMLANGKLDEDYEEEDEEEESLMWRAPKEEADYEDDFLEYDQEHIRFIDNMLMGSGAFVKKISLSPFSTTDSAYEWKMPKKSSLGSMPFSSDFEDFDYSSWDAMCYLDPSKAVEEDDFVVGFWNPSEENCGVDTGKQSISYDLHTEQCIADKSIADCVEALLGCYLTSCGERAAQLFLCSLGLKVLPVIKRTDREKALCPTRENFNSQQKNLSVSCAAASVASSRSSVLKDSEYGCLKIPPRCMFDHPDADKTLNHLISGFENFEKKINYRFKNKAYLLQAFTHASYHYNTITDCYQRLEFLGDAILDYLITKHLYEDPRQHSPGVLTDLRSALVNNTIFASLAVKYDYHKYFKAVSPELFHVIDDFVQFQLEKNEMQGMDSELRRSEEDEEKEEDIEVPKAMGDIFESLAGAIYMDSGMSLETVWQVYYPMMRPLIEKFSANVPRSPVRELLEMEPETAKFSPAERTYDGKVRVTVEVVGKGKFKGVGRSYRIAKSAAARRALRSLKANQPQVPNS</Protein_Seq>
+    <DNA_Seq>TAAGCTGTGCTAGAACAAAAATGCAATGAAAGAAACACTGGATGAATGAAAAGCCCTGCTTTGCAACCCCTCAGCATGGCAGGCCTGCAGCTCATGACCCCTGCTTCCTCACCAATGGGTCCTTTCTTTGGACTGCCATGGCAACAAGAAGCAATTCATGATAACATTTATACGCCAAGAAAATATCAGGTTGAACTGCTTGAAGCAGCTCTGGATCATAATACCATCGTCTGTTTAAACACTGGCTCAGGGAAGACATTTATTGCAGTACTACTCACTAAAGAGCTGTCCTATCAGATCAGGGGAGACTTCAGCAGAAATGGAAAAAGGACGGTGTTCTTGGTCAACTCTGCAAACCAGGTTGCTCAACAAGTGTCAGCTGTCAGAACTCATTCAGATCTCAAGGTTGGGGAATACTCAAACCTAGAAGTAAATGCATCTTGGACAAAAGAGAGATGGAACCAAGAGTTTACTAAGCACCAGGTTCTCATTATGACTTGCTATGTCGCCTTGAATGTTTTGAAAAATGGTTACTTATCACTGTCAGACATTAACCTTTTGGTGTTTGATGAGTGTCATCTTGCAATCCTAGACCACCCCTATCGAGAAATTATGAAGCTCTGTGAAAATTGTCCATCATGTCCTCGCATTTTGGGACTAACTGCTTCCATTTTAAATGGGAAATGTGATCCAGAGGAATTGGAAGAAAAGATTCAGAAACTAGAGAAAATTCTTAAGAGTAATGCTGAAACTGCAACTGACCTGGTGGTCTTAGACAGGTATACTTCTCAGCCATGTGAGATTGTGGTGGATTGTGGACCATTTACTGACAGAAGTGGGCTTTATGAAAGACTGCTGATGGAATTAGAAGAAGCACTTAATTTTATCAATGATTGTAATATATCTGTACATTCAAAAGAAAGAGATTCTACTTTAATTTCGAAACAGATACTATCAGACTGTCGTGCCGTATTGGTAGTTCTGGGACCCTGGTGTGCAGATAAAGTAGCTGGAATGATGGTAAGAGAACTACAGAAATACATCAAACATGAGCAAGAGGAGCTGCACAGGAAATTTTTATTGTTTACAGACACTTTCCTAAGGAAAATACATGCACTATGTGAAGAGCACTTCTCACCTGCCTCACTTGACCTGAAATTTGTAACTCCTAAAGTAATCAAACTGCTCGAAATCTTACGCAAATATAAACCATATGAGCGACAGCAGTTTGAAAGCGTTGAGTGGTATAATAATAGAAATCAGGATAATTATGTGTCATGGAGTGATTCTGAGGATGATGATGAGGATGAAGAAATTGAAGAAAAAGAGAAGCCAGAGACAAATTTTCCTTCTCCTTTTACCAACATTTTGTGCGGAATTATTTTTGTGGAAAGAAGATACACAGCAGTTGTCTTAAACAGATTGATAAAGGAAGCTGGCAAACAAGATCCAGAGCTGGCTTATATCAGTAGCAATTTCATAACTGGACATGGCATTGGGAAGAATCAGCCTCGCAACAAACAGATGGAAGCAGAATTCAGAAAACAGGAAGAGGTACTTAGGAAATTTCGAGCACATGAGACCAACCTGCTTATTGCAACAAGTATTGTAGAAGAGGGTGTTGATATACCAAAATGCAACTTGGTGGTTCGTTTTGATTTGCCCACAGAATATCGATCCTATGTTCAATCTAAAGGAAGAGCAAGGGCACCCATCTCTAATTATATAATGTTAGCGGATACAGACAAAATAAAAAGTTTTGAAGAAGACCTTAAAACCTACAAAGCTATTGAAAAGATCTTGAGAAACAAGTGTTCCAAGTCGGTTGATACTGGTGAGACTGACATTGATCCTGTCATGGATGATGATGACGTTTTCCCACCATATGTGTTGAGGCCTGACGATGGTGGTCCACGAGTCACAATCAACACGGCCATTGGACACATCAATAGATACTGTGCTAGATTACCAAGTGATCCGTTTACTCATCTAGCTCCTAAATGCAGAACCCGAGAGTTGCCTGATGGTACATTTTATTCAACTCTTTATCTGCCAATTAACTCACCTCTTCGAGCCTCCATTGTTGGTCCACCAATGAGCTGTGTACGATTGGCTGAAAGAGTTGTAGCTCTCATTTGCTGTGAGAAACTGCACAAAATTGGCGAACTGGATGACCATTTGATGCCAGTTGGGAAAGAGACTGTTAAATATGAAGAGGAGCTTGATTTGCATGATGAAGAAGAGACCAGTGTTCCAGGAAGACCAGGTTCCACGAAACGAAGGCAGTGCTACCCAAAAGCAATTCCAGAGTGTTTGAGGGATAGTTATCCCAGACCTGATCAGCCCTGTTACCTGTATGTGATAGGAATGGTTTTAACTACACCTTTACCTGATGAACTCAACTTTAGAAGGCGGAAGCTCTATCCTCCTGAAGATACCACAAGATGCTTTGGAATACTGACGGCCAAACCCATACCTCAGATTCCACACTTTCCTGTGTACACACGCTCTGGAGAGGTTACCATATCCATTGAGTTGAAGAAGTCTGGTTTCATGTTGTCTCTACAAATGCTTGAGTTGATTACAAGACTTCACCAGTATATATTCTCACATATTCTTCGGCTTGAAAAACCTGCACTAGAATTTAAACCTACAGACGCTGATTCAGCATACTGTGTTCTACCTCTTAATGTTGTTAATGACTCCAGCACTTTGGATATTGACTTTAAATTCATGGAAGATATTGAGAAGTCTGAAGCTCGCATAGGCATTCCCAGTACAAAGTATACAAAAGAAACACCCTTTGTTTTTAAATTAGAAGATTACCAAGATGCCGTTATCATTCCAAGATATCGCAATTTTGATCAGCCTCATCGATTTTATGTAGCTGATGTGTACACTGATCTTACCCCACTCAGTAAATTTCCTTCCCCTGAGTATGAAACTTTTGCAGAATATTATAAAACAAAGTACAACCTTGACCTAACCAATCTCAACCAGCCACTGCTGGATGTGGACCACACATCTTCAAGACTTAATCTTTTGACACCTCGACATTTGAATCAGAAGGGGAAAGCGCTTCCTTTAAGCAGTGCTGAGAAGAGGAAAGCCAAATGGGAAAGTCTGCAGAATAAACAGATACTGGTTCCAGAACTCTGTGCTATACATCCAATTCCAGCATCACTGTGGAGAAAAGCTGTTTGTCTCCCCAGCATACTTTATCGCCTTCACTGCCTTTTGACTGCAGAGGAGCTAAGAGCCCAGACTGCCAGCGATGCTGGCGTGGGAGTCAGATCACTTCCTGCGGATTTTAGATACCCTAACTTAGACTTCGGGTGGAAAAAATCTATTGACAGCAAATCTTTCATCTCAATTTCTAACTCCTCTTCAGCTGAAAATGATAATTACTGTAAGCACAGCACAATTGTCCCTGAAAATGCTGCACATCAAGGTGCTAATAGAACCTCCTCTCTAGAAAATCATGACCAAATGTCTGTGAACTGCAGAACGTTGCTCAGCGAGTCCCCTGGTAAGCTCCACGTTGAAGTTTCAGCAGATCTTACAGCAATTAATGGTCTTTCTTACAATCAAAATCTCGCCAATGGCAGTTATGATTTAGCTAACAGAGACTTTTGCCAAGGAAATCAGCTAAATTACTACAAGCAGGAAATACCCGTGCAACCAACTACCTCATATTCCATTCAGAATTTATACAGTTACGAGAACCAGCCCCAGCCCAGCGATGAATGTACTCTCCTGAGTAATAAATACCTTGATGGAAATGCTAACAAATCTACCTCAGATGGAAGTCCTGTGATGGCCGTAATGCCTGGTACGACAGACACTATTCAAGTGCTCAAGGGCAGGATGGATTCTGAGCAGAGCCCTTCTATTGGGTACTCCTCAAGGACTCTTGGCCCCAATCCTGGACTTATTCTTCAGGCTTTGACTCTGTCAAACGCTAGTGATGGATTTAACCTGGAGCGGCTTGAAATGCTTGGCGACTCCTTTTTAAAGCATGCCATCACCACATATCTATTTTGCACTTACCCTGATGCGCATGAGGGCCGCCTTTCATATATGAGAAGCAAAAAGGTCAGCAACTGTAATCTGTATCGCCTTGGAAAAAAGAAGGGACTACCCAGCCGCATGGTGGTGTCAATATTTGATCCCCCTGTGAATTGGCTTCCTCCTGGTTATGTAGTAAATCAAGACAAAAGCAACACAGATAAATGGGAAAAAGATGAAATGACAAAAGACTGCATGCTGGCGAATGGCAAACTGGATGAGGATTACGAGGAGGAGGATGAGGAGGAGGAGAGCCTGATGTGGAGGGCTCCGAAGGAAGAGGCTGACTATGAAGATGATTTCCTGGAGTATGATCAGGAACATATCAGATTTATAGATAATATGTTAATGGGGTCAGGAGCTTTTGTAAAGAAAATCTCTCTTTCTCCTTTTTCAACCACTGATTCTGCATATGAATGGAAAATGCCCAAAAAATCCTCCTTAGGTAGTATGCCATTTTCATCAGATTTTGAGGATTTTGACTACAGCTCTTGGGATGCAATGTGCTATCTGGATCCTAGCAAAGCTGTTGAAGAAGATGACTTTGTGGTGGGGTTCTGGAATCCATCAGAAGAAAACTGTGGTGTTGACACGGGAAAGCAGTCCATTTCTTACGACTTGCACACTGAGCAGTGTATTGCTGACAAAAGCATAGCGGACTGTGTGGAAGCCCTGCTGGGCTGCTATTTAACCAGCTGTGGGGAGAGGGCTGCTCAGCTTTTCCTCTGTTCACTGGGGCTGAAGGTGCTCCCGGTAATTAAAAGGACTGATCGGGAAAAGGCCCTGTGCCCTACTCGGGAGAATTTCAACAGCCAACAAAAGAACCTTTCAGTGAGCTGTGCTGCTGCTTCTGTGGCCAGTTCACGCTCTTCTGTATTGAAAGACTCGGAATATGGTTGTTTGAAGATTCCACCAAGATGTATGTTTGATCATCCAGATGCAGATAAAACACTGAATCACCTTATATCGGGGTTTGAAAATTTTGAAAAGAAAATCAACTACAGATTCAAGAATAAGGCTTACCTTCTCCAGGCTTTTACACATGCCTCCTACCACTACAATACTATCACTGATTGTTACCAGCGCTTAGAATTCCTGGGAGATGCGATTTTGGACTACCTCATAACCAAGCACCTTTATGAAGACCCGCGGCAGCACTCCCCGGGGGTCCTGACAGACCTGCGGTCTGCCCTGGTCAACAACACCATCTTTGCATCGCTGGCTGTAAAGTACGACTACCACAAGTACTTCAAAGCTGTCTCTCCTGAGCTCTTCCATGTCATTGATGACTTTGTGCAGTTTCAGCTTGAGAAGAATGAAATGCAAGGAATGGATTCTGAGAAAAGTTTTCTGCAAATGTACCCCGTTCCCCTGTGCGAGAATTGCTTGAAATGGAACCAGAAACTGCCAAATTTAGCCCGGCTGAGAGAACTTACGACGGGAAGGTCAGAGTCACTGTGGAAGTAGTAGGAAAGGGGAAATTTAAAGGTGTTGGTCGAAGTTACAGGATTGCCAAATCTGCAGCAGCAAGAAGAGCCCTCCGAAGCCTCAAAGCTAATCAACCTCAGGTTCCCAATAGCTGAAACCGCTTTTTAAAATTCAAAACAAGAAACAAAACAAAAAAAATTAAGGGGAAAATTATTTAAATCGGAAAGGAAGACTTAAAGTTGTTAGTGAGTGGAATGAATTGAAGGCAGAATTTAAAGTTTGGTTGATAACAGGATAGATAACAGAATAAAACATTTAACATATGTATAAAATTTTGGAACTAATTGTAGTTTTAGTTTTTTGCGCAAACACAATCTTATCTTCTTTCCTCACTTCTGCTTTGTTTAAATCACAAGAGTGCTTTAATGATGACATTTAGCAAGTGCTCAAAATAATTGACAGGTTTTGTTTTTTTTTTTTTGAGTTTATGTCAGCTTTGCTTAGTGTTAGAAGGCCATGGAGCTTAAACCTCCAGCAGTCCCTAGGATGATGTAGATTCTTCTCCATCTCTCCGTGTGTGCAGTAGTGCCAGTCCTGCAGTAGTTGATAAGCTGAATAGAAAGATAAGGTTTTCGAGAGGAGAAGTGCGCCAATGTTGTCTTTTCTTTCCACGTTATACTGTGTAAGGTGATGTTCCCGGTCGCTGTTGCACCTGATAGTAAGGGACAGATTTTTAATGAACATTGGCTGGCATGTTGGTGAATCACATTTTAGTTTTCTGATGCCACATAGTCTTGCATAAAAAAGGGTTCTTGCCTTAAAAGTGAAACCTTCATGGATAGTCTTTAATCTCTGATCTTTTTGGAACAAACTGTTTTACATTCCTTTCATTTTATTATGCATTAGACGTTGAGACAGCGTGATACTTACAACTCACTAGTATAGTTGTAACTTATTACAGGATCATACTAAAATTTCTGTCATATGTATACTGAAGACATTTTAAAAACCAGAATATGTAGTCTACGGATATTTTTTATCATAAAAATGATCTTTGGCTAAACACCCCATTTTACTAAAGTCCTCCTGCCAGGTAGTTCCCACTGATGGAAATGTTTATGGCAAATAATTTTGCCTTCTAGGCTGTTGCTCTAACAAAATAAACCTTAGACATATCACACCTAAAATATGCTGCAGATTTTATAATTGATTGGTTACTTATTTAAGAAGCAAAACACAGCACCTTTACCCTTAGTCTCCTCACATAAATTTCTTACTATACTTTTCATAATGTTGCATGCATATTTCACCTACCAAAGCTGTGCTGTTAATGCCGTGAAAGTTTAACGTTTGCGATAAACTGCCGTAATTTTGATACATCTGTGATTTAGGTCATTAATTTAGATAAACTAGCTCATTATTTCCATCTTTGGAAAAGGAAAAAAAAAAAAACTTCTTTAGGCATTTGCCTAAGTTTCTTTAATTAGACTTGTAGGCACTCTTCACTTAAATACCTCAGTTCTTCTTTTCTTTTGCATGCATTTTTCCCCTGTTTGGTGCTATGTTTATGTATTATGCTTGAAATTTTAATTTTTTTTTTTTTGCACTGTAACTATAATACCTCTTAATTTACCTTTTTAAAAGCTGTGGGTCAGTCTTGCACTCCCATCAACATACCAGTAGAGGTTTGCTGCAATTTGCCCCGTTAATTATGCTTGAAGTTTAAGAAAGCTGAGCAGAGGTGTCTCATATTTCCCAGCACATGATTCTGAACTTGATGCTTCGTGGAATGCTGCATTTATATGTAAGTGACATTTGAATACTGTCCTTCCTGCTTTATCTGCATCATCCACCCACAGAGAAATGCCTCTGTGCGAGTGCACCGACAGAAAACTGTCAGCTCTGCTTTCTAAGGAACCCTGAGTGAGGGGGGTATTAAGCTTCTCCAGTGTTTTTTGTTGTCTCCAATCTTAAACTTAAATTGAGATCTAAATTATTAAACGAGTTTTTGAGCAAATTAGGTGACTTGTTTTAAAAATATTTAATTCCGATTTGGAACCTTAGATGTCTATTTGATTTTTTAAAAAACCTTAATGTAAGATATGACCAGTTAAAACAAAGCAATTCTTGAATTATATAACTGTAAAAGTGTGCAGTTAACAAGGCTGGATGTGAATTTTATTCTGAGGGTGATTTGTGATCAAGTTTAATCACAAATCTCTTAATATTTATAAACTACCTGATGCCAGGAGCTTAGGGCTTTGCATTGTGTCTAATACATTGATCCCAGTGTTACGGGATTCTCTTGATTCCTGGCACCAAAATCAGATTGTTTTCACAGTTATGATTCCCAGTGGGAGAAAAATGCCTCAATATATTTGTAACCTTAAGAAGAGTATTTTTTTGTTAATACTAAGATGTTCAAACTTAGACATGATTAGGTCATACATTCTCAGGGGTTCAAATTTCCTTCTACCATTCAAATGTTTTATCAACAGCAAACTTCAGCCGTTTCACTTTTTGTTGGAGAAAAATAGTAGATTTTAATTTGACTCACAGTTTGAAGCATTCTGTGATCCCCTGGTTACTGAGTTAAAAAATAAAAAAGTACGAGTTAGACATATGAAATGGTTATGAACGCTTTTGTGCTGCTGATTTTTAATGCTGTAAAGTTTTCCTGTGTTTAGCTTGTTGAAATGTTTTGCATCTGTCAATTAAGGAAAAAAAAAATCACTCTATGTTGCCCCACTTTAGAGCCCTGTGTGCCACCCTGTGTTCCTGTGATTGCAATGTGAGACCGAATGTAATATGGAAAACCTACCAGTGGGGTGTGGTTGTGCCCTGAGCACGTGTGTAAAGGACTGGGGAGGCGTGTCTTGAAAAAGCAACTGCAGAAATTCCTTATGATGATTGTGTGCAAGTTAGTTAACATGAACCTTCATTTGTAAATTTTTTAAAATTTCTTTTATAATATGCTTTCCGCAGTCCTAACTATGCTGCGTTTTATAATAGCTTTTTCCCTTCTGTTCTGTTCATGTAGCACAGATAAGCATTGCACTTGGTACCATGCTTTACCTCATTTCAAGAAAATATGCTTAACAGAGAGGAAAAAAATGTGGTTTGGCCTTGCTGCTGTTTTGATTTATGGAATTTGAAAAAGATAATTATAATGCCTGCAATGTGTCATATACTCGCACAACTTAAATAGGTCATTTTTGTCTGTGGCATTTTTACTGTTTGTGAAAGTATGAAACAGATTTGTTAACTGAACTCTTAATTATGTTTTTAAAATGTTTGTTATATTTCTTTTCTTTTTTCTTTTATATTACGTGAAGTGATGAAATTTAGAATGACCTCTAACACTCCTGTAATTGTCTTTTAAAATACTGATATTTTTATTTGTTAATAATACTTTGCCCTCAGAAAGATTCTGATACCCTGCCTTGACAACATGAAACTTGAGGCTGCTTTGGTTCATGAATCCAGGTGTTCCCCCGGCAGTCGGCTTCTTCAGTCGCTCCCTGGAGGCAGGTGGGCACTGCAGAGGATCACTGGAATCCAGATCGAGCGCAGTTCATGCACAAGGCCCCGTTGATTTAAAATATTGGATCTTGCTCTGTTAGGGTGTCTAATCCCTTTACACAAGATTGAAGCCACCAAACTGAGACCTTGATACCTTTTTTTAACTGCATCTGAAATTATGTTAAGAGTCTTTAACCCATTTGCATTATCTGCAGAAGAGAAACTCATGTCATGTTTATTACCTATATGGTTGTTTTAATTACATTTGAATAATTATATTTTTCCAACCACTGATTACTTTTCAGGAATTTAATTATTTCCAGATAAATTTCTTTATTTTATATTGTACATGAAAAGTTTTAAAGATATGTTTAAGACCAAGACTATTAAAATGATTTTTAAAGTTGTTGGAGACGCCAATAGCAATATCTAGGAAATTTGCATTGAGACCATTGTATTTTCCACTAGCAGTGAAAATGATTTTTCACAACTAACTTGTAAATATATTTTAATCATTACTTCTTTTTTTCTAGTCCATTTTTATTTGGACATCAACCACAGACAATTTAAATTTTATAGATGCACTAAGAATTCACTGCAGCAGCAGGTTACATAGCAAAAATGCAAAGGTGAACAGGAAGTAAATTTCTGGCTTTTCTGCTGTAAATAGTGAAGGAAAATTACTAAAATCAAGTAAAACTAATGCATATTATTTGATTGACAATAAAATATTTACCATCACATGCTGCAGCTGTTTTTTAAGGAACATGATGTCATTCATTCATACAGTAATCATGCTGCAGAAATTTGCAGTCTGCACCTTATGGATCACAATTACCTTTAGTTGTTTTTTTTGTAATAATTGTAGCCAAGTAAATCTCCAATAAAGTTATCGTCTGTTCA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>RNA-induced silencing complex</CellLocal>
+      <Ontology_ID>GO:0016442</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>DICER1</Gene_Name>
+    <Gene_Alias>DICER; HERNA; KIAA0928</Gene_Alias>
+    <Gene_ID>23405</Gene_ID>
+    <Genbank_ACCN>NM_001195573</Genbank_ACCN>
+    <Protein_ACCN>NP_001182502</Protein_ACCN>
+    <HGNC_ID>17098</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/23405</Gene_URL>
+    <UCSC_ID>uc001ydv.2</UCSC_ID>
+    <EMBL_ID>ENSG00000100697</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q8CJG0</Uniprot_ID>
+      <Gene_Name>Eif2c2</Gene_Name>
+      <EBI_ID>EBI-528299</EBI_ID>
+      <PPI_EBI_URL>EBI-395506,EBI-528299</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q15633</Uniprot_ID>
+      <Gene_Name>TARBP2</Gene_Name>
+      <EBI_ID>EBI-978581</EBI_ID>
+      <PPI_EBI_URL>EBI-395506,EBI-978581</PPI_EBI_URL>
+      <Experiment_Number>8</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9UL18</Uniprot_ID>
+      <Gene_Name>EIF2C1</Gene_Name>
+      <EBI_ID>EBI-527363</EBI_ID>
+      <PPI_EBI_URL>EBI-395506,EBI-527363</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9UKV8</Uniprot_ID>
+      <Gene_Name>EIF2C2</Gene_Name>
+      <EBI_ID>EBI-528269</EBI_ID>
+      <PPI_EBI_URL>EBI-395506,EBI-528269</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q96J94</Uniprot_ID>
+      <Gene_Name>PIWIL1</Gene_Name>
+      <EBI_ID>EBI-527417</EBI_ID>
+      <PPI_EBI_URL>EBI-395506,EBI-527417</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Global Developmental Delay-Lung Cysts-Overgrowth-Wilms Tumor Syndrome</Disease_Name>
+      <Disease_Detail>Global Developmental Delay-Lung Cysts-Overgrowth-Wilms Tumor Syndrome</Disease_Detail>
+      <Disease_DB>GLB017</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/global_developmental_delay_lung_cysts_overgrowth_wilms_tumor_syndrome?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cystic Nephroma</Disease_Name>
+      <Disease_Detail>Cystic Nephroma</Disease_Detail>
+      <Disease_DB>CYS007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cystic_nephroma?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gynandroblastoma</Disease_Name>
+      <Disease_Detail>Gynandroblastoma</Disease_Detail>
+      <Disease_DB>GYN003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gynandroblastoma?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Blastoma</Disease_Name>
+      <Disease_Detail>Blastoma</Disease_Detail>
+      <Disease_DB>BLS003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/blastoma?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pulmonary Sequestration</Disease_Name>
+      <Disease_Detail>Pulmonary Sequestration</Disease_Detail>
+      <Disease_DB>PLM064</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pulmonary_sequestration?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Malignant Sertoli-Leydig Cell Tumor of Ovary</Disease_Name>
+      <Disease_Detail>Malignant Sertoli-Leydig Cell Tumor of Ovary</Disease_Detail>
+      <Disease_DB>MLG128</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/malignant_sertoli_leydig_cell_tumor_of_ovary?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Goiter</Disease_Name>
+      <Disease_Detail>Goiter</Disease_Detail>
+      <Disease_DB>GTR002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/goiter?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Rhabdomyosarcoma, Embryonal, 2</Disease_Name>
+      <Disease_Detail>Rhabdomyosarcoma, Embryonal, 2</Disease_Detail>
+      <Disease_DB>RHB021</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/rhabdomyosarcoma_embryonal_2?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Tumor Predisposition Syndrome</Disease_Name>
+      <Disease_Detail>Tumor Predisposition Syndrome</Disease_Detail>
+      <Disease_DB>TMR010</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/tumor_predisposition_syndrome?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Maligant Granulosa Cell Tumor of Ovary</Disease_Name>
+      <Disease_Detail>Maligant Granulosa Cell Tumor of Ovary</Disease_Detail>
+      <Disease_DB>MLG129</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/maligant_granulosa_cell_tumor_of_ovary?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Goiter, Multinodular 1, with or Without Sertoli-Leydig Cell Tumors</Disease_Name>
+      <Disease_Detail>Goiter</Disease_Detail>
+      <Disease_DB>GTR011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/goiter_multinodular_1_with_or_without_sertoli_leydig_cell_tumors?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Sertoli-Leydig Cell Tumor</Disease_Name>
+      <Disease_Detail>Sertoli-Leydig Cell Tumor</Disease_Detail>
+      <Disease_DB>SRT003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/sertoli_leydig_cell_tumor?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pleuropulmonary Blastoma</Disease_Name>
+      <Disease_Detail>Pleuropulmonary Blastoma</Disease_Detail>
+      <Disease_DB>PLR004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pleuropulmonary_blastoma?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Leydig Cell Tumor</Disease_Name>
+      <Disease_Detail>Leydig Cell Tumor</Disease_Detail>
+      <Disease_DB>LYD001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leydig_cell_tumor?search=DICER1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of the C-Terminal RNase III Domain of Human Dicer</PDB_Title>
+      <PDB_ID>2EB1</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2EB1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Homodimeric Structure and Double-stranded RNA Cleavage Activity of the C-terminal RNase III Domain of Human Dicer</PubMed_Title>
+      <Author>Takeshita, D., et al.</Author>
+      <Journal>J.Mol.Biol.(2007)374:106-120</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17920623?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05206</Pathway_ID>
+      <Pathway_Title>MicroRNAs in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>RNA-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.26.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/26/-.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01916637</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620003</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620008</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620009</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620010</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620011</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620012</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620013</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620014</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620015</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620016</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620017</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620018</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620019</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620021</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620023</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620024</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620025</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620026</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620027</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620028</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620029</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620030</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620031</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620032</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620034</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620035</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620036</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620037</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620040</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620041</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620042</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620045</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06620047</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

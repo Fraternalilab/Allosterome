@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01280000_1</Organism_ID>
+  <Organism>Klebsiella pneumoniae</Organism>
+  <Organism_Latin>Klebsiella pneumoniae</Organism_Latin>
+  <UniProt_ID>Q59476</UniProt_ID>
+  <Seq_Length>555</Seq_Length>
+  <Molecule_Weight>60660</Molecule_Weight>
+  <Pfam_ID>PF02286:Dehydratase_LU</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Propanediol dehydratase large subunit</Alias>
+      <Alias>Glycerol dehydratase large subunit</Alias>
+      <Alias>Glycerol dehydrase alpha subunit</Alias>
+      <Alias>Glycerol dehydratase medium subunit</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: propane-1,2-diol = H(2)O + propanal.</Detail>
+      <Keyword>Propanediol dehydratase activity</Keyword>
+      <Ontology_ID>GO:0050215</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with cobalamin (vitamin B12), a water-soluble vitamin characterized by possession of a corrin nucleus containing a cobalt atom.</Detail>
+      <Keyword>Cobalamin binding</Keyword>
+      <Ontology_ID>GO:0031419</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: glycerol = 3-hydroxypropanal + H2O.</Detail>
+      <Keyword>Glycerol dehydratase activity</Keyword>
+      <Ontology_ID>GO:0046405</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKRSKRFAVLAQRPVNQDGLIGEWPEEGLIAMDSPFDPVSSVKVDNGLIVELDGKRRDQFDMIDRFIADYAINVERTEQAMRLEAVEIARMLVDIHVSREEIIAITTAITPAKAVEVMAQMNVVEMMMALQKMRARRTPSNQCHVTNLKDNPVQIAADAAEAGIRGFSEQETTVGIARYAPFNALALLVGSQCGRPGVLTQCSVEEATELELGMRGLTSYAETVSVYGTEAVFTDGDDTPWSKAFLASAYASRGLKMRYTSGTGSEALMGYSESKSMLYLESRCIFITKGAGVQGLQNGAVSCIGMTGAVPSGIRAVLAENLIASMLDLEVASANDQTFSHSDIRRTARTLMQMLPGTDFIFSGYSAVPNYDNMFAGSNFDAEDFDDYNILQRDLMVDGGLRPVTEAETIAIRQKAARAIQAVFRELGLPPIADEEVEAATYAHGSNEMPPRNVVEDLSAVEEMMKRNITGLDIVGALSRSGFEDIASNILNMLRQRVTGDYLQTSAILDRQFEVVSAVNDINDYQGPGTGYRISAERWAEIKNIPGVVQPDTIE</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>dhaB1</Gene_Name>
+    <Gene_Alias>gldA; pduC</Gene_Alias>
+    <Genbank_ACCN>NC_017540</Genbank_ACCN>
+    <Protein_ACCN>YP_005956550</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/12547482</Gene_URL>
+    <EMBL_ID>KPN2242_20530</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Glycerol Dehydratase-cyanocobalamin Complex of Klebsiella pneumoniae</PDB_Title>
+      <PDB_ID>1IWP</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1IWP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The crystal structure of coenzyme B12-dependent glycerol dehydratase in complex with cobalamin and propane-1,2-diol.</PubMed_Title>
+      <Author>Yamanishi, M., et al.</Author>
+      <Journal>Eur.J.Biochem.(2002)269:4484-4494</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12230560?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of substrate free form of glycerol dehydratase</PDB_Title>
+      <PDB_ID>1MMF</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MMF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of substrate free form of glycerol dehydratase</PubMed_Title>
+      <Author>Liao, D.I., et al.</Author>
+      <Journal>J.Inorg.Biochem.(2003)93:84-91</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12538056?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.b.ca.d.c.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1iwp</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.2.1.30</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/2/1/30.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01240008</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

@@ -1,0 +1,910 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06030000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P06239</UniProt_ID>
+  <Seq_Length>509</Seq_Length>
+  <Molecule_Weight>58001</Molecule_Weight>
+  <KEGG_ID>hsa:3932</KEGG_ID>
+  <Orthology_ID>K05856</Orthology_ID>
+  <EBI_ID>EBI-1348</EBI_ID>
+  <Function_Summary>Non-receptor tyrosine-protein kinase that plays an essential role in the selection and maturation of developing T-cells in the thymus and in the function of mature T-cells. Plays a key role in T-cell antigen receptor (TCR)-linked signal transduction pathways. Constitutively associated with the cytoplasmic portions of the CD4 and CD8 surface receptors. Association of the TCR with a peptide antigen-bound MHC complex facilitates the interaction of CD4 and CD8 with MHC class II and class I molecules, respectively, thereby recruiting the associated LCK protein to the vicinity of the TCR/CD3 complex. LCK then phosphorylates tyrosines residues within the immunoreceptor tyrosine-based activation motifs (ITAM) of the cytoplasmic tails of the TCR-gamma chains and CD3 subunits, initiating the TCR/CD3 signaling pathway. Once stimulated, the TCR recruits the tyrosine kinase ZAP70, that becomes phosphorylated and activated by LCK. Following this, a large number of signaling molecules are recruited, ultimately leading to lymphokine production. LCK also contributes to signaling by other receptor molecules. Associates directly with the cytoplasmic tail of CD2, which leads to hyperphosphorylation and activation of LCK. Also plays a role in the IL2 receptor-linked signaling pathway that controls the T-cell proliferative response. Binding of IL2 to its receptor results in increased activity of LCK. Is expressed at all stages of thymocyte development and is required for the regulation of maturation events that are governed by both pre-TCR and mature alpha beta TCR. Phosphorylates other substrates including RUNX3, PTK2B/PYK2, the microtubule-associated protein MAPT, RHOH or TYROBP.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a [protein]-L-tyrosine = ADP + a [protein]-L-tyrosine phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF07714:Pkinase_Tyr@@PF00017:SH2@@PF00018:SH3_1</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>p56-LCK</Alias>
+      <Alias>LSK</Alias>
+      <Alias>Proto-oncogene Lck</Alias>
+      <Alias>Lymphocyte cell-specific protein-tyrosine kinase</Alias>
+      <Alias>Leukocyte C-terminal Src kinase</Alias>
+      <Alias>Protein YT16</Alias>
+      <Alias>T cell-specific protein-tyrosine kinase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a phosphatidylinositol 3-kinase, any enzyme that catalyzes the addition of a phosphate group to an inositol lipid at the 3' position of the inositol ring.</Detail>
+      <Keyword>Phosphatidylinositol 3-kinase binding</Keyword>
+      <Ontology_ID>GO:0043548</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a SH2 domain (Src homology 2) of a protein, a protein domain of about 100 amino-acid residues and belonging to the alpha + beta domain class.</Detail>
+      <Keyword>SH2 domain binding</Keyword>
+      <Ontology_ID>GO:0042169</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: protein serine phosphate + H2O = protein serine + phosphate, and protein threonine phosphate + H2O = protein threonine + phosphate.</Detail>
+      <Keyword>Protein serine/threonine phosphatase activity</Keyword>
+      <Ontology_ID>GO:0004722</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a non-membrane spanning protein L-tyrosine = ADP + a non-membrane spanning protein L-tyrosine phosphate.</Detail>
+      <Keyword>Non-membrane spanning protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004715</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a protein kinase, any enzyme that catalyzes the transfer of a phosphate group, usually from ATP, to a protein substrate.</Detail>
+      <Keyword>Protein kinase binding</Keyword>
+      <Ontology_ID>GO:0019901</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a CD4, a receptor found on the surface of T cells, monocytes and macrophages.</Detail>
+      <Keyword>CD4 receptor binding</Keyword>
+      <Ontology_ID>GO:0042609</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a CD8, a receptor found on the surface of thymocytes and cytotoxic and suppressor T-lymphocytes.</Detail>
+      <Keyword>CD8 receptor binding</Keyword>
+      <Ontology_ID>GO:0042610</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a protein C-terminus, the end of any peptide chain at which the 1-carboxy function of a constituent amino acid is not attached in peptide linkage to another amino-acid residue.</Detail>
+      <Keyword>Protein C-terminus binding</Keyword>
+      <Ontology_ID>GO:0008022</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a glycoprotein, a protein that contains covalently bound glycose (monosaccharide) residues. These also include proteoglycans.</Detail>
+      <Keyword>Glycoprotein binding</Keyword>
+      <Ontology_ID>GO:0001948</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an ATPase, any enzyme that catalyzes the hydrolysis of ATP.</Detail>
+      <Keyword>ATPase binding</Keyword>
+      <Ontology_ID>GO:0051117</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a protein tyrosine = ADP + protein tyrosine phosphate.</Detail>
+      <Keyword>Protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004713</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>353</Position>
+      <Original>Ala</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>28</Position>
+      <Original>Val</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>201</Position>
+      <Original>Gly</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>447</Position>
+      <Original>Pro</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A series of molecular signals initiated by the cross-linking of an antigen receptor on a T cell.</Detail>
+      <Keyword>T cell receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0050852</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signaling pathways initiated by the cross-linking of an antigen receptor on a T cell.</Detail>
+      <Keyword>Positive regulation of T cell receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0050862</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which an organism has an effect on an organism of a different species.</Detail>
+      <Keyword>Interspecies interaction between organisms</Keyword>
+      <Ontology_ID>GO:0044419</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the maintenance of an internal steady state of zinc ions at the level of a cell.</Detail>
+      <Keyword>Cellular zinc ion homeostasis</Keyword>
+      <Ontology_ID>GO:0006882</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A process that directly activates any of the steps required for cell death by apoptosis.</Detail>
+      <Keyword>Induction of apoptosis</Keyword>
+      <Ontology_ID>GO:0006917</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of providing, via surface-bound receptor-ligand pairs, a second, antigen-independent, signal in addition to that provided by the T cell receptor to augment T cell activation.</Detail>
+      <Keyword>T cell costimulation</Keyword>
+      <Ontology_ID>GO:0031295</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a virus reproduces. Usually, this is by infection of a host cell, replication of the viral genome, and assembly of progeny virus particles. In some cases the viral genetic material may integrate into the host genome and only subsequently, under particular circumstances, 'complete' its life cycle.</Detail>
+      <Keyword>Viral reproduction</Keyword>
+      <Ontology_ID>GO:0016032</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The movement of a leukocyte within or between different tissues and organs of the body.</Detail>
+      <Keyword>Leukocyte migration</Keyword>
+      <Ontology_ID>GO:0050900</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which calcium ions sequestered in the endoplasmic reticulum or mitochondria are released into the cytosolic compartment.</Detail>
+      <Keyword>Release of sequestered calcium ion into cytosol</Keyword>
+      <Ontology_ID>GO:0051209</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a precursor cell type acquires characteristics of a more mature T-cell. A T cell is a type of lymphocyte whose definin characteristic is the expression of a T cell receptor complex.</Detail>
+      <Keyword>T cell differentiation</Keyword>
+      <Ontology_ID>GO:0030217</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any viral process that modulates the frequency, rate, or extent of the antiviral response of the host cell or organism.</Detail>
+      <Keyword>Regulation of defense response to virus by virus</Keyword>
+      <Ontology_ID>GO:0050690</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</Detail>
+      <Keyword>Platelet activation</Keyword>
+      <Ontology_ID>GO:0030168</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a drug stimulus. A drug is a substance used in the diagnosis, treatment or prevention of a disease.</Detail>
+      <Keyword>Response to drug</Keyword>
+      <Ontology_ID>GO:0042493</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Upregulation of the activity of a caspase, any of a group of cysteine proteases involved in apoptosis.</Detail>
+      <Keyword>Activation of caspase activity</Keyword>
+      <Ontology_ID>GO:0006919</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>162</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>505</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>194</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>179</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>159</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>501</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>192</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>394</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>102</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>213</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MGCGCSSHPEDDWMENIDVCENCHYPIVPLDGKGTLLIRNGSEVRDPLVTYEGSNPPASPLQDNLVIALHSYEPSHDGDLGFEKGEQLRILEQSGEWWKAQSLTTGQEGFIPFNFVAKANSLEPEPWFFKNLSRKDAERQLLAPGNTHGSFLIRESESTAGSFSLSVRDFDQNQGEVVKHYKIRNLDNGGFYISPRITFPGLHELVRHYTNASDGLCTRLSRPCQTQKPQKPWWEDEWEVPRETLKLVERLGAGQFGEVWMGYYNGHTKVAVKSLKQGSMSPDAFLAEANLMKQLQHQRLVRLYAVVTQEPIYIITEYMENGSLVDFLKTPSGIKLTINKLLDMAAQIAEGMAFIEERNYIHRDLRAANILVSDTLSCKIADFGLARLIEDNEYTAREGAKFPIKWTAPEAINYGTFTIKSDVWSFGILLTEIVTHGRIPYPGMTNPEVIQNLERGYRMVRPDNCPEELYQLMRLCWKERPEDRPTFDYLRSVLEDFFTATEGQYQPQP</Protein_Seq>
+    <DNA_Seq>GTGTGAATTTACTTGTAGCCTGAGGGCTCAGAGGGAGCACCGGTTTGGAGCTGGGACCCCCTATTTTAGCTTTTCTGTGGCTGGTGAATGGGGATCCCAGGATCTCACAATCTCAGGGACCATGGGCTGTGGCTGCAGCTCACACCCGGAAGATGACTGGATGGAAAACATCGATGTGTGTGAGAACTGCCATTATCCCATAGTCCCACTGGATGGCAAGGGCACGCTGCTCATCCGAAATGGCTCTGAGGTGCGGGACCCACTGGTTACCTACGAAGGCTCCAATCCGCCGGCTTCCCCACTGCAAGACAACCTGGTTATCGCTCTGCACAGCTATGAGCCCTCTCACGACGGAGATCTGGGCTTTGAGAAGGGGGAACAGCTCCGCATCCTGGAGCAGAGCGGCGAGTGGTGGAAGGCGCAGTCCCTGACCACGGGCCAGGAAGGCTTCATCCCCTTCAATTTTGTGGCCAAAGCGAACAGCCTGGAGCCCGAACCCTGGTTCTTCAAGAACCTGAGCCGCAAGGACGCGGAGCGGCAGCTCCTGGCGCCCGGGAACACTCACGGCTCCTTCCTCATCCGGGAGAGCGAGAGCACCGCGGGATCGTTTTCACTGTCGGTCCGGGACTTCGACCAGAACCAGGGAGAGGTGGTGAAACATTACAAGATCCGTAATCTGGACAACGGTGGCTTCTACATCTCCCCTCGAATCACTTTTCCCGGCCTGCATGAACTGGTCCGCCATTACACCAATGCTTCAGATGGGCTGTGCACACGGTTGAGCCGCCCCTGCCAGACCCAGAAGCCCCAGAAGCCGTGGTGGGAGGACGAGTGGGAGGTTCCCAGGGAGACGCTGAAGCTGGTGGAGCGGCTGGGGGCTGGACAGTTCGGGGAGGTGTGGATGGGGTACTACAACGGGCACACGAAGGTGGCGGTGAAGAGCCTGAAGCAGGGCAGCATGTCCCCGGACGCCTTCCTGGCCGAGGCCAACCTCATGAAGCAGCTGCAACACCAGCGGCTGGTTCGGCTCTACGCTGTGGTCACCCAGGAGCCCATCTACATCATCACTGAATACATGGAGAATGGGAGTCTAGTGGATTTTCTCAAGACCCCTTCAGGCATCAAGTTGACCATCAACAAACTCCTGGACATGGCAGCCCAAATTGCAGAAGGCATGGCATTCATTGAAGAGCGGAATTATATTCATCGTGACCTTCGGGCTGCCAACATTCTGGTGTCTGACACCCTGAGCTGCAAGATTGCAGACTTTGGCCTAGCACGCCTCATTGAGGACAACGAGTACACAGCCAGGGAGGGGGCCAAGTTTCCCATTAAGTGGACAGCGCCAGAAGCCATTAACTACGGGACATTCACCATCAAGTCAGATGTGTGGTCTTTTGGGATCCTGCTGACGGAAATTGTCACCCACGGCCGCATCCCTTACCCAGGGATGACCAACCCGGAGGTGATTCAGAACCTGGAGCGAGGCTACCGCATGGTGCGCCCTGACAACTGTCCAGAGGAGCTGTACCAACTCATGAGGCTGTGCTGGAAGGAGCGCCCAGAGGACCGGCCCACCTTTGACTACCTGCGCAGTGTGCTGGAGGACTTCTTCACGGCCACAGAGGGCCAGTACCAGCCTCAGCCTTGAGAGGCCTTGAGAGGCCCTGGGGTTCTCCCCCTTTCTCTCCAGCCTGACTTGGGGAGATGGAGTTCTTGTGCCATAGTCACATGGCCTATGCACATATGGACTCTGCACATGAATCCCACCCACATGTGACACATATGCACCTTGTGTCTGTACACGTGTCCTGTAGTTGCGTGGACTCTGCACATGTCTTGTACATGTGTAGCCTGTGCATGTATGTCTTGGACACTGTACAAGGTACCCCTTTCTGGCTCTCCCATTTCCTGAGACCACAGAGAGAGGGGAGAAGCCTGGGATTGACAGAAGCTTCTGCCCACCTACTTTTCTTTCCTCAGATCATCCAGAAGTTCCTCAAGGGCCAGGACTTTATCTAATACCTCTGTGTGCTCCTCCTTGGTGCCTGGCCTGGCACACATCAGGAGTTCAATAAATGTCTGTTGATGACTGTTGTAAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Lymphoid cells</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane raft</CellLocal>
+      <Ontology_ID>GO:0045121</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Pericentriolar material</CellLocal>
+      <Ontology_ID>GO:0000242</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Golgi apparatus</CellLocal>
+      <Ontology_ID>GO:0005794</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>LCK</Gene_Name>
+    <Gene_ID>3932</Gene_ID>
+    <Genbank_ACCN>NM_001042771</Genbank_ACCN>
+    <Protein_ACCN>NP_001036236</Protein_ACCN>
+    <HGNC_ID>6524</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3932</Gene_URL>
+    <UCSC_ID>uc001buz.3</UCSC_ID>
+    <EMBL_ID>ENSG00000182866</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q9H204</Uniprot_ID>
+      <Gene_Name>MED28</Gene_Name>
+      <EBI_ID>EBI-514199</EBI_ID>
+      <PPI_EBI_URL>EBI-1348,EBI-514199</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y2R2</Uniprot_ID>
+      <Gene_Name>PTPN22</Gene_Name>
+      <EBI_ID>EBI-1211241</EBI_ID>
+      <PPI_EBI_URL>EBI-1348,EBI-1211241</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O43561</Uniprot_ID>
+      <Gene_Name>LAT</Gene_Name>
+      <EBI_ID>EBI-1222766</EBI_ID>
+      <PPI_EBI_URL>EBI-1348,EBI-1222766</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q07666</Uniprot_ID>
+      <Gene_Name>KHDRBS1</Gene_Name>
+      <EBI_ID>EBI-1364</EBI_ID>
+      <PPI_EBI_URL>EBI-1348,EBI-1364</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P08575</Uniprot_ID>
+      <Gene_Name>PTPRC</Gene_Name>
+      <EBI_ID>EBI-1341</EBI_ID>
+      <PPI_EBI_URL>EBI-1348,EBI-1341</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Immunodeficiency 22</Disease_Name>
+      <Disease_Detail>Immunodeficiency</Disease_Detail>
+      <Disease_DB>IMM075</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/immunodeficiency_22?search=LCK#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>LCK bound to imatinib</PDB_Title>
+      <PDB_ID>2PL0</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PL0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Classifying protein kinase structures guides use of ligand-selectivity profiles to predict inactive conformations: Structure of lck/imatinib complex.</PubMed_Title>
+      <Author>Jacobs, M.D., et al.</Author>
+      <Journal>Proteins(2007)70:1451-1460</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17910071?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of triazolo pyrimidine derivative bound to the kinase domain of human LCK, (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>3AC5</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3AC5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Ab initio molecular orbital study of ligand binding to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE LYMPHOCYTE-SPECIFIC KINASE LCK IN COMPLEX WITH STAUROSPORINE.</PDB_Title>
+      <PDB_ID>1QPJ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QPJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of the lymphocyte-specific kinase Lck in complex with non-selective and Src family selective kinase inhibitors.</PubMed_Title>
+      <Author>Zhu, X., et al.</Author>
+      <Journal>Structure Fold.Des.(1999)7:651-661</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10404594?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Pyrazolo pyrimidine derivative bound to the kinase domain of human LCK, (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>3AD6</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3AD6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Ab initio fragment molecular orbital study of ligand binding to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Protein Tyrosine Phosphatase PTPN-22 (Lyp) bound to the mono-Phosphorylated Lck active site peptide</PDB_Title>
+      <PDB_ID>3BRH</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BRH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Lyp/PTPN22 Phosphatase Domain:  Substrate Recognition and Specificity for Src family kinases</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of aminoquinazoline 36 bound to Lck</PDB_Title>
+      <PDB_ID>2OG8</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OG8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Aminoquinazolines as Potent, Orally Bioavailable Inhibitors of Lck: Synthesis, SAR, and in Vivo Anti-Inflammatory Activity</PubMed_Title>
+      <Author>DiMauro, E.F., et al.</Author>
+      <Journal>J.Med.Chem.(2006)49:5671-5686</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16970394?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE KINASE DOMAIN OF HUMAN LYMPHOCYTE KINASE (LCK), ACTIVATED FORM (AUTO-PHOSPHORYLATED ON TYR394)</PDB_Title>
+      <PDB_ID>3LCK</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LCK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for activation of human lymphocyte kinase Lck upon tyrosine phosphorylation.</PubMed_Title>
+      <Author>Yamaguchi, H., et al.</Author>
+      <Journal>Nature(1996)384:484-489</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8945479?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL ANALYSIS OF THE LYMPHOCYTE-SPECIFIC KINASE LCK IN COMPLEX WITH NON-SELECTIVE AND SRC FAMILY SELECTIVE KINASE INHIBITORS</PDB_Title>
+      <PDB_ID>1QPC</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QPC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of the lymphocyte-specific kinase Lck in complex with non-selective and Src family selective kinase inhibitors.</PubMed_Title>
+      <Author>Zhu, X., et al.</Author>
+      <Journal>Structure Fold.Des.(1999)7:651-661</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10404594?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of imidazo pyrazin 1 bound to the kinase domain of human LCK, (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>2ZM1</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ZM1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The importance of CH/pi hydrogen bonds in rational drug design: An ab initio fragment molecular orbital study to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+      <Author>Ozawa, T., et al.</Author>
+      <Journal>Bioorg.Med.Chem.(2008)16:10311-10318</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18977146?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>co-crystal structure of Lck and aminopyrimidine amide 10b</PDB_Title>
+      <PDB_ID>3BYS</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BYS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-guided design of aminopyrimidine amides as potent, selective inhibitors of lymphocyte specific kinase: synthesis, structure-activity relationships, and inhibition of in vivo T cell activation.</PubMed_Title>
+      <Author>DiMauro, E.F., et al.</Author>
+      <Journal>J.Med.Chem.(2008)51:1681-1694</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18321037?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SH2 (SRC HOMOLOGY-2) DOMAIN OF HUMAN P56-LCK TYROSINE KINASE COMPLEXED WITH THE 11 RESIDUE PHOSPHOTYROSYL PEPTIDE EPQPYEEIPIYL</PDB_Title>
+      <PDB_ID>1LCJ</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LCJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Recognition of a high-affinity phosphotyrosyl peptide by the Src homology-2 domain of p56lck.</PubMed_Title>
+      <Author>Eck, M.J., et al.</Author>
+      <Journal>Nature(1993)362:87-91</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7680435?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Pyrrolo pyrazine derivative bound to the kinase domain of human LCK, (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>3ACK</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ACK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Ab initio fragment molecular orbital study of ligand binding to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-based design of a novel, osteoclast-selective, nonpeptide Src SH2 inhibitor with in vivo anti-resorptive activity</PDB_Title>
+      <PDB_ID>1FBZ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FBZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of an osteoclast-selective, nonpeptide src homology 2 inhibitor with in vivo antiresorptive activity.</PubMed_Title>
+      <Author>Shakespeare, W., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2000)97:9373-9378</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10944210?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of pyrazolo pyrimidine derivative bound to the kinase domain of human LCK, (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>3AC8</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3AC8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Ab initio fragment molecular orbital study of ligand binding to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL ANALYSIS OF THE LYMPHOCYTE-SPECIFIC KINASE LCK IN COMPLEX WITH NON-SELECTIVE AND SRC FAMILY SELECTIVE KINASE INHIBITORS</PDB_Title>
+      <PDB_ID>1QPE</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QPE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of the lymphocyte-specific kinase Lck in complex with non-selective and Src family selective kinase inhibitors.</PubMed_Title>
+      <Author>Zhu, X., et al.</Author>
+      <Journal>Structure Fold.Des.(1999)7:651-661</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10404594?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of T-cell surface glycoprotein CD4 and Proto-oncogene tyrosine-protein kinase LCK fragments</PDB_Title>
+      <PDB_ID>1Q68</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Q68</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A zinc clasp structure tethers Lck to T cell coreceptors CD4 and CD8.</PubMed_Title>
+      <Author>Kim, P.W., et al.</Author>
+      <Journal>Science(2003)301:1725-1728</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14500983?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN P56-LCK TYROSINE KINASE SH2 DOMAIN IN COMPLEX WITH THE PHOSPHOTYROSYL PEPTIDE AC-PTYR-GLU-GLU-ILE (PYEEI PEPTIDE)</PDB_Title>
+      <PDB_ID>1LKK</PDB_ID>
+      <Resolution>1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LKK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the human p56lck SH2 domain in complex with two short phosphotyrosyl peptides at 1.0 A and 1.8 A resolution.</PubMed_Title>
+      <Author>Tong, L., et al.</Author>
+      <Journal>J.Mol.Biol.(1996)256:601-610</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8604142?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FREE P56LCK SH2 DOMAIN</PDB_Title>
+      <PDB_ID>1BHH</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BHH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Carboxymethyl-phenylalanine as a replacement for phosphotyrosine in SH2 domain binding.</PubMed_Title>
+      <Author>Tong, L., et al.</Author>
+      <Journal>J.Biol.Chem.(1998)273:20238-20242</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9685372?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SH3 DOMAIN OF HUMAN LCK TYROSINE KINASE</PDB_Title>
+      <PDB_ID>1H92</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1H92</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Investigation of the Binding of a Herpesviral Protein to the SH3 Domain of Tyrosine Kinase Lck</PubMed_Title>
+      <Author>Schweimer, K., et al.</Author>
+      <Journal>Biochemistry(2002)41:5120</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11955060?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray co-crystal structure aminobenzimidazole triazine 1 bound to Lck</PDB_Title>
+      <PDB_ID>3BYM</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BYM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel 2-amino-6-phenyl-pyrimido[5',4':5,6]pyrimido[1,2-a]benzimidazol-5(6H)-ones as potent and orally active inhibitors of lymphocyte specific kinase (Lck): synthesis, SAR, and in vivo anti-inflammatory activity.</PubMed_Title>
+      <Author>Martin, M.W., et al.</Author>
+      <Journal>J.Med.Chem.(2008)51:1637-1648</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18278858?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of LCK SH2 complexed with nonpeptide phosphotyrosine mimetic</PDB_Title>
+      <PDB_ID>1IJR</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1IJR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A novel phosphotyrosine mimetic 4'-carboxymethyloxy-3'-phosphonophenylalanine (Cpp): exploitation in the design of nonpeptide inhibitors of pp60(Src) SH2 domain.</PubMed_Title>
+      <Author>Kawahata, N., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2001)11:2319-2323</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11527723?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of pyrazolo pyrimidine derivative bound to the kinase domain of human LCK, (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>3AC3</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3AC3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Ab initio fragment molecular orbital study of ligand binding to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>SH3 Domain of Lymphocyte Specific Kinase (LCK)</PDB_Title>
+      <PDB_ID>1KIK</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KIK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure determination of human Lck unique and SH3 domains by nuclear magnetic resonance spectroscopy.</PubMed_Title>
+      <Author>Briese, L., et al.</Author>
+      <Journal>Bmc Struct.Biol.(2003)3:3-3</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12734017?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Methoxy Benzofuran Derivative bound to the Kinase domain of human LCK, (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>3AD4</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3AD4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Ab initio fragment molecular orbital study of ligand binding to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN P56LCK TYROSINE KINASE COMPLEXED WITH PHOSPHOPEPTIDE</PDB_Title>
+      <PDB_ID>1CWD</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CWD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The crystal structures of the SH2 domain of p56lck complexed with two phosphopeptides suggest a gated peptide binding site.</PubMed_Title>
+      <Author>Mikol, V., et al.</Author>
+      <Journal>J.Mol.Biol.(1995)246:344-355</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7532720?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of imidazo pyrimidine derivative bound to the kinase domain of human LCK, (Auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>3ACJ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ACJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Ab initio fragment molecular orbital study of ligand binding to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL ANALYSIS OF THE LYMPHOCYTE-SPECIFIC KINASE LCK IN COMPLEX WITH NON-SELECTIVE AND SRC FAMILY SELECTIVE KINASE INHIBITORS</PDB_Title>
+      <PDB_ID>1QPD</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QPD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of the lymphocyte-specific kinase Lck in complex with non-selective and Src family selective kinase inhibitors.</PubMed_Title>
+      <Author>Zhu, X., et al.</Author>
+      <Journal>Structure Fold.Des.(1999)7:651-661</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10404594?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of aminoquinazoline 1 bound to Lck</PDB_Title>
+      <PDB_ID>2OFV</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OFV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Aminoquinazolines as Potent, Orally Bioavailable Inhibitors of Lck: Synthesis, SAR, and in Vivo Anti-Inflammatory Activity</PubMed_Title>
+      <Author>DiMauro, E.F., et al.</Author>
+      <Journal>J.Med.Chem.(2006)49:5671</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16970394?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of triazolo pyrimidine derivative bound to the kinase domain of human LCK, (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>3AC4</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3AC4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Ab initio fragment molecular orbital study of ligand binding to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Lck SH2-SH3 with SH2 binding site of p130Cas</PDB_Title>
+      <PDB_ID>1X27</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1X27</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular basis for regulation of Src by the docking protein p130Cas</PubMed_Title>
+      <Author>Nasertorabi, F., et al.</Author>
+      <Journal>J.MOL.RECOG.(2006)19:30-38</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16245368?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of furanopyrimidine 1 bound to lck</PDB_Title>
+      <PDB_ID>2OF4</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OF4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of novel 2,3-diarylfuro[2,3-b]pyridin-4-amines as potent and selective inhibitors of Lck: Synthesis, SAR, and pharmacokinetic properties.</PubMed_Title>
+      <Author>Martin, M.W., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2007)17:2299-2304</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17276681?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>LCK complexed with a pyrazolopyrimidine</PDB_Title>
+      <PDB_ID>3MPM</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MPM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>New pyrazolo[1,5a]pyrimidines as orally active inhibitors of Lck.</PubMed_Title>
+      <Author>Gommermann, N., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:3628-3631</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20483608?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of T-cell surface glycoprotein CD8 alpha chain and Proto-oncogene tyrosine-protein kinase LCK fragments</PDB_Title>
+      <PDB_ID>1Q69</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Q69</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A zinc clasp structure tethers Lck to T cell coreceptors CD4 and CD8.</PubMed_Title>
+      <Author>Kim, P.W., et al.</Author>
+      <Journal>Science(2003)301:1725-1728</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14500983?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>x-ray crystal structure of 2-aminopyrimidine carbamate 43 bound to Lck</PDB_Title>
+      <PDB_ID>2OFU</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OFU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Novel 2-Aminopyrimidine Carbamates as Potent and Orally Active Inhibitors of Lck: Synthesis, SAR, and in Vivo Antiinflammatory Activity</PubMed_Title>
+      <Author>Martin, M.W., et al.</Author>
+      <Journal>J.Med.Chem.(2006)49:4981</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16884310?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of pyrimidine amide 11 bound to Lck</PDB_Title>
+      <PDB_ID>3B2W</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3B2W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>N-(3-(phenylcarbamoyl)arylpyrimidine)-5-carboxamides as potent and selective inhibitors of Lck: structure, synthesis and SAR.</PubMed_Title>
+      <Author>Deak, H.L., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2008)18:1172-1176</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18083554?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-Ray co-crystal structure of 2-amino-6-phenylpyrimido[5',4':5,6]pyrimido[1,2-a]benzimidazol-5(6H)-one 25 bound to Lck</PDB_Title>
+      <PDB_ID>3BYO</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BYO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel 2-amino-6-phenyl-pyrimido[5',4':5,6]pyrimido[1,2-a]benzimidazol-5(6H)-ones as potent and orally active inhibitors of lymphocyte specific kinase (Lck): synthesis, SAR, and in vivo anti-inflammatory activity.</PubMed_Title>
+      <Author>Martin, M.W., et al.</Author>
+      <Journal>J.Med.Chem.(2008)51:1637-1648</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18278858?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of pyrazolo pyrimidine derivative bound to the kinase domain of human LCK, (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>3AC2</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3AC2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Ab initio fragment molecular orbital study of ligand binding to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a SH3-SH2 domains of a lymphocyte-specific protein tyrosine kinase (LCK) from Homo sapiens at 2.36 A resolution</PDB_Title>
+      <PDB_ID>4D8K</PDB_ID>
+      <Resolution>2.36</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4D8K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of a SH3-SH2 domains of a lymphocyte-specific protein tyrosine kinase (LCK) from Homo sapiens at 2.36 A resolution</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>P56LCK SH2 DOMAIN INHIBITOR COMPLEX</PDB_Title>
+      <PDB_ID>1BHF</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BHF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Carboxymethyl-phenylalanine as a replacement for phosphotyrosine in SH2 domain binding.</PubMed_Title>
+      <Author>Tong, L., et al.</Author>
+      <Journal>J.Biol.Chem.(1998)273:20238-20242</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9685372?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN P56LCK TYROSINE KINASE COMPLEXED WITH PHOSPHOPEPTIDE</PDB_Title>
+      <PDB_ID>1CWE</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CWE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The crystal structures of the SH2 domain of p56lck complexed with two phosphopeptides suggest a gated peptide binding site.</PubMed_Title>
+      <Author>Mikol, V., et al.</Author>
+      <Journal>J.Mol.Biol.(1995)246:344-355</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7532720?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Triazolone derivative bound to the kinase domain of human LCK, (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>3AD5</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3AD5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Ab initio fragment molecular orbital study of ligand binding to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of imidazo quinoxaline 1 bound to the kinase domain of human LCK, activated form (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>2ZM4</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ZM4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The importance of CH/pi hydrogen bonds in rational drug design: An ab initio fragment molecular orbital study to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+      <Author>Ozawa, T., et al.</Author>
+      <Journal>Bioorg.Med.Chem.(2008)16:10311-10318</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18977146?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN P56-LCK TYROSINE KINASE SH2 DOMAIN IN COMPLEX WITH THE PHOSPHOTYROSYL PEPTIDE AC-PTYR-GLU-GLU-GLY (PYEEG PEPTIDE)</PDB_Title>
+      <PDB_ID>1LKL</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LKL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the human p56lck SH2 domain in complex with two short phosphotyrosyl peptides at 1.0 A and 1.8 A resolution.</PubMed_Title>
+      <Author>Tong, L., et al.</Author>
+      <Journal>J.Mol.Biol.(1996)256:601-610</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8604142?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SH3-SH2 DOMAIN FRAGMENT OF HUMAN P56-LCK TYROSINE KINASE COMPLEXED WITH THE 10 RESIDUE SYNTHETIC PHOSPHOTYROSYL PEPTIDE TEGQPYQPQPA</PDB_Title>
+      <PDB_ID>1LCK</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LCK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the regulatory domains of the Src-family tyrosine kinase Lck.</PubMed_Title>
+      <Author>Eck, M.J., et al.</Author>
+      <Journal>Nature(1994)368:764-769</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7512222?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of phenylimidazo pyrazin 2 bound to the kinase domain of human LCK, (auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>2ZYB</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ZYB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The importance of CH/pi hydrogen bonds in rational drug design: An ab initio fragment molecular orbital study to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+      <Author>Ozawa, T., et al.</Author>
+      <Journal>Bioorg.Med.Chem.(2008)16:10311-10318</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18977146?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of furanopyrimidine 8 bound to lck</PDB_Title>
+      <PDB_ID>2OF2</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OF2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of novel 2,3-diarylfuro[2,3-b]pyridin-4-amines as potent and selective inhibitors of Lck: Synthesis, SAR, and pharmacokinetic properties.</PubMed_Title>
+      <Author>Martin, M.W., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2007)17:2299-2304</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17276681?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SH3 Domain of Human Lck</PDB_Title>
+      <PDB_ID>2IIM</PDB_ID>
+      <Resolution>1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IIM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure analysis and solution studies of human Lck-SH3; zinc-induced homodimerization competes with the binding of proline-rich motifs.</PubMed_Title>
+      <Author>Romir, J., et al.</Author>
+      <Journal>J.Mol.Biol.(2007)365:1417-1428</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17118402?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>co-crystal structure of Lck and aminopyrimidine reverse amide 23</PDB_Title>
+      <PDB_ID>3BYU</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BYU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-guided design of aminopyrimidine amides as potent, selective inhibitors of lymphocyte specific kinase: synthesis, structure-activity relationships, and inhibition of in vivo T cell activation.</PubMed_Title>
+      <Author>DiMauro, E.F., et al.</Author>
+      <Journal>J.Med.Chem.(2008)51:1681-1694</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18321037?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The complex crystal structure of LCK with a probe molecule w259</PDB_Title>
+      <PDB_ID>3KXZ</PDB_ID>
+      <Resolution>2.37</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KXZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Novel synthesis and structural characterization of a high-affinity paramagnetic kinase probe for the identification of non-ATP site binders by nuclear magnetic resonance.</PubMed_Title>
+      <Author>Moy, F.J., et al.</Author>
+      <Journal>J.Med.Chem.(2010)53:1238-1249</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20038108?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of human LCK kinase with a small molecule inhibitor</PDB_Title>
+      <PDB_ID>3KMM</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KMM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of human LCK kinase with a small molecule inhibitor</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of pyrazin derivative bound to the kinase domain of Human LCK, (Auto-phosphorylated on TYR394)</PDB_Title>
+      <PDB_ID>3AC1</PDB_ID>
+      <Resolution>1.99</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3AC1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Ab initio fragment molecular orbital study of ligand binding to leukocyte-specific protein tyrosine (LCK) kinase</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05166</Pathway_ID>
+      <Pathway_Title>HTLV-I infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04650</Pathway_ID>
+      <Pathway_Title>Natural killer cell mediated cytotoxicity</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04660</Pathway_ID>
+      <Pathway_Title>T cell receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05340</Pathway_ID>
+      <Pathway_Title>Primary immunodeficiency</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Immune diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04380</Pathway_ID>
+      <Pathway_Title>Osteoclast differentiation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Development</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04064</Pathway_ID>
+      <Pathway_Title>NF-kappa B signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.cbd.b.b.b.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1bhf</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.10.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/10/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

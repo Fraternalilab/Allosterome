@@ -1,0 +1,1553 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05130000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P10721</UniProt_ID>
+  <Seq_Length>976</Seq_Length>
+  <Molecule_Weight>109865</Molecule_Weight>
+  <KEGG_ID>hsa:3815</KEGG_ID>
+  <Orthology_ID>K05091</Orthology_ID>
+  <EBI_ID>EBI-1379503</EBI_ID>
+  <Function_Summary>Tyrosine-protein kinase that acts as cell-surface receptor for the cytokine KITLG/SCF and plays an essential role in the regulation of cell survival and proliferation, hematopoiesis, stem cell maintenance, gametogenesis, mast cell development, migration and function, and in melanogenesis. In response to KITLG/SCF binding, KIT can activate several signaling pathways. Phosphorylates PIK3R1, PLCG1, SH2B2/APS and CBL. Activates the AKT1 signaling pathway by phosphorylation of PIK3R1, the regulatory subunit of phosphatidylinositol 3-kinase. Activated KIT also transmits signals via GRB2 and activation of RAS, RAF1 and the MAP kinases MAPK1/ERK2 and/or MAPK3/ERK1. Promotes activation of STAT family members STAT1, STAT3, STAT5A and STAT5B. Activation of PLCG1 leads to the production of the cellular signaling molecules diacylglycerol and inositol 1,4,5-trisphosphate. KIT signaling is modulated by protein phosphatases, and by rapid internalization and degradation of the receptor. Activated KIT promotes phosphorylation of the protein phosphatases PTPN6/SHP-1 and PTPRU, and of the transcription factors STAT1, STAT3, STAT5A and STAT5B. Promotes phosphorylation of PIK3R1, CBL, CRK (isoform Crk-II), LYN, MAPK1/ERK2 and/or MAPK3/ERK1, PLCG1, SRC and SHC1.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a [protein]-L-tyrosine = ADP + a [protein]-L-tyrosine phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00047:ig@@PF07714:Pkinase_Tyr</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>110</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Tyrosine-protein kinase Kit</Alias>
+      <Alias>p145 c-kit</Alias>
+      <Alias>v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog</Alias>
+      <Alias>PBT</Alias>
+      <Alias>Proto-oncogene c-Kit</Alias>
+      <Alias>Piebald trait protein</Alias>
+      <Alias>SCFR</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + receptor signalling protein tyrosine = ADP + receptor signalling protein phosphate.</Detail>
+      <Keyword>Receptor signaling protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004716</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a protein tyrosine = ADP + protein tyrosine phosphate.</Detail>
+      <Keyword>Protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004713</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a cytokine, any of a group of proteins that function to control the survival, growth and differentiation of tissues and cells, and which have autocrine and paracrine activity.</Detail>
+      <Keyword>Cytokine binding</Keyword>
+      <Ontology_ID>GO:0019955</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>816</Position>
+      <Original>Asp</Original>
+      <Variation>Tyr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>559</Position>
+      <Original>Val</Original>
+      <Variation>Asp</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>737</Position>
+      <Original>Asp</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>791</Position>
+      <Original>Arg</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>796</Position>
+      <Original>Arg</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>541</Position>
+      <Original>Met</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>820</Position>
+      <Original>Asp</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>812</Position>
+      <Original>Gly</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>715</Position>
+      <Original>Ser</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>584</Position>
+      <Original>Phe</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>816</Position>
+      <Original>Asp</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>822</Position>
+      <Original>Asn</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>559</Position>
+      <Original>Val</Original>
+      <Variation>Ala</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>532</Position>
+      <Original>Val</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>804</Position>
+      <Original>Arg</Original>
+      <Variation>Trp</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>847</Position>
+      <Original>Thr</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>541</Position>
+      <Original>Met</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>656</Position>
+      <Original>Leu</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>829</Position>
+      <Original>Ala</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>816</Position>
+      <Original>Asp</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>583</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>839</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>691</Position>
+      <Original>Cys</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>816</Position>
+      <Original>Asp</Original>
+      <Variation>Phe</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>584</Position>
+      <Original>Phe</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>664</Position>
+      <Original>Gly</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>550</Position>
+      <Original>Lys</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>601</Position>
+      <Original>Gly</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the introduction of a phosphate group to a tyrosine residue of a Stat3 protein.</Detail>
+      <Keyword>Positive regulation of tyrosine phosphorylation of Stat3 protein</Keyword>
+      <Ontology_ID>GO:0042517</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized cell acquires specialized features of a melanocyte.</Detail>
+      <Keyword>Melanocyte differentiation</Keyword>
+      <Ontology_ID>GO:0030318</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of phosphatidylinositol 3-kinase activity.</Detail>
+      <Keyword>Positive regulation of phosphatidylinositol 3-kinase activity</Keyword>
+      <Ontology_ID>GO:0043552</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the phosphatidylinositol 3-kinase cascade.</Detail>
+      <Keyword>Positive regulation of phosphatidylinositol 3-kinase cascade</Keyword>
+      <Ontology_ID>GO:0014068</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The expansion of a mast cell population by cell division.</Detail>
+      <Keyword>Mast cell proliferation</Keyword>
+      <Ontology_ID>GO:0070662</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the introduction of a phosphate group to a tyrosine residue of a Stat5 protein.</Detail>
+      <Keyword>Positive regulation of tyrosine phosphorylation of Stat5 protein</Keyword>
+      <Ontology_ID>GO:0042523</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the introduction of a phosphate group to a tyrosine residue of a Stat1 protein.</Detail>
+      <Keyword>Positive regulation of tyrosine phosphorylation of Stat1 protein</Keyword>
+      <Ontology_ID>GO:0042511</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the rate of phospholipase C activity.</Detail>
+      <Keyword>Positive regulation of phospholipase C activity</Keyword>
+      <Ontology_ID>GO:0010863</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The initiation of the activity of the inactive enzyme MAP kinase by phosphorylation by a MAPKK.</Detail>
+      <Keyword>Activation of MAPK activity</Keyword>
+      <Ontology_ID>GO:0000187</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cell proliferation.</Detail>
+      <Keyword>Regulation of cell proliferation</Keyword>
+      <Ontology_ID>GO:0042127</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which an organism retains a population of stem cells, preventing the commitment of all stem cell progeny to a differentiated cell fate.</Detail>
+      <Keyword>Stem cell maintenance</Keyword>
+      <Ontology_ID>GO:0019827</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the male gonad over time, from its formation to the mature structure.</Detail>
+      <Keyword>Male gonad development</Keyword>
+      <Ontology_ID>GO:0008584</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the MAPK cascade.</Detail>
+      <Keyword>Positive regulation of MAPKKK cascade</Keyword>
+      <Ontology_ID>GO:0043410</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation by a protein of one or more of its own amino acid residues, or residues on an identical protein.</Detail>
+      <Keyword>Protein autophosphorylation</Keyword>
+      <Ontology_ID>GO:0046777</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of activity of a transcription factor, any factor involved in the initiation or regulation of transcription.</Detail>
+      <Keyword>Positive regulation of transcription factor activity</Keyword>
+      <Ontology_ID>GO:0051091</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized myeloid precursor cell acquires the specialized features of a mast cell. A mast cell is a cell that is found in almost all tissues containing numerous basophilic granules and capable of releasing large amounts of histamine and heparin upon activation.</Detail>
+      <Keyword>Mast cell differentiation</Keyword>
+      <Ontology_ID>GO:0060374</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation of peptidyl-tyrosine to form peptidyl-O4'-phospho-L-tyrosine.</Detail>
+      <Keyword>Peptidyl-tyrosine phosphorylation</Keyword>
+      <Ontology_ID>GO:0018108</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>900</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>821</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>553</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>703</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>568</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>721</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>959</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>741</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>730</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>746</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>936</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>891</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>823</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>547</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>570</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MRGARGAWDFLCVLLLLLRVQTGSSQPSVSPGEPSPPSIHPGKSDLIVRVGDEIRLLCTDPGFVKWTFEILDETNENKQNEWITEKAEATNTGKYTCTNKHGLSNSIYVFVRDPAKLFLVDRSLYGKEDNDTLVRCPLTDPEVTNYSLKGCQGKPLPKDLRFIPDPKAGIMIKSVKRAYHRLCLHCSVDQEGKSVLSEKFILKVRPAFKAVPVVSVSKASYLLREGEEFTVTCTIKDVSSSVYSTWKRENSQTKLQEKYNSWHHGDFNYERQATLTISSARVNDSGVFMCYANNTFGSANVTTTLEVVDKGFINIFPMINTTVFVNDGENVDLIVEYEAFPKPEHQQWIYMNRTFTDKWEDYPKSENESNIRYVSELHLTRLKGTEGGTYTFLVSNSDVNAAIAFNVYVNTKPEILTYDRLVNGMLQCVAAGFPEPTIDWYFCPGTEQRCSASVLPVDVQTLNSSGPPFGKLVVQSSIDSSAFKHNGTVECKAYNDVGKTSAYFNFAFKGNNKEQIHPHTLFTPLLIGFVIVAGMMCIIVMILTYKYLQKPMYEVQWKVVEEINGNNYVYIDPTQLPYDHKWEFPRNRLSFGKTLGAGAFGKVVEATAYGLIKSDAAMTVAVKMLKPSAHLTEREALMSELKVLSYLGNHMNIVNLLGACTIGGPTLVITEYCCYGDLLNFLRRKRDSFICSKQEDHAEAALYKNLLHSKESSCSDSTNEYMDMKPGVSYVVPTKADKRRSVRIGSYIERDVTPAIMEDDELALDLEDLLSFSYQVAKGMAFLASKNCIHRDLAARNILLTHGRITKICDFGLARDIKNDSNYVVKGNARLPVKWMAPESIFNCVYTFESDVWSYGIFLWELFSLGSSPYPGMPVDSKFYKMIKEGFRMLSPEHAPAEMYDIMKTCWDADPLKRPTFKQIVQLIEKQISESTNHIYSNLANCSPNRQKPVVDHSVRINSVGSTASSSQPLLVHDDV</Protein_Seq>
+    <DNA_Seq>TCTGGGGGCTCGGCTTTGCCGCGCTCGCTGCACTTGGGCGAGAGCTGGAACGTGGACCAGAGCTCGGATCCCATCGCAGCTACCGCGATGAGAGGCGCTCGCGGCGCCTGGGATTTTCTCTGCGTTCTGCTCCTACTGCTTCGCGTCCAGACAGGCTCTTCTCAACCATCTGTGAGTCCAGGGGAACCGTCTCCACCATCCATCCATCCAGGAAAATCAGACTTAATAGTCCGCGTGGGCGACGAGATTAGGCTGTTATGCACTGATCCGGGCTTTGTCAAATGGACTTTTGAGATCCTGGATGAAACGAATGAGAATAAGCAGAATGAATGGATCACGGAAAAGGCAGAAGCCACCAACACCGGCAAATACACGTGCACCAACAAACACGGCTTAAGCAATTCCATTTATGTGTTTGTTAGAGATCCTGCCAAGCTTTTCCTTGTTGACCGCTCCTTGTATGGGAAAGAAGACAACGACACGCTGGTCCGCTGTCCTCTCACAGACCCAGAAGTGACCAATTATTCCCTCAAGGGGTGCCAGGGGAAGCCTCTTCCCAAGGACTTGAGGTTTATTCCTGACCCCAAGGCGGGCATCATGATCAAAAGTGTGAAACGCGCCTACCATCGGCTCTGTCTGCATTGTTCTGTGGACCAGGAGGGCAAGTCAGTGCTGTCGGAAAAATTCATCCTGAAAGTGAGGCCAGCCTTCAAAGCTGTGCCTGTTGTGTCTGTGTCCAAAGCAAGCTATCTTCTTAGGGAAGGGGAAGAATTCACAGTGACGTGCACAATAAAAGATGTGTCTAGTTCTGTGTACTCAACGTGGAAAAGAGAAAACAGTCAGACTAAACTACAGGAGAAATATAATAGCTGGCATCACGGTGACTTCAATTATGAACGTCAGGCAACGTTGACTATCAGTTCAGCGAGAGTTAATGATTCTGGAGTGTTCATGTGTTATGCCAATAATACTTTTGGATCAGCAAATGTCACAACAACCTTGGAAGTAGTAGATAAAGGATTCATTAATATCTTCCCCATGATAAACACTACAGTATTTGTAAACGATGGAGAAAATGTAGATTTGATTGTTGAATATGAAGCATTCCCCAAACCTGAACACCAGCAGTGGATCTATATGAACAGAACCTTCACTGATAAATGGGAAGATTATCCCAAGTCTGAGAATGAAAGTAATATCAGATACGTAAGTGAACTTCATCTAACGAGATTAAAAGGCACCGAAGGAGGCACTTACACATTCCTAGTGTCCAATTCTGACGTCAATGCTGCCATAGCATTTAATGTTTATGTGAATACAAAACCAGAAATCCTGACTTACGACAGGCTCGTGAATGGCATGCTCCAATGTGTGGCAGCAGGATTCCCAGAGCCCACAATAGATTGGTATTTTTGTCCAGGAACTGAGCAGAGATGCTCTGCTTCTGTACTGCCAGTGGATGTGCAGACACTAAACTCATCTGGGCCACCGTTTGGAAAGCTAGTGGTTCAGAGTTCTATAGATTCTAGTGCATTCAAGCACAATGGCACGGTTGAATGTAAGGCTTACAACGATGTGGGCAAGACTTCTGCCTATTTTAACTTTGCATTTAAAGGTAACAACAAAGAGCAAATCCATCCCCACACCCTGTTCACTCCTTTGCTGATTGGTTTCGTAATCGTAGCTGGCATGATGTGCATTATTGTGATGATTCTGACCTACAAATATTTACAGAAACCCATGTATGAAGTACAGTGGAAGGTTGTTGAGGAGATAAATGGAAACAATTATGTTTACATAGACCCAACACAACTTCCTTATGATCACAAATGGGAGTTTCCCAGAAACAGGCTGAGTTTTGGGAAAACCCTGGGTGCTGGAGCTTTCGGGAAGGTTGTTGAGGCAACTGCTTATGGCTTAATTAAGTCAGATGCGGCCATGACTGTCGCTGTAAAGATGCTCAAGCCGAGTGCCCATTTGACAGAACGGGAAGCCCTCATGTCTGAACTCAAAGTCCTGAGTTACCTTGGTAATCACATGAATATTGTGAATCTACTTGGAGCCTGCACCATTGGAGGGCCCACCCTGGTCATTACAGAATATTGTTGCTATGGTGATCTTTTGAATTTTTTGAGAAGAAAACGTGATTCATTTATTTGTTCAAAGCAGGAAGATCATGCAGAAGCTGCACTTTATAAGAATCTTCTGCATTCAAAGGAGTCTTCCTGCAGCGATAGTACTAATGAGTACATGGACATGAAACCTGGAGTTTCTTATGTTGTCCCAACCAAGGCCGACAAAAGGAGATCTGTGAGAATAGGCTCATACATAGAAAGAGATGTGACTCCCGCCATCATGGAGGATGACGAGTTGGCCCTAGACTTAGAAGACTTGCTGAGCTTTTCTTACCAGGTGGCAAAGGGCATGGCTTTCCTCGCCTCCAAGAATTGTATTCACAGAGACTTGGCAGCCAGAAATATCCTCCTTACTCATGGTCGGATCACAAAGATTTGTGATTTTGGTCTAGCCAGAGACATCAAGAATGATTCTAATTATGTGGTTAAAGGAAACGCTCGACTACCTGTGAAGTGGATGGCACCTGAAAGCATTTTCAACTGTGTATACACGTTTGAAAGTGACGTCTGGTCCTATGGGATTTTTCTTTGGGAGCTGTTCTCTTTAGGAAGCAGCCCCTATCCTGGAATGCCGGTCGATTCTAAGTTCTACAAGATGATCAAGGAAGGCTTCCGGATGCTCAGCCCTGAACACGCACCTGCTGAAATGTATGACATAATGAAGACTTGCTGGGATGCAGATCCCCTAAAAAGACCAACATTCAAGCAAATTGTTCAGCTAATTGAGAAGCAGATTTCAGAGAGCACCAATCATATTTACTCCAACTTAGCAAACTGCAGCCCCAACCGACAGAAGCCCGTGGTAGACCATTCTGTGCGGATCAATTCTGTCGGCAGCACCGCTTCCTCCTCCCAGCCTCTGCTTGTGCACGACGATGTCTGAGCAGAATCAGTGTTTGGGTCACCCCTCCAGGAATGATCTCTTCTTTTGGCTTCCATGATGGTTATTTTCTTTTCTTTCAACTTGCATCCAACTCCAGGATAGTGGGCACCCCACTGCAATCCTGTCTTTCTGAGCACACTTTAGTGGCCGATGATTTTTGTCATCAGCCACCATCCTATTGCAAAGGTTCCAACTGTATATATTCCCAATAGCAACGTAGCTTCTACCATGAACAGAAAACATTCTGATTTGGAAAAAGAGAGGGAGGTATGGACTGGGGGCCAGAGTCCTTTCCAAGGCTTCTCCAATTCTGCCCAAAAATATGGTTGATAGTTTACCTGAATAAATGGTAGTAATCACAGTTGGCCTTCAGAACCATCCATAGTAGTATGATGATACAAGATTAGAAGCTGAAAACCTAAGTCCTTTATGTGGAAAACAGAACATCATTAGAACAAAGGACAGAGTATGAACACCTGGGCTTAAGAAATCTAGTATTTCATGCTGGGAATGAGACATAGGCCATGAAAAAAATGATCCCCAAGTGTGAACAAAAGATGCTCTTCTGTGGACCACTGCATGAGCTTTTATACTACCGACCTGGTTTTTAAATAGAGTTTGCTATTAGAGCATTGAATTGGAGAGAAGGCCTCCCTAGCCAGCACTTGTATATACGCATCTATAAATTGTCCGTGTTCATACATTTGAGGGGAAAACACCATAAGGTTTCGTTTCTGTATACAACCCTGGCATTATGTCCACTGTGTATAGAAGTAGATTAAGAGCCATATAAGTTTGAAGGAAACAGTTAATACCATTTTTTAAGGAAACAATATAACCACAAAGCACAGTTTGAACAAAATCTCCTCTTTTAGCTGATGAACTTATTCTGTAGATTCTGTGGAACAAGCCTATCAGCTTCAGAATGGCATTGTACTCAATGGATTTGATGCTGTTTGACAAAGTTACTGATTCACTGCATGGCTCCCACAGGAGTGGGAAAACACTGCCATCTTAGTTTGGATTCTTATGTAGCAGGAAATAAAGTATAGGTTTAGCCTCCTTCGCAGGCATGTCCTGGACACCGGGCCAGTATCTATATATGTGTATGTACGTTTGTATGTGTGTAGACAAATATTTGGAGGGGTATTTTTGCCCTGAGTCCAAGAGGGTCCTTTAGTACCTGAAAAGTAACTTGGCTTTCATTATTAGTACTGCTCTTGTTTCTTTTCACATAGCTGTCTAGAGTAGCTTACCAGAAGCTTCCATAGTGGTGCAGAGGAAGTGGAAGGCATCAGTCCCTATGTATTTGCAGTTCACCTGCACTTAAGGCACTCTGTTATTTAGACTCATCTTACTGTACCTGTTCCTTAGACCTTCCATAATGCTACTGTCTCACTGAAACATTTAAATTTTACCCTTTAGACTGTAGCCTGGATATTATTCTTGTAGTTTACCTCTTTAAAAACAAAACAAAACAAAACAAAAAACTCCCCTTCCTCACTGCCCAATATAAAAGGCAAATGTGTACATGGCAGAGTTTGTGTGTTGTCTTGAAAGATTCAGGTATGTTGCCTTTATGGTTTCCCCCTTCTACATTTCTTAGACTACATTTAGAGAACTGTGGCCGTTATCTGGAAGTAACCATTTGCACTGGAGTTCTATGCTCTCGCACCTTTCCAAAGTTAACAGATTTTGGGGTTGTGTTGTCACCCAAGAGATTGTTGTTTGCCATACTTTGTCTGAAAAATTCCTTTGTGTTTCTATTGACTTCAATGATAGTAAGAAAAGTGGTTGTTAGTTATAGATGTCTAGGTACTTCAGGGGCACTTCATTGAGAGTTTTGTCTTGGATATTCTTGAAAGTTTATATTTTTATAATTTTTTCTTACATCAGATGTTTCTTTGCAGTGGCTTAATGTTTGAAATTATTTTGTGGCTTTTTTTGTAAATATTGAAATGTAGCAATAATGTCTTTTGAATATTCCCAAGCCCATGAGTCCTTGAAAATATTTTTTATATATACAGTAACTTTATGTGTAAATACATAAGCGGCGTAAGTTTAAAGGATGTTGGTGTTCCACGTGTTTTATTCCTGTATGTTGTCCAATTGTTGACAGTTCTGAAGAATTCTAATAAAATGTACATATATAAATCAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular space</CellLocal>
+      <Ontology_ID>GO:0005615</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>KIT</Gene_Name>
+    <Gene_Alias>SCFR</Gene_Alias>
+    <Gene_ID>3815</Gene_ID>
+    <Genbank_ACCN>NM_000222</Genbank_ACCN>
+    <Protein_ACCN>NP_000213</Protein_ACCN>
+    <HGNC_ID>6342</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3815</Gene_URL>
+    <UCSC_ID>uc010igr.3</UCSC_ID>
+    <EMBL_ID>ENSG00000157404</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P21583</Uniprot_ID>
+      <Gene_Name>KITLG</Gene_Name>
+      <EBI_ID>EBI-1379527</EBI_ID>
+      <PPI_EBI_URL>EBI-1379503,EBI-1379527</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P62993</Uniprot_ID>
+      <Gene_Name>GRB2</Gene_Name>
+      <EBI_ID>EBI-401755</EBI_ID>
+      <PPI_EBI_URL>EBI-1379503,EBI-401755</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P35235</Uniprot_ID>
+      <Gene_Name>Ptpn11</Gene_Name>
+      <EBI_ID>EBI-397236</EBI_ID>
+      <PPI_EBI_URL>EBI-1379503,EBI-397236</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Adenosarcoma</Disease_Name>
+      <Disease_Detail>Adenosarcoma</Disease_Detail>
+      <Disease_DB>ADN020</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adenosarcoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Typical Urticaria Pigmentosa</Disease_Name>
+      <Disease_Detail>Typical Urticaria Pigmentosa</Disease_Detail>
+      <Disease_DB>TYP022</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/typical_urticaria_pigmentosa?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dysphagia</Disease_Name>
+      <Disease_Detail>Dysphagia</Disease_Detail>
+      <Disease_DB>DYS073</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dysphagia?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Small Cell Neuroendocrine Carcinoma</Disease_Name>
+      <Disease_Detail>Small Cell Neuroendocrine Carcinoma</Disease_Detail>
+      <Disease_DB>SML034</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/small_cell_neuroendocrine_carcinoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mesenchymal Cell Neoplasm</Disease_Name>
+      <Disease_Detail>Mesenchymal Cell Neoplasm</Disease_Detail>
+      <Disease_DB>MSN004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mesenchymal_cell_neoplasm?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Small Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Small Cell Carcinoma</Disease_Detail>
+      <Disease_DB>SML001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/small_cell_carcinoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Germ Cell Tumors</Disease_Name>
+      <Disease_Detail>Germ Cell Tumors</Disease_Detail>
+      <Disease_DB>GRM009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/germ_cell_tumors?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mucosal Melanoma</Disease_Name>
+      <Disease_Detail>Mucosal Melanoma</Disease_Detail>
+      <Disease_DB>MCS004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mucosal_melanoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Plaque-Form Urticaria Pigmentosa</Disease_Name>
+      <Disease_Detail>Plaque-Form Urticaria Pigmentosa</Disease_Detail>
+      <Disease_DB>PLQ001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/plaque_form_urticaria_pigmentosa?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Isolated Bone Marrow Mastocytosis</Disease_Name>
+      <Disease_Detail>Isolated Bone Marrow Mastocytosis</Disease_Detail>
+      <Disease_DB>ISL032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/isolated_bone_marrow_mastocytosis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Urticaria Pigmentosa</Disease_Name>
+      <Disease_Detail>Urticaria Pigmentosa</Disease_Detail>
+      <Disease_DB>URT008</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/urticaria_pigmentosa?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Piebaldism</Disease_Name>
+      <Disease_Detail>Piebaldism</Disease_Detail>
+      <Disease_DB>PBL001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/piebaldism?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Retroperitoneal Leiomyosarcoma</Disease_Name>
+      <Disease_Detail>Retroperitoneal Leiomyosarcoma</Disease_Detail>
+      <Disease_DB>RTR007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/retroperitoneal_leiomyosarcoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cutaneous Mastocytoma</Disease_Name>
+      <Disease_Detail>Cutaneous Mastocytoma</Disease_Detail>
+      <Disease_DB>CTN027</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cutaneous_mastocytoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Uterine Sarcoma</Disease_Name>
+      <Disease_Detail>Uterine Sarcoma</Disease_Detail>
+      <Disease_DB>UTR043</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/uterine_sarcoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Merkel Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Merkel Cell Carcinoma</Disease_Detail>
+      <Disease_DB>MRK001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/merkel_cell_carcinoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Sarcoma</Disease_Name>
+      <Disease_Detail>Sarcoma</Disease_Detail>
+      <Disease_DB>SRC014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/sarcoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Renal Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Renal Cell Carcinoma</Disease_Detail>
+      <Disease_DB>RNL014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/renal_cell_carcinoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Male Germ Cell Tumor</Disease_Name>
+      <Disease_Detail>Male Germ Cell Tumor</Disease_Detail>
+      <Disease_DB>MLG083</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/male_germ_cell_tumor?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Juvenile Xanthogranuloma</Disease_Name>
+      <Disease_Detail>Juvenile Xanthogranuloma</Disease_Detail>
+      <Disease_DB>JVN003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/juvenile_xanthogranuloma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dermatofibrosarcoma Protuberans</Disease_Name>
+      <Disease_Detail>Dermatofibrosarcoma Protuberans</Disease_Detail>
+      <Disease_DB>DRM014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dermatofibrosarcoma_protuberans?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cutaneous Mastocytosis</Disease_Name>
+      <Disease_Detail>Cutaneous Mastocytosis</Disease_Detail>
+      <Disease_DB>CTN014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cutaneous_mastocytosis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Leukemia, Acute Myeloid, Reduced Survival in</Disease_Name>
+      <Disease_Detail>Acute Myeloid Leukemia</Disease_Detail>
+      <Disease_DB>LKM017</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leukemia_acute_myeloid_reduced_survival_in?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Leiomyosarcoma</Disease_Name>
+      <Disease_Detail>Leiomyosarcoma</Disease_Detail>
+      <Disease_DB>LMY004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leiomyosarcoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Juvenile Nasopharyngeal Angiofibroma</Disease_Name>
+      <Disease_Detail>Juvenile Nasopharyngeal Angiofibroma</Disease_Detail>
+      <Disease_DB>JVN033</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/juvenile_nasopharyngeal_angiofibroma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lymphoadenopathic Mastocytosis with Eosinophilia</Disease_Name>
+      <Disease_Detail>Lymphoadenopathic Mastocytosis with Eosinophilia</Disease_Detail>
+      <Disease_DB>LYM096</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lymphoadenopathic_mastocytosis_with_eosinophilia?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Liposarcoma</Disease_Name>
+      <Disease_Detail>Liposarcoma</Disease_Detail>
+      <Disease_DB>LPS002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/liposarcoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Urticaria</Disease_Name>
+      <Disease_Detail>Urticaria</Disease_Detail>
+      <Disease_DB>URT039</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/urticaria?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Spermatocytic Seminoma, Somatic</Disease_Name>
+      <Disease_Detail>Spermatocytic Seminoma, Somatic</Disease_Detail>
+      <Disease_DB>SPR085</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/spermatocytic_seminoma_somatic?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Fibrosarcoma of Bone</Disease_Name>
+      <Disease_Detail>Fibrosarcoma of Bone</Disease_Detail>
+      <Disease_DB>FBR002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/fibrosarcoma_of_bone?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Piebald Trait, Kit-Related</Disease_Name>
+      <Disease_Detail>Piebald Trait, Kit-Related</Disease_Detail>
+      <Disease_DB>PBL002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/piebald_trait_kit_related?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Desmoid Tumor</Disease_Name>
+      <Disease_Detail>Desmoid Tumor</Disease_Detail>
+      <Disease_DB>DSM004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/desmoid_tumor?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Sm-Ahnmd</Disease_Name>
+      <Disease_Detail>Sm-Ahnmd</Disease_Detail>
+      <Disease_DB>SMH001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/sm_ahnmd?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Classic Mast Cell Leukemia</Disease_Name>
+      <Disease_Detail>Classic Mast Cell Leukemia</Disease_Detail>
+      <Disease_DB>CLS019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/classic_mast_cell_leukemia?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Thymic Epithelial Tumor</Disease_Name>
+      <Disease_Detail>Thymic Epithelial Tumor</Disease_Detail>
+      <Disease_DB>THY042</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/thymic_epithelial_tumor?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myelofibrosis</Disease_Name>
+      <Disease_Detail>Myelofibrosis</Disease_Detail>
+      <Disease_DB>MYL005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myelofibrosis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Sinonasal Undifferentiated Carcinoma</Disease_Name>
+      <Disease_Detail>Sinonasal Undifferentiated Carcinoma</Disease_Detail>
+      <Disease_DB>SNN002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/sinonasal_undifferentiated_carcinoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Thymic Carcinoma</Disease_Name>
+      <Disease_Detail>Thymic Carcinoma</Disease_Detail>
+      <Disease_DB>THY022</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/thymic_carcinoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Polymorphous Low-Grade Adenocarcinoma</Disease_Name>
+      <Disease_Detail>Polymorphous Low-Grade Adenocarcinoma</Disease_Detail>
+      <Disease_DB>PLY040</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/polymorphous_low_grade_adenocarcinoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Systemic Mastocytosis</Disease_Name>
+      <Disease_Detail>Systemic Mastocytosis</Disease_Detail>
+      <Disease_DB>SYS004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/systemic_mastocytosis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Leukemia, Acute Myeloid, Somatic</Disease_Name>
+      <Disease_Detail>Acute Myeloid Leukemia</Disease_Detail>
+      <Disease_DB>LKM016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leukemia_acute_myeloid_somatic?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Systemic Mastocytosis with an Associated Clonal Hematologic Non-Mast Cell Lineage Disease</Disease_Name>
+      <Disease_Detail>Systemic Mastocytosis with an Associated Clonal Hematologic Non-Mast Cell Lineage Disease</Disease_Detail>
+      <Disease_DB>SYS059</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/systemic_mastocytosis_with_an_associated_clonal_hematologic_non_mast_cell_lineage_disease?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pancreatic Mucinous Cystadenoma</Disease_Name>
+      <Disease_Detail>Pancreatic Cancer</Disease_Detail>
+      <Disease_DB>PNC002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pancreatic_mucinous_cystadenoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Smouldering Systemic Mastocytosis</Disease_Name>
+      <Disease_Detail>Smouldering Systemic Mastocytosis</Disease_Detail>
+      <Disease_DB>SML030</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/smouldering_systemic_mastocytosis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hypereosinophilic Syndrome</Disease_Name>
+      <Disease_Detail>Hypereosinophilic Syndrome</Disease_Detail>
+      <Disease_DB>HYP098</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypereosinophilic_syndrome?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mast-Cell Leukemia</Disease_Name>
+      <Disease_Detail>Leukemia</Disease_Detail>
+      <Disease_DB>MST002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mast_cell_leukemia?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Core Binding Factor Acute Myeloid Leukemia</Disease_Name>
+      <Disease_Detail>Core Binding Factor Acute Myeloid Leukemia</Disease_Detail>
+      <Disease_DB>CRB138</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/core_binding_factor_acute_myeloid_leukemia?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Seminoma</Disease_Name>
+      <Disease_Detail>Seminoma</Disease_Detail>
+      <Disease_DB>SMN007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/seminoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mixed Gonadal Dysgenesis</Disease_Name>
+      <Disease_Detail>Mixed Gonadal Dysgenesis</Disease_Detail>
+      <Disease_DB>MXD016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mixed_gonadal_dysgenesis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Testicular Tumor, Somatic</Disease_Name>
+      <Disease_Detail>Testicular Tumor, Somatic</Disease_Detail>
+      <Disease_DB>TST036</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/testicular_tumor_somatic?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Extragonadal Seminoma</Disease_Name>
+      <Disease_Detail>Extragonadal Seminoma</Disease_Detail>
+      <Disease_DB>EXT001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/extragonadal_seminoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acute Myeloblastic Leukemia with Maturation</Disease_Name>
+      <Disease_Detail>Acute Myeloblastic Leukemia with Maturation</Disease_Detail>
+      <Disease_DB>ACT113</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acute_myeloblastic_leukemia_with_maturation?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Reticular Perineurioma</Disease_Name>
+      <Disease_Detail>Reticular Perineurioma</Disease_Detail>
+      <Disease_DB>RTC007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/reticular_perineurioma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Microglandular Adenosis</Disease_Name>
+      <Disease_Detail>Microglandular Adenosis</Disease_Detail>
+      <Disease_DB>MCR019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/microglandular_adenosis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myeloid Leukemia, Acute, M4/m4eo Subtype, Somatic</Disease_Name>
+      <Disease_Detail>Acute Myeloid Leukemia</Disease_Detail>
+      <Disease_DB>MYL050</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myeloid_leukemia_acute_m4_m4eo_subtype_somatic?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Embryonal Sarcoma</Disease_Name>
+      <Disease_Detail>Embryonal Cancer</Disease_Detail>
+      <Disease_DB>EMB007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/embryonal_sarcoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acute Myeloid Leukemia with T(8;21)(q22;q22) Translocation'</Disease_Name>
+      <Disease_Detail>Acute Myeloid Leukemia with T(8;21)(q22;q22) Translocation'</Disease_Detail>
+      <Disease_DB>ACT208</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acute_myeloid_leukemia_with_t821q22q22_translocation_2?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acute Myeloid Leukemia, Adult</Disease_Name>
+      <Disease_Detail>Acute Myeloid Leukemia, Adult</Disease_Detail>
+      <Disease_DB>ACT115</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acute_myeloid_leukemia_adult?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Male Germ Cell Tumor, Somatic</Disease_Name>
+      <Disease_Detail>Male Germ Cell Tumor</Disease_Detail>
+      <Disease_DB>MLG121</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/male_germ_cell_tumor_somatic?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Aggressive Systemic Mastocytosis</Disease_Name>
+      <Disease_Detail>Aggressive Systemic Mastocytosis</Disease_Detail>
+      <Disease_DB>AGG002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/aggressive_systemic_mastocytosis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pseudoxanthomatous Diffuse Cutaneous Mastocytosis</Disease_Name>
+      <Disease_Detail>Pseudoxanthomatous Diffuse Cutaneous Mastocytosis</Disease_Detail>
+      <Disease_DB>PSD083</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pseudoxanthomatous_diffuse_cutaneous_mastocytosis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Alveolar Capillary Dysplasia</Disease_Name>
+      <Disease_Detail>Alveolar Capillary Dysplasia</Disease_Detail>
+      <Disease_DB>ALV006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/alveolar_capillary_dysplasia?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Bullous Diffuse Cutaneous Mastocytosis</Disease_Name>
+      <Disease_Detail>Bullous Diffuse Cutaneous Mastocytosis</Disease_Detail>
+      <Disease_DB>BLL014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/bullous_diffuse_cutaneous_mastocytosis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Nodular Urticaria Pigmentosa</Disease_Name>
+      <Disease_Detail>Nodular Urticaria Pigmentosa</Disease_Detail>
+      <Disease_DB>NDL018</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/nodular_urticaria_pigmentosa?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gastrointestinal Stromal Tumor, Familial</Disease_Name>
+      <Disease_Detail>Gastrointestinal Stromal Tumor</Disease_Detail>
+      <Disease_DB>GST089</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gastrointestinal_stromal_tumor_familial?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mast Cell Neoplasm</Disease_Name>
+      <Disease_Detail>Mast Cell Neoplasm</Disease_Detail>
+      <Disease_DB>MST004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mast_cell_neoplasm?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Teratoma</Disease_Name>
+      <Disease_Detail>Teratoma</Disease_Detail>
+      <Disease_DB>TRT010</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/teratoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Perineurioma</Disease_Name>
+      <Disease_Detail>Perineurioma</Disease_Detail>
+      <Disease_DB>PRN022</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/perineurioma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Uterine Carcinosarcoma</Disease_Name>
+      <Disease_Detail>Uterine Carcinosarcoma</Disease_Detail>
+      <Disease_DB>UTR024</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/uterine_carcinosarcoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gastrointestinal Stromal Tumor</Disease_Name>
+      <Disease_Detail>Gastrointestinal Stromal Tumor</Disease_Detail>
+      <Disease_DB>GST019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gastrointestinal_stromal_tumor?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cutaneous Leiomyosarcoma</Disease_Name>
+      <Disease_Detail>Cutaneous Leiomyosarcoma</Disease_Detail>
+      <Disease_DB>CTN012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cutaneous_leiomyosarcoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Chronic Cystitis</Disease_Name>
+      <Disease_Detail>Chronic Cystitis</Disease_Detail>
+      <Disease_DB>CHR087</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/chronic_cystitis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gonadoblastoma</Disease_Name>
+      <Disease_Detail>Gonadoblastoma</Disease_Detail>
+      <Disease_DB>GND001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gonadoblastoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Aleukemic Mast Cell Leukemia</Disease_Name>
+      <Disease_Detail>Aleukemic Mast Cell Leukemia</Disease_Detail>
+      <Disease_DB>ALK014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/aleukemic_mast_cell_leukemia?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acute Myeloid Leukemia with Abnormal Bone Marrow Eosinophils Inv(16)(p13q22) or T(16;16)(p13;q22)'</Disease_Name>
+      <Disease_Detail>Acute Myeloid Leukemia with Abnormal Bone Marrow Eosinophils Inv(16)(p13q22) or T(16;16)(p13;q22)'</Disease_Detail>
+      <Disease_DB>ACT207</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acute_myeloid_leukemia_with_abnormal_bone_marrow_eosinophils_inv16p13q22_or_t1616p13q22_2?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Kimura Disease</Disease_Name>
+      <Disease_Detail>Kimura Disease</Disease_Detail>
+      <Disease_DB>KMR001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/kimura_disease?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dysgerminoma</Disease_Name>
+      <Disease_Detail>Dysgerminoma</Disease_Detail>
+      <Disease_DB>DYS101</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dysgerminoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Sarcomatoid Renal Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Sarcomatoid Renal Cell Carcinoma</Disease_Detail>
+      <Disease_DB>SRC002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/sarcomatoid_renal_cell_carcinoma?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Indolent Systemic Mastocytosis</Disease_Name>
+      <Disease_Detail>Indolent Systemic Mastocytosis</Disease_Detail>
+      <Disease_DB>IND002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/indolent_systemic_mastocytosis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ewing's Family of Tumors</Disease_Name>
+      <Disease_Detail>Ewing's Family of Tumors</Disease_Detail>
+      <Disease_DB>EWN002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ewings_family_of_tumors?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gastrointestinal Stromal Tumor, Somatic</Disease_Name>
+      <Disease_Detail>Gastrointestinal Stromal Tumor</Disease_Detail>
+      <Disease_DB>GST061</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gastrointestinal_stromal_tumor_somatic?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mastocytosis</Disease_Name>
+      <Disease_Detail>Mastocytosis</Disease_Detail>
+      <Disease_DB>MST009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mastocytosis?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acute Myeloid Leukemia</Disease_Name>
+      <Disease_Detail>Acute Myeloid Leukemia</Disease_Detail>
+      <Disease_DB>ACT019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acute_myeloid_leukemia?search=KIT#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Carney Triad</Disease_Name>
+      <Disease_Detail>Carney Triad</Disease_Detail>
+      <Disease_DB>CRN055</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/carney_triad?search=KIT#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of the exctracellular domain of the receptor tyrosine kinase, Kit</PDB_Title>
+      <PDB_ID>2EC8</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2EC8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for Activation of the Receptor Tyrosine Kinase KIT by Stem Cell Factor</PubMed_Title>
+      <Author>Yuzawa, S., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2007)130:323-334</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17662946?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR THE AUTOINHIBITION AND STI-571 INHIBITION OF C-KIT TYROSINE KINASE</PDB_Title>
+      <PDB_ID>1T45</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1T45</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the autoinhibition and STI-571 inhibition of c-Kit tyrosine kinase.</PubMed_Title>
+      <Author>Mol, C.D., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:31655-31663</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15123710?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>KIT kinase domain mutant D816H in complex with sunitinib</PDB_Title>
+      <PDB_ID>3G0F</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3G0F</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>KIT kinase mutants show unique mechanisms of drug resistance to imatinib and sunitinib in gastrointestinal stromal tumor patients.</PubMed_Title>
+      <Author>Gajiwala, K.S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:1542-1547</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19164557?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the extracellular domain of Kit in complex with stem cell factor (SCF)</PDB_Title>
+      <PDB_ID>2E9W</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2E9W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for Activation of the Receptor Tyrosine Kinase KIT by Stem Cell Factor</PubMed_Title>
+      <Author>Yuzawa, S., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2007)130:323-334</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17662946?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of a c-Kit Kinase Product Complex</PDB_Title>
+      <PDB_ID>1PKG</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PKG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a c-Kit Product Complex Reveals the Basis for Kinase Transactivation.</PubMed_Title>
+      <Author>Mol, C.D., et al.</Author>
+      <Journal>J.Biol.Chem.(2003)278:31461-31464</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12824176?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF SOCS6 SH2 DOMAIN IN COMPLEX WITH A C-KIT PHOSPHOPEPTIDE</PDB_Title>
+      <PDB_ID>2VIF</PDB_ID>
+      <Resolution>1.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2VIF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for C-Kit Inhibition by the Suppressor of Cytokine Signaling 6 (Socs6) Ubiquitin Ligase.</PubMed_Title>
+      <Author>Zadjali, F., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:480-490</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21030588?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR THE AUTOINHIBITION AND STI-571 INHIBITION OF C-KIT TYROSINE KINASE</PDB_Title>
+      <PDB_ID>1T46</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1T46</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the autoinhibition and STI-571 inhibition of c-Kit tyrosine kinase.</PubMed_Title>
+      <Author>Mol, C.D., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:31655-31663</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15123710?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>KIT kinase domain in complex with sunitinib</PDB_Title>
+      <PDB_ID>3G0E</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3G0E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>KIT kinase mutants show unique mechanisms of drug resistance to imatinib and sunitinib in gastrointestinal stromal tumor patients.</PubMed_Title>
+      <Author>Gajiwala, K.S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:1542-1547</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19164557?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04640</Pathway_ID>
+      <Pathway_Title>Hematopoietic cell lineage</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04640</Pathway_ID>
+      <Pathway_Title>Hematopoietic cell lineage</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04916</Pathway_ID>
+      <Pathway_Title>Melanogenesis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04640</Pathway_ID>
+      <Pathway_Title>Hematopoietic cell lineage</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05221</Pathway_ID>
+      <Pathway_Title>Acute myeloid leukemia</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04060</Pathway_ID>
+      <Pathway_Title>Cytokine-cytokine receptor interaction</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signaling molecules and interaction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.daa.b.b.fe.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1pkg</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Autoinhibition model</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Allosteric_Pathway>
+    <Pathway>Pathway1: Q775@@N652@@T806, N797@@H790@@D792@@D816.   Pathway2: V559, D816, Y823, N797@@H790@@D792          </Pathway>
+    <Method>Mutations, MOdular NETwork Analysis (MONETA), Molecular dynamics simulations. </Method>
+    <Verified__Residue>D816</Verified__Residue>
+    <PubMed_Title>Laine E, et al. PLoS Comput Biol. 2012,8(8):e1002661.@@Wang WL, et al. Cancer Chemother Pharmacol. 2011,67 Suppl 1:S15-24.</PubMed_Title>
+    <PubMed_ID>22927810@@ 21181476</PubMed_ID>
+    <is__ref__img>No</is__ref__img>
+    <is__display>Yes</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.10.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/10/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00740007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130056</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130069</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130081</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130082</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130083</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130084</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130085</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130089</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130090</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130091</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130092</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130093</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130094</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130095</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130096</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130097</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130098</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130100</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130101</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130102</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130103</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130104</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130105</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130106</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130107</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130108</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130109</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130111</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130112</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130113</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130114</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130115</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130116</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130117</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130118</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130119</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05130120</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08800000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A9M0</UniProt_ID>
+  <Seq_Length>784</Seq_Length>
+  <Molecule_Weight>87438</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0427</KEGG_ID>
+  <Orthology_ID>K01338</Orthology_ID>
+  <Function_Summary>ATP-dependent serine protease that mediates the selective degradation of mutant and abnormal proteins as well as certain short-lived regulatory proteins, including some antitoxins. Required for cellular homeostasis and for survival from DNA damage and developmental changes induced by stress. Degrades polypeptides processively to yield small peptide fragments that are 5 to 10 amino acids long. Binds to DNA in a double-stranded, site-specific manner. Endogenous substrates include the regulatory proteins RcsA and SulA, the transcriptional activator SoxS, and UmuD. Its overproduction specifically inhibits translation through at least two different pathways, one of them being the YoeB-YefM toxin-antitoxin system.</Function_Summary>
+  <Catalytic_Mechanism>Hydrolysis of proteins in presence of ATP.</Catalytic_Mechanism>
+  <Pfam_ID>PF00004:AAA@@PF02190:LON@@PF05362:Lon_C</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>ATP-dependent protease La</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type peptidase activity</Keyword>
+      <Ontology_ID>GO:0008236</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with DNA of a specific nucleotide composition, e.g. GC-rich DNA binding, or with a specific sequence motif or type of DNA e.g. promotor binding or rDNA binding.</Detail>
+      <Keyword>Sequence-specific DNA binding</Keyword>
+      <Ontology_ID>GO:0043565</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004252</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate, to drive the hydrolysis of peptide bonds.</Detail>
+      <Keyword>ATP-dependent peptidase activity</Keyword>
+      <Ontology_ID>GO:0004176</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a heat stimulus, a temperature stimulus above the optimal temperature for that organism.</Detail>
+      <Keyword>Response to heat</Keyword>
+      <Ontology_ID>GO:0009408</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).</Detail>
+      <Keyword>Response to stress</Keyword>
+      <Ontology_ID>GO:0006950</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of misfolded or attenuated proteins.</Detail>
+      <Keyword>Misfolded or incompletely synthesized protein catabolic process</Keyword>
+      <Ontology_ID>GO:0006515</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MNPERSERIEIPVLPLRDVVVYPHMVIPLFVGREKSIRCLEAAMDHDKKIMLVAQKEASTDEPGVNDLFTVGTVASILQMLKLPDGTVKVLVEGLQRARISALSDNGEHFSAKAEYLESPTIDEREQEVLVRTAISQFEGYIKLNKKIPPEVLTSLNSIDDPARLADTIAAHMPLKLADKQSVLEMSDVNERLEYLMAMMESEIDLLQVEKRIRNRVKKQMEKSQREYYLNEQMKAIQKELGEMDDAPDENEALKRKIDAAKMPKEAKEKAEAELQKLKMMSPMSAEATVVRGYIDWMVQVPWNARSKVKKDLRQAQEILDTDHYGLERVKDRILEYLAVQSRVNKIKGPILCLVGPPGVGKTSLGQSIAKATGRKYVRMALGGVRDEAEIRGHRRTYIGSMPGKLIQKMAKVGVKNPLFLLDEIDKMSSDMRGDPASALLEVLDPEQNVAFSDHYLEVDYDLSDVMFVATSNSMNIPAPLLDRMEVIRLSGYTEDEKLNIAKRHLLPKQIERNALKKGELTVDDSAIIGIIRYYTREAGVRGLEREISKLCRKAVKQLLLDKSLKHIEINGDNLHDYLGVQRFDYGRADNENRVGQVTGLAWTEVGGDLLTIETACVPGKGKLTYTGSLGEVMQESIQAALTVVRARAEKLGINPDFYEKRDIHVHVPEGATPKDGPSAGIAMCTALVSCLTGNPVRADVAMTGEITLRGQVLPIGGLKEKLLAAHRGGIKTVLIPFENKRDLEEIPDNVIADLDIHPVKRIEEVLTLALQNEPSGMQVVTAK</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleoid</CellLocal>
+      <Ontology_ID>GO:0009295</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>lon</Gene_Name>
+    <Gene_Alias>capR; deg; lopA; muc</Gene_Alias>
+    <Gene_ID>12931740</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_414973</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/945085</Gene_URL>
+    <EMBL_ID>EBESCG00000013841</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>alpha-domain of ATPase</PDB_Title>
+      <PDB_ID>1QZM</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QZM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the AAA+ alpha domain of E. coli Lon protease at 1.9A resolution.</PubMed_Title>
+      <Author>Botos, I., et al.</Author>
+      <Journal>J.Struct.Biol.146:113-122</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15037242?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of E.coli Lon proteolytic domain</PDB_Title>
+      <PDB_ID>1RRE</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RRE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The catalytic domain of Escherichia coli Lon protease has a unique fold and a Ser-Lys dyad in the active site</PubMed_Title>
+      <Author>Botos, I., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:8140-8148</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14665623?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of N-terminal domain of E.Coli Lon Protease</PDB_Title>
+      <PDB_ID>2ANE</PDB_ID>
+      <Resolution>2.03</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ANE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the N-terminal domain of E. coli Lon protease.</PubMed_Title>
+      <Author>Li, M., et al.</Author>
+      <Journal>Protein Sci.(2005)14:2895-2900</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16199667?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Lon N-terminal domain.</PDB_Title>
+      <PDB_ID>3LJC</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LJC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the N-terminal fragment of Escherichia coli Lon protease</PubMed_Title>
+      <Author>Li, M., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(2010)66:865-873</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20693685?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Catalytic domain of E.coli Lon protease</PDB_Title>
+      <PDB_ID>1RR9</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RR9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The catalytic domain of Escherichia coli Lon protease has a unique fold and a Ser-Lys dyad in the active site</PubMed_Title>
+      <Author>Botos, I., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:8140-8148</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14665623?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04112</Pathway_ID>
+      <Pathway_Title>Cell cycle - Caulobacter</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.bi.bj.html</SCOP_URL>
+    <CATH_Class>Class 1: Mainly Alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1qzm</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Patterson-Ward J, et al. Biochemistry. 2007,46(47):13593-13605.;Selwood T, et al. Arch Biochem Biophys. 2012, 519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PubMed_ID>17975895;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.21.53</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/21/53.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

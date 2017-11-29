@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11270000_1</Organism_ID>
+  <Organism>Yeast</Organism>
+  <Organism_Latin>Rhodosporidium toruloides</Organism_Latin>
+  <UniProt_ID>P11544</UniProt_ID>
+  <Seq_Length>716</Seq_Length>
+  <Molecule_Weight>76880</Molecule_Weight>
+  <Function_Summary>Catalyzes the non-oxidative deamination of L-phenylalanine and L-tyrosine to form trans-cinnamic acid and p-coumaric acid respectively with similar efficiencies. Facilitates the commitment step in phenylpropanoid pathways that produce lignins, coumarins and flavonoids.</Function_Summary>
+  <Catalytic_Mechanism>L-phenylalanine = trans-cinnamate + ammonia.@@L-tyrosine = trans-p-hydroxycinnamate + ammonia.</Catalytic_Mechanism>
+  <Pfam_ID>PF00221:Lyase_aromatic</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Bifunctional PAL</Alias>
+      <Alias>Bifunctional phenylalanine ammonia-lyase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-phenylalanine = trans-cinnamate + NH3.</Detail>
+      <Keyword>Phenylalanine ammonia-lyase activity</Keyword>
+      <Ontology_ID>GO:0045548</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of phenylalanine, 2-amino-3-phenylpropanoic acid.</Detail>
+      <Keyword>L-phenylalanine catabolic process</Keyword>
+      <Ontology_ID>GO:0006559</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving aromatic derivatives of trans-cinnamic acid.</Detail>
+      <Keyword>Phenylpropanoid metabolic process</Keyword>
+      <Ontology_ID>GO:0009698</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of cinnamic acid, 3-phenyl-2-propenoic acid.</Detail>
+      <Keyword>Cinnamic acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009800</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>212</Position>
+      <PTM_Type>2,3-didehydroalanine (Ser)</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAPSLDSISHSFANGVASAKQAVNGASTNLAVAGSHLPTTQVTQVDIVEKMLAAPTDSTLELDGYSLNLGDVVSAARKGRPVRVKDSDEIRSKIDKSVEFLRSQLSMSVYGVTTGFGGSADTRTEDAISLQKALLEHQLCGVLPSSFDSFRLGRGLENSLPLEVVRGAMTIRVNSLTRGHSAVRLVVLEALTNFLNHGITPIVPLRGTISASGDLSPLSYIAAAISGHPDSKVHVVHEGKEKILYAREAMALFNLEPVVLGPKEGLGLVNGTAVSASMATLALHDAHMLSLLSQSLTAMTVEAMVGHAGSFHPFLHDVTRPHPTQIEVAGNIRKLLEGSRFAVHHEEEVKVKDDEGILRQDRYPLRTSPQWLGPLVSDLIHAHAVLTIEAGQSTTDNPLIDVENKTSHHGGNFQAAAVANTMEKTRLGLAQIGKLNFTQLTEMLNAGMNRGLPSCLAAEDPSLSYHCKGLDIAAAAYTSELGHLANPVTTHVQPAEMANQAVNSLALISARRTTESNDVLSLLLATHLYCVLQAIDLRAIEFEFKKQFGPAIVSLIDQHFGSAMTGSNLRDELVEKVNKTLAKRLEQTNSYDLVPRWHDAFSFAAGTVVEVLSSTSLSLAAVNAWKVAAAESAISLTRQVRETFWSAASTSSPALSYLSPRTQILYAFVREELGVKARRGDVFLGKQEVTIGSNVSKIYEAIKSGRINNVLLKMLA</Protein_Seq>
+    <DNA_Seq>GACGTCCAGTGAACCTCTCCAGCCCTCTCGCCACCGCATTCTCTCAGCACCTATAGACGCTTTCGGGTTCCCTTGTTCCGCTCGCCGTACCTGCTCCCTCTCCTCCGTTGTCCCTCGTCTCTCTCCCAGGTCTTGTCCGCGATACTCCCTCTCCCTCGTATACATTCTCGCTCACTCTCTCTGTTGTCCTCCCTCTTCAGCTGTAACCATGTCTCGTTCGGCTCGAGTTTCAAGGAGTGATCAGAGGGACATCTTCGTAGCGAGCGATGTCCCCCACCGCGCCTCTCCCGTTCGTACCGAGCCCTGTGTTCGTTCAGAGTCGACGTGGCTAGCCGTTGCGTCGTGCCGGGATGCGAGTGTTTCGAGGCAAGCCGTTTCGTTGCGAGCGTGCGACGAGGGCGAGCGGCAGTCCGTCTCGAGGCGAACCCCACTTGGTCGACATCTGGTGGCCCGTCTTGCTCTTGCTCTCTTTCTTTCTCTCTTACTTCTCACTCAGACACACTCCAACGACGACGACGATGGCACCCTCGCTCGACTCGATCTCGCACTCGTTCGCAAACGGCGTCGCATCCGCAAAGCAGGCTGTCAATGGCGCCTCGACCAACCTCGCAGTCGCAGGCTCGCACCTGCCCACAACCCAGGTCACGCAGGTCGACATCGTCGAGAAGATGCTCGCCGCGCCGACCGACTCGACGCTCGAACTCGACGGCTACTCGCTCAACCTCGGAGACGTCGTCTCGGCCGCGAGGAAGGGCAGGCCTGTCCGCGTCAAGGACAGCGACGAGATCCGCTCAAAGATTGACAAATCGGTCGAGTTCTTGCGCTCGCAGTGAGTCGTGCTTTCGTTCTCTGGCGTCGAGAGGGCGGGACCTTCCCAAGTTGCCAAGGGACTGACTGTCGCTCTCCTGTGTCGCGCAGACTCTCCATGAGCGTCTACGGCGTCACGACTGGATTTGGCGGATCCGCAGACACCCGCACCGAGGACGCCATCTCGCTCCAGAAGGCGTGCGTCCTCCTCGTCTCCCTCTCGCTTCTCGAGCTTCGGACTGACCGTCTTCCCGCACAGTCTCCTCGAGCACCAGCTCTGCGGTGTTCTCCCTTCGTCGTTCGACTCGTTCCGCCTCGGCCGCGGTCTCGAGAACTCGCTTCCCCTCGAGGTTGTTCGCGGCGCCATGACAATCCGCGTCAACAGCTTGACCCGGTGAGTTGCCGTCCTTACTCACTCAGCGGTCTTCGAGCTGACAGTTGGCGCACCCAGCGGCCACTCGGCTGTCCGCCTCGTCGTCCTCGAGGCGCTCACCAACTTCCTCAACCACGGCATCACCCCCATCGTCCCCCTCCGCGGCACCATCTCTGCGTCGGGCGACCTCTCTCCTCTCTCCTACATTGCAGCGGCCATCAGCGGTCACCCGGACAGCAAGGTGCACGTCGTCCACGAGGGCAAGGAGAAGATCCTGTACGCCCGCGAGGCGATGGCGCTCTTCAACCTCGAGCCCGTCGTCCTCGGCCCGAAGGAAGGTCTCGGTCTCGTCAACGGCACCGCCGTCTCAGCATCGATGGCCACCCTCGCTCTGCACGACGCACACATGCTCTCGCTCCTCTCGCAGTCGCTCACGGCCATGACGGTCGAAGCGATGGTCGGCCACGCCGGCTCGTTCCACCCCTTCCTTCACGACGTCACGCGCCCTCACCCGACGCAGATCGAAGTCGCGGGAAACATCCGCAAGCTCCTCGAGGGAAGCCGCTTTGCTGTCCACCATGAGGAGGAGGTCAAGGTCAAGGACGACGAGGGCATTCTCCGCCAGGACCGCTACCCCTTGCGCACGTCTCCTCAGGTGCGCTTACTTCTGTTTGTTCTGCCGAAGACATGACGCTGACGTCCGCTTACTCGCGCAGTGGCTCGGCCCGCTCGTCAGCGACCTCATTCACGCCCACGCCGTCCTCACCATCGAGGCCGGCCAGTCGACGACCGACAACCCTCTCATCGACGTCGAGAACAAGACTTCGCACCACGGCGGCAATTTCCAGGCTGCCGCTGTGGCCAACACCATGGAGAAGACTCGGTGCGCCGCTTCACTGTGACCTGTTCTCTTGGTCTCGTGCTGACGAGTACGCTGTGCAGCCTCGGGCTCGCCCAGATCGGCAAGCTCAACTTCACGCAGCTCACCGAGATGCTCAACGCCGGCATGAACCGCGGCCTCCCCTCCTGCCTCGCGGCCGAAGACCCCTCGCTCTCCTACCACTGCAAGGGCCTCGACATCGCCGCTGCGGCGTACACCTCGGAGTTGGGACACCTCGCCAACCCTGTGACGACGCATGTCCAGCCGGCTGAGATGGCGAACCAGGCGGTCAACTCGCTTGCGCTCATCTCGGCTCGTCGCACGACCGAGTCCAACGACGTCCTTTCTCTCGTGAGTCAGGCGCTCATCACACTCGCGAACAGAAGCTGACGCACTCGGTCTCGCAGCTCCTCGCCACCCACCTCTACTGCGTTCTCCAAGCCATCGACTTGCGCGCGATCGAGTTCGAGTTCAAGAAGCAGTTCGGCCCAGCCATCGTCTCGCTCATCGACCAGCACTTTGGCTCCGCCATGACCGGCTCGAACCTGCGCGACGAGCTCGTCGAGAAGGTGAACAAGACGCTCGCCAAGCGCCTCGAGCAGACCAACTCGTACGACCTCGTCCCGCGCTGGCACGACGCCTTCTCCTTCGCCGCCGGCACCGTCGTCGAGGTCCTCTCGTCGACGTCGCTCTCGCTCGCCGCCGTCAACGCCTGGAAGGTCGCCGCCGCCGAGTCGGCCATCTCGCTCACCCGCCAAGTCCGCGAGACCTTCTGGTCCGCCGCGTCGACCTCGTCGCCCGCGCTCTCGTACCTCTCGCCGCGCACTCAGATCCTCTACGCCTTCGTCCGCGAGGAGCTTGGCGTCAAGGCCCGCCGCGGAGACGTCTTCCTCGGCAAGCAAGAGGTGACGATCGGCTCGAACGTCTCCAAGATCTACGAGGCCATCAAGTCGGGCAGGATCAACAACGTCCTCCTCAAGATGCTCGCTTAGACACTCTTCCCACTCTCGCATCCCTTCCATACCCTATCCCGCCTGCACTCTTAGGACTCGCTTCTTGTCGGACTCGGATCTCGCATCGCTTCTTTCGTTCTTGGCTGCCTCTCTAGACCGTGTCCGTATTACCTCGAGATTGTGAATACAAGCAGTACCCATCCACGCATCCGATAAATCAGGGAGAGAATCTACGCTTGCGGGAGCTTCTTGCGCATAAACTGTCGAGTGCGGGCGTTAGTGCGAAGTCAACGAAGGCGAGTGGCAGCGGCTCACTACCGCCTCGAG</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Others</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>PAL</Gene_Name>
+    <Genbank_ACCN>X51513</Genbank_ACCN>
+    <Protein_ACCN>CAA35886</Protein_ACCN>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of Phenylalanine Ammonia Lyase from Rhodosporidium toruloides</PDB_Title>
+      <PDB_ID>1T6P</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1T6P</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of phenylalanine ammonia lyase: multiple helix dipoles implicated in catalysis.</PubMed_Title>
+      <Author>Calabrese, J.C., et al.</Author>
+      <Journal>Biochemistry(2004)43:11403-11416</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15350127?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of phenylalanine ammonia-lyase from yeast Rhododporidium toruloides</PDB_Title>
+      <PDB_ID>1Y2M</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Y2M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based chemical modification strategy for enzyme replacement treatment of phenylketonuria.</PubMed_Title>
+      <Author>Wang, L., et al.</Author>
+      <Journal>Mol.Genet.Metab.(2005)86:134-140</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16006165?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Phenylalanine Ammonia Lyase from Rhodosporidium toruloides</PDB_Title>
+      <PDB_ID>1T6J</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1T6J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of phenylalanine ammonia lyase: multiple helix dipoles implicated in catalysis.</PubMed_Title>
+      <Author>Calabrese, J.C., et al.</Author>
+      <Journal>Biochemistry(2004)43:11403-11416</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15350127?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.3.1.25</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/3/1/25.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00690002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2014-04-17</Create_Date>
+</Organism_Record>

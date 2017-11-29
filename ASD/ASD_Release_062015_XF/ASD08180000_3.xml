@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08180000_3</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P02916</UniProt_ID>
+  <Seq_Length>514</Seq_Length>
+  <Molecule_Weight>57013</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3920</KEGG_ID>
+  <Orthology_ID>K10109</Orthology_ID>
+  <Function_Summary>Part of the binding-protein-dependent transport system for maltose; probably responsible for the translocation of the substrate across the membrane.</Function_Summary>
+  <Pfam_ID>PF00528:BPD_transp_1</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + maltose(out) = ADP + phosphate + maltose(in).</Detail>
+      <Keyword>Maltose-transporting ATPase activity</Keyword>
+      <Ontology_ID>GO:0015423</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + maltooligosaccharide(out) = ADP + phosphate + maltooligosaccharide(in).</Detail>
+      <Keyword>Maltooligosaccharide-importing ATPase activity</Keyword>
+      <Ontology_ID>GO:0015609</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of carbohydrate into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Carbohydrates are any of a group of organic compounds based of the general formula Cx(H2O)y.</Detail>
+      <Keyword>Carbohydrate transport</Keyword>
+      <Ontology_ID>GO:0008643</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of maltodextrin, any polysaccharide of glucose residues in beta-(1,4) linkage, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Maltodextrin transport</Keyword>
+      <Ontology_ID>GO:0042956</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MDVIKKKHWWQSDALKWSVLGLLGLLVGYLVVLMYAQGEYLFAITTLILSSAGLYIFANRKAYAWRYVYPGMAGMGLFVLFPLVCTIAIAFTNYSSTNQLTFERAQEVLLDRSWQAGKTYNFGLYPAGDEWQLALSDGETGKNYLSDAFKFGGEQKLQLKETTAQPEGERANLRVITQNRQALSDITAILPDGNKVMMSSLRQFSGTQPLYTLDGDGTLTNNQSGVKYRPNNQIGFYQSITADGNWGDEKLSPGYTVTTGWKNFTRVFTDEGIQKPFLAIFVWTVVFSLITVFLTVAVGMVLACLVQWEALRGKAVYRVLLILPYAVPSFISILIFKGLFNQSFGEINMMLSALFGVKPAWFSDPTTARTMLIIVNTWLGYPYMMILCMGLLKAIPDDLYEASAMDGAGPFQNFFKITLPLLIKPLTPLMIASFAFNFNNFVLIQLLTNGGPDRLGTTTPAGYTDLLVNYTYRIAFEGGGGQDFGLAAAIATLIFLLVGALAIVNLKATRMKFD</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>ATP-binding cassette (ABC) transporter complex</CellLocal>
+      <Ontology_ID>GO:0043190</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell inner membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>malF</Gene_Name>
+    <Gene_ID>12932707</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_418457</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/948532</Gene_URL>
+    <EMBL_ID>EBESCG00000014268</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of a pre-translocation state MBP-Maltose transporter complex bound to AMP-PNP</PDB_Title>
+      <PDB_ID>3PUZ</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PUZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the maltose transporter in a pretranslocation intermediate state.</PubMed_Title>
+      <Author>Oldham, M.L., et al.</Author>
+      <Journal>Science(2011)332:1202-1205</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21566157?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of an outward-facing MBP-Maltose transporter complex bound to ADP-BeF3</PDB_Title>
+      <PDB_ID>3PUX</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PUX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Snapshots of the maltose transporter during ATP hydrolysis.</PubMed_Title>
+      <Author>Oldham, M.L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2011)108:15152-15156</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21825153?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of an outward-facing MBP-Maltose transporter complex bound to ADP-VO4</PDB_Title>
+      <PDB_ID>3PUV</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PUV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Snapshots of the maltose transporter during ATP hydrolysis.</PubMed_Title>
+      <Author>Oldham, M.L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2011)108:15152-15156</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21825153?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of an outward-facing MBP-Maltose transporter complex bound to ADP-AlF4</PDB_Title>
+      <PDB_ID>3PUW</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PUW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Snapshots of the maltose transporter during ATP hydrolysis.</PubMed_Title>
+      <Author>Oldham, M.L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2011)108:15152-15156</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21825153?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the resting state maltose transporter from E. coli</PDB_Title>
+      <PDB_ID>3FH6</PDB_ID>
+      <Resolution>4.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FH6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Alternating access in maltose transporter mediated by rigid-body rotations.</PubMed_Title>
+      <Author>Khare, D., et al.</Author>
+      <Journal>Mol.Cell(2009)33:528-536</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19250913?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the maltose-binding protein/maltose transporter complex in an outward-facing conformation bound to MgAMPPNP</PDB_Title>
+      <PDB_ID>3RLF</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RLF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Snapshots of the maltose transporter during ATP hydrolysis.</PubMed_Title>
+      <Author>Oldham, M.L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2011)108:15152-15156</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21825153?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of a pre-translocation state MBP-Maltose transporter complex without nucleotide</PDB_Title>
+      <PDB_ID>3PV0</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PV0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the maltose transporter in a pretranslocation intermediate state.</PubMed_Title>
+      <Author>Oldham, M.L., et al.</Author>
+      <Journal>Science(2011)332:1202-1205</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21566157?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of an outward-facing MBP-Maltose transporter complex bound to AMP-PNP after crystal soaking of the pretranslocation state</PDB_Title>
+      <PDB_ID>3PUY</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PUY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the maltose transporter in a pretranslocation intermediate state.</PubMed_Title>
+      <Author>Oldham, M.L., et al.</Author>
+      <Journal>Science(2011)332:1202-1205</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21566157?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Crystal Structure of the E. coli Maltose Transporter</PDB_Title>
+      <PDB_ID>2R6G</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2R6G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of a catalytic intermediate of the maltose transporter.</PubMed_Title>
+      <Author>Oldham, M.L., et al.</Author>
+      <Journal>Nature(2007)450:515-521</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18033289?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02010</Pathway_ID>
+      <Pathway_Title>ABC transporters</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Membrane transport</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko02010</Pathway_ID>
+      <Pathway_Title>ABC transporters</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Membrane transport</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko02010</Pathway_ID>
+      <Pathway_Title>ABC transporters</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Membrane transport</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko02010</Pathway_ID>
+      <Pathway_Title>ABC transporters</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Membrane transport</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko02010</Pathway_ID>
+      <Pathway_Title>ABC transporters</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Membrane transport</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko02010</Pathway_ID>
+      <Pathway_Title>ABC transporters</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Membrane transport</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.bg.j.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2r6g</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Open-Close</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05190000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P07330</UniProt_ID>
+  <Seq_Length>349</Seq_Length>
+  <Molecule_Weight>37468</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p1859</KEGG_ID>
+  <Orthology_ID>K03412</Orthology_ID>
+  <Function_Summary>Involved in the modulation of the chemotaxis system; catalyzes the demethylation of specific methylglutamate residues introduced into the chemoreceptors (methyl-accepting chemotaxis proteins) by CheR.</Function_Summary>
+  <Catalytic_Mechanism>Protein L-glutamate O(5)-methyl ester + H(2)O = protein L-glutamate + methanol.</Catalytic_Mechanism>
+  <Pfam_ID>PF01339:CheB_methylest@@PF00072:Response_reg</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Responds to a two-component sensor to initiate a change in cell state or activity. The activity of the response regulator is regulated by transfer of a phosphate from a histidine residue in the sensor, to an aspartate residue in the response regulator. Many but not all response regulators act as transcriptional regulators to elicit a response.</Detail>
+      <Keyword>Two-component response regulator activity</Keyword>
+      <Ontology_ID>GO:0000156</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: protein L-glutamate O(5)-methyl ester + H2O = protein L-glutamate + methanol.</Detail>
+      <Keyword>Protein-glutamate methylesterase activity</Keyword>
+      <Ontology_ID>GO:0008984</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cellular DNA-dependent transcription.</Detail>
+      <Keyword>Regulation of transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006355</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of a motile cell or organism, or the directed growth of a cell guided by a specific chemical concentration gradient. Movement may be towards a higher concentration (positive chemotaxis) or towards a lower concentration (negative chemotaxis).</Detail>
+      <Keyword>Chemotaxis</Keyword>
+      <Ontology_ID>GO:0006935</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of events required for an organism to receive a sensory chemical stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process.</Detail>
+      <Keyword>Sensory perception of chemical stimulus</Keyword>
+      <Ontology_ID>GO:0007606</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a signal is passed on to downstream components within the cell, which become activated themselves to further propagate the signal and finally trigger a change in the function or state of the cell.</Detail>
+      <Keyword>Intracellular signal transduction</Keyword>
+      <Ontology_ID>GO:0035556</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>56</Position>
+      <PTM_Type>4-aspartylphosphate</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSKIRVLSVDDSALMRQIMTEIINSHSDMEMVATAPDPLVARDLIKKFNPDVLTLDVEMPRMDGLDFLEKLMRLRPMPVVMVSSLTGKGSEVTLRALELGAIDFVTKPQLGIREGMLAYNEMIAEKVRTAAKASLAAHKPLSAPTTLKAGPLLSSEKLIAIGASTGGTEAIRHVLQPLPLSSPALLITQHMPPGFTRSFADRLNKLCQIGVKEAEDGERVLPGHAYIAPGDRHMELSRSGANYQIKIHDGPAVNRHRPSVDVLFHSVAKQAGRNAVGVILTGMGNDGAAGMLAMRQAGAWTLAQNEASCVVFGMPREAINMGGVCEVVDLSQVSQQMLAKISAGQAIRI</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>cheB</Gene_Name>
+    <Gene_ID>12931722</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_416397</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/946394</Gene_URL>
+    <EMBL_ID>BAA15699</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Chemotaxis response regulator protein-glutamate methylesterase</PDB_Title>
+      <PDB_ID>ASD05190000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Barnakov AN, et al. J Biol Chem. 2002,277(44):42151-42156.</Site_Reference>
+      <PubMed_ID>12196531</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.1.61</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/1/61.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2013-07-23</Create_Date>
+</Organism_Record>

@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03380000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0AEE3</UniProt_ID>
+  <Seq_Length>355</Seq_Length>
+  <Molecule_Weight>37581</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3155</KEGG_ID>
+  <Orthology_ID>K04691</Orthology_ID>
+  <EBI_ID>EBI-1132101</EBI_ID>
+  <Function_Summary>When heat shock or other environmental stresses disrupt protein folding in the periplasm, DegS senses the accumulation of unassembled outer membrane porins (OMPs) and then initiates RseA (anti sigma-E factor) degradation by cleaving it in its periplasmic domain, making it an attractive substrate for subsequent cleavage by RseP. This cascade that ultimately leads to the sigma-E-driven expression of a variety of factors dealing with folding stress in the periplasm and OMP assembly.</Function_Summary>
+  <Catalytic_Mechanism>Acts on substrates that are at least partially unfolded. The cleavage site P1 residue is normally between a pair of hydrophobic residues, such as Val-|-Val.</Catalytic_Mechanism>
+  <Pfam_ID>PF00595:PDZ@@PF00089:Trypsin</Pfam_ID>
+  <Allosteric_Activator_Count>8</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Serine endoprotease, periplasmic</Alias>
+      <Alias>DegS</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004252</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type peptidase activity</Keyword>
+      <Ontology_ID>GO:0008236</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds.</Detail>
+      <Keyword>Proteolysis</Keyword>
+      <Ontology_ID>GO:0006508</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a misfolded protein stimulus.</Detail>
+      <Keyword>Cellular response to misfolded protein</Keyword>
+      <Ontology_ID>GO:0071218</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MFVKLLRSVAIGLIVGAILLVAMPSLRSLNPLSTPQFDSTDETPASYNLAVRRAAPAVVNVYNRGLNTNSHNQLEIRTLGSGVIMDQRGYIITNKHVINDADQIIVALQDGRVFEALLVGSDSLTDLAVLKINATGGLPTIPINARRVPHIGDVVLAIGNPYNLGQTITQGIISATGRIGLNPTGRQNFLQTDASINHGNSGGALVNSLGELMGINTLSFDKSNDGETPEGIGFAIPFQLATKIMDKLIRDGRVIRGYIGIGGREIAPLHAQGGGIDQLQGIVVNEVSPDGPAANAGIQVNDLIISVDNKPAISALETMDQVAEIRPGSVIPVVVMRDDKQLTLQVTIQEYPATN</Protein_Seq>
+    <DNA_Seq>ccattgcgccctcctcttctctccctccccgactatcatttaatctggtgtctcattgttagccgtctgaaaattcaataacatcaaactgttttgaatctcttttcttatcattcaggtacgagagcaggaataatgaaaaaacaaacccagctgttgagtgcattagcgttaagtgtcgggttaactctctcggcgtcatttcaggccgtcgcgtcgattccaggccaggttgccgatcaggcccctctccccagtctggctccaatgctggaaaaagtgcttccggcagtggtgagcgtacgggtggaaggaacggccagtcagggacagaaaatcccggaagaattcaaaaagttttttggtgatgatttaccggatcaacctgcacaacccttcgaaggtttaggctccggtgtcatcatcaacgccagtaaaggctatgtgctgaccaacaaccatgtgattaatcaggcacagaaaatcagtattcagctcaatgatgggcgcgagtttgatgcaaaactgattggtagcgatgaccagagcgatatcgccctgttacaaattcaaaacccgagcaaattaacgcaaatcgctattgccgactccgataaattgcgcgtcggtgattttgccgtagcggtcggtaacccatttggccttgggcaaaccgccacctctggcattgtttccgcattaggccgcagcgggttgaatcttgaaggtctggaaaactttatccagacagatgcttccattaaccgcggtaactccggcggtgcactattaaaccttaacggtgagttaattggcatcaacactgcaatccttgcgcctggcggcgggagcgtcgggattggatttgccatccccagtaatatggcgcgaacactggcgcagcagcttatcgactttggtgaaatcaaacgcggtttgttaggcatcaaaggcaccgagatgagtgccgatatcgccaaagccttcaaccttgacgtgc</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Periplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>degS</Gene_Name>
+    <Gene_Alias>hhoB; htrH</Gene_Alias>
+    <Gene_ID>12932921</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_417702</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947865</Gene_URL>
+    <EMBL_ID>EBESCG00000016694</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P0AFX7</Uniprot_ID>
+      <Gene_Name>rseA</Gene_Name>
+      <EBI_ID>EBI-1117560</EBI_ID>
+      <PPI_EBI_URL>EBI-1132101,EBI-1117560</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Structure of the delta PDZ truncation of the DegS protease</PDB_Title>
+      <PDB_ID>2QF3</PDB_ID>
+      <Resolution>2.04</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QF3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Allosteric activation of DegS, a stress sensor PDZ protease.</PubMed_Title>
+      <Author>Sohn J, et al.</Author>
+      <Journal>Cell.2007 Nov 2;131(3):572-83.</Journal>
+      <PubMed_ID>17981123</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the DegS stress sensor</PDB_Title>
+      <PDB_ID>1SOT</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SOT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the DegS stress sensor: How a PDZ domain recognizes misfolded protein and activates a protease</PubMed_Title>
+      <Author>Wilken C, et al.</Author>
+      <Journal>Cell.2004 May 14;117(4):483-94.</Journal>
+      <PubMed_ID>15137941</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>re-refinement of 1soz, Crystal Structure of DegS protease in complex with an activating peptide</PDB_Title>
+      <PDB_ID>4RQZ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4RQZ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03380005</ASD_Ligand>
+      <PubMed_Title>A Conserved Activation Cluster Is Required for Allosteric Communication in HtrA-Family Proteases.</PubMed_Title>
+      <Author>de Regt, A.K., et al.</Author>
+      <Journal>Structure(2015)23:517-526</Journal>
+      <PubMed_ID>25703375</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Q191A mutant of DegS-deltaPDZ</PDB_Title>
+      <PDB_ID>3B8J</PDB_ID>
+      <Resolution>2.51</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3B8J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>biochemical characterization of DegS-deltaPDZ q191A mutant</PubMed_Title>
+      <Author>Sohn J, et al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the R178A mutant of delta PDZ DegS protease</PDB_Title>
+      <PDB_ID>2QGR</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QGR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Allosteric activation of DegS, a stress sensor PDZ protease.</PubMed_Title>
+      <Author>Sohn J, et al.</Author>
+      <Journal>Cell.2007 Nov 2;131(3):572-83.</Journal>
+      <PubMed_ID>17981123</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of DegS H198P/D320A mutant modified by DFP and in complex with YQF peptide</PDB_Title>
+      <PDB_ID>3GDV</PDB_ID>
+      <Resolution>2.49</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GDV</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03380005</ASD_Ligand>
+      <PubMed_Title>OMP peptides activate the DegS stress-sensor protease by a relief of inhibition mechanism.</PubMed_Title>
+      <Author>Sohn J, et al.</Author>
+      <Journal>Structure.2009 Oct 14;17(10):1411-21.</Journal>
+      <PubMed_ID>19836340</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of DegS H198P/D320A mutant modified by DFP and in complex with YRF peptide</PDB_Title>
+      <PDB_ID>3GDU</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GDU</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03380006</ASD_Ligand>
+      <PubMed_Title>OMP peptides activate the DegS stress-sensor protease by a relief of inhibition mechanism.</PubMed_Title>
+      <Author>Sohn J, et al.</Author>
+      <Journal>Structure.2009 Oct 14;17(10):1411-21.</Journal>
+      <PubMed_ID>19836340</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DFP modified DegS delta PDZ</PDB_Title>
+      <PDB_ID>2RCE</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2RCE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>DFP modified DegS delta PDZ</PubMed_Title>
+      <Author>Sohn J, et al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the PDZ deletion mutant of DegS</PDB_Title>
+      <PDB_ID>2R3U</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2R3U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Regulation of the sigmaE stress response by DegS: how the PDZ domain keeps the protease inactive in the resting state and allows integration of different OMP-derived stress signals upon folding stress.</PubMed_Title>
+      <Author>Hasselblatt H, et al.</Author>
+      <Journal>Genes Dev.2007 Oct 15;21(20):2659-70.</Journal>
+      <PubMed_ID>17938245</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the DegS protease in complex with the YWF activating peptide</PDB_Title>
+      <PDB_ID>2R3Y</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2R3Y</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03380009</ASD_Ligand>
+      <PubMed_Title>Regulation of the sigmaE stress response by DegS: how the PDZ domain keeps the protease inactive in the resting state and allows integration of different OMP-derived stress signals upon folding stress.</PubMed_Title>
+      <Author>Hasselblatt H, et al.</Author>
+      <Journal>Genes Dev.2007 Oct 15;21(20):2659-70.</Journal>
+      <PubMed_ID>17938245</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of DegS H198P/D320A mutant modified by DFP in complex with DNRDGNVYYF peptide</PDB_Title>
+      <PDB_ID>3GDS</PDB_ID>
+      <Resolution>2.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GDS</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03380007</ASD_Ligand>
+      <PubMed_Title>OMP peptides activate the DegS stress-sensor protease by a relief of inhibition mechanism.</PubMed_Title>
+      <Author>Sohn J, et al.</Author>
+      <Journal>Structure.2009 Oct 14;17(10):1411-21.</Journal>
+      <PubMed_ID>19836340</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of DegS H198P/D320A mutant modified by DFP in complex with DNRDGNVYQF OMP peptide</PDB_Title>
+      <PDB_ID>3GCO</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GCO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03380004</ASD_Ligand>
+      <PubMed_Title>OMP peptides activate the DegS stress-sensor protease by a relief of inhibition mechanism.</PubMed_Title>
+      <Author>Sohn J, et al.</Author>
+      <Journal>Structure.2009 Oct 14;17(10):1411-21.</Journal>
+      <PubMed_ID>19836340</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of DegS protease in complex with an activating peptide</PDB_Title>
+      <PDB_ID>1SOZ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SOZ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03380004</ASD_Ligand>
+      <PubMed_Title>Crystal structure of the DegS stress sensor: How a PDZ domain recognizes misfolded protein and activates a protease</PubMed_Title>
+      <Author>Wilken C, et al.</Author>
+      <Journal>Cell.2004 May 14;117(4):483-94.</Journal>
+      <PubMed_ID>15137941</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of DegS H198P/D320A mutant modified by DFP in complex with OMP peptide (YQF)</PDB_Title>
+      <PDB_ID>3GCN</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GCN</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03380005</ASD_Ligand>
+      <PubMed_Title>Mechanisms of allosteric activation of the DegS protease by OMP-peptide binding and protein-substrate binding</PubMed_Title>
+      <Author>Sohn J, et al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of DegS after backsoaking the activating peptide</PDB_Title>
+      <PDB_ID>1VCW</PDB_ID>
+      <Resolution>3.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VCW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the DegS stress sensor: How a PDZ domain recognizes misfolded protein and activates a protease.</PubMed_Title>
+      <Author>Wilken C, et al.</Author>
+      <Journal>Cell.2004 May 14;117(4):483-94.</Journal>
+      <PubMed_ID>15137941</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural analysis of DegS, a stress sensor of the bacterial periplasm</PDB_Title>
+      <PDB_ID>1TE0</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TE0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of DegS, a stress sensor of the bacterial periplasm.</PubMed_Title>
+      <Author>Zeth K, et al.</Author>
+      <Journal>FEBS Lett.2004 Jul 2;569(1-3):351-8.</Journal>
+      <PubMed_ID>15225661</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the delta PDZ truncation of the DegS protease</PDB_Title>
+      <PDB_ID>2QF0</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QF0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Allosteric activation of DegS, a stress sensor PDZ protease.</PubMed_Title>
+      <Author>Sohn J, et al.</Author>
+      <Journal>Cell.2007 Nov 2;131(3):572-83.</Journal>
+      <PubMed_ID>17981123</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>All beta proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.ge.b.d.d.html</SCOP_URL>
+    <CATH_Class>Mainly beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1sot</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,178,Arg</Site_Detail>
+      <Site_Reference>Sohn J, et al. Cell. 2007,131(3):572-583.</Site_Reference>
+      <Site_Type>Oligomerization</Site_Type>
+      <PubMed_ID>17981123</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.21.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/21/</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD03380001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03380002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03380003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03380004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03380005</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03380006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03380007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03380009</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

@@ -1,0 +1,767 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05230000_1</Organism_ID>
+  <Organism>Slime mold</Organism>
+  <Organism_Latin>Dictyostelium discoideum</Organism_Latin>
+  <UniProt_ID>P08799</UniProt_ID>
+  <Seq_Length>2116</Seq_Length>
+  <Molecule_Weight>243786</Molecule_Weight>
+  <KEGG_ID>ddi:DDB_G0286355</KEGG_ID>
+  <Orthology_ID>K10352</Orthology_ID>
+  <EBI_ID>EBI-2928504</EBI_ID>
+  <Function_Summary>Myosin is a protein that binds to actin and has ATPase activity that is activated by actin.</Function_Summary>
+  <Pfam_ID>PF00063:Myosin_head@@PF02736:Myosin_N@@PF01576:Myosin_tail_1</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>17</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>2</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Myosin II heavy chain</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate. This reaction requires the presence of an actin filament to accelerate release of ADP and phosphate.</Detail>
+      <Keyword>Actin-dependent ATPase activity</Keyword>
+      <Ontology_ID>GO:0030898</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of movement along a microfilament, coupled to the hydrolysis of a nucleoside triphosphate (usually ATP).</Detail>
+      <Keyword>Microfilament motor activity</Keyword>
+      <Ontology_ID>GO:0000146</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of movement along a polymeric molecule such as a microfilament or microtubule, coupled to the hydrolysis of a nucleoside triphosphate.</Detail>
+      <Keyword>Motor activity</Keyword>
+      <Ontology_ID>GO:0003774</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with calmodulin, a calcium-binding protein with many roles, both in the calcium-bound and calcium-free states.</Detail>
+      <Keyword>Calmodulin binding</Keyword>
+      <Ontology_ID>GO:0005516</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with monomeric or multimeric forms of actin, including actin filaments.</Detail>
+      <Keyword>Actin binding</Keyword>
+      <Ontology_ID>GO:0003779</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an actin filament, also known as F-actin, a helical filamentous polymer of globular G-actin subunits.</Detail>
+      <Keyword>Actin filament binding</Keyword>
+      <Ontology_ID>GO:0051015</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of actin-based cytoskeletal structures in the cell cortex, i.e. just beneath the plasma membrane.</Detail>
+      <Keyword>Cortical actin cytoskeleton organization</Keyword>
+      <Ontology_ID>GO:0030866</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of actin polymerization.</Detail>
+      <Keyword>Negative regulation of actin filament polymerization</Keyword>
+      <Ontology_ID>GO:0030837</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The assembly of a bleb, a cell extension characterized by rapid formation, rounded shape, and scarcity of organelles within the protrusions.</Detail>
+      <Keyword>Bleb assembly</Keyword>
+      <Ontology_ID>GO:0032060</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Assembly of actin filament bundles in which the filaments are loosely packed (approximately 30-60 nm apart) and arranged with opposing polarities; the loose packing allows myosin (usually myosin-II) to enter the bundle.</Detail>
+      <Keyword>Contractile actin filament bundle assembly</Keyword>
+      <Ontology_ID>GO:0030038</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of a motile cell or organism, or the directed growth of a cell guided by a specific chemical concentration gradient. Movement may be towards a higher concentration (positive chemotaxis) or towards a lower concentration (negative chemotaxis).</Detail>
+      <Keyword>Chemotaxis</Keyword>
+      <Ontology_ID>GO:0006935</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The assembly of a filopodium, a very long microspike extended by the leading edge of a motile cell such as a crawling fibroblast or amoeba, or by the growth cone of a developing nerve cell axon.</Detail>
+      <Keyword>Filopodium assembly</Keyword>
+      <Ontology_ID>GO:0046847</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The sliding movement of actin thin filaments and myosin thick filaments past each other.</Detail>
+      <Keyword>Actin-myosin filament sliding</Keyword>
+      <Ontology_ID>GO:0033275</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the culminant over time, from its formation to the mature structure. Culmination begins with a morphogenetic change of the finger-like or migratory slug giving rise to an organized structure containing a stalk and a sorus. This process is the final stage of sorocarp development.</Detail>
+      <Keyword>Culmination involved in sorocarp development</Keyword>
+      <Ontology_ID>GO:0031154</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which a protein is transported to, or maintained in, a specific location.</Detail>
+      <Keyword>Protein localization</Keyword>
+      <Ontology_ID>GO:0008104</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The actin filament-based movement by which cytoplasmic actin filaments slide past one another resulting in a contraction that propels the cell in the direction that has been defined as the front of the cell.</Detail>
+      <Keyword>Cytoplasmic actin-based contraction involved in forward cell motility</Keyword>
+      <Ontology_ID>GO:0060328</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cellular process resulting in the division of the cytoplasm of a cell and its separation into two daughter cells. Cytokinesis usually occurs after growth, replication, and segregation of cellular components.</Detail>
+      <Keyword>Cytokinesis</Keyword>
+      <Ontology_ID>GO:0000910</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The myosin-based contraction and retraction of the pseudopodium.</Detail>
+      <Keyword>Pseudopodium retraction</Keyword>
+      <Ontology_ID>GO:0031270</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a uropod detaches from the cell substrate and retracts the rear of a migrating cell.</Detail>
+      <Keyword>Uropod retraction</Keyword>
+      <Ontology_ID>GO:0034461</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The aggregation, arrangement and bonding together of a filament composed of myosin molecules.</Detail>
+      <Keyword>Myosin filament assembly</Keyword>
+      <Ontology_ID>GO:0031034</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>1823</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>130</Position>
+      <PTM_Type>N6,N6-dimethyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>2029</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1833</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MNPIHDRTSDYHKYLKVKQGDSDLFKLTVSDKRYIWYNPDPKERDSYECGEIVSETSDSFTFKTVDGQDRQVKKDDANQRNPIKFDGVEDMSELSYLNEPAVFHNLRVRYNQDLIYTYSGLFLVAVNPFKRIPIYTQEMVDIFKGRRRNEVAPHIFAISDVAYRSMLDDRQNQSLLITGESGAGKTENTKKVIQYLASVAGRNQANGSGVLEQQILQANPILEAFGNAKTTRNNNSSRFGKFIEIQFNSAGFISGASIQSYLLEKSRVVFQSETERNYHIFYQLLAGATAEEKKALHLAGPESFNYLNQSGCVDIKGVSDSEEFKITRQAMDIVGFSQEEQMSIFKIIAGILHLGNIKFEKGAGEGAVLKDKTALNAASTVFGVNPSVLEKALMEPRILAGRDLVAQHLNVEKSSSSRDALVKALYGRLFLWLVKKINNVLCQERKAYFIGVLDISGFEIFKVNSFEQLCINYTNEKLQQFFNHHMFKLEQEEYLKEKINWTFIDFGLDSQATIDLIDGRQPPGILALLDEQSVFPNATDNTLITKLHSHFSKKNAKYEEPRFSKTEFGVTHYAGQVMYEIQDWLEKNKDPLQQDLELCFKDSSDNVVTKLFNDPNIASRAKKGANFITVAAQYKEQLASLMATLETTNPHFVRCIIPNNKQLPAKLEDKVVLDQLRCNGVLEGIRITRKGFPNRIIYADFVKRYYLLAPNVPRDAEDSQKATDAVLKHLNIDPEQYRFGITKIFFRAGQLARIEEAREQRISEIIKAIQAATRGWIARKVYKQAREHTVAARIIQQNLRAYIDFKSWPWWKLFSKARPLLKRRNFEKEIKEKEREILELKSNLTDSTTQKDKLEKSLKDTESNVLDLQRQLKAEKETLKAMYDSKDALEAQKRELEIRVEDMESELDEKKLALENLQNQKRSVEEKVRDLEEELQEEQKLRNTLEKLKKKYEEELEEMKRVNDGQSDTISRLEKIKDELQKEVEELTESFSEESKDKGVLEKTRVRLQSELDDLTVRLDSETKDKSELLRQKKKLEEELKQVQEALAAETAAKLAQEAANKKLQGEYTELNEKFNSEVTARSNVEKSKKTLESQLVAVNNELDEEKKNRDALEKKKKALDAMLEEMKDQLESTGGEKKSLYDLKVKQESDMEALRNQISELQSTIAKLEKIKSTLEGEVARLQGELEAEQLAKSNVEKQKKKVELDLEDKSAQLAEETAAKQALDKLKKKLEQELSEVQTQLSEANNKNVNSDSTNKHLETSFNNLKLELEAEQKAKQALEKKRLGLESELKHVNEQLEEEKKQKESNEKRKVDLEKEVSELKDQIEEEVASKKAVTEAKNKKESELDEIKRQYADVVSSRDKSVEQLKTLQAKNEELRNTAEEAEGQLDRAERSKKKAEFDLEEAVKNLEEETAKKVKAEKAMKKAETDYRSTKSELDDAKNVSSEQYVQIKRLNEELSELRSVLEEADERCNSAIKAKKTAESALESLKDEIDAANNAKAKAERKSKELEVRVAELEESLEDKSGTVNVEFIRKKDAEIDDLRARLDRETESRIKSDEDKKNTRKQFADLEAKVEEAQREVVTIDRLKKKLESDIIDLSTQLDTETKSRIKIEKSKKKLEQTLAERRAAEEGSSKAADEEIRKQVWQEVDELRAQLDSERAALNASEKKIKSLVAEVDEVKEQLEDEILAKDKLVKAKRALEVELEEVRDQLEEEEDSRSELEDSKRRLTTEVEDIKKKYDAEVEQNTKLDEAKKKLTDDVDTLKKQLEDEKKKLNESERAKKRLESENEDFLAKLDAEVKNRSRAEKDRKKYEKDLKDTKYKLNDEAATKTQTEIGAAKLEDQIDELRSKLEQEQAKATQADKSKKTLEGEIDNLRAQIEDEGKIKMRLEKEKRALEGELEELRETVEEAEDSKSEAEQSKRLVELELEDARRNLQKEIDAKEIAEDAKSNLQREIVEAKGRLEEESIARTNSDRSRKRLEAEIDALTAQVDAEQKAKNQQIKENKKIETELKEYRKKFGESEKTKTKEFLVVEKLETDYKRAKKEAADEQQQRLTVENDLRKHLSEISLLKDAIDKLQRDHDKTKRELETETASKIEMQRKMADFFGGFKA</Protein_Seq>
+    <DNA_Seq>ATGAATCCAATTCATGATAGAACTTCAGATTATCACAAATACTTAAAAGTTAAACAAGGTGATTCTGATTTATTTAAACTTACTGTTTCAGATAAGAGATACATTTGGTATAATCCAGATCCAAAAGAAAGAGATTCATATGAATGTGGTGAAATTGTTTCAGAAACCTCTGATTCTTTCACATTCAAAACCGTTGATGGTCAAGACAGACAAGTCAAAAAGGATGATGCCAATCAACGTAATCCAATCAAATTCGATGGTGTCGAAGATATGTCTGAATTATCATACCTCAATGAACCAGCAGTTTTCCACAATCTCCGTGTTCGTTACAATCAAGATTTAATTTACACCTATTCAGGTCTCTTTTTGGTTGCCGTCAATCCATTCAAGAGAATTCCAATCTACACTCAAGAGATGGTTGATATCTTCAAAGGTCGTAGAAGAAATGAAGTTGCCCCACATATTTTCGCCATTTCTGATGTTGCCTATCGTTCAATGTTAGATGATCGTCAAAATCAATCACTCTTAATCACTGGTGAATCTGGTGCTGGTAAGACTGAAAACACCAAAAAGGTCATTCAATATCTTGCATCTGTCGCTGGTCGTAATCAAGCCAATGGTAGTGGTGTATTGGAACAACAAATTCTCCAAGCCAATCCAATCCTTGAAGCTTTTGGTAATGCCAAAACCACCCGTAACAACAATTCATCTCGTTTCGGTAAATTCATTGAAATTCAATTCAACAGTGCTGGTTTCATTAGTGGTGCTTCAATTCAATCCTACCTTTTAGAGAAATCACGTGTCGTTTTCCAATCTGAAACCGAACGTAATTATCACATTTTCTATCAACTCTTAGCTGGTGCCACCGCCGAAGAAAAGAAAGCTCTTCACTTGGCTGGTCCAGAATCATTCAACTACTTAAATCAAAGTGGTTGTGTTGATATCAAAGGTGTCTCTGATAGTGAAGAATTCAAAATCACTCGTCAAGCTATGGACATTGTTGGTTTCTCACAAGAAGAACAAATGTCAATCTTTAAGATCATTGCTGGTATCTTACATTTAGGTAACATCAAATTCGAAAAAGGTGCTGGTGAAGGTGCTGTCCTCAAAGACAAAACCGCCCTCAACGCTGCTTCAACCGTCTTTGGTGTCAATCCATCAGTCCTTGAAAAGGCTCTCATGGAACCACGTATTTTAGCCGGTCGTGATTTAGTTGCTCAACATCTCAACGTTGAAAAATCCTCATCATCAAGAGACGCTCTTGTCAAAGCTCTCTATGGTCGTCTTTTCCTCTGGTTGGTCAAAAAGATCAACAATGTCCTCTGTCAAGAGAGAAAAGCTTACTTTATTGGTGTTTTGGATATTTCAGGTTTTGAAATTTTCAAAGTCAATTCATTCGAACAATTATGTATCAATTATACCAATGAAAAACTCCAACAATTCTTCAATCACCATATGTTCAAATTGGAACAAGAAGAATATCTTAAAGAGAAAATCAATTGGACTTTCATCGATTTTGGTCTTGATTCACAAGCCACTATCGATTTAATTGATGGTCGTCAACCACCAGGTATTTTAGCTCTTTTGGATGAACAATCTGTTTTCCCAAATGCCACCGATAATACTTTAATCACCAAACTCCACAGTCACTTTAGCAAGAAGAACGCCAAATACGAAGAACCACGTTTCTCCAAAACCGAATTTGGTGTTACCCATTATGCTGGTCAAGTCATGTATGAGATTCAAGATTGGTTAGAAAAGAACAAAGATCCATTACAACAAGATCTCGAACTTTGCTTCAAAGATTCATCAGACAACGTTGTCACCAAACTTTTCAATGATCCAAACATTGCCAGTCGTGCAAAGAAAGGTGCAAACTTTATCACTGTCGCCGCTCAATACAAGGAACAATTAGCCTCACTCATGGCCACCCTTGAAACCACCAACCCACATTTCGTTCGTTGTATCATTCCAAACAACAAACAATTACCAGCCAAACTCGAAGATAAAGTTGTCCTCGACCAATTACGTTGCAATGGTGTCCTCGAAGGTATTCGTATTACTCGTAAAGGTTTCCCAAATCGTATTATCTATGCCGATTTCGTCAAACGTTACTATTTATTAGCTCCAAACGTTCCAAGAGACGCTGAAGACTCACAAAAAGCCACCGATGCTGTTCTCAAACATCTTAACATTGATCCAGAACAATATCGTTTCGGTATCACCAAGATTTTCTTCCGTGCCGGTCAATTAGCTCGTATTGAAGAAGCTCGTGAACAACGTATCTCTGAAATCATCAAAGCCATTCAAGCTGCCACTCGTGGTTGGATCGCTCGTAAAGTCTACAAACAAGCACGTGAACACACTGTTGCTGCTCGTATCATCCAACAAAATCTCCGTGCTTACATTGATTTCAAATCATGGCCATGGTGGAAACTCTTCTCAAAGGCTCGTCCATTATTAAAGAGAAGAAACTTTGAAAAGGAAATCAAAGAAAAGGAAAGAGAAATCTTAGAACTCAAATCTAATCTCACCGACTCTACCACTCAAAAGGATAAATTAGAGAAATCACTCAAAGATACTGAATCCAATGTACTCGATCTCCAACGTCAACTCAAAGCTGAAAAAGAAACCCTCAAAGCTATGTACGATAGCAAGGATGCCTTAGAAGCTCAAAAACGTGAATTAGAAATCCGTGTTGAAGATATGGAATCTGAACTCGACGAAAAGAAATTAGCTTTGGAAAACCTCCAAAACCAAAAACGTTCAGTCGAAGAAAAAGTCAGAGACTTGGAAGAAGAATTACAAGAGGAACAAAAATTACGTAATACCCTTGAAAAATTAAAGAAGAAATACGAAGAGGAATTAGAAGAAATGAAACGTGTCAATGACGGTCAATCTGATACCATCTCTCGTTTAGAAAAAATCAAGGATGAATTACAAAAAGAAGTTGAAGAATTAACTGAAAGCTTCTCTGAAGAATCCAAAGATAAAGGTGTTTTAGAAAAGACTCGTGTCAGATTACAAAGTGAATTGGATGATTTAACCGTAAGATTAGATAGTGAAACCAAAGACAAATCTGAATTACTCCGTCAAAAGAAGAAACTCGAAGAAGAACTCAAACAAGTTCAAGAAGCTCTCGCTGCTGAAACTGCTGCTAAATTAGCTCAAGAAGCTGCCAACAAGAAATTACAAGGTGAATACACTGAATTAAACGAAAAATTCAACTCTGAAGTCACTGCTCGTTCAAATGTTGAAAAATCAAAGAAGACCCTCGAAAGTCAATTGGTTGCCGTCAACAACGAATTAGATGAAGAGAAGAAGAATCGTGATGCCCTTGAAAAGAAGAAGAAAGCTTTAGACGCTATGTTAGAGGAAATGAAAGATCAATTAGAATCCACTGGTGGTGAAAAGAAATCACTCTATGATCTCAAAGTTAAACAAGAATCAGATATGGAGGCTTTACGTAATCAAATCTCTGAACTCCAATCAACTATTGCCAAATTAGAAAAGATTAAATCCACTTTAGAAGGTGAAGTTGCTCGTTTACAAGGTGAATTAGAAGCTGAACAATTAGCCAAATCCAACGTTGAAAAACAAAAGAAGAAGGTTGAATTAGATTTGGAAGATAAATCTGCTCAATTAGCTGAAGAAACCGCCGCCAAACAAGCTTTAGATAAATTAAAGAAGAAATTAGAACAAGAATTATCTGAAGTTCAAACTCAACTCTCTGAAGCCAACAACAAGAATGTCAACTCTGATTCCACCAACAAACATTTGGAAACCTCTTTCAATAATCTCAAATTAGAATTGGAAGCTGAACAAAAAGCCAAACAAGCTCTTGAAAAGAAACGTCTCGGTTTAGAATCTGAATTAAAACATGTCAATGAACAATTGGAAGAAGAAAAGAAACAAAAAGAATCCAACGAAAAACGTAAAGTTGATTTAGAAAAGGAAGTCTCTGAACTCAAAGACCAAATTGAAGAAGAAGTTGCCTCCAAGAAAGCTGTCACTGAAGCCAAGAACAAGAAAGAATCTGAACTCGATGAAATCAAGAGACAATATGCTGATGTTGTTTCATCTCGTGATAAATCAGTCGAACAATTAAAGACCTTACAAGCCAAGAATGAAGAATTAAGAAACACTGCTGAAGAAGCTGAAGGTCAATTAGATCGTGCTGAAAGAAGCAAGAAGAAAGCTGAATTCGATTTAGAAGAAGCCGTCAAGAATTTGGAAGAAGAAACCGCCAAGAAAGTTAAAGCTGAAAAAGCCATGAAGAAAGCTGAAACTGACTATCGTTCAACCAAATCTGAATTGGATGATGCCAAGAACGTCTCATCTGAACAATACGTTCAAATCAAACGTCTCAATGAAGAACTCTCTGAATTACGTAGTGTCTTGGAAGAAGCTGATGAACGTTGTAACTCTGCCATCAAAGCAAAGAAAACCGCTGAATCTGCTTTAGAATCATTGAAAGATGAAATTGATGCTGCCAACAACGCCAAAGCTAAAGCTGAAAGAAAATCCAAAGAATTAGAAGTTCGTGTCGCTGAATTAGAAGAATCATTGGAAGATAAATCTGGTACCGTCAATGTTGAATTCATTCGTAAGAAGGATGCTGAAATCGATGATTTACGTGCTCGTCTCGACAGAGAAACTGAAAGTCGTATCAAATCTGATGAAGATAAGAAGAACACTCGTAAACAATTTGCTGATTTAGAAGCTAAGGTTGAAGAAGCTCAACGTGAAGTTGTCACCATCGATAGATTAAAGAAGAAACTCGAATCTGATATCATCGATTTATCAACTCAATTGGATACTGAAACCAAATCTCGTATCAAGATTGAAAAGAGCAAGAAGAAACTCGAACAAACTCTCGCTGAAAGAAGAGCCGCTGAAGAAGGTTCATCCAAAGCTGCTGATGAAGAAATTCGTAAACAAGTCTGGCAAGAGGTTGATGAGTTACGTGCTCAATTAGATAGTGAACGTGCTGCTCTCAATGCTTCTGAAAAGAAGATCAAATCTTTGGTCGCCGAAGTCGATGAAGTCAAGGAACAATTAGAAGATGAAATCCTCGCCAAAGACAAATTAGTCAAAGCCAAACGTGCCCTCGAAGTTGAATTAGAGGAAGTCAGAGACCAATTAGAAGAGGAAGAAGATTCTCGTTCAGAATTAGAAGACAGCAAACGTCGTCTCACTACTGAAGTCGAAGATATCAAGAAGAAATACGATGCTGAAGTCGAACAAAACACCAAATTAGATGAAGCCAAGAAGAAACTCACTGATGATGTTGATACTCTCAAGAAACAATTGGAAGATGAAAAGAAGAAATTGAACGAATCTGAACGTGCCAAGAAACGTTTAGAATCTGAAAATGAAGATTTCCTTGCCAAACTTGATGCTGAAGTTAAGAATCGTTCACGTGCTGAAAAGGATCGTAAGAAATACGAAAAGGATCTCAAGGATACCAAATACAAATTAAACGACGAAGCTGCCACCAAGACTCAAACCGAAATTGGTGCCGCCAAACTCGAAGATCAAATCGATGAATTACGTTCCAAACTTGAACAAGAACAAGCCAAAGCCACTCAAGCCGATAAGAGTAAGAAGACTTTGGAAGGTGAAATTGACAACTTACGTGCTCAAATCGAAGATGAAGGTAAGATCAAGATGAGATTAGAAAAAGAAAAACGTGCTCTCGAAGGTGAATTAGAAGAATTAAGAGAAACCGTTGAAGAAGCTGAAGACTCTAAATCTGAAGCTGAACAATCCAAACGTTTAGTCGAATTAGAATTAGAAGATGCTCGTCGTAACCTCCAAAAAGAAATCGATGCCAAAGAAATCGCTGAAGATGCCAAATCTAACCTCCAACGTGAAATCGTCGAAGCCAAAGGTCGTCTCGAAGAAGAATCCATCGCTCGTACCAACTCTGATCGTTCAAGAAAGAGACTCGAAGCTGAAATTGATGCCCTCACTGCTCAAGTTGATGCTGAACAAAAAGCCAAGAATCAACAAATCAAAGAAAACAAGAAGATCGAAACCGAACTCAAAGAATACAGAAAGAAATTCGGCGAATCAGAAAAGACCAAGACCAAAGAATTCCTCGTTGTCGAAAAACTCGAAACAGATTACAAGAGAGCCAAGAAAGAAGCTGCTGATGAACAACAACAACGTCTTACTGTTGAAAACGATCTCCGTAAACACCTCAGTGAAATCTCATTACTCAAAGATGCCATTGATAAGTTACAACGTGATCACGATAAGACCAAACGTGAATTGGAAACAGAAACTGCCAGCAAAATCGAAATGCAAAGAAAGATGGCCGATTTCTTTGGTGGTTTCAAAGCTTAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Myosin II complex</CellLocal>
+      <Ontology_ID>GO:0016460</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Myosin filament</CellLocal>
+      <Ontology_ID>GO:0032982</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Myosin complex</CellLocal>
+      <Ontology_ID>GO:0016459</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Early phagosome</CellLocal>
+      <Ontology_ID>GO:0032009</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Uropod</CellLocal>
+      <Ontology_ID>GO:0001931</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Actomyosin</CellLocal>
+      <Ontology_ID>GO:0042641</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Actomyosin contractile ring</CellLocal>
+      <Ontology_ID>GO:0005826</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>mhcA</Gene_Name>
+    <Gene_ID>8625606</Gene_ID>
+    <Genbank_ACCN>XM_632648</Genbank_ACCN>
+    <Protein_ACCN>XP_637740</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/8625606</Gene_URL>
+    <EMBL_ID>DDB_G0286355</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q54YW1</Uniprot_ID>
+      <Gene_Name>elmoA</Gene_Name>
+      <EBI_ID>EBI-2928498</EBI_ID>
+      <PPI_EBI_URL>EBI-2928504,EBI-2928498</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>X-RAY STRUCTURES OF THE MGADP, MGATPGAMMAS, AND MGAMPPNP COMPLEXES OF THE DICTYOSTELIUM DISCOIDEUM MYOSIN MOTOR DOMAIN</PDB_Title>
+      <PDB_ID>1MMG</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MMG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the MgADP, MgATPgammaS, and MgAMPPNP complexes of the Dictyostelium discoideum myosin motor domain.</PubMed_Title>
+      <Author>Gulick, A.M., et al.</Author>
+      <Journal>Biochemistry(1997)36:11619-11628</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9305951?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR THE ALLOSTERIC INTERFERENCE OF MYOSIN FUNCTION BY MUTANTS G680A AND G680V OF DICTYOSTELIUM MYOSIN-2</PDB_Title>
+      <PDB_ID>2Y0R</PDB_ID>
+      <Resolution>2.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Y0R</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for the Allosteric Interference of Myosin Function by Reactive Thiol Region Mutations G680A and G680V.</PubMed_Title>
+      <Author>Preller, M., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:35051</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21841195?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF A GENETICALLY ENGINEERED MOLECULAR MOTOR</PDB_Title>
+      <PDB_ID>1G8X</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G8X</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a genetically engineered molecular motor.</PubMed_Title>
+      <Author>Kliche, W., et al.</Author>
+      <Journal>EMBO J.(2001)20:40-46</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11226153?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRUNCATED HEAD OF MYOSIN FROM DICTYOSTELIUM DISCOIDEUM COMPLEXED WITH MG-PYROPHOSPHATE</PDB_Title>
+      <PDB_ID>1MNE</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MNE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structure of the magnesium(II)-pyrophosphate complex of the truncated head of Dictyostelium discoideum myosin to 2.7 A resolution.</PubMed_Title>
+      <Author>Smith, C.A., et al.</Author>
+      <Journal>Biochemistry(1995)34:8973-8981</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7619796?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of myosin-2 motor domain in complex with ADP-metavanadate and resveratrol</PDB_Title>
+      <PDB_ID>3MNQ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MNQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of resveratrol regulation of myosin activity.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MYOSIN-2 IN COMPLEX WITH ADP-METAVANADATE</PDB_Title>
+      <PDB_ID>2JJ9</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JJ9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Mechanism of Pentabromopseudilin Inhibition of Myosin Motor Activity.</PubMed_Title>
+      <Author>Fedorov, R., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2009)16:80-88</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19122661?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the nucleotide-free myosin II motor domain from Dictyostelium discoideum fused to the GTPase domain of dynamin 1 from Rattus norvegicus</PDB_Title>
+      <PDB_ID>2AKA</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AKA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the GTPase domain of rat dynamin 1.</PubMed_Title>
+      <Author>Reubold, T.F., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2005)102:13093-13098</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16141317?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE APO MOTOR DOMAIN OF DICTYOSTELLIUM MYOSIN II</PDB_Title>
+      <PDB_ID>1FMV</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FMV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the apo and MgATP-bound states of Dictyostelium discoideum myosin motor domain.</PubMed_Title>
+      <Author>Bauer, C.B., et al.</Author>
+      <Journal>J.Biol.Chem.(2000)275:38494-38499</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10954715?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-RAY STRUCTURES OF THE MGADP, MGATPGAMMAS, AND MGAMPPNP COMPLEXES OF THE DICTYOSTELIUM DISCOIDEUM MYOSIN MOTOR DOMAIN</PDB_Title>
+      <PDB_ID>1MMA</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MMA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the MgADP, MgATPgammaS, and MgAMPPNP complexes of the Dictyostelium discoideum myosin motor domain.</PubMed_Title>
+      <Author>Gulick, A.M., et al.</Author>
+      <Journal>Biochemistry(1997)36:11619-11628</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9305951?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRUNCATED HEAD OF MYOSIN FROM DICTYOSTELIUM DISCOIDEUM COMPLEXED WITH MGADP-ALF4</PDB_Title>
+      <PDB_ID>1MND</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MND</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the myosin motor domain of Dictyostelium discoideum complexed with MgADP.BeFx and MgADP.AlF4-.</PubMed_Title>
+      <Author>Fisher, A.J., et al.</Author>
+      <Journal>Biochemistry(1995)34:8960-8972</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7619795?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MYOSIN-2 MOTOR DOMAIN IN COMPLEX WITH ADP-METAVANADATE AND PENTABROMOPSEUDILIN</PDB_Title>
+      <PDB_ID>2JHR</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JHR</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05233003</ASD_Ligand>
+      <PubMed_Title>The Mechanism of Pentabromopseudilin Inhibition of Myosin Motor Activity.</PubMed_Title>
+      <Author>Fedorov, R., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2009)16:80-88</Journal>
+      <PubMed_ID>19122661</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPLEX BETWEEN DICTYOSTELIUM MYOSIN AND MGADP AND VANADATE AT 1.9A RESOLUTION</PDB_Title>
+      <PDB_ID>1VOM</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VOM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structure of the magnesium(II).ADP.vanadate complex of the Dictyostelium discoideum myosin motor domain to 1.9 A resolution.</PubMed_Title>
+      <Author>Smith, C.A., et al.</Author>
+      <Journal>Biochemistry(1996)35:5404-5417</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8611530?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DICTYOSTELIUM MYOSIN S1DC (MOTOR DOMAIN FRAGMENT) COMPLEXED WITH O,P-DINITROPHENYL AMINOETHYLDIPHOSPHATE BERYLLIUM TRIFLUORIDE.</PDB_Title>
+      <PDB_ID>1D1A</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D1A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the Dictyostelium discoideum myosin motor domain with six non-nucleotide analogs.</PubMed_Title>
+      <Author>Gulick, A.M., et al.</Author>
+      <Journal>J.Biol.Chem.(2000)275:398-408</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10617631?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MYOSIN II DICTYOSTELIUM DISCOIDEUM MOTOR DOMAIN S456Y BOUND WITH MGADP-BEFX</PDB_Title>
+      <PDB_ID>1W9I</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W9I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Strucure-Function Analysis of Myosin II Backdoor Mutants</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-RAY STRUCTURES OF THE MGADP, MGATPGAMMAS, AND MGAMPPNP COMPLEXES OF THE DICTYOSTELIUM DISCOIDEUM MYOSIN MOTOR DOMAIN</PDB_Title>
+      <PDB_ID>1MMN</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MMN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the MgADP, MgATPgammaS, and MgAMPPNP complexes of the Dictyostelium discoideum myosin motor domain.</PubMed_Title>
+      <Author>Gulick, A.M., et al.</Author>
+      <Journal>Biochemistry(1997)36:11619-11628</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9305951?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE MGATP COMPLEX FOR THE MOTOR DOMAIN OF DICTYOSTELIUM MYOSIN II</PDB_Title>
+      <PDB_ID>1FMW</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FMW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the apo and MgATP-bound states of Dictyostelium discoideum myosin motor domain.</PubMed_Title>
+      <Author>Bauer, C.B., et al.</Author>
+      <Journal>J.Biol.Chem.(2000)275:38494-38499</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10954715?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRUNCATED HEAD OF MYOSIN FROM DICTYOSTELIUM DISCOIDEUM COMPLEXED WITH MGADP-BEF3</PDB_Title>
+      <PDB_ID>1MMD</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MMD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the myosin motor domain of Dictyostelium discoideum complexed with MgADP.BeFx and MgADP.AlF4-.</PubMed_Title>
+      <Author>Fisher, A.J., et al.</Author>
+      <Journal>Biochemistry(1995)34:8960-8972</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7619795?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Insights into the Importance of Hydrogen Bonding in the Gamma-Phosphate Binding Pocket of Myosin: Structural and Functional Studies of Ser236</PDB_Title>
+      <PDB_ID>3MYK</PDB_ID>
+      <Resolution>1.84</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MYK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights into the importance of hydrogen bonding in the gamma-phosphate binding pocket of myosin: structural and functional studies of serine 236</PubMed_Title>
+      <Author>Frye, J.J., et al.</Author>
+      <Journal>Biochemistry(2010)49:4897-4907</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20459085?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of myosin-2 dictyostelium discoideum motor domain S456Y mutant in complex with adp-orthovanadate</PDB_Title>
+      <PDB_ID>3MKD</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MKD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Switch-2 dependent modulation of the myosin power stroke</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MYOSIN-2 MOTOR DOMAIN IN COMPLEX WITH ADP-METAVANADATE AND PENTACHLOROCARBAZOLE</PDB_Title>
+      <PDB_ID>2X9H</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2X9H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of Myosin-2 Motor Domain in Complex with Adp-Metavanadate and Pentachlorocarbazole</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE NUCLEOTIDE-FREE DYNAMIN A GTPASE DOMAIN, DETERMINED AS MYOSIN FUSION</PDB_Title>
+      <PDB_ID>1JX2</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JX2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of a dynamin GTPase domain in both nucleotide-free and GDP-bound forms.</PubMed_Title>
+      <Author>Niemann, H.H., et al.</Author>
+      <Journal>EMBO J.(2001)20:5813-5821</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11689422?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MOLECULAR MECHANISM OF PENTACHLOROPSEUDILIN MEDIATED INHIBITION OF MYOSIN MOTOR ACTIVITY</PDB_Title>
+      <PDB_ID>2XEL</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XEL</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05233008</ASD_Ligand>
+      <PubMed_Title>Mechanism and Specificity of Pentachloropseudilin-Mediated Inhibition of Myosin Motor Activity.</PubMed_Title>
+      <Author>Chinthalapudi, K., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:29700</Journal>
+      <PubMed_ID>21680745</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-RAY CRYSTAL STRUCTURE OF THE MG (DOT) 2'(3')-O-(N-METHYLANTHRANILOYL) NUCLEOTIDE BOUND TO DICTYOSTELIUM DISCOIDEUM MYOSIN MOTOR DOMAIN</PDB_Title>
+      <PDB_ID>1LVK</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LVK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray crystal structure and solution fluorescence characterization of Mg.2'(3')-O-(N-methylanthraniloyl) nucleotides bound to the Dictyostelium discoideum myosin motor domain.</PubMed_Title>
+      <Author>Bauer, C.B., et al.</Author>
+      <Journal>J.Mol.Biol.(1997)274:394-407</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9405148?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structures of (S)-(-)-Blebbistatin Analogs bound to Dictyostelium discoideum myosin II</PDB_Title>
+      <PDB_ID>3BZ8</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BZ8</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05230006</ASD_Ligand>
+      <PubMed_Title>The small molecule tool (S)-(-)-blebbistatin: novel insights of relevance to myosin inhibitor design.</PubMed_Title>
+      <Author>Lucas-Lopez, C., et al.</Author>
+      <Journal>Org.Biomol.Chem.(2008)6:2076-2084</Journal>
+      <PubMed_ID>18528569</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR THE ALLOSTERIC INTERFERENCE OF MYOSIN FUNCTION BY MUTANTS G680A AND G680V OF DICTYOSTELIUM MYOSIN-2</PDB_Title>
+      <PDB_ID>2Y9E</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Y9E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for the Allosteric Interference of Myosin Function by Reactive Thiol Region Mutations G680A and G680V.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>DICTYOSTELIUM MYOSIN S1DC (MOTOR DOMAIN FRAGMENT) COMPLEXED WITH N-METHYL-O-NITROPHENYL AMINOETHYLDIPHOSPHATE BERYLLIUM TRIFLUORIDE.</PDB_Title>
+      <PDB_ID>1D1C</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D1C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the Dictyostelium discoideum myosin motor domain with six non-nucleotide analogs.</PubMed_Title>
+      <Author>Gulick, A.M., et al.</Author>
+      <Journal>J.Biol.Chem.(2000)275:398-408</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10617631?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Insights into the Importance of Hydrogen Bonding in the Gamma-Phosphate Binding Pocket of Myosin: Structural and Functional Studies of Ser236</PDB_Title>
+      <PDB_ID>3MYH</PDB_ID>
+      <Resolution>2.01</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MYH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights into the importance of hydrogen bonding in the gamma-phosphate binding pocket of myosin: structural and functional studies of serine 236</PubMed_Title>
+      <Author>Frye, J.J., et al.</Author>
+      <Journal>Biochemistry(2010)49:4897-4907</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20459085?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR THE ALLOSTERIC INTERFERENCE OF MYOSIN FUNCTION BY MUTANTS G680A AND G680V OF DICTYOSTELIUM MYOSIN-2</PDB_Title>
+      <PDB_ID>2Y8I</PDB_ID>
+      <Resolution>3.13</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Y8I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for the Allosteric Interference of Myosin Function by Reactive Thiol Region Mutations G680A and G680V.</PubMed_Title>
+      <Author>Preller, M., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:35051</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21841195?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MYOSIN II DICTYOSTELIUM DISCOIDEUM MOTOR DOMAIN S456Y BOUND WITH MGADP-ALF4</PDB_Title>
+      <PDB_ID>1W9J</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W9J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-Function Analysis of Myosin II Backdoor Mutants</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>DICTYOSTELIUM DISCOIDEUM MYOSIN II MOTOR DOMAIN S456E WITH BOUND MGADP-BEFX</PDB_Title>
+      <PDB_ID>1W9K</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W9K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-Function Analysis of Myosin II Backdoor Mutants</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MYOSIN-2 IN COMPLEX WITH TRIBROMODICHLOROPSEUDILIN</PDB_Title>
+      <PDB_ID>2XO8</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XO8</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05233007</ASD_Ligand>
+      <PubMed_Title>Inhibition of Myosin ATPase Activity by Halogenated Pseudilins: A Structure-Activity Study.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>The structural basis of blebbistatin inhibition and specificity for myosin II</PDB_Title>
+      <PDB_ID>1YV3</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YV3</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05238001</ASD_Ligand>
+      <PubMed_Title>The structural basis of blebbistatin inhibition and specificity for myosin II.</PubMed_Title>
+      <Author>Allingham, J.S., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2005)12:378-379</Journal>
+      <PubMed_ID>15750603</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DICTYOSTELIUM MYOSIN S1DC (MOTOR DOMAIN FRAGMENT) COMPLEXED WITH O,P-DINITROPHENYL AMINOPROPYLDIPHOSPHATE BERYLLIUM TRIFLUORIDE.</PDB_Title>
+      <PDB_ID>1D1B</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D1B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the Dictyostelium discoideum myosin motor domain with six non-nucleotide analogs.</PubMed_Title>
+      <Author>Gulick, A.M., et al.</Author>
+      <Journal>J.Biol.Chem.(2000)275:398-408</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10617631?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MYOSIN II DICTYOSTELIUM DISCOIDEUM MOTOR DOMAIN S456E BOUND WITH MGADP-ALF4</PDB_Title>
+      <PDB_ID>1W9L</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W9L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-Function Analysis of Myosin II Backdoor Mutants</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>DICTYOSTELIUM MYOSIN S1DC (MOTOR DOMAIN FRAGMENT) COMPLEXED WITH O-NITROPHENYL AMINOETHYLDIPHOSPHATE BERYLLIUM FLUORIDE.</PDB_Title>
+      <PDB_ID>1D0Y</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D0Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the Dictyostelium discoideum myosin motor domain with six non-nucleotide analogs.</PubMed_Title>
+      <Author>Gulick, A.M., et al.</Author>
+      <Journal>J.Biol.Chem.(2000)275:398-408</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10617631?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE DYNAMIN A GTPASE DOMAIN COMPLEXED WITH GDP, DETERMINED AS MYOSIN FUSION</PDB_Title>
+      <PDB_ID>1JWY</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JWY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of a dynamin GTPase domain in both nucleotide-free and GDP-bound forms.</PubMed_Title>
+      <Author>Niemann, H.H., et al.</Author>
+      <Journal>EMBO J.(2001)20:5813-5821</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11689422?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structures of (S)-(-)-Blebbistatin Analogs bound to Dictyostelium discoideum myosin II</PDB_Title>
+      <PDB_ID>3BZ9</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BZ9</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05230007</ASD_Ligand>
+      <PubMed_Title>The small molecule tool (S)-(-)-blebbistatin: novel insights of relevance to myosin inhibitor design.</PubMed_Title>
+      <Author>Lucas-Lopez, C., et al.</Author>
+      <Journal>Org.Biomol.Chem.(2008)6:2076-2084</Journal>
+      <PubMed_ID>18528569</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of myosin-2 motor domain in complex with ADP-Metavanadate and blebbistatin</PDB_Title>
+      <PDB_ID>3MJX</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MJX</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05238001</ASD_Ligand>
+      <PubMed_Title>The mechanism of pentabromopseudilin inhibition of myosin motor activity.</PubMed_Title>
+      <Author>Fedorov, R., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2009)16:80-88</Journal>
+      <PubMed_ID>19122661</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DICTYOSTELIUM MYOSIN S1DC (MOTOR DOMAIN FRAGMENT) COMPLEXED WITH M-NITROPHENYL AMINOETHYLDIPHOSPHATE BERYLLIUM TRIFLUORIDE.</PDB_Title>
+      <PDB_ID>1D0X</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D0X</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the Dictyostelium discoideum myosin motor domain with six non-nucleotide analogs.</PubMed_Title>
+      <Author>Gulick, A.M., et al.</Author>
+      <Journal>J.Biol.Chem.(2000)275:398-408</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10617631?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structures of (S)-(-)-Blebbistatin Analogs bound to Dictyostelium discoideum myosin II</PDB_Title>
+      <PDB_ID>3BZ7</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BZ7</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05230005</ASD_Ligand>
+      <PubMed_Title>The small molecule tool (S)-(-)-blebbistatin: novel insights of relevance to myosin inhibitor design.</PubMed_Title>
+      <Author>Lucas-Lopez, C., et al.</Author>
+      <Journal>Org.Biomol.Chem.(2008)6:2076-2084</Journal>
+      <PubMed_ID>18528569</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DICTYOSTELIUM MYOSIN S1DC (MOTOR DOMAIN FRAGMENT) COMPLEXED WITH P-NITROPHENYL AMINOETHYLDIPHOSPHATE BERYLLIUM TRIFLUORIDE.</PDB_Title>
+      <PDB_ID>1D0Z</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D0Z</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structures of the Dictyostelium discoideum myosin motor domain with six non-nucleotide analogs.</PubMed_Title>
+      <Author>Gulick, A.M., et al.</Author>
+      <Journal>J.Biol.Chem.(2000)275:398-408</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10617631?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Insights into the Importance of Hydrogen Bonding in the Gamma-Phosphate Binding Pocket of Myosin: Structural and Functional Studies of Ser236</PDB_Title>
+      <PDB_ID>3MYL</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MYL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights into the importance of hydrogen bonding in the gamma-phosphate binding pocket of myosin: structural and functional studies of serine 236</PubMed_Title>
+      <Author>Frye, J.J., et al.</Author>
+      <Journal>Biochemistry(2010)49:4897-4907</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20459085?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04530</Pathway_ID>
+      <Pathway_Title>Tight junction</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.bc.e.html</SCOP_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,260,Ser;site,265,Lys;site,428,Arg;site,431,Leu;site,590,Asp;site,591,Pro;site,592,Leu;site,617,Ile</Site_Detail>
+      <Site_Reference>Preller M, et al. J Med Chem. 2011,54(11):3675-3685.</Site_Reference>
+      <Site_Type>phosphorylation-dependent allostery</Site_Type>
+      <PDB_ID>2XO8</PDB_ID>
+      <PubMed_ID>21534527</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Allosteric_Pathway>
+    <Pathway>Pathway 1: E492, K496, K498, N500, I504, P693, R695, R738, F739, I741, T742, K743; Pathway 2: S181, G457, F458, N475, Q479, F482, M486, F487, Q491, Y494, I499, E497, T742</Pathway>
+    <Method>Multiple sequence alignment, conservation weights, graph network, Dijkstra’s algorithm, allosteric communication from the catalytic site, shortest path calculations.@@Clustering analysis,mutations</Method>
+    <Verified__Residue>F458, F482, F487, I499, T742; S181, N475, Q479</Verified__Residue>
+    <PubMed_Title>Tang S, et al. J Mol Biol. 2007,373(5):1361-1373.@@@@Cassandra Koole,et al.Mol Pharmacol. 2010 September; 78(3): 456-465.</PubMed_Title>
+    <PubMed_ID>17900617@@20547734</PubMed_ID>
+    <is__ref__img>Yes</is__ref__img>
+    <is__display>No</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240009</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05230002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05230003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05230005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05230006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05230007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05238001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

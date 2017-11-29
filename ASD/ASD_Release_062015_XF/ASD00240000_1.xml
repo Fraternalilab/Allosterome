@@ -1,0 +1,638 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00240000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P17707</UniProt_ID>
+  <Seq_Length>334</Seq_Length>
+  <Molecule_Weight>38340</Molecule_Weight>
+  <KEGG_ID>hsa:262</KEGG_ID>
+  <Orthology_ID>K01611</Orthology_ID>
+  <Catalytic_Mechanism>S-adenosyl-L-methionine = (5-deoxy-5-adenosyl)(3-aminopropyl)-methylsulfonium salt + CO(2).</Catalytic_Mechanism>
+  <Pfam_ID>PF01536:SAM_decarbox</Pfam_ID>
+  <Allosteric_Activator_Count>10</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>39</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>AdoMetDC</Alias>
+      <Alias>SAMDC</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the nonhydrolytic addition or removal of a carboxyl group to or from a compound.</Detail>
+      <Keyword>Carboxy-lyase activity</Keyword>
+      <Ontology_ID>GO:0016831</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: S-adenosyl-L-methionine + H(+) = S-adenosylmethioninamine + CO(2).</Detail>
+      <Keyword>Adenosylmethionine decarboxylase activity</Keyword>
+      <Ontology_ID>GO:0004014</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving small molecules, any monomeric molecule of small relative molecular mass.</Detail>
+      <Keyword>Small molecule metabolic process</Keyword>
+      <Ontology_ID>GO:0044281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of spermine, a polybasic amine found in human sperm, in ribosomes and in some viruses and involved in nucleic acid packaging.</Detail>
+      <Keyword>Spermine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006597</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of polyamines, any organic compound containing two or more amino groups.</Detail>
+      <Keyword>Polyamine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006596</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of spermidine, N-(3-aminopropyl)-1,4-diaminobutane.</Detail>
+      <Keyword>Spermidine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008295</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>298</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>68</Position>
+      <PTM_Type>Pyruvic acid (Ser)</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MEAAHFFEGTEKLLEVWFSRQQPDANQGSGDLRTIPRSEWDILLKDVQCSIISVTKTDKQEAYVLSESSMFVSKRRFILKTCGTTLLLKALVPLLKLARDYSGFDSIQSFFYSRKNFMKPSHQGYPHRNFQEEIEFLNAIFPNGAAYCMGRMNSDCWYLYTLDFPESRVISQPDQTLEILMSELDPAVMDQFYMKDGVTAKDVTRESGIRDLIPGSVIDATMFNPCGYSMNGMKSDGTYWTIHITPEPEFSYVSFETNLSQTSYDDLIRKVVEVFKPGKFVTTLFVNQSSKCRTVLASPQKIEGFKRLDCQSAMFNDYNFVFTSFAKKQQQQQS</Protein_Seq>
+    <DNA_Seq>AAGAGACTGAACTGTATCTGCCTCTATTTCCAAAAGACTCACGTTCAACTTTCGCTCACACAAAGCCGGGAAAATTTTATTAGTCCTTTTTTTAAAAAAAGTTAATATAAAATTATAGCAAAAAAAAAAAGGAACCTGAACTTTAGTAACACAGCTGGAACAATCGCAGCGGCGGCGGCAGCGGCGGGAGAAGAGGTTTAATTTAGTTGATTTTCTGTGGTTGTTGGTTGTTCGCTAGTCTCACGGTGATGGAAGCTGCACATTTTTTCGAAGGGACCGAGAAGCTGCTGGAGGTTTGGTTCTCCCGGCAGCAGCCCGACGCAAACCAAGGATCTGGGGATCTTCGCACTATCCCAAGATCTGAGTGGGACATACTTTTGAAGGATGTGCAATGTTCAATCATAAGTGTGACAAAAACTGACAAGCAGGAAGCTTATGTACTCAGTGAGAGTAGCATGTTTGTCTCCAAGAGACGTTTCATTTTGAAGACATGTGGTACCACCCTCTTGCTGAAAGCACTGGTTCCCCTGTTGAAGCTTGCTAGGGATTACAGTGGGTTTGACTCAATTCAAAGCTTCTTTTATTCTCGTAAGAATTTCATGAAGCCTTCTCACCAAGGGTACCCACACCGGAATTTCCAGGAAGAAATAGAGTTTCTTAATGCAATTTTCCCAAATGGAGCAGGATATTGTATGGGACGTATGAATTCTGACTGTTGGTACTTATATACTCTGGATTTCCCAGAGAGTCGGGTAATCAGTCAGCCAGATCAAACCTTGGAAATTCTGATGAGTGAGCTTGACCCAGCAGTTATGGACCAGTTCTACATGAAAGATGGTGTTACTGCAAAGGATGTCACTCGTGAGAGTGGAATTCGTGACCTGATACCAGGTTCTGTCATTGATGCCACAATGTTCAATCCTTGTGGGTATTCGATGAATGGAATGAAATCGGATGGAACTTATTGGACTATTCACATCACTCCAGAACCAGAATTTTCTTATGTTAGCTTTGAAACAAACTTAAGTCAGACCTCCTATGATGACCTGATCAGGAAAGTTGTAGAAGTCTTCAAGCCAGGAAAATTTGTGACCACCTTGTTTGTTAATCAGAGTTCTAAATGTCGCACAGTGCTTGCTTCGCCCCAGAAGATTGAAGGTTTTAAGCGTCTTGATTGCCAGAGTGCTATGTTCAATGATTACAATTTTGTTTTTACCAGTTTTGCTAAGAAGCAGCAACAACAGCAGAGTTGATTAAGAAAAATGAAGAAAAAACGCAAAAAGAGAACACATGTAGAAGGTGGTGGATGCTTTCTAGATGTCGATGCTGGGGGCAGTGCTTTCCATAACCACCACTGTGTAGTTGCAGAAAGCCCTAGATGTAATGATAGTGTAATCATTTTGAATTGTATGCATTATTATATCAAGGAGTTAGATATCTTGCATGAATGCTCTCTTCTGTGTTTAGGTATTCTCTGCCACTCTTGCTGTGAAATTGAAGTGGATGTAGAAAAAACCTTTTACTATATGAAACTTTACAACACTTGTGAAAGCAACTCAATTTGGTTTATGCACAGTGTAATATTTCTCCAAGTATCATCCAAAATTCCCCACAGACAAGGCTTTCGTCCTCATTAGGTGTTGGCCTCAGCCTAACCCTCTAGGACTGTTCTATTAAATTGCTGCCAGAATTTTACATCCAGTTACCTCCACTTTCTAGAACATATTCTTTACTAATGTTATTGAAACCAATTTCTACTTCATACTGATGTTTTTGGAAACAGCAATTAAAGTTTTTCTTCCATG</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>AMD1</Gene_Name>
+    <Gene_Alias>AMD</Gene_Alias>
+    <Gene_ID>262</Gene_ID>
+    <Genbank_ACCN>NM_001634</Genbank_ACCN>
+    <Protein_ACCN>NP_001625</Protein_ACCN>
+    <HGNC_ID>457</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/262</Gene_URL>
+    <UCSC_ID>uc003puk.1</UCSC_ID>
+    <EMBL_ID>ENSG00000123505</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Malaria</Disease_Name>
+      <Disease_Detail>Malaria</Disease_Detail>
+      <Disease_DB>MLR004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/malaria?search=AMD1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Chagas Disease</Disease_Name>
+      <Disease_Detail>Chagas Disease</Disease_Detail>
+      <Disease_DB>CHG001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/chagas_disease?search=AMD1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Sleeping Sickness</Disease_Name>
+      <Disease_Detail>Sleeping Sickness</Disease_Detail>
+      <Disease_DB>SLP001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/sleeping_sickness?search=AMD1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Human AdoMetDC E178Q mutant complexed with putrescine</PDB_Title>
+      <PDB_ID>3EPA</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EPA</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>Structural basis for putrescine activation of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Bale S, et al.</Author>
+      <Journal>Biochemistry. 2008 Dec 16;47(50):13404-17.</Journal>
+      <PubMed_ID>19053272</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of a Human S-Adenosylmethionine Decarboxylase Self-processing Ester Intermediate and Mechanism of Putrescine Stimulation of Processing as Revealed by the H243A Mutant</PDB_Title>
+      <PDB_ID>1JL0</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JL0</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>Structure of a human S-adenosylmethionine decarboxylase self-processing ester intermediate and mechanism of putrescine stimulation of processing as revealed by the H243A mutant.</PubMed_Title>
+      <Author>Ekstrom JL, et al.</Author>
+      <Journal>Biochemistry. 2001 Aug 14;40(32):9495-504.</Journal>
+      <PubMed_ID>11583148</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN S-ADENOSYLMETHIONINE DECARBOXYLASE WITH COVALENTLY BOUND PYRUVOYL GROUP AND COVALENTLY BOUND 5'-DEOXY-5'-[N-METHYL-N-(2-AMINOOXYETHYL) AMINO]ADENOSINE</PDB_Title>
+      <PDB_ID>1I72</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I72</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>The structural basis for substrate specificity and inhibition of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Tolbert WD, et al.</Author>
+      <Journal>Biochemistry. 2001 Aug 14;40(32):9484-94.</Journal>
+      <PubMed_ID>11583147</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC E256Q mutant complexed with putrescine</PDB_Title>
+      <PDB_ID>3EPB</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EPB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>Structural basis for putrescine activation of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Bale S, et al.</Author>
+      <Journal>Biochemistry. 2008 Dec 16;47(50):13404-17.</Journal>
+      <PubMed_ID>19053272</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC E178Q mutant with no putrescine bound</PDB_Title>
+      <PDB_ID>3EP5</PDB_ID>
+      <Resolution>1.99</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EP5</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240018</ASD_Ligand>
+      <PubMed_Title>Structural basis for putrescine activation of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Bale S, et al.</Author>
+      <Journal>Biochemistry. 2008 Dec 16;47(50):13404-17.</Journal>
+      <PubMed_ID>19053272</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC D174N mutant with no putrescine bound</PDB_Title>
+      <PDB_ID>3EP3</PDB_ID>
+      <Resolution>1.84</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EP3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for putrescine activation of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Bale S, et al.</Author>
+      <Journal>Biochemistry. 2008 Dec 16;47(50):13404-17.</Journal>
+      <PubMed_ID>19053272</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC with 5'-Deoxy-5'-(dimethylsulfonio) adenosine</PDB_Title>
+      <PDB_ID>3H0V</PDB_ID>
+      <Resolution>2.24</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3H0V</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>Role of the sulfonium center in determining the ligand specificity of human s-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Bale S, et al.</Author>
+      <Journal>Biochemistry. 2009 Jul 14;48(27):6423-30.</Journal>
+      <PubMed_ID>19527050</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC with covalently bound 5'-[(2-aminooxyethyl)methylamino]-5'-deoxy-8-methyladenosine</PDB_Title>
+      <PDB_ID>3DZ5</PDB_ID>
+      <Resolution>2.43</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DZ5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>New Insights into the Design of Inhibitors of Human S-Adenosylmethionine Decarboxylase: Studies of Adenine C(8) Substitution in Structural Analogues of S-Adenosylmethionine (dagger).</PubMed_Title>
+      <Author>McCloskey DE, et al.</Author>
+      <Journal>J Med Chem. 2009 Feb 11.</Journal>
+      <PubMed_ID>19209891</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC with 5'-[(4-aminooxybutyl)methylamino]-5'deoxy-8-ethyladenosine</PDB_Title>
+      <PDB_ID>3DZ6</PDB_ID>
+      <Resolution>1.83</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DZ6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>New Insights into the Design of Inhibitors of Human S-Adenosylmethionine Decarboxylase: Studies of Adenine C(8) Substitution in Structural Analogues of S-Adenosylmethionine (dagger).</PubMed_Title>
+      <Author>McCloskey DE, et al.</Author>
+      <Journal>J Med Chem. 2009 Feb 11.</Journal>
+      <PubMed_ID>19209891</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC with no putrescine bound</PDB_Title>
+      <PDB_ID>3EP9</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EP9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for putrescine activation of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Bale S, et al.</Author>
+      <Journal>Biochemistry. 2008 Dec 16;47(50):13404-17.</Journal>
+      <PubMed_ID>19053272</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN S-ADENOSYLMETHIONINE DECARBOXYLASE WITH COVALENTLY BOUND PYRUVOYL GROUP AND COMPLEXED WITH 4-AMIDINOINDAN-1-ONE-2'-AMIDINOHYDRAZONE</PDB_Title>
+      <PDB_ID>1I7M</PDB_ID>
+      <Resolution>2.24</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I7M</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>The structural basis for substrate specificity and inhibition of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Tolbert WD, et al.</Author>
+      <Journal>Biochemistry. 2001 Aug 14;40(32):9484-94.</Journal>
+      <PubMed_ID>11583147</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC D174N mutant complexed with S-Adenosylmethionine methyl ester and no putrescine bound</PDB_Title>
+      <PDB_ID>3EP6</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EP6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for putrescine activation of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Bale S, et al.</Author>
+      <Journal>Biochemistry. 2008 Dec 16;47(50):13404-17.</Journal>
+      <PubMed_ID>19053272</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC with 5'-[(carboxamidomethyl)methylamino]-5'-deoxy-8-methyladenosine</PDB_Title>
+      <PDB_ID>3DZ7</PDB_ID>
+      <Resolution>1.91</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DZ7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>New Insights into the Design of Inhibitors of Human S-Adenosylmethionine Decarboxylase: Studies of Adenine C(8) Substitution in Structural Analogues of S-Adenosylmethionine (dagger).</PubMed_Title>
+      <Author>McCloskey DE, et al.</Author>
+      <Journal>J Med Chem. 2009 Feb 11.</Journal>
+      <PubMed_ID>19209891</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC F223A mutant with covalently bound S-Adenosylmethionine methyl ester</PDB_Title>
+      <PDB_ID>3DZ3</PDB_ID>
+      <Resolution>2.62</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DZ3</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>New Insights into the Design of Inhibitors of Human S-Adenosylmethionine Decarboxylase: Studies of Adenine C(8) Substitution in Structural Analogues of S-Adenosylmethionine (dagger).</PubMed_Title>
+      <Author>McCloskey DE, et al.</Author>
+      <Journal>J Med Chem. 2009 Feb 11.</Journal>
+      <PubMed_ID>19209891</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC E178Q mutant complexed with S-Adenosylmethionine methyl ester and no putrescine bound</PDB_Title>
+      <PDB_ID>3EP8</PDB_ID>
+      <Resolution>1.97</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EP8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for putrescine activation of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Bale S, et al.</Author>
+      <Journal>Biochemistry. 2008 Dec 16;47(50):13404-17.</Journal>
+      <PubMed_ID>19053272</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The S68A S-adenosylmethionine decarboxylase proenzyme processing mutant.</PDB_Title>
+      <PDB_ID>1MSV</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MSV</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>Mechanism of human S-adenosylmethionine decarboxylase proenzyme processing as revealed by the structure of the S68A mutant.</PubMed_Title>
+      <Author>Tolbert WD, et al.</Author>
+      <Journal>Biochemistry. 2003 Mar 4;42(8):2386-95.</Journal>
+      <PubMed_ID>12600205</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC E256Q mutant with no putrescine bound</PDB_Title>
+      <PDB_ID>3EP4</PDB_ID>
+      <Resolution>1.89</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EP4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for putrescine activation of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Bale S, et al.</Author>
+      <Journal>Biochemistry. 2008 Dec 16;47(50):13404-17.</Journal>
+      <PubMed_ID>19053272</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC with 5'-[(3-aminopropyl)methylamino]-5'deoxy-8-methyladenosine</PDB_Title>
+      <PDB_ID>3DZ2</PDB_ID>
+      <Resolution>1.86</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DZ2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>New Insights into the Design of Inhibitors of Human S-Adenosylmethionine Decarboxylase: Studies of Adenine C(8) Substitution in Structural Analogues of S-Adenosylmethionine (dagger).</PubMed_Title>
+      <Author>McCloskey DE, et al.</Author>
+      <Journal>J Med Chem. 2009 Feb 11.</Journal>
+      <PubMed_ID>19209891</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN S-ADENOSYLMETHIONINE DECARBOXYLASE WITH COVALENTLY BOUND PYRUVOYL GROUP AND COMPLEXED WITH METHYLGLYOXAL BIS-(GUANYLHYDRAZONE)</PDB_Title>
+      <PDB_ID>1I7C</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I7C</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>The structural basis for substrate specificity and inhibition of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Tolbert WD, et al.</Author>
+      <Journal>Biochemistry. 2001 Aug 14;40(32):9484-94.</Journal>
+      <PubMed_ID>11583147</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN S-ADENOSYLMETHIONINE DECARBOXYLASE WITH COVALENTLY BOUND PYRUVOYL GROUP AND COVALENTLY BOUND 5'-DEOXY-5'-[(3-HYDRAZINOPROPYL)METHYLAMINO]ADENOSINE</PDB_Title>
+      <PDB_ID>1I79</PDB_ID>
+      <Resolution>2.01</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I79</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>The structural basis for substrate specificity and inhibition of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Tolbert WD, et al.</Author>
+      <Journal>Biochemistry. 2001 Aug 14;40(32):9484-94.</Journal>
+      <PubMed_ID>11583147</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN S-ADENOSYLMETHIONINE DECARBOXYLASE WITH COVALENTLY BOUND PYRUVOYL GROUP AND COVALENTLY BOUND S-ADENOSYLMETHIONINE METHYL ESTER</PDB_Title>
+      <PDB_ID>1I7B</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I7B</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>The structural basis for substrate specificity and inhibition of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Tolbert WD, et al.</Author>
+      <Journal>Biochemistry. 2001 Aug 14;40(32):9484-94.</Journal>
+      <PubMed_ID>11583147</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN S-ADENOSYLMETHIONINE DECARBOXYLASE</PDB_Title>
+      <PDB_ID>1JEN</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JEN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The crystal structure of human S-adenosylmethionine decarboxylase at 2.25 A resolution reveals a novel fold.</PubMed_Title>
+      <Author>Ekstrom JL, et al.</Author>
+      <Journal>Structure. 1999 May;7(5):583-95.</Journal>
+      <PubMed_ID>10378277</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC with 5'-[(2-carboxamidoethyl)methylamino]-5'-deoxy-8-methyladenosine</PDB_Title>
+      <PDB_ID>3DZ4</PDB_ID>
+      <Resolution>1.84</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DZ4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>New Insights into the Design of Inhibitors of Human S-Adenosylmethionine Decarboxylase: Studies of Adenine C(8) Substitution in Structural Analogues of S-Adenosylmethionine (dagger).</PubMed_Title>
+      <Author>McCloskey DE, et al.</Author>
+      <Journal>J Med Chem. 2009 Feb 11.</Journal>
+      <PubMed_ID>19209891</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC with 5'-Deoxy-5'-[(N-dimethyl)amino]-8-methyl-adenosine</PDB_Title>
+      <PDB_ID>3H0W</PDB_ID>
+      <Resolution>1.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3H0W</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240001</ASD_Ligand>
+      <PubMed_Title>Role of the sulfonium center in determining the ligand specificity of human s-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Bale S, et al.</Author>
+      <Journal>Biochemistry. 2009 Jul 14;48(27):6423-30.</Journal>
+      <PubMed_ID>19527050</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human AdoMetDC E256Q mutant complexed with S-Adenosylmethionine methyl ester and no putrescine bound</PDB_Title>
+      <PDB_ID>3EP7</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EP7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for putrescine activation of human S-adenosylmethionine decarboxylase.</PubMed_Title>
+      <Author>Bale S, et al.</Author>
+      <Journal>Biochemistry. 2008 Dec 16;47(50):13404-17.</Journal>
+      <PubMed_ID>19053272</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00270</Pathway_ID>
+      <Pathway_Title>Cysteine and methionine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.dbd.b.b.b.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/3ep3</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,17,Trp;site,15,Glu;site,111,Phe;site,174,Asp;site,285,Phe;site,176,Thr</Site_Detail>
+      <Site_Reference>Beswick T C, et al. Biochemistry. 45(25):7797-7807.</Site_Reference>
+      <Site_Type>R-T transition</Site_Type>
+      <PDB_ID>1I7M;3EPA;1JL0;3EPB;1MSV;1I72;1I79;1I7B;1I7C</PDB_ID>
+      <PubMed_ID>16784231</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.1.1.50</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/1/1/50.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00240001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240005</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240008</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240009</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240010</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240018</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00241041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01240004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

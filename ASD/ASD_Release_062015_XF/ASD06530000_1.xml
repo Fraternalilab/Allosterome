@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06530000_1</Organism_ID>
+  <Organism>Ensifer meliloti</Organism>
+  <Organism_Latin>Rhizobium meliloti </Organism_Latin>
+  <UniProt_ID>P10955</UniProt_ID>
+  <Seq_Length>505</Seq_Length>
+  <Molecule_Weight>55073</Molecule_Weight>
+  <KEGG_ID>sme:SMa1229</KEGG_ID>
+  <Orthology_ID>K14986</Orthology_ID>
+  <Function_Summary>Putative oxygen sensor; modulates the activity of fixJ, a transcriptional activator of nitrogen fixation fixK gene. FixL probably acts as a kinase that phosphorylates fixJ.</Function_Summary>
+  <Catalytic_Mechanism>ATP + protein L-histidine = ADP + protein N-phospho-L-histidine.</Catalytic_Mechanism>
+  <Pfam_ID>PF02518:HATPase_c@@PF00512:HisKA@@PF00989:PAS</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the phosphorylation of a histidine residue in response to detection of an extracellular signal such as a chemical ligand or change in environment, to initiate a change in cell state or activity. The two-component sensor is a histidine kinase that autophosphorylates a histidine residue in its active site. The phosphate is then transferred to an aspartate residue in a downstream response regulator, to trigger a response.</Detail>
+      <Keyword>Two-component sensor activity</Keyword>
+      <Ontology_ID>GO:0000155</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The phosphorylation of peptidyl-histidine to form peptidyl-1'-phospho-L-histidine (otherwise known as tau-phosphohistidine, tele-phosphohistidine) or peptidyl-3'-phospho-L-histidine (otherwise known as pi-phosphohistidine, pros-phosphohistidine).</Detail>
+      <Keyword>Peptidyl-histidine phosphorylation</Keyword>
+      <Ontology_ID>GO:0018106</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which nitrogen is taken from its relatively inert molecular form (N2) in the atmosphere and converted into nitrogen compounds useful for other chemical processes, such as ammonia, nitrate and nitrogen dioxide.</Detail>
+      <Keyword>Nitrogen fixation</Keyword>
+      <Ontology_ID>GO:0009399</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cellular DNA-dependent transcription.</Detail>
+      <Keyword>Regulation of transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006355</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A conserved series of molecular signals found in prokaryotes and eukaryotes; involves autophosphorylation of a histidine kinase and the transfer of the phosphate group to an aspartate that then acts as a phospho-donor to response regulator proteins.</Detail>
+      <Keyword>Two-component signal transduction system (phosphorelay)</Keyword>
+      <Ontology_ID>GO:0000160</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>285</Position>
+      <PTM_Type>Phosphohistidine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MLSKSGIERTQWGRRVVRWRGDGVAAYIVAAIVTSSVLAIRMIRAEPIGEGLLLFSFIPAILVVALIGGRNPILFAAGLSLVAAVSHQQISSADGPSVVELLVFGSAVLLIVALGEVLEAARRAIDRTEDVVRARDAHLRSILDTVPDATVVSATDGTIVSFNAAAVRQFGYAEEEVIGQNLRILMPEPYRHEHDGYLQRYMATGEKRIIGIDRVVSGQRKDGSTFPMKLAVGEMRSGGERFFTGFIRDLTEREESAARLEQIQAELARLARLNEMGEMASTLAHELNQPLSAIANYSHGCTRLLRDMDDAVATRIREALEEVASQSLRAGQIIKHLREFVTKGETEKAPEDIRKLVEESAALALVGSREQGVRTVFEYLPGAEMVLVDRIQVQQVLINLMRNAIEAMRHVDRRELTIRTMPADPGEVAVVVEDTGGGIPEEVAGQLFKPFVTTKASGMGIGLSISKRIVEAHGGEMTVSKNEAGGATFRFTLPAYLDERIVAND</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell inner membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>fixL</Gene_Name>
+    <Gene_ID>1235706</Gene_ID>
+    <Genbank_ACCN>NC_003037</Genbank_ACCN>
+    <Protein_ACCN>NP_435916</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1235706</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS OF DIMERIZATION AND SENSORY MECHANISMS OF OXYGEN-SENSING DOMAIN OF RHIZOBIUM MELILOTI FIXL DETERMINED AT 1.4A RESOLUTION</PDB_Title>
+      <PDB_ID>1D06</PDB_ID>
+      <Resolution>1.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D06</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Sensory mechanism of oxygen sensor FixL from Rhizobium meliloti: crystallographic, mutagenesis and resonance Raman spectroscopic studies</PubMed_Title>
+      <Author>Miyatake, H., et al.</Author>
+      <Journal>J.MOL.BIOL.(2000)301:415-431</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10926518?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE ANALYSIS OF THE SENSOR DOMAIN OF RMFIXL(FERROUS FORM)</PDB_Title>
+      <PDB_ID>1EW0</PDB_ID>
+      <Resolution>1.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EW0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Sensory mechanism of oxygen sensor FixL from Rhizobium meliloti: crystallographic, mutagenesis and resonance Raman spectroscopic studies</PubMed_Title>
+      <Author>Miyatake, H., et al.</Author>
+      <Journal>J.MOL.BIOL.(2000)301:415-431</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10926518?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.cdi.d.c.b.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1d06</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.13.3</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/13/3.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00870006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

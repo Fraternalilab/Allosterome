@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD09930000_1</Organism_ID>
+  <Organism>Thermococcus onnurineus</Organism>
+  <Organism_Latin>Thermococcus onnurineus</Organism_Latin>
+  <UniProt_ID>B6YX36</UniProt_ID>
+  <Seq_Length>194</Seq_Length>
+  <Molecule_Weight>22238</Molecule_Weight>
+  <KEGG_ID>ton:TON_1161</KEGG_ID>
+  <Orthology_ID>K01079</Orthology_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Hypothetical phosphoserine phosphatase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L(or D)-O-phosphoserine + H2O = L(or D)-serine + phosphate.</Detail>
+      <Keyword>Phosphoserine phosphatase activity</Keyword>
+      <Ontology_ID>GO:0004647</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process of removing one or more phosphoric (ester or anhydride) residues from a molecule.</Detail>
+      <Keyword>Dephosphorylation</Keyword>
+      <Ontology_ID>GO:0016311</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of L-serine, the L-enantiomer of serine, i.e. (2S)-2-amino-3-hydroxypropanoic acid.</Detail>
+      <Keyword>L-serine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006564</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKKVAVIDIEGTLTDFEFWREMARITGKREIEELLEKGLSGEVEWLDSLLKRVGLIRGIDEGTFLRTREKVNVSPEARELVETLREKGFKVVLISGSFEEVLEPFKELGDEFMANRAIFEDGKFQGIRLRFRDKGEFLKRFRDGFILAMGDGYADAKMFERADMGIAVGREIPGADLLVKDLKELVDFIKNLKP</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_ID>7018183</Gene_ID>
+    <Genbank_ACCN>NC_011529</Genbank_ACCN>
+    <Protein_ACCN>YP_002307546</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/7018183</Gene_URL>
+    <EMBL_ID>TON_1161</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of phosphoserine phosphatase from T. onnurineus</PDB_Title>
+      <PDB_ID>4B6J</PDB_ID>
+      <Resolution>3.34</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4B6J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of a Novel Ligand Binding Site in Phosphoserine Phosphatase from the Hyperthermophilic Archaeon Thermococcus Onnurineus.</PubMed_Title>
+      <Author>Jung, T.-Y., et al.</Author>
+      <Journal>Proteins(2013)81:819</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23239422?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of phosphoserine phosphatase from T. onnurineus in complex with NDSB-201</PDB_Title>
+      <PDB_ID>4AP9</PDB_ID>
+      <Resolution>1.78</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4AP9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of a Novel Ligand Binding Site in Phosphoserine Phosphatase from the Hyperthermophilic Archaeon Thermococcus Onnurineus.</PubMed_Title>
+      <Author>Jung, T.-Y., et al.</Author>
+      <Journal>Proteins(2013)81:819</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23239422?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00260</Pathway_ID>
+      <Pathway_Title>Glycine, serine and threonine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00680</Pathway_ID>
+      <Pathway_Title>Methane metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,29,Glu;site,109,Ser;site,110,Glu;site,158,Lys;site,179,Asp;site,182,Thr</Site_Detail>
+      <Site_Reference>Jung TY, et al. Proteins. 2013 May;81(5):819-29. doi: 10.1002/prot.24238.</Site_Reference>
+      <PubMed_ID>23239422</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD09930002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-07-23</Create_Date>
+</Organism_Record>

@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06300000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P43250</UniProt_ID>
+  <Seq_Length>576</Seq_Length>
+  <Molecule_Weight>65991</Molecule_Weight>
+  <KEGG_ID>hsa:2870</KEGG_ID>
+  <Orthology_ID>K08291</Orthology_ID>
+  <Function_Summary>Specifically phosphorylates the activated forms of G protein-coupled receptors. Such receptor phosphorylation initiates beta-arrestin-mediated receptor desensitization, internalization, and signaling events leading to their desensitization. Seems to be involved in the desensitization of D2-like dopamin receptors in striatum and chemokine receptor CXCR4 which is critical for CXCL12-induced cell chemotaxis (By similarity). Phosphorylates rhodopsin (RHO) (in vitro) and a non G-protein-coupled receptor: LRP6 during Wnt signaling (in vitro).</Function_Summary>
+  <Catalytic_Mechanism>ATP + [G-protein-coupled receptor] = ADP + [G-protein-coupled receptor] phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00069:Pkinase@@PF00615:RGS</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>16</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>G protein-coupled receptor kinase GRK6</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + G-protein coupled receptor = ADP + G-protein coupled receptor phosphate.</Detail>
+      <Keyword>G-protein coupled receptor kinase activity</Keyword>
+      <Ontology_ID>GO:0004703</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>275</Position>
+      <Original>Ile</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>31</Position>
+      <Original>Arg</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>73</Position>
+      <Original>Thr</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The series of molecular signals initiated by binding of a Wnt protein to a frizzled family receptor on the surface of the target cell and ending with a change in cell state.</Detail>
+      <Keyword>Wnt receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0016055</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>484</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>485</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MELENIVANTVLLKAREGGGGNRKGKSKKWRQMLQFPHISQCEELRLSLERDYHSLCERQPIGRLLFREFCATRPELSRCVAFLDGVAEYEVTPDDKRKACGRQLTQNFLSHTGPDLIPEVPRQLVTNCTQRLEQGPCKDLFQELTRLTHEYLSVAPFADYLDSIYFNRFLQWKWLERQPVTKNTFRQYRVLGKGGFGEVCACQVRATGKMYACKKLEKKRIKKRKGEAMALNEKQILEKVNSRFVVSLAYAYETKDALCLVLTLMNGGDLKFHIYHMGQAGFPEARAVFYAAEICCGLEDLHRERIVYRDLKPENILLDDHGHIRISDLGLAVHVPEGQTIKGRVGTVGYMAPEVVKNERYTFSPDWWALGCLLYEMIAGQSPFQQRKKKIKREEVERLVKEVPEEYSERFSPQARSLCSQLLCKDPAERLGCRGGSAREVKEHPLFKKLNFKRLGAGMLEPPFKPDPQAIYCKDVLDIEQFSTVKGVELEPTDQDFYQKFATGSVPIPWQNEMVETECFQELNVFGLDGSVPPDLDWKGQPPAPPKKGLLQRLFSRQDCCGNCSDSEEELPTRL</Protein_Seq>
+    <DNA_Seq>CGGCTGGCTGCGGCGGCCGGGGAGGCCGGGGAGGCCGCGGCGCGGTCACTGCGAGCCGAGCCGAGCCGCGCCGAGCCGCGCCGATCGCCATCCGGCCTCGGCACTCGCGCGCGATCCCGGCCGGCGGCGCGGCCCGGCGGGCCAGGCGGCGCCACAGCCCATGGAGCTCGAGAACATCGTAGCGAACACGGTGCTACTCAAGGCCCGGGAAGGTGGCGGTGGAAATCGCAAAGGCAAAAGCAAGAAATGGCGGCAGATGCTCCAGTTCCCTCACATCAGCCAGTGCGAAGAGCTGCGGCTCAGCCTCGAGCGTGACTATCACAGCCTGTGCGAGCGGCAGCCCATTGGGCGCCTGCTGTTCCGAGAGTTCTGTGCCACGAGGCCGGAGCTGAGCCGCTGCGTCGCCTTCCTGGATGGGGTGGCCGAGTATGAAGTGACCCCGGATGACAAGCGGAAGGCATGTGGGCGGCAGCTAACGCAGAATTTTCTGAGCCACACGGGTCCTGACCTCATCCCTGAGGTCCCCCGGCAGCTGGTGACGAACTGCACCCAGCGGCTGGAGCAGGGTCCCTGCAAAGACCTTTTCCAGGAACTCACCCGGCTGACCCACGAGTACCTGAGCGTGGCCCCTTTTGCCGACTACCTCGACAGCATCTACTTCAACCGTTTCCTGCAGTGGAAGTGGCTGGAAAGGCAGCCAGTGACCAAAAACACCTTCAGGCAATACCGAGTCCTGGGCAAAGGTGGCTTTGGGGAGGTGTGCGCCTGCCAGGTGCGGGCCACAGGTAAGATGTATGCCTGCAAGAAGCTAGAGAAAAAGCGGATCAAGAAGCGGAAAGGGGAGGCCATGGCGCTGAACGAGAAGCAGATCCTGGAGAAAGTGAACAGTAGGTTTGTAGTGAGCTTGGCCTACGCCTATGAGACCAAGGACGCGCTGTGCCTGGTGCTGACACTGATGAACGGGGGCGACCTCAAGTTCCACATCTACCACATGGGCCAGGCTGGCTTCCCCGAAGCGCGGGCCGTCTTCTACGCCGCCGAGATCTGCTGTGGCCTGGAGGACCTGCACCGGGAGCGCATCGTGTACAGGGACCTGAAGCCCGAGAACATCTTGCTGGATGACCACGGCCACATCCGCATCTCTGACCTGGGACTAGCTGTGCATGTGCCCGAGGGCCAGACCATCAAAGGGCGTGTGGGCACCGTGGGTTACATGGCTCCGGAGGTGGTGAAGAATGAACGGTACACGTTCAGCCCTGACTGGTGGGCGCTCGGCTGCCTCCTGTACGAGATGATCGCAGGCCAGTCGCCCTTCCAGCAGAGGAAGAAGAAGATCAAGCGGGAGGAGGTGGAGCGGCTGGTGAAGGAGGTCCCCGAGGAGTATTCCGAGCGCTTTTCCCCGCAGGCCCGCTCACTTTGCTCACAGCTCCTCTGCAAGGACCCTGCCGAACGCCTGGGGTGTCGTGGGGGCAGTGCCCGCGAGGTGAAGGAGCACCCCCTCTTTAAGAAGCTGAACTTCAAGCGGCTGGGAGCTGGCATGCTGGAGCCGCCGTTCAAGCCTGACCCCCAGGCCATTTACTGCAAGGATGTTCTGGACATTGAACAGTTCTCTACGGTCAAGGGCGTGGAGCTGGAGCCTACCGACCAGGACTTCTACCAGAAGTTTGCCACAGGCAGTGTGCCCATCCCCTGGCAGAACGAGATGGTGGAGACCGAGTGCTTCCAAGAGCTGAATGTCTTTGGGCTGGATGGCTCAGTTCCCCCAGACCTGGACTGGAAGGGCCAGCCACCTGCACCTCCTAAAAAGGGACTGCTGCAGAGACTCTTCAGTCGCCAAAGGTGAGCAGTGTGGGCTCCCCGTGGGTTGGCCTTGCTGCCTGGCCTCGGGGAGCCACGGGCAGCCCTTCCATGGCAAAGGCAAGATGTGGGAGAAAGAAGTCTGGTGC</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>GRK6</Gene_Name>
+    <Gene_Alias>GPRK6</Gene_Alias>
+    <Gene_ID>2870</Gene_ID>
+    <Genbank_ACCN>NM_001004105</Genbank_ACCN>
+    <Protein_ACCN>NP_001004105</Protein_ACCN>
+    <HGNC_ID>4545</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/2870</Gene_URL>
+    <UCSC_ID>uc021yiu.1</UCSC_ID>
+    <EMBL_ID>ENSG00000198055</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Whim Syndrome</Disease_Name>
+      <Disease_Detail>Whim Syndrome</Disease_Detail>
+      <Disease_DB>WHM001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/whim_syndrome?search=GRK6#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of G Protein-Coupled Receptor Kinase 6 in Complex with AMP</PDB_Title>
+      <PDB_ID>3NYO</PDB_ID>
+      <Resolution>2.92</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NYO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular basis for activation of G protein-coupled receptor kinases.</PubMed_Title>
+      <Author>Boguth, C.A., et al.</Author>
+      <Journal>Embo J.(2010)29:3249-3259</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20729810?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of G protein coupled receptor kinase 6 bound to AMPPNP</PDB_Title>
+      <PDB_ID>2ACX</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ACX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Structure of G Protein-coupled Receptor Kinase (GRK)-6 Defines a Second Lineage of GRKs.</PubMed_Title>
+      <Author>Lodowski, D.T., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:16785-16793</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16613860?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of G Protein-Coupled Receptor Kinase 6 in Complex with Sangivamycin</PDB_Title>
+      <PDB_ID>3NYN</PDB_ID>
+      <Resolution>2.72</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NYN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular basis for activation of G protein-coupled receptor kinases.</PubMed_Title>
+      <Author>Boguth, C.A., et al.</Author>
+      <Journal>Embo J.(2010)29:3249-3259</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20729810?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05032</Pathway_ID>
+      <Pathway_Title>Morphine addiction</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04062</Pathway_ID>
+      <Pathway_Title>Chemokine signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2acx</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.16</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/16.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD06300001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06300017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

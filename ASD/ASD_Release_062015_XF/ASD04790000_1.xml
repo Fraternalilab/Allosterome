@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04790000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P19235</UniProt_ID>
+  <Seq_Length>508</Seq_Length>
+  <Molecule_Weight>55065</Molecule_Weight>
+  <KEGG_ID>hsa:2057</KEGG_ID>
+  <Orthology_ID>K05079</Orthology_ID>
+  <EBI_ID>EBI-617321</EBI_ID>
+  <Function_Summary>Receptor for erythropoietin. Mediates erythropoietin-induced erythroblast proliferation and differentiation. Upon EPO stimulation, EPOR dimerizes triggering the JAK2/STAT5 signaling cascade. In some cell types, can also activate STAT1 and STAT3. May also activate the LYN tyrosine kinase.Isoform EPOR-T acts as a dominant-negative receptor of EPOR-mediated signaling.</Function_Summary>
+  <Pfam_ID>PF09067:EpoR_lig-bind@@PF00041:fn3</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>EPO-R</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Combining with erythropoietin to initiate a change in cell activity.</Detail>
+      <Keyword>Erythropoietin receptor activity</Keyword>
+      <Ontology_ID>GO:0004900</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein or proteins.</Detail>
+      <Keyword>Identical protein binding</Keyword>
+      <Ontology_ID>GO:0042802</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>488</Position>
+      <Original>Pro</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>380</Position>
+      <Original>Pro</Original>
+      <Variation>Ala</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>487</Position>
+      <Original>Asn</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+  </Mutation_List>
+  <PTM_List>
+    <PTM>
+      <Position>489</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>454</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>504</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>426</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>368</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>456</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>468</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>485</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MDHLGASLWPQVGSLCLLLAGAAWAPPPNLPDPKFESKAALLAARGPEELLCFTERLEDLVCFWEEAASAGVGPGNYSFSYQLEDEPWKLCRLHQAPTARGAVRFWCSLPTADTSSFVPLELRVTAASGAPRYHRVIHINEVVLLDAPVGLVARLADESGHVVLRWLPPPETPMTSHIRYEVDVSAGNGAGSVQRVEILEGRTECVLSNLRGRTRYTFAVRARMAEPSFGGFWSAWSEPVSLLTPSDLDPLILTLSLILVVILVLLTVLALLSHRRALKQKIWPGIPSPESEFEGLFTTHKGNFQLWLYQNDGCLWWSPCTPFTEDPPASLEVLSERCWGTMQAVEPGTDDEGPLLEPVGSEHAQDTYLVLDKWLLPRNPPSEDLPGPGGSVDIVAMDEGSEASSCSSALASKPSPEGASAASFEYTILDPSSQLLRPWTLCPELPPTPPHLKYLYLVVSDSGISTDYSSGDSQGAQGGLSDGPYSNPYENSLIPAAEPLPPSYVACS</Protein_Seq>
+    <DNA_Seq>CTTAGAGGCGCCTGGTCGGGAAGGGCCTGGTCAGCTGCGTCCGGCGGAGGCAGCTGCTGACCCAGCTGTGGACTGTGCCGGGGGCGGGGGACGGAGGGGCAGGAGCCCTGGGCTCCCCGTGGCGGGGGCTGTATCATGGACCACCTCGGGGCGTCCCTCTGGCCCCAGGTCGGCTCCCTTTGTCTCCTGCTCGCTGGGGCCGCCTGGGCGCCCCCGCCTAACCTCCCGGACCCCAAGTTCGAGAGCAAAGCGGCCTTGCTGGCGGCCCGGGGGCCCGAAGAGCTTCTGTGCTTCACCGAGCGGTTGGAGGACTTGGTGTGTTTCTGGGAGGAAGCGGCGAGCGCTGGGGTGGGCCCGGGCAACTACAGCTTCTCCTACCAGCTCGAGGATGAGCCATGGAAGCTGTGTCGCCTGCACCAGGCTCCCACGGCTCGTGGTGCGGTGCGCTTCTGGTGTTCGCTGCCTACAGCCGACACGTCGAGCTTCGTGCCCCTAGAGTTGCGCGTCACAGCAGCCTCCGGCGCTCCGCGATATCACCGTGTCATCCACATCAATGAAGTAGTGCTCCTAGACGCCCCCGTGGGGCTGGTGGCGCGGTTGGCTGACGAGAGCGGCCACGTAGTGTTGCGCTGGCTCCCGCCGCCTGAGACACCCATGACGTCTCACATCCGCTACGAGGTGGACGTCTCGGCCGGCAACGGCGCAGGGAGCGTACAGAGGGTGGAGATCCTGGAGGGCCGCACCGAGTGTGTGCTGAGCAACCTGCGGGGCCGGACGCGCTACACCTTCGCCGTCCGCGCGCGTATGGCTGAGCCGAGCTTCGGCGGCTTCTGGAGCGCCTGGTCGGAGCCTGTGTCGCTGCTGACGCCTAGCGACCTGGACCCCCTCATCCTGACGCTCTCCCTCATCCTCGTGGTCATCCTGGTGCTGCTGACCGTGCTCGCGCTGCTCTCCCACCGCCGGGCTCTGAAGCAGAAGATCTGGCCTGGCATCCCGAGCCCAGAGAGCGAGTTTGAAGGCCTCTTCACCACCCACAAGGGTAACTTCCAGCTGTGGCTGTACCAGAATGATGGCTGCCTGTGGTGGAGCCCCTGCACCCCCTTCACGGAGGACCCACCTGCTTCCCTGGAAGTCCTCTCAGAGCGCTGCTGGGGGACGATGCAGGCAGTGGAGCCGGGGACAGATGATGAGGGCCCCCTGCTGGAGCCAGTGGGCAGTGAGCATGCCCAGGATACCTATCTGGTGCTGGACAAATGGTTGCTGCCCCGGAACCCGCCCAGTGAGGACCTCCCAGGGCCTGGTGGCAGTGTGGACATAGTGGCCATGGATGAAGGCTCAGAAGCATCCTCCTGCTCATCTGCTTTGGCCTCGAAGCCCAGCCCAGAGGGAGCCTCTGCTGCCAGCTTTGAGTACACTATCCTGGACCCCAGCTCCCAGCTCTTGCGTCCATGGACACTGTGCCCTGAGCTGCCCCCTACCCCACCCCACCTAAAGTACCTGTACCTTGTGGTATCTGACTCTGGCATCTCAACTGACTACAGCTCAGGGGACTCCCAGGGAGCCCAAGGGGGCTTATCCGATGGCCCCTACTCCAACCCTTATGAGAACAGCCTTATCCCAGCCGCTGAGCCTCTGCCCCCCAGCTATGTGGCTTGCTCTTAGGACACCAGGCTGCAGATGATCAGGGATCCAATATGACTCAGAGAACCAGTGCAGACTCAAGACTTATGGAACAGGGATGGCGAGGCCTCTCTCAGGAGCAGGGGCATTGCTGATTTTGTCTGCCCAATCCATCCTGCTCAGGAAACCACAACCTTGCAGTATTTTTAAATATGTATAGTTTTTTTTTGTATCTATATATATATATACACATATGTATGTAAGTTTTTCTACCATGATTTCTACAAACACCCTTTAAGTCCCATCTTCCCCTGGGCATAGGCCATAGGGATAGAAGTTAAAGTTCTTGAGCTTATTCAGAAGCTGGATCTGCAATCTGAATGCTACTCATAACATAACAAAATAGTATGTTAAACAGCTCTTAAATCTTACTGGCTTACCACATTAAATGATTTCTCTCTCCTAACTCAGCTCAAATGGGCAGCCATCCATGGGATGAGTCAGAGGTTCAGACTCTTCCAGTCTGTAGCTCTACCTTCTCTTAGGGTACTTAGATGGATCCCCTGTTCTACAAACTGCCAGTCAGCAAGGGAAGAAAAAGGGCAGCAATGACCCTCAATGGGCCATTTGAGGGATCTGGCCTGGAAATGGGCTTCCTCTCTTCTTCTCACACCTCACTGGCTGGAAACAGTCACATGACCCCAGTCACATGAAAGGCCAGGAAACTTAGTTTAGCTGTACACCCAGGAAGGGCAAAGCTGTTTAAGGGCCACTAGCTAGTCTCTGCCACTAATAATAATAAAAGTAATTCTGAATCAGGCAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Erythroid cells</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Bone marrow</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Erythroleukemia cells</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Erythroid progenitor cells</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005887</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Secreted</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular region</CellLocal>
+      <Ontology_ID>GO:0005576</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>EPOR</Gene_Name>
+    <Gene_ID>2057</Gene_ID>
+    <Genbank_ACCN>NM_000121</Genbank_ACCN>
+    <Protein_ACCN>NP_000112</Protein_ACCN>
+    <HGNC_ID>3416</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/2057</Gene_URL>
+    <UCSC_ID>uc002mrj.2</UCSC_ID>
+    <EMBL_ID>ENSG00000187266</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P01588</Uniprot_ID>
+      <Gene_Name>EPO</Gene_Name>
+      <EBI_ID>EBI-1027362</EBI_ID>
+      <PPI_EBI_URL>EBI-617321,EBI-1027362</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P16885</Uniprot_ID>
+      <Gene_Name>PLCG2</Gene_Name>
+      <EBI_ID>EBI-617403</EBI_ID>
+      <PPI_EBI_URL>EBI-617321,EBI-617403</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q62225</Uniprot_ID>
+      <Gene_Name>Cish</Gene_Name>
+      <EBI_ID>EBI-617489</EBI_ID>
+      <PPI_EBI_URL>EBI-617321,EBI-617489</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O14508</Uniprot_ID>
+      <Gene_Name>SOCS2</Gene_Name>
+      <EBI_ID>EBI-617737</EBI_ID>
+      <PPI_EBI_URL>EBI-617321,EBI-617737</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P19235</Uniprot_ID>
+      <Gene_Name>EPOR</Gene_Name>
+      <EBI_ID>EBI-617321</EBI_ID>
+      <PPI_EBI_URL>EBI-617321,EBI-617321</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Thrombocytosis</Disease_Name>
+      <Disease_Detail>Thrombocytosis</Disease_Detail>
+      <Disease_DB>THR004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/thrombocytosis?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pure Red-Cell Aplasia</Disease_Name>
+      <Disease_Detail>Pure Red-Cell Aplasia</Disease_Detail>
+      <Disease_DB>PRR002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pure_red_cell_aplasia?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Erythrocytosis, Somatic</Disease_Name>
+      <Disease_Detail>Erythrocytosis</Disease_Detail>
+      <Disease_DB>ERY045</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/erythrocytosis_somatic?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hepatoblastoma</Disease_Name>
+      <Disease_Detail>Hepatoblastoma</Disease_Detail>
+      <Disease_DB>HPT022</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hepatoblastoma?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Neuroblastoma</Disease_Name>
+      <Disease_Detail>Neuroblastoma</Disease_Detail>
+      <Disease_DB>NRB001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/neuroblastoma?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Chromosome 5q Deletion</Disease_Name>
+      <Disease_Detail>Chromosome 5q Deletion</Disease_Detail>
+      <Disease_DB>CHR253</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/chromosome_5q_deletion?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Idiopathic Neutropenia</Disease_Name>
+      <Disease_Detail>Idiopathic Neutropenia</Disease_Detail>
+      <Disease_DB>IDP064</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/idiopathic_neutropenia?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Tongue Cancer</Disease_Name>
+      <Disease_Detail>Tongue Cancer</Disease_Detail>
+      <Disease_DB>TNG003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/tongue_cancer?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Familial Erythrocytosis, 1</Disease_Name>
+      <Disease_Detail>Familial Erythrocytosis</Disease_Detail>
+      <Disease_DB>FML062</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/familial_erythrocytosis_1?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hemangioblastoma</Disease_Name>
+      <Disease_Detail>Hemangioblastoma</Disease_Detail>
+      <Disease_DB>HMN009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hemangioblastoma?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myelodysplastic Syndromes</Disease_Name>
+      <Disease_Detail>Myelodysplastic Syndromes</Disease_Detail>
+      <Disease_DB>MYL040</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myelodysplastic_syndromes?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Erythrocytosis</Disease_Name>
+      <Disease_Detail>Erythrocytosis</Disease_Detail>
+      <Disease_DB>ERY013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/erythrocytosis?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Non-Small Cell Lung Carcinoma</Disease_Name>
+      <Disease_Detail>Non-Small Cell Lung Carcinoma</Disease_Detail>
+      <Disease_DB>NNS005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/non_small_cell_lung_carcinoma?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Renal Clear Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Renal Cell Carcinoma</Disease_Detail>
+      <Disease_DB>RNL003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/renal_clear_cell_carcinoma?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Olfactory Neuroblastoma</Disease_Name>
+      <Disease_Detail>Olfactory Neuroblastoma</Disease_Detail>
+      <Disease_DB>OLF005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/olfactory_neuroblastoma?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Endolymphatic Sac Tumor</Disease_Name>
+      <Disease_Detail>Endolymphatic Sac Tumor</Disease_Detail>
+      <Disease_DB>END051</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/endolymphatic_sac_tumor?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Polycythemia</Disease_Name>
+      <Disease_Detail>Polycythemia</Disease_Detail>
+      <Disease_DB>PLY018</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/polycythemia?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Polycythemia Vera</Disease_Name>
+      <Disease_Detail>Polycythemia Vera</Disease_Detail>
+      <Disease_DB>PLY001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/polycythemia_vera?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Primary Polycythemia</Disease_Name>
+      <Disease_Detail>Primary Polycythemia</Disease_Detail>
+      <Disease_DB>PRM012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/primary_polycythemia?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acute Erythroid Leukemia</Disease_Name>
+      <Disease_Detail>Acute Erythroid Leukemia</Disease_Detail>
+      <Disease_DB>ACT098</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acute_erythroid_leukemia?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Sickle Cell Disease</Disease_Name>
+      <Disease_Detail>Sickle Cell Anemia</Disease_Detail>
+      <Disease_DB>SCK005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/sickle_cell_disease?search=EPOR#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>NATIVE STRUCTURE OF THE EXTRACELLULAR DOMAIN OF ERYTHROPOIETIN (EPO) RECEPTOR [EBP]</PDB_Title>
+      <PDB_ID>1ERN</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ERN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystallographic evidence for preformed dimers of erythropoietin receptor before ligand activation.</PubMed_Title>
+      <Author>Livnah, O., et al.</Author>
+      <Journal>Science(1999)283:987-990</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9974392?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPLEX BETWEEN THE EXTRACELLULAR DOMAIN OF ERYTHROPOIETIN (EPO) RECEPTOR [EBP] AND AN AGONIST PEPTIDE [EMP1]</PDB_Title>
+      <PDB_ID>1EBP</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EBP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Functional mimicry of a protein hormone by a peptide agonist: the EPO receptor complex at 2.8 A.</PubMed_Title>
+      <Author>Livnah, O., et al.</Author>
+      <Journal>Science(1996)273:464-471</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8662530?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HUMAN ERYTHROPOIETIN COMPLEXED TO ITS RECEPTOR AT 1.9 ANGSTROMS</PDB_Title>
+      <PDB_ID>1EER</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EER</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Efficiency of signalling through cytokine receptors depends critically on receptor orientation.</PubMed_Title>
+      <Author>Syed, R.S., et al.</Author>
+      <Journal>Nature(1998)395:511-516</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9774108?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ERYTHROPOIETIN COMPLEXED WITH EXTRACELLULAR DOMAINS OF ERYTHROPOIETIN RECEPTOR</PDB_Title>
+      <PDB_ID>1CN4</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CN4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Efficiency of signalling through cytokine receptors depends critically on receptor orientation.</PubMed_Title>
+      <Author>Syed, R.S., et al.</Author>
+      <Journal>Nature(1998)395:511-516</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9774108?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPLEX BETWEEN THE EXTRACELLULAR DOMAIN OF ERYTHROPOIETIN (EPO) RECEPTOR [EBP] AND AN INACTIVE PEPTIDE [EMP33] CONTAINS 3,5-DIBROMOTYROSINE IN POSITION 4 (DENOTED DBY)</PDB_Title>
+      <PDB_ID>1EBA</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EBA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An antagonist peptide-EPO receptor complex suggests that receptor dimerization is not sufficient for activation.</PubMed_Title>
+      <Author>Livnah, O., et al.</Author>
+      <Journal>Nat.Struct.Biol.(1998)5:993-1004</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9808045?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ABT-007 FAB FRAGMENT WITH THE SOLUBLE DOMAIN OF EPO RECEPTOR</PDB_Title>
+      <PDB_ID>2JIX</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2JIX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A Potent Erythropoietin-Mimicking Human Antibody Interacts Through a Novel Binding Site.</PubMed_Title>
+      <Author>Liu, Z., et al.</Author>
+      <Journal>Blood(2007)110:2408</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17620453?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04151</Pathway_ID>
+      <Pathway_Title>PI3K-Akt signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04640</Pathway_ID>
+      <Pathway_Title>Hematopoietic cell lineage</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04060</Pathway_ID>
+      <Pathway_Title>Cytokine-cytokine receptor interaction</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signaling molecules and interaction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>All beta proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.b.d.b.bf.html</SCOP_URL>
+    <CATH_Class>Class 2: Mainly Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1cn4</CATH_URL>
+  </Fold>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

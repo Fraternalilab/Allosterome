@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08840000_1</Organism_ID>
+  <Organism>Methanococcus voltae</Organism>
+  <Organism_Latin>Methanococcus voltae</Organism_Latin>
+  <UniProt_ID>O73948</UniProt_ID>
+  <Seq_Length>322</Seq_Length>
+  <Molecule_Weight>35189</Molecule_Weight>
+  <Function_Summary>Involved in DNA repair and in homologous recombination. Binds and assemble on single-stranded DNA to form a nucleoprotein filament. Hydrolyzes ATP in a ssDNA-dependent manner and promotes DNA strand exchange between homologous DNA molecules (By similarity).</Function_Summary>
+  <Pfam_ID>PF08423:Rad51</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>3</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate; this reaction requires the presence of single- or double-stranded DNA, and it drives another reaction.</Detail>
+      <Keyword>DNA-dependent ATPase activity</Keyword>
+      <Ontology_ID>GO:0008094</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with damaged DNA.</Detail>
+      <Keyword>Damaged DNA binding</Keyword>
+      <Ontology_ID>GO:0003684</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</Detail>
+      <Keyword>DNA repair</Keyword>
+      <Ontology_ID>GO:0006281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which a new genotype is formed by reassortment of genes resulting in gene combinations different from those that were present in the parents. In eukaryotes genetic recombination can occur by chromosome assortment, intrachromosomal recombination, or nonreciprocal interchromosomal recombination. Intrachromosomal recombination occurs by crossing over. In bacteria it may occur by genetic transformation, conjugation, transduction, or F-duction.</Detail>
+      <Keyword>DNA recombination</Keyword>
+      <Ontology_ID>GO:0006310</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSDNLTDLPGVGPSTAEKLVEAGYIDFMKIATATVGELTDIEGISEKAAAKMIMGARDLCDLGFKSGIDLLKQRSTVWKLSTSSSELDSVLGGGLESQSVTEFAGVFGSGKTQIMHQSCVNLQNPEFLFYDEEAVSKGEVAQPKAVYIDTEGTFRPERIMQMAEHAGIDGQTVLDNTFVARAYNSDMQMLFAEKIEDLIQEGNNIKLVVIDSLTSTFRNEYTGRGKLAERQQKLGRHMATLNKLADLFNCVVLVTNQVSAKPDAFFGMAEQAIGGHIVGHAATFRFFVRKGKGDKRVAKLYDSPHLPDAEAIFRITEKGIQD</Protein_Seq>
+    <DNA_Seq>AACTACGTTGCCAATGGGCGAACGGCTGTAACAACTCTCTTCGAGAGTTTAAACCAATGAGATTTAGTATTACAATATTGGTGTTGGATATATTATATATTATTTAAAAAAACTTATACACATTCGAAATAGTGATATTACAAATTATAGTTAATATAGTATAATACAAATAATAAATTTAATGTGTATCGAAAAGAGCAATTACTAAATTAAAAACGATTAATGATAATAAAATAACAGAATAAAAAATAATAGAATAAAAAAATAATTATTAATGACGTTTATTTTAGTAATAATTAATGGATATCGTTCTATTTTTAAAACCTATTAAATACTTTGAATATAATGAATACACAAATTATCAATATATTACAAGTTAAACTAAAGGTGAGTTTATGAGTGATAATTTAACTGATTTGCCAGGAGTAGGTCCTTCAACCGCTGAAAAATTAGTAGAAGCTGGTTACATAGACTTTATGAAAATAGCTACTGCAACAGTAGGGGAGTTAACCGATATTGAAGGCATAAGTGAAAAAGCAGCCGCTAAAATGATTATGGGTGCAAGAGATTTATGTGATTTGGGTTTTAAAAGTGGTATTGACTTATTGAAACAAAGAAGTACAGTATGGAAGCTATCAACAAGTAGCAGTGAATTAGACAGCGTATTGGGTGGCGGATTAGAAAGCCAGTCAGTAACTGAATTCGCAGGTGTTTTTGGTAGTGGTAAAACCCAGATTATGCACCAAAGTTGTGTAAATTTACAAAACCCAGAATTTTTATTCTACGACGAAGAGGCAGTATCTAAAGGGGAAGTAGCACAACCAAAAGCTGTTTACATCGATACGGAAGGTACATTCAGACCTGAAAGAATTATGCAAATGGCAGAGCACGCAGGAATTGATGGTCAAACAGTTTTAGACAATACATTCGTTGCAAGAGCTTATAACTCAGATATGCAAATGTTATTCGCTGAAAAGATAGAAGACCTTATACAAGAAGGAAACAACATTAAATTAGTTGTAATTGACTCTTTAACCAGTACTTTCAGAAATGAATACACTGGTAGAGGAAAATTAGCTGAGAGACAACAGAAATTAGGTAGGCACATGGCTACATTAAACAAGTTAGCAGACCTTTTTAACTGTGTTGTACTCGTTACAAACCAGGTTTCAGCAAAACCGGACGCATTCTTTGGTATGGCAGAACAAGCAATCGGTGGTCACATTGTAGGTCACGCAGCTACCTTCAGATTCTTTGTTAGAAAAGGAAAAGGCGACAAGAGAGTTGCTAAATTATACGACTCACCACACTTGCCAGATGCAGAGGCAATCTTTAGAATTACTGAAAAAGGTATTCAAGATTAATTAAAAAATAAGCTAATAGTAAAATTAAAACTAAAGCT</DNA_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>radA</Gene_Name>
+    <Genbank_ACCN>AF008421</Genbank_ACCN>
+    <Protein_ACCN>AAC23499</Protein_ACCN>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Recombinase in complex with ADP and metatungstate</PDB_Title>
+      <PDB_ID>3FYH</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FYH</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027;ASD08840007</ASD_Ligand>
+      <PubMed_Title>Crystal structure of an archaeal Rad51 homologue in complex with a metatungstate inhibitor.</PubMed_Title>
+      <Author>Li, Y., et al.</Author>
+      <Journal>Biochemistry(2009)48:6805-6810</Journal>
+      <PubMed_ID>19555119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RECOMBINASE IN COMPLEX WITH AMP-PNP and Potassium</PDB_Title>
+      <PDB_ID>2F1H</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F1H</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240007</ASD_Ligand>
+      <PubMed_Title>Asp302 determines potassium dependence of a RadA recombinase from Methanococcus voltae.</PubMed_Title>
+      <Author>Qian, X., et al.</Author>
+      <Journal>J.Mol.Biol.(2006)360:537-547</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16782126?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ATPASE IN COMPLEX WITH AMP-PNP, MAGNESIUM AND POTASSIUM CO-F</PDB_Title>
+      <PDB_ID>1XU4</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XU4</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240007</ASD_Ligand>
+      <PubMed_Title>Crystal structure of an ATPase-active form of Rad51 homolog from Methanococcus voltae. Insights into potassium dependence</PubMed_Title>
+      <Author>Wu, Y., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:722-728</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15537659?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RADA Recombinase in complex with AMPPNP at pH 6.0</PDB_Title>
+      <PDB_ID>2B21</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2B21</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240007</ASD_Ligand>
+      <PubMed_Title>Crystal Structure of Methanococcus Voltae Rada at an Acidic pH</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Recombinase in Complex with AMP-PNP</PDB_Title>
+      <PDB_ID>2F1I</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F1I</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240007</ASD_Ligand>
+      <PubMed_Title>Asp302 determines potassium dependence of a RadA recombinase from Methanococcus voltae.</PubMed_Title>
+      <Author>Qian, X., et al.</Author>
+      <Journal>J.Mol.Biol.(2006)360:537-547</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16782126?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RadA Recombinase in complex with Calcium</PDB_Title>
+      <PDB_ID>2I1Q</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2I1Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Calcium Stiffens Archaeal Rad51 Recombinase from Methanococcus voltae for Homologous Recombination.</PubMed_Title>
+      <Author>Qian, X., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:39380-39387</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17050545?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RadA recombinase in complex with AMP-PNP and low concentration of K+</PDB_Title>
+      <PDB_ID>2FPL</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FPL</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00498001</ASD_Ligand>
+      <PubMed_Title>Crystal Structure of Methanococcus Voltae Rada in Complex with Adp: hydrolysis-induced conformational change</PubMed_Title>
+      <Author>Qian, X., et al.</Author>
+      <Journal>Biochemistry(2005)44:13753-13761</Journal>
+      <PubMed_ID>16229465</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RadA recombinase from Methanococcus maripaludis in complex with AMPPNP</PDB_Title>
+      <PDB_ID>3ETL</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ETL</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00498001</ASD_Ligand>
+      <PubMed_Title>Conservation of a conformational switch in RadA recombinase from Methanococcus maripaludis.</PubMed_Title>
+      <Author>Li, Y., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(2009)65:602-610</Journal>
+      <PubMed_ID>19465774</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ATPase in complex with AMP-PNP</PDB_Title>
+      <PDB_ID>1T4G</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1T4G</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00498001</ASD_Ligand>
+      <PubMed_Title>Crystal Structure of Archaeal Recombinase RadA; A Snapshot of Its Extended Conformation.</PubMed_Title>
+      <Author>Wu, Y., et al.</Author>
+      <Journal>Mol.Cell(2004)15:423-435</Journal>
+      <PubMed_ID>15304222</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RadA recombinase in complex with AMP-PNP and high concentration of K+</PDB_Title>
+      <PDB_ID>2FPM</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FPM</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00498001</ASD_Ligand>
+      <PubMed_Title>Crystal Structure of Methanoccocus Voltae Rada in Complex with Adp: hydrolysis-induced conformational change</PubMed_Title>
+      <Author>Qian, X., et al.</Author>
+      <Journal>Biochemistry(2005)44:13753-13761</Journal>
+      <PubMed_ID>16229465</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Delta-62 RADA recombinase in complex with AMP-PNP and magnesium</PDB_Title>
+      <PDB_ID>2GDJ</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GDJ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00498001</ASD_Ligand>
+      <PubMed_Title>The Rad51/RadA N-Terminal Domain Activates Nucleoprotein Filament ATPase Activity.</PubMed_Title>
+      <Author>Galkin, V.E., et al.</Author>
+      <Journal>Structure(2006)14:983-992</Journal>
+      <PubMed_ID>16765891</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RadA recombinase in complex with ADP</PDB_Title>
+      <PDB_ID>2FPK</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FPK</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027</ASD_Ligand>
+      <PubMed_Title>Crystal Structure of Methanococcus Voltae Rada in Complex with Adp: hydrolysis-induced conformational change</PubMed_Title>
+      <Author>Qian, X., et al.</Author>
+      <Journal>Biochemistry(2005)44:13753-13761</Journal>
+      <PubMed_ID>16229465</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RADA RECOMBINASE D302K MUTANT IN COMPLEX with AMP-PNP</PDB_Title>
+      <PDB_ID>3NTU</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NTU</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00498001</ASD_Ligand>
+      <PubMed_Title>The RAD51 ATP cap regulates nucleoprotein filament stability.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Recombinase in Complex with ADP</PDB_Title>
+      <PDB_ID>2F1J</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F1J</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240007</ASD_Ligand>
+      <PubMed_Title>Asp302 determines potassium dependence of a RadA recombinase from Methanococcus voltae.</PubMed_Title>
+      <Author>Qian, X., et al.</Author>
+      <Journal>J.Mol.Biol.(2006)360:537-547</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16782126?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.be.bd.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1t4g</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,98,Gln;site,246,Asp</Site_Detail>
+      <Site_Reference>Wu Y, et al. Mol Cell. 2004,15(3):423-435.;Qian X, et al. Biochemistry. 2007,46(20):5855-5863.</Site_Reference>
+      <PDB_ID>1T4G;1XU4;2B21;2F1H;2F1I;2F1J;2FPK;2FPL;2FPM;2GDJ;2I1Q;3FYH;3NTU</PDB_ID>
+      <PubMed_ID>15304222;17455906</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00240007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00498001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720027</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08840007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

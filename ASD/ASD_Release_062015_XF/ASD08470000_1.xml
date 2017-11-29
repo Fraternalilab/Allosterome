@@ -1,0 +1,744 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08470000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q13526</UniProt_ID>
+  <Seq_Length>163</Seq_Length>
+  <Molecule_Weight>18243</Molecule_Weight>
+  <KEGG_ID>hsa:5300</KEGG_ID>
+  <Orthology_ID>K09578</Orthology_ID>
+  <EBI_ID>EBI-714158</EBI_ID>
+  <Function_Summary>Essential PPIase that regulates mitosis presumably by interacting with NIMA and attenuating its mitosis-promoting activity. Displays a preference for an acidic residue N-terminal to the isomerized proline bond. Catalyzes pSer/Thr-Pro cis/trans isomerizations. Down-regulates kinase activity of BTK. Can transactivate multiple oncogenes and induce centrosome amplification, chromosome instability and cell transformation. Required for the efficient dephosphorylation and recycling of RAF1 after mitogen activation.</Function_Summary>
+  <Catalytic_Mechanism>Peptidylproline (omega=180) = peptidylproline (omega=0).</Catalytic_Mechanism>
+  <Pfam_ID>PF00639:Rotamase@@PF00397:WW</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Rotamase Pin1</Alias>
+      <Alias>Peptidyl-prolyl cis-trans isomerase Pin1</Alias>
+      <Alias>PPIase Pin1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a GTPase activating protein.</Detail>
+      <Keyword>GTPase activating protein binding</Keyword>
+      <Ontology_ID>GO:0032794</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the geometric or structural changes within one molecule. Isomerase is the systematic name for any enzyme of EC class 5.</Detail>
+      <Keyword>Isomerase activity</Keyword>
+      <Ontology_ID>GO:0016853</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a phosphorylated serine residue within a protein.</Detail>
+      <Keyword>Phosphoserine binding</Keyword>
+      <Ontology_ID>GO:0050815</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a phosphorylated threonine residue within a protein.</Detail>
+      <Keyword>Phosphothreonine binding</Keyword>
+      <Ontology_ID>GO:0050816</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: peptidyl-proline (omega=180) = peptidyl-proline (omega=0).</Detail>
+      <Keyword>Peptidyl-prolyl cis-trans isomerase activity</Keyword>
+      <Ontology_ID>GO:0003755</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a mitogen-activated protein kinase kinase, any protein that can phosphorylate a MAP kinase.</Detail>
+      <Keyword>Mitogen-activated protein kinase kinase binding</Keyword>
+      <Ontology_ID>GO:0031434</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of addition of phosphate groups to amino acids within a protein.</Detail>
+      <Keyword>Positive regulation of protein phosphorylation</Keyword>
+      <Ontology_ID>GO:0001934</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of a cytokine or chemokine binding to a cell surface receptor.</Detail>
+      <Keyword>Cytokine-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0019221</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of assisting in the covalent and noncovalent assembly of single chain polypeptides or multisubunit complexes into the correct tertiary structure.</Detail>
+      <Keyword>Protein folding</Keyword>
+      <Ontology_ID>GO:0006457</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the division of the cytoplasm of a cell and its separation into two daughter cells.</Detail>
+      <Keyword>Regulation of cytokinesis</Keyword>
+      <Ontology_ID>GO:0032465</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell motility.</Detail>
+      <Keyword>Negative regulation of cell motility</Keyword>
+      <Ontology_ID>GO:2000146</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of biochemical and morphological phases and events that occur in a cell during successive cell replication or nuclear replication events. Canonically, the cell cycle comprises the replication and segregation of genetic material followed by the division of the cell, but in endocycles or syncytial cells nuclear replication or nuclear division may not be followed by cell division.</Detail>
+      <Keyword>Cell cycle</Keyword>
+      <Ontology_ID>GO:0007049</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of mitosis.</Detail>
+      <Keyword>Regulation of mitosis</Keyword>
+      <Ontology_ID>GO:0007088</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the activity of a GTPase of the Rho family.</Detail>
+      <Keyword>Positive regulation of Rho GTPase activity</Keyword>
+      <Ontology_ID>GO:0032321</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the rate, frequency or extent of pathway-restricted SMAD protein phosphorylation. Pathway-restricted SMAD proteins and common-partner SMAD proteins are involved in the transforming growth factor beta receptor signaling pathways.</Detail>
+      <Keyword>Regulation of pathway-restricted SMAD protein phosphorylation</Keyword>
+      <Ontology_ID>GO:0060393</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate, or extent of type I interferon production. Type I interferons include the interferon-alpha, beta, delta, episilon, zeta, kappa, tau, and omega gene families.</Detail>
+      <Keyword>Negative regulation of type I interferon production</Keyword>
+      <Ontology_ID>GO:0032480</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</Detail>
+      <Keyword>Innate immune response</Keyword>
+      <Ontology_ID>GO:0045087</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates, maintains or increases the rate of ubiquitin ligase activity, the catalysis of the reaction: ATP + ubiquitin + protein lysine = AMP + diphosphate + protein N-ubiquityllysine.</Detail>
+      <Keyword>Positive regulation of ubiquitin-protein ligase activity</Keyword>
+      <Ontology_ID>GO:0051443</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of any TGF-beta receptor signaling pathway.</Detail>
+      <Keyword>Negative regulation of transforming growth factor beta receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0030512</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of signal transduction mediated by the ERK1 and ERK2 cascade.</Detail>
+      <Keyword>Negative regulation of ERK1 and ERK2 cascade</Keyword>
+      <Ontology_ID>GO:0070373</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>46</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>108</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>71</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MADEEKLPPGWEKRMSRSSGRVYYFNHITNASQWERPSGNSSSGGKNGQGEPARVRCSHLLVKHSQSRRPSSWRQEKITRTKEEALELINGYIQKIKSGEEDFESLASQFSDCSSAKARGDLGAFSRGQMQKPFEDASFALRTGEMSGPVFTDSGIHIILRTE</Protein_Seq>
+    <DNA_Seq>GGACCGTTAGGGAGCCCAATGGGCGTCGCCGCCAGGCCCCGTTGCAGAGCGCGTCTAGCCAATAGGCAGCGGCGGCGGGCGGGCGCGGGCGACAGGCGGCGCAGCTGAGGCGGAGCAGGCGCTGCGGCAGGAGGGAAGATGGCGGACGAGGAGAAGCTGCCGCCCGGCTGGGAGAAGCGCATGAGCCGCAGCTCAGGCCGAGTGTACTACTTCAACCACATCACTAACGCCAGCCAGTGGGAGCGGCCCAGCGGCAACAGCAGCAGTGGTGGCAAAAACGGGCAGGGGGAGCCTGCCAGGGTCCGCTGCTCGCACCTGCTGGTGAAGCACAGCCAGTCACGGCGGCCCTCGTCCTGGCGGCAGGAGAAGATCACCCGGACCAAGGAGGAGGCCCTGGAGCTGATCAACGGCTACATCCAGAAGATCAAGTCGGGAGAGGAGGACTTTGAGTCTCTGGCCTCACAGTTCAGCGACTGCAGCTCAGCCAAGGCCAGGGGAGACCTGGGTGCCTTCAGCAGAGGTCAGATGCAGAAGCCATTTGAAGACGCCTCGTTTGCGCTGCGGACGGGGGAGATGAGCGGGCCCGTGTTCACGGATTCCGGCATCCACATCATCCTCCGCACTGAGTGAGGGTGGGGAGCCCAGGCCTGGCCTCGGGGCAGGGCAGGGCGGCTAGGCCGGCCAGCTCCCCCTTGCCCGCCAGCCAGTGGCCGAACCCCCCACTCCCTGCCACCGTCACACAGTATTTATTGTTCCCACAATGGCTGGGAGGGGGCCCTTCCAGATTGGGGGCCCTGGGGTCCCCACTCCCTGTCCATCCCCAGTTGGGGCTGCGACCGCCAGATTCTCCCTTAAGGAATTGACTTCAGCAGGGGTGGGAGGCTCCCAGACCCAGGGCAGTGTGGTGGGAGGGGTGTTCCAAAGAGAAGGCCTGGTCAGCAGAGCCGCCCCGTGTCCCCCCAGGTGCTGGAGGCAGACTCGAGGGCCGAATTGTTTCTAGTTAGGCCACGCTCCTCTGTTCAGTCGCAAAGGTGAACACTCATGCGGCCCAGCCATGGGCCCTCTGAGCAACTGTGCAGCACCCTTTCACCCCCAATTAAACCCAGAACCACTGCTCTGCAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Normal breast tissue cells</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nuclear speck</CellLocal>
+      <Ontology_ID>GO:0016607</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus speckle</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Midbody</CellLocal>
+      <Ontology_ID>GO:0030496</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>PIN1</Gene_Name>
+    <Gene_ID>5300</Gene_ID>
+    <Genbank_ACCN>NM_006221</Genbank_ACCN>
+    <Protein_ACCN>NP_006212</Protein_ACCN>
+    <HGNC_ID>8988</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5300</Gene_URL>
+    <UCSC_ID>uc002mml.2</UCSC_ID>
+    <EMBL_ID>ENSG00000127445</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q9HC98</Uniprot_ID>
+      <Gene_Name>NEK6</Gene_Name>
+      <EBI_ID>EBI-740364</EBI_ID>
+      <PPI_EBI_URL>EBI-714158,EBI-740364</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P05067-4</Uniprot_ID>
+      <Gene_Name>APP</Gene_Name>
+      <EBI_ID>EBI-302641</EBI_ID>
+      <PPI_EBI_URL>EBI-714158,EBI-302641</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P51617</Uniprot_ID>
+      <Gene_Name>IRAK1</Gene_Name>
+      <EBI_ID>EBI-358664</EBI_ID>
+      <PPI_EBI_URL>EBI-714158,EBI-358664</PPI_EBI_URL>
+      <Experiment_Number>10</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P04637</Uniprot_ID>
+      <Gene_Name>TP53</Gene_Name>
+      <EBI_ID>EBI-366083</EBI_ID>
+      <PPI_EBI_URL>EBI-714158,EBI-366083</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Alzheimer's Disease</Disease_Name>
+      <Disease_Detail>Alzheimer's Disease</Disease_Detail>
+      <Disease_DB>ALZ001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/alzheimers_disease?search=PIN1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>SOLUTION STRUCTURE OF PIN1 WW DOMAIN</PDB_Title>
+      <PDB_ID>1I6C</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I6C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>1H NMR study on the binding of Pin1 Trp-Trp domain with phosphothreonine peptides.</PubMed_Title>
+      <Author>Wintjens, R., et al.</Author>
+      <Journal>J.Biol.Chem.(2001)276:25150-25156</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11313338?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DISCOVERY OF CELL-ACTIVE PHENYL-IMIDAZOLE PIN1 INHIBITORS BY STRUCTURE-GUIDED FRAGMENT EVOLUTION</PDB_Title>
+      <PDB_ID>2XP4</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XP4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Cell-Active Phenyl-Imidazole Pin1 Inhibitors by Structure-Guided Fragment Evolution.</PubMed_Title>
+      <Author>Potter, A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6483-6488</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20932746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PDB_Title>
+      <PDB_ID>3KAB</PDB_ID>
+      <Resolution>2.19</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KAB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PubMed_Title>
+      <Author>Potter, A.J., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:586-590</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19969456?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DISCOVERY OF CELL-ACTIVE PHENYL-IMIDAZOLE PIN1 INHIBITORS BY STRUCTURE-GUIDED FRAGMENT EVOLUTION</PDB_Title>
+      <PDB_ID>2XP9</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XP9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Cell-Active Phenyl-Imidazole Pin1 Inhibitors by Structure-Guided Fragment Evolution.</PubMed_Title>
+      <Author>Potter, A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6483-6488</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20932746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PDB_Title>
+      <PDB_ID>3KCE</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KCE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PubMed_Title>
+      <Author>Potter, A.J., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:586-590</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19969456?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DISCOVERY OF CELL-ACTIVE PHENYL-IMIDAZOLE PIN1 INHIBITORS BY STRUCTURE-GUIDED FRAGMENT EVOLUTION</PDB_Title>
+      <PDB_ID>2XP5</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XP5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Cell-Active Phenyl-Imidazole Pin1 Inhibitors by Structure-Guided Fragment Evolution.</PubMed_Title>
+      <Author>Potter, A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6483-6488</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20932746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Pin1 complexed with reduced amide inhibitor</PDB_Title>
+      <PDB_ID>3NTP</PDB_ID>
+      <Resolution>1.76</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NTP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A reduced-amide inhibitor of Pin1 binds in a conformation resembling a twisted-amide transition state.</PubMed_Title>
+      <Author>Xu, G.G., et al.</Author>
+      <Journal>Biochemistry(2011)50:9545-9550</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21980916?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>human Pin1 Ng mutant</PDB_Title>
+      <PDB_ID>1ZCN</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZCN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-function-folding relationship in a WW domain.</PubMed_Title>
+      <Author>Jager, M., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2006)103:10648-10653</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16807295?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PDB_Title>
+      <PDB_ID>3KAF</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KAF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PubMed_Title>
+      <Author>Potter, A.J., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:586-590</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19969456?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DISCOVERY OF CELL-ACTIVE PHENYL-IMIDAZOLE PIN1 INHIBITORS BY STRUCTURE-GUIDED FRAGMENT EVOLUTION</PDB_Title>
+      <PDB_ID>2XP7</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XP7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Cell-Active Phenyl-Imidazole Pin1 Inhibitors by Structure-Guided Fragment Evolution.</PubMed_Title>
+      <Author>Potter, A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6483-6488</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20932746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the WW domain of PIN1 in complex with a human phosphorylated Smad3 derived peptide</PDB_Title>
+      <PDB_ID>2LB3</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2LB3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A Smad action turnover switch operated by WW domain readers of a phosphoserine code.</PubMed_Title>
+      <Author>Aragon, E., et al.</Author>
+      <Journal>Genes Dev.(2011)25:1275-1288</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21685363?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PDB_Title>
+      <PDB_ID>3KAC</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KAC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PubMed_Title>
+      <Author>Potter, A.J., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:586-590</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19969456?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DISCOVERY OF CELL-ACTIVE PHENYL-IMIDAZOLE PIN1 INHIBITORS BY STRUCTURE-GUIDED FRAGMENT EVOLUTION</PDB_Title>
+      <PDB_ID>2XP6</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XP6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Cell-Active Phenyl-Imidazole Pin1 Inhibitors by Structure-Guided Fragment Evolution.</PubMed_Title>
+      <Author>Potter, A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6483-6488</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20932746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural and functional insights of directly targeting Pin1 by Epigallocatechin-3-gallate</PDB_Title>
+      <PDB_ID>3OOB</PDB_ID>
+      <Resolution>1.89</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OOB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Epigallocatechin-gallate suppresses tumorigenesis by directly targeting Pin1.</PubMed_Title>
+      <Author>Urusova, D.V., et al.</Author>
+      <Journal>Cancer Prev Res (Phila)(2011)4:1366-1377</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21750208?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PDB_Title>
+      <PDB_ID>3KAH</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KAH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PubMed_Title>
+      <Author>Potter, A.J., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:586-590</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19969456?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-Based Design of Novel PIN1 Inhibitors (I)</PDB_Title>
+      <PDB_ID>3IKD</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3IKD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel human Pin1 inhibitors (I).</PubMed_Title>
+      <Author>Guo, C., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2009)19:5613-5616</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19729306?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR THE PHOSPHOSERINE-PROLINE RECOGNITION BY GROUP IV WW DOMAINS</PDB_Title>
+      <PDB_ID>1F8A</PDB_ID>
+      <Resolution>1.84</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1F8A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for phosphoserine-proline recognition by group IV WW domains.</PubMed_Title>
+      <Author>Verdecia, M.A., et al.</Author>
+      <Journal>Nat.Struct.Biol.(2000)7:639-643</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10932246?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a mutant PIN1 peptidyl-prolyl cis-trans isomerase</PDB_Title>
+      <PDB_ID>2ZR5</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ZR5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural studies on PIN1 mutants</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>NMR solution structure of Pin1 WW domain mutant with beta turn mimic at position 12</PDB_Title>
+      <PDB_ID>2KBU</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2KBU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Evaluating beta-turn mimics as beta-sheet folding nucleators.</PubMed_Title>
+      <Author>Fuller, A.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:11067-11072</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19541614?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PDB_Title>
+      <PDB_ID>3KAD</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KAD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PubMed_Title>
+      <Author>Potter, A.J., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:586-590</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19969456?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a mutant PIN1 peptidyl-prolyl cis-trans isomerase</PDB_Title>
+      <PDB_ID>2ZR4</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ZR4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural studies on PIN1 mutants</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>human Pin1 Fip mutant</PDB_Title>
+      <PDB_ID>2F21</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F21</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-function-folding relationship in a WW domain.</PubMed_Title>
+      <Author>Jager, M., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2006)103:10648-10653</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16807295?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a mutant PIN1 PEPTIDYL-PROLYL CIS-TRANS ISOMERASE</PDB_Title>
+      <PDB_ID>2ZQU</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ZQU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural studies on PIN1 mutants</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>DISCOVERY OF CELL-ACTIVE PHENYL-IMIDAZOLE PIN1 INHIBITORS BY STRUCTURE-GUIDED FRAGMENT EVOLUTION</PDB_Title>
+      <PDB_ID>2XP3</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XP3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Cell-Active Phenyl-Imidazole Pin1 Inhibitors by Structure-Guided Fragment Evolution.</PubMed_Title>
+      <Author>Potter, A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6483-6488</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20932746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of human Pin1</PDB_Title>
+      <PDB_ID>1NMV</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NMV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Analysis of the Mitotic Regulator hPin1 in Solution: INSIGHTS INTO DOMAIN ARCHITECTURE AND SUBSTRATE BINDING.</PubMed_Title>
+      <Author>Bayer, E., et al.</Author>
+      <Journal>J.Biol.Chem.(2003)278:26183-26193</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12721297?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Selective targeting of disease-relevant protein binding domains by O-phosphorylated natural product derivatives</PDB_Title>
+      <PDB_ID>3TC5</PDB_ID>
+      <Resolution>1.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3TC5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Selective targeting of disease-relevant protein binding domains by o-phosphorylated natural product derivatives.</PubMed_Title>
+      <Author>Graber, M., et al.</Author>
+      <Journal>Acs Chem.Biol.(2011)6:1008-1014</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21797253?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a mutant PIN1 PEPTIDYL-PROLYL CIS-TRANS ISOMERASE</PDB_Title>
+      <PDB_ID>2ZQV</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ZQV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural studies on PIN1 mutants</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>PIN1 PEPTIDYL-PROLYL CIS-TRANS ISOMERASE FROM HOMO SAPIENS</PDB_Title>
+      <PDB_ID>1PIN</PDB_ID>
+      <Resolution>1.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PIN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and functional analysis of the mitotic rotamase Pin1 suggests substrate recognition is phosphorylation dependent.</PubMed_Title>
+      <Author>Ranganathan, R., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(1997)89:875-886</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9200606?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of the PPIase domain of human Pin1</PDB_Title>
+      <PDB_ID>1NMW</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NMW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Analysis of the Mitotic Regulator hPin1 in Solution: INSIGHTS INTO DOMAIN ARCHITECTURE AND SUBSTRATE BINDING.</PubMed_Title>
+      <Author>Bayer, E., et al.</Author>
+      <Journal>J.Biol.Chem.(2003)278:26183-26193</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12721297?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SOLUTION STRUCTURE OF PIN1 WW DOMAIN COMPLEXED WITH HUMAN TAU PHOSPHOTHREONINE PEPTIDE</PDB_Title>
+      <PDB_ID>1I8H</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I8H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>1H NMR study on the binding of Pin1 Trp-Trp domain with phosphothreonine peptides.</PubMed_Title>
+      <Author>Wintjens, R., et al.</Author>
+      <Journal>J.Biol.Chem.(2001)276:25150-25156</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11313338?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-Based Design of Novel PIN1 Inhibitors (II)</PDB_Title>
+      <PDB_ID>3I6C</PDB_ID>
+      <Resolution>1.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3I6C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel human Pin1 inhibitors (II).</PubMed_Title>
+      <Author>Dong, L., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:2210-2214</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20207139?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SOLUTION STRUCTURE OF PIN1 WW DOMAIN COMPLEXED WITH CDC25 PHOSPHOTHREONINE PEPTIDE</PDB_Title>
+      <PDB_ID>1I8G</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I8G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>1H NMR study on the binding of Pin1 Trp-Trp domain with phosphothreonine peptides.</PubMed_Title>
+      <Author>Wintjens, R., et al.</Author>
+      <Journal>J.Biol.Chem.(2001)276:25150-25156</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11313338?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DISCOVERY OF CELL-ACTIVE PHENYL-IMIDAZOLE PIN1 INHIBITORS BY STRUCTURE-GUIDED FRAGMENT EVOLUTION</PDB_Title>
+      <PDB_ID>2XPB</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XPB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Cell-Active Phenyl-Imidazole Pin1 Inhibitors by Structure-Guided Fragment Evolution.</PubMed_Title>
+      <Author>Potter, A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6483</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20932746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a mutant PIN1 PEPTIDYL-PROLYL CIS-TRANS ISOMERASE</PDB_Title>
+      <PDB_ID>2ZQT</PDB_ID>
+      <Resolution>1.46</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ZQT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural studies on PIN1 mutants</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-Based Design of Novel PIN1 Inhibitors (II)</PDB_Title>
+      <PDB_ID>3JYJ</PDB_ID>
+      <Resolution>1.87</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3JYJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel human Pin1 inhibitors (II).</PubMed_Title>
+      <Author>Dong, L., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:2210-2214</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20207139?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>human Pin1 bound to D-PEPTIDE</PDB_Title>
+      <PDB_ID>2ITK</PDB_ID>
+      <Resolution>1.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ITK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for high-affinity peptide inhibition of human Pin1.</PubMed_Title>
+      <Author>Zhang, Y., et al.</Author>
+      <Journal>Acs Chem.Biol.(2007)2:320-328</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17518432?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Discovery of cell-active phenyl-imidazole Pin1 inhibitors by structure-guided fragment evolution</PDB_Title>
+      <PDB_ID>3ODK</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ODK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of cell-active phenyl-imidazole Pin1 inhibitors by structure-guided fragment evolution.</PubMed_Title>
+      <Author>Potter, A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6483-6488</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20932746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-Based Design of Novel PIN1 Inhibitors (I)</PDB_Title>
+      <PDB_ID>3IKG</PDB_ID>
+      <Resolution>1.86</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3IKG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel human Pin1 inhibitors (I).</PubMed_Title>
+      <Author>Guo, C., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2009)19:5613-5616</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19729306?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-Based Design of Novel PIN1 Inhibitors (I)</PDB_Title>
+      <PDB_ID>3IK8</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3IK8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel human Pin1 inhibitors (I).</PubMed_Title>
+      <Author>Guo, C., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2009)19:5613-5616</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19729306?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DISCOVERY OF CELL-ACTIVE PHENYL-IMIDAZOLE PIN1 INHIBITORS BY STRUCTURE-GUIDED FRAGMENT EVOLUTION</PDB_Title>
+      <PDB_ID>2XPA</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XPA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Cell-Active Phenyl-Imidazole Pin1 Inhibitors by Structure-Guided Fragment Evolution.</PubMed_Title>
+      <Author>Potter, A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6483-6488</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20932746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>human Pin1 bound to L-PEPTIDE</PDB_Title>
+      <PDB_ID>2Q5A</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Q5A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for high-affinity peptide inhibition of human Pin1.</PubMed_Title>
+      <Author>Zhang, Y., et al.</Author>
+      <Journal>Acs Chem.Biol.(2007)2:320-328</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17518432?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PDB_Title>
+      <PDB_ID>3KAI</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KAI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PubMed_Title>
+      <Author>Potter, A.J., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:586-590</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19969456?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a mutant PIN1 peptidyl-prolyl cis-trans isomerase</PDB_Title>
+      <PDB_ID>2ZR6</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ZR6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural studies on PIN1 mutants</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>The NMR solution structure of the isolated Apo Pin1 WW domain</PDB_Title>
+      <PDB_ID>2KCF</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2KCF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>NMR solution structure of the isolated Apo Pin1 WW domain: comparison to the x-ray crystal structures of Pin1</PubMed_Title>
+      <Author>Kowalski, J.A., et al.</Author>
+      <Journal>Biopolymers(2002)63:111-121</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11786999?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DISCOVERY OF CELL-ACTIVE PHENYL-IMIDAZOLE PIN1 INHIBITORS BY STRUCTURE-GUIDED FRAGMENT EVOLUTION</PDB_Title>
+      <PDB_ID>2XP8</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XP8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Cell-Active Phenyl-Imidazole Pin1 Inhibitors by Structure-Guided Fragment Evolution.</PubMed_Title>
+      <Author>Potter, A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:6483-6488</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20932746?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a mutant PIN1 PEPTIDYL-PROLYL CIS-TRANS ISOMERASE</PDB_Title>
+      <PDB_ID>2ZQS</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ZQS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural studies on PIN1 mutants</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PDB_Title>
+      <PDB_ID>3KAG</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KAG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-guided design of alpha-amino acid-derived Pin1 inhibitors</PubMed_Title>
+      <Author>Potter, A.J., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2010)20:586-590</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19969456?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04622</Pathway_ID>
+      <Pathway_Title>RIG-I-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.ha.b.b.bc.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1f8a</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>5.2.1.8</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC5/2/1/8.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

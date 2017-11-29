@@ -1,0 +1,2572 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00960000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P06746</UniProt_ID>
+  <Seq_Length>335</Seq_Length>
+  <Molecule_Weight>38178</Molecule_Weight>
+  <KEGG_ID>hsa:5423</KEGG_ID>
+  <Orthology_ID>K02330</Orthology_ID>
+  <EBI_ID>EBI-713836</EBI_ID>
+  <Function_Summary>Repair polymerase that plays a key role in base-excision repair. Has 5'-deoxyribose-5-phosphate lyase (dRP lyase) activity that removes the 5' sugar phosphate and also acts as a DNA polymerase that adds one nucleotide to the 3' end of the arising single-nucleotide gap. Conducts 'gap-filling' DNA synthesis in a stepwise distributive fashion rather than in a processive fashion as for other DNA polymerases.</Function_Summary>
+  <Catalytic_Mechanism>Deoxynucleoside triphosphate + DNA(n) = diphosphate + DNA(n+1).</Catalytic_Mechanism>
+  <Pfam_ID>PF10391:DNA_pol_lambd_f</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>289</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>DNA polymerase beta</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a nucleotidyl group to a reactant.</Detail>
+      <Keyword>Nucleotidyltransferase activity</Keyword>
+      <Ontology_ID>GO:0016779</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with microtubules, filaments composed of tubulin monomers.</Detail>
+      <Keyword>Microtubule binding</Keyword>
+      <Ontology_ID>GO:0008017</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any enzyme.</Detail>
+      <Keyword>Enzyme binding</Keyword>
+      <Ontology_ID>GO:0019899</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: deoxynucleoside triphosphate + DNA(n) = diphosphate + DNA(n+1); the synthesis of DNA from deoxyribonucleotide triphosphates in the presence of a DNA template and primer.</Detail>
+      <Keyword>DNA-directed DNA polymerase activity</Keyword>
+      <Ontology_ID>GO:0003887</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>242</Position>
+      <Original>Pro</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</Detail>
+      <Keyword>DNA repair</Keyword>
+      <Ontology_ID>GO:0006281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A DNA replication process that uses parental DNA as a template for the DNA-dependent DNA polymerases that synthesize the new strands.</Detail>
+      <Keyword>DNA-dependent DNA replication</Keyword>
+      <Ontology_ID>GO:0006261</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular metabolic process in which a cell duplicates one or more molecules of DNA. DNA replication begins when specific sequences, known as origins of replication, are recognized and bound by initiation proteins, and ends when the original DNA molecule has been completely duplicated and the copies topologically separated. The unit of replication usually corresponds to the genome of the cell, an organelle, or a virus. The template for replication can either be an existing DNA molecule or RNA.</Detail>
+      <Keyword>DNA replication</Keyword>
+      <Ontology_ID>GO:0006260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular metabolic process in which a cell duplicates one or more molecules of DNA. DNA replication begins when specific sequences, known as origins of replication, are recognized and bound by initiation proteins, and ends when the original DNA molecule has been completely duplicated and the copies topologically separated. The unit of replication usually corresponds to the genome of the cell, an organelle, or a virus. The template for replication can either be an existing DNA molecule or RNA.</Detail>
+      <Keyword>DNA replication</Keyword>
+      <Ontology_ID>GO:0006260</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>83</Position>
+      <PTM_Type>Omega-N-methylarginine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>152</Position>
+      <PTM_Type>Omega-N-methylarginine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSKRKAPQETLNGGITDMLTELANFEKNVSQAIHKYNAYRKAASVIAKYPHKIKSGAEAKKLPGVGTKIAEKIDEFLATGKLRKLEKIRQDDTSSSINFLTRVSGIGPSAARKFVDEGIKTLEDLRKNEDKLNHHQRIGLKYFGDFEKRIPREEMLQMQDIVLNEVKKVDSEYIATVCGSFRRGAESSGDMDVLLTHPSFTSESTKQPKLLHQVVEQLQKVHFITDTLSKGETKFMGVCQLPSKNDEKEYPHRRIDIRLIPKDQYYCGVLYFTGSDIFNKNMRAHALEKGFTINEYTIRPLGVTGVAGEPLPVDSEKDIFDYIQWKYREPKDRSE</Protein_Seq>
+    <DNA_Seq>ATGAGCAAACGGAAGGCGCCGCAGGAGACTCTCAACGGGGGAATCACCGACATGCTCACAGAACTCGCAAACTTTGAGAAGAACGTGAGCCAAGCTATCCACAAGTACAATGCTTACAGAAAAGCAGCATCTGTTATAGCAAAATACCCACACAAAATAAAGAGTGGAGCTGAAGCTAAGAAATTGCCTGGAGTAGGAACAAAAATTGCTGAAAAGATTGATGAGTTTTTAGCAACTGGAAAATTACGTAAACTGGAAAAGATTCGGCAGGATGATACGAGTTCATCCATCAATTTCCTGACTCGAGTTAGTGGCATTGGTCCATCTGCTGCAAGGAAGTTTGTAGATGAAGGAATTAAAACACTAGAAGATCTCAGAAAAAATGAAGATAAATTGAACCATCATCAGCGAATTGGGCTGAAATATTTTGGGGACTTTGAAAAAAGAATTCCTCGTGAAGAGATGTTACAAATGCAAGATATTGTACTAAATGAAGTTAAAAAAGTGGATTCTGAATACATTGCTACAGTCTGTGGCAGTTTCAGAAGAGGTGCAGAGTCCAGTGGTGACATGGATGTTCTCCTGACCCATCCCAGCTTCACTTCAGAATCAACCAAACAGCCAAAACTGTTACATCAGGTTGTGGAGCAGTTACAAAAGGTTCATTTTATCACAGATACCCTGTCAAAGGGTGAGACAAAGTTCATGGGTGTTTGCCAGCTTCCCAGTAAAAATGATGAAAAAGAATATCCACACAGAAGAATTGATATCAGGTTGATACCCAAAGATCAGTATTACTGTGGTGTTCTCTATTTCACTGGGAGTGATATTTTCAATAAGAATATGAGGGCTCATGCCCTAGAAAAGGGTTTCACAATCAATGAGTACACCATCCGTCCCTTGGGAGTCACTGGAGTTGCAGGAGAACCCCTGCCAGTGGATAGTGAAAAAGACATCTTTGATTACATCCAGTGGAAATACCGGGAACCCAAGGACCGGAGCGAATGA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>POLB</Gene_Name>
+    <Gene_ID>5423</Gene_ID>
+    <Genbank_ACCN>NM_002690</Genbank_ACCN>
+    <Protein_ACCN>NP_002681</Protein_ACCN>
+    <HGNC_ID>9174</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5423</Gene_URL>
+    <UCSC_ID>uc003xoz.2</UCSC_ID>
+    <EMBL_ID>ENSG00000070501</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q9H5J8</Uniprot_ID>
+      <Gene_Name>TAF1D</Gene_Name>
+      <EBI_ID>EBI-716128</EBI_ID>
+      <PPI_EBI_URL>EBI-713836,EBI-716128</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Werner Syndrome</Disease_Name>
+      <Disease_Detail>Werner Syndrome</Disease_Detail>
+      <Disease_DB>WRN001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/werner_syndrome?search=POLB#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Human DNA Polymerase Beta Complexed With Gapped DNA Containing an 8-oxo-7,8-dihydro-Guanine Template Paired with dCTP</PDB_Title>
+      <PDB_ID>1MQ3</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MQ3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of DNA Polymerase beta with the Mutagenic DNA Lesion 8-oxodeoxyguanine Reveals   Structural Insights into its Coding Potential</PubMed_Title>
+      <Author>Krahn JM, et al.</Author>
+      <Journal>Structure.2003 Jan;11(1):121-7.</Journal>
+      <PubMed_ID>12517346</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA with a gapped DNA substrate and DUMPNPP with Manganese in the active site</PDB_Title>
+      <PDB_ID>3C2K</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C2K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of DNA polymerase beta with active-site mismatches suggest a transient abasic site intermediate during misincorporation.</PubMed_Title>
+      <Author>Batra VK, et al.</Author>
+      <Journal>Mol Cell.2008 May 9;30(3):315-24.</Journal>
+      <PubMed_ID>18471977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Binary complex of human DNA polymerase beta with an abasic site (THF) in the gapped DNA</PDB_Title>
+      <PDB_ID>3ISC</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ISC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>DNA polymerase beta substrate specificity: side chain modulation of the</PubMed_Title>
+      <Author>Beard WA, et al.</Author>
+      <Journal>J Biol Chem.2009 Nov 13;284(46):31680-9. Epub  2009 Sep 15.</Journal>
+      <PubMed_ID>19759017</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX + 2'-DEOXYADENOSINE-5'-TRIPHOSPHATE, SOAKED IN THE PRESENCE OF DATP AND ZNCL2</PDB_Title>
+      <PDB_ID>9ICV</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF PYROPHOSPHATE AND MNCL2</PDB_Title>
+      <PDB_ID>9ICL</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Binary complex of human DNA polymerase beta with a gapped DNA</PDB_Title>
+      <PDB_ID>3ISB</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ISB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>DNA polymerase beta substrate specificity: side chain modulation of the</PubMed_Title>
+      <Author>Beard WA, et al.</Author>
+      <Journal>J Biol Chem.2009 Nov 13;284(46):31680-9. Epub  2009 Sep 15.</Journal>
+      <PubMed_ID>19759017</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICP</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF ARTIFICIAL MOTHER LIQUOR</PDB_Title>
+      <PDB_ID>8ICB</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA Polymerase Beta with a Benzo[c]phenanthrene diol epoxide adducted guanine base</PDB_Title>
+      <PDB_ID>2I9G</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2I9G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of DNA polymerase beta with a benzo[c]phenanthrene diol epoxide-adducted template exhibits mutagenic features.</PubMed_Title>
+      <Author>Batra VK, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2006 Nov 14;103(46):17231-6. Epub  2006 Nov 1.</Journal>
+      <PubMed_ID>17079493</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF MNCL2 (15 MILLIMOLAR) AND NACL (15 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQQ</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DOUBLE STRANDED DNA (NO 5'-PHOSPHATE)</PDB_Title>
+      <PDB_ID>9ICM</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of human DNA polymerase beta complexed with DNA: implications for catalytic mechanism, processivity, and fidelity</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12742-61.</Journal>
+      <PubMed_ID>8841118</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA (NON GAPPED DNA ONLY)</PDB_Title>
+      <PDB_ID>9ICY</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of human DNA polymerase beta complexed with DNA: implications for catalytic mechanism, processivity, and fidelity</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12742-61.</Journal>
+      <PubMed_ID>8841118</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF BACL2 (150 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQB</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF CDCL2</PDB_Title>
+      <PDB_ID>7ICG</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF NICL2</PDB_Title>
+      <PDB_ID>1ZQR</PDB_ID>
+      <Resolution>3.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF NICL2</PDB_Title>
+      <PDB_ID>7ICN</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF OF DATP (0.1 MILLIMOLAR) AND MNCL2 (0.5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICQ</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF AZT-TP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICO</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF BACL2 (15 MILLIMOLAR) AND NACL (15 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQN</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DCTP (1 MILLIMOLAR) AND ZNCL2 (1 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>9ICG</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DGTP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICV</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (1 MILLIMOLAR) AND NICL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICL</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN DNA POLYMERASE BETA COMPLEXED WITH NICKED DNA CONTAINING A MISMATCHED TEMPLATE ADENINE AND INCOMING CYTIDINE</PDB_Title>
+      <PDB_ID>1TV9</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TV9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>STRUCTURAL INSIGHTS INTO DNA POLYMERASE BETA DETERRENTS FOR MISINCORPORATION SUPPORT OF AN INDUCED-FIT MECHANISM FOR FIDELITY</PubMed_Title>
+      <Author>Krahn JM, et al.</Author>
+      <Journal>Structure.2004 Oct;12(10):1823-32.</Journal>
+      <PubMed_ID>15458631</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DCTP (1 MILLIMOLAR) AND MGCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICH</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF CACL2</PDB_Title>
+      <PDB_ID>7ICE</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX + 2'-DEOXYADENOSINE-5'-TRIPHOSPHATE, SOAKED IN THE PRESENCE OF DATP AND CRCL3</PDB_Title>
+      <PDB_ID>9ICC</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF CDCL2 (0.1 MILLIMOLAR) (FOUR-DAY SOAK)</PDB_Title>
+      <PDB_ID>7ICF</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF A SODIUM-FREE ARTIFICIAL MOTHER LIQUOR AT PH 7.5</PDB_Title>
+      <PDB_ID>1ZQH</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF CACL2 (15 MILLIMOLAR) AND NACL (15 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQO</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX + 2'-DEOXYADENOSINE-5'-O-(1-THIOTRIPHOSPHATE), SOAKED IN THE PRESENCE OF DATP(ALPHA)S AND MNCL2</PDB_Title>
+      <PDB_ID>9ICA</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX + 2'-DEOXYADENOSINE-5'-TRIPHOSPHATE, SOAKED IN THE PRESENCE OF DATP AND ZNCL2</PDB_Title>
+      <PDB_ID>9ICF</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF ZNCL2</PDB_Title>
+      <PDB_ID>7ICO</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICR</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF KCL (75 MILLIMOLAR) AND MGCL2 (75 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQK</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA (NON GAPPED DNA ONLY)</PDB_Title>
+      <PDB_ID>9ICX</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of human DNA polymerase beta complexed with DNA: implications for catalytic mechanism, processivity, and fidelity</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12742-61.</Journal>
+      <PubMed_ID>8841118</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DCTP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICT</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF TLCL (0.5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQS</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (1 MILLIMOLAR), MGCL2 (5 MILLIMOLAR), AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICK</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF KCL (75 MILLIMOLAR) AND NACL (75 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQP</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA Polymerase beta with a gapped DNA substrate and dUMPNPP with magnesium in the catalytic site</PDB_Title>
+      <PDB_ID>2FMS</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FMS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Magnesium-induced assembly of a complete DNA polymerase catalytic complex.</PubMed_Title>
+      <Author>Batra VK, et al.</Author>
+      <Journal>Structure.2006 Apr;14(4):757-66.</Journal>
+      <PubMed_ID>16615916</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF CUCL2 (0.1 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>7ICJ</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF OF DATP (1 MILLIMOLAR), MNCL2 (5 MILLIMOLAR), AND LITHIUM SULFATE (75 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICZ</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF ZNCL2</PDB_Title>
+      <PDB_ID>7ICR</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF MNCL2 (0.1 MILLIMOLAR) AND IN THE ABSENCE OF NACL</PDB_Title>
+      <PDB_ID>7ICV</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF DTTP AND MGCL2</PDB_Title>
+      <PDB_ID>9ICO</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF ATP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICN</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DTTP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICX</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DTTP (1 MILLIMOLAR) AND ZNCL2 (1 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>9ICI</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA (NO 5'-PHOSPHATE)</PDB_Title>
+      <PDB_ID>8ICC</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF KCL (150 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQI</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human DNA Polymerase Beta Complexed With Gapped DNA Containing an 8-oxo-7,8-dihydro-Guanine and dAMP</PDB_Title>
+      <PDB_ID>1MQ2</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MQ2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of DNA Polymerase beta with the Mutagenic DNA Lesion 8-oxodeoxyguanine Reveals   Structural Insights into its Coding Potential</PubMed_Title>
+      <Author>Krahn JM, et al.</Author>
+      <Journal>Structure.2003 Jan;11(1):121-7.</Journal>
+      <PubMed_ID>12517346</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF ZNCL2 (0.01 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>7ICP</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ternary complex of DNA Polymerase beta with a dideoxy terminated primer and 2'-deoxyguanosine 5'-beta, gamma-methylene triphosphate</PDB_Title>
+      <PDB_ID>2ISP</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ISP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Modifying the beta,gamma Leaving-Group Bridging Oxygen Alters Nucleotide Incorporation Efficiency, Fidelity, and the Catalytic Mechanism of DNA Polymerase beta.</PubMed_Title>
+      <Author>Sucato CA, et al.</Author>
+      <Journal>Biochemistry.2007 Jan 16;46(2):461-71.</Journal>
+      <PubMed_ID>17209556</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ternary complex of DNA POLYMERASE BETA with a C:DAPCPP mismatch in the active site</PDB_Title>
+      <PDB_ID>3C2L</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C2L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of DNA polymerase beta with active-site mismatches suggest a transient abasic site intermediate during misincorporation.</PubMed_Title>
+      <Author>Batra VK, et al.</Author>
+      <Journal>Mol Cell.2008 May 9;30(3):315-24.</Journal>
+      <PubMed_ID>18471977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DGTP (1 MILLIMOLAR) AND ZNCL2 (1 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>9ICH</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DDATP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICU</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF MGCL2</PDB_Title>
+      <PDB_ID>7ICK</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF MNCL2 (15 MILLIMOLAR) AND MGCL2 (15 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQL</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX + 2'-DEOXYADENOSINE-5'-TRIPHOSPHATE, SOAKED IN THE PRESENCE OF DATP AND COCL2</PDB_Title>
+      <PDB_ID>9ICB</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX + 2',3'-DIDEOXYCYTIDINE-5'-TRIPHOSPHATE, SOAKED IN THE PRESENCE OF DDCTP AND MGCL2</PDB_Title>
+      <PDB_ID>9ICN</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF ARTIFICIAL MOTHER LIQUOR</PDB_Title>
+      <PDB_ID>9ICK</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF CDCL2 (0.1 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>7ICU</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN DNA POLYMERASE BETA COMPLEXED WITH NICKED DNA</PDB_Title>
+      <PDB_ID>1BPZ</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BPZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of human DNA polymerase beta complexed with gapped and nicked DNA: evidence for an induced fit mechanism.</PubMed_Title>
+      <Author>Sawaya MR, et al.</Author>
+      <Journal>Biochemistry.1997 Sep 16;36(37):11205-15.</Journal>
+      <PubMed_ID>9287163</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX + 2'-DEOXYGUANOSINE-5'-TRIPHOSPHATE, SOAKED IN THE PRESENCE OF DGTP AND MNCL2</PDB_Title>
+      <PDB_ID>9ICT</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ternary complex of DNA Polymerase beta with a dideoxy terminated primer and 2'-deoxyguanosine 5'-beta, gamma-difluoromethylene triphosphate</PDB_Title>
+      <PDB_ID>2ISO</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ISO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Modifying the beta,gamma Leaving-Group Bridging Oxygen Alters Nucleotide Incorporation Efficiency, Fidelity, and the Catalytic Mechanism of DNA Polymerase beta.</PubMed_Title>
+      <Author>Sucato CA, et al.</Author>
+      <Journal>Biochemistry.2007 Jan 16;46(2):461-71.</Journal>
+      <PubMed_ID>17209556</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ternary complex of human DNA polymerase beta with an abasic site (THF): DAPCPP mismatch</PDB_Title>
+      <PDB_ID>3ISD</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ISD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>DNA polymerase beta substrate specificity: side chain modulation of the</PubMed_Title>
+      <Author>Beard WA, et al.</Author>
+      <Journal>J Biol Chem.2009 Nov 13;284(46):31680-9. Epub  2009 Sep 15.</Journal>
+      <PubMed_ID>19759017</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX + 2',3'-DIDEOXYCYTIDINE-5'-TRIPHOSPHATE, SOAKED IN THE PRESENCE OF DDCTP AND MNCL2</PDB_Title>
+      <PDB_ID>9ICS</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DGTP (1 MILLIMOLAR) AND MGCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICI</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ternary complex of DNA polymerase beta with a dideoxy terminated primer and 2'-deoxyguanosine 5'-beta, gamma-monofluoromethylene triphosphate</PDB_Title>
+      <PDB_ID>2PXI</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PXI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>(R)-beta,gamma-fluoromethylene-dGTP-DNA ternary complex with DNA polymerase beta.</PubMed_Title>
+      <Author>McKenna CE, et al.</Author>
+      <Journal>J Am Chem Soc.2007 Dec 19;129(50):15412-3. Epub  2007 Nov 22.</Journal>
+      <PubMed_ID>18031037</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF CACL2 (15 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQC</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF CRCL3 (SATURATED SOLUTION)</PDB_Title>
+      <PDB_ID>1ZQE</PDB_ID>
+      <Resolution>3.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX + THYMIDINE-5'-TRIPHOSPHATE, SOAKED IN THE PRESENCE OF DTTP AND MNCL2</PDB_Title>
+      <PDB_ID>8ICY</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF MNCL2 (0.1 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>7ICL</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>9ICQ</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (1 MILLIMOLAR) AND MGCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICG</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF A SODIUM-FREE ARTIFICIAL MOTHER LIQUOR AT PH 6.5</PDB_Title>
+      <PDB_ID>1ZQG</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF ZNCL2</PDB_Title>
+      <PDB_ID>7ICQ</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human DNA Polymerase beta complexed with tetrahydrofuran (abasic site) containing DNA</PDB_Title>
+      <PDB_ID>2P66</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2P66</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural insight into the DNA  Polymerase beta deoxyribose phosphate lyase mechanism</PubMed_Title>
+      <Author>Prasad R, et al.</Author>
+      <Journal>DNA Repair (Amst).2005 Dec 8;4(12):1347-57. Epub  2005 Sep 19.</Journal>
+      <PubMed_ID>16172026</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF CSCL (150 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQF</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF CACL2 (15 MILLIMOLAR) AND MGCL2 (15 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQJ</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Dna polymerase beta with a gapped DND substrate and dTMP(CF2)PP</PDB_Title>
+      <PDB_ID>3GDX</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GDX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Alpha,beta-difluoromethylene deoxynucleoside 5'-triphosphates: a convenient synthesis of useful probes for DNA polymerase beta structure and function</PubMed_Title>
+      <Author>Upton TG, et al.</Author>
+      <Journal>Org Lett.2009 May 7;11(9):1883-6.</Journal>
+      <PubMed_ID>19351147</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ternary complex of DNA POLYMERASE BETA with a G:dAPCPP mismatch in the active site</PDB_Title>
+      <PDB_ID>3C2M</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C2M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of DNA polymerase beta with active-site mismatches suggest a transient abasic site intermediate during misincorporation.</PubMed_Title>
+      <Author>Batra VK, et al.</Author>
+      <Journal>Mol Cell.2008 May 9;30(3):315-24.</Journal>
+      <PubMed_ID>18471977</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF ZNCL2</PDB_Title>
+      <PDB_ID>7ICS</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; NATIVE STRUCTURE</PDB_Title>
+      <PDB_ID>9ICW</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of human DNA polymerase beta complexed with DNA: implications for catalytic mechanism, processivity, and fidelity</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12742-61.</Journal>
+      <PubMed_ID>8841118</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF CACL2 (150 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQD</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA/DNA COMPLEX</PDB_Title>
+      <PDB_ID>1BPX</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BPX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of human DNA polymerase beta complexed with gapped and nicked DNA: evidence for an induced fit mechanism.</PubMed_Title>
+      <Author>Sawaya MR, et al.</Author>
+      <Journal>Biochemistry. 1997 Sep 16;36(37):11205-15.</Journal>
+      <PubMed_ID>9287163</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (1 MILLIMOLAR) AND CACL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICA</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (1 MILLIMOLAR), MNCL2 (5 MILLIMOLAR), AND AMMONIUM SULFATE (75 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICM</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF MNCL2 (15 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQM</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (10 MILLIMOLAR) AND MGCL2 (50 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICF</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN DNA POLYMERASE BETA COMPLEXED WITH NICKED DNA CONTAINING A MISMATCHED TEMPLATE THYMIDINE AND INCOMING CYTIDINE</PDB_Title>
+      <PDB_ID>1TVA</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TVA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural insights into DNA polymerase Beta deterrents for misincorporation support an induced-fit mechanism for fidelity</PubMed_Title>
+      <Author>Krahn JM, et al.</Author>
+      <Journal>Structure.2004 Oct;12(10):1823-32.</Journal>
+      <PubMed_ID>15458631</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DTTP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>9ICU</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA</PDB_Title>
+      <PDB_ID>9ICJ</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX + 2'-DEOXYCYTIDINE-5'-TRIPHOSPHATE, SOAKED IN THE PRESENCE OF DCTP AND MNCL2</PDB_Title>
+      <PDB_ID>9ICR</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (1 MILLIMOLAR) AND CDCL2 (1 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICE</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DTTP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICW</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF PYROPHOSPHATE (1 MILLIMOLAR) AND MGCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>9ICP</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (0.01 MILLIMOLAR) AND ZNCL2 (0.02 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>1ZQT</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF MNCL2 (1.0 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>7ICM</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN DNA POLYMERASE BETA COMPLEXED WITH GAPPED DNA AND DDCTP</PDB_Title>
+      <PDB_ID>1BPY</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BPY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of human DNA polymerase beta complexed with gapped and nicked DNA: evidence for an induced fit mechanism.</PubMed_Title>
+      <Author>Sawaya MR, et al.</Author>
+      <Journal>Biochemistry.1997 Sep 16;36(37):11205-15.</Journal>
+      <PubMed_ID>9287163</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SIX BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF CRCL3 (0.1 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>7ICI</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF COCL2</PDB_Title>
+      <PDB_ID>7ICH</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF KCL (150 MILLIMOLAR) AT PH 7.5</PDB_Title>
+      <PDB_ID>1ZQA</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZQA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX, SOAKED IN THE PRESENCE OF ZNCL2 AND MGCL2</PDB_Title>
+      <PDB_ID>7ICT</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7ICT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DCTP (1 MILLIMOLAR) AND MNCL2 (5 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>8ICS</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (POL B) (E.C.2.7.7.7) COMPLEXED WITH SEVEN BASE PAIRS OF DNA; SOAKED IN THE PRESENCE OF DATP (1 MILLIMOLAR) AND CUCL2 (0.1 MILLIMOLAR)</PDB_Title>
+      <PDB_ID>9ICE</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ICE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Characterization of the metal ion binding helix-hairpin-helix motifs in human DNA polymerase beta by X-ray structural analysis.</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12778-87.</Journal>
+      <PubMed_ID>8841120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human DNA Polymerase beta complexed with DNA containing an A-A mismatched primer terminus</PDB_Title>
+      <PDB_ID>1ZJM</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZJM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Nucleotide-induced DNA polymerase active site motions accommodating a mutagenic DNA intermediate.</PubMed_Title>
+      <Author>Batra VK, et al.</Author>
+      <Journal>Structure.2005 Aug;13(8):1225-33.</Journal>
+      <PubMed_ID>16084394</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human DNA Polymerase beta complexed with DNA containing an A-A mismatched primer terminus with dGTP</PDB_Title>
+      <PDB_ID>1ZJN</PDB_ID>
+      <Resolution>2.61</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZJN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Nucleotide-induced DNA polymerase active site motions accommodating a mutagenic DNA intermediate.</PubMed_Title>
+      <Author>Batra VK, et al.</Author>
+      <Journal>Structure.2005 Aug;13(8):1225-33.</Journal>
+      <PubMed_ID>16084394</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Sodium in active site of DNA Polymerase Beta</PDB_Title>
+      <PDB_ID>2FMQ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FMQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Magnesium-induced assembly of a complete DNA polymerase catalytic complex.</PubMed_Title>
+      <Author>Batra VK, et al.</Author>
+      <Journal>Structure.2006 Apr;14(4):757-66.</Journal>
+      <PubMed_ID>16615916</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA Polymerase beta with a terminated gapped DNA substrate and ddCTP with sodium in the catalytic site</PDB_Title>
+      <PDB_ID>2FMP</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FMP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Magnesium-induced assembly of a complete DNA polymerase catalytic complex.</PubMed_Title>
+      <Author>Batra VK, et al.</Author>
+      <Journal>Structure.2006 Apr;14(4):757-66.</Journal>
+      <PubMed_ID>16615916</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA POLYMERASE BETA (E.C.2.7.7.7)/DNA COMPLEX + THYMIDINE-5'-TRIPHOSPHATE, SOAKED IN THE PRESENCE OF DTTP AND MGCL2</PDB_Title>
+      <PDB_ID>8ICJ</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ICJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural basis for metal ion mutagenicity and nucleotide selectivity in human DNA polymerase beta</PubMed_Title>
+      <Author>Pelletier H, et al.</Author>
+      <Journal>Biochemistry.1996 Oct 1;35(39):12762-77.</Journal>
+      <PubMed_ID>8841119</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05203</Pathway_ID>
+      <Pathway_Title>Viral carcinogenesis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05166</Pathway_ID>
+      <Pathway_Title>HTLV-I infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi?pdb=1bpx;ver=1.75</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1bpx</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Rajendran S, et al. J Mol Biol. 308(3):477-500.</Site_Reference>
+      <Site_Type>DNA-induced</Site_Type>
+      <PubMed_ID>11327782</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Allosteric_Pathway>
+    <Method>Elastic network model, normal mode analysis, mutation.</Method>
+    <Verified__Residue>Y265</Verified__Residue>
+    <PubMed_Title>Zheng W, et al. Structure. 2005,13(4):565-577.@@Opresko PL, et al. Biochemistry. 1998,37(8):2111-2119.</PubMed_Title>
+    <PubMed_ID>15837195@@9485358</PubMed_ID>
+    <is__ref__img>Yes</is__ref__img>
+    <is__display>No</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.7.7</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/7/7.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00960001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960056</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960082</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960083</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960084</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960085</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960088</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960089</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960090</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960091</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960092</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960093</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960094</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960095</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960096</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960097</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960098</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960099</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960100</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960101</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960102</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960103</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960104</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960105</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960106</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960107</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960108</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960109</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960110</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960111</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960112</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960113</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960114</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960115</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960116</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960117</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960118</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960119</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960120</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960121</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960122</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960123</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960124</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960125</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960126</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960127</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960128</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960129</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960130</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960131</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960132</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960133</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960134</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960135</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960136</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960137</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960138</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960139</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960140</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960141</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960143</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960144</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960145</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960146</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960147</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960148</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960149</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960150</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960151</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960152</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960153</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960154</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960155</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960156</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960157</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960158</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960159</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960160</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960161</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960162</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960163</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960164</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960165</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960166</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960167</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960168</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960169</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960170</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960171</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960172</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960173</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960176</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960177</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960178</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960179</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960180</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960181</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960183</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960184</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960185</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960186</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960187</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960188</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960189</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960190</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960191</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960192</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960193</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960194</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960195</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960196</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960197</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960198</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960199</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960200</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960201</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960202</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960203</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960204</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960205</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960206</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960207</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960208</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960209</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960210</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960211</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960212</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960213</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960214</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960215</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960216</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960217</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960218</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960219</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960220</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960221</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960222</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960223</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960224</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960225</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960226</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960227</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960228</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960229</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960230</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960231</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960232</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960233</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960234</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960235</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960236</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960237</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960238</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960241</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960242</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960243</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960244</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960245</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960246</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960248</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960249</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960250</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960251</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960252</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960253</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960254</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960255</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960256</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960257</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960258</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960259</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960260</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960261</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960262</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960263</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960264</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960265</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960266</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960268</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960269</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960270</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960271</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960272</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960273</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960274</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960275</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960276</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960277</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960278</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960279</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960280</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960281</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960282</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960283</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960284</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960285</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960286</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960287</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960288</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960289</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960290</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960291</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960292</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960293</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960294</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960295</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960296</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960297</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960298</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960299</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960300</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960301</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00960302</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07910000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A9C5</UniProt_ID>
+  <Seq_Length>469</Seq_Length>
+  <Molecule_Weight>51904</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3316</KEGG_ID>
+  <Orthology_ID>K01915</Orthology_ID>
+  <Catalytic_Mechanism>ATP + L-glutamate + NH(3) = ADP + phosphate + L-glutamine.</Catalytic_Mechanism>
+  <Pfam_ID>PF00120:Gln-synt_C@@PF03951:Gln-synt_N</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Glutamate--ammonia ligase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-glutamate + ATP + NH(4)(+) = L-glutamine + ADP + 2 H(+) + phosphate.</Detail>
+      <Keyword>Glutamate-ammonia ligase activity</Keyword>
+      <Ontology_ID>GO:0004356</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of glutamine, 2-amino-4-carbamoylbutanoic acid.</Detail>
+      <Keyword>Glutamine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006542</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of processes that forms an integrated mechanism by which a cell or an organism detects the depletion of primary nitrogen source, usually ammonia, and then activates genes to scavenge the last traces of the primary nitrogen source and to transport and metabolize alternative nitrogen sources. The utilization process begins when the cell or organism detects nitrogen levels, includes the activation of genes whose products detect, transport or metabolize nitrogen-containing substances, and ends when nitrogen is incorporated into the cell or organism's metabolism.</Detail>
+      <Keyword>Nitrogen utilization</Keyword>
+      <Ontology_ID>GO:0019740</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which nitrogen is taken from its relatively inert molecular form (N2) in the atmosphere and converted into nitrogen compounds useful for other chemical processes, such as ammonia, nitrate and nitrogen dioxide.</Detail>
+      <Keyword>Nitrogen fixation</Keyword>
+      <Ontology_ID>GO:0009399</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The pathway by which ammonia is processed and incorporated into a cell. In an energy-rich (glucose-containing), nitrogen-poor environment, glutamine synthetase and glutamate synthase form an ammonia assimilatory cycle, in which ammonia is incorporated into L-glutamate to form L-glutamine, which then combines with alpha-ketoglutarate to regenerate L-glutamate. This ATP-dependent cycle is essential for nitrogen-limited growth and for steady-state growth with some sources of nitrogen.</Detail>
+      <Keyword>Ammonia assimilation cycle</Keyword>
+      <Ontology_ID>GO:0019676</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>398</Position>
+      <PTM_Type>O-AMP-tyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MSAEHVLTMLNEHEVKFVDLRFTDTKGKEQHVTIPAHQVNAEFFEEGKMFDGSSIGGWKGINESDMVLMPDASTAVIDPFFADSTLIIRCDILEPGTLQGYDRDPRSIAKRAEDYLRSTGIADTVLFGPEPEFFLFDDIRFGSSISGSHVAIDDIEGAWNSSTQYEGGNKGHRPAVKGGYFPVPPVDSAQDIRSEMCLVMEQMGLVVEAHHHEVATAGQNEVATRFNTMTKKADEIQIYKYVVHNVAHRFGKTATFMPKPMFGDNGSGMHCHMSLSKNGVNLFAGDKYAGLSEQALYYIGGVIKHAKAINALANPTTNSYKRLVPGYEAPVMLAYSARNRSASIRIPVVSSPKARRIEVRFPDPAANPYLCFAALLMAGLDGIKNKIHPGEAMDKNLYDLPPEEAKEIPQVAGSLEEALNELDLDREFLKAGGVFTDEAIDAYIALRREEDDRVRMTPHPVEFELYYSV</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>glnA</Gene_Name>
+    <Gene_ID>12933636</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_418306</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/948370</Gene_URL>
+    <EMBL_ID>EBESCG00000016676</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Glutamine synthetase</PDB_Title>
+      <PDB_ID>ASD07910000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04724</Pathway_ID>
+      <Pathway_Title>Glutamatergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00250</Pathway_ID>
+      <Pathway_Title>Alanine, aspartate and glutamate metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00630</Pathway_ID>
+      <Pathway_Title>Glyoxylate and dicarboxylate metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04727</Pathway_ID>
+      <Pathway_Title>GABAergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00910</Pathway_ID>
+      <Pathway_Title>Nitrogen metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.3.1.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/3/1/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

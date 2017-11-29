@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02110000_1</Organism_ID>
+  <Organism>Acinetobacter lwoffii</Organism>
+  <Organism_Latin>Acinetobacter lwoffii</Organism_Latin>
+  <UniProt_ID>D0SUN4</UniProt_ID>
+  <Seq_Length>940</Seq_Length>
+  <Molecule_Weight>105091</Molecule_Weight>
+  <Pfam_ID>PF00676:E1_dh@@PF02779:Transket_pyr</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Oxoglutarate dehydrogenase (Succinyl-transferring), E1 component</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 2-oxoglutarate + lipoamide = S-succinyldihydrolipoamide + CO2.</Detail>
+      <Keyword>Oxoglutarate dehydrogenase (succinyl-transferring) activity</Keyword>
+      <Ontology_ID>GO:0004591</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with thiamine pyrophosphate, the diphosphoric ester of thiamine. Acts as a coenzyme of several (de)carboxylases, transketolases, and alpha-oxoacid dehydrogenases.</Detail>
+      <Keyword>Thiamine pyrophosphate binding</Keyword>
+      <Ontology_ID>GO:0030976</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A nearly universal metabolic pathway in which the acetyl group of acetyl coenzyme A is effectively oxidized to two CO2 and four pairs of electrons are transferred to coenzymes. The acetyl group combines with oxaloacetate to form citrate, which undergoes successive transformations to isocitrate, 2-oxoglutarate, succinyl-CoA, succinate, fumarate, malate, and oxaloacetate again, thus completing the cycle. In eukaryotes the tricarboxylic acid is confined to the mitochondria. See also glyoxylate cycle.</Detail>
+      <Keyword>Tricarboxylic acid cycle</Keyword>
+      <Ontology_ID>GO:0006099</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MQEVADALRLDTELSADSAAYIEELYEQYLTAPDSVGADWRAYFDKFPKGDQPHSNVREQFLLLGRNSSRIQPIVQSTVSSEHERRQIGVLQLIAAYRNRGHQKAKLDPLGLAKREVVPDLDLAAHGLTQSDLDTVFNTGNLAIGKEEATLAEMVQSMEATYCGSIGAEYMHIVDTKEKRWIQQRLESARGQYGFNADQKKHVLERLTAAEGLEKYLGNKFVGAKRFGVEGGEAFIPMVNEIIQRAGSVGCKEVVIGMPHRGRLNLLVNIMGKNPADLFGEFEGKSIHKKGSGDVKYHQGFSSNVMTPGGEVHLALAFNPSHLEIVGPVVEGSVRARQVRRKDIGGDDVLPLIVHGDAAFAGQGVNQETFQMSQTRGYTVGGTVHIVINNQVGFTTSDPRDARSTEYCTDIAKMIQAPIFHVNGDDPEAVVFISQLAHDFRHTFRKDVVIDMFCYRRRGHNEADEPAATQPMMYQVINKKATTRTLYADQLVQQGVLDRASADQMVENYRADLEAGNHVANALVLEPNKKMFVDWTPYLGHEYTDEWDTTFPIERLKELGKKMRELPEGFVMQRQVAKVIDDRLKMQTGEMPLNWGAAETLAYATVLDDGYLLRLTGEDVGRGTFSHRHAKLHNQVDGSTYLPLCNLKENQPRTAIYDSLLSEMAVLAFEYGYATTLPKSLIIWEAQFGDFANCAQVVIDQFISSGETKWERVCGLTMLLPHGFEGQGPEHSSARLERFLQLCAEDNMQVITPTTPAQIFHALRRQAIRPIRKPLIVTSPKSLLRHKLAVSSLEELANGTFQTVIDEVDNINKSDVTRLVLCGGKVYYDLVEKRREKELNNTAIVRIEQLYPYPEKRLAEVLAQYPNVKELVWAQEEPKNQGAWLFIAPRLYDDVMKAGKQVRISYAGREASAAPACGSPYLHAKQQAQLINDALAIDAE</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>sucA</Gene_Name>
+    <Protein_ACCN>EEY90589</Protein_ACCN>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of 2-oxoglutarate dehydrogenase</PDB_Title>
+      <PDB_ID>ASD02110000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00380</Pathway_ID>
+      <Pathway_Title>Tryptophan metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00020</Pathway_ID>
+      <Pathway_Title>Citrate cycle (TCA cycle)</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00020</Pathway_ID>
+      <Pathway_Title>Citrate cycle (TCA cycle)</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00310</Pathway_ID>
+      <Pathway_Title>Lysine degradation</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.2.4.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/4/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00710003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02110002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

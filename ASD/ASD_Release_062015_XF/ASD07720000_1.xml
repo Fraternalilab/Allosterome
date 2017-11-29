@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07720000_1</Organism_ID>
+  <Organism>Salmonella typhimurium </Organism>
+  <Organism_Latin>Salmonella typhimurium</Organism_Latin>
+  <UniProt_ID>Q02755</UniProt_ID>
+  <Seq_Length>547</Seq_Length>
+  <Molecule_Weight>58950</Molecule_Weight>
+  <KEGG_ID>stm:STM3577</KEGG_ID>
+  <Orthology_ID>K03406</Orthology_ID>
+  <Function_Summary>Acts as a receptor for citrate and mediates taxis away from phenol. Also mediates an attractant response to metal-citrate complexes.</Function_Summary>
+  <Pfam_ID>PF00672:HAMP@@PF00015:MCPsignal@@PF02203:TarH</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Citrate chemoreceptor protein</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular signal and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity.</Detail>
+      <Keyword>Transmembrane receptor activity</Keyword>
+      <Ontology_ID>GO:0004888</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of a motile cell or organism, or the directed growth of a cell guided by a specific chemical concentration gradient. Movement may be towards a higher concentration (positive chemotaxis) or towards a lower concentration (negative chemotaxis).</Detail>
+      <Keyword>Chemotaxis</Keyword>
+      <Ontology_ID>GO:0006935</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal, e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light, and ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell, and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</Detail>
+      <Keyword>Signal transduction</Keyword>
+      <Ontology_ID>GO:0007165</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>303</Position>
+      <PTM_Type>Glutamate methyl ester (Glu)</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>296</Position>
+      <PTM_Type>Glutamate methyl ester (Gln)</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>501</Position>
+      <PTM_Type>Glutamate methyl ester (Glu)</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>492</Position>
+      <PTM_Type>Glutamate methyl ester (Glu)</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>310</Position>
+      <PTM_Type>Glutamate methyl ester (Gln)</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MKNIKVITGVIATLGIFSALLLVTGILFYSAVSSDRLNFQNASALSYQQQELGGSFQTLIETRVTINRVAIRMLKNQRDPASLDAMNTLLTNAGASLNEAEKHFNNYVNSEAIAGKDPALDAQAEASFKQMYDVLQQSIHYLKADNYAAYGNLDAQKAQDDMEQVYDQWLSQNAQLIKLASDQNQSSFTQMQWTLGIILLIVLIVLAFIWLGLQRVLLRPLQRIMAHIQTIADGDLTHEIEAEGRSEMGQLAAGLKTMQQSLIRTVSAVRDNADSIYTGAGEISAGSSDLSSRTEQQASALEETAASMEQLTATVRQNTDNARQATGLAKTASETARKGGRVVDNVVSTMNDIAESSEKIVDITSVIDGIAFQTNILALNAAVEAARAGEQGRGFAVVAGEVRTLASRSAQAAKEIKVLIENSVSRIDTGSTQVREAGETMKEIVNAVTRVTDIMGEIASASDEQSKGIEQVAQAVSEMDSVTQQNASLVEESAAAAAALEDQANELRQAVAAFRIQKQPRREASPTTLSKGLTPQPAAEQANWESF</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell inner membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>tcp</Gene_Name>
+    <Gene_ID>1255100</Gene_ID>
+    <Genbank_ACCN>NC_003197</Genbank_ACCN>
+    <Protein_ACCN>NP_462478</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1255100</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Methyl-accepting chemotaxis citrate transducer</PDB_Title>
+      <PDB_ID>ASD07720000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Dimerization</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

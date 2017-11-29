@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06910000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P05055</UniProt_ID>
+  <Seq_Length>711</Seq_Length>
+  <Molecule_Weight>77101</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3086</KEGG_ID>
+  <Orthology_ID>K00962</Orthology_ID>
+  <EBI_ID>EBI-548080</EBI_ID>
+  <Function_Summary>Involved in mRNA degradation. Hydrolyzes single-stranded polyribonucleotides processively in the 3'- to 5'-direction.</Function_Summary>
+  <Catalytic_Mechanism>RNA(n+1) + phosphate = RNA(n) + a nucleoside diphosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00013:KH_1@@PF03726:PNPase@@PF01138:RNase_PH@@PF03725:RNase_PH_C@@PF00575:S1</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Polynucleotide phosphorylase</Alias>
+      <Alias>PNPase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the sequential cleavage of mononucleotides from a free 3' terminus of an RNA molecule.</Detail>
+      <Keyword>3'-5'-exoribonuclease activity</Keyword>
+      <Ontology_ID>GO:0000175</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an RNA molecule or a portion thereof.</Detail>
+      <Keyword>RNA binding</Keyword>
+      <Ontology_ID>GO:0003723</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein or proteins.</Detail>
+      <Keyword>Identical protein binding</Keyword>
+      <Ontology_ID>GO:0042802</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a nucleotidyl group to a reactant.</Detail>
+      <Keyword>Nucleotidyltransferase activity</Keyword>
+      <Ontology_ID>GO:0016779</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + RNA(n) = diphosphate + RNA(n+1).</Detail>
+      <Keyword>Polyribonucleotide nucleotidyltransferase activity</Keyword>
+      <Ontology_ID>GO:0004654</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process involved in the conversion of one or more primary RNA transcripts into one or more mature RNA molecules.</Detail>
+      <Keyword>RNA processing</Keyword>
+      <Ontology_ID>GO:0006396</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of mRNA, messenger RNA, which is responsible for carrying the coded genetic 'message', transcribed from DNA, to sites of protein assembly at the ribosomes.</Detail>
+      <Keyword>MRNA catabolic process</Keyword>
+      <Ontology_ID>GO:0006402</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).</Detail>
+      <Keyword>Response to stress</Keyword>
+      <Ontology_ID>GO:0006950</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MLNPIVRKFQYGQHTVTLETGMMARQATAAVMVSMDDTAVFVTVVGQKKAKPGQDFFPLTVNYQERTYAAGRIPGSFFRREGRPSEGETLIARLIDRPIRPLFPEGFVNEVQVIATVVSVNPQVNPDIVAMIGASAALSLSGIPFNGPIGAARVGYINDQYVLNPTQDELKESKLDLVVAGTEAAVLMVESEAQLLSEDQMLGAVVFGHEQQQVVIQNINELVKEAGKPRWDWQPEPVNEALNARVAALAEARLSDAYRITDKQERYAQVDVIKSETIATLLAEDETLDENELGEILHAIEKNVVRSRVLAGEPRIDGREKDMIRGLDVRTGVLPRTHGSALFTRGETQALVTATLGTARDAQVLDELMGERTDTFLFHYNFPPYSVGETGMVGSPKRREIGHGRLAKRGVLAVMPDMDKFPYTVRVVSEITESNGSSSMASVCGASLALMDAGVPIKAAVAGIAMGLVKEGDNYVVLSDILGDEDHLGDMDFKVAGSRDGISALQMDIKIEGITKEIMQVALNQAKGARLHILGVMEQAINAPRGDISEFAPRIHTIKINPDKIKDVIGKGGSVIRALTEETGTTIEIEDDGTVKIAATDGEKAKHAIRRIEEITAEIEVGRVYTGKVTRIVDFGAFVAIGGGKEGLVHISQIADKRVEKVTDYLQMGQEVPVKVLEVDRQGRIRLSIKEATEQSQPAAAPEAPAAEQGE</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>pnp</Gene_Name>
+    <Gene_ID>12933437</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_417633</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947672</Gene_URL>
+    <EMBL_ID>EBESCG00000014575</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P21513</Uniprot_ID>
+      <Gene_Name>rne</Gene_Name>
+      <EBI_ID>EBI-549958</EBI_ID>
+      <PPI_EBI_URL>EBI-548080,EBI-549958</PPI_EBI_URL>
+      <Experiment_Number>10</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P05055</Uniprot_ID>
+      <Gene_Name>pnp</Gene_Name>
+      <EBI_ID>EBI-548080</EBI_ID>
+      <PPI_EBI_URL>EBI-548080,EBI-548080</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of Polynucleotide Phosphorylase (PNPase) core bound to RNase E and Tungstate</PDB_Title>
+      <PDB_ID>3H1C</PDB_ID>
+      <Resolution>3.57</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3H1C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of Escherichia coli polynucleotide phosphorylase core bound to RNase E, RNA and manganese: implications for catalytic mechanism and RNA degradosome assembly</PubMed_Title>
+      <Author>Nurmohamed, S., et al.</Author>
+      <Journal>J.Mol.Biol.(2009)389:17-33</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19327365?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli KH/S1 domain truncated PNPase</PDB_Title>
+      <PDB_ID>3CDJ</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CDJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of Escherichia coli PNPase: central channel residues are involved in processive RNA degradation.</PubMed_Title>
+      <Author>Shi, Z., et al.</Author>
+      <Journal>Rna(2008)14:2361-2371</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18812438?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>S1 RNA BINDING DOMAIN, NMR, 20 STRUCTURES</PDB_Title>
+      <PDB_ID>1SRO</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SRO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The solution structure of the S1 RNA binding domain: a member of an ancient nucleic acid-binding fold.</PubMed_Title>
+      <Author>Bycroft, M., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(1997)88:235-242</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9008164?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of E. coli PNPase</PDB_Title>
+      <PDB_ID>3CDI</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CDI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of Escherichia coli PNPase: central channel residues are involved in processive RNA degradation.</PubMed_Title>
+      <Author>Shi, Z., et al.</Author>
+      <Journal>Rna(2008)14:2361-2371</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18812438?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00240</Pathway_ID>
+      <Pathway_Title>Pyrimidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00230</Pathway_ID>
+      <Pathway_Title>Purine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00240</Pathway_ID>
+      <Pathway_Title>Pyrimidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00230</Pathway_ID>
+      <Pathway_Title>Purine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.7.8</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/7/8.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00360007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

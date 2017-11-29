@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11370000_1</Organism_ID>
+  <Organism>Methylococcus capsulatus</Organism>
+  <Organism_Latin>Methylococcus capsulatus</Organism_Latin>
+  <UniProt_ID>G1UBD1</UniProt_ID>
+  <Seq_Length>414</Seq_Length>
+  <Molecule_Weight>46079</Molecule_Weight>
+  <KEGG_ID>mca:MCA1796</KEGG_ID>
+  <Orthology_ID>K10945</Orthology_ID>
+  <Function_Summary>Methane monooxygenase is responsible for the initial oxygenation of methane to methanol in methanotrophs. At least in vitro, specific quinols can replace NADH as reductants.</Function_Summary>
+  <Catalytic_Mechanism>Methane + quinol + O(2) = methanol + quinone + H(2)O.</Catalytic_Mechanism>
+  <Pfam_ID>PF04744:Monooxygenase_B</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Particulate methane monooxygenase 47 kDa subunit</Alias>
+      <Alias>Particulate methane monooxygenase hydroxylase 45 kDa subunit</Alias>
+      <Alias>Methane monooxygenase B subunit</Alias>
+      <Alias>Particulate methane monooxygenase hydroxylase alpha subunit</Alias>
+      <Alias>Particulate methane monooxygenase 45 kDa subunit</Alias>
+      <Alias>pMMO-H alpha subunit</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the incorporation of one atom from molecular oxygen into a compound and the reduction of the other atom of oxygen to water.</Detail>
+      <Keyword>Monooxygenase activity</Keyword>
+      <Ontology_ID>GO:0004497</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKTIKDRIAKWSAIGLLSAVAATAFYAPSASAHGEKSQAAFMRMRTIHWYDLSWSKEKVKINETVEIKGKFHVFEGWPETVDEPDVAFLNVGMPGPVFIRKESYIGGQLVPRSVRLEIGKTYDFRVVLKARRPGDWHVHTMMNVQGGGPIIGPGKWITVEGSMSEFRNPVTTLTGQTVDLENYNEGNTYFWHAFWFAIGVAWIGYWSRRPIFIPRLLMVDAGRADELVSATDRKVAMGFLAATILIVVMAMSSANSKYPITIPLQAGTMRGMKPLELPAPTVSVKVEDATYRVPGRAMRMKLTITNHGNSPIRLGEFYTASVRFLDSDVYKDTTGYPEDLLAEDGLSVSDNSPLAPGETRTVDVTASDAAWEVYRLSDIIYDPDSRFAGLLFFFDATGNRQVVQIDAPLIPSFM</Protein_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Others</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>pmoB1</Gene_Name>
+    <Gene_Alias>pmoB; pmoB2</Gene_Alias>
+    <Genbank_ACCN>NC_002977</Genbank_ACCN>
+    <Protein_ACCN>YP_114234</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3103835</Gene_URL>
+    <EMBL_ID>MCA1796</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of particulate methane monooxygenase</PDB_Title>
+      <PDB_ID>1YEW</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YEW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of a membrane-bound metalloenzyme that catalyses the biological oxidation of methane.</PubMed_Title>
+      <Author>Lieberman, R.L., et al.</Author>
+      <Journal>Nature(2005)434:177-182</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15674245?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of particulate methane monooxygenase from Methylococcus capsulatus (Bath)</PDB_Title>
+      <PDB_ID>3RGB</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RGB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure and Characterization of Particulate Methane Monooxygenase from Methylocystis species Strain M.</PubMed_Title>
+      <Author>Smith, S.M., et al.</Author>
+      <Journal>Biochemistry(2011)50:10231-10240</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22013879?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00910</Pathway_ID>
+      <Pathway_Title>Nitrogen metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00910</Pathway_ID>
+      <Pathway_Title>Nitrogen metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00680</Pathway_ID>
+      <Pathway_Title>Methane metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.14.18.3</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/14/18/3.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD11370001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2014-04-17</Create_Date>
+</Organism_Record>

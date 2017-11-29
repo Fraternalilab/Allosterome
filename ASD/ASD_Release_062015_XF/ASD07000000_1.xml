@@ -1,0 +1,879 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07000000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P27338</UniProt_ID>
+  <Seq_Length>520</Seq_Length>
+  <Molecule_Weight>58763</Molecule_Weight>
+  <KEGG_ID>hsa:4129</KEGG_ID>
+  <Orthology_ID>K00274</Orthology_ID>
+  <Function_Summary>Catalyzes the oxidative deamination of biogenic and xenobiotic amines and has important functions in the metabolism of neuroactive and vasoactive amines in the central nervous system and peripheral tissues. MAOB preferentially degrades benzylamine and phenylethylamine.</Function_Summary>
+  <Catalytic_Mechanism>RCH(2)NHR' + H(2)O + O(2) = RCHO + R'NH(2) + H(2)O(2).</Catalytic_Mechanism>
+  <Pfam_ID>PF01593:Amino_oxidase</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>13</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Monoamine oxidase type B</Alias>
+      <Alias>MAO-B</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: a primary amine + H2O + O2 = an aldehyde + NH3 + hydrogen peroxide.</Detail>
+      <Keyword>Primary amine oxidase activity</Keyword>
+      <Ontology_ID>GO:0008131</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular entity that serves as an electron acceptor and electron donor in an electron transport system.</Detail>
+      <Keyword>Electron carrier activity</Keyword>
+      <Ontology_ID>GO:0009055</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving small molecules, any monomeric molecule of small relative molecular mass.</Detail>
+      <Keyword>Small molecule metabolic process</Keyword>
+      <Ontology_ID>GO:0044281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving a xenobiotic compound, a compound foreign to living organisms. Used of chemical compounds, e.g. a xenobiotic chemical, such as a pesticide.</Detail>
+      <Keyword>Xenobiotic metabolic process</Keyword>
+      <Ontology_ID>GO:0006805</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>N-acetylserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>52</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>397</Position>
+      <PTM_Type>S-8alpha-FAD cysteine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSNKCDVVVVGGGISGMAAAKLLHDSGLNVVVLEARDRVGGRTYTLRNQKVKYVDLGGSYVGPTQNRILRLAKELGLETYKVNEVERLIHHVKGKSYPFRGPFPPVWNPITYLDHNNFWRTMDDMGREIPSDAPWKAPLAEEWDNMTMKELLDKLCWTESAKQLATLFVNLCVTAETHEVSALWFLWYVKQCGGTTRIISTTNGGQERKFVGGSGQVSERIMDLLGDRVKLERPVIYIDQTRENVLVETLNHEMYEAKYVISAIPPTLGMKIHFNPPLPMMRNQMITRVPLGSVIKCIVYYKEPFWRKKDYCGTMIIDGEEAPVAYTLDDTKPEGNYAAIMGFILAHKARKLARLTKEERLKKLCELYAKVLGSLEALEPVHYEEKNWCEEQYSGGCYTTYFPPGILTQYGRVLRQPVDRIYFAGTETATHWSGYMEGAVEAGERAAREILHAMGKIPEDEIWQSEPESVDVPAQPITTTFLERHLPSVPGLLRLIGLTTIFSATALGFLAHKRGLLVRV</Protein_Seq>
+    <DNA_Seq>GCGCGTCCGGGCTCCCGGGGCTGGTAATATAGCGGCTCGCCGAGGCGCTGGTGCACGGGGGCAGCGCGCAGCAGGCCGGCGGGCAGGCGGGCGGGCTGGCTGGCAGGCAGGACTGGGATCGAGGCCCAGAAAACGGAGCAGCGGGCACCAGGGAGGCCTGGAACGGGGCGAGCGCCATGAGCAACAAATGCGACGTGGTCGTGGTGGGGGGCGGCATCTCAGGTATGGCAGCAGCCAAACTTCTGCATGACTCTGGACTGAATGTGGTTGTTCTGGAAGCCCGGGACCGTGTGGGAGGCAGGACTTACACTCTTAGGAACCAAAAGGTTAAATATGTGGACCTTGGAGGATCCTATGTTGGACCAACCCAGAATCGTATCTTGAGATTAGCCAAGGAGCTAGGATTGGAGACCTACAAAGTGAATGAGGTTGAGCGTCTGATCCACCATGTAAAGGGCAAATCATACCCCTTCAGGGGGCCATTCCCACCTGTATGGAATCCAATTACCTACTTAGATCATAACAACTTTTGGAGGACAATGGATGACATGGGGCGAGAGATTCCGAGTGATGCCCCATGGAAGGCTCCCCTTGCAGAAGAGTGGGACAACATGACAATGAAGGAGCTACTGGACAAGCTCTGCTGGACTGAATCTGCAAAGCAGCTTGCCACTCTCTTTGTGAACCTGTGTGTCACTGCAGAGACCCATGAGGTCTCTGCTCTCTGGTTCCTGTGGTATGTGAAGCAGTGTGGAGGCACAACAAGAATCATCTCGACAACAAATGGAGGACAGGAGAGGAAATTTGTGGGCGGATCTGGTCAAGTGAGTGAGCGGATAATGGACCTCCTTGGAGACCGAGTGAAGCTGGAGAGGCCTGTGATCTACATTGACCAGACAAGAGAAAATGTCCTTGTGGAGACCCTAAACCATGAGATGTATGAGGCTAAATATGTGATTAGTGCTATTCCTCCTACTCTGGGCATGAAGATTCACTTCAATCCCCCTCTGCCAATGATGAGAAACCAGATGATCACTCGTGTGCCTTTGGGTTCAGTCATCAAGTGTATAGTTTATTATAAAGAGCCTTTCTGGAGGAAAAAGGATTACTGTGGAACCATGATTATTGATGGAGAAGAAGCTCCAGTTGCCTACACGTTGGATGATACCAAACCTGAAGGCAACTATGCTGCCATAATGGGATTTATCCTGGCCCACAAAGCCAGAAAACTGGCACGTCTTACCAAAGAGGAAAGGTTGAAGAAACTTTGTGAACTCTATGCCAAGGTTCTGGGTTCCCTAGAAGCTCTGGAGCCAGTGCATTATGAAGAAAAGAACTGGTGTGAGGAGCAGTACTCTGGGGGCTGCTACACAACTTATTTCCCCCCTGGGATCCTGACTCAATATGGAAGGGTTCTACGCCAGCCAGTGGACAGGATTTACTTTGCAGGCACCGAGACTGCCACACACTGGAGCGGCTACATGGAGGGGGCTGTAGAGGCCGGGGAGAGAGCAGCCCGAGAGATCCTGCATGCCATGGGGAAGATTCCAGAGGATGAAATCTGGCAGTCAGAACCAGAGTCTGTGGATGTCCCTGCACAGCCCATCACCACCACCTTTTTGGAGAGACATTTGCCCTCCGTGCCAGGCCTGCTCAGGCTGATTGGATTGACCACCATCTTTTCAGCAACGGCTCTTGGCTTCCTGGCCCACAAAAGGGGGCTACTTGTGAGAGTCTAAAGAGAGAGGGTGTCTGTAATCACACTCTCTTCTTACTGTATTTGGGATATGAGTTTGGGGAAAGAGTTGCAGTAAAGTTCCATGAAGACAAATAGTGTGGAGTGAGGCGGGGAGCATGAAGATAAATCCAACTCTGACTGTAAAATACATGGTATCTCTTTCTCCGTTGTGGCCCCTGCTTAGTGTCCCTTACCTGGCTTAGCGTTCTGTTTCACCAGTTTCCAAGTTTATTGCCCTCAAAATCTTTAGAATAGTTAAATTGGCTTGTTTAAGGTTCTTGCTGCCCCACAACACACCTTGCCCATGCACAAGGAATGAATTTTTTCCTACCATTATGGCTTTGTGCTTGTTCTTCCTCTTACCTGTAATAGCCTCACCTTCCCTAGTTCTTTGCATTCGTCCTTAGAATACTGTATTGTTACAGCTGAAAGACAGTAAAGACCATTTAGTCCTCACCTTCTGTTTTAGAGTTGAGCAAACTGAAGCCCACAGAGGTGGAACTTAATTACCTAAGAGCCACAATAAGCCACTGGTATCTGGGGGACTAGAACACAAATCCAACGCTTTTCCCACCTCTTTGGATGTTTTCCCCAATTATCCTCCTTCACTCCCTGTCATAGTTACCGATGGTGTCCCGTTGTGTGGGTTTACTCTGTGCTAAGTTGTCTTACACTTCTCAAATGCTACTCAGTATATAGCCTTAAGTCTTACTGTTTTGTGCGGTGTGTCTCCAGCTGATTTTAACTTTTTTGATGGTAGAAATTTTATCTCTTCTTCCTTTTGTATCCTCCATTGTATCTTCATACAAAGGACAGTACACACTTGGGTAATTAAAAATAAAAGTTGATTGACCATAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion outer membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrial outer membrane</CellLocal>
+      <Ontology_ID>GO:0005741</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>MAOB</Gene_Name>
+    <Gene_ID>4129</Gene_ID>
+    <Genbank_ACCN>NM_000898</Genbank_ACCN>
+    <Protein_ACCN>NP_000889</Protein_ACCN>
+    <HGNC_ID>6834</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/4129</Gene_URL>
+    <UCSC_ID>uc004dfz.4</UCSC_ID>
+    <EMBL_ID>ENSG00000069535</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Psychotic Disorder</Disease_Name>
+      <Disease_Detail>Psychotic Disorder</Disease_Detail>
+      <Disease_DB>PSY004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/psychotic_disorder?search=MAOB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Attention Deficit Hyperactivity Disorder</Disease_Name>
+      <Disease_Detail>Attention Deficit Hyperactivity Disorder</Disease_Detail>
+      <Disease_DB>ATT002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/attention_deficit_hyperactivity_disorder?search=MAOB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Norrie Disease</Disease_Name>
+      <Disease_Detail>Norrie Disease</Disease_Detail>
+      <Disease_DB>NRR002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/norrie_disease?search=MAOB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Substance Abuse</Disease_Name>
+      <Disease_Detail>Substance Abuse</Disease_Detail>
+      <Disease_DB>SBS003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/substance_abuse?search=MAOB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Schizophrenia</Disease_Name>
+      <Disease_Detail>Schizophrenia</Disease_Detail>
+      <Disease_DB>SCH015</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/schizophrenia?search=MAOB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pathological Gambling</Disease_Name>
+      <Disease_Detail>Pathological Gambling</Disease_Detail>
+      <Disease_DB>PTH002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pathological_gambling?search=MAOB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hepatic Encephalopathy</Disease_Name>
+      <Disease_Detail>Hepatic Encephalopathy</Disease_Detail>
+      <Disease_DB>HPT019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hepatic_encephalopathy?search=MAOB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Deep Brain Stimulation for Parkinson's Disease</Disease_Name>
+      <Disease_Detail>Deep Brain Stimulation for Parkinson's Disease</Disease_Detail>
+      <Disease_DB>DPB001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/deep_brain_stimulation_for_parkinsons_disease?search=MAOB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Parkinson's Disease</Disease_Name>
+      <Disease_Detail>Parkinson's Disease</Disease_Detail>
+      <Disease_DB>PRK002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/parkinsons_disease?search=MAOB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Antisocial Personality Disorder</Disease_Name>
+      <Disease_Detail>Antisocial Personality Disorder</Disease_Detail>
+      <Disease_DB>ANT011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/antisocial_personality_disorder?search=MAOB#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>HUMAN MONOAMINE OXIDASE B IN COMPLEX WITH LAURYLDIMETHYLAMINE-N-OXIDE (LDAO)</PDB_Title>
+      <PDB_ID>1OJD</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OJD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights Into the Mode of Inhibition of Human Mitochondrial Monoamine Oxidase B from High-Resolution Crystal Structures</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2003)100:9750</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12913124?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF HUMAN MAO B IN COMPLEX WITH THE SELECTIVE INHIBITOR 7-(3-CHLOROBENZYLOXY)-4-(METHYLAMINO)METHYL-COUMARIN</PDB_Title>
+      <PDB_ID>2V61</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2V61</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000010</ASD_Ligand>
+      <PubMed_Title>Structures of Human Monoamine Oxidase B Complexes with Selective Noncovalent Inhibitors: Safinamide and Coumarin Analogs.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:5848</Journal>
+      <PubMed_ID>17915852</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN MONOAMINE OXIDASE B IN COMPLEX WITH ISATIN</PDB_Title>
+      <PDB_ID>1OJA</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OJA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights Into the Mode of Inhibition of Human Mitochondrial Monoamine Oxidase B from High-Resolution Crystal Structures</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2003)100:9750</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12913124?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MAOB in complex with N-propargyl-1(R)-aminoindan (Rasagiline)</PDB_Title>
+      <PDB_ID>1S2Q</PDB_ID>
+      <Resolution>2.07</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S2Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Monoamine Oxidase B in Complex with Four Inhibitors of the N-Propargylaminoindan Class.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Med.Chem.(2004)47:1767-1774</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15027868?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human monoamine oxidase B in complex with the multi-target inhibitor ASS234</PDB_Title>
+      <PDB_ID>4CRT</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CRT</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000007</ASD_Ligand>
+      <PubMed_Title>Kinetic and Structural Analysis of the Irreversible Inhibition of Human Monoamine Oxidases by Ass234, a Multi-Target Compound Designed for Use in Alzheimer'S Disease.</PubMed_Title>
+      <Author>Esteban, G., et al.</Author>
+      <Journal>Biochim.Biophys.Acta(2014)1844:1104</Journal>
+      <PubMed_ID>24642166</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MAOB in complex with N-methyl-N-propargyl-1(R)-aminoindan</PDB_Title>
+      <PDB_ID>1S3B</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S3B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Monoamine Oxidase B in Complex with Four Inhibitors of the N-Propargylaminoindan Class.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Med.Chem.(2004)47:1767-1774</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15027868?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN MONOAMINE OXIDASE B IN COMPLEX WITH FARNESOL</PDB_Title>
+      <PDB_ID>2BK3</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BK3</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000015</ASD_Ligand>
+      <PubMed_Title>Demonstration of Isoleucine 199 as a Structural Determinant for the Selective Inhibition of Human Monoamine Oxidase B by Specific Reversible Inhibitors</PubMed_Title>
+      <Author>Hubalek, F., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:15761</Journal>
+      <PubMed_ID>15710600</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FUNCTIONAL ROLE OF THE AROMATIC CAGE IN HUMAN MONOAMINE OXIDASE B: STRUCTURES AND CATALYTIC PROPERTIES OF TYR435 MUTANT PROTEINS</PDB_Title>
+      <PDB_ID>2C72</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C72</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Functional Role of the Aromatic Cage in Human Monoamine Oxidase B: Structures and Catalytic Properties of Tyr435 Mutant Proteins</PubMed_Title>
+      <Author>Li, M., et al.</Author>
+      <Journal>Biochemistry(2006)45:4775</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16605246?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ISATIN-INHIBITED HUMAN MONOAMINE OXIDASE B IN COMPLEX WITH 2-(2-BENZOFURANYL)-2-IMIDAZOLINE</PDB_Title>
+      <PDB_ID>2XFP</PDB_ID>
+      <Resolution>1.66</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XFP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000001</ASD_Ligand>
+      <PubMed_Title>Potentiation of Ligand Binding Through Cooperative Effects in Monoamine Oxidase B.</PubMed_Title>
+      <Author>Bonivento, D., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:36849-36856</Journal>
+      <PubMed_ID>20855894</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FUNCTIONAL ROLE OF THE AROMATIC CAGE IN HUMAN MONOAMINE OXIDASE B: STRUCTURES AND CATALYTIC PROPERTIES OF TYR435 MUTANT PROTEINS</PDB_Title>
+      <PDB_ID>2C75</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C75</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Functional Role of the Aromatic Cage in Human Monoamine Oxidase B: Structures and Catalytic Properties of Tyr435 Mutant Proteins</PubMed_Title>
+      <Author>Li, M., et al.</Author>
+      <Journal>Biochemistry(2006)45:4775</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16605246?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN MONOAMINE OXIDASE B: I199F MUTANT IN COMPLEX WITH ISATIN</PDB_Title>
+      <PDB_ID>2BK5</PDB_ID>
+      <Resolution>1.83</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BK5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Demonstration of Isoleucine 199 as a Structural Determinant for the Selective Inhibition of Human Monoamine Oxidase B by Specific Reversible Inhibitors.</PubMed_Title>
+      <Author>Hubalek, F., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:15761</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15710600?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human monoamine oxidase B in complex with zonisamide</PDB_Title>
+      <PDB_ID>3PO7</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PO7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Interactions of Monoamine Oxidases with the Antiepileptic Drug Zonisamide: Specificity of Inhibition and Structure of the Human Monoamine Oxidase B Complex</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>rasagiline-inhibited human monoamine oxidase B in complex with 2-(2- benzofuranyl)-2-imidazoline</PDB_Title>
+      <PDB_ID>2XFQ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XFQ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000001</ASD_Ligand>
+      <PubMed_Title>Potentiation of Ligand Binding Through Cooperative Effects in Monoamine Oxidase B.</PubMed_Title>
+      <Author>Bonivento, D., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:36849</Journal>
+      <PubMed_ID>20855894</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FUNCTIONAL ROLE OF THE AROMATIC CAGE IN HUMAN MONOAMINE OXIDASE B: STRUCTURES AND CATALYTIC PROPERTIES OF TYR435 MUTANT PROTEINS</PDB_Title>
+      <PDB_ID>2C70</PDB_ID>
+      <Resolution>2.06</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C70</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Functional Role of the Aromatic Cage in Human Monoamine Oxidase B: Structures and Catalytic Properties of Tyr435 Mutant Proteins</PubMed_Title>
+      <Author>Li, M., et al.</Author>
+      <Journal>Biochemistry(2006)45:4775</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16605246?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN MONOAMINE OXIDASE B IN COMPLEX WITH N-(2-AMINOETHYL)-P-CHLOROBENZAMIDE</PDB_Title>
+      <PDB_ID>1OJC</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OJC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights Into the Mode of Inhibition of Human Mitochondrial Monoamine Oxidase B from High-Resolution Crystal Structures</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2003)100:9750</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12913124?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MAO INHIBITION BY RASAGILINE ANALOGUES</PDB_Title>
+      <PDB_ID>2C65</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C65</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000013</ASD_Ligand>
+      <PubMed_Title>Binding of Rasagiline-Related Inhibitors to Human Monoamine Oxidases: A Kinetic and Crystallographic Analysis.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Med.Chem.(2005)48:8148</Journal>
+      <PubMed_ID>16366596</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN MONOAMINE OXIDASE B IN COMPLEX WITH 2-(2-BENZOFURANYL) -2-IMIDAZOLINE</PDB_Title>
+      <PDB_ID>2XFN</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XFN</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000001</ASD_Ligand>
+      <PubMed_Title>Potentiation of Ligand Binding Through Cooperative Effects in Monoamine Oxidase B.</PubMed_Title>
+      <Author>Bonivento, D., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:36849</Journal>
+      <PubMed_ID>20855894</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF HUMAN MAO B IN COMPLEX WITH PHENYETHYLHYDRAZINE</PDB_Title>
+      <PDB_ID>2VRM</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2VRM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and Mechanistic Studies of Arylalkylhydrazine Inhibition of Human Monoamine Oxidases a and B</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>Biochemistry(2008)47:5616-5625</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18426226?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF HUMAN MAO B IN COMPLEX WITH THE SELECTIVE INHIBITOR SAFINAMIDE</PDB_Title>
+      <PDB_ID>2V5Z</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2V5Z</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000012</ASD_Ligand>
+      <PubMed_Title>Structures of Human Monoamine Oxidase B Complexes with Selective Noncovalent Inhibitors: Safinamide and Coumarin Analogs.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:5848</Journal>
+      <PubMed_ID>17915852</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FUNCTIONAL ROLE OF THE AROMATIC CAGE IN HUMAN MONOAMINE OXIDASE B: STRUCTURES AND CATALYTIC PROPERTIES OF TYR435 MUTANT PROTEINS</PDB_Title>
+      <PDB_ID>2C73</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C73</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Functional Role of the Aromatic Cage in Human Monoamine Oxidase B: Structures and Catalytic Properties of Tyr435 Mutant Proteins</PubMed_Title>
+      <Author>Li, M., et al.</Author>
+      <Journal>Biochemistry(2006)45:4775</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16605246?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN MAO B IN COMPLEX WITH MOFEGILINE</PDB_Title>
+      <PDB_ID>2VZ2</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2VZ2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and Mechanistic Studies of Mofegiline Inhibition of Human Recombinant Monoamine Oxidase B</PubMed_Title>
+      <Author>Milczek, E.M., et al.</Author>
+      <Journal>J.Med.Chem.(2008)51:8019-8026</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19053775?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN MONOAMINE OXIDASE B WITH TRANYLCYPROMINE</PDB_Title>
+      <PDB_ID>2XFU</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XFU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights Into the Mode of Inhibition of Human Mitochondrial Monoamine Oxidase B from High- Resolution Crystal Structures.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2003)100:9750-9755</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12913124?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF HUMAN MAO B IN COMPLEX WITH THE SELECTIVE INHIBITOR 7-(3-CHLOROBENZYLOXY)-4-CARBOXALDEHYDE-COUMARIN</PDB_Title>
+      <PDB_ID>2V60</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2V60</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000011</ASD_Ligand>
+      <PubMed_Title>Structures of Human Monoamine Oxidase B Complexes with Selective Noncovalent Inhibitors: Safinamide and Coumarin Analogs.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:5848</Journal>
+      <PubMed_ID>17915852</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRANYLCYPROMINE-INHIBITED HUMAN MONOAMINE OXIDASE B ILE199ALA MUTANT IN COMPLEX WITH 2-(2-BENZOFURANYL)-2-IMIDAZOLINE</PDB_Title>
+      <PDB_ID>2XFO</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XFO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000001</ASD_Ligand>
+      <PubMed_Title>Potentiation of Ligand Binding Through Cooperative Effects in Monoamine Oxidase B.</PubMed_Title>
+      <Author>Bonivento, D., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:36849-36856</Journal>
+      <PubMed_ID>20855894</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MAOB in complex with 6-hydroxy-N-propargyl-1(R)-aminoindan</PDB_Title>
+      <PDB_ID>1S3E</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S3E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Monoamine Oxidase B in Complex with Four Inhibitors of the N-Propargylaminoindan Class.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Med.Chem.(2004)47:1767-1774</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15027868?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MAO INHIBITION BY RASAGILINE ANALOGUES</PDB_Title>
+      <PDB_ID>2C64</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C64</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Binding of Rasagiline-Related Inhibitors to Human Monoamine Oxidases: A Kinetic and Crystallographic Analysis.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Med.Chem.(2005)48:8148</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16366596?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MAOB in complex with N-propargyl-1(S)-aminoindan</PDB_Title>
+      <PDB_ID>1S2Y</PDB_ID>
+      <Resolution>2.12</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S2Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Monoamine Oxidase B in Complex with Four Inhibitors of the N-Propargylaminoindan Class.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Med.Chem.(2004)47:1767-1774</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15027868?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human monoamine oxidase B (MAO B) in complex with pioglitazone</PDB_Title>
+      <PDB_ID>4A79</PDB_ID>
+      <Resolution>1.89</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4A79</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000008</ASD_Ligand>
+      <PubMed_Title>Molecular Insights Into Human Monoamine Oxidase B Inhibition by the Glitazone Anti-Diabetes Drugs</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>Acs Med. Chem. Lett.(2012)3:39-42</Journal>
+      <PubMed_ID>22282722</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human monoamine oxidase B (MAO B) in complex with rosiglitazone</PDB_Title>
+      <PDB_ID>4A7A</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4A7A</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000009</ASD_Ligand>
+      <PubMed_Title>Molecular Insights Into Human Monoamine Oxidase B Inhibition by the Glitazone Anti-Diabetes Drugs</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>Acs Med. Chem. Lett.(2012)3:39-42</Journal>
+      <PubMed_ID>22282722</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TRANYLCYPROMINE-INHIBITED HUMAN MONOAMINE OXIDASE B IN COMPLEX WITH 2-(2-BENZOFURANYL)-2-IMIDAZOLINE</PDB_Title>
+      <PDB_ID>2XCG</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XCG</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000001</ASD_Ligand>
+      <PubMed_Title>Potentiation of Ligand Binding Through Cooperative Effects in Monoamine Oxidase B.</PubMed_Title>
+      <Author>Bonivento, D., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:36849-36856</Journal>
+      <PubMed_ID>20855894</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FUNCTIONAL ROLE OF THE AROMATIC CAGE IN HUMAN MONOAMINE OXIDASE B: STRUCTURES AND CATALYTIC PROPERTIES OF TYR435 MUTANT PROTEINS</PDB_Title>
+      <PDB_ID>2C76</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C76</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Functional Role of the Aromatic Cage in Human Monoamine Oxidase B: Structures and Catalytic Properties of Tyr435 Mutant Proteins</PubMed_Title>
+      <Author>Li, M., et al.</Author>
+      <Journal>Biochemistry(2006)45:4775</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16605246?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN MONOAMINE OXIDASE B IN COMPLEX WITH 1,4-DIPHENYL-2-BUTENE</PDB_Title>
+      <PDB_ID>1OJ9</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OJ9</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000016</ASD_Ligand>
+      <PubMed_Title>Insights Into the Mode of Inhibition of Human Mitochondrial Monoamine Oxidase B from High-Resolution Crystal Structures</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2003)100:9750</Journal>
+      <PubMed_ID>12913124</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MAO INHIBITION BY RASAGILINE ANALOGUES</PDB_Title>
+      <PDB_ID>2C67</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C67</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Binding of Rasagiline-Related Inhibitors to Human Monoamine Oxidases: A Kinetic and Crystallographic Analysis.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Med.Chem.(2005)48:8148</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16366596?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF HUMAN MAO B IN COMPLEX WITH BENZYLHYDRAZINE</PDB_Title>
+      <PDB_ID>2VRL</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2VRL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and Mechanistic Studies of Arylalkylhydrazine Inhibition of Human Monoamine Oxidases a and B</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>Biochemistry(2008)47:5616-5625</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18426226?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HUMAN MONOAMINE OXIDASE B IN COMPLEX WITH METHYLENE BLUE AND BEARING THE DOUBLE MUTATION I199A-Y326A</PDB_Title>
+      <PDB_ID>3ZYX</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ZYX</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000006</ASD_Ligand>
+      <PubMed_Title>The 'Gating' Residues Ile199 and Tyr326 in Human Monoamine Oxidase B Function in Substrate and Inhibitor Recognition.</PubMed_Title>
+      <Author>Milczek, E.M., et al.</Author>
+      <Journal>FEBS J.(2011)278:4860</Journal>
+      <PubMed_ID>21978362</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN MONOAMINE OXIDASE B IN COMPLEX WITH DEPRENYL</PDB_Title>
+      <PDB_ID>2BYB</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BYB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07000014</ASD_Ligand>
+      <PubMed_Title>Three-Dimensional Structure of Human Monoamine Oxidase a (Mao A): Relation to the Structures of Rat Mao a and Human Mao B</PubMed_Title>
+      <Author>De Colibus, L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2005)102:12864</Journal>
+      <PubMed_ID>16129825</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MAO INHIBITION BY RASAGILINE ANALOGUES</PDB_Title>
+      <PDB_ID>2C66</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C66</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Binding of Rasagiline-Related Inhibitors to Human Monoamine Oxidases: A Kinetic and Crystallographic Analysis.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Med.Chem.(2005)48:8148</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16366596?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Monoamine Oxidase B: I199F mutant in complex with rasagiline</PDB_Title>
+      <PDB_ID>2BK4</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BK4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Demonstration of Isoleucine 199 as a Structural Determinant for the Selective Inhibition of Human Monoamine Oxidase B by Specific Reversible Inhibitors</PubMed_Title>
+      <Author>Hubalek, F., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:15761</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15710600?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN MONOAMINE OXIDASE B</PDB_Title>
+      <PDB_ID>1GOS</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GOS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of Human Monoamine Oxidase B, a Drug Target for the Treatment of Neurological Disorders</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>Nat.Struct.Biol.(2001)9:22</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11753429?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00350</Pathway_ID>
+      <Pathway_Title>Tyrosine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05034</Pathway_ID>
+      <Pathway_Title>Alcoholism</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00350</Pathway_ID>
+      <Pathway_Title>Tyrosine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05030</Pathway_ID>
+      <Pathway_Title>Cocaine addiction</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04728</Pathway_ID>
+      <Pathway_Title>Dopaminergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05031</Pathway_ID>
+      <Pathway_Title>Amphetamine addiction</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05034</Pathway_ID>
+      <Pathway_Title>Alcoholism</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00380</Pathway_ID>
+      <Pathway_Title>Tryptophan metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05031</Pathway_ID>
+      <Pathway_Title>Amphetamine addiction</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00982</Pathway_ID>
+      <Pathway_Title>Drug metabolism - cytochrome P450</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Xenobiotics biodegradation and metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05030</Pathway_ID>
+      <Pathway_Title>Cocaine addiction</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00340</Pathway_ID>
+      <Pathway_Title>Histidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00380</Pathway_ID>
+      <Pathway_Title>Tryptophan metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04728</Pathway_ID>
+      <Pathway_Title>Dopaminergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00982</Pathway_ID>
+      <Pathway_Title>Drug metabolism - cytochrome P450</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Xenobiotics biodegradation and metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00350</Pathway_ID>
+      <Pathway_Title>Tyrosine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00380</Pathway_ID>
+      <Pathway_Title>Tryptophan metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00360</Pathway_ID>
+      <Pathway_Title>Phenylalanine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00982</Pathway_ID>
+      <Pathway_Title>Drug metabolism - cytochrome P450</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Xenobiotics biodegradation and metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00350</Pathway_ID>
+      <Pathway_Title>Tyrosine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00350</Pathway_ID>
+      <Pathway_Title>Tyrosine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00350</Pathway_ID>
+      <Pathway_Title>Tyrosine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00950</Pathway_ID>
+      <Pathway_Title>Isoquinoline alkaloid biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Biosynthesis of other secondary metabolites</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05030</Pathway_ID>
+      <Pathway_Title>Cocaine addiction</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00350</Pathway_ID>
+      <Pathway_Title>Tyrosine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05031</Pathway_ID>
+      <Pathway_Title>Amphetamine addiction</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04728</Pathway_ID>
+      <Pathway_Title>Dopaminergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00380</Pathway_ID>
+      <Pathway_Title>Tryptophan metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05034</Pathway_ID>
+      <Pathway_Title>Alcoholism</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04726</Pathway_ID>
+      <Pathway_Title>Serotonergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00260</Pathway_ID>
+      <Pathway_Title>Glycine, serine and threonine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.dd.b.f.e.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1gos</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,102,Pro;site,199,Ile;site,316,Ile;site,326,Tyr</Site_Detail>
+      <Site_Reference>Bonivento D, et al. J Biol Chem. 2010,285(47):36849-36856.</Site_Reference>
+      <Site_Type>Open-Close</Site_Type>
+      <PDB_ID>2XCG;2XFN;2XFO;2XFP;2XFQ</PDB_ID>
+      <PubMed_ID>20855894</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.4.3.4</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/4.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02620003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07000016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08200000_3</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P15070</UniProt_ID>
+  <Seq_Length>137</Seq_Length>
+  <Molecule_Weight>14855</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p1916</KEGG_ID>
+  <Orthology_ID>K02417</Orthology_ID>
+  <EBI_ID>EBI-2011987</EBI_ID>
+  <Function_Summary>FliN is one of three proteins (FliG, FliN, FliM) that form a switch complex that is proposed to be located at the base of the basal body. This complex interacts with the CheY and CheZ chemotaxis proteins, in addition to contacting components of the motor that determine the direction of flagellar rotation.</Function_Summary>
+  <Pfam_ID>PF01052:SpoA</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of movement along a polymeric molecule such as a microfilament or microtubule, coupled to the hydrolysis of a nucleoside triphosphate.</Detail>
+      <Keyword>Motor activity</Keyword>
+      <Ontology_ID>GO:0003774</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of a motile cell or organism, or the directed growth of a cell guided by a specific chemical concentration gradient. Movement may be towards a higher concentration (positive chemotaxis) or towards a lower concentration (negative chemotaxis).</Detail>
+      <Keyword>Chemotaxis</Keyword>
+      <Ontology_ID>GO:0006935</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Cell motility due to movement of cilia or flagella.</Detail>
+      <Keyword>Ciliary or flagellar motility</Keyword>
+      <Ontology_ID>GO:0001539</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MSDMNNPADDNNGAMDDLWAEALSEQKSTSSKSAAETVFQQFGGGDVSGTLQDIDLIMDIPVKLTVELGRTRMTIKELLRLTQGSVVALDGLAGEPLDILINGYLIAQGEVVVVADKYGVRITDIITPSERMRRLSR</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Bacterial-type flagellum</CellLocal>
+      <Ontology_ID>GO:0009288</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Bacterial flagellum basal body</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Bacterial-type flagellum basal body</CellLocal>
+      <Ontology_ID>GO:0009425</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell inner membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>fliN</Gene_Name>
+    <Gene_Alias>flaN; motD</Gene_Alias>
+    <Gene_ID>12932048</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_416456</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/946423</Gene_URL>
+    <EMBL_ID>EBESCG00000017176</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P06974</Uniprot_ID>
+      <Gene_Name>fliM</Gene_Name>
+      <EBI_ID>EBI-560439</EBI_ID>
+      <PPI_EBI_URL>EBI-2011987,EBI-560439</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Flagellar motor switch protein FliN</PDB_Title>
+      <PDB_ID>ASD08200000_3</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Conformational spread model</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

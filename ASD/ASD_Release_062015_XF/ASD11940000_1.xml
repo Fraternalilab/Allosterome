@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11940000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q96PN6</UniProt_ID>
+  <Seq_Length>1610</Seq_Length>
+  <Molecule_Weight>187149</Molecule_Weight>
+  <KEGG_ID>hsa:55811</KEGG_ID>
+  <Orthology_ID>K11265</Orthology_ID>
+  <Function_Summary>Soluble adenylyl cyclase that has a critical role in mammalian spermatogenesis. Produces the cAMP which mediates in part the cAMP-responsive nuclear factors indispensable for maturation of sperm in the epididymis. Induces capacitation, the maturational process that sperm undergo prior to fertilization. May be the bicarbonate sensor. Involved in ciliary beat regulation.</Function_Summary>
+  <Catalytic_Mechanism>ATP = 3',5'-cyclic AMP + diphosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00211:Guanylate_cyc</Pfam_ID>
+  <Allosteric_Activator_Count>15</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Germ cell soluble adenylyl cyclase</Alias>
+      <Alias>Adenylate cyclase homolog</Alias>
+      <Alias>AH-related protein</Alias>
+      <Alias>Testicular soluble adenylyl cyclase</Alias>
+      <Alias>hsAC</Alias>
+      <Alias>sAC</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with manganese (Mn) ions.</Detail>
+      <Keyword>Manganese ion binding</Keyword>
+      <Ontology_ID>GO:0030145</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP = 3',5'-cyclic AMP + diphosphate.</Detail>
+      <Keyword>Adenylate cyclase activity</Keyword>
+      <Ontology_ID>GO:0004016</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of the nucleotide cAMP (cyclic AMP, adenosine 3',5'-cyclophosphate).</Detail>
+      <Keyword>CAMP biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006171</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a signal is passed on to downstream components within the cell, which become activated themselves to further propagate the signal and finally trigger a change in the function or state of the cell.</Detail>
+      <Keyword>Intracellular signal transduction</Keyword>
+      <Ontology_ID>GO:0035556</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of cell death by apoptosis.</Detail>
+      <Keyword>Positive regulation of apoptosis</Keyword>
+      <Ontology_ID>GO:0043065</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of formation of spermatozoa, including spermatocytogenesis and spermiogenesis.</Detail>
+      <Keyword>Spermatogenesis</Keyword>
+      <Ontology_ID>GO:0007283</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MNTPKEEFQDWPIVRIAAHLPDLIVYGHFSPERPFMDYFDGVLMFVDISGFTAMTEKFSSAMYMDRGAEQLVEILNYHISAIVEKVLIFGGDILKFAGDALLALWRVERKQLKNIITVVIKCSLEIHGLFETQEWEEGLDIRVKIGLAAGHISMLVFGDETHSHFLVIGQAVDDVRLAQNMAQMNDVILSPNCWQLCDRSMIEIESVPDQRAVKVNFLKPPPNFNFDEFFTKCTTFMHYYPSGEHKNLLRLACTLKPDPELEMSLQKYVMESILKQIDNKQLQGYLSELRPVTIVFVNLMFEDQDKAEEIGPAIQDAYMHITSVLKIFQGQINKVFMFDKGCSFLCVFGFPGEKVPDELTHALECAMDIFDFCSQVHKIQTVSIGVASGIVFCGIVGHTVRHEYTVIGQKVNLAARMMMYYPGIVTCDSVTYNGSNLPAYFFKELPKKVMKGVADSGPLYQYWGRTEKVMFGMACLICNRKEDYPLLGRNKEINYFMYTMKKFLISNSSQVLMYEGLPGYGKSQILMKIEYLAQGKNHRIIAISLNKISFHQTFYTIQMFMANVLGLDTCKHYKERQTNLRNKVMTLLDEKFYCLLNDIFHVQFPISREISRMSTLKKQKQLEILFMKILKLIVKEERIIFIIDEAQFVDSTSWRFMEKLIRTLPIFIIMSLCPFVNIPCAAARAVIKNRNTTYIVIGAVQPNDISNKICLDLNVSCISKELDSYLGEGSCGIPFYCEELLKNLEHHEVLVFQQTESEEKTNRTWNNLFKYSIKLTEKLNMVTLHSDKESEEVCHLTSGVRLKNLSPPTSLKEISLIQLDSMRLSHQMLVRCAAIIGLTFTTELLFEILPCWNMKMMIKTLATLVESNIFYCFRNGKELQKALKQNDPSFEVHYRSLSLKPSEGMDHGEEEQLRELENEVIECHRIRFCNPMMQKTAYELWLKDQRKAMHLKCARFLEEDAHRCDHCRGRDFIPYHHFTVNIRLNALDMDAIKKMAMSHGFKTEEKLILSNSEIPETSAFFPENRSPEEIREKILNFFDHVLTKMKTSDEDIIPLESCQCEEILEIVILPLAHHFLALGENDKALYYFLEIASAYLIFCDNYMAYMYLNEGQKLLKTLKKDKSWSQTFESATFYSLKGEVCFNMGQIVLAKKMLRKALKLLNRIFPYNLISLFLHIHVEKNRHFHYVNRQAQESPPPGKKRLAQLYRQTVCLSLLWRIYSYSYLFHCKYYAHLAVMMQMNTALETQNCFQIIKAYLDYSLYHHLAGYKGVWFKYEVMAMEHIFNLPLKGEGIEIVAYVAETLVFNKLIMGHLDLAIELGSRALQMWALLQNPNRHYQSLCRLSRCLLLNSRYPQLIQVLGRLWELSVTQEHIFSKAFFYFVCLDILLYSGFVYRTFEECLEFIHQYENNRILKFHSGLLLGLYSSVAIWYARLQEWDNFYKFSNRAKNLLPRRTMTLTYYDGISRYMEGQVLHLQKQIKEQSENAQASGEELLKNLENLVAQNTTGPVFCPRLYHLMAYVCILMGDGQKCGLFLNTALRLSETQGNILEKCWLNMNKESWYSTSELKEDQWLQTILSLPSWEKIVAGRVNIQDLQKNKFLMRANTVDNHF</Protein_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Brain</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Axon</CellLocal>
+      <Ontology_ID>GO:0030424</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoskeleton</CellLocal>
+      <Ontology_ID>GO:0005856</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Dendrite</CellLocal>
+      <Ontology_ID>GO:0030425</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Perinuclear region of cytoplasm</CellLocal>
+      <Ontology_ID>GO:0048471</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Apical part of cell</CellLocal>
+      <Ontology_ID>GO:0045177</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Basal part of cell</CellLocal>
+      <Ontology_ID>GO:0045178</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Neuronal cell body</CellLocal>
+      <Ontology_ID>GO:0043025</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Growth cone</CellLocal>
+      <Ontology_ID>GO:0030426</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ADCY10</Gene_Name>
+    <Gene_Alias>SAC</Gene_Alias>
+    <Gene_ID>55811</Gene_ID>
+    <Genbank_ACCN>NM_001167749</Genbank_ACCN>
+    <Protein_ACCN>NP_001161221</Protein_ACCN>
+    <HGNC_ID>21285</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/55811</Gene_URL>
+    <UCSC_ID>uc009wvk.3</UCSC_ID>
+    <EMBL_ID>ENSG00000143199</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Albright's Hereditary Osteodystrophy</Disease_Name>
+      <Disease_Detail>Albright's Hereditary Osteodystrophy</Disease_Detail>
+      <Disease_DB>ALB001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/albrights_hereditary_osteodystrophy?search=ADCY10#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Morphine Dependence</Disease_Name>
+      <Disease_Detail>Morphine Dependence</Disease_Detail>
+      <Disease_DB>MRP001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/morphine_dependence?search=ADCY10#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Humoral Hypercalcemia of Malignancy</Disease_Name>
+      <Disease_Detail>Humoral Hypercalcemia of Malignancy</Disease_Detail>
+      <Disease_DB>HMR009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/humoral_hypercalcemia_of_malignancy?search=ADCY10#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cholera</Disease_Name>
+      <Disease_Detail>Cholera</Disease_Detail>
+      <Disease_DB>CHL014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cholera?search=ADCY10#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Neonatal Hypothyroidism</Disease_Name>
+      <Disease_Detail>Neonatal Hypothyroidism</Disease_Detail>
+      <Disease_DB>NNT019</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/neonatal_hypothyroidism?search=ADCY10#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Adrenal Carcinoma</Disease_Name>
+      <Disease_Detail>Adrenal Carcinoma</Disease_Detail>
+      <Disease_DB>ADR005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adrenal_carcinoma?search=ADCY10#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Neuroblastoma</Disease_Name>
+      <Disease_Detail>Neuroblastoma</Disease_Detail>
+      <Disease_DB>NRB001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/neuroblastoma?search=ADCY10#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hypercalciuria, Absorptive</Disease_Name>
+      <Disease_Detail>Hypercalciuria, Absorptive</Disease_Detail>
+      <Disease_DB>HYP268</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypercalciuria_absorptive?search=ADCY10#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Brain Ischemia</Disease_Name>
+      <Disease_Detail>Brain Ischemia</Disease_Detail>
+      <Disease_DB>BRN080</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/brain_ischemia?search=ADCY10#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase soaked with bisulfite</PDB_Title>
+      <PDB_ID>4CM2</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CM2</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11940014</ASD_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>24567411</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase with Inhibitor 4, 4'-Diisothiocyano-2,2'-stilbenedisulfonic acid</PDB_Title>
+      <PDB_ID>4CLZ</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CLZ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01100001</ASD_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>24567411</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase in complex with alpha,beta-methyleneadenosine-5'-triphosphate</PDB_Title>
+      <PDB_ID>4CLK</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CLK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24567411?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase in complex with alpha,beta-methyleneadenosine-5'-triphosphate</PDB_Title>
+      <PDB_ID>4USU</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4USU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Analysis of Human Soluble Adenylyl Cyclase and Crystal Structures of its Nucleotide Complexes -Implications for Cyclase Catalysis and Evolution.</PubMed_Title>
+      <Author>Kleinbolting, S., et al.</Author>
+      <Journal>FEBS J.(2014)281:4151</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25040695?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase in complex with alpha,beta-methyleneadenosine-5'-triphosphate soaked with bisulfite</PDB_Title>
+      <PDB_ID>4CLW</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CLW</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11940014</ASD_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>24567411</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase with pyrophosphate resulting from soaking with GTP and Magnesium</PDB_Title>
+      <PDB_ID>4UST</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4UST</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Analysis of Human Soluble Adenylyl Cyclase and Crystal Structures of its Nucleotide Complexes -Implications for Cyclase Catalysis and Evolution.</PubMed_Title>
+      <Author>Kleinbolting, S., et al.</Author>
+      <Journal>FEBS J.(2014)281:4151</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25040695?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human solAC Complexed with 4-phenyl-3-(trifluoromethyl)-1H-pyrazole</PDB_Title>
+      <PDB_ID>4OZ3</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OZ3</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11940011</ASD_Ligand>
+      <PubMed_Title>Crystal structure of human soluble adenylate cyclase reveals a distinct, highly flexible allosteric bicarbonate binding pocket.</PubMed_Title>
+      <Author>Saalau-Bethell, S.M., et al.</Author>
+      <Journal>Chemmedchem(2014)9:823-832</Journal>
+      <PubMed_ID>24616449</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human solAC Complexed with Bicarbonate</PDB_Title>
+      <PDB_ID>4OYZ</PDB_ID>
+      <Resolution>1.74</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OYZ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01400003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of human soluble adenylate cyclase reveals a distinct, highly flexible allosteric bicarbonate binding pocket.</PubMed_Title>
+      <Author>Saalau-Bethell, S.M., et al.</Author>
+      <Journal>Chemmedchem(2014)9:823-832</Journal>
+      <PubMed_ID>24616449</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase with alpha,beta- methyleneadenosine-5'-triphosphate soaked with bicarbonate</PDB_Title>
+      <PDB_ID>4CM0</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CM0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24567411?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase (Apo form)</PDB_Title>
+      <PDB_ID>4CLF</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CLF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24567411?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human solAC Complexed with (4-Amino-furazan-3-yl)-(3-methoxy-phenyl)-methanone</PDB_Title>
+      <PDB_ID>4OYM</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OYM</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11940007</ASD_Ligand>
+      <PubMed_Title>Crystal structure of human soluble adenylate cyclase reveals a distinct, highly flexible allosteric bicarbonate binding pocket.</PubMed_Title>
+      <Author>Saalau-Bethell, S.M., et al.</Author>
+      <Journal>Chemmedchem(2014)9:823-832</Journal>
+      <PubMed_ID>24616449</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase with pyrophosphate</PDB_Title>
+      <PDB_ID>4CLU</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CLU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24567411?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase soaked with biselenite</PDB_Title>
+      <PDB_ID>4CLY</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CLY</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11940015</ASD_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>24567411</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase with ATP</PDB_Title>
+      <PDB_ID>4USW</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4USW</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01100001</ASD_Ligand>
+      <PubMed_Title>Structural Analysis of Human Soluble Adenylyl Cyclase and Crystal Structures of its Nucleotide Complexes -Implications for Cyclase Catalysis and Evolution.</PubMed_Title>
+      <Author>Kleinbolting, S., et al.</Author>
+      <Journal>FEBS J.(2014)281:4151</Journal>
+      <PubMed_ID>25040695</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human solAC Complexed with (4-Amino-furazan-3-yl)-phenyl-methanone</PDB_Title>
+      <PDB_ID>4OYI</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OYI</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11940006</ASD_Ligand>
+      <PubMed_Title>Crystal structure of human soluble adenylate cyclase reveals a distinct, highly flexible allosteric bicarbonate binding pocket.</PubMed_Title>
+      <Author>Saalau-Bethell, S.M., et al.</Author>
+      <Journal>Chemmedchem(2014)9:823-832</Journal>
+      <PubMed_ID>24616449</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human solAC Complexed with 4-(4-Fluorophenyl)-3-methyl-1H-pyrazole</PDB_Title>
+      <PDB_ID>4OZ2</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OZ2</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11940026</ASD_Ligand>
+      <PubMed_Title>Crystal structure of human soluble adenylate cyclase reveals a distinct, highly flexible allosteric bicarbonate binding pocket.</PubMed_Title>
+      <Author>Saalau-Bethell, S.M., et al.</Author>
+      <Journal>Chemmedchem(2014)9:823-832</Journal>
+      <PubMed_ID>24616449</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase in complex with bicarbonate</PDB_Title>
+      <PDB_ID>4CLL</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CLL</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01400003</ASD_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>24567411</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure Analysis of the solAC</PDB_Title>
+      <PDB_ID>4OYB</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OYB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11940005</ASD_Ligand>
+      <PubMed_Title>Crystal structure of human soluble adenylate cyclase reveals a distinct, highly flexible allosteric bicarbonate binding pocket.</PubMed_Title>
+      <Author>Saalau-Bethell, S.M., et al.</Author>
+      <Journal>Chemmedchem(2014)9:823-832</Journal>
+      <PubMed_ID>24616449</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase with pyrophosphate resulting from soaking with ATP and Calcium</PDB_Title>
+      <PDB_ID>4USV</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4USV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Analysis of Human Soluble Adenylyl Cyclase and Crystal Structures of its Nucleotide Complexes -Implications for Cyclase Catalysis and Evolution.</PubMed_Title>
+      <Author>Kleinbolting, S., et al.</Author>
+      <Journal>FEBS J.(2014)281:4151</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25040695?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human solAC Complexed with AMPCPP</PDB_Title>
+      <PDB_ID>4OYX</PDB_ID>
+      <Resolution>1.89</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OYX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of human soluble adenylate cyclase reveals a distinct, highly flexible allosteric bicarbonate binding pocket.</PubMed_Title>
+      <Author>Saalau-Bethell, S.M., et al.</Author>
+      <Journal>Chemmedchem(2014)9:823-832</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24616449?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human solAC Complexed with 1-Benzofuran-2-carboxylic acid</PDB_Title>
+      <PDB_ID>4OYP</PDB_ID>
+      <Resolution>2.28</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OYP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11940009</ASD_Ligand>
+      <PubMed_Title>Crystal structure of human soluble adenylate cyclase reveals a distinct, highly flexible allosteric bicarbonate binding pocket.</PubMed_Title>
+      <Author>Saalau-Bethell, S.M., et al.</Author>
+      <Journal>Chemmedchem(2014)9:823-832</Journal>
+      <PubMed_ID>24616449</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase with Pyrophosphate</PDB_Title>
+      <PDB_ID>4CLS</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CLS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24567411?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human solAC Complexed with (4-Aminofurazan-3-yl)-[3-(1H-benzoimidazol-2-ylmethoxy)phenyl]methanone</PDB_Title>
+      <PDB_ID>4OYA</PDB_ID>
+      <Resolution>2.03</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OYA</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11940004</ASD_Ligand>
+      <PubMed_Title>Crystal structure of human soluble adenylate cyclase reveals a distinct, highly flexible allosteric bicarbonate binding pocket.</PubMed_Title>
+      <Author>Saalau-Bethell, S.M., et al.</Author>
+      <Journal>Chemmedchem(2014)9:823-832</Journal>
+      <PubMed_ID>24616449</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase complex with adenosine-3',5'-cyclic-monophosphate</PDB_Title>
+      <PDB_ID>4CLP</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CLP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01100001</ASD_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>24567411</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human soluble Adenylyl Cyclase with adenosine-3', 5'-cyclic-monophosphate and pyrophosphate</PDB_Title>
+      <PDB_ID>4CLT</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4CLT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Human Soluble Adenylyl Cyclase Reveal Mechanisms of Catalysis and of its Activation Through Bicarbonate.</PubMed_Title>
+      <Author>Kleinboelting, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2014)111:3727</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24567411?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human solAC Complexed with 4-(2-Chlorophenyl)-3-methyl-1H-pyrazole</PDB_Title>
+      <PDB_ID>4OYO</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OYO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11940024</ASD_Ligand>
+      <PubMed_Title>Crystal structure of human soluble adenylate cyclase reveals a distinct, highly flexible allosteric bicarbonate binding pocket.</PubMed_Title>
+      <Author>Saalau-Bethell, S.M., et al.</Author>
+      <Journal>Chemmedchem(2014)9:823-832</Journal>
+      <PubMed_ID>24616449</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Human Soluble Adenylate Cyclase</PDB_Title>
+      <PDB_ID>4OYW</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OYW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of human soluble adenylate cyclase reveals a distinct, highly flexible allosteric bicarbonate binding pocket.</PubMed_Title>
+      <Author>Saalau-Bethell, S.M., et al.</Author>
+      <Journal>Chemmedchem(2014)9:823-832</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24616449?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04713</Pathway_ID>
+      <Pathway_Title>Circadian entrainment</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Environmental adaptation</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00230</Pathway_ID>
+      <Pathway_Title>Purine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00230</Pathway_ID>
+      <Pathway_Title>Purine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04024</Pathway_ID>
+      <Pathway_Title>cAMP signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04713</Pathway_ID>
+      <Pathway_Title>Circadian entrainment</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Environmental adaptation</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <PDB_ID>4CLL;4CLP;4CLW;4CLY;4CLZ;4CM2;4OYZ;4USW;4OYA;4OYB;4OYI;4OYM;4OYO;4OYP;4OZ2;4OZ3</PDB_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.6.1.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/6/1/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01100001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01400003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940008</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940010</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940014</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940015</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11940026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-04-08</Create_Date>
+</Organism_Record>

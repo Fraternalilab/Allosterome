@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD09000000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q9UKV8</UniProt_ID>
+  <Seq_Length>859</Seq_Length>
+  <Molecule_Weight>97208</Molecule_Weight>
+  <KEGG_ID>hsa:27161</KEGG_ID>
+  <Orthology_ID>K11593</Orthology_ID>
+  <EBI_ID>EBI-528269</EBI_ID>
+  <Function_Summary>Required for RNA-mediated gene silencing (RNAi) by the RNA-induced silencing complex (RISC). The 'minimal RISC' appears to include EIF2C2/AGO2 bound to a short guide RNA such as a microRNA (miRNA) or short interfering RNA (siRNA). These guide RNAs direct RISC to complementary mRNAs that are targets for RISC-mediated gene silencing. The precise mechanism of gene silencing depends on the degree of complementarity between the miRNA or siRNA and its target. Binding of RISC to a perfectly complementary mRNA generally results in silencing due to endonucleolytic cleavage of the mRNA specifically by EIF2C2/AGO2. Binding of RISC to a partially complementary mRNA results in silencing through inhibition of translation, and this is independent of endonuclease activity. May inhibit translation initiation by binding to the 7-methylguanosine cap, thereby preventing the recruitment of the translation initiation factor eIF4-E. May also inhibit translation initiation via interaction with EIF6, which itself binds to the 60S ribosomal subunit and prevents its association with the 40S ribosomal subunit. The inhibition of translational initiation leads to the accumulation of the affected mRNA in cytoplasmic processing bodies (P-bodies), where mRNA degradation may subsequently occur. In some cases RISC-mediated translational repression is also observed for miRNAs that perfectly match the 3' untranslated region (3'-UTR). Can also up-regulate the translation of specific mRNAs under certain growth conditions. Binds to the AU element of the 3'-UTR of the TNF (TNF-alpha) mRNA and up-regulates translation under conditions of serum starvation. Also required for transcriptional gene silencing (TGS), in which short RNAs known as antigene RNAs or agRNAs direct the transcriptional repression of complementary promoter regions.</Function_Summary>
+  <Catalytic_Mechanism>Endonucleolytic cleavage to 5'-phosphomonoester.</Catalytic_Mechanism>
+  <Pfam_ID>PF08699:DUF1785@@PF02170:PAZ@@PF02171:Piwi</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Argonaute2</Alias>
+      <Alias>Eukaryotic translation initiation factor 2C 2</Alias>
+      <Alias>hAgo2</Alias>
+      <Alias>eIF2C 2</Alias>
+      <Alias>eIF-2C 2</Alias>
+      <Alias>Protein slicer</Alias>
+      <Alias>PAZ Piwi domain protein</Alias>
+      <Alias>PPD</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a small interfering RNA, a 21-23 nucleotide RNA that is processed from double stranded RNA (dsRNA) by an RNAse enzyme.</Detail>
+      <Keyword>SiRNA binding</Keyword>
+      <Ontology_ID>GO:0035197</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an RNA molecule or a portion thereof.</Detail>
+      <Keyword>RNA binding</Keyword>
+      <Ontology_ID>GO:0003723</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages within nucleic acids.</Detail>
+      <Keyword>Nuclease activity</Keyword>
+      <Ontology_ID>GO:0004518</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Functions in the initiation of ribosome-mediated translation of mRNA into a polypeptide.</Detail>
+      <Keyword>Translation initiation factor activity</Keyword>
+      <Ontology_ID>GO:0003743</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with the 7-methylguanosine group added cotranscriptionally to the 5' end of RNA molecules transcribed by polymerase II.</Detail>
+      <Keyword>RNA 7-methylguanosine cap binding</Keyword>
+      <Ontology_ID>GO:0000340</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the endonucleolytic cleavage of the mRNA in a double-stranded RNA molecule formed by the base pairing of an mRNA with an siRNA, yielding 5'-phosphomonoesters.</Detail>
+      <Keyword>Endoribonuclease activity, cleaving siRNA-paired mRNA</Keyword>
+      <Ontology_ID>GO:0070551</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages within nucleic acids by creating internal breaks.</Detail>
+      <Keyword>Endonuclease activity</Keyword>
+      <Ontology_ID>GO:0004519</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The series of molecular signals initiated by binding of an extracellular ligand to a Notch receptor on the surface of the target cell.</Detail>
+      <Keyword>Notch signaling pathway</Keyword>
+      <Ontology_ID>GO:0007219</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the conversion of a pre-microRNA transcript into a mature microRNA molecule.</Detail>
+      <Keyword>Pre-microRNA processing</Keyword>
+      <Ontology_ID>GO:0031054</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of translational initiation.</Detail>
+      <Keyword>Negative regulation of translational initiation</Keyword>
+      <Ontology_ID>GO:0045947</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of proteins by the translation of mRNA.</Detail>
+      <Keyword>Regulation of translation</Keyword>
+      <Ontology_ID>GO:0006417</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cellular DNA-dependent transcription.</Detail>
+      <Keyword>Regulation of transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006355</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which microRNAs (miRNAs) block the translation of target mRNAs into proteins. Once incorporated into a RNA-induced silencing complex (RISC), a miRNA will typically repress translation if the miRNA imperfectly base-pairs with the 3' untranslated regions of target mRNAs.</Detail>
+      <Keyword>Negative regulation of translation involved in gene silencing by miRNA</Keyword>
+      <Ontology_ID>GO:0035278</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which microRNAs (miRNAs) direct the cleavage of target mRNAs. Once incorporated into a RNA-induced silencing complex (RISC), a miRNA will typically direct cleavage by base pairing with near-perfect complementarity to the target mRNA. Many plant miRNAs downregulate gene expression through this mechanism.</Detail>
+      <Keyword>MRNA cleavage involved in gene silencing by miRNA</Keyword>
+      <Ontology_ID>GO:0035279</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which RNA molecules inactivate expression of target genes.</Detail>
+      <Keyword>Gene silencing by RNA</Keyword>
+      <Ontology_ID>GO:0031047</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>700</Position>
+      <PTM_Type>4-hydroxyproline</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>Nitrated tyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MYSGAGPALAPPAPPPPIQGYAFKPPPRPDFGTSGRTIKLQANFFEMDIPKIDIYHYELDIKPEKCPRRVNREIVEHMVQHFKTQIFGDRKPVFDGRKNLYTAMPLPIGRDKVELEVTLPGEGKDRIFKVSIKWVSCVSLQALHDALSGRLPSVPFETIQALDVVMRHLPSMRYTPVGRSFFTASEGCSNPLGGGREVWFGFHQSVRPSLWKMMLNIDVSATAFYKAQPVIEFVCEVLDFKSIEEQQKPLTDSQRVKFTKEIKGLKVEITHCGQMKRKYRVCNVTRRPASHQTFPLQQESGQTVECTVAQYFKDRHKLVLRYPHLPCLQVGQEQKHTYLPLEVCNIVAGQRCIKKLTDNQTSTMIRATARSAPDRQEEISKLMRSASFNTDPYVREFGIMVKDEMTDVTGRVLQPPSILYGGRNKAIATPVQGVWDMRNKQFHTGIEIKVWAIACFAPQRQCTEVHLKSFTEQLRKISRDAGMPIQGQPCFCKYAQGADSVEPMFRHLKNTYAGLQLVVVILPGKTPVYAEVKRVGDTVLGMATQCVQMKNVQRTTPQTLSNLCLKINVKLGGVNNILLPQGRPPVFQQPVIFLGADVTHPPAGDGKKPSIAAVVGSMDAHPNRYCATVRVQQHRQEIIQDLAAMVRELLIQFYKSTRFKPTRIIFYRDGVSEGQFQQVLHHELLAIREACIKLEKDYQPGITFIVVQKRHHTRLFCTDKNERVGKSGNIPAGTTVDTKITHPTEFDFYLCSHAGIQGTSRPSHYHVLWDDNRFSSDELQILTYQLCHTYVRCTRSVSIPAPAYYAHLVAFRARYHLVDKEHDSAEGSHTSGQSNGRDHQALAKAVQVHQDTLRTMYFA</Protein_Seq>
+    <DNA_Seq>GCGGCCGCCCCTCGGCCCCGGAGCCCCTCGGCGGCGCCACCATGTACTCGGGAGCCGGCCCCGCACTTGCACCTCCTGCGCCGCCGCCCCCCATCCAAGGATATGCCTTCAAGCCTCCACCTAGACCCGACTTTGGGACCTCCGGGAGAACAATCAAATTACAGGCCAATTTCTTCGAAATGGACATCCCCAAAATTGACATCTATCATTATGAATTGGATATCAAGCCAGAGAAGTGCCCGAGGAGAGTTAACAGGGAAATCGTGGAACACATGGTCCAGCACTTTAAAACACAGATCTTTGGGGATCGGAAGCCCGTGTTTGACGGCAGGAAGAATCTATACACAGCCATGCCCCTTCCGATTGGGAGGGACAAGGTGGAGCTGGAGGTCACGCTGCCAGGAGAAGGCAAGGATCGCATCTTCAAGGTGTCCATCAAGTGGGTGTCCTGCGTGAGCTTGCAGGCGTTACACGATGCACTTTCAGGGCGGCTGCCCAGCGTCCCTTTTGAGACGATCCAGGCCCTGGACGTGGTCATGAGGCACTTGCCATCCATGAGGTACACCCCCGTGGGCCGCTCCTTCTTCACCGCGTCCGAAGGCTGCTCTAACCCTCTTGGCGGGGGCCGAGAAGTGTGGTTTGGCTTCCATCAGTCCGTCCGGCCTTCTCTCTGGAAAATGATGCTGAATATTGATGTGTCAGCAACAGCGTTTTACAAGGCACAGCCAGTAATCGAGTTTGTTTGTGAAGTTTTGGATTTTAAAAGTATTGAAGAACAACAAAAACCTCTGACAGATTCCCAAAGGGTAAAGTTTACCAAAGAAATTAAAGGTCTAAAGGTGGAGATAACGCACTGTGGGCAGATGAAGAGGAAGTACCGCGTCTGCAATGTGACCCGGCGGCCCGCCAGTCACCAAACATTCCCGCTGCAGCAGGAGAGCGGGCAGACGGTGGAGTGCACGGTGGCCCAGTATTTCAAGGACAGGCACAAGTTGGTTCTGCGCTACCCCCACCTCCCATGTTTACAAGTCGGACAGGAGCAGAAACACACCTACCTTCCCCTGGAGGTCTGTAACATTGTGGCAGGACAAAGATGTATTAAAAAATTAACGGACAATCAGACCTCAACCATGATCAGAGCGACTGCTAGGTCGGCGCCCGATCGGCAAGAAGAGATTAGCAAATTGATGCGAAGTGCAAGTTTCAACACAGATCCATACGTCCGTGAATTTGGAATCATGGTCAAAGATGAGATGACAGACGTGACTGGGCGGGTGCTGCAGCCGCCCTCCATCCTCTACGGGGGCAGGAATAAAGCTATTGCGACCCCTGTCCAGGGCGTCTGGGACATGCGGAACAAGCAGTTCCACACGGGCATCGAGATCAAGGTGTGGGCCATTGCGTGCTTCGCCCCCCAGCGCCAGTGCACGGAAGTCCATCTGAAGTCCTTCACAGAGCAGCTCAGAAAGATCTCGAGAGACGCCGGCATGCCCATCCAGGGCCAGCCGTGCTTCTGCAAATACGCGCAGGGGGCGGACAGCGTGGAGCCCATGTTCCGGCACCTGAAGAACACGTATGCGGGCCTGCAGCTGGTGGTGGTCATCCTGCCCGGCAAGACGCCCGTGTACGCCGAGGTCAAGCGCGTGGGAGACACGGTGCTGGGGATGGCCACGCAGTGCGTGCAGATGAAGAACGTGCAGAGGACCACGCCACAGACCCTGTCCAACCTCTGCCTGAAGATCAACGTCAAGCTGGGAGGCGTGAACAACATCCTGCTGCCCCAGGGCAGGCCGCCGGTGTTCCAGCAGCCCGTCATCTTTCTGGGAGCAGACGTCACTCACCCCCCCGCCGGGGATGGGAAGAAGCCCTCCATTGCCGCCGTGGTGGGCAGCATGGACGCCCACCCCAATCGCTACTGCGCCACCGTGCGCGTGCAGCAGCACCGGCAGGAGATCATACAAGACCTGGCCGCCATGGTCCGCGAGCTCCTCATCCAGTTCTACAAGTCCACGCGCTTCAAGCCCACCCGCATCATCTTCTACCGCGACGGTGTCTCTGAAGGCCAGTTCCAGCAGGTTCTCCACCACGAGTTGCTGGCCATCCGTGAGGCCTGTATCAAGCTAGAAAAAGACTACCAGCCCGGGATCACCTTCATCGTGGTGCAGAAGAGGCACCACACCCGGCTCTTCTGCACTGACAAGAACGAGCGGGGGACAAGCAGGCCTTCGCACTATCACGTCCTCTGGGACGACAATCGTTTCTCCTCTGATGAGCTGCAGATCCTAACCTACCAGCTGTGTCACACCTACGTGCGCTGCACACGCTCCGTGTCCATCCCAGCGCCAGCATACTACGCTCACCTGGTGGCCTTCCGGGCCAGGTACCACCTGGTGGATAAGGAACATGACAGTGCTGAAGGAAGCCATACCTCTGGGCAGAGTAACGGGCGAGACCACCAAGCACTGGCCAAGGCGGTCCAGGTTCACCAAGACACTCTGCGCACCATGTACTTTGCTTGACATGTTTTAGTGTTTAGCGATTGTGTACCGAGTGGGATTCACGAGACCAGCTACACTCAGACCAACAGATGGCCAGCCCTTCCGTGACAGCCAGCATCGAACATGAGACGTCATTGATTTTATTAGATTCTCCGTTTTCCAGAATGCCTTCCGTCCCAGATTTCAAACTTGGATTTTGAACTGCAGACCTGTATGAGAACCCAATGTCATAGGAAATATGGTTTGCTAAAATCTATAAGCTGCTTATTAAAACAGAGTCCCGTGTGTCCTAAAAATCTCCTAAAACCAGTCTATGAACTCAGGGCTTTAAAACATTTTTAATTTATTTGGTCATTCAATTTACTTGTTTTTAATACATGATTCTCTATGAAATTGATGGGCTCAAACTAGCTGTGAATCTTCTGAGAGTGAAAGCAACACAAAACACAAGTGTGGTTTTAAAGCCTTGAACATTCTGATGTTGTCACTAAAGTTGATTTCCAGGCGATGCTCGTGTGCCCCTGGCGTGGCTCACCCAAGTTCCTCGACTGAGGGCCGGTGGCCATGCAGAGGCGTCCGCAGGTGCCGTGTTCTGCCAGCACCGCCCTTCACCCGGCCTGAACTAAGGAGCAGTGGCAGAAGGTGGGCCCCGTGTGTTTACAGCATTTCCAGGTCCAGAGAGGTTGGCAGACAAGTGCCATTTTAATAAAAAATGTATTTAAAAAAAGAAAAAAGACAATATACTGACAGTCTAATCATCAGATTTGTCCTATAGGACTGTGACATTTATTTTCCAAAGTTTTTAAAGAATACGGGTCTGTGGTGATAAATACAGTACAATCCTTTTTCACTGTTATGTCTTTAATGTAAGAGAAGAATATATATATCTGGTTTGCAGTAAAAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>RNA-induced silencing complex</CellLocal>
+      <Ontology_ID>GO:0016442</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>MRNA cap binding complex</CellLocal>
+      <Ontology_ID>GO:0005845</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Micro-ribonucleoprotein complex</CellLocal>
+      <Ontology_ID>GO:0035068</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasmic mRNA processing body</CellLocal>
+      <Ontology_ID>GO:0000932</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Polysome</CellLocal>
+      <Ontology_ID>GO:0005844</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Ribonucleoprotein complex</CellLocal>
+      <Ontology_ID>GO:0030529</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>AGO2</Gene_Name>
+    <Gene_Alias>AGO2</Gene_Alias>
+    <Gene_ID>27161</Gene_ID>
+    <Genbank_ACCN>NM_001164623</Genbank_ACCN>
+    <Protein_ACCN>NP_001158095</Protein_ACCN>
+    <HGNC_ID>3263</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/27161</Gene_URL>
+    <UCSC_ID>uc010meo.3</UCSC_ID>
+    <EMBL_ID>ENSG00000123908</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q9UPY3</Uniprot_ID>
+      <Gene_Name>DICER1</Gene_Name>
+      <EBI_ID>EBI-395506</EBI_ID>
+      <PPI_EBI_URL>EBI-528269,EBI-395506</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O15397</Uniprot_ID>
+      <Gene_Name>IPO8</Gene_Name>
+      <EBI_ID>EBI-358808</EBI_ID>
+      <PPI_EBI_URL>EBI-528269,EBI-358808</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of MID domain from hAGO2</PDB_Title>
+      <PDB_ID>3LUC</PDB_ID>
+      <Resolution>1.69</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LUC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for 5'-nucleotide base-specific recognition of guide RNA by human AGO2.</PubMed_Title>
+      <Author>Frank, F., et al.</Author>
+      <Journal>Nature(2010)465:818-822</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20505670?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MID domain from hAGO2</PDB_Title>
+      <PDB_ID>3LUK</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LUK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for 5'-nucleotide base-specific recognition of guide RNA by human AGO2.</PubMed_Title>
+      <Author>Frank, F., et al.</Author>
+      <Journal>Nature(2010)465:818-822</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20505670?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MID domain from hAGO2 in complex with m7GpppG</PDB_Title>
+      <PDB_ID>3QX8</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QX8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of 5'-mRNA-cap interactions with the human AGO2 MID domain.</PubMed_Title>
+      <Author>Frank, F., et al.</Author>
+      <Journal>Embo Rep.(2011)12:415-420</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21475248?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MID domain from hAGO2 in complex with GMP</PDB_Title>
+      <PDB_ID>3LUH</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LUH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for 5'-nucleotide base-specific recognition of guide RNA by human AGO2.</PubMed_Title>
+      <Author>Frank, F., et al.</Author>
+      <Journal>Nature(2010)465:818-822</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20505670?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MID domain from hAGO2 in complex with CMP</PDB_Title>
+      <PDB_ID>3LUG</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LUG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for 5'-nucleotide base-specific recognition of guide RNA by human AGO2.</PubMed_Title>
+      <Author>Frank, F., et al.</Author>
+      <Journal>Nature(2010)465:818-822</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20505670?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MID domain from hAGO2 in complex with ATP</PDB_Title>
+      <PDB_ID>3QX9</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QX9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of 5'-mRNA-cap interactions with the human AGO2 MID domain.</PubMed_Title>
+      <Author>Frank, F., et al.</Author>
+      <Journal>Embo Rep.(2011)12:415-420</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21475248?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MID domain from hAGO2 in complex with AMP</PDB_Title>
+      <PDB_ID>3LUD</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LUD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for 5'-nucleotide base-specific recognition of guide RNA by human AGO2.</PubMed_Title>
+      <Author>Frank, F., et al.</Author>
+      <Journal>Nature(2010)465:818-822</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20505670?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of MID domain from hAGO2 in complex with UMP</PDB_Title>
+      <PDB_ID>3LUJ</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LUJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for 5'-nucleotide base-specific recognition of guide RNA by human AGO2.</PubMed_Title>
+      <Author>Frank, F., et al.</Author>
+      <Journal>Nature(2010)465:818-822</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20505670?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>RNA-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.26.n2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/26/n2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

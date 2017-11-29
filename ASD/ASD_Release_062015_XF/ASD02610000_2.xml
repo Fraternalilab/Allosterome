@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02610000_2</Organism_ID>
+  <Organism>Rabbit</Organism>
+  <Organism_Latin>Oryctolagus cuniculus</Organism_Latin>
+  <UniProt_ID>P20647</UniProt_ID>
+  <Seq_Length>997</Seq_Length>
+  <Molecule_Weight>109644</Molecule_Weight>
+  <KEGG_ID>ocu:100038308</KEGG_ID>
+  <Orthology_ID>K05853</Orthology_ID>
+  <Function_Summary>This magnesium-dependent enzyme catalyzes the hydrolysis of ATP coupled with the translocation of calcium from the cytosol to the sarcoplasmic reticulum lumen. Isoform SERCA2A is involved in the regulation of the contraction/relaxation cycle.</Function_Summary>
+  <Catalytic_Mechanism>ATP + H(2)O + Ca(2+)(Side 1) = ADP + phosphate + Ca(2+)(Side 2).</Catalytic_Mechanism>
+  <Pfam_ID>PF00689:Cation_ATPase_C@@PF00690:Cation_ATPase_N@@PF00122:E1-E2_ATPase@@PF00702:Hydrolase</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>42</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>11</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>SERCA2</Alias>
+      <Alias>Calcium pump 2</Alias>
+      <Alias>SR Ca(2+)-ATPase 2</Alias>
+      <Alias>Sarcoplasmic/endoplasmic reticulum calcium ATPase 2</Alias>
+      <Alias>Endoplasmic reticulum class 1/2 Ca(2+) ATPase</Alias>
+      <Alias>Calcium-transporting ATPase sarcoplasmic reticulum type, slow twitch skeletal muscle isoform</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + Ca2+(cis) = ADP + phosphate + Ca2+(trans).</Detail>
+      <Keyword>Calcium-transporting ATPase activity</Keyword>
+      <Ontology_ID>GO:0005388</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006754</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of charged atoms or small charged molecules into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Ion transport</Keyword>
+      <Ontology_ID>GO:0006811</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of calcium (Ca) ions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Calcium ion transport</Keyword>
+      <Ontology_ID>GO:0006816</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>663</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>537</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>295</Position>
+      <PTM_Type>Nitrated tyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>464</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>294</Position>
+      <PTM_Type>Nitrated tyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MENAHTKTVEEVLGHFGVNESTGLSLEQVKKLKERWGSNELPAEEGKTLLELVIEQFEDLLVRILLLAACISFVLAWFEEGEETITAFVEPFVILLILVANAIVGVWQERNAENAIEALKEYEPEMGKVYRQDRKSVQRIKAKDIVPGDIVEIAVGDKVPADIRLTSIKSTTLRVDQSILTGESVSVIKHTDPVPDPRAVNQDKKNMLFSGTNIAAGKAMGVVVATGVNTEIGKIRDEMVATEQERTPLQQKLDEFGEQLSKVISLICIAVWIINIGHFNDPVHGGSWIRGAIYYFKIAVALAVAAIPEGLPAVITTCLALGTRRMAKKNAIVRSLPSVETLGCTSVICSDKTGTLTTNQMSVCRMFILDKVDGDTCSLNEFTITGSTYAPIGEVHKDDKPVKCHQYDGLVELATICALCNDSALDYNEAKGVYEKVGEATETALTCLVEKMNVFDTELKGLSKIERANACNSVIKQLMKKEFTLEFSRDRKSMSVYCTPNKPSRTSMSKMFVKGAPEGVIDRCTHIRVGSTKVPMTAGVKQKIMSVIREWGSGSDTLRCLALATHDNPLRREEMHLKDSANFIKYETNLTFVGCVGMLDPPRIEVASSVKLCRQAGIRVIMITGDNKGTAVAICRRIGIFGQEEDVTAKAFTGREFDELNPSAQRDACLNARCFARVEPSHKSKIVEFLQSFDEITAMTGDGVNDAPALKKAEIGIAMGSGTAVAKTASEMVLADDNFSTIVAAVEEGRAIYNNMKQFIRYLISSNVGEVVCIFLTAALGFPEALIPVQLLWVNLVTDGLPATALGFNPPDLDIMNKPPRNPKEPLISGWLFFRYLAIGCYVGAATVGAAAWWFIAADGGPRVSFYQLSHFLQCKEDNPDFEGVDCAIFESPYPMTMALSVLVTIEMCNALNSLSENQSLLRMPPWENIWLVGSICLSMSLHFLILYVEPLPLIFQITPLNVTQWLMVLKISLPVILMDETLKFVARNYLEPAILE</Protein_Seq>
+    <DNA_Seq>GGGGAGGGGGTGCGGGGTCATTCAGCGCCCGGCGAGGCGGAAGCGGCCGGAGCGGCAGCGGCGGCAGCGGGAGGAGGGCGAGCGGCCAGTCGGCGCCGGGGCGCCCGCGGTGGCACGAGCCCGCGGCCCGAGTGCGAGGCGGAGGCGACGAGGCCGCGGGGACGGGGGGCGAACGGCCGGGCCCCCGCAGCCATGGAGAACGCGCACACAAAGACGGTGGAGGAGGTGCTGGGCCACTTCGGCGTCAACGAGAGCACGGGGCTGAGCCTGGAGCAGGTCAAGAAGCTCAAGGAGAGATGGGGCTCCAACGAGTTACCGGCTGAAGAAGGAAAAACCTTGCTGGAACTTGTGATTGAGCAATTTGAAGATTTACTAGTTAGAATTTTATTGCTGGCAGCATGTATATCTTTTGTTTTGGCTTGGTTTGAAGAAGGTGAAGAAACCATTACAGCCTTTGTAGAACCTTTTGTAATTCTGCTTATATTGGTAGCCAATGCCATCGTGGGTGTATGGCAGGAAAGGAATGCTGAAAATGCAATTGAAGCCCTTAAGGAGTATGAGCCTGAAATGGGCAAAGTGTATCGGCAGGACAGAAAGAGTGTACAGCGCATTAAAGCTAAAGACATCGTTCCTGGTGATATTGTAGAAATCGCAGTTGGTGACAAAGTTCCTGCCGACATAAGATTGACTTCTATCAAGTCTACAACTCTAAGAGTTGACCAGTCAATTCTCACAGGTGAATCTGTCTCTGTCATCAAGCACACTGACCCTGTCCCAGACCCGCGGGCTGTCAACCAGGATAAGAAGAACATGCTTTTTTCTGGCACAAACATTGCTGCAGGGAAAGCCATGGGAGTGGTGGTGGCAACTGGAGTCAACACTGAGATTGGCAAGATTCGGGATGAGATGGTGGCGACAGAACAGGAGAGGACGCCTCTTCAGCAGAAACTAGATGAATTCGGAGAACAGCTTTCCAAAGTCATCTCCCTTATTTGCATTGCAGTCTGGATCATAAACATTGGGCATTTCAATGACCCAGTTCATGGAGGCTCCTGGATTAGAGGTGCTATTTACTACTTTAAGATTGCAGTGGCCCTGGCGGTAGCAGCTATTCCTGAAGGTCTGCCTGCCGTCATCACCACCTGCCTGGCTCTTGGAACTCGCAGGATGGCAAAGAAAAACGCCATCGTCCGAAGCCTGCCTTCTGTGGAAACCCTCGGCTGCACTTCTGTGATCTGCTCTGACAAGACTGGCACACTCACAACAAACCAGATGTCAGTCTGCAGGATGTTCATCCTGGACAAGGTTGATGGTGATACTTGTTCCCTGAATGAGTTCACCATAACTGGATCAACGTACGCACCTATTGGAGAAGTGCATAAAGATGATAAACCAGTGAAGTGTCATCAGTATGATGGTCTTGTAGAATTAGCAACAATTTGTGCTCTTTGTAATGACTCTGCTTTGGATTACAATGAGGCCAAAGGTGTGTATGAAAAGGTTGGAGAAGCTACAGAGACTGCCCTGACGTGCCTGGTGGAGAAGATGAACGTGTTTGACACTGAATTGAAGGGTCTCTCTAAAATAGAGCGCGCGAATGCCTGCAACTCGGTCATTAAGCAGCTGATGAAAAAGGAATTCACTCTAGAATTTTCACGTGATAGAAAATCAATGTCAGTGTATTGTACGCCAAACAAACCAAGCCGGACGTCCATGAGCAAGATGTTTGTGAAGGGTGCTCCTGAGGGTGTCATCGACAGGTGCACCCACATTCGGGTTGGAAGTACCAAGGTCCCCATGACAGCTGGAGTCAAGCAGAAGATCATGTCTGTCATTCGGGAATGGGGTAGTGGCAGCGACACACTGCGGTGCCTGGCCCTGGCCACTCACGACAACCCACTGAGAAGAGAAGAAATGCACCTGGAGGACTCTGCCAACTTTATTAAGTATGAGACCAACCTGACTTTTGTTGGCTGCGTGGGCATGCTGGATCCTCCCAGGATTGAGGTGGCCTCCTCCGTGAAGCTGTGCCGGCAAGCAGGCATCCGGGTCATCATGATCACCGGGGACAACAAGGGTACTGCCGTAGCCATCTGTCGCCGCATTGGCATCTTTGGTCAGGAGGAGGATGTGACGGCCAAGGCTTTCACAGGCCGGGAGTTTGACGAACTCAACCCCTCAGCCCAGCGAGATGCTTGCCTAAATGCCCGCTGCTTTGCTCGAGTTGAACCTTCCCACAAGTCCAAGATCGTAGAATTTCTTCAGTCCTTTGATGAGATCACAGCTATGACTGGCGACGGTGTGAATGATGCCCCTGCTCTGAAGAAAGCGGAGATTGGCATTGCCATGGGCTCTGGCACCGCGGTGGCTAAAACTGCCTCTGAGATGGTCCTGGCTGATGACAACTTCTCCACCATTGTGGCTGCTGTGGAGGAGGGGCGGGCCATCTACAACAACATGAAGCAGTTCATCCGCTACCTCATCTCCTCCAACGTGGGGGAGGTTGTCTGCATTTTCCTGACGGCAGCCCTTGGGTTTCCTGAGGCCCTGATTCCCGTGCAGCTGCTCTGGGTCAATCTGGTGACAGATGGCCTGCCTGCCACCGCGCTGGGCTTCAACCCTCCGGATCTGGACATCATGAATAAACCGCCTCGGAACCCAAAGGAACCACTGATCAGCGGGTGGCTCTTTTTCCGTTACCTGGCTATTGGCTGTTACGTTGGCGCCGCGACAGTGGGTGCTGCTGCGTGGTGGTTCATTGCTGCCGATGGTGGTCCAAGAGTGTCCTTCTACCAGCTGAGTCACTTCCTGCAGTGTAAAGAGGACAACCCGGACTTCGAGGGCGTGGATTGTGCAATCTTTGAGTCTCCATATCCCATGACAATGGCACTGTCTGTTCTGGTCACCATAGAGATGTGCAACGCCCTCAACAGCCTGTCTGAAAACCAGTCCTTGCTGCGGATGCCGCCCTGGGAGAACATCTGGCTGGTGGGCTCCATCTGCCTGTCCATGTCACTGCACTTCCTCATCCTCTACGTCGAGCCCCTGCCGCTTATCTTCCAGATCACACCGCTGAATGTGACCCAGTGGCTGATGGTGCTGAAAATCTCCTTACCTGTGATTCTCATGGACGAGACTCTCAAGTTCGTGGCCCGCAACTACCTGGAACCTGGTAAAGAGTGTGTGCAGCCTGCCCCCCAGTCCTGCTCGTTGTGGGCGTGCACCGAGGGGGTCTCCTGGCCGTTTGTGCTGCTCATAGTGCCCCTGGTGATGTGGGTCTACAGCACCGACACTAACTTCAGCGATCTGCTCTGGTCCTGACTGACAGCTCCCTAAGAAGATGTGTAACTTAACCCATTAATTTTTTATTGTTTAAAGCAAGTGTCTTTCTGCTGAATTTTCACATGAACATACTGGCTGGTGAGGAGGTTTCCTACTCTAGATTGTGTTTTGCTTTTTCTGACTCCAGTGGGGCAAGATTTTCCTTTTTTTATACACATAATTAAAGTGTCCATTGACATGTACAGAGAACTAACACTATTTTATGCAAATATTTTTTTGTAGATGAAAAAGCATGTACAGTGTTCTGTTTAATACTCATCCTTGTACAAAAAAAACCAGTTGAGCCAGCAGACATTGTCAGCAGATTAATTGGCAGCAGATTTTAGGAAACGAATGTGTGTGGTTTTTTTCTGAAACTAAATAGCATGTATTGTGTCTTTTGCATGATTATCTGGATTTAATTTGATATCACAGTCTAATTTTTATTCATAAGCCAATTTTTCTGCACTGAGCAGAGTCCTGCTACCTCAGTCAGTGTTCTTGGTTTGCACCCCTCACCCTCCTGGCCTCCACTCACTCGCTGCCCTCCCCCCCGGCCCACTCAGCTTCCTCTGTAGGATTTGGATGGTTCTGTTGACATCAGTCGTCACGAGGTATGCCTGTTCTCGCTTGTGCAGAAAACATTGTTCCAGATTCAATTGACTGGGTTTATGTCCCTTCACATAGTTTTTAAGGTTATTTATTGAAATGTCTAATGTATTTTATTGTAACAGACATTGTTTTGCCAACATTGCCTATTTCAGTGGCACTTCACAATCTAGTTGAAAAAAGAAAAATAAAACATTTTAAATGGACAGAG</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Skeletal muscle</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Heart</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Sarcoplasmic reticulum membrane</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ATP2A2</Gene_Name>
+    <Gene_ID>100038308</Gene_ID>
+    <Genbank_ACCN>NM_001089321</Genbank_ACCN>
+    <Protein_ACCN>NP_001082790</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/100038308</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Sarcoplasmic/endoplasmic reticulum calcium ATPase 2</PDB_Title>
+      <PDB_ID>ASD02610000_2</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04972</Pathway_ID>
+      <Pathway_Title>Pancreatic secretion</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Digestive system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04022</Pathway_ID>
+      <Pathway_Title>cGMP-PKG signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05010</Pathway_ID>
+      <Pathway_Title>Alzheimer's disease</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04020</Pathway_ID>
+      <Pathway_Title>Calcium signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.6.3.8</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/6/3/8.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610044</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610045</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610046</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610047</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610048</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610049</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610050</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610051</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610052</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610053</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610054</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

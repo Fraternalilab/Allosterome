@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07080000_1</Organism_ID>
+  <Organism>Yeast</Organism>
+  <Organism_Latin>Candida albicans</Organism_Latin>
+  <UniProt_ID>O13287</UniProt_ID>
+  <Seq_Length>517</Seq_Length>
+  <Molecule_Weight>56924</Molecule_Weight>
+  <Function_Summary>Catalyzes the oxidative decarboxylation of 6-phosphogluconate to ribulose 5-phosphate and CO(2), with concomitant reduction of NADP to NADPH (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>6-phospho-D-gluconate + NADP(+) = D-ribulose 5-phosphate + CO(2) + NADPH.</Catalytic_Mechanism>
+  <Pfam_ID>PF00393:6PGD@@PF03446:NAD_binding_2</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with nicotinamide-adenine dinucleotide phosphate, a coenzyme involved in many redox and biosynthetic reactions; binding may be to either the oxidized form, NADP+, or the reduced form, NADPH.</Detail>
+      <Keyword>NADP binding</Keyword>
+      <Ontology_ID>GO:0050661</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 6-phospho-D-gluconate + NADP+ = D-ribulose 5-phosphate + CO2 + NADPH + H+.</Detail>
+      <Keyword>Phosphogluconate dehydrogenase (decarboxylating) activity</Keyword>
+      <Ontology_ID>GO:0004616</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which glucose is oxidized, coupled to NADPH synthesis. Glucose 6-P is oxidized with the formation of carbon dioxide (CO2), ribulose 5-phosphate and reduced NADP; ribulose 5-P then enters a series of reactions interconverting sugar phosphates. The pentose phosphate pathway is a major source of reducing equivalents for biosynthesis reactions and is also important for the conversion of hexoses to pentoses.</Detail>
+      <Keyword>Pentose-phosphate shunt</Keyword>
+      <Ontology_ID>GO:0006098</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MKNFNALSRLSILSKQLSFNNTNSSIARGDIGLIGLAVMGQNLILNMADHGYTVVAYNRTTAKVDRFLENEAKGKSILGAHSIKELVDQLKRPRRIMLLVKAGAPVDEFINQLLPYLEEGDIIIDGGNSHFPDSNRRYEELAKKGILFVGSGVSGGEEGARTGPSLMPGGNEKAWPHIKEIFQDVAAKSDGEPCCDWVGDAGAGHYVKMVHNGIEYGDMQLICEAYDLMKRVGKFEDKEIGDVFATWNKGVLDSFLIEITRDILYYNDPTDGKPLVEKILDTAGQKGTGKWTAVNALDLGIPVTLIGEAVFSRCLSAMKAERVEASKALKGPQVTGESPITDKKQFIDDLEQALYASKIISYTQGFMLMNQAAKDYGWKLNNAGIALMWRGGCIIRSVFLAEITAAYRKKPDLENLLLYPFFNDAITKAQSGWRASVGKAIQYGIPTPAFSTALAFYDGLRSERLPANLLQAQRDYFGAHTFKVLPGQENELLKKDEWIHINWTGRGGDVSSTTYDA</Protein_Seq>
+    <DNA_Seq>AAATATAAAAATAAATCAAAAAAGGAAAATGAAAAATTTTAATGCCTTATCAAGATTATCAATCTTGTCAAAACAATTATCGTTCAATAATACTAACAGTTCTATTGCTAGAGGTGATATCGGTTTAATTGGTTTAGCCGTTATGGGTCAAAACTTGATTCTTAACATGGCCGACCATGGTTACACTGTTGTTGCTTACAACAGAACCACTGCCAAAGTTGATCGTTTCTTAGAAAACGAAGCTAAAGGTAAATCCATCCTCGGTGCTCACTCCATCAAGGAATTGGTTGATCAATTAAAGAGACCAAGAAGAATTATGCTTTTGGTCAAAGCTGGTGCTCCAGTTGATGAATTCATTAACCAATTATTGCCATACTTGGAAGAAGGTGATATCATCATTGACGGTGGTAACTCCCATTTCCCAGATTCTAACAGAAGATACGAAGAATTGGCCAAGAAAGGTATTTTGTTTGTTGGTTCCGGTGTTTCTGGTGGTGAAGAAGGTGCTAGAACTGGTCCATCTTTGATGCCAGGTGGTAACGAAAAAGCTTGGCCACACATTAAAGAGATCTTCCAAGATGTTGCCGCCAAGAGTGATGGTGAACCATGTTGTGACTGGGTTGGTGATGCCGGTGCTGGTCATTACGTCAAGATGGTCCACAATGGTATTGAATATGGTGATATGCAATTGATTTGTGAAGCTTACGATCTTATGAAGAGAGTTGGTAAATTTGAAGACAAAGAAATTGGTGACGTGTTTGCCACATGGAACAAAGGTGTTTTGGATTCTTTCTTGATTGAAATCACCAGAGACATTTTATACTACAATGACCCAACTGACGGTAAACCATTGGTTGAAAAAATCTTGGATACTGCTGGTCAAAAAGGTACTGGTAAATGGACTGCTGTCAATGCCCTTGATTTGGGTATCCCAGTTACTTTGATTGGTGAAGCTGTCTTTTCTAGATGTCTTTCTGCCATGAAAGCCGAAAGAGTTGAAGCCTCTAAAGCCTTGAAAGGTCCACAAGTTACTGGTGAATCTCCAATTACTGACAAAAAACAATTTATTGATGATTTAGAACAAGCTTTGTATGCTTCCAAGATTATCTCCTACACCCAAGGTTTCATGTTGATGAACCAAGCTGCTAAGGATTACGGCTGGAAATTGAACAATGCTGGTATTGCCTTGATGTGGAGAGGTGGTTGTATTATCAGATCAGTTTTCTTGGCTGAAATTACTGCTGCTTACAGAAAGAAACCAGACTTGGAAAACTTGTTGCTTTACCCATTCTTTAACGACGCTATCACTAAAGCTCAATCTGGATGGAGAGCTTCTGTTGGTAAGGCTATTCAATATGGTATTCCAACTCCAGCTTTCTCTACTGCTTTGGCTTTCTACGATGGTTTAAGATCTGAAAGATTACCAGCTAACTTGTTACAAGCTCAAAGAGATTACTTTGGTGCTCATACTTTCAAGGTCTTGCCAGGTCAAGAAAATGAATTGTTGAAGAAAGATGAATGGATTCACATTAACTGGACTGGTAGAGGTGGTGATGTTTCTTCAACTACTTACGATGCTTAGAGAAAATAGTGTTAACATGAATTTTTGA</DNA_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>DOR14</Gene_Name>
+    <Genbank_ACCN>AB006102</Genbank_ACCN>
+    <Protein_ACCN>BAA21690</Protein_ACCN>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of 6-phosphogluconate dehydrogenase</PDB_Title>
+      <PDB_ID>ASD07080000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Allosteric activation by substrate</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.1.1.44</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/44.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

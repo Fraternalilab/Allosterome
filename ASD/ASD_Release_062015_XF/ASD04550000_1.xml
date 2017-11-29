@@ -1,0 +1,633 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04550000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P25024</UniProt_ID>
+  <Seq_Length>350</Seq_Length>
+  <Molecule_Weight>39791</Molecule_Weight>
+  <KEGG_ID>hsa:3577</KEGG_ID>
+  <Orthology_ID>K04175</Orthology_ID>
+  <Function_Summary>Receptor to interleukin-8, which is a powerful neutrophils chemotactic factor. Binding of IL-8 to the receptor causes activation of neutrophils. This response is mediated via a G-protein that activate a phosphatidylinositol-calcium second messenger system. This receptor binds to IL-8 with a high affinity and to MGSA (GRO) with a low affinity.</Function_Summary>
+  <Pfam_ID>PF00001:7tm_1</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>79</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>CDw128a</Alias>
+      <Alias>IL-8R A</Alias>
+      <Alias>IL-8 receptor type 1</Alias>
+      <Alias>High affinity interleukin-8 receptor A</Alias>
+      <Alias>CXCR-1</Alias>
+      <Alias>CXC-R1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with interleukin-8.</Detail>
+      <Keyword>Interleukin-8 binding</Keyword>
+      <Ontology_ID>GO:0019959</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with interleukin-8 to initiate a change in cell activity.</Detail>
+      <Keyword>Interleukin-8 receptor activity</Keyword>
+      <Ontology_ID>GO:0004918</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>31</Position>
+      <Original>Met</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>306</Position>
+      <Original>Ala</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>71</Position>
+      <Original>Arg</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>335</Position>
+      <Original>Arg</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>276</Position>
+      <Original>Ser</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>268</Position>
+      <Original>Met</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>342</Position>
+      <Original>Ser</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a G-protein coupled receptor binding to its physiological ligand.</Detail>
+      <Keyword>G-protein coupled receptor protein signaling pathway</Keyword>
+      <Ontology_ID>GO:0007186</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A receptor-mediated endocytosis process that results in the movement of receptors from the plasma membrane to the inside of the cell. The process begins when cell surface receptors are monoubiquitinated following ligand-induced activation; receptors are subsequently taken up into endocytic vesicles and targeted to the lysosome or vacuole for degradation. Receptor internalization serves as a mechanism to downregulate receptor signaling.</Detail>
+      <Keyword>Receptor internalization</Keyword>
+      <Ontology_ID>GO:0031623</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal, e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light, and ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell, and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</Detail>
+      <Keyword>Signal transduction</Keyword>
+      <Ontology_ID>GO:0007165</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of a motile cell or organism, or the directed growth of a cell guided by a specific chemical concentration gradient. Movement may be towards a higher concentration (positive chemotaxis) or towards a lower concentration (negative chemotaxis).</Detail>
+      <Keyword>Chemotaxis</Keyword>
+      <Ontology_ID>GO:0006935</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The movement of a dendritic cell in response to an external stimulus.</Detail>
+      <Keyword>Dendritic cell chemotaxis</Keyword>
+      <Ontology_ID>GO:0002407</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The immediate defensive reaction (by vertebrate tissue) to infection or injury caused by chemical or physical agents. The process is characterized by local vasodilation, extravasation of plasma into intercellular spaces and accumulation of white blood cells and macrophages.</Detail>
+      <Keyword>Inflammatory response</Keyword>
+      <Ontology_ID>GO:0006954</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MSNITDPQMWDFDDLNFTGMPPADEDYSPCMLETETLNKYVVIIAYALVFLLSLLGNSLVMLVILYSRVGRSVTDVYLLNLALADLLFALTLPIWAASKVNGWIFGTFLCKVVSLLKEVNFYSGILLLACISVDRYLAIVHATRTLTQKRHLVKFVCLGCWGLSMNLSLPFFLFRQAYHPNNSSPVCYEVLGNDTAKWRMVLRILPHTFGFIVPLFVMLFCYGFTLRTLFKAHMGQKHRAMRVIFAVVLIFLLCWLPYNLVLLADTLMRTQVIQESCERRNNIGRALDATEILGFLHSCLNPIIYAFIGQNFRHGFLKILAMHGLVSKEFLARHRVTSYTSSSVNVSSNL</Protein_Seq>
+    <DNA_Seq>TATTCATCAAGTGCCCTCTAGCTGTTAAGTCACTCTGATCTCTGACTGCAGCTCCTACTGTTGGACACACCTGGCCGGTGCTTCAGTTAGATCAAACCATTGCTGAAACTGAAGAGGACATGTCAAATATTACAGATCCACAGATGTGGGATTTTGATGATCTAAATTTCACTGGCATGCCACCTGCAGATGAAGATTACAGCCCCTGTATGCTAGAAACTGAGACACTCAACAAGTATGTTGTGATCATCGCCTATGCCCTAGTGTTCCTGCTGAGCCTGCTGGGAAACTCCCTGGTGATGCTGGTCATCTTATACAGCAGGGTCGGCCGCTCCGTCACTGATGTCTACCTGCTGAACCTGGCCTTGGCCGACCTACTCTTTGCCCTGACCTTGCCCATCTGGGCCGCCTCCAAGGTGAATGGCTGGATTTTTGGCACATTCCTGTGCAAGGTGGTCTCACTCCTGAAGGAAGTCAACTTCTACAGTGGCATCCTGCTGTTGGCCTGCATCAGTGTGGACCGTTACCTGGCCATTGTCCATGCCACACGCACACTGACCCAGAAGCGTCACTTGGTCAAGTTTGTTTGTCTTGGCTGCTGGGGACTGTCTATGAATCTGTCCCTGCCCTTCTTCCTTTTCCGCCAGGCTTACCATCCAAACAATTCCAGTCCAGTTTGCTATGAGGTCCTGGGAAATGACACAGCAAAATGGCGGATGGTGTTGCGGATCCTGCCTCACACCTTTGGCTTCATCGTGCCGCTGTTTGTCATGCTGTTCTGCTATGGATTCACCCTGCGTACACTGTTTAAGGCCCACATGGGGCAGAAGCACCGAGCCATGAGGGTCATCTTTGCTGTCGTCCTCATCTTCCTGCTTTGCTGGCTGCCCTACAACCTGGTCCTGCTGGCAGACACCCTCATGAGGACCCAGGTGATCCAGGAGAGCTGTGAGCGCCGCAACAACATCGGCCGGGCCCTGGATGCCACTGAGATTCTGGGATTTCTCCATAGCTGCCTCAACCCCATCATCTACGCCTTCATCGGCCAAAATTTTCGCCATGGATTCCTCAAGATCCTGGCTATGCATGGCCTGGTCAGCAAGGAGTTCTTGGCACGTCATCGTGTTACCTCCTACACTTCTTCGTCTGTCAATGTCTCTTCCAACCTCTGAAAACCATCGATGAAGGAATATCTCTTCTCAGAAGGAAAGAATAACCAACACCCTGAGGTTGTGTGTGGAAGGTGATCTGGCTCTGGACAGGCACTATCTGGGTTTTGGGGGGACGCTATAGGATGTGGGGAAGTTAGGAACTGGTGTCTTCAGGGGCCACACCAACCTTCTGAGGAGCTGTTGAGGTACCTCCAAGGACCGGCCTTTGCACCTCCATGGAAACGAAGCACCATCATTCCCGTTGAACGTCACATCTTTAACCCACTAACTGGCTAATTAGCATGGCCACATCTGAGCCCCGAATCTGACATTAGATGAGAGAACAGGGCTGAAGCTGTGTCCTCATGAGGGCTGGATGCTCTCGTTGACCCTCACAGGAGCATCTCCTCAACTCTGAGTGTTAAGCGTTGAGCCACCAAGCTGGTGGCTCTGTGTGCTCTGATCCGAGCTCAGGGGGGTGGTTTTCCCATCTCAGGTGTGTTGCAGTGTCTGCTGGAGACATTGAGGCAGGCACTGCCAAAACATCAACCTGCCAGCTGGCCTTGTGAGGAGCTGGAAACACATGTTCCCCTTGGGGGTGGTGGATGAACAAAGAGAAAGAGGGTTTGGAAGCCAGATCTATGCCACAAGAACCCCCTTTACCCCCATGACCAACATCGCAGACACATGTGCTGGCCACCTGCTGAGCCCCAAGTGGAACGAGACAAGCAGCCCTTAGCCCTTCCCCTCTGCAGCTTCCAGGCTGGCGTGCAGCATCAGCATCCCTAGAAAGCCATGTGCAGCCACCAGTCCATTGGGCAGGCAGATGTTCCTAATAAAGCTTCTGTTCCGTGCTTGTCCCTGTGGAAGTATCTTGGTTGTGACAGAGTCAAGGGTGTGTGCAGCATTGTTGGCTGTTCCTGCAGTAGAATGGGGGCAGCACCTCCTAAGAAGGCACCTCTCTGGGTTGAAGGGCAGTGTTCCCTGGGGCTTTAACTCCTGCTAGAACAGTCTCTTGAGGCACAGAAACTCCTGTTCATGCCCATACCCCTGGCCAAGGAAGATCCCTTTGTCCACAAGTAAAAGGAAATGCTCCTCCAGGGAGTCTCAGCTTCACCCTGAGGTGAGCATCATCTTCTGGGTTAGGCCTTGCCTAGGCATAGCCCTGCCTCAAGCTATGTGAGCTCACCAGTCCCTCCCCAAATGCTTTCCATGAGTTGCAGTTTTTTCCTAGTCTGTTTTCCCTCCTTGGAGACAGGGCCCTGTCGGTTTATTCACTGTATGTCCTTGGTGCCTGGAGCCTACTAAATGCTCAATAAATAATGATCACAGGAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CXCR1</Gene_Name>
+    <Gene_Alias>CMKAR1; IL8RA</Gene_Alias>
+    <Gene_ID>3577</Gene_ID>
+    <Genbank_ACCN>NM_000634</Genbank_ACCN>
+    <Protein_ACCN>NP_000625</Protein_ACCN>
+    <HGNC_ID>6026</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3577</Gene_URL>
+    <UCSC_ID>uc002vhc.3</UCSC_ID>
+    <EMBL_ID>ENSG00000163464</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Pancreatic Cancer</Disease_Name>
+      <Disease_Detail>Pancreatic Cancer</Disease_Detail>
+      <Disease_DB>PNC035</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pancreatic_cancer?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Denture Stomatitis</Disease_Name>
+      <Disease_Detail>Denture Stomatitis</Disease_Detail>
+      <Disease_DB>DNT008</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/denture_stomatitis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>H. Pylori Infection</Disease_Name>
+      <Disease_Detail>H. Pylori Infection</Disease_Detail>
+      <Disease_DB>HPY002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/h_pylori_infection?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Idiopathic Anterior Uveitis</Disease_Name>
+      <Disease_Detail>Idiopathic Anterior Uveitis</Disease_Detail>
+      <Disease_DB>IDP049</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/idiopathic_anterior_uveitis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Visceral Leishmaniasis</Disease_Name>
+      <Disease_Detail>Visceral Leishmaniasis</Disease_Detail>
+      <Disease_DB>VSC003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/visceral_leishmaniasis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Leishmaniasis</Disease_Name>
+      <Disease_Detail>Leishmaniasis</Disease_Detail>
+      <Disease_DB>LSH001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leishmaniasis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Idiopathic Pulmonary Alveolar Proteinosis</Disease_Name>
+      <Disease_Detail>Idiopathic Pulmonary Alveolar Proteinosis</Disease_Detail>
+      <Disease_DB>IDP044</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/idiopathic_pulmonary_alveolar_proteinosis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acute Promyelocytic Leukemia</Disease_Name>
+      <Disease_Detail>Acute Promyelocytic Leukemia</Disease_Detail>
+      <Disease_DB>ACT119</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acute_promyelocytic_leukemia?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Bacteriuria</Disease_Name>
+      <Disease_Detail>Bacteriuria</Disease_Detail>
+      <Disease_DB>BCT004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/bacteriuria?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mycosis Fungoides</Disease_Name>
+      <Disease_Detail>Mycosis Fungoides</Disease_Detail>
+      <Disease_DB>MYC006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mycosis_fungoides?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gastric Cardia Adenocarcinoma</Disease_Name>
+      <Disease_Detail>Gastric Cardia Adenocarcinoma</Disease_Detail>
+      <Disease_DB>GST029</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gastric_cardia_adenocarcinoma?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pyelonephritis</Disease_Name>
+      <Disease_Detail>Pyelonephritis</Disease_Detail>
+      <Disease_DB>PYL005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pyelonephritis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lung Cancer</Disease_Name>
+      <Disease_Detail>Lung Cancer</Disease_Detail>
+      <Disease_DB>LNG032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lung_cancer?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Adenomyosis</Disease_Name>
+      <Disease_Detail>Adenomyosis</Disease_Detail>
+      <Disease_DB>ADN027</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adenomyosis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Chronic Nk-Cell Lymphocytosis</Disease_Name>
+      <Disease_Detail>Chronic Nk-Cell Lymphocytosis</Disease_Detail>
+      <Disease_DB>CHR068</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/chronic_nk_cell_lymphocytosis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Tuberculosis</Disease_Name>
+      <Disease_Detail>Tuberculosis</Disease_Detail>
+      <Disease_DB>TBR010</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/tuberculosis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Aids, Slow Progression to</Disease_Name>
+      <Disease_Detail>Aids</Disease_Detail>
+      <Disease_DB>ADS010</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/aids_slow_progression_to?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Anterior Uveitis</Disease_Name>
+      <Disease_Detail>Anterior Uveitis</Disease_Detail>
+      <Disease_DB>ANT034</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/anterior_uveitis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Uveitis</Disease_Name>
+      <Disease_Detail>Uveitis</Disease_Detail>
+      <Disease_DB>UVT001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/uveitis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acute Pyelonephritis</Disease_Name>
+      <Disease_Detail>Acute Pyelonephritis</Disease_Detail>
+      <Disease_DB>ACT042</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acute_pyelonephritis?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lymphoid Leukemia</Disease_Name>
+      <Disease_Detail>Leukemia</Disease_Detail>
+      <Disease_DB>LYM067</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lymphoid_leukemia?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hyper Ige Syndrome</Disease_Name>
+      <Disease_Detail>Hyper Ige Syndrome</Disease_Detail>
+      <Disease_DB>HYP458</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hyper_ige_syndrome_2?search=CXCR1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CXCR-1 N-TERMINAL PEPTIDE BOUND TO INTERLEUKIN-8 (MINIMIZED MEAN)</PDB_Title>
+      <PDB_ID>1ILQ</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ILQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a CXC chemokine-receptor fragment in complex with interleukin-8.</PubMed_Title>
+      <Author>Skelton, N.J., et al.</Author>
+      <Journal>Structure Fold.Des.(1999)7:157-168</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10368283?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CXCR-1 N-TERMINAL PEPTIDE BOUND TO INTERLEUKIN-8</PDB_Title>
+      <PDB_ID>1ILP</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ILP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a CXC chemokine-receptor fragment in complex with interleukin-8.</PubMed_Title>
+      <Author>Skelton, N.J., et al.</Author>
+      <Journal>Structure Fold.Des.(1999)7:157-168</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10368283?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04060</Pathway_ID>
+      <Pathway_Title>Cytokine-cytokine receptor interaction</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signaling molecules and interaction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD04550001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550036</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550056</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550069</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04550080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

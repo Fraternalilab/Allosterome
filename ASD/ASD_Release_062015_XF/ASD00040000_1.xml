@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00040000_1</Organism_ID>
+  <Organism>Bovine</Organism>
+  <Organism_Latin>Bos taurus</Organism_Latin>
+  <UniProt_ID>Q02337</UniProt_ID>
+  <Seq_Length>344</Seq_Length>
+  <Molecule_Weight>38391</Molecule_Weight>
+  <KEGG_ID>bta:534090</KEGG_ID>
+  <Orthology_ID>K00019</Orthology_ID>
+  <Catalytic_Mechanism>(R)-3-hydroxybutanoate + NAD(+) = acetoacetate + NADH.</Catalytic_Mechanism>
+  <Pfam_ID>PF00106:adh_short</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>BDH</Alias>
+      <Alias>3-hydroxybutyrate dehydrogenase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: (R)-3-hydroxybutanoate + NAD(+) = acetoacetate + H(+) + NADH.</Detail>
+      <Keyword>3-hydroxybutyrate dehydrogenase activity</Keyword>
+      <Ontology_ID>GO:0003858</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>276</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MLTARLSRPLSQLPRKTLNFSDRENGTRGSLLLYSAPFVPVGRRTYAASVDPVGSKAVLITGCDSGFGFSLAKHLHSEGFLVFAGCLMKDKGSDGVKELDSMKSDRLRTVQLNVCKSEEVDKAAEVIRSSLEDPEKGLWGLVNNAGISTFGDVEFTSMETYKEVAEVNLWGTVRVTKAFLPLIRRAKGRVVNISSMMGRMANVARSPYCITKFGVEAFSDCLRYEMHPLGVKVSVVEPGNFIAATSLYGGTERIQAIANKMWEELPEVVRQDYGRKYFDEKVARMESYCTSGSTDTSPVIKAVTHALTATTPYTRYHPMDYYWWLRMQIMTHFPGAISDRIYIH</Protein_Seq>
+    <DNA_Seq>GAGCTGAGGGTGGAGGCAGCAGGAGTGAGAGCGGGTAAGGGTCTTCGAGAAGGAAACGGCGGTAGCGCCCCCACTCGGTGGTACGGGACACGAGCGCGGGTGCCTGCGAAGCGCCAGGTTATCGCGAACGCACCAGCTGAGCCCTCTGTAACTGGAGCCCCCGCGCCAGTTTGTTTTGGGAACCCACCAGGAGGAGCCTGACCATTCTGCCTTTTGTGGCCACAATGCTAACAGCCCGCCTCTCCAGACCCCTGTCACAGCTTCCAAGGAAAACCCTGAATTTCTCTGATAGAGAAAATGGGACAAGAGGCTCGCTGCTGCTTTACTCTGCGCCCTTTGTTCCTGTTGGCCGTCGGACTTACGCTGCTTCAGTGGACCCGGTTGGCAGCAAAGCTGTCCTGATCACGGGCTGTGACTCGGGATTTGGGTTCTCCTTGGCCAAGCATCTGCATTCAGAAGGCTTCCTTGTGTTTGCTGGCTGTTTGATGAAGGACAAAGGGAGTGATGGGGTCAAAGAGCTGGACAGCATGAAGAGTGATCGCTTAAGAACTGTCCAGCTCAACGTCTGCAAAAGCGAAGAGGTGGATAAAGCGGCGGAGGTCATCCGCTCAAGCCTGGAGGACCCTGAGAAAGGCTTGTGGGGCCTGGTTAACAATGCGGGCATCTCGACGTTTGGAGACGTGGAGTTCACCAGCATGGAGACCTACAAGGAGGTGGCGGAAGTGAACCTCTGGGGCACTGTTCGGGTGACGAAAGCCTTCCTCCCCCTCATCCGGAGGGCAAAAGGCCGCGTTGTTAACATCAGCAGCATGATGGGCCGCATGGCCAACGTGGCCCGCTCCCCGTACTGCATCACCAAGTTCGGGGTGGAGGCTTTCTCTGACTGCCTGCGCTACGAGATGCACCCGCTGGGAGTAAAGGTCAGCGTGGTGGAACCCGGCAACTTCATCGCCGCCACCAGCCTCTACGGCGGTACTGAGCGCATCCAGGCCATCGCCAACAAGATGTGGGAGGAGCTGCCTGAGGTGGTGCGCCAGGACTACGGCAGGAAGTACTTCGATGAGAAGGTCGCCAGGATGGAGAGCTACTGCACCAGCGGCTCCACGGACACCTCTCCTGTCATCAAGGCTGTGACACACGCCCTGACTGCCACCACTCCCTACACTCGCTACCATCCCATGGACTACTACTGGTGGCTGCGGATGCAGATCATGACCCACTTCCCCGGAGCCATCTCCGACAGGATCTATATTCACTGACAAGTTTCGCCCTGGCCTCTGCTGGGGAGCCCTGGGTGTGGAGGGAGGGCCGGGGAGAGGCTTGAGCCATCACTTCTTGATGTCTCACTGGTGGATTAGGCCCATCCCAGGAGGACCCACCACCAGTCTGAGCATTAACTAGAGCAGGTAGCCCAGCCCAATTTGCATACCCAGTGAATGGCTCAGGCCTTCTCAGTTGGGGTACAGAGTAGTGGGCAGGGCCCCCAAACCTCAGGGCAAACATGGTGCATCTGTCTTTCTGGAGTTGATTTTATACAAAGATTTTAGGTAGATATCTTTATGTTAACAACAGATTTATTATAAAATAGAATACAAATCCTTTATATTTTAAAGCCAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondria</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>BDH1</Gene_Name>
+    <Gene_Alias>BDH</Gene_Alias>
+    <Gene_ID>534090</Gene_ID>
+    <Genbank_ACCN>NM_001034600</Genbank_ACCN>
+    <Protein_ACCN>NP_001029772</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/534090</Gene_URL>
+    <EMBL_ID>ENSBTAG00000000448</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of D-beta-hydroxybutyrate dehydrogenase</PDB_Title>
+      <PDB_ID>ASD00040000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00072</Pathway_ID>
+      <Pathway_Title>Synthesis and degradation of ketone bodies</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.1.1.30</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/30.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00040001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

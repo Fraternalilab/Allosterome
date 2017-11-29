@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00900000_3</Organism_ID>
+  <Organism>Streptococcus mutans serotype c</Organism>
+  <Organism_Latin>Streptococcus mutans serotype c</Organism_Latin>
+  <UniProt_ID>Q8DSE5</UniProt_ID>
+  <Seq_Length>150</Seq_Length>
+  <Molecule_Weight>16839</Molecule_Weight>
+  <KEGG_ID>smu:SMU_1849</KEGG_ID>
+  <Orthology_ID>K01493</Orthology_ID>
+  <Pfam_ID>PF00383:dCMP_cyt_deam_1</Pfam_ID>
+  <Allosteric_Activator_Count>3</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>4</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Putative deoxycytidylate deaminase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with zinc (Zn) ions.</Detail>
+      <Keyword>Zinc ion binding</Keyword>
+      <Ontology_ID>GO:0008270</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of any carbon-nitrogen bond, C-N, with the exception of peptide bonds.</Detail>
+      <Keyword>Hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds</Keyword>
+      <Ontology_ID>GO:0016810</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.</Detail>
+      <Keyword>Metabolic process</Keyword>
+      <Ontology_ID>GO:0008152</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTNRLSWQDYFMANAELISKRSTCNRAYVGAVLVKNNRIIATGYNGGVADTDNCDDVGHEMEDGHCIRTVHAEMNALIQCAKEGISANNTEIYVTHFPCINCTKALLQAGVKKITYNTAYRIHPFAIELMTQKEVEYVQHDVPRVKLGEK</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>comEB</Gene_Name>
+    <Gene_ID>1029061</Gene_ID>
+    <Genbank_ACCN>NC_004350</Genbank_ACCN>
+    <Protein_ACCN>NP_722165</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1029061</Gene_URL>
+    <EMBL_ID>SMU_1849</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of dCMP deaminase from Streptococcus mutans</PDB_Title>
+      <PDB_ID>2HVW</PDB_ID>
+      <Resolution>1.67</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HVW</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00900001</ASD_Ligand>
+      <PubMed_Title>Crystal structures of Streptococcus mutans 2'-deoxycytidylate deaminase and its complex with substrate analog and allosteric regulator dCTP x Mg2+.</PubMed_Title>
+      <Author>Hou, H.F., et al.</Author>
+      <Journal>J.Mol.Biol.(2008)377:220-231</Journal>
+      <PubMed_ID>18255096</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of dCMP deaminase from the cyanophage S-TIM5 in complex with dTMP and dTTP.</PDB_Title>
+      <PDB_ID>4P9D</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4P9D</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02040015</ASD_Ligand>
+      <PubMed_Title>The First Crystal Structure of a dTTP-bound Deoxycytidylate Deaminase Validates and Details the Allosteric-Inhibitor Binding Site.</PubMed_Title>
+      <Author>Marx, A., et al.</Author>
+      <Journal>J.Biol.Chem.(2015)290:682-690</Journal>
+      <PubMed_ID>25404739</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of dCMP deaminase from Streptococcus mutans</PDB_Title>
+      <PDB_ID>2HVV</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HVV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of Streptococcus mutans 2'-deoxycytidylate deaminase and its complex with substrate analog and allosteric regulator dCTP x Mg2+.</PubMed_Title>
+      <Author>Hou, H.F., et al.</Author>
+      <Journal>J.Mol.Biol.(2008)377:220-231</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18255096?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00240</Pathway_ID>
+      <Pathway_Title>Pyrimidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00900001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00900002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00900003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00900004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00900005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00900006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00908001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02040015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD10230000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A7D4</UniProt_ID>
+  <Seq_Length>432</Seq_Length>
+  <Molecule_Weight>47345</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p4063</KEGG_ID>
+  <Orthology_ID>K01939</Orthology_ID>
+  <Function_Summary>Plays an important role in the de novo pathway of purine nucleotide biosynthesis. Catalyzes the first committed step in the biosynthesis of AMP from IMP (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>GTP + IMP + L-aspartate = GDP + phosphate + N(6)-(1,2-dicarboxyethyl)-AMP.</Catalytic_Mechanism>
+  <Pfam_ID>PF00709:Adenylsucc_synt</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>IMP--aspartate ligase</Alias>
+      <Alias>AMPSase</Alias>
+      <Alias>AdSS</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with GTP, guanosine triphosphate.</Detail>
+      <Keyword>GTP binding</Keyword>
+      <Ontology_ID>GO:0005525</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-aspartate + GTP + IMP = N(6)-(1,2-dicarboxyethyl)-AMP + GDP + 3 H(+) + phosphate.</Detail>
+      <Keyword>Adenylosuccinate synthase activity</Keyword>
+      <Ontology_ID>GO:0004019</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways by which a nucleobase, nucleoside or nucleotide is synthesized from another nucleobase, nucleoside or nucleotide.</Detail>
+      <Keyword>Nucleobase, nucleoside and nucleotide interconversion</Keyword>
+      <Ontology_ID>GO:0015949</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of a purine nucleotide, a compound consisting of nucleoside (a purine base linked to a deoxyribose or ribose sugar) esterified with a phosphate group at either the 3' or 5'-hydroxyl group of the sugar.</Detail>
+      <Keyword>Purine nucleotide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006164</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of adenosine, adenine riboside, a ribonucleoside found widely distributed in cells of every type as the free nucleoside and in combination in nucleic acids and various nucleoside coenzymes.</Detail>
+      <Keyword>Adenosine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0046086</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of adenosine monophosphate (AMP) from inosine 5'-monophosphate (IMP).</Detail>
+      <Keyword>'de novo' AMP biosynthetic process</Keyword>
+      <Ontology_ID>GO:0044208</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MGNNVVVLGTQWGDEGKGKIVDLLTERAKYVVRYQGGHNAGHTLVINGEKTVLHLIPSGILRENVTSIIGNGVVLSPAALMKEMKELEDRGIPVRERLLLSEACPLILDYHVALDNAREKARGAKAIGTTGRGIGPAYEDKVARRGLRVGDLFDKETFAEKLKEVMEYHNFQLVNYYKAEAVDYQKVLDDTMAVADILTSMVVDVSDLLDQARQRGDFVMFEGAQGTLLDIDHGTYPYVTSSNTTAGGVATGSGLGPRYVDYVLGILKAYSTRVGAGPFPTELFDETGEFLCKQGNEFGATTGRRRRTGWLDTVAVRRAVQLNSLSGFCLTKLDVLDGLKEVKLCVAYRMPDGREVTTTPLAADDWKGVEPIYETMPGWSESTFGVKDRSGLPQAALNYIKRIEELTGVPIDIISTGPDRTETMILRDPFDA</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>purA</Gene_Name>
+    <Gene_Alias>adeK</Gene_Alias>
+    <Gene_ID>12933702</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_418598</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/948695</Gene_URL>
+    <EMBL_ID>BAE78178</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>ENTRAPMENT OF 6-THIOPHOSPHORYL-IMP IN THE ACTIVE SITE OF CRYSTALLINE ADENYLOSUCCINATE SYNTHETASE FROM ESCHERICHIA COLI DATA COLLECTED AT 100K</PDB_Title>
+      <PDB_ID>1NHT</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NHT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Entrapment of 6-thiophosphoryl-IMP in the active site of crystalline adenylosuccinate synthetase from Escherichia coli.</PubMed_Title>
+      <Author>Poland, B.W., et al.</Author>
+      <Journal>J.Biol.Chem.(1997)272:15200-15205</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9182542?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE MUTANT (R303L) OF ADENYLOSUCCINATE SYNTHETASE FROM E. COLI COMPLEXED WITH, GDP, 6-PHOSPHORYL-IMP, AND MG2+</PDB_Title>
+      <PDB_ID>1CG4</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CG4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanistic implications from crystalline complexes of wild-type and mutant adenylosuccinate synthetases from Escherichia coli.</PubMed_Title>
+      <Author>Choe, J.Y., et al.</Author>
+      <Journal>Biochemistry(1999)38:6953-6961</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10346917?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>IMP Complex of E. Coli Adenylosuccinate Synthetase</PDB_Title>
+      <PDB_ID>1KJX</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KJX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>IMP Alone Organizes the Active Site of Adenylosuccinate Synthetase from Escherichia coli.</PubMed_Title>
+      <Author>Hou, Z., et al.</Author>
+      <Journal>J.Biol.Chem.(2002)277:5970-5976</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11741996?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF ADENYLOSUCCINATE SYNTHETASE PH 7 AT 25 DEGREES CELSIUS</PDB_Title>
+      <PDB_ID>1ADE</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ADE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Refined crystal structures of unligated adenylosuccinate synthetase from Escherichia coli.</PubMed_Title>
+      <Author>Silva, M.M., et al.</Author>
+      <Journal>J.Mol.Biol.(1995)254:431-446</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7490761?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ADENYLOSUCCINATE SYNTHETASE FROM ESCHERICHIA COLI COMPLEXED WITH GDP, IMP, HADACIDIN, NO3-, AND MG2+. DATA COLLECTED AT 100K (PH 6.5)</PDB_Title>
+      <PDB_ID>1GIM</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GIM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of adenylosuccinate synthetase from Escherichia coli complexed with GDP, IMP hadacidin, NO3-, and Mg2+.</PubMed_Title>
+      <Author>Poland, B.W., et al.</Author>
+      <Journal>J.Mol.Biol.(1996)264:1013-1027</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9000627?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ENTRAPMENT OF 6-THIOPHOSPHORYL-IMP IN THE ACTIVE SITE OF CRYSTALLINE ADENYLOSUCCINATE SYNTHETASE FROM ESCHERICHIA COLI, DATA COLLECTED AT 298K</PDB_Title>
+      <PDB_ID>1KSZ</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KSZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Entrapment of 6-thiophosphoryl-IMP in the active site of crystalline adenylosuccinate synthetase from Escherichia coli.</PubMed_Title>
+      <Author>Poland, B.W., et al.</Author>
+      <Journal>J.Biol.Chem.(1997)272:15200-15205</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9182542?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ADENYLOSUCCINATE SYNTHETASE FROM ESCHERICHIA COLI COMPLEXED WITH GDP, IMP, HADACIDIN, NO3-, AND MG2+. DATA COLLECTED AT 298K (PH 6.5).</PDB_Title>
+      <PDB_ID>1GIN</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GIN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of adenylosuccinate synthetase from Escherichia coli complexed with GDP, IMP hadacidin, NO3-, and Mg2+.</PubMed_Title>
+      <Author>Poland, B.W., et al.</Author>
+      <Journal>J.Mol.Biol.(1996)264:1013-1027</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9000627?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Fully ligated E.Coli Adenylosuccinate Synthetase with GTP, 2'-deoxy-IMP and Hadacidin</PDB_Title>
+      <PDB_ID>2GCQ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GCQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Cavitation as a mechanism of substrate discrimination by adenylosuccinate synthetases</PubMed_Title>
+      <Author>Iancu, C.V., et al.</Author>
+      <Journal>Biochemistry(2006)45:11703-11711</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16981730?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF GUANINE NUCLEOTIDE (GPPCP) COMPLEX OF ADENYLOSUCCINATE SYNTHETASE FROM E. COLI AT PH 6.5 AND 25 DEGREES CELSIUS</PDB_Title>
+      <PDB_ID>1HOO</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HOO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Refined crystal structures of guanine nucleotide complexes of adenylosuccinate synthetase from Escherichia coli.</PubMed_Title>
+      <Author>Poland, B.W., et al.</Author>
+      <Journal>J.Biol.Chem.(1996)271:15407-15413</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8663109?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE MUTANT (K16Q) OF ADENYLOSUCCINATE SYNTHETASE FROM E. COLI COMPLEXED WITH HADACIDIN, GDP, 6-PHOSPHORYL-IMP, AND MG2+</PDB_Title>
+      <PDB_ID>1CG1</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CG1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanistic implications from crystalline complexes of wild-type and mutant adenylosuccinate synthetases from Escherichia coli.</PubMed_Title>
+      <Author>Choe, J.Y., et al.</Author>
+      <Journal>Biochemistry(1999)38:6953-6961</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10346917?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF ADENYLOSUCCINATE SYNTHETASE FROM E. COLI COMPLEXED WITH GDP, IMP, HADACIDIN, AND NO3</PDB_Title>
+      <PDB_ID>1CIB</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CIB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Effectors of the stringent response target the active site of Escherichia coli adenylosuccinate synthetase.</PubMed_Title>
+      <Author>Hou, Z., et al.</Author>
+      <Journal>J.Biol.Chem.(1999)274:17505-17510</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10364182?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DESIGN, SYNTHESIS, AND X-RAY CRYSTAL STRUCTURE OF AN ENZYME BOUND BISUBSTRATE HYBRID INHIBITOR OF ADENYLOSUCCINATE SYNTHETASE</PDB_Title>
+      <PDB_ID>1QF5</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QF5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An enzyme-bound bisubstrate hybrid inhibitor of adenylosuccinate synthetase</PubMed_Title>
+      <Author>Hanessian, S., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(1999)38:3159-3162</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10556888?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF ADENYLOSUCCINATE SYNTHETASE FROM E. COLI COMPLEXED WITH A STRINGENT EFFECTOR, PPG2':3'P</PDB_Title>
+      <PDB_ID>1CH8</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CH8</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD10238001</ASD_Ligand>
+      <PubMed_Title>Effectors of the stringent response target the active site of Escherichia coli adenylosuccinate synthetase.</PubMed_Title>
+      <Author>Hou, Z., et al.</Author>
+      <Journal>J.Biol.Chem.(1999)274:17505-17510</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10364182?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>REFINED CRYSTAL STRUCTURE OF ADENYLOSUCCINATE SYNTHETASE FROM ESCHERICHIA COLI COMPLEXED WITH HYDANTOCIDIN 5'-PHOSPHATE GDP, HPO4(2-), MG2+, AND HADACIDIN</PDB_Title>
+      <PDB_ID>1JUY</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JUY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Refined crystal structure of adenylosuccinate synthetase from Escherichia coli complexed with hydantocidin 5'-phosphate, GDP, HPO4(2-), Mg2+, and hadacidin.</PubMed_Title>
+      <Author>Poland, B.W., et al.</Author>
+      <Journal>Biochemistry(1996)35:15753-15759</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8961938?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF ADENYLOSUCCINATE SYNTHETASE FROM E. COLI COMPLEXED WITH HADACIDIN, GDP, 6-PHOSPHORYL-IMP, AND MG2+</PDB_Title>
+      <PDB_ID>1CG0</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CG0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanistic implications from crystalline complexes of wild-type and mutant adenylosuccinate synthetases from Escherichia coli.</PubMed_Title>
+      <Author>Choe, J.Y., et al.</Author>
+      <Journal>Biochemistry(1999)38:6953-6961</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10346917?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF GUANINE NUCLEOTIDE (GPPCP) COMPLEX OF ADENYLOSUCCINATE SYNTHETASE FROM ESCHERICHIA COLI AT PH 6.5 AND 25 DEGREES CELSIUS</PDB_Title>
+      <PDB_ID>1HOP</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HOP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Refined crystal structures of guanine nucleotide complexes of adenylosuccinate synthetase from Escherichia coli.</PubMed_Title>
+      <Author>Poland, B.W., et al.</Author>
+      <Journal>J.Biol.Chem.(1996)271:15407-15413</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8663109?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF GUANINE NUCLEOTIDE (GPPCP) COMPLEX OF ADENYLOSUCCINATE SYNTHETASE FROM ESCHERICHIA COLI AT PH 6.5 AND 25 DEGREE CELSIUS</PDB_Title>
+      <PDB_ID>1HON</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HON</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Refined crystal structures of guanine nucleotide complexes of adenylosuccinate synthetase from Escherichia coli.</PubMed_Title>
+      <Author>Poland, B.W., et al.</Author>
+      <Journal>J.Biol.Chem.(1996)271:15407-15413</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8663109?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ADENYLOSUCCINATE SYNTHETASE IN COMPLEX WITH THE NATURAL FEEDBACK INHIBITOR AMP</PDB_Title>
+      <PDB_ID>1SON</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SON</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The mode of action and the structure of a herbicide in complex with its target: binding of activated hydantocidin to the feedback regulation site of adenylosuccinate synthetase.</PubMed_Title>
+      <Author>Fonne-Pfister, R., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(1996)93:9431-9436</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8790347?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DESIGN, SYNTHESIS, AND X-RAY CRYSTAL STRUCTURE OF AN ENZYME BOUND BISUBSTRATE HYBRID INHIBITOR OF ADENYLOSUCCINATE SYNTHETASE</PDB_Title>
+      <PDB_ID>1QF4</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QF4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An enzyme-bound bisubstrate hybrid inhibitor of adenylosuccinate synthetase</PubMed_Title>
+      <Author>Hanessian, S., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(1999)38:3159-3162</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10556888?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE MUTANT (R143L) OF ADENYLOSUCCINATE SYNTHETASE FROM E. COLI COMPLEXED WITH HADACIDIN, GDP, 6-PHOSPHORYL-IMP, AND MG2+</PDB_Title>
+      <PDB_ID>1CG3</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CG3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanistic implications from crystalline complexes of wild-type and mutant adenylosuccinate synthetases from Escherichia coli.</PubMed_Title>
+      <Author>Choe, J.Y., et al.</Author>
+      <Journal>Biochemistry(1999)38:6953-6961</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10346917?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ADENYLOSUCCINATE SYNTHETASE INHIBITED BY HYDANTOCIDIN 5'-MONOPHOSPHATE</PDB_Title>
+      <PDB_ID>1SOO</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SOO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The mode of action and the structure of a herbicide in complex with its target: binding of activated hydantocidin to the feedback regulation site of adenylosuccinate synthetase.</PubMed_Title>
+      <Author>Fonne-Pfister, R., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(1996)93:9431-9436</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8790347?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Complex of Escherichia coli Adenylosuccinate Synthetase with IMP and Hadacidin</PDB_Title>
+      <PDB_ID>1KKB</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KKB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>IMP Alone Organizes the Active Site of Adenylosuccinate Synthetase from Escherichia coli.</PubMed_Title>
+      <Author>Hou, Z., et al.</Author>
+      <Journal>J.Biol.Chem.(2002)277:5970-5976</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11741996?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Complex of E. coli Adenylosuccinate Synthetase with IMP, Hadacidin, Pyrophosphate, and Mg</PDB_Title>
+      <PDB_ID>1KKF</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KKF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>IMP Alone Organizes the Active Site of Adenylosuccinate Synthetase from Escherichia coli.</PubMed_Title>
+      <Author>Hou, Z., et al.</Author>
+      <Journal>J.Biol.Chem.(2002)277:5970-5976</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11741996?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF ADENYLOSUCCINATE SYNTHETASE AT PH 6.5 AND 25 DEGREES CELSIUS</PDB_Title>
+      <PDB_ID>1ADI</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ADI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Refined crystal structures of unligated adenylosuccinate synthetase from Escherichia coli.</PubMed_Title>
+      <Author>Silva, M.M., et al.</Author>
+      <Journal>J.Mol.Biol.(1995)254:431-446</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7490761?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00250</Pathway_ID>
+      <Pathway_Title>Alanine, aspartate and glutamate metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00230</Pathway_ID>
+      <Pathway_Title>Purine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.bd.c.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1ade</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,415,Ser;site,332,Lys;site,334,Asp;site,50,Lys;site,18,Gly;site,42,His;site,16,Gly;site,17,Lys;site,41,Gly;site,306,Arg;site,418,Pro</Site_Detail>
+      <Site_Reference>Hou Z, et al. J Biol Chem. 1999 Jun 18;274(25):17505-10.</Site_Reference>
+      <PDB_ID>1CH8;1CIB</PDB_ID>
+      <PubMed_ID>10364182</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.3.4.4</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/3/4/4.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00860009</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09440001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10238001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

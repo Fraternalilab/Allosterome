@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04660000_1</Organism_ID>
+  <Organism>Pseudomonas aeruginosa </Organism>
+  <Organism_Latin>Pseudomonas aeruginosa </Organism_Latin>
+  <UniProt_ID>Q59643</UniProt_ID>
+  <Seq_Length>337</Seq_Length>
+  <Molecule_Weight>37037</Molecule_Weight>
+  <KEGG_ID>pae:PA5243</KEGG_ID>
+  <Orthology_ID>K01698</Orthology_ID>
+  <Function_Summary>Catalyzes an early step in the biosynthesis of tetrapyrroles. Binds two molecules of 5-aminolevulinate per subunit, each at a distinct site, and catalyzes their condensation to form porphobilinogen (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>2 5-aminolevulinate = porphobilinogen + 2 H(2)O.</Catalytic_Mechanism>
+  <Pfam_ID>PF00490:ALAD</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>35</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>ALAD</Alias>
+      <Alias>ALADH</Alias>
+      <Alias>Porphobilinogen synthase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 2 5-aminolevulinate = 2 H(2)O + H(+) + porphobilinogen.</Detail>
+      <Keyword>Porphobilinogen synthase activity</Keyword>
+      <Ontology_ID>GO:0004655</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of heme, any compound of iron complexed in a porphyrin (tetrapyrrole) ring, from less complex precursors.</Detail>
+      <Keyword>Heme biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006783</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of any member of a large group of derivatives or analogs of porphyrin. Porphyrin consists of a ring of four pyrrole nuclei linked each to the next at their alpha positions through a methine group.</Detail>
+      <Keyword>Porphyrin biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006779</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSFTPANRAYPYTRLRRNRRDDFSRRLVRENVLTVDDLILPVFVLDGVNQRESIPSMPGVERLSIDQLLIEAEEWVALGIPALALFPVTPVEKKSLDAAEAYNPEGIAQRATRALRERFPELGIITDVALDPFTTHGQDGILDDDGYVLNDVSIDVLVRQALSHAEAGAQVVAPSDMMDGRIGAIREALESAGHTNVRIMAYSAKYASAYYGPFRDAVGSASNLGKGNKATYQMDPANSDEALHEVAADLAEGADMVMVKPGMPYLDIVRRVKDEFRAPTFVYQVSGEYAMHMGAIQNGWLAESVILESLTAFKRAGADGILTYFAKQAAEQLRRGR</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>hemB</Gene_Name>
+    <Gene_ID>879701</Gene_ID>
+    <Genbank_ACCN>NC_002516</Genbank_ACCN>
+    <Protein_ACCN>NP_253930</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/879701</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>STEPWISE INTRODUCTION OF ZINC BINDING SITE INTO PORPHOBILINOGEN SYNTHASE OF PSEUDOMONAS AERUGINOSA (MUTATIONS A129C, D131C, D139C, P132E, K229R)</PDB_Title>
+      <PDB_ID>1W5Q</PDB_ID>
+      <Resolution>1.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W5Q</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Tracking the Evolution of Porphobilinogen Synthase Metal Dependence in Vitro</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>J.Mol.Biol.(2005)345:1059</Journal>
+      <PubMed_ID>15644204</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>5-(4-CARBOXY-2-OXO-BUTOXY)-4-OXO-PENTANOIC ACID ACID BOUND TO PORPHOBILINOGEN SYNTHASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>2C15</PDB_ID>
+      <Resolution>1.48</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C15</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Probing the Active Site of Pseudomonas Aeruginosa Porphobilinogen Synthase Using Newly Developed Inhibitors.</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>Biochemistry(2006)45:8243</Journal>
+      <PubMed_ID>16819823</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STEPWISE INTRODUCTION OF A ZINC BINDING SITE INTO PORPHOBILINOGEN SYNTHASE FROM PSEUDOMONAS AERUGINOSA (MUTATION D139C)</PDB_Title>
+      <PDB_ID>1W54</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W54</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Tracking the Evolution of Porphobilinogen Synthase Metal Dependence in Vitro</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>J.Mol.Biol.(2005)345:1059</Journal>
+      <PubMed_ID>15644204</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>5-(4-CARBOXY-2-OXO-BUTYLAMINO)-4-OXO-PENTANOIC ACID ACID BOUND TO PORPHOBILINOGEN SYNTHASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>2C14</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C14</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Probing the Active Site of Pseudomonas Aeruginosa Porphobilinogen Synthase Using Newly Developed Inhibitors.</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>Biochemistry(2006)45:8243</Journal>
+      <PubMed_ID>16819823</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STEPWISE INTRODUCTION OF ZINC BINDING SITE INTO PORPHOBILINOGEN SYNTHASE OF PSEUDOMONAS AERUGINOSA (MUTATIONS A129C AND D131C)</PDB_Title>
+      <PDB_ID>1W56</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W56</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Tracking the Evolution of Porphobilinogen Synthase Metal Dependence in Vitro</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>J.Mol.Biol.(2005)345:1059</Journal>
+      <PubMed_ID>15644204</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PORPHOBILINOGEN SYNTHASE (HEMB) IN COMPLEX WITH 5-ACETAMIDO-4-OXOHEXANOIC ACID (ALAREMYCIN 2)</PDB_Title>
+      <PDB_ID>2WOQ</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WOQ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Structure of the Heme Biosynthetic Pseudomonas Aeruginosa Porphobilinogen Synthase in Complex with the Antibiotic Alaremycin.</PubMed_Title>
+      <Author>Heinemann, I.U., et al.</Author>
+      <Journal>Antimicrob.Agents Chemother.(2010)54:267</Journal>
+      <PubMed_ID>19822707</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STEPWISE INTRODUCTION OF ZINC BINDING SITE INTO PORPHOBILINOGEN SYNTHASE OF PSEUDOMONAS AERUGINOSA (MUTATIONS A129C AND D139C)</PDB_Title>
+      <PDB_ID>1W5M</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W5M</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Tracking the Evolution of Porphobilinogen Synthase Metal Dependence in Vitro</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>J.Mol.Biol.(2005)345:1059</Journal>
+      <PubMed_ID>15644204</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STEPWISE INTRODUCTION OF ZINC BINDING SITE INTO PORPHOBILINOGEN SYNTHASE OF PSEUDOMONAS AERUGINOSA (MUTATIONS A129C, D131C AND D139C)</PDB_Title>
+      <PDB_ID>1W5O</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W5O</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Tracking the Evolution of Porphobilinogen Synthase Metal Dependence in Vitro</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>J.Mol.Biol.(2005)345:1059</Journal>
+      <PubMed_ID>15644204</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>5-(4-CARBOXY-2-OXO-BUTYLSULFANYL)-4-OXO-PENTANOIC ACID ACID BOUND TO PORPHOBILINOGEN SYNTHASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>2C19</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C19</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Probing the Active Site of Pseudomonas Aeruginosa Porphobilinogen Synthase Using Newly Developed Inhibitors.</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>Biochemistry(2006)45:8243</Journal>
+      <PubMed_ID>16819823</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPLEX OF A MG2-DEPENDENT PORPHOBILINOGEN SYNTHASE FROM PSEUDOMONAS AERUGINOSA (MUTANT D139N) WITH 5-FLUOROLEVULINIC ACID</PDB_Title>
+      <PDB_ID>1GZG</PDB_ID>
+      <Resolution>1.66</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GZG</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Structure of Porphobilinogen Synthase from Pseudomonas Aeruginosa in Complex with 5-Fluorolevulinic Acid Suggests a Double Schiff Base Mechanism</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>J.Mol.Biol.(2002)320:237</Journal>
+      <PubMed_ID>12079382</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>5-(4-CARBOXY-2-OXO-BUTANE-1-SULFINYL)-4-OXO-PENTANOIC ACID ACID BOUND TO PORPHOBILINOGEN SYNTHASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>2C16</PDB_ID>
+      <Resolution>2.02</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C16</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Probing the Active Site of Pseudomonas Aeruginosa Porphobilinogen Synthase Using Newly Developed Inhibitors.</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>Biochemistry(2006)45:8243</Journal>
+      <PubMed_ID>16819823</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STEPWISE INTRODUCTION OF ZINC BINDING SITE INTO PORPHOBILINOGEN SYNTHASE OF PSEUDOMONAS AERUGINOSA (MUTATIONS D131C AND D139C)</PDB_Title>
+      <PDB_ID>1W5N</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W5N</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Tracking the Evolution of Porphobilinogen Synthase Metal Dependence in Vitro</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>J.Mol.Biol.(2005)345:1059</Journal>
+      <PubMed_ID>15644204</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>5-HYDROXY-LEVULINIC ACID BOUND TO PORPHOBILINOGEN SYNTHASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>2C13</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C13</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Probing the Active Site of Pseudomonas Aeruginosa Porphobilinogen Synthase Using Newly Developed Inhibitors.</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>Biochemistry(2006)45:8243</Journal>
+      <PubMed_ID>16819823</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STEPWISE INTRODUCTION OF ZINC BINDING SITE INTO PORPHOBILINOGEN SYNTHASE OF PSEUDOMONAS AERUGINOSA (MUTATIONS A129C, D131C, D139C, P132E)</PDB_Title>
+      <PDB_ID>1W5P</PDB_ID>
+      <Resolution>1.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W5P</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Tracking the Evolution of Porphobilinogen Synthase Metal Dependence in Vitro</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>J.Mol.Biol.(2005)345:1059</Journal>
+      <PubMed_ID>15644204</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>5-(4-CARBOXY-2-OXO-BUTANE-1-SULFONYL)-4-OXO-PENTANOIC ACID BOUND TO PORPHOBILINOGEN SYNTHASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>2C18</PDB_ID>
+      <Resolution>1.93</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C18</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>Probing the Active Site of Pseudomonas Aeruginosa Porphobilinogen Synthase Using Newly Developed Inhibitors.</PubMed_Title>
+      <Author>Frere, F., et al.</Author>
+      <Journal>Biochemistry(2006)45:8243</Journal>
+      <PubMed_ID>16819823</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>High resolution crystal structure of a MG2-dependent 5-aminolevulinic acid dehydratase</PDB_Title>
+      <PDB_ID>1B4K</PDB_ID>
+      <Resolution>1.67</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1B4K</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030</ASD_Ligand>
+      <PubMed_Title>High resolution crystal structure of a Mg2+-dependent porphobilinogen synthase.</PubMed_Title>
+      <Author>Frankenberg, N., et al.</Author>
+      <Journal>J.Mol.Biol.(1999)289:591-602</Journal>
+      <PubMed_ID>10356331</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00860</Pathway_ID>
+      <Pathway_Title>Porphyrin and chlorophyll metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.b.bb.d.d.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1b4k</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,19,Arg;site,179,Asp;site,181,Arg;site,241,Glu;site,245,Glu</Site_Detail>
+      <Site_Reference>Reitz AB, et al. ARKIVOC. 2010,2010:175-188.;Jaffe EK. Curr Top Med Chem. 2013,13(1):55-63. </Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PDB_ID>1B4K;1GZG;1W54;1W56;1W5M;1W5N;1W5O;1W5P;1W5Q;2C13;2C14;2C15;2C16;2C18;2C19;2WOQ</PDB_ID>
+      <PubMed_ID>21643541;23409765</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.2.1.24</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/2/1/24.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00240007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00330030</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04660043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

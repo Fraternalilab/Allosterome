@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01540000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q06609</UniProt_ID>
+  <Seq_Length>339</Seq_Length>
+  <Molecule_Weight>36966</Molecule_Weight>
+  <KEGG_ID>hsa:5888</KEGG_ID>
+  <Orthology_ID>K04482</Orthology_ID>
+  <EBI_ID>EBI-297202</EBI_ID>
+  <Function_Summary>Participates in a common DNA damage response pathway associated with the activation of homologous recombination and double-strand break repair. Binds to single and double stranded DNA and exhibits DNA-dependent ATPase activity. Underwinds duplex DNA and forms helical nucleoprotein filaments. Plays a role in regulating mitochondrial DNA copy number under conditions of oxidative stress in the presence of RAD51C and XRCC3.</Function_Summary>
+  <Pfam_ID>PF08423:Rad51</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>RecA, E. coli, homolog of</Alias>
+      <Alias>HsRAD51</Alias>
+      <Alias>RecA-like protein</Alias>
+      <Alias>BRCA1/BRCA2-containing complex, subunit 5</Alias>
+      <Alias>Recombination protein A</Alias>
+      <Alias>RAD51 homolog A</Alias>
+      <Alias>HRAD51</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a protein C-terminus, the end of any peptide chain at which the 1-carboxy function of a constituent amino acid is not attached in peptide linkage to another amino-acid residue.</Detail>
+      <Keyword>Protein C-terminus binding</Keyword>
+      <Ontology_ID>GO:0008022</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with single-stranded DNA.</Detail>
+      <Keyword>Single-stranded DNA binding</Keyword>
+      <Ontology_ID>GO:0003697</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with double-stranded DNA.</Detail>
+      <Keyword>Double-stranded DNA binding</Keyword>
+      <Ontology_ID>GO:0003690</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate; this reaction requires the presence of single-stranded DNA, and it drives another reaction.</Detail>
+      <Keyword>Single-stranded DNA-dependent ATPase activity</Keyword>
+      <Ontology_ID>GO:0043142</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with damaged DNA.</Detail>
+      <Keyword>Damaged DNA binding</Keyword>
+      <Ontology_ID>GO:0003684</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein or proteins.</Detail>
+      <Keyword>Identical protein binding</Keyword>
+      <Ontology_ID>GO:0042802</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>150</Position>
+      <Original>Arg</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process of creating protein oligomers, compounds composed of a small number, usually between three and ten, of identical component monomers. Oligomers may be formed by the polymerization of a number of monomers or the depolymerization of a large protein polymer.</Detail>
+      <Keyword>Protein homooligomerization</Keyword>
+      <Ontology_ID>GO:0051260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which a new genotype is formed by reassortment of genes resulting in gene combinations different from those that were present in the parents. In eukaryotes genetic recombination can occur by chromosome assortment, intrachromosomal recombination, or nonreciprocal interchromosomal recombination. Intrachromosomal recombination occurs by crossing over. In bacteria it may occur by genetic transformation, conjugation, transduction, or F-duction.</Detail>
+      <Keyword>DNA recombination</Keyword>
+      <Ontology_ID>GO:0006310</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</Detail>
+      <Keyword>DNA repair</Keyword>
+      <Ontology_ID>GO:0006281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cell cycle process in which double strand breaks are formed and repaired through a double Holliday junction intermediate. This results in the equal exchange of genetic material between non-sister chromatids in a pair of homologous chromosomes. These reciprocal recombinant products ensure the proper segregation of homologous chromosomes during meiosis I and create genetic diversity.</Detail>
+      <Keyword>Reciprocal meiotic recombination</Keyword>
+      <Ontology_ID>GO:0007131</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The aggregation, arrangement and bonding together of strand exchange proteins (recombinases) into higher order oligomers on single-stranded DNA.</Detail>
+      <Keyword>DNA recombinase assembly</Keyword>
+      <Ontology_ID>GO:0000730</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The exchange, reciprocal or nonreciprocal, of genetic material between one DNA molecule and a homologous region of DNA that occurs during mitotic cell cycles.</Detail>
+      <Keyword>Mitotic recombination</Keyword>
+      <Ontology_ID>GO:0006312</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which interchain hydrogen bonds between two strands of DNA are broken or 'melted', generating unpaired template strands for DNA replication.</Detail>
+      <Keyword>DNA unwinding involved in replication</Keyword>
+      <Ontology_ID>GO:0006268</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of DNA ligation, the re-formation of a broken phosphodiester bond in the DNA backbone, carried out by DNA ligase.</Detail>
+      <Keyword>Positive regulation of DNA ligation</Keyword>
+      <Ontology_ID>GO:0051106</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>309</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>54</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAMQMQLEANADTSVEEESFGPQPISRLEQCGINANDVKKLEEAGFHTVEAVAYAPKKELINIKGISEAKADKILAEAAKLVPMGFTTATEFHQRRSEIIQITTGSKELDKLLQGGIETGSITEMFGEFRTGKTQICHTLAVTCQLPIDRGGGEGKAMYIDTEGTFRPERLLAVAERYGLSGSDVLDNVAYARAFNTDHQTQLLYQASAMMVESRYALLIVDSATALYRTDYSGRGELSARQMHLARFLRMLLRLADEFGVAVVITNQVVAQVDGAAMFAADPKKPIGGNIIAHASTTRLYLRKGRGETRICKIYDSPCLPEAEAMFAINADGVGDAKD</Protein_Seq>
+    <DNA_Seq>GAATTCCGGTAAGGAGAGTGCGGCGCTTCCCGAGGCGTGCAGCTGGGAACTGCAACTCATCTGGGTTGTGCGCAGAAGGCTGGGGCAAGCGAGTAGAGAAGTGGAGCGTAAGCCAGGGGGCTTGGGGGCCGTGCGGGCGGGTCGCGTGCAGCCCCGCGGGGTGAAGTCGGAGCGCGGGGCCTGCTGGAGAGAGGAGCGCTGCGACCGAGTAATGGCAATGCAGATGCAGCTTGAAGCAAATGCAGATACTTCAGTGGAAGAAGAAAGCTTTGGCCCACAACCCATTTCACGGTTAGAGCAGTGTGGCATAAATGCCAACGATGTGAAGAAATTGGAAGAAGCTGGATTCCATACTGTGGAGGCTGTTGCCTATGCGCCAAAGAAGGAGCTAATAAATATTAAGGGAATTAGTGAAGCCAAAGCTGATAAAATTCTGGCTGAGGCAGCTAAATTAGTTCCAATGGGTTTCACCACTGCAACTGAATTCCACCAAAGGCGGTCAGAGATCATACAGATTACTACTGGCTCCAAAGAGCTTGACAAACTACTTCAAGGTGGAATTGAGACTGGATCTATCACAGAAATGTTTGGAGAATTCCGAACTGGGAAGACCCAGATCTGTCATACGCTAGCTGTCACCTGCCAGCTTCCCATTGACCGGGGTGGAGGTGAAGGAAAGGCCATGTACATTGACACTGAGGGTACCTTTAGGCCAGAACGGCTGCTGGCAGTGGCTGAGAGGTATGGTCTCTCTGGCAGTGATGTCCTGGATAATGTAGCATATGCTCGAGCGTTCAACACAGACCACCAGACCCAGCTCCTTTATCAAGCATCAGCCATGATGGTAGAATCTAGGTATGCACTGCTTATTGTAGACAGTGCCACCGCCCTTTACAGAACAGACTACTCGGGTCGAGGTGAGCTTTCAGCCAGGCAGATGCACTTGGCCAGGTTTCTGCGGATGCTTCTGCGACTCGCTGATGAGTTTGGTGTAGCAGTGGTAATCACTAATCAGGTGGTAGCTCAAGTGGATGGAGCAGCGATGTTTGCTGCTGATCCCAAAAAACCTATTGGAGGAAATATCATCGCCCATGCATCAACAACCAGATTGTATCTGAGGAAAGGAAGAGGGGAAACCAGAATCTGCCAAATCTACGACTCTCCCTGTCTTCCTGAAGCTGAAGCTATGTTCGCCATTAATGCAGATGGAGTGGGAGATGCCAAAGACTGAATCATTGGGTTTTTCCTCTGTTAAAAACCTTAAGTGCTGCAGCCTAATGAGAGTGCACTGCTCCCTGGGGTTCTCTACAGGCCTCTTCCTGTTGTGACTGCCAGGATAAAGCTTCCGGGAAAACAGCTATTATATCAGCTTTTCTGATGGTATAAACAGGAGACAGGTCAGTAGTCACAAACTGATCTAAAATGGTTTATTCCTTCTGTAGTGTATTAATCTCTGTGTGTTTTCTTTGGTTTTGGAGGAGGGTATGAAGTATCTTTGACATGGTGCCTTAGGAATGACTTGGGTTTAACAAGCTGTCTACTGGACAATCTTATGTTTCCAAGAGAACTAAAGCTGGAGAGACCTGACCCTTCTCTCACTTCTAAATTAATGGTAAAATAAAAGTCCTCAGCTATGTAGCAAAGG</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Testis</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Colon</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Breast</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Ovary</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Thymus</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Pancreas</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Placenta</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Small intestine</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>RAD51</Gene_Name>
+    <Gene_Alias>RAD51A; RECA</Gene_Alias>
+    <Gene_ID>5888</Gene_ID>
+    <Genbank_ACCN>NM_001164270</Genbank_ACCN>
+    <Protein_ACCN>NP_001157742</Protein_ACCN>
+    <HGNC_ID>9817</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5888</Gene_URL>
+    <UCSC_ID>uc010bbw.3</UCSC_ID>
+    <EMBL_ID>ENSG00000051180</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P04637</Uniprot_ID>
+      <Gene_Name>TP53</Gene_Name>
+      <EBI_ID>EBI-366083</EBI_ID>
+      <PPI_EBI_URL>EBI-297202,EBI-366083</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q96B01-2</Uniprot_ID>
+      <Gene_Name>RAD51AP1</Gene_Name>
+      <EBI_ID>EBI-1178743</EBI_ID>
+      <PPI_EBI_URL>EBI-297202,EBI-1178743</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O14757</Uniprot_ID>
+      <Gene_Name>CHEK1</Gene_Name>
+      <EBI_ID>EBI-974488</EBI_ID>
+      <PPI_EBI_URL>EBI-297202,EBI-974488</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P51587</Uniprot_ID>
+      <Gene_Name>BRCA2</Gene_Name>
+      <EBI_ID>EBI-79792</EBI_ID>
+      <PPI_EBI_URL>EBI-297202,EBI-79792</PPI_EBI_URL>
+      <Experiment_Number>19</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q6NVH7</Uniprot_ID>
+      <Gene_Name>SWSAP1</Gene_Name>
+      <EBI_ID>EBI-5281637</EBI_ID>
+      <PPI_EBI_URL>EBI-297202,EBI-5281637</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q06609</Uniprot_ID>
+      <Gene_Name>RAD51</Gene_Name>
+      <EBI_ID>EBI-297202</EBI_ID>
+      <PPI_EBI_URL>EBI-297202,EBI-297202</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P43351</Uniprot_ID>
+      <Gene_Name>RAD52</Gene_Name>
+      <EBI_ID>EBI-706448</EBI_ID>
+      <PPI_EBI_URL>EBI-297202,EBI-706448</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q96B01-3</Uniprot_ID>
+      <Gene_Name>RAD51AP1</Gene_Name>
+      <EBI_ID>EBI-1178748</EBI_ID>
+      <PPI_EBI_URL>EBI-297202,EBI-1178748</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Ovarian Cancer</Disease_Name>
+      <Disease_Detail>Ovarian Cancer</Disease_Detail>
+      <Disease_DB>OVR042</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ovarian_cancer?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Bilateral Breast Cancer</Disease_Name>
+      <Disease_Detail>Bilateral Breast Cancer</Disease_Detail>
+      <Disease_DB>BLT006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/bilateral_breast_cancer?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Male Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>MLB002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/male_breast_cancer?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer, Lobular</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS082</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_lobular?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mirror Movements 2</Disease_Name>
+      <Disease_Detail>Mirror Movements</Disease_Detail>
+      <Disease_DB>MRR010</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mirror_movements_2?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer, Somatic</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS069</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_somatic?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Bloom Syndrome</Disease_Name>
+      <Disease_Detail>Bloom Syndrome</Disease_Detail>
+      <Disease_DB>BLM001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/bloom_syndrome?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Familial Chronic Lymphocytic Leukemia</Disease_Name>
+      <Disease_Detail>Familial Chronic Lymphocytic Leukemia</Disease_Detail>
+      <Disease_DB>FML114</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/familial_chronic_lymphocytic_leukemia?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Familial Breast Cancer</Disease_Name>
+      <Disease_Detail>Familial Breast Cancer</Disease_Detail>
+      <Disease_DB>FML108</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/familial_breast_cancer?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mirror Movements 1</Disease_Name>
+      <Disease_Detail>Mirror Movements</Disease_Detail>
+      <Disease_DB>MRR011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mirror_movements_1?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS047</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast-Ovarian Cancer, Familial, 1</Disease_Name>
+      <Disease_Detail>Breast-Ovarian Cancer</Disease_Detail>
+      <Disease_DB>BRS071</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_ovarian_cancer_familial_1?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer, Invasive Ductal</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS077</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_invasive_ductal?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer Susceptibility</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS081</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_susceptibility?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Chronic Lymphocytic Leukemia</Disease_Name>
+      <Disease_Detail>Chronic Lymphocytic Leukemia</Disease_Detail>
+      <Disease_DB>CHR090</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/chronic_lymphocytic_leukemia?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer, Early-Onset</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS076</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_early_onset?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer, Protection Against</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS079</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_protection_against?search=RAD51#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of a RAD51-BRCA2 BRC repeat complex</PDB_Title>
+      <PDB_ID>1N0W</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1N0W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights into DNA recombination from the structure of a RAD51-BRCA2 complex</PubMed_Title>
+      <Author>Pellegrini L, et al.</Author>
+      <Journal>Nature.2002 Nov 21;420(6913):287-93. Epub  2002 Nov 10.</Journal>
+      <PubMed_ID>12442171</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RAD51 (N-TERMINAL DOMAIN)</PDB_Title>
+      <PDB_ID>1B22</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1B22</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The N-terminal domain of the human Rad51 protein binds DNA: structure and a DNA binding surface as revealed by NMR.</PubMed_Title>
+      <Author>Aihara H, et al.</Author>
+      <Journal>J Mol Biol.1999 Jul 9;290(2):495-504.</Journal>
+      <PubMed_ID>10390347</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05212</Pathway_ID>
+      <Pathway_Title>Pancreatic cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko03460</Pathway_ID>
+      <Pathway_Title>Fanconi anemia pathway</Pathway_Title>
+      <Pathway_Class>Genetic Information Processing</Pathway_Class>
+      <Pathway_Subclass>Replication and repair</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.be.ba.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1n0w</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,129,Phe;site,294,His</Site_Detail>
+      <Site_Reference>Renodon-Corniere A, et al. J.Mol.Biol. 2008,383(3):575-587.</Site_Reference>
+      <Site_Type>Allosteric Linkage</Site_Type>
+      <PubMed_ID>18761348</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

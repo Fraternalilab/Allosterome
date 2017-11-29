@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00950000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0AEE8</UniProt_ID>
+  <Seq_Length>278</Seq_Length>
+  <Molecule_Weight>32100</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3789</KEGG_ID>
+  <Orthology_ID>K06223</Orthology_ID>
+  <Function_Summary>Methylates DNA within the sequence GATC and protects the DNA from cleavage by the restriction endonuclease MboI. Although it shares sequence specificity with a number of type II restriction endonucleases and methylases, it is thought to act in postreplication mismatch repair rather than as a part of a restriction modification system. May also play a role in DNA replication.</Function_Summary>
+  <Catalytic_Mechanism>S-adenosyl-L-methionine + DNA adenine = S-adenosyl-L-homocysteine + DNA 6-methylaminopurine.</Catalytic_Mechanism>
+  <Pfam_ID>PF02086:MethyltransfD12</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Deoxyadenosyl-methyltransferase</Alias>
+      <Alias>Dam methylase</Alias>
+      <Alias>M.EcoDam</Alias>
+      <Alias>DNA adenine methyltransferase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: S-adenosyl-L-methionine + DNA adenine = S-adenosyl-L-homocysteine + DNA 6-methylaminopurine.</Detail>
+      <Keyword>Site-specific DNA-methyltransferase (adenine-specific) activity</Keyword>
+      <Ontology_ID>GO:0009007</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a methyl group to an acceptor molecule.</Detail>
+      <Keyword>Methyltransferase activity</Keyword>
+      <Ontology_ID>GO:0008168</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any nucleic acid.</Detail>
+      <Keyword>Nucleic acid binding</Keyword>
+      <Ontology_ID>GO:0003676</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A DNA replication process that uses parental DNA as a template for the DNA-dependent DNA polymerases that synthesize the new strands.</Detail>
+      <Keyword>DNA-dependent DNA replication</Keyword>
+      <Ontology_ID>GO:0006261</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular metabolic process in which a cell duplicates one or more molecules of DNA. DNA replication begins when specific sequences, known as origins of replication, are recognized and bound by initiation proteins, and ends when the original DNA molecule has been completely duplicated and the copies topologically separated. The unit of replication usually corresponds to the genome of the cell, an organelle, or a virus. The template for replication can either be an existing DNA molecule or RNA.</Detail>
+      <Keyword>DNA replication</Keyword>
+      <Ontology_ID>GO:0006260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A system for the correction of errors in which an incorrect base, which cannot form hydrogen bonds with the corresponding base in the parent strand, is incorporated into the daughter strand. The mismatch repair system promotes genomic fidelity by repairing base-base mismatches, insertion-deletion loops and heterologies generated during DNA replication and recombination.</Detail>
+      <Keyword>Mismatch repair</Keyword>
+      <Ontology_ID>GO:0006298</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKKNRAFLKWAGGKYPLLDDIKRHLPKGECLVEPFVGAGSVFLNTDFSRYILADINSDLISLYNIVKMRTDEYVQAARELFVPETNCAEVYYQFREEFNKSQDPFRRAVLFLYLNRYGYNGLCRYNLRGEFNVPFGRYKKPYFPEAELYHFAEKAQNAFFYCESYADSMARADDASVVYCDPPYAPLSATANFTAYHTNSFTLEQQAHLAEIAEGLVERHIPVLISNHDTMLTREWYQRAKLHVVKVRRSISSNGGTRKKVDELLALYKPGVVSPAKK</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>dam</Gene_Name>
+    <Gene_ID>12932866</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_417846</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947893</Gene_URL>
+    <EMBL_ID>EBESCG00000017445</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Structure of E. coli DNA adenine methyltransferase (DAM)</PDB_Title>
+      <PDB_ID>2G1P</PDB_ID>
+      <Resolution>1.89</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2G1P</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and substrate recognition of the Escherichia coli DNA adenine methyltransferase.</PubMed_Title>
+      <Author>Horton JR, et al.</Author>
+      <Journal>J Mol Biol. 2006 Apr 28;358(2):559-70.</Journal>
+      <PubMed_ID>16524590</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Binary Structure of Escherichia coli DNA Adenine Methyltransferase and S-adenosylhomocysteine</PDB_Title>
+      <PDB_ID>2ORE</PDB_ID>
+      <Resolution>2.99</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ORE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Two alternative conformations of S-adenosyl-L-homocysteine bound to Escherichia coli DNA adenine methyltransferase and the implication of conformational changes in regulating the catalytic cycle.</PubMed_Title>
+      <Author>Liebert K, et al.</Author>
+      <Journal>J Biol Chem. 2007 Aug 3;282(31):22848-55.</Journal>
+      <PubMed_ID>17545164</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <CATH_URL>http://www.cathdb.info/pdb/2ore</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.1.1.72</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/1/1/72.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02790001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

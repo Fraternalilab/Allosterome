@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08210000_1</Organism_ID>
+  <Organism>Methanosarcina acetivorans </Organism>
+  <Organism_Latin>Methanosarcina acetivorans </Organism_Latin>
+  <UniProt_ID>Q8TTZ3</UniProt_ID>
+  <Seq_Length>348</Seq_Length>
+  <Molecule_Weight>38851</Molecule_Weight>
+  <KEGG_ID>mac:MA0282</KEGG_ID>
+  <Orthology_ID>K15497</Orthology_ID>
+  <Pfam_ID>PF00005:ABC_tran@@PF03459:TOBE</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Sulfate/molybdate ABC transporter, ATP-binding protein</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate + 2 H+. May or may not be coupled to another reaction.</Detail>
+      <Keyword>ATPase activity</Keyword>
+      <Ontology_ID>GO:0016887</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of an acid anhydride to directly drive the transport of a substance across a membrane.</Detail>
+      <Keyword>Hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances</Keyword>
+      <Ontology_ID>GO:0016820</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Molecule_Seq>
+    <Protein_Seq>MIEIESLSRKWKNFSLDNLSLKVESGEYFVILGPTGAGKTLFLELIAGFHVPDSGRILLDGKDVTDLSPEKHDIAFVYQNYSLFPHMNVKKNLEFGMRMKKIKDPKRVLDTARDLKIEHLLDRNPLTLSGGEQQRVALARALVTNPKILLLDEPLSALDPRTQENAREMLSVLHKKNKLTVLHITHDQTEARIMADRIAVVMDGKLIQVGKPEEIFEKPVEGRVASFVGFENVLKGRVISAEQGLLRIRVGEVVIDAAGDMEVGDQVYAFLRPENIALSKSSTQSSIRNSLQGRVTEAWVLGALVRVKVDCGVPLNVLITRRSAEEMELSPGVQIYARFKASSVHVLR</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>ATP-binding cassette (ABC) transporter complex</CellLocal>
+      <Ontology_ID>GO:0043190</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_ID>1472174</Gene_ID>
+    <Genbank_ACCN>NC_003552</Genbank_ACCN>
+    <Protein_ACCN>NP_615255</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1472174</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>ModBC from Methanosarcina acetivorans</PDB_Title>
+      <PDB_ID>3D31</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3D31</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of trans-inhibition in a molybdate/tungstate ABC transporter.</PubMed_Title>
+      <Author>Gerber, S., et al.</Author>
+      <Journal>Science(2008)321:246-250</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18511655?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02010</Pathway_ID>
+      <Pathway_Title>ABC transporters</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Membrane transport</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.bg.cj.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/3d31</CATH_URL>
+  </Fold>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

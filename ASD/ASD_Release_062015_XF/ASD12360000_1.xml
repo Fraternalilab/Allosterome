@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD12360000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P51668</UniProt_ID>
+  <Seq_Length>147</Seq_Length>
+  <Molecule_Weight>16602</Molecule_Weight>
+  <KEGG_ID>hsa:7321</KEGG_ID>
+  <EBI_ID>EBI-743540</EBI_ID>
+  <Function_Summary>Accepts ubiquitin from the E1 complex and catalyzes its covalent attachment to other proteins. In vitro catalyzes 'Lys-48'-linked polyubiquitination. Mediates the selective degradation of short-lived and abnormal proteins. Functions in the E6/E6-AP-induced ubiquitination of p53/TP53. Mediates ubiquitination of PEX5 and auto-ubiquitination of STUB1, TRAF6 and TRIM63/MURF1. Ubiquitinates STUB1-associated HSP90AB1 in vitro. Lacks inherent specificity for any particular lysine residue of ubiquitin. Essential for viral activation of IRF3. Mediates polyubiquitination of CYP3A4.</Function_Summary>
+  <Catalytic_Mechanism>ATP + ubiquitin + protein lysine = AMP + diphosphate + protein N-ubiquityllysine.</Catalytic_Mechanism>
+  <Pfam_ID>PF00179:UQ_con</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>SFT</Alias>
+      <Alias>Ubiquitin-conjugating enzyme E2(17)KB 1</Alias>
+      <Alias>Ubiquitin-conjugating enzyme E2-17 kDa 1</Alias>
+      <Alias>Ubiquitin-protein ligase D1</Alias>
+      <Alias>UbcH5</Alias>
+      <Alias>Stimulator of Fe transport</Alias>
+      <Alias>UBC4/5 homolog</Alias>
+      <Alias>Ubiquitin carrier protein D1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + ubiquitin + protein lysine = AMP + diphosphate + protein N-ubiquityllysine.</Detail>
+      <Keyword>Ubiquitin-protein ligase activity</Keyword>
+      <Ontology_ID>GO:0004842</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that activates, maintains or increases the rate of ubiquitin ligase activity that contributes to the mitotic cell cycle.</Detail>
+      <Keyword>Positive regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle</Keyword>
+      <Ontology_ID>GO:0051437</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Progression through the phases of the mitotic cell cycle, the most common eukaryotic cell cycle, which canonically comprises four successive phases called G1, S, G2, and M and includes replication of the genome and the subsequent segregation of chromosomes into daughter cells. In some variant cell cycles nuclear replication or nuclear division may not be followed by cell division, or G1 and G2 phases may be absent.</Detail>
+      <Keyword>Mitotic cell cycle</Keyword>
+      <Ontology_ID>GO:0000278</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</Detail>
+      <Keyword>Innate immune response</Keyword>
+      <Ontology_ID>GO:0045087</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the addition of ubiquitin groups to a protein.</Detail>
+      <Keyword>Positive regulation of protein ubiquitination</Keyword>
+      <Ontology_ID>GO:0031398</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the assembly of the RNA polymerase II preinitiation complex (PIC) at an RNA polymerase II promoter region of a DNA template, resulting in the subsequent synthesis of RNA from that promoter. The initiation phase includes PIC assembly and the formation of the first few bonds in the RNA chain, including abortive initiation, which occurs when the first few nucleotides are repeatedly synthesized and then released. Promoter clearance, or release, is the transition between the initiation and elongation phases of transcription.</Detail>
+      <Keyword>Transcription initiation from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0006367</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds, initiated by the covalent attachment of a ubiquitin group, or multiple ubiquitin groups, to the protein.</Detail>
+      <Keyword>Ubiquitin-dependent protein catabolic process</Keyword>
+      <Ontology_ID>GO:0006511</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of transcription from an RNA polymerase II promoter.</Detail>
+      <Keyword>Negative regulation of transcription from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0000122</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to toll-like receptor 4.</Detail>
+      <Keyword>Toll-like receptor 4 signaling pathway</Keyword>
+      <Ontology_ID>GO:0034142</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</Detail>
+      <Keyword>Gene expression</Keyword>
+      <Ontology_ID>GO:0010467</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating lowered oxygen tension. Hypoxia, defined as a decline in O2 levels below normoxic levels of 20.8 - 20.95%, results in metabolic adaptation at both the cellular and organismal level.</Detail>
+      <Keyword>Cellular response to hypoxia</Keyword>
+      <Ontology_ID>GO:0071456</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds, initiated by the covalent attachment of ubiquitin, with ubiquitin-protein ligation catalyzed by the anaphase-promoting complex, and mediated by the proteasome.</Detail>
+      <Keyword>Anaphase-promoting complex-dependent proteasomal ubiquitin-dependent protein catabolic process</Keyword>
+      <Ontology_ID>GO:0031145</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to a toll-like receptor. Toll-like receptors directly bind pattern motifs from a variety of microbial sources to initiate innate immune response.</Detail>
+      <Keyword>Toll-like receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0002224</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals generated as a consequence of any member of the BMP (bone morphogenetic protein) family binding to a cell surface receptor.</Detail>
+      <Keyword>BMP signaling pathway</Keyword>
+      <Ontology_ID>GO:0030509</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cell cycle checkpoint that delays the metaphase/anaphase transition of a mitotic nuclear division until the spindle is correctly assembled and chromosomes are attached to the spindle.</Detail>
+      <Keyword>Mitotic cell cycle spindle assembly checkpoint</Keyword>
+      <Ontology_ID>GO:0007094</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to toll-like receptor 3.</Detail>
+      <Keyword>Toll-like receptor 3 signaling pathway</Keyword>
+      <Ontology_ID>GO:0034138</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of ubiquitin ligase activity that contributes to the mitotic cell cycle.</Detail>
+      <Keyword>Negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle</Keyword>
+      <Ontology_ID>GO:0051436</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to a toll-like receptor not relying on the MyD88 adaptor molecule. Toll-like receptors directly bind pattern motifs from a variety of microbial sources to initiate innate immune response.</Detail>
+      <Keyword>MyD88-independent toll-like receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0002756</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Protein involved in ubiquitin-like modifier processing, activation, conjugation or deconjugation such as Ubl-activating enzymes (E1s), Ubl-conjugating enzymes (E2s), Ubl-protein ligases (E3s), some thiol proteases (Ubiquitin carboxyl-terminal hydrolases (UCH), Ubiquitin-specific processing proteases (UBP) and ubiquitin-like proteases) and the ubiquitin-like modifier proteins. Besides signaling proteolysis, ubiquitination for example can be a signal for trafficking, kinase activation and other nonproteolytic fates.</Detail>
+      <Keyword>Ubl conjugation pathway</Keyword>
+      <Ontology_ID>KW-0833</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A protein ubiquitination process in which a polymer of ubiquitin, formed by linkages between lysine residues at position 48 of the ubiquitin monomers, is added to a protein. K48-linked ubiquitination targets the substrate protein for degradation.</Detail>
+      <Keyword>Protein K48-linked ubiquitination</Keyword>
+      <Ontology_ID>GO:0070936</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to a toll-like receptor where the TRIF adaptor mediates transduction of the signal. Toll-like receptors directly bind pattern motifs from a variety of microbial sources to initiate innate immune response.</Detail>
+      <Keyword>TRIF-dependent toll-like receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0035666</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cell cycle process that modulates the frequency, rate or extent of ubiquitin ligase activity that contributes to the mitotic cell cycle.</Detail>
+      <Keyword>Regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle</Keyword>
+      <Ontology_ID>GO:0051439</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Addition of multiple ubiquitin groups to a protein, forming a ubiquitin chain.</Detail>
+      <Keyword>Protein polyubiquitination</Keyword>
+      <Ontology_ID>GO:0000209</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a transforming growth factor beta receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Transforming growth factor beta receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0007179</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MALKRIQKELSDLQRDPPAHCSAGPVGDDLFHWQATIMGPPDSAYQGGVFFLTVHFPTDYPFKPPKIAFTTKIYHPNINSNGSICLDILRSQWSPALTVSKVLLSICSLLCDPNPDDPLVPDIAQIYKSDKEKYNRHAREWTQKYAM</Protein_Seq>
+    <DNA_Seq>AAAAGAGTCTCGCCGGCGTCCCCGCCCGCACACTCGCGCACACTCGCGCTCGGGCGCACACGGAGCAGGGACCGGCGCCCGGAGCGAGCCAGGGAGCGGCTAACCGGGGACCCACCGCGCGGAGCCAGCCTAGCTGCCAGCGAGCCCAACCCGCGACGACCCACGCCCCTGAGCCCCGCAGCCGACCCCTGCCGGCCGGTGTCCCCACCGCCATCCCTGACCCATGGCGCTGAAGAGGATTCAGAAAGAATTGAGTGATCTACAGCGCGATCCACCTGCTCACTGTTCAGCTGGACCTGTGGGAGATGACTTGTTCCACTGGCAAGCCACTATTATGGGGCCTCCTGATAGCGCATATCAAGGTGGAGTCTTCTTTCTCACTGTACATTTTCCGACAGATTATCCTTTTAAACCACCAAAGATTGCTTTCACAACAAAAATTTACCATCCAAACATAAACAGTAATGGAAGTATTTGTCTCGATATTCTGAGGTCACAATGGTCACCAGCTCTGACTGTATCAAAAGTTTTATTGTCCATATGTTCTCTACTTTGTGATCCTAATCCAGATGACCCCTTAGTACCAGATATTGCACAAATCTATAAATCAGACAAAGAAAAATACAACAGACATGCAAGAGAATGGACTCAGAAATATGCAATGTAAAAATCAAAAACATTTTCATATATACCAGAGTACTGTAAAATCTAGGTTTTTTTCAACATTAGCAGTAAATTGAGCACTGTTTACTGTTTCATTGTACCATGAAACCATTTGATTTTTACCCATTTTAAATGTGTTTCTGAAGCAAGACAAAACAAACTTCCAAAAATACCCTTAAGACTGTGATGAGAGCATTTATCATTTTGTATGCATTGAGAAAGACATTTATTATGGTTTTTAAGATACTTGGACATCTGCATCTTCAGCTTACAAGATCTACAATGCAGCTGAAAAGCAACCAAATTATTTTTTGCTGAAACTAGATGTTTTTACATGAGAAATACTGTATGTGTTGTCTAAGATGTCAGTTTTATAAATCTGTATTCAGATTTCATTCTTTGTTAGCTCACTTTATAATTTGTATTTTTTTACTGTATAGACTAAATATATTCTATTTACATGTATGTCAACTCATTACTTTTTTCCTGTGAACAGTATTGAAAAACCCCAACGGCTGATAATTAAGTGAATTAACTGTGTCTCCCTTGTCTTAGGATATTCTGTAGATTGATTGCAGATTTCTTAAATCTGAAATGATCTTTACACTGTAATTCTCAGCATACTGATTATGGAGAAACACTTGTTTTGATTTTGTTATACTTGACTTAACTTTATTGCAATGTGAATTAATTGCACTGCTAAGTAGGAAGATGTGTAACTTTTATTTGTTGCTATTCACATTTGAATTTTTTCCTGTATAGGCAATATTATATTGACACCTTTTACAGATCTTACTGTAGCTTTTTCCATATAAATAAAATGCTTTTTCTACTATTTGTCTTGATTACTTAAAAAAATAAAAATATAAGTAAGGATCAAAACTCTAAAATTTTGCATGAAAATTACATCCAAATTGTGAAAATCAGATCTATTTTGTTTGCCATTAGTCACCATTAGTTATATAAATTTTATTGTTTTAGGTTAGTATCTCTTTACTAAATTGTCAGTCTATAAGATAATATATGTTGATCCCTTGCTGTAGAGGAGAATTTAGAGTAATTTGGGGTTTGTCTTGGATTATATCTAAATGGATTATTTGTTAAAAGTACTGAAATGAGTATAAGGCAGTATCACCCATCCAAAAGAAAGGTCTTTATAGACCTGCACAGTCACTAGATTAATTCATTAAAATGCCCCCACCCTGATGTAATTGACATTACATTTCTTAACATTTTAAAATCTAGAATTTCTAAAATGGAATTTAATGCCATCACAATTTGAAAAACTTTTTTTTTTTTTTTACTATAGAAGTTACAAAGGAAGTTCTAAAATTATGCCTCCCTCTGTTTTTATAAGTTGCCATCGAAAAGTGATTTAAATAAGCAGGTTATCTTTATAGATTTTAAAGAAAACTAGAAAGTTTTAATGTTTTAACTTGGGGAAAAATACATCTCTTTAATGTTTAGCATGCTTGTCAACCTTGAGTGAGTGTCATTTTTAAGAACAGTTGTAGCCCTTCTGATTATTGCAGTAGCTGTAGAAGTATGTAAGAATATGTGATGGGTGTAGTCATTAGCAAAGCATTTAAATCACTTGAGTATTTTGTCATGGTTCATTATTATTAAAGCACAAAATAACCTATTGTTAGAAAATATGTGTTTTTATAAATGAATGTAAAATAATTAAATGAATTGTGAAATGGATGTTTAAGAAAATATAGGCTTAAAAAGTAAATCTATAAAATGATGTCTTAAAACAGCCATATCATGAAAAATTCTACTTAGCTATATTATTATAAGCTACATTTGCCCTGAATTTGAACACTCAACATCACTAGATTTAAATATTTAGTATATTTTGATAGTAAAGGGTTTTGTTTCTTGAATATCTTCACTTTAAACAAAAAAAAAAAACAACTTTCATTTGTGTGGCATTTATTTTTGGAAGTGTCTTCTTTTTTTTCTTTATTAAAGTTTTTGAAACTTGCCTAAAAAAAAAAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Livers</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Protein complex</CellLocal>
+      <Ontology_ID>GO:0043234</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleoplasm</CellLocal>
+      <Ontology_ID>GO:0005654</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Ubiquitin ligase complex</CellLocal>
+      <Ontology_ID>GO:0000151</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>UBE2D1</Gene_Name>
+    <Gene_Alias>SFT; UBC5A; UBCH5; UBCH5A</Gene_Alias>
+    <Gene_ID>7321</Gene_ID>
+    <Genbank_ACCN>NM_003338</Genbank_ACCN>
+    <Protein_ACCN>NP_003329</Protein_ACCN>
+    <HGNC_ID>12474</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/7321</Gene_URL>
+    <UCSC_ID>uc001jke.2</UCSC_ID>
+    <EMBL_ID>ENSG00000072401</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q96FW1</Uniprot_ID>
+      <Gene_Name>OTUB1</Gene_Name>
+      <EBI_ID>EBI-1058491</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-1058491</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P98170</Uniprot_ID>
+      <Gene_Name>XIAP</Gene_Name>
+      <EBI_ID>EBI-517127</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-517127</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q4ZH49</Uniprot_ID>
+      <Gene_Name>DTX2</Gene_Name>
+      <EBI_ID>EBI-10192429</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-10192429</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q8ND25</Uniprot_ID>
+      <Gene_Name>ZNRF1</Gene_Name>
+      <EBI_ID>EBI-2129250</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-2129250</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O15344</Uniprot_ID>
+      <Gene_Name>MID1</Gene_Name>
+      <EBI_ID>EBI-2340316</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-2340316</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9H000</Uniprot_ID>
+      <Gene_Name>MKRN2</Gene_Name>
+      <EBI_ID>EBI-2341005</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-2341005</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y4L5</Uniprot_ID>
+      <Gene_Name>RNF115</Gene_Name>
+      <EBI_ID>EBI-2129242</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-2129242</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q99942</Uniprot_ID>
+      <Gene_Name>RNF5</Gene_Name>
+      <EBI_ID>EBI-348482</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-348482</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y4K3</Uniprot_ID>
+      <Gene_Name>TRAF6</Gene_Name>
+      <EBI_ID>EBI-359276</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-359276</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9UBS8</Uniprot_ID>
+      <Gene_Name>RNF14</Gene_Name>
+      <EBI_ID>EBI-2130308</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-2130308</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y3C5</Uniprot_ID>
+      <Gene_Name>RNF11</Gene_Name>
+      <EBI_ID>EBI-396669</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-396669</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9UJV3-2</Uniprot_ID>
+      <Gene_Name>MID2</Gene_Name>
+      <EBI_ID>EBI-10172526</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-10172526</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9HCM9</Uniprot_ID>
+      <Gene_Name>TRIM39</Gene_Name>
+      <EBI_ID>EBI-739510</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-739510</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9BV68</Uniprot_ID>
+      <Gene_Name>RNF126</Gene_Name>
+      <EBI_ID>EBI-357322</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-357322</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q13064</Uniprot_ID>
+      <Gene_Name>MKRN3</Gene_Name>
+      <EBI_ID>EBI-2340269</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-2340269</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q6ZNA4</Uniprot_ID>
+      <Gene_Name>RNF111</Gene_Name>
+      <EBI_ID>EBI-2129175</EBI_ID>
+      <PPI_EBI_URL>EBI-743540,EBI-2129175</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Hypoxia</Disease_Name>
+      <Disease_Detail>Hypoxia</Disease_Detail>
+      <Disease_DB>HYP266</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypoxia?search=UBE2D1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hemochromatosis</Disease_Name>
+      <Disease_Detail>Hemochromatosis</Disease_Detail>
+      <Disease_DB>HMC003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hemochromatosis?search=UBE2D1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Rnf4 - ubch5a - ubiquitin heterotrimeric complex</PDB_Title>
+      <PDB_ID>4AP4</PDB_ID>
+      <Resolution>2.21</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4AP4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a Ring E3 Ligase and Ubiquitin-Loaded E2 Primed for Catalysis</PubMed_Title>
+      <Author>Plechanovova, A., et al.</Author>
+      <Journal>Nature(2012)489:115</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22842904?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HUMAN UBIQUITIN-CONJUGATING ENZYME UBCH5A</PDB_Title>
+      <PDB_ID>2C4P</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C4P</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of Two Human Ubiquitin-Conjugating Enzymes from Twinned Crystals</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of RNF146(RING-WWE)/UbcH5a/iso-ADPr complex</PDB_Title>
+      <PDB_ID>4QPL</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4QPL</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD12360001</ASD_Ligand>
+      <PubMed_Title>Allosteric activation of the RNF146 ubiquitin ligase by a poly(ADP-ribosyl)ation signal.</PubMed_Title>
+      <Author>DaRosa, P.A., et al.</Author>
+      <Journal>Nature(2015)517:223-226</Journal>
+      <PubMed_ID>25327252</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray structure of the non-covalent complex between UbcH5A and Ubiquitin</PDB_Title>
+      <PDB_ID>3PTF</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PTF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Modulation of K11-Linkage Formation by Variable Loop Residues within UbcH5A.</PubMed_Title>
+      <Author>Bosanac, I., et al.</Author>
+      <Journal>J.Mol.Biol.(2011)408:420-431</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21396940?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE IDOL-UBE2D COMPLEX MEDIATES STEROL-DEPENDENT DEGRADATION OF THE LDL RECEPTOR</PDB_Title>
+      <PDB_ID>2YHO</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YHO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Idol-Ube2D Complex Mediates Sterol-Dependent Degradation of the Ldl Receptor.</PubMed_Title>
+      <Author>Zhang, L., et al.</Author>
+      <Journal>Genes Dev.(2011)25:1262</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21685362?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2c4p</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.3.2.19</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/3/2/19.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD12360001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-05-20</Create_Date>
+</Organism_Record>

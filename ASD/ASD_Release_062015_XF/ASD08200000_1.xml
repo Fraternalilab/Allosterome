@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08200000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0ABZ1</UniProt_ID>
+  <Seq_Length>331</Seq_Length>
+  <Molecule_Weight>36776</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p1909</KEGG_ID>
+  <Orthology_ID>K02410</Orthology_ID>
+  <EBI_ID>EBI-1126524</EBI_ID>
+  <Function_Summary>FliM is one of three proteins (FliG, FliN, FliM) that form the rotor-mounted switch complex (C ring), located at the base of the basal body. This complex interacts with the CheY and CheZ chemotaxis proteins, in addition to contacting components of the motor that determine the direction of flagellar rotation.</Function_Summary>
+  <Pfam_ID>PF01706:FliG_C</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of movement along a polymeric molecule such as a microfilament or microtubule, coupled to the hydrolysis of a nucleoside triphosphate.</Detail>
+      <Keyword>Motor activity</Keyword>
+      <Ontology_ID>GO:0003774</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of a motile cell or organism, or the directed growth of a cell guided by a specific chemical concentration gradient. Movement may be towards a higher concentration (positive chemotaxis) or towards a lower concentration (negative chemotaxis).</Detail>
+      <Keyword>Chemotaxis</Keyword>
+      <Ontology_ID>GO:0006935</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Cell motility due to movement of cilia or flagella.</Detail>
+      <Keyword>Ciliary or flagellar motility</Keyword>
+      <Ontology_ID>GO:0001539</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Cell motility due to the motion of one or more flagella.</Detail>
+      <Keyword>Flagellar cell motility</Keyword>
+      <Ontology_ID>GO:0060286</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The assembly of a flagellum. In bacteria, this is a whiplike motility appendage present on the surface of some species; in eukaryotes, flagella are threadlike protoplasmic extensions used to propel flagellates and sperm. Flagella are composed of flagellin and have the same basic structure as cilia but are longer in proportion to the cell and present in much smaller numbers.</Detail>
+      <Keyword>Flagellum assembly</Keyword>
+      <Ontology_ID>GO:0009296</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MSNLTGTDKSVILLMTIGEDRAAEVFKHLSQREVQTLSAAMANVTQISNKQLTDVLAEFEQEAEQFAALNINANDYLRSVLVKALGEERAASLLEDILETRDTASGIETLNFMEPQSAADLIRDEHPQIIATILVHLKRAQAADILALFDERLRHDVMLRIATFGGVQPAALAELTEVLNGLLDGQNLKRSKMGGVRTAAEIINLMKTQQEEAVITAVREFDGELAQKIIDEMFLFENLVDVDDRSIQRLLQEVDSESLLIALKGAEQPLREKFLRNMSQRAADILRDDLANRGPVRLSQVENEQKAILLIVRRLAETGEMVIGSGEDTYV</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Bacterial-type flagellum</CellLocal>
+      <Ontology_ID>GO:0009288</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Bacterial flagellum basal body</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Bacterial-type flagellum basal body</CellLocal>
+      <Ontology_ID>GO:0009425</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell inner membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>fliG</Gene_Name>
+    <Gene_Alias>fla AII.2; fla BII</Gene_Alias>
+    <Gene_ID>12931390</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_416449</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/946451</Gene_URL>
+    <EMBL_ID>EBESCG00000014264</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P76010</Uniprot_ID>
+      <Gene_Name>ycgR</Gene_Name>
+      <EBI_ID>EBI-554507</EBI_ID>
+      <PPI_EBI_URL>EBI-1126524,EBI-554507</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P06974</Uniprot_ID>
+      <Gene_Name>fliM</Gene_Name>
+      <EBI_ID>EBI-560439</EBI_ID>
+      <PPI_EBI_URL>EBI-1126524,EBI-560439</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Flagellar motor switch protein FliG</PDB_Title>
+      <PDB_ID>ASD08200000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Conformational spread model</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

@@ -1,0 +1,965 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05790000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q99835</UniProt_ID>
+  <Seq_Length>787</Seq_Length>
+  <Molecule_Weight>86397</Molecule_Weight>
+  <KEGG_ID>hsa:6608</KEGG_ID>
+  <Orthology_ID>K06226</Orthology_ID>
+  <Function_Summary>G protein-coupled receptor that probably associates with the patched protein (PTCH) to transduce the hedgehog's proteins signal. Binding of sonic hedgehog (SHH) to its receptor patched is thought to prevent normal inhibition by patched of smoothened (SMO). Required for the accumulation of KIF7 and GLI3 in the cilia.</Function_Summary>
+  <Pfam_ID>PF01534:Frizzled@@PF01392:Fz</Pfam_ID>
+  <Allosteric_Activator_Count>7</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>62</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>66</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>SMO</Alias>
+      <Alias>Protein Gx</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>A receptor that binds an extracellular ligand and transmits the signal to a heterotrimeric G-protein complex. These receptors are characteristically seven-transmembrane receptors and are made up of hetero- or homodimers.</Detail>
+      <Keyword>G-protein coupled receptor activity</Keyword>
+      <Ontology_ID>GO:0004930</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with a member of the Wnt family of signaling molecules to initiate a change in cell activity.</Detail>
+      <Keyword>Wnt receptor activity</Keyword>
+      <Ontology_ID>GO:0042813</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a drug, any naturally occurring or synthetic substance, other than a nutrient, that, when administered or applied to an organism, affects the structure or functioning of the organism; in particular, any such substance used in the diagnosis, prevention, or treatment of disease.</Detail>
+      <Keyword>Drug binding</Keyword>
+      <Ontology_ID>GO:0008144</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a PDZ domain of a protein, a domain found in diverse signaling proteins.</Detail>
+      <Keyword>PDZ domain binding</Keyword>
+      <Ontology_ID>GO:0030165</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with the patched (ptc) protein, a receptor for hedgehog proteins.</Detail>
+      <Keyword>Patched binding</Keyword>
+      <Ontology_ID>GO:0005113</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with Wnt-protein, a secreted growth factor involved in signaling.</Detail>
+      <Keyword>Wnt-protein binding</Keyword>
+      <Ontology_ID>GO:0017147</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>535</Position>
+      <Original>Trp</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>473</Position>
+      <Original>Asp</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>562</Position>
+      <Original>Arg</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The series of events in which information about the density of cells in a population is received by direct cell-cell contact and is converted into a molecular signal, resulting in the cessation of cell growth or proliferation.</Detail>
+      <Keyword>Detection of cell density by contact stimulus involved in contact inhibition</Keyword>
+      <Ontology_ID>GO:0060248</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of smoothened signaling.</Detail>
+      <Keyword>Positive regulation of smoothened signaling pathway</Keyword>
+      <Ontology_ID>GO:0045880</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal, e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light, and ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell, and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</Detail>
+      <Keyword>Signal transduction</Keyword>
+      <Ontology_ID>GO:0007165</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the gonad over time, from its formation to the mature structure. The gonad is an animal organ that produces gametes; in some species it also produces hormones.</Detail>
+      <Keyword>Gonad development</Keyword>
+      <Ontology_ID>GO:0008406</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The long distance growth of a single cell process, that is involved in the migration of an axon growth cone, where the migration is directed to a specific target site by a combination of attractive and repulsive cues.</Detail>
+      <Keyword>Axon extension involved in axon guidance</Keyword>
+      <Ontology_ID>GO:0048846</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the rate of neuroblast proliferation.</Detail>
+      <Keyword>Positive regulation of neuroblast proliferation</Keyword>
+      <Ontology_ID>GO:0002052</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The differentiation of endothelial cells from progenitor cells during blood vessel development, and the de novo formation of blood vessels and tubes.</Detail>
+      <Keyword>Vasculogenesis</Keyword>
+      <Ontology_ID>GO:0001570</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Grouping of smoothened or patched receptors in a cilium, contributing to the smoothened signaling pathway.</Detail>
+      <Keyword>Ciliary receptor clustering involved in smoothened signaling pathway</Keyword>
+      <Ontology_ID>GO:0060830</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The establishment of the lateral mesoderm with respect to the left and right halves.</Detail>
+      <Keyword>Determination of left/right asymmetry in lateral mesoderm</Keyword>
+      <Ontology_ID>GO:0003140</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops or reduces the frequency, rate or extent of DNA binding. DNA binding is any process in which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>Negative regulation of DNA binding</Keyword>
+      <Ontology_ID>GO:0043392</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals initiated by binding of a Wnt protein to a frizzled family receptor on the surface of the target cell, followed by propagation of the signal via beta-catenin, and ending with a change in transcription of target genes. In this pathway, the activated receptor signals via downstream effectors that result in the inhibition of beta-catenin phosphorylation, thereby preventing degradation of beta-catenin. Stabilized beta-catenin can then accumulate and travel to the nucleus to trigger changes in transcription of target genes.</Detail>
+      <Keyword>Canonical Wnt receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0060070</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The regionalization process in which the area where the ventral furrow will begin invagination is specified.</Detail>
+      <Keyword>Ventral midline determination</Keyword>
+      <Ontology_ID>GO:0007371</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the anatomical structures of the semicircular canals are generated and organized.</Detail>
+      <Keyword>Semicircular canal morphogenesis</Keyword>
+      <Ontology_ID>GO:0048752</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of activation of the transmembrane protein Smoothened in cerebellar granule cells that contributes to the regulation of proliferation of the cells.</Detail>
+      <Keyword>Smoothened signaling pathway involved in regulation of cerebellar granule cell precursor cell proliferation</Keyword>
+      <Ontology_ID>GO:0021938</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The characteristic movement of cells from the dorsal ridge of the neural tube to a variety of locations in a vertebrate embryo.</Detail>
+      <Keyword>Neural crest cell migration</Keyword>
+      <Ontology_ID>GO:0001755</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of formation of spermatozoa, including spermatocytogenesis and spermiogenesis.</Detail>
+      <Keyword>Spermatogenesis</Keyword>
+      <Ontology_ID>GO:0007283</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The regrowth of neuronal processes such as axons or dendrites in response to their loss or damage.</Detail>
+      <Keyword>Neuron projection regeneration</Keyword>
+      <Ontology_ID>GO:0031102</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the anatomical structures of an otolith are generated and organized.</Detail>
+      <Keyword>Otolith morphogenesis</Keyword>
+      <Ontology_ID>GO:0032474</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the activity of a transcription factor that activates transcription of Hedgehog-target genes in response to Smoothened signaling. In Drosophila, Cubitus interruptus (Ci) is the only identified transcription factor so far in the Hedgehog signaling pathway. In vertebrates, members of the Gli protein family are activated in this way. Activation of the Gli/Ci transcription factor is distinct from its stabilization, when proteolytic cleavage is inhibited.</Detail>
+      <Keyword>Positive regulation of hh target transcription factor activity</Keyword>
+      <Ontology_ID>GO:0007228</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the developmental fate of a cell becomes restricted such that it will develop into a neuron.</Detail>
+      <Keyword>Neuron fate commitment</Keyword>
+      <Ontology_ID>GO:0048663</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized mesodermal cell acquires the specialized structural and/or functional features of a cardioblast. A cardioblast is a cardiac precursor cell. It is a cell that has been committed to a cardiac fate, but will undergo more cell division rather than terminally differentiating.</Detail>
+      <Keyword>Cardioblast differentiation</Keyword>
+      <Ontology_ID>GO:0010002</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the exocrine pancreas over time, from its formation to the mature structure. The exocrine pancreas produces and store zymogens of digestive enzymes, such as chymotrypsinogen and trypsinogen in the acinar cells.</Detail>
+      <Keyword>Exocrine pancreas development</Keyword>
+      <Ontology_ID>GO:0031017</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the neural tube is regionalized in the dorsoventral axis.</Detail>
+      <Keyword>Dorsal/ventral neural tube patterning</Keyword>
+      <Ontology_ID>GO:0021904</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the anatomical structures of the viscerocranium are generated and organized during the embryonic phase. The viscerocranium is the part of the skull comprising the facial bones.</Detail>
+      <Keyword>Embryonic viscerocranium morphogenesis</Keyword>
+      <Ontology_ID>GO:0048703</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The biological process whose specific outcome is the progression of a multicellular organism over time from an initial condition (e.g. a zygote or a young adult) to a later condition (e.g. a multicellular animal or an aged adult).</Detail>
+      <Keyword>Multicellular organismal development</Keyword>
+      <Ontology_ID>GO:0007275</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of the adenohypophysis over time from its initial formation until its mature state. The adenohypophysis is the anterior part of the pituitary. It secretes a variety of hormones and its function is regulated by the hypothalamus.</Detail>
+      <Keyword>Adenohypophysis development</Keyword>
+      <Ontology_ID>GO:0021984</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a G-protein coupled receptor binding to its physiological ligand.</Detail>
+      <Keyword>G-protein coupled receptor protein signaling pathway</Keyword>
+      <Ontology_ID>GO:0007186</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the anatomical structures of the digestive tract are generated and organized during embryonic development. The digestive tract is the anatomical structure through which food passes and is processed.</Detail>
+      <Keyword>Embryonic digestive tract morphogenesis</Keyword>
+      <Ontology_ID>GO:0048557</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized cell acquires the specialized features of an osteoblast, the mesodermal cell that gives rise to bone.</Detail>
+      <Keyword>Osteoblast differentiation</Keyword>
+      <Ontology_ID>GO:0001649</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process occurring during the embryonic phase whose specific outcome is the progression of the eye over time, from its formation to the mature structure.</Detail>
+      <Keyword>Embryonic camera-type eye development</Keyword>
+      <Ontology_ID>GO:0031076</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of a dentine-containing tooth over time, from its formation to the mature structure. A dentine-containing tooth is a hard, bony organ borne on the jaw or other bone of a vertebrate, and are composed mainly of dentine, a dense calcified substance, covered by a layer of enamel.</Detail>
+      <Keyword>Odontogenesis of dentine-containing tooth</Keyword>
+      <Ontology_ID>GO:0042475</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the rate, frequency or extent of branching involved in ureteric bud morphogenesis, the process in which the branching structure of the ureteric bud is generated and organized. The ureteric bud is an epithelial tube that grows out from the metanephric duct. The bud elongates and branches to give rise to the ureter and kidney collecting tubules.</Detail>
+      <Keyword>Positive regulation of branching involved in ureteric bud morphogenesis</Keyword>
+      <Ontology_ID>GO:0090190</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of activation of the transmembrane protein Smoothened that results in the spatial identity of regions along the dorsal-ventral axis of the spinal cord.</Detail>
+      <Keyword>Smoothened signaling pathway involved in ventral spinal cord patterning</Keyword>
+      <Ontology_ID>GO:0021910</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized cell acquires specialized features of a neuron whose cell body resides in the central nervous system.</Detail>
+      <Keyword>Central nervous system neuron differentiation</Keyword>
+      <Ontology_ID>GO:0021953</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A transition where a mesenchymal cell establishes apical/basolateral polarity,forms intercellular adhesive junctions, synthesizes basement membrane components and becomes an epithelial cell that will contribute to the shaping of the metanephric renal vesicle.</Detail>
+      <Keyword>Mesenchymal to epithelial transition involved in metanephric renal vesicle formation</Keyword>
+      <Ontology_ID>GO:0072285</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the cellular identity of muscle cells is acquired and determined.</Detail>
+      <Keyword>Muscle cell fate commitment</Keyword>
+      <Ontology_ID>GO:0042693</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of activating or increasing the rate or extent of mesenchymal cell proliferation. Mesenchymal cells are loosely organized embryonic cells.</Detail>
+      <Keyword>Positive regulation of mesenchymal cell proliferation</Keyword>
+      <Ontology_ID>GO:0002053</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell death by apoptosis.</Detail>
+      <Keyword>Negative regulation of apoptosis</Keyword>
+      <Ontology_ID>GO:0043066</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The characteristic morphogenetic movements where the primitive heart tube loops asymmetrically. This looping brings the primitive heart chambers into alignment preceding their future integration.</Detail>
+      <Keyword>Heart looping</Keyword>
+      <Ontology_ID>GO:0001947</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the anatomical structures of the neurocranium are generated and organized during the embryonic phase. The neurocranium is the portion of the vertebrate skull surrounding the brain.</Detail>
+      <Keyword>Embryonic neurocranium morphogenesis</Keyword>
+      <Ontology_ID>GO:0048702</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The formation of a ventral region of glial cells in the neural tube that provides inductive signals for the specification of neuronal cell types. The floor plate is evident at the ventral midline by the neural fold stage.</Detail>
+      <Keyword>Floor plate formation</Keyword>
+      <Ontology_ID>GO:0021508</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the facial nerve over time, from its formation to the mature structure. This sensory and motor nerve supplies the muscles of facial expression and the expression and taste at the anterior two-thirds of the tongue. The principal branches are the superficial opthalmic, buccal, palatine and hyomandibular. The main trunk synapses within pterygopalatine ganglion in the parotid gland and this ganglion then gives off nerve branches which supply the lacrimal gland and the mucous secreting glands of the nasal and oral cavities.</Detail>
+      <Keyword>Facial nerve development</Keyword>
+      <Ontology_ID>GO:0021561</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the midgut over time, from its formation to the mature structure. The midgut is the middle part of the alimentary canal from the stomach, or entrance of the bile duct, to, or including, the large intestine.</Detail>
+      <Keyword>Midgut development</Keyword>
+      <Ontology_ID>GO:0007494</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a cholesterol stimulus.</Detail>
+      <Keyword>Cellular response to cholesterol</Keyword>
+      <Ontology_ID>GO:0071397</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the rate or extent of epithelial cell proliferation.</Detail>
+      <Keyword>Positive regulation of epithelial cell proliferation</Keyword>
+      <Ontology_ID>GO:0050679</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the anatomical structures of the forebrain are generated and organized. The forebrain is the anterior of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes especially the cerebral hemispheres, the thalamus, and the hypothalamus and especially in higher vertebrates is the main control center for sensory and associative information processing, visceral functions, and voluntary motor functions).</Detail>
+      <Keyword>Forebrain morphogenesis</Keyword>
+      <Ontology_ID>GO:0048853</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which the anatomical structure of the cranial nerves are generated and organized. The cerebellar cortex is a thin mantle of gray matter that covers the surface of each cerebral hemisphere. It has a characteristic morphology with convolutions (gyri) and crevices (sulci) that have specific functions. Six layers of nerve cells and the nerve pathways that connect them comprise the cerebellar cortex. Together, these regions are responsible for the processes of conscious thought, perception, emotion and memory as well as advanced motor function.</Detail>
+      <Keyword>Cerebellar cortex morphogenesis</Keyword>
+      <Ontology_ID>GO:0021696</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of a somite from its initial formation to the mature structure. Somites are mesodermal clusters that are arranged segmentally along the anterior posterior axis of an embryo.</Detail>
+      <Keyword>Somite development</Keyword>
+      <Ontology_ID>GO:0061053</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>785</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MAAARPARGPELPLLGLLLLLLLGDPGRGAASSGNATGPGPRSAGGSARRSAAVTGPPPPLSHCGRAAPCEPLRYNVCLGSVLPYGATSTLLAGDSDSQEEAHGKLVLWSGLRNAPRCWAVIQPLLCAVYMPKCENDRVELPSRTLCQATRGPCAIVERERGWPDFLRCTPDRFPEGCTNEVQNIKFNSSGQCEVPLVRTDNPKSWYEDVEGCGIQCQNPLFTEAEHQDMHSYIAAFGAVTGLCTLFTLATFVADWRNSNRYPAVILFYVNACFFVGSIGWLAQFMDGARREIVCRADGTMRLGEPTSNETLSCVIIFVIVYYALMAGVVWFVVLTYAWHTSFKALGTTYQPLSGKTSYFHLLTWSLPFVLTVAILAVAQVDGDSVSGICFVGYKNYRYRAGFVLAPIGLVLIVGGYFLIRGVMTLFSIKSNHPGLLSEKAASKINETMLRLGIFGFLAFGFVLITFSCHFYDFFNQAEWERSFRDYVLCQANVTIGLPTKQPIPDCEIKNRPSLLVEKINLFAMFGTGIAMSTWVWTKATLLIWRRTWCRLTGQSDDEPKRIKKSKMIAKAFSKRHELLQNPGQELSFSMHTVSHDGPVAGLAFDLNEPSADVSSAWAQHVTKMVARRGAILPQDISVTPVATPVPPEEQANLWLVEAEISPELQKRLGRKKKRRKRKKEVCPLAPPPELHPPAPAPSTIPRLPQLPRQKCLVAAGAWGAGDSCRQGAWTLVSNPFCPEPSPPQDPFLPSAPAPVAWAHGRRQGLGPIHSRTNLMDTELMDADSDF</Protein_Seq>
+    <DNA_Seq>GGGCTGAAGACAACTTGGATTGCGAGGCTAGGGCTTGGGGAGTCGTGCATCCCGTTCCGGGCCTCCGCAGCCCAACATGGGCCCCGGGTTCCAAAGTTTGCGAAGTTGGGCGCCGAGGGGCCGGGGCGCGCGGAGCGTCCGGGGGGGCCCGGGCCCGGATTCTCTGGGCGCACAGGTCGCCTGAGCCGCCTCCGCGGCCGCCGAGGTCGTGCGTGTGGCCGGGGGGCTCCGAGGAGCAGGCGGGGGCGCCGGGGCTTTTGCTGAGTTGGCGGGGTTGGCCATGGCCGCTGCCCGCCCAGCGCGGGGGCCGGAGCTCCCGCTCCTGGGGCTGCTGCTGCTGCTGCTGCTGGGGGACCCGGGCCGGGGGGCGGCCTCGAGCGGGAACGCGACCGGGCCTGGGCCTCGGAGCGCGGGCGGGAGCGCGAGGAGGAGCGCGGCGGTGACTGGCCCTCCGCCGCCGCTGAGCCACTGCGGCCGGGCTGCCCCCTGCGAGCCGCTGCGCTACAACGTGTGCCTGGGCTCGGTGCTGCCCTACGGGGCCACCTCCACACTGCTGGCCGGAGACTCGGACTCCCAGGAGGAAGCGCACGGCAAGCTCGTGCTCTGGTCGGGCCTCCGGAATGCCCCCCGCTGCTGGGCAGTGATCCAGCCCCTGCTGTGTGCCGTATACATGCCCAAGTGTGAGAATGACCGGGTGGAGCTGCCCAGCCGTACCCTCTGCCAGGCCACCCGAGGCCCCTGTGCCATCGTGGAGAGGGAGCGGGGCTGGCCTGACTTCCTGCGCTGCACTCCTGACCGCTTCCCTGAAGGCTGCACGAATGAGGTGCAGAACATCAAGTTCAACAGTTCAGGCCAGTGCGAAGTGCCCTTGGTTCGGACAGACAACCCCAAGAGCTGGTACGAGGACGTGGAGGGCTGCGGCATCCAGTGCCAGAACCCGCTCTTCACAGAGGCTGAGCACCAGGACATGCACAGCTACATCGCGGCCTTCGGGGCCGTCACGGGCCTCTGCACGCTCTTCACCCTGGCCACATTCGTGGCTGACTGGCGGAACTCGAATCGCTACCCTGCTGTTATTCTCTTCTACGTCAATGCGTGCTTCTTTGTGGGCAGCATTGGCTGGCTGGCCCAGTTCATGGATGGTGCCCGCCGAGAGATCGTCTGCCGTGCAGATGGCACCATGAGGCTTGGGGAGCCCACCTCCAATGAGACTCTGTCCTGCGTCATCATCTTTGTCATCGTGTACTACGCCCTGATGGCTGGTGTGGTTTGGTTTGTGGTCCTCACCTATGCCTGGCACACTTCCTTCAAAGCCCTGGGCACCACCTACCAGCCTCTCTCGGGCAAGACCTCCTACTTCCACCTGCTCACCTGGTCACTCCCCTTTGTCCTCACTGTGGCAATCCTTGCTGTGGCGCAGGTGGATGGGGACTCTGTGAGTGGGATTTGTTTTGTGGGCTACAAGAACTACCGATACCGTGCGGGCTTCGTGCTGGCCCCAATCGGCCTGGTGCTCATCGTGGGAGGCTACTTCCTCATCCGAGGAGTCATGACTCTGTTCTCCATCAAGAGCAACCACCCCGGGCTGCTGAGTGAGAAGGCTGCCAGCAAGATCAACGAGACCATGCTGCGCCTGGGCATTTTTGGCTTCCTGGCCTTTGGCTTTGTGCTCATTACCTTCAGCTGCCACTTCTACGACTTCTTCAACCAGGCTGAGTGGGAGCGCAGCTTCCGGGACTATGTGCTATGTCAGGCCAATGTGACCATCGGGCTGCCCACCAAGCAGCCCATCCCTGACTGTGAGATCAAGAATCGCCCGAGCCTTCTGGTGGAGAAGATCAACCTGTTTGCCATGTTTGGAACTGGCATCGCCATGAGCACCTGGGTCTGGACCAAGGCCACGCTGCTCATCTGGAGGCGTACCTGGTGCAGGTTGACTGGGCAGAGTGACGATGAGCCAAAGCGGATCAAGAAGAGCAAGATGATTGCCAAGGCCTTCTCTAAGCGGCACGAGCTCCTGCAGAACCCAGGCCAGGAGCTGTCCTTCAGCATGCACACTGTGTCCCACGACGGGCCCGTGGCGGGCTTGGCCTTTGACCTCAATGAGCCCTCAGCTGATGTCTCCTCTGCCTGGGCCCAGCATGTCACCAAGATGGTGGCTCGGAGAGGAGCCATACTGCCCCAGGATATTTCTGTCACCCCTGTGGCAACTCCAGTGCCCCCAGAGGAACAAGCCAACCTGTGGCTGGTTGAGGCAGAGATCTCCCCAGAGCTGCAGAAGCGCCTGGGCCGGAAGAAGAAGAGGAGGAAGAGGAAGAAGGAGGTGTGCCCGCTGGCGCCGCCCCCTGAGCTTCACCCCCCTGCCCCTGCCCCCAGTACCATTCCTCGACTGCCTCAGCTGCCCCGGCAGAAATGCCTGGTGGCTGCAGGTGCCTGGGGAGCTGGGGACTCTTGCCGACAGGGAGCGTGGACCCTGGTCTCCAACCCATTCTGCCCAGAGCCCAGTCCCCCTCAGGATCCATTTCTGCCCAGTGCACCGGCCCCCGTGGCATGGGCTCATGGCCGCCGACAGGGCCTGGGGCCTATTCACTCCCGCACCAACCTGATGGACACAGAACTCATGGATGCAGACTCGGACTTCTGAGCCTGCAGAGCAGGACCTGGGACAGGAAAGAGAGGAACCAATACCTTCAAGGCTCTTCTTCCTCACCGAGCATGCTTCCCTAGGATCCCGTCTTCCAGAGAACCTGTGGGCTGACTGCCCTCCGAAGAGAGTTCTGGATGTCTGGCTCAAAGCAGCAGGACTGTGGGAAAGAGCCTAACATCTCCATGGGGAGGCCTCACCCCAGGGACAGGGCCCTGGAGCTCAGGGTCCTTGTTTCTGCCCTGCCAGCTGCAGCCTGGTTGGCAGCATCTGCTCCATCGGGGCAGGGGGTATGCAGAGCTTGTGGTGGGGCAGGAACGGTGGAGGCAGAGGTGACAGTTCCCAGAGTGGGCTTTGGTGGCCAGGGAGGCAGCCTAGCCTATGTCTGGCAGATGAGGGCTGGCTGCCGTTTTCTGGGCTGATGGGTGCCCTTTCCTGGCAGTCTCAGTCCAAAAGTGTTGACTGTGTCATTAGTCCTTTGTCTAAGTAGGGCCAGGGCACCGTATTCCTCTCCCAGGTGTTTGTGGGGCTGGAAGGACCTGCTCCCACAGGGGCCATGTCCTCTCTTAATAGGTGGCACTACCCCAAACCCATCTTTTGTTCTCCTATATCCTCCTTCTCCTGTTCCATTTCAGTTCAGTTTCAGCGGTGCCAACCTCTTTGCGTTTCCTTTTTGTTGATGAGGACCCAGAGCTGCTGCACACACTCACCTCTAACCCCCTCCCCTCGCTGCTGGGCCCCATCTCCACAGGAGAGACTGGTTCAGCTCTAGGGCCTCAGTCTGGAGTGGGATAGGAGCAGTGAGTGACAAAGCCTCTGAAAGATGCATCATCTCTTCCTCACACCCATTTAGTGGGGGATGGGTCCTCTAGACTTGAGGGGCTACCCTGGGAAGCTGCCGTAGCTTCAGCCAGGCAAGAAAGCTTCCTTCAACCTGCATAGCCGGTGGGTGAGGAGATTCCCACCTTCCATAGCCTCCAAACATGTTCCCAAGGCCCCACTTTCAAGAATCAGACAGCAGGAAGCCATAGATGCTGGCTGGGTTCCAGGTTATGGGGAGAAGAAATACAGTCAATAAAAGGTTTTTGTATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Neuronal cell body</CellLocal>
+      <Ontology_ID>GO:0043025</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Intracellular membrane-bounded organelle</CellLocal>
+      <Ontology_ID>GO:0043231</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Primary cilium</CellLocal>
+      <Ontology_ID>GO:0072372</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>SMO</Gene_Name>
+    <Gene_Alias>SMOH</Gene_Alias>
+    <Gene_ID>6608</Gene_ID>
+    <Genbank_ACCN>NM_005631</Genbank_ACCN>
+    <Protein_ACCN>NP_005622</Protein_ACCN>
+    <HGNC_ID>11119</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/6608</Gene_URL>
+    <UCSC_ID>uc003vor.3</UCSC_ID>
+    <EMBL_ID>ENSG00000128602</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Basal Cell Carcinoma, Somatic</Disease_Name>
+      <Disease_Detail>Basal Cell Carcinoma</Disease_Detail>
+      <Disease_DB>BSL021</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/basal_cell_carcinoma_somatic?search=SMO#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Basal Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Basal Cell Carcinoma</Disease_Detail>
+      <Disease_DB>BSL007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/basal_cell_carcinoma?search=SMO#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pancreatic Cancer</Disease_Name>
+      <Disease_Detail>Pancreatic Cancer</Disease_Detail>
+      <Disease_DB>PNC035</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pancreatic_cancer?search=SMO#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Smoothened homolog</PDB_Title>
+      <PDB_ID>ASD05790000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05205</Pathway_ID>
+      <Pathway_Title>Proteoglycans in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05217</Pathway_ID>
+      <Pathway_Title>Basal cell carcinoma</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04340</Pathway_ID>
+      <Pathway_Title>Hedgehog signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD05790001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790003</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790008</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790009</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790010</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790011</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790012</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790013</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790014</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790015</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790016</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790017</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790018</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790019</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790020</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790021</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790022</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790023</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790024</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790025</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790026</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790027</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790028</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790029</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790030</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790031</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790032</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790033</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790034</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790035</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790036</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790037</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790038</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790039</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790040</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790041</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790042</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790043</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790044</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790045</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790046</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790047</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790048</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790050</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790051</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790052</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790053</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790054</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790055</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790056</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790057</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790069</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790079</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790081</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790082</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790083</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790084</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790085</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790088</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790089</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790090</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790091</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790092</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790093</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790094</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790095</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790096</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790097</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790098</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790099</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790100</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790101</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790102</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790105</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790107</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790109</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790110</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790111</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790112</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790113</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790115</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790117</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790118</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790119</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790120</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790121</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790122</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790123</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790124</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790125</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790126</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790127</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790128</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790129</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790130</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790131</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790132</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790133</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790134</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05790135</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05792001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05792002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05792003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05792004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05792005</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05792006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05792007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

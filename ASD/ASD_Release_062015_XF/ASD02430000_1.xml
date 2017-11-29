@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02430000_1</Organism_ID>
+  <Organism>Mouse</Organism>
+  <Organism_Latin>Mus musculus</Organism_Latin>
+  <UniProt_ID>P49443</UniProt_ID>
+  <Seq_Length>382</Seq_Length>
+  <Molecule_Weight>42433</Molecule_Weight>
+  <KEGG_ID>mmu:19042</KEGG_ID>
+  <Orthology_ID>K04457</Orthology_ID>
+  <Function_Summary>Enzyme with a broad specificity. Negatively regulates TGF-beta signaling through dephosphorylating SMAD2 and SMAD3, resulting in their dissociation from SMAD4, nuclear export of the SMADs and termination of the TGF-beta-mediated signaling (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>A phosphoprotein + H(2)O = a protein + phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00481:PP2C@@PF07830:PP2C_C</Pfam_ID>
+  <Allosteric_Activator_Count>3</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Mpp alpha</Alias>
+      <Alias>Protein phosphatase IA</Alias>
+      <Alias>Protein phosphatase 2C isoform alpha</Alias>
+      <Alias>PP2C-alpha</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with manganese (Mn) ions.</Detail>
+      <Keyword>Manganese ion binding</Keyword>
+      <Ontology_ID>GO:0030145</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a receptor-regulated SMAD signaling protein.</Detail>
+      <Keyword>R-SMAD binding</Keyword>
+      <Ontology_ID>GO:0070412</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: a phosphoprotein + H2O = a protein + phosphate. Together with protein kinases, these enzymes control the state of phosphorylation of cell proteins and thereby provide an important mechanism for regulating cellular activity.</Detail>
+      <Keyword>Phosphoprotein phosphatase activity</Keyword>
+      <Ontology_ID>GO:0004721</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process of removing one or more phosphoric residues from a protein.</Detail>
+      <Keyword>Protein dephosphorylation</Keyword>
+      <Ontology_ID>GO:0006470</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>375</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>377</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MGAFLDKPKMEKHNAQGQGNGLRYGLSSMQGWRVEMEDAHTAVIGLPSGLETWSFFAVYDGHAGSQVAKYCCEHLLDHITNNQDFRGSAGAPSVENVKNGIRTGFLEIDEHMRVMSEKKHGADRSGSTAVGVLISPQHTYFINCGDSRGLLCRNRKVHFFTQDHKPSNPLEKERIQNAGGSVMIQRVNGSLAVSRALGDFDYKCVHGKGPTEQLVSPEPEVHDIERSEEDDQFIILACDGIWDVMGNEELCDFVRSRLEVTDDLEKVCNEVVDTCLYKGSRDNMSVILICFPSAPKVSAEAVKKEAELDKYLESRVEEIIKKQVEGVPDLVHVMRTLASENIPSLPPGGELASKRNVIEAVYNRLNPYKNDDTDSASTDDMW</Protein_Seq>
+    <DNA_Seq>CCCGGGCCCGGCCGCCGTCGCGGGACCCCGTGCCCGGCCGCCGTCGCCACCGCCGCCCCGGCCGACCGAGGGACCCGCCCGCCCGCGGCTGCTCCGGACCTAGAGGATCAAGTCATAATGGGAGCATTTTTAGACAAGCCAAAGATGGAGAAGCATAATGCCCAGGGGCAGGGGAATGGGTTACGATACGGCCTAAGCAGCATGCAAGGTTGGCGAGTTGAAATGGAGGACGCACACACGGCTGTGATCGGTTTGCCAAGTGGACTTGAGACATGGTCATTCTTTGCTGTATATGATGGGCATGCTGGTTCTCAGGTTGCCAAATACTGCTGTGAGCACTTGTTAGATCACATCACCAATAACCAGGATTTCAGAGGATCTGCAGGAGCACCTTCTGTGGAGAACGTAAAGAATGGAATCAGAACAGGGTTTCTGGAGATTGATGAACACATGAGAGTTATGTCAGAGAAGAAACATGGTGCAGATAGAAGCGGGTCAACAGCTGTGGGCGTCTTAATCTCTCCCCAACATACTTATTTCATTAACTGTGGAGACTCGAGAGGTTTACTTTGTAGGAATAGAAAAGTTCACTTCTTCACACAAGACCATAAACCAAGTAACCCGCTGGAAAAAGAACGAATTCAGAATGCAGGGGGCTCGGTGATGATTCAGCGTGTCAATGGCTCTCTGGCTGTATCGAGGGCCCTTGGGGATTTCGATTACAAATGTGTCCATGGAAAAGGTCCCACAGAGCAGCTTGTCTCCCCAGAGCCCGAAGTCCATGATATTGAAAGGTCTGAAGAAGATGACCAGTTCATCATCCTTGCATGCGATGGCATCTGGGACGTCATGGGGAACGAAGAGCTCTGTGACTTTGTGAGATCCAGACTTGAAGTCACTGATGACCTTGAGAAAGTTTGCAATGAAGTAGTCGACACCTGCTTGTATAAGGGAAGTCGAGACAACATGAGTGTGATTTTGATCTGTTTTCCAAGTGCACCCAAAGTCTCGGCAGAGGCGGTGAAGAAGGAGGCGGAGCTGGACAAGTACCTGGAGAGCAGAGTAGAAGAAATCATAAAGAAGCAGGTGGAAGGCGTCCCTGACTTAGTCCACGTGATGCGCACGTTAGCCAGTGAGAACATCCCCAGCCTCCCACCAGGGGGTGAATTGGCAAGCAAGCGGAATGTAATTGAAGCCGTTTACAATAGACTGAACCCTTACAAAAATGACGACACTGATTCTGCGTCAACCGATGATATGTGGTAAAGCCGCTCACCCAGCCGTGGACTCACCTTCGCCTGCAAAGGGGAAGCCAGCTCATCCTTGCCGAGCCTTTACCATCCATCACCGACTTCACAGGAGGGTCTGACACGGGTGAGGACTGCAG</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>Ppm1a</Gene_Name>
+    <Gene_Alias>Pppm1a</Gene_Alias>
+    <Gene_ID>19042</Gene_ID>
+    <Genbank_ACCN>NM_008910</Genbank_ACCN>
+    <Protein_ACCN>NP_032936</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/19042</Gene_URL>
+    <UCSC_ID>uc007nvu.2</UCSC_ID>
+    <EMBL_ID>ENSMUSG00000021096</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Protein phosphatase 1A</PDB_Title>
+      <PDB_ID>ASD02430000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04010</Pathway_ID>
+      <Pathway_Title>MAPK signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.3.16</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/3/16.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02430001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02430002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02430003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

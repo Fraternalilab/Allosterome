@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08660000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q05655</UniProt_ID>
+  <Seq_Length>676</Seq_Length>
+  <Molecule_Weight>77505</Molecule_Weight>
+  <KEGG_ID>hsa:5580</KEGG_ID>
+  <Orthology_ID>K06068</Orthology_ID>
+  <EBI_ID>EBI-704279</EBI_ID>
+  <Function_Summary>Calcium-independent, phospholipid- and diacylglycerol (DAG)-dependent serine/threonine-protein kinase that plays contrasting roles in cell death and cell survival by functioning as a pro-apoptotic protein during DNA damage-induced apoptosis, but acting as an anti-apoptotic protein during cytokine receptor-initiated cell death, is involved in tumor suppression as well as survival of several cancers, is required for oxygen radical production by NADPH oxidase and acts as positive or negative regulator in platelet functional responses. Upon DNA damage, activates the promoter of the death-promoting transcription factor BCLAF1/Btf to trigger BCLAF1-mediated p53/TP53 gene transcription and apoptosis. In response to oxidative stress, interact with and activate CHUK/IKKA in the nucleus, causing the phosphorylation of p53/TP53. In the case of ER stress or DNA damage-induced apoptosis, can form a complex with the tyrosine-protein kinase ABL1 which trigger apoptosis independently of p53/TP53. In cytosol can trigger apoptosis by activating MAPK11 or MAPK14, inhibiting AKT1 and decreasing the level of X-linked inhibitor of apoptosis protein (XIAP), whereas in nucleus induces apoptosis via the activation of MAPK8 or MAPK9. Upon ionizing radiation treatment, is required for the activation of the apoptosis regulators BAX and BAK, which trigger the mitochondrial cell death pathway. Can phosphorylate MCL1 and target it for degradation which is sufficient to trigger for BAX activation and apoptosis. Is required for the control of cell cycle progression both at G1/S and G2/M phases. Mediates phorbol 12-myristate 13-acetate (PMA)-induced inhibition of cell cycle progression at G1/S phase by up-regulating the CDK inhibitor CDKN1A/p21 and inhibiting the cyclin CCNA2 promoter activity. In response to UV irradiation can phosphorylate CDK1, which is important for the G2/M DNA damage checkpoint activation. Can protect glioma cells from the apoptosis induced by TNFSF10/TRAIL, probably by inducing increased phosphorylation and subsequent activation of AKT1. Is highly expressed in a number of cancer cells and promotes cell survival and resistance against chemotherapeutic drugs by inducing cyclin D1 (CCND1) and hyperphosphorylation of RB1, and via several pro-survival pathways, including NF-kappa-B, AKT1 and MAPK1/3 (ERK1/2). Can also act as tumor suppressor upon mitogenic stimulation with PMA or TPA. In N-formyl-methionyl-leucyl-phenylalanine (fMLP)-treated cells, is required for NCF1 (p47-phox) phosphorylation and activation of NADPH oxidase activity, and regulates TNF-elicited superoxide anion production in neutrophils, by direct phosphorylation and activation of NCF1 or indirectly through MAPK1/3 (ERK1/2) signaling pathways. May also play a role in the regulation of NADPH oxidase activity in eosinophil after stimulation with IL5, leukotriene B4 or PMA. In collagen-induced platelet aggregation, acts a negative regulator of filopodia formation and actin polymerization by interacting with and negatively regulating VASP phosphorylation. Downstream of PAR1, PAR4 and CD36/GP4 receptors, regulates differentially platelet dense granule secretion; acts as a positive regulator in PAR-mediated granule secretion, whereas it negatively regulates CD36/GP4-mediated granule release. Phosphorylates MUC1 in the C-terminal and regulates the interaction between MUC1 and beta-catenin.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a protein = ADP + a phosphoprotein.@@ATP + a [protein]-L-tyrosine = ADP + a [protein]-L-tyrosine phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00130:C1_1@@PF00069:Pkinase@@PF00433:Pkinase_C</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Tyrosine-protein kinase PRKCD</Alias>
+      <Alias>nPKC-delta</Alias>
+      <Alias>2.7.10.2&lt;/ecNumber</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a protein C-terminus, the end of any peptide chain at which the 1-carboxy function of a constituent amino acid is not attached in peptide linkage to another amino-acid residue.</Detail>
+      <Keyword>Protein C-terminus binding</Keyword>
+      <Ontology_ID>GO:0008022</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any enzyme.</Detail>
+      <Keyword>Enzyme binding</Keyword>
+      <Ontology_ID>GO:0019899</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a protein = ADP + a phosphoprotein. This reaction requires diacylglycerol but not calcium.</Detail>
+      <Keyword>Calcium-independent protein kinase C activity</Keyword>
+      <Ontology_ID>GO:0004699</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Increases the activity of an enzyme.</Detail>
+      <Keyword>Enzyme activator activity</Keyword>
+      <Ontology_ID>GO:0008047</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a non-membrane spanning protein L-tyrosine = ADP + a non-membrane spanning protein L-tyrosine phosphate.</Detail>
+      <Keyword>Non-membrane spanning protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004715</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any of the insulin receptor substrate (IRS) proteins, adaptor proteins that bind to the transphosphorylated insulin and insulin-like growth factor receptors, are themselves phosphorylated and in turn recruit SH2 domain-containing signaling molecules to form a productive signaling complex.</Detail>
+      <Keyword>Insulin receptor substrate binding</Keyword>
+      <Ontology_ID>GO:0043560</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>410</Position>
+      <Original>Leu</Original>
+      <Variation>Phe</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>348</Position>
+      <Original>Asn</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>375</Position>
+      <Original>Phe</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>494</Position>
+      <Original>Met</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>593</Position>
+      <Original>Val</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>483</Position>
+      <Original>Arg</Original>
+      <Variation>Trp</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A series of molecular events generated as a consequence of interferon-gamma binding to a cell surface receptor.</Detail>
+      <Keyword>Interferon-gamma-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0060333</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The signaling process in which signal transduction is brought to an end rather than being reversibly modulated.</Detail>
+      <Keyword>Termination of signal transduction</Keyword>
+      <Ontology_ID>GO:0023021</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of ceramide biosynthetic process.</Detail>
+      <Keyword>Positive regulation of ceramide biosynthetic process</Keyword>
+      <Ontology_ID>GO:2000304</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The initiation of the activity of the inactive enzyme phospolipase C as the result of a series of molecular signals generated as a consequence of a G-protein coupled receptor binding to its physiological ligand.</Detail>
+      <Keyword>Activation of phospholipase C activity</Keyword>
+      <Ontology_ID>GO:0007202</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the inflammatory response.</Detail>
+      <Keyword>Negative regulation of inflammatory response</Keyword>
+      <Ontology_ID>GO:0050728</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of an epidermal growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Epidermal growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0007173</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the nerve growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Nerve growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048011</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The breakdown of structures such as organelles, proteins, or other macromolecular structures during apoptosis.</Detail>
+      <Keyword>Cellular component disassembly involved in apoptosis</Keyword>
+      <Ontology_ID>GO:0006921</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cell aging process stimulated in response to cellular stress, whereby normal cells lose the ability to divide through irreversible cell cycle arrest.</Detail>
+      <Keyword>Cellular senescence</Keyword>
+      <Ontology_ID>GO:0090398</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</Detail>
+      <Keyword>Gene expression</Keyword>
+      <Ontology_ID>GO:0010467</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation of peptidyl-threonine to form peptidyl-O-phospho-L-threonine.</Detail>
+      <Keyword>Peptidyl-threonine phosphorylation</Keyword>
+      <Ontology_ID>GO:0018107</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</Detail>
+      <Keyword>Platelet activation</Keyword>
+      <Ontology_ID>GO:0030168</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a fibroblast growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Fibroblast growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0008543</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of receptor activity. Receptor activity is when a molecule combines with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Regulation of receptor activity</Keyword>
+      <Ontology_ID>GO:0010469</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that decreases the rate, frequency or extent of platelet aggregation. Platelet aggregation is the adhesion of one platelet to one or more other platelets via adhesion molecules.</Detail>
+      <Keyword>Negative regulation of platelet aggregation</Keyword>
+      <Ontology_ID>GO:0090331</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of MAP kinase activity.</Detail>
+      <Keyword>Negative regulation of MAP kinase activity</Keyword>
+      <Ontology_ID>GO:0043407</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The change in morphology and behavior of a neutrophil resulting from exposure to a cytokine, chemokine, cellular ligand, or soluble factor.</Detail>
+      <Keyword>Neutrophil activation</Keyword>
+      <Ontology_ID>GO:0042119</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of enzymatic generation of superoxide by a cell.</Detail>
+      <Keyword>Positive regulation of superoxide anion generation</Keyword>
+      <Ontology_ID>GO:0032930</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of actin polymerization.</Detail>
+      <Keyword>Negative regulation of actin filament polymerization</Keyword>
+      <Ontology_ID>GO:0030837</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of protein binding.</Detail>
+      <Keyword>Negative regulation of protein binding</Keyword>
+      <Ontology_ID>GO:0032091</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of biochemical and morphological phases and events that occur in a cell during successive cell replication or nuclear replication events. Canonically, the cell cycle comprises the replication and segregation of genetic material followed by the division of the cell, but in endocycles or syncytial cells nuclear replication or nuclear division may not be followed by cell division.</Detail>
+      <Keyword>Cell cycle</Keyword>
+      <Ontology_ID>GO:0007049</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a signal is passed on to downstream components within the cell, which become activated themselves to further propagate the signal and finally trigger a change in the function or state of the cell.</Detail>
+      <Keyword>Intracellular signal transduction</Keyword>
+      <Ontology_ID>GO:0035556</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the assembly of a filopodium, a thin, stiff protrusion extended by the leading edge of a motile cell such as a crawling fibroblast or amoeba, or an axonal growth cone.</Detail>
+      <Keyword>Negative regulation of filopodium assembly</Keyword>
+      <Ontology_ID>GO:0051490</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the phosphorylation of peptidyl-tyrosine.</Detail>
+      <Keyword>Negative regulation of peptidyl-tyrosine phosphorylation</Keyword>
+      <Ontology_ID>GO:0050732</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving mRNA, messenger RNA, which is responsible for carrying the coded genetic 'message', transcribed from DNA, to sites of protein assembly at the ribosomes.</Detail>
+      <Keyword>MRNA metabolic process</Keyword>
+      <Ontology_ID>GO:0016071</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate, or extent of glial cell apoptosis.</Detail>
+      <Keyword>Negative regulation of glial cell apoptosis</Keyword>
+      <Ontology_ID>GO:0034351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in maintaining the structure and integrity of a protein and preventing it from degradation or aggregation.</Detail>
+      <Keyword>Protein stabilization</Keyword>
+      <Ontology_ID>GO:0050821</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of removal of phosphate groups from a protein.</Detail>
+      <Keyword>Positive regulation of protein dephosphorylation</Keyword>
+      <Ontology_ID>GO:0035307</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of insulin receptor signaling.</Detail>
+      <Keyword>Negative regulation of insulin receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0046627</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>307</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>313</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>155</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>302</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>647</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>50</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>295</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>64</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>218</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>130</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>645</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>503</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>331</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>507</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>506</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>304</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>43</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>664</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>299</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>654</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>658</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>334</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>374</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>567</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAPFLRIAFNSYELGSLQAEDEANQPFCAVKMKEALSTERGKTLVQKKPTMYPEWKSTFDAHIYEGRVIQIVLMRAAEEPVSEVTVGVSVLAERCKKNNGKAEFWLDLQPQAKVLMSVQYFLEDVDCKQSMRSEDEAKFPTMNRRGAIKQAKIHYIKNHEFIATFFGQPTFCSVCKDFVWGLNKQGYKCRQCNAAIHKKCIDKIIGRCTGTAANSRDTIFQKERFNIDMPHRFKVHNYMSPTFCDHCGSLLWGLVKQGLKCEDCGMNVHHKCREKVANLCGINQKLLAEALNQVTQRASRRSDSASSEPVGIYQGFEKKTGVAGEDMQDNSGTYGKIWEGSSKCNINNFIFHKVLGKGSFGKVLLGELKGRGEYFAIKALKKDVVLIDDDVECTMVEKRVLTLAAENPFLTHLICTFQTKDHLFFVMEFLNGGDLMYHIQDKGRFELYRATFYAAEIMCGLQFLHSKGIIYRDLKLDNVLLDRDGHIKIADFGMCKENIFGESRASTFCGTPDYIAPEILQGLKYTFSVDWWSFGVLLYEMLIGQSPFHGDDEDELFESIRVDTPHYPRWITKESKDILEKLFEREPTKRLGVTGNIKIHPFFKTINWTLLEKRRLEPPFRPKVKSPRDYSNFDQEFLNEKARLSYSDKNLIDSMDQSAFAGFSFVNPKFEHLLED</Protein_Seq>
+    <DNA_Seq>TCGCACTTCCGTGTGCCGCGGCGCCGGAGCCCGAGGCGGCTGTAGCCCACATCTCCCGAGCGACCCCCGGCGCCCGCCCGCCGCGCGGAGGCCCGGGCCACACCTCACTGGCCGCTTGGCCCATCCCAGTCAGCGCCGCGCCGAACCCCGTCCGCGCGCGCCGGGGAGCGGCGCCCCCGCCGCTGCCGCCGCGACCCTTGGCGCCTGCCCCTGCAACGGGAGGTCTGCAGGGAACTGGCCAGGCAAGGGGGCAGGCCCGTTTCTCCTGGTGGTTGGTGCGTTGTAGCAGCAGCGGGAGCCAGGACTAAGGACAAGCAGGAGCTGGGAGCCCCAGCCCCACTGCAGGCCCCACCATGGCGCCGTTCCTGCGCATCGCCTTCAACTCCTATGAGCTGGGCTCCCTGCAGGCCGAGGACGAGGCGAACCAGCCCTTCTGTGCCGTGAAGATGAAGGAGGCGCTCAGCACAGAGCGTGGGAAAACACTGGTGCAGAAGAAGCCGACCATGTATCCTGAGTGGAAGTCGACGTTCGATGCCCACATCTATGAGGGGCGCGTCATCCAGATTGTGCTAATGCGGGCAGCAGAGGAGCCAGTGTCTGAGGTGACCGTGGGTGTGTCGGTGCTGGCCGAGCGCTGCAAGAAGAACAATGGCAAGGCTGAGTTCTGGCTGGACCTGCAGCCTCAGGCCAAGGTGTTGATGTCTGTTCAGTATTTCCTGGAGGACGTGGATTGCAAACAGTCTATGCGCAGTGAGGACGAGGCCAAGTTCCCAACGATGAACCGCCGCGGAGCCATCAAACAGGCCAAAATCCACTACATCAAGAACCATGAGTTTATCGCCACCTTCTTTGGGCAACCCACCTTCTGTTCTGTGTGCAAAGACTTTGTCTGGGGCCTCAACAAGCAAGGCTACAAATGCAGGCAATGTAACGCTGCCATCCACAAGAAATGCATCGACAAGATCATCGGCAGATGCACTGGCACCGCGGCCAACAGCCGGGACACTATATTCCAGAAAGAACGCTTCAACATCGACATGCCGCACCGCTTCAAGGTTCACAACTACATGAGCCCCACCTTCTGTGACCACTGCGGCAGCCTGCTCTGGGGACTGGTGAAGCAGGGATTAAAGTGTGAAGACTGCGGCATGAATGTGCACCATAAATGCCGGGAGAAGGTGGCCAACCTCTGCGGCATCAACCAGAAGCTTTTGGCTGAGGCCTTGAACCAAGTCACCCAGAGAGCCTCCCGGAGATCAGACTCAGCCTCCTCAGAGCCTGTTGGGATATATCAGGGTTTCGAGAAGAAGACCGGAGTTGCTGGGGAGGACATGCAAGACAACAGTGGGACCTACGGCAAGATCTGGGAGGGCAGCAGCAAGTGCAACATCAACAACTTCATCTTCCACAAGGTCCTGGGCAAAGGCAGCTTCGGGAAGGTGCTGCTTGGAGAGCTGAAGGGCAGAGGAGAGTACTTTGCCATCAAGGCCCTCAAGAAGGATGTGGTCCTGATCGACGACGACGTGGAGTGCACCATGGTTGAGAAGCGGGTGCTGACACTTGCCGCAGAGAATCCCTTTCTCACCCACCTCATCTGCACCTTCCAGACCAAGGACCACCTGTTCTTTGTGATGGAGTTCCTCAACGGGGGGGACCTGATGTACCACATCCAGGACAAAGGCCGCTTTGAACTCTACCGTGCCACGTTTTATGCCGCTGAGATAATGTGTGGACTGCAGTTTCTACACAGCAAGGGCATCATTTACAGGGACCTCAAACTGGACAATGTGCTGCTGGACCGGGATGGCCACATCAAGATTGCCGACTTTGGGATGTGCAAAGAGAACATATTCGGGGAGAGCCGGGCCAGCACCTTCTGCGGCACCCCTGACTATATCGCCCCTGAGATCCTACAGGGCCTGAAGTACACATTCTCTGTGGACTGGTGGTCTTTCGGGGTCCTTCTGTACGAGATGCTCATTGGCCAGTCCCCCTTCCATGGTGATGATGAGGATGAACTCTTCGAGTCCATCCGTGTGGACACGCCACATTATCCCCGCTGGATCACCAAGGAGTCCAAGGACATCCTGGAGAAGCTCTTTGAAAGGGAACCAACCAAGAGGCTGGGAGTGACCGGAAACATCAAAATCCACCCCTTCTTCAAGACCATAAACTGGACTCTGCTGGAAAAGCGGAGGTTGGAGCCACCTTTCAGGCCCAAAGTGAAGTCACCCAGAGACTACAGTAACTTTGACCAGGAGTTCCTGAACGAGAAGGCGCGCCTCTCCTACAGCGACAAGAACCTCATCGACTCCATGGACCAGTCTGCATTCGCTGGCTTCTCCTTTGTGAACCCCAAATTCGAGCACCTCCTGGAAGATTGAGGTTCCTGGACAGATCAGGCTAGCCCTGCCCTCCACCCACACCTGCCCGCTCCCCACGATAAGCACCAGTGGGACTGTGGTGACTTCTGCTGCTGGCCCCGCCCCTGCCCCCAGAGCGTCCTTGGCTGCCGTCTGGCCGGGCTCTCATGGTACTTCCTCTGTGAACTGTGTGTGAATCTGCTTTTCCTCTGCCTTCGGAGGGAAATTGTAAATCCTGTGTTTCATTACTTGAATGTAGTTATCTATTGAAAATATATATTATATACATAGACATATATATATATATAATAGGCTGTATATATTGCTCAGTAGAGAAAAACCATGGGGGACTGGTGATATGTTGATCTTTTTCAAAAAAATATATATATGACAAAAAAAAAAAAAAAGGAGCACAAGCTGTTTGAACCACCAGGTTTATTTGTGTGTCTAAATAAACACCAAATAGTACCAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleoplasm</CellLocal>
+      <Ontology_ID>GO:0005654</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Perinuclear region of cytoplasm</CellLocal>
+      <Ontology_ID>GO:0048471</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum</CellLocal>
+      <Ontology_ID>GO:0005783</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>PRKCD</Gene_Name>
+    <Gene_ID>5580</Gene_ID>
+    <Genbank_ACCN>NM_006254</Genbank_ACCN>
+    <Protein_ACCN>NP_006245</Protein_ACCN>
+    <HGNC_ID>9399</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5580</Gene_URL>
+    <UCSC_ID>uc003dgl.3</UCSC_ID>
+    <EMBL_ID>ENSG00000163932</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P06241</Uniprot_ID>
+      <Gene_Name>FYN</Gene_Name>
+      <EBI_ID>EBI-515315</EBI_ID>
+      <PPI_EBI_URL>EBI-704279,EBI-515315</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P17677</Uniprot_ID>
+      <Gene_Name>GAP43</Gene_Name>
+      <EBI_ID>EBI-1267511</EBI_ID>
+      <PPI_EBI_URL>EBI-704279,EBI-1267511</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Autoimmune Lymphoproliferative Syndrome, Type Ib</Disease_Name>
+      <Disease_Detail>Autoimmune Lymphoproliferative Syndrome</Disease_Detail>
+      <Disease_DB>ATM029</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/autoimmune_lymphoproliferative_syndrome_type_ib?search=PRKCD#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Immunodeficiency, Common Variable, 9</Disease_Name>
+      <Disease_Detail>Immunodeficiency</Disease_Detail>
+      <Disease_DB>IMM060</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/immunodeficiency_common_variable_9?search=PRKCD#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acth-Secreting Pituitary Adenoma</Disease_Name>
+      <Disease_Detail>Acth-Secreting Pituitary Adenoma</Disease_Detail>
+      <Disease_DB>ACT010</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acth_secreting_pituitary_adenoma?search=PRKCD#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Immunodeficiency, Common Variable, 3</Disease_Name>
+      <Disease_Detail>Immunodeficiency</Disease_Detail>
+      <Disease_DB>IMM030</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/immunodeficiency_common_variable_3?search=PRKCD#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Systemic Lupus Erythematosus 16</Disease_Name>
+      <Disease_Detail>Systemic Lupus Erythematosus</Disease_Detail>
+      <Disease_DB>SYS061</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/systemic_lupus_erythematosus_16?search=PRKCD#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>The C2 Domain of PKC</PDB_Title>
+      <PDB_ID>1YRK</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YRK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The C2 domain of PKCdelta is a phosphotyrosine binding domain.</PubMed_Title>
+      <Author>Benes, C.H., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2005)121:271-280</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15851022?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of the first Phorbol esters/diacylglycerol binding domain of human Protein kinase C, delta</PDB_Title>
+      <PDB_ID>2YUU</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YUU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution structure of the first Phorbol esters/diacylglycerol binding domain of human Protein kinase C, delta</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04915</Pathway_ID>
+      <Pathway_Title>Estrogen signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04722</Pathway_ID>
+      <Pathway_Title>Neurotrophin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04750</Pathway_ID>
+      <Pathway_Title>Inflammatory mediator regulation of TRP channels</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Sensory system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 2: Mainly Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1yrk</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.13</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/13.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00840001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01140030</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

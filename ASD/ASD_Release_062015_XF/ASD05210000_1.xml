@@ -1,0 +1,948 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05210000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P45983</UniProt_ID>
+  <Seq_Length>427</Seq_Length>
+  <Molecule_Weight>48296</Molecule_Weight>
+  <KEGG_ID>hsa:5599</KEGG_ID>
+  <Orthology_ID>K04440</Orthology_ID>
+  <EBI_ID>EBI-286483</EBI_ID>
+  <Function_Summary>Serine/threonine-protein kinase involved in various processes such as cell proliferation, differentiation, migration, transformation and programmed cell death. Extracellular stimuli such as proinflammatory cytokines or physical stress stimulate the stress-activated protein kinase/c-Jun N-terminal kinase (SAP/JNK) signaling pathway. In this cascade, two dual specificity kinases MAP2K4/MKK4 and MAP2K7/MKK7 phosphorylate and activate MAPK8/JNK1. In turn, MAPK8/JNK1 phosphorylates a number of transcription factors, primarily components of AP-1 such as JUN, JDP2 and ATF2 and thus regulates AP-1 transcriptional activity. Phosphorylates the replication licensing factor CDT1, inhibiting the interaction between CDT1 and the histone H4 acetylase HBO1 to replication origins. Loss of this interaction abrogates the acetylation required for replication initiation. Promotes stressed cell apoptosis by phosphorylating key regulatory factors including p53/TP53 and Yes-associates protein YAP1. In T-cells, MAPK8 and MAPK9 are required for polarized differentiation of T-helper cells into Th1 cells. Contributes to the survival of erythroid cells by phosphorylating the antagonist of cell death BAD upon EPO stimulation. Mediates starvation-induced BCL2 phosphorylation, BCL2 dissociation from BECN1, and thus activation of autophagy. Phosphorylates STMN2 and hence regulates microtubule dynamics, controlling neurite elongation in cortical neurons. In the developing brain, through its cytoplasmic activity on STMN2, negatively regulates the rate of exit from multipolar stage and of radial migration from the ventricular zone. Phosphorylates several other substrates including heat shock factor protein 4 (HSF4), the deacetylase SIRT1, ELK1, or the E3 ligase ITCH.JNK1 isoforms display different binding patterns: beta-1 preferentially binds to c-Jun, whereas alpha-1, alpha-2, and beta-2 have a similar low level of binding to both c-Jun or ATF2. However, there is no correlation between binding and phosphorylation, which is achieved at about the same efficiency by all isoforms.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a protein = ADP + a phosphoprotein.</Catalytic_Mechanism>
+  <Pfam_ID>PF00069:Pkinase</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>50</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Stress-activated protein kinase 1c</Alias>
+      <Alias>Stress-activated protein kinase JNK1</Alias>
+      <Alias>SAPK1c</Alias>
+      <Alias>MAPK 8</Alias>
+      <Alias>c-Jun N-terminal kinase 1</Alias>
+      <Alias>MAP kinase 8</Alias>
+      <Alias>JNK-46</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with the enzyme histone deacetylase.</Detail>
+      <Keyword>Histone deacetylase binding</Keyword>
+      <Ontology_ID>GO:0042826</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: JUN + ATP = JUN phosphate + ADP. This reaction is the phosphorylation and activation of members of the JUN family, a gene family that encodes nuclear transcription factors.</Detail>
+      <Keyword>JUN kinase activity</Keyword>
+      <Ontology_ID>GO:0004705</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Modulates the activity of histone deacetylase.</Detail>
+      <Keyword>Histone deacetylase regulator activity</Keyword>
+      <Ontology_ID>GO:0035033</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>171</Position>
+      <Original>Gly</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>177</Position>
+      <Original>Gly</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>365</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a mechanical stimulus.</Detail>
+      <Keyword>Cellular response to mechanical stimulus</Keyword>
+      <Ontology_ID>GO:0071260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to toll-like receptor 3.</Detail>
+      <Keyword>Toll-like receptor 3 signaling pathway</Keyword>
+      <Ontology_ID>GO:0034138</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation of peptidyl-serine to form peptidyl-O-phospho-L-serine.</Detail>
+      <Keyword>Peptidyl-serine phosphorylation</Keyword>
+      <Ontology_ID>GO:0018105</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to toll-like receptor 2.</Detail>
+      <Keyword>Toll-like receptor 2 signaling pathway</Keyword>
+      <Ontology_ID>GO:0034134</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to a toll-like receptor where the TRIF adaptor mediates transduction of the signal. Toll-like receptors directly bind pattern motifs from a variety of microbial sources to initiate innate immune response.</Detail>
+      <Keyword>TRIF-dependent toll-like receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0035666</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation of peptidyl-threonine to form peptidyl-O-phospho-L-threonine.</Detail>
+      <Keyword>Peptidyl-threonine phosphorylation</Keyword>
+      <Ontology_ID>GO:0018107</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of any process in which a protein is transported to, or maintained in, a specific location.</Detail>
+      <Keyword>Regulation of protein localization</Keyword>
+      <Ontology_ID>GO:0032880</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the nerve growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Nerve growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048011</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene's coding sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</Detail>
+      <Keyword>Positive regulation of gene expression</Keyword>
+      <Ontology_ID>GO:0010628</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process induced by intracellular signals that directly activates any of the steps required for cell death by apoptosis.</Detail>
+      <Keyword>Induction of apoptosis by intracellular signals</Keyword>
+      <Ontology_ID>GO:0008629</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to toll-like receptor 1.</Detail>
+      <Keyword>Toll-like receptor 1 signaling pathway</Keyword>
+      <Ontology_ID>GO:0034130</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the activity of a transcription factor, any factor involved in the initiation or regulation of transcription.</Detail>
+      <Keyword>Regulation of transcription factor activity</Keyword>
+      <Ontology_ID>GO:0051090</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an ultraviolet radiation (UV light) stimulus. Ultraviolet radiation is electromagnetic radiation with a wavelength in the range of 10 to 380 nanometers.</Detail>
+      <Keyword>Response to UV</Keyword>
+      <Ontology_ID>GO:0009411</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of deacetylase activity, the catalysis of the hydrolysis of an acetyl group or groups from a substrate molecule.</Detail>
+      <Keyword>Positive regulation of deacetylase activity</Keyword>
+      <Ontology_ID>GO:0090045</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</Detail>
+      <Keyword>Innate immune response</Keyword>
+      <Ontology_ID>GO:0045087</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of protein binding.</Detail>
+      <Keyword>Negative regulation of protein binding</Keyword>
+      <Ontology_ID>GO:0032091</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to toll-like receptor 4.</Detail>
+      <Keyword>Toll-like receptor 4 signaling pathway</Keyword>
+      <Ontology_ID>GO:0034142</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell death by apoptosis.</Detail>
+      <Keyword>Negative regulation of apoptosis</Keyword>
+      <Ontology_ID>GO:0043066</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals initiated by binding of an extracellular ligand to the Toll receptor on the surface of the target cell.</Detail>
+      <Keyword>Toll signaling pathway</Keyword>
+      <Ontology_ID>GO:0008063</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The conversion of proteins that induce or sustain apoptosis to an active form.</Detail>
+      <Keyword>Activation of pro-apoptotic gene products</Keyword>
+      <Ontology_ID>GO:0008633</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of binding to a toll-like receptor where the MyD88 adaptor molecule mediates transduction of the signal. Toll-like receptors directly bind pattern motifs from a variety of microbial sources to initiate innate immune response.</Detail>
+      <Keyword>MyD88-dependent toll-like receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0002755</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process induced by extracellular signals that directly activates any of the steps required for cell death by apoptosis.</Detail>
+      <Keyword>Induction of apoptosis by extracellular signals</Keyword>
+      <Ontology_ID>GO:0008624</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>183</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>255</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>367</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>377</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>185</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>357</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>155</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>259</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>308</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>258</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSRSKRDNNFYSVEIGDSTFTVLKRYQNLKPIGSGAQGIVCAAYDAILERNVAIKKLSRPFQNQTHAKRAYRELVLMKCVNHKNIIGLLNVFTPQKSLEEFQDVYIVMELMDANLCQVIQMELDHERMSYLLYQMLCGIKHLHSAGIIHRDLKPSNIVVKSDCTLKILDFGLARTAGTSFMMTPYVVTRYYRAPEVILGMGYKENVDLWSVGCIMGEMVCHKILFPGRDYIDQWNKVIEQLGTPCPEFMKKLQPTVRTYVENRPKYAGYSFEKLFPDVLFPADSEHNKLKASQARDLLSKMLVIDASKRISVDEALQHPYINVWYDPSEAEAPPPKIPDKQLDEREHTIEEWKELIYKEVMDLEERTKNGVIRGQPSPLGAAVINGSQHPSSSSSVNDVSSMSTDPTLASDTDSSLEAAAGPLGCCR</Protein_Seq>
+    <DNA_Seq>ATTAATTGCTTGCCATCATGAGCAGAAGCAAGCGTGACAACAATTTTTATAGTGTAGAGATTGGAGATTCTACATTCACAGTCCTGAAACGATATCAGAATTTAAAACCTATAGGCTCAGGAGCTCAAGGAATAGTATGCGCAGCTTATGATGCCATTCTTGAAAGAAATGTTGCAATCAAGAAGCTAAGCCGACCATTTCAGAATCAGACTCATGCCAAGCGGGCCTACAGAGAGCTAGTTCTTATGAAATGTGTTAATCACAAAAATATAATTGGCCTTTTGAATGTTTTCACACCACAGAAATCCCTAGAAGAATTTCAAGATGTTTACATAGTCATGGAGCTCATGGATGCAAATCTTTGCCAAGTGATTCAGATGGAGCTAGATCATGAAAGAATGTCCTACCTTCTCTATCAGATGCTGTGTGGAATCAAGCACCTTCATTCTGCTGGAATTATTCATCGGGACTTAAAGCCCAGTAATATAGTAGTAAAATCTGATTGCACTTTGAAGATTCTTGACTTCGGTCTGGCCAGGACTGCAGGAACGAGTTTTATGATGACGCCTTATGTAGTGACTCGCTACTACAGAGCACCCGAGGTCATCCTTGGCATGGGCTACAAGGAAAACGTGGATTTATGGTCTGTGGGGTGCATTATGGGAGAAATGGTTTGCCACAAAATCCTCTTTCCAGGAAGGGACTATATTGATCAGTGGAATAAAGTTATTGAACAGCTTGGAACACCATGTCCTGAATTCATGAAGAAACTGCAACCAACAGTAAGGACTTACGTTGAAAACAGACCTAAATATGCTGGATATAGCTTTGAGAAACTCTTCCCTGATGTCCTTTTCCCAGCTGACTCAGAACACAACAAACTTAAAGCCAGTCAGGCAAGGGATTTGTTATCCAAAATGCTGGTAATAGATGCATCTAAAAGGATCTCTGTAGATGAAGCTCTCCAACACCCGTACATCAATGTCTGGTATGATCCTTCTGAAGCAGAAGCTCCACCACCAAAGATCCCTGACAAGCAGTTAGATGAAAGGGAACACACAATAGAAGAGTGGAAAGAATTGATATATAAGGAAGTTATGGACTTGGAGGAGAGAACCAAGAATGGAGTTATACGGGGGCAGCCCTCTCCTTTAGCACAGGTGCAGCAGTGATCAATGGCTCTCAGCATCCATCATCATCGTCGTCTGTCAATGATGTGTCTTCAATGTCAACAGATCCGACTTTGGCCTCTGATACAGACAGCAGTCTAGAAGCAGCAGCTGGGCCTCTGGGCTGCTGTAGATGACTACTTGGGCCATCGGGGGGTGGGAGGGATGGGGAGTCGGTTAGTCATTGATAGAACTACTTTGAAAACAATTCAGTGGTCTTATTTTTGGGTGATTTTTCAAAAAATGTA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleoplasm</CellLocal>
+      <Ontology_ID>GO:0005654</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>MAPK8</Gene_Name>
+    <Gene_Alias>JNK1; PRKM8; SAPK1; SAPK1C</Gene_Alias>
+    <Gene_ID>5599</Gene_ID>
+    <Genbank_ACCN>NM_002750</Genbank_ACCN>
+    <Protein_ACCN>NP_002741</Protein_ACCN>
+    <HGNC_ID>6881</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5599</Gene_URL>
+    <UCSC_ID>uc001jgq.3</UCSC_ID>
+    <EMBL_ID>ENSG00000107643</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q9WVI9-1</Uniprot_ID>
+      <Gene_Name>Mapk8ip1</Gene_Name>
+      <EBI_ID>EBI-288461</EBI_ID>
+      <PPI_EBI_URL>EBI-286483,EBI-288461</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P05412</Uniprot_ID>
+      <Gene_Name>JUN</Gene_Name>
+      <EBI_ID>EBI-852823</EBI_ID>
+      <PPI_EBI_URL>EBI-286483,EBI-852823</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O14733-2</Uniprot_ID>
+      <Gene_Name>MAP2K7</Gene_Name>
+      <EBI_ID>EBI-492627</EBI_ID>
+      <PPI_EBI_URL>EBI-286483,EBI-492627</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Restrictive Cardiomyopathy</Disease_Name>
+      <Disease_Detail>Restrictive Cardiomyopathy</Disease_Detail>
+      <Disease_DB>RST002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/restrictive_cardiomyopathy?search=MAPK8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Insulin Resistance</Disease_Name>
+      <Disease_Detail>Insulin Resistance</Disease_Detail>
+      <Disease_DB>INS005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/insulin_resistance?search=MAPK8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Diastolic Heart Failure</Disease_Name>
+      <Disease_Detail>Diastolic Heart Failure</Disease_Detail>
+      <Disease_DB>DST006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/diastolic_heart_failure?search=MAPK8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Frozen Shoulder</Disease_Name>
+      <Disease_Detail>Frozen Shoulder</Disease_Detail>
+      <Disease_DB>FRZ001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/frozen_shoulder?search=MAPK8#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cisplatin Toxicity</Disease_Name>
+      <Disease_Detail>Cisplatin Toxicity</Disease_Detail>
+      <Disease_DB>CSP003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cisplatin_toxicity?search=MAPK8#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>LINEAR BINDING MOTIFS FOR JNK AND FOR CALCINEURIN ANTAGONISTICALLY CONTROL THE NUCLEAR SHUTTLING OF NFAT4</PDB_Title>
+      <PDB_ID>2XRW</PDB_ID>
+      <Resolution>1.33</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XRW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Linear Binding Motifs for Jnk and for Calcineurin Antagonistically Control the Nuclear Shuttling of Nfat4</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Pyrazoloquinolones as Novel, Selective JNK1 inhibitors</PDB_Title>
+      <PDB_ID>2G01</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2G01</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Synthesis and SAR of 1,9-dihydro-9-hydroxypyrazolo[3,4-b]quinolin-4-ones as novel, selective c-Jun N-terminal kinase inhibitors.</PubMed_Title>
+      <Author>Liu, M., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2006)16:2590-2594</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16527482?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Jnk1 complexed with a bis-anilino-pyrrolopyrimidine inhibitor.</PDB_Title>
+      <PDB_ID>3ELJ</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ELJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Optimization of 4,6-bis-anilino-1H-pyrrolo[2,3-d]pyrimidine IGF-1R tyrosine kinase inhibitors towards JNK selectivity.</PubMed_Title>
+      <Author>Chamberlain, S.D., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2009)19:360-364</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19071018?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of JNK1-alpha1 isoform</PDB_Title>
+      <PDB_ID>3O17</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3O17</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of JNK1-alpha1 isoform</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>LINEAR BINDING MOTIFS FOR JNK AND FOR CALCINEURIN ANTAGONISTICALLY CONTROL THE NUCLEAR SHUTTLING OF NFAT4</PDB_Title>
+      <PDB_ID>2XS0</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XS0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Linear Binding Motifs for Jnk and for Calcineurin Antagonistically Control the Nuclear Shuttling of Nfat4</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Selective Aminopyridine-Based C-Jun N-terminal Kinase inhibitors with cellular activity</PDB_Title>
+      <PDB_ID>2GMX</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GMX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Aminopyridine-Based c-Jun N-Terminal Kinase Inhibitors with Cellular Activity and Minimal Cross-Kinase Activity.</PubMed_Title>
+      <Author>Szczepankiewicz, B.G., et al.</Author>
+      <Journal>J.Med.Chem.(2006)49:3563-3580</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16759099?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Novel 4-anilinopyrimidines as potent JNK1 Inhibitors</PDB_Title>
+      <PDB_ID>2NO3</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2NO3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of a new class of 4-anilinopyrimidines as potent c-Jun N-terminal kinase inhibitors: Synthesis and SAR studies.</PubMed_Title>
+      <Author>Liu, M., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2007)17:668-672</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17107797?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural basis for the selective inhibition of JNK1 by the scaffolding protein JIP1 and SP600125</PDB_Title>
+      <PDB_ID>1UKH</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UKH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the selective inhibition of JNK1 by the scaffolding protein JIP1 and SP600125</PubMed_Title>
+      <Author>Heo, Y.-S., et al.</Author>
+      <Journal>Embo J.(2004)23:2185-2195</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15141161?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of JNK1-alpha1 isoform complex with a biaryl tetrazol (A-82118)</PDB_Title>
+      <PDB_ID>3O2M</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3O2M</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05210001</ASD_Ligand>
+      <PubMed_Title>Discovery and characterization of non-ATP site inhibitors of the mitogen activated protein (MAP) kinases.</PubMed_Title>
+      <Author>Comess, K.M., et al.</Author>
+      <Journal>Acs Chem.Biol.(2011)6:234-244</Journal>
+      <PubMed_ID>21090814</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Discovery of Potent, Highly Selective, and Orally Bioavailable Pyridine Carboxamide C-jun NH2-terminal Kinase Inhibitors</PDB_Title>
+      <PDB_ID>2H96</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H96</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of potent, highly selective, and orally bioavailable pyridine carboxamide c-Jun NH2-terminal kinase inhibitors.</PubMed_Title>
+      <Author>Zhao, H., et al.</Author>
+      <Journal>J.Med.Chem.(2006)49:4455-4458</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16854050?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural basis for the selective inhibition of JNK1 by the scaffolding protein JIP1 and SP600125</PDB_Title>
+      <PDB_ID>1UKI</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UKI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the selective inhibition of JNK1 by the scaffolding protein JIP1 and SP600125</PubMed_Title>
+      <Author>Heo, Y.-S., et al.</Author>
+      <Journal>Embo J.(2004)23:2185-2195</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15141161?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>JNK1 in complex with inhibitor</PDB_Title>
+      <PDB_ID>3PZE</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PZE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of Checkpoint Kinase Inhibitor (S)-5-(3-fluorophenyl)-N-(piperidin-3-yl)-3-ureidothiophene-2-carboxamide (AZD7762) by Structure Based Design and Optimization of Thiophene Carboxamide Ureas.</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05168</Pathway_ID>
+      <Pathway_Title>Herpes simplex infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04310</Pathway_ID>
+      <Pathway_Title>Wnt signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05210</Pathway_ID>
+      <Pathway_Title>Colorectal cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04664</Pathway_ID>
+      <Pathway_Title>Fc epsilon RI signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04932</Pathway_ID>
+      <Pathway_Title>Non-alcoholic fatty liver disease (NAFLD)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Endocrine and metabolic diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05231</Pathway_ID>
+      <Pathway_Title>Choline metabolism in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04012</Pathway_ID>
+      <Pathway_Title>ErbB signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04668</Pathway_ID>
+      <Pathway_Title>TNF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04668</Pathway_ID>
+      <Pathway_Title>TNF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04391</Pathway_ID>
+      <Pathway_Title>Hippo signaling pathway - fly</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05152</Pathway_ID>
+      <Pathway_Title>Tuberculosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04932</Pathway_ID>
+      <Pathway_Title>Non-alcoholic fatty liver disease (NAFLD)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Endocrine and metabolic diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05161</Pathway_ID>
+      <Pathway_Title>Hepatitis B</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04722</Pathway_ID>
+      <Pathway_Title>Neurotrophin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05212</Pathway_ID>
+      <Pathway_Title>Pancreatic cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05161</Pathway_ID>
+      <Pathway_Title>Hepatitis B</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05132</Pathway_ID>
+      <Pathway_Title>Salmonella infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04068</Pathway_ID>
+      <Pathway_Title>FoxO signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05142</Pathway_ID>
+      <Pathway_Title>Chagas disease (American trypanosomiasis)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04621</Pathway_ID>
+      <Pathway_Title>NOD-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04024</Pathway_ID>
+      <Pathway_Title>cAMP signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04910</Pathway_ID>
+      <Pathway_Title>Insulin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04014</Pathway_ID>
+      <Pathway_Title>Ras signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04930</Pathway_ID>
+      <Pathway_Title>Type II diabetes mellitus</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Endocrine and metabolic diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04510</Pathway_ID>
+      <Pathway_Title>Focal adhesion</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04920</Pathway_ID>
+      <Pathway_Title>Adipocytokine signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04622</Pathway_ID>
+      <Pathway_Title>RIG-I-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05133</Pathway_ID>
+      <Pathway_Title>Pertussis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04071</Pathway_ID>
+      <Pathway_Title>Sphingolipid signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05131</Pathway_ID>
+      <Pathway_Title>Shigellosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05160</Pathway_ID>
+      <Pathway_Title>Hepatitis C</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04930</Pathway_ID>
+      <Pathway_Title>Type II diabetes mellitus</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Endocrine and metabolic diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05161</Pathway_ID>
+      <Pathway_Title>Hepatitis B</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05169</Pathway_ID>
+      <Pathway_Title>Epstein-Barr virus infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04380</Pathway_ID>
+      <Pathway_Title>Osteoclast differentiation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Development</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04912</Pathway_ID>
+      <Pathway_Title>GnRH signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04917</Pathway_ID>
+      <Pathway_Title>Prolactin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05120</Pathway_ID>
+      <Pathway_Title>Epithelial cell signaling in Helicobacter pylori infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04010</Pathway_ID>
+      <Pathway_Title>MAPK signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05145</Pathway_ID>
+      <Pathway_Title>Toxoplasmosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04620</Pathway_ID>
+      <Pathway_Title>Toll-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05164</Pathway_ID>
+      <Pathway_Title>Influenza A</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.daa.b.b.ge.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1ukh</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,198,Leu;site,230,Tyr;site,231,Ile;site,253,Gln;site,255,Thr</Site_Detail>
+      <Site_Reference>Comess KM, et al. ACS Chem Biol. 2011,6(3):234-244.</Site_Reference>
+      <PDB_ID>3O2M</PDB_ID>
+      <PubMed_ID>21090814</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.24</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/24.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD05210001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05213050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

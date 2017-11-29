@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01640000_1</Organism_ID>
+  <Organism>Triatomid bug</Organism>
+  <Organism_Latin>Rhodnius prolixus</Organism_Latin>
+  <UniProt_ID>Q95041</UniProt_ID>
+  <Seq_Length>321</Seq_Length>
+  <Molecule_Weight>36554</Molecule_Weight>
+  <Pfam_ID>PF03372:Exo_endo_phos</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Type II IPP</Alias>
+      <Alias>Type II inositol polyphosphate 5-phosphatase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate + H(2)O = 1-phosphatidyl-1D-myo-inositol 4-phosphate + phosphate.</Detail>
+      <Keyword>Phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity</Keyword>
+      <Ontology_ID>GO:0004439</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process of introducing one or more phosphate groups into a phosphatidylinositol.</Detail>
+      <Keyword>Phosphatidylinositol phosphorylation</Keyword>
+      <Ontology_ID>GO:0046854</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKVLILPVFTIIILACVGLAAKERDFTIHVATWNVNGRKPTTITNLIGQNSDKYENLPDMVIVGLQEVTMSAVKAVSNALTGELWSETMEKTLKGNYQKVKSVALLGIVLNVFVKLNSAWALKNAAVDEVTTGMAGLYGNKGGVIMKFQLHDLMFCIVNAHFHAHDKGQESRIKDYKEINEGREKLCTPKSDFIFWLGDLNFRIVEKDKYTPESIEKFIKKKDYDELLANEQLKEAKDAGKIFKDYQEGKIKFAPTFKLNVDEGTYNLKRRPSWTDRVLYKSETNKNIDVLAYHSLENHTRSDHFPVMAQYKIKVPDNDKK</Protein_Seq>
+    <DNA_Seq>gacagttaggaaaacagactgtaaaattgtgattgcaaagggatctatcgtgtgtcgctggccacaaactccgtaaatttcacttgttaaggtcaccgaaatgaaagtgttaatcttaccagtgtttaccataatcatattggcctgtgtaggtttagctgcaaaggaaagagattttacaatccatgttgccacttggaatgtgaacggaaggaagccgacaacaattaccaatttaataggacagaattcagataaatacgaaaacttgccggatatggtaatagtcggtctgcaagaggtgaccatgtcagctgttaaagcggtaagcaacgcccttactggagagttatggtctgagactatggaaaaaactttaaaaggcaactatcagaaagttaaatcggtggcattgttgggcatagtgttaaatgtatttgtaaaattaaatagcgcatgggcactgaaaaatgcagcagtggatgaggtaacgacaggaatggccggcctttacggaaataaaggtggtgtgatcatgaagttccagctgcatgatctaatgttttgcattgttaatgcacatttccatgcacacgataaaggacaagaatcaagaatcaaggattacaaggaaatcaacgaaggtagggagaaattatgtaccccgaaatcagatttcatattctggttaggcgatttaaatttccgcattgtggaaaaagataagtacacgcctgaatcaatagaaaagtttattaaaaagaaagattatgatgaactgttggctaatgaacaactaaaagaagctaaagatgctgggaaaatatttaaagattaccaagaaggaaagatcaaattcgcaccaaccttcaaactaaatgtggatgaaggcacatataacttaaaacgaaggccatcctggacagatcgagtactgtacaaatcggaaaccaataaaaatatagatgttttagcataccattcgctggagaatcatacc</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Secreted</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Genbank_ACCN>U70037</Genbank_ACCN>
+    <Protein_ACCN>AAB08434</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/nuccore/90101341?report=genbank</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of salivary inositol polyphosphate 5-phosphatase</PDB_Title>
+      <PDB_ID>ASD01640000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.3.36</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/3/36.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01640001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01640002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

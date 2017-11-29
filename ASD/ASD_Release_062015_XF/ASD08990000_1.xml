@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08990000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0C0V0</UniProt_ID>
+  <Seq_Length>474</Seq_Length>
+  <Molecule_Weight>49354</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0158</KEGG_ID>
+  <Orthology_ID>K04771</Orthology_ID>
+  <EBI_ID>EBI-547165</EBI_ID>
+  <Function_Summary>DegP acts as a chaperone at low temperatures but switches to a peptidase (heat shock protein) at higher temperatures. It degrades transiently denatured and unfolded proteins which accumulate in the periplasm following heat shock or other stress conditions. DegP is efficient with Val-Xaa and Ile-Xaa peptide bonds, suggesting a preference for beta-branched side chain amino acids. Only unfolded proteins devoid of disulfide bonds appear capable of being cleaved, thereby preventing non-specific proteolysis of folded proteins. Its proteolytic activity is essential for the survival of cells at elevated temperatures. It can degrade IciA, ada, casein, globin and PapA. DegP shares specificity with DegQ. DegP is also involved in the biogenesis of partially folded outer-membrane proteins (OMP).</Function_Summary>
+  <Catalytic_Mechanism>Acts on substrates that are at least partially unfolded. The cleavage site P1 residue is normally between a pair of hydrophobic residues, such as Val-|-Val.</Catalytic_Mechanism>
+  <Pfam_ID>PF00595:PDZ</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Protease Do</Alias>
+      <Alias>Heat shock protein DegP</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type peptidase activity</Keyword>
+      <Ontology_ID>GO:0008236</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein or proteins.</Detail>
+      <Keyword>Identical protein binding</Keyword>
+      <Ontology_ID>GO:0042802</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004252</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).</Detail>
+      <Keyword>Response to stress</Keyword>
+      <Ontology_ID>GO:0006950</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of misfolded or attenuated proteins.</Detail>
+      <Keyword>Misfolded or incompletely synthesized protein catabolic process</Keyword>
+      <Ontology_ID>GO:0006515</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of assisting in the covalent and noncovalent assembly of single chain polypeptides or multisubunit complexes into the correct tertiary structure.</Detail>
+      <Keyword>Protein folding</Keyword>
+      <Ontology_ID>GO:0006457</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a temperature stimulus.</Detail>
+      <Keyword>Response to temperature stimulus</Keyword>
+      <Ontology_ID>GO:0009266</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of oxidative stress, a state often resulting from exposure to high levels of reactive oxygen species, e.g. superoxide anions, hydrogen peroxide (H2O2), and hydroxyl radicals.</Detail>
+      <Keyword>Response to oxidative stress</Keyword>
+      <Ontology_ID>GO:0006979</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKKTTLALSALALSLGLALSPLSATAAETSSATTAQQMPSLAPMLEKVMPSVVSINVEGSTTVNTPRMPRNFQQFFGDDSPFCQEGSPFQSSPFCQGGQGGNGGGQQQKFMALGSGVIIDADKGYVVTNNHVVDNATVIKVQLSDGRKFDAKMVGKDPRSDIALIQIQNPKNLTAIKMADSDALRVGDYTVAIGNPFGLGETVTSGIVSALGRSGLNAENYENFIQTDAAINRGNSGGALVNLNGELIGINTAILAPDGGNIGIGFAIPSNMVKNLTSQMVEYGQVKRGELGIMGTELNSELAKAMKVDAQRGAFVSQVLPNSSAAKAGIKAGDVITSLNGKPISSFAALRAQVGTMPVGSKLTLGLLRDGKQVNVNLELQQSSQNQVDSSSIFNGIEGAEMSNKGKDQGVVVNNVKTGTPAAQIGLKKGDVIIGANQQAVKNIAELRKVLDSKPSVLALNIQRGDSTIYLLMQ</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell inner membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Outer membrane-bounded periplasmic space</CellLocal>
+      <Ontology_ID>GO:0030288</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>degP</Gene_Name>
+    <Gene_Alias>htrA; ptd</Gene_Alias>
+    <Gene_ID>12932000</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_414703</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947139</Gene_URL>
+    <EMBL_ID>EBESCG00000014581</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P00698</Uniprot_ID>
+      <Gene_Name>LYZ</Gene_Name>
+      <EBI_ID>EBI-1029543</EBI_ID>
+      <PPI_EBI_URL>EBI-547165,EBI-1029543</PPI_EBI_URL>
+      <Experiment_Number>8</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P0C0V0</Uniprot_ID>
+      <Gene_Name>degP</Gene_Name>
+      <EBI_ID>EBI-547165</EBI_ID>
+      <PPI_EBI_URL>EBI-547165,EBI-547165</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>HtrA proteases are activated by a conserved mechanism that can be triggered by distinct molecular cues</PDB_Title>
+      <PDB_ID>3MH5</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MH5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>HtrA proteases have a conserved activation mechanism that can be triggered by distinct molecular cues</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the DegP dodecamer with a model substrate</PDB_Title>
+      <PDB_ID>3OTP</PDB_ID>
+      <Resolution>3.76</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OTP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Covalent Linkage of Distinct Substrate Degrons Controls Assembly and Disassembly of DegP Proteolytic Cages.</PubMed_Title>
+      <Author>Kim, S., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2011)145:67-78</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21458668?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HtrA proteases are activated by a conserved mechanism that can be triggered by distinct molecular cues</PDB_Title>
+      <PDB_ID>3MH7</PDB_ID>
+      <Resolution>2.96</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MH7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>HtrA proteases have a conserved activation mechanism that can be triggered by distinct molecular cues</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of DegP24</PDB_Title>
+      <PDB_ID>3CS0</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CS0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the regulated protease and chaperone function of DegP</PubMed_Title>
+      <Author>Krojer, T., et al.</Author>
+      <Journal>Nature(2008)453:885-890</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18496527?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HtrA proteases are activated by a conserved mechanism that can be triggered by distinct molecular cues</PDB_Title>
+      <PDB_ID>3MH6</PDB_ID>
+      <Resolution>3.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MH6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>HtrA proteases have a conserved activation mechanism that can be triggered by distinct molecular cues</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>HtrA proteases are activated by a conserved mechanism that can be triggered by distinct molecular cues</PDB_Title>
+      <PDB_ID>3MH4</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MH4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>HtrA proteases have a conserved activation mechanism that can be triggered by distinct molecular cues</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>re-refined 3CS0</PDB_Title>
+      <PDB_ID>3OU0</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OU0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Covalent Linkage of Distinct Substrate Degrons Controls Assembly and Disassembly of DegP Proteolytic Cages.</PubMed_Title>
+      <Author>Kim, S., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2011)145:67-78</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21458668?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of DegP (HtrA)</PDB_Title>
+      <PDB_ID>1KY9</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KY9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of DegP (HtrA) reveals a new protease-chaperone machine.</PubMed_Title>
+      <Author>Krojer, T., et al.</Author>
+      <Journal>Nature(2002)416:455-459</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11919638?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>All beta proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.ge.b.d.b.html</SCOP_URL>
+    <CATH_Class>Class 2: Mainly Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1ky9</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Oligomerization</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.21.107</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/21/107.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

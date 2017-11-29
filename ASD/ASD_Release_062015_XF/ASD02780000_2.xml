@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02780000_2</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P04968</UniProt_ID>
+  <Seq_Length>514</Seq_Length>
+  <Molecule_Weight>56195</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3403</KEGG_ID>
+  <Orthology_ID>K01754</Orthology_ID>
+  <Function_Summary>Catalyzes the anaerobic formation of alpha-ketobutyrate and ammonia from threonine in a two-step reaction. The first step involved a dehydration of threonine and a production of enamine intermediates (aminocrotonate), which tautomerizes to its imine form (iminobutyrate). Both intermediates are unstable and short-lived. The second step is the nonenzymatic hydrolysis of the enamine/imine intermediates to form 2-ketobutyrate and free ammonia. In the low water environment of the cell, the second step is accelerated by RidA.</Function_Summary>
+  <Catalytic_Mechanism>L-threonine = 2-oxobutanoate + NH(3).</Catalytic_Mechanism>
+  <Pfam_ID>PF00291:PALP@@PF00585:Thr_dehydrat_C</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>5</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Threonine deaminase</Alias>
+      <Alias>Threonine dehydratase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an amino acid, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Amino acid binding</Keyword>
+      <Ontology_ID>GO:0016597</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-threonine = 2-oxobutanoate + NH3.</Detail>
+      <Keyword>L-threonine ammonia-lyase activity</Keyword>
+      <Ontology_ID>GO:0004794</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with pyridoxal 5' phosphate, 3-hydroxy-5-(hydroxymethyl)-2-methyl4-pyridine carboxaldehyde 5' phosphate, the biologically active form of vitamin B6.</Detail>
+      <Keyword>Pyridoxal phosphate binding</Keyword>
+      <Ontology_ID>GO:0030170</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of isoleucine, (2R*,3R*)-2-amino-3-methylpentanoic acid.</Detail>
+      <Keyword>Isoleucine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009097</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving threonine (2-amino-3-hydroxybutyric acid), a polar, uncharged, essential amino acid found in peptide linkage in proteins.</Detail>
+      <Keyword>Threonine metabolic process</Keyword>
+      <Ontology_ID>GO:0006566</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids containing a branched carbon skeleton, comprising isoleucine, leucine and valine.</Detail>
+      <Keyword>Branched chain family amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009082</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>62</Position>
+      <PTM_Type>N6-(pyridoxal phosphate)lysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MADSQPLSGAPEGAEYLRAVLRAPVYEAAQVTPLQKMEKLSSRLDNVILVKREDRQPVHSFKLRGAYAMMAGLTEEQKAHGVITASAGNHAQGVAFSSARLGVKALIVMPTATADIKVDAVRGFGGEVLLHGANFDEAKAKAIELSQQQGFTWVPPFDHPMVIAGQGTLALELLQQDAHLDRVFVPVGGGGLAAGVAVLIKQLMPQIKVIAVEAEDSACLKAALDAGHPVDLPRVGLFAEGVAVKRIGDETFRLCQEYLDDIITVDSDAICAAMKDLFEDVRAVAEPSGALALAGMKKYIAQHNIRGERLAHILSGANVNFHGLRYVSERCELGEQREALLAVTIPEEKGSFLKFCQLLGGRSVTEFNYRFADAKNACIFVGVRLSRGLEERKEILQMLNDGGYSVVDLSDDEMAKLHVRYMVGGRPSHPLQERLYSFEFPESPGALLRFLNTLGTHWNISLFHYRSHGTDYGRVLAAFELGDHEPDFETRLNELGYDCHDETNNPAFRFFLAG</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>ilvA</Gene_Name>
+    <Gene_ID>12930592</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_418220</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/948287</Gene_URL>
+    <EMBL_ID>EBESCG00000016703</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>THREONINE DEAMINASE (BIOSYNTHETIC) FROM E. COLI</PDB_Title>
+      <PDB_ID>1TDJ</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TDJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structure and control of pyridoxal phosphate dependent allosteric threonine deaminase.</PubMed_Title>
+      <Author>Gallagher DT, et al.</Author>
+      <Journal>Structure. 1998 Apr 15;6(4):465-75</Journal>
+      <PubMed_ID>9562556</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00260</Pathway_ID>
+      <Pathway_Title>Glycine, serine and threonine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00290</Pathway_ID>
+      <Pathway_Title>Valine, leucine and isoleucine biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00260</Pathway_ID>
+      <Pathway_Title>Glycine, serine and threonine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.bbh.b.b.ba.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1tdj</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Gallagher DT, et al. Structure. 1998,6(4):465-475.;Selwood T, et al. Arch Biochem Biophys. 2012, 519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PubMed_ID>9562556;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.3.1.19</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/3/1/19.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00030001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00210001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00490001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00860002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00860008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00870006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02780002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

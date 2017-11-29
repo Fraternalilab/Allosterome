@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07120000_1</Organism_ID>
+  <Organism>Lactobacillus brevis </Organism>
+  <Organism_Latin>Lactobacillus brevis</Organism_Latin>
+  <UniProt_ID>Q03TT8</UniProt_ID>
+  <Seq_Length>150</Seq_Length>
+  <Molecule_Weight>16771</Molecule_Weight>
+  <KEGG_ID>lbr:LVIS_0218</KEGG_ID>
+  <Pfam_ID>PF01047:MarR</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Transcriptional regulator, MarR family</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a specific DNA sequence in order to modulate transcription. The transcription factor may or may not also interact selectively with a protein or macromolecular complex.</Detail>
+      <Keyword>Sequence-specific DNA binding transcription factor activity</Keyword>
+      <Ontology_ID>GO:0003700</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MTDVLREVGSIARALDSIANVEFKQYQLTRGQYAYLARICEHPGIIQGQLAELIRIDRTTTAHAVKRLIDGGLVYREPLPGNQKSKVLYPTEKGQAIYPILKRENDYSNQVALAGLSADDVATLKRILPVMSANVTADWQRVKAGEKRDY</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Intracellular</CellLocal>
+      <Ontology_ID>GO:0005622</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Genbank_ACCN>NC_008497</Genbank_ACCN>
+    <Protein_ACCN>YP_794415</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/4414333</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Transcriptional regulator, MarR family</PDB_Title>
+      <PDB_ID>ASD07120000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD07120001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

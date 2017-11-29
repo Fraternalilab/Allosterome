@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08110000_1</Organism_ID>
+  <Organism>Enterobacteria phage</Organism>
+  <Organism_Latin>Enterobacteria phage</Organism_Latin>
+  <UniProt_ID>Q06253</UniProt_ID>
+  <Seq_Length>73</Seq_Length>
+  <Molecule_Weight>8133</Molecule_Weight>
+  <KEGG_ID>vg:2777473</KEGG_ID>
+  <EBI_ID>EBI-2908787</EBI_ID>
+  <Function_Summary>Antitoxin component of a toxin-antitoxin (TA) module. A labile antitoxin that binds to the doc toxin and neutralizes its toxic effect. Bacteriophage P1 lysogenizes bacteria as a low-copy number plasmid. Phd and doc proteins function in unison to stabilize plasmid number by inducing a lethal response to P1 plasmid prophage loss.Binds to its own promoter repressing its expression; toxin doc acts as a corepressor or derepressor depending on the ratio, repressing or inducing expression.</Function_Summary>
+  <Pfam_ID>PF02604:PhdYeFM_antitox</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Addiction protein pdh</Alias>
+      <Alias>Prevent host death protein</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cellular DNA-dependent transcription.</Detail>
+      <Keyword>Regulation of transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006355</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MQSINFRTARGNLSEVLNNVEAGEEVEITRRGREPAVIVSKATFEAYKKAALDAEFASLFDTLDSTNKELVNR</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>phd</Gene_Name>
+    <Gene_ID>2777473</Gene_ID>
+    <Genbank_ACCN>NC_005856</Genbank_ACCN>
+    <Protein_ACCN>YP_006570</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/2777473</Gene_URL>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q06259</Uniprot_ID>
+      <Gene_Name>doc</Gene_Name>
+      <EBI_ID>EBI-2908816</EBI_ID>
+      <PPI_EBI_URL>EBI-2908787,EBI-2908816</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of PHD truncated to residue 57 in an orthorhombic space group</PDB_Title>
+      <PDB_ID>3HS2</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HS2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Allostery and intrinsic disorder mediate transcription regulation by conditional cooperativity.</PubMed_Title>
+      <Author>Garcia-Pino, A., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2010)142:101-111</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20603017?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of PHD in a trigonal space group and partially disordered</PDB_Title>
+      <PDB_ID>3HRY</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HRY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Allostery and intrinsic disorder mediate transcription regulation by conditional cooperativity.</PubMed_Title>
+      <Author>Garcia-Pino, A., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2010)142:101-111</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20603017?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the P1 bacteriophage Doc toxin (F68S) in complex with the Phd antitoxin (L17M/V39A). Northeast Structural Genomics targets ER385-ER386</PDB_Title>
+      <PDB_ID>3KH2</PDB_ID>
+      <Resolution>2.71</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KH2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of Phd-Doc, HigA, and YeeU Establish Multiple Evolutionary Links between Microbial Growth-Regulating Toxin-Antitoxin Systems.</PubMed_Title>
+      <Author>Arbing, M.A., et al.</Author>
+      <Journal>Structure(2010)18:996-1010</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20696400?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of DocH66Y in complex with the C-terminal domain of Phd</PDB_Title>
+      <PDB_ID>3DD7</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DD7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Doc of Prophage P1 Is Inhibited by Its Antitoxin Partner Phd through Fold Complementation</PubMed_Title>
+      <Author>Garcia-Pino, A., et al.</Author>
+      <Journal>J.Biol.Chem.(2008)283:30821-30827</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18757857?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the Phd-Doc complex</PDB_Title>
+      <PDB_ID>3K33</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3K33</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Allostery and intrinsic disorder mediate transcription regulation by conditional cooperativity.</PubMed_Title>
+      <Author>Garcia-Pino, A., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2010)142:101-111</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20603017?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Dimerization</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

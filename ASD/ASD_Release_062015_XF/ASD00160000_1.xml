@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00160000_1</Organism_ID>
+  <Organism>Arthrobacter oxidans</Organism>
+  <Organism_Latin>Arthrobacter oxidans</Organism_Latin>
+  <UniProt_ID>P08159</UniProt_ID>
+  <Seq_Length>458</Seq_Length>
+  <Molecule_Weight>48786</Molecule_Weight>
+  <Catalytic_Mechanism>(R)-6-hydroxynicotine + H(2)O + O(2) = 1-(6-hydroxypyridin-3-yl)-4-(methylamino)butan-1-one + H(2)O(2).</Catalytic_Mechanism>
+  <Pfam_ID>PF08031:BBE@@PF01565:FAD_binding_4</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>6-HDNO</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: UDP-N-acetylmuramate + NADP+ = UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine + NADPH + H+.</Detail>
+      <Keyword>UDP-N-acetylmuramate dehydrogenase activity</Keyword>
+      <Ontology_ID>GO:0008762</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with FAD, flavin-adenine dinucleotide, the coenzyme or the prosthetic group of various flavoprotein oxidoreductase enzymes, in either the oxidized form, FAD, or the reduced form, FADH2.</Detail>
+      <Keyword>Flavin adenine dinucleotide binding</Keyword>
+      <Ontology_ID>GO:0050660</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: (R)-6-hydroxynicotine + H(2)O + O(2) = 6-hydroxypseudooxynicotine + H(2)O(2).</Detail>
+      <Keyword>(R)-6-hydroxynicotine oxidase activity</Keyword>
+      <Ontology_ID>GO:0018530</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of nicotine, (S)(-)-3-(1-methyl-2-pyrrolidinyl)pyridine.</Detail>
+      <Keyword>Nicotine catabolic process</Keyword>
+      <Ontology_ID>GO:0019608</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>71</Position>
+      <PTM_Type>Pros-8alpha-FAD histidine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSSKLATPLSIQGEVIYPDDSGFDAIANIWDGRHLQRPSLIARCLSAGDVAKSVRYACDNGLEISVRSGGHNPNGYATNDGGIVLDLRLMNSIHIDTAGSRARIGGGVISGDLVKEAAKFGLAAVTGMHPKVGFCGLALNGGVGFLTPKYGLASDNILGATLVTATGDVIYCSDDERPELFWAVRGAGPNFGVVTEVEVQLYELPRKMLAGFITWAPSVSELAGLLTSLLDALNEMADHIYPSVFVGVDENRAPSVTVCVGHLGGLDIAERDIARLRGLGRTVSDSIAVRSYDEVVALNAEVGSFEDGMSNLWIDREIAMPNARFAEAIAGNLDKFVSEPASGGSVKLEIEGMPFGNPKRTPARHRDAMGVLALAEWSGAAPGSEKYPELARELDAALLRAGVTTSGFGLLNNNSEVTAEMVAEVYKPEVYCRLAAVKREYDPENRFRHNYNIDPEGS</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Genbank_ACCN>X05999</Genbank_ACCN>
+    <Protein_ACCN>CAA29416</Protein_ACCN>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of 6-hydroxy-D-nicotine oxidase</PDB_Title>
+      <PDB_ID>ASD00160000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Brandsch R, et al. J Biol Chem. 1992 Oct 15;267(29):20844-9.</Site_Reference>
+      <PubMed_ID>1356985</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.5.3.6</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/3/6.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00160001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-07-23</Create_Date>
+</Organism_Record>

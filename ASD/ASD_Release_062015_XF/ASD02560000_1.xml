@@ -1,0 +1,4353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02560000_1</Organism_ID>
+  <Organism>HIV-1</Organism>
+  <Organism_Latin>Human immunodeficiency virus type 1</Organism_Latin>
+  <UniProt_ID>Q99FA4</UniProt_ID>
+  <Seq_Length>305</Seq_Length>
+  <Molecule_Weight>35197</Molecule_Weight>
+  <Pfam_ID>PF00078:RVT_1@@PF06817:RVT_thumb</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>597</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>HIV-1 reverse transcriptase</Alias>
+      <Alias>RT</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a nucleotidyl group to a reactant.</Detail>
+      <Keyword>Nucleotidyltransferase activity</Keyword>
+      <Ontology_ID>GO:0016779</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an RNA molecule or a portion thereof.</Detail>
+      <Keyword>RNA binding</Keyword>
+      <Ontology_ID>GO:0003723</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: deoxynucleoside triphosphate + DNA(n) = diphosphate + DNA(n+1). Catalyzes RNA-template-directed extension of the 3'- end of a DNA strand by one deoxynucleotide at a time.</Detail>
+      <Keyword>RNA-directed DNA polymerase activity</Keyword>
+      <Ontology_ID>GO:0003964</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A DNA replication process that uses RNA as a template for RNA-dependent DNA polymerases (e.g. reverse transcriptase) that synthesize the new strands.</Detail>
+      <Keyword>RNA-dependent DNA replication</Keyword>
+      <Ontology_ID>GO:0006278</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>PISPIETVPVKLKPGMDGPKVKQWPLTEEKIKALVEICTEMEKEGKISKIGPENPYNTPVFAIKKKDSTKWRKLVDFRELNKKTQDFWEVQLGIPHPAGLKKKKSVTVLDVGDAYFSVPLDKEFRKYTAFTIPSINNETPGIRYQYNVLPQGWKGSPAIFQSSMTKILEPFRKQNPEIVIYQYMDDLYVGSDLEIGQHRTKIEELREHLLKWGFTTPDKKHQKEPPFLWMGYELHPDKWTVQPIELPEKDSWTVNDIQKLVGKLNWASQIYAGIKVRQLCKLLRGAKALTEVIPLTKEAELELAE</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>pol</Gene_Name>
+    <Protein_ACCN>AAK12045</Protein_ACCN>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTALLOGRAPHIC ANALYSES OF AN ACTIVE HIV-1 RIBONUCLEASE H DOMAIN SHOW STRUCTURAL FEATURES THAT DISTINGUISH IT FROM THE INACTIVE FORM</PDB_Title>
+      <PDB_ID>1RDH</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1RDH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystallographic analyses of an active HIV-1 ribonuclease H domain show structural features that distinguish it from the inactive form.</PubMed_Title>
+      <Author>Chattopadhyay D, et al.</Author>
+      <Journal>(1993) Acta Crystallogr.,Sect.D 49: 423-427</Journal>
+      <PubMed_ID>15299518</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of hiv-1 reverse transcriptase in complex with gw450557</PDB_Title>
+      <PDB_ID>1TL3</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1TL3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-CHLORO-4-(CYCLOHEXYLOXY)-3-ISOPROPYLQUINOLIN- 2(1H)-ONE</Ligand_Name>
+      <PubMed_Title>Design of non-nucleoside inhibitors of HIV-1 reverse transcriptase with improved drug resistance properties. 1.</PubMed_Title>
+      <Author>Hopkins AL, et al.</Author>
+      <Journal>(2004) J.Med.Chem. 47: 5912-5922</Journal>
+      <PubMed_ID>15537346</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF HIV-1 REVERSE TRANSCRIPTASE COMPLEXES WITH THIOCARBAMATE NON-NUCLEOSIDE INHIBITORS</PDB_Title>
+      <PDB_ID>2VG6</PDB_ID>
+      <Resolution>3.01</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2VG6</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920045</ASD_Ligand>
+      <Ligand_Name>O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2- yl)ethyl] (4
+-bromophenyl)thiocarbamate</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptase complexes with thiocarbamate non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Spallarossa A, et al.</Author>
+      <Journal>Biochem Biophys Res Commun. 2008 Jan 25;365(4):764-70.</Journal>
+      <PubMed_ID>18035053</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV reverse transcriptase Y181C mutant in complex with inhibitor R8e</PDB_Title>
+      <PDB_ID>3DRR</PDB_ID>
+      <Resolution>2.89</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3DRR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-{5-[(6-amino-1H-pyrazolo[3,4-b]pyridin- 3-yl)methoxy]-2-chlorophenoxy}-5
+-chlorobenzonitrile</Ligand_Name>
+      <PubMed_Title>Discovery of 3-{5-[(6-amino-1H-pyrazolo[3,4-b]pyridine-3-yl)methoxy]-2-chlorophenoxy}-5-chlorobenzonitrile (MK-4965): a potent, orally bioavailable HIV-1 non-nucleoside reverse transcriptase inhibitor with improved potency against key mutant viruses.</PubMed_Title>
+      <Author>Tucker TJ, et al.</Author>
+      <Journal>(2008) J.Med.Chem. 51: 6503-6511</Journal>
+      <PubMed_ID>18826204</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Detecting Allosteric Sites of HIV-1 Reverse Transcriptase by X-Ray Crystallographic Fragment Screening</PDB_Title>
+      <PDB_ID>4IFV</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4IFV</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560066</ASD_Ligand>
+      <PubMed_Title>Detecting Allosteric Sites of HIV-1 Reverse Transcriptase by X-ray Crystallographic Fragment Screening.</PubMed_Title>
+      <Author>Bauman, J.D., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:2738-2746</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23342998?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIGH RESOLUTION STRUCTURES OF HIV-1 RT FROM FOUR RT-INHIBITOR COMPLEXES</PDB_Title>
+      <PDB_ID>1RTH</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1RTH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6,11-DIHYDRO-11-ETHYL-6-METHYL-9-NITRO-5H- PYRIDO[2,3-B][1,5]BENZODIAZEPIN-5-ONE</Ligand_Name>
+      <PubMed_Title>High resolution structures of HIV-1 RT from four RT-inhibitor complexes.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1995) Nat.Struct.Biol. 2: 293-302</Journal>
+      <PubMed_ID>7540934</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF 3TC-RESISTANT M184I MUTANT OF HIV-1 REVERSE TRANSCRIPTASE</PDB_Title>
+      <PDB_ID>1QE1</PDB_ID>
+      <Resolution>2.85</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1QE1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Lamivudine (3TC) resistance in HIV-1 reverse transcriptase involves steric hindrance with beta-branched amino acids.</PubMed_Title>
+      <Author>Sarafianos SG, et al.</Author>
+      <Journal>(1999) Proc.Natl.Acad.Sci.USA 96: 10027-10033</Journal>
+      <PubMed_ID>10468556</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>K103N Mutant HIV-1 Reverse Transcriptase in Complex with the Inhibitor PNU142721</PDB_Title>
+      <PDB_ID>1IKX</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1IKX</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920028</ASD_Ligand>
+      <Ligand_Name>6-CHLORO-2-(1-FURO[2,3-C]PYRIDIN-5-YL-ETHYLSULFANYL)- PYRIMIDIN-4-YLAMINE</Ligand_Name>
+      <PubMed_Title>Structural basis for the inhibitory efficacy of efavirenz (DMP-266), MSC194 and PNU142721 towards the HIV-1 RT K103N mutant.</PubMed_Title>
+      <Author>Lindberg J, et al.</Author>
+      <Journal>(2002) Eur.J.Biochem. 269: 1670-1677</Journal>
+      <PubMed_ID>11895437</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF HIV-1 REVERSE TRANSCRIPTASE COMPLEXES WITH THIOCARBAMATE NON-NUCLEOSIDE INHIBITORS</PDB_Title>
+      <PDB_ID>2VG7</PDB_ID>
+      <Resolution>2.82</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2VG7</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920046</ASD_Ligand>
+      <Ligand_Name>O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2- yl)ethyl] (4-iodophenyl)thiocarbamate</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptase complexes with thiocarbamate non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Spallarossa A, et al.</Author>
+      <Journal>Biochem Biophys Res Commun. 2008 Jan 25;365(4):764-70.</Journal>
+      <PubMed_ID>18035053</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase crosslinked to template-primer with tenofovir-diphosphate bound as the incoming nucleotide substrate</PDB_Title>
+      <PDB_ID>1T05</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1T05</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[2-(6-AMINO-9H-PURIN-9-YL)-1-METHYLETHOXY]METHYL- TRIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structures of HIV-1 RT-DNA complexes before and after incorporation of the anti-AIDS drug tenofovir.</PubMed_Title>
+      <Author>Tuske S, et al.</Author>
+      <Journal>(2004) Nat.Struct.Mol.Biol. 11: 469-474</Journal>
+      <PubMed_ID>15107837</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH GCA-186</PDB_Title>
+      <PDB_ID>1C1B</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1C1B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-(3',5'-DIMETHYLBENZYL)-1-ETHOXYMETHYL-5- ISOPROPYLURACIL</Ligand_Name>
+      <PubMed_Title>Design of MKC-442 (emivirine) analogues with improved activity against drug-resistant HIV mutants.</PubMed_Title>
+      <Author>Hopkins AL, et al.</Author>
+      <Journal>(1999) J.Med.Chem. 42: 4500-4505</Journal>
+      <PubMed_ID>10579814</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE (RT) IN COMPLEX WITH JANSSEN-R120394.</PDB_Title>
+      <PDB_ID>1S9G</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1S9G</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560059</ASD_Ligand>
+      <Ligand_Name>4-[4-AMINO-6-(5-CHLORO-1H-INDOL-4-YLMETHYL)- [1,3,5]TRIAZIN-2-YLAMINO]
+-BENZONITRILE</Ligand_Name>
+      <PubMed_Title>Roles of conformational and positional adaptability in structure-based design of TMC125-R165335 (etravirine) and related non-nucleoside reverse transcriptase inhibitors that are highly potent and effective against wild-type and drug-resistant HIV-1 variants.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2004) J.Med.Chem. 47: 2550-2560</Journal>
+      <PubMed_ID>15115397</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE COMPLEXED WITH MKC-442</PDB_Title>
+      <PDB_ID>1RT1</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1RT1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-BENZYL-1-ETHOXYMETHYL-5-ISOPROPYL URACIL</Ligand_Name>
+      <PubMed_Title>Complexes of HIV-1 reverse transcriptase with inhibitors of the HEPT series reveal conformational changes relevant to the design of potent non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Hopkins AL, et al.</Author>
+      <Journal>(1996) J.Med.Chem. 39: 1589-1600</Journal>
+      <PubMed_ID>8648598</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF UNLIGANDED REVERSE TRANSCRIPTASE FROM THE HUMAN IMMUNODEFICIENCY VIRUS TYPE 1</PDB_Title>
+      <PDB_ID>1HMV</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1HMV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of unliganded reverse transcriptase from the human immunodeficiency virus type 1.</PubMed_Title>
+      <Author>Rodgers DW, et al.</Author>
+      <Journal>(1995) Proc.Natl.Acad.Sci.USA 92: 1222-1226</Journal>
+      <PubMed_ID>7532306</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of HIV Reverse Transcriptase in complex with inhibitor 22</PDB_Title>
+      <PDB_ID>3C6U</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3C6U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-chloro-5-[2-chloro-5-(1H-indazol-3-ylmethoxy)phenoxy]benzonitrile</Ligand_Name>
+      <PubMed_Title>The design and synthesis of diaryl ether second generation HIV-1 non-nucleoside reverse transcriptase inhibitors (NNRTIs) with enhanced potency versus key clinical mutations.</PubMed_Title>
+      <Author>Tucker TJ, et al.</Author>
+      <Journal>(2008) Bioorg.Med.Chem.Lett. 18: 2959-2966</Journal>
+      <PubMed_ID>18396399</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MET184ILE MUTANT OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH DOUBLE STRANDED DNA TEMPLATE-PRIMER</PDB_Title>
+      <PDB_ID>1J5O</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1J5O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Lamivudine (3TC) resistance in HIV-1 reverse transcriptase involves steric hindrance with beta-branched amino acids.</PubMed_Title>
+      <Author>Sarafianos SG, et al.</Author>
+      <Journal>(1999) Proc.Natl.Acad.Sci.USA 96: 10027-10032</Journal>
+      <PubMed_ID>10468556</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF Y188C MUTANT HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH UC-781</PDB_Title>
+      <PDB_ID>1JLG</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1JLG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-METHYL-FURAN-3-CARBOTHIOIC ACID [4-CHLORO- 3-(3-METHYL-BUT-2-ENYLOXY)-PHENYL]
+-AMIDE</Ligand_Name>
+      <PubMed_Title>Structural mechanisms of drug resistance for mutations at codons 181 and 188 in HIV-1 reverse transcriptase and the improved resilience of second generation non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2001) J.Mol.Biol. 312: 795-805</Journal>
+      <PubMed_ID>11575933</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF T215Y MUTANT HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH NEVIRAPINE</PDB_Title>
+      <PDB_ID>1LW0</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1LW0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Crystal structures of Zidovudine- or Lamivudine-resistant human immunodeficiency virus type 1 reverse transcriptases containing mutations at codons 41, 184, and 215.</PubMed_Title>
+      <Author>Chamberlain PP, et al.</Author>
+      <Journal>(2002) J.Virol. 76: 10015-10019</Journal>
+      <PubMed_ID>12208978</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase with bound fragment near Knuckles site</PDB_Title>
+      <PDB_ID>4IG3</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4IG3</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560066;ASD11920073</ASD_Ligand>
+      <PubMed_Title>Detecting Allosteric Sites of HIV-1 Reverse Transcriptase by X-ray Crystallographic Fragment Screening.</PubMed_Title>
+      <Author>Bauman, J.D., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:2738-2746</Journal>
+      <PubMed_ID>23342998</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of L100I mutant HIV-1 reverse transcriptase in complex with TNK-651</PDB_Title>
+      <PDB_ID>1S1V</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1S1V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-BENZYL-1-BENZYLOXYMETHYL-5-ISOPROPYL URACIL</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptases mutated at codons 100, 106 and 108 and mechanisms of resistance to non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2004) J.Mol.Biol. 336: 569-578</Journal>
+      <PubMed_ID>15095972</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of V106A mutant HIV-1 reverse transcriptase in complex with UC-781</PDB_Title>
+      <PDB_ID>1S1W</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1S1W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-METHYL-FURAN-3-CARBOTHIOIC ACID [4-CHLORO- 3-(3-METHYL-BUT-2-ENYLOXY)-PHENYL]
+-AMIDE</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptases mutated at codons 100, 106 and 108 and mechanisms of resistance to non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2004) J.Mol.Biol. 336: 569-578</Journal>
+      <PubMed_ID>15095972</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF M41L/T215Y MUTANT HIV-1 REVERSE TRANSCRIPTASE (RTMN) IN COMPLEX WITH NEVIRAPINE</PDB_Title>
+      <PDB_ID>1LWE</PDB_ID>
+      <Resolution>2.81</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1LWE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Crystal structures of Zidovudine- or Lamivudine-resistant human immunodeficiency virus type 1 reverse transcriptases containing mutations at codons 41, 184, and 215.</PubMed_Title>
+      <Author>Chamberlain PP, et al.</Author>
+      <Journal>(2002) J.Virol. 76: 10015-10019</Journal>
+      <PubMed_ID>12208978</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE (RT) IN COMPLEX WITH JANSSEN-R129385</PDB_Title>
+      <PDB_ID>1S9E</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1S9E</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920032</ASD_Ligand>
+      <Ligand_Name>4-[4-AMINO-6-(2,6-DICHLORO-PHENOXY)-[1,3,5]TRIAZIN- 2-YLAMINO]-BENZONITRILE</Ligand_Name>
+      <PubMed_Title>Roles of conformational and positional adaptability in structure-based design of TMC125-R165335 (etravirine) and related non-nucleoside reverse transcriptase inhibitors that are highly potent and effective against wild-type and drug-resistant HIV-1 variants.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2004) J.Med.Chem. 47: 2550-2560</Journal>
+      <PubMed_ID>15115397</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH PETT-1 (PETT131A94)</PDB_Title>
+      <PDB_ID>1DTQ</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1DTQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[[3-FLUORO-4-ETHOXY-PYRID-2-YL]ETHYL]-N'- [5-NITRILOMETHYL-PYRIDYL]-THIOUREA</Ligand_Name>
+      <PubMed_Title>Phenylethylthiazolylthiourea (PETT) non-nucleoside inhibitors of HIV-1 and HIV-2 reverse transcriptases. Structural and biochemical analyses.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2000) J.Biol.Chem. 275: 5633-5639</Journal>
+      <PubMed_ID>10681546</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH A POLYPURINE TRACT RNA:DNA</PDB_Title>
+      <PDB_ID>1HYS</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1HYS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of HIV-1 reverse transcriptase in complex with a polypurine tract RNA:DNA.</PubMed_Title>
+      <Author>Sarafianos SG, et al.</Author>
+      <Journal>(2001) EMBO J. 20: 1449-1461</Journal>
+      <PubMed_ID>11250910</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>K65R mutant HIV-1 reverse transcriptase cross-linked to DS-DNA and complexed with tenofovir-diphosphate as the incoming nucleotide substrate</PDB_Title>
+      <PDB_ID>3JSM</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3JSM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[2-(6-AMINO-9H-PURIN-9-YL)-1-METHYLETHOXY]METHYL- TRIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structural basis for the role of the K65R mutation in HIV-1 reverse transcriptase polymerization, excision antagonism, and tenofovir resistance.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2009) J.Biol.Chem. 284: 35092-35100</Journal>
+      <PubMed_ID>19812032</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 REVERSE TRANSCRIPTASE</PDB_Title>
+      <PDB_ID>1REV</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1REV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-CHLORO-8-METHYL-7-(3-METHYL-BUT-2-ENYL)- 6,7,8,9-TETRAHYDRO-2H-2,7,9A-TRIAZA
+-BENZO[CD]AZULENE- 1-THIONE</Ligand_Name>
+      <PubMed_Title>The structure of HIV-1 reverse transcriptase complexed with 9-chloro-TIBO: lessons for inhibitor design.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1995) Structure 3: 915-926</Journal>
+      <PubMed_ID>8535785</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIGH RESOLUTION STRUCTURES OF HIV-1 RT FROM FOUR RT-INHIBITOR COMPLEXES</PDB_Title>
+      <PDB_ID>1VRT</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1VRT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>High resolution structures of HIV-1 RT from four RT-inhibitor complexes.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1995) Nat.Struct.Biol. 2: 293-302</Journal>
+      <PubMed_ID>7540934</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 V106A and Y181C MUTANT REVERSE TRANSCRIPTASE IN COMPLEX WITH GW564511.</PDB_Title>
+      <PDB_ID>3DMJ</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3DMJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-{4-[amino(dihydroxy)-lambda~4~-sulfanyl]- 2-methylphenyl}-2-(4-chloro-2-{[3
+-fluoro- 5-(trifluoromethyl)phenyl]carbonyl}phenoxy)acetamide</Ligand_Name>
+      <PubMed_Title>Structural basis for the improved drug resistance profile of new generation benzophenone non-nucleoside HIV-1 reverse transcriptase inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2008) J.Med.Chem. 51: 5000-5008</Journal>
+      <PubMed_ID>18665583</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 reverse transcriptase in complex with N1-heterocycle pyrimidinedione non-nucleoside inhibitor</PDB_Title>
+      <PDB_ID>3LAK</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3LAK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-({3-[(2-amino-6-fluoropyridin-4-yl)methyl]- 5-(1-methylethyl)-2,6-dioxo
+-1,2,3,6-tetrahydropyrimidin- 4-yl}carbonyl)-5-methylbenzonitrile</Ligand_Name>
+      <PubMed_Title>N1-Heterocyclic pyrimidinediones as non-nucleoside inhibitors of HIV-1 reverse transcriptase.</PubMed_Title>
+      <Author>Mitchell ML, et al.</Author>
+      <Journal>(2010) Bioorg.Med.Chem.Lett. 20: 1585-1588</Journal>
+      <PubMed_ID>20137928</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of an engineered form of the HIV-1 Reverse Transcriptase, RT69A</PDB_Title>
+      <PDB_ID>3DLK</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3DLK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal engineering of HIV-1 reverse transcriptase for structure-based drug design.</PubMed_Title>
+      <Author>Bauman JD, et al.</Author>
+      <Journal>(2008) Nucleic Acids Res. 36: 5083-5092</Journal>
+      <PubMed_ID>18676450</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH PETT-2 (PETT130A94)</PDB_Title>
+      <PDB_ID>1DTT</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1DTT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[[3-FLUORO-4-ETHOXY-PYRID-2-YL]ETHYL]-N'- [5-CHLORO-PYRIDYL]-THIOUREA</Ligand_Name>
+      <PubMed_Title>Phenylethylthiazolylthiourea (PETT) non-nucleoside inhibitors of HIV-1 and HIV-2 reverse transcriptases. Structural and biochemical analyses.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2000) J.Biol.Chem. 275: 5633-5639</Journal>
+      <PubMed_ID>10681546</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN IMMUNODEFICIENCY VIRUS TYPE 1</PDB_Title>
+      <PDB_ID>1DLO</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1DLO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of unliganded HIV-1 reverse transcriptase at 2.7 A resolution: implications of conformational changes for polymerization and inhibition mechanisms.</PubMed_Title>
+      <Author>Hsiou Y, et al.</Author>
+      <Journal>(1996) Structure 4: 853-860</Journal>
+      <PubMed_ID>8805568</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 Reverse Transcriptase Crosslinked to Post-Translocation AZTMP-Terminated DNA (Complex P)</PDB_Title>
+      <PDB_ID>1N5Y</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1N5Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of HIV-1 reverse transcriptase with pre- and post-translocation AZTMP-terminated DNA.</PubMed_Title>
+      <Author>Sarafianos SG, et al.</Author>
+      <Journal>(2002) Embo J. 21: 6614-6624</Journal>
+      <PubMed_ID>12456667</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 Reverse Transcriptase Complexed with CP-94,707</PDB_Title>
+      <PDB_ID>1TV6</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1TV6</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560169</ASD_Ligand>
+      <Ligand_Name>3-[4-(2-METHYL-IMIDAZO[4,5-C]PYRIDIN-1-YL)BENZYL]- 3H-BENZOTHIAZOL-2-ONE</Ligand_Name>
+      <PubMed_Title>Structure of HIV-1 reverse transcriptase bound to an inhibitor active against mutant reverse transcriptases resistant to other nonnucleoside inhibitors.</PubMed_Title>
+      <Author>Pata JD, et al.</Author>
+      <Journal>(2004) Proc.Natl.Acad.Sci.USA 101: 10548-10553</Journal>
+      <PubMed_ID>15249669</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of HIV reverse transcriptase in complex with inhibitor 7</PDB_Title>
+      <PDB_ID>3I0S</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3I0S</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560083</ASD_Ligand>
+      <Ligand_Name>S-{2-[(2-chloro-4-sulfamoylphenyl)amino]- 2-oxoethyl} 6,8-dichloro-3,4
+-dihydroquinoline- 1(2H)-carbothioate</Ligand_Name>
+      <PubMed_Title>Substituted tetrahydroquinolines as potent allosteric inhibitors of reverse transcriptase and its key mutants.</PubMed_Title>
+      <Author>Su DS, et al.</Author>
+      <Journal>(2009) Bioorg.Med.Chem.Lett. 19: 5119-5123</Journal>
+      <PubMed_ID>19631528</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 RT with pyridone non-nucleoside inhibitor</PDB_Title>
+      <PDB_ID>3FFI</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3FFI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-chloro-5-({6-[2-(3,4-dihydroisoquinolin- 2(1H)-yl)-2-oxoethyl]-3-
+(dimethylamino)-2- oxo-1,2-dihydropyridin-4-yl}oxy)benzonitrile</Ligand_Name>
+      <PubMed_Title>Pyridone Diaryl Ether Non-Nucleoside Inhibitors of HIV-1 Reverse Transcriptase</PubMed_Title>
+      <Author>Kennedy-Smith J, et al.</Author>
+      <Journal>To be Published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase with bound fragment at the incoming dNTP binding site</PDB_Title>
+      <PDB_ID>4ICL</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4ICL</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560066</ASD_Ligand>
+      <PubMed_Title>Detecting Allosteric Sites of HIV-1 Reverse Transcriptase by X-ray Crystallographic Fragment Screening.</PubMed_Title>
+      <Author>Bauman, J.D., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:2738-2746</Journal>
+      <PubMed_ID>23342998</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 REVERSE TRANSCRIPTASE COMPLEXED WITH BHAP U-90152</PDB_Title>
+      <PDB_ID>1KLM</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1KLM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(1-(5-METHANSULPHONAMIDO-1H-INDOL-2-YL-CARBONYL)4- 
+[METHYLAMINO)PYRIDINYL]PIPERAZINE</Ligand_Name>
+      <PubMed_Title>Unique features in the structure of the complex between HIV-1 reverse transcriptase and the bis(heteroaryl)piperazine (BHAP) U-90152 explain resistance mutations for this nonnucleoside inhibitor.</PubMed_Title>
+      <Author>Esnouf RM, et al.</Author>
+      <Journal>(1997) Proc.Natl.Acad.Sci.USA 94: 3984-3989</Journal>
+      <PubMed_ID>9108091</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase with bound fragment at the Knuckles site</PDB_Title>
+      <PDB_ID>4IFY</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4IFY</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560066</ASD_Ligand>
+      <PubMed_Title>Detecting Allosteric Sites of HIV-1 Reverse Transcriptase by X-ray Crystallographic Fragment Screening.</PubMed_Title>
+      <Author>Bauman, J.D., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:2738-2746</Journal>
+      <PubMed_ID>23342998</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH TNK-6123</PDB_Title>
+      <PDB_ID>1C1C</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1C1C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-(cyclohexylsulfanyl)-1-(ethoxymethyl)-5- (1-methylethyl)pyrimidine-2,4(1H,3H)
+-dione</Ligand_Name>
+      <PubMed_Title>Design of MKC-442 (emivirine) analogues with improved activity against drug-resistant HIV mutants.</PubMed_Title>
+      <Author>Hopkins AL, et al.</Author>
+      <Journal>(1999) J.Med.Chem. 42: 4500-4505</Journal>
+      <PubMed_ID>10579814</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 RT/9-CL TIBO</PDB_Title>
+      <PDB_ID>1TVR</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1TVR</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920037</ASD_Ligand>
+      <Ligand_Name>4-CHLORO-8-METHYL-7-(3-METHYL-BUT-2-ENYL)- 6,7,8,9-TETRAHYDRO-2H-2,7,9A-TRIAZA
+-BENZO[CD]AZULENE- 1-THIONE</Ligand_Name>
+      <PubMed_Title>Crystal structures of 8-Cl and 9-Cl TIBO complexed with wild-type HIV-1 RT and 8-Cl TIBO complexed with the Tyr181Cys HIV-1 RT drug-resistant mutant.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(1996) J.Mol.Biol. 264: 1085-1100</Journal>
+      <PubMed_ID>9000632</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 REVERSE TRANSCRIPTASE COMPLEXED WITH UC10</PDB_Title>
+      <PDB_ID>1RT5</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1RT5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[4-CLORO-3-(T-BUTYLOXOME)PHENYL-2-METHYL- 3-FURAN-CARBOTHIAMIDE</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptase in complex with carboxanilide derivatives.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1998) Biochemistry 37: 14394-14403</Journal>
+      <PubMed_ID>9772165</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV reverse transcriptase K103N mutant in complex with inhibitor R8D</PDB_Title>
+      <PDB_ID>3DRS</PDB_ID>
+      <Resolution>3.15</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3DRS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-chloro-5-[2-chloro-5-(1H-pyrazolo[3,4-b]pyridin- 3
+-ylmethoxy)phenoxy]benzonitrile</Ligand_Name>
+      <PubMed_Title>Discovery of 3-{5-[(6-amino-1H-pyrazolo[3,4-b]pyridine-3-yl)methoxy]-2-chlorophenoxy}-5-chlorobenzonitrile (MK-4965): a potent, orally bioavailable HIV-1 non-nucleoside reverse transcriptase inhibitor with improved potency against key mutant viruses.</PubMed_Title>
+      <Author>Tucker TJ, et al.</Author>
+      <Journal>(2008) J.Med.Chem. 51: 6503-6511</Journal>
+      <PubMed_ID>18826204</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH GW451211</PDB_Title>
+      <PDB_ID>1TL1</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1TL1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-CHLORO-4-(CYCLOHEXYLSULFINYL)-3-PROPYLQUINOLIN- 2(1H)-ONE</Ligand_Name>
+      <PubMed_Title>Design of non-nucleoside inhibitors of HIV-1 reverse transcriptase with improved drug resistance properties. 1.</PubMed_Title>
+      <Author>Hopkins AL, et al.</Author>
+      <Journal>(2004) J.Med.Chem. 47: 5912-5922</Journal>
+      <PubMed_ID>15537346</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of HIV-1 reverse transcriptase (RT) in complex with the Non-nucleoside RT Inhibitor (E)-S-Methyl 5-(1-(3,7-Dimethyl-2-oxo-2,3-dihydrobenzo[d]oxazol-5-yl)-5-(5-methyl-1,3,4-oxadiazol-2-yl)pent-1-enyl)-2-methoxy-3-methylbenzothioate.</PDB_Title>
+      <PDB_ID>3IRX</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3IRX</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920053</ASD_Ligand>
+      <Ligand_Name>(E)-S-Methyl 5-(1-(3,7-Dimethyl-2-oxo-2,3- dihydrobenzo[d]oxazol-5-yl)-5-(5
+-methyl-1,3,4- oxadiazol-2-yl)pent-1-enyl)-2-methoxy-3-methylbenzothioate</Ligand_Name>
+      <PubMed_Title>Crystallographic study of a novel subnanomolar inhibitor provides insight on the binding interactions of alkenyldiarylmethanes with human immunodeficiency virus-1 reverse transcriptase.</PubMed_Title>
+      <Author>Cullen MD, et al.</Author>
+      <Journal>(2009) J.Med.Chem. 52: 6467-6473</Journal>
+      <PubMed_ID>19775161</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of HIV reverse transcriptase in complex with inhibitor 3</PDB_Title>
+      <PDB_ID>3I0R</PDB_ID>
+      <Resolution>2.98</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3I0R</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560079</ASD_Ligand>
+      <Ligand_Name>S-{2-[(2-chloro-4-sulfamoylphenyl)amino]- 2-oxoethyl} 6-methyl-3,4
+-dihydroquinoline- 1(2H)-carbothioate</Ligand_Name>
+      <PubMed_Title>Substituted tetrahydroquinolines as potent allosteric inhibitors of reverse transcriptase and its key mutants.</PubMed_Title>
+      <Author>Su DS, et al.</Author>
+      <Journal>(2009) Bioorg.Med.Chem.Lett. 19: 5119-5123</Journal>
+      <PubMed_ID>19631528</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of K101E Mutant HIV-1 Reverse Transcriptase in Complex with Nevirapine</PDB_Title>
+      <PDB_ID>2HND</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2HND</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Structural insights into mechanisms of non-nucleoside drug resistance for HIV-1 reverse transcriptases mutated at codons 101 or 138.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2006) Febs J. 273: 3850-3860</Journal>
+      <PubMed_ID>16911530</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 Reverse Transcriptase with the Inhibitor beta-Thujaplicinol Bound at the RNase H Active Site</PDB_Title>
+      <PDB_ID>3IG1</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3IG1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2,7-dihydroxy-4-(propan-2-yl)cyclohepta-2,4,6- trien-1-one</Ligand_Name>
+      <PubMed_Title>Structure of HIV-1 reverse transcriptase with the inhibitor beta-Thujaplicinol bound at the RNase H active site.</PubMed_Title>
+      <Author>Himmel DM, et al.</Author>
+      <Journal>(2009) Structure 17: 1625-1635</Journal>
+      <PubMed_ID>20004166</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 K103N mutant reverse transcriptase in complex with GW564511.</PDB_Title>
+      <PDB_ID>3DM2</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3DM2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-{4-[amino(dihydroxy)-lambda~4~-sulfanyl]- 2-methylphenyl}-2-(4-chloro-2-{[3
+-fluoro- 5-(trifluoromethyl)phenyl]carbonyl}phenoxy)acetamide</Ligand_Name>
+      <PubMed_Title>Structural basis for the improved drug resistance profile of new generation benzophenone non-nucleoside HIV-1 reverse transcriptase inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2008) J.Med.Chem. 51: 5000-5008</Journal>
+      <PubMed_ID>18665583</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 reverse transcriptase (RT) in complex with DHBNH, an RNASE H inhibitor</PDB_Title>
+      <PDB_ID>2I5J</PDB_ID>
+      <Resolution>3.15</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2I5J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE$(E)-3,4-DIHYDROXY-N'-[(2-METHOXYNAPHTHALEN- 1-YL)METHYLENE]BENZOHYDRAZIDE</Ligand_Name>
+      <PubMed_Title>HIV-1 reverse transcriptase structure with RNase H inhibitor dihydroxy benzoyl naphthyl hydrazone bound at a novel site.</PubMed_Title>
+      <Author>Himmel DM, et al.</Author>
+      <Journal>(2006) Acs Chem.Biol. 1: 702-712</Journal>
+      <PubMed_ID>17184135</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase-DNA complex with nuceotide inhibitor GS-9148-diphosphate bound in nucleotide site</PDB_Title>
+      <PDB_ID>3KK1</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3KK1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[(2R,5R)-5-(6-aminopurin-9-yl)-4-fluoro-2,5- dihydrofuran-2-yl]oxymethyl-
+[hydroxy(phosphonooxy)phosphoryl]oxy- phosphinic acid</Ligand_Name>
+      <PubMed_Title>Visualizing the Molecular Interactions of a Nucleotide Analog, GS-9148, with HIV-1 Reverse Transcriptase-DNA Complex.</PubMed_Title>
+      <Author>Lansdon EB, et al.</Author>
+      <Journal>J Mol Biol. 2010 Apr 9;397(4):967-78.</Journal>
+      <PubMed_ID>20156454</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of K101E Mutant HIV-1 Reverse Transcriptase in Complex with GW420867X.</PDB_Title>
+      <PDB_ID>2OPR</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2OPR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ISOPROPYL (2S)-2-ETHYL-7-FLUORO-3-OXO-3,4- DIHYDROQUINOXALINE-1(2H)-CARBOXYLATE</Ligand_Name>
+      <PubMed_Title>Relationship of potency and resilience to drug resistant mutations for GW420867X revealed by crystal structures of inhibitor complexes for wild-type, Leu100Ile, Lys101Glu, and Tyr188Cys mutant HIV-1 reverse transcriptases.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2007) J.Med.Chem. 50: 2301-2309</Journal>
+      <PubMed_ID>17441703</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV reverse transcriptase in complex with inhibitor 7e (NNRTI)</PDB_Title>
+      <PDB_ID>2RF2</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2RF2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-bromo-3-(pyrrolidin-1-ylsulfonyl)-1H-indole- 2-carboxamide</Ligand_Name>
+      <PubMed_Title>Novel indole-3-sulfonamides as potent HIV non-nucleoside reverse transcriptase inhibitors (NNRTIs).</PubMed_Title>
+      <Author>Zhao Z, et al.</Author>
+      <Journal>(2008) Bioorg.Med.Chem.Lett. 18: 554-559</Journal>
+      <PubMed_ID>18083561</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>A DNA analogue of the polypurine tract of HIV-1</PDB_Title>
+      <PDB_ID>1N4L</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1N4L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Staying straight with A-tracts: a DNA analog of the HIV-1 polypurine tract.</PubMed_Title>
+      <Author>Cote ML, et al.</Author>
+      <Journal>(2003) J.Mol.Biol. 330: 57-74</Journal>
+      <PubMed_ID>12818202</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE RIBONUCLEASE H DOMAIN OF HIV-1 REVERSE TRANSCRIPTASE</PDB_Title>
+      <PDB_ID>1HRH</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1HRH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the ribonuclease H domain of HIV-1 reverse transcriptase.</PubMed_Title>
+      <Author>Davies JF 2nd, et al.</Author>
+      <Journal>(1991) Science 252: 88-95</Journal>
+      <PubMed_ID>1707186</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of L100I mutant HIV-1 reverse transcriptase in complex with UC-781</PDB_Title>
+      <PDB_ID>1S1T</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1S1T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-METHYL-FURAN-3-CARBOTHIOIC ACID [4-CHLORO- 3-(3-METHYL-BUT-2-ENYLOXY)-PHENYL]
+-AMIDE</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptases mutated at codons 100, 106 and 108 and mechanisms of resistance to non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2004) J.Mol.Biol. 336: 569-578</Journal>
+      <PubMed_ID>15095972</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF Y188C MUTANT HIV-1 REVERSE TRANSCRIPTASE</PDB_Title>
+      <PDB_ID>1JLE</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1JLE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural mechanisms of drug resistance for mutations at codons 181 and 188 in HIV-1 reverse transcriptase and the improved resilience of second generation non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2001) J.Mol.Biol. 312: 795-805</Journal>
+      <PubMed_ID>11575933</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 REVERSE TRANSCRIPTASE COMPLEXED WITH UC781</PDB_Title>
+      <PDB_ID>1RT4</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1RT4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-METHYL-FURAN-3-CARBOTHIOIC ACID [4-CHLORO- 3-(3-METHYL-BUT-2-ENYLOXY)-PHENYL]
+-AMIDE</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptase in complex with carboxanilide derivatives.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1998) Biochemistry 37: 14394-14403</Journal>
+      <PubMed_ID>9772165</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF NNRTI RESISTANT K103N MUTANT HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH NEVIRAPINE</PDB_Title>
+      <PDB_ID>1FKP</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1FKP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Structural basis for the resilience of efavirenz (DMP-266) to drug resistance mutations in HIV-1 reverse transcriptase.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2000) STRUCTURE FOLD.DES. 8: 1089-1094</Journal>
+      <PubMed_ID>11080630</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of HIV-1 Reverse Transcriptase (RT) in Complex with a triazole derived NNRTI</PDB_Title>
+      <PDB_ID>2RKI</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2RKI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-benzyl-3-[(2-chlorobenzyl)sulfanyl]-5-thiophen- 2-yl-4H-1,2,4-triazole</Ligand_Name>
+      <PubMed_Title>Triazole derivatives as non-nucleoside inhibitors of HIV-1 reverse transcriptase--structure-activity relationships and crystallographic analysis.</PubMed_Title>
+      <Author>Kirschberg TA, et al.</Author>
+      <Journal>(2008) Bioorg.Med.Chem.Lett. 18: 1131-1134</Journal>
+      <PubMed_ID>18083512</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of hiv-1 reverse transcriptase in complex with GW564511.</PDB_Title>
+      <PDB_ID>3DLG</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3DLG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-{4-[amino(dihydroxy)-lambda~4~-sulfanyl]- 2-methylphenyl}-2-(4-chloro-2-{[3
+-fluoro- 5-(trifluoromethyl)phenyl]carbonyl}phenoxy)acetamide</Ligand_Name>
+      <PubMed_Title>Structural basis for the improved drug resistance profile of new generation benzophenone non-nucleoside HIV-1 reverse transcriptase inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2008) J.Med.Chem. 51: 5000-5008</Journal>
+      <PubMed_ID>18665583</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>K103N Mutant HIV-1 Reverse Transcriptase in Complex with Efivarenz</PDB_Title>
+      <PDB_ID>1IKV</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1IKV</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02562083</ASD_Ligand>
+      <Ligand_Name>(-)-6-CHLORO-4-CYCLOPROPYLETHYNYL-4-TRIFLUOROMETHYL- 1,4-DIHYDRO-2H-3,1
+-BENZOXAZIN-2-ONE</Ligand_Name>
+      <PubMed_Title>Structural basis for the inhibitory efficacy of efavirenz (DMP-266), MSC194 and PNU142721 towards the HIV-1 RT K103N mutant.</PubMed_Title>
+      <Author>Lindberg J, et al.</Author>
+      <Journal>(2002) Eur.J.Biochem. 269: 1670-1677</Journal>
+      <PubMed_ID>11895437</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase-DNA complex with GS-9148 terminated primer</PDB_Title>
+      <PDB_ID>3KK3</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3KK3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Visualizing the Molecular Interactions of a Nucleotide Analog, GS-9148, with HIV-1 Reverse Transcriptase-DNA Complex.</PubMed_Title>
+      <Author>Lansdon EB, et al.</Author>
+      <Journal>J Mol Biol. 2010 Apr 9;397(4):967-78.</Journal>
+      <PubMed_ID>20156454</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 RT/HBY 097</PDB_Title>
+      <PDB_ID>1BQM</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1BQM</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920019</ASD_Ligand>
+      <Ligand_Name>(S)-4-ISOPROPOXYCARBONYL-6-METHOXY-3-METHYLTHIOMETHYL- 3,4-DIHYDROQUINOXALIN-2
+(1H)-THIONE</Ligand_Name>
+      <PubMed_Title>Structures of Tyr188Leu mutant and wild-type HIV-1 reverse transcriptase complexed with the non-nucleoside inhibitor HBY 097: inhibitor flexibility is a useful design feature for reducing drug resistance.</PubMed_Title>
+      <Author>Hsiou Y, et al.</Author>
+      <Journal>(1998) J.Mol.Biol. 284: 313-323</Journal>
+      <PubMed_ID>9813120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MECHANISM OF INHIBITION OF HIV-1 REVERSE TRANSCRIPTASE BY NON-NUCLEOSIDE INHIBITORS</PDB_Title>
+      <PDB_ID>1RTJ</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1RTJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanism of inhibition of HIV-1 reverse transcriptase by non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Esnouf R, et al.</Author>
+      <Journal>(1995) Nat.Struct.Biol. 2: 303-308</Journal>
+      <PubMed_ID>7540935</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF T215Y MUTANT HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH 1051U91</PDB_Title>
+      <PDB_ID>1LW2</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1LW2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6,11-DIHYDRO-11-ETHYL-6-METHYL-9-NITRO-5H- PYRIDO[2,3-B][1,5]BENZODIAZEPIN-5-ONE</Ligand_Name>
+      <PubMed_Title>Crystal structures of Zidovudine- or Lamivudine-resistant human immunodeficiency virus type 1 reverse transcriptases containing mutations at codons 41, 184, and 215.</PubMed_Title>
+      <Author>Chamberlain PP, et al.</Author>
+      <Journal>(2002) J.Virol. 76: 10015-10019</Journal>
+      <PubMed_ID>12208978</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH DMP-266(EFAVIRENZ)</PDB_Title>
+      <PDB_ID>1FK9</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1FK9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(-)-6-CHLORO-4-CYCLOPROPYLETHYNYL-4-TRIFLUOROMETHYL- 1,4-DIHYDRO-2H-3,1
+-BENZOXAZIN-2-ONE</Ligand_Name>
+      <PubMed_Title>Structural basis for the resilience of efavirenz (DMP-266) to drug resistance mutations in HIV-1 reverse transcriptase.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2000) STRUCTURE FOLD.DES. 8: 1089-1094</Journal>
+      <PubMed_ID>11080630</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of L100I mutant HIV-1 reverse transcriptase in complex with GW695634.</PDB_Title>
+      <PDB_ID>3DOL</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3DOL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-({4-[({4-chloro-2-[(3-chloro-5-cyanophenyl)carbonyl]phenoxy}acetyl)amino]- 3
+-methylphenyl}sulfonyl)propanamide</Ligand_Name>
+      <PubMed_Title>Structural basis for the improved drug resistance profile of new generation benzophenone non-nucleoside HIV-1 reverse transcriptase inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2008) J.Med.Chem. 51: 5000-5008</Journal>
+      <PubMed_ID>18665583</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF Y181C MUTANT HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH PETT-2</PDB_Title>
+      <PDB_ID>1JLC</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1JLC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[[3-FLUORO-4-ETHOXY-PYRID-2-YL]ETHYL]-N'- [5-CHLORO-PYRIDYL]-THIOUREA</Ligand_Name>
+      <PubMed_Title>Structural mechanisms of drug resistance for mutations at codons 181 and 188 in HIV-1 reverse transcriptase and the improved resilience of second generation non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2001) J.Mol.Biol. 312: 795-805</Journal>
+      <PubMed_ID>11575933</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NOVEL INDAZOLE NNRTIS CREATED USING MOLECULAR TEMPLATE HYBRIDIZATION BASED ON CRYSTALLOGRAPHIC OVERLAYS</PDB_Title>
+      <PDB_ID>2JLE</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2JLE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-[(5-fluoro-3-methyl-1H-indazol-4-yl)oxy]benzene- 1,3-dicarbonitrile</Ligand_Name>
+      <PubMed_Title>Novel indazole non-nucleoside reverse transcriptase inhibitors using molecular hybridization based on crystallographic overlays.</PubMed_Title>
+      <Author>Jones LH, et al.</Author>
+      <Journal>(2009) J.Med.Chem. 52: 1219-1223</Journal>
+      <PubMed_ID>19175319</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 reverse transcriptase in complex with N1-ethyl pyrimidinedione non-nucleoside inhibitor</PDB_Title>
+      <PDB_ID>3LAL</PDB_ID>
+      <Resolution>2.51</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3LAL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-{[3-ethyl-5-(1-methylethyl)-2,6-dioxo-1,2,3,6- tetrahydropyrimidin-4
+-yl]carbonyl}-5-methylbenzonitrile</Ligand_Name>
+      <PubMed_Title>N1-Alkyl pyrimidinediones as non-nucleoside inhibitors of HIV-1 reverse transcriptase.</PubMed_Title>
+      <Author>Mitchell ML, et al.</Author>
+      <Journal>(2010) Bioorg.Med.Chem.Lett. 20: 1589-1592</Journal>
+      <PubMed_ID>20138513</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TYR 181 CYS HIV-1 RT/8-CL TIBO</PDB_Title>
+      <PDB_ID>1UWB</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1UWB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560018</ASD_Ligand>
+      <Ligand_Name>5-CHLORO-8-METHYL-7-(3-METHYL-BUT-2-ENYL)- 6,7,8,9-TETRAHYDRO-2H-2,7,9A-TRIAZA
+-BENZO[CD]AZULENE- 1-THIONE</Ligand_Name>
+      <PubMed_Title>Crystal structures of 8-Cl and 9-Cl TIBO complexed with wild-type HIV-1 RT and 8-Cl TIBO complexed with the Tyr181Cys HIV-1 RT drug-resistant mutant.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(1996) J.Mol.Biol. 264: 1085-1100</Journal>
+      <PubMed_ID>9000632</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 REVERSE TRANSCRIPTASE COMPLEXED WITH UC84</PDB_Title>
+      <PDB_ID>1RT7</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1RT7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-METHYL ETHYL 1-CHLORO-5-[[(5,6DIHYDRO-2- METHYL-1,4-OXATHIIN-3
+-YL)CARBONYL]AMINO]BENZOATE</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptase in complex with carboxanilide derivatives.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1998) Biochemistry 37: 14394-14403</Journal>
+      <PubMed_ID>9772165</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TYR 188 LEU HIV-1 RT/HBY 097</PDB_Title>
+      <PDB_ID>1BQN</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1BQN</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920019</ASD_Ligand>
+      <Ligand_Name>(S)-4-ISOPROPOXYCARBONYL-6-METHOXY-3-METHYLTHIOMETHYL- 3,4-DIHYDROQUINOXALIN-2
+(1H)-THIONE</Ligand_Name>
+      <PubMed_Title>Structures of Tyr188Leu mutant and wild-type HIV-1 reverse transcriptase complexed with the non-nucleoside inhibitor HBY 097: inhibitor flexibility is a useful design feature for reducing drug resistance.</PubMed_Title>
+      <Author>Hsiou Y, et al.</Author>
+      <Journal>(1998) J.Mol.Biol. 284: 313-323</Journal>
+      <PubMed_ID>9813120</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH S-1153</PDB_Title>
+      <PDB_ID>1EP4</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1EP4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(3,5-DICHLOROPHENYL)THIO-4-ISOPROPYL-1- (PYRIDIN-4-YL-METHYL)-1H-IMIDAZOL-2-YL
+-METHYL CARBAMATE</Ligand_Name>
+      <PubMed_Title>Binding of the second generation non-nucleoside inhibitor S-1153 to HIV-1 reverse transcriptase involves extensive main chain hydrogen bonding.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2000) J.Biol.Chem. 275: 14316-14320</Journal>
+      <PubMed_ID>10799511</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of E138K Mutant HIV-1 Reverse Transcriptase in Complex with PETT-2</PDB_Title>
+      <PDB_ID>2HNZ</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2HNZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-[2-(4-ETHOXY-3-FLUOROPYRIDIN-2-YL)ETHYL]- 3-(5-METHYLPYRIDIN-2-YL)THIOUREA</Ligand_Name>
+      <PubMed_Title>Structural insights into mechanisms of non-nucleoside drug resistance for HIV-1 reverse transcriptases mutated at codons 101 or 138.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2006) Febs J. 273: 3850-3860</Journal>
+      <PubMed_ID>16911530</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Wild Type HIV-1 Reverse Transcriptase in Complex with Efavirenz</PDB_Title>
+      <PDB_ID>1IKW</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1IKW</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02562083</ASD_Ligand>
+      <Ligand_Name>(-)-6-CHLORO-4-CYCLOPROPYLETHYNYL-4-TRIFLUOROMETHYL- 1,4-DIHYDRO-2H-3,1
+-BENZOXAZIN-2-ONE</Ligand_Name>
+      <PubMed_Title>Structural basis for the inhibitory efficacy of efavirenz (DMP-266), MSC194 and PNU142721 towards the HIV-1 RT K103N mutant.</PubMed_Title>
+      <Author>Lindberg J, et al.</Author>
+      <Journal>(2002) Eur.J.Biochem. 269: 1670-1677</Journal>
+      <PubMed_ID>11895437</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 RT with non-nucleoside inhibitor annulated Pyrazole 1</PDB_Title>
+      <PDB_ID>3DYA</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3DYA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-[6-bromo-2-fluoro-3-(1H-pyrazolo[3,4-c]pyridazin- 3-ylmethyl)phenoxy]-5
+-chlorobenzonitrile</Ligand_Name>
+      <PubMed_Title>Design of annulated pyrazoles as inhibitors of HIV-1 reverse transcriptase.</PubMed_Title>
+      <Author>Sweeney ZK, et al.</Author>
+      <Journal>(2008) J.Med.Chem. 51: 7449-7458</Journal>
+      <PubMed_ID>19007201</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 Reverse Transcriptase Isolated RnaseH Domain with the Inhibitor beta-thujaplicinol Bound at the Active Site</PDB_Title>
+      <PDB_ID>3K2P</PDB_ID>
+      <Resolution>2.04</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3K2P</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2,7-dihydroxy-4-(propan-2-yl)cyclohepta-2,4,6- trien-1-one</Ligand_Name>
+      <PubMed_Title>Structure of HIV-1 reverse transcriptase with the inhibitor beta-Thujaplicinol bound at the RNase H active site.</PubMed_Title>
+      <Author>Himmel DM, et al.</Author>
+      <Journal>(2009) Structure 17: 1625-1635</Journal>
+      <PubMed_ID>20004166</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>AZT DRUG RESISTANT HIV-1 REVERSE TRANSCRIPTASE COMPLEXED WITH 1051U91</PDB_Title>
+      <PDB_ID>1RT3</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1RT3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6,11-DIHYDRO-11-ETHYL-6-METHYL-9-NITRO-5H- PYRIDO[2,3-B][1,5]BENZODIAZEPIN-5-ONE</Ligand_Name>
+      <PubMed_Title>3'-Azido-3'-deoxythymidine drug resistance mutations in HIV-1 reverse transcriptase can induce long range conformational changes.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1998) Proc.Natl.Acad.Sci.USA 95: 9518-9523</Journal>
+      <PubMed_ID>9689112</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Y188C Mutant HIV-1 Reverse Transcriptase in Complex with GW420867X.</PDB_Title>
+      <PDB_ID>2OPS</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2OPS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ISOPROPYL (2S)-2-ETHYL-7-FLUORO-3-OXO-3,4- DIHYDROQUINOXALINE-1(2H)-CARBOXYLATE</Ligand_Name>
+      <PubMed_Title>Relationship of potency and resilience to drug resistant mutations for GW420867X revealed by crystal structures of inhibitor complexes for wild-type, Leu100Ile, Lys101Glu, and Tyr188Cys mutant HIV-1 reverse transcriptases.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2007) J.Med.Chem. 50: 2301-2309</Journal>
+      <PubMed_ID>17441703</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the HIV-1 reverse transcriptase (RT) in complex with the alkenyldiarylmethane (ADAM) Non-nucleoside RT Inhibitor dimethyl 3,3'-(6-methoxy-6-oxohex-1-ene-1,1-diyl)bis(5-cyano-6-methoxybenzoate).</PDB_Title>
+      <PDB_ID>3IS9</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3IS9</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920054</ASD_Ligand>
+      <Ligand_Name>dimethyl 3,3'-(6-methoxy-6-oxohex-1-ene-1,1- diyl)bis(5-cyano-6-methoxybenzoate)</Ligand_Name>
+      <PubMed_Title>Crystallographic study of a novel subnanomolar inhibitor provides insight on the binding interactions of alkenyldiarylmethanes with human immunodeficiency virus-1 reverse transcriptase.</PubMed_Title>
+      <Author>Cullen MD, et al.</Author>
+      <Journal>(2009) J.Med.Chem. 52: 6467-6473</Journal>
+      <PubMed_ID>19775161</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SOLUTION STRUCTURE OF THE RNASE H DOMAIN OF THE HIV-1 REVERSE TRANSCRIPTASE IN THE PRESENCE OF MAGNESIUM</PDB_Title>
+      <PDB_ID>1O1W</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1O1W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution structure of the RNase H domain of the HIV-1 reverse transcriptase in the presence of magnesium.</PubMed_Title>
+      <Author>Pari K, et al.</Author>
+      <Journal>(2003) Biochemistry 42: 639-650</Journal>
+      <PubMed_ID>12534276</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH GW429576</PDB_Title>
+      <PDB_ID>1TKZ</PDB_ID>
+      <Resolution>2.81</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1TKZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-CHLORO-4-(CYCLOHEXYLSULFANYL)-3-PROPYLQUINOLIN- 2(1H)-ONE</Ligand_Name>
+      <PubMed_Title>Design of non-nucleoside inhibitors of HIV-1 reverse transcriptase with improved drug resistance properties. 1.</PubMed_Title>
+      <Author>Hopkins AL, et al.</Author>
+      <Journal>(2004) J.Med.Chem. 47: 5912-5922</Journal>
+      <PubMed_ID>15537346</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>2.2 ANGSTROMS RESOLUTION STRUCTURE OF THE AMINO-TERMINAL HALF OF HIV-1 REVERSE TRANSCRIPTASE (FINGERS AND PALM SUBDOMAINS)</PDB_Title>
+      <PDB_ID>1HAR</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1HAR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>2.2 A resolution structure of the amino-terminal half of HIV-1 reverse transcriptase (fingers and palm subdomains).</PubMed_Title>
+      <Author>Unge T, et al.</Author>
+      <Journal>(1994) Structure 2: 953-961</Journal>
+      <PubMed_ID>7532533</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase with bound fragment at the 428 site</PDB_Title>
+      <PDB_ID>4IDK</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4IDK</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560066</ASD_Ligand>
+      <PubMed_Title>Detecting Allosteric Sites of HIV-1 Reverse Transcriptase by X-ray Crystallographic Fragment Screening.</PubMed_Title>
+      <Author>Bauman, J.D., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:2738-2746</Journal>
+      <PubMed_ID>23342998</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of K103N mutant HIV-1 reverse transcriptase in complex with GW678248.</PDB_Title>
+      <PDB_ID>3DOK</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3DOK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-{4-chloro-2-[(3-chloro-5-cyanophenyl)carbonyl]phenoxy}- N-(2-methyl-4
+-sulfamoylphenyl)acetamide</Ligand_Name>
+      <PubMed_Title>Structural basis for the improved drug resistance profile of new generation benzophenone non-nucleoside HIV-1 reverse transcriptase inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2008) J.Med.Chem. 51: 5000-5008</Journal>
+      <PubMed_ID>18665583</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of V108I mutant HIV-1 reverse transcriptase in complex with nevirapine</PDB_Title>
+      <PDB_ID>1S1X</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1S1X</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptases mutated at codons 100, 106 and 108 and mechanisms of resistance to non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2004) J.Mol.Biol. 336: 569-578</Journal>
+      <PubMed_ID>15095972</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE COMPLEXED WITH TNK-651</PDB_Title>
+      <PDB_ID>1RT2</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1RT2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-BENZYL-1-BENZYLOXYMETHYL-5-ISOPROPYL URACIL</Ligand_Name>
+      <PubMed_Title>Complexes of HIV-1 reverse transcriptase with inhibitors of the HEPT series reveal conformational changes relevant to the design of potent non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Hopkins AL, et al.</Author>
+      <Journal>(1996) J.Med.Chem. 39: 1589-1600</Journal>
+      <PubMed_ID>8648598</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF HIV-1 RT(SLASH)TIBO R 86183 COMPLEX REVEALS SIMILARITY IN THE BINDING OF DIVERSE NONNUCLEOSIDE INHIBITORS</PDB_Title>
+      <PDB_ID>1HNV</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1HNV</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560018</ASD_Ligand>
+      <Ligand_Name>5-CHLORO-8-METHYL-7-(3-METHYL-BUT-2-ENYL)- 6,7,8,9-TETRAHYDRO-2H-2,7,9A-TRIAZA
+-BENZO[CD]AZULENE- 1-THIONE</Ligand_Name>
+      <PubMed_Title>Structure of HIV-1 RT/TIBO R 86183 complex reveals similarity in the binding of diverse nonnucleoside inhibitors.</PubMed_Title>
+      <Author>Ding J, et al.</Author>
+      <Journal>(1995) Nat.Struct.Biol. 2: 407-415</Journal>
+      <PubMed_ID>7545077</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF Y181C MUTANT HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH TNK-651</PDB_Title>
+      <PDB_ID>1JLA</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1JLA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-BENZYL-1-BENZYLOXYMETHYL-5-ISOPROPYL URACIL</Ligand_Name>
+      <PubMed_Title>Structural mechanisms of drug resistance for mutations at codons 181 and 188 in HIV-1 reverse transcriptase and the improved resilience of second generation non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2001) J.Mol.Biol. 312: 795-805</Journal>
+      <PubMed_ID>11575933</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the HIV-1 reverse transcriptase bound to a 6-vinylpyrimidine inhibitor</PDB_Title>
+      <PDB_ID>3ITH</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3ITH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-ethenyl-N,N-dimethyl-2-(methylsulfonyl)pyrimidin- 4-amine</Ligand_Name>
+      <PubMed_Title>Crystal Structure of HIV-1 Reverse Transcriptase Bound to a Non-Nucleoside Inhibitor with a Novel Mechanism of Action.</PubMed_Title>
+      <Author>Freisz S, et al.</Author>
+      <Journal>(2010) Angew.Chem.Int.Ed.Engl. 49: 1805-1808</Journal>
+      <PubMed_ID>20135654</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 reverse transcriptase (RT) in complex with JANSSEN-R165481</PDB_Title>
+      <PDB_ID>2B5J</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2B5J</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920039</ASD_Ligand>
+      <Ligand_Name>(2E)-3-{3-[(5-ETHYL-3-IODO-6-METHYL-2-OXO- 1,2-DIHYDROPYRIDIN-4
+-YL)OXY]PHENYL}ACRYLONITRILE</Ligand_Name>
+      <PubMed_Title>Crystal structures for HIV-1 reverse transcriptase in complexes with three pyridinone derivatives: a new class of non-nucleoside inhibitors effective against a broad range of drug-resistant strains.</PubMed_Title>
+      <Author>Himmel DM, et al.</Author>
+      <Journal>(2005) J.Med.Chem. 48: 7582-7591</Journal>
+      <PubMed_ID>16302798</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF Y181C MUTANT HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH DMP-266(EFAVIRENZ)</PDB_Title>
+      <PDB_ID>1JKH</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1JKH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(-)-6-CHLORO-4-CYCLOPROPYLETHYNYL-4-TRIFLUOROMETHYL- 1,4-DIHYDRO-2H-3,1
+-BENZOXAZIN-2-ONE</Ligand_Name>
+      <PubMed_Title>Structural mechanisms of drug resistance for mutations at codons 181 and 188 in HIV-1 reverse transcriptase and the improved resilience of second generation non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2001) J.Mol.Biol. 312: 795-805</Journal>
+      <PubMed_ID>11575933</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of K103N/Y181C Mutant HIV-1 Reverse Transcriptase (RT) in Complex with ATP</PDB_Title>
+      <PDB_ID>2IAJ</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2IAJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-TRIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structures of clinically relevant Lys103Asn/Tyr181Cys double mutant HIV-1 reverse transcriptase in complexes with ATP and non-nucleoside inhibitor HBY 097.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2007) J.Mol.Biol. 365: 77-89</Journal>
+      <PubMed_ID>17056061</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN A COMPLEX WITH THE NONNUCLEOSIDE INHIBITOR ALPHA-APA R 95845 AT 2.8 ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>1HNI</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1HNI</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920022</ASD_Ligand>
+      <Ligand_Name>(2-ACETYL-5-METHYLANILINO)(2,6-DIBROMOPHENYL)ACETAMIDE</Ligand_Name>
+      <PubMed_Title>Structure of HIV-1 reverse transcriptase in a complex with the non-nucleoside inhibitor alpha-APA R 95845 at 2.8 A resolution.</PubMed_Title>
+      <Author>Ding J, et al.</Author>
+      <Journal>(1995) Structure 3: 365-379</Journal>
+      <PubMed_ID>7542140</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIGH RESOLUTION STRUCTURES OF HIV-1 RT FROM FOUR RT-INHIBITOR COMPLEXES</PDB_Title>
+      <PDB_ID>1VRU</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1VRU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-(2,6-DICHLOROPHENYL)-ALPHA-(2-ACETYL- 5-METHYLANILINO)ACETAMIDE</Ligand_Name>
+      <PubMed_Title>High resolution structures of HIV-1 RT from four RT-inhibitor complexes.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1995) Nat.Struct.Biol. 2: 293-302</Journal>
+      <PubMed_ID>7540934</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH THE INHIBITOR MSC204</PDB_Title>
+      <PDB_ID>1EET</PDB_ID>
+      <Resolution>2.73</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1EET</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920021</ASD_Ligand>
+      <Ligand_Name>1-(5-BROMO-PYRIDIN-2-YL)-3-[2-(6-FLUORO-2- HYDROXY-3-PROPIONYL-PHENYL)
+-CYCLOPROPYL]- UREA</Ligand_Name>
+      <PubMed_Title>Urea-PETT compounds as a new class of HIV-1 reverse transcriptase inhibitors. 3. Synthesis and further structure-activity relationship studies of PETT analogues.</PubMed_Title>
+      <Author>Hogberg M, et al.</Author>
+      <Journal>(1999) J.Med.Chem. 42: 4150-4160</Journal>
+      <PubMed_ID>10514285</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF Y181C MUTANT HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH NEVIRAPINE</PDB_Title>
+      <PDB_ID>1JLB</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1JLB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Structural mechanisms of drug resistance for mutations at codons 181 and 188 in HIV-1 reverse transcriptase and the improved resilience of second generation non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2001) J.Mol.Biol. 312: 795-805</Journal>
+      <PubMed_ID>11575933</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase with bound fragment at NNRTI adjacent site</PDB_Title>
+      <PDB_ID>4I7G</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4I7G</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560066</ASD_Ligand>
+      <PubMed_Title>4KFB: Detecting Allosteric Sites of HIV-1 Reverse Transcriptase by X-Ray Crystallographic Fragment Screening.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 reverse transcriptase (RT) in complex with JANSSEN-R157208</PDB_Title>
+      <PDB_ID>2BAN</PDB_ID>
+      <Resolution>2.95</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2BAN</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920041</ASD_Ligand>
+      <Ligand_Name>5-ETHYL-3-[(2-METHOXYETHYL)METHYLAMINO]-6- METHYL-4-(3-METHYLBENZYL)PYRIDIN-2
+(1H)-ONE</Ligand_Name>
+      <PubMed_Title>Crystal structures for HIV-1 reverse transcriptase in complexes with three pyridinone derivatives: a new class of non-nucleoside inhibitors effective against a broad range of drug-resistant strains.</PubMed_Title>
+      <Author>Himmel DM, et al.</Author>
+      <Journal>(2005) J.Med.Chem. 48: 7582-7591</Journal>
+      <PubMed_ID>16302798</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIGH RESOLUTION STRUCTURES OF HIV-1 RT FROM FOUR RT-INHIBITOR COMPLEXES</PDB_Title>
+      <PDB_ID>1RTI</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1RTI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-(2-HYDROXYETHYLOXYMETHYL)-6-PHENYL THIOTHYMINE</Ligand_Name>
+      <PubMed_Title>High resolution structures of HIV-1 RT from four RT-inhibitor complexes.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1995) Nat.Struct.Biol. 2: 293-302</Journal>
+      <PubMed_ID>7540934</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS OF ASYMMETRY IN THE HUMAN IMMUNODEFICIENCY VIRUS TYPE 1 REVERSE TRANSCRIPTASE HETERODIMER</PDB_Title>
+      <PDB_ID>3HVT</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3HVT</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560019</ASD_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Structure of the binding site for nonnucleoside inhibitors of the reverse transcriptase of human immunodeficiency virus type 1.</PubMed_Title>
+      <Author>Smerdon SJ, et al.</Author>
+      <Journal>(1994) Proc.Natl.Acad.Sci.Usa 91: 3911-3915</Journal>
+      <PubMed_ID>7513427</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE ANTIGENIC IDENTITY OF PEPTIDE(SLASH)MHC COMPLEXES: A COMPARISON OF THE CONFORMATION OF FIVE PEPTIDES PRESENTED BY HLA-A2</PDB_Title>
+      <PDB_ID>1HHJ</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1HHJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The antigenic identity of peptide-MHC complexes: a comparison of the conformations of five viral peptides presented by HLA-A2.</PubMed_Title>
+      <Author>Madden DR, et al.</Author>
+      <Journal>Cell. 1993 Nov 19;75(4):693-708.</Journal>
+      <PubMed_ID>7694806</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of K103N/Y181C Mutant HIV-1 Reverse Transcriptase (RT) in Complex with Nonnucleoside Inhibitor HBY 097</PDB_Title>
+      <PDB_ID>2IC3</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2IC3</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920019</ASD_Ligand>
+      <Ligand_Name>(S)-4-ISOPROPOXYCARBONYL-6-METHOXY-3-METHYLTHIOMETHYL- 3,4-DIHYDROQUINOXALIN-2
+(1H)-THIONE</Ligand_Name>
+      <PubMed_Title>Crystal structures of clinically relevant Lys103Asn/Tyr181Cys double mutant HIV-1 reverse transcriptase in complexes with ATP and non-nucleoside inhibitor HBY 097.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2007) J.Mol.Biol. 365: 77-89</Journal>
+      <PubMed_ID>17056061</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of HIV-1 Reverse Transcriptase in Complex with GW420867X.</PDB_Title>
+      <PDB_ID>2OPP</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2OPP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ISOPROPYL (2S)-2-ETHYL-7-FLUORO-3-OXO-3,4- DIHYDROQUINOXALINE-1(2H)-CARBOXYLATE</Ligand_Name>
+      <PubMed_Title>Relationship of potency and resilience to drug resistant mutations for GW420867X revealed by crystal structures of inhibitor complexes for wild-type, Leu100Ile, Lys101Glu, and Tyr188Cys mutant HIV-1 reverse transcriptases.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2007) J.Med.Chem. 50: 2301-2309</Journal>
+      <PubMed_ID>17441703</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase with bound fragment at the 507 site</PDB_Title>
+      <PDB_ID>4IG0</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4IG0</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02568001</ASD_Ligand>
+      <PubMed_Title>Detecting Allosteric Sites of HIV-1 Reverse Transcriptase by X-ray Crystallographic Fragment Screening.</PubMed_Title>
+      <Author>Bauman, J.D., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:2738-2746</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23342998?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of HIV-1 Reverse Transcriptase (RT) in Complex with TMC278 (Rilpivirine), A Non-nucleoside RT Inhibitor</PDB_Title>
+      <PDB_ID>2ZD1</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZD1</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560066</ASD_Ligand>
+      <Ligand_Name>4-{[4-({4-[(E)-2-cyanoethenyl]-2,6-dimethylphenyl}amino)pyrimidin- 2
+-yl]amino}benzonitrile</Ligand_Name>
+      <PubMed_Title>High-resolution structures of HIV-1 reverse transcriptase/TMC278 complexes: strategic flexibility explains potency against resistance mutations.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2008) Proc.Natl.Acad.Sci.Usa 105: 1466-1471</Journal>
+      <PubMed_ID>18230722</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH BM+50.0934</PDB_Title>
+      <PDB_ID>1C0U</PDB_ID>
+      <Resolution>2.52</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1C0U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(R)-(+) 5(9BH)-OXO-9B-PHENYL-2,3-DIHYDROTHIAZOLO[2,3- A]ISOINDOL-3
+-CARBOXYLIC ACID METHYL ESTER</Ligand_Name>
+      <PubMed_Title>Crystallographic analysis of the binding modes of thiazoloisoindolinone non-nucleoside inhibitors to HIV-1 reverse transcriptase and comparison with modeling studies.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1999) J.Med.Chem. 42: 3845-3851</Journal>
+      <PubMed_ID>10508433</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-RT with non-nucleoside inhibitor annulated pyrazole 2</PDB_Title>
+      <PDB_ID>3E01</PDB_ID>
+      <Resolution>2.95</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3E01</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-[2-bromo-4-(1H-pyrazolo[3,4-c]pyridazin- 3-ylmethyl)phenoxy]-5
+-methylbenzonitrile</Ligand_Name>
+      <PubMed_Title>Design of annulated pyrazoles as inhibitors of HIV-1 reverse transcriptase.</PubMed_Title>
+      <Author>Sweeney ZK, et al.</Author>
+      <Journal>(2008) J.Med.Chem. 51: 7449-7458</Journal>
+      <PubMed_ID>19007201</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of hiv-1 reverse transcriptase in complex with GF128590.</PDB_Title>
+      <PDB_ID>3DLE</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3DLE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-[4-chloro-2-(phenylcarbonyl)phenoxy]-N- phenylacetamide</Ligand_Name>
+      <PubMed_Title>Structural basis for the improved drug resistance profile of new generation benzophenone non-nucleoside HIV-1 reverse transcriptase inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2008) J.Med.Chem. 51: 5000-5008</Journal>
+      <PubMed_ID>18665583</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase in complex with DNA</PDB_Title>
+      <PDB_ID>3KJV</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3KJV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Visualizing the Molecular Interactions of a Nucleotide Analog, GS-9148, with HIV-1 Reverse Transcriptase-DNA Complex.</PubMed_Title>
+      <Author>Lansdon EB, et al.</Author>
+      <Journal>J Mol Biol. 2010 Apr 9;397(4):967-78.</Journal>
+      <PubMed_ID>20156454</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF K103N MUTANT HIV-1 REVERSE TRANSCRIPTASE (RT) IN COMPLEX WITH JANSSEN-R165335</PDB_Title>
+      <PDB_ID>1SV5</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1SV5</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560064</ASD_Ligand>
+      <Ligand_Name>4-({6-AMINO-5-BROMO-2-[(4-CYANOPHENYL)AMINO]PYRIMIDIN- 4-YL}OXY)-3,5
+-DIMETHYLBENZONITRILE</Ligand_Name>
+      <PubMed_Title>Roles of conformational and positional adaptability in structure-based design of TMC125-R165335 (etravirine) and related non-nucleoside reverse transcriptase inhibitors that are highly potent and effective against wild-type and drug-resistant HIV-1 variants.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2004) J.Med.Chem. 47: 2550-2560</Journal>
+      <PubMed_ID>15115397</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF NNRTI RESISTANT K103N MUTANT HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH DMP-266(EFAVIRENZ)</PDB_Title>
+      <PDB_ID>1FKO</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1FKO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(-)-6-CHLORO-4-CYCLOPROPYLETHYNYL-4-TRIFLUOROMETHYL- 1,4-DIHYDRO-2H-3,1
+-BENZOXAZIN-2-ONE</Ligand_Name>
+      <PubMed_Title>Structural basis for the resilience of efavirenz (DMP-266) to drug resistance mutations in HIV-1 reverse transcriptase.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2000) STRUCTURE FOLD.DES. 8: 1089-1094</Journal>
+      <PubMed_ID>11080630</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE (RT) IN COMPLEX WITH JANSSEN-R185545</PDB_Title>
+      <PDB_ID>1SUQ</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1SUQ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920034</ASD_Ligand>
+      <Ligand_Name>(6-[4-(AMINOMETHYL)-2,6-DIMETHYLPHENOXY]- 2-{[4-(AMINOMETHYL)PHENYL]AMINO}-5
+-BROMOPYRIMIDIN- 4-YL)METHANOL</Ligand_Name>
+      <PubMed_Title>Roles of conformational and positional adaptability in structure-based design of TMC125-R165335 (etravirine) and related non-nucleoside reverse transcriptase inhibitors that are highly potent and effective against wild-type and drug-resistant HIV-1 variants.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2004) J.Med.Chem. 47: 2550-2560</Journal>
+      <PubMed_ID>15115397</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 RT bound to A 6-vinylpyrimidine inhibitor</PDB_Title>
+      <PDB_ID>3ISN</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3ISN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-ethenyl-N,N-dimethyl-2-(methylsulfonyl)pyrimidin- 4-amine</Ligand_Name>
+      <PubMed_Title>Crystal Structure of HIV-1 Reverse Transcriptase Bound to a Non-Nucleoside Inhibitor with a Novel Mechanism of Action.</PubMed_Title>
+      <Author>Freisz S, et al.</Author>
+      <Journal>(2010) Angew.Chem.Int.Ed.Engl. 49: 1805-1808</Journal>
+      <PubMed_ID>20135654</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 Reverse Transcriptase in Complex with the Inhibitor MSC194</PDB_Title>
+      <PDB_ID>1IKY</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1IKY</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920029</ASD_Ligand>
+      <Ligand_Name>1-[2-(3-ACETYL-2-HYDROXY-6-METHOXY-PHENYL)- CYCLOPROPYL]-3-(5-CYANO-PYRIDIN-2
+-YL)-THIOUREA</Ligand_Name>
+      <PubMed_Title>Structural basis for the inhibitory efficacy of efavirenz (DMP-266), MSC194 and PNU142721 towards the HIV-1 RT K103N mutant.</PubMed_Title>
+      <Author>Lindberg J, et al.</Author>
+      <Journal>(2002) Eur.J.Biochem. 269: 1670-1677</Journal>
+      <PubMed_ID>11895437</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 reverse transcriptase in complex with N1-butyl pyrimidinedione non-nucleoside inhibitor</PDB_Title>
+      <PDB_ID>3LAN</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3LAN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-{[3-butyl-5-(1-methylethyl)-2,6-dioxo-1,2,3,6- tetrahydropyrimidin-4
+-yl]carbonyl}-5-methylbenzonitrile</Ligand_Name>
+      <PubMed_Title>N1-Alkyl pyrimidinediones as non-nucleoside inhibitors of HIV-1 reverse transcriptase.</PubMed_Title>
+      <Author>Mitchell ML, et al.</Author>
+      <Journal>(2010) Bioorg.Med.Chem.Lett. 20: 1589-1592</Journal>
+      <PubMed_ID>20138513</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>K65R mutant HIV-1 reverse transcriptase cross-linked to DS-DNA and complexed with DATP as the incoming nucleotide substrate</PDB_Title>
+      <PDB_ID>3JYT</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3JYT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2',3'-DIDEOXY-GUANOSINE-5'-MONOPHOSPHATE$2'-DEOXYADENOSINE 5'-TRIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structural basis for the role of the K65R mutation in HIV-1 reverse transcriptase polymerization, excision antagonism, and tenofovir resistance.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2009) J.Biol.Chem. 284: 35092-35100</Journal>
+      <PubMed_ID>19812032</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 reverse transcriptase covalently tethered to DNA template-primer solved to 2.8 angstroms</PDB_Title>
+      <PDB_ID>1R0A</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1R0A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE</Ligand_Name>
+      <PubMed_Title>Nonnucleoside inhibitor binding affects the interactions of the fingers subdomain of human immunodeficiency virus type 1 reverse transcriptase with DNA.</PubMed_Title>
+      <Author>Peletskaya EN, et al.</Author>
+      <Journal>(2004) J.Virol. 78: 3387-3397</Journal>
+      <PubMed_ID>15016861</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase-DNA complex with dATP bound in the nucleotide binding site</PDB_Title>
+      <PDB_ID>3KK2</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3KK2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2'-DEOXYADENOSINE 5'-TRIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Visualizing the Molecular Interactions of a Nucleotide Analog, GS-9148, with HIV-1 Reverse Transcriptase-DNA Complex.</PubMed_Title>
+      <Author>Lansdon EB, et al.</Author>
+      <Journal>J Mol Biol. 2010 Apr 9;397(4):967-78.</Journal>
+      <PubMed_ID>20156454</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of L100I Mutant HIV-1 Reverse Transcriptase in Complex with GW420867X.</PDB_Title>
+      <PDB_ID>2OPQ</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2OPQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ISOPROPYL (2S)-2-ETHYL-7-FLUORO-3-OXO-3,4- DIHYDROQUINOXALINE-1(2H)-CARBOXYLATE</Ligand_Name>
+      <PubMed_Title>Relationship of potency and resilience to drug resistant mutations for GW420867X revealed by crystal structures of inhibitor complexes for wild-type, Leu100Ile, Lys101Glu, and Tyr188Cys mutant HIV-1 reverse transcriptases.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2007) J.Med.Chem. 50: 2301-2309</Journal>
+      <PubMed_ID>17441703</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 REVERSE TRANSCRIPTASE/FRAGMENT OF FAB 28/DNA COMPLEX</PDB_Title>
+      <PDB_ID>2HMI</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2HMI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and functional implications of the polymerase active site region in a complex of HIV-1 RT with a double-stranded DNA template-primer and an antibody Fab fragment at 2.8 A resolution.</PubMed_Title>
+      <Author>Ding J, et al.</Author>
+      <Journal>(1998) J.Mol.Biol. 284: 1095-1111</Journal>
+      <PubMed_ID>9837729</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase with bound fragment at the RNase H primer grip site</PDB_Title>
+      <PDB_ID>4ID5</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4ID5</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560066</ASD_Ligand>
+      <PubMed_Title>Detecting Allosteric Sites of HIV-1 Reverse Transcriptase by X-ray Crystallographic Fragment Screening.</PubMed_Title>
+      <Author>Bauman, J.D., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:2738-2746</Journal>
+      <PubMed_ID>23342998</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 REVERSE TRANSCRIPTASE COMPLEXED WITH UC38</PDB_Title>
+      <PDB_ID>1RT6</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1RT6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-METHYL ETHYL 2-CHLORO-5-[[[(1-METHYLETHOXY)THIOOXO]METHYL]AMINO]- BENZOATE</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptase in complex with carboxanilide derivatives.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1998) Biochemistry 37: 14394-14403</Journal>
+      <PubMed_ID>9772165</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 RT with pyridazinone non-nucleoside inhibitor</PDB_Title>
+      <PDB_ID>3DI6</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3DI6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-(4-chloro-2-fluoro-3-phenoxybenzyl)pyridazin- 3(2H)-one</Ligand_Name>
+      <PubMed_Title>Discovery and optimization of pyridazinone non-nucleoside inhibitors of HIV-1 reverse transcriptase.</PubMed_Title>
+      <Author>Sweeney ZK, et al.</Author>
+      <Journal>(2008) Bioorg.Med.Chem.Lett. 18: 4352-4354</Journal>
+      <PubMed_ID>18632268</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of K103N/Y181C mutant HIV-1 reverse transcriptase (RT) in complex with TMC278 (Rilpivirine), a non-nucleoside RT inhibitor</PDB_Title>
+      <PDB_ID>3BGR</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3BGR</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560066</ASD_Ligand>
+      <Ligand_Name>4-{[4-({4-[(E)-2-cyanoethenyl]-2,6-dimethylphenyl}amino)pyrimidin- 2
+-yl]amino}benzonitrile</Ligand_Name>
+      <PubMed_Title>High-resolution structures of HIV-1 reverse transcriptase/TMC278 complexes: strategic flexibility explains potency against resistance mutations.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2008) Proc.Natl.Acad.Sci.Usa 105: 1466-1471</Journal>
+      <PubMed_ID>18230722</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 reverse transcriptase (RT) in complex with THR-50</PDB_Title>
+      <PDB_ID>2B6A</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2B6A</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920040</ASD_Ligand>
+      <Ligand_Name>1-(2,6-DIFLUOROBENZYL)-2-(2,6-DIFLUOROPHENYL)- 4-METHYL-1H-BENZIMIDAZOLE</Ligand_Name>
+      <PubMed_Title>Crystal structure of HIV-1 reverse transcriptase (RT) in complex with THR-50</PubMed_Title>
+      <Author>Morningstar ML, et al.</Author>
+      <Journal>TO BE PUBLISHED</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH BM+21.1326</PDB_Title>
+      <PDB_ID>1C0T</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1C0T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(R)-(+)9B-(3-METHYL)PHENYL-2,3-DIHYDROTHIAZOLO[2,3- A]ISOINDOL-5(9BH)-ONE</Ligand_Name>
+      <PubMed_Title>Crystallographic analysis of the binding modes of thiazoloisoindolinone non-nucleoside inhibitors to HIV-1 reverse transcriptase and comparison with modeling studies.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(1999) J.Med.Chem. 42: 3845-3851</Journal>
+      <PubMed_ID>10508433</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of L100I/K103N mutant HIV-1 reverse transcriptase (RT) in complex with TMC278 (rilpivirine), a non-nucleoside RT inhibitor</PDB_Title>
+      <PDB_ID>2ZE2</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2ZE2</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560066</ASD_Ligand>
+      <Ligand_Name>4-{[4-({4-[(E)-2-cyanoethenyl]-2,6-dimethylphenyl}amino)pyrimidin- 2
+-yl]amino}benzonitrile</Ligand_Name>
+      <PubMed_Title>High-resolution structures of HIV-1 reverse transcriptase/TMC278 complexes: strategic flexibility explains potency against resistance mutations.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2008) Proc.Natl.Acad.Sci.Usa 105: 1466-1471</Journal>
+      <PubMed_ID>18230722</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of L100I mutant HIV-1 reverse transcriptase in complex with nevirapine</PDB_Title>
+      <PDB_ID>1S1U</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1S1U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptases mutated at codons 100, 106 and 108 and mechanisms of resistance to non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2004) J.Mol.Biol. 336: 569-578</Journal>
+      <PubMed_ID>15095972</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN IMMUNODEFICIENCY VIRUS TYPE 1 REVERSE TRANSCRIPTASE COMPLEXED WITH A 33-BASE NUCLEOTIDE RNA PSEUDOKNOT</PDB_Title>
+      <PDB_ID>1HVU</PDB_ID>
+      <Resolution>4.75</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1HVU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of HIV-1 reverse transcriptase complexed with an RNA pseudoknot inhibitor.</PubMed_Title>
+      <Author>Jaeger J, et al.</Author>
+      <Journal>(1998) EMBO J. 17: 4535-4542</Journal>
+      <PubMed_ID>9687519</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of HIV Reverse Transcriptase in complex with inhibitor 14</PDB_Title>
+      <PDB_ID>3C6T</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3C6T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-[3-chloro-5-(3-chloro-5-cyanophenoxy)phenoxy]- N-(2-chloro-4
+-sulfamoylphenyl)acetamide</Ligand_Name>
+      <PubMed_Title>The design and synthesis of diaryl ether second generation HIV-1 non-nucleoside reverse transcriptase inhibitors (NNRTIs) with enhanced potency versus key clinical mutations.</PubMed_Title>
+      <Author>Tucker TJ, et al.</Author>
+      <Journal>(2008) Bioorg.Med.Chem.Lett. 18: 2959-2966</Journal>
+      <PubMed_ID>18396399</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV reverse transcriptase in complex with inhibitor R8e</PDB_Title>
+      <PDB_ID>3DRP</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3DRP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-{5-[(6-amino-1H-pyrazolo[3,4-b]pyridin- 3-yl)methoxy]-2-chlorophenoxy}-5
+-chlorobenzonitrile</Ligand_Name>
+      <PubMed_Title>Discovery of 3-{5-[(6-amino-1H-pyrazolo[3,4-b]pyridine-3-yl)methoxy]-2-chlorophenoxy}-5-chlorobenzonitrile (MK-4965): a potent, orally bioavailable HIV-1 non-nucleoside reverse transcriptase inhibitor with improved potency against key mutant viruses.</PubMed_Title>
+      <Author>Tucker TJ, et al.</Author>
+      <Journal>(2008) J.Med.Chem. 51: 6503-6511</Journal>
+      <PubMed_ID>18826204</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 Reverse Transcriptase Crosslinked to pre-translocation AZTMP-terminated DNA (complex N)</PDB_Title>
+      <PDB_ID>1N6Q</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1N6Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of HIV-1 reverse transcriptase with pre- and post-translocation AZTMP-terminated DNA.</PubMed_Title>
+      <Author>Sarafianos SG, et al.</Author>
+      <Journal>(2002) Embo J. 21: 6614-6624</Journal>
+      <PubMed_ID>12456667</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF HIV-1 REVERSE TRANSCRIPTASE COMPLEXES WITH THIOCARBAMATE NON-NUCLEOSIDE INHIBITORS</PDB_Title>
+      <PDB_ID>2VG5</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2VG5</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920044</ASD_Ligand>
+      <Ligand_Name>O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2- yl)ethyl] (4
+-chlorophenyl)thiocarbamate</Ligand_Name>
+      <PubMed_Title>Crystal structures of HIV-1 reverse transcriptase complexes with thiocarbamate non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Spallarossa A, et al.</Author>
+      <Journal>Biochem Biophys Res Commun. 2008 Jan 25;365(4):764-70.</Journal>
+      <PubMed_ID>18035053</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH GW490745</PDB_Title>
+      <PDB_ID>1TKX</PDB_ID>
+      <Resolution>2.85</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1TKX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-[(CYCLOPROPYLETHYNYL)OXY]-6-FLUORO-3-ISOPROPYLQUINOLIN- 2(1H)-ONE</Ligand_Name>
+      <PubMed_Title>Design of non-nucleoside inhibitors of HIV-1 reverse transcriptase with improved drug resistance properties. 2.</PubMed_Title>
+      <Author>Freeman GA, et al.</Author>
+      <Journal>(2004) J.Med.Chem. 47: 5923-5936</Journal>
+      <PubMed_ID>15537347</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF A MUTANT HIV-1 REVERSE TRANSCRIPTASE (RTMQ+M184V: M41L/D67N/K70R/M184V/T215Y) IN COMPLEX WITH NEVIRAPINE</PDB_Title>
+      <PDB_ID>1LWF</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1LWF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Crystal structures of Zidovudine- or Lamivudine-resistant human immunodeficiency virus type 1 reverse transcriptases containing mutations at codons 41, 184, and 215.</PubMed_Title>
+      <Author>Chamberlain PP, et al.</Author>
+      <Journal>(2002) J.Virol. 76: 10015-10019</Journal>
+      <PubMed_ID>12208978</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF Y188C MUTANT HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH NEVIRAPINE</PDB_Title>
+      <PDB_ID>1JLF</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1JLF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Structural mechanisms of drug resistance for mutations at codons 181 and 188 in HIV-1 reverse transcriptase and the improved resilience of second generation non-nucleoside inhibitors.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2001) J.Mol.Biol. 312: 795-805</Journal>
+      <PubMed_ID>11575933</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 reverse transcriptase in complex with N1-propyl pyrimidinedione non-nucleoside inhibitor</PDB_Title>
+      <PDB_ID>3LAM</PDB_ID>
+      <Resolution>2.76</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3LAM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-methyl-5-{[5-(1-methylethyl)-2,6-dioxo- 3-propyl-1,2,3,6-tetrahydropyrimidin-4
+-yl]carbonyl}benzonitrile</Ligand_Name>
+      <PubMed_Title>N1-Alkyl pyrimidinediones as non-nucleoside inhibitors of HIV-1 reverse transcriptase.</PubMed_Title>
+      <Author>Mitchell ML, et al.</Author>
+      <Journal>(2010) Bioorg.Med.Chem.Lett. 20: 1589-1592</Journal>
+      <PubMed_ID>20138513</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of E138K Mutant HIV-1 Reverse Transcriptase in Complex with Nevirapine</PDB_Title>
+      <PDB_ID>2HNY</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2HNY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Structural insights into mechanisms of non-nucleoside drug resistance for HIV-1 reverse transcriptases mutated at codons 101 or 138.</PubMed_Title>
+      <Author>Ren J, et al.</Author>
+      <Journal>(2006) Febs J. 273: 3850-3860</Journal>
+      <PubMed_ID>16911530</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIV-1 reverse transcriptase crosslinked to tenofovir terminated template-primer (complex P)</PDB_Title>
+      <PDB_ID>1T03</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1T03</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of HIV-1 RT-DNA complexes before and after incorporation of the anti-AIDS drug tenofovir.</PubMed_Title>
+      <Author>Tuske S, et al.</Author>
+      <Journal>(2004) Nat.Struct.Mol.Biol. 11: 469-474</Journal>
+      <PubMed_ID>15107837</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF M184V MUTANT HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH NEVIRAPINE</PDB_Title>
+      <PDB_ID>1LWC</PDB_ID>
+      <Resolution>2.62</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1LWC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>11-CYCLOPROPYL-5,11-DIHYDRO-4-METHYL-6H-DIPYRIDO[3,2- B:2',3'-E][1,4]DIAZEPIN-6
+-ONE</Ligand_Name>
+      <PubMed_Title>Crystal structures of Zidovudine- or Lamivudine-resistant human immunodeficiency virus type 1 reverse transcriptases containing mutations at codons 41, 184, and 215.</PubMed_Title>
+      <Author>Chamberlain PP, et al.</Author>
+      <Journal>(2002) J.Virol. 76: 10015-10019</Journal>
+      <PubMed_ID>12208978</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF A CATALYTIC COMPLEX OF HIV-1 REVERSE TRANSCRIPTASE: IMPLICATIONS FOR NUCLEOSIDE ANALOG DRUG RESISTANCE</PDB_Title>
+      <PDB_ID>1RTD</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1RTD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>THYMIDINE-5'-TRIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structure of a covalently trapped catalytic complex of HIV-1 reverse transcriptase: implications for drug resistance.</PubMed_Title>
+      <Author>Huang H, et al.</Author>
+      <Journal>(1998) Science 282: 1669-1675</Journal>
+      <PubMed_ID>9831551</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE (RT) IN COMPLEX WITH JANSSEN-R147681</PDB_Title>
+      <PDB_ID>1S6Q</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1S6Q</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560063</ASD_Ligand>
+      <Ligand_Name>4-[4-(2,4,6-TRIMETHYL-PHENYLAMINO)-PYRIMIDIN- 2-YLAMINO]-BENZONITRILE</Ligand_Name>
+      <PubMed_Title>Roles of conformational and positional adaptability in structure-based design of TMC125-R165335 (etravirine) and related non-nucleoside reverse transcriptase inhibitors that are highly potent and effective against wild-type and drug-resistant HIV-1 variants.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2004) J.Med.Chem. 47: 2550-2560</Journal>
+      <PubMed_ID>15115397</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 reverse transcriptase (RT) in complex with R221239</PDB_Title>
+      <PDB_ID>2BE2</PDB_ID>
+      <Resolution>2.43</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2BE2</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02560073</ASD_Ligand>
+      <Ligand_Name>4-(3,5-DIMETHYLPHENOXY)-5-(FURAN-2-YLMETHYLSULFANYLMETHYL)- 3-IODO-6
+-METHYLPYRIDIN-2(1H)-ONE</Ligand_Name>
+      <PubMed_Title>Crystal structures for HIV-1 reverse transcriptase in complexes with three pyridinone derivatives: a new class of non-nucleoside inhibitors effective against a broad range of drug-resistant strains.</PubMed_Title>
+      <Author>Himmel DM, et al.</Author>
+      <Journal>(2005) J.Med.Chem. 48: 7582-7591</Journal>
+      <PubMed_ID>16302798</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HUMAN IMMUNODEFICIENCY VIRUS TYPE 1 REVERSE TRANSCRIPTASE (RT) IN COMPLEX WITH JANSSEN-R100943</PDB_Title>
+      <PDB_ID>1S6P</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1S6P</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD11920030</ASD_Ligand>
+      <Ligand_Name>1-(4-CYANO-PHENYL)-3-[2-(2,6-DICHLORO-PHENYL)- 1-IMINO-ETHYL]-THIOUREA</Ligand_Name>
+      <PubMed_Title>Roles of conformational and positional adaptability in structure-based design of TMC125-R165335 (etravirine) and related non-nucleoside reverse transcriptase inhibitors that are highly potent and effective against wild-type and drug-resistant HIV-1 variants.</PubMed_Title>
+      <Author>Das K, et al.</Author>
+      <Journal>(2004) J.Med.Chem. 47: 2550-2560</Journal>
+      <PubMed_ID>15115397</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH GW426318</PDB_Title>
+      <PDB_ID>1TKT</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1TKT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-CHLORO-4-(CYCLOHEXYLOXY)-3-PROPYLQUINOLIN- 2(1H)-ONE</Ligand_Name>
+      <PubMed_Title>Design of non-nucleoside inhibitors of HIV-1 reverse transcriptase with improved drug resistance properties. 1.</PubMed_Title>
+      <Author>Hopkins AL, et al.</Author>
+      <Journal>(2004) J.Med.Chem. 47: 5912-5922</Journal>
+      <PubMed_ID>15537346</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HIV-1 REVERSE TRANSCRIPTASE IN COMPLEX WITH 739W94</PDB_Title>
+      <PDB_ID>1JLQ</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1JLQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-AMINO-6-(3,5-DIMETHYLPHENYL)SULFONYLBENZONITRILE</Ligand_Name>
+      <PubMed_Title>2-Amino-6-arylsulfonylbenzonitriles as non-nucleoside reverse transcriptase inhibitors of HIV-1.</PubMed_Title>
+      <Author>Chan JH, et al.</Author>
+      <Journal>(2001) J.Med.Chem. 44: 1866-1882</Journal>
+      <PubMed_ID>11384233</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Multi-domain proteins (alpha and beta)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.f.bf.b.d.c.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1hmv</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,103,Lys;site,181,Tyr;site,95,Pro;site,188,Tyr;site,229,Trp;site,234,Leu;site,227,Phe;site,106,Val;site,235,His;site,236,Pro;site,101,Lys;site,100,Leu;site,179,Val</Site_Detail>
+      <Site_Reference>Su DS, et al. Bioorg.Med.Chem.Lett. 2009,19(17):5119-5123.;De Clercq E. Chem.Biodivers. 2004,1(1):44-64.</Site_Reference>
+      <PDB_ID>3I0R;3I0S</PDB_ID>
+      <PubMed_ID>19631528;17191775</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Allosteric_Pathway>
+    <Method>Elastic network model, normal mode analysis.</Method>
+    <PubMed_Title>Zheng W, et al. Structure. 2005,13(4):565-577.</PubMed_Title>
+    <PubMed_ID>15837195</PubMed_ID>
+    <is__ref__img>Yes</is__ref__img>
+    <is__display>No</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.7.49@@2.7.7.7@@3.1.26.13</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/7/49.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02560001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560056</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560069</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560081</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560082</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560083</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560084</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560085</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560088</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560089</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560090</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560091</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560092</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560093</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560094</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560095</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560096</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560097</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560098</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560099</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560100</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560101</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560102</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560103</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560104</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560105</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560106</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560107</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560108</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560109</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560110</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560111</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560112</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560113</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560114</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560115</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560116</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560117</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560118</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560119</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560120</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560121</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560122</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560123</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560124</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560125</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560126</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560127</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560128</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560129</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560130</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560131</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560132</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560133</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560134</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560135</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560136</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560137</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560138</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560139</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560140</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560141</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560142</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560143</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560144</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560145</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560146</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560147</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560148</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560149</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560150</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560151</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560152</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560153</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560154</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560155</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560156</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560157</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560158</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560159</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560160</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560161</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560162</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560163</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560164</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560165</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560166</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560167</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560168</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560169</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560170</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560171</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560172</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560173</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560174</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560175</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560176</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560177</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560178</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560179</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560180</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560181</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560182</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560183</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560184</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560185</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560186</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560188</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560189</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560192</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560193</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560194</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560195</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560196</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560197</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560198</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560199</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560200</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560201</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560202</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560204</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560205</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560206</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560207</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560208</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560209</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560210</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560211</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560212</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560213</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560214</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560215</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560216</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560217</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560218</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560219</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560220</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560221</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560222</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560223</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560224</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560225</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560226</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560227</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560228</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560229</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560230</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560231</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560232</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560233</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560234</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560235</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560236</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560237</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560238</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560239</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560240</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560241</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560242</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560243</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560244</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560245</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560246</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560247</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560248</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560249</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560250</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560252</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560253</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560254</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560256</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560258</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560259</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560260</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560261</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560264</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560266</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560270</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560271</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560272</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560273</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560274</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560275</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560277</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560279</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560280</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560281</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560282</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560284</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560285</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560286</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560287</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560294</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560295</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560296</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560297</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560298</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560299</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560300</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560301</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560302</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560303</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560304</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560306</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560307</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560308</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560309</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560310</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560311</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560312</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560314</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560319</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560320</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560321</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560328</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560329</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560330</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560331</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560332</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560334</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560335</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560336</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560338</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560339</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560341</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560342</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560344</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560345</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560346</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560347</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560348</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560349</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560350</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560351</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560352</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560353</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560354</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560355</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560356</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560357</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560358</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560359</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560360</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560361</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560362</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560364</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560366</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560367</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560368</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560369</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560370</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560371</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560372</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560373</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560374</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560375</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560376</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560377</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560378</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560379</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560380</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560381</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560382</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560383</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560384</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560385</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560387</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560388</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560389</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560390</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560392</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560393</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560396</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560397</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560398</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560399</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560400</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560401</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560402</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560403</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560404</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560405</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560406</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560407</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560410</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560412</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560415</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560416</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560417</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560418</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560419</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560420</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560422</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560423</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560424</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560425</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560426</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560429</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560430</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560432</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560433</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560434</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560435</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560437</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560439</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560440</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560444</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560447</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560449</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560450</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560451</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560452</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560453</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560455</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560456</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560458</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560459</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560460</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560461</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560462</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560463</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560464</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560465</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560466</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560467</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560468</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560469</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560470</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560471</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560472</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560473</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560474</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560475</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560476</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560477</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560478</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560479</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560482</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560483</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560484</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560485</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560487</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560488</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560489</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560490</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560491</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560492</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560494</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560499</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560500</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560501</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560502</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560503</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560504</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560505</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560506</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560507</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560508</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560509</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560510</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560511</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560512</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560513</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560514</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560515</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560516</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560517</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560520</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560521</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560522</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560523</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560524</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560525</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560526</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560527</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560528</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560532</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560533</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560534</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560535</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560536</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560537</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560538</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560539</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560540</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560541</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560542</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560543</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560544</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560545</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560547</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560548</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560549</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560550</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560551</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560552</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560553</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560554</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560555</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560556</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560557</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560558</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560559</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560560</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560561</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560562</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560563</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560564</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560565</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560566</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560567</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560568</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560569</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560570</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560572</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560573</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02560574</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562056</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562069</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562083</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562088</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562089</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562090</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562091</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562092</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562093</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562094</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562095</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562096</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562097</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562098</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562099</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562100</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562101</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562102</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562103</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562104</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562105</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562106</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562107</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02562108</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02568001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05062029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

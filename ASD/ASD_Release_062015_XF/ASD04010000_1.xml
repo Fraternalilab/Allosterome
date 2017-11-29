@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04010000_1</Organism_ID>
+  <Organism>Mouse-ear cress</Organism>
+  <Organism_Latin>Arabidopsis thaliana</Organism_Latin>
+  <UniProt_ID>P69834</UniProt_ID>
+  <Seq_Length>302</Seq_Length>
+  <Molecule_Weight>33937</Molecule_Weight>
+  <KEGG_ID>ath:AT2G02500</KEGG_ID>
+  <Orthology_ID>K00991</Orthology_ID>
+  <Function_Summary>Enzyme of the plastid non-mevalonate pathway for isoprenoid biosynthesis that catalyzes the formation of 4-diphosphocytidyl-2-C-methyl-D-erythritol from CTP and 2-C-methyl-D-erythritol 4-phosphate (MEP). Is essential for chloroplast development and required for pigments and gibberellins biosynthesis.</Function_Summary>
+  <Catalytic_Mechanism>CTP + 2-C-methyl-D-erythritol 4-phosphate = diphosphate + 4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol.</Catalytic_Mechanism>
+  <Pfam_ID>PF01128:IspD</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>26</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>AtMEPCT</Alias>
+      <Alias>4-diphosphocytidyl-2C-methyl-D-erythritol synthase</Alias>
+      <Alias>AtMECT</Alias>
+      <Alias>MEP cytidylyltransferase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a nucleotidyl group to a reactant.</Detail>
+      <Keyword>Nucleotidyltransferase activity</Keyword>
+      <Ontology_ID>GO:0016779</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 2-C-methyl-D-erythritol 4-phosphate + CTP = 4-CDP-2-C-methyl-D-erythritol + diphosphate.</Detail>
+      <Keyword>2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase activity</Keyword>
+      <Ontology_ID>GO:0050518</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of any isoprenoid compound, isoprene (2-methylbuta-1,3-diene) or compounds containing or derived from linked isoprene (3-methyl-2-butenylene) residues.</Detail>
+      <Keyword>Isoprenoid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008299</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of isopentenyl diphosphate by the mevalonate-independent pathway. Isopentenyl diphosphate (IPP) is the fundamental unit in isoprenoid biosynthesis and is biosynthesized from pyruvate and glyceraldehyde 3-phosphate via intermediates, including 1-deoxy-D-xylulose 5-phosphate.</Detail>
+      <Keyword>Isopentenyl diphosphate biosynthetic process, mevalonate-independent pathway</Keyword>
+      <Ontology_ID>GO:0019288</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAMLQTNLGFITSPTFLCPKLKVKLNSYLWFSYRSQVQKLDFSKRVNRSYKRDALLLSIKCSSSTGFDNSNVVVKEKSVSVILLAGGQGKRMKMSMPKQYIPLLGQPIALYSFFTFSRMPEVKEIVVVCDPFFRDIFEEYEESIDVDLRFAIPGKERQDSVYSGLQEIDVNSELVCIHDSARPLVNTEDVEKVLKDGSAVGAAVLGVPAKATIKEVNSDSLVVKTLDRKTLWEMQTPQVIKPELLKKGFELVKSEGLEVTDDVSIVEYLKHPVYVSQGSYTNIKVTTPDDLLLAERILSEDS</Protein_Seq>
+    <DNA_Seq>AGCTTTCTTCTTCTCTCAGGCGAGATAAAACATGGCGATGCTTCAGACGAATCTTGGCTTCATTACTTCTCCGACATTTCTGTGTCCGAAGCTTAAAGTCAAATTGAACTCTTATCTGTGGTTTAGCTATCGTTCTCAAGTTCAAAAACTGGATTTTTCGAAAAGGGTTAATAGAAGCTACAAAAGAGATGCTTTATTATTGTCAATCAAGTGTTCTTCATCGACTGGATTTGATAATAGCAATGTTGTTGTGAAGGAGAAGAGTGTATCTGTGATTCTTTTAGCTGGAGGTCAAGGCAAGAGAATGAAAATGAGTATGCCAAAGCAGTACATACCACTTCTTGGTCAGCCAATTGCTTTGTATAGCTTTTTCACGTTTTCACGTATGCCTGAAGTGAAGGAAATTGTAGTTGTATGTGATCCTTTTTTCAGAGACATTTTTGAAGAATACGAAGAATCAATTGATGTTGATCTTAGATTCGCTATTCCTGGCAAAGAAAGACAAGATTCTGTTTACAGTGGACTTCAGGAAATCGATGTGAACTCTGAGCTTGTTTGTATCCACGACTCTGCCCGACCATTGGTGAATACTGAAGATGTCGAGAAGGTCCTTAAAGATGGTTCCGCGGTTGGAGCAGCTGTACTTGGTGTTCCTGCTAAAGCTACAATCAAAGAGGTCAATTCTGATTCGCTTGTGGTGAAAACTCTCGACAGAAAAACCCTATGGGAAATGCAGACACCACAGGTGATCAAACCAGAGCTATTGAAAAAGGGTTTCGAGCTTGTAAAAAGTGAAGGTCTAGAGGTAACAGATGACGTTTCGATTGTTGAATACCTCAAGCATCCAGTTTATGTCTCTCAAGGATCTTATACAAACATCAAGGTTACAACACCTGATGATTTACTGCTTGCTGAGAGAATCTTGAGCGAGGACTCATGAGATATTATATCATTTACTTAGTAAGAAGACGTGTCAAGGGTATGCATGAAAAATGTTTTATTGAAATCTTTGCATCCTAGTTTGGTGGTTTATAAAATGTGCAAGATAATTGTTTCACTGAAAACTACTTGCTGTGAATATGGATTCGAACAGAGCCAATTCGAAGTAGAATTTGC</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Leaves</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Flowers</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Stems</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plastid</CellLocal>
+      <Ontology_ID>GO:0009536</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Chloroplast stroma</CellLocal>
+      <Ontology_ID>GO:0009570</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Chloroplast</CellLocal>
+      <Ontology_ID>GO:0009507</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ISPD</Gene_Name>
+    <Gene_Alias>MCT; MECT; MEPCT</Gene_Alias>
+    <Gene_ID>814779</Gene_ID>
+    <Genbank_ACCN>NM_126305</Genbank_ACCN>
+    <Protein_ACCN>NP_565286</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/814779</Gene_URL>
+    <EMBL_ID>AT2G02500</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Arabidopsis thaliana IspD in complex with tetrabromo-pseudilin</PDB_Title>
+      <PDB_ID>4NAN</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4NAN</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD04010006</ASD_Ligand>
+      <PubMed_Title>Pseudilins: Halogenated, Allosteric Inhibitors of the Non-Mevalonate Pathway Enzyme IspD.</PubMed_Title>
+      <Author>Kunfermann, A., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:2235-2239</Journal>
+      <PubMed_ID>24446431</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>2C-METHYL-D-ERYTHRITOL 4-PHOSPHATE CYTIDYLYLTRANSFERASE (ISPD) FROM ARABIDOPSIS THALIANA</PDB_Title>
+      <PDB_ID>1W77</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W77</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Crystal Structure of a Plant 2C-Methyl-D-Erythritol 4-Phosphate Cytidylyltransferase Exhibits a Distinct Quaternary Structure Compared to Bacterial Homologues and a Possible Role in Feedback Regulation for Cytidine Monophosphate.</PubMed_Title>
+      <Author>Gabrielsen, M., et al.</Author>
+      <Journal>FEBS J.(2006)273:1065</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16478479?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Arabidopsis thaliana IspD in complex with tribromodichloro-pseudilin</PDB_Title>
+      <PDB_ID>4NAL</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4NAL</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05233007</ASD_Ligand>
+      <PubMed_Title>Pseudilins: Halogenated, Allosteric Inhibitors of the Non-Mevalonate Pathway Enzyme IspD.</PubMed_Title>
+      <Author>Kunfermann, A., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:2235-2239</Journal>
+      <PubMed_ID>24446431</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>INHIBITORS OF HERBICIDAL TARGET ISPD</PDB_Title>
+      <PDB_ID>2YCM</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YCM</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD04010003</ASD_Ligand>
+      <PubMed_Title>Inhibitors of the Herbicidal Target Ispd: Allosteric Site Binding.</PubMed_Title>
+      <Author>Witschel, M.C., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2011)50:7931</Journal>
+      <PubMed_ID>21766403</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>INHIBITORS OF THE HERBICIDAL TARGET ISPD</PDB_Title>
+      <PDB_ID>2YC5</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YC5</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD04010002</ASD_Ligand>
+      <PubMed_Title>Inhibitors of the Herbicidal Target Ispd: Allosteric Site Binding.</PubMed_Title>
+      <Author>Witschel, M.C., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2011)50:7931</Journal>
+      <PubMed_ID>21766403</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>INHIBITORS OF THE HERBICIDAL TARGET ISPD</PDB_Title>
+      <PDB_ID>2YC3</PDB_ID>
+      <Resolution>1.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YC3</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD04010001</ASD_Ligand>
+      <PubMed_Title>Inhibitors of the Herbicidal Target Ispd: Allosteric Site Binding.</PubMed_Title>
+      <Author>Witschel, M.C., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2011)50:7931</Journal>
+      <PubMed_ID>21766403</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Arabidopsis thaliana IspD in complex with pentabromo-pseudilin</PDB_Title>
+      <PDB_ID>4NAK</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4NAK</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05233003</ASD_Ligand>
+      <PubMed_Title>Pseudilins: Halogenated, Allosteric Inhibitors of the Non-Mevalonate Pathway Enzyme IspD.</PubMed_Title>
+      <Author>Kunfermann, A., et al.</Author>
+      <Journal>Angew.Chem.Int.Ed.Engl.(2014)53:2235-2239</Journal>
+      <PubMed_ID>24446431</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00900</Pathway_ID>
+      <Pathway_Title>Terpenoid backbone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of terpenoids and polyketides</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.jh.b.bc.e.html</SCOP_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,157,Arg;site,177,Ile;site,202,Ala;site,240,Ile;site,263,Val;site,265,Ile;site,266,Val</Site_Detail>
+      <Site_Reference>Witschel MC, et al. Angew Chem Int Ed Engl. 2011,50(34):7931-7935.</Site_Reference>
+      <Site_Type>feedback inhibition allostery</Site_Type>
+      <PDB_ID>2YC3;2YC5;2YCM</PDB_ID>
+      <PubMed_ID>21766403</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.7.60</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/7/60.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD04010001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04010002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04010003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04010006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04010007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04012018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05233008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

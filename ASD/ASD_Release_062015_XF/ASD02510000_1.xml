@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02510000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A7G6</UniProt_ID>
+  <Seq_Length>353</Seq_Length>
+  <Molecule_Weight>37973</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p2637</KEGG_ID>
+  <Orthology_ID>K03553</Orthology_ID>
+  <Function_Summary>Can catalyze the hydrolysis of ATP in the presence of single-stranded DNA, the ATP-dependent uptake of single-stranded DNA by duplex DNA, and the ATP-dependent hybridization of homologous single-stranded DNAs. It interacts with LexA causing its activation and leading to its autocatalytic cleavage.</Function_Summary>
+  <Pfam_ID>PF00154:RecA</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>3</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Recombinase A</Alias>
+      <Alias>RecA</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate; this reaction requires the presence of single- or double-stranded DNA, and it drives another reaction.</Detail>
+      <Keyword>DNA-dependent ATPase activity</Keyword>
+      <Ontology_ID>GO:0008094</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with single-stranded DNA.</Detail>
+      <Keyword>Single-stranded DNA binding</Keyword>
+      <Ontology_ID>GO:0003697</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>An error-prone process for repairing damaged microbial DNA.</Detail>
+      <Keyword>SOS response</Keyword>
+      <Ontology_ID>GO:0009432</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which a new genotype is formed by reassortment of genes resulting in gene combinations different from those that were present in the parents. In eukaryotes genetic recombination can occur by chromosome assortment, intrachromosomal recombination, or nonreciprocal interchromosomal recombination. Intrachromosomal recombination occurs by crossing over. In bacteria it may occur by genetic transformation, conjugation, transduction, or F-duction.</Detail>
+      <Keyword>DNA recombination</Keyword>
+      <Ontology_ID>GO:0006310</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</Detail>
+      <Keyword>DNA repair</Keyword>
+      <Ontology_ID>GO:0006281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the controlled self-propelled movement of a cell that results in translocation of the cell from one place to another.</Detail>
+      <Keyword>Cell motility</Keyword>
+      <Ontology_ID>GO:0048870</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).</Detail>
+      <Keyword>Response to stress</Keyword>
+      <Ontology_ID>GO:0006950</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAIDENKQKALAAALGQIEKQFGKGSIMRLGEDRSMDVETISTGSLSLDIALGAGGLPMGRIVEIYGPESSGKTTLTLQVIAAAQREGKTCAFIDAEHALDPIYARKLGVDIDNLLCSQPDTGEQALEICDALARSGAVDVIVVDSVAALTPKAEIEGEIGDSHMGLAARMMSQAMRKLAGNLKQSNTLLIFINQIRMKIGVMFGNPETTTGGNALKFYASVRLDIRRIGAVKEGENVVGSETRVKVVKNKIAAPFKQAEFQILYGEGINFYGELVDLGVKEKLIEKAGAWYSYKGEKIGQGKANATAWLKDNPETAKEIEKKVRELLLSNPNSTPDFSVDDSEGVAETNEDF</Protein_Seq>
+    <DNA_Seq>AGAGAAGCCTGTCGGCACCGTCTGGTTTGCTTTTGCCACTGCCCGCGGTGAAGGCATTACCCGGCGGGATGCTTCAGCGGCGACCGTGATGCGGTGCGTCGTCAGGCTACTGCGTATGCATTGCAGACCTTGTGGCAACAATTTCTACAAAACACTTGATACTGTATGAGCATACAGTATAATTGCTTCAACAGAACATATTGACTATCCGGTATTACCCGGCATGACAGGAGTAAAAATGGCTATCGACGAAAACAAACAGAAAGCGTTGGCGGCAGCACTGGGCCAGATTGAGAAACAATTTGGTAAAGGCTCCATCATGCGCCTGGGTGAAGACCGTTCCATGGATGTGGAAACCATCTCTACCGGTTCGCTTTCACTGGATATCGCGCTTGGGGCAGGTGGTCTGCCGATGGGCCGTATCGTCGAAATCTACGGACCGGAATCTTCCGGTAAAACCACGCTGACGCTGCAGGTGATCGCCGCAGCGCAGCGTGAAGGTAAAACCTGTGCGTTTATCGATGCTGAACACGCGCTGGACCCAATCTACGCACGTAAACTGGGCGTCGATATCGACAACCTGCTGTGCTCCCAGCCGGACACCGGCGAGCAGGCACTGGAAATCTGTGACGCCCTGGCGCGTTCTGGCGCAGTAGACGTTATCGTCGTTGACTCCGTGGCGGCACTGACGCCGAAAGCGGAAATCGAAGGCGAAATCGGCGACTCTCACATGGGCCTTGCGGCACGTATGATGAGCCAGGCGATGCGTAAGCTGGCGGGTAACCTGAAGCAGTCCAACACGCTGCTGATCTTCATCAACCAGATCCGTATGAAAATTGGTGTGATGTTCGGTAACCCGGAAACCACTACCGGTGGTAACGCGCTGAAATTCTACGCCTCTGTTCGTCTCGACATCCGTCGTATCGGCGCGGTGAAAGAGGGCGAAAACGTGGTGGGTAGCGAAACCCGCGTGAAAGTGGTGAAGAACAAAATCGCTGCGCCGTTTAAACAGGCTGAATTCCAGATCCTCTACGGCGAAGGTATCAACTTCTACGGCGAACTGGTTGACCTGGGCGTAAAAGAGAAGCTGATCGAGAAAGCAGGCGCGTGGTACAGCTACAAAGGTGAGAAGATCGGTCAGGGTAAAGCGAATGCGACTGCCTGGCTGAAAGATAACCCGGAAACCGCGAAAGAGATCGAGAAGAAAGTACGTGAGTTGCTGCTGAGCAACCCGAACTCAACGCCGGATTTCTCTGTAGATGATAGCGAAGGCGTAGCAGAAACTAACGAAGATTTTTAATCGTCTTGTTTGATACACAAGGGTCGCATCTGCGGCCCTTTTGCTTTTTTAAGTTGTAAGGATATGCCATGACAGAATCAACATCCCGTCG</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>recA</Gene_Name>
+    <Gene_Alias>lexB; recH; rnmB; tif; umuB; zab</Gene_Alias>
+    <Gene_ID>12930224</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_417179</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947170</Gene_URL>
+    <EMBL_ID>EBESCG00000016993</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>E. Coli RecA in complex with MgADP</PDB_Title>
+      <PDB_ID>1XMV</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1XMV</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027</ASD_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structures of Escherichia coli RecA in complex with MgADP and MnAMP-PNP.</PubMed_Title>
+      <Author>Xing X, et al.</Author>
+      <Journal>(2004) Biochemistry 43: 16142-16152</Journal>
+      <PubMed_ID>15610008</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Mechanism of homologous recombination from the RecA-ssDNA/dsDNA structures</PDB_Title>
+      <PDB_ID>3CMU</PDB_ID>
+      <Resolution>4.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3CMU</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027</ASD_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE$TETRAFLUOROALUMINATE ION</Ligand_Name>
+      <PubMed_Title>Mechanism of homologous recombination from the RecA-ssDNA/dsDNA structures.</PubMed_Title>
+      <Author>Chen Z, et al.</Author>
+      <Journal>(2008) Nature 453: 489-494</Journal>
+      <PubMed_ID>18497818</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF THE E. COLI RECA PROTEIN MONOMER AND POLYMER</PDB_Title>
+      <PDB_ID>2REB</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2REB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of the E. coli recA protein monomer and polymer.</PubMed_Title>
+      <Author>Story RM, et al.</Author>
+      <Journal>(1992) Nature 355: 318-325</Journal>
+      <PubMed_ID>1731246</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>E. Coli RecA in complex with MnAMP-PNP</PDB_Title>
+      <PDB_ID>1XMS</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1XMS</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00498001</ASD_Ligand>
+      <Ligand_Name>PHOSPHOAMINOPHOSPHONIC ACID-ADENYLATE ESTER</Ligand_Name>
+      <PubMed_Title>Crystal structures of Escherichia coli RecA in complex with MgADP and MnAMP-PNP.</PubMed_Title>
+      <Author>Xing X, et al.</Author>
+      <Journal>(2004) Biochemistry 43: 16142-16152</Journal>
+      <PubMed_ID>15610008</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Mechanism of homologous recombination from the RecA-ssDNA/dsDNA structures</PDB_Title>
+      <PDB_ID>3CMT</PDB_ID>
+      <Resolution>3.15</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE$TETRAFLUOROALUMINATE ION</Ligand_Name>
+      <PubMed_Title>Mechanism of homologous recombination from the RecA-ssDNA/dsDNA structures.</PubMed_Title>
+      <Author>Chen Z, et al.</Author>
+      <Journal>(2008) Nature 453: 489-494</Journal>
+      <PubMed_ID>18497818</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Mechanism of homologous recombination from the RecA-ssDNA/dsDNA structures</PDB_Title>
+      <PDB_ID>3CMX</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3CMX</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027</ASD_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE$TETRAFLUOROALUMINATE ION</Ligand_Name>
+      <PubMed_Title>Mechanism of homologous recombination from the RecA-ssDNA/dsDNA structures.</PubMed_Title>
+      <Author>Chen Z, et al.</Author>
+      <Journal>(2008) Nature 453: 489-494</Journal>
+      <PubMed_ID>18497818</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Mechanism of homologous recombination from the RecA-ssDNA/dsDNA structures</PDB_Title>
+      <PDB_ID>3CMV</PDB_ID>
+      <Resolution>4.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3CMV</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00498001</ASD_Ligand>
+      <Ligand_Name>PHOSPHOAMINOPHOSPHONIC ACID-ADENYLATE ESTER</Ligand_Name>
+      <PubMed_Title>Mechanism of homologous recombination from the RecA-ssDNA/dsDNA structures.</PubMed_Title>
+      <Author>Chen Z, et al.</Author>
+      <Journal>(2008) Nature 453: 489-494</Journal>
+      <PubMed_ID>18497818</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of E. Coli RecA in a Compressed Helical Filament Form 3</PDB_Title>
+      <PDB_ID>1U98</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1U98</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of Escherichia coli RecA in a compressed helical filament.</PubMed_Title>
+      <Author>Xing X, et al.</Author>
+      <Journal>(2004) J.Mol.Biol. 342: 1471-1485</Journal>
+      <PubMed_ID>15364575</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of E. Coli RecA in a Compressed Helical Filament Form 4</PDB_Title>
+      <PDB_ID>1U99</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1U99</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of Escherichia coli RecA in a compressed helical filament.</PubMed_Title>
+      <Author>Xing X, et al.</Author>
+      <Journal>(2004) J.Mol.Biol. 342: 1471-1485</Journal>
+      <PubMed_ID>15364575</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ESCHERICHIA COLI RECA PROTEIN-BOUND DNA, NMR, 1 STRUCTURE</PDB_Title>
+      <PDB_ID>3REC</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3REC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An extended DNA structure through deoxyribose-base stacking induced by RecA protein.</PubMed_Title>
+      <Author>Nishinaka T, et al.</Author>
+      <Journal>(1997) Proc.Natl.Acad.Sci.USA 94: 6623-6628</Journal>
+      <PubMed_ID>9192615</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Mechanism of homologous recombination from the RecA-ssDNA/dsDNA structures</PDB_Title>
+      <PDB_ID>3CMW</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3CMW</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027</ASD_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE$TETRAFLUOROALUMINATE ION</Ligand_Name>
+      <PubMed_Title>Mechanism of homologous recombination from the RecA-ssDNA/dsDNA structures.</PubMed_Title>
+      <Author>Chen Z, et al.</Author>
+      <Journal>(2008) Nature 453: 489-494</Journal>
+      <PubMed_ID>18497818</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RECA HEXAMER MODEL, ELECTRON MICROSCOPY</PDB_Title>
+      <PDB_ID>2REC</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2REC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The RecA hexamer is a structural homologue of ring helicases.</PubMed_Title>
+      <Author>Yu X, et al.</Author>
+      <Journal>(1997) Nat.Struct.Biol. 4: 101-104</Journal>
+      <PubMed_ID>9033586</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of E. Coli RecA in a Compressed Helical Filament Form 2</PDB_Title>
+      <PDB_ID>1U94</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1U94</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of Escherichia coli RecA in a compressed helical filament.</PubMed_Title>
+      <Author>Xing X, et al.</Author>
+      <Journal>(2004) J.Mol.Biol. 342: 1471-1485</Journal>
+      <PubMed_ID>15364575</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE RECA PROTEIN-ADP COMPLEX</PDB_Title>
+      <PDB_ID>1REA</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1REA</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027</ASD_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structure of the recA protein-ADP complex.</PubMed_Title>
+      <Author>Story RM, et al.</Author>
+      <Journal>(1992) Nature 355: 374-376</Journal>
+      <PubMed_ID>1731253</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>C-TERMINAL DOMAIN OF THE E. COLI RECA, NMR, MINIMIZED AVERAGE STRUCTURE</PDB_Title>
+      <PDB_ID>1AA3</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1AA3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An interaction between a specified surface of the C-terminal domain of RecA protein and double-stranded DNA for homologous pairing.</PubMed_Title>
+      <Author>Aihara H, et al.</Author>
+      <Journal>(1997) J.Mol.Biol. 274: 213-221</Journal>
+      <PubMed_ID>9398528</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Model for Active RecA Filament</PDB_Title>
+      <PDB_ID>1N03</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1N03</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>ATP-mediated conformational changes in the RecA filament.</PubMed_Title>
+      <Author>VanLoock MS, et al.</Author>
+      <Journal>(2003) Structure 11: 187-196</Journal>
+      <PubMed_ID>12575938</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.bae.b.b.b.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/cgi-bin/search.pl?search_text=Escherichia+coli+Protein+recA#tab-results</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,218,Phe;site,195,Gln;site,197,Arg</Site_Detail>
+      <Site_Reference>Kelley De Zutter J, et al. Structure. 2001,9(1):47-55.;Voloshin ON, et al. J.Mol.Biol. 2000,303(5):709-720.</Site_Reference>
+      <Site_Type>Oligomerization</Site_Type>
+      <PubMed_ID>11342134;11061970</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00498001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00870004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01720027</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

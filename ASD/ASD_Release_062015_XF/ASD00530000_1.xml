@@ -1,0 +1,1040 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00530000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P42574</UniProt_ID>
+  <Seq_Length>277</Seq_Length>
+  <Molecule_Weight>31608</Molecule_Weight>
+  <KEGG_ID>hsa:836</KEGG_ID>
+  <Orthology_ID>K02187</Orthology_ID>
+  <EBI_ID>EBI-524064</EBI_ID>
+  <Function_Summary>Involved in the activation cascade of caspases responsible for apoptosis execution. At the onset of apoptosis it proteolytically cleaves poly(ADP-ribose) polymerase (PARP) at a '216-Asp-|-Gly-217' bond. Cleaves and activates sterol regulatory element binding proteins (SREBPs) between the basic helix-loop-helix leucine zipper domain and the membrane attachment domain. Cleaves and activates caspase-6, -7 and -9. Involved in the cleavage of huntingtin. Triggers cell adhesion in sympathetic neurons through RET cleavage.</Function_Summary>
+  <Catalytic_Mechanism>Strict requirement for an Asp residue at positions P1 and P4. It has a preferred cleavage sequence of Asp-Xaa-Xaa-Asp-|- with a hydrophobic amino-acid residue at P2 and a hydrophilic amino-acid residue at P3, although Val or Ala are also accepted at this position.</Catalytic_Mechanism>
+  <Pfam_ID>PF00656:Peptidase_C14</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>12</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>SCA-1</Alias>
+      <Alias>CPP-32</Alias>
+      <Alias>Protein Yama</Alias>
+      <Alias>Apopain</Alias>
+      <Alias>SREBP cleavage activity 1</Alias>
+      <Alias>Cysteine protease CPP32</Alias>
+      <Alias>CASP-3</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a mechanism in which the sulfhydryl group of a cysteine residue at the active center acts as a nucleophile.</Detail>
+      <Keyword>Cysteine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004197</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a mechanism in which the sulfhydryl group of a cysteine residue at the active center acts as a nucleophile.</Detail>
+      <Keyword>Cysteine-type peptidase activity</Keyword>
+      <Ontology_ID>GO:0008234</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>190</Position>
+      <Original>Glu</Original>
+      <Variation>Asp</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>22</Position>
+      <Original>His</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell death by apoptosis.</Detail>
+      <Keyword>Negative regulation of apoptosis</Keyword>
+      <Ontology_ID>GO:0043066</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a tumor necrosis factor stimulus.</Detail>
+      <Keyword>Response to tumor necrosis factor</Keyword>
+      <Ontology_ID>GO:0034612</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds.</Detail>
+      <Keyword>Proteolysis</Keyword>
+      <Ontology_ID>GO:0006508</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cleavage of DNA during apoptosis, which usually occurs in two stages: cleavage into fragments of about 50 kbp followed by cleavage between nucleosomes to yield 200 bp fragments.</Detail>
+      <Keyword>DNA fragmentation involved in apoptotic nuclear change</Keyword>
+      <Ontology_ID>GO:0006309</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Upregulation of the activity of a caspase, any of a group of cysteine proteases involved in apoptosis, mediated by cytochrome c.</Detail>
+      <Keyword>Activation of caspase activity by cytochrome c</Keyword>
+      <Ontology_ID>GO:0008635</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the nerve growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Nerve growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048011</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The breakdown of the nucleus into small membrane-bounded compartments, or blebs, each of which contain compacted DNA.</Detail>
+      <Keyword>Nuclear fragmentation involved in apoptotic nuclear change</Keyword>
+      <Ontology_ID>GO:0030264</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>26</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1</Position>
+      <PTM_Type>N-acetylmethionine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>163</Position>
+      <PTM_Type>S-nitrosocysteine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>82</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MENTENSVDSKSIKNLEPKIIHGSESMDSGISLDNSYKMDYPEMGLCIIINNKNFHKSTGMTSRSGTDVDAANLRETFRNLKYEVRNKNDLTREEIVELMRDVSKEDHSKRSSFVCVLLSHGEEGIIFGTNGPVDLKKITNFFRGDRCRSLTGKPKLFIIQACRGTELDCGIETDSGVDDDMACHKIPVEADFLYAYSTAPGYYSWRNSKDGSWFIQSLCAMLKQYADKLEFMHILTRVNRKVATEFESFSFDATFHAKKQIPCIVSMLTKELYFYH</Protein_Seq>
+    <DNA_Seq>GAATTCGGCACGAGGGGTGCTATTGTGAGGCGGTTGTAGAAGAGTTTCGTGAGTGCTCGCAGCTCATACCTGTGGCTGTGTATCCGTGGCCACAGCTGGTTGGCGTCGCCTTGAAATCCCAGGCCGTGAGGAGTTAGCGAGCCCTGCTCACACTCGGCGCTCTGGTTTTCGGTGGGTGTGCCCTGCACCTGCCTCTTCCCCCATTCTCATTAATAAAGGTATCCATGGAGAACACTGAAAACTCAGTGGATTCAAAATCCATTAAAAATTTGGAACCAAAGATCATACATGGAAGCGAATCAATGGACTCTGGAATATCCCTGGACAACAGTTATAAAATGGATTATCCTGAGATGGGTTTATGTATAATAATTAATAATAAGAATTTTCATAAAAGCACTGGAATGACATCTCGGTCTGGTACAGATGTCGATGCAGCAAACCTCAGGGAAACATTCAGAAACTTGAAATATGAAGTCAGGAATAAAAATGATCTTACACGTGAAGAAATTGTGGAATTGATGCGTGATGTTTCTAAAGAAGATCACAGCAAAAGGAGCAGTTTTGTTTGTGTGCTTCTGAGCCATGGTGAAGAAGGAATAATTTTTGGAACAAATGGACCTGTTGACCTGAAAAAAATAACAAACTTTTTCAGAGGGGATCGTTGTAGAAGTCTAACTGGAAAACCCAAACTTTTCATTATTCAGGCCTGCCGTGGTACAGAACTGGACTGTGGCATTGAGACAGACAGTGGTGTTGATGATGACATGGCGTGTCATAAAATACCAGTGGATGCCGACTTCTTGTATGCATACTCCACAGCACCTGGTTATTATTCTTGGCGAAATTCAAAGGATGGCTCCTGGTTCATCCAGTCGCTTTGTGCCATGCTGAAACAGTATGCCGACAAGCTTGAATTTATGCACATTCTTACCCGGGTTAACCGAAAGGTGGCAACAGAATTTGAGTCCTTTTCCTTTGACGCTACTTTTCATGCAAAGAAACAGATTCCATGTATTGTTTCCATGCTCACAAAAGAACTCTATTTTTATCACTAAAGAAATGGTTGGTTGGTGGTTTTTTTTAGTTTGTATGCCAAGTGAGAAGATGGTATATTTGGTACTGTATTTCCCTCTCATTTTGACCTACTCTCATGCTGCAGAGGGTACTTTAAGACATACTCCTTCCATCAAATAGAACCACTATGAAGCTACCTCAAACTTCCAGTCAGGTAGTTGCAATTGAATTAAATTAGGAATAAATAAAAATGGATACTGGTGCAGTCATTATGAGAGGCAATGATTGTTAATTTACAGCTTTCATGATTAGCAAGTTACAGTGATGCTGTGCTATGAATTTTCAAGTAATTGTGAAAAAGTTAAACATTGAAGTAATGAATTTTTATGATATTCCCCCCACTTAAGACTGTGTATTCTAGTTTTGTCAAACTGTAGAAATGATGATGTGGAAGAACTTAGGCATCTGTGGGCATGGTCAAAGGCTCAAACCTTTATTTTAGAATTGATATACACGGATGACTTAACTGCATTTTAGACCATTTATCTGGGATTATGGTTTTGTGATGTTTGTCCTGAACACTTTTGTTGTAAAAAAATAATAATAATAATGTTTAATATTGAGAAAGAAACTAATATTTTATGTGAGAGAAAGTGTGAGCAAACTAACTTGACTTTTAAGGCTAAAACTTAACATTCATAGAGGGGTGGAGTTTTAACTGTAAGGTGCTACAATGCCCCTGGATCTACCAGCATAAATATCTTCTGATTTGTCCCTATGCATATCAGTTGAGCTTCATATACCAGCAATATATCTGAAGAGCTATTATATAAAAACCCCAAACTGTTGATTATTAGCCAGGTAATGTGAATAAATTCTATAGGAACATATGAAAATACAACTTAAATAATAAACAGTGGAATATAAGGAAAGCAATAAATGAATGGGCTGAGCTGCCTGTAACTTGAGAGTAGATGGTTTGAGCCTGAGCAGAGACATGACTCAGCCTGTTCCATGAAGGCAGAGCCATGGACCACGCAGGAAGGGCCTACAGCCCATTTCTCCATACGCACTGGTATGTGTGGATGATGCTGCCAGGGCGCCATCGCCAAGTAAGAAAGTGAAGCAAATCAGAAACTTGTGAAGTGGAAATGTTCTAAAGGTGGTGAGGCAATAAAAATCATAGTACTCTTTGTAGCAAAATTCTTAAGTATGTTATTTTCTGTTGAAGTTTACAATCAAAGGAAAATAGTAATGTTTTATACTGTTTACTGAAAGAAAAAGACCTATGAGCACATAGGACTCTAGACGGCATCCAGCCGGAGGCCAGAGCTGAGCACTCAGCCCGGGAGGCAGGCTCCAGGCCTCAGCAGGTGCGGAGCCGTCACTGCACCAAGTCTCACTGGCTGTCAGTATGACATTTCACGGGAGATTTCTTGTTGCTCAAAAAATGAGCTCGCATTTGTCAATGACAGTTTCTTTTTTCTTACTAGACCTGTAACTTTTGTAAATACACACAGCATGTAATGGTATCTTAAAGTGTGTTTCTATGTGACAATTTTGTACAAATTTGTTATTTTCCATTTTTATTTCAAAATATACATTCAAACTTAAAATT</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Skeletal muscle</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Kidney</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Heart</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Liver</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Brain</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Spleen</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Lung</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Testis</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CASP3</Gene_Name>
+    <Gene_Alias>CPP32</Gene_Alias>
+    <Gene_ID>836</Gene_ID>
+    <Genbank_ACCN>NM_004346</Genbank_ACCN>
+    <Protein_ACCN>NP_004337</Protein_ACCN>
+    <HGNC_ID>1504</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/836</Gene_URL>
+    <UCSC_ID>uc003iwh.3</UCSC_ID>
+    <EMBL_ID>ENSG00000164305</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q9BYP7</Uniprot_ID>
+      <Gene_Name>WNK3</Gene_Name>
+      <EBI_ID>EBI-1182602</EBI_ID>
+      <PPI_EBI_URL>EBI-524064,EBI-1182602</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Fanconi Anemia, Complementation Group a</Disease_Name>
+      <Disease_Detail>Fanconi Syndrome</Disease_Detail>
+      <Disease_DB>FNC027</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/fanconi_anemia_complementation_group_a?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Thoracic Cancer</Disease_Name>
+      <Disease_Detail>Thoracic Cancer</Disease_Detail>
+      <Disease_DB>THR012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/thoracic_cancer?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myocardial Infarction</Disease_Name>
+      <Disease_Detail>Myocardial Infarction</Disease_Detail>
+      <Disease_DB>MYC007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myocardial_infarction?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Talipes Equinovarus</Disease_Name>
+      <Disease_Detail>Talipes Equinovarus</Disease_Detail>
+      <Disease_DB>TLP001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/talipes_equinovarus?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mediterranean Spotted Fever</Disease_Name>
+      <Disease_Detail>Mediterranean Spotted Fever</Disease_Detail>
+      <Disease_DB>MDT001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mediterranean_spotted_fever?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pneumococcal Meningitis</Disease_Name>
+      <Disease_Detail>Pneumococcal Meningitis</Disease_Detail>
+      <Disease_DB>PNM013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pneumococcal_meningitis?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lung Cancer</Disease_Name>
+      <Disease_Detail>Lung Cancer</Disease_Detail>
+      <Disease_DB>LNG032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lung_cancer?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Idiopathic Neutropenia</Disease_Name>
+      <Disease_Detail>Idiopathic Neutropenia</Disease_Detail>
+      <Disease_DB>IDP064</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/idiopathic_neutropenia?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Nervous System Cancer</Disease_Name>
+      <Disease_Detail>Nervous System Cancer</Disease_Detail>
+      <Disease_DB>NRV006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/nervous_system_cancer?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Kennedy's Disease</Disease_Name>
+      <Disease_Detail>Kennedy's Disease</Disease_Detail>
+      <Disease_DB>KNN001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/kennedys_disease?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Skin Squamous Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Skin Squamous Cell Carcinoma</Disease_Detail>
+      <Disease_DB>SKN022</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/skin_squamous_cell_carcinoma?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Diffuse Large B-Cell Lymphoma</Disease_Name>
+      <Disease_Detail>Diffuse Large B-Cell Lymphoma</Disease_Detail>
+      <Disease_DB>DFF005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/diffuse_large_b_cell_lymphoma?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Alexander Disease</Disease_Name>
+      <Disease_Detail>Alexander Disease</Disease_Detail>
+      <Disease_DB>ALX003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/alexander_disease?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Krabbe Disease</Disease_Name>
+      <Disease_Detail>Krabbe Disease</Disease_Detail>
+      <Disease_DB>KRB001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/krabbe_disease?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ischemia</Disease_Name>
+      <Disease_Detail>Ischemia</Disease_Detail>
+      <Disease_DB>ISC004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ischemia?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Corticobasal Degeneration</Disease_Name>
+      <Disease_Detail>Corticobasal Degeneration</Disease_Detail>
+      <Disease_DB>CRT033</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/corticobasal_degeneration?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cerebral Hypoxia</Disease_Name>
+      <Disease_Detail>Cerebral Hypoxia</Disease_Detail>
+      <Disease_DB>CRB090</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cerebral_hypoxia?search=CASP3#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>THE ROLE OF LOOP BUNDLE HYDROGEN BONDS IN THE MATURATION AND ACTIVITY OF (PRO)CASPASE-3</PDB_Title>
+      <PDB_ID>2J33</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J33</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Role of loop bundle hydrogen bonds in the maturation and activity of (Pro)caspase-3.</PubMed_Title>
+      <Author>Feeney B, et al.</Author>
+      <Journal>Biochemistry. 2006 Nov 7;45(44):13249-63.</Journal>
+      <PubMed_ID>17073446</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase-3 Binds Diverse P4 Residues in Peptides</PDB_Title>
+      <PDB_ID>3GJS</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GJS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Caspase-3 binds diverse P4 residues in peptides as revealed by crystallography and structural modeling.</PubMed_Title>
+      <Author>Fang B, et al.</Author>
+      <Journal>Apoptosis. 2009 May;14(5):741-52.</Journal>
+      <PubMed_ID>19283487</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase-3 Binds Diverse P4 Residues in Peptides</PDB_Title>
+      <PDB_ID>3GJT</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GJT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Caspase-3 binds diverse P4 residues in peptides as revealed by crystallography and structural modeling.</PubMed_Title>
+      <Author>Fang B, et al.</Author>
+      <Journal>Apoptosis. 2009 May;14(5):741-52.</Journal>
+      <PubMed_ID>19283487</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF CASPASE-3 IN COMPLEX WITH AZA-PEPTIDE EPOXIDE INHIBITORS.</PDB_Title>
+      <PDB_ID>2CNL</PDB_ID>
+      <Resolution>1.67</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CNL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Exploring the S4 and S1 prime subsite specificities in caspase-3 with aza-peptide epoxide inhibitors.</PubMed_Title>
+      <Author>Ganesan R, et al.</Author>
+      <Journal>Biochemistry. 2006 Aug 1;45(30):9059-67.</Journal>
+      <PubMed_ID>16866351</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal strusture of caspase-3 with inhibitor Ac-DMQD-Cho</PDB_Title>
+      <PDB_ID>2H5J</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H5J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and kinetic analysis of caspase-3 reveals role for s5 binding site in substrate recognition.</PubMed_Title>
+      <Author>Fang B, et al.</Author>
+      <Journal>J Mol Biol. 2006 Jul 14;360(3):654-66.</Journal>
+      <PubMed_ID>16781734</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE ROLE OF LOOP BUNDLE HYDROGEN BONDS IN THE MATURATION AND ACTIVITY OF (PRO)CASPASE-3</PDB_Title>
+      <PDB_ID>2J30</PDB_ID>
+      <Resolution>1.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J30</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Role of loop bundle hydrogen bonds in the maturation and activity of (Pro)caspase-3.</PubMed_Title>
+      <Author>Feeney B, et al.</Author>
+      <Journal>Biochemistry. 2006 Nov 7;45(44):13249-63.</Journal>
+      <PubMed_ID>17073446</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE ROLE OF LOOP BUNDLE HYDROGEN BONDS IN THE MATURATION AND ACTIVITY OF(PRO)CASPASE-3</PDB_Title>
+      <PDB_ID>2J31</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J31</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Role of loop bundle hydrogen bonds in the maturation and activity of (Pro)caspase-3.</PubMed_Title>
+      <Author>Feeney B, et al.</Author>
+      <Journal>Biochemistry. 2006 Nov 7;45(44):13249-63.</Journal>
+      <PubMed_ID>17073446</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structures of Caspase-3 with Bound Isoquinoline-1,3,4-trione Derivative Inhibitors</PDB_Title>
+      <PDB_ID>3DEK</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DEK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Isoquinoline-1,3,4-trione derivatives inactivate caspase-3 by generation of reactive oxygen species.</PubMed_Title>
+      <Author>Du JQ, et al.</Author>
+      <Journal>J Biol Chem. 2008 Oct 31;283(44):30205-15.</Journal>
+      <PubMed_ID>18768468</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE ROLE OF LOOP BUNDLE HYDROGEN BONDS IN THE MATURATION AND ACTIVITY OF(PRO)CASPASE-3</PDB_Title>
+      <PDB_ID>2J32</PDB_ID>
+      <Resolution>1.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J32</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Role of loop bundle hydrogen bonds in the maturation and activity of (Pro)caspase-3.</PubMed_Title>
+      <Author>Feeney B, et al.</Author>
+      <Journal>Biochemistry. 2006 Nov 7;45(44):13249-63.</Journal>
+      <PubMed_ID>17073446</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>EXTENDED SUBSTRATE RECOGNITION IN CASPASE-3 REVEALED BY HIGH RESOLUTION X-RAY STRUCTURE ANALYSIS</PDB_Title>
+      <PDB_ID>2CJX</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CJX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Extended substrate recognition in caspase-3 revealed by high resolution X-ray structure analysis.</PubMed_Title>
+      <Author>Ganesan R, et al.</Author>
+      <Journal>J Mol Biol. 2006 Jun 23;359(5):1378-88.</Journal>
+      <PubMed_ID>16787777</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF CASPASE-3 IN COMPLEX WITH AZA-PEPTIDE EPOXIDE INHIBITORS.</PDB_Title>
+      <PDB_ID>2CNK</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CNK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Exploring the S4 and S1 prime subsite specificities in caspase-3 with aza-peptide epoxide inhibitors.</PubMed_Title>
+      <Author>Ganesan R, et al.</Author>
+      <Journal>Biochemistry. 2006 Aug 1;45(30):9059-67.</Journal>
+      <PubMed_ID>16866351</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structures of Caspase-3 with Bound Isoquinoline-1,3,4-trione Derivative Inhibitors</PDB_Title>
+      <PDB_ID>3DEJ</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DEJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Isoquinoline-1,3,4-trione derivatives inactivate caspase-3 by generation of reactive oxygen species.</PubMed_Title>
+      <Author>Du JQ, et al.</Author>
+      <Journal>J Biol Chem. 2008 Oct 31;283(44):30205-15.</Journal>
+      <PubMed_ID>18768468</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase-3 Binds Diverse P4 Residues in Peptides</PDB_Title>
+      <PDB_ID>3GJQ</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GJQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Caspase-3 binds diverse P4 residues in peptides as revealed by crystallography and structural modeling.</PubMed_Title>
+      <Author>Fang B, et al.</Author>
+      <Journal>Apoptosis. 2009 May;14(5):741-52.</Journal>
+      <PubMed_ID>19283487</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF APOPAIN WITH THE TETRAPEPTIDE ALDEHYDE INHIBITOR AC-DEVD-CHO</PDB_Title>
+      <PDB_ID>1PAU</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PAU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The three-dimensional structure of apopain/CPP32, a key mediator of apoptosis.</PubMed_Title>
+      <Author>Rotonda J, et al.</Author>
+      <Journal>Nat Struct Biol. 1996 Jul;3(7):619-25.</Journal>
+      <PubMed_ID>8673606</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF CASPASE-3 WITH A 5,6,7 TRICYCLIC PEPTIDOMIMETIC INHIBITOR</PDB_Title>
+      <PDB_ID>1RHU</PDB_ID>
+      <Resolution>2.51</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RHU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Reducing the peptidyl features of caspase-3 inhibitors: a structural analysis.</PubMed_Title>
+      <Author>Becker JW, et al.</Author>
+      <Journal>J Med Chem. 2004 May 6;47(10):2466-74.</Journal>
+      <PubMed_ID>15115390</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF CASPASE-3 WITH A PHENYL-PROPYL-KETONE INHIBITOR</PDB_Title>
+      <PDB_ID>1RHK</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RHK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Reducing the peptidyl features of caspase-3 inhibitors: a structural analysis.</PubMed_Title>
+      <Author>Becker JW, et al.</Author>
+      <Journal>J Med Chem. 2004 May 6;47(10):2466-74.</Journal>
+      <PubMed_ID>15115390</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of caspase-3 with inhibitor Ac-DEVD-Cho</PDB_Title>
+      <PDB_ID>2H5I</PDB_ID>
+      <Resolution>1.69</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H5I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and kinetic analysis of caspase-3 reveals role for s5 binding site in substrate recognition.</PubMed_Title>
+      <Author>Fang B, et al.</Author>
+      <Journal>J Mol Biol. 2006 Jul 14;360(3):654-66.</Journal>
+      <PubMed_ID>16781734</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Extendend Tethering: In Situ Assembly of Inhibitors</PDB_Title>
+      <PDB_ID>1NMQ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NMQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>In situ assembly of enzyme inhibitors using extended tethering.</PubMed_Title>
+      <Author>Erlanson DA, et al.</Author>
+      <Journal>Nat Biotechnol. 2003 Mar;21(3):308-14.</Journal>
+      <PubMed_ID>12563278</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Conformational restrictions in the active site of unliganded human caspase-3</PDB_Title>
+      <PDB_ID>1QX3</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QX3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational restrictions in the active site of unliganded human caspase-3.</PubMed_Title>
+      <Author>Ni CZ, et al.</Author>
+      <Journal>J Mol Recognit. 2003 May-Jun;16(3):121-4.</Journal>
+      <PubMed_ID>12833566</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF CASPASE-3 IN COMPLEX WITH AZA-PEPTIDE MICHAEL ACCEPTOR INHIBITORS.</PDB_Title>
+      <PDB_ID>2C1E</PDB_ID>
+      <Resolution>1.77</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C1E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Design, synthesis, and evaluation of aza-peptide Michael acceptors as selective and potent inhibitors of caspases-2, -3, -6, -7, -8, -9, and -10.</PubMed_Title>
+      <Author>Ekici OD, et al.</Author>
+      <Journal>J Med Chem. 2006 Sep 21;49(19):5728-49.</Journal>
+      <PubMed_ID>16970398</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>EXTENDED SUBSTRATE RECOGNITION IN CASPASE-3 REVEALED BY HIGH RESOLUTION X-RAY STRUCTURE ANALYSIS</PDB_Title>
+      <PDB_ID>2CJY</PDB_ID>
+      <Resolution>1.67</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CJY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Extended substrate recognition in caspase-3 revealed by high resolution X-ray structure analysis.</PubMed_Title>
+      <Author>Ganesan R, et al.</Author>
+      <Journal>J Mol Biol. 2006 Jun 23;359(5):1378-88.</Journal>
+      <PubMed_ID>16787777</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF CASPASE-3 IN COMPLEX WITH AZA-PEPTIDE EPOXIDE INHIBITORS.</PDB_Title>
+      <PDB_ID>2CDR</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CDR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Exploring the S4 and S1 prime subsite specificities in caspase-3 with aza-peptide epoxide inhibitors.</PubMed_Title>
+      <Author>Ganesan R, et al.</Author>
+      <Journal>Biochemistry. 2006 Aug 1;45(30):9059-67.</Journal>
+      <PubMed_ID>16866351</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CASPASE-3 WITH A NICOTINIC ACID ALDEHYDE INHIBITOR</PDB_Title>
+      <PDB_ID>1RE1</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RE1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Reducing the peptidyl features of caspase-3 inhibitors: a structural analysis.</PubMed_Title>
+      <Author>Becker JW, et al.</Author>
+      <Journal>J Med Chem. 2004 May 6;47(10):2466-74.</Journal>
+      <PubMed_ID>15115390</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase 3 Bound to a covalent inhibitor</PDB_Title>
+      <PDB_ID>3KJF</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KJF</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00530003</ASD_Ligand>
+      <PubMed_Title>Kinetic and structural characterization of caspase-3 and caspase-8 inhibition by a novel class of irreversible inhibitors.</PubMed_Title>
+      <Author>Wang, Z., et al.</Author>
+      <Journal>Biochim.Biophys.Acta(2010)1804:1817-1831</Journal>
+      <PubMed_ID>20580860</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structures of Caspase-3 with Bound Isoquinoline-1,3,4-trione Derivative Inhibitors</PDB_Title>
+      <PDB_ID>3DEI</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DEI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Isoquinoline-1,3,4-trione derivatives inactivate caspase-3 by generation of reactive oxygen species.</PubMed_Title>
+      <Author>Du JQ, et al.</Author>
+      <Journal>J Biol Chem. 2008 Oct 31;283(44):30205-15.</Journal>
+      <PubMed_ID>18768468</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of Casp-3 with tethered salicylate</PDB_Title>
+      <PDB_ID>1NME</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NME</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>In situ assembly of enzyme inhibitors using extended tethering.</PubMed_Title>
+      <Author>Erlanson DA, et al.</Author>
+      <Journal>Nat Biotechnol. 2003 Mar;21(3):308-14.</Journal>
+      <PubMed_ID>12563278</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structures of Caspase-3 with Bound Isoquinoline-1,3,4-trione Derivative Inhibitors</PDB_Title>
+      <PDB_ID>3DEH</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DEH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Isoquinoline-1,3,4-trione derivatives inactivate caspase-3 by generation of reactive oxygen species.</PubMed_Title>
+      <Author>Du JQ, et al.</Author>
+      <Journal>J Biol Chem. 2008 Oct 31;283(44):30205-15.</Journal>
+      <PubMed_ID>18768468</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Caspase-3 with inhibitor AC-LDESD-CHO</PDB_Title>
+      <PDB_ID>3EDQ</PDB_ID>
+      <Resolution>1.61</Resolution>
+      <PDB_URL>http://www.ncbi.nlm.nih.gov/pubmed/18780184</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for executioner caspase recognition of P5 position in substrates.</PubMed_Title>
+      <Author>Fu G, et al.</Author>
+      <Journal>Apoptosis. 2008 Nov;13(11):1291-302.</Journal>
+      <PubMed_ID>18780184</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF CASPASE-3 WITH A BROMOMETHOXYPHENYL INHIBITOR</PDB_Title>
+      <PDB_ID>1RHQ</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RHQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Reducing the peptidyl features of caspase-3 inhibitors: a structural analysis.</PubMed_Title>
+      <Author>Becker JW, et al.</Author>
+      <Journal>J Med Chem. 2004 May 6;47(10):2466-74.</Journal>
+      <PubMed_ID>15115390</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase-3 tethered to irreversible inhibitor</PDB_Title>
+      <PDB_ID>1NMS</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NMS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>In situ assembly of enzyme inhibitors using extended tethering.</PubMed_Title>
+      <Author>Erlanson DA, et al.</Author>
+      <Journal>Nat Biotechnol. 2003 Mar;21(3):308-14.</Journal>
+      <PubMed_ID>12563278</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF CASPASE-3 WITH A CINNAMIC ACID METHYL ESTER INHIBITOR</PDB_Title>
+      <PDB_ID>1RHR</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RHR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Reducing the peptidyl features of caspase-3 inhibitors: a structural analysis.</PubMed_Title>
+      <Author>Becker JW, et al.</Author>
+      <Journal>J Med Chem. 2004 May 6;47(10):2466-74.</Journal>
+      <PubMed_ID>15115390</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF APOPAIN WITH THE TETRAPEPTIDE INHIBITOR ACE-DVAD-FMC</PDB_Title>
+      <PDB_ID>1CP3</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CP3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of recombinant human CPP32 in complex with the tetrapeptide acetyl-Asp-Val-Ala-Asp fluoromethyl ketone.</PubMed_Title>
+      <Author>Mittl PR, et al.</Author>
+      <Journal>J Biol Chem. 1997 Mar 7;272(10):6539-47.</Journal>
+      <PubMed_ID>9045680</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Caspase-3 Binds Diverse P4 Residues in Peptides</PDB_Title>
+      <PDB_ID>3GJR</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GJR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Caspase-3 binds diverse P4 residues in peptides as revealed by crystallography and structural modeling.</PubMed_Title>
+      <Author>Fang B, et al.</Author>
+      <Journal>Apoptosis. 2009 May;14(5):741-52.</Journal>
+      <PubMed_ID>19283487</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF CASPASE-3 IN COMPLEX WITH AZA-PEPTIDE MICHAEL ACCEPTOR INHIBITORS.</PDB_Title>
+      <PDB_ID>2C2K</PDB_ID>
+      <Resolution>1.87</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C2K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Design, synthesis, and evaluation of aza-peptide Michael acceptors as selective and potent inhibitors of caspases-2, -3, -6, -7, -8, -9, and -10.</PubMed_Title>
+      <Author>Ekici OD, et al.</Author>
+      <Journal>J Med Chem. 2006 Sep 21;49(19):5728-49.</Journal>
+      <PubMed_ID>16970398</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF CASPASE-3 IN COMPLEX WITH AZA-PEPTIDE EPOXIDE INHIBITORS.</PDB_Title>
+      <PDB_ID>2CNO</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CNO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Exploring the S4 and S1 prime subsite specificities in caspase-3 with aza-peptide epoxide inhibitors.</PubMed_Title>
+      <Author>Ganesan R, et al.</Author>
+      <Journal>Biochemistry. 2006 Aug 1;45(30):9059-67.</Journal>
+      <PubMed_ID>16866351</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal strusture of caspase-3 with inhibitor Ac-VDVAD-Cho</PDB_Title>
+      <PDB_ID>2H65</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H65</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and kinetic analysis of caspase-3 reveals role for s5 binding site in substrate recognition.</PubMed_Title>
+      <Author>Fang B, et al.</Author>
+      <Journal>J Mol Biol. 2006 Jul 14;360(3):654-66.</Journal>
+      <PubMed_ID>16781734</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF CASPASE-3 WITH A PRYAZINONE INHIBITOR</PDB_Title>
+      <PDB_ID>1RHJ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RHJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Reducing the peptidyl features of caspase-3 inhibitors: a structural analysis.</PubMed_Title>
+      <Author>Becker JW, et al.</Author>
+      <Journal>J Med Chem. 2004 May 6;47(10):2466-74.</Journal>
+      <PubMed_ID>15115390</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Extended substrate recognition in caspase-3 revealed by high resolution X-ray structure analysis</PDB_Title>
+      <PDB_ID>2DKO</PDB_ID>
+      <Resolution>1.06</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2DKO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Extended substrate recognition in caspase-3 revealed by high resolution X-ray structure analysis.</PubMed_Title>
+      <Author>Ganesan R, et al.</Author>
+      <Journal>J Mol Biol. 2006 Jun 23;359(5):1378-88.</Journal>
+      <PubMed_ID>16787777</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE 2.8 ANGSTROM CRYSTAL STRUCTURE OF CASPASE-3 (APOPAIN OR CPP32)IN COMPLEX WITH AN ISATIN SULFONAMIDE INHIBITOR.</PDB_Title>
+      <PDB_ID>1GFW</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GFW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Potent and selective nonpeptide inhibitors of caspases 3 and 7 inhibit apoptosis and maintain cell functionality.</PubMed_Title>
+      <Author>Lee D, et al.</Author>
+      <Journal>J Biol Chem. 2000 May 26;275(21):16007-14.</Journal>
+      <PubMed_ID>10821855</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF CASPASE-3 IN COMPLEX WITH AZA-PEPTIDE MICHAEL ACCEPTOR INHIBITORS.</PDB_Title>
+      <PDB_ID>2C2O</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C2O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Design, synthesis, and evaluation of aza-peptide Michael acceptors as selective and potent inhibitors of caspases-2, -3, -6, -7, -8, -9, and -10.</PubMed_Title>
+      <Author>Ekici OD, et al.</Author>
+      <Journal>J Med Chem. 2006 Sep 21;49(19):5728-49.</Journal>
+      <PubMed_ID>16970398</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Pseudo-activated Procaspase-3</PDB_Title>
+      <PDB_ID>3ITN</PDB_ID>
+      <Resolution>1.63</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ITN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A constitutively active and uninhibitable caspase-3 zymogen efficiently induces apoptosis.</PubMed_Title>
+      <Author>Walters J, et al.</Author>
+      <Journal>Biochem J. 2009 Dec 10;424(3):335-45.</Journal>
+      <PubMed_ID>19788411</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF XIAP-BIR2 AND CASPASE 3</PDB_Title>
+      <PDB_ID>1I3O</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I3O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the inhibition of caspase-3 by XIAP.</PubMed_Title>
+      <Author>Riedl SJ, et al.</Author>
+      <Journal>Cell. 2001 Mar 9;104(5):791-800.</Journal>
+      <PubMed_ID>11257232</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>3,4-Dihydropyrimido(1,2-a)indol-10(2H)-ones as Potent Non-Peptidic Inhibitors of Caspase-3</PDB_Title>
+      <PDB_ID>3H0E</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3H0E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>3,4-Dihydropyrimido(1,2-a)indol-10(2H)-ones as potent non-peptidic inhibitors of caspase-3.</PubMed_Title>
+      <Author>Havran LM, et al.</Author>
+      <Journal>Bioorg Med Chem. 2009 Nov 15;17(22):7755-68.</Journal>
+      <PubMed_ID>19836248</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF CASPASE-3 IN COMPLEX WITH AZA-PEPTIDE EPOXIDE INHIBITORS.</PDB_Title>
+      <PDB_ID>2CNN</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CNN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Exploring the S4 and S1 prime subsite specificities in caspase-3 with aza-peptide epoxide inhibitors.</PubMed_Title>
+      <Author>Ganesan R, et al.</Author>
+      <Journal>Biochemistry. 2006 Aug 1;45(30):9059-67.</Journal>
+      <PubMed_ID>16866351</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF CASPASE-3 WITH A NICOTINIC ACID ALDEHYDE INHIBITOR</PDB_Title>
+      <PDB_ID>1RHM</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RHM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Reducing the peptidyl features of caspase-3 inhibitors: a structural analysis.</PubMed_Title>
+      <Author>Becker JW, et al.</Author>
+      <Journal>J Med Chem. 2004 May 6;47(10):2466-74.</Journal>
+      <PubMed_ID>15115390</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF CASPASE-3 IN COMPLEX WITH AZA-PEPTIDE MICHAEL ACCEPTOR INHIBITORS.</PDB_Title>
+      <PDB_ID>2C2M</PDB_ID>
+      <Resolution>1.94</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C2M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Design, synthesis, and evaluation of aza-peptide Michael acceptors as selective and potent inhibitors of caspases-2, -3, -6, -7, -8, -9, and -10.</PubMed_Title>
+      <Author>Ekici OD, et al.</Author>
+      <Journal>J Med Chem. 2006 Sep 21;49(19):5728-49.</Journal>
+      <PubMed_ID>16970398</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05014</Pathway_ID>
+      <Pathway_Title>Amyotrophic lateral sclerosis (ALS)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04010</Pathway_ID>
+      <Pathway_Title>MAPK signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05010</Pathway_ID>
+      <Pathway_Title>Alzheimer's disease</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04650</Pathway_ID>
+      <Pathway_Title>Natural killer cell mediated cytotoxicity</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05161</Pathway_ID>
+      <Pathway_Title>Hepatitis B</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05010</Pathway_ID>
+      <Pathway_Title>Alzheimer's disease</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05203</Pathway_ID>
+      <Pathway_Title>Viral carcinogenesis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05203</Pathway_ID>
+      <Pathway_Title>Viral carcinogenesis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05133</Pathway_ID>
+      <Pathway_Title>Pertussis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05134</Pathway_ID>
+      <Pathway_Title>Legionellosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04210</Pathway_ID>
+      <Pathway_Title>Apoptosis</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05168</Pathway_ID>
+      <Pathway_Title>Herpes simplex infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05016</Pathway_ID>
+      <Pathway_Title>Huntington's disease</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05416</Pathway_ID>
+      <Pathway_Title>Viral myocarditis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cardiovascular diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05012</Pathway_ID>
+      <Pathway_Title>Parkinson's disease</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04668</Pathway_ID>
+      <Pathway_Title>TNF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05120</Pathway_ID>
+      <Pathway_Title>Epithelial cell signaling in Helicobacter pylori infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05210</Pathway_ID>
+      <Pathway_Title>Colorectal cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04932</Pathway_ID>
+      <Pathway_Title>Non-alcoholic fatty liver disease (NAFLD)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Endocrine and metabolic diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04726</Pathway_ID>
+      <Pathway_Title>Serotonergic synapse</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05016</Pathway_ID>
+      <Pathway_Title>Huntington's disease</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05152</Pathway_ID>
+      <Pathway_Title>Tuberculosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04115</Pathway_ID>
+      <Pathway_Title>p53 signaling pathway</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05210</Pathway_ID>
+      <Pathway_Title>Colorectal cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05206</Pathway_ID>
+      <Pathway_Title>MicroRNAs in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04210</Pathway_ID>
+      <Pathway_Title>Apoptosis</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05145</Pathway_ID>
+      <Pathway_Title>Toxoplasmosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05205</Pathway_ID>
+      <Pathway_Title>Proteoglycans in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.id.b.b.b.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2cnk</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.22.56</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/22/56.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00520001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00530001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00530002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00530003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00530006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00530008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00530009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04390011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

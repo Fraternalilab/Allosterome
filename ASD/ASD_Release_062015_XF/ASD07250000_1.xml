@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07250000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A9J8</UniProt_ID>
+  <Seq_Length>386</Seq_Length>
+  <Molecule_Weight>43111</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p2547</KEGG_ID>
+  <Orthology_ID>K14170</Orthology_ID>
+  <EBI_ID>EBI-556114</EBI_ID>
+  <Function_Summary>Catalyzes the Claisen rearrangement of chorismate to prephenate and the decarboxylation/dehydration of prephenate to phenylpyruvate.</Function_Summary>
+  <Catalytic_Mechanism>Chorismate = prephenate.@@Prephenate = phenylpyruvate + H(2)O + CO(2).</Catalytic_Mechanism>
+  <Pfam_ID>PF01817:CM_2@@PF00800:PDT</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>PDT</Alias>
+      <Alias>CM</Alias>
+      <Alias>Chorismate mutase</Alias>
+      <Alias>Prephenate dehydratase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: chorismate = prephenate.</Detail>
+      <Keyword>Chorismate mutase activity</Keyword>
+      <Ontology_ID>GO:0004106</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: prephenate = phenylpyruvate + H2O + CO2.</Detail>
+      <Keyword>Prephenate dehydratase activity</Keyword>
+      <Ontology_ID>GO:0004664</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the geometric or structural changes within one molecule. Isomerase is the systematic name for any enzyme of EC class 5.</Detail>
+      <Keyword>Isomerase activity</Keyword>
+      <Ontology_ID>GO:0016853</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of L-phenylalanine, the L-enantiomer of 2-amino-3-phenylpropanoic acid, i.e. (2S)-2-amino-3-phenylpropanoic acid.</Detail>
+      <Keyword>L-phenylalanine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009094</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of aromatic amino acid family, amino acids with aromatic ring (phenylalanine, tyrosine, tryptophan).</Detail>
+      <Keyword>Aromatic amino acid family biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009073</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of tyrosine, an aromatic amino acid, 2-amino-3-(4-hydroxyphenyl)propanoic acid.</Detail>
+      <Keyword>Tyrosine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006571</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTSENPLLALREKISALDEKLLALLAERRELAVEVGKAKLLSHRPVRDIDRERDLLERLITLGKAHHLDAHYITRLFQLIIEDSVLTQQALLQQHLNKINPHSARIAFLGPKGSYSHLAARQYAARHFEQFIESGCAKFADIFNQVETGQADYAVVPIENTSSGAINDVYDLLQHTSLSIVGEMTLTIDHCLLVSGTTDLSTINTVYSHPQPFQQCSKFLNRYPHWKIEYTESTSAAMEKVAQAKSPHVAALGSEAGGTLYGLQVLERIEANQRQNFTRFVVLARKAINVSDQVPAKTTLLMATGQQAGALVEALLVLRNHNLIMTRLESRPIHGNPWEEMFYLDIQANLESAEMQKALKELGEITRSMKVLGCYPSENVVPVDPT</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>pheA</Gene_Name>
+    <Gene_ID>12934467</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_417090</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947081</Gene_URL>
+    <EMBL_ID>EBESCG00000014499</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P77218</Uniprot_ID>
+      <Gene_Name>eutD</Gene_Name>
+      <EBI_ID>EBI-1128886</EBI_ID>
+      <PPI_EBI_URL>EBI-556114,EBI-1128886</PPI_EBI_URL>
+      <Experiment_Number>1</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>ATOMIC STRUCTURE OF THE BURIED CATALYTIC POCKET OF ESCHERICHIA COLI CHORISMATE MUTASE</PDB_Title>
+      <PDB_ID>1ECM</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ECM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>ATOMIC-STRUCTURE OF THE BURIED CATALYTIC POCKET OF ESCHERICHIA-COLI CHORISMATE MUTASE.</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>All alpha proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.b.cfh.b.b.b.html</SCOP_URL>
+    <CATH_Class>Class 1: Mainly Alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1ecm</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>5.4.99.5</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC5/4/99/5.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 4.2.1.51</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 4/2/1/51.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00690002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

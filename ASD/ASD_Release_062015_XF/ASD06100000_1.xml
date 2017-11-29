@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06100000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P62837</UniProt_ID>
+  <Seq_Length>147</Seq_Length>
+  <Molecule_Weight>16735</Molecule_Weight>
+  <KEGG_ID>hsa:7322</KEGG_ID>
+  <Orthology_ID>K06689</Orthology_ID>
+  <EBI_ID>EBI-347677</EBI_ID>
+  <Function_Summary>Accepts ubiquitin from the E1 complex and catalyzes its covalent attachment to other proteins. In vitro catalyzes 'Lys-48'-linked polyubiquitination. Mediates the selective degradation of short-lived and abnormal proteins. Functions in the E6/E6-AP-induced ubiquitination of p53/TP53. Mediates ubiquitination of PEX5 and autoubiquitination of STUB1 and TRAF6. Involved in the signal-induced conjugation and subsequent degradation of NFKBIA, FBXW2-mediated GCM1 ubiquitination and degradation, MDM2-dependent degradation of p53/TP53 and the activation of MAVS in the mitochondria by DDX58/RIG-I in response to viral infection. Essential for viral activation of IRF3.</Function_Summary>
+  <Catalytic_Mechanism>ATP + ubiquitin + protein lysine = AMP + diphosphate + protein N-ubiquityllysine.</Catalytic_Mechanism>
+  <Pfam_ID>PF00179:UQ_con</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Ubiquitin-protein ligase D2</Alias>
+      <Alias>Ubiquitin carrier protein D2</Alias>
+      <Alias>Ubiquitin-conjugating enzyme E2-17 kDa 2</Alias>
+      <Alias>Ubiquitin-conjugating enzyme E2(17)KB 2</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + ubiquitin + protein lysine = AMP + diphosphate + protein N-ubiquityllysine.</Detail>
+      <Keyword>Ubiquitin-protein ligase activity</Keyword>
+      <Ontology_ID>GO:0004842</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A protein ubiquitination process in which a polymer of ubiquitin, formed by linkages between lysine residues at position 48 of the ubiquitin monomers, is added to a protein. K48-linked ubiquitination targets the substrate protein for degradation.</Detail>
+      <Keyword>Protein K48-linked ubiquitination</Keyword>
+      <Ontology_ID>GO:0070936</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Protein involved in ubiquitin-like modifier processing, activation, conjugation or deconjugation such as Ubl-activating enzymes (E1s), Ubl-conjugating enzymes (E2s), Ubl-protein ligases (E3s), some thiol proteases (Ubiquitin carboxyl-terminal hydrolases (UCH), Ubiquitin-specific processing proteases (UBP) and ubiquitin-like proteases) and the ubiquitin-like modifier proteins. Besides signaling proteolysis, ubiquitination for example can be a signal for trafficking, kinase activation and other nonproteolytic fates.</Detail>
+      <Keyword>Ubl conjugation pathway</Keyword>
+      <Ontology_ID>KW-0833</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds, initiated by the covalent attachment of a ubiquitin group, or multiple ubiquitin groups, to the protein.</Detail>
+      <Keyword>Ubiquitin-dependent protein catabolic process</Keyword>
+      <Ontology_ID>GO:0006511</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>8</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MALKRIHKELNDLARDPPAQCSAGPVGDDMFHWQATIMGPNDSPYQGGVFFLTIHFPTDYPFKPPKVAFTTRIYHPNINSNGSICLDILRSQWSPALTISKVLLSICSLLCDPNPDDPLVPEIARIYKTDREKYNRIAREWTQKYAM</Protein_Seq>
+    <DNA_Seq>GCTTCGCAGCGTCACGCCCTCCGGGGCCGTGGCGGCGACGGCGGTGCGTAGCTTACTCACAGGGGCGGCCCGTATCCCTCCGCCGCCGGCGCGGCTCGGCCCTCCCTCCCCTGGCCCGCCAATCCCCGCGCCTCCCGACCTGCCCCTCGGTCGGGCCCACCCCGTGCTCCGACGGCCCCACCCCGGCGGCGCAGCCCGCCCGCCCGCGCGTCCCTCGGTCCACCTGCAGCAGGGAGGAAGACAGGCAATCCCTCCGGCTGTCCGACCAAGAGAGGCCGGCCGAGCCCGAGGCTTGGGCTTTTGCTTTCTGGCGGAGGGATCTGCGGCGGTTTAGGAGGCGGCGCTGATCCTGGGAGGAAGAGGCAGCTACGGCGGCGGCGGCGGTGGCGGCTAGGGCGGCGGCGAATAAAGGGGCCGCCGCCGGGTGATGCGGTGACCGCTGCGGCAGGCCCAGGAGCTGAGTGGGCCCCGGCCCTCAGCCCGTCCCGCCGGACCCGCTTTCCTCAACTCTCCATCTTCTCCTGCCGACCGAGATCGCCGAGGCGGCCTCAGGCTCCCTAGCCCCTTCCCCGTCCCTTCCCCGCCCCCGTCCCCGCCCCGGGGGCCGCCGCCACCCGCCTCCCACCATGGCTCTGAAGAGAATCCACAAGGAATTGAATGATCTGGCACGGGACCCTCCAGCACAGTGTTCAGCAGGTCCTGTTGGAGATGATATGTTCCATTGGCAAGCTACAATAATGGGGCCAAATGACAGTCCCTATCAGGGTGGAGTATTTTTCTTGACAATTCATTTCCCAACAGATTACCCCTTCAAACCACCTAAGGTTGCATTTACAACAAGAATTTATCATCCAAATATTAACAGTAATGGCAGCATTTGTCTTGATATTCTACGATCACAGTGGTCTCCAGCACTAACTATTTCAAAAGTACTCTTGTCCATCTGTTCTCTGTTGTGTGATCCCAATCCAGATGATCCTTTAGTGCCTGAGATTGCTCGGATCTACAAAACAGATAGAGAAAAGTACAACAGAATAGCTCGGGAATGGACTCAGAAGTATGCGATGTAATTAAAGAAATTATTGGATAACCTCTACAAATAAAGATAGGGGAACTCTGAAAGAGAAAGTCCTTTTGATTTCCATTTGACTGCTTTCTATGAGCCCACGCCTCATCTTCCCCTGTGCACATGTTTACCTGATACAGCAGTGCTGCGTGTTGTACATACTTGGAACAACAAACTAGAAATACTGTACTTCTGTACCAACATTGCCTCCTAGCAGAGAAGTGTGTGTGTGACAAGCCAGTTCTACAGGCATTACCTAGGTGTGAGACTAAAAGCTTTTCTTATTGACTTAAATTTGGATAACAGCAAGGTGTGAGGGGGGTGGTGGGTATGGTGTGTGCTTGGATGGGAAAGAAAAGGCTCCACTCACCTATAGGAGATTATTTTTAAGTGGAATCCATTTAAACTCAAAACAGTTATGAAAAGCAAGGTGAAGAACATGAAGCTGTGTCTGTATTCATTTTATTCCGAAGGAGCTACGTCTTAGGTGAAAGTTATGACCAACCAGATTAAACTCTACCCACATCCTGCATTTTAAGGTCTAAGTTTAACTGGTCAACATTTAAATGGATTGGAGCTATTAGTACATCAAGTGTGATGGGCTTTGTTCCCAACTCTTTTACATCTCCCTACCCCTTCAACCTTTGGCCTTTCAGCCCTTCTTTCTCTCTTCCATATTCTTTGGTTTGTATGTGGTTTCTCAGTTAATACATAGCTAATAGCTCTTATTTTTCTTATGTTTTTAACCGCTTAGGTCTATTTGGATGTAAGGGTGAAAATTCATTTGATGGAAATACTTGTGTATATTTAAAGACCCAATTGCTCCTCTGGAGCTTGTACTTTCAAGAATGATTAATCTGTGTAATAAACTGGTTACTACAGTCATTACATATAATTTTGTGTGAATAGGCTTTTTCATTTTTAAGAAGTTTGTCTAGCTGAGATTAGTGGTGGATTTTCTCCCACTTCTGAAATGTTCATTTATACTGGTTGCATTTTAAGATCATGAAACAATTCCAGTTACATTGTAAAAAGGATATCTTACGAGTAATTTTATTGAACAAGTTAGAGGCATAAGCTTAAGAGCATTTCCATGAAACAACACATGCAGCATTCCAGGAACTTGATTGTTAAATTCAATAAGAAATTTGCTTTATTAATGAAACTAAGCTGCATTTCATCAAAACCTTGTGACATTCCCTTGGTACATAGGACATAAAACACAGAGGCATTGCTATTTGGTAAGTTAAGCTTCTGTGATTGTAATTATAAAAGAGCAACATTGACCAAACCTGGGAAACAAGAGCACAGTCTTGTTTGGAGAGTCTACATAATTACTTTGCACTAACATTTGCAGGATGTTCACACAATTTTAAATTGTACTGTATGTGGCTTTTTGAAGTCTTCCCTTGACCCTAGTAAAATATAGCTTGAAACTTGTAAACAACTGTGTTTGCCAGAAACATCATTCATGTGAACTAGGCAAGTTACCTTTTTTCCCCCCTTCTTTTCCTAATTGTAAACTAGGCCAACCTGAAAGCCATGGCTGATGCTCTAGCCATCAGGTTCTTTCAAATGCATCTTTACACTCTTGCACAAAAGTTAAGGAATAAATGTCCACTGCTTTTGGTTTTAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>UBE2D2</Gene_Name>
+    <Gene_Alias>UBC4; UBC5B; UBCH4; UBCH5B</Gene_Alias>
+    <Gene_ID>7322</Gene_ID>
+    <Genbank_ACCN>NM_003339</Genbank_ACCN>
+    <Protein_ACCN>NP_003330</Protein_ACCN>
+    <HGNC_ID>12475</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/7322</Gene_URL>
+    <UCSC_ID>uc003leq.3</UCSC_ID>
+    <EMBL_ID>ENSG00000131508</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q96FW1</Uniprot_ID>
+      <Gene_Name>OTUB1</Gene_Name>
+      <EBI_ID>EBI-1058491</EBI_ID>
+      <PPI_EBI_URL>EBI-347677,EBI-1058491</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O15151</Uniprot_ID>
+      <Gene_Name>MDM4</Gene_Name>
+      <EBI_ID>EBI-398437</EBI_ID>
+      <PPI_EBI_URL>EBI-347677,EBI-398437</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q99942</Uniprot_ID>
+      <Gene_Name>RNF5</Gene_Name>
+      <EBI_ID>EBI-348482</EBI_ID>
+      <PPI_EBI_URL>EBI-347677,EBI-348482</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q8ND25</Uniprot_ID>
+      <Gene_Name>ZNRF1</Gene_Name>
+      <EBI_ID>EBI-2129250</EBI_ID>
+      <PPI_EBI_URL>EBI-347677,EBI-2129250</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q68DV7</Uniprot_ID>
+      <Gene_Name>RNF43</Gene_Name>
+      <EBI_ID>EBI-1647060</EBI_ID>
+      <PPI_EBI_URL>EBI-347677,EBI-1647060</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P98170</Uniprot_ID>
+      <Gene_Name>XIAP</Gene_Name>
+      <EBI_ID>EBI-517127</EBI_ID>
+      <PPI_EBI_URL>EBI-347677,EBI-517127</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y3C5</Uniprot_ID>
+      <Gene_Name>RNF11</Gene_Name>
+      <EBI_ID>EBI-396669</EBI_ID>
+      <PPI_EBI_URL>EBI-347677,EBI-396669</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y4K3</Uniprot_ID>
+      <Gene_Name>TRAF6</Gene_Name>
+      <EBI_ID>EBI-359276</EBI_ID>
+      <PPI_EBI_URL>EBI-347677,EBI-359276</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>NMR BASED STRUCTURAL MODEL OF THE UBCH5B-CNOT4 COMPLEX</PDB_Title>
+      <PDB_ID>1UR6</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UR6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Model of the Ubch5B/Cnot4 Complex Revealed by Combining NMR, Mutagenesis, and Docking Approaches</PubMed_Title>
+      <Author>Dominguez, C., et al.</Author>
+      <Journal>Structure(2004)12:633</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15062086?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human OTUB1/UbcH5b~Ub/Ub</PDB_Title>
+      <PDB_ID>4DDG</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4DDG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>OTUB1 Co-opts Lys48-Linked Ubiquitin Recognition to Suppress E2 Enzyme Function.</PubMed_Title>
+      <Author>Juang, Y.C., et al.</Author>
+      <Journal>Mol.Cell(2012)45:384-397</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22325355?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human UBC4 E2 conjugating enzyme</PDB_Title>
+      <PDB_ID>3L1Y</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3L1Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular Basis for the Association of Human E4B U Box Ubiquitin Ligase with E2-Conjugating Enzymes UbcH5c and Ubc4.</PubMed_Title>
+      <Author>Benirschke, R.C., et al.</Author>
+      <Journal>Structure(2010)18:955-965</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20696396?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>UbcH5b~Ubiquitin Conjugate</PDB_Title>
+      <PDB_ID>3A33</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3A33</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of UbcH5b~Ubiquitin Intermediate: Insight into the Formation of the Self-Assembled E2~Ub Conjugates</PubMed_Title>
+      <Author>Sakata, E., et al.</Author>
+      <Journal>Structure(2010)18:138-147</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20152160?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>E2~Ubiquitin-HECT</PDB_Title>
+      <PDB_ID>3JW0</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3JW0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights into ubiquitin transfer cascades from a structure of a UbcH5B approximately ubiquitin-HECT(NEDD4L) complex.</PubMed_Title>
+      <Author>Kamadurai, H.B., et al.</Author>
+      <Journal>Mol.Cell(2009)36:1095-1102</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20064473?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human OTUB1/UbcH5b~Ub/Ub</PDB_Title>
+      <PDB_ID>4DDI</PDB_ID>
+      <Resolution>3.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4DDI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>OTUB1 Co-opts Lys48-Linked Ubiquitin Recognition to Suppress E2 Enzyme Function.</PubMed_Title>
+      <Author>Juang, Y.C., et al.</Author>
+      <Journal>Mol.Cell(2012)45:384-397</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22325355?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of phosphoTyr371-c-Cbl-UbcH5B-ZAP-70 complex</PDB_Title>
+      <PDB_ID>4A4C</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4A4C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for Autoinhibition and Phosphorylation-Dependent Activation of C-Cbl</PubMed_Title>
+      <Author>Dou, H., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2012)19:184</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22266821?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of phosphoTyr371-c-Cbl-UbcH5B complex</PDB_Title>
+      <PDB_ID>4A49</PDB_ID>
+      <Resolution>2.21</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4A49</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for Autoinhibition and Phosphorylation-Dependent Activation of C-Cbl</PubMed_Title>
+      <Author>Dou, H., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2012)19:184</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22266821?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the human ubiquitin-conjugating enzyme (E2) UbcH5b</PDB_Title>
+      <PDB_ID>3TGD</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3TGD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the human ubiquitin-conjugating enzyme (E2) UbcH5b</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of modified phosphoTyr371-c-Cbl-UbcH5B-ZAP-70 complex</PDB_Title>
+      <PDB_ID>4A4B</PDB_ID>
+      <Resolution>2.79</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4A4B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for Autoinhibition and Phosphorylation-Dependent Activation of C-Cbl</PubMed_Title>
+      <Author>Dou, H., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2012)19:184</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22266821?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HUMAN UBIQUITIN-CONJUGATING ENZYME UBCH5B</PDB_Title>
+      <PDB_ID>2C4O</PDB_ID>
+      <Resolution>1.94</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C4O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of Two Human Ubiquitin-Conjugating Enzymes from Twinned Crystals</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Ubiquitin-Conjugating Enzyme (E2) UbcH5b mutant Ile37Ala</PDB_Title>
+      <PDB_ID>2ESO</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ESO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanistic insight into the allosteric activation of a ubiquitin-conjugating enzyme by RING-type ubiquitin ligases</PubMed_Title>
+      <Author>Ozkan, E., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2005)102:18890-18895</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16365295?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human ubiquitin-conjugating enzyme (E2) UbcH5b mutant Ile88Ala</PDB_Title>
+      <PDB_ID>2ESP</PDB_ID>
+      <Resolution>1.52</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ESP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanistic insight into the allosteric activation of a ubiquitin-conjugating enzyme by RING-type ubiquitin ligases</PubMed_Title>
+      <Author>Ozkan, E., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2005)102:18890-18895</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16365295?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HUMAN UBIQUITIN-CONJUGATING ENZYME UBCH5B</PDB_Title>
+      <PDB_ID>2CLW</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CLW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of Two Human Ubiquitin-Conjugating Enzymes from Twinned Crystals</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>NMR SOLUTION STRUCTURE OF THE UBIQUITIN CONJUGATING ENZYME UBCH5B</PDB_Title>
+      <PDB_ID>1W4U</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1W4U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution Structure of the Ubiquitin-Conjugating Enzyme Ubch5B</PubMed_Title>
+      <Author>Houben, K., et al.</Author>
+      <Journal>J.Mol.Biol.(2004)344:513</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15522302?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Ubiquitin-Conjugating Enzyme (E2) UbcH5b mutant Ser94Gly</PDB_Title>
+      <PDB_ID>2ESQ</PDB_ID>
+      <Resolution>1.44</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ESQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanistic insight into the allosteric activation of a ubiquitin-conjugating enzyme by RING-type ubiquitin ligases</PubMed_Title>
+      <Author>Ozkan, E., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2005)102:18890-18895</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16365295?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Ubiquitin-Conjugating Enzyme (E2) UbcH5b, wild-type</PDB_Title>
+      <PDB_ID>2ESK</PDB_ID>
+      <Resolution>1.36</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ESK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanistic insight into the allosteric activation of a ubiquitin-conjugating enzyme by RING-type ubiquitin ligases</PubMed_Title>
+      <Author>Ozkan, E., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2005)102:18890-18895</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16365295?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>E2~Ubiquitin-HECT</PDB_Title>
+      <PDB_ID>3JVZ</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3JVZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights into ubiquitin transfer cascades from a structure of a UbcH5B approximately ubiquitin-HECT(NEDD4L) complex.</PubMed_Title>
+      <Author>Kamadurai, H.B., et al.</Author>
+      <Journal>Mol.Cell(2009)36:1095-1102</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20064473?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.ei.b.b.be.html</SCOP_URL>
+    <CATH_URL>http://www.cathdb.info/pdb/2c4o</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.3.2.19</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/3/2/19.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

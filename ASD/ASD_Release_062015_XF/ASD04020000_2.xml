@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04020000_2</Organism_ID>
+  <Organism>Mycobacterium smegmatis</Organism>
+  <Organism_Latin>Mycobacterium smegmatis</Organism_Latin>
+  <UniProt_ID>A0R2B1</UniProt_ID>
+  <Seq_Length>1227</Seq_Length>
+  <Molecule_Weight>135944</Molecule_Weight>
+  <KEGG_ID>msm:MSMEG_5049</KEGG_ID>
+  <Orthology_ID>K01616</Orthology_ID>
+  <Function_Summary>Shows three enzymatic activities that share a first common step, the attack of thiamine-PP on 2-oxoglutarate (alpha-ketoglutarate, KG), leading to the formation of an enamine-thiamine-PP intermediate upon decarboxylation. Thus, displays KGD activity, catalyzing the decarboxylation from five-carbon 2-oxoglutarate to four-carbon succinate semialdehyde (SSA). Also catalyzes C-C bond formation between the activated aldehyde formed after decarboxylation of alpha-ketoglutarate and the carbonyl of glyoxylate (GLX), to yield 2-hydroxy-3-oxoadipate (HOA), which spontaneously decarboxylates to form 5-hydroxylevulinate (HLA). And is also a component of the 2-oxoglutarate dehydrogenase (ODH) complex, that catalyzes the overall conversion of 2-oxoglutarate to succinyl-CoA and CO(2). The KG decarboxylase and KG dehydrogenase reactions provide two alternative, tightly regulated, pathways connecting the oxidative and reductive branches of the TCA cycle.</Function_Summary>
+  <Catalytic_Mechanism>2-oxoglutarate + glyoxylate = 2-hydroxy-3-oxoadipate + CO(2).@@2-oxoglutarate = succinate semialdehyde + CO(2).@@2-oxoglutarate + [dihydrolipoyllysine-residue succinyltransferase] lipoyllysine = [dihydrolipoyllysine-residue succinyltransferase] S-succinyldihydrolipoyllysine + CO(2).@@Succinyl-CoA + enzyme N(6)-(dihydrolipoyl)lysine = CoA + enzyme N(6)-(S-succinyldihydrolipoyl)lysine.</Catalytic_Mechanism>
+  <Pfam_ID>PF00198:2-oxoacid_dh@@PF00676:E1_dh@@PF02779:Transket_pyr</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>ODH E2 component</Alias>
+      <Alias>2-oxoglutarate dehydrogenase E1 component</Alias>
+      <Alias>Dihydrolipoamide succinyltransferase</Alias>
+      <Alias>Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex</Alias>
+      <Alias>2-oxoglutarate dehydrogenase complex E2 component</Alias>
+      <Alias>OGDC-E2</Alias>
+      <Alias>ODH E1 component</Alias>
+      <Alias>Alpha-ketoglutarate dehydrogenase E1 component</Alias>
+      <Alias>KDH E1 component</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with thiamine pyrophosphate, the diphosphoric ester of thiamine. Acts as a coenzyme of several (de)carboxylases, transketolases, and alpha-oxoacid dehydrogenases.</Detail>
+      <Keyword>Thiamine pyrophosphate binding</Keyword>
+      <Ontology_ID>GO:0030976</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 2-oxoglutarate + glyoxylate + H(+) = 2-hydroxy-3-oxoadipate + CO(2).</Detail>
+      <Keyword>2-hydroxy-3-oxoadipate synthase activity</Keyword>
+      <Ontology_ID>GO:0050439</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: succinyl-CoA + dihydrolipoamide = CoA + S-succinyldihydrolipoamide.</Detail>
+      <Keyword>Dihydrolipoyllysine-residue succinyltransferase activity</Keyword>
+      <Ontology_ID>GO:0004149</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the generalized reaction: acyl-carrier + reactant = acyl-reactant + carrier.</Detail>
+      <Keyword>Acyltransferase activity</Keyword>
+      <Ontology_ID>GO:0008415</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 2-oxoglutarate + H(+) = CO(2) + succinate semialdehyde.</Detail>
+      <Keyword>2-oxoglutarate decarboxylase activity</Keyword>
+      <Ontology_ID>GO:0008683</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 2-oxoglutarate + lipoamide = S-succinyldihydrolipoamide + CO2.</Detail>
+      <Keyword>Oxoglutarate dehydrogenase (succinyl-transferring) activity</Keyword>
+      <Ontology_ID>GO:0004591</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the nonhydrolytic addition or removal of a carboxyl group to or from a compound.</Detail>
+      <Keyword>Carboxy-lyase activity</Keyword>
+      <Ontology_ID>GO:0016831</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A nearly universal metabolic pathway in which the acetyl group of acetyl coenzyme A is effectively oxidized to two CO2 and four pairs of electrons are transferred to coenzymes. The acetyl group combines with oxaloacetate to form citrate, which undergoes successive transformations to isocitrate, 2-oxoglutarate, succinyl-CoA, succinate, fumarate, malate, and oxaloacetate again, thus completing the cycle. In eukaryotes the tricarboxylic acid is confined to the mitochondria. See also glyoxylate cycle.</Detail>
+      <Keyword>Tricarboxylic acid cycle</Keyword>
+      <Ontology_ID>GO:0006099</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSSSPSPFGQNEWLVEEMYRKFRDDPSSVDPSWHEFLVDYSPEPTTDSASNGRTTTAAPVTPPTPAPAPAPEPKAAPKPAAKTEAKPAKPAKSATPAKGDESQILRGAAAAVVKNMNASLEVPTATSVRAIPAKLMIDNRVVINNHLKRTRGGKISFTHLLGYAIVQAVKKFPNMNRHFAVVDGKPTAITPAHTNLGLAIDLQGKDGNRSLVVAAIKRCETMRFGQFIAAYEDIVRRARDGKLTAEDFSGVTISLTNPGTLGTVHSVPRLMQGQGAIIGAGAMEYPAEFQGASEERIADLGIGKLITLTSTYDHRIIQGAESGDFLRTIHQLLLDDDFFDEIFRELGIPYEPVRWRTDNPDSIEDKNARVIELIAAYRNRGHLMADIDPLRLDNTRFRSHPDLDVNSHGLTLWDLDREFKVDGFAGVQRKKLRDILSVLRDAYCRHVGVEYTHILEPEQQRWIQERVETKHDKPTVAEQKYILSKLNAAEAFETFLQTKYVGQKRFSLEGAETVIPMMDAVIDQCAEHGLDEVVIAMPHRGRLNVLANIVGKPYSQIFSEFEGNLNPSQAHGSGDVKYHLGATGTYIQMFGDNDIEVSLTANPSHLEAVDPVLEGLVRAKQDLLDTGEEGSDNRFSVVPLMLHGDAAFAGQGVVAETLNLALLRGYRTGGTIHIVVNNQIGFTTAPTDSRSSEYCTDVAKMIGAPIFHVNGDDPEACAWVARLAVDFRQAFKKDVVIDMLCYRRRGHNEGDDPSMTQPYMYDVIDTKRGSRKAYTEALIGRGDISMKEAEDALRDYQGQLERVFNEVRELEKHEIEPSESVEADQQIPSKLATAVDKAMLQRIGDAHLALPEGFTVHPRVRPVLEKRREMAYEGRIDWAFAELLALGSLIAEGKLVRLSGQDTQRGTFTQRHAVIVDRKTGEEFTPLQLLATNPDGTPTGGKFLVYNSALSEFAAVGFEYGYSVGNPDAMVLWEAQFGDFVNGAQSIIDEFISSGEAKWGQLSDVVLLLPHGHEGQGPDHTSGRIERFLQLWAEGSMTIAMPSTPANYFHLLRRHGKDGIQRPLIVFTPKSMLRNKAAVSDIRDFTESKFRSVLEEPMYTDGEGDRNKVTRLLLTSGKIYYELAARKAKENREDVAIVRIEQLAPLPRRRLAETLDRYPNVKEKFWVQEEPANQGAWPSFGLTLPEILPDHFTGLKRISRRAMSAPSSGSSKVHAVEQQEILDTAFG</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>kgd</Gene_Name>
+    <Gene_Alias>sucA</Gene_Alias>
+    <Gene_ID>4535402</Gene_ID>
+    <Genbank_ACCN>NC_018289</Genbank_ACCN>
+    <Protein_ACCN>YP_006569661</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/4535402</Gene_URL>
+    <EMBL_ID>MSMEI_4922</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE SUCA DOMAIN OF MYCOBACTERIUM SMEGMATIS ALPHA-KETOGLUTARATE DECARBOXYLASE IN COMPLEX WITH THE ENAMINE-THDP INTERMEDIATE AND ACETYL-COA</PDB_Title>
+      <PDB_ID>2Y0P</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Y0P</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD05550001</ASD_Ligand>
+      <PubMed_Title>Functional Plasticity and Allosteric Regulation of Alpha-Ketoglutarate Decarboxylase in Central Mycobacterial Metabolism.</PubMed_Title>
+      <Author>Wagner, T., et al.</Author>
+      <Journal>Chem.Biol.(2011)18:1011</Journal>
+      <PubMed_ID>21867916</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.2.4.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/4/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 2.3.1.61</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 2/3/1/61.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02130001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05550001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2014-06-12</Create_Date>
+</Organism_Record>

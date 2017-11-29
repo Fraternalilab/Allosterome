@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06570000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q92835</UniProt_ID>
+  <Seq_Length>1189</Seq_Length>
+  <Molecule_Weight>133292</Molecule_Weight>
+  <KEGG_ID>hsa:3635</KEGG_ID>
+  <Orthology_ID>K03084</Orthology_ID>
+  <Function_Summary>Phosphatidylinositol (PtdIns) phosphatase that specifically hydrolyzes the 5-phosphate of phosphatidylinositol-3,4,5-trisphosphate (PtdIns(3,4,5)P3) to produce PtdIns(3,4)P2, thereby negatively regulating the PI3K (phosphoinositide 3-kinase) pathways. Acts as a negative regulator of B-cell antigen receptor signaling. Mediates signaling from the FC-gamma-RIIB receptor (FCGR2B), playing a central role in terminating signal transduction from activating immune/hematopoietic cell receptor systems. Acts as a negative regulator of myeloid cell proliferation/survival and chemotaxis, mast cell degranulation, immune cells homeostasis, integrin alpha-IIb/beta-3 signaling in platelets and JNK signaling in B-cells. Regulates proliferation of osteoclast precursors, macrophage programming, phagocytosis and activation and is required for endotoxin tolerance. Involved in the control of cell-cell junctions, CD32a signaling in neutrophils and modulation of EGF-induced phospholipase C activity. Key regulator of neutrophil migration, by governing the formation of the leading edge and polarization required for chemotaxis. Modulates FCGR3/CD16-mediated cytotoxicity in NK cells. Mediates the activin/TGF-beta-induced apoptosis through its Smad-dependent expression. May also hydrolyze PtdIns(1,3,4,5)P4, and could thus affect the levels of the higher inositol polyphosphates like InsP6.</Function_Summary>
+  <Catalytic_Mechanism>1-phosphatidyl-1D-myo-inositol 3,4,5-triphosphate + H(2)O = 1-phosphatidyl-1D-myo-inositol 3,4-diphosphate + phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF03372:Exo_endo_phos@@PF00017:SH2</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>SH2 domain-containing inositol phosphatase 1</Alias>
+      <Alias>SIP-145</Alias>
+      <Alias>SH2 domain-containing inositol 5'-phosphatase 1</Alias>
+      <Alias>SHIP-1</Alias>
+      <Alias>p150Ship</Alias>
+      <Alias>Inositol polyphosphate-5-phosphatase of 145 kDa</Alias>
+      <Alias>hp51CN</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a SH3 domain (Src homology 3) of a protein, small protein modules containing approximately 50 amino acid residues found in a great variety of intracellular or membrane-associated proteins.</Detail>
+      <Keyword>SH3 domain binding</Keyword>
+      <Ontology_ID>GO:0017124</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: D-myo-inositol 1,4,5-trisphosphate + H2O = myo-inositol 1,4-bisphosphate + phosphate, and 1D-myo-inositol 1,3,4,5-tetrakisphosphate + H2O = 1D-myo-inositol 1,3,4-trisphosphate + phosphate.</Detail>
+      <Keyword>Inositol-polyphosphate 5-phosphatase activity</Keyword>
+      <Ontology_ID>GO:0004445</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>1169</Position>
+      <Original>His</Original>
+      <Variation>Tyr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>685</Position>
+      <Original>Val</Original>
+      <Variation>Glu</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The sequential process in which the multiple coagulation factors of the blood interact, ultimately resulting in the formation of an insoluble fibrin clot; it may be divided into three stages: stage 1, the formation of intrinsic and extrinsic prothrombin converting principle; stage 2, the formation of thrombin; stage 3, the formation of stable fibrin polymers.</Detail>
+      <Keyword>Blood coagulation</Keyword>
+      <Ontology_ID>GO:0007596</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals initiated by the cross-linking of an antigen receptor on a T cell.</Detail>
+      <Keyword>T cell receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0050852</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The movement of a leukocyte within or between different tissues and organs of the body.</Detail>
+      <Keyword>Leukocyte migration</Keyword>
+      <Ontology_ID>GO:0050900</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Protein involved in immunity, any immune system process that functions in the response of an organism to a potential internal or invasive threat. The vertebrate immune system is formed by the innate immune system (composed of phagocytes, complement, antimicrobial peptides, etc) and by the adaptive immune system which consists of T- and B-lymphocytes.</Detail>
+      <Keyword>Immunity</Keyword>
+      <Ontology_ID>KW-0391</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of introducing one or more phosphate groups into a phosphatidylinositol.</Detail>
+      <Keyword>Phosphatidylinositol phosphorylation</Keyword>
+      <Ontology_ID>GO:0046854</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>865</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>971</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>934</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>944</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>915</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1022</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>371</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MVPCWNHGNITRSKAEELLSRTGKDGSFLVRASESISRAYALCVLYRNCVYTYRILPNEDDKFTVQASEGVSMRFFTKLDQLIEFYKKENMGLVTHLQYPVPLEEEDTGDDPEEDTVESVVSPPELPPRNIPLTASSCEAKEVPFSNENPRATETSRPSLSETLFQRLQSMDTSGLPEEHLKAIQDYLSTQLAQDSEFVKTGSSSLPHLKKLTTLLCKELYGEVIRTLPSLESLQRLFDQQLSPGLRPRPQVPGEANPINMVSKLSQLTSLLSSIEDKVKALLHEGPESPHRPSLIPPVTFEVKAESLGIPQKMQLKVDVESGKLIIKKSKDGSEDKFYSHKKILQLIKSQKFLNKLVILVETEKEKILRKEYVFADSKKREGFCQLLQQMKNKHSEQPEPDMITIFIGTWNMGNAPPPKKITSWFLSKGQGKTRDDSADYIPHDIYVIGTQEDPLSEKEWLEILKHSLQEITSVTFKTVAIHTLWNIRIVVLAKPEHENRISHICTDNVKTGIANTLGNKGAVGVSFMFNGTSLGFVNSHLTSGSEKKLRRNQNYMNILRFLALGDKKLSPFNITHRFTHLFWFGDLNYRVDLPTWEAETIIQKIKQQQYADLLSHDQLLTERREQKVFLHFEEEEITFAPTYRFERLTRDKYAYTKQKATGMKYNLPSWCDRVLWKSYPLVHVVCQSYGSTSDIMTSDHSPVFATFEAGVTSQFVSKNGPGTVDSQGQIEFLRCYATLKTKSQTKFYLEFHSSCLESFVKSQEGENEEGSEGELVVKFGETLPKLKPIISDPEYLLDQHILISIKSSDSDESYGEGCIALRLEATETQLPIYTPLTHHGELTGHFQGEIKLQTSQGKTREKLYDFVKTERDESSGPKTLKSLTSHDPMKQWEVTSRAPPCSGSSITEIINPNYMGVGPFGPPMPLHVKQTLSPDQQPTAWSYDQPPKDSPLGPCRGESPPTPPGQPPISPKKFLPSTANRGLPPRTQESRPSDLGKNAGDTLPQEDLPLTKPEMFENPLYGSLSSFPKPAPRKDQESPKMPRKEPPPCPEPGILSPSIVLTKAQEADRGEGPGKQVPAPRLRSFTCSSSAEGRAAGGDKSQGKPKTPVSSQAPVPAKRPIKPSRSEINQQTPPTPTPRPPLPVKSPAVLHLQHSKGRDYRDNTELPHHGKHRPEEGPPGPLGRTAMQ</Protein_Seq>
+    <DNA_Seq>AAACAGGAAGTCAGTCAGTTAAGCTGGTGGCAGCAGCCGAGGCCACCAAGAGGCAACGGGCGGCAGGTTGCAGTGGAGGGGCCTCCGCTCCCCTCGGTGGTGTGTGGGTCCTGGGGGTGCCTGCCGGCCCGGCCGAGGAGGCCCACGCCCACCATGGTCCCCTGCTGGAACCATGGCAACATCACCCGCTCCAAGGCGGAGGAGCTGCTTTCCAGGACAGGCAAGGACGGGAGCTTCCTCGTGCGTGCCAGCGAGTCCATCTCCCGGGCATACGCGCTCTGCGTGCTGTATCGGAATTGCGTTTACACTTACAGAATTCTGCCCAATGAAGATGATAAATTCACTGTTCAGGCATCCGAAGGCGTCTCCATGAGGTTCTTCACCAAGCTGGACCAGCTCATCGAGTTTTACAAGAAGGAAAACATGGGGCTGGTGACCCATCTGCAATACCCTGTGCCGCTGGAGGAAGAGGACACAGGCGACGACCCTGAGGAGGACACAGTAGAAAGTGTCGTGTCTCCACCCGAGCTGCCCCCAAGAAACATCCCGCTGACTGCCAGCTCCTGTGAGGCCAAGGAGGTTCCTTTTTCAAACGAGAATCCCCGAGCGACCGAGACCAGCCGGCCGAGCCTCTCCGAGACATTGTTCCAGCGACTGCAAAGCATGGACACCAGTGGGCTTCCAGAAGAGCATCTTAAGGCCATCCAAGATTATTTAAGCACTCAGCTCGCCCAGGACTCTGAATTTGTGAAGACAGGGTCCAGCAGTCTTCCTCACCTGAAGAAACTGACCACACTGCTCTGCAAGGAGCTCTATGGAGAAGTCATCCGGACCCTCCCATCCCTGGAGTCTCTGCAGAGGTTATTTGACCAGCAGCTCTCCCCGGGCCTCCGTCCACGTCCTCAGGTTCCTGGTGAGGCCAATCCCATCAACATGGTGTCCAAGCTCAGCCAACTGACAAGCCTGTTGTCATCCATTGAAGACAAGGTCAAGGCCTTGCTGCACGAGGGTCCTGAGTCTCCGCACCGGCCCTCCCTTATCCCTCCAGTCACCTTTGAGGTGAAGGCAGAGTCTCTGGGGATTCCTCAGAAAATGCAGCTCAAAGTCGACGTTGAGTCTGGGAAACTGATCATTAAGAAGTCCAAGGATGGTTCTGAGGACAAGTTCTACAGCCACAAGAAAATCCTGCAGCTCATTAAGTCACAGAAATTTCTGAATAAGTTGGTGATCTTGGTGGAAACAGAGAAGGAGAAGATCCTGCGGAAGGAATATGTTTTTGCTGACTCCAAAAAGAGAGAAGGCTTCTGCCAGCTCCTGCAGCAGATGAAGAACAAGCACTCAGAGCAGCCGGAGCCCGACATGATCACCATCTTCATCGGCACCTGGAACATGGGTAACGCCCCCCCTCCCAAGAAGATCACGTCCTGGTTTCTCTCCAAGGGGCAGGGAAAGACGCGGGACGACTCTGCGGACTACATCCCCCATGACATTTACGTGATCGGCACCCAAGAGGACCCCCTGAGTGAGAAGGAGTGGCTGGAGATCCTCAAACACTCCCTGCAAGAAATCACCAGTGTGACTTTTAAAACAGTCGCCATCCACACGCTCTGGAACATCCGCATCGTGGTGCTGGCCAAGCCTGAGCACGAGAACCGGATCAGCCACATCTGTACTGACAACGTGAAGACAGGCATTGCAAACACACTGGGGAACAAGGGAGCCGTGGGGGTGTCGTTCATGTTCAATGGAACCTCCTTAGGGTTCGTCAACAGCCACTTGACTTCAGGAAGTGAAAAGAAACTCAGGCGAAACCAAAACTATATGAACATTCTCCGGTTCCTGGCCCTGGGCGACAAGAAGCTGAGTCCCTTTAACATCACTCACCGCTTCACGCACCTCTTCTGGTTTGGGGATCTTAACTACCGTGTGGATCTGCCTACCTGGGAGGCAGAAACCATCATCCAGAAAATCAAGCAGCAGCAGTACGCAGACCTCCTGTCCCACGACCAGCTGCTCACAGAGAGGAGGGAGCAGAAGGTCTTCCTACACTTCGAGGAGGAAGAAATCACGTTTGCCCCAACCTACCGTTTTGAGAGACTGACTCGGGACAAATACGCCTACACCAAGCAGAAAGCGACAGGGATGAAGTACAACTTGCCTTCCTGGTGTGACCGAGTCCTCTGGAAGTCTTATCCCCTGGTGCACGTGGTGTGTCAGTCTTATGGCAGTACCAGCGACATCATGACGAGTGACCACAGCCCTGTCTTTGCCACATTTGAGGCAGGAGTCACTTCCCAGTTTGTCTCCAAGAACGGTCCCGGGACTGTTGACAGCCAAGGACAGATTGAGTTTCTCAGGTGCTATGCCACATTGAAGACCAAGTCCCAGACCAAATTCTACCTGGAGTTCCACTCGAGCTGCTTGGAGAGTTTTGTCAAGAGTCAGGAAGGAGAAAATGAAGAAGGAAGTGAGGGGGAGCTGGTGGTGAAGTTTGGTGAGACTCTTCCAAAGCTGAAGCCCATTATCTCTGACCCTGAGTACCTGCTAGACCAGCACATCCTCATCAGCATCAAGTCCTCTGACAGCGACGAATCCTATGGCGAGGGCTGCATTGCCCTTCGGTTAGAGGCCACAGAAACGCAGCTGCCCATCTACACGCCTCTCACCCACCATGGGGAGTTGACAGGCCACTTCCAGGGGGAGATCAAGCTGCAGACCTCTCAGGGCAAGACGAGGGAGAAGCTCTATGACTTTGTGAAGACGGAGCGTGATGAATCCAGTGGGCCAAAGACCCTGAAGAGCCTCACCAGCCACGACCCCATGAAGCAGTGGGAAGTCACTAGCAGGGCCCCTCCGTGCAGTGGCTCCAGCATCACTGAAATCATCAACCCCAACTACATGGGAGTGGGGCCCTTTGGGCCACCAATGCCCCTGCACGTGAAGCAGACCTTGTCCCCTGACCAGCAGCCCACAGCCTGGAGCTACGACCAGCCGCCCAAGGACTCCCCGCTGGGGCCCTGCAGGGGAGAAAGTCCTCCGACACCTCCCGGCCAGCCGCCCATATCACCCAAGAAGTTTTTACCCTCAACAGCAAACCGGGGTCTCCCTCCCAGGACACAGGAGTCAAGGCCCAGTGACCTGGGGAAGAACGCAGGGGACACGCTGCCTCAGGAGGACCTGCCGCTGACGAAGCCCGAGATGTTTGAGAACCCCCTGTATGGGTCCCTGAGTTCCTTCCCTAAGCCTGCTCCCAGGAAGGACCAGGAATCCCCCAAAATGCCGCGGAAGGAACCCCCGCCCTGCCCGGAACCCGGCATCTTGTCGCCCAGCATCGTGCTCACCAAAGCCCAGGAGGCTGATCGCGGCGAGGGGCCCGGCAAGCAGGTGCCCGCGCCCCGGCTGCGCTCCTTCACGTGCTCATCCTCTGCCGAGGGCAGGGCGGCCGGCGGGGACAAGAGCCAAGGGAAGCCCAAGACCCCGGTCAGCTCCCAGGCCCCGGTGCCGGCCAAGAGGCCCATCAAGCCTTCCAGATCGGAAATCAACCAGCAGACCCCGCCCACCCCGACGCCGCGGCCGCCGCTGCCAGTCAAGAGCCCGGCGGTGCTGCACCTCCAGCACTCCAAGGGCCGCGACTACCGCGACAACACCGAGCTCCCGCATCACGGCAAGCACCGGCCGGAGGAGGGGCCACCAGGGCCTCTAGGCAGGACTGCCATGCAGTGAAGCCCTCAGTGAGCTGCCACTGAGTCGGGAGCCCAGAGGAACGGCGTGAAGCCACTGGACCCTCTCCCGGGACCTCCTGCTGGCTCCTCCTGCCCAGCTTCCTATGCAAGGCTTTGTGTTTTCAGGAAAGGGCCTAGCTTCTGTGTGGCCCACAGAGTTCACTGCCTGTGAGACTTAGCACCAAGTGCTGAGGCTGGAAGAAAAACGCACACCAGACGGGCAACAAACAGTCTGGGTCCCCAGCTCGCTCTTGGTACTTGGGACCCCAGTGCCTCGTTGAGGGCGCCATTCTGAAGAAAGGAACTGCAGCGCCGATTTGAGGGTGGAGATATAGATAATAATAATATTAATAATAATAATGGCCACATGGATCGAACACTCATGATGTGCCAAGTGCTGTGCTAAGTGCTTTACGAACATTCGTCATATCAGGATGACCTCGAGAGCTGAGGCTCTAGCCACCTAAAACCACGTGCCCAAACCCACCAGTTTAAAACGGTGTGTGTTCGGAGGGGTGAAAGCATTAAGAAGCCCAGTGCCCTCCTGGAGTGAGACAAGGGCTCGGCCTTAAGGAGCTGAAGAGTCTGGGTAGCTTGTTTAGGGTACAAGAAGCCTGTTCTGTCCAGCTTCAGTGACACAAGCTGCTTTAGCTAAAGTCCCGCGGGTTCCGGCATGGCTAGGCTGAGAGCAGGGATCTACCTGGCTTCTCAGTTCTTTGGTTGGAAGGAGCAGGAAATCAGCTCCTATTCTCCAGTGGAGAGATCTGGCCTCAGCTTGGGCTAGAGATGCCAAGGCCTGTGCCAGGTTCCCTGTGCCCTCCTCGAGGTGGGCAGCCATCACCAGCCACAGTTAAGCCAAGCCCCCCAACATGTATTCCATCGTGCTGGTAGAAGAGTCTTTGCTGTTGCTCCCGAAAGCCGTGCTCTCCAGCCTGGCTGCCAGGGAGGGTGGGCCTCTTGGTTCCAGGCTCTTGAAATAGTGCAGCCTTTTCTTCCTATCTCTGTGGCTTTCAGCTCTGCTTCCTTGGTTATTAGGAGAATAGATGGGTGATGTCTTTCCTTATGTTGCTTTTTCAACATAGCAGAATTAATGTAGGGAGCTAAATCCAGTGGTGTGTGTGAATGCAGAAGGGAATGCACCCCACATTCCCATGATGGAAGTCTGCGTAACCAATAAATTGTGCCTTTCTCACTCAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Blood cells</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Immune cells</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Bone marrow cells</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Hematopoietic cells</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>INPP5D</Gene_Name>
+    <Gene_Alias>SHIP; SHIP1</Gene_Alias>
+    <Gene_ID>3635</Gene_ID>
+    <Genbank_ACCN>NM_001017915</Genbank_ACCN>
+    <Protein_ACCN>NP_001017915</Protein_ACCN>
+    <HGNC_ID>6079</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3635</Gene_URL>
+    <UCSC_ID>uc010zmp.2</UCSC_ID>
+    <EMBL_ID>ENSG00000168918</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Oculocerebrorenal Syndrome</Disease_Name>
+      <Disease_Detail>Oculocerebrorenal Syndrome</Disease_Detail>
+      <Disease_DB>OCL005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/oculocerebrorenal_syndrome?search=INPP5D#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Solution structure of the human SHIP SH2 domain</PDB_Title>
+      <PDB_ID>2YSX</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YSX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution structure of the human SHIP SH2 domain</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00562</Pathway_ID>
+      <Pathway_Title>Inositol phosphate metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04666</Pathway_ID>
+      <Pathway_Title>Fc gamma R-mediated phagocytosis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04664</Pathway_ID>
+      <Pathway_Title>Fc epsilon RI signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04070</Pathway_ID>
+      <Pathway_Title>Phosphatidylinositol signaling system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04662</Pathway_ID>
+      <Pathway_Title>B cell receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2ysx</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.3.86</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/3/86.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD06572001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06572002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD12080000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P43246</UniProt_ID>
+  <Seq_Length>934</Seq_Length>
+  <Molecule_Weight>104743</Molecule_Weight>
+  <KEGG_ID>hsa:4436</KEGG_ID>
+  <Orthology_ID>K08735</Orthology_ID>
+  <EBI_ID>EBI-355888</EBI_ID>
+  <Function_Summary>Component of the post-replicative DNA mismatch repair system (MMR). Forms two different heterodimers: MutS alpha (MSH2-MSH6 heterodimer) and MutS beta (MSH2-MSH3 heterodimer) which binds to DNA mismatches thereby initiating DNA repair. When bound, heterodimers bend the DNA helix and shields approximately 20 base pairs. MutS alpha recognizes single base mismatches and dinucleotide insertion-deletion loops (IDL) in the DNA. MutS beta recognizes larger insertion-deletion loops up to 13 nucleotides long. After mismatch binding, MutS alpha or beta forms a ternary complex with the MutL alpha heterodimer, which is thought to be responsible for directing the downstream MMR events, including strand discrimination, excision, and resynthesis. ATP binding and hydrolysis play a pivotal role in mismatch repair functions. The ATPase activity associated with MutS alpha regulates binding similar to a molecular switch: mismatched DNA provokes ADP--&gt;ATP exchange, resulting in a discernible conformational transition that converts MutS alpha into a sliding clamp capable of hydrolysis-independent diffusion along the DNA backbone. This transition is crucial for mismatch repair. MutS alpha may also play a role in DNA homologous recombination repair. In melanocytes may modulate both UV-B-induced cell cycle regulation and apoptosis.</Function_Summary>
+  <Pfam_ID>PF01624:MutS_I@@PF05188:MutS_II@@PF05192:MutS_III@@PF05190:MutS_IV@@PF00488:MutS_V</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>MutS protein homolog 2</Alias>
+      <Alias>hMSH2</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate; this reaction requires the presence of single- or double-stranded DNA, and it drives another reaction.</Detail>
+      <Keyword>DNA-dependent ATPase activity</Keyword>
+      <Ontology_ID>GO:0008094</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a centromere, a region of chromosome where the spindle fibers attach during mitosis and meiosis.</Detail>
+      <Keyword>Centromeric DNA binding</Keyword>
+      <Ontology_ID>GO:0019237</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any enzyme.</Detail>
+      <Keyword>Enzyme binding</Keyword>
+      <Ontology_ID>GO:0019899</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with segment of DNA shaped like a Y. This shape occurs when DNA contains a region of paired double-stranded DNA on one end and a region of unpaired DNA strands on the opposite end.</Detail>
+      <Keyword>Y-form DNA binding</Keyword>
+      <Ontology_ID>GO:0000403</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with double-stranded DNA containing a G/T mispair.</Detail>
+      <Keyword>Guanine/thymine mispair binding</Keyword>
+      <Ontology_ID>GO:0032137</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a protein kinase, any enzyme that catalyzes the transfer of a phosphate group, usually from ATP, to a protein substrate.</Detail>
+      <Keyword>Protein kinase binding</Keyword>
+      <Ontology_ID>GO:0019901</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with damaged DNA.</Detail>
+      <Keyword>Damaged DNA binding</Keyword>
+      <Ontology_ID>GO:0003684</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a region of DNA that contains double-stranded DNA flanked by a region of single-stranded DNA.</Detail>
+      <Keyword>Double-strand/single-strand DNA junction binding</Keyword>
+      <Ontology_ID>GO:0000406</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a protein C-terminus, the end of any peptide chain at which the 1-carboxy function of a constituent amino acid is not attached in peptide linkage to another amino-acid residue.</Detail>
+      <Keyword>Protein C-terminus binding</Keyword>
+      <Ontology_ID>GO:0008022</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with DNA containing a loop. A loop occurs when DNA contains a large insertion or deletion that causes a region of unpaired single-stranded DNA to loop out, while the rest of the DNA is in a paired double-stranded configuration.</Detail>
+      <Keyword>Loop DNA binding</Keyword>
+      <Ontology_ID>GO:0000404</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that decreases the frequency, rate or extent of recombination during meiosis. Reciprocal meiotic recombination is the cell cycle process in which double strand breaks are formed and repaired through a double Holliday junction intermediate.</Detail>
+      <Keyword>Negative regulation of reciprocal meiotic recombination</Keyword>
+      <Ontology_ID>GO:0045128</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cell cycle checkpoint that slows DNA synthesis in response to DNA damage by the prevention of new origin firing and the stabilization of slow replication fork progession.</Detail>
+      <Keyword>Intra-S DNA damage checkpoint</Keyword>
+      <Ontology_ID>GO:0031573</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</Detail>
+      <Keyword>DNA repair</Keyword>
+      <Ontology_ID>GO:0006281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved with the carrying out of an immune response by a B cell, through, for instance, the production of antibodies or cytokines, or antigen presentation to T cells.</Detail>
+      <Keyword>B cell mediated immunity</Keyword>
+      <Ontology_ID>GO:0019724</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cascade of processes induced by the cell cycle regulator phosphoprotein p53, or an equivalent protein, in response to the detection of DNA damage and resulting in the initiation of apoptosis (programmed cell death).</Detail>
+      <Keyword>DNA damage response, signal transduction by p53 class mediator resulting in induction of apoptosis</Keyword>
+      <Ontology_ID>GO:0042771</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A system for the identification and correction of base-base mismatches, small insertion-deletion loops, and regions of heterology that are present in duplex DNA formed with strands from two recombining molecules. Correction of the mismatch can result in non-Mendelian segregation of alleles following meiosis.</Detail>
+      <Keyword>Meiotic mismatch repair</Keyword>
+      <Ontology_ID>GO:0000710</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The repair of double-strand breaks in DNA via homologous and nonhomologous mechanisms to reform a continuous DNA helix.</Detail>
+      <Keyword>Double-strand break repair</Keyword>
+      <Ontology_ID>GO:0006302</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a precursor cell type acquires the specialized features of a B cell. A B cell is a lymphocyte of B lineage with the phenotype CD19-positive and capable of B cell mediated immunity.</Detail>
+      <Keyword>B cell differentiation</Keyword>
+      <Ontology_ID>GO:0030183</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of X-ray radiation. An X-ray is a form of electromagnetic radiation with a wavelength in the range of 10 nanometers to 100 picometers (corresponding to frequencies in the range 30 PHz to 3 EHz).</Detail>
+      <Keyword>Response to X-ray</Keyword>
+      <Ontology_ID>GO:0010165</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell death by apoptosis in neurons.</Detail>
+      <Keyword>Negative regulation of neuron apoptosis</Keyword>
+      <Ontology_ID>GO:0043524</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a UV-B radiation stimulus. UV-B radiation (UV-B light) spans the wavelengths 290 to 320 nm.</Detail>
+      <Keyword>Response to UV-B</Keyword>
+      <Ontology_ID>GO:0010224</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A system for the correction of errors in which an incorrect base, which cannot form hydrogen bonds with the corresponding base in the parent strand, is incorporated into the daughter strand. The mismatch repair system promotes genomic fidelity by repairing base-base mismatches, insertion-deletion loops and heterologies generated during DNA replication and recombination.</Detail>
+      <Keyword>Mismatch repair</Keyword>
+      <Ontology_ID>GO:0006298</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The control of viability and duration in the adult phase of the life-cycle.</Detail>
+      <Keyword>Determination of adult lifespan</Keyword>
+      <Ontology_ID>GO:0008340</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the embryo in the uterus over time, from formation of the zygote in the oviduct, to birth. An example of this process is found in Mus musculus.</Detail>
+      <Keyword>In utero embryonic development</Keyword>
+      <Ontology_ID>GO:0001701</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of DNA recombination.</Detail>
+      <Keyword>Negative regulation of DNA recombination</Keyword>
+      <Ontology_ID>GO:0045910</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The switching of activated B cells from IgM biosynthesis to biosynthesis of other isotypes of immunoglobulin, accomplished through a recombination process involving an intrachromosomal deletion involving switch regions that reside 5' of each constant region gene segment in the immunoglobulin heavy chain locus.</Detail>
+      <Keyword>Isotype switching</Keyword>
+      <Ontology_ID>GO:0045190</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the male gonad over time, from its formation to the mature structure.</Detail>
+      <Keyword>Male gonad development</Keyword>
+      <Ontology_ID>GO:0008584</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Mutations occurring somatically that result in amino acid changes in the rearranged V regions of immunoglobulins.</Detail>
+      <Keyword>Somatic hypermutation of immunoglobulin genes</Keyword>
+      <Ontology_ID>GO:0016446</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The conversion of DNA-damage induced single-stranded gaps into large molecular weight DNA after replication. Includes pathways that remove replication-blocking lesions in conjunction with DNA replication.</Detail>
+      <Keyword>Postreplication repair</Keyword>
+      <Ontology_ID>GO:0006301</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which immunoglobulin genes are formed through recombination of the germline genetic elements, as known as immunoglobulin gene segments, within a single locus.</Detail>
+      <Keyword>Somatic recombination of immunoglobulin gene segments</Keyword>
+      <Ontology_ID>GO:0016447</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the activity of a helicase.</Detail>
+      <Keyword>Positive regulation of helicase activity</Keyword>
+      <Ontology_ID>GO:0051096</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cell cycle process in which genetic information is transferred from one helix to another. It often occurs in association with general genetic recombination events, and is believed to be a straightforward consequence of the mechanisms of general recombination and DNA repair. For example, meiosis might yield three copies of the maternal version of an allele and only one copy of the paternal allele, indicating that one of the two copies of the paternal allele has been changed to a copy of the maternal allele.</Detail>
+      <Keyword>Meiotic gene conversion</Keyword>
+      <Ontology_ID>GO:0006311</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of an immature germ cell over time, from its formation to the mature structure (gamete). A germ cell is any reproductive cell in a multicellular organism.</Detail>
+      <Keyword>Germ cell development</Keyword>
+      <Ontology_ID>GO:0007281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in sustaining the fidelity and copy number of DNA repeat elements.</Detail>
+      <Keyword>Maintenance of DNA repeat elements</Keyword>
+      <Ontology_ID>GO:0043570</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A regulatory process that halts progression through the cell cycle during one of the normal phases (G1, S, G2, M).</Detail>
+      <Keyword>Cell cycle arrest</Keyword>
+      <Ontology_ID>GO:0007050</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation of ADP to ATP that accompanies the oxidation of a metabolite through the operation of the respiratory chain. Oxidation of compounds establishes a proton gradient across the membrane, providing the energy for ATP synthesis.</Detail>
+      <Keyword>Oxidative phosphorylation</Keyword>
+      <Ontology_ID>GO:0006119</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>N-acetylalanine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>567</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>555</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAVQPKETLQLESAAEVGFVRFFQGMPEKPTTTVRLFDRGDFYTAHGEDALLAAREVFKTQGVIKYMGPAGAKNLQSVVLSKMNFESFVKDLLLVRQYRVEVYKNRAGNKASKENDWYLAYKASPGNLSQFEDILFGNNDMSASIGVVGVKMSAVDGQRQVGVGYVDSIQRKLGLCEFPDNDQFSNLEALLIQIGPKECVLPGGETAGDMGKLRQIIQRGGILITERKKADFSTKDIYQDLNRLLKGKKGEQMNSAVLPEMENQVAVSSLSAVIKFLELLSDDSNFGQFELTTFDFSQYMKLDIAAVRALNLFQGSVEDTTGSQSLAALLNKCKTPQGQRLVNQWIKQPLMDKNRIEERLNLVEAFVEDAELRQTLQEDLLRRFPDLNRLAKKFQRQAANLQDCYRLYQGINQLPNVIQALEKHEGKHQKLLLAVFVTPLTDLRSDFSKFQEMIETTLDMDQVENHEFLVKPSFDPNLSELREIMNDLEKKMQSTLISAARDLGLDPGKQIKLDSSAQFGYYFRVTCKEEKVLRNNKNFSTVDIQKNGVKFTNSKLTSLNEEYTKNKTEYEEAQDAIVKEIVNISSGYVEPMQTLNDVLAQLDAVVSFAHVSNGAPVPYVRPAILEKGQGRIILKASRHACVEVQDEIAFIPNDVYFEKDKQMFHIITGPNMGGKSTYIRQTGVIVLMAQIGCFVPCESAEVSIVDCILARVGAGDSQLKGVSTFMAEMLETASILRSATKDSLIIIDELGRGTSTYDGFGLAWAISEYIATKIGAFCMFATHFHELTALANQIPTVNNLHVTALTTEETLTMLYQVKKGVCDQSFGIHVAELANFPKHVIECAKQKALELEEFQYIGESQGYDIMEPAAKKCYLEREQGEKIIQEFLSKVKQMPFTEMSEENITIKLKQLKAEVIAKNNSFVNEIISRIKVTT</Protein_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Clonorchis sinensis</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleoplasm</CellLocal>
+      <Ontology_ID>GO:0005654</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>MutSalpha complex</CellLocal>
+      <Ontology_ID>GO:0032301</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nuclear chromosome</CellLocal>
+      <Ontology_ID>GO:0000228</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>MutSbeta complex</CellLocal>
+      <Ontology_ID>GO:0032302</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>MSH2</Gene_Name>
+    <Gene_ID>4436</Gene_ID>
+    <Genbank_ACCN>NM_000251</Genbank_ACCN>
+    <Protein_ACCN>NP_000242</Protein_ACCN>
+    <HGNC_ID>7325</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/4436</Gene_URL>
+    <UCSC_ID>uc002rvy.2</UCSC_ID>
+    <EMBL_ID>ENSG00000095002</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q8IY92</Uniprot_ID>
+      <Gene_Name>SLX4</Gene_Name>
+      <EBI_ID>EBI-2370740</EBI_ID>
+      <PPI_EBI_URL>EBI-355888,EBI-2370740</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9UQ84-1</Uniprot_ID>
+      <Gene_Name>EXO1</Gene_Name>
+      <EBI_ID>EBI-944694</EBI_ID>
+      <PPI_EBI_URL>EBI-355888,EBI-944694</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P52701</Uniprot_ID>
+      <Gene_Name>MSH6</Gene_Name>
+      <EBI_ID>EBI-395529</EBI_ID>
+      <PPI_EBI_URL>EBI-355888,EBI-395529</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P20585</Uniprot_ID>
+      <Gene_Name>MSH3</Gene_Name>
+      <EBI_ID>EBI-1164205</EBI_ID>
+      <PPI_EBI_URL>EBI-355888,EBI-1164205</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P39875</Uniprot_ID>
+      <Gene_Name>EXO1</Gene_Name>
+      <EBI_ID>EBI-6738</EBI_ID>
+      <PPI_EBI_URL>EBI-355888,EBI-6738</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O00716</Uniprot_ID>
+      <Gene_Name>E2F3</Gene_Name>
+      <EBI_ID>EBI-765551</EBI_ID>
+      <PPI_EBI_URL>EBI-355888,EBI-765551</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Msh2-Related Lynch Syndrome</Disease_Name>
+      <Disease_Detail>Msh2-Related Lynch Syndrome</Disease_Detail>
+      <Disease_DB>MSH002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/msh2_related_lynch_syndrome?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Familial Adenomatous Polyposis</Disease_Name>
+      <Disease_Detail>Familial Adenomatous Polyposis</Disease_Detail>
+      <Disease_DB>FML011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/familial_adenomatous_polyposis?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lynch Syndrome</Disease_Name>
+      <Disease_Detail>Lynch Syndrome</Disease_Detail>
+      <Disease_DB>LYN001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lynch_syndrome?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colon Cancer</Disease_Name>
+      <Disease_Detail>Colon Cancer</Disease_Detail>
+      <Disease_DB>CLN016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colon_cancer?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>in Situ Carcinoma</Disease_Name>
+      <Disease_Detail>in Situ Carcinoma</Disease_Detail>
+      <Disease_DB>INS002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/in_situ_carcinoma?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colorectal Cancer, Hereditary Nonpolyposis, Type 1</Disease_Name>
+      <Disease_Detail>Colorectal Cancer</Disease_Detail>
+      <Disease_DB>CLR070</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colorectal_cancer_hereditary_nonpolyposis_type_1?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Vipoma</Disease_Name>
+      <Disease_Detail>Vipoma</Disease_Detail>
+      <Disease_DB>VPM001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/vipoma?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Msh2-Related Muir-Torre Syndrome</Disease_Name>
+      <Disease_Detail>Msh2-Related Muir-Torre Syndrome</Disease_Detail>
+      <Disease_DB>MSH003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/msh2_related_muir_torre_syndrome?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Anal Fistula</Disease_Name>
+      <Disease_Detail>Anal Fistula</Disease_Detail>
+      <Disease_DB>ANL022</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/anal_fistula?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colorectal Cancer 1</Disease_Name>
+      <Disease_Detail>Colorectal Cancer</Disease_Detail>
+      <Disease_DB>CLR085</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colorectal_cancer_1?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Msh2-Related Turcot Syndrome</Disease_Name>
+      <Disease_Detail>Msh2-Related Turcot Syndrome</Disease_Detail>
+      <Disease_DB>MSH004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/msh2_related_turcot_syndrome?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colorectal Cancer</Disease_Name>
+      <Disease_Detail>Colorectal Cancer</Disease_Detail>
+      <Disease_DB>CLR023</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colorectal_cancer?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Turcot Syndrome</Disease_Name>
+      <Disease_Detail>Turcot Syndrome</Disease_Detail>
+      <Disease_DB>TRC032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/turcot_syndrome?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cerebral Primitive Neuroectodermal Tumor</Disease_Name>
+      <Disease_Detail>Cerebral Primitive Neuroectodermal Tumor</Disease_Detail>
+      <Disease_DB>CRB002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cerebral_primitive_neuroectodermal_tumor?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Keratoacanthoma</Disease_Name>
+      <Disease_Detail>Keratoacanthoma</Disease_Detail>
+      <Disease_DB>KRT005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/keratoacanthoma?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Sebaceous Adenoma</Disease_Name>
+      <Disease_Detail>Sebaceous Adenoma</Disease_Detail>
+      <Disease_DB>SBC009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/sebaceous_adenoma?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Muir-Torre Syndrome</Disease_Name>
+      <Disease_Detail>Muir-Torre Syndrome</Disease_Detail>
+      <Disease_DB>MRT001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/muir_torre_syndrome?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Attenuated Familial Adenomatous Polyposis</Disease_Name>
+      <Disease_Detail>Attenuated Familial Adenomatous Polyposis</Disease_Detail>
+      <Disease_DB>ATT003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/attenuated_familial_adenomatous_polyposis?search=MSH2#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>human MutSalpha (MSH2/MSH6) bound to a G T mispair, with ADP bound to MSH2 only</PDB_Title>
+      <PDB_ID>2O8E</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2O8E</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027</ASD_Ligand>
+      <PubMed_Title>Structure of the Human MutSalpha DNA Lesion Recognition Complex.</PubMed_Title>
+      <Author>Warren, J.J., et al.</Author>
+      <Journal>Mol.Cell(2007)26:579-592</Journal>
+      <PubMed_ID>17531815</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human MutSbeta complexed with an IDL of 6 bases (Loop6) and ADP</PDB_Title>
+      <PDB_ID>3THZ</PDB_ID>
+      <Resolution>4.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3THZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanism of mismatch repair revealed by human MutS bound to unpaired DNA loops</PubMed_Title>
+      <Author>Gupta, S., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2012)19:72-78</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22179786?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human MutSbeta complexed with an IDL of 2 bases (Loop2) and ADP</PDB_Title>
+      <PDB_ID>3THY</PDB_ID>
+      <Resolution>2.89</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3THY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanism of mismatch repair revealed by human MutSbeta bound to unpaired DNA loops</PubMed_Title>
+      <Author>Gupta, S., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2012)19:72-78</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22179786?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human MutSbeta complexed with an IDL of 4 bases (Loop4) and ADP</PDB_Title>
+      <PDB_ID>3THW</PDB_ID>
+      <Resolution>3.09</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3THW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanism of mismatch recognition revealed by human MutSbeta bound to unpaired DNA loops</PubMed_Title>
+      <Author>Gupta, S., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2012)19:72-78</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22179786?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>human MutSalpha (MSH2/MSH6) bound to ADP and an O6-methyl-guanine T mispair</PDB_Title>
+      <PDB_ID>2O8C</PDB_ID>
+      <Resolution>3.37</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2O8C</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027</ASD_Ligand>
+      <PubMed_Title>Structure of the Human MutSalpha DNA Lesion Recognition Complex.</PubMed_Title>
+      <Author>Warren, J.J., et al.</Author>
+      <Journal>Mol.Cell(2007)26:579-592</Journal>
+      <PubMed_ID>17531815</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human MutSbeta complexed with an IDL of 3 bases (Loop3) and ADP</PDB_Title>
+      <PDB_ID>3THX</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3THX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanism of mismatch recognition revealed by human MutSbeta bound to unpaired DNA loops</PubMed_Title>
+      <Author>Gupta, S., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2012)19:72-78</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22179786?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>human MutSalpha (MSH2/MSH6) bound to ADP and a G T mispair</PDB_Title>
+      <PDB_ID>2O8B</PDB_ID>
+      <Resolution>2.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2O8B</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027</ASD_Ligand>
+      <PubMed_Title>Structure of the Human MutSalpha DNA Lesion Recognition Complex.</PubMed_Title>
+      <Author>Warren, J.J., et al.</Author>
+      <Journal>Mol.Cell(2007)26:579-592</Journal>
+      <PubMed_ID>17531815</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>human MutSalpha (MSH2/MSH6) bound to DNA with a single base T insert</PDB_Title>
+      <PDB_ID>2O8F</PDB_ID>
+      <Resolution>3.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2O8F</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027</ASD_Ligand>
+      <PubMed_Title>Structure of the Human MutSalpha DNA Lesion Recognition Complex.</PubMed_Title>
+      <Author>Warren, J.J., et al.</Author>
+      <Journal>Mol.Cell(2007)26:579-592</Journal>
+      <PubMed_ID>17531815</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>human MutSalpha (MSH2/MSH6) bound to ADP and a G dU mispair</PDB_Title>
+      <PDB_ID>2O8D</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2O8D</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01720027</ASD_Ligand>
+      <PubMed_Title>Structure of the Human MutSalpha DNA Lesion Recognition Complex.</PubMed_Title>
+      <Author>Warren, J.J., et al.</Author>
+      <Journal>Mol.Cell(2007)26:579-592</Journal>
+      <PubMed_ID>17531815</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05210</Pathway_ID>
+      <Pathway_Title>Colorectal cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <PDB_ID>2O8B;2O8C;2O8D;2O8E;2O8F</PDB_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01720027</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-04-08</Create_Date>
+</Organism_Record>

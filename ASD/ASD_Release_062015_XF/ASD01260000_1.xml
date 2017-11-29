@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01260000_1</Organism_ID>
+  <Organism>Rabbit</Organism>
+  <Organism_Latin>Oryctolagus cuniculus</Organism_Latin>
+  <UniProt_ID>P46406</UniProt_ID>
+  <Seq_Length>333</Seq_Length>
+  <Molecule_Weight>35780</Molecule_Weight>
+  <KEGG_ID>ocu:100009074</KEGG_ID>
+  <Orthology_ID>K00134</Orthology_ID>
+  <Function_Summary>Has both glyceraldehyde-3-phosphate dehydrogenase and nitrosylase activities, thereby playing a role in glycolysis and nuclear functions, respectively. Glyceraldehyde-3-phosphate dehydrogenase is a key enzyme in glycolysis that catalyzes the first step of the pathway by converting D-glyceraldehyde 3-phosphate (G3P) into 3-phospho-D-glyceroyl phosphate. Also participates in nuclear events including transcription, RNA transport, DNA replication and apoptosis. Nuclear functions are probably due to the nitrosylase activity that mediates cysteine S-nitrosylation of nuclear target proteins such as SIRT1, HDAC2 and PRKDC (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>D-glyceraldehyde 3-phosphate + phosphate + NAD(+) = 3-phospho-D-glyceroyl phosphate + NADH.</Catalytic_Mechanism>
+  <Pfam_ID>PF02800:Gp_dh_C@@PF00044:Gp_dh_N</Pfam_ID>
+  <Allosteric_Activator_Count>8</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>3</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>GPDH</Alias>
+      <Alias>GAPDH</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with nicotinamide adenine dinucleotide, a coenzyme involved in many redox and biosynthetic reactions; binding may be to either the oxidized form, NAD+, or the reduced form, NADH.</Detail>
+      <Keyword>NAD binding</Keyword>
+      <Ontology_ID>GO:0051287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a nitric oxide (NO) group to a sulphur atom within a cysteine residue of a protein.</Detail>
+      <Keyword>Peptidyl-cysteine S-nitrosylase activity</Keyword>
+      <Ontology_ID>GO:0035605</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: D-glyceraldehyde 3-phosphate + phosphate + NAD+ = 3-phospho-D-glyceroyl phosphate + NADH + H+.</Detail>
+      <Keyword>Glyceraldehyde-3-phosphate dehydrogenase (phosphorylating) activity</Keyword>
+      <Ontology_ID>GO:0004365</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with nicotinamide-adenine dinucleotide phosphate, a coenzyme involved in many redox and biosynthetic reactions; binding may be to either the oxidized form, NADP+, or the reduced form, NADPH.</Detail>
+      <Keyword>NADP binding</Keyword>
+      <Ontology_ID>GO:0050661</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Transfer of a nitric oxide (NO) group from one cysteine residue to another.</Detail>
+      <Keyword>Peptidyl-cysteine S-trans-nitrosylation</Keyword>
+      <Ontology_ID>GO:0035606</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of apoptosis in neurons, the basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system.</Detail>
+      <Keyword>Neuron apoptosis</Keyword>
+      <Ontology_ID>GO:0051402</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in maintaining the structure and integrity of a protein and preventing it from degradation or aggregation.</Detail>
+      <Keyword>Protein stabilization</Keyword>
+      <Ontology_ID>GO:0050821</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a monosaccharide (generally glucose) into pyruvate, with the concomitant production of a small amount of ATP. Pyruvate may be converted to ethanol, lactate, or other small molecules, or fed into the TCA cycle.</Detail>
+      <Keyword>Glycolysis</Keyword>
+      <Ontology_ID>GO:0006096</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>73</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>7</Position>
+      <PTM_Type>Deamidated asparagine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>182</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>64</Position>
+      <PTM_Type>N6,N6-dimethyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>146</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>332</Position>
+      <PTM_Type>N6,N6-dimethyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>62</Position>
+      <PTM_Type>Deamidated asparagine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>150</Position>
+      <PTM_Type>Cysteine persulfide</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>227</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>209</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>150</Position>
+      <PTM_Type>S-nitrosocysteine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>225</Position>
+      <PTM_Type>N6,N6-dimethyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>3</Position>
+      <PTM_Type>N6,N6-dimethyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>318</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>153</Position>
+      <PTM_Type>Deamidated asparagine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>192</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>261</Position>
+      <PTM_Type>N6,N6-dimethyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>235</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>213</Position>
+      <PTM_Type>N6,N6-dimethyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>314</Position>
+      <PTM_Type>Deamidated asparagine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>310</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>217</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>208</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>59</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>312</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>68</Position>
+      <PTM_Type>Deamidated asparagine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>149</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>225</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>147</Position>
+      <PTM_Type>Deamidated asparagine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>150</Position>
+      <PTM_Type>ADP-ribosylcysteine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>223</Position>
+      <PTM_Type>Deamidated asparagine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>192</Position>
+      <PTM_Type>N6-malonyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>120</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>184</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>192</Position>
+      <PTM_Type>N6,N6-dimethyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>258</Position>
+      <PTM_Type>N6,N6-dimethyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>213</Position>
+      <PTM_Type>N6-malonyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>152</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>252</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MVKVGVNGFGRIGRLVTRAAFNSGKVDVVAINDPFIDLHYMVYMFQYDSTHGKFHGTVKAENGKLVINGKAITIFQERDPANIKWGDAGAEYVVESTGVFTTMEKAGAHLKGGAKRVIISAPSADAPMFVMGVNHEKYDNSLKIVSNASCTTNCLAPLAKVIHDHFGIVEGLMTTVHAITATQKTVDGPSGKLWRDGRGAAQNIIPASTGAAKAVGKVIPELNGKLTGMAFRVPTPNVSVVDLTCRLEKAAKYDDIKKVVKQASEGPLKGILGYTEDQVVSCDFNSATHSSTFDAGAGIALNDHFVKLISWYDNEFGYSNRVVDLMVHMASKE</Protein_Seq>
+    <DNA_Seq>CGCTCCCGTTGCTGTCGCCCGTTCGACAGGCAGCCGCTTCTTCTCGTGCAGTGCTAGCGCGTCCCCGAGACACGATGGTGAAGGTCGGAGTGAACGGATTTGGCCGCATTGGGCGCCTGGTCACCAGGGCTGCTTTTAACTCTGGCAAAGTGGATGTTGTCGCCATCAATGATCCATTCATTGACCTCCACTACATGGTCTACATGTTCCAGTATGATTCCACCCACGGCAAGTTCCACGGCACGGTCAAGGCTGAGAACGGGAAGCTGGTCATCAACGGGAAGGCCATCACCATCTTCCAGGAGCGAGATCCCGCCAACATCAAGTGGGGTGATGCTGGTGCCGAGTACGTGGTGGAATCCACTGGCGTCTTCACCACCATGGAGAAGGCCGGGGCTCATTTGAAGGGCGGAGCCAAAAGGGTCATCATCTCAGCCCCCTCCKCCGATGCCCCCATGTTTGTGATGGGCGTGAACCACGAGAAGTATGACAACTCTCTCAAGATTGTCAGCAACGCATCCTGCACCACCAACTGCTTAGCCCCCCTGGCCAAGGTCATCCACGACCACTTCGGCATTGTGGAGGGGCTCATGACCACGGTGCACGCCATCACTGCCACCCAGAAGACCGTGGACGGGCCCTCTGGGAAGCTGTGGCGTGACGGCCGCGGGGCCGCCCAGAACATCATCCCTGCCTCCACTGGCGCTGCCAAGGCCGTGGGCAAGGTCATCCCCGAGCTGAACGGGAAACTCACTGGCATGGCCTTCCGTGTGCCCACCCCCAACGTGTCGGTCGTGGACCTGACCTGCCGCCTGGAGAAAGCTGCTAAGTATGACGACATCAAGAAGGTGGTGAAGCAGGCATCCGAGGGCCCCCTGAAGGGCATCCTGGGCTACACCGAGGACCAGGTCGTCTCCTGCGACTTCAACAGTGCCACCCACTCCTCTACCTTCGATGCTGGGGCTGGCATTGCCCTCAATGACCACTTTGTGAAGCTCATTTCCTGGTATGACAACGAATTTGGCTACAGCAACAGGGTGGTGGACCTCATGGTCCACATGGCCTCCAAGGAGTAAGAGCCCTCAAACCACCGGCCCCAGCGAGAGCACCAGAGGAGGACGAGAGGCCCTCAGCCGCTGGGGAGTCCCTGCCCCCACTCAGTCCCACCACGCTGAGAATCTGCCCCTCTTCACAGTTTCCATCCCAGACCCCCTGGAGGAGGGGAGGGGCTTAGGGAGCCCTACCTTGTCATGAAACCATCAATAAAGTCTCGACAGCAACG</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Skeletal muscle</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>GAPDH</Gene_Name>
+    <Gene_Alias>GAPD</Gene_Alias>
+    <Gene_ID>100009074</Gene_ID>
+    <Genbank_ACCN>NM_001082253</Genbank_ACCN>
+    <Protein_ACCN>NP_001075722</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/100009074</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of the rabbit muscle glyceraldehyde-3-phosphate dehydrogenase (GAPDH)</PDB_Title>
+      <PDB_ID>1J0X</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1J0X</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>NICOTINAMIDE-ADENINE-DINUCLEOTIDE</Ligand_Name>
+      <PubMed_Title>Structure of rabbit-muscle glyceraldehyde-3-phosphate dehydrogenase.</PubMed_Title>
+      <Author>Cowan-Jacob SW, et al.</Author>
+      <Journal>Acta Crystallogr D Biol Crystallogr.2003 Dec;59(Pt 12):2218-27. Epub  2003 Nov 27.</Journal>
+      <PubMed_ID>14646080</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00010</Pathway_ID>
+      <Pathway_Title>Glycolysis / Gluconeogenesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05010</Pathway_ID>
+      <Pathway_Title>Alzheimer's disease</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00710</Pathway_ID>
+      <Pathway_Title>Carbon fixation in photosynthetic organisms</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.c.b.d.bf.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1j0x</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Selwood T, et al. Arch Biochem Biophys. 2012,519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PubMed_ID>22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.2.1.12</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/12.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00030001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00200001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00360004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260005</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260007</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260009</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260013</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04400004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02100000_1</Organism_ID>
+  <Organism>Pseudomonas fluorescens</Organism>
+  <Organism_Latin>Pseudomonas fluorescens</Organism_Latin>
+  <UniProt_ID>Q3K7Y0</UniProt_ID>
+  <Seq_Length>336</Seq_Length>
+  <Molecule_Weight>37971</Molecule_Weight>
+  <KEGG_ID>pfo:Pfl01_4387</KEGG_ID>
+  <Orthology_ID>K00611</Orthology_ID>
+  <Catalytic_Mechanism>Carbamoyl phosphate + L-ornithine = phosphate + L-citrulline.</Catalytic_Mechanism>
+  <Pfam_ID>PF00185:OTCace@@PF02729:OTCace_N</Pfam_ID>
+  <Allosteric_Activator_Count>8</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>OTCase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: carbamoyl phosphate + L-ornithine = phosphate + L-citrulline.</Detail>
+      <Keyword>Ornithine carbamoyltransferase activity</Keyword>
+      <Ontology_ID>GO:0004585</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an amino acid, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Amino acid binding</Keyword>
+      <Ontology_ID>GO:0016597</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of arginine, 2-amino-5-(carbamimidamido)pentanoic acid.</Detail>
+      <Keyword>Arginine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006526</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAFNIHNRNLLSLEHHTPRELRYLLDLSRDLKRAKYTGTEQQHLKGNNIALIFEKTSTRTRCAFEVAAYDQGANVTYIDPNSSQIGHKESMKDTARVLGRMYDAIEYRGFKQEIVEELAKFAGVPVFNGLTDEYHPTQMIADVLTMREHADKPIHEISYAYLGDARNNMGNSLLLIGAKLGMDVRICAPKALWPHDDLVDRCKKYAEESGARITLTEDPKAAVKGVDFIHTDVWVSMGEPVEAWAERIQQLLPYQVNAELMKATGNPRTKFMHCLPAFHNSDTKVGKQIAEQYPHLKNGIEVTDDVFESPACIAFEQAENRMHTIKAILVSTLADL</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>arcB</Gene_Name>
+    <Gene_Alias>argF1</Gene_Alias>
+    <Genbank_ACCN>NC_007492</Genbank_ACCN>
+    <Protein_ACCN>YP_350115</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3712830</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of ornithine carbamoyltransferase, catabolic</PDB_Title>
+      <PDB_ID>ASD02100000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.1.3.3</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/1/3/3.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00030001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00240001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00490001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00860002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00860008</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01240008</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02100003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02100005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02100009</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02100010</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD12140000_1</Organism_ID>
+  <Organism>Human herpesvirus 8 type M</Organism>
+  <Organism_Latin>Human herpesvirus 8 type M</Organism_Latin>
+  <UniProt_ID>P88911</UniProt_ID>
+  <Seq_Length>553</Seq_Length>
+  <Molecule_Weight>59843</Molecule_Weight>
+  <Pfam_ID>PF00716:Peptidase_S21</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>ORF 17</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004252</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSLLSPGLSGSVSHTYFPSMAQGLYVGGFVDVVSCPKLEQELYLDPDQVTDYLPVTEPLPITIEHLPETEVGWTLGLFQVSHGIFCTGAITSPAFLELASRLADTSHVARAPVKNLPKEPLLEILHTWLPGLSLSSIHPRELSQTPSGPVFQHVSLCALGRRRGTVAVYGHDAEWVVSRFSSVSKSERAHILQHVSSCRLEDLSTPNFVSPLETLMAKAIDASFIRDRLDLLKTDRGVASILSPAYLKASQFPVGIQAVTPPRPAMNSSGQEDIISIPKSAFLSMLQSSIDGMKTTAAKMSHTLSGPGLMGCGGQMFPTDHHLPSYVSNPAPPYGYAYKNPYDPWYYSPQLPGYRTGKRKRGAEDDEGHLFPGEEPAYHKDILSMSKNIAEIQSELKEMKLNGWHAGPPPSSSAAAAAVDPHYRPHANSAVPCQFPTMKEHGGTYVHPPIYVQAPHGQFQQAAPILFAQPHVSHPPVSTGLAVVGAPPAEPTPASSTQSIQQQAPETTHTPCAAVEKDAPTPNPTSNRVEASSRSSPKSKIRKMFCEELLNKQ</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Genbank_ACCN>U75698</Genbank_ACCN>
+    <Protein_ACCN>AAC57098</Protein_ACCN>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of Kaposi's sarcoma-associated herpesvirus protease in complex with dimer disruptor</PDB_Title>
+      <PDB_ID>3NJQ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NJQ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD04992001</ASD_Ligand>
+      <PubMed_Title>Enzyme inhibition by allosteric capture of an inactive conformation.</PubMed_Title>
+      <Author>Lee, G.M., et al.</Author>
+      <Journal>J.Mol.Biol.(2011)411:999-1016</Journal>
+      <PubMed_ID>21723875</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/3njq</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <PDB_ID>3NJQ</PDB_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD04992001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-04-08</Create_Date>
+</Organism_Record>

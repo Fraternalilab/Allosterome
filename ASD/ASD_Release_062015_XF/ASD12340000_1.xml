@@ -1,0 +1,535 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD12340000_1</Organism_ID>
+  <Organism>Rat</Organism>
+  <Organism_Latin>Rattus norvegicus</Organism_Latin>
+  <UniProt_ID>P22756</UniProt_ID>
+  <Seq_Length>949</Seq_Length>
+  <Molecule_Weight>107840</Molecule_Weight>
+  <KEGG_ID>rno:29559</KEGG_ID>
+  <Function_Summary>Ionotropic glutamate receptor. L-glutamate acts as an excitatory neurotransmitter at many synapses in the central nervous system. Binding of the excitatory neurotransmitter L-glutamate induces a conformation change, leading to the opening of the cation channel, and thereby converts the chemical signal to an electrical impulse. The receptor then desensitizes rapidly and enters a transient inactive state, characterized by the presence of bound agonist. May be involved in the transmission of light information from the retina to the hypothalamus.</Function_Summary>
+  <Pfam_ID>PF01094:ANF_receptor@@PF00060:Lig_chan@@PF10613:Lig_chan-Glu_bd</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>7</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>GluR-5</Alias>
+      <Alias>GluR5</Alias>
+      <Alias>Glutamate receptor 5</Alias>
+      <Alias>GluK1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with glutamate, the anion of 2-aminopentanedioic acid.</Detail>
+      <Keyword>Glutamate binding</Keyword>
+      <Ontology_ID>GO:0016595</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a drug, any naturally occurring or synthetic substance, other than a nutrient, that, when administered or applied to an organism, affects the structure or functioning of the organism; in particular, any such substance used in the diagnosis, prevention, or treatment of disease.</Detail>
+      <Keyword>Drug binding</Keyword>
+      <Ontology_ID>GO:0008144</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of facilitated diffusion of an ion (by an energy-independent process) by passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism.</Detail>
+      <Keyword>Ion channel activity</Keyword>
+      <Ontology_ID>GO:0005216</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which forms or is a component of a ligand-gated channel. Ligand-gated channels are transmembrane ion channels whose permeability is increased by the binding of a specific ligand, such as neurotransmitters, ionositol triphosphates, and cyclic nucleotides.</Detail>
+      <Keyword>Ligand-gated ion channel</Keyword>
+      <Ontology_ID>KW-1071</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>An ionotropic glutamate receptor activity that exhibits fast gating by glutamate, acts by opening a cation channel permeable to sodium and potassium, and for which kainate is an agonist.</Detail>
+      <Keyword>Kainate selective glutamate receptor activity</Keyword>
+      <Ontology_ID>GO:0015277</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transmembrane transfer of a cation by a voltage-gated channel. A cation is a positively charged ion. A voltage-gated channel is a channel whose open state is dependent on the voltage across the membrane in which it is embedded.</Detail>
+      <Keyword>Voltage-gated cation channel activity</Keyword>
+      <Ontology_ID>GO:0022843</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transmembrane transfer of an ion by a channel that opens when extracellular glutamate has been bound by the channel complex or one of its constituent parts.</Detail>
+      <Keyword>Extracellular-glutamate-gated ion channel activity</Keyword>
+      <Ontology_ID>GO:0005234</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with glutamate to initiate a change in cell activity through the regulation of ion channels.</Detail>
+      <Keyword>Ionotropic glutamate receptor activity</Keyword>
+      <Ontology_ID>GO:0004970</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A process that modulates synaptic plasticity, the ability of synapses to change as circumstances require. They may alter function, such as increasing or decreasing their sensitivity, or they may increase or decrease in actual numbers.</Detail>
+      <Keyword>Regulation of synaptic plasticity</Keyword>
+      <Ontology_ID>GO:0048167</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the directed movement of ions from one side of a membrane to the other.</Detail>
+      <Keyword>Regulation of ion transmembrane transport</Keyword>
+      <Ontology_ID>GO:0034765</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A process in which an ion is transported from one side of a membrane to the other by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Ion transmembrane transport</Keyword>
+      <Ontology_ID>GO:0034220</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of communication from a neuron to a target (neuron, muscle, or secretory cell) across a synapse.</Detail>
+      <Keyword>Synaptic transmission</Keyword>
+      <Ontology_ID>GO:0007268</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A process that modulates short-term neuronal synaptic plasticity, the ability of neuronal synapses to change in the short-term as circumstances require. Short-term neuronal synaptic plasticity generally involves increasing or decreasing synaptic sensitivity.</Detail>
+      <Keyword>Regulation of short-term neuronal synaptic plasticity</Keyword>
+      <Ontology_ID>GO:0048172</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates, maintains or increases the frequency, rate or extent of GABAergic synaptic transmission, the process of communication from a neuron to another neuron across a synapse using the neurotransmitter gamma-aminobutyric acid (GABA).</Detail>
+      <Keyword>Positive regulation of synaptic transmission, GABAergic</Keyword>
+      <Ontology_ID>GO:0032230</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of glutamatergic synaptic transmission, the process of communication from a neuron to another neuron across a synapse using the neurotransmitter glutamate.</Detail>
+      <Keyword>Negative regulation of synaptic transmission, glutamatergic</Keyword>
+      <Ontology_ID>GO:0051967</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of charged atoms or small charged molecules into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Ion transport</Keyword>
+      <Ontology_ID>GO:0006811</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of glutamate binding to a cell surface receptor, followed by the movement of ions through a channel in the receptor complex.</Detail>
+      <Keyword>Ionotropic glutamate receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0035235</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of nervous tissue over time, from its formation to its mature state.</Detail>
+      <Keyword>Nervous system development</Keyword>
+      <Ontology_ID>GO:0007399</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of GABAergic synaptic transmission, the process of communication from a neuron to another neuron across a synapse using the neurotransmitter gamma-aminobutyric acid (GABA).</Detail>
+      <Keyword>Negative regulation of synaptic transmission, GABAergic</Keyword>
+      <Ontology_ID>GO:0032229</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>761</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>725</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MERSTVLIQPGLWTRDTSWTLLYFLCYILPQTSPQVLRIGGIFETVENEPVNVEELAFKFAVTSINRNRTLMPNTTLTYDIQRINLFDSFEASRRACDQLALGVAALFGPSHSSSVSAVQSICNALEVPHIQTRWKHPSVDSRDLFYINLYPDYAAISRAVLDLVLYYNWKTVTVVYEDSTGLIRLQELIKAPSRYNIKIKIRQLPPANKDAKPLLKEMKKSKEFYVIFDCSHETAAEILKQILFMGMMTEYYHYFFTTLDLFALDLELYRYSGVNMTGFRKLNIDNPHVSSIIEKWSMERLQAPPRPETGLLDGMMTTEAALMYDAVYMVAIASHRASQLTVSSLQCHRHKPCALGPRFMNLIKEARWDGLTGRITFNKTDGLRKDFDLDIISLKEEGTEKASGEVSKHLYKVWKKIGIWNSNSGLNMTDGNRDRSNNITDSLANRTLIVTTILEEPYVMYRKSDKPLYGNDRFEAYCLDLLKELSNILGFLYDVKLVPDGKYGAQNDKGEWNGMVKELIDHRADLAVAPLTITYVREKVIDFSKPFMTLGISILYRKPNGTNPGVFSFLNPLSPDIWMYVLLACLGVSCVLFVIARFTPYEWYNPHPCNPDSDVVENNFTLLNSFWFGVGALMQQGSELMPKALSTRIVGGIWWFFTLIIISSYTANLAAFLTVERMESPIDSADDLAKQTKIEYGAVRDGSTMTFFKKSKISTYEKMWAFMSSRQQSALVKNSDEGIQRVLTTDYALLMESTSIEYVTQRNCNLTQIGGLIDSKGYGVGTPIGSPYRDKITIAILQLQEEGKLHMMKEKWWRGNGCPEEDSKEASALGVENIGGIFIVLAAGLVLSVFVAIGEFLYKSRKNNDVEQKGKSSRLRFYFRNKVRFHGSKKESLGVEKCLSFNAIMEELGISLKNQKKLKKKSRTKGKSSFTSILTCHQRRTQRKETVA</Protein_Seq>
+    <DNA_Seq>CTAGGAAGCCCGCTTCACGTCCCCACGCTTGTTCCCTCCACCTCGCTCTCCTGAGAGCAGAGAGCGCGCGGTGTGCAGACTCGGAGCATTCCGGGAGGATGAGGCGGGGACCCAGCCCAAGTTGGGTGCATCTTGCGGGCGTGAGGCCACAACTGGGTTTCGGCATGAATTAAGAAGCTTGAAAGATGGAGCGCAGCACAGTCCTTATCCAACCCGGGCTCTGGACCAGGGACACCAGCTGGACACTCCTCTATTTCCTGTGCTACATCCTCCCTCAGACCTCCCCTCAAGTGCTCAGGATCGGAGGGATTTTTGAAACTGTGGAAAATGAACCTGTTAATGTTGAAGAATTAGCTTTCAAGTTTGCAGTCACCAGTATTAACCGAAACCGAACCTTGATGCCCAATACCACATTAACCTATGACATCCAGAGAATTAATCTTTTTGATAGTTTTGAAGCCTCCCGAAGAGCATGCGACCAGCTGGCTCTCGGGGTGGCCGCACTCTTCGGCCCTTCCCACAGCTCCTCCGTCAGTGCTGTACAGTCTATTTGCAATGCTCTGGAAGTTCCACACATTCAGACTCGCTGGAAACACCCTTCCGTGGACAGCAGAGACCTATTTTATATCAACCTCTACCCGGACTATGCGGCTATCAGCAGGGCGGTCCTGGATTTGGTCCTCTATTACAACTGGAAAACAGTGACGGTGGTGTATGAAGACAGCACAGGTCTAATTCGTCTGCAAGAGCTCATCAAAGCTCCCTCCAGATACAACATTAAAATCAAAATCCGCCAGCTTCCCCCTGCGAATAAAGACGCCAAACCTCTGCTCAAGGAGATGAAGAAAAGCAAAGAGTTCTATGTGATATTTGATTGTTCGCACGAAACAGCTGCGGAAATTCTTAAGCAGATTTTGTTCATGGGCATGATGACTGAATATTATCACTACTTCTTCACAACCCTGGACTTGTTTGCTTTAGATCTGGAACTCTATAGGTACAGCGGTGTAAATATGACTGGATTTCGGTTGCTGAATATTGACAACCCTCACGTGTCATCCATCATTGAGAAGTGGTCCATGGAGAGGTTGCAGGCCCCGCCCAGACCCGAGACTGGTCTTCTGGATGGCATGATGACAACTGAAGCAGCGCTGATGTACGATGCTGTGTACATGGTAGCCATTGCGTCCCACCGTGCCTCTCAGCTGACCGTCAGCTCCCTGCAGTGCCATCGACATAAGCCATGGCGCCTTGGACCCAGATTTATGAACCTCATCAAAGAGGCTCGGTGGGACGGCTTGACTGGGCGGATCACCTTCAATAAGACCGATGGCTTGAGAAAGGATTTTGACCTGGACATTATCAGTCTCAAAGAGGAAGGAACTGAAAAGATTGGGATTTGGAACTCCAACAGTGGGCTGAACATGACGGATGGCAACAGAGACAGGTCCAACAATATCACGGACTCGCTGGCTAACCGCACACTCATTGTCACCACTATTCTGGAAGAGCCCTACGTGATGTACAGGAAATCCGATAAGCCCTTGTATGGAAACGACAGGTTTGAAGGATATTGCCTGGATCTGCTGAAAGAACTGTCCAATATCCTGGGTTTTCTTTACGATGTTAAACTGGTTCCTGATGGCAAATATGGAGCACAGAATGACAAAGGGGAATGGAATGGGATGGTAAAAGAACTCATCGACCACAGAGCTGACCTGGCAGTGGCCCCTCTCACCATCACATACGTACGGGAGAAAGTCATTGACTTCTCCAAGCCCTTCATGACCCTGGGCATTAGCATCCTTTACCGGAAGCCCAATGGAACCAACCCGGGTGTCTTCTCCTTCCTCAACCCCCTATCTCCGGACATTTGGATGTACGTGCTGCTCGCCTGCCTAGGAGTCAGTTGTGTACTGTTTGTGATTGCGAGGTTCACACCCTACGAGTGGTATAACCCCCACCCATGCAACCCCGACTCAGACGTGGTGGAAAACAATTTCACTTTGCTAAATAGTTTCTGGTTTGGAGTTGGAGCTCTCATGCAGCAAGGATCAGAGCTGATGCCCAAGGCTCTATCGACCAGAATAGTTGGAGGAATATGGTGGTTTTTCACCCTAATCATCATTTCATCCTACACGGCCAACCTGGCTGCCTTCTTGACGGTAGAAAGAATGGAATCCCCCATCGATTCCGCAGACGATCTGGCCAAACAAACCAAGATAGAATATGGGGCAGTCAGAGATGGCTCGACGATGACCTTCTTCAAGAAATCAAAGATCTCCACCTATGAGAAAATGTGGGCTTTCATGAGCAGTAGACAGCAGAGCGCACTGGTTAAAAACAGTGACGAGGGGATCCAAAGGGTGCTCACCACCGACTACGCACTGCTGATGGAGTCCACCAGCATTGAGTATGTGACGCAGAGGAACTGCAACCTCACTCAGATCGGGGGCCTCATAGACTCCAAAGGCTATGGAGTGGGGACGCCTATCGGCTCCCCTTACCGGGATAAAATTACGATTGCCATTCTTCAACTGCAAGAAGAAGGGAAGCTTCATATGATGAAAGAGAAGTGGTGGAGGGGGAATGGCTGCCCTGAAGAAGACAGTAAGGAAGCCAGTGCTCTGGGAGTGGAAAATATCGGCGGCATCTTCATTGTTCTGGCTGCAGGACTCGTGCTTTCTGTGTTTGTAGCCATTGGAGAATTTTTATACAAATCACGGAAGAACAATGACGTTGAGCAGTGTCTCTCTTTCAATGCCATCATGGAAGAGCTGGGAATATCCCTCAAGAATCAGAAAAAATTAAAGAAAAAGTCAAGAACTAAGGGCAAATCTTCTTTCACAAGTATCCTTACTTGTCACCAGAGACGAACTCAGAGAAAAGAGACAGTGGCGTGATCAAAGAACACACCTGTAAGAAGAAAAAGCCCACACGTCCGCTGCACATATTTGGAGGACAGATTTCAGAGGACTATGTCTTTATCCATAACCCCAGTCGTGGACAGAGGGGGAAGAAATGCACAATTTTTAAAGCTCACATAGATATTACTTGAGAAGTGAAACTGATTCTTTTCAGATGAATTTGTATGCACACTTATTTTGAATTTTTCCATTTCCTCCGATAAATTGCTATGTGTGCTTTCTAAATAATAATAAACAAGCGGACTTTGTTTTTCATAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Neurons</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell junction</CellLocal>
+      <Ontology_ID>GO:0030054</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Neuronal cell body</CellLocal>
+      <Ontology_ID>GO:0043025</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Kainate selective glutamate receptor complex</CellLocal>
+      <Ontology_ID>GO:0032983</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Dendrite</CellLocal>
+      <Ontology_ID>GO:0030425</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Terminal button</CellLocal>
+      <Ontology_ID>GO:0043195</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Receptor complex</CellLocal>
+      <Ontology_ID>GO:0043235</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Presynaptic membrane</CellLocal>
+      <Ontology_ID>GO:0042734</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Postsynaptic membrane</CellLocal>
+      <Ontology_ID>GO:0045211</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Synapse</CellLocal>
+      <Ontology_ID>GO:0045202</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Ionotropic glutamate receptor complex</CellLocal>
+      <Ontology_ID>GO:0008328</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>Grik1</Gene_Name>
+    <Gene_Alias>Glur5</Gene_Alias>
+    <Gene_ID>29559</Gene_ID>
+    <Genbank_ACCN>NM_001111114</Genbank_ACCN>
+    <Protein_ACCN>NP_001104584</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/29559</Gene_URL>
+    <UCSC_ID>RGD:2732</UCSC_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of the GluR5 Ligand Binding Core Dimer with UBP310 At 1.74 Angstroms Resolution</PDB_Title>
+      <PDB_ID>2F34</PDB_ID>
+      <Resolution>1.74</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F34</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the kainate receptor GluR5 ligand binding core dimer with novel GluR5-selective antagonists.</PubMed_Title>
+      <Author>Mayer, M.L., et al.</Author>
+      <Journal>J.Neurosci.(2006)26:2852-2861</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16540562?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE LIGAND-BINDING CORE OF GLUR5 IN COMPLEX WITH THE AGONIST 4-AHCP</PDB_Title>
+      <PDB_ID>2WKY</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WKY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Glutamate Receptor Glur5 Agonist (S)-2-Amino-3-(3-Hydroxy-7,8-Dihydro-6H-Cyclohepta[D]Isoxazol-4-Yl)Propionic Acid and the 8-Methyl Analogue: Synthesis, Molecular Pharmacology, and Biostructural Characterization</PubMed_Title>
+      <Author>Clausen, R.P., et al.</Author>
+      <Journal>J.Med.Chem.(2009)52:4911</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19588945?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Ligand-Binding Core of iGluR5 in Complex with the Partial agonist Domoic Acid at 2.5 A Resolution</PDB_Title>
+      <PDB_ID>2PBW</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PBW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Partial agonism and antagonism of the ionotropic glutamate receptor iGLuR5: structures of the ligand-binding core in complex with domoic acid and 2-amino-3-[5-tert-butyl-3-(phosphonomethoxy)-4-isoxazolyl]propionic acid.</PubMed_Title>
+      <Author>Hald, H., et al.</Author>
+      <Journal>J.Biol.Chem.(2007)282:25726-25736</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17581823?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of GluR5 ligand-binding core in complex with rubidium at 1.82 Angstrom resolution</PDB_Title>
+      <PDB_ID>3C34</PDB_ID>
+      <Resolution>1.82</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C34</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD12340007;ASD01630003</ASD_Ligand>
+      <PubMed_Title>Molecular basis of kainate receptor modulation by sodium.</PubMed_Title>
+      <Author>Plested, A.J., et al.</Author>
+      <Journal>Neuron(2008)58:720-735</Journal>
+      <PubMed_ID>18549784</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of GluR5 ligand-binding core in complex with potassium at 1.78 Angstrom resolution</PDB_Title>
+      <PDB_ID>3C33</PDB_ID>
+      <Resolution>1.72</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C33</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD12340005;ASD01630003</ASD_Ligand>
+      <PubMed_Title>Molecular basis of kainate receptor modulation by sodium.</PubMed_Title>
+      <Author>Plested, A.J., et al.</Author>
+      <Journal>Neuron(2008)58:720-735</Journal>
+      <PubMed_ID>18549784</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of GluR5 ligand-binding core in complex with cesium at 1.97 Angstrom resolution</PDB_Title>
+      <PDB_ID>3C35</PDB_ID>
+      <Resolution>1.97</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C35</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD12340009;ASD01630003</ASD_Ligand>
+      <PubMed_Title>Molecular basis of kainate receptor modulation by sodium.</PubMed_Title>
+      <Author>Plested, A.J., et al.</Author>
+      <Journal>Neuron(2008)58:720-735</Journal>
+      <PubMed_ID>18549784</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the GluR5 ligand binding core dimer in complex with UBP318 at 1.80 Angstroms resolution</PDB_Title>
+      <PDB_ID>2QS2</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QS2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Binding site and ligand flexibility revealed by high resolution crystal structures of GluK1 competitive antagonists.</PubMed_Title>
+      <Author>Alushin, G.M., et al.</Author>
+      <Journal>Neuropharmacology(2011)60:126-134</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20558186?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the GluR5 ligand binding core dimer in complex with UBP315 at 1.80 Angstroms resolution</PDB_Title>
+      <PDB_ID>2QS1</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QS1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Binding site and ligand flexibility revealed by high resolution crystal structures of GluK1 competitive antagonists.</PubMed_Title>
+      <Author>Alushin, G.M., et al.</Author>
+      <Journal>Neuropharmacology(2011)60:126-134</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20558186?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the GluK1 ligand-binding domain (S1S2) in complex with the antagonist (S)-2-amino-3-(2-(2-carboxyethyl)-5-chloro-4-nitrophenyl)propionic acid at 2.0 A resolution</PDB_Title>
+      <PDB_ID>4DLD</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4DLD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and pharmacological characterization of phenylalanine-based AMPA receptor antagonists at kainate receptors</PubMed_Title>
+      <Author>Venskutonyte, R., et al.</Author>
+      <Journal>Chemmedchem(2012)7:1793-1798</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22407805?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Ligand Binding Domain of GluK1 in Complex with an Antagonist (S)-1-(2'-Amino-2'-carboxyethyl)-3-[(2-carboxythien-3-yl)methyl]thieno[3,4-d]pyrimidin-2,4-dione at 2.5 A Resolution</PDB_Title>
+      <PDB_ID>3S2V</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3S2V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Selective kainate receptor (GluK1) ligands structurally based upon 1H-cyclopentapyrimidin-2,4(1H,3H)-dione: synthesis, molecular modeling, and pharmacological and biostructural characterization.</PubMed_Title>
+      <Author>Venskutonyte, R., et al.</Author>
+      <Journal>J.Med.Chem.(2011)54:4793-4805</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21619066?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure and mechanism of kainate receptor modulation by anions</PDB_Title>
+      <PDB_ID>2OJT</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OJT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and mechanism of kainate receptor modulation by anions.</PubMed_Title>
+      <Author>Plested, A.J., et al.</Author>
+      <Journal>Neuron(2007)53:829-841</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17359918?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the kainate receptor GluR5 ligand-binding core in complex with (S)-glutamate</PDB_Title>
+      <PDB_ID>1YCJ</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YCJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the kainate receptor GluR5 ligand-binding core in complex with (S)-glutamate</PubMed_Title>
+      <Author>Naur, P., et al.</Author>
+      <Journal>Febs Lett.(2005)579:1154-1160</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15710405?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray structure of iGluR5 ligand-binding core (S1S2) in complex with dysiherbaine at 1.35A resolution</PDB_Title>
+      <PDB_ID>3GBA</PDB_ID>
+      <Resolution>1.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GBA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Full Domain Closure of the Ligand-binding Core of the Ionotropic Glutamate Receptor iGluR5 Induced by the High Affinity Agonist Dysiherbaine and the Functional Antagonist 8,9-Dideoxyneodysiherbaine</PubMed_Title>
+      <Author>Frydenvang, K., et al.</Author>
+      <Journal>J.Biol.Chem.(2009)284:14219-14229</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19297335?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Ligand-Binding Core of iGluR5 in Complex With the Antagonist (S)-ATPO at 1.85 A resolution</PDB_Title>
+      <PDB_ID>1VSO</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VSO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Partial agonism and antagonism of the ionotropic glutamate receptor iGLuR5: structures of the ligand-binding core in complex with domoic acid and 2-amino-3-[5-tert-butyl-3-(phosphonomethoxy)-4-isoxazolyl]propionic acid.</PubMed_Title>
+      <Author>Hald, H., et al.</Author>
+      <Journal>J.Biol.Chem.(2007)282:25726-25736</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17581823?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the GluR5 ligand binding core dimer in complex with UBP316 at 1.76 Angstroms resolution</PDB_Title>
+      <PDB_ID>2QS3</PDB_ID>
+      <Resolution>1.76</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QS3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>ACET is a highly potent and specific kainate receptor antagonist: characterisation and effects on hippocampal mossy fibre function.</PubMed_Title>
+      <Author>Dargan, S.L., et al.</Author>
+      <Journal>Neuropharmacology(2009)56:121-130</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18789344?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of GluR5 ligand-binding core in complex with sodium at 1.72 Angstrom resolution</PDB_Title>
+      <PDB_ID>3C32</PDB_ID>
+      <Resolution>1.72</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C32</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03160008;ASD01630003</ASD_Ligand>
+      <PubMed_Title>Molecular basis of kainate receptor modulation by sodium.</PubMed_Title>
+      <Author>Plested, A.J., et al.</Author>
+      <Journal>Neuron(2008)58:720-735</Journal>
+      <PubMed_ID>18549784</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of GluR5 ligand-binding core in complex with lithium at 1.49 Angstrom resolution</PDB_Title>
+      <PDB_ID>3C31</PDB_ID>
+      <Resolution>1.49</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C31</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD12340001;ASD01630003</ASD_Ligand>
+      <PubMed_Title>Molecular basis of kainate receptor modulation by sodium.</PubMed_Title>
+      <Author>Plested, A.J., et al.</Author>
+      <Journal>Neuron(2008)58:720-735</Journal>
+      <PubMed_ID>18549784</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the GluR5 Ligand Binding Core with UBP302 At 1.87 Angstroms Resolution</PDB_Title>
+      <PDB_ID>2F35</PDB_ID>
+      <Resolution>1.87</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F35</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the kainate receptor GluR5 ligand binding core dimer with novel GluR5-selective antagonists.</PubMed_Title>
+      <Author>Mayer, M.L., et al.</Author>
+      <Journal>J.Neurosci.(2006)26:2852-2861</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16540562?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the kainate receptor GluK1 ligand-binding domain in complex with kainate in the absence of glycerol</PDB_Title>
+      <PDB_ID>4E0X</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4E0X</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Kainate induces various domain closures in AMPA and kainate receptors.</PubMed_Title>
+      <Author>Venskutonyte, R., et al.</Author>
+      <Journal>Neurochem Int(2012)61:536-545</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22425692?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray strucutre of iGluR5 ligand-binding core (S1S2) in complex with MSVIII-19 at 2.10A resolution</PDB_Title>
+      <PDB_ID>3GBB</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GBB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Full Domain Closure of the Ligand-binding Core of the Ionotropic Glutamate Receptor iGluR5 Induced by the High Affinity Agonist Dysiherbaine and the Functional Antagonist 8,9-Dideoxyneodysiherbaine</PubMed_Title>
+      <Author>Frydenvang, K., et al.</Author>
+      <Journal>J.Biol.Chem.(2009)284:14219-14229</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19297335?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE GLUR5 LIGAND BINDING CORE IN COMPLEX WITH GLUTAMATE AT 2.1 ANGSTROM RESOLUTION</PDB_Title>
+      <PDB_ID>1TXF</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TXF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the GluR5 and GluR6 ligand binding cores: Molecular mechanisms underlying kainate receptor selectivity</PubMed_Title>
+      <Author>Mayer, M.L., et al.</Author>
+      <Journal>Neuron(2005)45:539-552</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15721240?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of GluR5 ligand-binding core in complex with ammonium ions at 1.68 Angstrom resolution</PDB_Title>
+      <PDB_ID>3C36</PDB_ID>
+      <Resolution>1.68</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C36</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD12340011;ASD01630003</ASD_Ligand>
+      <PubMed_Title>Molecular basis of kainate receptor modulation by sodium.</PubMed_Title>
+      <Author>Plested, A.J., et al.</Author>
+      <Journal>Neuron(2008)58:720-735</Journal>
+      <PubMed_ID>18549784</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the GluR5 Ligand Binding Core Dimer with Glutamate At 2.1 Angstroms Resolution</PDB_Title>
+      <PDB_ID>2F36</PDB_ID>
+      <Resolution>2.11</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F36</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the kainate receptor GluR5 ligand binding core dimer with novel GluR5-selective antagonists.</PubMed_Title>
+      <Author>Mayer, M.L., et al.</Author>
+      <Journal>J.Neurosci.(2006)26:2852-2861</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16540562?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the GluR5 ligand binding core dimer in complex with LY466195 at 1.58 Angstroms resolution</PDB_Title>
+      <PDB_ID>2QS4</PDB_ID>
+      <Resolution>1.58</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QS4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Binding site and ligand flexibility revealed by high resolution crystal structures of GluK1 competitive antagonists.</PubMed_Title>
+      <Author>Alushin, G.M., et al.</Author>
+      <Journal>Neuropharmacology(2011)60:126-134</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20558186?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.beb.b.b.dd.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1txf</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <PDB_ID>3C31;3C33;3C34;3C35;3C36</PDB_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01630003</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03160008</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD12340001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD12340005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD12340007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD12340009</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD12340011</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-05-20</Create_Date>
+</Organism_Record>

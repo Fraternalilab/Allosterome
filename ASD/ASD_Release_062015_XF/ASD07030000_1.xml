@@ -1,0 +1,856 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07030000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>O60341</UniProt_ID>
+  <Seq_Length>852</Seq_Length>
+  <Molecule_Weight>92903</Molecule_Weight>
+  <KEGG_ID>hsa:23028</KEGG_ID>
+  <Orthology_ID>K11450</Orthology_ID>
+  <EBI_ID>EBI-710124</EBI_ID>
+  <Function_Summary>Histone demethylase that demethylates both 'Lys-4' (H3K4me) and 'Lys-9' (H3K9me) of histone H3, thereby acting as a coactivator or a corepressor, depending on the context. Acts by oxidizing the substrate by FAD to generate the corresponding imine that is subsequently hydrolyzed. Acts as a corepressor by mediating demethylation of H3K4me, a specific tag for epigenetic transcriptional activation. Demethylates both mono- (H3K4me1) and di-methylated (H3K4me2) H3K4me. May play a role in the repression of neuronal genes. Alone, it is unable to demethylate H3K4me on nucleosomes and requires the presence of RCOR1/CoREST to achieve such activity. Also acts as a coactivator of androgen receptor (ANDR)-dependent transcription, by being recruited to ANDR target genes and mediating demethylation of H3K9me, a specific tag for epigenetic transcriptional repression. The presence of PRKCB in ANDR-containing complexes, which mediates phosphorylation of 'Thr-6' of histone H3 (H3T6ph), a specific tag that prevents demethylation H3K4me, prevents H3K4me demethylase activity of KDM1A. Demethylates di-methylated 'Lys-370' of p53/TP53 which prevents interaction of p53/TP53 with TP53BP1 and represses p53/TP53-mediated transcriptional activation. Demethylates and stabilizes the DNA methylase DNMT1. Required for gastrulation during embryogenesis. Component of a RCOR/GFI/KDM1A/HDAC complex that suppresses, via histone deacetylase (HDAC) recruitment, a number of genes implicated in multilineage blood cell development.</Function_Summary>
+  <Pfam_ID>PF01593:Amino_oxidase@@PF04433:SWIRM</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>80</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>BRAF35-HDAC complex protein BHC110</Alias>
+      <Alias>Flavin-containing amine oxidase domain-containing protein 2</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a DNA region that regulates the transcription of a region of DNA, which may be a gene, cistron, or operon. Binding may occur as a sequence specific interaction or as an interaction observed only once a factor has been recruited to the DNA by other factors.</Detail>
+      <Keyword>Transcription regulatory region DNA binding</Keyword>
+      <Ontology_ID>GO:0044212</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the removal of a methyl group from dimethylated lysine at position 4 of the histone H3 protein.</Detail>
+      <Keyword>Histone demethylase activity (H3-dimethyl-K4 specific)</Keyword>
+      <Ontology_ID>GO:0034648</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with chromatin, the network of fibers of DNA and protein that make up the chromosomes of the eukaryotic nucleus during interphase.</Detail>
+      <Keyword>Chromatin binding</Keyword>
+      <Ontology_ID>GO:0003682</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an androgen receptor.</Detail>
+      <Keyword>Androgen receptor binding</Keyword>
+      <Ontology_ID>GO:0050681</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: histone H3 N6-methyl-L-lysine (position 9) + alpha-ketoglutarate + O2 = succinate + CO2 + formaldehyde + lysine. This reaction is the removal of a methyl group from lysine at position 9 of the histone H3 protein.</Detail>
+      <Keyword>Histone demethylase activity (H3-K9 specific)</Keyword>
+      <Ontology_ID>GO:0032454</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>The function of a transcription cofactor that activates transcription in conjuction with a ligand-dependent nuclear receptor from a RNA polymerase II promoter; does not bind DNA itself.</Detail>
+      <Keyword>Ligand-dependent nuclear receptor transcription coactivator activity</Keyword>
+      <Ontology_ID>GO:0030374</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with Myogenic Regulatory Factor (MRF), a member of the basic Helix-Loop-Helix (bHLH) superfamily of transcription factors.</Detail>
+      <Keyword>MRF binding</Keyword>
+      <Ontology_ID>GO:0043426</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any enzyme.</Detail>
+      <Keyword>Enzyme binding</Keyword>
+      <Ontology_ID>GO:0019899</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced.</Detail>
+      <Keyword>Oxidoreductase activity</Keyword>
+      <Ontology_ID>GO:0016491</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with one of the p53 family of proteins.</Detail>
+      <Keyword>P53 binding</Keyword>
+      <Ontology_ID>GO:0002039</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with FAD, flavin-adenine dinucleotide, the coenzyme or the prosthetic group of various flavoprotein oxidoreductase enzymes, in either the oxidized form, FAD, or the reduced form, FADH2.</Detail>
+      <Keyword>Flavin adenine dinucleotide binding</Keyword>
+      <Ontology_ID>GO:0050660</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The biological process whose specific outcome is the progression of a multicellular organism over time from an initial condition (e.g. a zygote or a young adult) to a later condition (e.g. a multicellular animal or an aged adult).</Detail>
+      <Keyword>Multicellular organismal development</Keyword>
+      <Ontology_ID>GO:0007275</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of transcription from an RNA polymerase II promoter.</Detail>
+      <Keyword>Negative regulation of transcription from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0000122</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops or reduces the frequency, rate or extent of DNA binding. DNA binding is any process in which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>Negative regulation of DNA binding</Keyword>
+      <Ontology_ID>GO:0043392</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell death by apoptosis.</Detail>
+      <Keyword>Negative regulation of apoptosis</Keyword>
+      <Ontology_ID>GO:0043066</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of a muscle cell over time, from its formation to the mature structure. Muscle cell development does not include the steps involved in committing an unspecified cell to the muscle cell fate.</Detail>
+      <Keyword>Muscle cell development</Keyword>
+      <Ontology_ID>GO:0055001</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of transcription from the RNA polymerase II promoter.</Detail>
+      <Keyword>Positive regulation of transcription from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0045944</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of protein binding.</Detail>
+      <Keyword>Negative regulation of protein binding</Keyword>
+      <Ontology_ID>GO:0032091</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the activity of a transcription factor, any factor involved in the initiation or regulation of transcription.</Detail>
+      <Keyword>Negative regulation of transcription factor activity</Keyword>
+      <Ontology_ID>GO:0043433</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of activity of a transcription factor, any factor involved in the initiation or regulation of transcription.</Detail>
+      <Keyword>Positive regulation of transcription factor activity</Keyword>
+      <Ontology_ID>GO:0051091</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The alteration of DNA or protein in chromatin, which may result in changing the chromatin structure.</Detail>
+      <Keyword>Chromatin modification</Keyword>
+      <Ontology_ID>GO:0016568</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the cascade of processes induced by the cell cycle regulator phosphoprotein p53, or an equivalent protein, in response to the detection of DNA damage.</Detail>
+      <Keyword>Negative regulation of DNA damage response, signal transduction by p53 class mediator</Keyword>
+      <Ontology_ID>GO:0043518</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The sequential process in which the multiple coagulation factors of the blood interact, ultimately resulting in the formation of an insoluble fibrin clot; it may be divided into three stages: stage 1, the formation of intrinsic and extrinsic prothrombin converting principle; stage 2, the formation of thrombin; stage 3, the formation of stable fibrin polymers.</Detail>
+      <Keyword>Blood coagulation</Keyword>
+      <Ontology_ID>GO:0007596</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>80</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>166</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>126</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>131</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>137</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>849</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>104</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MLSGKKAAAAAAAAAAAATGTEAGPGTAGGSENGSEVAAQPAGLSGPAEVGPGAVGERTPRKKEPPRASPPGGLAEPPGSAGPQAGPTVVPGSATPMETGIAETPEGRRTSRRKRAKVEYREMDESLANLSEDEYYSEEERNAKAEKEKKLPPPPPQAPPEEENESEPEEPSGVEGAAFQSRLPHDRMTSQEAACFPDIISGPQQTQKVFLFIRNRTLQLWLDNPKIQLTFEATLQQLEAPYNSDTVLVHRVHSYLERHGLINFGIYKRIKPLPTKKTGKVIIIGSGVSGLAAARQLQSFGMDVTLLEARDRVGGRVATFRKGNYVADLGAMVVTGLGGNPMAVVSKQVNMELAKIKQKCPLYEANGQAVPKEKDEMVEQEFNRLLEATSYLSHQLDFNVLNNKPVSLGQALEVVIQLQEKHVKDEQIEHWKKIVKTQEELKELLNKMVNLKEKIKELHQQYKEASEVKPPRDITAEFLVKSKHRDLTALCKEYDELAETQGKLEEKLQELEANPPSDVYLSSRDRQILDWHFANLEFANATPLSTLSLKHWDQDDDFEFTGSHLTVRNGYSCVPVALAEGLDIKLNTAVRQVRYTASGCEVIAVNTRSTSQTFIYKCDAVLCTLPLGVLKQQPPAVQFVPPLPEWKTSAVQRMGFGNLNKVVLCFDRVFWDPSVNLFGHVGSTTASRGELFLFWNLYKAPILLALVAGEAAGIMENISDDVIVGRCLAILKGIFGSSAVPQPKETVVSRWRADPWARGSYSYVAAGSSGNDYDLMAQPITPGPSIPGAPQPIPRLFFAGEHTIRNYPATVHGALLSGLREAGRIADQFLGAMYTLPRQATPGVPAQQSPSM</Protein_Seq>
+    <DNA_Seq>GGCGCGGCGGGAGCGCGCTTGGCGCGTGCGTACGCGACGGCGGTTGGCGGCGCGCGGGCAGCGTGAAGCGAGGCGAGGCAAGGCTTTTCGGACCCACGGAGCGACAGAGCGAGCGGCCCCTACGGCCGTCGGCGGCCCGGCGGCCCGAGATGTTATCTGGGAAGAAGGCGGCAGCCGCGGCGGCGGCGGCTGCAGCGGCAGCAACCGGGACGGAGGCTGGCCCTGGGACAGCAGGCGGCTCCGAGAACGGGTCTGAGGTGGCCGCGCAGCCCGCGGGCCTGTCGGGCCCAGCCGAGGTCGGGCCGGGGGCGGTGGGGGAGCGCACACCCCGCAAGAAAGAGCCTCCGCGGGCCTCGCCCCCCGGGGGCCTGGCGGAACCGCCGGGGTCCGCAGGGCCTCAGGCCGGCCCTACTGTCGTGCCTGGGTCTGCGACCCCCATGGAAACTGGAATAGCAGAGACTCCGGAGGGGCGTCGGACCAGCCGGCGCAAGCGGGCGAAGGTAGAGTACAGAGAGATGGATGAAAGCTTGGCCAACCTCTCAGAAGATGAGTATTATTCAGAAGAAGAGAGAAATGCCAAAGCAGAGAAGGAAAAGAAGCTTCCCCCACCACCCCCTCAAGCCCCACCTGAGGAAGAAAATGAAAGTGAGCCTGAAGAACCATCGGGGCAAGCAGGAGGACTTCAAGACGACAGTTCTGGAGGGTATGGAGACGGCCAAGCATCAGGTGTGGAGGGCGCAGCTTTCCAGAGCCGACTTCCTCATGACCGGATGACTTCTCAAGAAGCAGCCTGTTTTCCAGATATTATCAGTGGACCACAACAGACCCAGAAGGTTTTTCTTTTCATTAGAAACCGCACACTGCAGTTGTGGTTGGATAATCCAAAGATTCAGCTGACATTTGAGGCTACTCTCCAACAATTAGAAGCACCTTATAACAGTGATACTGTGCTTGTCCACCGAGTTCACAGTTATTTAGAGCGTCATGGTCTTATCAACTTCGGCATCTATAAGAGGATAAAACCCCTACCAACTAAAAAGACAGGAAAGGTAATTATTATAGGCTCTGGGGTCTCAGGCTTGGCAGCAGCTCGACAGTTACAAAGTTTTGGAATGGATGTCACACTTTTGGAAGCCAGGGATCGTGTGGGTGGACGAGTTGCCACATTTCGCAAAGGAAACTATGTAGCTGATCTTGGAGCCATGGTGGTAACAGGTCTTGGAGGGAATCCTATGGCTGTGGTCAGCAAACAAGTAAATATGGAACTGGCCAAGATCAAGCAAAAATGCCCACTTTATGAAGCCAACGGACAAGCTGACACTGTCAAGGTTCCTAAAGAGAAAGATGAAATGGTAGAGCAAGAGTTTAACCGGTTGCTAGAAGCTACATCTTACCTTAGTCATCAACTAGACTTCAATGTCCTCAATAATAAGCCTGTGTCCCTTGGCCAGGCATTGGAAGTTGTCATTCAGTTACAAGAGAAGCATGTCAAAGATGAGCAGATTGAACATTGGAAGAAGATAGTGAAAACTCAGGAAGAATTGAAAGAACTTCTTAATAAGATGGTAAATTTGAAAGAGAAAATTAAAGAACTCCATCAGCAATACAAAGAAGCATCTGAAGTAAAGCCACCCAGAGATATTACTGCCGAGTTCTTAGTGAAAAGCAAACACAGGGATCTGACCGCCCTATGCAAGGAATATGATGAATTAGCTGAAACACAAGGAAAGCTAGAAGAAAAACTTCAGGAGTTGGAAGCGAATCCCCCAAGTGATGTATATCTCTCATCAAGAGACAGACAAATACTTGATTGGCATTTTGCAAATCTTGAATTTGCTAATGCCACACCTCTCTCAACTCTCTCCCTTAAGCACTGGGATCAGGATGATGACTTTGAGTTCACTGGCAGCCACCTGACAGTAAGGAATGGCTACTCGTGTGTGCCTGTGGCTTTAGCAGAAGGCCTAGACATTAAACTGAATACAGCAGTGCGACAGGTTCGCTACACGGCTTCAGGATGTGAAGTGATAGCTGTGAATACCCGCTCCACGAGTCAAACCTTTATTTATAAATGCGACGCAGTTCTCTGTACCCTTCCCCTGGGTGTGCTGAAGCAGCAGCCACCAGCCGTTCAGTTTGTGCCACCTCTCCCTGAGTGGAAAACATCTGCAGTCCAAAGGATGGGATTTGGCAACCTTAACAAGGTGGTGTTGTGTTTTGATCGGGTGTTCTGGGATCCAAGTGTCAATTTGTTCGGGCATGTTGGCAGTACGACTGCCAGCAGGGGTGAGCTCTTCCTCTTCTGGAACCTCTATAAAGCTCCAATACTGTTGGCACTAGTGGCAGGAGAAGCTGCTGGTATCATGGAAAACATAAGTGACGATGTGATTGTTGGCCGATGCCTGGCCATTCTCAAAGGGATTTTTGGTAGCAGTGCAGTACCTCAGCCCAAAGAAACTGTGGTGTCTCGTTGGCGTGCTGATCCCTGGGCTCGGGGCTCTTATTCCTATGTTGCTGCAGGATCATCTGGAAATGACTATGATTTAATGGCTCAGCCAATCACTCCTGGCCCCTCGATTCCAGGTGCCCCACAGCCGATTCCACGACTCTTCTTTGCGGGAGAACATACGATCCGTAACTACCCAGCCACAGTGCATGGTGCTCTGCTGAGTGGGCTGCGAGAAGCGGGAAGAATTGCAGACCAGTTTTTGGGGGCCATGTATACGCTGCCTCGCCAGGCCACACCAGGTGTTCCTGCACAGCAGTCCCCAAGCATGTGAGACAGATGCATTCTAAGGGAAGAGGCCCATGTGCCTGTTTCTGCCATGTAAGGAAGGCTCTTCTAGCAATACTAGATCCCACTGAGAAAATCCACCCTGGCATCTGGGCTCCTGATCAGCTGATGGAGCTCCTGATTTGACAAAGGAGCTTGCCTCCTTTGAATGACCTAGAGCACAGGGAGGAACTTGTCCATTAGTTTGGAATTGTGTTCTTCGTAAAGACTGAGGCAAGCAAGTGCTGTGAAATAACATCATCTTAGTCCCTTGGTGTGTGGGGTTTTTGTTTTTTTTTTATATTTTGAGAATAAAACTTCATATAAAATTGGCAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nuclear chromatin</CellLocal>
+      <Ontology_ID>GO:0000790</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Transcription factor complex</CellLocal>
+      <Ontology_ID>GO:0005667</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>KDM1A</Gene_Name>
+    <Gene_Alias>AOF2; KDM1; KIAA0601; LSD1</Gene_Alias>
+    <Gene_ID>23028</Gene_ID>
+    <Genbank_ACCN>NM_001009999</Genbank_ACCN>
+    <Protein_ACCN>NP_001009999</Protein_ACCN>
+    <HGNC_ID>29079</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/23028</Gene_URL>
+    <UCSC_ID>uc001bgj.2</UCSC_ID>
+    <EMBL_ID>ENSG00000004487</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q8IXJ9</Uniprot_ID>
+      <Gene_Name>ASXL1</Gene_Name>
+      <EBI_ID>EBI-1646500</EBI_ID>
+      <PPI_EBI_URL>EBI-710124,EBI-1646500</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q16891</Uniprot_ID>
+      <Gene_Name>IMMT</Gene_Name>
+      <EBI_ID>EBI-473801</EBI_ID>
+      <PPI_EBI_URL>EBI-710124,EBI-473801</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O95863</Uniprot_ID>
+      <Gene_Name>SNAI1</Gene_Name>
+      <EBI_ID>EBI-1045459</EBI_ID>
+      <PPI_EBI_URL>EBI-710124,EBI-1045459</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q12873</Uniprot_ID>
+      <Gene_Name>CHD3</Gene_Name>
+      <EBI_ID>EBI-523590</EBI_ID>
+      <PPI_EBI_URL>EBI-710124,EBI-523590</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9UKL0</Uniprot_ID>
+      <Gene_Name>RCOR1</Gene_Name>
+      <EBI_ID>EBI-926563</EBI_ID>
+      <PPI_EBI_URL>EBI-710124,EBI-926563</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P59598</Uniprot_ID>
+      <Gene_Name>Asxl1</Gene_Name>
+      <EBI_ID>EBI-5743705</EBI_ID>
+      <PPI_EBI_URL>EBI-710124,EBI-5743705</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q16695</Uniprot_ID>
+      <Gene_Name>HIST3H3</Gene_Name>
+      <EBI_ID>EBI-358900</EBI_ID>
+      <PPI_EBI_URL>EBI-710124,EBI-358900</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of Lysine-specific demethylase1</PDB_Title>
+      <PDB_ID>2Z3Y</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Z3Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of histone demethylase LSD1 and tranylcypromine at 2.25A</PubMed_Title>
+      <Author>Mimasu, S., et al.</Author>
+      <Journal>Biochem.Biophys.Res.Commun.(2008)366:15-22</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18039463?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of LSD1 in complex with trans-2-pentafluorophenylcyclopropylamine</PDB_Title>
+      <PDB_ID>3ABT</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ABT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structurally Designed trans-2-Phenylcyclopropylamine Derivatives Potently Inhibit Histone Demethylase LSD1/KDM1</PubMed_Title>
+      <Author>Mimasu, S., et al.</Author>
+      <Journal>Biochemistry(2010)49:6494-6503</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20568732?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS OF LSD1-COREST SELECTIVITY IN HISTONE H3 RECOGNITION</PDB_Title>
+      <PDB_ID>2V1D</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2V1D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis of Lsd1-Corest Selectivity in Histone H3 Recognition.</PubMed_Title>
+      <Author>Forneris, F., et al.</Author>
+      <Journal>J.Biol.Chem.(2007)282:20070</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17537733?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of LSD1 in complex with a 2-PCPA derivative, S1201</PDB_Title>
+      <PDB_ID>3ABU</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ABU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structurally Designed trans-2-Phenylcyclopropylamine Derivatives Potently Inhibit Histone Demethylase LSD1/KDM1</PubMed_Title>
+      <Author>Mimasu, S., et al.</Author>
+      <Journal>Biochemistry(2010)49:6494-6503</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20568732?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF LSD1-COREST IN COMPLEX WITH A TRANYLCYPROMINE DERIVATIVE (MC2584, 13B)</PDB_Title>
+      <PDB_ID>2XAQ</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XAQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Biochemical, Structural, and Biological Evaluation of Tranylcypromine Derivatives as Inhibitors of Histone Demethylases Lsd1 and Lsd2.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:6827</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20415477?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human LSD1 at 2.3 A resolution</PDB_Title>
+      <PDB_ID>2DW4</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2DW4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of histone demethylase LSD1 and tranylcypromine at 2.25A</PubMed_Title>
+      <Author>Mimasu, S., et al.</Author>
+      <Journal>Biochem.Biophys.Res.Commun.(2008)366:15-22</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18039463?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure and Mechanism of human Lysine-Specific Demethylase-1</PDB_Title>
+      <PDB_ID>2H94</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H94</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure and mechanism of human lysine-specific demethylase-1.</PubMed_Title>
+      <Author>Stavropoulos, P., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2006)13:626-632</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16799558?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The solution structure of the SWIRM domain of human LSD1</PDB_Title>
+      <PDB_ID>2COM</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2COM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution structure of the SWIRM domain of human histone demethylase LSD1</PubMed_Title>
+      <Author>Tochio, N., et al.</Author>
+      <Journal>Structure(2006)14:457-468</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16531230?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR COREST-DEPENDENT DEMETHYLATION OF NUCLEOSOMES BY THE HUMAN LSD1 HISTONE DEMETHYLASE</PDB_Title>
+      <PDB_ID>2IW5</PDB_ID>
+      <Resolution>2.57</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IW5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for Corest-Dependent Demethylation of Nucleosomes by the Human Lsd1 Histone Demethylase</PubMed_Title>
+      <Author>Yang, M., et al.</Author>
+      <Journal>Mol.Cell(2006)23:377</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16885027?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF LSD1-COREST IN COMPLEX WITH A N-TERMINAL SNAIL PEPTIDE</PDB_Title>
+      <PDB_ID>2Y48</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Y48</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular Mimicry and Ligand Recognition in Binding and Catalysis by the Histone Demethylase Lsd1-Corest Complex.</PubMed_Title>
+      <Author>Baron, R., et al.</Author>
+      <Journal>Structure(2011)19:212-220</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21300290?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The solution structure of the short form SWIRM domain of LSD1</PDB_Title>
+      <PDB_ID>2L3D</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2L3D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The chemical shift assignment of the SWIRM domain of LSD1</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Lysine-specific histone demethylase 1</PDB_Title>
+      <PDB_ID>2Z5U</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Z5U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of histone demethylase LSD1 and tranylcypromine at 2.25 A</PubMed_Title>
+      <Author>Mimasu, S., et al.</Author>
+      <Journal>Biochem.Biophys.Res.Commun.(2008)366:15-22</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18039463?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF LSD1-COREST IN COMPLEX WITH PARA-BROMO-(+)-CIS-2-PHENYLCYCLOPROPYL-1-AMINE</PDB_Title>
+      <PDB_ID>2XAF</PDB_ID>
+      <Resolution>3.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XAF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Biochemical, Structural, and Biological Evaluation of Tranylcypromine Derivatives as Inhibitors of Histone Demethylases Lsd1 and Lsd2.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:6827</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20415477?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF LSD1-COREST IN COMPLEX WITH (+)-TRANS-2-PHENYLCYCLOPROPYL-1-AMINE</PDB_Title>
+      <PDB_ID>2XAH</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XAH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Biochemical, Structural, and Biological Evaluation of Tranylcypromine Derivatives as Inhibitors of Histone Demethylases Lsd1 and Lsd2.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:6827</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20415477?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF LSD1-COREST IN COMPLEX WITH A TRANYLCYPROMINE DERIVATIVE (MC2580, 14E)</PDB_Title>
+      <PDB_ID>2XAS</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XAS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Biochemical, Structural, and Biological Evaluation of Tranylcypromine Derivatives as Inhibitors of Histone Demethylases Lsd1 and Lsd2.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:6827</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20415477?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN LSD1 HISTONE DEMETHYLASE-COREST IN COMPLEX WITH AN FAD-TRANYLCYPROMINE ADDUCT</PDB_Title>
+      <PDB_ID>2UXX</PDB_ID>
+      <Resolution>2.74</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2UXX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for the Inhibition of the Lsd1 Histone Demethylase by the Antidepressant Trans-2-Phenylcyclopropylamine.</PubMed_Title>
+      <Author>Yang, M., et al.</Author>
+      <Journal>Biochemistry(2007)46:8058</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17569509?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of LSD1</PDB_Title>
+      <PDB_ID>2HKO</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HKO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of human histone lysine-specific demethylase 1 (LSD1).</PubMed_Title>
+      <Author>Chen, Y., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2006)103:13956-13961</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16956976?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS OF HISTONE DEMETHYLATION BY LSD1 REVEALED BY SUICIDE INACTIVATION</PDB_Title>
+      <PDB_ID>2UXN</PDB_ID>
+      <Resolution>2.72</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2UXN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis of Histone Demethylation by Lsd1 Revealed by Suicide Inactivation.</PubMed_Title>
+      <Author>Yang, M., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:535</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17529991?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF LSD1-COREST IN COMPLEX WITH PARA-BROMO-(-)-TRANS-2-PHENYLCYCLOPROPYL-1-AMINE</PDB_Title>
+      <PDB_ID>2XAG</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XAG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Biochemical, Structural, and Biological Evaluation of Tranylcypromine Derivatives as Inhibitors of Histone Demethylases Lsd1 and Lsd2.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:6827</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20415477?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF A NEURO-SPECIFIC SPLICING VARIANT OF HUMAN HISTONE LYSINE DEMETHYLASE LSD1.</PDB_Title>
+      <PDB_ID>2X0L</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2X0L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Alternative Splicing of the Histone Demethylase Lsd1/Kdm1 Contributes to the Modulation of Neurite Morphogenesis in the Mammalian Nervous System.</PubMed_Title>
+      <Author>Zibetti, C., et al.</Author>
+      <Journal>J.Neurosci.(2010)30:2521-2532</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20164337?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>LSD1-tranylcypromine complex</PDB_Title>
+      <PDB_ID>2EJR</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2EJR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of histone demethylase LSD1 and tranylcypromine at 2.25A</PubMed_Title>
+      <Author>Mimasu, S., et al.</Author>
+      <Journal>Biochem.Biophys.Res.Commun.(2008)366:15-22</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18039463?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF LSD1-COREST IN COMPLEX WITH (-)-TRANS-2-PHENYLCYCLOPROPYL-1-AMINE</PDB_Title>
+      <PDB_ID>2XAJ</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XAJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Biochemical, Structural, and Biological Evaluation of Tranylcypromine Derivatives as Inhibitors of Histone Demethylases Lsd1 and Lsd2.</PubMed_Title>
+      <Author>Binda, C., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:6827</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20415477?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>All alpha proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.b.j.b.bh.d.html</SCOP_URL>
+    <CATH_Class>Class 1: Mainly Alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2dw4</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.-.-.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/-/-/-.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD07030001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030069</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030081</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030083</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07030088</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

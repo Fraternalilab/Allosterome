@@ -1,0 +1,596 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD10940000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P05093</UniProt_ID>
+  <Seq_Length>508</Seq_Length>
+  <Molecule_Weight>57371</Molecule_Weight>
+  <KEGG_ID>hsa:1586</KEGG_ID>
+  <Orthology_ID>K00512</Orthology_ID>
+  <Function_Summary>Conversion of pregnenolone and progesterone to their 17-alpha-hydroxylated products and subsequently to dehydroepiandrosterone (DHEA) and androstenedione. Catalyzes both the 17-alpha-hydroxylation and the 17,20-lyase reaction. Involved in sexual development during fetal life and at puberty.</Function_Summary>
+  <Catalytic_Mechanism>A C(21)-steroid + (reduced NADPH--hemoprotein reductase) + O(2) = a 17-alpha-hydroxy-C(21)-steroid + (oxidized NADPH--hemoprotein reductase) + H(2)O.@@17-alpha-hydroxyprogesterone = androst-4-ene-3,17-dione + acetaldehyde.</Catalytic_Mechanism>
+  <Pfam_ID>PF00067:p450</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>17-alpha-hydroxyprogesterone aldolase</Alias>
+      <Alias>Cytochrome P450c17</Alias>
+      <Alias>CYPXVII</Alias>
+      <Alias>Cytochrome P450 17A1</Alias>
+      <Alias>Cytochrome P450-C17</Alias>
+      <Alias>Steroid 17-alpha-monooxygenase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the incorporation of one atom from molecular oxygen into a compound and the reduction of the other atom of oxygen to water.</Detail>
+      <Keyword>Monooxygenase activity</Keyword>
+      <Ontology_ID>GO:0004497</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with heme, any compound of iron complexed in a porphyrin (tetrapyrrole) ring.</Detail>
+      <Keyword>Heme binding</Keyword>
+      <Ontology_ID>GO:0020037</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: a steroid + AH2 + O2 = a 17a-hydroxysteroid + A + H2O.</Detail>
+      <Keyword>Steroid 17-alpha-monooxygenase activity</Keyword>
+      <Ontology_ID>GO:0004508</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 17-alpha-hydroxyprogesterone = acetaldehyde + 4-androstene-3,17-dione.</Detail>
+      <Keyword>17-alpha-hydroxyprogesterone aldolase activity</Keyword>
+      <Ontology_ID>GO:0047442</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular entity that serves as an electron acceptor and electron donor in an electron transport system.</Detail>
+      <Keyword>Electron carrier activity</Keyword>
+      <Ontology_ID>GO:0009055</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with oxygen (O2).</Detail>
+      <Keyword>Oxygen binding</Keyword>
+      <Ontology_ID>GO:0019825</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with iron (Fe) ions.</Detail>
+      <Keyword>Iron ion binding</Keyword>
+      <Ontology_ID>GO:0005506</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>64</Position>
+      <Original>Tyr</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>496</Position>
+      <Original>Arg</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>116</Position>
+      <Original>Asp</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>114</Position>
+      <Original>Phe</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>347</Position>
+      <Original>Arg</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>329</Position>
+      <Original>Tyr</Original>
+      <Variation>Asp</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>35</Position>
+      <Original>Pro</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>106</Position>
+      <Original>Ser</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>347</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>358</Position>
+      <Original>Arg</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>373</Position>
+      <Original>His</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>428</Position>
+      <Original>Pro</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>177</Position>
+      <Original>Asn</Original>
+      <Variation>Asp</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>417</Position>
+      <Original>Phe</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>342</Position>
+      <Original>Pro</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>440</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>22</Position>
+      <Original>Cys</Original>
+      <Variation>Trp</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>362</Position>
+      <Original>Arg</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>93</Position>
+      <Original>Phe</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>496</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>406</Position>
+      <Original>Trp</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>96</Position>
+      <Original>Arg</Original>
+      <Variation>Trp</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving dibenzo-p-dioxin, a substance composed of two benzene rings linked by two ether bonds. Dibenzo-p-dioxins are generated as by-products in the manufacturing of herbicides, insecticides, fungicides, paper pulp bleaching, and in incineration, and can accumulate in milk and throughout the food chain, creating significant health concern.</Detail>
+      <Keyword>Dibenzo-p-dioxin metabolic process</Keyword>
+      <Ontology_ID>GO:0018894</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an insecticide stimulus. Insecticides are chemicals used to kill insects.</Detail>
+      <Keyword>Response to insecticide</Keyword>
+      <Ontology_ID>GO:0017085</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a retinoic acid stimulus.</Detail>
+      <Keyword>Response to retinoic acid</Keyword>
+      <Ontology_ID>GO:0032526</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving sterols, steroids with one or more hydroxyl groups and a hydrocarbon side-chain in the molecule.</Detail>
+      <Keyword>Sterol metabolic process</Keyword>
+      <Ontology_ID>GO:0016125</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a steroid hormone stimulus.</Detail>
+      <Keyword>Response to steroid hormone stimulus</Keyword>
+      <Ontology_ID>GO:0048545</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the adrenal gland over time, from its formation to the mature structure. This gland can either be a discrete structure located bilaterally above each kidney, or a cluster of cells in the head kidney that perform the functions of the adrenal gland. In either case, this organ consists of two cells types, aminergic chromaffin cells and steroidogenic cortical cells.</Detail>
+      <Keyword>Adrenal gland development</Keyword>
+      <Ontology_ID>GO:0030325</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a lipopolysaccharide stimulus; lipopolysaccharide is a major component of the cell wall of gram-negative bacteria.</Detail>
+      <Keyword>Cellular response to lipopolysaccharide</Keyword>
+      <Ontology_ID>GO:0071222</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a cAMP (cyclic AMP, adenosine 3',5'-cyclophosphate) stimulus.</Detail>
+      <Keyword>Response to cAMP</Keyword>
+      <Ontology_ID>GO:0051591</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving biphenyl, a toxic aromatic hydrocarbon used as a heat transfer agent, as a fungistat in packaging citrus fruits and in plant disease control. Biphenyl can be chlorinated with 1-10 chlorine molecules to form polychlorinated biphenyls (PCBs).</Detail>
+      <Keyword>Biphenyl metabolic process</Keyword>
+      <Ontology_ID>GO:0018879</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of steroid hormones,compounds with a 1, 2, cyclopentanoperhydrophenanthrene nucleus that act as hormones.</Detail>
+      <Keyword>Positive regulation of steroid hormone biosynthetic process</Keyword>
+      <Ontology_ID>GO:0090031</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The release of a mature ovum/oocyte from an ovary.</Detail>
+      <Keyword>Ovulation</Keyword>
+      <Ontology_ID>GO:0030728</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a cytokine stimulus.</Detail>
+      <Keyword>Response to cytokine stimulus</Keyword>
+      <Ontology_ID>GO:0034097</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a ionizing radiation stimulus. Ionizing radiation is radiation with sufficient energy to remove electrons from atoms and may arise from spontaneous decay of unstable isotopes, resulting in alpha and beta particles and gamma rays. Ionizing radiation also includes X-rays.</Detail>
+      <Keyword>Response to ionizing radiation</Keyword>
+      <Ontology_ID>GO:0010212</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving a xenobiotic compound, a compound foreign to living organisms. Used of chemical compounds, e.g. a xenobiotic chemical, such as a pesticide.</Detail>
+      <Keyword>Xenobiotic metabolic process</Keyword>
+      <Ontology_ID>GO:0006805</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of the hippocampus over time from its initial formation until its mature state.</Detail>
+      <Keyword>Hippocampus development</Keyword>
+      <Ontology_ID>GO:0021766</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The establishment of the sex of an organism by physical differentiation.</Detail>
+      <Keyword>Sex differentiation</Keyword>
+      <Ontology_ID>GO:0007548</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a gonadotropin stimulus.</Detail>
+      <Keyword>Cellular response to gonadotropin stimulus</Keyword>
+      <Ontology_ID>GO:0071371</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of glucocorticoids, hormonal C21 corticosteroids synthesized from cholesterol.</Detail>
+      <Keyword>Glucocorticoid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006704</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus reflecting the presence, absence, or concentration of nutrients.</Detail>
+      <Keyword>Response to nutrient levels</Keyword>
+      <Ontology_ID>GO:0031667</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized cell acquires specialized structural and/or functional features of a Leydig cell. A Leydig cell is a testosterone-secreting cell in the interstitial area, between the seminiferous tubules, in the testis.</Detail>
+      <Keyword>Leydig cell differentiation</Keyword>
+      <Ontology_ID>GO:0033327</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a fungicide stimulus. Fungicides are chemicals used to kill fungi.</Detail>
+      <Keyword>Response to fungicide</Keyword>
+      <Ontology_ID>GO:0060992</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of androgens, C19 steroid hormones that can stimulate the development of male sexual characteristics.</Detail>
+      <Keyword>Androgen biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006702</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving progesterone, a steroid hormone produced in the ovary which prepares and maintains the uterus for pregnancy. Also found in plants.</Detail>
+      <Keyword>Progesterone metabolic process</Keyword>
+      <Ontology_ID>GO:0042448</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving phthalate, the anion of phthalic acid. Phthalic acid diesters are used industrially in the production of a variety of household and consumer goods including plastic polymers, lubricating oils, and carriers for perfumes in cosmetics, while phthalic acid itself is used industrially as a plasticizer. Terephthalate is used in the synthesis of polyethylene terephthalate (polyethene terephthlate, abbreviated PET or PETE), a plastic polymer with many commercial uses.</Detail>
+      <Keyword>Phthalate metabolic process</Keyword>
+      <Ontology_ID>GO:0018963</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a drug stimulus. A drug is a substance used in the diagnosis, treatment or prevention of a disease.</Detail>
+      <Keyword>Response to drug</Keyword>
+      <Ontology_ID>GO:0042493</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of steroids, compounds with a 1,2,cyclopentanoperhydrophenanthrene nucleus; includes de novo formation and steroid interconversion by modification.</Detail>
+      <Keyword>Steroid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006694</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a herbicide stimulus. Herbicides are chemicals used to kill or control the growth of plants.</Detail>
+      <Keyword>Response to herbicide</Keyword>
+      <Ontology_ID>GO:0009635</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an acetate stimulus.</Detail>
+      <Keyword>Response to acetate</Keyword>
+      <Ontology_ID>GO:0010034</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving a phenol, any compound containing one or more hydroxyl groups directly attached to an aromatic carbon ring.</Detail>
+      <Keyword>Phenol-containing compound metabolic process</Keyword>
+      <Ontology_ID>GO:0018958</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a methylmercury stimulus.</Detail>
+      <Keyword>Response to methylmercury</Keyword>
+      <Ontology_ID>GO:0051597</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an antibiotic stimulus. An antibiotic is a chemical substance produced by a microorganism which has the capacity to inhibit the growth of or to kill other microorganisms.</Detail>
+      <Keyword>Cellular response to antibiotic</Keyword>
+      <Ontology_ID>GO:0071236</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MWELVALLLLTLAYLFWPKRRCPGAKYPKSLLSLPLVGSLPFLPRHGHMHNNFFKLQKKYGPIYSVRMGTKTTVIVGHHQLAKEVLIKKGKDFSGRPQMATLDIASNNRKGIAFADSGAHWQLHRRLAMATFALFKDGDQKLEKIICQEISTLCDMLATHNGQSIDISFPVFVAVTNVISLICFNTSYKNGDPELNVIQNYNEGIIDNLSKDSLVDLVPWLKIFPNKTLEKLKSHVKIRNDLLNKILENYKEKFRSDSITNMLDTLMQAKMNSDNGNAGPDQDSELLSDNHILTTIGDIFGAGVETTTSVVKWTLAFLLHNPQVKKKLYEEIDQNVGFSRTPTISDRNRLLLLEATIREVLRLRPVAPMLIPHKANVDSSIGEFAVDKGTEVIINLWALHHNEKEWHQPDQFMPERFLNPAGTQLISPSVSYLPFGAGPRSCIGEILARQELFLIMAWLLQRFDLEVPDDGQLPSLEGIPKVVFLIDSFKVKIKVRQAWREAQAEGST</Protein_Seq>
+    <DNA_Seq>ATATGAGCTCAGGCCTGGCTGGGCTCCAGGAGAATCTTTCCACAAGGCAAGAGATAACACAAAGTCAAGGTGAAGATCAGGGTAGCCCTTTAAAAGGCCTCCTTGTGCCCTAGAGTTGCCACAGCTCTTCTACTCCACTGCTGTCTATCTTGCCTGCCGGCACCCAGCCACCATGTGGGAGCTCGTGGCTCTCTTGCTGCTTACCCTAGCTTATTTGTTTTGGCCCAAGAGAAGGTGCCCTGGTGCCAAGTACCCCAAGAGCCTCCTGTCCCTGCCCCTGGTGGGCAGCCTGCCATTCCTCCCCAGACACGGCCATATGCATAACAACTTCTTCAAGCTGCAGAAAAAATATGGCCCCATCTATTCGGTTCGTATGGGCACCAAGACTACAGTGATTGTCGGCCACCACCAGCTGGCCAAGGAGGTGCTTATTAAGAAGGGCAAGGACTTCTCTGGGCGGCCTCAAATGGCAACTCTAGACATCGCGTCCAACAACCGTAAGGGTATCGCCTTCGCTGACTCTGGCGCACACTGGCAGCTGCATCGAAGGCTGGCGATGGCCACCTTTGCCCTGTTCAAGGATGGCGATCAGAAGCTGGAGAAGATCATTTGTCAGGAAATCAGTACATTGTGTGATATGCTGGCCACCCACAACGGACAGTCCATAGACATCTCCTTTCCTGTCTTCGTGGCGGTAACCAATGTCATCTCCTTGATCTGCTTCAATACCTCCTACAAGAATGGGGACCCTGAGTTGAATGTCATACAGAATTACAATGAAGGCATCATAGACAACCTGAGCAAAGACAGCCTGGTGGACCTAGTCCCCTGGTTGAAGATTTTCCCCAACAAAACCCTGGAAAAATTAAAGAGCCATGTTAAAATACGAAATGATCTGCTGAATAAAATACTTGAAAATTACAAGGAGAAATTCCGGAGTGACTCTATCACCAACATGCTGGACACACTGATGCAAGCCAAGATGAACTCAGATAATGGCAATGCTGGCCCAGATCAAGACTCAGAGCTGCTTTCAGATAACCACATTCTCACCACCATAGGGGACATCTTTGGGGCTGGCGTGGAGACCACCACCTCTGTGGTTAAATGGACCCTGGCCTTCCTGCTGCACAATCCTCAGGTGAAGAAGAAGCTCTACGAGGAGATTGACCAGAATGTGGGTTTCAGCCGCACACCAACTATCAGTGACCGTAACCGTCTCCTCCTGCTGGAGGCCACCATCCGAGAGGTGCTTCGCCTCAGGCCCGTGGCCCCTATGCTCATCCCCCACAAGGCCAACGTTGACTCCAGCATCGGTGAGTTTGCTGTGGACAAGGGCACAGAAGTTATCATCAATCTGTGGGCGCTGCATCACAATGAGAAGGAGTGGCACCAGCCGGATCAGTTCATGCCTGAGCGTTTCTTGAATCCAGCGGGGACCCAGCTCATCTCACCGTCAGTAAGCTATTTGCCCTTCGGAGCAGGACCTCGCTCCTGTATAGGTGAGATCCTGGCCCGCCAGGAGCTCTTCCTCATCATGGCCTGGCTGCTGCAGAGGTTCGACCTGGAGGTGCCAGATGATGGGCAGCTGCCCTCCCTGGAAGGCATCCCCAAGGTGGTCTTTCTGATCGACTCTTTCAAAGTGAAGATCAAGGTGCGCCAGGCCTGGAGGGAAGCCCAGGCTGAGGGTAGCACCTAAAGGCTGTAACTCACAGCCCCTGTCCACCCTATGTGGCCCCACAACACAGATTTAGAGATACAACCCCCCACCCTTCTCCGCCATTCTTCCCTACTCCCAACCCACTCTGCCTTCTTTTTCAGCTTGTGGCAATGCCAGTGATGTGCATAAACAGTTTTTTTTTTTCCATAAAAAAAAAAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Axon</CellLocal>
+      <Ontology_ID>GO:0030424</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Neuronal cell body</CellLocal>
+      <Ontology_ID>GO:0043025</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum membrane</CellLocal>
+      <Ontology_ID>GO:0005789</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CYP17A1</Gene_Name>
+    <Gene_Alias>CYP17; S17AH</Gene_Alias>
+    <Gene_ID>1586</Gene_ID>
+    <Genbank_ACCN>NM_000102</Genbank_ACCN>
+    <Protein_ACCN>NP_000093</Protein_ACCN>
+    <HGNC_ID>2593</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1586</Gene_URL>
+    <UCSC_ID>uc001kwg.3</UCSC_ID>
+    <EMBL_ID>ENSG00000148795</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Breast Cancer Susceptibility</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS081</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer_susceptibility?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Polycystic Ovary Syndrome</Disease_Name>
+      <Disease_Detail>Polycystic Ovary Syndrome</Disease_Detail>
+      <Disease_DB>PLY011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/polycystic_ovary_syndrome?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>17-Alpha-Hydroxylase-Deficient Congenital Adrenal Hyperplasia</Disease_Name>
+      <Disease_Detail>17-Alpha-Hydroxylase-Deficient Congenital Adrenal Hyperplasia</Disease_Detail>
+      <Disease_DB>17L002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/17_alpha_hydroxylase_deficient_congenital_adrenal_hyperplasia?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>17,20-Lyase Deficiency, Isolated</Disease_Name>
+      <Disease_Detail>17,20-Lyase Deficiency, Isolated</Disease_Detail>
+      <Disease_DB>172001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/1720_lyase_deficiency_isolated?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Prostate Cancer</Disease_Name>
+      <Disease_Detail>Prostate Cancer</Disease_Detail>
+      <Disease_DB>PRS040</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/prostate_cancer?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS047</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Adrenal Carcinoma</Disease_Name>
+      <Disease_Detail>Adrenal Carcinoma</Disease_Detail>
+      <Disease_DB>ADR005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adrenal_carcinoma?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Adrenal Adenoma</Disease_Name>
+      <Disease_Detail>Adrenal Adenoma</Disease_Detail>
+      <Disease_DB>ADR008</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adrenal_adenoma?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>17-Alpha-Hydroxylase/17,20-Lyase Deficiency</Disease_Name>
+      <Disease_Detail>17-Alpha-Hydroxylase/17,20-Lyase Deficiency</Disease_Detail>
+      <Disease_DB>17L004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/17_alpha_hydroxylase_1720_lyase_deficiency?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Transsexualism</Disease_Name>
+      <Disease_Detail>Transsexualism</Disease_Detail>
+      <Disease_DB>TRN007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/transsexualism?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pseudohermaphroditism</Disease_Name>
+      <Disease_Detail>Pseudohermaphroditism</Disease_Detail>
+      <Disease_DB>PSD009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pseudohermaphroditism?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Congenital Adrenal Hyperplasia</Disease_Name>
+      <Disease_Detail>Congenital Adrenal Hyperplasia</Disease_Detail>
+      <Disease_DB>CNG368</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/congenital_adrenal_hyperplasia?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>46xy Sex Reversal 8</Disease_Name>
+      <Disease_Detail>46xy Sex Reversal 8</Disease_Detail>
+      <Disease_DB>46X021</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/46xy_sex_reversal_8?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Male Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>MLB002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/male_breast_cancer?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cytochrome P450 Oxidoreductase Deficiency</Disease_Name>
+      <Disease_Detail>Cytochrome P450 Oxidoreductase Deficiency</Disease_Detail>
+      <Disease_DB>CYT014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cytochrome_p450_oxidoreductase_deficiency?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mycetoma</Disease_Name>
+      <Disease_Detail>Mycetoma</Disease_Detail>
+      <Disease_DB>MYC012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mycetoma?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Antley-Bixler Syndrome</Disease_Name>
+      <Disease_Detail>Antley-Bixler Syndrome</Disease_Detail>
+      <Disease_DB>ANT003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/antley_bixler_syndrome?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Leydig Cell Tumor</Disease_Name>
+      <Disease_Detail>Leydig Cell Tumor</Disease_Detail>
+      <Disease_DB>LYD001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leydig_cell_tumor?search=CYP17A1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Human Cytochrome P450 17A1 in complex with TOK-001</PDB_Title>
+      <PDB_ID>3SWZ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3SWZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of cytochrome P450 17A1 with prostate cancer drugs abiraterone and TOK-001.</PubMed_Title>
+      <Author>Devore, N.M., et al.</Author>
+      <Journal>Nature(2012)482:116-119</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22266943?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Cytochrome P450 CYP17A1 in complex with Abiraterone</PDB_Title>
+      <PDB_ID>3RUK</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RUK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of cytochrome P450 17A1 with prostate cancer drugs abiraterone and TOK-001.</PubMed_Title>
+      <Author>Devore, N.M., et al.</Author>
+      <Journal>Nature(2012)482:116-119</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22266943?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04917</Pathway_ID>
+      <Pathway_Title>Prolactin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04913</Pathway_ID>
+      <Pathway_Title>Ovarian steroidogenesis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04913</Pathway_ID>
+      <Pathway_Title>Ovarian steroidogenesis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04913</Pathway_ID>
+      <Pathway_Title>Ovarian steroidogenesis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04913</Pathway_ID>
+      <Pathway_Title>Ovarian steroidogenesis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00140</Pathway_ID>
+      <Pathway_Title>Steroid hormone biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.14.99.9</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/14/99/9.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 4.1.2.30</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 4/1/2/30.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2013-11-12</Create_Date>
+</Organism_Record>

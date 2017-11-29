@@ -1,0 +1,948 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD10220000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A7V0</UniProt_ID>
+  <Seq_Length>241</Seq_Length>
+  <Molecule_Weight>26744</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0165</KEGG_ID>
+  <Orthology_ID>K02967</Orthology_ID>
+  <EBI_ID>EBI-543439</EBI_ID>
+  <Pfam_ID>PF00318:Ribosomal_S2</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>81</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with zinc (Zn) ions.</Detail>
+      <Keyword>Zinc ion binding</Keyword>
+      <Ontology_ID>GO:0008270</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>The action of a molecule that contributes to the structural integrity of the ribosome.</Detail>
+      <Keyword>Structural constituent of ribosome</Keyword>
+      <Ontology_ID>GO:0003735</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA. Translation ends with the release of a polypeptide chain from the ribosome.</Detail>
+      <Keyword>Translation</Keyword>
+      <Ontology_ID>GO:0006412</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>115</Position>
+      <PTM_Type>N6-succinyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MATVSMRDMLKAGVHFGHQTRYWNPKMKPFIFGARNKVHIINLEKTVPMFNEALAELNKIASRKGKILFVGTKRAASEAVKDAALSCDQFFVNHRWLGGMLTNWKTVRQSIKRLKDLETQSQDGTFDKLTKKEALMRTRELEKLENSLGGIKDMGGLPDALFVIDADHEHIAIKEANNLGIPVFAIVDTNSDPDGVDFVIPGNDDAIRAVTLYLGAVAATVREGRSQDLASQAEESFVEAE</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Ribosome</CellLocal>
+      <Ontology_ID>GO:0005840</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosolic small ribosomal subunit</CellLocal>
+      <Ontology_ID>GO:0022627</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Ribonucleoprotein complex</CellLocal>
+      <Ontology_ID>GO:0030529</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>rpsB</Gene_Name>
+    <Gene_ID>12931818</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_414711</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/947874</Gene_URL>
+    <EMBL_ID>BAB96744</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P0ACG8</Uniprot_ID>
+      <Gene_Name>hslR</Gene_Name>
+      <EBI_ID>EBI-562824</EBI_ID>
+      <PPI_EBI_URL>EBI-543439,EBI-562824</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli at 3.5 A resolution. This file contains the 30S subunit of the second 70S ribosome. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2AW7</PDB_ID>
+      <Resolution>3.46</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AW7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the bacterial ribosome at 3.5 A resolution.</PubMed_Title>
+      <Author>Schuwirth, B.S., et al.</Author>
+      <Journal>Science(2005)310:827-834</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16272117?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with spectinomycin. This file contains the 30S subunit of the first 70S ribosome, with spectinomycin bound. The entire crystal structure contains two 70S ribosomes.</PDB_Title>
+      <PDB_ID>2QOU</PDB_ID>
+      <Resolution>3.93</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QOU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A steric block in translation caused by the antibiotic spectinomycin.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Acs Chem.Biol.(2007)2:545-552</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17696316?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with gentamicin. This file contains the 30S subunit of the first 70S ribosome, with gentamicin bound. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2QB9</PDB_ID>
+      <Resolution>3.54</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QB9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for aminoglycoside inhibition of bacterial ribosome recycling.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:727-732</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17660832?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli 70S ribosome in an intermediate state of ratcheting</PDB_Title>
+      <PDB_ID>3I1O</PDB_ID>
+      <Resolution>3.19</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3I1O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the ribosome in intermediate States of ratcheting.</PubMed_Title>
+      <Author>Zhang, W., et al.</Author>
+      <Journal>Science(2009)325:1014-1017</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19696352?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with neomycin. This file contains the 30S subunit of the second 70S ribosome, with neomycin bound. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2QAN</PDB_ID>
+      <Resolution>3.21</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QAN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for aminoglycoside inhibition of bacterial ribosome recycling.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:727-732</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17660832?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF PDF BINDING HELIX IN COMPLEX WITH THE RIBOSOME (PART 4 OF 4)</PDB_Title>
+      <PDB_ID>2VHP</PDB_ID>
+      <Resolution>3.74</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2VHP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A Peptide Deformylase-Ribosome Complex Reveals Mechanism of Nascent Chain Processing.</PubMed_Title>
+      <Author>Bingel-Erlenmeyer, R., et al.</Author>
+      <Journal>Nature(2008)452:108</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18288106?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structures of the bacterial ribosome in classical and hybrid states of tRNA binding</PDB_Title>
+      <PDB_ID>4GD1</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4GD1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the bacterial ribosome in classical and hybrid states of tRNA binding.</PubMed_Title>
+      <Author>Dunkle, J.A., et al.</Author>
+      <Journal>Science(2011)332:981-984</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21596992?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli 70S ribosome in an intermediate state of ratcheting</PDB_Title>
+      <PDB_ID>3I1Q</PDB_ID>
+      <Resolution>3.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3I1Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the ribosome in intermediate States of ratcheting.</PubMed_Title>
+      <Author>Zhang, W., et al.</Author>
+      <Journal>Science(2009)325:1014-1017</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19696352?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Release Factor RF3 Trapped in the GTP State on a Rotated Conformation of the Ribosome</PDB_Title>
+      <PDB_ID>3SFS</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3SFS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of release factor RF3 trapped in the GTP state on a rotated conformation of the ribosome.</PubMed_Title>
+      <Author>Zhou, J., et al.</Author>
+      <Journal>Rna(2012)18:230-240</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22187675?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli ribosome bound to erythromycin. This file contains the 30S subunit of the first 70S ribosome.</PDB_Title>
+      <PDB_ID>3OFO</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OFO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the Escherichia coli ribosome with antibiotics bound near the peptidyl transferase center explain spectra of drug action.</PubMed_Title>
+      <Author>Dunkle, J.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:17152-17157</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20876128?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli 70S ribosome in an intermediate state of ratcheting</PDB_Title>
+      <PDB_ID>3I1S</PDB_ID>
+      <Resolution>3.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3I1S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the ribosome in intermediate States of ratcheting.</PubMed_Title>
+      <Author>Zhang, W., et al.</Author>
+      <Journal>Science(2009)325:1014-1017</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19696352?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from escherichia coli in complex with the antibiotic kasugamyin at 3.5a resolution. this file contains the 30s subunit of one 70s ribosome. the entire crystal structure contains two 70s ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>1VS7</PDB_ID>
+      <Resolution>3.46</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VS7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of kasugamycin inhibition of translation.</PubMed_Title>
+      <Author>Schuwirth, B.S., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2006)13:879-886</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16998486?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli ribosome bound to chloramphenicol. This file contains the 30S subunit of the second 70S ribosome.</PDB_Title>
+      <PDB_ID>3OFB</PDB_ID>
+      <Resolution>3.19</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OFB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the Escherichia coli ribosome with antibiotics bound near the peptidyl transferase center explain spectra of drug action.</PubMed_Title>
+      <Author>Dunkle, J.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:17152-17157</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20876128?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with spectinomycin and neomycin. This file contains the 30S subunit of the second 70S ribosome, with spectinomycin and neomycin bound. The entire crystal structure contains two 70S ribosomes.</PDB_Title>
+      <PDB_ID>2QP0</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QP0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A steric block in translation caused by the antibiotic spectinomycin.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Acs Chem.Biol.(2007)2:545-552</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17696316?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli ribosome bound to clindamycin. This file contains the 30S subunit of the first 70S ribosome.</PDB_Title>
+      <PDB_ID>3OFX</PDB_ID>
+      <Resolution>3.29</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OFX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the Escherichia coli ribosome with antibiotics bound near the peptidyl transferase center explain spectra of drug action.</PubMed_Title>
+      <Author>Dunkle, J.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:17152-17157</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20876128?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with gentamicin and ribosome recycling factor (RRF). This file contains the 30S subunit of the first 70S ribosome, with gentamicin bound. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2QBH</PDB_ID>
+      <Resolution>4.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QBH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for aminoglycoside inhibition of bacterial ribosome recycling.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:727-732</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17660832?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli 70S ribosome in an intermediate state of ratcheting</PDB_Title>
+      <PDB_ID>3I1Z</PDB_ID>
+      <Resolution>3.71</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3I1Z</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the ribosome in intermediate States of ratcheting.</PubMed_Title>
+      <Author>Zhang, W., et al.</Author>
+      <Journal>Science(2009)325:1014-1017</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19696352?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Allosteric control of the ribosome by small-molecule antibiotics</PDB_Title>
+      <PDB_ID>4GAQ</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4GAQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Allosteric control of the ribosome by small-molecule antibiotics.</PubMed_Title>
+      <Author>Wang, L., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2012)19:957-963</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22902368?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with gentamicin and ribosome recycling factor (RRF). This file contains the 30S subunit of the second 70S ribosome, with gentamicin bound. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2QBJ</PDB_ID>
+      <Resolution>4.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QBJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for aminoglycoside inhibition of bacterial ribosome recycling.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:727-732</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17660832?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with spectinomycin and neomycin. This file contains the 30S subunit of the first 70S ribosome, with spectinomycin and neomycin bound. The entire crystal structure contains two 70S ribosomes.</PDB_Title>
+      <PDB_ID>2QOY</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QOY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A steric block in translation caused by the antibiotic spectinomycin.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Acs Chem.Biol.(2007)2:545-552</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17696316?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with paromomycin and ribosome recycling factor (RRF). This file contains the 30S subunit of the second 70S ribosome, with paromomycin bound. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2Z4M</PDB_ID>
+      <Resolution>4.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Z4M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for aminoglycoside inhibition of bacterial ribosome recycling.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:727-732</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17660832?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure ofa the bacterial ribosome from Escherichia coli in complex with ribosome recycling factor (RRF). This file contains the 30S subunit of the second 70S ribosome. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2QBF</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QBF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for aminoglycoside inhibition of bacterial ribosome recycling.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:727-732</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17660832?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli ribosome bound to clindamycin. This file contains the 30S subunit of the second 70S ribosome</PDB_Title>
+      <PDB_ID>3OFY</PDB_ID>
+      <Resolution>3.29</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OFY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the Escherichia coli ribosome with antibiotics bound near the peptidyl transferase center explain spectra of drug action.</PubMed_Title>
+      <Author>Dunkle, J.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:17152-17157</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20876128?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with neomycin. This file contains the 30S subunit of the first 70S ribosome, with neomycin bound. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2QAL</PDB_ID>
+      <Resolution>3.21</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QAL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for aminoglycoside inhibition of bacterial ribosome recycling.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:727-732</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17660832?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with hygromycin B. This file contains the 30S subunit of the second 70S ribosome, with hygromycin B bound. The entire crystal structure contains two 70S ribosomes.</PDB_Title>
+      <PDB_ID>3DF3</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DF3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for hygromycin B inhibition of protein biosynthesis</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Rna(2008)14:1590-1599</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18567815?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli ribosome bound to CEM-101. This file contains the 30S subunit of the first 70S ribosome.</PDB_Title>
+      <PDB_ID>3OR9</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OR9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Binding and Action of CEM-101, a New Fluoroketolide Antibiotic That Inhibits Protein Synthesis.</PubMed_Title>
+      <Author>Llano-Sotelo, B., et al.</Author>
+      <Journal>Antimicrob.Agents Chemother.(2010)54:4961-4970</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20855725?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli 70S ribosome in an intermediate state of ratcheting</PDB_Title>
+      <PDB_ID>3I21</PDB_ID>
+      <Resolution>3.71</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3I21</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the ribosome in intermediate states of ratcheting.</PubMed_Title>
+      <Author>Zhang, W., et al.</Author>
+      <Journal>Science(2009)325:1014-1017</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19696352?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with gentamicin. This file contains the 30S subunit of the second 70S ribosome, with gentamicin bound. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2QBB</PDB_ID>
+      <Resolution>3.54</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QBB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for aminoglycoside inhibition of bacterial ribosome recycling.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:727-732</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17660832?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli ribosome bound to CEM-101. This file contains the 30S subunit of the second 70S ribosome.</PDB_Title>
+      <PDB_ID>3ORA</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ORA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Binding and Action of CEM-101, a New Fluoroketolide Antibiotic That Inhibits Protein Synthesis.</PubMed_Title>
+      <Author>Llano-Sotelo, B., et al.</Author>
+      <Journal>Antimicrob.Agents Chemother.(2010)54:4961-4970</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20855725?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Allosteric control of the ribosome by small-molecule antibiotics</PDB_Title>
+      <PDB_ID>4GAU</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4GAU</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD10228001</ASD_Ligand>
+      <PubMed_Title>Allosteric control of the ribosome by small-molecule antibiotics.</PubMed_Title>
+      <Author>Wang, L., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2012)19:957-963</Journal>
+      <PubMed_ID>22902368</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli ribosome bound to erythromycin. This file contains the 30S subunit of the second 70S ribosome.</PDB_Title>
+      <PDB_ID>3OFP</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OFP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the Escherichia coli ribosome with antibiotics bound near the peptidyl transferase center explain spectra of drug action.</PubMed_Title>
+      <Author>Dunkle, J.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:17152-17157</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20876128?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Allosteric control of the ribosome by small-molecule antibiotics</PDB_Title>
+      <PDB_ID>4GAR</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4GAR</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD10228001</ASD_Ligand>
+      <PubMed_Title>Allosteric control of the ribosome by small-molecule antibiotics.</PubMed_Title>
+      <Author>Wang, L., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2012)19:957-963</Journal>
+      <PubMed_ID>22902368</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli ribosome bound to telithromycin. This file contains the 30S subunit of the first 70S ribosome.</PDB_Title>
+      <PDB_ID>3OAQ</PDB_ID>
+      <Resolution>3.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OAQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the Escherichia coli ribosome with antibiotics bound near the peptidyl transferase center explain spectra of drug action.</PubMed_Title>
+      <Author>Dunkle, J.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:17152-17157</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20876128?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with hygromycin B. This file contains the 30S subunit of the first 70S ribosome, with hygromycin B bound. The entire crystal structure contains two 70S ribosomes.</PDB_Title>
+      <PDB_ID>3DF1</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DF1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for hygromycin B inhibition of protein biosynthesis</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Rna(2008)14:1590-1599</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18567815?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF PDF BINDING HELIX IN COMPLEX WITH THE RIBOSOME (PART 3 OF 4)</PDB_Title>
+      <PDB_ID>2VHO</PDB_ID>
+      <Resolution>3.74</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2VHO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A Peptide Deformylase-Ribosome Complex Reveals Mechanism of Nascent Chain Processing.</PubMed_Title>
+      <Author>Bingel-Erlenmeyer, R., et al.</Author>
+      <Journal>Nature(2008)452:108</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18288106?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from escherichia coli in complex with the antibiotic kasugamyin at 3.5A resolution. this file contains the 30s subunit of one 70s ribosome. the entire crystal structure contains two 70s ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>1VS5</PDB_ID>
+      <Resolution>3.46</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VS5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of kasugamycin inhibition of translation.</PubMed_Title>
+      <Author>Schuwirth, B.S., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2006)13:879-886</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16998486?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli ribosome bound to chloramphenicol. This file contains the 30S subunit of the first 70S ribosome.</PDB_Title>
+      <PDB_ID>3OFA</PDB_ID>
+      <Resolution>3.19</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OFA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the Escherichia coli ribosome with antibiotics bound near the peptidyl transferase center explain spectra of drug action.</PubMed_Title>
+      <Author>Dunkle, J.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:17152-17157</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20876128?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Allosteric control of the ribosome by small-molecule antibiotics</PDB_Title>
+      <PDB_ID>4GAS</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4GAS</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD10228001</ASD_Ligand>
+      <PubMed_Title>Allosteric control of the ribosome by small-molecule antibiotics.</PubMed_Title>
+      <Author>Wang, L., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2012)19:957-963</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22902368?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli ribosome bound to telithromycin. This file contains the 30S subunit of the second 70S ribosome.</PDB_Title>
+      <PDB_ID>3OAR</PDB_ID>
+      <Resolution>3.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OAR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the Escherichia coli ribosome with antibiotics bound near the peptidyl transferase center explain spectra of drug action.</PubMed_Title>
+      <Author>Dunkle, J.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:17152-17157</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20876128?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structures of the bacterial ribosome in classical and hybrid states of tRNA binding</PDB_Title>
+      <PDB_ID>4GD2</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4GD2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the bacterial ribosome in classical and hybrid states of tRNA binding.</PubMed_Title>
+      <Author>Dunkle, J.A., et al.</Author>
+      <Journal>Science(2011)332:981-984</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21596992?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the E. coli 70S ribosome in an intermediate state of ratcheting</PDB_Title>
+      <PDB_ID>3I1M</PDB_ID>
+      <Resolution>3.19</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3I1M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the ribosome in intermediate States of ratcheting.</PubMed_Title>
+      <Author>Zhang, W., et al.</Author>
+      <Journal>Science(2009)325:1014-1017</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19696352?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Ribosome with messenger RNA and the Anticodon stem-loop of P-site tRNA. This file contains the 30s subunit of one 70s ribosome. The entire crystal structure contains two 70s ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2I2U</PDB_ID>
+      <Resolution>3.22</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2I2U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for mRNA and tRNA positioning on the ribosome.</PubMed_Title>
+      <Author>Berk, V., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2006)103:15830-15834</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17038497?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with spectinomycin. This file contains the 30S subunit of the second 70S ribosome, with spectinomycin bound. The entire crystal structure contains two 70S ribosomes.</PDB_Title>
+      <PDB_ID>2QOW</PDB_ID>
+      <Resolution>3.93</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QOW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A steric block in translation caused by the antibiotic spectinomycin.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Acs Chem.Biol.(2007)2:545-552</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17696316?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with ribosome recycling factor (RRF). This file contains the 30S subunit of the first 70S ribosome. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2QBD</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QBD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for aminoglycoside inhibition of bacterial ribosome recycling.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:727-732</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17660832?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Release Factor RF3 Trapped in the GTP State on a Rotated Conformation of the Ribosome (without viomycin)</PDB_Title>
+      <PDB_ID>3UOQ</PDB_ID>
+      <Resolution>3.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3UOQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of release factor RF3 trapped in the GTP state on a rotated conformation of the ribosome.</PubMed_Title>
+      <Author>Zhou, J., et al.</Author>
+      <Journal>Rna(2012)18:230-240</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22187675?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli at 3.5 A resolution. This file contains the 30S subunit of one 70S ribosome. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2AVY</PDB_ID>
+      <Resolution>3.46</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AVY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the bacterial ribosome at 3.5 A resolution.</PubMed_Title>
+      <Author>Schuwirth, B.S., et al.</Author>
+      <Journal>Science(2005)310:827-834</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16272117?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the bacterial ribosome from Escherichia coli in complex with paromomycin and ribosome recycling factor (RRF). This file contains the 30S subunit of the first 70S ribosome, with paromomycin bound. The entire crystal structure contains two 70S ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2Z4K</PDB_ID>
+      <Resolution>4.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Z4K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for aminoglycoside inhibition of bacterial ribosome recycling.</PubMed_Title>
+      <Author>Borovinskaya, M.A., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:727-732</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17660832?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Ribosome with messenger RNA and the Anticodon stem-loop of P-site tRNA. This file contains the 30s subunit of one 70s ribosome. The entire crystal structure contains two 70s ribosomes and is described in remark 400.</PDB_Title>
+      <PDB_ID>2I2P</PDB_ID>
+      <Resolution>3.22</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2I2P</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for mRNA and tRNA positioning on the ribosome.</PubMed_Title>
+      <Author>Berk, V., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2006)103:15830-15834</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17038497?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>All alpha proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.b.bc.b.b.c.html</SCOP_URL>
+    <CATH_Class>Class 4: Few Secondary Structures </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1vs5</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Wang L, et al. Nat Struct Mol Biol. 2012 Sep;19(9):957-63. doi: 10.1038/nsmb.2360.</Site_Reference>
+      <PDB_ID>2QAL;2QAN</PDB_ID>
+      <PubMed_ID>22902368</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD10220001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220081</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220085</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220092</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220103</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220112</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220113</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220166</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220167</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220168</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220169</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220170</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220171</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220172</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220173</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220174</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220175</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220176</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220177</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220178</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220179</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220180</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220181</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220182</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10220183</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10228001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

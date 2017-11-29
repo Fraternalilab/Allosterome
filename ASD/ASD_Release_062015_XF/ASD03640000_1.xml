@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03640000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0ACP7</UniProt_ID>
+  <Seq_Length>341</Seq_Length>
+  <Molecule_Weight>38175</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p1635</KEGG_ID>
+  <Orthology_ID>K03604</Orthology_ID>
+  <Function_Summary>Is the main repressor of the genes involved in the de novo synthesis of purine nucleotides, regulating purB, purC, purEK, purF, purHD, purL, purMN and guaBA expression. In addition, it participates in the regulation or coregulation of genes involved in de novo pyrimidine nucleotide biosynthesis, salvage and uptake (pyrC, pyrD, carAB and codBA), and of several genes encoding enzymes necessary for nucleotide and polyamine biosynthesis (prsA, glyA, gcvTHP, speA, glnB). Binds to a 16-bp palindromic sequence located within the promoter region of pur regulon genes. The consensus binding sequence is 5'-ACGCAAACGTTTTCNT-3'. PurR is allosterically activated to bind its cognate DNA by binding the purine corepressors, hypoxanthine or guanine, thereby effecting transcription repression.</Function_Summary>
+  <Pfam_ID>PF00356:LacI</Pfam_ID>
+  <Allosteric_Activator_Count>6</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Pur regulon repressor</Alias>
+      <Alias>Purine Repressor</Alias>
+      <Alias>DNA-binding transcriptional repressor PurR</Alias>
+      <Alias>Purine nucleotide synthesis repressor</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a specific DNA sequence in order to modulate transcription. The transcription factor may or may not also interact selectively with a protein or macromolecular complex.</Detail>
+      <Keyword>Sequence-specific DNA binding transcription factor activity</Keyword>
+      <Ontology_ID>GO:0003700</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of a purine nucleotide, a compound consisting of nucleoside (a purine base linked to a deoxyribose or ribose sugar) esterified with a phosphate group at either the 3' or 5'-hydroxyl group of the sugar.</Detail>
+      <Keyword>Purine nucleotide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006164</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MATIKDVAKRANVSTTTVSHVINKTRFVAEETRNAVWAAIKELHYSPSAVARSLKVNHTKSIGLLATSSEAAYFAEIIEAVEKNCFQKGYTLILGNAWNNLEKQRAYLSMMAQKRVDGLLVMCSEYPEPLLAMLEEYRHIPMVVMDWGEAKADFTDAVIDNAFEGGYMAGRYLIERGHREIGVIPGPLERNTGAGRLAGFMKAMEEAMIKVPESWIVQGDFEPESGYRAMQQILSQPHRPTAVFCGGDIMAMGALCAADEMGLRVPQDVSLIGYDNVRNARYFTPALTTIHQPKDSLGETAFNMLLDRIVNKREEPQSIEVHPRLIERRSVADGPFRDYRR</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>purR</Gene_Name>
+    <Gene_ID>12931277</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_416175</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/945226</Gene_URL>
+    <EMBL_ID>EBESCG00000014477</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR-HYPOXANTHINE-PALINDROMIC OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1QP0</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QP0</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>The role of lysine 55 in determining the specificity of the purine repressor for its operators through minor groove interactions.</PubMed_Title>
+      <Author>Glasfeld A, et al.</Author>
+      <Journal>J Mol Biol.1999 Aug 13;291(2):347-61.</Journal>
+      <PubMed_ID>10438625</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR-HYPOXANTHINE-PALINDROMIC OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1QP4</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QP4</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>The role of lysine 55 in determining the specificity of the purine repressor for its operators through minor groove interactions.</PubMed_Title>
+      <Author>Glasfeld A, et al.</Author>
+      <Journal>J Mol Biol.1999 Aug 13;291(2):347-61.</Journal>
+      <PubMed_ID>10438625</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE LACI FAMILY MEMBER, PURR, BOUND TO DNA: MINOR GROOVE BINDING BY ALPHA HELICES</PDB_Title>
+      <PDB_ID>2PUB</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PUB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320045</ASD_Ligand>
+      <Ligand_Name>ADENINE</Ligand_Name>
+      <PubMed_Title>Crystal structure of LacI member, PurR, bound to DNA: minor groove binding by alpha helices.</PubMed_Title>
+      <Author>Schumacher MA, et al.</Author>
+      <Journal>Science.1994 Nov 4;266(5186):763-70.</Journal>
+      <PubMed_ID>7973627</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR MUTANT-HYPOXANTHINE-PURF OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1JFT</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JFT</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>Role of residue 147 in the gene regulatory function of the Escherichia coli purine repressor.</PubMed_Title>
+      <Author>Huffman JL, et al.</Author>
+      <Journal>Biochemistry.2002 Jan 15;41(2):511-20.</Journal>
+      <PubMed_ID>11781089</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR MUTANT-HYPOXANTHINE-PALINDROMIC OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1BDI</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BDI</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>A Positively Charged Residue Bound in the Minor Groove Does not Alter the Bending of a DNA Duplex</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR MUTANT-HYPOXANTHINE-PALINDROMIC OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1QQB</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QQB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>The role of lysine 55 in determining the specificity of the purine repressor for its operators through minor groove interactions.</PubMed_Title>
+      <Author>Glasfeld A, et al.</Author>
+      <Journal>J Mol Biol.1999 Aug 13;291(2):347-61.</Journal>
+      <PubMed_ID>10438625</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DNA-BINDING REGULATORY PROTEIN</PDB_Title>
+      <PDB_ID>1DBQ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DBQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanism of corepressor-mediated specific DNA binding by the purine repressor.</PubMed_Title>
+      <Author>Schumacher MA, et al.</Author>
+      <Journal>Cell.1995 Oct 6;83(1):147-55.</Journal>
+      <PubMed_ID>7553867</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR MUTANT-HYPOXANTHINE-PALINDROMIC OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1QQA</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QQA</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>The role of lysine 55 in determining the specificity of the purine repressor for its operators through minor groove interactions.</PubMed_Title>
+      <Author>Glasfeld A, et al.</Author>
+      <Journal>J Mol Biol.1999 Aug 13;291(2):347-61.</Journal>
+      <PubMed_ID>10438625</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR MUTANT-HYPOXANTHINE-PALINDROMIC OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1QP7</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QP7</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>The role of lysine 55 in determining the specificity of the purine repressor for its operators through minor groove interactions.</PubMed_Title>
+      <Author>Glasfeld A, et al.</Author>
+      <Journal>J Mol Biol.1999 Aug 13;291(2):347-61.</Journal>
+      <PubMed_ID>10438625</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR MUTANT-HYPOXANTHINE-PURF OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1JFS</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JFS</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>Role of residue 147 in the gene regulatory function of the Escherichia coli purine repressor.</PubMed_Title>
+      <Author>Huffman JL, et al.</Author>
+      <Journal>Biochemistry.2002 Jan 15;41(2):511-20.</Journal>
+      <PubMed_ID>11781089</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE LACI FAMILY MEMBER, PURR, BOUND TO DNA: MINOR GROOVE BINDING BY ALPHA HELICES</PDB_Title>
+      <PDB_ID>2PUE</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PUE</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320045</ASD_Ligand>
+      <Ligand_Name>ADENINE</Ligand_Name>
+      <PubMed_Title>Structure-based redesign of corepressor specificity of the Escherichia coli purine repressor by substitution of residue 190.</PubMed_Title>
+      <Author>Lu F, et al.</Author>
+      <Journal>Biochemistry.1998 Jan 27;37(4):971-82.</Journal>
+      <PubMed_ID>9454587</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE LACI FAMILY MEMBER, PURR, BOUND TO DNA: MINOR GROOVE BINDING BY ALPHA HELICES</PDB_Title>
+      <PDB_ID>2PUD</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PUD</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>Crystal structure of LacI member, PurR, bound to DNA: minor groove binding by alpha helices.</PubMed_Title>
+      <Author>Schumacher MA, et al.</Author>
+      <Journal>Science.1994 Nov 4;266(5186):763-70.</Journal>
+      <PubMed_ID>7973627</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR DNA-BINDING DOMAIN DNA BINDING</PDB_Title>
+      <PDB_ID>1PRU</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PRU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural comparison of the free and DNA-bound forms of the purine repressor DNA-binding domain.</PubMed_Title>
+      <Author>Nagadoi A, et al.</Author>
+      <Journal>Structure.1995 Nov 15;3(11):1217-24.</Journal>
+      <PubMed_ID>8591032</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE PURR MUTANT, L54M, BOUND TO HYPOXANTHINE AND PURF OPERATOR DNA</PDB_Title>
+      <PDB_ID>1VPW</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VPW</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>The structure of PurR mutant L54M shows an alternative route to DNA kinking.</PubMed_Title>
+      <Author>Arvidson DN, et al.</Author>
+      <Journal>Nat Struct Biol.1998 Jun;5(6):436-41.</Journal>
+      <PubMed_ID>9628480</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE PURR-GUANINE-PURF OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1WET</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1WET</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640014</ASD_Ligand>
+      <Ligand_Name>GUANINE</Ligand_Name>
+      <PubMed_Title>The X-ray structure of the PurR-guanine-purF operator complex reveals the contributions of complementary electrostatic surfaces and a water-mediated hydrogen bond to corepressor specificity and binding affinity.</PubMed_Title>
+      <Author>Schumacher MA, et al.</Author>
+      <Journal>J Biol Chem.1997 Sep 5;272(36):22648-53.</Journal>
+      <PubMed_ID>9278422</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE LACI FAMILY MEMBER, PURR, BOUND TO DNA: MINOR GROOVE BINDING BY ALPHA HELICES</PDB_Title>
+      <PDB_ID>2PUG</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PUG</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>Structure-based redesign of corepressor specificity of the Escherichia coli purine repressor by substitution of residue 190.</PubMed_Title>
+      <Author>Lu F, et al.</Author>
+      <Journal>Biochemistry.1998 Jan 27;37(4):971-82.</Journal>
+      <PubMed_ID>9454587</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE LACI FAMILY MEMBER, PURR, BOUND TO DNA: MINOR GROOVE BINDING BY ALPHA HELICES</PDB_Title>
+      <PDB_ID>2PUF</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PUF</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640014</ASD_Ligand>
+      <Ligand_Name>ADENINE</Ligand_Name>
+      <PubMed_Title>Structure-based redesign of corepressor specificity of the Escherichia coli purine repressor by substitution of residue 190.</PubMed_Title>
+      <Author>Lu F, et al.</Author>
+      <Journal>Biochemistry.1998 Jan 27;37(4):971-82.</Journal>
+      <PubMed_ID>9454587</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE LACI FAMILY MEMBER, PURR, BOUND TO DNA: MINOR GROOVE BINDING BY ALPHA HELICES</PDB_Title>
+      <PDB_ID>2PUA</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PUA</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640020</ASD_Ligand>
+      <Ligand_Name>6-METHYLPURINE</Ligand_Name>
+      <PubMed_Title>Crystal structure of LacI member, PurR, bound to DNA: minor groove binding by alpha helices.</PubMed_Title>
+      <Author>Schumacher MA, et al.</Author>
+      <Journal>Science.1994 Nov 4;266(5186):763-70.</Journal>
+      <PubMed_ID>7973627</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE LACI FAMILY MEMBER, PURR, BOUND TO DNA: MINOR GROOVE BINDING BY ALPHA HELICES</PDB_Title>
+      <PDB_ID>2PUC</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PUC</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640014</ASD_Ligand>
+      <Ligand_Name>GUANINE</Ligand_Name>
+      <PubMed_Title>Crystal structure of LacI member, PurR, bound to DNA: minor groove binding by alpha helices.</PubMed_Title>
+      <Author>Schumacher MA, et al.</Author>
+      <Journal>Science.1994 Nov 4;266(5186):763-70.</Journal>
+      <PubMed_ID>7973627</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR DNA-BINDING DOMAIN DNA BINDING</PDB_Title>
+      <PDB_ID>1PRV</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PRV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural comparison of the free and DNA-bound forms of the purine repressor DNA-binding domain.</PubMed_Title>
+      <Author>Nagadoi A, et al.</Author>
+      <Journal>Structure.1995 Nov 15;3(11):1217-24.</Journal>
+      <PubMed_ID>8591032</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR-HYPOXANTHINE-PALINDROMIC OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1QPZ</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QPZ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>The role of lysine 55 in determining the specificity of the purine repressor for its operators through minor groove interactions.</PubMed_Title>
+      <Author>Glasfeld A, et al.</Author>
+      <Journal>J Mol Biol.1999 Aug 13;291(2):347-61.</Journal>
+      <PubMed_ID>10438625</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Purine Repressor Mutant Corepressor Binding Domain Structure</PDB_Title>
+      <PDB_ID>1JHZ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JHZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Role of residue 147 in the gene regulatory function of the Escherichia coli purine repressor.</PubMed_Title>
+      <Author>Huffman JL, et al.</Author>
+      <Journal>Biochemistry.2002 Jan 15;41(2):511-20.</Journal>
+      <PubMed_ID>11781089</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR MUTANT-HYPOXANTHINE-PALINDROMIC OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1BDH</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BDH</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>A Positively Charged Residue Bound in the Minor Groove Does not Alter the Bending of a DNA Duplex</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR MUTANT-HYPOXANTHINE-PURF OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1JH9</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JH9</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>Role of residue 147 in the gene regulatory function of the Escherichia coli purine repressor.</PubMed_Title>
+      <Author>Huffman JL, et al.</Author>
+      <Journal>Biochemistry.2002 Jan 15;41(2):511-20.</Journal>
+      <PubMed_ID>11781089</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR-HYPOXANTHINE-MODIFIED-PURF-OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1ZAY</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZAY</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>The Roles of Exocyclic Groups in the Central Base-Pair Step in Modulating the Affinity of PurR for its Operator</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>PURINE REPRESSOR-HYPOXANTHINE-PURF-OPERATOR COMPLEX</PDB_Title>
+      <PDB_ID>1PNR</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PNR</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03640003</ASD_Ligand>
+      <Ligand_Name>HYPOXANTHINE</Ligand_Name>
+      <PubMed_Title>Crystal structure of LacI member, PurR, bound to DNA: minor groove binding by alpha helices.</PubMed_Title>
+      <Author>Schumacher MA, et al.</Author>
+      <Journal>Science.1994 Nov 4;266(5186):763-70.</Journal>
+      <PubMed_ID>7973627</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)@@All alpha proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi?pdb=1bdh;ver=1.75@@http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi?pdb=1bdh;ver=1.75</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta@@Mainly alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1bdh@@http://www.cathdb.info/pdb/1bdh</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,278,Arg;site,70,Glu</Site_Detail>
+      <Site_Reference>Lu F, et al. Biochemistry. 1998,37(45):15680-15690.</Site_Reference>
+      <Site_Type>Open-Close; Nested subunit-subunit interactions</Site_Type>
+      <PDB_ID>2PUC;2PUD</PDB_ID>
+      <PubMed_ID>9843372</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01320045</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03640001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03640002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03640003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03640014</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03640020</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

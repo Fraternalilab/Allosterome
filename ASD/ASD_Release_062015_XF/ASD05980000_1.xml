@@ -1,0 +1,727 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05980000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P61586</UniProt_ID>
+  <Seq_Length>193</Seq_Length>
+  <Molecule_Weight>21768</Molecule_Weight>
+  <KEGG_ID>hsa:387</KEGG_ID>
+  <Orthology_ID>K04513</Orthology_ID>
+  <EBI_ID>EBI-446668</EBI_ID>
+  <Function_Summary>Regulates a signal transduction pathway linking plasma membrane receptors to the assembly of focal adhesions and actin stress fibers. Involved in a microtubule-dependent signal that is required for the myosin contractile ring formation during cell cycle cytokinesis. Plays an essential role in cleavage furrow formation. Required for the apical junction formation of keratinocyte cell-cell adhesion. Serves as a target for the yopT cysteine peptidase from Yersinia pestis, vector of the plague, and Yersinia pseudotuberculosis, which causes gastrointestinal disorders. Stimulates PKN2 kinase activity. May be an activator of PLCE1. Activated by ARHGEF2, which promotes the exchange of GDP for GTP. Essential for the SPATA13-mediated regulation of cell migration and adhesion assembly and disassembly. The MEMO1-RHOA-DIAPH1 signaling pathway plays an important role in ERBB2-dependent stabilization of microtubules at the cell cortex. It controls the localization of APC and CLASP2 to the cell membrane, via the regulation of GSK3B activity. In turn, membrane-bound APC allows the localization of the MACF1 to the cell membrane, which is required for microtubule capture and stabilization.</Function_Summary>
+  <Pfam_ID>PF00071:Ras</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>h12</Alias>
+      <Alias>Rho cDNA clone 12</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with GTP, guanosine triphosphate.</Detail>
+      <Keyword>GTP binding</Keyword>
+      <Ontology_ID>GO:0005525</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: GTP + H2O = GDP + phosphate.</Detail>
+      <Keyword>GTPase activity</Keyword>
+      <Ontology_ID>GO:0003924</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any part of a myosin complex; myosins are any of a superfamily of molecular motor proteins that bind to actin and use the energy of ATP hydrolysis to generate force and movement along actin filaments.</Detail>
+      <Keyword>Myosin binding</Keyword>
+      <Ontology_ID>GO:0017022</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process resulting in the physical partitioning and separation of a cell into daughter cells.</Detail>
+      <Keyword>Cell division</Keyword>
+      <Ontology_ID>GO:0051301</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of axonogenesis.</Detail>
+      <Keyword>Positive regulation of axonogenesis</Keyword>
+      <Ontology_ID>GO:0050772</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals within the cell that are mediated by a member of the Rho family of proteins switching to a GTP-bound active state.</Detail>
+      <Keyword>Rho protein signal transduction</Keyword>
+      <Ontology_ID>GO:0007266</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemotaxis process that directs the migration of an axon growth cone to a specific target site in response to a combination of attractive and repulsive cues.</Detail>
+      <Keyword>Axon guidance</Keyword>
+      <Ontology_ID>GO:0007411</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of transfer of NF-kappaB, a transcription factor for eukaryotic RNA polymerase II promoters, from the cytoplasm into the nucleus, across the nuclear membrane.</Detail>
+      <Keyword>Positive regulation of NF-kappaB import into nucleus</Keyword>
+      <Ontology_ID>GO:0042346</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of an I-kappaB kinase/NF-kappaB induced cascade.</Detail>
+      <Keyword>Positive regulation of I-kappaB kinase/NF-kappaB cascade</Keyword>
+      <Ontology_ID>GO:0043123</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of small GTPase mediated signal transduction.</Detail>
+      <Keyword>Regulation of small GTPase mediated signal transduction</Keyword>
+      <Ontology_ID>GO:0051056</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which an organism has an effect on an organism of a different species.</Detail>
+      <Keyword>Interspecies interaction between organisms</Keyword>
+      <Ontology_ID>GO:0044419</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the division of the cytoplasm of a cell, and its separation into two daughter cells, that occurs in the context of cell cycle progression.</Detail>
+      <Keyword>Positive regulation of cell cycle cytokinesis</Keyword>
+      <Ontology_ID>GO:0071777</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The aggregation, arrangement and bonding together of a set of components to form the spindle that contributes to the process of mitosis.</Detail>
+      <Keyword>Spindle assembly involved in mitosis</Keyword>
+      <Ontology_ID>GO:0090307</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cell migration.</Detail>
+      <Keyword>Regulation of cell migration</Keyword>
+      <Ontology_ID>GO:0030334</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The formation of bone or of a bony substance, or the conversion of fibrous tissue or of cartilage into bone, involved in the progression of the skeleton from its formation to its mature state.</Detail>
+      <Keyword>Ossification involved in bone maturation</Keyword>
+      <Ontology_ID>GO:0043931</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of osteoblast proliferation.</Detail>
+      <Keyword>Regulation of osteoblast proliferation</Keyword>
+      <Ontology_ID>GO:0033688</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The formation of an apical junction, a functional unit located near the cell apex at the points of contact between epithelial cells composed of the tight junction, the zonula adherens junction and the desmosomes, by the aggregation, arrangement and bonding together of its constituents.</Detail>
+      <Keyword>Apical junction assembly</Keyword>
+      <Ontology_ID>GO:0043297</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</Detail>
+      <Keyword>Platelet activation</Keyword>
+      <Ontology_ID>GO:0030168</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the nerve growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Nerve growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048011</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of neuron differentiation.</Detail>
+      <Keyword>Positive regulation of neuron differentiation</Keyword>
+      <Ontology_ID>GO:0045666</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of shaping a trabecula in an organ. A trabecula is a small, often microscopic, tissue element in the form of a small beam, strut or rod, which generally has a mechanical function. Trabecula are usually but not necessarily, composed of dense collagenous tissue.</Detail>
+      <Keyword>Trabecula morphogenesis</Keyword>
+      <Ontology_ID>GO:0061383</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the assembly of a stress fiber, a bundle of microfilaments and other proteins found in fibroblasts.</Detail>
+      <Keyword>Positive regulation of stress fiber assembly</Keyword>
+      <Ontology_ID>GO:0051496</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals in which a cell uses a phosphatidylinositol-mediated signaling to convert a signal into a response. Phosphatidylinositols include phosphatidylinositol (PtdIns) and its phosphorylated derivatives.</Detail>
+      <Keyword>Phosphatidylinositol-mediated signaling</Keyword>
+      <Ontology_ID>GO:0048015</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of biochemical and morphological phases and events that occur in a cell during successive cell replication or nuclear replication events. Canonically, the cell cycle comprises the replication and segregation of genetic material followed by the division of the cell, but in endocycles or syncytial cells nuclear replication or nuclear division may not be followed by cell division.</Detail>
+      <Keyword>Cell cycle</Keyword>
+      <Ontology_ID>GO:0007049</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of axonogenesis.</Detail>
+      <Keyword>Negative regulation of axonogenesis</Keyword>
+      <Ontology_ID>GO:0050771</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>156</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>188</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>41</Position>
+      <PTM_Type>ADP-ribosylasparagine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>37</Position>
+      <PTM_Type>O-AMP-threonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>34</Position>
+      <PTM_Type>O-AMP-tyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>190</Position>
+      <PTM_Type>Cysteine methyl ester</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAAIRKKLVIVGDGACGKTCLLIVFSKDQFPEVYVPTVFENYVADIEVDGKQVELALWDTAGQEDYDRLRPLSYPDTDVILMCFSIDSPDSLENIPEKWTPEVKHFCPNVPIILVGNKKDLRNDEHTRRELAKMKQEPVKPEEGRDMANRIGAFGYMECSAKTKDGVREVFEMATRAALQARRGKKKSGCLVL</Protein_Seq>
+    <DNA_Seq>GTGGATGAGCTGTGAGTGCGCGCGCGTGCGCGGGGCCGCGACCTGTGCCGGCTCGAGCCCGCTGGGCACTCGGAGGCGCGCACGTCGTTCCCCGCCCTCCCGCCGCCGCCCGCCCTCGCTCTCTCGCGCTACCCTCCCGCCGCCCGCGGTCCTCCGTCGGTTCTCTCGTTAGTCCACGGTCTGGTCTTCAGCTACCCGCCTTCGTCTCCGAGTTTGCGACTCGCGGACCGGCGTCCCCGGCGCGAAGAGGCTGGACTCGGATTCGTTGCCTGAGCAATGGCTGCCATCCGGAAGAAACTGGTGATTGTTGGTGATGGAGCCTGTGGAAAGACATGCTTGCTCATAGTCTTCAGCAAGGACCAGTTCCCAGAGGTGTATGTGCCCACAGTGTTTGAGAACTATGTGGCAGATATCGAGGTGGATGGAAAGCAGGTAGAGTTGGCTTTGTGGGACACAGCTGGGCAGGAAGATTATGATCGCCTGAGGCCCCTCTCCTACCCAGATACCGATGTTATACTGATGTGTTTTTCCATCGACAGCCCTGATAGTTTAGAAAACATCCCAGAAAAGTGGACCCCAGAAGTCAAGCATTTCTGTCCCAACGTGCCCATCATCCTGGTTGGGAATAAGAAGGATCTTCGGAATGATGAGCACACAAGGCGGGAGCTAGCCAAGATGAAGCAGGAGCCGGTGAAACCTGAAGAAGGCAGAGATATGGCAAACAGGATTGGCGCTTTTGGGTACATGGAGTGTTCAGCAAAGACCAAAGATGGAGTGAGAGAGGTTTTTGAAATGGCTACGAGAGCTGCTCTGCAAGCTAGACGTGGGAAGAAAAAATCTGGGTGCCTTGTCTTGTGAAACCTTGCTGCAAGCACAGCCCTTATGCGGTTAATTTTGAAGTGCTGTTTATTAATCTTAGTGTATGATTACTGGCCTTTTTCATTTATCTATAATTTACCTAAGATTACAAATCAGAAGTCATCTTGCTACCAGTATTTAGAAGCCAACTATGATTATTAACGATGTCCAACCCGTCTGGCCCACCAGGGTCCTTTTGACACTGCTCTAACAGCCCTCCTCTGCACTCCCACCTGACACACCAGGCGCTAATTCAAGGAATTTCTTAACTTCTTGCTTCTTTCTAGAAAGAGAAACAGTTGGTAACTTTTGTGAATTAGGCTGTAACTACTTTATAACTAACATGTCCTGCCTATTATCTGTCAGCTGCAAGGTACTCTGGTGAGTCACCACTTCAGGGCTTTACTCCGTAACAGATTTTGTTGGCATAGCTCTGGGGTGGGCAGTTTTTTGAAAATGGGCTCAACCAGAAAAGCCCAAGTTCATGCAGCTGTGGCAGAGTTACAGTTCTGTGGTTTCATGTTAGTTACCTTATAGTTACTGTGTAATTAGTGCCACTTAATGTATGTTACCAAAAATAAATATATCTACCCCAGACTAGATGTAGTATTTTTTGTATAATTGGATTTCCTAATACTGTCATCCTCAAAGAAAGTGTATTGGTTTTTTAAAAAAGAAAGTGTATTTGGAAATAAAGTCAGATGGAAAATTCATTTTTTAAATTCCCGTTTTGTCACTTTTTCTGATAAAAGATGGCCATATTACCCCTTTTCGGCCCCATGTATCTCAGTACCCCATGGAGCTGGGCTAAGTAAATAGGAATTGGTTTCACGCCTGAGGCAATTAGACACTTTGGAAGATGGCATAACCTGTCTCACCTGGACTTAAGCATCTGGCTCTAATTCACAGTGCTCTTTTCTCCTCACTGTATCCAGGTTCCCTCCCAGAGGAGCCACCAGTTCTCATGGGTGGCACTCAGTCTCTCTTCTCTCCAGCTGACTAAACTTTTTTTCTGTACCAGTTAATTTTTCCAACTACTAATAGAATAAAGGCAGTTTTCTAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell cortex</CellLocal>
+      <Ontology_ID>GO:0005938</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cleavage furrow</CellLocal>
+      <Ontology_ID>GO:0032154</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoskeleton</CellLocal>
+      <Ontology_ID>GO:0005856</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Apical junction complex</CellLocal>
+      <Ontology_ID>GO:0043296</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Midbody</CellLocal>
+      <Ontology_ID>GO:0030496</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>RHOA</Gene_Name>
+    <Gene_Alias>ARH12; ARHA; RHO12</Gene_Alias>
+    <Gene_ID>387</Gene_ID>
+    <Genbank_ACCN>NM_001664</Genbank_ACCN>
+    <Protein_ACCN>NP_001655</Protein_ACCN>
+    <HGNC_ID>667</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/387</Gene_URL>
+    <UCSC_ID>uc003cwu.3</UCSC_ID>
+    <EMBL_ID>ENSG00000067560</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q9Z0S9</Uniprot_ID>
+      <Gene_Name>Rabac1</Gene_Name>
+      <EBI_ID>EBI-476965</EBI_ID>
+      <PPI_EBI_URL>EBI-446668,EBI-476965</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q6PDM6</Uniprot_ID>
+      <Gene_Name>Mcf2l</Gene_Name>
+      <EBI_ID>EBI-602149</EBI_ID>
+      <PPI_EBI_URL>EBI-446668,EBI-602149</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q969H4</Uniprot_ID>
+      <Gene_Name>CNKSR1</Gene_Name>
+      <EBI_ID>EBI-741671</EBI_ID>
+      <PPI_EBI_URL>EBI-446668,EBI-741671</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q15796</Uniprot_ID>
+      <Gene_Name>SMAD2</Gene_Name>
+      <EBI_ID>EBI-1040141</EBI_ID>
+      <PPI_EBI_URL>EBI-446668,EBI-1040141</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O15085</Uniprot_ID>
+      <Gene_Name>ARHGEF11</Gene_Name>
+      <EBI_ID>EBI-311099</EBI_ID>
+      <PPI_EBI_URL>EBI-446668,EBI-311099</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q07960</Uniprot_ID>
+      <Gene_Name>ARHGAP1</Gene_Name>
+      <EBI_ID>EBI-602762</EBI_ID>
+      <PPI_EBI_URL>EBI-446668,EBI-602762</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of Human RhoA in complex with DH/PH fragment of PDZRHOGEF</PDB_Title>
+      <PDB_ID>1XCG</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XCG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The crystal structure of RhoA in complex with the DH/PH fragment of PDZRhoGEF, an activator of the Ca(2+) sensitization pathway in smooth muscle</PubMed_Title>
+      <Author>Derewenda, U., et al.</Author>
+      <Journal>Structure(2004)12:1955-1965</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15530360?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE HUMAN RHOA/GDP COMPLEX</PDB_Title>
+      <PDB_ID>1FTN</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FTN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of RhoA-GDP and its functional implications.</PubMed_Title>
+      <Author>Wei, Y., et al.</Author>
+      <Journal>Nat.Struct.Biol.(1997)4:699-703</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9302995?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of a Constitutively Activated RhoA Mutant (Q63L)</PDB_Title>
+      <PDB_ID>1KMQ</PDB_ID>
+      <Resolution>1.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KMQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a constitutively activated RhoA mutant (Q63L) at 1.55 A resolution.</PubMed_Title>
+      <Author>Longenecker, K., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(2003)59:876-880</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12777804?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN RHOA COMPLEXED WITH GTP ANALOGUE</PDB_Title>
+      <PDB_ID>1A2B</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1A2B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of human RhoA in a dominantly active form complexed with a GTP analogue.</PubMed_Title>
+      <Author>Ihara, K., et al.</Author>
+      <Journal>J.Biol.Chem.(1998)273:9656-9666</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9545299?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RHO/RHOGAP/GDP(DOT)ALF4 COMPLEX</PDB_Title>
+      <PDB_ID>1TX4</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TX4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure at 1.65 A of RhoA and its GTPase-activating protein in complex with a transition-state analogue.</PubMed_Title>
+      <Author>Rittinger, K., et al.</Author>
+      <Journal>Nature(1997)389:758-762</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9338791?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Complex of PDZ-RhoGEF DH/PH domains with GTP-gamma-S Activated RhoA</PDB_Title>
+      <PDB_ID>3KZ1</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KZ1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Activated RhoA binds to the pleckstrin homology (PH) domain of PDZ-RhoGEF, a potential site for autoregulation.</PubMed_Title>
+      <Author>Chen, Z., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:21070-21081</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20430886?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE RHOA.GDP-RHOGDI COMPLEX</PDB_Title>
+      <PDB_ID>1CC0</PDB_ID>
+      <Resolution>5.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CC0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>How RhoGDI binds Rho.</PubMed_Title>
+      <Author>Longenecker, K., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(1999)55:1503-1515</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10489445?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the DH/PH fragment of PDZRHOGEF with N-terminal regulatory elements in complex with Human RhoA</PDB_Title>
+      <PDB_ID>3T06</PDB_ID>
+      <Resolution>2.84</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3T06</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights into the Molecular Activation Mechanism of the RhoA-specific Guanine Nucleotide Exchange Factor, PDZRhoGEF.</PubMed_Title>
+      <Author>Bielnicki, J.A., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:35163-35175</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21816819?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Dbl and Pleckstrin homology domains of Dbs in complex with RhoA</PDB_Title>
+      <PDB_ID>1LB1</PDB_ID>
+      <Resolution>2.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LB1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the selective activation of Rho GTPases by Dbl exchange factors.</PubMed_Title>
+      <Author>Snyder, J.T., et al.</Author>
+      <Journal>Nat.Struct.Biol.(2002)9:468-475</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12006984?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the DH/PH domains of Leukemia-associated RhoGEF in complex with RhoA</PDB_Title>
+      <PDB_ID>1X86</PDB_ID>
+      <Resolution>3.22</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1X86</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural determinants of RhoA binding and nucleotide exchange in leukemia-associated Rho guanine-nucleotide exchange factor.</PubMed_Title>
+      <Author>Kristelly, R., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:47352-47362</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15331592?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the complex between the human RhoA and Rho-binding domain of human ROCKI</PDB_Title>
+      <PDB_ID>1S1C</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1S1C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Insights into the Interaction of ROCKI with the Switch Regions of RhoA.</PubMed_Title>
+      <Author>Dvorsky, R., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:7098-7104</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14660612?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Shigella IpgB2 in complex with human RhoA, GDP and Mg2+ (complex B)</PDB_Title>
+      <PDB_ID>3LWN</PDB_ID>
+      <Resolution>2.28</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LWN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of Shigella IPGB2 in complex with human RhoA: Implications for the mechanism of bacterial GEF-mimicry</PubMed_Title>
+      <Author>Klink, B.U., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:17197-17208</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20363740?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of p63RhoGEF complex with Galpha-q and RhoA</PDB_Title>
+      <PDB_ID>2RGN</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2RGN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of Galphaq-p63RhoGEF-RhoA complex reveals a pathway for the activation of RhoA by GPCRs.</PubMed_Title>
+      <Author>Lutz, S., et al.</Author>
+      <Journal>Science(2007)318:1923-1927</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18096806?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF A MG-FREE FORM OF RHOA COMPLEXED WITH GDP</PDB_Title>
+      <PDB_ID>1DPF</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DPF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An open conformation of switch I revealed by the crystal structure of a Mg2+-free form of RHOA complexed with GDP. Implications for the GDP/GTP exchange mechanism.</PubMed_Title>
+      <Author>Shimizu, T., et al.</Author>
+      <Journal>J.Biol.Chem.(2000)275:18311-18317</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10748207?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HUMAN RHOA COMPLEXED WITH THE EFFECTOR DOMAIN OF THE PROTEIN KINASE PKN/PRK1</PDB_Title>
+      <PDB_ID>1CXZ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CXZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structural basis of Rho effector recognition revealed by the crystal structure of human RhoA complexed with the effector domain of PKN/PRK1.</PubMed_Title>
+      <Author>Maesaki, R., et al.</Author>
+      <Journal>Mol.Cell(1999)4:793-803</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10619026?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Shigella IpgB2 in complex with human RhoA and GDP (complex C)</PDB_Title>
+      <PDB_ID>3LXR</PDB_ID>
+      <Resolution>1.68</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LXR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of Shigella IPGB2 in complex with human RhoA: Implications for the mechanism of bacterial GEF-mimicry</PubMed_Title>
+      <Author>Klink, B.U., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:17197-17208</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20363740?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of RhoA.GDP.MgF3-in Complex with RhoGAP</PDB_Title>
+      <PDB_ID>1OW3</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OW3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>MgF(3)(-) as a Transition State Analog of Phosphoryl Transfer</PubMed_Title>
+      <Author>Graham, D.L., et al.</Author>
+      <Journal>Chem.Biol.(2002)9:375-381</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11927263?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Shigella IpgB2 in complex with human RhoA, GDP and Mg2+ (complex A)</PDB_Title>
+      <PDB_ID>3LW8</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LW8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of Shigella IPGB2 in complex with human RhoA: Implications for the mechanism of bacterial GEF-mimicry</PubMed_Title>
+      <Author>Klink, B.U., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:17197-17208</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20363740?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of RhoA.GDP.MgF3 in complex with GAP domain of ArhGAP20</PDB_Title>
+      <PDB_ID>3MSX</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MSX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mechanism of molecular specificity of RhoGAP domains towards small GTPases of RhoA family.</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04810</Pathway_ID>
+      <Pathway_Title>Regulation of actin cytoskeleton</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell motility</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04520</Pathway_ID>
+      <Pathway_Title>Adherens junction</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04011</Pathway_ID>
+      <Pathway_Title>MAPK signaling pathway - yeast</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04270</Pathway_ID>
+      <Pathway_Title>Vascular smooth muscle contraction</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Circulatory system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04360</Pathway_ID>
+      <Pathway_Title>Axon guidance</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Development</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05133</Pathway_ID>
+      <Pathway_Title>Pertussis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04670</Pathway_ID>
+      <Pathway_Title>Leukocyte transendothelial migration</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04510</Pathway_ID>
+      <Pathway_Title>Focal adhesion</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04062</Pathway_ID>
+      <Pathway_Title>Chemokine signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05203</Pathway_ID>
+      <Pathway_Title>Viral carcinogenesis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04520</Pathway_ID>
+      <Pathway_Title>Adherens junction</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04611</Pathway_ID>
+      <Pathway_Title>Platelet activation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04071</Pathway_ID>
+      <Pathway_Title>Sphingolipid signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04022</Pathway_ID>
+      <Pathway_Title>cGMP-PKG signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05205</Pathway_ID>
+      <Pathway_Title>Proteoglycans in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05205</Pathway_ID>
+      <Pathway_Title>Proteoglycans in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04972</Pathway_ID>
+      <Pathway_Title>Pancreatic secretion</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Digestive system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04660</Pathway_ID>
+      <Pathway_Title>T cell receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04350</Pathway_ID>
+      <Pathway_Title>TGF-beta signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04014</Pathway_ID>
+      <Pathway_Title>Ras signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04015</Pathway_ID>
+      <Pathway_Title>Rap1 signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05100</Pathway_ID>
+      <Pathway_Title>Bacterial invasion of epithelial cells</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04530</Pathway_ID>
+      <Pathway_Title>Tight junction</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05130</Pathway_ID>
+      <Pathway_Title>Pathogenic Escherichia coli infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04722</Pathway_ID>
+      <Pathway_Title>Neurotrophin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05210</Pathway_ID>
+      <Pathway_Title>Colorectal cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05206</Pathway_ID>
+      <Pathway_Title>MicroRNAs in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04670</Pathway_ID>
+      <Pathway_Title>Leukocyte transendothelial migration</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04921</Pathway_ID>
+      <Pathway_Title>Oxytocin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04024</Pathway_ID>
+      <Pathway_Title>cAMP signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04310</Pathway_ID>
+      <Pathway_Title>Wnt signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04360</Pathway_ID>
+      <Pathway_Title>Axon guidance</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Development</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04024</Pathway_ID>
+      <Pathway_Title>cAMP signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05152</Pathway_ID>
+      <Pathway_Title>Tuberculosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04360</Pathway_ID>
+      <Pathway_Title>Axon guidance</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Development</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04611</Pathway_ID>
+      <Pathway_Title>Platelet activation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.bb.bi.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1a2b</CATH_URL>
+  </Fold>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

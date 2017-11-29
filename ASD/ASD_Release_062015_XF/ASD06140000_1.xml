@@ -1,0 +1,535 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06140000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P11215</UniProt_ID>
+  <Seq_Length>1152</Seq_Length>
+  <Molecule_Weight>127179</Molecule_Weight>
+  <KEGG_ID>hsa:3684</KEGG_ID>
+  <Orthology_ID>K06461</Orthology_ID>
+  <Function_Summary>Integrin alpha-M/beta-2 is implicated in various adhesive interactions of monocytes, macrophages and granulocytes as well as in mediating the uptake of complement-coated particles. It is identical with CR-3, the receptor for the iC3b fragment of the third complement component. It probably recognizes the R-G-D peptide in C3b. Integrin alpha-M/beta-2 is also a receptor for fibrinogen, factor X and ICAM1. It recognizes P1 and P2 peptides of fibrinogen gamma chain.</Function_Summary>
+  <Pfam_ID>PF01839:FG-GAP@@PF00357:Integrin_alpha@@PF08441:Integrin_alpha2@@PF00092:VWA</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>32</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Neutrophil adherence receptor</Alias>
+      <Alias>CD11 antigen-like family member B</Alias>
+      <Alias>Leukocyte adhesion receptor MO1</Alias>
+      <Alias>Cell surface glycoprotein MAC-1 subunit alpha</Alias>
+      <Alias>CR-3 alpha chain</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a glycoprotein, a protein that contains covalently bound glycose (monosaccharide) residues. These also include proteoglycans.</Detail>
+      <Keyword>Glycoprotein binding</Keyword>
+      <Ontology_ID>GO:0001948</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>77</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>858</Position>
+      <Original>Ala</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>441</Position>
+      <Original>Met</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>1146</Position>
+      <Original>Pro</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of an integrin binding to one of its physiological ligands.</Detail>
+      <Keyword>Integrin-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0007229</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The attachment of a cell, either to another cell or to an underlying substrate such as the extracellular matrix, via cell adhesion molecules.</Detail>
+      <Keyword>Cell adhesion</Keyword>
+      <Ontology_ID>GO:0007155</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The sequential process in which the multiple coagulation factors of the blood interact, ultimately resulting in the formation of an insoluble fibrin clot; it may be divided into three stages: stage 1, the formation of intrinsic and extrinsic prothrombin converting principle; stage 2, the formation of thrombin; stage 3, the formation of stable fibrin polymers.</Detail>
+      <Keyword>Blood coagulation</Keyword>
+      <Ontology_ID>GO:0007596</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The movement of a leukocyte within or between different tissues and organs of the body.</Detail>
+      <Keyword>Leukocyte migration</Keyword>
+      <Ontology_ID>GO:0050900</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MALRVLLLTALTLCHGFNLDTENAMTFQENARGFGQSVVQLQGSRVVVGAPQEIVAANQRGSLYQCDYSTGSCEPIRLQVPVEAVNMSLGLSLAATTSPPQLLACGPTVHQTCSENTYVKGLCFLFGSNLRQQPQKFPEALRGCPQEDSDIAFLIDGSGSIIPHDFRRMKEFVSTVMEQLKKSKTLFSLMQYSEEFRIHFTFKEFQNNPNPRSLVKPITQLLGRTHTATGIRKVVRELFNITNGARKNAFKILVVITDGEKFGDPLGYEDVIPEADREGVIRYVIGVGDAFRSEKSRQELNTIASKPPRDHVFQVNNFEALKTIQNQLREKIFAIEGTQTGSSSSFEHEMSQEGFSAAITSNGPLLSTVGSYDWAGGVFLYTSKEKSTFINMTRVDSDMNDAYLGYAAAIILRNRVQSLVLGAPRYQHIGLVAMFRQNTGMWESNANVKGTQIGAYFGASLCSVDVDSNGSTDLVLIGAPHYYEQTRGGQVSVCPLPRGRARWQCDAVLYGEQGQPWGRFGAALTVLGDVNGDKLTDVAIGAPGEEDNRGAVYLFHGTSGSGISPSHSQRIAGSKLSPRLQYFGQSLSGGQDLTMDGLVDLTVGAQGHVLLLRSQPVLRVKAIMEFNPREVARNVFECNDQVVKGKEAGEVRVCLHVQKSTRDRLREGQIQSVVTYDLALDSGRPHSRAVFNETKNSTRRQTQVLGLTQTCETLKLQLPNCIEDPVSPIVLRLNFSLVGTPLSAFGNLRPVLAEDAQRLFTALFPFEKNCGNDNICQDDLSITFSFMSLDCLVVGGPREFNVTVTVRNDGEDSYRTQVTFFFPLDLSYRKVSTLQNQRSQRSWRLACESASSTEVSGALKSTSCSINHPIFPENSEVTFNITFDVDSKASLGNKLLLKANVTSENNMPRTNKTEFQLELPVKYAVYMVVTSHGVSTKYLNFTASENTSRVMQHQYQVSNLGQRSLPISLVFLVPVRLNQTVIWDRPQVTFSENLSSTCHTKERLPSHSDFLAELRKAPVVNCSIAVCQRIQCDIPFFGIQEEFNATLKGNLSFDWYIKTSHNHLLIVSTAEILFNDSVFTLLPGQGAFVRSQTETKVEPFEVPNPLPLIVGSSVGGLLLLALITAALYKLGFFKRQYKDMMSEGGPPGAEPQ</Protein_Seq>
+    <DNA_Seq>TTTTCTGCCCTTCTTTGCTTTGGTGGCTTCCTTGTGGTTCCTCAGTGGTGCCTGCAACCCCTGGTTCACCTCCTTCCAGGTTCTGGCTCCTTCCAGCCATGGCTCTCAGAGTCCTTCTGTTAACAGCCTTGACCTTATGTCATGGGTTCAACTTGGACACTGAAAACGCAATGACCTTCCAAGAGAACGCAAGGGGCTTCGGGCAGAGCGTGGTCCAGCTTCAGGGATCCAGGGTGGTGGTTGGAGCCCCCCAGGAGATAGTGGCTGCCAACCAAAGGGGCAGCCTCTACCAGTGCGACTACAGCACAGGCTCATGCGAGCCCATCCGCCTGCAGGTCCCCGTGGAGGCCGTGAACATGTCCCTGGGCCTGTCCCTGGCAGCCACCACCAGCCCCCCTCAGCTGCTGGCCTGTGGTCCCACCGTGCACCAGACTTGCAGTGAGAACACGTATGTGAAAGGGCTCTGCTTCCTGTTTGGATCCAACCTACGGCAGCAGCCCCAGAAGTTCCCAGAGGCCCTCCGAGGGTGTCCTCAAGAGGATAGTGACATTGCCTTCTTGATTGATGGCTCTGGTAGCATCATCCCACATGACTTTCGGCGGATGAAGGAGTTTGTCTCAACTGTGATGGAGCAATTAAAAAAGTCCAAAACCTTGTTCTCTTTGATGCAGTACTCTGAAGAATTCCGGATTCACTTTACCTTCAAAGAGTTCCAGAACAACCCTAACCCAAGATCACTGGTGAAGCCAATAACGCAGCTGCTTGGGCGGACACACACGGCCACGGGCATCCGCAAAGTGGTACGAGAGCTGTTTAACATCACCAACGGAGCCCGAAAGAATGCCTTTAAGATCCTAGTTGTCATCACGGATGGAGAAAAGTTTGGCGATCCCTTGGGATATGAGGATGTCATCCCTGAGGCAGACAGAGAGGGAGTCATTCGCTACGTCATTGGGGTGGGAGATGCCTTCCGCAGTGAGAAATCCCGCCAAGAGCTTAATACCATCGCATCCAAGCCGCCTCGTGATCACGTGTTCCAGGTGAATAACTTTGAGGCTCTGAAGACCATTCAGAACCAGCTTCGGGAGAAGATCTTTGCGATCGAGGGTACTCAGACAGGAAGTAGCAGCTCCTTTGAGCATGAGATGTCTCAGGAAGGCTTCAGCGCTGCCATCACCTCTAATGGCCCCTTGCTGAGCACTGTGGGGAGCTATGACTGGGCTGGTGGAGTCTTTCTATATACATCAAAGGAGAAAAGCACCTTCATCAACATGACCAGAGTGGATTCAGACATGAATGATGCTTACTTGGGTTATGCTGCCGCCATCATCTTACGGAACCGGGTGCAAAGCCTGGTTCTGGGGGCACCTCGATATCAGCACATCGGCCTGGTAGCGATGTTCAGGCAGAACACTGGCATGTGGGAGTCCAACGCTAATGTCAAGGGCACCCAGATCGGCGCCTACTTCGGGGCCTCCCTCTGCTCCGTGGACGTGGACAGCAACGGCAGCACCGACCTGGTCCTCATCGGGGCCCCCCATTACTACGAGCAGACCCGAGGGGGCCAGGTGTCCGTGTGCCCCTTGCCCAGGGGGAGGGCTCGGTGGCAGTGTGATGCTGTTCTCTACGGGGAGCAGGGCCAACCCTGGGGCCGCTTTGGGGCAGCCCTAACAGTGCTGGGGGACGTAAATGGGGACAAGCTGACGGACGTGGCCATTGGGGCCCCAGGAGAGGAGGACAACCGGGGTGCTGTTTACCTGTTTCACGGAACCTCAGGATCTGGCATCAGCCCCTCCCATAGCCAGCGGATAGCAGGCTCCAAGCTCTCTCCCAGGCTCCAGTATTTTGGTCAGTCACTGAGTGGGGGCCAGGACCTCACAATGGATGGACTGGTAGACCTGACTGTAGGAGCCCAGGGGCACGTGCTGCTGCTCAGGTCCCAGCCAGTACTGAGAGTCAAGGCAATCATGGAGTTCAATCCCAGGGAAGTGGCAAGGAATGTATTTGAGTGTAATGATCAGGTGGTGAAAGGCAAGGAAGCCGGAGAGGTCAGAGTCTGCCTCCATGTCCAGAAGAGCACACGGGATCGGCTAAGAGAAGGACAGATCCAGAGTGTTGTGACTTATGACCTGGCTCTGGACTCCGGCCGCCCACATTCCCGCGCCGTCTTCAATGAGACAAAGAACAGCACACGCAGACAGACACAGGTCTTGGGGCTGACCCAGACTTGTGAGACCCTGAAACTACAGTTGCCGAATTGCATCGAGGACCCAGTGAGCCCCATTGTGCTGCGCCTGAACTTCTCTCTGGTGGGAACGCCATTGTCTGCTTTCGGGAACCTCCGGCCAGTGCTGGCGGAGGATGCTCAGAGACTCTTCACAGCCTTGTTTCCCTTTGAGAAGAATTGTGGCAATGACAACATCTGCCAGGATGACCTCAGCATCACCTTCAGTTTCATGAGCCTGGACTGCCTCGTGGTGGGTGGGCCCCGGGAGTTCAACGTGACAGTGACTGTGAGAAATGATGGTGAGGACTCCTACAGGACACAGGTCACCTTCTTCTTCCCGCTTGACCTGTCCTACCGGAAGGTGTCCACGCTCCAGAACCAGCGCTCACAGCGATCCTGGCGCCTGGCCTGTGAGTCTGCCTCCTCCACCGAAGTGTCTGGGGCCTTGAAGAGCACCAGCTGCAGCATAAACCACCCCATCTTCCCGGAAAACTCAGAGGTCACCTTTAATATCACGTTTGATGTAGACTCTAAGGCTTCCCTTGGAAACAAACTGCTCCTCAAGGCCAATGTGACCAGTGAGAACAACATGCCCAGAACCAACAAAACCGAATTCCAACTGGAGCTGCCGGTGAAATATGCTGTCTACATGGTGGTCACCAGCCATGGGGTCTCCACTAAATATCTCAACTTCACGGCCTCAGAGAATACCAGTCGGGTCATGCAGCATCAATATCAGGTCAGCAACCTGGGGCAGAGGAGCCTCCCCATCAGCCTGGTGTTCTTGGTGCCCGTCCGGCTGAACCAGACTGTCATATGGGACCGCCCCCAGGTCACCTTCTCCGAGAACCTCTCGAGTACGTGCCACACCAAGGAGCGCTTGCCCTCTCACTCCGACTTTCTGGCTGAGCTTCGGAAGGCCCCCGTGGTGAACTGCTCCATCGCTGTCTGCCAGAGAATCCAGTGTGACATCCCGTTCTTTGGCATCCAGGAAGAATTCAATGCTACCCTCAAAGGCAACCTCTCGTTTGACTGGTACATCAAGACCTCGCATAACCACCTCCTGATCGTGAGCACAGCTGAGATCTTGTTTAACGATTCCGTGTTCACCCTGCTGCCGGGACAGGGGGCGTTTGTGAGGTCCCAGACGGAGACCAAAGTGGAGCCGTTCGAGGTCCCCAACCCCCTGCCGCTCATCGTGGGCAGCTCTGTCGGGGGACTGCTGCTCCTGGCCCTCATCACCGCCGCGCTGTACAAGCTCGGCTTCTTCAAGCGGCAATACAAGGACATGATGAGTGAAGGGGGTCCCCCGGGGGCCGAACCCCAGTAGCGGCTCCTTCCCGACAGAGCTGCCTCTCGGTGGCCAGCAGGACTCTGCCCAGACCACACGTAGCCCCCAGGCTGCTGGACACGTCGGACAGCGAAGTATCCCCGACAGGACGGGCTTGGGCTTCCATTTGTGTGTGTGCAAGTGTGTATGTGCGTGTGTGCAAGTGTCTGTGTGCAAGTGTGTGCACATGTGTGCGTGTGCGTGCATGTGCACTTGCACGCCCATGTGTGAGTGTGTGCAAGTATGTGAGTGTGTCCAAGTGTGTGTGCGTGTGTCCATGTGTGTGCAAGTGTGTGCATGTGTGCGAGTGTGTGCATGTGTGTGCTCAGGGGCGTGTGGCTCACGTGTGTGACTCAGATGTCTCTGGCGTGTGGGTAGGTGACGGCAGCGTAGCCTCTCCGGCAGAAGGGAACTGCCTGGGCTCCCTTGTGCGTGGGTGAAGCCGCTGCTGGGTTTTCCTCCGGGAGAGGGGACGGTCAATCCTGTGGGTGAAGACAGAGGGAAACACAGCAGCTTCTCTCCACTGAAAGAAGTGGGACTTCCCGTCGCCTGCGAGCCTGCGGCCTGCTGGAGCCTGCGCAGCTTGGATGGAGACTCCATGAGAAGCCGTGGGTGGAACCAGGAACCTCCTCCACACCAGCGCTGATGCCCAATAAAGATGCCCACTGAGGAATGATGAAGCTTCCTTTCTGGATTCATTTATTATTTCAATGTGACTTTAATTTTTTGGATGGATAAGCTTGTCTATGGTACAAAAATCACAAGGCATTCAAGTGTACAGTGAAAAGTCTCCCTTTCCAGATATTCAAGTCACCTCCTTAAAGGTAGTCAAGATTGTGTTTTGAGGTTTCCTTCAGACAGATTCCAGGCGATGTGCAAGTGTATGCACGTGTGCACACACACCACACATACACACACACAAGCTTTTTTACACAAATGGTAGCATACTTTATATTGGTCTGTATCTTGCTTTTTTTCACCAATATTTCTCAGACATCGGTTCATATTAAGACATAAATTACTTTTTCATTCTTTTATACCGCTGCATAGTATTCCATTGTGTGAGTGTACCATAATGTATTTAACCAGTCTTCTTTTGATATACTATTTTCATTCTCTTGTTATTGCATCAATGCTGAGTTAATAAATCAAATATATGTCATTTTTGCATATATGTAAGGATAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Granulocytes</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Monocytes</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integrin complex</CellLocal>
+      <Ontology_ID>GO:0008305</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ITGAM</Gene_Name>
+    <Gene_Alias>CD11B; CR3A</Gene_Alias>
+    <Gene_ID>3684</Gene_ID>
+    <Genbank_ACCN>NM_000632</Genbank_ACCN>
+    <Protein_ACCN>NP_000623</Protein_ACCN>
+    <HGNC_ID>6149</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3684</Gene_URL>
+    <UCSC_ID>uc002ebq.3</UCSC_ID>
+    <EMBL_ID>ENSG00000169896</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Vasculitis</Disease_Name>
+      <Disease_Detail>Vasculitis</Disease_Detail>
+      <Disease_DB>VSC011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/vasculitis?search=ITGAM#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acute Promyelocytic Leukemia</Disease_Name>
+      <Disease_Detail>Acute Promyelocytic Leukemia</Disease_Detail>
+      <Disease_DB>ACT119</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acute_promyelocytic_leukemia?search=ITGAM#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Sepsis</Disease_Name>
+      <Disease_Detail>Sepsis</Disease_Detail>
+      <Disease_DB>SPS077</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/sepsis?search=ITGAM#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Leukocyte Adhesion Deficiency</Disease_Name>
+      <Disease_Detail>Leukocyte Adhesion Deficiency</Disease_Detail>
+      <Disease_DB>LKC001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leukocyte_adhesion_deficiency?search=ITGAM#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lymphocytic Vasculitis</Disease_Name>
+      <Disease_Detail>Lymphocytic Vasculitis</Disease_Detail>
+      <Disease_DB>LYM045</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lymphocytic_vasculitis?search=ITGAM#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lichen Planus</Disease_Name>
+      <Disease_Detail>Lichen Planus</Disease_Detail>
+      <Disease_DB>LCH002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lichen_planus?search=ITGAM#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Granulocytopenia</Disease_Name>
+      <Disease_Detail>Granulocytopenia</Disease_Detail>
+      <Disease_DB>GRN017</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/granulocytopenia?search=ITGAM#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Bronchopulmonary Dysplasia</Disease_Name>
+      <Disease_Detail>Bronchopulmonary Dysplasia</Disease_Detail>
+      <Disease_DB>BRN056</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/bronchopulmonary_dysplasia?search=ITGAM#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myocardial Infarction</Disease_Name>
+      <Disease_Detail>Myocardial Infarction</Disease_Detail>
+      <Disease_DB>MYC007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myocardial_infarction?search=ITGAM#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Systemic Lupus Erythematous, Association with 6</Disease_Name>
+      <Disease_Detail>Systemic Lupus Erythematosus</Disease_Detail>
+      <Disease_DB>SYS039</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/systemic_lupus_erythematous_association_with_6?search=ITGAM#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>AN ISOLEUCINE-BASED ALLOSTERIC SWITCH CONTROLS AFFINITY AND SHAPE SHIFTING IN INTEGRIN CD11B A-DOMAIN</PDB_Title>
+      <PDB_ID>1M1U</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1M1U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An isoleucine-based allosteric switch controls affinity and shape shifting in integrin CD11b A-domain.</PubMed_Title>
+      <Author>Xiong, J.P., et al.</Author>
+      <Journal>J.Biol.Chem.(2000)275:38762-38767</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11034990?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of A-domain in complex with antibody</PDB_Title>
+      <PDB_ID>3Q3G</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3Q3G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Stable Coordination of the Inhibitory Ca2+ Ion at the Metal Ion-Dependent Adhesion Site in Integrin CD11b/CD18 by an Antibody-Derived Ligand Aspartate: Implications for Integrin Regulation and Structure-Based Drug Design.</PubMed_Title>
+      <Author>Mahalingam, B., et al.</Author>
+      <Journal>J.Immunol.(2011)187:6393-6401</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22095715?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of A-domain in complex with antibody</PDB_Title>
+      <PDB_ID>3QA3</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QA3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Stable Coordination of the Inhibitory Ca2+ Ion at the Metal Ion-Dependent Adhesion Site in Integrin CD11b/CD18 by an Antibody-Derived Ligand Aspartate: Implications for Integrin Regulation and Structure-Based Drug Design.</PubMed_Title>
+      <Author>Mahalingam, B., et al.</Author>
+      <Journal>J.Immunol.(2011)187:6393-6401</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22095715?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>I-DOMAIN FROM INTEGRIN CR3, MN2+ BOUND</PDB_Title>
+      <PDB_ID>1JLM</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JLM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Two conformations of the integrin A-domain (I-domain): a pathway for activation?</PubMed_Title>
+      <Author>Lee, J.O., et al.</Author>
+      <Journal>Structure(1995)3:1333-1340</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8747460?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MAC-1 I DOMAIN MAGNESIUM COMPLEX</PDB_Title>
+      <PDB_ID>1BHO</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BHO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Cation binding to the integrin CD11b I domain and activation model assessment</PubMed_Title>
+      <Author>Baldwin, E.T., et al.</Author>
+      <Journal>Structure(1998)6:923-935</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9687375?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MAC-1 I DOMAIN CADMIUM COMPLEX</PDB_Title>
+      <PDB_ID>1BHQ</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BHQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Cation binding to the integrin CD11b I domain and activation model assessment</PubMed_Title>
+      <Author>Baldwin, E.T., et al.</Author>
+      <Journal>Structure(1998)6:923-935</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9687375?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>INTEGRIN ALPHA M I DOMAIN MUTANT</PDB_Title>
+      <PDB_ID>1N9Z</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1N9Z</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Engineered allosteric mutants of the integrin alphaMbeta2 I domain: structural and functional studies</PubMed_Title>
+      <Author>McCleverty, C.J., et al.</Author>
+      <Journal>Biochem.J.(2003)372:121-127</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12611591?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structures and Interaction Analyses of the Integrin Alpha-M Beta-2 Cytoplasmic Tails</PDB_Title>
+      <PDB_ID>2LKE</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2LKE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures and interaction analyses of the integrin alphaMbeta2 cytoplasmic tails</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>INTEGRIN ALPHA M I DOMAIN</PDB_Title>
+      <PDB_ID>1MF7</PDB_ID>
+      <Resolution>1.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MF7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Engineered allosteric mutants of the integrin alphaMbeta2 I domain: structural and functional studies</PubMed_Title>
+      <Author>McCleverty, C.J., et al.</Author>
+      <Journal>Biochem.J.(2003)372:121-127</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12611591?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MAC-1 I DOMAIN METAL FREE</PDB_Title>
+      <PDB_ID>1IDN</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1IDN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Cation binding to the integrin CD11b I domain and activation model assessment</PubMed_Title>
+      <Author>Baldwin, E.T., et al.</Author>
+      <Journal>Structure(1998)6:923-935</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9687375?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>I-DOMAIN FROM INTEGRIN CR3, MG2+ BOUND</PDB_Title>
+      <PDB_ID>1IDO</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1IDO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the A domain from the alpha subunit of integrin CR3 (CD11b/CD18).</PubMed_Title>
+      <Author>Lee, J.O., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(1995)80:631-638</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7867070?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>INTEGRIN ALPHA M I DOMAIN</PDB_Title>
+      <PDB_ID>1NA5</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NA5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Engineered allosteric mutants of the integrin alphaMbeta2 I domain: structural and functional studies</PubMed_Title>
+      <Author>McCleverty, C.J., et al.</Author>
+      <Journal>Biochem.J.(2003)372:121-127</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12611591?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structures and Interaction Analyses of the Integrin Alpha-M Beta-2 Cytoplasmic Tails</PDB_Title>
+      <PDB_ID>2LKJ</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2LKJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures and interaction analyses of the integrin alphaMbeta2 cytoplasmic tails</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05134</Pathway_ID>
+      <Pathway_Title>Legionellosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04640</Pathway_ID>
+      <Pathway_Title>Hematopoietic cell lineage</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04514</Pathway_ID>
+      <Pathway_Title>Cell adhesion molecules (CAMs)</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signaling molecules and interaction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04514</Pathway_ID>
+      <Pathway_Title>Cell adhesion molecules (CAMs)</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signaling molecules and interaction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04670</Pathway_ID>
+      <Pathway_Title>Leukocyte transendothelial migration</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05202</Pathway_ID>
+      <Pathway_Title>Transcriptional misregulation in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04670</Pathway_ID>
+      <Pathway_Title>Leukocyte transendothelial migration</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05152</Pathway_ID>
+      <Pathway_Title>Tuberculosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05133</Pathway_ID>
+      <Pathway_Title>Pertussis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05140</Pathway_ID>
+      <Pathway_Title>Leishmaniasis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04640</Pathway_ID>
+      <Pathway_Title>Hematopoietic cell lineage</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.ii.b.b.f.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1ido</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Open-Close</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD06140001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140003</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140008</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140009</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140010</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140011</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140012</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140013</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140014</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140015</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140016</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140017</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140018</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140019</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140020</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140021</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140022</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140023</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140024</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140025</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140026</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140028</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140029</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140031</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140032</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140033</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06140034</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06142001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06142002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02000000_3</Organism_ID>
+  <Organism>Maricaulis maris</Organism>
+  <Organism_Latin>Maricaulis maris</Organism_Latin>
+  <UniProt_ID>Q0ASS9</UniProt_ID>
+  <Seq_Length>441</Seq_Length>
+  <Molecule_Weight>47952</Molecule_Weight>
+  <KEGG_ID>mmr:Mmar10_0365</KEGG_ID>
+  <Orthology_ID>K00930</Orthology_ID>
+  <Catalytic_Mechanism>ATP + N-acetyl-L-glutamate = ADP + N-acetyl-L-glutamate 5-phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00696:AA_kinase@@PF04768:DUF619</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>N-acetylglutamate kinase / N-acetylglutamate synthase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the generalized reaction: acyl-carrier + reactant = acyl-reactant + carrier.</Detail>
+      <Keyword>Acyltransferase activity</Keyword>
+      <Ontology_ID>GO:0008415</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-glutamate + acetyl-CoA = N-acetyl-L-glutamate + CoA + H(+).</Detail>
+      <Keyword>Acetyl-CoA</Keyword>
+      <Ontology_ID>GO:0004042</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + N-acetyl-L-glutamate = ADP + N-acetyl-L-glutamate-5-phosphate.</Detail>
+      <Keyword>Acetylglutamate kinase activity</Keyword>
+      <Ontology_ID>GO:0003991</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of arginine, 2-amino-5-(carbamimidamido)pentanoic acid.</Detail>
+      <Keyword>Arginine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006526</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MNPNAPGVRQTIVQLLSHMRDGKEIREYLHRFSGIDQERFAVIKVGGAVIQDDLPGLASALAFLQTVGLTPVVVHGGGPQLDAALEAADIPTERVDGLRVTRDEAIPIIRDTLTQANLALVDAIRDAGGRAAAVPRGVFEADIVDADKLGRVGEPRHIHLDLVGSAARAGQAAILACLGETPDGTLVNINADVAVRALVHALQPYKVVFLTGTGGLLDEDGDILSSINLATDFGDLMQADWVNGGMRLKLEEIKRLLDDLPLSSSVSITRPSELARELFTHAGSGTLIRRGERIVATDDKSSLDLGRLDNLVKAAFGRPAVEGYWDRLRVDRAFVTESYRAAAITTRLDGWVYLDKFAVLDDARGEGLGRTVWNRLVDYAPQLIWRSRTNNPVNGFYFEECDGAVRRDEWTVFWRGEMGPVEVADVVEKAFALPPTLEAPQ</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Genbank_ACCN>NC_008347</Genbank_ACCN>
+    <Protein_ACCN>YP_755596</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/4284885</Gene_URL>
+    <EMBL_ID>Mmar10_0365</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Structure mmNAGS bound with L-arginine</PDB_Title>
+      <PDB_ID>4KZT</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4KZT</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02000001</ASD_Ligand>
+      <PubMed_Title>Structure of N-acetyl-L-glutamate synthase/kinase from Maricaulis maris with the allosteric inhibitor L-arginine bound.</PubMed_Title>
+      <Author>Zhao, G., et al.</Author>
+      <Journal>Biochem.Biophys.Res.Commun.(2013)437:585-590</Journal>
+      <PubMed_ID>23850694</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00760</Pathway_ID>
+      <Pathway_Title>Nicotinate and nicotinamide metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01210</Pathway_ID>
+      <Pathway_Title>2-Oxocarboxylic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01210</Pathway_ID>
+      <Pathway_Title>2-Oxocarboxylic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02000001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07260001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2014-06-12</Create_Date>
+</Organism_Record>

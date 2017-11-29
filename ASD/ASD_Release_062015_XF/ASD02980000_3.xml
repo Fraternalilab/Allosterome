@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02980000_3</Organism_ID>
+  <Organism>Escherichia coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P27828</UniProt_ID>
+  <Seq_Length>376</Seq_Length>
+  <Molecule_Weight>42245</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3389</KEGG_ID>
+  <Orthology_ID>K01791</Orthology_ID>
+  <Function_Summary>Catalyzes the reversible epimerization at C-2 of UDP-N-acetylglucosamine (UDP-GlcNAc) and thereby provides bacteria with UDP-N-acetylmannosamine (UDP-ManNAc), the activated donor of ManNAc residues. Also involved in bacteriophage N4 adsorption.</Function_Summary>
+  <Catalytic_Mechanism>UDP-N-acetyl-alpha-D-glucosamine = UDP-N-acetyl-alpha-D-mannosamine.</Catalytic_Mechanism>
+  <Pfam_ID>PF02350:Epimerase_2</Pfam_ID>
+  <Allosteric_Activator_Count>3</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Bacteriophage N4 adsorption protein C</Alias>
+      <Alias>UDP-GlcNAc-2-epimerase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the geometric or structural changes within one molecule. Isomerase is the systematic name for any enzyme of EC class 5.</Detail>
+      <Keyword>Isomerase activity</Keyword>
+      <Ontology_ID>GO:0016853</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein or proteins.</Detail>
+      <Keyword>Identical protein binding</Keyword>
+      <Ontology_ID>GO:0042802</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: UDP-N-acetyl-D-glucosamine = UDP-N-acetyl-D-mannosamine.</Detail>
+      <Keyword>UDP-N-acetylglucosamine 2-epimerase activity</Keyword>
+      <Ontology_ID>GO:0008761</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of the enterobacterial common antigen, an acidic polysaccharide containing N-acetyl-D-glucosamine, N-acetyl-D-mannosaminouronic acid, and 4-acetamido-4,6-dideoxy-D-galactose. A major component of the cell wall outer membrane of Gram-negative bacteria.</Detail>
+      <Keyword>Enterobacterial common antigen biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009246</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of lipopolysaccharides, any of a group of related, structurally complex components of the outer membrane of Gram-negative bacteria.</Detail>
+      <Keyword>Lipopolysaccharide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009103</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving UDP-N-acetylglucosamine, a substance composed of N-acetylglucosamine, a common structural unit of oligosaccharides, in glycosidic linkage with uridine diphosphate.</Detail>
+      <Keyword>UDP-N-acetylglucosamine metabolic process</Keyword>
+      <Ontology_ID>GO:0006047</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKVLTVFGTRPEAIKMAPLVHALAKDPFFEAKVCVTAQHREMLDQVLKLFSIVPDYDLNIMQPGQGLTEITCRILEGLKPILAEFKPDVVLVHGDTTTTLATSLAAFYQRIPVGHVEAGLRTGDLYSPWPEEANRTLTGHLAMYHFSPTETSRQNLLRENVADSRIFITGNTVIDALLWVRDQVMSSDKLRSELAANYPFIDPDKKMILVTGHRRESFGRGFEEICHALADIATTHQDIQIVYPVHLNPNVREPVNRILGHVKNVILIDPQEYLPFVWLMNHAWLILTDSGGIQEEAPSLGKPVLVMRDTTERPEAVTAGTVRLVGTDKQRIVEEVTRLLKDENEYQAMSRAHNPYGDGQACSRILEALKNNRISL</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>wecB</Gene_Name>
+    <Gene_Alias>nfrC; rffE; yifF</Gene_Alias>
+    <Gene_ID>12934327</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>YP_026253</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/944789</Gene_URL>
+    <EMBL_ID>BAE77512</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of UDP-N-acetylglucosamine 2-epimerase</PDB_Title>
+      <PDB_ID>ASD02980000_3</PDB_ID>
+      <Resolution>-1.0</Resolution>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00520</Pathway_ID>
+      <Pathway_Title>Amino sugar and nucleotide sugar metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00520</Pathway_ID>
+      <Pathway_Title>Amino sugar and nucleotide sugar metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00520</Pathway_ID>
+      <Pathway_Title>Amino sugar and nucleotide sugar metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>5.1.3.14</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC5/1/3/14.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01330015</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02980001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02980002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10298001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2014-06-12</Create_Date>
+</Organism_Record>

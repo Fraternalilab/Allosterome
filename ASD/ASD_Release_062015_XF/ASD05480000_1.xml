@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05480000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A855</UniProt_ID>
+  <Seq_Length>430</Seq_Length>
+  <Molecule_Weight>45956</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0720</KEGG_ID>
+  <Orthology_ID>K03641</Orthology_ID>
+  <Function_Summary>Involved in the TonB-independent uptake of group A colicins (colicins A, E1, E2, E3 and K). Necessary for the colicins to reach their respective targets after initial binding to the bacteria.</Function_Summary>
+  <Pfam_ID>PF00930:DPPIV_N@@PF07676:PD40@@PF04052:TolB_N</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of a bacteriocin into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Bacteriocins are a group of antibiotics produced by bacteria and are encoded by a group of naturally occurring plasmids, e.g. Col E1. Bacteriocins are toxic to bacteria closely related to the bacteriocin producing strain.</Detail>
+      <Keyword>Bacteriocin transport</Keyword>
+      <Ontology_ID>GO:0043213</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of proteins into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Protein transport</Keyword>
+      <Ontology_ID>GO:0015031</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds.</Detail>
+      <Keyword>Proteolysis</Keyword>
+      <Ontology_ID>GO:0006508</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of proteins into a cell or organelle.</Detail>
+      <Keyword>Protein import</Keyword>
+      <Ontology_ID>GO:0017038</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKQALRVAFGFLILWASVLHAEVRIVIDSGVDSGRPIGVVPFQWAGPGAAPEDIGGIVAADLRNSGKFNPLDRARLPQQPGSAQEVQPAAWSALGIDAVVVGQVTPNPDGSYNVAYQLVDTGGAPGTVLAQNSYKVNKQWLRYAGHTASDEVFEKLTGIKGAFRTRIAYVVQTNGGQFPYELRVSDYDGYNQFVVHRSPQPLMSPAWSPDGSKLAYVTFESGRSALVIQTLANGAVRQVASFPRHNGAPAFSPDGSKLAFALSKTGSLNLYVMDLASGQIRQVTDGRSNNTEPTWFPDSQNLAFTSDQAGRPQVYKVNINGGAPQRITWEGSQNQDADVSSDGKFMVMVSSNGGQQHIAKQDLATGGVQVLSSTFLDETPSLAPNGTMVIYSSSQGMGSVLNLVSTDGRFKARLPATDGQVKFPAWSPYL</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Periplasm</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Outer membrane-bounded periplasmic space</CellLocal>
+      <Ontology_ID>GO:0030288</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Periplasmic space</CellLocal>
+      <Ontology_ID>GO:0042597</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>tolB</Gene_Name>
+    <Gene_ID>12932834</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_415268</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/945429</Gene_URL>
+    <EMBL_ID>EBESCG00000016089</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROCESSED TOLB IN COMPLEX WITH PAL</PDB_Title>
+      <PDB_ID>2W8B</PDB_ID>
+      <Resolution>1.86</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2W8B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Allosteric Beta-Propeller Signalling in Tolb and its Manipulation by Translocating Colicins.</PubMed_Title>
+      <Author>Bonsor, D.A., et al.</Author>
+      <Journal>Embo J.(2009)28:2846-2857</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19696740?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF TOLB IN COMPLEX WITH A PEPTIDE OF THE COLICIN E9 T-DOMAIN</PDB_Title>
+      <PDB_ID>2IVZ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IVZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Competitive Recruitment of the Periplasmic Translocation Portal Tolb by a Natively Disordered Domain of Colicin E9</PubMed_Title>
+      <Author>Loftus, S.R., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2006)103:12353</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16894158?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF TOLB, AN ESSENTIAL COMPONENT OF THE TOL-DEPENDENT TRANSLOCATION SYSTEM AND ITS INTERACTIONS WITH THE TRANSLOCATION DOMAIN OF COLICIN E9</PDB_Title>
+      <PDB_ID>1C5K</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1C5K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of TolB, an essential component of the tol-dependent translocation system, and its protein-protein interaction with the translocation domain of colicin E9.</PubMed_Title>
+      <Author>Carr, S., et al.</Author>
+      <Journal>Structure Fold.Des.(2000)8:57-66</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10673426?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The crystal structure of the TolB box of Colicin A in complex with TolB reveals important differences in the recruitment of the common TolB translocation portal used by group A colicins</PDB_Title>
+      <PDB_ID>3IAX</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3IAX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The crystal structure of the TolB box of colicin A in complex with TolB reveals important differences in the recruitment of the common TolB translocation portal used by group A colicins.</PubMed_Title>
+      <Author>Zhang, Y., et al.</Author>
+      <Journal>Mol.Microbiol.(2009)75:623-636</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19627502?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of TolB/Pal complex</PDB_Title>
+      <PDB_ID>2HQS</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HQS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular mimicry enables competitive recruitment by a natively disordered protein.</PubMed_Title>
+      <Author>Bonsor, D.A., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2007)129:4800-4807</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17375930?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE E. COLI TOLB PROTEIN</PDB_Title>
+      <PDB_ID>1CRZ</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CRZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the Escherichia coli TolB protein determined by MAD methods at 1.95 A resolution.</PubMed_Title>
+      <Author>Abergel, C., et al.</Author>
+      <Journal>Structure Fold.Des.(1999)7:1291-1300</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10545334?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.hc.c.b.b.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1c5k</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

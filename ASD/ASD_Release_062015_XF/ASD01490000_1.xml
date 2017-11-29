@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01490000_1</Organism_ID>
+  <Organism>Bacillus subtilis</Organism>
+  <Organism_Latin>Bacillus subtilis</Organism_Latin>
+  <UniProt_ID>O34483</UniProt_ID>
+  <Seq_Length>310</Seq_Length>
+  <Molecule_Weight>34702</Molecule_Weight>
+  <KEGG_ID>bsu:BSU35000</KEGG_ID>
+  <Orthology_ID>K06023</Orthology_ID>
+  <Function_Summary>Catalyzes the ATP- as well as the pyrophosphate-dependent phosphorylation of 'Ser-45' in HPr, a phosphocarrier protein of the phosphoenolpyruvate-dependent sugar phosphotransferase system (PTS). HprK/P also catalyzes the pyrophosphate-producing, inorganic phosphate-dependent dephosphorylation (phosphorolysis) of seryl-phosphorylated HPr (P-Ser-HPr). The two antagonistic activities of HprK/P are regulated by several intracellular metabolites, which change their concentration in response to the absence or presence of rapidly metabolisable carbon sources (glucose, fructose, etc.) in the growth medium. Also phosphorylates/dephosphorylates the HPr-like catabolite repression protein crh on 'Ser-46'. Therefore, by controlling the phosphorylation state of HPr and crh, HPrK/P is a sensor enzyme that plays a major role in the regulation of carbon metabolism and sugar transport: it mediates carbon catabolite repression (CCR), and regulates PTS-catalyzed carbohydrate uptake and inducer exclusion.</Function_Summary>
+  <Catalytic_Mechanism>ATP + HPr = ADP + P-Ser-HPr.@@P-Ser-HPr + phosphate = HPr + diphosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF07475:Hpr_kinase_C@@PF02603:Hpr_kinase_N</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>HPr(Ser) kinase/phosphorylase</Alias>
+      <Alias>HPr kinase/phosphatase</Alias>
+      <Alias>HPrK/P</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the phosphorylation of a histidine residue in response to detection of an extracellular signal such as a chemical ligand or change in environment, to initiate a change in cell state or activity. The two-component sensor is a histidine kinase that autophosphorylates a histidine residue in its active site. The phosphate is then transferred to an aspartate residue in a downstream response regulator, to trigger a response.</Detail>
+      <Keyword>Two-component sensor activity</Keyword>
+      <Ontology_ID>GO:0000155</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving carbohydrates, any of a group of organic compounds based of the general formula Cx(H2O)y. Includes the formation of carbohydrate derivatives by the addition of a carbohydrate residue to another molecule.</Detail>
+      <Keyword>Carbohydrate metabolic process</Keyword>
+      <Ontology_ID>GO:0005975</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving carbohydrates.</Detail>
+      <Keyword>Regulation of carbohydrate metabolic process</Keyword>
+      <Ontology_ID>GO:0006109</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAKVRTKDVMEQFNLELISGEEGINRPITMSDLSRPGIEIAGYFTYYPRERVQLLGKTELSFFEQLPEEEKKQRMDSLCTDVTPAIILSRDMPIPQELIDASEKNGVPVLRSPLKTTRLSSRLTNFLESRLAPTTAIHGVLVDIYGVGVLITGKSGVGKSETALELVKRGHRLVADDCVEIRQEDQDTLVGNAPELIEHLLEIRGLGIINVMTLFGAGAVRSNKRITIVMNLELWEQGKQYDRLGLEEETMKIIDTEITKLTIPVRPGRNLAVIIEVAAMNFRLKRMGLNAAEQFTNKLADVIEDGEQEE</Protein_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Unknown</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>hprK</Gene_Name>
+    <Gene_Alias>ptsK; yvoB</Gene_Alias>
+    <Gene_ID>936615</Gene_ID>
+    <Genbank_ACCN>NC_000964</Genbank_ACCN>
+    <Protein_ACCN>NP_391380</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/936615</Gene_URL>
+    <EMBL_ID>EBBACG00000003624</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of HPr kinase/phosphorylase</PDB_Title>
+      <PDB_ID>ASD01490000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,204,Arg;range,262,267</Site_Detail>
+      <Site_Reference>Pompeo F, et al. Biochemistry. 2003,42(22):6762-6771.;Selwood T, et al. Arch Biochem Biophys. 2012, 519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PubMed_ID>12779331;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.-@@2.7.4.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00200001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

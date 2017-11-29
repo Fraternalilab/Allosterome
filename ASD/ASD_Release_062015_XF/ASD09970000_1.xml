@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD09970000_1</Organism_ID>
+  <Organism>Mycobacterium tuberculosis</Organism>
+  <Organism_Latin>Mycobacterium tuberculosis</Organism_Latin>
+  <UniProt_ID>O53512</UniProt_ID>
+  <Seq_Length>462</Seq_Length>
+  <Molecule_Weight>50641</Molecule_Weight>
+  <KEGG_ID>mtu:Rv2178c</KEGG_ID>
+  <Orthology_ID>K01626</Orthology_ID>
+  <Function_Summary>Catalyzes an aldol-like condensation reaction between phosphoenolpyruvate (PEP) and D-erythrose 4-phosphate (E4P) to generate 3-deoxy-D-arabino-heptulosonate 7-phosphate (DAH7P) and inorganic phosphate.</Function_Summary>
+  <Catalytic_Mechanism>Phosphoenolpyruvate + D-erythrose 4-phosphate + H(2)O = 3-deoxy-D-arabino-hept-2-ulosonate 7-phosphate + phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF01474:DAHP_synth_2</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>2</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>3-deoxy-D-arabino-heptulosonate 7-phosphate synthase</Alias>
+      <Alias>DAHP synthase</Alias>
+      <Alias>Phospho-2-keto-3-deoxyheptonate aldolase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: D-erythrose 4-phosphate + H(2)O + phosphoenolpyruvate = 7-phospho-2-dehydro-3-deoxy-D-arabino-heptonate + phosphate.</Detail>
+      <Keyword>3-deoxy-7-phosphoheptulonate synthase activity</Keyword>
+      <Ontology_ID>GO:0003849</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with manganese (Mn) ions.</Detail>
+      <Keyword>Manganese ion binding</Keyword>
+      <Ontology_ID>GO:0030145</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of creating protein oligomers, compounds composed of a small number, usually between three and ten, of identical component monomers. Oligomers may be formed by the polymerization of a number of monomers or the depolymerization of a large protein polymer.</Detail>
+      <Keyword>Protein homooligomerization</Keyword>
+      <Ontology_ID>GO:0051260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of the unsymmetrical ether derived from phosphoenolpyruvate and 5-phosphoshikimic acid formed as an intermediate in the biosynthesis of aromatic amino acids and many other compounds.</Detail>
+      <Keyword>Chorismate biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009423</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The increase in size or mass of an entire organism, a part of an organism or a cell.</Detail>
+      <Keyword>Growth</Keyword>
+      <Ontology_ID>GO:0040007</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of aromatic amino acid family, amino acids with aromatic ring (phenylalanine, tyrosine, tryptophan).</Detail>
+      <Keyword>Aromatic amino acid family biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009073</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MNWTVDIPIDQLPSLPPLPTDLRTRLDAALAKPAAQQPTWPADQALAMRTVLESVPPVTVPSEIVRLQEQLAQVAKGEAFLLQGGDCAETFMDNTEPHIRGNVRALLQMAVVLTYGASMPVVKVARIAGQYAKPRSADIDALGLRSYRGDMINGFAPDAAAREHDPSRLVRAYANASAAMNLVRALTSSGLASLHLVHDWNREFVRTSPAGARYEALATEIDRGLRFMSACGVADRNLQTAEIYASHEALVLDYERAMLRLSDGDDGEPQLFDLSAHTVWIGERTRQIDGAHIAFAQVIANPVGVKLGPNMTPELAVEYVERLDPHNKPGRLTLVSRMGNHKVRDLLPPIVEKVQATGHQVIWQCDPMHGNTHESSTGFKTRHFDRIVDEVQGFFEVHRALGTHPGGIHVEITGENVTECLGGAQDISETDLAGRYETACDPRLNTQQSLELAFLVAEMLRD</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell wall</CellLocal>
+      <Ontology_ID>GO:0005618</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>aroG</Gene_Name>
+    <Gene_ID>888309</Gene_ID>
+    <Genbank_ACCN>NC_000962</Genbank_ACCN>
+    <Protein_ACCN>NP_216694</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/888309</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>The structure of 3-deoxy-d-arabino-heptulosonate 7-phosphate synthase in complex with phosphoenol pyruvate and manganese (thesit-free)</PDB_Title>
+      <PDB_ID>3NV8</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NV8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Synergistic allostery, a sophisticated regulatory network for the control of aromatic amino acid biosynthesis in Mycobacterium tuberculosis</PubMed_Title>
+      <Author>Webby, C.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:30567-30576</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20667835?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>3-deoxy-D-arabino-heptulosonate 7-phosphate synthase with tryptophan and tyrosine bound</PDB_Title>
+      <PDB_ID>2YPQ</PDB_ID>
+      <Resolution>2.76</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YPQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Three Sites and You are Out: Ternary Synergistic Allostery Controls Aromatic Aminoacid Biosynthesis in Mycobacterium Tuberculosis.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>The structure of 3-deoxy-d-arabino-heptulosonate 7-phosphate synthase from mycobacterium tuberculosis complexed with phenylalanine</PDB_Title>
+      <PDB_ID>3NUD</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NUD</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02170001</ASD_Ligand>
+      <PubMed_Title>Synergistic allostery, a sophisticated regulatory network for the control of aromatic amino acid biosynthesis in Mycobacterium tuberculosis</PubMed_Title>
+      <Author>Webby, C.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:30567-30576</Journal>
+      <PubMed_ID>20667835</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NON-COVALENT COMPLEX BETWEEN DAHP SYNTHASE AND CHORISMATE MUTASE FROM MYCOBACTERIUM TUBERCULOSIS</PDB_Title>
+      <PDB_ID>2W19</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2W19</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and Function of a Complex between Chorismate Mutase and Dahp Synthase: Efficiency Boost for the Junior Partner.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>The structure of 3-deoxy-d-arabino-heptulosonate 7-phosphate synthase from mycobacterium tuberculosis complexed with tryptophan</PDB_Title>
+      <PDB_ID>3NUE</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NUE</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00320001</ASD_Ligand>
+      <PubMed_Title>Synergistic allostery, a sophisticated regulatory network for the control of aromatic amino acid biosynthesis in Mycobacterium tuberculosis</PubMed_Title>
+      <Author>Webby, C.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:30567-30576</Journal>
+      <PubMed_ID>20667835</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase from Mycobacterium tuberculosis in complex with an active site inhibitor</PDB_Title>
+      <PDB_ID>3PFP</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PFP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Potent inhibitors of a shikimate pathway enzyme from Mycobacterium tuberculosis: combining mechanism- and modeling-based design</PubMed_Title>
+      <Author>Reichau, S., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:16197-16207</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21454647?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>3-deoxy-D-arabino-heptulosonate 7-phosphate synthase with phenylalanine bound in only one site</PDB_Title>
+      <PDB_ID>2YPO</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YPO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02170001</ASD_Ligand>
+      <PubMed_Title>Three Sites and You are Out: Ternary Synergistic Allostery Controls Aromatic Aminoacid Biosynthesis in Mycobacterium Tuberculosis.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Structure of 3-Deoxy-D-Arabino-Heptulosonate 7-Phosphate Synthase from Mycobacterium tuberculosis</PDB_Title>
+      <PDB_ID>2B7O</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2B7O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of 3-deoxy-d-arabino-heptulosonate 7-phosphate synthase from Mycobacterium tuberculosis reveals a common catalytic scaffold and ancestry for type I and type II enzymes</PubMed_Title>
+      <Author>Webby, C.J., et al.</Author>
+      <Journal>J.Mol.Biol.(2005)354:927-939</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16288916?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The structure of 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase from mycobacterium tuberculosis cocrystallized and complexed with phenylalanine and tryptophan</PDB_Title>
+      <PDB_ID>3RZI</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3RZI</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00320001;ASD02170001</ASD_Ligand>
+      <PubMed_Title>Dynamic Cross-Talk among Remote Binding Sites: The Molecular Basis for Unusual Synergistic Allostery.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>3-deoxy-D-arabino-heptulosonate 7-phosphate synthase in complex with 3 tyrosine molecules</PDB_Title>
+      <PDB_ID>2YPP</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YPP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Three Sites and You are Out: Ternary Synergistic Allostery Controls Aromatic Aminoacid Biosynthesis in Mycobacterium Tuberculosis.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Non-covalent complex between dahp synthase and chorismate mutase from Mycobacterium tuberculosis with bound tsa</PDB_Title>
+      <PDB_ID>2W1A</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2W1A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and Function of a Complex between Chorismate Mutase and Dahp Synthase: Efficiency Boost for the Junior Partner.</PubMed_Title>
+      <Author>Sasso, S., et al.</Author>
+      <Journal>Embo J.(2009)28:2128</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19556970?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The structure of 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase from Mycobacterium tuberculosis complexed with phenylalanine and tryptophan</PDB_Title>
+      <PDB_ID>3KGF</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KGF</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00320001;ASD02170001</ASD_Ligand>
+      <PubMed_Title>Synergistic allostery, a sophisticated regulatory network for the control of aromatic amino acid biosynthesis in Mycobacterium tuberculosis</PubMed_Title>
+      <Author>Webby, C.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:30567-30576</Journal>
+      <PubMed_ID>20667835</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.b.bb.i.b.html</SCOP_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,147,Tyr;site,155,Phe</Site_Detail>
+      <Site_Reference>Blackmore NJ, et al. J Mol Biol. 2012 Dec 28. pii: S0022-2836(12)00952-7. doi: 10.1016/j.jmb.2012.12.019.</Site_Reference>
+      <PubMed_ID>23274137</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.5.1.54</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/5/1/54.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00320001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00690002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02170001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

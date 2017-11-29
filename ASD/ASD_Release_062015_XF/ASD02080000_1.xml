@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02080000_1</Organism_ID>
+  <Organism>Salmonella typhimurium</Organism>
+  <Organism_Latin>Salmonella typhimurium</Organism_Latin>
+  <UniProt_ID>P0A1E3</UniProt_ID>
+  <Seq_Length>323</Seq_Length>
+  <Molecule_Weight>34536</Molecule_Weight>
+  <KEGG_ID>stm:STM2430</KEGG_ID>
+  <Orthology_ID>K01738</Orthology_ID>
+  <Function_Summary>Two cysteine synthase enzymes are found. Both catalyze the same reaction. Cysteine synthase B can also use thiosulfate in place of sulfide to give cysteine thiosulfonate as a product.</Function_Summary>
+  <Catalytic_Mechanism>O(3)-acetyl-L-serine + H(2)S = L-cysteine + acetate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00291:PALP</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>OASS</Alias>
+      <Alias>CSase A</Alias>
+      <Alias>OAS-TL A</Alias>
+      <Alias>O-acetylserine sulfhydrylase A</Alias>
+      <Alias>O-acetylserine (thiol)-lyase A</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with pyridoxal 5' phosphate, 3-hydroxy-5-(hydroxymethyl)-2-methyl4-pyridine carboxaldehyde 5' phosphate, the biologically active form of vitamin B6.</Detail>
+      <Keyword>Pyridoxal phosphate binding</Keyword>
+      <Ontology_ID>GO:0030170</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: O3-acetyl-L-serine + H2S = L-cysteine + acetate.</Detail>
+      <Keyword>Cysteine synthase activity</Keyword>
+      <Ontology_ID>GO:0004124</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of cysteine from other compounds, including serine.</Detail>
+      <Keyword>Cysteine biosynthetic process from serine</Keyword>
+      <Ontology_ID>GO:0006535</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of cysteine, 2-amino-3-mercaptopropanoic acid.</Detail>
+      <Keyword>Cysteine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0019344</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>42</Position>
+      <PTM_Type>N6-(pyridoxal phosphate)lysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSKIYEDNSLTIGHTPLVRLNRIGNGRILAKVESRNPSFSVKCRIGANMIWDAEKRGVLKPGVELVEPTSGNTGIALAYVAAARGYKLTLTMPETMSIERRKLLKALGANLVLTEGAKGMKGAIQKAEEIVASDPQKYLLLQQFSNPANPEIHEKTTGPEIWEDTDGQVDVFISGVGTGGTLTGVTRYIKGTKGKTDLITVAVEPTDSPVIAQALAGEEIKPGPHKIQGIGAGFIPGNLDLKLIDKVVGITNEEAISTARRLMEEEGILAGISSGAAVAAALKLQEDESFTNKNIVVILPSSGERYLSTALFADLFTEKELQQ</Protein_Seq>
+    <DNA_Seq>GATCGTTCTTTACGGCTGGTCCAGAAACCATGTACCAGTAAAGCGATTATGGCGATCGCGCCAACAATGATTAATATCAGACGCAAATCCTGCATCATTATATTCTCTGTTGTTCTAACACCTTGCCACCACGGCAAACATTTACTCACTAAGAGTATTTGCCGATTACGTCAAGTGCAAGTGTACTGTTGGCTTTCGCAGCATAAAGATGAAGGAAAATGTGCTTTTTGCTGTTTTTTCGAACATTTCCGAACTATCCACCGTCTGATAACCGGGTAAGATATCCCACGTTTACCCAGGGCTTTAAGAAAAAGGAGTATGTCCTGAATATGGTTTCATCATCCACAACCGTACCACGTAGCGGCGTCTATTATTTCTCGCAAGGATGGAAGTTAGTCACCCTACCGGGAATCCGCCGCTTTGTTATTTTACCTTTGCTGGTCAACATTGTGCTGATGGGCGGCGCATTTTGGTGGCTGTTTACCCAGCTTGACGCCTGGATACCTTCGTTGATGAGTCATGTGCCGGACTGGCTGCAATGGCTGAGCTATCTGCTGTGGCCGATTGCGGTTATCTCTGTTCTGCTGGTCTTTGGCTATTTTTTCTCTACCCTCGCCAACTGGATCGCCGCGCCGTTTAACGGCCTTTTAGCCGAACAGCTTGAGGCGCGGTTAACCGGCGCCACGCCGCCAGATACAGGCATACTCGGCATCATGAAAGATGTACCGCGCATTATGAAACGTGAATGGCAAAAGCTGGCGTGGTATCTGCCGCGCGCTATTGTGCTGCTGATTCTCTATTTTATTCCTGGCATTGGCCAAACCATCGCGCCGGTGCTGTGGTTTTTGTTCAGCGCCTGGATGCTGGCGATTCAGTATTGCGACTATCCGTTTGATAACCACAAAGTGCCGTTTAAAACGATGCGCGCCGCGTTGCGCACGCAGAAGGTGGCGAATATGCAATTTGGCGCGCTCACCAGCCTCTTTACGATGATTCCGGTGCTTAACCTGTTCATTATGCCTGTCGCCGTCTGTGGCGCGACGGCAATGTGGGTTGATTGCTGGCGTGCTAAGCACGCGTTATGGAAATAACGTAAAAATGTATAAATAAGAGATGGCTTATGCTGTCTCTTATTCCATACTGATAACCATTATTTCCCATCAGCATATAGATATGCGAAATCCTTACTTCCCCATATCTGGCTGGAAGGTATGCTGGGAAGGTATCCCAATTTCATACAGTTAAGGACAGGCCATGAGTAAGATTTATGAAGATAACTCGCTGACTATCGGTCATACGCCGCTGGTTCGACTGAACCGTATCGGTAATGGACGCATTCTGGCAAAGGTGGAGTCGCGCAACCCGAGCTTCAGCGTCAAGTGCCGTATCGGCGCCAACATGATTTGGGATGCCGAAAAGCGTGGCGTACTGAAACCTGGCGTGGAACTGGTGGAGCCGACCAACGGCAACACCGGTATTGCGCTGGCGTATGTCGCCGCCGCGCGCGGTTACAAACTCACCCTGACCATGCCGGAAACCATGAGCATTGAACGCCGCAAGCTACTCAAAGCATTAGGCGCGAATCTGGTGCTGACCGAAGGGGCGAAAGGGATGAAAGGCGCTATTCAGAAAGCCGAAGAAATTGTCGCCAGCGATCCGCAAAAATATCTCCTGCTCCAGCAGTTCAGCAACCCTGCCAACCCGGAAATCCATGAAAAAACCACCGGCCCGGAAATCTGGGAAGACACCGATGGTCAGGTGGATGTGTTTATCTCCGGCGTCGGCACTGGCGGTACGTTAACCGGCGTCACGCGTTATATCAAAGGGACGAAGGGTAAAACCGATCTTATCACCGTTGCGGTAGAACCCACTGACTCCCCGGTTATTGCCCAGGCGCTGGCTGGTGAAGAGATCAAACCAGGCCCGCATAAAATTCAGGGTATCGGCGCAGGCTTCATCCCGGGCAACCTGGATCTGAAACTGATTGATAAAGTGGTTGGCATCACCAATGAAGAAGCTATTTCTACCGCGCGCCGTCTGATGGAAGAGGAAGTATTCCTGGCAGGAATTTCTTCCGGCGCCGCGGTTGCTGCAGCGCTTAAGCTGCAGGAAGATGAAAGCTTTACCAATAAGAATATTGTGGTTATCCTACCTTCATCAGGTGAGCGTTATCTGAGCACCGCGTTGTTCGCCGATCTCTTTACTGAGAAAGAACTGCAACAGTGATGCCAGCATGTTAAAAACGCGTAAAAAAGCACCTTTTTGGGTGCTTTTTTGTGGCCTGCTTCAAACTTTCACCTCACCTGGCATTGATTCACCCTGCCGGAACTGGTATTTAACCAGACTAATTATTTTGATGCGCGAAATTAATCGTTACAGGAAAAGCGTTAGCTGAATCGATTTTATGATTTGGTTCAAATCTTCCTTTCGCGGCATAATGTTTAATGACGAGCGAAACGTCAGCGGCCATAAGTTGCCAGCAACGGATTGCGTAGAACACCTTTTGTGTCGCGTCCCGTTTACGCCGGCGCTAACAATACAGGCTAAAGTTGAGCCGCCAGGCTAGACTTTAGTTCCACAACACTAAACCTATAAGTTGGGGAAATACAATGTTCCAGCAAGAAGTTACCATTACCGCTCCGAACGGTCTGCACACCCGCCCTGCTGCTCAGTTTGTTAAAGAAGCAAAAGGCTTCACTTCTGAGATTACTGTGACTTCCAACGGCAAAAGCGCCAGCGCGAAAAGCCTGTTTAAACTGCAGACTCTGGGCCTGACTCAAGGCACCGTCGTCACCATCTCCGCAGAAGGTGAAGATGAGCAGAAAGCGGTTGAACATCTGGTCAAACTGATGGCGGAACTCGAGTAAGTTTTTTTCCGGGTTCTTTTAAAAATCAGTCACAAGTAAGGTAGGGTTATGATTTCAGGCATTTTAGCATCCCCGGGTATCGCTTTCGGCAAAGCACTGCTGCTGAAAGAAGACGAAATCGTCATTGACCGGAAAAAAATTTCTGCCGACAAGGTTGATCAGGAAGTTGAACGTTTTCTGAGCGGTCGTGCCAAGGCATCTGCGCAACTGGAAGCGATCAAGACAAAAGCTGGTGAAACGTTCGGTGAAGAAAAAGAAGCCATCTTTGAAGGGCATATTATGCTGCTCGAAGATGAGGAGCTGGAGCAGGAAATCATAGCCCTGATTAAAGATAAGCACATGACGGCTGACGCAGCCGCACATGAAGTTATCGAAGGTCAGGCCACTGCCCTGGAAGAACTGGATGACGAATACCTGAAAGAGCGTGCGGCTGACGTACGTGATATTGGTAAGCGCCTGCTGCGCAACATCCTGGGTCTGGCCATTATCGATCTGAGCGCGATTCAGGAAGAAGTTATCCTGGTTGCCGCTGACCTGACGCCGTCAGAAACCGCGCAGCTGAACCTGCAGAAAGTGCTGGGCTTCATCACCGACGCGGGCGGACGCACGTCTCATACCTCCATCATGGCGCGTTCTCTGGAACTGCCGGCGATCGTAGGTACCGGTAGCGTCACCGCTCAGGTGAAAAACGGCGATTATCTGATTCTGGATGCCGTAAACAACCAGGTTTACGTCAACCCGACCAACGATGTTATTGAGCAACTGCGCGCCGTCCAGGAGCAGGTTGCGACCGAGAAAGCGGAACTGGCTAAACTGAAAGATCTGCCGGCAATCACGCTGGATGGACATCAGGTTGAAGTTTGCGCCAACATCGGTACCGTTCGTGACGTTGAAGGCGCTGAGCGCAACGGCGCGGAAGGCGTTGGTCTGTATCGTACTGAATTC</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Unknown</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>cysK</Gene_Name>
+    <Gene_ID>1253952</Gene_ID>
+    <Genbank_ACCN>NC_003197</Genbank_ACCN>
+    <Protein_ACCN>NP_461365</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1253952</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE K41A MUTANT OF O-ACETYLSERINE SULFHYDRYLASE COMPLEXED IN EXTERNAL ALDIMINE LINKAGE WITH METHIONINE</PDB_Title>
+      <PDB_ID>1D6S</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1D6S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>METHIONINE $ PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Ligand binding induces a large conformational change in O-acetylserine sulfhydrylase from Salmonella typhimurium.</PubMed_Title>
+      <Author>Burkhard P, et al.</Author>
+      <Journal>J Mol Biol. 1999 Aug 27;291(4):941-53.</Journal>
+      <PubMed_ID>10452898</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>O-ACETYLSERINE SULFHYDRYLASE FROM SALMONELLA TYPHIMURIUM</PDB_Title>
+      <PDB_ID>1OAS</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1OAS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Three-dimensional structure of O-acetylserine sulfhydrylase from Salmonella typhimurium.</PubMed_Title>
+      <Author>Burkhard P, et al.</Author>
+      <Journal>J Mol Biol. 1998;283(1):121-33.</Journal>
+      <PubMed_ID>9761678</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF OASS COMPLEXED WITH CHLORIDE AND SULFATE</PDB_Title>
+      <PDB_ID>1FCJ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1FCJ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01630003</ASD_Ligand>
+      <Ligand_Name>CHLORIDE ION$PYRIDOXAL-5'-PHOSPHATE$SULFATE ION</Ligand_Name>
+      <PubMed_Title>Identification of an allosteric anion-binding site on O-acetylserine sulfhydrylase: structure of the enzyme with chloride bound.</PubMed_Title>
+      <Author>Burkhard P, et al.</Author>
+      <Journal>J Mol Biol. 2000 Oct 20;303(2):279-86.</Journal>
+      <PubMed_ID>11023792</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00920</Pathway_ID>
+      <Pathway_Title>Sulfur metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00270</Pathway_ID>
+      <Pathway_Title>Cysteine and methionine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.bbh.b.b.d.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1fcj</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,8,Asn;site,79,Tyr;site,37,Pro;site,43,Cys;site,35,Arg;site,34,Ser;site,269,Leu</Site_Detail>
+      <Site_Reference>Burkhard P, et al. J.Mol.Biol. 2000,303(2):279-286.</Site_Reference>
+      <Site_Type>Open-Close</Site_Type>
+      <PDB_ID>1FCJ</PDB_ID>
+      <PubMed_ID>11023792</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.5.1.47</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/5/1/47.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01330001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01630003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

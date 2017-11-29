@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02570000_6</Organism_ID>
+  <Organism>Slime mold</Organism>
+  <Organism_Latin>Dictyostelium discoideum</Organism_Latin>
+  <UniProt_ID>Q54EV0</UniProt_ID>
+  <Seq_Length>815</Seq_Length>
+  <Molecule_Weight>94808</Molecule_Weight>
+  <KEGG_ID>ddi:DDB_G0291320</KEGG_ID>
+  <Orthology_ID>K01164</Orthology_ID>
+  <Pfam_ID>PF06978:POP1@@PF08170:POPLD</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>11</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>RNase MRP protein subunit</Alias>
+      <Alias>RNase P protein subunit</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the endonucleolytic cleavage of RNA, removing 5' extra nucleotides from tRNA precursor.</Detail>
+      <Keyword>Ribonuclease P activity</Keyword>
+      <Ontology_ID>GO:0004526</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the site-specific cleavage of RNA by a catalytic RNA-mediated mechanism; substrates include the A3 site in the ITS1 of pre-rRNA.</Detail>
+      <Keyword>Ribonuclease MRP activity</Keyword>
+      <Ontology_ID>GO:0000171</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Generation of the mature 5'-end of the tRNA, usually via an endonucleolytic cleavage by RNase P.</Detail>
+      <Keyword>TRNA 5'-leader removal</Keyword>
+      <Ontology_ID>GO:0001682</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of tRNA, transfer RNA, a class of relatively small RNA molecules responsible for mediating the insertion of amino acids into the sequence of nascent polypeptide chains during protein synthesis.</Detail>
+      <Keyword>TRNA catabolic process</Keyword>
+      <Ontology_ID>GO:0016078</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MDNNDGNEKYKDSTDMKKKDFRAPASLSVLSYVNSRKSEINQFLKAITTKKSNTRAFQSLPRYLRRRTMSHNVYRLPVHLRKRAQNEIEKSAQTNKSEGGKLLREKTVVRKAKRRPAYLLRDYERRQKTFKWLETHIWHAKRMKMLSIWGHKIAKSINGKGVRSTFRASSHFCTLYDCSYYQCIEITGLESNIINFFSTITDPNSTPISNKSYLTGSREGTIDIYYIDRFPFHFICPAKYLWKQQDNNNNNNNNDNQRKIWVWIHPAALNEITFIFEKSASQFNLNINNLEQQLQRFELTGSKSHSILNSILYLNQQQQQNNENKDQLESNQVWSLLNTLRTPATLPKGTVISLRVHDPRLVCRIPEEVALQVRSIAKPNIKDSTTTTTKINHSINQIIVNWNKICKQVAVSELWDEEKRSYMSKNIEENHKVNERRKRIKDLNDQKNSFIKDDNSTTKNQLPPSTPTIMLIQRDGGLTRGYGSGWDIIVPGGWGLAFWIPLIYAGAWSIGLEDRDRMLLEQGLPSFPRDYPDSKSCDSYYDMTTTVLEQKFKKTPPSKRINYLKNSVFFPFRPCWNWILRYNKNEILDFNQPSSKQPQQNDTTITTSKKSNQEEHKSKKLKNIIGTDGELILSPQPYFVYRGKLALSLLEPSNYPIMKNNINIPFNQETINEANDRGLVRVSIKMFNRGKPLPNSIIYEPLESDIQLLSYKYYKRDYKPIELITPKLTKNNMPNTIDQLYKYYDEMTRKPIGYVTNGEQSLVRGFGSGVGFCSAVDFIRLHNLSTEKNYSPKGFAFIQNPKSKTLYPIILTIQP</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleolus</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_ID>8628086</Gene_ID>
+    <Protein_ACCN>XP_635140</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/8628086</Gene_URL>
+    <EMBL_ID>DDB_G0291320</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of RNase MRP protein subunit</PDB_Title>
+      <PDB_ID>ASD02570000_6</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.26.5</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/26/5.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02550001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

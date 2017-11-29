@@ -1,0 +1,820 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08780000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P14780</UniProt_ID>
+  <Seq_Length>707</Seq_Length>
+  <Molecule_Weight>78458</Molecule_Weight>
+  <KEGG_ID>hsa:4318</KEGG_ID>
+  <Orthology_ID>K01403</Orthology_ID>
+  <Function_Summary>May play an essential role in local proteolysis of the extracellular matrix and in leukocyte migration. Could play a role in bone osteoclastic resorption. Cleaves KiSS1 at a Gly-|-Leu bond. Cleaves type IV and type V collagen into large C-terminal three quarter fragments and shorter N-terminal one quarter fragments. Degrades fibronectin but not laminin or Pz-peptide.</Function_Summary>
+  <Catalytic_Mechanism>Cleavage of gelatin types I and V and collagen types IV and V.</Catalytic_Mechanism>
+  <Pfam_ID>PF00040:fn2@@PF00045:Hemopexin@@PF00413:Peptidase_M10@@PF01471:PG_binding_1@@PF04886:PT</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>14</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>92 kDa type IV collagenase</Alias>
+      <Alias>82 kDa matrix metalloproteinase-9</Alias>
+      <Alias>MMP-9</Alias>
+      <Alias>92 kDa gelatinase</Alias>
+      <Alias>67 kDa matrix metalloproteinase-9</Alias>
+      <Alias>GELB</Alias>
+      <Alias>Gelatinase B</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with zinc (Zn) ions.</Detail>
+      <Keyword>Zinc ion binding</Keyword>
+      <Ontology_ID>GO:0008270</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a mechanism in which water acts as a nucleophile, one or two metal ions hold the water molecule in place, and charged amino acid side chains are ligands for the metal ions.</Detail>
+      <Keyword>Metalloendopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004222</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with collagen, a group of fibrous proteins of very high tensile strength that form the main component of connective tissue in animals. Collagen is highly enriched in glycine (some regions are 33% glycine) and proline, occurring predominantly as 3-hydroxyproline (about 20%).</Detail>
+      <Keyword>Collagen binding</Keyword>
+      <Ontology_ID>GO:0005518</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds by a mechanism in which water acts as a nucleophile, one or two metal ions hold the water molecule in place, and charged amino acid side chains are ligands for the metal ions.</Detail>
+      <Keyword>Metallopeptidase activity</Keyword>
+      <Ontology_ID>GO:0008237</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>38</Position>
+      <Original>Asn</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>82</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>668</Position>
+      <Original>Arg</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>127</Position>
+      <Original>Asn</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>239</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>20</Position>
+      <Original>Ala</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>571</Position>
+      <Original>Phe</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>574</Position>
+      <Original>Arg</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>279</Position>
+      <Original>Gln</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds.</Detail>
+      <Keyword>Proteolysis</Keyword>
+      <Ontology_ID>GO:0006508</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized monocyte acquires the specialized features of a macrophage.</Detail>
+      <Keyword>Macrophage differentiation</Keyword>
+      <Ontology_ID>GO:0030225</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of keratinocyte migration.</Detail>
+      <Keyword>Positive regulation of keratinocyte migration</Keyword>
+      <Ontology_ID>GO:0051549</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The proteolytic chemical reactions and pathways resulting in the breakdown of collagen in the extracellular matrix, usually carried out by proteases secreted by nearby cells.</Detail>
+      <Keyword>Collagen catabolic process</Keyword>
+      <Ontology_ID>GO:0030574</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A process that results in the breakdown of the extracellular matrix.</Detail>
+      <Keyword>Extracellular matrix disassembly</Keyword>
+      <Ontology_ID>GO:0022617</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSLWQPLVLVLLVLGCCFAAPRQRQSTLVLFPGDLRTNLTDRQLAEEYLYRYGYTRVAEMRGESKSLGPALLLLQKQLSLPETGELDSATLKAMRTPRCGVPDLGRFQTFEGDLKWHHHNITYWIQNYSEDLPRAVIDDAFARAFALWSAVTPLTFTRVYSRDADIVIQFGVAEHGDGYPFDGKDGLLAHAFPPGPGIQGDAHFDDDELWSLGKGVVVPTRFGNADGAACHFPFIFEGRSYSACTTDGRSDGLPWCSTTANYDTDDRFGFCPSERLYTQDGNADGKPCQFPFIFQGQSYSACTTDGRSDGYRWCATTANYDRDKLFGFCPTRADSTVMGGNSAGELCVFPFTFLGKEYSTCTSEGRGDGRLWCATTSNFDSDKKWGFCPDQGYSLFLVAAHEFGHALGLDHSSVPEALMYPMYRFTEGPPLHKDDVNGIRHLYGPRPEPEPRPPTTTTPQPTAPPTVCPTGPPTVHPSERPTAGPTGPPSAGPTGPPTAGPSTATTVPLSPVDDACNVNIFDAIAEIGNQLYLFKDGKYWRFSEGRGSRPQGPFLIADKWPALPRKLDSVFEERLSKKLFFFSGRQVWVYTGASVLGPRRLDKLGLGADVAQVTGALRSGRGKMLLFSGRRLWRFDVKAQMVDPRSASEVDRMFPGVPLDTHDVFQYREKAYFCQDRFYWRVSSRSELNQVDQVGYVTYDILQCPED</Protein_Seq>
+    <DNA_Seq>AGACACCTCTGCCCTCACCATGAGCCTCTGGCAGCCCCTGGTCCTGGTGCTCCTGGTGCTGGGCTGCTGCTTTGCTGCCCCCAGACAGCGCCAGTCCACCCTTGTGCTCTTCCCTGGAGACCTGAGAACCAATCTCACCGACAGGCAGCTGGCAGAGGAATACCTGTACCGCTATGGTTACACTCGGGTGGCAGAGATGCGTGGAGAGTCGAAATCTCTGGGGCCTGCGCTGCTGCTTCTCCAGAAGCAACTGTCCCTGCCCGAGACCGGTGAGCTGGATAGCGCCACGCTGAAGGCCATGCGAACCCCACGGTGCGGGGTCCCAGACCTGGGCAGATTCCAAACCTTTGAGGGCGACCTCAAGTGGCACCACCACAACATCACCTATTGGATCCAAAACTACTCGGAAGACTTGCCGCGGGCGGTGATTGACGACGCCTTTGCCCGCGCCTTCGCACTGTGGAGCGCGGTGACGCCGCTCACCTTCACTCGCGTGTACAGCCGGGACGCAGACATCGTCATCCAGTTTGGTGTCGCGGAGCACGGAGACGGGTATCCCTTCGACGGGAAGGACGGGCTCCTGGCACACGCCTTTCCTCCTGGCCCCGGCATTCAGGGAGACGCCCATTTCGACGATGACGAGTTGTGGTCCCTGGGCAAGGGCGTCGTGGTTCCAACTCGGTTTGGAAACGCAGATGGCGCGGCCTGCCACTTCCCCTTCATCTTCGAGGGCCGCTCCTACTCTGCCTGCACCACCGACGGTCGCTCCGACGGCTTGCCCTGGTGCAGTACCACGGCCAACTACGACACCGACGACCGGTTTGGCTTCTGCCCCAGCGAGAGACTCTACACCCAGGACGGCAATGCTGATGGGAAACCCTGCCAGTTTCCATTCATCTTCCAAGGCCAATCCTACTCCGCCTGCACCACGGACGGTCGCTCCGACGGCTACCGCTGGTGCGCCACCACCGCCAACTACGACCGGGACAAGCTCTTCGGCTTCTGCCCGACCCGAGCTGACTCGACGGTGATGGGGGGCAACTCGGCGGGGGAGCTGTGCGTCTTCCCCTTCACTTTCCTGGGTAAGGAGTACTCGACCTGTACCAGCGAGGGCCGCGGAGATGGGCGCCTCTGGTGCGCTACCACCTCGAACTTTGACAGCGACAAGAAGTGGGGCTTCTGCCCGGACCAAGGATACAGTTTGTTCCTCGTGGCGGCGCATGAGTTCGGCCACGCGCTGGGCTTAGATCATTCCTCAGTGCCGGAGGCGCTCATGTACCCTATGTACCGCTTCACTGAGGGGCCCCCCTTGCATAAGGACGACGTGAATGGCATCCGGCACCTCTATGGTCCTCGCCCTGAACCTGAGCCACGGCCTCCAACCACCACCACACCGCAGCCCACGGCTCCCCCGACGGTCTGCCCCACCGGACCCCCCACTGTCCACCCCTCAGAGCGCCCCACAGCTGGCCCCACAGGTCCCCCCTCAGCTGGCCCCACAGGTCCCCCCACTGCTGGCCCTTCTACGGCCACTACTGTGCCTTTGAGTCCGGTGGACGATGCCTGCAACGTGAACATCTTCGACGCCATCGCGGAGATTGGGAACCAGCTGTATTTGTTCAAGGATGGGAAGTACTGGCGATTCTCTGAGGGCAGGGGGAGCCGGCCGCAGGGCCCCTTCCTTATCGCCGACAAGTGGCCCGCGCTGCCCCGCAAGCTGGACTCGGTCTTTGAGGAGCGGCTCTCCAAGAAGCTTTTCTTCTTCTCTGGGCGCCAGGTGTGGGTGTACACAGGCGCGTCGGTGCTGGGCCCGAGGCGTCTGGACAAGCTGGGCCTGGGAGCCGACGTGGCCCAGGTGACCGGGGCCCTCCGGAGTGGCAGGGGGAAGATGCTGCTGTTCAGCGGGCGGCGCCTCTGGAGGTTCGACGTGAAGGCGCAGATGGTGGATCCCCGGAGCGCCAGCGAGGTGGACCGGATGTTCCCCGGGGTGCCTTTGGACACGCACGACGTCTTCCAGTACCGAGAGAAAGCCTATTTCTGCCAGGACCGCTTCTACTGGCGCGTGAGTTCCCGGAGTGAGTTGAACCAGGTGGACCAAGTGGGCTACGTGACCTATGACATCCTGCAGTGCCCTGAGGACTAGGGCTCCCGTCCTGCTTTGGCAGTGCCATGTAAATCCCCACTGGGACCAACCCTGGGGAAGGAGCCAGTTTGCCGGATACAAACTGGTATTCTGTTCTGGAGGAAAGGGAGGAGTGGAGGTGGGCTGGGCCCTCTCTTCTCACCTTTGTTTTTTGTTGGAGTGTTTCTAATAAACTTGGATTCTCTAACCTTTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Granulocytes</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Normal alveolar macrophages</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Secreted</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular space</CellLocal>
+      <Ontology_ID>GO:0005615</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular region</CellLocal>
+      <Ontology_ID>GO:0005576</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Proteinaceous extracellular matrix</CellLocal>
+      <Ontology_ID>GO:0005578</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>MMP9</Gene_Name>
+    <Gene_Alias>CLG4B</Gene_Alias>
+    <Gene_ID>4318</Gene_ID>
+    <Genbank_ACCN>NM_004994</Genbank_ACCN>
+    <Protein_ACCN>NP_004985</Protein_ACCN>
+    <HGNC_ID>7176</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/4318</Gene_URL>
+    <UCSC_ID>uc002xqz.3</UCSC_ID>
+    <EMBL_ID>ENSG00000100985</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Corneal Ulcer</Disease_Name>
+      <Disease_Detail>Corneal Ulcer</Disease_Detail>
+      <Disease_DB>CRN028</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/corneal_ulcer?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Parotitis</Disease_Name>
+      <Disease_Detail>Parotitis</Disease_Detail>
+      <Disease_DB>PRT026</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/parotitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Angiostrongyliasis</Disease_Name>
+      <Disease_Detail>Angiostrongyliasis</Disease_Detail>
+      <Disease_DB>ANG002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/angiostrongyliasis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lymphocytic Colitis</Disease_Name>
+      <Disease_Detail>Lymphocytic Colitis</Disease_Detail>
+      <Disease_DB>LYM042</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lymphocytic_colitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Status Asthmaticus</Disease_Name>
+      <Disease_Detail>Status Asthmaticus</Disease_Detail>
+      <Disease_DB>STT002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/status_asthmaticus?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Carotid Stenosis</Disease_Name>
+      <Disease_Detail>Carotid Stenosis</Disease_Detail>
+      <Disease_DB>CRT013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/carotid_stenosis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lumbar Disc Disease</Disease_Name>
+      <Disease_Detail>Lumbar Disc Disease</Disease_Detail>
+      <Disease_DB>LMB051</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lumbar_disc_disease?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Brain Injury</Disease_Name>
+      <Disease_Detail>Brain Injury</Disease_Detail>
+      <Disease_DB>BRN071</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/brain_injury?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Recurrent Corneal Erosion</Disease_Name>
+      <Disease_Detail>Recurrent Corneal Erosion</Disease_Detail>
+      <Disease_DB>RCR001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/recurrent_corneal_erosion?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pancreatic Cancer</Disease_Name>
+      <Disease_Detail>Pancreatic Cancer</Disease_Detail>
+      <Disease_DB>PNC035</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pancreatic_cancer?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pneumococcal Meningitis</Disease_Name>
+      <Disease_Detail>Pneumococcal Meningitis</Disease_Detail>
+      <Disease_DB>PNM013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pneumococcal_meningitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Abdominal Aortic Aneurysm</Disease_Name>
+      <Disease_Detail>Abdominal Aortic Aneurysm</Disease_Detail>
+      <Disease_DB>ABD003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/abdominal_aortic_aneurysm?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Sick Building Syndrome</Disease_Name>
+      <Disease_Detail>Sick Building Syndrome</Disease_Detail>
+      <Disease_DB>SCK001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/sick_building_syndrome?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Meningitis</Disease_Name>
+      <Disease_Detail>Meningitis</Disease_Detail>
+      <Disease_DB>MNN013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/meningitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Adamantinous Craniopharyngioma</Disease_Name>
+      <Disease_Detail>Adamantinous Craniopharyngioma</Disease_Detail>
+      <Disease_DB>ADM001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adamantinous_craniopharyngioma?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Vulvar Intraepithelial Neoplasia</Disease_Name>
+      <Disease_Detail>Vulvar Intraepithelial Neoplasia</Disease_Detail>
+      <Disease_DB>VLV044</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/vulvar_intraepithelial_neoplasia?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Craniopharyngioma</Disease_Name>
+      <Disease_Detail>Craniopharyngioma</Disease_Detail>
+      <Disease_DB>CRN036</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/craniopharyngioma?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Alternating Hemiplegia of Childhood</Disease_Name>
+      <Disease_Detail>Alternating Hemiplegia of Childhood</Disease_Detail>
+      <Disease_DB>ALT001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/alternating_hemiplegia_of_childhood?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hemorrhoid</Disease_Name>
+      <Disease_Detail>Hemorrhoid</Disease_Detail>
+      <Disease_DB>HMR005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hemorrhoid?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Odontogenic Myxoma</Disease_Name>
+      <Disease_Detail>Odontogenic Myxoma</Disease_Detail>
+      <Disease_DB>ODN005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/odontogenic_myxoma?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Prostate Cancer</Disease_Name>
+      <Disease_Detail>Prostate Cancer</Disease_Detail>
+      <Disease_DB>PRS040</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/prostate_cancer?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Kawasaki Disease</Disease_Name>
+      <Disease_Detail>Kawasaki Disease</Disease_Detail>
+      <Disease_DB>KWS002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/kawasaki_disease?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Collagenous Colitis</Disease_Name>
+      <Disease_Detail>Collagenous Colitis</Disease_Detail>
+      <Disease_DB>CLL021</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/collagenous_colitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Aortic Disease</Disease_Name>
+      <Disease_Detail>Aortic Disease</Disease_Detail>
+      <Disease_DB>ART017</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/aortic_disease?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Focal Myositis</Disease_Name>
+      <Disease_Detail>Focal Myositis</Disease_Detail>
+      <Disease_DB>FCL041</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/focal_myositis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cardiac Rupture</Disease_Name>
+      <Disease_Detail>Cardiac Rupture</Disease_Detail>
+      <Disease_DB>CRD016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cardiac_rupture?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Central Nervous System Tuberculosis</Disease_Name>
+      <Disease_Detail>Central Nervous System Tuberculosis</Disease_Detail>
+      <Disease_DB>CNT007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/central_nervous_system_tuberculosis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Internal Hemorrhoid</Disease_Name>
+      <Disease_Detail>Internal Hemorrhoid</Disease_Detail>
+      <Disease_DB>INT059</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/internal_hemorrhoid?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Nasal Cavity Squamous Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Nasal Cavity Squamous Cell Carcinoma</Disease_Detail>
+      <Disease_DB>NSL006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/nasal_cavity_squamous_cell_carcinoma?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lentigo Maligna Melanoma</Disease_Name>
+      <Disease_Detail>Lentigo Maligna Melanoma</Disease_Detail>
+      <Disease_DB>LNT002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lentigo_maligna_melanoma?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Preterm Premature Rupture of the Membranes</Disease_Name>
+      <Disease_Detail>Preterm Premature Rupture of the Membranes</Disease_Detail>
+      <Disease_DB>PRT082</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/preterm_premature_rupture_of_the_membranes?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Conjunctivochalasis</Disease_Name>
+      <Disease_Detail>Conjunctivochalasis</Disease_Detail>
+      <Disease_DB>CNJ007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/conjunctivochalasis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pigmented Villonodular Synovitis</Disease_Name>
+      <Disease_Detail>Pigmented Villonodular Synovitis</Disease_Detail>
+      <Disease_DB>PGM001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pigmented_villonodular_synovitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Intestinal Neoplasm</Disease_Name>
+      <Disease_Detail>Intestinal Neoplasm</Disease_Detail>
+      <Disease_DB>INT069</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/intestinal_neoplasm?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Anal Fistula</Disease_Name>
+      <Disease_Detail>Anal Fistula</Disease_Detail>
+      <Disease_DB>ANL022</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/anal_fistula?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Colorectal Cancer</Disease_Name>
+      <Disease_Detail>Colorectal Cancer</Disease_Detail>
+      <Disease_DB>CLR023</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/colorectal_cancer?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Aortic Aneurysm</Disease_Name>
+      <Disease_Detail>Aortic Aneurysm</Disease_Detail>
+      <Disease_DB>ART016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/aortic_aneurysm?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Fundus Dystrophy</Disease_Name>
+      <Disease_Detail>Fundus Dystrophy</Disease_Detail>
+      <Disease_DB>FND002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/fundus_dystrophy?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Diverticulitis</Disease_Name>
+      <Disease_Detail>Diverticulitis</Disease_Detail>
+      <Disease_DB>DVR002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/diverticulitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Meningioma</Disease_Name>
+      <Disease_Detail>Meningioma</Disease_Detail>
+      <Disease_DB>MNN012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/meningioma?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Metaphyseal Anadysplasia</Disease_Name>
+      <Disease_Detail>Metaphyseal Anadysplasia</Disease_Detail>
+      <Disease_DB>MTP005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/metaphyseal_anadysplasia?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ovarian Mucinous Neoplasm</Disease_Name>
+      <Disease_Detail>Ovarian Cancer</Disease_Detail>
+      <Disease_DB>OVR054</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ovarian_mucinous_neoplasm?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Ischemic Colitis</Disease_Name>
+      <Disease_Detail>Ischemic Colitis</Disease_Detail>
+      <Disease_DB>ISC015</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ischemic_colitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lung Cancer</Disease_Name>
+      <Disease_Detail>Lung Cancer</Disease_Detail>
+      <Disease_DB>LNG032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lung_cancer?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Posterior Uveal Melanoma</Disease_Name>
+      <Disease_Detail>Posterior Uveal Melanoma</Disease_Detail>
+      <Disease_DB>PST022</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/posterior_uveal_melanoma?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Scleritis</Disease_Name>
+      <Disease_Detail>Scleritis</Disease_Detail>
+      <Disease_DB>SCL015</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/scleritis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Middle Ear Squamous Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Middle Ear Squamous Cell Carcinoma</Disease_Detail>
+      <Disease_DB>MDD007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/middle_ear_squamous_cell_carcinoma?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Multiple Sclerosis</Disease_Name>
+      <Disease_Detail>Multiple Sclerosis</Disease_Detail>
+      <Disease_DB>MLT020</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/multiple_sclerosis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Fibrosarcoma</Disease_Name>
+      <Disease_Detail>Fibrosarcoma</Disease_Detail>
+      <Disease_DB>FBR017</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/fibrosarcoma?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Thromboangiitis Obliterans</Disease_Name>
+      <Disease_Detail>Thromboangiitis Obliterans</Disease_Detail>
+      <Disease_DB>THR006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/thromboangiitis_obliterans?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Klatskin's Tumor</Disease_Name>
+      <Disease_Detail>Klatskin's Tumor</Disease_Detail>
+      <Disease_DB>KLT001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/klatskins_tumor?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Eosinophilic Meningitis</Disease_Name>
+      <Disease_Detail>Eosinophilic Meningitis</Disease_Detail>
+      <Disease_DB>ESN006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/eosinophilic_meningitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cholesteatoma</Disease_Name>
+      <Disease_Detail>Cholesteatoma</Disease_Detail>
+      <Disease_DB>CHL069</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cholesteatoma?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Blepharitis</Disease_Name>
+      <Disease_Detail>Blepharitis</Disease_Detail>
+      <Disease_DB>BLP005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/blepharitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Spondyloepimetaphyseal Dysplasia, Missouri Type</Disease_Name>
+      <Disease_Detail>Spondyloepimetaphyseal Dysplasia</Disease_Detail>
+      <Disease_DB>SPN030</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/spondyloepimetaphyseal_dysplasia_missouri_type?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pediatric Multiple Sclerosis</Disease_Name>
+      <Disease_Detail>Pediatric Multiple Sclerosis</Disease_Detail>
+      <Disease_DB>PDT025</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pediatric_multiple_sclerosis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Villonodular Synovitis</Disease_Name>
+      <Disease_Detail>Villonodular Synovitis</Disease_Detail>
+      <Disease_DB>VLL003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/villonodular_synovitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mandibuloacral Dysplasia</Disease_Name>
+      <Disease_Detail>Mandibuloacral Dysplasia</Disease_Detail>
+      <Disease_DB>MND007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mandibuloacral_dysplasia?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Microcystic Meningioma</Disease_Name>
+      <Disease_Detail>Microcystic Meningioma</Disease_Detail>
+      <Disease_DB>MCR001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/microcystic_meningioma?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Arthritis</Disease_Name>
+      <Disease_Detail>Arthritis</Disease_Detail>
+      <Disease_DB>ART022</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/arthritis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gingival Hypertrophy</Disease_Name>
+      <Disease_Detail>Gingival Hypertrophy</Disease_Detail>
+      <Disease_DB>GNG006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gingival_hypertrophy?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Metaphyseal Anadysplasia 2</Disease_Name>
+      <Disease_Detail>Metaphyseal Anadysplasia</Disease_Detail>
+      <Disease_DB>MTP014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/metaphyseal_anadysplasia_2?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Synovitis</Disease_Name>
+      <Disease_Detail>Synovitis</Disease_Detail>
+      <Disease_DB>SYN007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/synovitis?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Diastolic Heart Failure</Disease_Name>
+      <Disease_Detail>Diastolic Heart Failure</Disease_Detail>
+      <Disease_DB>DST006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/diastolic_heart_failure?search=MMP9#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>MMP-9 active site mutant with barbiturate inhibitor</PDB_Title>
+      <PDB_ID>2OVX</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OVX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of MMP-9 Complexes with Five Inhibitors: Contribution of the Flexible Arg424 Side-chain to Selectivity.</PubMed_Title>
+      <Author>Tochowicz, A., et al.</Author>
+      <Journal>J.Mol.Biol.(2007)371:989-1006</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17599356?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MMP9 ACTIVE SITE MUTANT-INHIBITOR COMPLEX</PDB_Title>
+      <PDB_ID>1GKD</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GKD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of Mmp9 in Complex with a Reverse Hydroxamate Inhibitor</PubMed_Title>
+      <Author>Rowsell, S., et al.</Author>
+      <Journal>J.Mol.Biol.(2002)319:173</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12051944?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MMP-9 active site mutant with trifluoromethyl hydroxamate inhibitor</PDB_Title>
+      <PDB_ID>2OW1</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OW1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of MMP-9 Complexes with Five Inhibitors: Contribution of the Flexible Arg424 Side-chain to Selectivity.</PubMed_Title>
+      <Author>Tochowicz, A., et al.</Author>
+      <Journal>J.Mol.Biol.(2007)371:989-1006</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17599356?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MMP-9 active site mutant with phosphinate inhibitor</PDB_Title>
+      <PDB_ID>2OVZ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OVZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of MMP-9 Complexes with Five Inhibitors: Contribution of the Flexible Arg424 Side-chain to Selectivity.</PubMed_Title>
+      <Author>Tochowicz, A., et al.</Author>
+      <Journal>J.Mol.Biol.(2007)371:989-1006</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17599356?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MMP-9 active site mutant with iodine-labeled carboxylate inhibitor</PDB_Title>
+      <PDB_ID>2OW0</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OW0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of MMP-9 Complexes with Five Inhibitors: Contribution of the Flexible Arg424 Side-chain to Selectivity.</PubMed_Title>
+      <Author>Tochowicz, A., et al.</Author>
+      <Journal>J.Mol.Biol.(2007)371:989-1006</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17599356?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MMP9-INHIBITOR COMPLEX</PDB_Title>
+      <PDB_ID>1GKC</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GKC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of Mmp9 in Complex with a Reverse Hydroxamate Inhibitor</PubMed_Title>
+      <Author>Rowsell, S., et al.</Author>
+      <Journal>J.Mol.Biol.(2002)319:173</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12051944?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Dimeric form of the haemopexin domain of MMP9</PDB_Title>
+      <PDB_ID>1ITV</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ITV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of the adaptive molecular recognition by MMP9.</PubMed_Title>
+      <Author>Cha, H., et al.</Author>
+      <Journal>J.Mol.Biol.(2002)320:1065-1079</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12126625?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MMP-9 active site mutant with difluoro butanoic acid inhibitor</PDB_Title>
+      <PDB_ID>2OW2</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OW2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of MMP-9 Complexes with Five Inhibitors: Contribution of the Flexible Arg424 Side-chain to Selectivity.</PubMed_Title>
+      <Author>Tochowicz, A., et al.</Author>
+      <Journal>J.Mol.Biol.(2007)371:989-1006</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17599356?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human matrix metalloproteinase MMP9 (gelatinase B).</PDB_Title>
+      <PDB_ID>1L6J</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1L6J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the C-terminally truncated human ProMMP9, a gelatin-binding matrix metalloproteinase.</PubMed_Title>
+      <Author>Elkins, P.A., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(2002)58:1182-1192</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12077439?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04915</Pathway_ID>
+      <Pathway_Title>Estrogen signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05206</Pathway_ID>
+      <Pathway_Title>MicroRNAs in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04668</Pathway_ID>
+      <Pathway_Title>TNF signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05205</Pathway_ID>
+      <Pathway_Title>Proteoglycans in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05161</Pathway_ID>
+      <Pathway_Title>Hepatitis B</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05202</Pathway_ID>
+      <Pathway_Title>Transcriptional misregulation in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04670</Pathway_ID>
+      <Pathway_Title>Leukocyte transendothelial migration</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05202</Pathway_ID>
+      <Pathway_Title>Transcriptional misregulation in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05205</Pathway_ID>
+      <Pathway_Title>Proteoglycans in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05202</Pathway_ID>
+      <Pathway_Title>Transcriptional misregulation in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05219</Pathway_ID>
+      <Pathway_Title>Bladder cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05161</Pathway_ID>
+      <Pathway_Title>Hepatitis B</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.cbc.b.be.i.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1gkc</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.24.35</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/24/35.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD08780001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08780021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

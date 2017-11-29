@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02350000_1</Organism_ID>
+  <Organism>Bovine</Organism>
+  <Organism_Latin>Bos taurus</Organism_Latin>
+  <UniProt_ID>Q2KIN5</UniProt_ID>
+  <Seq_Length>361</Seq_Length>
+  <Molecule_Weight>39515</Molecule_Weight>
+  <KEGG_ID>bta:515614</KEGG_ID>
+  <Orthology_ID>K01749</Orthology_ID>
+  <Function_Summary>Tetrapolymerization of the monopyrrole PBG into the hydroxymethylbilane pre-uroporphyrinogen in several discrete steps (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>4 porphobilinogen + H(2)O = hydroxymethylbilane + 4 NH(3).</Catalytic_Mechanism>
+  <Pfam_ID>PF01379:Porphobil_deam@@PF03900:Porphobil_deamC</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>HMBS</Alias>
+      <Alias>Hydroxymethylbilane synthase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: H(2)O + 4 porphobilinogen = hydroxymethylbilane + 4 NH(4)(+).</Detail>
+      <Keyword>Hydroxymethylbilane synthase activity</Keyword>
+      <Ontology_ID>GO:0004418</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of any member of a large group of derivatives or analogs of porphyrin. Porphyrin consists of a ring of four pyrrole nuclei linked each to the next at their alpha positions through a methine group.</Detail>
+      <Keyword>Porphyrin biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006779</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of heme, any compound of iron complexed in a porphyrin (tetrapyrrole) ring, from less complex precursors.</Detail>
+      <Keyword>Heme biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006783</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The covalent binding of a pyrromethane (dipyrrin) cofactor to protein via the sulfur atom of cysteine forming dipyrrolylmethanemethyl-L-cysteine.</Detail>
+      <Keyword>Peptidyl-pyrromethane cofactor linkage</Keyword>
+      <Ontology_ID>GO:0018160</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>261</Position>
+      <PTM_Type>S-(dipyrrolylmethanemethyl)cysteine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSGNGNAAAIAEEDTPKMRVIRVGTRKSQLARIQTDSVVATLKALYPGLQFEIIAMSTTGDKILDTALSKIGEKSLFTKELEHALERNEVDLVVHSLKDLPTVLPPGFTIGAVCKRESPYDAVVFHPKFVGKTLETLPEKSVVGTSSLRRAAQLQRKFPHLEFKSIRGNLNTRLRKLDELQEFSAIILATAGLQRMGWQNRVGQILHPEECMYAVGQGALGVEVRAKDQDILDLVGVLHDPETLLRCIAERSFLRHLEGGCSVPVAVHTAIKDGQLYLTGGVWSLNGAETMQDTMQTTIHVPVQHEDGPEDDPQLVGITARNIPRQPQLAAENLGISLATLLLNKGAKNILDVARQLNEAH</Protein_Seq>
+    <DNA_Seq>AGTCCCTTAGCGGAGCCGGGAGTGTGTGGCTGCTGGAGAAGCTGGAGACCTGCGCGAGCCCAGTGTCCGGCCGGCAGGGGCCTTCGGCTTCCCCGACACCGGAGGACATTGGCGGCAGCCCCGGGCCTAGCTGCCGAGCACAGCCATGTCTGGTAATGGCAACGCGGCCGCAATAGCGGAAGAAGACACCCCAAAGATGAGAGTGATTCGAGTGGGTACCCGCAAGAGCCAGCTGGCTCGCATACAGACGGACAGTGTGGTGGCAACGCTGAAAGCTTTATACCCAGGCCTGCAGTTTGAAATAATTGCTATGTCCACCACGGGGGACAAGATTCTTGATACCGCGCTCTCTAAGATTGGAGAGAAGAGCCTGTTTACCAAGGAGCTGGAGCATGCTTTGGAGAGGAATGAAGTGGACCTAGTTGTTCATTCGCTGAAGGACCTGCCCACGGTGCTTCCTCCTGGCTTCACCATTGGAGCTGTCTGCAAGCGGGAGAGCCCCTATGATGCTGTTGTCTTTCACCCAAAATTTGTTGGGAAGACTCTAGAAACCTTGCCAGAGAAGAGTGTGGTAGGAACTAGCTCCCTGCGGAGAGCAGCCCAGCTGCAGAGAAAGTTCCCACATCTGGAGTTCAAGAGTATTCGGGGAAACCTCAACACGCGACTGCGGAAGCTGGATGAGCTGCAGGAGTTCAGTGCCATCATCCTGGCCACAGCTGGCCTGCAGCGCATGGGCTGGCAGAACCGGGTGGGGCAGATCCTGCACCCCGAGGAGTGCATGTATGCTGTGGGTCAGGGGGCTCTGGGTGTGGAAGTTCGAGCCAAAGACCAGGACATCTTGGATCTGGTGGGTGTGTTGCACGATCCTGAGACTCTACTTCGCTGCATTGCTGAACGATCCTTCCTAAGGCACCTGGAAGGAGGTTGCAGTGTGCCAGTGGCAGTGCATACAGCTATTAAGGATGGGCAACTGTACCTGACTGGAGGAGTCTGGAGTCTGAATGGTGCAGAGACCATGCAAGACACCATGCAAACCACCATCCATGTCCCTGTCCAGCATGAAGATGGCCCTGAAGATGATCCACAGCTGGTGGGCATCACTGCCCGGAACATTCCACGACAACCCCAGCTGGCTGCTGAGAACCTGGGCATCAGCCTGGCCACCTTGTTGCTGAACAAAGGAGCCAAGAACATCTTGGATGTTGCACGGCAGCTCAATGAAGCCCACTAATTGGTCTGTGGGGCACAGGTGCCTGCCTTGCTGGTCACCCAGTGCCTACATCCCAGCCCTCTGCTACCTGAGAAGTGACTACCCCCACAGGATTGAACTGCAGGGCAGAGACTTCCAGAGACTTGTCTCACCGAGGGGCCTTGCCTCCCCAGGTGGGGGCTTCCTCTCTAGAGAAAAAAAAAAATCTTAGTAATAAGCCACAGCCTTTGAATGTAACCAGTTGTACTAATAAACCAAATTTAAAGGTGAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Liver</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <Gene>
+    <Gene_Name>HMBS</Gene_Name>
+    <Gene_ID>515614</Gene_ID>
+    <Genbank_ACCN>NM_001046207</Genbank_ACCN>
+    <Protein_ACCN>NP_001039672</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/515614</Gene_URL>
+    <EMBL_ID>ENSBTAG00000005364</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of porphobilinogen deaminase</PDB_Title>
+      <PDB_ID>ASD02350000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00860</Pathway_ID>
+      <Pathway_Title>Porphyrin and chlorophyll metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.5.1.61</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/5/1/61.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02350001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02350002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02350003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

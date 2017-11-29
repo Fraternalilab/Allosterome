@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD10360000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q9Y259</UniProt_ID>
+  <Seq_Length>395</Seq_Length>
+  <Molecule_Weight>45271</Molecule_Weight>
+  <KEGG_ID>hsa:1120</KEGG_ID>
+  <Orthology_ID>K14156</Orthology_ID>
+  <Function_Summary>Has a key role in phospholipid biosynthesis. Catalyzes the first step in phosphatidylethanolamine biosynthesis. Phosphorylates ethanolamine, and can also act on choline (in vitro). Has higher activity with ethanolamine. May not significantly contribute to in vivo phosphatidylcholine biosynthesis.</Function_Summary>
+  <Catalytic_Mechanism>ATP + choline = ADP + phosphocholine.@@ATP + ethanolamine = ADP + O-phosphoethanolamine.</Catalytic_Mechanism>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Ethanolamine kinase</Alias>
+      <Alias>Choline kinase-like protein</Alias>
+      <Alias>choline/ethanolamine kinase beta</Alias>
+      <Alias>EKB</Alias>
+      <Alias>Ethanolamine kinase beta</Alias>
+      <Alias>2.7.1.32&lt;/ecNumber</Alias>
+      <Alias>CKB</Alias>
+      <Alias>CKEKB</Alias>
+      <Alias>EK</Alias>
+      <Alias>2.7.1.82&lt;/ecNumber</Alias>
+      <Alias>Choline kinase beta</Alias>
+      <Alias>CK</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + ethanolamine = ADP + 2 H(+) + phosphoethanolamine.</Detail>
+      <Keyword>Ethanolamine kinase activity</Keyword>
+      <Ontology_ID>GO:0004305</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + choline = ADP + choline phosphate + 2 H(+).</Detail>
+      <Keyword>Choline kinase activity</Keyword>
+      <Ontology_ID>GO:0004103</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of phosphatidylethanolamine, any of a class of glycerophospholipids in which a phosphatidyl group is esterified to the hydroxyl group of ethanolamine.</Detail>
+      <Keyword>Phosphatidylethanolamine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006646</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of lipids, compounds soluble in an organic solvent but not, or sparingly, in an aqueous solvent.</Detail>
+      <Keyword>Lipid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008610</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of phospholipids, any lipid containing phosphoric acid as a mono- or diester.</Detail>
+      <Keyword>Phospholipid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008654</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving lipids, compounds soluble in an organic solvent but not, or sparingly, in an aqueous solvent. Includes fatty acids; neutral fats, other fatty-acid esters, and soaps; long-chain (fatty) alcohols and waxes; sphingoids and other long-chain bases; glycolipids, phospholipids and sphingolipids; and carotenes, polyprenols, sterols, terpenes and other isoprenoids.</Detail>
+      <Keyword>Lipid metabolic process</Keyword>
+      <Ontology_ID>GO:0006629</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>N-acetylalanine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAAEATAVAGSGAVGGCLAKDGLQQSKCPDTTPKRRRASSLSRDAERRAYQWCREYLGGAWRRVQPEELRVYPVSGGLSNLLFRCSLPDHLPSVGEEPREVLLRLYGAILQGVDSLVLESVMFAILAERSLGPQLYGVFPEGRLEQYIPSRPLKTQELREPVLSAAIATKMAQFHGMEMPFTKEPHWLFGTMERYLKQIQDLPPTGLPEMNLLEMYSLKDEMGNLRKLLESTPSPVVFCHNDIQEGNILLLSEPENADSLMLVDFEYSSYNYRGFDIGNHFCEWVYDYTHEEWPFYKARPTDYPTQEQQLHFIRHYLAEAKKGETLSQEEQRKLEEDLLVEVSRYALASHFFWGLWSILQASMSTIEFGYLDYAQSRFQFYFQQKGQLTSVHSSS</Protein_Seq>
+    <DNA_Seq>AGAGATCTGCGGAATTCGGCCTTCGGAAAGAGCCCCCGGGCCGGGGCACGGAGAGAGCCGAGCGCCGCAGCCGTGAGCCGAATAGAGCCGGAGAGACCCGAGTATGACCGGAGAAGCCCAGGCCGGCCGGAAGAGGAGCCGAGCGCGGCCGGAAGGAACCGAGCCCGTCCGAAGGGAGCGGAGCGCAGCCTGGCCTGGGGCCCGGTCGAGCCCGCGCCATGGCGGCCGAGGCGACAGCTGTGGCCGGAAGCGGGGCTGTTGGCGGCTGCCTGGCCAAAGACGGCTTGCAGCAGTCTAAGTGCCCGGACACTACCCCAAAACGGCGGCGCGCCTCGTCGCTGTCGCGTGACGCCGAGCGCCGAGCCTACCAATGGTGCCGGGAGTACTTGGGCGGGGCCTGGCGCCGAGTGCAGCCCGAGGAGCTGAGGGTTTACCCCGTGAGCGGAGGCCTCAGCAACCTGCTCTTCCGCTGCTCGCTCCCGGACCACCTGCCCAGCGTTGGCGAGGAGCCCCGGGAGGTGCTTCTGCGGCTGTACGGAGCCATCTTGCAGGGCGTGGACTCCCTGGTGCTAGAAAGCGTGATGTTCGCCATACTTGCGGAGCGGTCGCTGGGGCCCCAGCTGTACGGAGTCTTCCCAGAGGGCCGGCTGGAACAGTACATCCCAAGTCGGCCATTGAAAACTCAAGAGCTTCGAGAGCCAGTGTTGTCAGCAGCCATTGCCACGAAGATGGCGCAATTTCATGGCATGGAGATGCCTTTCACCAAGGAGCCCCACTGGCTGTTTGGGACCATGGAGCGGTACCTAAAACAGATCCAGGACCTGCCCCCAACTGGCCTCCCTGAGATGAACCTGCTGGAGATGTACAGCCTGAAGGATGAGATGGGCAACCTCAGGAAGTTACTAGAGTCTACCCCATCGCCAGTCGTCTTCTGCCACAATGACATCCAGGAAGGGAACATCTTGCTGCTCTCAGAGCCAGAAAATGCTGACAGCCTCATGCTGGTGGACTTCGAGTACAGCAGTTATAACTATAGGGGCTTTGACATTGGGAACCATTTTTGTGAGTGGGTTTATGATTATACTCACGAGGAATGGCCTTTCTACAAAGCAAGGCCCACAGACTACCCCACTCAAGAACAGCAGTTGCATTTTATTCGTCATTACCTGGCAGAGGCAAAGAAAGGTGAGACCCTCTCCCAAGAGGAGCAGAGAAAACTGGAAGAAGATTTGCTGGTAGAAGTCAGTCGGTATGCTCTGGCATCCCATTTCTTCTGGGGTCTGTGGTCCATCCTCCAGGCATCCATGTCCACCATAGAATTTGGTTACTTGGACTATGCCCAGTCTCGGTTCCAGTTCTACTTCCAGCAGAAGGGGCAGCTGACCAGTGTCCACTCCTCATCCTGACTCCACCCTCCCACTCCTTGGATTTCTCCTGGAGCCTCCAGGGCAGGACCTTGGAGGGAGGAACAACGAGCAGAAGGCCCTGGCGACTGGGCTGAGCCCCCAAGTGAAACTGAGGTTCAGGAGACCGGCCTGTTCCTGAGTTTGAGTAGGTCCCCATGGCTGGCAGGCCAGAGCCCCGTGCTGTGTATGTAACACAATAAACAAGCTTCTTCTTCCCACCCTGAAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CHKB</Gene_Name>
+    <Gene_Alias>CHETK; CHKL</Gene_Alias>
+    <Gene_ID>1120</Gene_ID>
+    <Genbank_ACCN>NM_005198</Genbank_ACCN>
+    <Protein_ACCN>NP_005189</Protein_ACCN>
+    <HGNC_ID>1938</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1120</Gene_URL>
+    <UCSC_ID>uc003bmu.3</UCSC_ID>
+    <EMBL_ID>ENSG00000100288</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Polyarteritis Nodosa</Disease_Name>
+      <Disease_Detail>Polyarteritis Nodosa</Disease_Detail>
+      <Disease_DB>PLY017</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/polyarteritis_nodosa?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cholesteatoma</Disease_Name>
+      <Disease_Detail>Cholesteatoma</Disease_Detail>
+      <Disease_DB>CHL069</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cholesteatoma?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acute Myocardial Infarction</Disease_Name>
+      <Disease_Detail>Acute Myocardial Infarction</Disease_Detail>
+      <Disease_DB>ACT075</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acute_myocardial_infarction?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Creatine Phosphokinase, Elevated Serum</Disease_Name>
+      <Disease_Detail>Creatine Phosphokinase, Elevated Serum</Disease_Detail>
+      <Disease_DB>CRT045</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/creatine_phosphokinase_elevated_serum?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dilated Cardiomyopathy</Disease_Name>
+      <Disease_Detail>Dilated Cardiomyopathy</Disease_Detail>
+      <Disease_DB>DLT002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dilated_cardiomyopathy?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Endometritis</Disease_Name>
+      <Disease_Detail>Endometritis</Disease_Detail>
+      <Disease_DB>END046</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/endometritis?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Fainting</Disease_Name>
+      <Disease_Detail>Fainting</Disease_Detail>
+      <Disease_DB>FNT004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/fainting?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Gas Gangrene</Disease_Name>
+      <Disease_Detail>Gas Gangrene</Disease_Detail>
+      <Disease_DB>GSG001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/gas_gangrene?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Japanese Spotted Fever</Disease_Name>
+      <Disease_Detail>Japanese Spotted Fever</Disease_Detail>
+      <Disease_DB>JPN001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/japanese_spotted_fever?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Angina Pectoris</Disease_Name>
+      <Disease_Detail>Angina Pectoris</Disease_Detail>
+      <Disease_DB>ANG054</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/angina_pectoris?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Distal Muscular Dystrophy</Disease_Name>
+      <Disease_Detail>Distal Muscular Dystrophy</Disease_Detail>
+      <Disease_DB>DST004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/distal_muscular_dystrophy?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myotonia</Disease_Name>
+      <Disease_Detail>Myotonia</Disease_Detail>
+      <Disease_DB>MYT011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myotonia?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dermatomyositis</Disease_Name>
+      <Disease_Detail>Dermatomyositis</Disease_Detail>
+      <Disease_DB>DRM010</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dermatomyositis?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Oligospermia</Disease_Name>
+      <Disease_Detail>Oligospermia</Disease_Detail>
+      <Disease_DB>OLG001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/oligospermia?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Meningoencephalitis</Disease_Name>
+      <Disease_Detail>Meningoencephalitis</Disease_Detail>
+      <Disease_DB>MNN009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/meningoencephalitis?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Chondroblastoma</Disease_Name>
+      <Disease_Detail>Chondroblastoma</Disease_Detail>
+      <Disease_DB>CHN004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/chondroblastoma?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cheilitis</Disease_Name>
+      <Disease_Detail>Cheilitis</Disease_Detail>
+      <Disease_DB>CHL056</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cheilitis?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Adult Dermatomyositis</Disease_Name>
+      <Disease_Detail>Adult Dermatomyositis</Disease_Detail>
+      <Disease_DB>ADL027</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adult_dermatomyositis?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myositis</Disease_Name>
+      <Disease_Detail>Myositis</Disease_Detail>
+      <Disease_DB>MYS005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myositis?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Neuroleptic Malignant Syndrome</Disease_Name>
+      <Disease_Detail>Neuroleptic Malignant Syndrome</Disease_Detail>
+      <Disease_DB>NRL004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/neuroleptic_malignant_syndrome?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Compartment Syndrome</Disease_Name>
+      <Disease_Detail>Compartment Syndrome</Disease_Detail>
+      <Disease_DB>CMP008</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/compartment_syndrome?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Duchenne Muscular Dystrophy</Disease_Name>
+      <Disease_Detail>Duchenne Muscular Dystrophy</Disease_Detail>
+      <Disease_DB>DCH001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/duchenne_muscular_dystrophy?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Viral Pneumonia</Disease_Name>
+      <Disease_Detail>Viral Pneumonia</Disease_Detail>
+      <Disease_DB>VRL005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/viral_pneumonia?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Spermatic Cord Torsion</Disease_Name>
+      <Disease_Detail>Spermatic Cord Torsion</Disease_Detail>
+      <Disease_DB>SPR016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/spermatic_cord_torsion?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hypokalemic Periodic Paralysis</Disease_Name>
+      <Disease_Detail>Hypokalemic Periodic Paralysis</Disease_Detail>
+      <Disease_DB>HYP051</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypokalemic_periodic_paralysis?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myoblastoma</Disease_Name>
+      <Disease_Detail>Myoblastoma</Disease_Detail>
+      <Disease_DB>MYB001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myoblastoma?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Muscular Dystrophy, Congenital, Megaconial Type</Disease_Name>
+      <Disease_Detail>Muscular Dystrophy</Disease_Detail>
+      <Disease_DB>MSC028</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/muscular_dystrophy_congenital_megaconial_type?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Maternally Inherited Diabetes and Deafness</Disease_Name>
+      <Disease_Detail>Maternally Inherited Diabetes and Deafness</Disease_Detail>
+      <Disease_DB>MTR046</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/maternally_inherited_diabetes_and_deafness?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Polymyositis</Disease_Name>
+      <Disease_Detail>Polymyositis</Disease_Detail>
+      <Disease_DB>PLY041</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/polymyositis?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myocardial Infarction</Disease_Name>
+      <Disease_Detail>Myocardial Infarction</Disease_Detail>
+      <Disease_DB>MYC007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myocardial_infarction?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Spotted Fever</Disease_Name>
+      <Disease_Detail>Spotted Fever</Disease_Detail>
+      <Disease_DB>SPT005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/spotted_fever?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myocarditis</Disease_Name>
+      <Disease_Detail>Myocarditis</Disease_Detail>
+      <Disease_DB>MYC008</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myocarditis?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Becker Muscular Dystrophy</Disease_Name>
+      <Disease_Detail>Becker Muscular Dystrophy</Disease_Detail>
+      <Disease_DB>BCK001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/becker_muscular_dystrophy?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cytoplasmic Body Myopathy</Disease_Name>
+      <Disease_Detail>Cytoplasmic Body Myopathy</Disease_Detail>
+      <Disease_DB>CYT006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cytoplasmic_body_myopathy?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cardiac Rupture</Disease_Name>
+      <Disease_Detail>Cardiac Rupture</Disease_Detail>
+      <Disease_DB>CRD016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cardiac_rupture?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myxedema</Disease_Name>
+      <Disease_Detail>Myxedema</Disease_Detail>
+      <Disease_DB>MYX004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myxedema?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Inclusion Body Myositis</Disease_Name>
+      <Disease_Detail>Inclusion Body Myositis</Disease_Detail>
+      <Disease_DB>INC002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/inclusion_body_myositis?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Proximal Spinal Muscular Atrophy</Disease_Name>
+      <Disease_Detail>Proximal Spinal Muscular Atrophy</Disease_Detail>
+      <Disease_DB>PRX014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/proximal_spinal_muscular_atrophy?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hypersomnia</Disease_Name>
+      <Disease_Detail>Hypersomnia</Disease_Detail>
+      <Disease_DB>HYP263</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypersomnia?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pericardial Effusion</Disease_Name>
+      <Disease_Detail>Pericardial Effusion</Disease_Detail>
+      <Disease_DB>PRC012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pericardial_effusion?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Actinic Cheilitis</Disease_Name>
+      <Disease_Detail>Actinic Cheilitis</Disease_Detail>
+      <Disease_DB>ACT093</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/actinic_cheilitis?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Miyoshi Myopathy</Disease_Name>
+      <Disease_Detail>Miyoshi Myopathy</Disease_Detail>
+      <Disease_DB>MYS006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/miyoshi_myopathy?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myotonic Dystrophy Type 2</Disease_Name>
+      <Disease_Detail>Myotonic Dystrophy</Disease_Detail>
+      <Disease_DB>MYT007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myotonic_dystrophy_type_2?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Polymorphous Low-Grade Adenocarcinoma</Disease_Name>
+      <Disease_Detail>Polymorphous Low-Grade Adenocarcinoma</Disease_Detail>
+      <Disease_DB>PLY040</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/polymorphous_low_grade_adenocarcinoma?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Status Asthmaticus</Disease_Name>
+      <Disease_Detail>Status Asthmaticus</Disease_Detail>
+      <Disease_DB>STT002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/status_asthmaticus?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Chkb-Related Muscle Diseases</Disease_Name>
+      <Disease_Detail>Chkb-Related Muscle Diseases</Disease_Detail>
+      <Disease_DB>CHK004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/chkb_related_muscle_diseases?search=CHKB#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of human choline kinase beta in complex with phosphorylated hemicholinium-3 and adenosine nucleotide</PDB_Title>
+      <PDB_ID>3FEG</PDB_ID>
+      <Resolution>1.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FEG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of human choline kinase isoforms in complex with hemicholinium-3: single amino acid near the active site influences inhibitor sensitivity.</PubMed_Title>
+      <Author>Hong, B.S., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:16330-16340</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20299452?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human choline kinase beta in complex with phosphorylated hemicholinium-3 and adenosine nucleotide</PDB_Title>
+      <PDB_ID>3LQ3</PDB_ID>
+      <Resolution>1.42</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LQ3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of human choline kinase isoforms in complex with hemicholinium-3: single amino acid near the active site influences inhibitor sensitivity.</PubMed_Title>
+      <Author>Hong, B.S., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:16330-16340</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20299452?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Human Choline Kinase B</PDB_Title>
+      <PDB_ID>2IG7</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IG7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of Human Choline Kinase B</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2ig7</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,242,Asp;site,244,Gln;site,267,Tyr;site,288,Tyr;site,353,Trp;site,368,Phe</Site_Detail>
+      <Site_Reference>Sahún-Roncero M, et al. Angew Chem Int Ed Engl. 2013 Apr 22;52(17):4582-6.</Site_Reference>
+      <PDB_ID>3FEG;3LQ3</PDB_ID>
+      <PubMed_ID>23441033</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD10360001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD10360002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-07-23</Create_Date>
+</Organism_Record>

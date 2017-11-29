@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04730000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P27695</UniProt_ID>
+  <Seq_Length>318</Seq_Length>
+  <Molecule_Weight>35555</Molecule_Weight>
+  <KEGG_ID>hsa:328</KEGG_ID>
+  <Orthology_ID>K10771</Orthology_ID>
+  <EBI_ID>EBI-1048805</EBI_ID>
+  <Function_Summary>Multifunctional protein that plays a central role in the cellular response to oxidative stress. The two major activities of APEX1 in DNA repair and redox regulation of transcriptional factors. Functions as a apurinic/apyrimidinic (AP) endodeoxyribonuclease in the DNA base excision repair (BER) pathway of DNA lesions induced by oxidative and alkylating agents. Initiates repair of AP sites in DNA by catalyzing hydrolytic incision of the phosphodiester backbone immediately adjacent to the damage, generating a single-strand break with 5'-deoxyribose phosphate and 3'-hydroxyl ends. Does also incise at AP sites in the DNA strand of DNA/RNA hybrids, single-stranded DNA regions of R-loop structures, and single-stranded RNA molecules. Has a 3'-5' exoribonuclease activity on mismatched deoxyribonucleotides at the 3' termini of nicked or gapped DNA molecules during short-patch BER. Possesses a DNA 3' phosphodiesterase activity capable of removing lesions (such as phosphoglycolate) blocking the 3' side of DNA strand breaks. May also play a role in the epigenetic regulation of gene expression by participating in DNA demethylation. Acts as a loading factor for POLB onto non-incised AP sites in DNA and stimulates the 5'-terminal deoxyribose 5'-phosphate (dRp) excision activity of POLB. Plays a role in the protection from granzymes-mediated cellular repair leading to cell death. Also involved in the DNA cleavage step of class switch recombination (CSR). On the other hand, APEX1 also exerts reversible nuclear redox activity to regulate DNA binding affinity and transcriptional activity of transcriptional factors by controlling the redox status of their DNA-binding domain, such as the FOS/JUN AP-1 complex after exposure to IR. Involved in calcium-dependent down-regulation of parathyroid hormone (PTH) expression by binding to negative calcium response elements (nCaREs). Together with HNRNPL or the dimer XRCC5/XRCC6, associates with nCaRE, acting as an activator of transcriptional repression. Stimulates the YBX1-mediated MDR1 promoter activity, when acetylated at Lys-6 and Lys-7, leading to drug resistance. Acts also as an endoribonuclease involved in the control of single-stranded RNA metabolism. Plays a role in regulating MYC mRNA turnover by preferentially cleaving in between UA and CA dinucleotides of the MYC coding region determinant (CRD). In association with NMD1, plays a role in the rRNA quality control process during cell cycle progression. Associates, together with YBX1, on the MDR1 promoter. Together with NPM1, associates with rRNA. Binds DNA and RNA.</Function_Summary>
+  <Catalytic_Mechanism>The C-O-P bond 3' to the apurinic or apyrimidinic site in DNA is broken by a beta-elimination reaction, leaving a 3'-terminal unsaturated sugar and a product with a terminal 5'-phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF03372:Exo_endo_phos</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>AP endonuclease 1</Alias>
+      <Alias>APEN</Alias>
+      <Alias>DNA-(apurinic or apyrimidinic site) lyase, mitochondrial</Alias>
+      <Alias>APEX nuclease</Alias>
+      <Alias>Apurinic-apyrimidinic endonuclease 1</Alias>
+      <Alias>REF-1</Alias>
+      <Alias>APE-1</Alias>
+      <Alias>Redox factor-1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of the N-C1' glycosidic bond between the damaged DNA base and the deoxyribose sugar, releasing a free base and leaving an apyrimidinic (AP) site. Enzymes with this activity recognize and remove uracil bases in DNA that result from the deamination of cytosine or the misincorporation of dUTP opposite an adenine.</Detail>
+      <Keyword>Uracil DNA N-glycosylase activity</Keyword>
+      <Ontology_ID>GO:0004844</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the endonucleolytic cleavage of RNA in RNA-DNA hybrids to 5'-phosphomonoesters.</Detail>
+      <Keyword>Ribonuclease H activity</Keyword>
+      <Ontology_ID>GO:0004523</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a repressing transcription factor and also with the basal transcription machinery in order to stop, prevent, or reduce the frequency, rate or extent of transcription. Cofactors generally do not bind DNA, but rather mediate protein-protein interactions between repressive transcription factors and the basal transcription machinery.</Detail>
+      <Keyword>Transcription corepressor activity</Keyword>
+      <Ontology_ID>GO:0003714</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages within nucleic acids by removing nucleotide residues from the 3' end.</Detail>
+      <Keyword>3'-5' exonuclease activity</Keyword>
+      <Ontology_ID>GO:0008408</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages within nucleic acids.</Detail>
+      <Keyword>Nuclease activity</Keyword>
+      <Ontology_ID>GO:0004518</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with damaged DNA.</Detail>
+      <Keyword>Damaged DNA binding</Keyword>
+      <Ontology_ID>GO:0003684</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an RNA molecule or a portion thereof.</Detail>
+      <Keyword>RNA binding</Keyword>
+      <Ontology_ID>GO:0003723</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a activating transcription factor and also with the basal transcription machinery in order to increase the frequency, rate or extent of transcription. Cofactors generally do not bind DNA, but rather mediate protein-protein interactions between activating transcription factors and the basal transcription machinery.</Detail>
+      <Keyword>Transcription coactivator activity</Keyword>
+      <Ontology_ID>GO:0003713</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of the C-O-P bond 3' to the apurinic or apyrimidinic site in DNA by a beta-elimination reaction, leaving a 3'-terminal unsaturated sugar and a product with a terminal 5'-phosphate.</Detail>
+      <Keyword>DNA-(apurinic or apyrimidinic site) lyase activity</Keyword>
+      <Ontology_ID>GO:0003906</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages at specific sites within a deoxyribonucleic acid molecule by creating internal breaks.</Detail>
+      <Keyword>Site-specific endodeoxyribonuclease activity, specific for altered base</Keyword>
+      <Ontology_ID>GO:0016890</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced.</Detail>
+      <Keyword>Oxidoreductase activity</Keyword>
+      <Ontology_ID>GO:0016491</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with DNA that is assembled into chromatin.</Detail>
+      <Keyword>Chromatin DNA binding</Keyword>
+      <Ontology_ID>GO:0031490</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages within nucleic acids by creating internal breaks.</Detail>
+      <Keyword>Endonuclease activity</Keyword>
+      <Ontology_ID>GO:0004519</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein that positively regulates either the transcription of one or more genes, or the translation of mRNA.</Detail>
+      <Keyword>Activator</Keyword>
+      <Ontology_ID>KW-0010</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages within nucleic acids by removing nucleotide residues from the 3' or 5' end.</Detail>
+      <Keyword>Exonuclease activity</Keyword>
+      <Ontology_ID>GO:0004527</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the sequential hydrolytic removal of 5'-nucleotides from the 3'-hydroxy termini of 3'-hydroxy-terminated oligonucleotides.</Detail>
+      <Keyword>Phosphodiesterase I activity</Keyword>
+      <Ontology_ID>GO:0004528</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>51</Position>
+      <Original>Gln</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>148</Position>
+      <Original>Asp</Original>
+      <Variation>Glu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>64</Position>
+      <Original>Ile</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that modulates the propensity of mRNA molecules to degradation. Includes processes that both stabilize and destabilize mRNAs.</Detail>
+      <Keyword>Regulation of mRNA stability</Keyword>
+      <Ontology_ID>GO:0043488</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The removal of a methyl group from one or more nucleotides within an DNA molecule.</Detail>
+      <Keyword>DNA demethylation</Keyword>
+      <Ontology_ID>GO:0080111</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which a new genotype is formed by reassortment of genes resulting in gene combinations different from those that were present in the parents. In eukaryotes genetic recombination can occur by chromosome assortment, intrachromosomal recombination, or nonreciprocal interchromosomal recombination. Intrachromosomal recombination occurs by crossing over. In bacteria it may occur by genetic transformation, conjugation, transduction, or F-duction.</Detail>
+      <Keyword>DNA recombination</Keyword>
+      <Ontology_ID>GO:0006310</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</Detail>
+      <Keyword>DNA repair</Keyword>
+      <Ontology_ID>GO:0006281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cellular DNA-dependent transcription.</Detail>
+      <Keyword>Regulation of transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006355</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of DNA repair.</Detail>
+      <Keyword>Positive regulation of DNA repair</Keyword>
+      <Ontology_ID>GO:0045739</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>In base excision repair, an altered base is removed by a DNA glycosylase enzyme, followed by excision of the resulting sugar phosphate. The small gap left in the DNA helix is filled in by the sequential action of DNA polymerase and DNA ligase.</Detail>
+      <Keyword>Base-excision repair</Keyword>
+      <Ontology_ID>GO:0006284</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of anti-apoptosis.</Detail>
+      <Keyword>Positive regulation of anti-apoptosis</Keyword>
+      <Ontology_ID>GO:0045768</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>93</Position>
+      <PTM_Type>S-nitrosocysteine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>6</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>310</Position>
+      <PTM_Type>S-nitrosocysteine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>233</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>31</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>65</Position>
+      <PTM_Type>S-nitrosocysteine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>262</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>35</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>197</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>32</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>27</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>7</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MPKRGKKGAVAEDGDELRTEPEAKKSKTAAKKNDKEAAGEGPALYEDPPDQKTSPSGKPATLKICSWNVDGLRAWIKKKGLDWVKEEAPDILCLQETKCSENKLPAELQELPGLSHQYWSAPSDKEGYSGVGLLSRQCPLKVSYGIGDEEHDQEGRVIVAEFDSFVLVTAYVPNAGRGLVRLEYRQRWDEAFRKFLKGLASRKPLVLCGDLNVAHEEIDLRNPKGNKKNAGFTPQERQGFGELLQAVPLADSFRHLYPNTPYAYTFWTYMMNARSKNVGWRLDYFLLSHSLLPALCDSKIRSKALGSDHCPITLYLAL</Protein_Seq>
+    <DNA_Seq>CAGACAGACCAATCACGCGCATTCTTCGGCCACGACAAGCGCGCCTCTGATCACGTGACCAGGTCCGCTACCCACGTGGGGGCTCAGCGTGCACCCTTCTTTGTGCTCGGGTTAGGAGGAGCTAGGCTGCCATCGGGCCGGTGCAGATACGGGGTTGCTCTTTTGCTCATAAGAGGGGCTTCGCTGGCAGTCTGAACGGCAAGCTTGAGTCAGGACCCTTAATTAAGATCCTCAATTGGCTGGAGGGCAGATCTCGCGAGCAACGCGGTAAAAATATTGCTTCGGTGGGTGACGCGGTACAGCTGCCCAAGGGCGTTCGTAACGGGAATGCCGAAGCGTGGGAAAAAGGGAGCGGTGGCGGAAGACGGGGATGAGCTCAGGACAGAGCCAGAGGCCAAGAAGAGTAAGACGGCCGCAAAGAAAAATGACAAAGAGGCAGCAGGAGAGGGCCCAGCCCTGTATGAGGACCCCCCAGATCAGAAAACCTCACCCAGTGGCAAACCTGCCACACTCAAGATCTGCTCTTGGAATGTGGATGGGCTTCGAGCCTGGATTAAGAAGAAAGGATTAGATTGGGTAAAGGAAGAAGCCCCAGATATACTGTGCCTTCAAGAGACCAAATGTTCAGAGAACAAACTACCAGCTGAACTTCAGGAGCTGCCTGGACTCTCTCATCAATACTGGTCAGCTCCTTCGGACAAGGAAGGGTACAGTGGCGTGGGCCTGCTTTCCCGCCAGTGCCCACTCAAAGTTTCTTACGGCATAGGCGATGAGGAGCATGATCAGGAAGGCCGGGTGATTGTGGCTGAATTTGACTCGTTTGTGCTGGTAACAGCATATGTACCTAATGCAGGCCGAGGTCTGGTACGACTGGAGTACCGGCAGCGCTGGGATGAAGCCTTTCGCAAGTTCCTGAAGGGCCTGGCTTCCCGAAAGCCCCTTGTGCTGTGTGGAGACCTCAATGTGGCACATGAAGAAATTGACCTTCGCAACCCCAAGGGGAACAAAAAGAATGCTGGCTTCACGCCACAAGAGCGCCAAGGCTTCGGGGAATTACTGCAGGCTGTGCCACTGGCTGACAGCTTTAGGCACCTCTACCCCAACACACCCTATGCCTACACCTTTTGGACTTATATGATGAATGCTCGATCCAAGAATGTTGGTTGGCGCCTTGATTACTTTTTGTTGTCCCACTCTCTGTTACCTGCATTGTGTGACAGCAAGATCCGTTCCAAGGCCCTCGGCAGTGATCACTGTCCTATCACCCTATACCTAGCACTGTGACACCACCCCTAAATCACTTTGAGCCTGGGAAATAAGCCCCCTCAACTACCATTCCTTCTTTAAACACTCTTCAGAGAAATCTGCATTCTATTTCTCATGTATAAAACTAGGAATCCTCCAACCAGGCTCCTGTGATAGAGTTCTTTTAAGCCCAAGATTTTTTATTTGAGGGTTTTTTGTTTTTTAAAAAAAAATTGAACAAAGACTACTAATGACTTTGTTTGAATTATCCACATGAAAATAAAGAGCCATAGTTTCAGCCTTAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Centrosome</CellLocal>
+      <Ontology_ID>GO:0005813</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus speckle</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nuclear speck</CellLocal>
+      <Ontology_ID>GO:0016607</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleolus</CellLocal>
+      <Ontology_ID>GO:0005730</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Ribosome</CellLocal>
+      <Ontology_ID>GO:0005840</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum</CellLocal>
+      <Ontology_ID>GO:0005783</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Perinuclear region of cytoplasm</CellLocal>
+      <Ontology_ID>GO:0048471</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>APEX1</Gene_Name>
+    <Gene_Alias>APE; APE1; APEX; APX; HAP1; REF1</Gene_Alias>
+    <Gene_ID>328</Gene_ID>
+    <Genbank_ACCN>NM_001244249</Genbank_ACCN>
+    <Protein_ACCN>NP_001231178</Protein_ACCN>
+    <HGNC_ID>587</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/328</Gene_URL>
+    <UCSC_ID>uc001vxg.3</UCSC_ID>
+    <EMBL_ID>ENSG00000100823</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q09472</Uniprot_ID>
+      <Gene_Name>EP300</Gene_Name>
+      <EBI_ID>EBI-447295</EBI_ID>
+      <PPI_EBI_URL>EBI-1048805,EBI-447295</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q96EB6</Uniprot_ID>
+      <Gene_Name>SIRT1</Gene_Name>
+      <EBI_ID>EBI-1802965</EBI_ID>
+      <PPI_EBI_URL>EBI-1048805,EBI-1802965</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Attenuated Familial Adenomatous Polyposis</Disease_Name>
+      <Disease_Detail>Attenuated Familial Adenomatous Polyposis</Disease_Detail>
+      <Disease_DB>ATT003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/attenuated_familial_adenomatous_polyposis?search=APEX1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lung Cancer</Disease_Name>
+      <Disease_Detail>Lung Cancer</Disease_Detail>
+      <Disease_DB>LNG032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lung_cancer?search=APEX1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS047</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer?search=APEX1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Respiratory Failure</Disease_Name>
+      <Disease_Detail>Respiratory Failure</Disease_Detail>
+      <Disease_DB>RSP003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/respiratory_failure?search=APEX1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cystic Fibrosis</Disease_Name>
+      <Disease_Detail>Cystic Fibrosis</Disease_Detail>
+      <Disease_DB>CYS001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cystic_fibrosis?search=APEX1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>THE CRYSTAL STRUCTURE OF THE HUMAN DNA REPAIR ENDONUCLEASE HAP1 SUGGESTS THE RECOGNITION OF EXTRA-HELICAL DEOXYRIBOSE AT DNA ABASIC SITES</PDB_Title>
+      <PDB_ID>1BIX</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BIX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The crystal structure of the human DNA repair endonuclease HAP1 suggests the recognition of extra-helical deoxyribose at DNA abasic sites.</PubMed_Title>
+      <Author>Gorman, M.A., et al.</Author>
+      <Journal>EMBO J.(1997)16:6548-6558</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9351835?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Human Apurinic/Apyridinimic Endonuclease, Ape1 in a new crystal form</PDB_Title>
+      <PDB_ID>3U8U</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3U8U</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240007</ASD_Ligand>
+      <PubMed_Title>Crystal structure of Human Apurinic/Apyridinimic Endonuclease, Ape1 in a new crystal form</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIGH RESOLUTION SOLUTION NMR STRUCTURE OF MIXED DISULFIDE INTERMEDIATE BETWEEN HUMAN THIOREDOXIN (C35A, C62A, C69A, C73A) MUTANT AND A 13 RESIDUE PEPTIDE COMPRISING ITS TARGET SITE IN HUMAN REF-1 (RESIDUES 59-71 OF THE P50 SUBUNIT OF NFKB), NMR, 31 STRUCTURES</PDB_Title>
+      <PDB_ID>1CQG</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CQG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The solution structure of human thioredoxin complexed with its target from Ref-1 reveals peptide chain reversal.</PubMed_Title>
+      <Author>Qin, J., et al.</Author>
+      <Journal>Structure(1996)4:613-620</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8736558?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the human C65A Ape</PDB_Title>
+      <PDB_ID>2O3H</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2O3H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Evolution of the redox function in mammalian apurinic/apyrimidinic endonuclease</PubMed_Title>
+      <Author>Georgiadis, M.M., et al.</Author>
+      <Journal>Mutat.Res.(2008)643:54-63</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18579163?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN APURINIC/APYRIMIDINIC ENDONUCLEASE-1 (APE1) BOUND TO ABASIC DNA</PDB_Title>
+      <PDB_ID>1DE8</PDB_ID>
+      <Resolution>2.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DE8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>DNA-bound structures and mutants reveal abasic DNA binding by APE1 and DNA repair coordination [corrected</PubMed_Title>
+      <Author>Mol, C.D., et al.</Author>
+      <Journal>Nature(2000)403:451-456</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10667800?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN APE1 ENDONUCLEASE WITH BOUND ABASIC DNA AND MN2+ ION</PDB_Title>
+      <PDB_ID>1DE9</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DE9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>DNA-bound structures and mutants reveal abasic DNA binding by APE1 and DNA repair coordination</PubMed_Title>
+      <Author>Mol, C.D., et al.</Author>
+      <Journal>Nature(2000)403:451-456</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10667800?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Ape1 from Homo sapiens in a new crystal form complexed with a ligand</PDB_Title>
+      <PDB_ID>2ISI</PDB_ID>
+      <Resolution>2.76</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ISI</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00240007</ASD_Ligand>
+      <PubMed_Title>Crystal structure of hApe1 in a new crystal form with a bound ligand: implications on catalytic mechanism and its inhibition</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>A SECOND DIVALENT METAL ION IN THE ACTIVE SITE OF A NEW CRYSTAL FORM OF HUMAN APURINIC/APYRIMIDINIC ENDONUCLEASE, APE1, AND ITS IMPLICATIONS FOR THE CATALYTIC MECHANISM</PDB_Title>
+      <PDB_ID>1E9N</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1E9N</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Two Divalent Metal Ions in the Active Site of a New Crystal Form of Human Apurinic/Apyrimidinic Endonuclease, Ape1: Implications for the Catalytic Mechanism</PubMed_Title>
+      <Author>Beernink, P.T., et al.</Author>
+      <Journal>J.Mol.Biol.(2001)307:1023</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11286553?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HUMAN APE1 BOUND TO ABASIC DNA</PDB_Title>
+      <PDB_ID>1DEW</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DEW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>DNA-bound structures and mutants reveal abasic DNA binding by APE1 and DNA repair coordination</PubMed_Title>
+      <Author>Mol, C.D., et al.</Author>
+      <Journal>Nature(2000)403:451-456</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10667800?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HIGH RESOLUTION SOLUTION NMR STRUCTURE OF MIXED DISULFIDE INTERMEDIATE BETWEEN HUMAN THIOREDOXIN (C35A, C62A, C69A, C73A) MUTANT AND A 13 RESIDUE PEPTIDE COMPRISING ITS TARGET SITE IN HUMAN REF-1 (RESIDUES 59-71 OF THE P50 SUBUNIT OF NFKB), NMR, MINIMIZED AVERAGE STRUCTURE</PDB_Title>
+      <PDB_ID>1CQH</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CQH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The solution structure of human thioredoxin complexed with its target from Ref-1 reveals peptide chain reversal.</PubMed_Title>
+      <Author>Qin, J., et al.</Author>
+      <Journal>Structure(1996)4:613-620</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8736558?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>A SECOND DIVALENT METAL ION IN THE ACTIVE SITE OF A NEW CRYSTAL FORM OF HUMAN APURINIC/APYRIDINIMIC ENDONUCLEASE, APE1, AND ITS IMPLICATIONS FOR THE CATALYTIC MECHANISM</PDB_Title>
+      <PDB_ID>1HD7</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HD7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Two Divalent Metal Ions in the Active Site of a New Crystal Form of Human Apurinic/Apyrimidinic Endonuclease, Ape1: Implications for the Catalytic Mechanism</PubMed_Title>
+      <Author>Beernink, P.T., et al.</Author>
+      <Journal>J.Mol.Biol.(2001)307:1023</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11286553?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.dai.b.b.c.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1bix</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,68,Asn;site,96,Glu;site,210,Asp;site,212,Asn;site,308,Asp;site,309,His</Site_Detail>
+      <Site_Reference>Agarwal R, et al. To be Published.</Site_Reference>
+      <PDB_ID>2ISI;3U8U</PDB_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.-.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/-/-.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 4.2.99.18</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 4/2/99/18.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00240007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

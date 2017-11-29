@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07130000_1</Organism_ID>
+  <Organism>Trypanosoma brucei brucei</Organism>
+  <Organism_Latin>Trypanosoma brucei brucei</Organism_Latin>
+  <UniProt_ID>P07805</UniProt_ID>
+  <Seq_Length>423</Seq_Length>
+  <Molecule_Weight>46881</Molecule_Weight>
+  <Catalytic_Mechanism>L-ornithine = putrescine + CO(2).</Catalytic_Mechanism>
+  <Pfam_ID>PF02784:Orn_Arg_deC_N@@PF00278:Orn_DAP_Arg_deC</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>16</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>ODC</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-ornithine + H(+) = CO(2) + putrescine.</Detail>
+      <Keyword>Ornithine decarboxylase activity</Keyword>
+      <Ontology_ID>GO:0004586</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the nonhydrolytic addition or removal of a carboxyl group to or from a compound.</Detail>
+      <Keyword>Carboxy-lyase activity</Keyword>
+      <Ontology_ID>GO:0016831</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of polyamines, any organic compound containing two or more amino groups.</Detail>
+      <Keyword>Polyamine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006596</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>67</Position>
+      <PTM_Type>N6-(pyridoxal phosphate)lysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MDIVVNDDLSCRFLEGFNTRDALCKKISMNTCDEGDPFFVADLGDIVRKHETWKKCLPRVTPFYAVKCNDDWRVLGTLAALGTGFDCASNTEIQRVRGIGVPPEKIIYANPCKQISHIRYARDSGVDVMTFDCVDELEKVAKTHPKAKMVLRISTDDSLARCRLSVKFGAKVEDCRFILEQAKKLNIDVTGVSFHVGSGSTDASTFAQAISDSRFVFDMGTELGFNMHILDIGGGFPGTRDAPLKFEEIAGVINNALEKHFPPDLKLTIVAEPGRYYVASAFTLAVNVIAKKVTPGVQTDVGAHAESNAQSFMYYVNDGVYGSFNCILYDHAVVRPLPQREPIPNEKLYPSSVWGPTCDGLDQIVERYYLPEMQVGEWLLFEDMGAYTVVGTSSFNGFQSPTIYYVVSGLPDHVVRELKSQKS</Protein_Seq>
+    <DNA_Seq>GCGGGGAGGGCTTTCCTTGCTTCCCAGAAGTATTATGTTTAAACACGCATGTGCGTCGGTAGCAAGCCTGGTAAAATTTGTCTGTACCATTTCCAATGAAGCGGTAGGGAAAGAGGCGGTACTGGGGAGGGATTAAGCAGTAAGGCAAATATGACCACCAAATCAACCCCCTCTTCTCTCTCTGTGAATTGTCTTGTAGCACAAACGGAGAAATCTATGGACATTGTCGTGAACGATGACTTGAGTTGTCGCTTTCTTGAAGGGTTTAATACGAGGGATGCCCTCTGTAAAAAGATCAGTATGAATACGTGTGACGAAGGTGATCCGTTTTTTGTTGCCGATCTCGGGGACATTGTAAGGAAGCACGAAACATGGAAAAAATGCCTTCCCCGCGTCACGCCGTTTTACGCGGTCAAATGCAACGATGACTGGCGCGTACTTGGAACGCTGGCGGCTCTCGGCACGGGATTTGATTGTGCTAGCAACACTGAGATACAACGTGTGAGAGGCATTGGTGTGCCACCGGAAAAAATAATATATGCGAACCCTTGTAAACAAATTTCACACATACGGTACGCGCGTGATAGCGGCGTTGATGTCATGACATTTGATTGCGTGGATGAACTGGAAAAGGTCGCTAAAACGCATCCAAAGGCAAAGATGGTATTAAGAATTTCTACGGATGATTCGTTGGCTCGATGCCGTCTCAGTGTGAAGTTTGGTGCAAAGGTGGAAGACTGTAGGTTTATCTTGGAGCAGGCAAAGAAACTGAATATCGACGTCACTGGTGTGAGTTTTCACGTGGGAAGCGGATCTACAGATGCCTCTACCTTCGCTCAAGCCATATCTGACTCCCGTTTCGTTTTCGACATGGGTACTGAGCTTGGGTTCAATATGCACATTCTTGATATCGGTGGTGGGTTTCCAGGGACGAGGGATGCACCACTTAAATTTGAAGAGATTGCTGGTGTCATCAACAATGCGCTGGAAAAACATTTTCCACCTGACCTCAAGCTTACCATTGTTGCCGAGCCGGGAAGGTACTACGTTGCTTCAGCTTTCACACTTGCCGTAAATGTTATTGCCAAGAAGGTGACACCAGGGGTTCAGACCGACGTCGGTGCCCATGCTGAATCAAACGCACAGAGTTTTATGTATTATGTGAATGATGGCGTGTATGGTTCATTTAATTGCATCCTGTATGACCACGCAGTCGTCAGGCCTTTGCCCCAGAGGGAGCCAATCCCCAATGAAAAGCTCTATCCCTCAAGTGTATGGGGTCCCACATGTGATGGTCTTGATCAGATAGTTGAACGATACTATCTTCCCGAGATGCAAGTGGGGGAATGGCTGCTCTTTGAGGATATGGGTGCCTACACGGTCGTAGGAACTTCTTCCTTTAATGGATTCCAGAGTCCGACTATTTACTATGTAGTCTCCGGGCTACCAGACCATGTTGTCCGGGAGTTGAAAAGTCAAAAATCATAAATGGAAGCGAAGGTGCATAATACGGGCCCAGCTCGTTGGCTCTCTGAGCAATGAAAGAAGGGGCTTTACCACCAGGTGTTGCTTCCTTTGGTAATATATTTGGTCTGTTCTTGGCCCTGCGTTAGCTTTTTGCCCTTTGTGAGCTTAACGACT</DNA_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Genbank_ACCN>J02771</Genbank_ACCN>
+    <Protein_ACCN>AAA30218</Protein_ACCN>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>ORNITHINE DECARBOXYLASE FROM TRYPANOSOMA BRUCEI K69A MUTANT IN COMPLEX WITH ALPHA-DIFLUOROMETHYLORNITHINE</PDB_Title>
+      <PDB_ID>2TOD</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2TOD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structure of ornithine decarboxylase from Trypanosoma brucei: the native structure and the structure in complex with alpha-difluoromethylornithine.</PubMed_Title>
+      <Author>Grishin, N.V., et al.</Author>
+      <Journal>Biochemistry(1999)38:15174-15184</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10563800?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF TRYPANOSOMA BRUCEI ORNITHINE DECARBOXYLASE</PDB_Title>
+      <PDB_ID>1QU4</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QU4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structure of ornithine decarboxylase from Trypanosoma brucei: the native structure and the structure in complex with alpha-difluoromethylornithine.</PubMed_Title>
+      <Author>Grishin, N.V., et al.</Author>
+      <Journal>Biochemistry(1999)38:15174-15184</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10563800?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF TRYPANOSOMA BRUCEI ORNITHINE DECARBOXYLASE (ODC) COMPLEXED WITH PUTRESCINE, ODC'S REACTION PRODUCT.</PDB_Title>
+      <PDB_ID>1F3T</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1F3T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Altering the reaction specificity of eukaryotic ornithine decarboxylase.</PubMed_Title>
+      <Author>Jackson, L.K., et al.</Author>
+      <Journal>Biochemistry(2000)39:11247-111257</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10985770?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure determination of T. brucei ornithine decarboxylase bound to D-ornithine and to G418</PDB_Title>
+      <PDB_ID>1NJJ</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NJJ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07130013</ASD_Ligand>
+      <PubMed_Title>X-ray Structure Determination of Trypanosoma brucei Ornithine Decarboxylase Bound to D-Ornithine and to G418: INSIGHTS INTO SUBSTRATE BINDING AND ODC CONFORMATIONAL FLEXIBILITY.</PubMed_Title>
+      <Author>Jackson, L.K., et al.</Author>
+      <Journal>J.Biol.Chem.(2003)278:22037-22043</Journal>
+      <PubMed_ID>12672797</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>A Dimer interface mutant of ornithine decarboxylase reveals structure of gem diamine intermediate</PDB_Title>
+      <PDB_ID>1SZR</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SZR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Multiple active site conformations revealed by distant site mutation in ornithine decarboxylase</PubMed_Title>
+      <Author>Jackson, L.K., et al.</Author>
+      <Journal>Biochemistry(2004)43:12990-12999</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15476392?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.b.h.b.g.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1f3t</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.1.1.17</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/1/1/17.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD07130001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07130015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07138001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

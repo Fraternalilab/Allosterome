@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03500000_2</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P31547</UniProt_ID>
+  <Seq_Length>217</Seq_Length>
+  <Molecule_Weight>23256</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0195</KEGG_ID>
+  <Orthology_ID>K02072</Orthology_ID>
+  <Function_Summary>Part of the binding-protein-dependent transport system for D-methionine and the toxic methionine analog alpha-methyl-methionine. Probably responsible for the translocation of the substrate across the membrane.</Function_Summary>
+  <Pfam_ID>PF00528:BPD_transp_1</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>MetI</Alias>
+      <Alias>D-methionine transport system permease protein metI</Alias>
+      <Alias>D- and L-methionine transport protein</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Enables the directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells.</Detail>
+      <Keyword>Transporter activity</Keyword>
+      <Ontology_ID>GO:0005215</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of amino acids, organic acids containing one or more amino substituents, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Amino acid transport</Keyword>
+      <Ontology_ID>GO:0006865</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSEPMMWLLVRGVWETLAMTFVSGFFGFVIGLPVGVLLYVTRPGQIIANAKLYRTVSAIVNIFRSIPFIILLVWMIPFTRVIVGTSIGLQAAIVPLTVGAAPFIARMVENALLEIPTGLIEASRAMGATPMQIVRKVLLPEALPGLVNAATITLITLVGYSAMGGAVGAGGLGQIGYQYGYIGYNATVMNTVLVLLVILVYLIQFAGDRIVRAVTRK</Protein_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>metI</Gene_Name>
+    <Gene_Alias>yaeE</Gene_Alias>
+    <Gene_ID>12930760</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_414740</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/944894</Gene_URL>
+    <EMBL_ID>EBESCG00000015819</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of methionine importer MetNI</PDB_Title>
+      <PDB_ID>3DHW</PDB_ID>
+      <Resolution>3.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=3DHW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The high-affinity E. coli methionine ABC transporter: structure and allosteric regulation.</PubMed_Title>
+      <Author>Kadaba NS, et al.</Author>
+      <Journal>Science. 2008 Jul 11;321(5886):250-3.</Journal>
+      <PubMed_ID>18621668</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02010</Pathway_ID>
+      <Pathway_Title>ABC transporters</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Membrane transport</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko02010</Pathway_ID>
+      <Pathway_Title>ABC transporters</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Membrane transport</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Membrane and cell surface proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.g.ed.b.b.f.html</SCOP_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Kadaba NS, et al. Science. 2008,321(5886):250-253.</Site_Reference>
+      <Site_Type>Oligomerization</Site_Type>
+      <PubMed_ID>18621668</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.6.3.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/6/3/</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD03500001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

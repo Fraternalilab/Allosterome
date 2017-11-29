@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02210000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P00864</UniProt_ID>
+  <Seq_Length>883</Seq_Length>
+  <Molecule_Weight>99063</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3232</KEGG_ID>
+  <Orthology_ID>K01595</Orthology_ID>
+  <EBI_ID>EBI-1133741</EBI_ID>
+  <Function_Summary>Through the carboxylation of phosphoenolpyruvate (PEP) it forms oxaloacetate, a four-carbon dicarboxylic acid source for the tricarboxylic acid cycle.</Function_Summary>
+  <Catalytic_Mechanism>Phosphate + oxaloacetate = H(2)O + phosphoenolpyruvate + HCO(3)(-).</Catalytic_Mechanism>
+  <Pfam_ID>PF00311:PEPcase</Pfam_ID>
+  <Allosteric_Activator_Count>8</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>6</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>PEPCase</Alias>
+      <Alias>PEPC</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: H(+) + oxaloacetate + phosphate = CO(2) + H(2)O + phosphoenolpyruvate.</Detail>
+      <Keyword>Phosphoenolpyruvate carboxylase activity</Keyword>
+      <Ontology_ID>GO:0008964</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A metabolic process in which carbon (usually derived from carbon dioxide) is incorporated into organic compounds (usually carbohydrates).</Detail>
+      <Keyword>Carbon fixation</Keyword>
+      <Ontology_ID>GO:0015977</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A nearly universal metabolic pathway in which the acetyl group of acetyl coenzyme A is effectively oxidized to two CO2 and four pairs of electrons are transferred to coenzymes. The acetyl group combines with oxaloacetate to form citrate, which undergoes successive transformations to isocitrate, 2-oxoglutarate, succinyl-CoA, succinate, fumarate, malate, and oxaloacetate again, thus completing the cycle. In eukaryotes the tricarboxylic acid is confined to the mitochondria. See also glyoxylate cycle.</Detail>
+      <Keyword>Tricarboxylic acid cycle</Keyword>
+      <Ontology_ID>GO:0006099</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MNEQYSALRSNVSMLGKVLGETIKDALGEHILERVETIRKLSKSSRAGNDANRQELLTTLQNLSNDELLPVARAFSQFLNLANTAEQYHSISPKGEAASNPEVIARTLRKLKNQPELSEDTIKKAVESLSLELVLTAHPTEITRRTLIHKMVEVNACLKQLDNKDIADYEHNQLMRRLRQLIAQSWHTDEIRKLRPSPVDEAKWGFAVVENSLWQGVPNYLRELNEQLEENLGYKLPVEFVPVRFTSWMGGDRDGNPNVTADITRHVLLLSRWKATDLFLKDIQVLVSELSMVEATPELLALVGEEGAAEPYRYLMKNLRSRLMATQAWLEARLKGEELPKPEGLLTQNEELWEPLYACYQSLQACGMGIIANGDLLDTLRRVKCFGVPLVRIDIRQESTRHTEALGELTRYLGIGDYESWSEADKQAFLIRELNSKRPLLPRNWQPSAETREVLDTCQVIAEAPQGSIAAYVISMAKTPSDVLAVHLLLKEAGIGFAMPVAPLFETLDDLNNANDVMTQLLNIDWYRGLIQGKQMVMIGYSDSAKDAGVMAASWAQYQAQDALIKTCEKAGIELTLFHGRGGSIGRGGAPAHAALLSQPPGSLKGGLRVTEQGEMIRFKYGLPEITVSSLSLYTGAILEANLLPPPEPKESWRRIMDELSVISCDVYRGYVRENKDFVPYFRSATPEQELGKLPLGSRPAKRRPTGGVESLRAIPWIFAWTQNRLMLPAWLGAGTALQKVVEDGKQSELEAMCRDWPFFSTRLGMLEMVFAKADLWLAEYYDQRLVDKALWPLGKELRNLQEEDIKVVLAIANDSHLMADLPWIAESIQLRNIYTDPLNVLQAELLHRSRQAEKEGQEPDPRVEQALMVTIAGIAAGMRNTG</Protein_Seq>
+    <DNA_Seq>TTACTTGGGGCGATTTTTTAACATTTCCATAAGTTACGCTTATTTAAAGCGTCGTGAATTTAATGACGTAAATTCCTGCTATTTATTCGTTTGCTGAAGCGATTTCGCAGCATTTGACGTCACCGCTTTTACGTGGCTTTATAAAAGACGACGAAAAGCAAAGCCCGAGCATATTCGCGCCAATGCGACGTGAAGGATACAGGGCTATCAAACGATAAGATGGGGTGTCTGGGGTAATATGAACGAACAATATTCCGCATTGCGTAGTAATGTCAGTATGCTCGGCAAAGTGCTGGGAGAAACCATCAAGGATGCGTTGGGAGAACACATTCTTGAACGCGTAGAAACTATCCGTAAGTTGTCGAAATCTTCACGCGCTGGCAATGATGCTAACCGCCAGGAGTTGCTCACCACCTTACAAAATTTGTCGAACGACGAGCTGCTGCCCGTTGCGCGTGCGTTTAGTCAGTTCCTGAACCTGGCCAACACCGCCGAGCAATACCACAGCATTTCGCCGAAAGGCGAAGCTGCCAGCAACCCGGAAGTGATCGCCCGCACCCTGCGTAAACTGAAAAACCAGCCGGAACTGAGCGAAGACACCATCAAAAAAGCAGTGGAATCGCTGTCGCTGGAACTGGTCCTCACGGCTCACCCAACCGAAATTACCCGTCGTACACTGATCCACAAAATGGTGGAAGTGAACGCCTGTTTAAAACAGCTCGATAACAAAGATATCGCTGACTACGAACACAACCAGCTGATGCGTCGCCTGCGCCAGTTGATCGCCCAGTCATGGCATACCGATGAAATCCGTAAGCTGCGTCCAAGCCCGGTAGATGAAGCCAAATGGGGCTTTGCCGTAGTGGAAAACAGCCTGTGGCAAGGCGTACCAAATTACCTGCGCGAACTGAACGAACAACTGGAAGAGAACCTCGGCTACAAACTGCCCGTCGAATTTGTTCCGGTCCGTTTTACTTCGTGGATGGGCGGCGACCGCGACGGCAACCCGAACGTCACTGCCGATATCACCCGCCACGTCCTGCTACTCAGCCGCTGGAAAGCCACCGATTTGTTCCTGAAAGATATTCAGGTGCTGGTTTCTGAACTGTCGATGGTTGAAGCGACCCCTGAACTGCTGGCGCTGGTTGGCGAAGAAGGTGCCGCAGAACCGTATCGCTATCTGATGAAAAACCTGCGTTCTCGCCTGATGGCGACACAGGCATGGCTGGAAGCGCGCCTGAAAGGCGAAGAACTGCCAAAACCAGAAGGCCTGCTGACACAAAACGAAGAACTGTGGGAACCGCTCTACGCTTGCTACCAGTCACTTCAGGCGTGTGGCATGGGTATTATCGCCAACGGCGATCTGCTCGACACCCTGCGCCGCGTGAAATGTTTCGGCGTACCGCTGGTCCGTATTGATATCCGTCAGGAGAGCACGCGTCATACCGAAGCGCTGGGCGAGCTGACCCGCTACCTCGGTATCGGCGACTACGAAAGCTGGTCAGAGGCCGACAAACAGGCGTTCCTGATCCGCGAACTGAACTCCAAACGTCCGCTTCTGCCGCGCAACTGGCAACCAAGCGCCGAAACGCGCGAAGTGCTCGATACCTGCCAGGTGATTGCCGAAGCACCGCAAGGCTCCATTGCCGCCTACGTGATCTCGATGGCGAAAACGCCGTCCGACGTACTGGCTGTCCACCTGCTGCTGAAAGAAGCGGGTATCGGGTTTGCGATGCCGGTTGCTCCGCTGTTTGAAACCCTCGATGATCTGAACAACGCCAACGATGTCATGACCCAGCTGCTCAATATTGACTGGTATCGTGGCCTGATTCAGGGCAAACAGATGGTGATGATTGGCTATTCCGACTCAGCAAAAGATGCGGGAGTGATGGCAGCTTCCTGGGCGCAATATCAGGCACAGGATGCATTAATCAAAACCTGCGAAAAAGCGGGTATTGAGCTGACGTTGTTCCACGGTCGCGGCGGTTCCATTGGTCGCGGCGGCGCACCTGCTCATGCGGCGCTGCTGTCACAACCGCCAGGAAGCCTGAAAGGCGGCCTGCGCGTAACCGAACAGGGCGAGATGATCCGCTTTAAATATGGTCTGCCAGAAATCACCGTCAGCAGCCTGTCGCTTTATACCGGGGCGATTCTGGAAGCCAACCTGCTGCCACCGCCGGAGCCGAAAGAGAGCTGGCGTCGCATTATGGATGAACTGTCAGTCATCTCCTGCGATGTCTACCGCGGCTACGTACGTGAAAACAAAGATTTTGTGCCTTACTTCCGCTCCGCTACGCCGGAACAAGAACTGGGCAAACTGCCGTTGGGTTCACGTCCGGCGAAACGTCGCCCAACCGGCGGCGTCGAGTCACTACGCGCCATTCCGTGGATCTTCGCCTGGACGCAAAACCGTCTGATGCTCCCCGCCTGGCTGGGTGCAGGTACGGCGCTGCAAAAAGTGGTCGAAGACGGCAAACAGAGCGAGCTGGAGGCTATGTGCCGCGATTGGCCATTCTTCTCGACGCGTCTCGGCATGCTGGAGATGGTCTTCGCCAAAGCAGACCTGTGGCTGGCGGAATACTATGACCAACGCCTGGTAGACAAAGCACTGTGGCCGTTAGGTAAAGAGTTACGCAACCTGCAAGAAGAAGACATCAAAGTGGTGCTGGCGATTGCCAACGATTCCCATCTGATGGCCGATCTGCCGTGGATTGCAGAGTCTATTCAGCTACGGAATATTTACACCGACCCGCTGAACGTATTGCAGGCCGAGTTGCTGCACCGCTCCCGCCAGGCAGAAAAAGAAGGCCAGGAACCGGATCCTCGCGTCGAACAAGCGTTAATGGTCACTATTGCCGGGATTGCGGCAGGTATGCGTAATACCGGCTAATCTTCCTCTTCTGCAAACCCTCGTGCTTTTGCGCGAGGGTTTTCTGAAATACTTCTGTTCTAACACCCTCGTTTTCAATATATTTCTGTCTGCATTTTATTCAAATTCTGAATATACCTTCAGATATCCTTAAGGAATTGTCGTTACATTCGGCGATATTTTTTCAAGACAGGTTCTTACTATGCATTCCACAGAAGTCCAGGCTAAACCTCTTTT</DNA_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>ppc</Gene_Name>
+    <Gene_Alias>glu</Gene_Alias>
+    <Gene_ID>12933655</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_418391</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/948457</Gene_URL>
+    <EMBL_ID>EBESCG00000013972</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P0A698</Uniprot_ID>
+      <Gene_Name>uvrA</Gene_Name>
+      <EBI_ID>EBI-552091</EBI_ID>
+      <PPI_EBI_URL>EBI-1133741,EBI-552091</PPI_EBI_URL>
+      <Experiment_Number>1</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>THREE-DIMENSIONAL STRUCTURE OF PHOSPHOENOLPYRUVATE CARBOXYLASE FROM ESCHERICHIA COLI AT 2.8 A RESOLUTION</PDB_Title>
+      <PDB_ID>1FIY</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1FIY</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01260006</ASD_Ligand>
+      <Ligand_Name>ASPARTIC ACID</Ligand_Name>
+      <PubMed_Title>Three-dimensional structure of phosphoenolpyruvate carboxylase: a proposed mechanism for allosteric inhibition.</PubMed_Title>
+      <Author>Kai Y, et al.</Author>
+      <Journal>(1999) Proc.Natl.Acad.Sci.USA 96: 823-828</Journal>
+      <PubMed_ID>9927652</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MN(2+)-BOUND PHOSPHOENOLPYRUVATE CARBOXYLASE</PDB_Title>
+      <PDB_ID>1QB4</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1QB4</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01260006</ASD_Ligand>
+      <PubMed_Title>Plausible phosphoenolpyruvate binding site revealed by 2.6 A structure of Mn2+-bound phosphoenolpyruvate carboxylase from Escherichia coli.</PubMed_Title>
+      <Author>Matsumura H, et al.</Author>
+      <Journal>(1999) FEBS Lett. 458: 93-96</Journal>
+      <PubMed_ID>10481043</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of E.coli phosphoenolpyruvate carboxylase in complex with Mn2+ and DCDP</PDB_Title>
+      <PDB_ID>1JQN</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1JQN</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01260006</ASD_Ligand>
+      <Ligand_Name>ASPARTIC ACID $3,3-DICHLORO-2-PHOSPHONOMETHYL-ACRYLIC ACID</Ligand_Name>
+      <PubMed_Title>Crystal structures of C4 form maize and quaternary complex of E. coli phosphoenolpyruvate carboxylases.</PubMed_Title>
+      <Author>Matsumura H, et al.</Author>
+      <Journal>(2002) Structure 10: 1721-1730</Journal>
+      <PubMed_ID>12467579</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00720</Pathway_ID>
+      <Pathway_Title>Carbon fixation pathways in prokaryotes</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00620</Pathway_ID>
+      <Pathway_Title>Pyruvate metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00710</Pathway_ID>
+      <Pathway_Title>Carbon fixation in photosynthetic organisms</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00680</Pathway_ID>
+      <Pathway_Title>Methane metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00710</Pathway_ID>
+      <Pathway_Title>Carbon fixation in photosynthetic organisms</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.b.bd.d.b.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/cathnode/3.30.1490.20</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,773,Lys;site,832,Arg;site,587,Arg;site,881,Asn</Site_Detail>
+      <Site_Reference>Teraoka H, et al. Biochemistry. 1974,13(25):5121-5128.;Kai Y, et al. Proc.Natl.Acad.Sci U S A. 1999,96(3):823-828.;Selwood T, et al. Arch Biochem Biophys. 2012, 519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PDB_ID>1FIY</PDB_ID>
+      <PubMed_ID>4611477;9927652;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.1.1.31</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/1/1/31.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00200001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00360002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00370005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01860005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02210002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02210003</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02210004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02210005</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02210006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02210007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02210008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02218001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05550001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

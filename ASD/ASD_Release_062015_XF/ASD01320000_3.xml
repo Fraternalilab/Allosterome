@@ -1,0 +1,2189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01320000_3</Organism_ID>
+  <Organism>Rabbit</Organism>
+  <Organism_Latin>Oryctolagus cuniculus</Organism_Latin>
+  <UniProt_ID>P00489</UniProt_ID>
+  <Seq_Length>843</Seq_Length>
+  <Molecule_Weight>97289</Molecule_Weight>
+  <KEGG_ID>ocu:100008972</KEGG_ID>
+  <Orthology_ID>K00688</Orthology_ID>
+  <Function_Summary>Phosphorylase is an important allosteric enzyme in carbohydrate metabolism. Enzymes from different sources differ in their regulatory mechanisms and in their natural substrates. However, all known phosphorylases share catalytic and structural properties.</Function_Summary>
+  <Catalytic_Mechanism>(1,4-alpha-D-glucosyl)(n) + phosphate = (1,4-alpha-D-glucosyl)(n-1) + alpha-D-glucose 1-phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00343:Phosphorylase</Pfam_ID>
+  <Allosteric_Activator_Count>2</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>135</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>3</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Glycogen phosphorylase, muscle form</Alias>
+      <Alias>Myophosphorylase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a glycosyl group from one compound (donor) to another (acceptor).</Detail>
+      <Keyword>Transferase activity, transferring glycosyl groups</Keyword>
+      <Ontology_ID>GO:0016757</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with pyridoxal 5' phosphate, 3-hydroxy-5-(hydroxymethyl)-2-methyl4-pyridine carboxaldehyde 5' phosphate, the biologically active form of vitamin B6.</Detail>
+      <Keyword>Pyridoxal phosphate binding</Keyword>
+      <Ontology_ID>GO:0030170</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving glycogen, a polydisperse, highly branched glucan composed of chains of D-glucose residues in alpha(1-&gt;4) glycosidic linkage, joined together by alpha(1-&gt;6) glycosidic linkages.</Detail>
+      <Keyword>Glycogen metabolic process</Keyword>
+      <Ontology_ID>GO:0005977</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving carbohydrates, any of a group of organic compounds based of the general formula Cx(H2O)y. Includes the formation of carbohydrate derivatives by the addition of a carbohydrate residue to another molecule.</Detail>
+      <Keyword>Carbohydrate metabolic process</Keyword>
+      <Ontology_ID>GO:0005975</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>681</Position>
+      <PTM_Type>N6-(pyridoxal phosphate)lysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>N-acetylserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>473</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>316</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>15</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSRPLSDQEKRKQISVRGLAGVENVTELKKNFNRHLHFTLVKDRNVATPRDYYFALAHTVRDHLVGRWIRTQQHYYEKDPKRIYYLSLEFYMGRTLQNTMVNLALENACDEATYQLGLDMEELEEIEEDAGLGNGGLGRLAACFLDSMATLGLAAYGYGIRYEFGIFNQKICGGWQMEEADDWLRYGNPWEKARPEFTLPVHFYGRVEHTSQGAKWVDTQVVLAMPYDTPVPGYRNNVVNTMRLWSAKAPNDFNLKDFNVGGYIQAVLDRNLAENISRVLYPNDNFFEGKELRLKQEYFVVAATLQDIIRRFKSSKFGCRDPVRTNFDAFPDKVAIQLNDTHPSLAIPELMRVLVDLERLDWDKAWEVTVKTCAYTNHTVLPEALERWPVHLLETLLPRHLQIIYEINQRFLNRVAAAFPGDVDRLRRMSLVEEGAVKRINMAHLCIAGSHAVNGVARIHSEILKKTIFKDFYELEPHKFQNKTNGITPRRWLVLCNPGLAEIIAERIGEEYISDLDQLRKLLSYVDDEAFIRDVAKVKQENKLKFAAYLEREYKVHINPNSLFDVQVKRIHEYKRQLLNCLHVITLYNRIKKEPNKFVVPRTVMIGGKAAPGYHMAKMIIKLITAIGDVVNHDPVVGDRLRVIFLENYRVSLAEKVIPAADLSEQISTAGTEASGTGNMKFMLNGALTIGTMDGANVEMAEEAGEENFFIFGMRVEDVDRLDQRGYNAQEYYDRIPELRQIIEQLSSGFFSPKQPDLFKDIVNMLMHHDRFKVFADYEEYVKCQERVSALYKNPREWTRMVIRNIATSGKFSSDRTIAQYAREIWGVEPSRQRLPAPDEKIP</Protein_Seq>
+    <DNA_Seq>TCCCTGGCTGGAGGCACCTCAGGCCACCCGTCCGCCCTTCCTTCCACGTCTCGCCCGGCCCGCCTCCCGCAGCCATGTCCCGGCCCCTGTCAGACCAGGAGAAGAGAAAGCAAATCAGCGTGCGCGGCCTGGCCGGCGTGGAGAATGTGACGGAGCTGAAAAAAAACTTCAACCGCCACCTGCATTTCACCCTGGTGAAGGACCGCAATGTGGCCACGCCGCGAGACTACTACTTCGCACTGGCCCACACTGTGCGCGACCACCTCGTGGGGCGCTGGATCCGCACGCAGCAACACTACTATGAGAAGGACCCCAAGAGGATCTACTACCTGTCTTTGGAGTTCTACATGGGCCGGACGCTACAGAACACCATGGTGAACCTGGCTTTGGAGAATGCCTGCGACGAGGCCACCTACCAGCTGGGCCTGGACATGGAGGAGCTGGAGGAAATCGAGGAGGACGCCGGGCTGGGCAACGGCGGCCTGGGCCGGCTGGCAGCCTGTTTTCTGGACTCCATGGCAACACTCGGCCTGGCTGCCTATGGCTACGGGATCCGCTATGAGTTTGGGATCTTTAACCAGAAGATCTGCGGGGGCTGGCAGATGGAAGAGGCTGATGACTGGCTTCGCTACGGCAACCCCTGGGAGAAGGCCCGGCCTGAGTTCACACTGCCTGTGCACTTCTATGGCCGAGTGGAGCACACCAGCCAGGGGGCCAAGTGGGTGGACACACAGGTGGTGCTGGCCATGCCCTACGACACACCGGTGCCTGGCTACCGCAACAACGTCGTCAACACCATGCGCCTCTGGTCGGCCAAGGCGCCCAATGACTTCAACCTCAAGGACTTCAACGTCGGTGGCTACATCCAGGCCGTGCTGGACCGCAACCTGGCTGAGAACATCTCTCGGGTCCTGTACCCCAACGATAACTTCTTCGAGGGGAAGGAGCTGCGGCTGAAGCAGGAGTACTTCGTGGTGGCGGCCACCCTGCAGGACATCATCCGCCGCTTCAAGTCCTCCAAATTCGGCTGCCGCGACCCCGTGCGCACCAACTTCGATGCCTTCCCGGATAAGGTAGCCATCCAGCTCAATGACACCCACCCCTCGCTGGCCATCCCCGAGCTCATGAGGGTGCTGGTGGACCTGGAGCGGCTGGACTGGGACAAGGCCTGGGAAGTGACGGTAAAGACGTGCGCCTACACCAACCACACGGTGCTGCCCGAGGCGCTGGAGCGCTGGCCCGTGCACCTCCTGGAGACGCTGCTGCCGCGCCACCTCCAGATCATCTACGAGATCAACCAGCGCTTCCTGAACCGCGTGGCGGCTGCGTTCCCGGGGGACGTCGACCGGCTGCGGCGCATGTCGCTGGTGGAGGAGGGCGCCGTGAAACGCATCAACATGGCGCACCTGTGCATCGCGGGCTCGCACGCCGTCAACGGTGTGGCTCGCATCCACTCGGAGATCCTCAAGAAGACCATCTTCAAGGACTTCTACGAGCTGGAGCCTCATAAGTTCCAGAACAAGACCAACGGCATCACCCCTCGGCGCTGGCTGGTTCTGTGTAACCCTGGGCTGGCCGAGATCATTGCTGAGCGCATCGGGGAGGAGTACATCTCAGACCTGGACCAGCTGCGCAAGCTGCTCTCGTATGTGGACGACGAAGCCTTCATCCGGGATGTGGCGAAAGTGAAGCAGGAAAACAAGCTGAAGTTCGCGGCCTACCTGGAGAGGGAATACAAGGTCCACATCAACCCCAACTCGCTGTTCGACGTCCAAGTGAAACGGATCCATGAATACAAGCGGCAGCTGCTCAACTGCCTGCACGTCATCACCCTGTACAACCGCATCAAGAAGGAGCCCAATAAGTTTGTTGTGCCTCGGACCGTCATGATTGGAGGGAAGCCCGCACCTGGGTACCACATGGCCAAGATGATCATCAAACTTATCACCGCCATTGGGGATGTGGTCAACCACGACCCGGTGGTTGGAGACCGCCTCCGTGTCATCTTCCTGGAGAACTACCGGGTCTCACTGGCTGAGAAAGTGATCCCGGCTGCCGACCTCTCGGAGCAGATCTCCACCGCGGGCACCGAGGCCTCCGGCACCGGCAACATGAAGTTCATGCTCAATGGAGCCCTGACCATTGGCACGATGGACGGCGCCAACGTGGAGATGGCCGAGGAGGCGGGAGAGGAGAACTTCTTCATCTTTGGCATGCGGGTGGAAGATGTGGACAGACTCGACCAGAGAGGGTACAACGCCCAGGAGTACTACGACCGCATCCCGGAGCTTCGGCAGATCATCGAGCAGCTGAGTAGCGGCTTCTTCTCCCCGAAGCAGCCGGACCTGTTCAAGGACATTGTCAACATGCTCATGCACCATGACCGGTTCAAAGTCTTTGCAGATTATGAAGAGTACGTCAAGTGCCAGGAGCGAGTCAGCGCCTTGTACAAGAACCCCAGAGAGTGGACGCGGATGGTGATCCGGAACATAGCCACCTCGGGCAAGTTCTCCAGCGACCGCACCATTGCCCAGTACGCGCGGGAGATCTGGGGTGTGGAGCCCTCGCGGCAGCGGCTGCCAGCCCCCGACGAGAAGATACCCTAGGCCAGACCCCAACGCGGCCCTGCAGTCTGCAAGCTTGGGGCCAGCGCCAGCTCCCCGTCCAGAGTGTGGGGGCCTGGAGTCAGACCTCCAAGTCCCCTCCTGAAACCCCCATTCCCCCCAGAAGCAAGGTCCCAGTGCCCAGCGTGCCTCAGGACACTGGGCCCCCTCCTATTTATGGGGTCCGACCAACTGCGCCCACTCCCCAATAAACTCTCCCTCCTTACC</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Skeletal muscle</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <Gene>
+    <Gene_Name>PYGM</Gene_Name>
+    <Gene_ID>100008972</Gene_ID>
+    <Genbank_ACCN>NM_001082184</Genbank_ACCN>
+    <Protein_ACCN>NP_001075653</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/100008972</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>COMPLEX OF GLYCOGEN PHOSPHORYLASE WITH A TRANSITION STATE ANALOGUE NOJIRIMYCIN TETRAZOLE AND PHOSPHATE IN THE T STATE</PDB_Title>
+      <PDB_ID>1NOJ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NOJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>NOJIRIMYCINE TETRAZOLE@@PYRIDOXAL-5'-PHOSPHATE@@PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Ternary complex crystal structures of glycogen phosphorylase with the transition state analogue nojirimycin tetrazole and phosphate in the T and R states.</PubMed_Title>
+      <Author>Mitchell EP, et al.</Author>
+      <Journal>Biochemistry.1996 Jun 11;35(23):7341-55.</Journal>
+      <PubMed_ID>8652510</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ALLOSTERIC INHIBITION OF GLYCOGEN PHOSPHORYLASE A BY A POTENTIAL ANTIDIABETIC DRUG</PDB_Title>
+      <PDB_ID>3AMV</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3AMV</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320023</ASD_Ligand>
+      <Ligand_Name>2,3-DICARBOXY-4-(2-CHLORO-PHENYL)-1-ETHYL- 5-ISOPROPOXYCARBONYL-6-METHYL-PYRIDINIUM@@ALPHA-D-GLUCOSE@@GLYCEROL@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Allosteric inhibition of glycogen phosphorylase a by the potential antidiabetic drug 3-isopropyl 4-(2-chlorophenyl)-1,4-dihydro-1-ethyl-2-methyl-pyridine-3,5,6-tricarbo xylate.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Protein Sci.1999 Oct;8(10):1930-45.</Journal>
+      <PubMed_ID>10548038</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of glycogen phosphorylase b in complex with C-(1-azido-alpha-D-glucopyranosyl)formamide</PDB_Title>
+      <PDB_ID>1P4G</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1P4G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>C-(1-AZIDO-ALPHA-D-GLUCOPYRANOSYL) FORMAMIDE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crsytallographic Studies on alpha- and beta-D-glucopyranosyl Formamide Analogues, Inhibitors of Glycogen Phosphorylase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPARISON OF THE BINDING OF GLUCOSE AND GLUCOSE-1-PHOSPHATE DERIVATIVES TO T-STATE GLYCOGEN PHOSPHORYLASE B</PDB_Title>
+      <PDB_ID>3GPB</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GPB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE-1-PHOSPHATE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Comparison of the binding of glucose and glucose 1-phosphate derivatives to T-state glycogen phosphorylase b.</PubMed_Title>
+      <Author>Martin JL, et al.</Author>
+      <Journal>Biochemistry.1990 Dec 4;29(48):10745-57.</Journal>
+      <PubMed_ID>2125493</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen phosphorylase with inhibitor in the AMP site</PDB_Title>
+      <PDB_ID>1Z6Q</PDB_ID>
+      <Resolution>2.03</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Z6Q</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320092</ASD_Ligand>
+      <Ligand_Name>4-{2,4-BIS[(3-NITROBENZOYL)AMINO]PHENOXY}PHTHALIC ACID</Ligand_Name>
+      <PubMed_Title>Identification, synthesis and chracterization of new glycogen phosphorylase inhibitors binding to the allosteric AMP site</PubMed_Title>
+      <Author>Kristiansen M, et al.</Author>
+      <Journal>J Med Chem.2004 Jul 1;47(14):3537-45.</Journal>
+      <PubMed_ID>15214781</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of 1-(beta-D-glucopyranosyl)-4-substituted-1,2,3-triazoles in complex with glycogen phosphorylase</PDB_Title>
+      <PDB_ID>3G2H</PDB_ID>
+      <Resolution>2.03</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3G2H</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>DIMETHYL SULFOXIDE@@INOSINIC ACID@@1-beta-D-glucopyranosyl-4-phenyl-1H-1,2,3- triazole</Ligand_Name>
+      <PubMed_Title>Amide-1,2,3-triazole bioisosterism: the glycogen phosphorylase case</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURES OF GLYCOGEN PHOSPHORYLASE-INHIBITOR COMPLEXES AND THE IMPLICATIONS FOR STRUCTURE-BASED DRUG DESIGN</PDB_Title>
+      <PDB_ID>1FTQ</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FTQ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>3-AMINO-8,9,10-TRIHYDROXY-7-HYDROXYMETHYL- 6-OXA-1,3-DIAZA-SPIRO[4.5]DECANE-2,4-DIONE@@INOSINIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies of glucopyranose spirohydantoin and glucopyranosylamine analogs inhibitors of glycogen phosphorylase.</PubMed_Title>
+      <Author>Watson KA, et al.</Author>
+      <Journal>Proteins.2005 Dec 1;61(4):966-83.</Journal>
+      <PubMed_ID>16222658</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Indirubin-3'-aminooxy-acetate inhibits glycogen phosphorylase by binding at the inhibitor and the allosteric site. Broad specificities of the two sites</PDB_Title>
+      <PDB_ID>1Z62</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Z62</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320116</ASD_Ligand>
+      <Ligand_Name>({[(3E)-2'-OXO-2',7'-DIHYDRO-2,3'-BIINDOL- 3(7H)-YLIDENE]AMINO}OXY)ACETIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Indirubin-3'-Aminooxy-Acetate Inhibits Glycogen Phosphorylase by Binding at the Inhibitor and the Allosteric Site. Broad Specificities of the Two Sites</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURES OF GLYCOGEN PHOSPHORYLASE-INHIBITOR COMPLEXES AND THE IMPLICATIONS FOR STRUCTURE-BASED DRUG DESIGN</PDB_Title>
+      <PDB_ID>1FU7</PDB_ID>
+      <Resolution>2.36</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FU7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-DEOXY-1-METHOXYCARBAMIDO-BETA-D-GLUCOPYRANOSE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies of glucopyranose spirohydantoin and glucopyranosylamine analogs inhibitors of glycogen phosphorylase.</PubMed_Title>
+      <Author>Watson KA, et al.</Author>
+      <Journal>Proteins.2005 Dec 1;61(4):966-83.</Journal>
+      <PubMed_ID>16222658</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen phosphorylase AMP site inhibitor complex</PDB_Title>
+      <PDB_ID>1Z6P</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Z6P</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320091</ASD_Ligand>
+      <Ligand_Name>4-{2-[(3-NITROBENZOYL)AMINO]PHENOXY}PHTHALIC ACID</Ligand_Name>
+      <PubMed_Title>Identification, synthesis and chracterization of new glycogen phosphorylase inhibitors binding to the allosteric AMP site</PubMed_Title>
+      <Author>Kristiansen M, et al.</Author>
+      <Journal>J Med Chem.2004 Jul 1;47(14):3537-45.</Journal>
+      <PubMed_ID>15214781</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase complex with 1(-D-glucopyranosyl) thymine</PDB_Title>
+      <PDB_ID>3BD7</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BD7</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320146</ASD_Ligand>
+      <Ligand_Name>1-beta-D-glucopyranosyl-5-methylpyrimidine- 2,4(1H,3H)-dione@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>D-Glucopyranosyl pyrimidine nucleoside binding to muscle glycogen phosphorylase b</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen phosphorylase in complex with FN67</PDB_Title>
+      <PDB_ID>2QLM</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QLM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-{[(4-methylphenyl)carbonyl]carbamoyl}-beta- D-glucopyranosylamine</Ligand_Name>
+      <PubMed_Title>N-(4-substituted-benzoyl)-N'-(beta-D-glucopyranosyl)ureas, inhibitors of glycogen phosphorylase: synthesis, kinetic and crystallographic evaluation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Synthesis of C-D-Glycopyranosyl-Hydroquinones and-Benzoquinones. Inhibition of PTP1B. Inhibition of and binding to glycogen phosphorylase in the crystal</PDB_Title>
+      <PDB_ID>2FF5</PDB_ID>
+      <Resolution>2.03</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FF5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-(2,5-DIHYDROXYPHENYL)-6-(HYDROXYMETHYL)OXANE- 3,4,5-TRIOL@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>In the Search of Glycogen Phosphorylase Inhibitors: Synthesis of C-D-Glycopyranosylbenzo(hydro)quinones Inhibition of and Binding to Glycogen Phosphorylase in the Crystal</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURES OF GLYCOGEN PHOSPHORYLASE-INHIBITOR COMPLEXES AND THE IMPLICATIONS FOR STRUCTURE-BASED DRUG DESIGN</PDB_Title>
+      <PDB_ID>1FU4</PDB_ID>
+      <Resolution>2.36</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FU4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(8,9,10-TRIHYDROXY-7-HYDROXYMETHYL-2,4- DIOXO-6-OXA-1,3-DIAZA-SPIRO[4.5]DEC-3-YL- ACETAMIDE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies of glucopyranose spirohydantoin and glucopyranosylamine analogs inhibitors of glycogen phosphorylase.</PubMed_Title>
+      <Author>Watson KA, et al.</Author>
+      <Journal>Proteins.2005 Dec 1;61(4):966-83.</Journal>
+      <PubMed_ID>16222658</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DESIGN OF INHIBITORS OF GLYCOGEN PHOSPHORYLASE: A STUDY OF ALPHA-AND BETA-C-GLUCOSIDES AND 1-THIO-BETA-D-GLUCOSE COMPOUNDS</PDB_Title>
+      <PDB_ID>1GG8</PDB_ID>
+      <Resolution>2.31</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GG8</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOPYRANOSYL-2-CARBOXYLIC ACID AMIDE@@INOSINIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Design of inhibitors of glycogen phosphorylase: a study of alpha- and beta-C-glucosides and 1-thio-beta-D-glucose compounds.</PubMed_Title>
+      <Author>Watson KA, et al.</Author>
+      <Journal>Biochemistry.1994 May 17;33(19):5745-58.</Journal>
+      <PubMed_ID>8180201</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of glycogen phosphorylase b in complex with maltopentaose</PDB_Title>
+      <PDB_ID>1P29</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1P29</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>The binding of beta- and gamma-cyclodextrins to glycogen phosphorylase b: Kinetic and crystallographic studies.</PubMed_Title>
+      <Author>Pinotsis N, et al.</Author>
+      <Journal>Protein Sci.2003 Sep;12(9):1914-24.</Journal>
+      <PubMed_ID>12930991</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PYRIDOXAL PHOSPHORYLASE B IN COMPLEX WITH PHOSPHATE, GLUCOSE AND INOSINE-5'-MONOPHOSPHATE</PDB_Title>
+      <PDB_ID>2SKD</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2SKD</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE@@INOSINIC ACID@@PYRIDOXAL-5'-PHOSPHATE@@PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Activator anion binding site in pyridoxal phosphorylase b: the binding of phosphite, phosphate, and fluorophosphate in the crystal.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Protein Sci.1996 Dec;5(12):2416-28.</Journal>
+      <PubMed_ID>8976550</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Kinetic and crystallographic studies on 2-(beta-D-glucopyranosyl)-5-methyl-1,3,4-oxadiazole,-benzothiazole, and-benzimidazole, inhibitors of muscle glycogen phosphorylase b. Evidence for a new binding site.</PDB_Title>
+      <PDB_ID>1XL1</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XL1</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01328036</ASD_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE@@2-(BETA-D-GLUCOPYRANOSYL)-5-METHYL-BENZOTHIAZOLE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies on 2-(beta-D-glucopyranosyl)-5-methyl-1, 3, 4-oxadiazole, -benzothiazole, and -benzimidazole, inhibitors of muscle glycogen phosphorylase b. Evidence for a new binding site</PubMed_Title>
+      <Author>Chrysina ED, et al.</Author>
+      <Journal>Protein Sci.2005 Apr;14(4):873-88. Epub  2005 Mar 1.</Journal>
+      <PubMed_ID>15741340</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP</PDB_Title>
+      <PDB_ID>8GPB</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8GPB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00030001</ASD_Ligand>
+      <Ligand_Name>ADENOSINE MONOPHOSPHATE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structural mechanism for glycogen phosphorylase control by phosphorylation and AMP.</PubMed_Title>
+      <Author>Barford D, et al.</Author>
+      <Journal>J Mol Biol.1991 Mar 5;218(1):233-60.</Journal>
+      <PubMed_ID>1900534</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with N-4-nitrobenzoyl-N'-beta-D-glucopyranosyl urea</PDB_Title>
+      <PDB_ID>2QN8</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QN8</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320158</ASD_Ligand>
+      <Ligand_Name>N-{[(4-nitrophenyl)carbonyl]carbamoyl}-beta- D-glucopyranosylamine@@PYRIDOXAL-5'-PHOSPHATE@@SULFATE ION</Ligand_Name>
+      <PubMed_Title>N-(4-substituted-benzoyl)-N'-(beta-D-glucopyranosyl)ureas, inhibitors of glycogen phosphorylase: synthesis, kinetic and crystallographic evaluation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>The crystal structure of the glycogen phosphorylase b- 1AB complex</PDB_Title>
+      <PDB_ID>2G9Q</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2G9Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1,4-DIDEOXY-1,4-IMINO-D-ARABINITOL@@PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Iminosugars as potential inhibitors of glycogenolysis: structural insights into the molecular basis of glycogen phosphorylase inhibition.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>J Med Chem.2006 Sep 21;49(19):5687-701.</Journal>
+      <PubMed_ID>16970395</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase complex with 1(-D-glucopyranosyl) cyanuric acid</PDB_Title>
+      <PDB_ID>3BDA</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BDA</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320147</ASD_Ligand>
+      <Ligand_Name>1-beta-D-glucopyranosyl-1,3,5-triazinane- 2,4,6-trione@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>D-Glucopyranosyl pyrimidine nucleoside binding to muscle glycogen phosphorylase b</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE 1.76 A RESOLUTION CRYSTAL STRUCTURE OF GLYCOGEN PHOSPHORYLASE B COMPLEXED WITH GLUCOSE AND CP320626, A POTENTIAL ANTIDIABETIC DRUG</PDB_Title>
+      <PDB_ID>1H5U</PDB_ID>
+      <Resolution>1.76</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1H5U</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320079</ASD_Ligand>
+      <Ligand_Name>5-CHLORO-1H-INDOLE-2-CARBOXYLIC ACID [1-(4- FLUOROBENZYL)-2-(4-HYDROXYPIPERIDIN-1YL)- 2-OXOETHYL]AMIDE@@ALPHA-D-GLUCOSE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>The 1.76 A Resolution Crystal Structure of Glycogen Phosphorylase B Complexed with Glucose, and Cp320626, a Potential Antidiabetic Drug</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Bioorg Med Chem.2002 May;10(5):1313-9.</Journal>
+      <PubMed_ID>11886794</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP</PDB_Title>
+      <PDB_ID>1GPA</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GPA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE@@SULFATE ION</Ligand_Name>
+      <PubMed_Title>Structural mechanism for glycogen phosphorylase control by phosphorylation and AMP.</PubMed_Title>
+      <Author>Barford D, et al.</Author>
+      <Journal>J Mol Biol.1991 Mar 5;218(1):233-60.</Journal>
+      <PubMed_ID>1900534</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of 1-(beta-D-glucopyranosyl)-4-substituted-1,2,3-triazoles in complex with glycogen phosphorylase</PDB_Title>
+      <PDB_ID>3G2J</PDB_ID>
+      <Resolution>2.14</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3G2J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(hydroxyacetyl)-beta-D-glucopyranosylamine</Ligand_Name>
+      <PubMed_Title>Amide-1,2,3-triazole bioisosterism: the glycogen phosphorylase case</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>The crystal structure of Glycogen Phosphorylase b in complex with a potent allosteric inhibitor</PDB_Title>
+      <PDB_ID>2OFF</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OFF</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320095</ASD_Ligand>
+      <Ligand_Name>2-DEOXY-3,4-BIS-O-[3-(4-HYDROXYPHENYL)PROPANOYL]- L-THREO-PENTARIC ACID</Ligand_Name>
+      <PubMed_Title>FR258900, a potential anti-hyperglycemic drug, binds at the allosteric site of glycogen phosphorylase</PubMed_Title>
+      <Author>Tiraidis C, et al.</Author>
+      <Journal>Protein Sci.2007 Aug;16(8):1773-82. Epub  2007 Jun 28.</Journal>
+      <PubMed_ID>17600143</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL MECHANISM FOR GLYCOGEN PHOSPHORYLASE CONTROL BY PHOSPHORYLATION AND AMP</PDB_Title>
+      <PDB_ID>7GPB</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7GPB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00030001</ASD_Ligand>
+      <Ligand_Name>ADENOSINE MONOPHOSPHATE@@PYRIDOXAL-5'-PHOSPHATE@@SULFATE ION</Ligand_Name>
+      <PubMed_Title>Structural mechanism for glycogen phosphorylase control by phosphorylation and AMP.</PubMed_Title>
+      <Author>Barford D, et al.</Author>
+      <Journal>J Mol Biol.1991 Mar 5;218(1):233-60.</Journal>
+      <PubMed_ID>1900534</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>BINDING OF GLUCOPYRANOSYLIDENE-SPIRO-THIOHYDANTOIN TO GLYCOGEN PHOSPHORYLASE B: KINETIC AND CRYSTALLOGRAPHIC STUD</PDB_Title>
+      <PDB_ID>1HLF</PDB_ID>
+      <Resolution>2.26</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HLF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>8,9,10-TRIHYDROXY-7-HYDROXYMETHYL-2-THIOXO- 6-OXA-1,3-DIAZA-SPIRO[4.5]DECAN-4
+-ONE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies of glucopyranosylidene spirothiohydantoin  binding to glycogen phosphorylase B</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Bioorg Med Chem.2002 Feb;10(2):261-8.</Journal>
+      <PubMed_ID>11741774</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURES OF GLYCOGEN PHOSPHORYLASE-INHIBITOR COMPLEXES AND THE IMPLICATIONS FOR STRUCTURE-BASED DRUG DESIGN</PDB_Title>
+      <PDB_ID>1FU8</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FU8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-DEOXY-1-ACETYLAMINO-BETA-D-GLUCO-2-HEPTULOPYRANOSONAMIDE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies of glucopyranose spirohydantoin and glucopyranosylamine analogs inhibitors of glycogen phosphorylase.</PubMed_Title>
+      <Author>Watson KA, et al.</Author>
+      <Journal>Proteins.2005 Dec 1;61(4):966-83.</Journal>
+      <PubMed_ID>16222658</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPARISON OF THE BINDING OF GLUCOSE AND GLUCOSE-1-PHOSPHATE DERIVATIVES TO T-STATE GLYCOGEN PHOSPHORYLASE B</PDB_Title>
+      <PDB_ID>2GPB</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GPB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Comparison of the binding of glucose and glucose 1-phosphate derivatives to T-state glycogen phosphorylase b.</PubMed_Title>
+      <Author>Martin JL, et al.</Author>
+      <Journal>Biochemistry.1990 Dec 4;29(48):10745-57.</Journal>
+      <PubMed_ID>2125493</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FLAVOPIRIDOL INHIBITS GLYCOGEN PHOSPHORYLASE BY BINDING AT THE INHIBITOR SITE</PDB_Title>
+      <PDB_ID>1GFZ</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GFZ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076;ASD01320044</ASD_Ligand>
+      <Ligand_Name>CAFFEINE@@INOSINIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Flavopiridol inhibits glycogen phosphorylase by binding at the inhibitor site.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>J Biol Chem.2000 Nov 3;275(44):34566-73.</Journal>
+      <PubMed_ID>10924512</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with (1R)-3'-(2-naphthyl)-spiro[1,5-anhydro-D-glucitol-1,5'-isoxazoline]</PDB_Title>
+      <PDB_ID>2QRP</PDB_ID>
+      <Resolution>1.86</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QRP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>DIMETHYL SULFOXIDE@@(3S,5R,7R,8S,9S,10R)-7-(hydroxymethyl)-3- (2-naphthyl)-1,6-dioxa-2-azaspiro
+[4.5]decane- 8,9,10-triol</Ligand_Name>
+      <PubMed_Title>Glucose-based spiro-isoxazolines: a new family of potent glycogen phosphorylase inhibitors.</PubMed_Title>
+      <Author>Benltifa M, et al.</Author>
+      <Journal>Bioorg Med Chem.2009 Oct 15;17(20):7368-80. Epub  2009 Sep 2.</Journal>
+      <PubMed_ID>19781947</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with N-4-hydroxybenzoyl-N'-4-beta-D-glucopyranosyl urea</PDB_Title>
+      <PDB_ID>2QN7</PDB_ID>
+      <Resolution>1.83</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QN7</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>N-{[(4-hydroxyphenyl)carbonyl]carbamoyl}- beta-D-glucopyranosylamine@@INOSINIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>N-(4-substituted-benzoyl)-N'-(beta-D-glucopyranosyl)ureas, inhibitors of glycogen phosphorylase: synthesis, kinetic and crystallographic evaluation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Gpb in complex with QUERCETIN</PDB_Title>
+      <PDB_ID>4MRA</PDB_ID>
+      <Resolution>2.34</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4MRA</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02820003</ASD_Ligand>
+      <PubMed_Title>Biochemical and biological assessment of the inhibitory potency of extracts from vinification byproducts of Vitis vinifera extracts against glycogen phosphorylase.</PubMed_Title>
+      <Author>Kantsadi, A.L., et al.</Author>
+      <Journal>Food Chem.Toxicol.(2014)67:35-43</Journal>
+      <PubMed_ID>24556570</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of N-acylglucosylamine with glycogen phosphorylase</PDB_Title>
+      <PDB_ID>3G2N</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3G2N</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(phenylcarbonyl)-beta-D-glucopyranosylamine</Ligand_Name>
+      <PubMed_Title>Amide-1,2,3-triazole bioisosterism: the glycogen phosphorylase case</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of 1-(beta-D-glucopyranosyl)-4-substituted-1,2,3-triazole</PDB_Title>
+      <PDB_ID>3G2K</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3G2K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-beta-D-glucopyranosyl-4-naphthalen-2-yl- 1H-1,2,3-triazole</Ligand_Name>
+      <PubMed_Title>Amide-1,2,3-triazole bioisosterism: the glycogen phosphorylase case</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of glycogen phosphorylase b in complex with N-(-D-glucopyranosyl)-N'-(2-naphthyl)oxamides</PDB_Title>
+      <PDB_ID>3CUW</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CUW</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320162</ASD_Ligand>
+      <Ligand_Name>N-[oxo(phenylamino)acetyl]-beta-D-glucopyranosylamine</Ligand_Name>
+      <PubMed_Title>Tracking structure activity relationships of glycogen phosphorylase inhibitors: synthesis, kinetic and crystallographic evaluation of analogues of N-(-D-glucopyranosyl)-N'-oxamides</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURES OF GLYCOGEN PHOSPHORYLASE-INHIBITOR COMPLEXES AND THE IMPLICATIONS FOR STRUCTURE-BASED DRUG DESIGN</PDB_Title>
+      <PDB_ID>1FTY</PDB_ID>
+      <Resolution>2.38</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FTY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>8,9,10-TRIHYDROXY-7-HYDROXYMETHYL-3-METHYL- 6-OXA-1,3-DIAZA-SPIRO[4.5]DECANE-2,4-DIONE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies of glucopyranose spirohydantoin and glucopyranosylamine analogs inhibitors of glycogen phosphorylase.</PubMed_Title>
+      <Author>Watson KA, et al.</Author>
+      <Journal>Proteins.2005 Dec 1;61(4):966-83.</Journal>
+      <PubMed_ID>16222658</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of rabbit muscle glycogen phosphorylase in complex with thienopyrrole</PDB_Title>
+      <PDB_ID>2GM9</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GM9</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320148</ASD_Ligand>
+      <Ligand_Name>2-CHLORO-N-[(3R)-2-OXO-1,2,3,4-TETRAHYDROQUINOLIN- 3-YL]-6H-THIENO[2,3-B]PYRROLE-5-CARBOXAMIDE@@(5-HYDROXY-4,6-DIMETHYLPYRIDIN-3-YL)METHYL DIHYDROGEN PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Novel thienopyrrole glycogen phosphorylase inhibitors: synthesis, in vitro SAR and crystallographic studies.</PubMed_Title>
+      <Author>Whittamore PR, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2006 Nov 1;16(21):5567-71. Epub  2006 Aug 30.</Journal>
+      <PubMed_ID>16945526</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CONTROL OF PHOSPHORYLASE B CONFORMATION BY A MODIFIED COFACTOR: CRYSTALLOGRAPHIC STUDIES ON R-STATE GLYCOGEN PHOSPHORYLASE RECONSTITUTED WITH PYRIDOXAL 5'-DIPHOSPHATE</PDB_Title>
+      <PDB_ID>1ABB</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ABB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>INOSINIC ACID@@PYRIDOXAL-5'-DIPHOSPHATE@@SULFATE ION</Ligand_Name>
+      <PubMed_Title>Control of phosphorylase b conformation by a modified cofactor: crystallographic studies on R-state glycogen phosphorylase reconstituted with pyridoxal 5'-diphosphate.</PubMed_Title>
+      <Author>Leonidas DD, et al.</Author>
+      <Journal>Protein Sci.1992 Sep;1(9):1112-22.</Journal>
+      <PubMed_ID>1304390</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen phosphorylase R state-IMP complex</PDB_Title>
+      <PDB_ID>3E3O</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E3O</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>INOSINIC ACID@@SULFATE ION</Ligand_Name>
+      <PubMed_Title>The crystal structure of the octameric muscle glycogen phosphorylase-AMP complex: insights into enzyme activation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structures of glycogen phosphorylase-inhibitor complexes and the implications for structure-based drug design</PDB_Title>
+      <PDB_ID>1FS4</PDB_ID>
+      <Resolution>2.38</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FS4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-DEOXY-1-METHOXYCARBAMIDO-BETA-D-GLUCO-2- HEPTULOPYRANOSONAMIDE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies of glucopyranose spirohydantoin and glucopyranosylamine analogs inhibitors of glycogen phosphorylase.</PubMed_Title>
+      <Author>Watson KA, et al.</Author>
+      <Journal>Proteins.2005 Dec 1;61(4):966-83.</Journal>
+      <PubMed_ID>16222658</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Kinetic and crystallographic studies on 2-(beta-D-glucopyranosyl)-5-methyl-1,3,4-oxadiazole,-benzothiazole, and-benzimidazole, inhibitors of muscle glycogen phosphorylase b. Evidence for a new binding site.</PDB_Title>
+      <PDB_ID>1XL0</PDB_ID>
+      <Resolution>1.92</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XL0</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01328035</ASD_Ligand>
+      <Ligand_Name>2-(BETA-D-GLUCOPYRANOSYL)-5-METHYL-1,3,4- OXADIAZOLE@@RIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies on 2-(beta-D-glucopyranosyl)-5-methyl-1, 3, 4-oxadiazole, -benzothiazole, and -benzimidazole, inhibitors of muscle glycogen phosphorylase b. Evidence for a new binding site</PubMed_Title>
+      <Author>Chrysina ED, et al.</Author>
+      <Journal>Protein Sci.2005 Apr;14(4):873-88. Epub  2005 Mar 1.</Journal>
+      <PubMed_ID>15741340</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of glycogen phosphorylase b in complex with N-(-D-glucopyranosyl)-N'-(2-naphthyl)oxamides</PDB_Title>
+      <PDB_ID>3CUU</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CUU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[(naphthalen-1-ylamino)(oxo)acetyl]-beta- D-glucopyranosylamine</Ligand_Name>
+      <PubMed_Title>Tracking structure activity relationships of glycogen phosphorylase inhibitors: synthesis, kinetic and crystallographic evaluation of analogues of N-(-D-glucopyranosyl)-N'-oxamides</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glucogen Phosphorylase complex with thymidine</PDB_Title>
+      <PDB_ID>3BCU</PDB_ID>
+      <Resolution>2.03</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BCU</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320159</ASD_Ligand>
+      <Ligand_Name>THYMIDINE</Ligand_Name>
+      <PubMed_Title>D-Glucopyranosyl pyrimidine nucleoside binding to muscle glycogen phosphorylase b</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with (1R)-3'-(4-methoxyphenyl)-spiro[1,5-anhydro-D-glucitol-1,5'-isoxazoline]</PDB_Title>
+      <PDB_ID>2QRG</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QRG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(5R,7R,8S,9S,10R)-7-(HYDROXYMETHYL)-3-(4- METHOXYPHENYL)-1,6-DIOXA-2-AZASPIRO
+[4.5]DEC- 2-ENE-8,9,10-TRIOL</Ligand_Name>
+      <PubMed_Title>Glucose-based spiro-isoxazolines: a new family of potent glycogen phosphorylase inhibitors.</PubMed_Title>
+      <Author>Benltifa M, et al.</Author>
+      <Journal>Bioorg Med Chem.2009 Oct 15;17(20):7368-80. Epub  2009 Sep 2.</Journal>
+      <PubMed_ID>19781947</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>GLYCOGEN PHOSPHORYLASE B IN COMPLEX WITH INDIRUBIN-5'-SULPHONATE</PDB_Title>
+      <PDB_ID>1UZU</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1UZU</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320152</ASD_Ligand>
+      <Ligand_Name>2',3-DIOXO-1,1',2',3-TETRAHYDRO-2,3'-BIINDOLE- 5'-SULFONIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Binding of the Potential Antitumour Agent Indirubin-5-Sulphonate at the Inhibitor Site of Rabbit Muscle Glycogen Phosphorylase B. Comparison with Ligand Binding to Pcdk2-Cyclin a Complex.</PubMed_Title>
+      <Author>Kosmopoulou MN, et al.</Author>
+      <Journal>Eur J Biochem.2004 Jun;271(11):2280-90.</Journal>
+      <PubMed_ID>15153119</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Synthesis of C-D-Glycopyranosyl-Hydroquinones and-Benzoquinones. Inhibition of PTP1B. Inhibition of and binding to glycogen phosphorylase in the crystal</PDB_Title>
+      <PDB_ID>2FET</PDB_ID>
+      <Resolution>2.03</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FET</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-(2,5-DIHYDROXYPHENYL)-6-(HYDROXYMETHYL)OXANE- 3,4,5-TRIOL@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>In the Search of Glycogen Phosphorylase Inhibitors: Synthesis of C-D-Glycopyranosylbenzo(hydro)quinones Inhibition of and Binding to Glycogen Phosphorylase in the Crystal</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>EFFECTS OF COMMONLY USED CRYOPROTECTANTS ON GLYCOGEN PHOSPHORYLASE ACTIVITY AND STRUCTURE</PDB_Title>
+      <PDB_ID>1BX3</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BX3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Effects of commonly used cryoprotectants on glycogen phosphorylase activity and structure.</PubMed_Title>
+      <Author>Tsitsanou KE, et al.</Author>
+      <Journal>Protein Sci.1999 Apr;8(4):741-9.</Journal>
+      <PubMed_ID>10211820</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystallographic studies on acyl ureas, a new class of inhibitors of glycogen phosphorylase. Broad specificity of the allosteric site</PDB_Title>
+      <PDB_ID>1WV0</PDB_ID>
+      <Resolution>2.26</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1WV0</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01328027</ASD_Ligand>
+      <Ligand_Name>4-[4-({[(2,4-DICHLOROBENZOYL)AMINO]CARBONYL}AMINO)- 2,3
+-DIMETHYLPHENOXY]BUTANOIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies on acyl ureas, a new class of glycogen phosphorylase inhibitors, as potential antidiabetic drugs</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Protein Sci.2005 Jul;14(7):1760-71.</Journal>
+      <PubMed_ID>15987904</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Binding of beta-D-glucopyranosyl bismethoxyphosphoramidate to glycogen phosphorylase b: Kinetic and crystallographic studies</PDB_Title>
+      <PDB_ID>1XC7</PDB_ID>
+      <Resolution>1.83</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XC7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3,4,5-TRIHYDROXY-6-HYDROXYMETHYL-TETRAHYDRO- PYRAN-2-YL)
+-PHOSPHORAMIDIC ACID DIMETHYL ESTER@@PYRIDOXAL-5'-PHOSPHATE@@SULFATE ION</Ligand_Name>
+      <PubMed_Title>Binding of beta-d-glucopyranosyl bismethoxyphosphoramidate to glycogen phosphorylase b: kinetic and crystallographic studies</PubMed_Title>
+      <Author>Chrysina ED, et al.</Author>
+      <Journal>Bioorg Med Chem.2005 Feb 1;13(3):765-72.</Journal>
+      <PubMed_ID>15653344</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Glycogen Phosphorylase B in Complex with Maltoheptaose</PDB_Title>
+      <PDB_ID>1P2B</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1P2B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>The binding of beta- and gamma-cyclodextrins to glycogen phosphorylase b: Kinetic and crystallographic studies.</PubMed_Title>
+      <Author>Pinotsis N, et al.</Author>
+      <Journal>Protein Sci.2003 Sep;12(9):1914-24.</Journal>
+      <PubMed_ID>12930991</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The R-state Glycogen Phosphorylase</PDB_Title>
+      <PDB_ID>3E3L</PDB_ID>
+      <Resolution>2.59</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E3L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>SULFATE ION</Ligand_Name>
+      <PubMed_Title>The crystal structure of the octameric muscle glycogen phosphorylase-AMP complex: insights into enzyme activation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase complex with 1(-D-glucopyranosyl) uracil</PDB_Title>
+      <PDB_ID>3BCS</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BCS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-beta-D-glucopyranosylpyrimidine-2,4(1H,3H)- dione</Ligand_Name>
+      <PubMed_Title>D-Glucopyranosyl pyrimidine nucleoside binding to muscle glycogen phosphorylase b</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Kinetic and crystallographic studies on 2-(beta-D-glucopyranosyl)-5-methyl-1,3,4-oxadiazole,-benzothiazole, and-benzimidazole, inhibitors of muscle glycogen phosphorylase b. Evidence for a new binding site.</PDB_Title>
+      <PDB_ID>1XKX</PDB_ID>
+      <Resolution>1.93</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XKX</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320112</ASD_Ligand>
+      <Ligand_Name>2-(BETA-D-GLUCOPYRANOSYL)-5-METHYL-1-BENZIMIDAZOLE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies on 2-(beta-D-glucopyranosyl)-5-methyl-1, 3, 4-oxadiazole, -benzothiazole, and -benzimidazole, inhibitors of muscle glycogen phosphorylase b. Evidence for a new binding site</PubMed_Title>
+      <Author>Chrysina ED, et al.</Author>
+      <Journal>Protein Sci.2005 Apr;14(4):873-88. Epub  2005 Mar 1.</Journal>
+      <PubMed_ID>15741340</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with N-benzoyl-N'-beta-D-glucopyranosyl urea</PDB_Title>
+      <PDB_ID>2QNB</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QNB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01328029</ASD_Ligand>
+      <Ligand_Name>N-BENZOYL-N'-BETA-D-GLUCOPYRANOSYL UREA</Ligand_Name>
+      <PubMed_Title>N-(4-substituted-benzoyl)-N'-(beta-D-glucopyranosyl)ureas, inhibitors of glycogen phosphorylase: synthesis, kinetic and crystallographic evaluation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>100 K STRUCTURE OF GLYCOGEN PHOSPHORYLASE AT 2.0 ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>2GPN</PDB_ID>
+      <Resolution>1.99</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GPN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of a glycogen phosphorylase glucopyranose spirohydantoin complex at 1.8 A resolution and 100 K: the role of the water structure and its contribution to binding.</PubMed_Title>
+      <Author>Gregoriou M, et al.</Author>
+      <Journal>Protein Sci.1998 Apr;7(4):915-27.</Journal>
+      <PubMed_ID>9568898</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SYNERGISTIC INHIBITION OF GLYCOGEN PHOSPHORYLASE A BY A POTENTIAL ANTIDIABETIC DRUG AND CAFFEINE</PDB_Title>
+      <PDB_ID>1C8L</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1C8L</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320023;ASD01320044</ASD_Ligand>
+      <Ligand_Name>2,3-DICARBOXY-4-(2-CHLORO-PHENYL)-1-ETHYL- 5-ISOPROPOXYCARBONYL-6-METHYL-PYRIDINIUM@@CAFFEINE@@GLYCEROL@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structural basis of the synergistic inhibition of glycogen phosphorylase a by caffeine and a potential antidiabetic drug.</PubMed_Title>
+      <Author>Tsitsanou KE, et al.</Author>
+      <Journal>Arch Biochem Biophys.2000 Dec 15;384(2):245-54.</Journal>
+      <PubMed_ID>11368311</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Glycogen Phosphorylase in complex with glucosyl triazoleacetamide</PDB_Title>
+      <PDB_ID>2PYI</PDB_ID>
+      <Resolution>1.88</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PYI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[(4-PHENYL-1H-1,2,3-TRIAZOL-1-YL)ACETYL]- BETA-D-GLUCOPYRANOSYLAMINE@@DIMETHYL SULFOXIDE</Ligand_Name>
+      <PubMed_Title>Crystallographic and computational studies on 4-phenyl-N-(beta-D-glucopyranosyl)-1H-1,2,3-triazole-1-acetamide, an inhibitor of glycogen phosphorylase: Comparison with alpha-D-glucose, N-acetyl-beta-D-glucopyranosylamine and N-benzoyl-N'-beta-D-glucopyranosyl urea binding.</PubMed_Title>
+      <Author>Alexacou KM, et al.</Author>
+      <Journal>Proteins.2008 May 15;71(3):1307-23.</Journal>
+      <PubMed_ID>18041758</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SPIROHYDANTOIN INHIBITOR OF GLYCOGEN PHOSPHORYLASE</PDB_Title>
+      <PDB_ID>1A8I</PDB_ID>
+      <Resolution>1.78</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1A8I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>BETA-D-GLUCOPYRANOSE SPIROHYDANTOIN</Ligand_Name>
+      <PubMed_Title>The structure of a glycogen phosphorylase glucopyranose spirohydantoin complex at 1.8 A resolution and 100 K: the role of the water structure and its contribution to binding.</PubMed_Title>
+      <Author>Gregoriou M, et al.</Author>
+      <Journal>Protein Sci.1998 Apr;7(4):915-27.</Journal>
+      <PubMed_ID>9568898</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURES OF GLYCOGEN PHOSPHORYLASE-INHIBITOR COMPLEXES AND THE IMPLICATIONS FOR STRUCTURE-BASED DRUG DESIGN</PDB_Title>
+      <PDB_ID>1FTW</PDB_ID>
+      <Resolution>2.36</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FTW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3,8,9,10-TETRAHYDROXY-7-HYDROXYMETHYL-6-OXA- 1,3-DIAZA-SPIRO[4.5]DECANE-2,4
+-DIONE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies of glucopyranose spirohydantoin and glucopyranosylamine analogs inhibitors of glycogen phosphorylase.</PubMed_Title>
+      <Author>Watson KA, et al.</Author>
+      <Journal>Proteins.2005 Dec 1;61(4):966-83.</Journal>
+      <PubMed_ID>16222658</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of rabbit muscle glycogen phosphorylase a in complex with a potential hypoglycaemic drug at 2.0 A resolution</PDB_Title>
+      <PDB_ID>1LWN</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LWN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structure of rabbit muscle glycogen phosphorylase a in complex with a potential hypoglycaemic drug at 2.0 A resolution</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Biochim Biophys Acta.2003 Apr 11;1647(1-2):325-32.</Journal>
+      <PubMed_ID>12686153</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PYRIDOXAL PHOSPHORYLASE B IN COMPLEX WITH FLUOROPHOSPHATE, GLUCOSE AND INOSINE-5'-MONOPHOSPHATE</PDB_Title>
+      <PDB_ID>2SKC</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2SKC</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>FLUORO-PHOSPHITE ION@@ALPHA-D-GLUCOSE@@INOSINIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Activator anion binding site in pyridoxal phosphorylase b: the binding of phosphite, phosphate, and fluorophosphate in the crystal.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Protein Sci.1996 Dec;5(12):2416-28.</Journal>
+      <PubMed_ID>8976550</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The crystal structure of Glycogen phosphorylase in complex with glucose at 100 K</PDB_Title>
+      <PDB_ID>2PYD</PDB_ID>
+      <Resolution>1.93</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PYD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>DIMETHYL SULFOXIDE@@ALPHA-D-GLUCOSE</Ligand_Name>
+      <PubMed_Title>Crystallographic and computational studies on 4-phenyl-N-(beta-D-glucopyranosyl)-1H-1,2,3-triazole-1-acetamide, an inhibitor of glycogen phosphorylase: Comparison with alpha-D-glucose, N-acetyl-beta-D-glucopyranosylamine and N-benzoyl-N'-beta-D-glucopyranosyl urea binding.</PubMed_Title>
+      <Author>Alexacou KM, et al.</Author>
+      <Journal>Proteins.2008 May 15;71(3):1307-23.</Journal>
+      <PubMed_ID>18041758</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of 1-(beta-D-glucopyranosyl)-4-substituted-1,2,3-triazoles in complex with glycogen phosphorylase</PDB_Title>
+      <PDB_ID>3G2L</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3G2L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-beta-D-glucopyranosyl-4-naphthalen-1-yl- 1H-1,2,3-triazole</Ligand_Name>
+      <PubMed_Title>Amide-1,2,3-triazole bioisosterism: the glycogen phosphorylase case</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the glycogen phosphorylase B / N-(beta-D-glucopyranosyl)-N'-cyclopropyl oxalamide complex</PDB_Title>
+      <PDB_ID>2F3U</PDB_ID>
+      <Resolution>1.93</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F3U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(BETA-D-GLUCOPYRANOSYL)-N'-CYCLOPROPYL OXALAMIDE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Binding of oxalyl derivatives of beta-d-glucopyranosylamine to muscle glycogen phosphorylase b.</PubMed_Title>
+      <Author>Hadjiloi T, et al.</Author>
+      <Journal>Bioorg Med Chem.2006 Jun 1;14(11):3872-82. Epub  2006 Feb 7.</Journal>
+      <PubMed_ID>16464598</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen phosphorylase complexed with 4-methylbenzaldehyde-4-(beta-D-glucopyranosyl) thiosemicarbazone</PDB_Title>
+      <PDB_ID>3MS2</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MS2</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320068</ASD_Ligand>
+      <PubMed_Title>The binding of beta-D-glucopyranosyl-thiosemicarbazone derivatives to glycogen phosphorylase: a new class of inhibitors</PubMed_Title>
+      <Author>Alexacou, K.M., et al.</Author>
+      <Journal>Bioorg.Med.Chem.(2010)18:7911-7922</Journal>
+      <PubMed_ID>20947361</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Acyl Ureas as Human Liver Glycogen Phosphorylase Inhibitors for the Treatment of Type 2 Diabetes</PDB_Title>
+      <PDB_ID>1WUT</PDB_ID>
+      <Resolution>2.26</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1WUT</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01328025</ASD_Ligand>
+      <Ligand_Name>7-[2,6-DICHLORO-4-({[(2-CHLOROBENZOYL)AMINO]CARBONYL}AMINO)PHENOXY]HEPTANOIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies on acyl ureas, a new class of glycogen phosphorylase inhibitors, as potential antidiabetic drugs</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Protein Sci.2005 Jul;14(7):1760-71.</Journal>
+      <PubMed_ID>15987904</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>AMIDOCARBAMATE INHIBITOR OF GLYCOGEN PHOSPHORYLASE</PDB_Title>
+      <PDB_ID>1B4D</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1B4D</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>1-DEOXY-1-METHOXYCARBAMIDO-BETA-D-GLUCO-2- HEPTULOPYRANOSONAMIDE@@INOSINIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Effects of commonly used cryoprotectants on glycogen phosphorylase activity and structure.</PubMed_Title>
+      <Author>Tsitsanou KE, et al.</Author>
+      <Journal>Protein Sci.1999 Apr;8(4):741-9.</Journal>
+      <PubMed_ID>10211820</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystallographic studies on N-azido-beta-D-glucopyranosylamine, an inhibitor of glycogen phosphorylase: comparison with N-acetyl-beta-D-glucopyranosylamine</PDB_Title>
+      <PDB_ID>2FFR</PDB_ID>
+      <Resolution>2.03</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FFR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-AZIDO-N-((2R,3R,4S,5S,6R)-3,4,5-TRIHYDROXY- 6-(HYDROXYMETHYL)-TETRAHYDRO-2H
+-PYRAN-2-YL)ACETAMIDE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies on N-azidoacetyl-beta-d-glucopyranosylamine, an inhibitor of glycogen phosphorylase: Comparison with N-acetyl-beta-d-glucopyranosylamine.</PubMed_Title>
+      <Author>Petsalakis EI, et al.</Author>
+      <Journal>Bioorg Med Chem.2006 Aug 1;14(15):5316-24. Epub  2006 Apr 17.</Journal>
+      <PubMed_ID>16616506</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of rabbit muscle glycogen phosphorylase in complex with 3,4-dihydro-2-quinolone</PDB_Title>
+      <PDB_ID>2IEG</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IEG</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320161</ASD_Ligand>
+      <Ligand_Name>(2S)-N-[(3S)-1-(2-AMINO-2-OXOETHYL)-2-OXO- 1,2,3,4-TETRAHYDROQUINOLIN-3-YL]-2-CHLORO- 2H-THIENO[2,3-B]PYRROLE-5-CARBOXAMIDE@@(5-HYDROXY-4,6-DIMETHYLPYRIDIN-3-YL)METHYL DIHYDROGEN PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Development of potent, orally active 1-substituted-3,4-dihydro-2-quinolone glycogen phosphorylase inhibitors.</PubMed_Title>
+      <Author>Birch AM, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2007 Jan 15;17(2):394-9. Epub  2006 Oct 19.</Journal>
+      <PubMed_ID>17095214</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>COOPERATIVITY BETWEEN HYDROGEN-BONDING AND CHARGE-DIPOLE INTERACTIONS IN THE INHIBITION OF BETA-GLYCOSIDASES BY AZOLOPYRIDINES: EVIDENCE FROM A STUDY WITH GLYCOGEN PHOSPHORYLASE B</PDB_Title>
+      <PDB_ID>1AXR</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1AXR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4,5,6-TRIHYDROXY-7-HYDROXYMETHYL-4,5,6,7- TETRAHYDRO-1H-[1,2,3]TRIAZOLO[1,5-A]PYRIDIN- 8-YLIUM@@PYRIDOXAL-5'-PHOSPHATE@@PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Cooperative interactions of the catalytic nucleophile and the catalytic acid in the inhibition of beta-glycosidases. Calculations and their validation by comparative kinetic and structural studies of the inhibition of glycogen phosphorylase b.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTALLOGRAPHIC BINDING STUDIES ON THE ALLOSTERIC INHIBITOR GLUCOSE-6-PHOSPHATE TO T STATE GLYCOGEN PHOSPHORYLASE B</PDB_Title>
+      <PDB_ID>1GPY</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GPY</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00360002</ASD_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE-6-PHOSPHATE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic binding studies on the allosteric inhibitor glucose-6-phosphate to T state glycogen phosphorylase b.</PubMed_Title>
+      <Author>Johnson LN, et al.</Author>
+      <Journal>J Mol Biol.1993 Jul 5;232(1):253-67.</Journal>
+      <PubMed_ID>8331662</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with asiatic acid</PDB_Title>
+      <PDB_ID>2QN1</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QN1</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320096</ASD_Ligand>
+      <Ligand_Name>asiatic acid</Ligand_Name>
+      <PubMed_Title>Naturally occurring pentacyclic triterpenes as inhibitors of glycogen phosphorylase: synthesis, structure-activity relationships, and X-ray crystallographic studies</PubMed_Title>
+      <Author>Wen X, et al.</Author>
+      <Journal>J Med Chem.2008 Jun 26;51(12):3540-54. Epub  2008 Jun 3.</Journal>
+      <PubMed_ID>18517260</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE ALLOSTERIC TRANSITION OF GLYCOGEN PHOSPHORYLASE</PDB_Title>
+      <PDB_ID>9GPB</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9GPB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE@@SULFATE ION</Ligand_Name>
+      <PubMed_Title>The allosteric transition of glycogen phosphorylase.</PubMed_Title>
+      <Author>Barford D, et al.</Author>
+      <Journal>Nature.1989 Aug 24;340(6235):609-16.</Journal>
+      <PubMed_ID>2770867</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FLAVOPIRIDOL INHIBITS GLYCOGEN PHOSPHORYLASE BY BINDING AT THE INHIBITOR SITE</PDB_Title>
+      <PDB_ID>1E1Y</PDB_ID>
+      <Resolution>2.23</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1E1Y</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320080</ASD_Ligand>
+      <Ligand_Name>2-(2-CHLORO-PHENYL)-5,7-DIHYDROXY-8-(3-HYDROXY- 1-METHYL-PIPERIDIN-4-YL)-4H-BENZOPYRAN-4- ONE@@ALPHA-D-GLUCOSE@@PYRIDOXAL-5'-PHOSPHATE@@ALPHA-D-GLUCOSE @@PYRIDOXAL-5'-PHOSPHATE @@PHOSPHITE ION</Ligand_Name>
+      <PubMed_Title>Flavopiridol Inhibits Glycogen Phosphorylase by Binding at the Inhibitor Site</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>J Biol Chem.2000 Nov 3;275(44):34566-73.</Journal>
+      <PubMed_ID>10924512</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>REFINED CRYSTAL STRUCTURE OF THE PHOSPHORYLASE-HEPTULOSE 2-PHOSPHATE-OLIGOSACCHARIDE-AMP COMPLEX</PDB_Title>
+      <PDB_ID>6GPB</PDB_ID>
+      <Resolution>2.86</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=6GPB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00030001</ASD_Ligand>
+      <Ligand_Name>ADENOSINE MONOPHOSPHATE@@ALPHA-D-GLUCOSE@@HEPTULOSE-2-PHOSPHATE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Refined crystal structure of the phosphorylase-heptulose 2-phosphate-oligosaccharide-AMP complex.</PubMed_Title>
+      <Author>Johnson LN, et al.</Author>
+      <Journal>J Mol Biol.1990 Feb 5;211(3):645-61.</Journal>
+      <PubMed_ID>2106586</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ALLOSTERIC INHIBITION OF GLYCOGEN PHOSPHORYLASE A BY A POTENTIAL ANTIDIABETIC DRUG</PDB_Title>
+      <PDB_ID>2GPA</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GPA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE@@GLYCEROL@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Allosteric inhibition of glycogen phosphorylase a by the potential antidiabetic drug 3-isopropyl 4-(2-chlorophenyl)-1,4-dihydro-1-ethyl-2-methyl-pyridine-3,5,6-tricarbo xylate.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Protein Sci.1999 Oct;8(10):1930-45.</Journal>
+      <PubMed_ID>10548038</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPARISON OF THE BINDING OF GLUCOSE AND GLUCOSE-1-PHOSPHATE DERIVATIVES TO T-STATE GLYCOGEN PHOSPHORYLASE B</PDB_Title>
+      <PDB_ID>4GPB</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4GPB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-DEOXY-2-FLUORO-ALPHA-D-GLUCOSE-1-PHOSPHATE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Comparison of the binding of glucose and glucose 1-phosphate derivatives to T-state glycogen phosphorylase b.</PubMed_Title>
+      <Author>Martin JL, et al.</Author>
+      <Journal>Biochemistry.1990 Dec 4;29(48):10745-57.</Journal>
+      <PubMed_ID>2125493</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR THE ACTIVATION OF GLYCOGEN PHOSPHORYLASE B BY ADENOSINE MONOPHOSPHATE</PDB_Title>
+      <PDB_ID>1PYG</PDB_ID>
+      <Resolution>2.87</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PYG</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00030001</ASD_Ligand>
+      <Ligand_Name>ADENOSINE MONOPHOSPHATE@@PYRIDOXAL-5'-DIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structural basis for the activation of glycogen phosphorylase b by adenosine monophosphate.</PubMed_Title>
+      <Author>Sprang SR, et al.</Author>
+      <Journal>Science.1991 Nov 29;254(5036):1367-71.</Journal>
+      <PubMed_ID>1962195</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b/flavopiridol complex</PDB_Title>
+      <PDB_ID>3EBP</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EBP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320080</ASD_Ligand>
+      <Ligand_Name>2-(2-CHLORO-PHENYL)-5,7-DIHYDROXY-8-(3-HYDROXY- 1-METHYL-PIPERIDIN-4-YL)-4H-BENZOPYRAN-4-ONE</Ligand_Name>
+      <PubMed_Title>Crystallographic binding studies of flavonoids to glycogen phosphorylase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of rabbit muscle glycogen phosphorylase in complex with ligand</PDB_Title>
+      <PDB_ID>2GJ4</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GJ4</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320151</ASD_Ligand>
+      <Ligand_Name>2-CHLORO-N-[(1R,2R)-1-HYDROXY-2,3-DIHYDRO- 1H-INDEN-2-YL]-6H-THIENO[2,3
+-B]PYRROLE-5- CARBOXAMIDE@@(5-HYDROXY-4,6-DIMETHYLPYRIDIN-3-YL)METHYL DIHYDROGEN PHOSPHATE@@SULFATE ION</Ligand_Name>
+      <PubMed_Title>Novel thienopyrrole glycogen phosphorylase inhibitors: synthesis, in vitro SAR and crystallographic studies.</PubMed_Title>
+      <Author>Whittamore PR, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2006 Nov 1;16(21):5567-71. Epub  2006 Aug 30.</Journal>
+      <PubMed_ID>16945526</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b/Chrysin complex</PDB_Title>
+      <PDB_ID>3EBO</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EBO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01328023</ASD_Ligand>
+      <Ligand_Name>chrysin</Ligand_Name>
+      <PubMed_Title>Crystallographic binding studies of flavonoids to glycogen phosphorylase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPLEX OF GLYCOGEN PHOSPHORYLASE WITH A TRANSITION STATE ANALOGUE NOJIRIMYCIN TETRAZOLE AND PHOSPHATE IN THE T AND R STATES</PDB_Title>
+      <PDB_ID>1NOI</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NOI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>NOJIRIMYCINE TETRAZOLE@@PYRIDOXAL-5'-PHOSPHATE@@PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Ternary complex crystal structures of glycogen phosphorylase with the transition state analogue nojirimycin tetrazole and phosphate in the T and R states.</PubMed_Title>
+      <Author>Mitchell EP, et al.</Author>
+      <Journal>Biochemistry.1996 Jun 11;35(23):7341-55.</Journal>
+      <PubMed_ID>8652510</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PYRIDOXAL PHOSPHORYLASE B IN COMPLEX WITH PHOSPHITE, GLUCOSE AND INOSINE-5'-MONOPHOSPHATE</PDB_Title>
+      <PDB_ID>2SKE</PDB_ID>
+      <Resolution>2.46</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2SKE</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE@@INOSINIC ACID@@PYRIDOXAL-5'-PHOSPHATE@@PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Activator anion binding site in pyridoxal phosphorylase b: the binding of phosphite, phosphate, and fluorophosphate in the crystal.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Protein Sci.1996 Dec;5(12):2416-28.</Journal>
+      <PubMed_ID>8976550</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPARISON OF THE BINDING OF GLUCOSE AND GLUCOSE-1-PHOSPHATE DERIVATIVES TO T-STATE GLYCOGEN PHOSPHORYLASE B</PDB_Title>
+      <PDB_ID>5GPB</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=5GPB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE@@GLUCOPYRANOSYL-1-METHYL-PHOSPHONIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Comparison of the binding of glucose and glucose 1-phosphate derivatives to T-state glycogen phosphorylase b.</PubMed_Title>
+      <Author>Martin JL, et al.</Author>
+      <Journal>Biochemistry.1990 Dec 4;29(48):10745-57.</Journal>
+      <PubMed_ID>2125493</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the glycogen phosphorylase B / N-(beta-D-glucopyranosyl)oxamic acid complex</PDB_Title>
+      <PDB_ID>2F3P</PDB_ID>
+      <Resolution>1.94</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F3P</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(BETA-D-GLUCOPYRANOSYL)OXAMIC ACID@@OXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Binding of oxalyl derivatives of beta-d-glucopyranosylamine to muscle glycogen phosphorylase b.</PubMed_Title>
+      <Author>Hadjiloi T, et al.</Author>
+      <Journal>Bioorg Med Chem.2006 Jun 1;14(11):3872-82. Epub  2006 Feb 7.</Journal>
+      <PubMed_ID>16464598</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>BINDING OF 100 MM N-ACETYL-N'-BETA-D-GLUCOPYRANOSYL UREA TO GLYCOGEN PHOSPHORYLASE B: KINETIC AND CRYSTALLOGRAPHIC STUDIES</PDB_Title>
+      <PDB_ID>1KTI</PDB_ID>
+      <Resolution>1.97</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KTI</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01328024</ASD_Ligand>
+      <Ligand_Name>N-ACETYL-N'-BETA-D-GLUCOPYRANOSYL UREA@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Binding of N-acetyl-N'-beta-D-glucopyranosyl urea and N-benzoyl-N'-beta-D-glucopyranosyl urea to glycogen phosphorylase b: kinetic and crystallographic studies.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Eur J Biochem.2002 Mar;269(6):1684-96.</Journal>
+      <PubMed_ID>11895439</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystallographic studies on acyl ureas, a new class of inhibitors of glycogenphosphorylase. Broad specificity of the allosteric site</PDB_Title>
+      <PDB_ID>1WV1</PDB_ID>
+      <Resolution>2.26</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1WV1</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320090</ASD_Ligand>
+      <Ligand_Name>5-[3-({[(2,4-DICHLOROBENZOYL)AMINO]CARBONYL}AMINO)- 2-METHYLPHENOXY]PENTANOIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies on acyl ureas, a new class of glycogen phosphorylase inhibitors, as potential antidiabetic drugs</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Protein Sci.2005 Jul;14(7):1760-71.</Journal>
+      <PubMed_ID>15987904</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Binding of N-acetyl-beta-D-glucopyranosylamine to Glycogen Phosphorylase B</PDB_Title>
+      <PDB_ID>2PRJ</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PRJ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>INOSINIC ACID@@1-N-ACETYL-BETA-D-GLUCOSAMINE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>N-acetyl-beta-D-glucopyranosylamine: a potent T-state inhibitor of glycogen phosphorylase. A comparison with alpha-D-glucose.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Protein Sci.1995 Dec;4(12):2469-77.</Journal>
+      <PubMed_ID>8580837</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of glycogen phosphorylase b in complex with N-(-D-glucopyranosyl)-N'-(2-naphthyl)oxamide</PDB_Title>
+      <PDB_ID>3CUT</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CUT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[(naphthalen-2-ylamino)(oxo)acetyl]-beta- D-glucopyranosylamine</Ligand_Name>
+      <PubMed_Title>Tracking structure activity relationships of glycogen phosphorylase inhibitors: synthesis, kinetic and crystallographic evaluation of analogues of N-(-D-glucopyranosyl)-N'-oxamides</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of rabbit muscle glycogen phosphorylase in complex with 3,4-dihydro-2-quinolone</PDB_Title>
+      <PDB_ID>2IEI</PDB_ID>
+      <Resolution>1.91</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IEI</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320160</ASD_Ligand>
+      <Ligand_Name>(S)-2-CHLORO-N-(1-(2-(2-HYDROXYETHYLAMINO)- 2-OXOETHYL)-2-OXO-1,2,3,4-TETRAHYDROQUINOLIN- 3-YL)-6H-THIENO[2,3-B]PYRROLE-5-CARBOXAMIDE@@(5-HYDROXY-4,6-DIMETHYLPYRIDIN-3-YL)METHYL DIHYDROGEN PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Development of potent, orally active 1-substituted-3,4-dihydro-2-quinolone glycogen phosphorylase inhibitors.</PubMed_Title>
+      <Author>Birch AM, et al.</Author>
+      <Journal>Bioorg Med Chem Lett.2007 Jan 15;17(2):394-9. Epub  2006 Oct 19.</Journal>
+      <PubMed_ID>17095214</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with (1R)-3'-(4-methylphenyl)-spiro[1,5-anhydro-D-glucitol-1,5'-isoxazoline]</PDB_Title>
+      <PDB_ID>2QRQ</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QRQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>DIMETHYL SULFOXIDE@@(3S,5R,7R,8S,9S,10R)-7-(hydroxymethyl)-3- (4-methylphenyl)-1,6-dioxa-2-azaspiro
+[4.5]decane- 8,9,10-triol</Ligand_Name>
+      <PubMed_Title>Glucose-based spiro-isoxazolines: a new family of potent glycogen phosphorylase inhibitors.</PubMed_Title>
+      <Author>Benltifa M, et al.</Author>
+      <Journal>Bioorg Med Chem.2009 Oct 15;17(20):7368-80. Epub  2009 Sep 2.</Journal>
+      <PubMed_ID>19781947</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystallographic studies on two bioisosteric analogues, N-acetyl-beta-D-glucopyranosylamine and N-trifluoroacetyl-beta-D-glucopyranosylamine, potent inhibitors of muscle glycogen phosphorylase</PDB_Title>
+      <PDB_ID>1WW3</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1WW3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-TRIFLURO-ACETYL-BETA-D-GLUCOPYRANOSYLAMINE@@XAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies on two bioisosteric analogues, N-acetyl-beta-d-glucopyranosylamine and N-trifluoroacetyl-beta-d-glucopyranosylamine, potent inhibitors of muscle glycogen phosphorylase</PubMed_Title>
+      <Author>Anagnostou E, et al.</Author>
+      <Journal>Bioorg Med Chem.2006 Jan 1;14(1):181-9. Epub  2005 Oct 4.</Journal>
+      <PubMed_ID>16213146</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The crystal structure of glycogen phosphorylase b in complex with (3R,4R,5R)-5-hydroxymethyl-1-(3-phenylpropyl)-piperidine-3,4-diol</PDB_Title>
+      <PDB_ID>2G9R</PDB_ID>
+      <Resolution>2.07</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2G9R</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3R,4R,5R)-5-(HYDROXYMETHYL)-1-(3-PHENYLPROPYL)PIPERIDINE- 3,4-DIOL</Ligand_Name>
+      <PubMed_Title>Iminosugars as potential inhibitors of glycogenolysis: structural insights into the molecular basis of glycogen phosphorylase inhibition.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>J Med Chem.2006 Sep 21;49(19):5687-701.</Journal>
+      <PubMed_ID>16970395</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase complex with 1(-D-ribofuranosyl) cyanuric acid</PDB_Title>
+      <PDB_ID>3BD6</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BD6</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320149</ASD_Ligand>
+      <Ligand_Name>1-beta-D-ribofuranosyl-1,3,5-triazinane-2,4,6- trione</Ligand_Name>
+      <PubMed_Title>D-Glucopyranosyl pyrimidine nucleoside binding to muscle glycogen phosphorylase b</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>IDENTIFICATION AND STRUCTURAL CHARACTERIZATION OF A NOVEL ALLOSTERIC BINDING SITE OF GLYCOGEN PHOSPHORYLASE B</PDB_Title>
+      <PDB_ID>1C50</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1C50</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320079</ASD_Ligand>
+      <Ligand_Name>5-CHLORO-1H-INDOLE-2-CARBOXYLIC ACID [1-(4- FLUOROBENZYL)-2-(4-HYDROXYPIPERIDIN-1YL)- 2-OXOETHYL]AMIDE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>A new allosteric site in glycogen phosphorylase b as a target for drug interactions.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Structure.2000 Jun 15;8(6):575-84.</Journal>
+      <PubMed_ID>10873856</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystallographic studies on acyl ureas, a new class of inhibitors of glycogen phosphorylase. Broad specificity of the allosteric site</PDB_Title>
+      <PDB_ID>1WUY</PDB_ID>
+      <Resolution>2.26</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1WUY</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01328026</ASD_Ligand>
+      <Ligand_Name>4-[3-CHLORO-4-({[(2,4-DICHLOROBENZOYL)AMINO]CARBONYL}AMINO)PHENOXY]BUTANOIC ACID@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies on acyl ureas, a new class of glycogen phosphorylase inhibitors, as potential antidiabetic drugs</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Protein Sci.2005 Jul;14(7):1760-71.</Journal>
+      <PubMed_ID>15987904</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>GLYCOGEN PHOSPHORYLASE B: DESCRIPTION OF THE PROTEIN STRUCTURE</PDB_Title>
+      <PDB_ID>1GPB</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GPB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Glycogen Phosphorylase B: Description of the Protein Structure</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glucogen Phosphorylase complex with 1(-D-glucopyranosyl) cytosine</PDB_Title>
+      <PDB_ID>3BD8</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BD8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-amino-1-beta-D-glucopyranosylpyrimidin- 2(1H)-one@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>D-Glucopyranosyl pyrimidine nucleoside binding to muscle glycogen phosphorylase b</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Tracking structure activity relationships of glycogen phosphorylase inhibitors: synthesis, kinetic and crystallographic evaluation of analogues of N-(-D-glucopyranosyl)-N'-oxamides</PDB_Title>
+      <PDB_ID>3CUV</PDB_ID>
+      <Resolution>1.93</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CUV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[oxo(pyridin-2-ylamino)acetyl]-beta-D-glucopyranosylamine@@DIMETHYL SULFOXIDE</Ligand_Name>
+      <PubMed_Title>Tracking structure activity relationships of glycogen phosphorylase inhibitors: synthesis, kinetic and crystallographic evaluation of analogues of N-(-D-glucopyranosyl)-N'-oxamides</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of 1-(beta-D-glucopyranosyl)-4-substituted-1,2,3-triazole</PDB_Title>
+      <PDB_ID>3G2I</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3G2I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-beta-D-glucopyranosyl-4-(hydroxymethyl)- 1H-1,2,3-triazole</Ligand_Name>
+      <PubMed_Title>Amide-1,2,3-triazole bioisosterism: the glycogen phosphorylase case</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Glycogen phosphorylase b R state- AMP complex</PDB_Title>
+      <PDB_ID>3E3N</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E3N</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00030001</ASD_Ligand>
+      <Ligand_Name>ADENOSINE MONOPHOSPHATE@@SULFATE ION</Ligand_Name>
+      <PubMed_Title>The crystal structure of the octameric muscle glycogen phosphorylase-AMP complex: insights into enzyme activation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPLEX OF GLYCOGEN PHOSPHORYLASE WITH A TRANSITION STATE ANALOGUE NOJIRIMYCIN TETRAZOLE AND PHOSPHATE IN THE T STATE</PDB_Title>
+      <PDB_ID>1NOK</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NOK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>NOJIRIMYCINE TETRAZOLE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Ternary complex crystal structures of glycogen phosphorylase with the transition state analogue nojirimycin tetrazole and phosphate in the T and R states.</PubMed_Title>
+      <Author>Mitchell EP, et al.</Author>
+      <Journal>Biochemistry.1996 Jun 11;35(23):7341-55.</Journal>
+      <PubMed_ID>8652510</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the glycogen phosphorylase B / methyl-N-(beta-D-glucopyranosyl)oxamate complex</PDB_Title>
+      <PDB_ID>2F3Q</PDB_ID>
+      <Resolution>1.96</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F3Q</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>METHYL-N-(BETA-D-GLUCOPYRANOSYL)OXAMATE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Binding of oxalyl derivatives of beta-d-glucopyranosylamine to muscle glycogen phosphorylase b.</PubMed_Title>
+      <Author>Hadjiloi T, et al.</Author>
+      <Journal>Bioorg Med Chem.2006 Jun 1;14(11):3872-82. Epub  2006 Feb 7.</Journal>
+      <PubMed_ID>16464598</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystallographic studies on two bioisosteric analogues, N-acetyl-beta-D-glucopyranosylamine and N-trifluoroacetyl-beta-D-glucopyranosylamine, potent inhibitors of muscle glycogen phosphorylase</PDB_Title>
+      <PDB_ID>1WW2</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1WW2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-N-ACETYL-BETA-D-GLUCOSAMINE@@OXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystallographic studies on two bioisosteric analogues, N-acetyl-beta-d-glucopyranosylamine and N-trifluoroacetyl-beta-d-glucopyranosylamine, potent inhibitors of muscle glycogen phosphorylase</PubMed_Title>
+      <Author>Anagnostou E, et al.</Author>
+      <Journal>Bioorg Med Chem.2006 Jan 1;14(1):181-9. Epub  2005 Oct 4.</Journal>
+      <PubMed_ID>16213146</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystallographic Binding Study of 10 mM N-benzoyl-N'-beta-D-glucopyranosyl urea to glycogen phosphorylase b</PDB_Title>
+      <PDB_ID>1K08</PDB_ID>
+      <Resolution>2.26</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K08</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01328029</ASD_Ligand>
+      <Ligand_Name>N-BENZOYL-N'-BETA-D-GLUCOPYRANOSYL UREA@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Binding of N-acetyl-N '-beta-D-glucopyranosyl urea and N-benzoyl-N '-beta-D-glucopyranosyl urea to glycogen phosphorylase b: kinetic and crystallographic studies.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Eur J Biochem.2002 Mar;269(6):1684-96.</Journal>
+      <PubMed_ID>11895439</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of glycogen phosphorylase b in complex with C-(1-hydroxy-beta-D-glucopyranosyl)formamide</PDB_Title>
+      <PDB_ID>1P4J</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1P4J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>C-(1-HYDROGYL-BETA-D-GLUCOPYRANOSYL) FORMAMIDE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crsytallographic Studies on alpha- and beta-D-glucopyranosyl Formamide Analogues, Inhibitors of Glycogen Phosphorylase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of rabbit muscle glycogen phosphorylase a in complex with a potential hypoglycaemic drug at 2.0 A resolution</PDB_Title>
+      <PDB_ID>1LWO</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LWO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320079</ASD_Ligand>
+      <Ligand_Name>5-CHLORO-1H-INDOLE-2-CARBOXYLIC ACID [1-(4- FLUOROBENZYL)-2-(4-HYDROXYPIPERIDIN-1YL)- 2-OXOETHYL]AMIDE@@ALPHA-D-GLUCOSE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structure of rabbit muscle glycogen phosphorylase a in complex with a potential hypoglycaemic drug at 2.0 A resolution</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Biochim Biophys Acta.2003 Apr 11;1647(1-2):325-32.</Journal>
+      <PubMed_ID>12686153</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Glycogen Phosphorylase B in complex with Beta Cyclodextrin</PDB_Title>
+      <PDB_ID>1P2D</PDB_ID>
+      <Resolution>1.94</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1P2D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>The binding of beta- and gamma-cyclodextrins to glycogen phosphorylase b: Kinetic and crystallographic studies.</PubMed_Title>
+      <Author>Pinotsis N, et al.</Author>
+      <Journal>Protein Sci.2003 Sep;12(9):1914-24.</Journal>
+      <PubMed_ID>12930991</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FLAVOPIRIDOL INHIBITS GLYCOGEN PHOSPHORYLASE BY BINDING AT THE INHIBITOR SITE</PDB_Title>
+      <PDB_ID>1C8K</PDB_ID>
+      <Resolution>1.76</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1C8K</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320080</ASD_Ligand>
+      <Ligand_Name>2-(2-CHLORO-PHENYL)-5,7-DIHYDROXY-8-(3-HYDROXY- 1-METHYL-PIPERIDIN-4-YL)-4H-BENZOPYRAN-4- ONE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Flavopiridol inhibits glycogen phosphorylase by binding at the inhibitor site.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>J Biol Chem.2000 Nov 3;275(44):34566-73.</Journal>
+      <PubMed_ID>10924512</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The crystal structure of glycogen phosphorylase in complex with (3R,4R,5R)-5-hydroxymethylpiperidine-3,4-diol and phosphate</PDB_Title>
+      <PDB_ID>2G9V</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2G9V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-HYDROXYMETHYL-3,4-DIHYDROXYPIPERIDINE@@PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Iminosugars as potential inhibitors of glycogenolysis: structural insights into the molecular basis of glycogen phosphorylase inhibition.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>J Med Chem.2006 Sep 21;49(19):5687-701.</Journal>
+      <PubMed_ID>16970395</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of glycogen phosphorylase b in complex with C-(1-acetamido-alpha-D-glucopyranosyl) formamide</PDB_Title>
+      <PDB_ID>1P4H</PDB_ID>
+      <Resolution>2.06</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1P4H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1-DEOXY-1-ACETYLAMINO-BETA-D-GLUCO-2-HEPTULOPYRANOSONAMIDE@@PYRIDOXAL-5'-PHOSPHATE@@PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Crsytallographic Studies on alpha- and beta-D-glucopyranosyl Formamide Analogues, Inhibitors of Glycogen Phosphorylase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with Maslinic Acid</PDB_Title>
+      <PDB_ID>2QN2</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QN2</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320097</ASD_Ligand>
+      <Ligand_Name>maslinic acid</Ligand_Name>
+      <PubMed_Title>Naturally occurring pentacyclic triterpenes as inhibitors of glycogen phosphorylase: synthesis, structure-activity relationships, and X-ray crystallographic studies</PubMed_Title>
+      <Author>Wen X, et al.</Author>
+      <Journal>J Med Chem.2008 Jun 26;51(12):3540-54. Epub  2008 Jun 3.</Journal>
+      <PubMed_ID>18517260</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with AZT</PDB_Title>
+      <PDB_ID>3BCR</PDB_ID>
+      <Resolution>2.14</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BCR</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320145</ASD_Ligand>
+      <Ligand_Name>3'-azido-3'-deoxythymidine</Ligand_Name>
+      <PubMed_Title>D-Glucopyranosyl pyrimidine nucleoside binding to muscle glycogen phosphorylase b</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with N-4-phenylbenzoyl-N'-beta-D-glucopyranosyl urea</PDB_Title>
+      <PDB_ID>2QLN</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QLN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[(biphenyl-4-ylcarbonyl)carbamoyl]-beta- D-glucopyranosylamine</Ligand_Name>
+      <PubMed_Title>N-(4-substituted-benzoyl)-N'-(beta-D-glucopyranosyl)ureas, inhibitors of glycogen phosphorylase: synthesis, kinetic and crystallographic evaluation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with (1R)-3'-(4-nitrophenyl)-spiro[1,5-anhydro-D-glucitol-1,5'-isoxazoline]</PDB_Title>
+      <PDB_ID>2QRM</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QRM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3S,5R,7R,8S,9S,10R)-7-(hydroxymethyl)-3- (4-nitrophenyl)-1,6-dioxa-2-azaspiro
+[4.5]decane- 8,9,10-triol</Ligand_Name>
+      <PubMed_Title>Glucose-based spiro-isoxazolines: a new family of potent glycogen phosphorylase inhibitors.</PubMed_Title>
+      <Author>Benltifa M, et al.</Author>
+      <Journal>Bioorg Med Chem.2009 Oct 15;17(20):7368-80. Epub  2009 Sep 2.</Journal>
+      <PubMed_ID>19781947</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystallographic Binding Study of 100 mM N-benzoyl-N'-beta-D-glucopyranosyl urea to glycogen phosphorylase b</PDB_Title>
+      <PDB_ID>1K06</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K06</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01328029</ASD_Ligand>
+      <Ligand_Name>N-BENZOYL-N'-BETA-D-GLUCOPYRANOSYL UREA@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Binding of N-acetyl-N '-beta-D-glucopyranosyl urea and N-benzoyl-N '-beta-D-glucopyranosyl urea to glycogen phosphorylase b: kinetic and crystallographic studies.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Eur J Biochem.2002 Mar;269(6):1684-96.</Journal>
+      <PubMed_ID>11895439</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Glycogen Phosphorylase B in complex with Gamma Cyclodextrin</PDB_Title>
+      <PDB_ID>1P2G</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1P2G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ALPHA-D-GLUCOSE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>The binding of beta- and gamma-cyclodextrins to glycogen phosphorylase b: Kinetic and crystallographic studies.</PubMed_Title>
+      <Author>Pinotsis N, et al.</Author>
+      <Journal>Protein Sci.2003 Sep;12(9):1914-24.</Journal>
+      <PubMed_ID>12930991</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase in complex with N-4-chlorobenzoyl-N-beta-D-glucopyranosyl urea</PDB_Title>
+      <PDB_ID>2QN3</PDB_ID>
+      <Resolution>1.96</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QN3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-{[(4-chlorophenyl)carbonyl]carbamoyl}-beta- D-glucopyranosylamine</Ligand_Name>
+      <PubMed_Title>N-(4-substituted-benzoyl)-N'-(beta-D-glucopyranosyl)ureas, inhibitors of glycogen phosphorylase: synthesis, kinetic and crystallographic evaluation</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structures of glycogen phosphorylase-inhibitor complexes and the implications for structure-based drug design</PDB_Title>
+      <PDB_ID>1GGN</PDB_ID>
+      <Resolution>2.36</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GGN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>BETA-D-GLUCOPYRANOSE SPIROHYDANTOIN@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Kinetic and crystallographic studies of glucopyranosylidene spirothiohydantoin binding to glycogen phosphorylase B.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>Bioorg Med Chem.2002 Feb;10(2):261-8.</Journal>
+      <PubMed_ID>11741774</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the glycogen phosphorylase B / ethyl-N-(beta-D-glucopyranosyl)oxamate complex</PDB_Title>
+      <PDB_ID>2F3S</PDB_ID>
+      <Resolution>1.96</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2F3S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ETHYL-N-(BETA-D-GLUCOPYRANOSYL)OXAMATE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Binding of oxalyl derivatives of beta-d-glucopyranosylamine to muscle glycogen phosphorylase b.</PubMed_Title>
+      <Author>Hadjiloi T, et al.</Author>
+      <Journal>Bioorg Med Chem.2006 Jun 1;14(11):3872-82. Epub  2006 Feb 7.</Journal>
+      <PubMed_ID>16464598</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF GLYCOGEN PHOSPHORYLASE B WITH AN ALKYL-DIHYDROPYRIDINE-DICARBOXYLIC ACID</PDB_Title>
+      <PDB_ID>2AMV</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AMV</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320023</ASD_Ligand>
+      <Ligand_Name>2,3-DICARBOXY-4-(2-CHLORO-PHENYL)-1-ETHYL- 5-ISOPROPOXYCARBONYL-6-METHYL
+-PYRIDINIUM@@GLYCEROL@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>The structure of glycogen phosphorylase b with an alkyldihydropyridine-dicarboxylic acid compound, a novel and potent inhibitor.</PubMed_Title>
+      <Author>Zographos SE, et al.</Author>
+      <Journal>Structure.1997 Nov 15;5(11):1413-25.</Journal>
+      <PubMed_ID>9384557</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase b in complex with (1R)-3'-phenylspiro[1,5-anhydro-D-glucitol-1,5'-isoxazoline]</PDB_Title>
+      <PDB_ID>2QRH</PDB_ID>
+      <Resolution>1.83</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QRH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(5R,7R,8S,9S,10R)-7-(hydroxymethyl)-3-phenyl- 1,6-dioxa-2-azaspiro[4.5]dec-2-ene
+-8,9,10- triol</Ligand_Name>
+      <PubMed_Title>Glucose-based spiro-isoxazolines: a new family of potent glycogen phosphorylase inhibitors.</PubMed_Title>
+      <Author>Benltifa M, et al.</Author>
+      <Journal>Bioorg Med Chem.2009 Oct 15;17(20):7368-80. Epub  2009 Sep 2.</Journal>
+      <PubMed_ID>19781947</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The crystal structure of glycogen phosphorylase in complex with (3R,4R,5R)-5-hydroxymethyl-1-(3-phenylpropyl)-piperidine-3,4-diol and phosphate</PDB_Title>
+      <PDB_ID>2G9U</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2G9U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3R,4R,5R)-5-(HYDROXYMETHYL)-1-(3-PHENYLPROPYL)PIPERIDINE- 3,4-DIOL@@PHOSPHATE ION</Ligand_Name>
+      <PubMed_Title>Iminosugars as potential inhibitors of glycogenolysis: structural insights into the molecular basis of glycogen phosphorylase inhibition.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>J Med Chem.2006 Sep 21;49(19):5687-701.</Journal>
+      <PubMed_ID>16970395</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>BINDING OF 2-DEOXY-GLUCOSE-6-PHOSPHATE TO GLYCOGEN PHOSPHORYLASE B</PDB_Title>
+      <PDB_ID>2PRI</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PRI</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320103</ASD_Ligand>
+      <Ligand_Name>2-DEOXY-GLUCOSE-6-PHOSPHATE@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>The binding of 2-deoxy-D-glucose 6-phosphate to glycogen phosphorylase b: kinetic and crystallographic studies.</PubMed_Title>
+      <Author>Oikonomakos NG, et al.</Author>
+      <Journal>J Mol Biol.1995 Dec 15;254(5):900-17.</Journal>
+      <PubMed_ID>7500360</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Glycogen Phosphorylase in complex with N-4-aminobenzoyl-N'-beta-D-glucopyranosyl urea</PDB_Title>
+      <PDB_ID>2QN9</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QN9</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01320076</ASD_Ligand>
+      <Ligand_Name>INOSINIC ACID@@N-{[(4-aminophenyl)carbonyl]carbamoyl}-beta- D-glucopyranosylamine@@PYRIDOXAL-5'-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>N-(4-substituted-benzoyl)-N'-(beta-D-glucopyranosyl)ureas, inhibitors of glycogen phosphorylase: synthesis, kinetic and crystallographic evaluation</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04922</Pathway_ID>
+      <Pathway_Title>Glucagon signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00500</Pathway_ID>
+      <Pathway_Title>Starch and sucrose metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04910</Pathway_ID>
+      <Pathway_Title>Insulin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.bch.b.h.c.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1a8i</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,286,Phe;range,283,287,280s loop;site,614,Tyr;site,572,His;site,573,Glu;site,383,Glu;site,772,Phe;site,382,Pro;site,771,Arg;site,41,Val;site,194,Arg;site,228,Asp;site,310,Arg;site,311,Arg;site,243,Arg;site,69,Ile;site,68,Trp;site,72,Gln;site,197,Phe;site,65,Val;site,61,Arg;site,188,Asn;site,189,Pro;site,190,Trp;site,191,Glu;site,192,Lys;site,193,Ala;site,230,Pro;site,73,Gln;site,43,Asp;site,46,Val;site,76,Tyr</Site_Detail>
+      <Site_Reference>Oikonomakos NG, et al. J Biol Chem. 2000,275(44):34566-34573.;Johnson LN, et al. J Mol Biol. 1993,232(1):253-267.;Oikonomakos NG, et al. Biochim Biophys Acta. 2003,1648(1-2):325-332.;Kurganov BI, et al. Biochemistry. 2000,39(43):13144-13152.;Tsitsanou KE, et al. Arch Biochem Biophys. 200,384(2):245-254.</Site_Reference>
+      <Site_Type>R-T transition; Nested subunit-subunit interactions; Oligomerization</Site_Type>
+      <PDB_ID>1ABB;1B4D;1C50;1C8K;1C8L;1E1Y;1FTQ;1GFZ;1GG8;1GPY;1H5U;1LWO;1PYG;2QN9;2SKC;2SKD;2SKE;3AMV;3E3N;3E3O;3G2H;3GPB;6GPB;7GPB;8GPB</PDB_ID>
+      <PubMed_ID>10924512;8331662;12686153;11052666;11368311</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.4.1.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/4/1/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00030001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00360002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00390001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00870006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01240004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320056</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320070</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320072</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320074</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320076</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320090</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320091</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320092</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320095</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320096</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320097</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320103</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320112</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320114</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320115</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320116</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320118</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320120</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320121</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320124</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320128</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320134</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320136</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320138</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320145</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320146</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320147</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320148</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320149</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320151</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320152</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320154</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320155</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320158</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320159</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320160</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320161</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01320162</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01328036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02820003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

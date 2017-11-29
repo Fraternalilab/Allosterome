@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01030000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P34913</UniProt_ID>
+  <Seq_Length>555</Seq_Length>
+  <Molecule_Weight>62616</Molecule_Weight>
+  <KEGG_ID>hsa:2053</KEGG_ID>
+  <Orthology_ID>K08726</Orthology_ID>
+  <Function_Summary>Acts on epoxides (alkene oxides, oxiranes) and arene oxides. Plays a role in xenobiotic metabolism by degrading potentially toxic epoxides. Also determines steady-state levels of physiological mediators. Has low phosphatase activity.</Function_Summary>
+  <Catalytic_Mechanism>An epoxide + H(2)O = a glycol.</Catalytic_Mechanism>
+  <Pfam_ID>PF00561:Abhydrolase_1</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>33</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>SEH</Alias>
+      <Alias>Soluble epoxide hydrolase</Alias>
+      <Alias>Cytosolic epoxide hydrolase</Alias>
+      <Alias>Epoxide hydratase</Alias>
+      <Alias>CEH</Alias>
+      <Alias>Epoxide hydrolase 2, cytosolic</Alias>
+      <Alias>Epoxide hydrolase, soluble</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: an epoxide + H2O = a glycol.</Detail>
+      <Keyword>Epoxide hydrolase activity</Keyword>
+      <Ontology_ID>GO:0004301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>470</Position>
+      <Original>Glu</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>21</Position>
+      <Original>Gly</Original>
+      <Variation>Ala</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>103</Position>
+      <Original>Arg</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>55</Position>
+      <Original>Lys</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>154</Position>
+      <Original>Cys</Original>
+      <Variation>Tyr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>369</Position>
+      <Original>Met</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>225</Position>
+      <Original>Pro</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>287</Position>
+      <Original>Arg</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>52</Position>
+      <Original>Arg</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that modulates the force with which blood travels through the circulatory system. The process is controlled by a balance of processes that increase pressure and decrease pressure.</Detail>
+      <Keyword>Regulation of blood pressure</Keyword>
+      <Ontology_ID>GO:0008217</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a toxin stimulus.</Detail>
+      <Keyword>Response to toxin</Keyword>
+      <Ontology_ID>GO:0009636</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving a xenobiotic compound, a compound foreign to living organisms. Used of chemical compounds, e.g. a xenobiotic chemical, such as a pesticide.</Detail>
+      <Keyword>Xenobiotic metabolic process</Keyword>
+      <Ontology_ID>GO:0006805</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of vasodilation.</Detail>
+      <Keyword>Positive regulation of vasodilation</Keyword>
+      <Ontology_ID>GO:0045909</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The immediate defensive reaction (by vertebrate tissue) to infection or injury caused by chemical or physical agents. The process is characterized by local vasodilation, extravasation of plasma into intercellular spaces and accumulation of white blood cells and macrophages.</Detail>
+      <Keyword>Inflammatory response</Keyword>
+      <Ontology_ID>GO:0006954</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the maintenance of an internal steady state of calcium ions at the level of a cell.</Detail>
+      <Keyword>Cellular calcium ion homeostasis</Keyword>
+      <Ontology_ID>GO:0006874</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving a drug, a substance used in the diagnosis, treatment or prevention of a disease; as used here antibiotic substances (see antibiotic metabolism) are considered to be drugs, even if not used in medical or veterinary practice.</Detail>
+      <Keyword>Drug metabolic process</Keyword>
+      <Ontology_ID>GO:0017144</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving a reactive oxygen species, any molecules or ions formed by the incomplete one-electron reduction of oxygen. They contribute to the microbicidal activity of phagocytes, regulation of signal transduction and gene expression, and the oxidative damage to biopolymers.</Detail>
+      <Keyword>Reactive oxygen species metabolic process</Keyword>
+      <Ontology_ID>GO:0072593</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of aromatic compounds, any substance containing an aromatic carbon ring.</Detail>
+      <Keyword>Aromatic compound catabolic process</Keyword>
+      <Ontology_ID>GO:0019439</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>43</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTLRAAVFDLDGVLALPAVFGVLGRTEEALALPRGLLNDAFQKGGPEGATTRLMKGEITLSQWIPLMEENCRKCSETAKVCLPKNFSIKEIFDKAISARKINRPMLQAALMLRKKGFTTAILTNTWLDDRAERDGLAQLMCELKMHFDFLIESCQVGMVKPEPQIYKFLLDTLKASPSEVVFLDDIGANLKPARDLGMVTILVQDTDTALKELEKVTGIQLLNTPAPLPTSCNPSDMSHGYVTVKPRVRLHFVELGSGPAVCLCHGFPESWYSWRYQIPALAQAGYRVLAMDMKGYGESSAPPEIEEYCMEVLCKEMVTFLDKLGLSQAVFIGHDWGGMLVWYMALFYPERVRAVASLNTPFIPANPNMSPLESIKANPVFDYQLYFQEPGVAEAELEQNLSRTFKSLFRASDESVLSMHKVCEAGGLFVNSPEEPSLSRMVTEEEIQFYVQQFKKSGFRGPLNWYRNMERNWKWACKSLGRKILIPALMVTAEKDFVLVPQMSQHMEDWIPHLKRGHIEDCGHWTQMDKPTEVNQILIKWLDSDARNPPVVSKM</Protein_Seq>
+    <DNA_Seq>GGCACGAGCTCTCTCTCTCTCTCTCTCTCTCTCTCGCCGCCATGACGCTGCGCGGCGCCGTCTTCGACCTTGACGGGGTGCTGGCGCTGCCAGCGGTGTTCGGCGTCCTCGGCCGCACGGAGGAGGCCCTGGCGCTGCCCAGAGGACTTCTGAATGATGCTTTCCAGAAAGGGGGACCAGAGGGTGCCACTACCCGGCTTATGAAAGGAGAGATCACACTTTCCCAGTGGATACCACTCATGGAAGAAAACTGCAGGAAGTGCTCCGAGACCGCTAAAGTCTGCCTCCCCAAGAATTTCTCCATAAAAGAAATCTTTGACAAGGCGATTTCAGCCAGAAAGATCAACCGCCCCATGCTCCAGGCAGCTCTCATGCTCAGGAAGAAAGGATTCACTACTGCCATCCTCACCAACACCTGGCTGGACGACCGTGCTGAGAGAGATGGCCTGGCCCAGCTGATGTGTGAGCTGAAGATGCACTTTGACTTCCTGATAGAGTCGTGTCAGGTGGGAATGGTCAAACCTGAACCTCAGATCTACAAGTTTCTGCTGGACACCCTGAAGGCCAGCCCCAGTGAGGTCGTTTTTTTGGATGACATCGGGGCTAATCTGAAGCCAGCCCGTGACTTGGGAATGGTCACCATCCTGGTCCAGGACACTGACACGGCCCTGAAAGAACTGGAGAAAGTGACCGGAATCCAGCTTCTCAATACCCCGGCCCCTCTGCCGACCTCTTGCAATCCAAGTGACATGAGCCATGGGTACGTGACAGTAAAGCCCAGGGTCCGTCTGCATTTTGTGGAGCTGGGCTGGCCTGCTGTGTGCCTCTGCCATGGATTTCCCGAGAGTTGGTATTCTTGGAGGTACCAGATCCCTGCTCTGGCCCAGGCAGGTTACCGGGTCCTAGCTATGGACATGAAAGGCTATGGAGAGTCATCTGCTCCTCCCGAAATAGAAGAATATTGCATGGAAGTGTTATGTAAGGAGATGGTAACCTTCCTGGATAAACTGGGCCTCTCTCAAGCAGTGTTCATTGGCCATGACTGGGGTGGCATGCTGGTGTGGTACATGGCTCTCTTCTACCCCGAGAGAGTGAGGGCGGTGGCCAGTTTGAATACTCCCTTCATACCAGCAAATCCCAACATGTCCCCTTTGGAGAGTATCAAAGCCAACCCAGTATTTGATTACCAGCTCTACTTCCAAGAACCAGGAGTGGCTGAGGCTGAACTGGAACAGAACCTGAGTCGGACTTTCAAAAGCCTCTTCAGAGCAAGCGATGAGAGTGTTTTATCCATGCATAAAGTCTGTGAAGCGGGAGGACTTTTTGTAAATAGCCCAGAAGAGCCCAGCCTCAGCAGGATGGTCACTGAGGAGGAAATCCAGTTCTATGTGCAGCAGTTCAAGAAGTCTGGTTTCAGAGGTCCTCTAAACTGGTACCGAAACATGGAAAGGAACTGGAAGTGGGCTTGCAAAAGCTTGGGACGGAAGATCCTGATTCCGGCCCTGATGGTCACGGCGGAGAAGGACTTCGTGCTCGTTCCTCAGATGTCCCAGCACATGGAGGACTGGATTCCCCACCTGAAAAGGGGACACATTGAGGACTGTGGGCACTGGACACAGATGGACAAGCCAACCGAGGTGAATCAGATCCTCATTAAGTGGCTGGATTCTGATGCCCGGAACCCACCGGTGGTCTCAAAGATGTAGAACGCAGCGTAGTGCCCACGCTCAGCAGGTGTGCCATCCTTCCACCTGCTGGGGCACCATTCTTAGTATACAGAGGTGGCCTTACACACATCTTGCATGGATGGCAGCATTGTTCTGAAGGGGTTTGCAGAAAAAAAAGATTTTCTTTACATAAAGTGAATCAAATTTGACATTATTTTAGATCCCAGAGAAATCAGGTGTGATTAGTTCTCCAGGCATGAATGCATCGTCCCTTTATCTGTAAGAACCCTTAGTGTCCTGTAGGGGGACAGAATGGGGTGGCCAGGTGGTGATTTCTCTTTGACCAATGCATAGTTTGGCAGAAAAATCAGCCGTTCATTTAGAAGAATCTTAGCAGAGATTGGGATGCCTTACTCAATAAAGCTAAGATGAC</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Peroxisome</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>EPHX2</Gene_Name>
+    <Gene_ID>2053</Gene_ID>
+    <Genbank_ACCN>NM_001979</Genbank_ACCN>
+    <Protein_ACCN>NP_001970</Protein_ACCN>
+    <HGNC_ID>3402</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/2053</Gene_URL>
+    <UCSC_ID>uc003xfu.3</UCSC_ID>
+    <EMBL_ID>ENSG00000120915</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Ldl Cholesterol Level Qtl2</Disease_Name>
+      <Disease_Detail>Ldl Cholesterol Level Qtl2</Disease_Detail>
+      <Disease_DB>LDL001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/ldl_cholesterol_level_qtl2?search=EPHX2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hypercholesterolemia, Familial, Modifier of</Disease_Name>
+      <Disease_Detail>Hypercholesterolemia</Disease_Detail>
+      <Disease_DB>HYP574</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypercholesterolemia_familial_modifier_of?search=EPHX2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Familial Hypercholesterolemia</Disease_Name>
+      <Disease_Detail>Familial Hypercholesterolemia</Disease_Detail>
+      <Disease_DB>FML021</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/familial_hypercholesterolemia?search=EPHX2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Fetal Hydantoin Syndrome</Disease_Name>
+      <Disease_Detail>Fetal Hydantoin Syndrome</Disease_Detail>
+      <Disease_DB>FTL007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/fetal_hydantoin_syndrome?search=EPHX2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Coronary Artery Disease in Familial Hypercholesterolemia, Protection Against</Disease_Name>
+      <Disease_Detail>Coronary Artery Disease in Familial Hypercholesterolemia, Protection Against</Disease_Detail>
+      <Disease_DB>CRN127</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/coronary_artery_disease_in_familial_hypercholesterolemia_protection_against?search=EPHX2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hypercholesterolemia, Familial, Due to Ldlr Defect, Modifier of</Disease_Name>
+      <Disease_Detail>Hypercholesterolemia</Disease_Detail>
+      <Disease_DB>HYP296</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypercholesterolemia_familial_due_to_ldlr_defect_modifier_of?search=EPHX2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hypercholesterolemia</Disease_Name>
+      <Disease_Detail>Hypercholesterolemia</Disease_Detail>
+      <Disease_DB>HYP095</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypercholesterolemia?search=EPHX2#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of soluble epoxide Hydrolase</PDB_Title>
+      <PDB_ID>3I1Y</PDB_ID>
+      <Resolution>2.47</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3I1Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(3,3-diphenylpropyl)pyridine-3-carboxamide</Ligand_Name>
+      <PubMed_Title>Structure-based optimization of arylamides as inhibitors of soluble epoxide hydrolase.</PubMed_Title>
+      <Author>Eldrup AB, et al.</Author>
+      <Journal>J Med Chem. 2009 Oct 8;52(19):5880-95.</Journal>
+      <PubMed_ID>19746975</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human soluble epoxide hydrolase 4-(3-cyclohexyluriedo)-hexanoic acid complex</PDB_Title>
+      <PDB_ID>1ZD4</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZD4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-{[(CYCLOHEXYLAMINO)CARBONYL]AMINO}HEXANOIC ACID</Ligand_Name>
+      <PubMed_Title>Human soluble epoxide hydrolase: structural basis of inhibition by 4-(3-cyclohexylureido)-carboxylic acids.</PubMed_Title>
+      <Author>Gomez GA, et al.</Author>
+      <Journal>Protein Sci. 2006 Jan;15(1):58-64.</Journal>
+      <PubMed_ID>16322563</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of soluble epoxide Hydrolase</PDB_Title>
+      <PDB_ID>3KOO</PDB_ID>
+      <Resolution>2.79</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KOO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-(2,4-dichlorobenzyl)-4-(pyrimidin-2-yloxy)piperidine- 1-carboxamide</Ligand_Name>
+      <PubMed_Title>Optimization of piperidyl-ureas as inhibitors of soluble epoxide hydrolase.</PubMed_Title>
+      <Author>Eldrup AB, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2010 Jan 15;20(2):571-5.</Journal>
+      <PubMed_ID>19969453</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of soluble epoxide Hydrolase</PDB_Title>
+      <PDB_ID>3I28</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3I28</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-cyano-N-{(3S)-3-(4-fluorophenyl)-3-[4-(methylsulfonyl)phenyl]propyl}benzamide</Ligand_Name>
+      <PubMed_Title>Structure-based optimization of arylamides as inhibitors of soluble epoxide hydrolase.</PubMed_Title>
+      <Author>Eldrup AB, et al.</Author>
+      <Journal>J Med Chem. 2009 Oct 8;52(19):5880-95.</Journal>
+      <PubMed_ID>19746975</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human soluble epoxide hydrolase 4-(3-cyclohexyluriedo)-ethanoic acid complex</PDB_Title>
+      <PDB_ID>1ZD2</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZD2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[(CYCLOHEXYLAMINO)CARBONYL]GLYCINE</Ligand_Name>
+      <PubMed_Title>Human soluble epoxide hydrolase: structural basis of inhibition by 4-(3-cyclohexylureido)-carboxylic acids.</PubMed_Title>
+      <Author>Gomez GA, et al.</Author>
+      <Journal>Protein Sci. 2006 Jan;15(1):58-64.</Journal>
+      <PubMed_ID>16322563</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human soluble Epoxide Hydrolase</PDB_Title>
+      <PDB_ID>1S8O</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1S8O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>HEXAETHYLENE GLYCOL</Ligand_Name>
+      <PubMed_Title>Structure of human epoxide hydrolase reveals mechanistic inferences on bifunctional catalysis in epoxide and phosphate ester hydrolysis.</PubMed_Title>
+      <Author>Gomez GA, et al.</Author>
+      <Journal>Biochemistry. 2004 Apr 27;43(16):4716-23.</Journal>
+      <PubMed_ID>15096040</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human soluble Epoxide Hydrolase- N-cyclohexyl-N'-(4-iodophenyl)urea complex</PDB_Title>
+      <PDB_ID>1VJ5</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VJ5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-CYCLOHEXYL-N'-(4-IODOPHENYL)UREA</Ligand_Name>
+      <PubMed_Title>Structure of human epoxide hydrolase reveals mechanistic inferences on bifunctional catalysis in epoxide and phosphate ester hydrolysis.</PubMed_Title>
+      <Author>Gomez GA, et al.</Author>
+      <Journal>Biochemistry. 2004 Apr 27;43(16):4716-23.</Journal>
+      <PubMed_ID>15096040</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human soluble epoxide hydrolase 4-(3-cyclohexyluriedo)-butyric acid complex</PDB_Title>
+      <PDB_ID>1ZD3</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZD3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-{[(CYCLOHEXYLAMINO)CARBONYL]AMINO}BUTANOIC ACID</Ligand_Name>
+      <PubMed_Title>Human soluble epoxide hydrolase: structural basis of inhibition by 4-(3-cyclohexylureido)-carboxylic acids.</PubMed_Title>
+      <Author>Gomez GA, et al.</Author>
+      <Journal>Protein Sci. 2006 Jan;15(1):58-64.</Journal>
+      <PubMed_ID>16322563</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human soluble epoxide hydrolase 4-(3-cyclohexyluriedo)-heptanoic acid complex</PDB_Title>
+      <PDB_ID>1ZD5</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZD5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>7-{[(CYCLOHEXYLAMINO)CARBONYL]AMINO}HEPTANOIC ACID</Ligand_Name>
+      <PubMed_Title>Human soluble epoxide hydrolase: structural basis of inhibition by 4-(3-cyclohexylureido)-carboxylic acids.</PubMed_Title>
+      <Author>Gomez GA, et al.</Author>
+      <Journal>Protein Sci. 2006 Jan;15(1):58-64.</Journal>
+      <PubMed_ID>16322563</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00625</Pathway_ID>
+      <Pathway_Title>Chloroalkane and chloroalkene degradation</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Xenobiotics biodegradation and metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00590</Pathway_ID>
+      <Pathway_Title>Arachidonic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00590</Pathway_ID>
+      <Pathway_Title>Arachidonic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00590</Pathway_ID>
+      <Pathway_Title>Arachidonic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00590</Pathway_ID>
+      <Pathway_Title>Arachidonic acid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.ee.b.e.c.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1s8o</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,123,Thr;site,160,Lys;site,9,Asp;site,184,Asp;site,185,Asp;site,11,Asp;site,124,Asn</Site_Detail>
+      <Site_Reference>Tran KL, et al. Biochemistry. 2005,44(36):12179-12187.</Site_Reference>
+      <Site_Type>Unknown</Site_Type>
+      <PubMed_ID>16142916</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.3.2.10</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/3/2/10.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01030001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01030033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

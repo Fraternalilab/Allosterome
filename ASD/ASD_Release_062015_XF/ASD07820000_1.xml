@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07820000_1</Organism_ID>
+  <Organism>Lactococcus lactis </Organism>
+  <Organism_Latin>Lactococcus lactis </Organism_Latin>
+  <UniProt_ID>Q02129</UniProt_ID>
+  <Seq_Length>208</Seq_Length>
+  <Molecule_Weight>23677</Molecule_Weight>
+  <KEGG_ID>lla:L0066</KEGG_ID>
+  <Orthology_ID>K00765</Orthology_ID>
+  <Function_Summary>Catalyzes the condensation of ATP and 5-phosphoribose 1-diphosphate to form N'-(5'-phosphoribosyl)-ATP (PR-ATP). Has a crucial role in the pathway because the rate of histidine biosynthesis seems to be controlled primarily by regulation of HisG enzymatic activity.</Function_Summary>
+  <Catalytic_Mechanism>1-(5-phospho-D-ribosyl)-ATP + diphosphate = ATP + 5-phospho-alpha-D-ribose 1-diphosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF01634:HisG</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>ATP-PRT</Alias>
+      <Alias>ATP-PRTase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a glycosyl group from one compound (donor) to another (acceptor).</Detail>
+      <Keyword>Transferase activity, transferring glycosyl groups</Keyword>
+      <Ontology_ID>GO:0016757</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 1-(5-phospho-D-ribosyl)-ATP + diphosphate = ATP + 5-phospho-alpha-D-ribose 1-diphosphate.</Detail>
+      <Keyword>ATP phosphoribosyltransferase activity</Keyword>
+      <Ontology_ID>GO:0003879</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of histidine, 2-amino-3-(1H-imidazol-4-yl)propanoic acid.</Detail>
+      <Keyword>Histidine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0000105</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MIKIAITKGRIQKQVTKLLENADYDVEPILNLGRELQIKTKDDLQIIFGKPNDVITFLEHGIVDIGFVGKDTLDENDFDDYYELLYLKIGQCIFALASYPDFSNKNFQRHKRIASKYPRVTKKYFAQKQEDIEIIKLEGSVELGPVVGLADAIVDIVETGNTLSANGLEVIEKISDISTRMIVNKSSFKFKKDKIIEMVERLEDAQTN</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>hisG</Gene_Name>
+    <Gene_ID>1114855</Gene_ID>
+    <Genbank_ACCN>NC_002662</Genbank_ACCN>
+    <Protein_ACCN>NP_267364</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1114855</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>ATP Phosphoribosyl transferase (HisZG ATP-PRTase) from Lactococcus lactis</PDB_Title>
+      <PDB_ID>1Z7M</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Z7M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Activation of the hetero-octameric ATP phosphoribosyl transferase through subunit interface rearrangement by a tRNA synthetase paralog.</PubMed_Title>
+      <Author>Champagne, K.S., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:34096-34104</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16051603?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ATP Phosphoribosyl transferase (HisZG ATP-PRTase) from Lactococcus lactis with bound PRPP substrate</PDB_Title>
+      <PDB_ID>1Z7N</PDB_ID>
+      <Resolution>3.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Z7N</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Activation of the hetero-octameric ATP phosphoribosyl transferase through subunit interface rearrangement by a tRNA synthetase paralog.</PubMed_Title>
+      <Author>Champagne, K.S., et al.</Author>
+      <Journal>J.Biol.Chem.(2005)280:34096-34104</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16051603?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00340</Pathway_ID>
+      <Pathway_Title>Histidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.beb.b.b.ea.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1z7m</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Oligomerization</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.4.2.17</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/4/2/17.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00030001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01580014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07820001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

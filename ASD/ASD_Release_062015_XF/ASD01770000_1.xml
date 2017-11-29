@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01770000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P03023</UniProt_ID>
+  <Seq_Length>360</Seq_Length>
+  <Molecule_Weight>38590</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0334</KEGG_ID>
+  <Function_Summary>Repressor of the lactose operon. Binds allolactose as an inducer.</Function_Summary>
+  <Pfam_ID>PF00356:LacI</Pfam_ID>
+  <Allosteric_Activator_Count>3</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>7</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Lactose Repressor</Alias>
+      <Alias>Lac Repressor</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a specific DNA sequence in order to modulate transcription. The transcription factor may or may not also interact selectively with a protein or macromolecular complex.</Detail>
+      <Keyword>Sequence-specific DNA binding transcription factor activity</Keyword>
+      <Ontology_ID>GO:0003700</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>282</Position>
+      <Original>Tyr</Original>
+      <Variation>Asp</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MKPVTLYDVAEYAGVSYQTVSRVVNQASHVSAKTREKVEAAMAELNYIPNRVAQQLAGKQSLLIGVATSSLALHAPSQIVAAIKSRADQLGASVVVSMVERSGVEACKAAVHNLLAQRVSGLIINYPLDDQDAIAVEAACTNVPALFLDVSDQTPINSIIFSHEDGTRLGVEHLVALGHQQIALLAGPLSSVSARLRLAGWHKYLTRNQIQPIAEREGDWSAMSGFQQTMQMLNEGIVPTAMLVANDQMALGAMRAITESGLRVGADISVVGYDDTEDSSCYIPPLTTIKQDFRLLGQTSVDRLLQLSQGQAVKGNQLLPVSLVKRKTTLAPNTQTASPRALADSLMQLARQVSRLESGQ</Protein_Seq>
+    <DNA_Seq>CCGGAAGAGAGTCAATTCAGGGTGGTGAATGTGAAACCAGTAACGTTATACGATGTCGCAGAGTATGCCGGTGTCTCTTATCAGACCGTTTCCCGCGTGGTGAACCAGGCCAGCCACGTTTCTGCGAAAACGCGGGAAAAAGTGGAAGCGGCGATGGCGGAGCTGAATTACATTCCCAACCGCGTGGCACAACAACTGGCGGGCAAACAGTCGTTGCTGATTGGCGTTGCCACCTCCAGTCTGGCCCTGCACGCGCCGTCGCAAATTGTCGCGGCGATTAAATCTCGCGCCGATCAACTGGGTGCCAGCGTGGTGGTGTCGATGGTAGAACGAAGCGGCGTCGAAGCCTGTAAAGCGGCGGTGCACAATCTTCTCGCGCAACGCGTCAGTGGGCTGATCATTAACTATCCGCTGGATGACCAGGATGCCATTGCTGTGGAAGCTGCCTGCACTAATGTTCCGGCGTTATTTCTTGATGTCTCTGACCAGACACCCATCAACAGTATTATTTTCTCCCATGAAGACGGTACGCGACTGGGCGTGGAGCATCTGGTCGCATTGGGTCACCAGCAAATCGCGCTGTTAGCGGGCCCATTAAGTTCTGTCTCGGCGCGTCTGCGTCTGGCTGGCTGGCATAAATATCTCACTCGCAATCAAATTCAGCCGATAGCGGAACGGGAAGGCGACTGGAGTGCCATGTCCGGTTTTCAACAAACCATGCAAATGCTGAATGAGGGCATCGTTCCCACTGCGATGCTGGTTGCCAACGATCAGATGGCGCTGGGCGCAATGCGCGCCATTACCGAGTCCGGGCTGCGCGTTGGTGCGGATATCTCGGTAGTGGGATACGACGATACCGAAGACAGCTCATGTTATATCCCGCCGTCAACCACCATCAAACAGGATTTTCGCCTGCTGGGGCAAACCAGCGTGGACCGCTTGCTGCAACTCTCTCAGGGCCAGGCGGTGAAGGGCAATCAGCTGTTGCCCGTCTCACTGGTGAAAAGAAAAACCACCCTGGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>lacI</Gene_Name>
+    <Gene_ID>12931674</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_414879</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/945007</Gene_URL>
+    <EMBL_ID>EBESCG00000013901</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>LAC REPRESSOR HEADPIECE (RESIDUES 1-56), NMR, 32 STRUCTURES</PDB_Title>
+      <PDB_ID>1LTP</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LTP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>MODEL OF LACTOSE REPRESSOR CORE BASED ON ALIGNMENT WITH SUGAR BINDING PROTEINS IS CONCORDANT WITH GENETIC AND CHEMICAL DATA</PubMed_Title>
+      <Author>Nichols JC</Author>
+      <Journal>J Biol Chem. 1993 Aug 15;268(23):17602-12</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/sites/entrez</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Lac Repressor bound to ONPG in repressed state</PDB_Title>
+      <PDB_ID>2PE5</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PE5</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01770010</ASD_Ligand>
+      <Ligand_Name>1-O-[O-NITROPHENYL]-BETA-D-GALACTOPYRANOSE</Ligand_Name>
+      <PubMed_Title>Structural analysis of lac repressor bound to allosteric effectors</PubMed_Title>
+      <Author>Daber R, et al.</Author>
+      <Journal>J Mol Biol.2007 Jul 20;370(4):609-19. Epub  2007 Apr 19.</Journal>
+      <PubMed_ID>17543986</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>LAC REPRESSOR HEADPIECE (RESIDUES 1-56), NMR, 32 STRUCTURES</PDB_Title>
+      <PDB_ID>1LQC</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LQC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Refined structure of lac repressor headpiece (1-56) determined by relaxation matrix calculations from 2D and 3D NOE data: change of tertiary structure upon binding to the lac operator.</PubMed_Title>
+      <Author>Slijper M, et al.</Author>
+      <Journal>J Mol Biol.1996 Jun 21;259(4):761-73.</Journal>
+      <PubMed_ID>8683581</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE COMPLEX OF LAC REPRESSOR HEADPIECE AND AN 11 BASE-PAIR HALF-OPERATOR DETERMINED BY NUCLEAR MAGNETIC RESONANCE SPECTROSCOPY AND RESTRAINED MOLECULAR DYNAMICS</PDB_Title>
+      <PDB_ID>1LCC</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LCC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the complex of lac repressor headpiece and an 11 base-pair half-operator determined by nuclear magnetic resonance spectroscopy and restrained molecular dynamics.</PubMed_Title>
+      <Author>Chuprina VP, et al.</Author>
+      <Journal>J Mol Biol.1993 Nov 20;234(2):446-62.</Journal>
+      <PubMed_ID>8230225</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Lactose Repressor bound to anti-inducer ONPF in induced state</PDB_Title>
+      <PDB_ID>2PAF</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2PAF</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01770002</ASD_Ligand>
+      <Ligand_Name>ORTHONITROPHENYL-BETA-D-FUCOPYRANOSIDE</Ligand_Name>
+      <PubMed_Title>Structural analysis of lac repressor bound to allosteric effectors.</PubMed_Title>
+      <Author>Daber R, et al.</Author>
+      <Journal>J Mol Biol.2007 Jul 20;370(4):609-19. Epub  2007 Apr 19.</Journal>
+      <PubMed_ID>17543986</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the Dimeric lac Repressor/Operator O1/ONPF Complex</PDB_Title>
+      <PDB_ID>1JWL</PDB_ID>
+      <Resolution>4.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JWL</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01770002</ASD_Ligand>
+      <Ligand_Name>ORTHONITROPHENYL-BETA-D-FUCOPYRANOSIDE</Ligand_Name>
+      <PubMed_Title>Crystallographic analysis of Lac repressor bound to natural operator O1.</PubMed_Title>
+      <Author>Bell CE, et al.</Author>
+      <Journal>J Mol Biol.2001 Oct 5;312(5):921-6.</Journal>
+      <PubMed_ID>11580238</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>LAC REPRESSOR</PDB_Title>
+      <PDB_ID>1LBI</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LBI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the lactose operon repressor and its complexes with DNA and inducer.</PubMed_Title>
+      <Author>Lewis M, et al.</Author>
+      <Journal>Science.1996 Mar 1;271(5253):1247-54.</Journal>
+      <PubMed_ID>8638105</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of a dimer of LAC repressor DNA-binding domain complexed to its natural operator O3</PDB_Title>
+      <PDB_ID>2KEK</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2KEK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Specificity and affinity of Lac repressor for the auxiliary operators O2 and O3 are explained by the structures of their protein-DNA complexes.</PubMed_Title>
+      <Author>Romanuka J, et al.</Author>
+      <Journal>J Mol Biol.2009 Jul 17;390(3):478-89. Epub  2009 May 18.</Journal>
+      <PubMed_ID>19450607</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of a 1.6-hexanediol Bound Tetrameric Form of Escherichia coli Lac-repressor Refined to 2.1 Resolution</PDB_Title>
+      <PDB_ID>3EDC</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EDC</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01770014</ASD_Ligand>
+      <Ligand_Name>HEXANE-1,6-DIOL</Ligand_Name>
+      <PubMed_Title>Crystal structure of a 1.6-hexanediol bound tetrameric form of Escherichia coli lac-repressor refined to 2.1 A resolution</PubMed_Title>
+      <Author>Stenberg KA, et al.</Author>
+      <Journal>Proteins.2009 May 15;75(3):748-59.</Journal>
+      <PubMed_ID>19004002</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>High resolution structure of the Lactose Repressor bound to IPTG</PDB_Title>
+      <PDB_ID>2P9H</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2P9H</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01770001</ASD_Ligand>
+      <Ligand_Name>ISOPROPYL-1-BETA-D-THIOGALACTOSIDE</Ligand_Name>
+      <PubMed_Title>Structural analysis of lac repressor bound to allosteric effectors.</PubMed_Title>
+      <Author>Daber R, et al.</Author>
+      <Journal>J Mol Biol.2007 Jul 20;370(4):609-19. Epub  2007 Apr 19.</Journal>
+      <PubMed_ID>17543986</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Refined Solution Structure of a Dimer of LAC repressor DNA-Binding domain complexed to its natural operator O1</PDB_Title>
+      <PDB_ID>2KEI</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2KEI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Specificity and affinity of Lac repressor for the auxiliary operators O2 and O3 are explained by the structures of their protein-DNA complexes.</PubMed_Title>
+      <Author>Romanuka J, et al.</Author>
+      <Journal>J Mol Biol.2009 Jul 17;390(3):478-89. Epub  2009 May 18.</Journal>
+      <PubMed_ID>19450607</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>LACTOSE OPERON REPRESSOR BOUND TO 21-BASE PAIR SYMMETRIC OPERATOR DNA, ALPHA CARBONS ONLY</PDB_Title>
+      <PDB_ID>1LBG</PDB_ID>
+      <Resolution>4.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LBG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the lactose operon repressor and its complexes with DNA and inducer.</PubMed_Title>
+      <Author>Lewis M, et al.</Author>
+      <Journal>Science.1996 Mar 1;271(5253):1247-54.</Journal>
+      <PubMed_ID>8638105</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>UNPRECEDENTED QUATERNARY STRUCTURE OF E. COLI LAC REPRESSOR CORE TETRAMER: IMPLICATIONS FOR DNA LOOPING</PDB_Title>
+      <PDB_ID>1TLF</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TLF</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01770001</ASD_Ligand>
+      <Ligand_Name>ISOPROPYL-1-BETA-D-THIOGALACTOSIDE</Ligand_Name>
+      <PubMed_Title>Crystal structure of lac repressor core tetramer and its implications for DNA looping.</PubMed_Title>
+      <Author>Friedman AM, et al.</Author>
+      <Journal>Science.1995 Jun 23;268(5218):1721-7.</Journal>
+      <PubMed_ID>7792597</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>INTACT LACTOSE OPERON REPRESSOR WITH GRATUITOUS INDUCER IPTG</PDB_Title>
+      <PDB_ID>1LBH</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LBH</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01770001</ASD_Ligand>
+      <Ligand_Name>ISOPROPYL-1-BETA-D-THIOGALACTOSIDE</Ligand_Name>
+      <PubMed_Title>Crystal structure of the lactose operon repressor and its complexes with DNA and inducer.</PubMed_Title>
+      <Author>Lewis M, et al.</Author>
+      <Journal>Science.1996 Mar 1;271(5253):1247-54.</Journal>
+      <PubMed_ID>8638105</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the Dimeric Lac Repressor with an 11-residue C-terminal Deletion.</PDB_Title>
+      <PDB_ID>1JYF</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JYF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a variant of lac repressor with increased thermostability and decreased affinity for operator.</PubMed_Title>
+      <Author>Bell CE, et al.</Author>
+      <Journal>J Mol Biol.2001 Oct 12;313(1):99-109.</Journal>
+      <PubMed_ID>11601849</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>UNPRECEDENTED QUATERNARY STRUCTURE OF E. COLI LAC REPRESSOR CORE TETRAMER: IMPLICATIONS FOR DNA LOOPING</PDB_Title>
+      <PDB_ID>1Z04</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Z04</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Lactose Operon Repressor complexed with DNA</PubMed_Title>
+      <Author>Balaeff A</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of a dimer of LAC repressor DNA-binding domain complexed to its natural operator O2</PDB_Title>
+      <PDB_ID>2KEJ</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2KEJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Specificity and affinity of Lac repressor for the auxiliary operators O2 and O3 are explained by the structures of their protein-DNA complexes.</PubMed_Title>
+      <Author>Romanuka J, et al.</Author>
+      <Journal>J Mol Biol.2009 Jul 17;390(3):478-89. Epub  2009 May 18.</Journal>
+      <PubMed_ID>19450607</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE COMPLEX OF LAC REPRESSOR HEADPIECE AND AN 11 BASE-PAIR HALF-OPERATOR DETERMINED BY NUCLEAR MAGNETIC RESONANCE SPECTROSCOPY AND RESTRAINED MOLECULAR DYNAMICS</PDB_Title>
+      <PDB_ID>1LCD</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LCD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the complex of lac repressor headpiece and an 11 base-pair half-operator determined by nuclear magnetic resonance spectroscopy and restrained molecular dynamics.</PubMed_Title>
+      <Author>Chuprina VP, et al.</Author>
+      <Journal>J Mol Biol.1993 Nov 20;234(2):446-62.</Journal>
+      <PubMed_ID>8230225</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE LAC REPRESSOR DIMER BOUND TO OPERATOR AND THE ANTI-INDUCER ONPF</PDB_Title>
+      <PDB_ID>1EFA</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EFA</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01770002</ASD_Ligand>
+      <Ligand_Name>ORTHONITROPHENYL-BETA-D-FUCOPYRANOSIDE</Ligand_Name>
+      <PubMed_Title>A closer view of the conformation of the Lac repressor bound to operator.</PubMed_Title>
+      <Author>Bell CE, et al.</Author>
+      <Journal>Nat Struct Biol.2000 Mar;7(3):209-14.</Journal>
+      <PubMed_ID>10700279</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of a Dimeric Lac Repressor with C-terminal Deletion and K84L Substitution</PDB_Title>
+      <PDB_ID>1JYE</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JYE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a variant of lac repressor with increased thermostability and decreased affinity for operator.</PubMed_Title>
+      <Author>Bell CE, et al.</Author>
+      <Journal>J Mol Biol.2001 Oct 12;313(1):99-109.</Journal>
+      <PubMed_ID>11601849</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NMR STRUCTURE OF A PROTEIN-DNA COMPLEX OF AN ALTERED SPECIFICITY MUTANT OF THE LAC REPRESSOR HEADPIECE THAT MIMICS THE GAL REPRESSOR</PDB_Title>
+      <PDB_ID>2BJC</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BJC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Altered Specificity in DNA Binding by the Lac Repressor: A Mutant Lac Headpiece that Mimics the Gal Repressor</PubMed_Title>
+      <Author>Kopke Salinas R, et al.</Author>
+      <Journal>Chembiochem.2005 Sep;6(9):1628-37.</Journal>
+      <PubMed_ID>16094693</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SOLUTION STRUCTURE OF A DIMER OF LAC REPRESSOR DNA-BINDING DOMAIN COMPLEXED TO ITS NATURAL OPERATOR O1</PDB_Title>
+      <PDB_ID>1L1M</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1L1M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Plasticity in protein-DNA recognition: lac repressor interacts with its natural operator 01 through alternative conformations of its DNA-binding domain.</PubMed_Title>
+      <Author>Kalodimos CG, et al.</Author>
+      <Journal>EMBO J.2002 Jun 17;21(12):2866-76.</Journal>
+      <PubMed_ID>12065400</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>NMR STRUCTURE OF LAC REPRESSOR HP62-DNA COMPLEX</PDB_Title>
+      <PDB_ID>1CJG</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CJG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The solution structure of Lac repressor headpiece 62 complexed to a symmetrical lac operator.</PubMed_Title>
+      <Author>Spronk CA, et al.</Author>
+      <Journal>Structure.1999 Dec 15;7(12):1483-92.</Journal>
+      <PubMed_ID>10647179</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Solution structure of a dimeric lactose DNA-binding domain complexed to a nonspecific DNA sequence</PDB_Title>
+      <PDB_ID>1OSL</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OSL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and flexibility adaptation in nonspecific and specific protein-DNA complexes.</PubMed_Title>
+      <Author>Kalodimos CG, et al.</Author>
+      <Journal>Science.2004 Jul 16;305(5682):386-9.</Journal>
+      <PubMed_ID>15256668</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>All alpha proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.b.fa.b.f.c.html</SCOP_URL>
+    <CATH_Class>Mainly alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1cjg</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,149,Asp;site,191,Ser;site,193,Ser;site,197,Arg;site,246,Asn;site,69,Ser;site,125,Asn</Site_Detail>
+      <Site_Reference>Daber R, et al. J.Mol.Biol. 2007,370(4):609-619.</Site_Reference>
+      <PDB_ID>2P9H;1EFA;1JWL;1LBH;1TLF;2PE5;2PAF</PDB_ID>
+      <PubMed_ID>17543986</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Allosteric_Pathway>
+    <Pathway>K84, V94, V95, V96, S97, M98</Pathway>
+    <Method>Mutagenesis</Method>
+    <Verified__Residue>V94, V95, V96, S97, M98</Verified__Residue>
+    <PubMed_Title>Hongli Zhan, et al. Biochemistry. 2010 October 5; 49(39): 8636-8645.</PubMed_Title>
+    <PubMed_ID>20804152</PubMed_ID>
+    <is__ref__img>No</is__ref__img>
+    <is__display>Yes</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01330001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01770001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01770002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01770003</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01770004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01770005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01770006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01770007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01770010</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01770014</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

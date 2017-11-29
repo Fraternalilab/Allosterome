@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08100000_1</Organism_ID>
+  <Organism>Bacillus subtilis</Organism>
+  <Organism_Latin>Bacillus subtilis</Organism_Latin>
+  <UniProt_ID>P54548</UniProt_ID>
+  <Seq_Length>307</Seq_Length>
+  <Molecule_Weight>34023</Molecule_Weight>
+  <KEGG_ID>bsu:BSU23840</KEGG_ID>
+  <Orthology_ID>K00784</Orthology_ID>
+  <Function_Summary>Zinc phosphodiesterase, which displays some tRNA 3'-processing endonuclease activity. Probably involved in tRNA maturation, by removing a 3'-trailer from precursor tRNA.</Function_Summary>
+  <Catalytic_Mechanism>Endonucleolytic cleavage of RNA, removing extra 3' nucleotides from tRNA precursor, generating 3' termini of tRNAs. A 3'-hydroxy group is left at the tRNA terminus and a 5'-phosphoryl group is left at the trailer molecule.</Catalytic_Mechanism>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>RNase Z</Alias>
+      <Alias>tRNase Z</Alias>
+      <Alias>tRNA 3 endonuclease</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages within nucleic acids.</Detail>
+      <Keyword>Nuclease activity</Keyword>
+      <Ontology_ID>GO:0004518</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages within nucleic acids by creating internal breaks.</Detail>
+      <Keyword>Endonuclease activity</Keyword>
+      <Ontology_ID>GO:0004519</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of ester linkages within ribonucleic acids by creating internal breaks to yield 5'-phosphomonoesters.</Detail>
+      <Keyword>Endoribonuclease activity, producing 5'-phosphomonoesters</Keyword>
+      <Ontology_ID>GO:0016891</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process in which a pre-tRNA molecule is converted to a mature tRNA, ready for addition of an aminoacyl group.</Detail>
+      <Keyword>TRNA processing</Keyword>
+      <Ontology_ID>GO:0008033</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Cleavage of the 3'-end of the pre-tRNA as part of the process of generating the mature 3'-end of the tRNA; may involve endonucleolytic or exonucleolytic cleavage, or both.</Detail>
+      <Keyword>TRNA 3'-trailer cleavage</Keyword>
+      <Ontology_ID>GO:0042779</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MELLFLGTGAGIPAKARNVTSVALKLLEERRSVWLFDCGEATQHQILHTTIKPRKIEKIFITHMHGDHVYGLPGLLGSRSFQGGEDELTVYGPKGIKAFIETSLAVTKTHLTYPLAIQEIEEGIVFEDDQFIVTAVSVIHGVEAFGYRVQEKDVPGSLKADVLKEMNIPPGPVYQKIKKGETVTLEDGRIINGNDFLEPPKKGRSVVFSGDTRVSDKLKELARDCDVLVHEATFAKEDRKLAYDYYHSTTEQAAVTAKEARAKQLILTHISARYQGDASLELQKEAVDVFPNSVAAYDFLEVNVPRG</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>rnz</Gene_Name>
+    <Gene_Alias>yqjK</Gene_Alias>
+    <Gene_ID>938694</Gene_ID>
+    <Genbank_ACCN>NC_000964</Genbank_ACCN>
+    <Protein_ACCN>NP_390265</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/938694</Gene_URL>
+    <EMBL_ID>EBBACG00000003706</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of RNAse Z/tRNA(Thr) complex</PDB_Title>
+      <PDB_ID>2FK6</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FK6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the ubiquitous 3' processing enzyme RNase Z bound to transfer RNA.</PubMed_Title>
+      <Author>Li de la Sierra-Gallay, I., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2006)13:376-377</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16518398?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of RNase Z</PDB_Title>
+      <PDB_ID>1Y44</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Y44</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for substrate binding, cleavage and allostery in the tRNA maturase RNase Z.</PubMed_Title>
+      <Author>de la Sierra-Gallay, I.L., et al.</Author>
+      <Journal>Nature(2005)433:657-661</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15654328?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.dbe.b.h.b.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1y44</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.26.11</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/26/11.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

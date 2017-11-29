@@ -1,0 +1,2576 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02440000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P18031</UniProt_ID>
+  <Seq_Length>435</Seq_Length>
+  <Molecule_Weight>49967</Molecule_Weight>
+  <KEGG_ID>hsa:5770</KEGG_ID>
+  <Orthology_ID>K05696</Orthology_ID>
+  <EBI_ID>EBI-968788</EBI_ID>
+  <Function_Summary>Tyrosine-protein phosphatase which acts as a regulator of endoplasmic reticulum unfolded protein response. Mediates dephosphorylation of EIF2AK3/PERK; inactivating the protein kinase activity of EIF2AK3/PERK. May play an important role in CKII- and p60c-src-induced signal transduction cascades. May regulate the EFNA5-EPHA3 signaling pathway which modulates cell reorganization and cell-cell repulsion.</Function_Summary>
+  <Catalytic_Mechanism>Protein tyrosine phosphate + H(2)O = protein tyrosine + phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00102:Y_phosphatase</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>219</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>PTP-1B</Alias>
+      <Alias>Protein tyrosine phosphatase, placental</Alias>
+      <Alias>Protein-tyrosine phosphatase 1B</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: protein tyrosine phosphate + H2O = protein tyrosine + phosphate.</Detail>
+      <Keyword>Protein tyrosine phosphatase activity</Keyword>
+      <Ontology_ID>GO:0004725</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with zinc (Zn) ions.</Detail>
+      <Keyword>Zinc ion binding</Keyword>
+      <Ontology_ID>GO:0008270</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: a phosphoprotein + H2O = a protein + phosphate. Together with protein kinases, these enzymes control the state of phosphorylation of cell proteins and thereby provide an important mechanism for regulating cellular activity.</Detail>
+      <Keyword>Phosphoprotein phosphatase activity</Keyword>
+      <Ontology_ID>GO:0004721</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an ephrin receptor.</Detail>
+      <Keyword>Ephrin receptor binding</Keyword>
+      <Ontology_ID>GO:0046875</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a protein kinase, any enzyme that catalyzes the transfer of a phosphate group, usually from ATP, to a protein substrate.</Detail>
+      <Keyword>Protein kinase binding</Keyword>
+      <Ontology_ID>GO:0019901</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>387</Position>
+      <Original>Pro</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>381</Position>
+      <Original>Gly</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A series of molecular events generated as a consequence of interferon-gamma binding to a cell surface receptor.</Detail>
+      <Keyword>Interferon-gamma-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0060333</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the rate, frequency or extent of the series of molecular events generated as a consequence of interferon-gamma binding to a cell surface receptor.</Detail>
+      <Keyword>Regulation of interferon-gamma-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0060334</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</Detail>
+      <Keyword>Platelet activation</Keyword>
+      <Ontology_ID>GO:0030168</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular events generated as a consequence of a type I interferon binding to a cell surface receptor. Type I interferons include the interferon-alpha, beta, delta, episilon, zeta, kappa, tau, and omega gene families.</Detail>
+      <Keyword>Type I interferon-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0060337</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of endocytosis.</Detail>
+      <Keyword>Regulation of endocytosis</Keyword>
+      <Ontology_ID>GO:0030100</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of insulin receptor signaling.</Detail>
+      <Keyword>Negative regulation of insulin receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0046627</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which STAT proteins (Signal Transducers and Activators of Transcription) are activated by members of the JAK (janus activated kinase) family of tyrosine kinases, following the binding of physiological ligands to the growth hormone receptor. Once activated, STATs dimerize and translocate to the nucleus and modulate the expression of target genes.</Detail>
+      <Keyword>JAK-STAT cascade involved in growth hormone signaling pathway</Keyword>
+      <Ontology_ID>GO:0060397</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the rate, frequency or extent of a type I interferon-mediated signaling pathway. A type I interferon-mediated signaling pathway is the series of molecular events generated as a consequence of a type I interferon binding to a cell surface receptor.</Detail>
+      <Keyword>Regulation of type I interferon-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0060338</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the presence of unfolded proteins in the endoplasmic reticulum (ER) or other ER-related stress; results in changes in the regulation of transcription and translation.</Detail>
+      <Keyword>Endoplasmic reticulum unfolded protein response</Keyword>
+      <Ontology_ID>GO:0030968</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A process that is carried out at the cellular level which results in dynamic structural changes to the arrangement of constituent parts of cytoskeletal structures comprising actin filaments and their associated proteins.</Detail>
+      <Keyword>Actin cytoskeleton reorganization</Keyword>
+      <Ontology_ID>GO:0031532</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>20</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>352</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>242</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>243</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>378</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>215</Position>
+      <PTM_Type>Cysteine persulfide</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>295</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>215</Position>
+      <PTM_Type>S-nitrosocysteine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>1</Position>
+      <PTM_Type>N-acetylmethionine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>50</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>386</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>393</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MEMEKEFEQIDKSGSWAAIYQDIRHEASDFPCRVAKLPKNKNRNRYRDVSPFDHSRIKLHQEDNDYINASLIKMEEAQRSYILTQGPLPNTCGHFWEMVWEQKSRGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQLELENLTTQETREILHFHYTTWPDFGVPESPASFLNFLFKVRESGSLSPEHGPVVVHCSAGIGRSGTFCLADTCLLLMDKRKDPSSVDIKKVLLEMRKFRMGLIQTADQLRFSYLAVIEGAKFIMGDSSVQDQWKELSHEDLEPPPEHIPPPPRPPKRILEPHNGKCREFFPNHQWVKEETQEDKDCPIKEEKGSPLNAAPYGIESMSQDTEVRSRVVGGSLRGAQAASPAKGEPSLPEKDEDHALSYWKPFLVNMCVATVLTAGAYLCYRFLFNSNT</Protein_Seq>
+    <DNA_Seq>GGGCGGGCCTCGGGGCTAAGAGCGCGACGCCTAGAGCGGCAGACGGCGCAGTGGGCCGAGAAGGAGGCGCAGCAGCCGCCCTGGCCCGTCATGGAGATGGAAAAGGAGTTCGAGCAGATCGACAAGTCCGGGAGCTGGGCGGCCATTTACCAGGATATCCGACATGAAGCCAGTGACTTCCCATGTAGAGTGGCCAAGCTTCCTAAGAACAAAAACCGAAATAGGTACAGAGACGTCAGTCCCTTTGACCATAGTCGGATTAAACTACATCAAGAAGATAATGACTATATCAACGCTAGTTTGATAAAAATGGAAGAAGCCCAAAGGAGTTACATTCTTACCCAGGGCCCTTTGCCTAACACATGCGGTCACTTTTGGGAGATGGTGTGGGAGCAGAAAAGCAGGGGTGTCGTCATGCTCAACAGAGTGATGGAGAAAGGTTCGTTAAAATGCGCACAATACTGGCCACAAAAAGAAGAAAAAGAGATGATCTTTGAAGACACAAATTTGAAATTAACATTGATCTCTGAAGATATCAAGTCATATTATACAGTGCGACAGCTAGAATTGGAAAACCTTACAACCCAAGAAACTCGAGAGATCTTACATTTCCACTATACCACATGGCCTGACTTTGGAGTCCCTGAATCACCAGCCTCATTCTTGAACTTTCTTTTCAAAGTCCGAGAGTCAGGGTCACTCAGCCCGGAGCACGGGCCCGTTGTGGTGCACTGCAGTGCAGGCATCGGCAGGTCTGGAACCTTCTGTCTGGCTGATACCTGCCTCCTGCTGATGGACAAGAGGAAAGACCCTTCTTCCGTTGATATCAAGAAAGTGCTGTTAGAAATGAGGAAGTTTCGGATGGGGTTGATCCAGACAGCCGACCAGCTGCGCTTCTCCTACCTGGCTGTGATCGAAGGTGCCAAATTCATCATGGGGGACTCTTCCGTGCAGGATCAGTGGAAGGAGCTTTCCCACGAGGACCTGGAGCCCCCACCCGAGCATATCCCCCCACCTCCCCGGCCACCCAAACGAATCCTGGAGCCACACAATGGGAAATGCAGGGAGTTCTTCCCAAATCACCAGTGGGTGAAGGAAGAGACCCAGGAGGATAAAGACTGCCCCATCAAGGAAGAAAAAGGAAGCCCCTTAAATGCCGCACCCTACGGCATCGAAAGCATGAGTCAAGACACTGAAGTTAGAAGTCGGGTCGTGGGGGGAAGTCTTCGAGGTGCCCAGGCTGCCTCCCCAGCCAAAGGGGAGCCGTCACTGCCCGAGAAGGACGAGGACCATGCACTGAGTTACTGGAAGCCCTTCCTGGTCAACATGTGCGTGGCTACGGTCCTCACGGCCGGCGCTTACCTCTGCTACAGGTTCCTGTTCAACAGCAACACATAGCCTGACCCTCCTCCACTCCACCTCCACCCACTGTCCGCCTCTGCCCGCAGAGCCCACGCCCGACTAGCAGGCATGCCGCGGTAGGTAAGGGCCGCCGGACCGCGTAGAGAGCCGGGCCCCGGACGGACGTTGGTTCTGCACTAAAACCCATCTTCCCCGGATGTGTGTCTCACCCCTCATCCTTTTACTTTTTGCCCCTTCCACTTTGAGTACCAAATCCACAAGCCATTTTTTGAGGAGAGTGAAAGAGAGTACCATGCTGGCGGCGCAGAGGGAAGGGGCCTACACCCGTCTTGGGGCTCGCCCCACCCAGGGCTCCCTCCTGGAGCATCCCAGGCGGCGCACGCCAACAGCCCCCCCCTTGAATCTGCAGGGAGCAACTCTCCACTCCATATTTATTTAAACAATTTTTTCCCCAAAGGCATCCATAGTGCACTAGCATTTTCTTGAACCAATAATGTATTAAAATTTTTTGATGTCAGCCTTGCATCAAGGGCTTTATCAAAAAGTACAATAATAAATCCTCAGGTAGTACTGGGAATGGAAGGCTTTGCCATGGGCCTGCTGCGTCAGACCAGTACTGGGAAGGAGGACGGTTGTAAGCAGTTGTTATTTAGTGATATTGTGGGTAACGTGAGAAGATAGAACAATGCTATAATATATAATGAACACGTGGGTATTTAATAAGAAACATGATGTGAGATTACTTTGTCCCGCTTATTCTCCTCCCTGTTATCTGCTAGATCTAGTTCTCAATCACTGCTCCCCCGTGTGTATTAGAATGCATGTAAGGTCTTCTTGTGTCCTGATGAAAAATATGTGCTTGAAATGAGAAACTTTGATCTCTGCTTACTAATGTGCCCCATGTCCAAGTCCAACCTGCCTGTGCATGACCTGATCATTACATGGCTGTGGTTCCTAAGCCTGTTGCTGAAGTCATTGTCGCTCAGCAATAGGGTGCAGTTTTCCAGGAATAGGCATTTGCTAATTCCTGGCATGACACTCTAGTGACTTCCTGGTGAGGCCCAGCCTGTCCTGGTACAGCAGGGTCTTGCTGTAACTCAGACATTCCAAGGGTATGGGAAGCCATATTCACACCTCACGCTCTGGACATGATTTAGGGAAGCAGGGACACCCCCCGCCCCCCACCTTTGGGATCAGCCTCCGCCATTCCAAGTCAACACTCTTCTTGAGCAGACCGTGATTTGGAAGAGAGGCACCTGCTGGAAACCACACTTCTTGAAACAGCCTGGGTGACGGTCCTTTAGGCAGCCTGCCGCCGTCTCTGTCCCGGTTCACCTTGCCGAGAGAGGCGCGTCTGCCCCACCCTCAAACCCTGTGGGGCCTGATGGTGCTCACGACTCTTCCTGCAAAGGGAACTGAAGACCTCCACATTAAGTGGCTTTTTAACATGAAAAACACGGCAGCTGTAGCTCCCGAGCTACTCTCTTGCCAGCATTTTCACATTTTGCCTTTCTCGTGGTAGAAGCCAGTACAGAGAAATTCTGTGGTGGGAACATTCGAGGTGTCACCCTGCAGAGCTATGGTGAGGTGTGGATAAGGCTTAGGTGCCAGGCTGTAAGCATTCTGAGCTGGCTTGTTGTTTTTAAGTCCTGTATATGTATGTAGTAGTTTGGGTGTGTATATATAGTAGCATTTCAAAATGGACGTACTGGTTTAACCTCCTATCCTTGGAGAGCAGCTGGCTCTCCACCTTGTTACACATTATGTTAGAGAGGTAGCGAGCTGCTCTGCTATATGCCTTAAGCCAATATTTACTCATCAGGTCATTATTTTTTACAATGGCCATGGAATAAACCATTTTTACAAAAATAAAAACAAAAAAAGC</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>PTPN1</Gene_Name>
+    <Gene_Alias>PTP1B</Gene_Alias>
+    <Gene_ID>5770</Gene_ID>
+    <Genbank_ACCN>NM_002827</Genbank_ACCN>
+    <Protein_ACCN>NP_002818</Protein_ACCN>
+    <HGNC_ID>9642</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/5770</Gene_URL>
+    <UCSC_ID>uc002xvl.3</UCSC_ID>
+    <EMBL_ID>ENSG00000196396</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P10912</Uniprot_ID>
+      <Gene_Name>GHR</Gene_Name>
+      <EBI_ID>EBI-286316</EBI_ID>
+      <PPI_EBI_URL>EBI-968788,EBI-286316</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P63166</Uniprot_ID>
+      <Gene_Name>Sumo1</Gene_Name>
+      <EBI_ID>EBI-80152</EBI_ID>
+      <PPI_EBI_URL>EBI-968788,EBI-80152</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P15116</Uniprot_ID>
+      <Gene_Name>Cdh2</Gene_Name>
+      <EBI_ID>EBI-397974</EBI_ID>
+      <PPI_EBI_URL>EBI-968788,EBI-397974</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Obesity</Disease_Name>
+      <Disease_Detail>Obesity</Disease_Detail>
+      <Disease_DB>OBS005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/obesity?search=PTPN1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Leopard Syndrome</Disease_Name>
+      <Disease_Detail>Leopard Syndrome</Disease_Detail>
+      <Disease_DB>LPR002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/leopard_syndrome?search=PTPN1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Insulin Resistance</Disease_Name>
+      <Disease_Detail>Insulin Resistance</Disease_Detail>
+      <Disease_DB>INS005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/insulin_resistance?search=PTPN1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Bubonic Plague</Disease_Name>
+      <Disease_Detail>Bubonic Plague</Disease_Detail>
+      <Disease_DB>BBN001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/bubonic_plague?search=PTPN1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Plague</Disease_Name>
+      <Disease_Detail>Plague</Disease_Detail>
+      <Disease_DB>PLG002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/plague?search=PTPN1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Estrogen-Receptor Negative Breast Cancer</Disease_Name>
+      <Disease_Detail>Estrogen-Receptor Negative Breast Cancer</Disease_Detail>
+      <Disease_DB>EST002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/estrogen_receptor_negative_breast_cancer?search=PTPN1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>1.95 A structure of apo protein tyrosine phosphatase 1B</PDB_Title>
+      <PDB_ID>1SUG</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1SUG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-AMINO-2-HYDROXYMETHYL-PROPANE-1,3-DIOL</Ligand_Name>
+      <PubMed_Title>Water-molecule network and active-site flexibility of apo protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Pedersen AK, et al.</Author>
+      <Journal>(2004) Acta Crystallogr.,Sect.D 60: 1527-1534</Journal>
+      <PubMed_ID>15333922</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the C215D mutant of protein tyrosine phosphatase 1B</PDB_Title>
+      <PDB_ID>1PA1</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1PA1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Functional characterization and crystal structure of the C215D mutant of protein-tyrosine phosphatase-1B.</PubMed_Title>
+      <Author>Romsicki Y, et al.</Author>
+      <Journal>(2003) J.Biol.Chem. 278: 29009-29015</Journal>
+      <PubMed_ID>12748196</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HUMAN PROTEIN TYROSINE PHOSPHATASE 1B</PDB_Title>
+      <PDB_ID>2HNP</PDB_ID>
+      <Resolution>2.85</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2HNP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of human protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Barford D, et al.</Author>
+      <Journal>(1994) Science 263: 1397-1404</Journal>
+      <PubMed_ID>8128219</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B (P212121)</PDB_Title>
+      <PDB_ID>2CM2</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CM2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(4S)-2-METHYL-2,4-PENTANEDIOL</Ligand_Name>
+      <PubMed_Title>Structural basis for inhibition of protein-tyrosine phosphatase 1B by isothiazolidinone heterocyclic phosphonate mimetics.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 32784</Journal>
+      <PubMed_ID>16916797</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Protein tyrosine phosphatase 1B with sulfamic acid inhibitors</PDB_Title>
+      <PDB_ID>2F6W</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2F6W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(2-METHYL-5-PHENYL-2H-PYRAZOL-3-YL)-SULFAMIC ACID</Ligand_Name>
+      <PubMed_Title>1,2,3,4-Tetrahydroisoquinolinyl sulfamic acids as phosphatase PTP1B inhibitors.</PubMed_Title>
+      <Author>Klopfenstein SR, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem.Lett. 16: 1574-1578</Journal>
+      <PubMed_ID>16386905</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH A MONO-PHOSPHORYLATED PEPTIDE (ETDY(PTR)RKGGKGLL) FROM THE INSULIN RECEPTOR KINASE</PDB_Title>
+      <PDB_ID>1G1G</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1G1G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular basis for the dephosphorylation of the activation segment of the insulin receptor by protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Salmeen A, et al.</Author>
+      <Journal>(2000) Mol.Cell 6: 1401-1412</Journal>
+      <PubMed_ID>11163213</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a complex between PTP1B and the insulin receptor tyrosine kinase</PDB_Title>
+      <PDB_ID>2B4S</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2B4S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of a complex between protein tyrosine phosphatase 1B and the insulin receptor tyrosine kinase.</PubMed_Title>
+      <Author>Li S, et al.</Author>
+      <Journal>(2005) Structure 13: 1643-1651</Journal>
+      <PubMed_ID>16271887</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Protein tyrosine phosphatase 1B with sulfamic acid inhibitors</PDB_Title>
+      <PDB_ID>2F71</PDB_ID>
+      <Resolution>1.55</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2F71</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3-{[3-(3-SULFOAMINO-PHENYL)-PROPIONYLAMINO]- METHYL}-PHENYL)-SULFAMIC ACID</Ligand_Name>
+      <PubMed_Title>1,2,3,4-Tetrahydroisoquinolinyl sulfamic acids as phosphatase PTP1B inhibitors.</PubMed_Title>
+      <Author>Klopfenstein SR, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem.Lett. 16: 1574-1578</Journal>
+      <PubMed_ID>16386905</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Allosteric Inhibition of Protein Tyrosine Phosphatase 1B</PDB_Title>
+      <PDB_ID>1T49</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1T49</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02440002</ASD_Ligand>
+      <Ligand_Name>3-(3,5-DIBROMO-4-HYDROXY-BENZOYL)-2-ETHYL- BENZOFURAN-6-SULFONIC ACID (4
+-SULFAMOYL-PHENYL)- AMIDE</Ligand_Name>
+      <PubMed_Title>Allosteric inhibition of protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Wiesmann C, et al.</Author>
+      <Journal>(2004) Nat.Struct.Mol.Biol. 11: 730-737</Journal>
+      <PubMed_ID>15258570</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B IN COMPLEX WITH AN ISOTHIAZOLIDINONE-CONTAINING INHIBITOR</PDB_Title>
+      <PDB_ID>2VEU</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2VEU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[(1S)-2-{4-[(5S)-1,1-dioxido-3-oxoisothiazolidin- 5-yl]phenyl}-1-(4-phenyl-1H
+-imidazol-2-yl)ethyl]- 3-(trifluoromethyl)benzenesulfonamide</Ligand_Name>
+      <PubMed_Title>Isothiazolidinone inhibitors of PTP1B containing imidazoles and imidazolines.</PubMed_Title>
+      <Author>Douty B, et al.</Author>
+      <Journal>(2008) Bioorg.Med.Chem.Lett. 18: 66</Journal>
+      <PubMed_ID>18037290</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PTP1B in complex with a phosphonic acid inhibitor</PDB_Title>
+      <PDB_ID>3CWE</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3CWE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[{2-bromo-4-[(2R)-3-oxo-2,3-diphenylpropyl]phenyl}
+(difluoro)methyl]phosphonic acid</Ligand_Name>
+      <PubMed_Title>Discovery of [(3-bromo-7-cyano-2-naphthyl)(difluoro)methyl]phosphonic acid, a potent and orally active small molecule PTP1B inhibitor.</PubMed_Title>
+      <Author>Han Y, et al.</Author>
+      <Journal>(2008) Bioorg.Med.Chem.Lett. 18: 3200-3205</Journal>
+      <PubMed_ID>18477508</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B (R47V,D48N) COMPLEXED WITH 2-(OXALYL-AMINO-4,7-DIHYDRO-5H-THIENO[2,3-C]PYRAN-3-CARBOXYLIC ACID</PDB_Title>
+      <PDB_ID>1C86</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1C86</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-(OXALYL-AMINO)-4,7-DIHYDRO-5H-THIENO[2,3- C]PYRAN-3-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Structure-based design of a low molecular weight, nonphosphorus, nonpeptide, and highly selective inhibitor of protein-tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Iversen LF, et al.</Author>
+      <Journal>(2000) J.Biol.Chem. 275: 10300-10307</Journal>
+      <PubMed_ID>10744717</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PROTEIN TYROSINE PHOSPHATASE 1B CYSTEINYL-PHOSPHATE INTERMEDIATE</PDB_Title>
+      <PDB_ID>1A5Y</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1A5Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Visualization of the cysteinyl-phosphate intermediate of a protein-tyrosine phosphatase by x-ray crystallography.</PubMed_Title>
+      <Author>Pannifer AD, et al.</Author>
+      <Journal>(1998) J.Biol.Chem. 273: 10454-10462</Journal>
+      <PubMed_ID>9553104</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of PTP1B complexed with 7-(1,1-Dioxo-1H-benzo[d]isothiazol-3-yloxymethyl)-2-(oxalyl-amino)-4,7-dihydro-5H-thieno[2,3-c]pyran-3-carboxylic acid</PDB_Title>
+      <PDB_ID>1L8G</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1L8G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>7-(1,1-DIOXO-1H-BENZO[D]ISOTHIAZOL-3-YLOXYMETHYL)-2-(OXALYL-AMINO)-4,7-DIHYDRO
+-5H-THIENO[2,3- C]PYRAN-3-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Steric hindrance as a basis for structure-based design of selective inhibitors of protein-tyrosine phosphatases.</PubMed_Title>
+      <Author>Iversen LF, et al.</Author>
+      <Journal>(2001) Biochemistry 40: 14812-14820</Journal>
+      <PubMed_ID>11732900</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the PTP1B complexed with SP7343-SP7964, a pTyr mimetic</PDB_Title>
+      <PDB_ID>1NWL</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1NWL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-(4-{2-[2-(2-BROMO-ACETYLAMINO)-ETHYLDISULFANYL]- ETHYLCARBAMOYL}
+-CYCLOHEXYLCARBAMOYL)-PYRAZINE- 2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Discovery of a new phosphotyrosine mimetic for PTP1B using breakaway tethering.</PubMed_Title>
+      <Author>Erlanson DA, et al.</Author>
+      <Journal>(2003) J.Am.Chem.Soc. 125: 5602-5603</Journal>
+      <PubMed_ID>12733877</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF PHOSPHOTYROSINE PHOSPHATASE 1B IN COMPLEX WITH COMPOUND 6</PDB_Title>
+      <PDB_ID>1Q6P</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1Q6P</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4'-((2S)-2-(1H-1,2,3-BENZOTRIAZOL-1-YL)-3- {4-[DIFLUORO(PHOSPHONO)METHYL]PHENYL}
+-2-PHENYLPROPYL)- 1,1'-BIPHENYL-3-YLPHOSPHONIC ACID</Ligand_Name>
+      <PubMed_Title>The structural basis for the selectivity of benzotriazole inhibitors of PTP1B.</PubMed_Title>
+      <Author>Scapin G, et al.</Author>
+      <Journal>(2003) Biochemistry 42: 11451-11459</Journal>
+      <PubMed_ID>14516196</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Protein tyrosine phosphatase 1B with sulfamic acid inhibitors</PDB_Title>
+      <PDB_ID>2F70</PDB_ID>
+      <Resolution>2.12</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2F70</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3-{[3-(3-SULFOAMINO-PHENYL)-PROPIONYLAMINO]- METHYL}-PHENYL)-SULFAMIC ACID</Ligand_Name>
+      <PubMed_Title>1,2,3,4-Tetrahydroisoquinolinyl sulfamic acids as phosphatase PTP1B inhibitors.</PubMed_Title>
+      <Author>Klopfenstein SR, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem.Lett. 16: 1574-1578</Journal>
+      <PubMed_ID>16386905</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL INSIGHTS INTO THE DESIGN OF NONPEPTIDIC ISOTHIAZOLIDINONE-CONTAINING INHIBITORS OF PROTEIN TYROSINE PHOSPHATASE 1B</PDB_Title>
+      <PDB_ID>2CNI</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CNI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>METHYL 2-{[5-({3-CHLORO-4-[(5S)-1,1-DIOXIDO- 3-OXOISOTHIAZOLIDIN-5-YL]-N-
+(PHENYLSULFONYL)- L-PHENYLALANYL}AMINO)PENTYL]OXY}-6-HYDROXYBENZOATE</Ligand_Name>
+      <PubMed_Title>Structural insights into the design of nonpeptidic isothiazolidinone-containing inhibitors of protein-tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 38013</Journal>
+      <PubMed_ID>17028182</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH 2-(OXALYL-AMINO)-4,5,6,7-TETRAHYDRO-THIENO[2,3-C]PYRIDINE-3-CARBOXYLIC ACID</PDB_Title>
+      <PDB_ID>1C88</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1C88</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-(OXALYL-AMINO)-4,5,6,7-TETRAHYDRO-THIENO[2,3- C]PYRIDINE-3-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Structure-based design of a low molecular weight, nonphosphorus, nonpeptide, and highly selective inhibitor of protein-tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Iversen LF, et al.</Author>
+      <Journal>(2000) J.Biol.Chem. 275: 10300-10307</Journal>
+      <PubMed_ID>10744717</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Oxalyl-aryl-Amino Benzoic acid Inhibitors of PTP1B, compound 8b</PDB_Title>
+      <PDB_ID>1ONZ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1ONZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-[(7-HYDROXY-NAPHTHALEN-1-YL)-OXALYL-AMINO]- BENZOIC ACID</Ligand_Name>
+      <PubMed_Title>Discovery and structure-activity relationship of oxalylarylaminobenzoic acids as inhibitors of protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Liu G, et al.</Author>
+      <Journal>(2003) J.Med.Chem. 46: 2093-2103</Journal>
+      <PubMed_ID>12747781</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF APO HUMAN PTP1B (C215S) MUTANT</PDB_Title>
+      <PDB_ID>1I57</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1I57</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of apo protein-tyrosine phosphatase 1B C215S mutant: more than just an S --&gt; O change.</PubMed_Title>
+      <Author>Scapin G, et al.</Author>
+      <Journal>(2001) Protein Sci. 10: 1596-1605</Journal>
+      <PubMed_ID>11468356</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Protein Tyrosine Phosphatase 1B - Transition state analog for the second catalytic step</PDB_Title>
+      <PDB_ID>3I80</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3I80</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-AMINO-2-HYDROXYMETHYL-PROPANE-1,3-DIOL</Ligand_Name>
+      <PubMed_Title>Insights into the reaction of protein tyrosine phosphatase 1B. Crystal structures for transition-state analogs of both catalytic steps.</PubMed_Title>
+      <Author>Brandao TA, et al.</Author>
+      <Journal>J Biol Chem. 2010 Mar 16. [Epub ahead of print]</Journal>
+      <PubMed_ID>20236928</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ptp1B R47C Modified at C47 with N-[4-(2-{2-[3-(2-Bromo-acetylamino)-propionylamino]-3-hydroxy-propionylamino}-ethyl)-phenyl]-oxalamic acid</PDB_Title>
+      <PDB_ID>1NWE</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1NWE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[4-(2-{2-[3-(2-BROMO-ACETYLAMINO)-PROPIONYLAMINO]- 3-HYDROXY-PROPIONYLAMINO}
+-ETHYL)-PHENYL]- OXALAMIC ACID</Ligand_Name>
+      <PubMed_Title>Discovery of a new phosphotyrosine mimetic for PTP1B using breakaway tethering.</PubMed_Title>
+      <Author>Erlanson DA, et al.</Author>
+      <Journal>(2003) J.Am.Chem.Soc. 125: 5602-5603</Journal>
+      <PubMed_ID>12733877</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF PHOSPHOTYROSINE PHOSPHATASE 1B IN COMPLEX WITH COMPOUND 4</PDB_Title>
+      <PDB_ID>1Q6N</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1Q6N</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>{4-[(2S,4E)-2-(1,3-BENZOTHIAZOL-2-YL)-2-(1H- 1,2,3-BENZOTRIAZOL-1-YL)-5
+-PHENYLPENT-4-ENYL]PHENYL}(DIFLUORO)METHYLPHOSPHONIC ACID</Ligand_Name>
+      <PubMed_Title>The structural basis for the selectivity of benzotriazole inhibitors of PTP1B.</PubMed_Title>
+      <Author>Scapin G, et al.</Author>
+      <Journal>(2003) Biochemistry 42: 11451-11459</Journal>
+      <PubMed_ID>14516196</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of ptp1b-inhibitor complex</PDB_Title>
+      <PDB_ID>2QBP</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2QBP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(3-{[1-(BENZYLSULFONYL)PIPERIDIN-4-YL]AMINO}PHENYL)- 4-BROMO-3-
+(CARBOXYMETHOXY)THIOPHENE-2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Structure-based optimization of protein tyrosine phosphatase 1B inhibitors: from the active site to the second phosphotyrosine binding site.</PubMed_Title>
+      <Author>Wilson DP, et al.</Author>
+      <Journal>(2007) J.Med.Chem. 50: 4681-4698</Journal>
+      <PubMed_ID>17705360</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>RESIDUE 259 IS A KEY DETERMINANT OF SUBSTRATE SPECIFICITY OF PROTEIN-TYROSINE PHOSPHATASE 1B AND ALPHA</PDB_Title>
+      <PDB_ID>1GFY</PDB_ID>
+      <Resolution>2.13</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1GFY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-(OXALYL-AMINO)-4,7-DIHYDRO-5H-THIENO[2,3- C]THIOPYRAN-3-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Residue 259 is a key determinant of substrate specificity of protein-tyrosine phosphatases 1B and alpha.</PubMed_Title>
+      <Author>Peters GH, et al.</Author>
+      <Journal>(2000) J.Biol.Chem. 275: 18201-18209</Journal>
+      <PubMed_ID>10748206</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR INHIBITION OF PROTEIN TYROSINE PHOSPHATASE 1B BY ISOTHIAZOLIDINONE HETEROCYCLIC PHOSPHONATE MIMETICS</PDB_Title>
+      <PDB_ID>2CM7</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CM7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ISOTHIAZOLIDINONE ANALOG</Ligand_Name>
+      <PubMed_Title>Structural basis for inhibition of protein-tyrosine phosphatase 1B by isothiazolidinone heterocyclic phosphonate mimetics.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 32784</Journal>
+      <PubMed_ID>16916797</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of PTP1B with Monocyclic Thiophene Inhibitor</PDB_Title>
+      <PDB_ID>2HB1</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2HB1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-BROMO-3-(CARBOXYMETHOXY)THIOPHENE-2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Monocyclic thiophenes as protein tyrosine phosphatase 1B inhibitors: capturing interactions with Asp48.</PubMed_Title>
+      <Author>Wan ZK, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem.Lett. 16: 4941-4945</Journal>
+      <PubMed_ID>16806920</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Protein tyrosine phosphatase 1B with sulfamic acid inhibitors</PDB_Title>
+      <PDB_ID>2F6Z</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2F6Z</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>{3(S)-METHYLCARBAMOYL-2-[3-(3-SULFOAMINO- PHENYL)-PROPIONYL]-1,2,3,4-TETRAHYDRO
+-ISOQUINOLIN- 7-YL}-SULFAMIC ACID</Ligand_Name>
+      <PubMed_Title>1,2,3,4-Tetrahydroisoquinolinyl sulfamic acids as phosphatase PTP1B inhibitors.</PubMed_Title>
+      <Author>Klopfenstein SR, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem.Lett. 16: 1574-1578</Journal>
+      <PubMed_ID>16386905</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of PTP1B-inhibitor Complex</PDB_Title>
+      <PDB_ID>2NTA</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2NTA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(4-CHLORO-5-PHENYL-3-THIENYL)-1,2,5-THIADIAZOLIDIN- 3-ONE 1,1-DIOXIDE</Ligand_Name>
+      <PubMed_Title>Probing acid replacements of thiophene PTP1B inhibitors.</PubMed_Title>
+      <Author>Wan ZK, et al.</Author>
+      <Journal>(2007) Bioorg.Med.Chem.Lett. 17: 2913-2920</Journal>
+      <PubMed_ID>17336064</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of ptp1b-inhibitor complex</PDB_Title>
+      <PDB_ID>2QBS</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2QBS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-BROMO-3-(CARBOXYMETHOXY)-5-[3-(CYCLOHEXYLAMINO)PHENYL]THIOPHENE- 2
+-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Structure-based optimization of protein tyrosine phosphatase 1B inhibitors: from the active site to the second phosphotyrosine binding site.</PubMed_Title>
+      <Author>Wilson DP, et al.</Author>
+      <Journal>(2007) J.Med.Chem. 50: 4681-4698</Journal>
+      <PubMed_ID>17705360</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCUTRE OF PROTEIN TYROSINE PHOSPHATASE 1B IN COMPLEX WITH AN ISOTHIAZOLIDINONE-CONTAINING INHIBITOR</PDB_Title>
+      <PDB_ID>2VEW</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2VEW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-fluoro-N-[(1S)-1-[4-[(2-fluorophenyl)methyl]imidazol- 2-yl]-2-[4-[(5S)-1,1,3
+-trioxo-1,2-thiazolidin- 5-yl]phenyl]ethyl]benzenesulfonamide</Ligand_Name>
+      <PubMed_Title>Isothiazolidinone inhibitors of PTP1B containing imidazoles and imidazolines.</PubMed_Title>
+      <Author>Douty B, et al.</Author>
+      <Journal>(2008) Bioorg.Med.Chem.Lett. 18: 66</Journal>
+      <PubMed_ID>18037290</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR INHIBITION OF PROTEIN TYROSINE PHOSPHATASE 1B BY ISOTHIAZOLIDINONE HETEROCYCLIC PHOSPHONATE MIMETICS</PDB_Title>
+      <PDB_ID>2CMB</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CMB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>B-OCTYLGLUCOSIDE$N-{[4-(1,1-DIOXIDO-3-OXO-2,3-DIHYDROISOTHIAZOL- 5-YL)PHENYL]ACETYL}-L
+-PHENYLALANYL-4-(1,1- DIOXIDO-3-OXO-2,3-DIHYDROISOTHIAZOL-5-YL)- L-PHENYLALANINAMIDE</Ligand_Name>
+      <PubMed_Title>Structural basis for inhibition of protein-tyrosine phosphatase 1B by isothiazolidinone heterocyclic phosphonate mimetics.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 32784</Journal>
+      <PubMed_ID>16916797</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN PTP1B CATALYTIC DOMAIN COMPLEXES WITH PNU179326</PDB_Title>
+      <PDB_ID>1G7G</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1G7G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-(CARBOXYMETHOXY)-5-[(2S)-2-({(2S)-2-[(3- CARBOXYPROPANOYL)AMINO] -3
+-PHENYLPROPANOYL}AMINO)- 3-OXO-3-(PENTYLAMINO)PROPYL]BENZOIC ACID</Ligand_Name>
+      <PubMed_Title>Small molecule peptidomimetics containing a novel phosphotyrosine bioisostere inhibit protein tyrosine phosphatase 1B and augment insulin action.</PubMed_Title>
+      <Author>Bleasdale JE, et al.</Author>
+      <Journal>(2001) Biochemistry 40: 5642-5654</Journal>
+      <PubMed_ID>11341829</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH 3-(OXALYL-AMINO)-NAPHTHALENE-2-CARBOXLIC ACID</PDB_Title>
+      <PDB_ID>1C84</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1C84</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-(OXALYL-AMINO)-NAPHTHALENE-2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>2-(oxalylamino)-benzoic acid is a general, competitive inhibitor of protein-tyrosine phosphatases.</PubMed_Title>
+      <Author>Andersen HS, et al.</Author>
+      <Journal>(2000) J.Biol.Chem. 275: 7101-7108</Journal>
+      <PubMed_ID>10702277</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Oxalyl-Aryl-Amino Benzoic Acid inhibitors of PTP1B, compound 17</PDB_Title>
+      <PDB_ID>1ONY</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1ONY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-{[2-(2-CARBAMOYL-VINYL)-4-(2-METHANESULFONYLAMINO- 2-PENTYLCARBAMOYL-ETHYL)
+-PHENYL]-OXALYL-AMINO}- BENZOIC ACID</Ligand_Name>
+      <PubMed_Title>Discovery and structure-activity relationship of oxalylarylaminobenzoic acids as inhibitors of protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Liu G, et al.</Author>
+      <Journal>(2003) J.Med.Chem. 46: 2093-2103</Journal>
+      <PubMed_ID>12747781</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH 5-IODO-2-(OXALYL-AMINO)-BENZOIC ACID</PDB_Title>
+      <PDB_ID>1ECV</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1ECV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-IODO-2-(OXALYL-AMINO)-BENZOIC ACID</Ligand_Name>
+      <PubMed_Title>2-(oxalylamino)-benzoic acid is a general, competitive inhibitor of protein-tyrosine phosphatases.</PubMed_Title>
+      <Author>Andersen HS, et al.</Author>
+      <Journal>(2000) J.Biol.Chem. 275: 7101-7108</Journal>
+      <PubMed_ID>10702277</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN PTP1B CATALYTIC DOMAIN COMPLEXED WITH PNU177836</PDB_Title>
+      <PDB_ID>1JF7</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1JF7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(2-{2-[(TERT-BUTOXY-HYDROXY-METHYL)-AMINO]- 1-HYDROXY-3-PHENYL-PROPYLAMINO}-3
+-HYDROXY- 3-PENTYLAMINO-PROPYL)-2-CARBOXYMETHOXY-BENZOIC ACID</Ligand_Name>
+      <PubMed_Title>Synthesis and biological activity of a novel class of small molecular weight peptidomimetic competitive inhibitors of protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Larsen SD, et al.</Author>
+      <Journal>(2002) J.Med.Chem. 45: 598-622</Journal>
+      <PubMed_ID>11806712</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Tyrosine Phosphatase 1B Complexed with an Inhibitor</PDB_Title>
+      <PDB_ID>1KAV</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1KAV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[(4-{4-[4-(DIFLUORO-PHOSPHONO-METHYL)-PHENYL]- BUTYL}-PHENYL)-DIFLUORO-METHYL]
+-PHOSPHONIC ACID</Ligand_Name>
+      <PubMed_Title>Structure of protein tyrosine phosphatase 1B in complex with inhibitors bearing two phosphotyrosine mimetics.</PubMed_Title>
+      <Author>Jia Z, et al.</Author>
+      <Journal>(2001) J.Med.Chem. 44: 4584-4594</Journal>
+      <PubMed_ID>11741477</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR INHIBITION OF PROTEIN TYROSINE PHOSPHATASE 1B BY ISOTHIAZOLIDINONE HETEROCYCLIC PHOSPHONATE MIMETICS</PDB_Title>
+      <PDB_ID>2CMA</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CMA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-BENZOYL-L-PHENYLALANYL-4-[(5S)-1,1-DIOXIDO- 3-OXOISOTHIAZOLIDIN-5-YL]-L
+-PHENYLALANINAMIDE</Ligand_Name>
+      <PubMed_Title>Structural basis for inhibition of protein-tyrosine phosphatase 1B by isothiazolidinone heterocyclic phosphonate mimetics.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 32784</Journal>
+      <PubMed_ID>16916797</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF PHOSPHOTYROSINE PHOSPHATASE 1B IN COMPLEX WITH COMPOUND 11</PDB_Title>
+      <PDB_ID>1Q6T</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1Q6T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-[4-((2S)-2-(1H-1,2,3-BENZOTRIAZOL-1-YL)- 3-{4-[DIFLUORO
+(PHOSPHONO)METHYL]PHENYL}-2- PHENYLPROPYL)PHENYL]-2-[(1S)-1-METHOXY-3- METHYLBUTYL]QUINOLIN-8
+-YLPHOSPHONIC ACID</Ligand_Name>
+      <PubMed_Title>The structural basis for the selectivity of benzotriazole inhibitors of PTP1B.</PubMed_Title>
+      <Author>Scapin G, et al.</Author>
+      <Journal>(2003) Biochemistry 42: 11451-11459</Journal>
+      <PubMed_ID>14516196</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of PTP1B-inhibitor complex</PDB_Title>
+      <PDB_ID>2ZMM</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZMM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-bromo-3-(carboxymethoxy)-5-{3-[cyclohexyl
+(methylcarbamoyl)amino]phenyl}thiophene- 2-carboxylic acid</Ligand_Name>
+      <PubMed_Title>Structure-based optimization of protein tyrosine phosphatase-1 B inhibitors: capturing interactions with arginine 24.</PubMed_Title>
+      <Author>Wan ZK, et al.</Author>
+      <Journal>(2008) Chemmedchem 3: 1525-1529</Journal>
+      <PubMed_ID>18798205</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The structure of phosphotyrosine phosphatase 1B in complex with compound 2</PDB_Title>
+      <PDB_ID>2FJM</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2FJM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(4-{(2S,4E)-2-(1H-1,2,3-BENZOTRIAZOL-1-YL)- 2-[4-(METHOXYCARBONYL)PHENYL]-5
+-PHENYLPENT- 4-ENYL}PHENYL)(DIFLUORO)METHYLPHOSPHONIC ACID</Ligand_Name>
+      <PubMed_Title>Conformation-assisted inhibition of protein-tyrosine phosphatase-1B elicits inhibitor selectivity over T-cell protein-tyrosine phosphatase.</PubMed_Title>
+      <Author>Asante-Appiah E, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 8010-8015</Journal>
+      <PubMed_ID>16407290</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Protein tyrosine phosphatase 1B with sulfamic acid inhibitors</PDB_Title>
+      <PDB_ID>2F6Y</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2F6Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3(R)-METHYLCARBAMOYL-7-SULFOAMINO-3,4-DIHYDRO- 1H-ISOQUINOLINE-2
+-CARBOXYLIC ACID TERT-BUTYL ESTER</Ligand_Name>
+      <PubMed_Title>1,2,3,4-Tetrahydroisoquinolinyl sulfamic acids as phosphatase PTP1B inhibitors.</PubMed_Title>
+      <Author>Klopfenstein SR, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem.Lett. 16: 1574-1578</Journal>
+      <PubMed_ID>16386905</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Monoacid-Based, Cell Permeable, Selective Inhibitors of Protein Tyrosine Phosphatase 1B</PDB_Title>
+      <PDB_ID>1QXK</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1QXK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-{4-[2-ACETYLAMINO-3-(4-CARBOXYMETHOXY-3- HYDROXY-PHENYL)-PROPIONYLAMINO]
+-BUTOXY}-6- HYDROXY-BENZOIC ACID METHYL ESTER</Ligand_Name>
+      <PubMed_Title>Identification of a monoacid-based, cell permeable, selective inhibitor of protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Xin Z, et al.</Author>
+      <Journal>(2003) BIOORG.MED.CHEM.LETT. 13: 3947-3950</Journal>
+      <PubMed_ID>14592481</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>OXIDATION STATE OF PROTEIN TYROSINE PHOSPHATASE 1B</PDB_Title>
+      <PDB_ID>1OET</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1OET</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Oxidation state of the active-site cysteine in protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>van Montfort RL, et al.</Author>
+      <Journal>(2003) Nature 423: 773</Journal>
+      <PubMed_ID>12802339</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCUTRE OF PROTEIN TYROSINE PHOSPHATASE 1B IN COMPLEX WITH AN ISOTHIAZOLIDINONE-CONTAINING INHIBITOR</PDB_Title>
+      <PDB_ID>2VEX</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2VEX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-{(1S)-2-{4-[(5S)-1,1-dioxido-3-oxoisothiazolidin- 5-yl]phenyl}-1-[(4R)-4-(2
+-phenylethyl)-4,5- dihydro-1H-imidazol-2-yl]ethyl}-3-fluorobenzenesulfonamide</Ligand_Name>
+      <PubMed_Title>Isothiazolidinone inhibitors of PTP1B containing imidazoles and imidazolines.</PubMed_Title>
+      <Author>Douty B, et al.</Author>
+      <Journal>(2008) Bioorg.Med.Chem.Lett. 18: 66</Journal>
+      <PubMed_ID>18037290</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF PHOSPHOTYROSINE PHOSPHATASE 1B IN COMPLEX WITH COMPOUND 9</PDB_Title>
+      <PDB_ID>1Q6S</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1Q6S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-[4-((2R)-2-(1H-1,2,3-BENZOTRIAZOL-1-YL)- 3-{4-[DIFLUORO
+(PHOSPHONO)METHYL]PHENYL}-2- PHENYLPROPYL)PHENYL]-2-METHYLQUINOLIN-8-YLPHOSPHONIC ACID$(4S)-2-METHYL-2,4-PENTANEDIOL</Ligand_Name>
+      <PubMed_Title>The structural basis for the selectivity of benzotriazole inhibitors of PTP1B.</PubMed_Title>
+      <Author>Scapin G, et al.</Author>
+      <Journal>(2003) Biochemistry 42: 11451-11459</Journal>
+      <PubMed_ID>14516196</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure PTP1B complex with small molecule inhibitor LZP-25</PDB_Title>
+      <PDB_ID>3EB1</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3EB1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-[3-(dibenzylamino)phenyl]-2,4-dioxobutanoic acid</Ligand_Name>
+      <PubMed_Title>Targeting inactive enzyme conformation: aryl diketoacid derivatives as a new class of PTP1B inhibitors.</PubMed_Title>
+      <Author>Liu S, et al.</Author>
+      <Journal>(2008) J.Am.Chem.Soc. 130: 17075-17084</Journal>
+      <PubMed_ID>19012396</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure PTP1B complex with small molecule compound LZP-6</PDB_Title>
+      <PDB_ID>3EAX</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3EAX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4,4'-piperazine-1,4-diylbis{1-[3-(benzyloxy)phenyl]- 4-oxobutane-1,3-dione}</Ligand_Name>
+      <PubMed_Title>Targeting inactive enzyme conformation: aryl diketoacid derivatives as a new class of PTP1B inhibitors.</PubMed_Title>
+      <Author>Liu S, et al.</Author>
+      <Journal>(2008) J.Am.Chem.Soc. 130: 17075-17084</Journal>
+      <PubMed_ID>19012396</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN PTP1B CATALYTIC DOMAIN COMPLEXED WITH TPI</PDB_Title>
+      <PDB_ID>1BZC</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1BZC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-CARBAMOYL-4-{[6-(DIFLUORO-PHOSPHONO-METHYL)- NAPHTHALENE-2-CARBONYL]-AMINO}
+-BUTYRIC ACID</Ligand_Name>
+      <PubMed_Title>Structural basis for inhibition of the protein tyrosine phosphatase 1B by phosphotyrosine peptide mimetics.</PubMed_Title>
+      <Author>Groves MR, et al.</Author>
+      <Journal>(1998) Biochemistry 37: 17773-17783</Journal>
+      <PubMed_ID>9922143</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Potent, Selective Protein Tyrosine Phosphatase 1B Inhibitor Compound 23 Using a Linked-Fragment Strategy</PDB_Title>
+      <PDB_ID>1NNY</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1NNY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-({5-[(N-ACETYL-3-{4-[(CARBOXYCARBONYL)(2- CARBOXYPHENYL)AMINO]-1-NAPHTHYL}-L
+-ALANYL)AMINO]PENTYL}OXY)- 2-NAPHTHOIC ACID</Ligand_Name>
+      <PubMed_Title>Discovery of a potent, selective protein tyrosine phosphatase 1B inhibitor using a linked-fragment strategy.</PubMed_Title>
+      <Author>Szczepankiewicz BG, et al.</Author>
+      <Journal>(2003) J.Am.Chem.Soc. 125: 4087-4096</Journal>
+      <PubMed_ID>12670229</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of PTP1b in Complex with a Peptidic Bisphosphonate Inhibitor</PDB_Title>
+      <PDB_ID>1LQF</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1LQF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-BENZOYL-L-GLUTAMYL-[4-PHOSPHONO(DIFLUOROMETHYL)]- L-PHENYLALANINE-[4-PHOSPHONO
+(DIFLUORO-METHYL)]- L-PHENYLALANINEAMIDE</Ligand_Name>
+      <PubMed_Title>The structure of PTP-1B in complex with a peptide inhibitor reveals an alternative binding mode for bisphosphonates.</PubMed_Title>
+      <Author>Asante-Appiah E, et al.</Author>
+      <Journal>(2002) Biochemistry 41: 9043-9051</Journal>
+      <PubMed_ID>12119018</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PROTEIN TYROSINE PHOSPHATASE 1B WITH ACTIVE SITE INHIBITOR</PDB_Title>
+      <PDB_ID>1WAX</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1WAX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[[4-(AMINOMETHYL)PHENYL]AMINO]OXO-ACETIC ACID</Ligand_Name>
+      <PubMed_Title>Fragment-based lead discovery using X-ray crystallography.</PubMed_Title>
+      <Author>Hartshorn MJ, et al.</Author>
+      <Journal>(2005) J.Med.Chem. 48: 403</Journal>
+      <PubMed_ID>15658854</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH A BIS-PHOSPHORYLATED PEPTIDE (ETD(PTR)(PTR)RKGGKGLL) FROM THE INSULIN RECEPTOR KINASE</PDB_Title>
+      <PDB_ID>1G1H</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1G1H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular basis for the dephosphorylation of the activation segment of the insulin receptor by protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Salmeen A, et al.</Author>
+      <Journal>(2000) Mol.Cell 6: 1401-1412</Journal>
+      <PubMed_ID>11163213</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Allosteric Inhibition of Protein Tyrosine Phosphatase 1B</PDB_Title>
+      <PDB_ID>1T4J</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1T4J</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02440027</ASD_Ligand>
+      <Ligand_Name>3-(3,5-DIBROMO-4-HYDROXY-BENZOYL)-2-ETHYL- BENZOFURAN-6-SULFONIC ACID [4-
+(THIAZOL-2- YLSULFAMOYL)-PHENYL]-AMIDE</Ligand_Name>
+      <PubMed_Title>Allosteric inhibition of protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Wiesmann C, et al.</Author>
+      <Journal>(2004) Nat.Struct.Mol.Biol. 11: 730-737</Journal>
+      <PubMed_ID>15258570</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Non-carboxylic Acid-Containing Inhibitor of PTP1B Targeting the Second Phosphotyrosine Site</PDB_Title>
+      <PDB_ID>1PH0</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1PH0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-{4-[2-(S)-ALLYLOXYCARBONYLAMINO-3-{4-[(2- CARBOXY-PHENYL)-OXALYL-AMINO]
+-PHENYL}-PROPIONYLAMINO]- BUTOXY}-6-HYDROXY-BENZOIC ACID METHYL ESTER</Ligand_Name>
+      <PubMed_Title>Selective protein tyrosine phosphatase 1B inhibitors: targeting the second phosphotyrosine binding site with non-carboxylic acid-containing ligands.</PubMed_Title>
+      <Author>Liu G, et al.</Author>
+      <Journal>(2003) J.Med.Chem. 46: 3437-3440</Journal>
+      <PubMed_ID>12877578</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL INSIGHTS INTO THE DESIGN OF NONPEPTIDIC ISOTHIAZOLIDINONE-CONTAINING INHIBITORS OF PROTEIN TYROSINE PHOSPHATASE 1B</PDB_Title>
+      <PDB_ID>2CNE</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CNE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>B-OCTYLGLUCOSIDE$N-({4-[DIFLUORO(PHOSPHONO)METHYL]PHENYL}ACETYL)- L-PHENYLALANYL-4-[DIFLUORO
+(PHOSPHONO)METHYL]- L-PHENYLALANINAMIDE</Ligand_Name>
+      <PubMed_Title>Structural insights into the design of nonpeptidic isothiazolidinone-containing inhibitors of protein-tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 38013</Journal>
+      <PubMed_ID>17028182</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B (C2)</PDB_Title>
+      <PDB_ID>2CM3</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CM3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for inhibition of protein-tyrosine phosphatase 1B by isothiazolidinone heterocyclic phosphonate mimetics.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 32784</Journal>
+      <PubMed_ID>16916797</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PTP1B WITH THE CATALYTIC CYSTEINE OXIDIZED TO SULFONIC ACID</PDB_Title>
+      <PDB_ID>1OEO</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1OEO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Redox regulation of protein tyrosine phosphatase 1B involves a sulphenyl-amide intermediate.</PubMed_Title>
+      <Author>Salmeen A, et al.</Author>
+      <Journal>(2003) Nature 423: 769</Journal>
+      <PubMed_ID>12802338</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH 2-(OXALYL-AMINO-4,7-DIHYDRO-5H-THIENO[2,3-C]PYRAN-3-CARBOXYLIC ACID</PDB_Title>
+      <PDB_ID>1C87</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1C87</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-(OXALYL-AMINO)-4,7-DIHYDRO-5H-THIENO[2,3- C]PYRAN-3-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Structure-based design of a low molecular weight, nonphosphorus, nonpeptide, and highly selective inhibitor of protein-tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Iversen LF, et al.</Author>
+      <Journal>(2000) J.Biol.Chem. 275: 10300-10307</Journal>
+      <PubMed_ID>10744717</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Protein tyrosine phosphatase 1B with sulfamic acid inhibitors</PDB_Title>
+      <PDB_ID>2F6V</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2F6V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(3R)-METHYLCARBAMOYL-7-SULFOAMINO-3,4-DIHYDRO- 1H-ISOQUINOLINE-2
+-CARBOXYLIC ACID BENZYL ESTER</Ligand_Name>
+      <PubMed_Title>1,2,3,4-Tetrahydroisoquinolinyl sulfamic acids as phosphatase PTP1B inhibitors.</PubMed_Title>
+      <Author>Klopfenstein SR, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem.Lett. 16: 1574-1578</Journal>
+      <PubMed_ID>16386905</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>OXIDATION STATE OF PROTEIN TYROSINE PHOSPHATASE 1B</PDB_Title>
+      <PDB_ID>1OEV</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1OEV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Oxidation state of the active-site cysteine in protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>van Montfort RL, et al.</Author>
+      <Journal>(2003) Nature 423: 773</Journal>
+      <PubMed_ID>12802339</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of PTP1B with Tricyclic Thiophene inhibitor</PDB_Title>
+      <PDB_ID>2B07</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2B07</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-{[1-(BENZYLSULFONYL)PIPERIDIN-4-YL]AMINO}- 3-(CARBOXYMETHOXY)THIENO[3,2-B]
+[1]BENZOTHIOPHENE- 2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Bicyclic and tricyclic thiophenes as protein tyrosine phosphatase 1B inhibitors.</PubMed_Title>
+      <Author>Moretto AF, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem. 14: 2162-2177</Journal>
+      <PubMed_ID>16303309</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF PHOSPHOTYROSINE PHOSPHATASE 1B IN COMPLEX WITH COMPOUND 2</PDB_Title>
+      <PDB_ID>1Q6J</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1Q6J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[4-(2-(1H-1,2,3-BENZOTRIAZOL-1-YL)-3-{4-[DIFLUORO(PHOSPHONO)METHYL]PHENYL}- 2
+-PHENYLPROPYL)PHENYL](DIFLUORO)METHYLPHOSPHONIC ACID</Ligand_Name>
+      <PubMed_Title>The structural basis for the selectivity of benzotriazole inhibitors of PTP1B.</PubMed_Title>
+      <Author>Scapin G, et al.</Author>
+      <Journal>(2003) Biochemistry 42: 11451-11459</Journal>
+      <PubMed_ID>14516196</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The structure of phosphotyrosine phosphatase 1B in complex with compound 2</PDB_Title>
+      <PDB_ID>2FJN</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2FJN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(4-{(2S,4E)-2-(1H-1,2,3-BENZOTRIAZOL-1-YL)- 2-[4-(METHOXYCARBONYL)PHENYL]-5
+-PHENYLPENT- 4-ENYL}PHENYL)(DIFLUORO)METHYLPHOSPHONIC ACID</Ligand_Name>
+      <PubMed_Title>Conformation-assisted inhibition of protein-tyrosine phosphatase-1B elicits inhibitor selectivity over T-cell protein-tyrosine phosphatase.</PubMed_Title>
+      <Author>Asante-Appiah E, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 8010-8015</Journal>
+      <PubMed_ID>16407290</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>A Highly Efficient Approach to a Selective and Cell Active PTP1B inhibitors</PDB_Title>
+      <PDB_ID>1Q1M</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1Q1M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-{2-FLUORO-5-[3-(3-HYDROXY-2-METHOXYCARBONYL- PHENOXY)-PROPENYL]-PHENYL}
+-ISOXAZOLE-3-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Fragment screening and assembly: a highly efficient approach to a selective and cell active protein tyrosine phosphatase 1B inhibitor.</PubMed_Title>
+      <Author>Liu G, et al.</Author>
+      <Journal>(2003) J.Med.Chem. 46: 4232-4235</Journal>
+      <PubMed_ID>13678400</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH A TRI-PHOSPHORYLATED PEPTIDE (RDI(PTR)ETD(PTR)(PTR)RK) FROM THE INSULIN RECEPTOR KINASE</PDB_Title>
+      <PDB_ID>1G1F</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1G1F</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Molecular basis for the dephosphorylation of the activation segment of the insulin receptor by protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Salmeen A, et al.</Author>
+      <Journal>(2000) Mol.Cell 6: 1401-1412</Journal>
+      <PubMed_ID>11163213</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL INSIGHTS INTO THE DESIGN OF NONPEPTIDIC ISOTHIAZOLIDINONE-CONTAINING INHIBITORS OF PROTEIN TYROSINE PHOSPHATASE 1B</PDB_Title>
+      <PDB_ID>2CNH</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CNH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[(1S)-1-(1H-BENZIMIDAZOL-2-YL)-2-{4-[(5S)- 1,1-DIOXIDO-3-OXOISOTHIAZOLIDIN-5
+-YL]PHENYL}ETHYL]- 4-METHYL-3,4-DIHYDRO-2H-1,4-BENZOXAZINE-7- SULFONAMIDE</Ligand_Name>
+      <PubMed_Title>Structural insights into the design of nonpeptidic isothiazolidinone-containing inhibitors of protein-tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 38013</Journal>
+      <PubMed_ID>17028182</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of ptp1b-inhibitor complex</PDB_Title>
+      <PDB_ID>2QBR</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2QBR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-[3-(BENZYLAMINO)PHENYL]-4-BROMO-3-(CARBOXYMETHOXY)THIOPHENE- 2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Structure-based optimization of protein tyrosine phosphatase 1B inhibitors: from the active site to the second phosphotyrosine binding site.</PubMed_Title>
+      <Author>Wilson DP, et al.</Author>
+      <Journal>(2007) J.Med.Chem. 50: 4681-4698</Journal>
+      <PubMed_ID>17705360</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF PTP1B-Inhibitor Complexes</PDB_Title>
+      <PDB_ID>2ZN7</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZN7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-bromo-3-(carboxymethoxy)-5-{3-[cyclohexyl
+(phenylcarbonyl)amino]phenyl}thiophene- 2-carboxylic acid</Ligand_Name>
+      <PubMed_Title>Structure-based optimization of protein tyrosine phosphatase-1 B inhibitors: capturing interactions with arginine 24.</PubMed_Title>
+      <Author>Wan ZK, et al.</Author>
+      <Journal>(2008) Chemmedchem 3: 1525-1529</Journal>
+      <PubMed_ID>18798205</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human Tyrosine Phosphatase 1B Complexed with an Inhibitor</PDB_Title>
+      <PDB_ID>1KAK</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1KAK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>{[7-(DIFLUORO-PHOSPHONO-METHYL)-NAPHTHALEN- 2-YL]-DIFLUORO-METHYL}
+-PHOSPHONIC ACID</Ligand_Name>
+      <PubMed_Title>Structure of protein tyrosine phosphatase 1B in complex with inhibitors bearing two phosphotyrosine mimetics.</PubMed_Title>
+      <Author>Jia Z, et al.</Author>
+      <Journal>(2001) J.Med.Chem. 44: 4584-4594</Journal>
+      <PubMed_ID>11741477</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>POTENT, SELECTIVE INHIBITORS OF PROTEIN TYROSINE PHOSPHATASE 1B USING A SECOND PHOSPHOTYROSINE BINDING SITE, complexed with compound 19.</PDB_Title>
+      <PDB_ID>1NZ7</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1NZ7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-[(4-{2-ACETYLAMINO-2-[4-(1-CARBOXY-3-METHYLSULFANYL- PROPYLCARBAMOYL)
+-BUTYLCARBAMOYL]-ETHYL}-2- ETHYL-PHENYL)-OXALYL-AMINO]-BENZOIC ACID</Ligand_Name>
+      <PubMed_Title>Potent, selective inhibitors of protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Xin Z, et al.</Author>
+      <Journal>(2003) BIOORG.MED.CHEM.LETT. 13: 1887-1890</Journal>
+      <PubMed_ID>12749891</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The structure of the S295F mutant of human PTP1B</PDB_Title>
+      <PDB_ID>2F6F</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2F6F</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Residues distant from the active site influence protein-tyrosine phosphatase 1B inhibitor binding.</PubMed_Title>
+      <Author>Montalibet J, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 5258-5266</Journal>
+      <PubMed_ID>16332678</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE-BASED DESIGN OF PROTEIN TYROSINE PHOSPHATASE-1B INHIBITORS</PDB_Title>
+      <PDB_ID>2BGD</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2BGD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(4-METHOXYBIPHENYL-3-YL)-1,2,5-THIADIAZOLIDIN- 3-ONE 1,1-DIOXIDE</Ligand_Name>
+      <PubMed_Title>Structure-based design of protein tyrosine phosphatase-1B inhibitors.</PubMed_Title>
+      <Author>Black E, et al.</Author>
+      <Journal>(2005) Bioorg.Med.Chem.Lett. 15: 2503</Journal>
+      <PubMed_ID>15863305</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the S-nitrosylated Cys215 of PTP1B</PDB_Title>
+      <PDB_ID>3EU0</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3EU0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>S-NITROSO-CYSTEINE</Ligand_Name>
+      <PubMed_Title>Cysteine S-nitrosylation protects protein-tyrosine phosphatase 1B against oxidation-induced permanent inactivation.</PubMed_Title>
+      <Author>Chen YY, et al.</Author>
+      <Journal>(2008) J.Biol.Chem. 283: 35265-35272</Journal>
+      <PubMed_ID>18840608</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH PHOSPHOTYROSINE-CONTAINING HEXA-PEPTIDE (DADEPYL-NH2)</PDB_Title>
+      <PDB_ID>1PTU</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1PTU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for phosphotyrosine peptide recognition by protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Jia Z, et al.</Author>
+      <Journal>(1995) Science 268: 1754-1758</Journal>
+      <PubMed_ID>7540771</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL INSIGHTS INTO THE DESIGN OF NONPEPTIDIC ISOTHIAZOLIDINONE-CONTAINING INHIBITORS OF PROTEIN TYROSINE PHOSPHATASE 1B</PDB_Title>
+      <PDB_ID>2CNF</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CNF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(5S)-5-{4-[(2S)-2-(1H-BENZIMIDAZOL-2-YL)- 2-(1,3-BENZOTHIAZOL-2
+-YLAMINO)ETHYL]PHENYL}ISOTHIAZOLIDIN- 3-ONE 1,1-DIOXIDE</Ligand_Name>
+      <PubMed_Title>Structural insights into the design of nonpeptidic isothiazolidinone-containing inhibitors of protein-tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 38013</Journal>
+      <PubMed_ID>17028182</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH TWO PHOSPHOTYROSINE MOLECULES</PDB_Title>
+      <PDB_ID>1PTY</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1PTY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>O-PHOSPHOTYROSINE</Ligand_Name>
+      <PubMed_Title>Identification of a second aryl phosphate-binding site in protein-tyrosine phosphatase 1B: a paradigm for inhibitor design.</PubMed_Title>
+      <Author>Puius YA, et al.</Author>
+      <Journal>(1997) Proc.Natl.Acad.Sci.USA 94: 13420-13425</Journal>
+      <PubMed_ID>9391040</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Allosteric Inhibition of Protein Tyrosine Phosphatase 1B</PDB_Title>
+      <PDB_ID>1T48</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1T48</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD02440028</ASD_Ligand>
+      <Ligand_Name>3-(3,5-DIBROMO-4-HYDROXY-BENZOYL)-2-ETHYL- BENZOFURAN-6
+-SULFONIC ACID DIMETHYLAMIDE</Ligand_Name>
+      <PubMed_Title>Allosteric inhibition of protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Wiesmann C, et al.</Author>
+      <Journal>(2004) Nat.Struct.Mol.Biol. 11: 730-737</Journal>
+      <PubMed_ID>15258570</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH 2-(OXALYL-AMINO)-BENZOIC ACID</PDB_Title>
+      <PDB_ID>1C85</PDB_ID>
+      <Resolution>2.72</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1C85</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-(OXALYL-AMINO)-BENZOIC ACID</Ligand_Name>
+      <PubMed_Title>2-(oxalylamino)-benzoic acid is a general, competitive inhibitor of protein-tyrosine phosphatases.</PubMed_Title>
+      <Author>Andersen HS, et al.</Author>
+      <Journal>(2000) J.Biol.Chem. 275: 7101-7108</Journal>
+      <PubMed_ID>10702277</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Protein tyrosine phosphatase 1B with sulfamic acid inhibitors</PDB_Title>
+      <PDB_ID>2F6T</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2F6T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3(S)-METHYLCARBAMOYL-7-SULFOAMINO-3,4-DIHYDRO- 1H-ISOQUINOLINE-2
+-CARBOXYLIC ACID TERT-BUTYL ESTER</Ligand_Name>
+      <PubMed_Title>1,2,3,4-Tetrahydroisoquinolinyl sulfamic acids as phosphatase PTP1B inhibitors.</PubMed_Title>
+      <Author>Klopfenstein SR, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem.Lett. 16: 1574-1578</Journal>
+      <PubMed_ID>16386905</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH TWO BIS(PARA-PHOSPHOPHENYL)METHANE (BPPM) MOLECULES</PDB_Title>
+      <PDB_ID>1AAX</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1AAX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-PHOSPHONOOXY-PHENYL-METHYL-[4-PHOSPHONOOXY]BENZEN</Ligand_Name>
+      <PubMed_Title>Identification of a second aryl phosphate-binding site in protein-tyrosine phosphatase 1B: a paradigm for inhibitor design.</PubMed_Title>
+      <Author>Puius YA, et al.</Author>
+      <Journal>(1997) Proc.Natl.Acad.Sci.USA 94: 13420-13425</Journal>
+      <PubMed_ID>9391040</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of PTP1B with Bicyclic Thiophene inhibitor</PDB_Title>
+      <PDB_ID>2AZR</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2AZR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-(CARBOXYMETHOXY)THIENO[2,3-B]PYRIDINE-2- CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Bicyclic and tricyclic thiophenes as protein tyrosine phosphatase 1B inhibitors.</PubMed_Title>
+      <Author>Moretto AF, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem. 14: 2162-2177</Journal>
+      <PubMed_ID>16303309</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human ptp1b complexed with tpicooh</PDB_Title>
+      <PDB_ID>1BZJ</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1BZJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-(DIFLUORO-PHOSPHONO-METHYL)-NAPHTHALENE- 2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Structural basis for inhibition of the protein tyrosine phosphatase 1B by phosphotyrosine peptide mimetics.</PubMed_Title>
+      <Author>Groves MR, et al.</Author>
+      <Journal>(1998) Biochemistry 37: 17773-17783</Journal>
+      <PubMed_ID>9922143</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF PHOSPHOTYROSINE PHOSPHATASE 1B IN COMPLEX WITH COMPOUND 3</PDB_Title>
+      <PDB_ID>1Q6M</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1Q6M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>{[2-(1H-1,2,3-BENZOTRIAZOL-1-YL)-2-(3,4-DIFLUOROPHENYL)PROPANE- 1,3-DIYL]BIS[4,1
+-PHENYLENE(DIFLUOROMETHYLENE)]}BIS(PHOSPHONIC ACID)</Ligand_Name>
+      <PubMed_Title>The structural basis for the selectivity of benzotriazole inhibitors of PTP1B.</PubMed_Title>
+      <Author>Scapin G, et al.</Author>
+      <Journal>(2003) Biochemistry 42: 11451-11459</Journal>
+      <PubMed_ID>14516196</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HUMAN PTP1B CATALYTIC DOMAIN COMPLEXED WITH PNU177496</PDB_Title>
+      <PDB_ID>1G7F</PDB_ID>
+      <Resolution>1.18</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1G7F</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-{4-[(2S)-2-[({[(1S)-1-CARBOXY-2-PHENYLETHYL]AMINO}CARBONYL)AMINO]- 3-OXO-3-
+(PENTYLAMINO)PROPYL]PHENOXY}MALONIC ACID</Ligand_Name>
+      <PubMed_Title>Small molecule peptidomimetics containing a novel phosphotyrosine bioisostere inhibit protein tyrosine phosphatase 1B and augment insulin action.</PubMed_Title>
+      <Author>Bleasdale JE, et al.</Author>
+      <Journal>(2001) Biochemistry 40: 5642-5654</Journal>
+      <PubMed_ID>11341829</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH 6-(OXALYL-AMINO)-1H-INDOLE-5-CARBOXYLIC ACID</PDB_Title>
+      <PDB_ID>1C83</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1C83</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>6-(OXALYL-AMINO)-1H-INDOLE-5-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>2-(oxalylamino)-benzoic acid is a general, competitive inhibitor of protein-tyrosine phosphatases.</PubMed_Title>
+      <Author>Andersen HS, et al.</Author>
+      <Journal>(2000) J.Biol.Chem. 275: 7101-7108</Journal>
+      <PubMed_ID>10702277</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH ACETYL-D-A-D-BPA-PTYR-L-I-P-Q-Q-G</PDB_Title>
+      <PDB_ID>1EEN</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1EEN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of plasticity in protein tyrosine phosphatase 1B substrate recognition.</PubMed_Title>
+      <Author>Sarmiento M, et al.</Author>
+      <Journal>(2000) Biochemistry 39: 8171-8179</Journal>
+      <PubMed_ID>10889023</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of PTP1B with monocyclic thiophene inhibitor</PDB_Title>
+      <PDB_ID>2H4G</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2H4G</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-BROMO-3-(CARBOXYMETHOXY)-5-(4-HYDROXYPHENYL)THIOPHENE- 2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Monocyclic thiophenes as protein tyrosine phosphatase 1B inhibitors: capturing interactions with Asp48.</PubMed_Title>
+      <Author>Wan ZK, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem.Lett. 16: 4941-4945</Journal>
+      <PubMed_ID>16806920</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of ptp1b-inhibitor complex</PDB_Title>
+      <PDB_ID>2QBQ</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2QBQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-BROMO-3-(CARBOXYMETHOXY)-5-{3-[(3,3,5,5
+- TETRAMETHYLCYCLOHEXYL)AMINO]PHENYL}THIOPHENE- 2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Structure-based optimization of protein tyrosine phosphatase 1B inhibitors: from the active site to the second phosphotyrosine binding site.</PubMed_Title>
+      <Author>Wilson DP, et al.</Author>
+      <Journal>(2007) J.Med.Chem. 50: 4681-4698</Journal>
+      <PubMed_ID>17705360</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Potent, Selective Protein Tyrosine Phosphatase 1B Inhibitor Compound 5 Using a Linked-Fragment Strategy</PDB_Title>
+      <PDB_ID>1NO6</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1NO6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-[(CARBOXYCARBONYL)(1-NAPHTHYL)AMINO]BENZOIC ACID</Ligand_Name>
+      <PubMed_Title>Discovery of a potent, selective protein tyrosine phosphatase 1B inhibitor using a linked-fragment strategy.</PubMed_Title>
+      <Author>Szczepankiewicz BG, et al.</Author>
+      <Journal>(2003) J.Am.Chem.Soc. 125: 4087-4096</Journal>
+      <PubMed_ID>12670229</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of PTP1B with a monocyclic thiophene inhibitor</PDB_Title>
+      <PDB_ID>2H4K</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2H4K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-BROMO-3-(CARBOXYMETHOXY)-5-PHENYLTHIOPHENE- 2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Monocyclic thiophenes as protein tyrosine phosphatase 1B inhibitors: capturing interactions with Asp48.</PubMed_Title>
+      <Author>Wan ZK, et al.</Author>
+      <Journal>(2006) Bioorg.Med.Chem.Lett. 16: 4941-4945</Journal>
+      <PubMed_ID>16806920</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Protein Tyrosine Phosphatase 1B - Transition state analog for the first catalytic step</PDB_Title>
+      <PDB_ID>3I7Z</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3I7Z</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-AMINO-2-HYDROXYMETHYL-PROPANE-1,3-DIOL</Ligand_Name>
+      <PubMed_Title>Insights into the reaction of protein tyrosine phosphatase 1B. Crystal structures for transition-state analogs of both catalytic steps.</PubMed_Title>
+      <Author>Brandao TA, et al.</Author>
+      <Journal>J Biol Chem. 2010 Mar 16. [Epub ahead of print]</Journal>
+      <PubMed_ID>20236928</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR INHIBITION OF PROTEIN TYROSINE PHOSPHATASE 1B BY ISOTHIAZOLIDINONE HETEROCYCLIC PHOSPHONATE MIMETICS</PDB_Title>
+      <PDB_ID>2CMC</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CMC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>B-OCTYLGLUCOSIDE$N-ACETYL-L-PHENYLALANYL-4-[DIFLUORO(PHOSPHONO)METHYL]- L-PHENYLALANINAMIDE</Ligand_Name>
+      <PubMed_Title>Structural basis for inhibition of protein-tyrosine phosphatase 1B by isothiazolidinone heterocyclic phosphonate mimetics.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 32784</Journal>
+      <PubMed_ID>16916797</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Potent, Selective Protein Tyrosine Phosphatase 1B Inhibitor Compound 12 Using a Linked-Fragment Strategy</PDB_Title>
+      <PDB_ID>1NL9</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1NL9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-{[4-(2-ACETYLAMINO-2-PENTYLCARBAMOYL-ETHYL)- NAPHTHALEN-1-YL]-OXALYL-AMINO}
+-BENZOIC ACID</Ligand_Name>
+      <PubMed_Title>Discovery of a potent, selective protein tyrosine phosphatase 1B inhibitor using a linked-fragment strategy.</PubMed_Title>
+      <Author>Szczepankiewicz BG, et al.</Author>
+      <Journal>(2003) J.Am.Chem.Soc. 125: 4087-4096</Journal>
+      <PubMed_ID>12670229</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR INHIBITION OF PROTEIN TYROSINE PHOSPHATASE 1B BY ISOTHIAZOLIDINONE HETEROCYCLIC PHOSPHONATE MIMETICS</PDB_Title>
+      <PDB_ID>2CM8</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CM8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(3-HYDROXYPHENYL)ISOTHIAZOL-3(2H)-ONE 1,1- DIOXIDE</Ligand_Name>
+      <PubMed_Title>Structural basis for inhibition of protein-tyrosine phosphatase 1B by isothiazolidinone heterocyclic phosphonate mimetics.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 32784</Journal>
+      <PubMed_ID>16916797</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH ACETYL-E-L-E-F-PTYR-M-D-Y-E-NH2</PDB_Title>
+      <PDB_ID>1EEO</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1EEO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of plasticity in protein tyrosine phosphatase 1B substrate recognition.</PubMed_Title>
+      <Author>Sarmiento M, et al.</Author>
+      <Journal>(2000) Biochemistry 39: 8171-8179</Journal>
+      <PubMed_ID>10889023</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PTP1B WITH THE CATALYTIC CYSTEINE OXIDIZED TO A SULFENYL-AMIDE BOND</PDB_Title>
+      <PDB_ID>1OEM</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1OEM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Redox regulation of protein tyrosine phosphatase 1B involves a sulphenyl-amide intermediate.</PubMed_Title>
+      <Author>Salmeen A, et al.</Author>
+      <Journal>(2003) Nature 423: 769</Journal>
+      <PubMed_ID>12802338</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>OXIDATION STATE OF PROTEIN TYROSINE PHOSPHATASE 1B</PDB_Title>
+      <PDB_ID>1OEU</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1OEU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Oxidation state of the active-site cysteine in protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>van Montfort RL, et al.</Author>
+      <Journal>(2003) Nature 423: 773</Journal>
+      <PubMed_ID>12802339</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DUAL-SITE POTENT, SELECTIVE PROTEIN TYROSINE PHOSPHATASE 1B INHIBITOR USING A LINKED FRAGMENT STRATEGY AND A MALONATE HEAD ON THE FIRST SITE</PDB_Title>
+      <PDB_ID>1PYN</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1PYN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-(4-{2-TERT-BUTOXYCARBONYLAMINO-2-[4-(3- HYDROXY-2-METHOXYCARBONYL-PHENOXY)
+-BUTYLCARBAMOYL]- ETHYL}-PHENOXY)-MALONIC ACID</Ligand_Name>
+      <PubMed_Title>Discovery and SAR of novel, potent and selective protein tyrosine phosphatase 1B inhibitors.</PubMed_Title>
+      <Author>Pei Z, et al.</Author>
+      <Journal>(2003) Bioorg.Med.Chem.Lett. 13: 3129-3132</Journal>
+      <PubMed_ID>12951078</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCUTRE OF PROTEIN TYROSINE PHOSPHATASE 1B IN COMPLEX WITH AN ISOTHIAZOLIDINONE-CONTAINING INHIBITOR</PDB_Title>
+      <PDB_ID>2VEV</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2VEV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[(1S)-1-(4-benzyl-1H-imidazol-2-yl)-2-{4- [(5S)-1,1-dioxido-3
+-oxoisothiazolidin-5-yl]phenyl}ethyl]- 3-(trifluoromethyl)benzenesulfonamide</Ligand_Name>
+      <PubMed_Title>Isothiazolidinone inhibitors of PTP1B containing imidazoles and imidazolines.</PubMed_Title>
+      <Author>Douty B, et al.</Author>
+      <Journal>(2008) Bioorg.Med.Chem.Lett. 18: 66</Journal>
+      <PubMed_ID>18037290</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CYCLIC PEPTIDE INHIBITOR OF HUMAN PTP1B</PDB_Title>
+      <PDB_ID>1BZH</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1BZH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for inhibition of the protein tyrosine phosphatase 1B by phosphotyrosine peptide mimetics.</PubMed_Title>
+      <Author>Groves MR, et al.</Author>
+      <Journal>(1998) Biochemistry 37: 17773-17783</Journal>
+      <PubMed_ID>9922143</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCUTRE OF PROTEIN TYROSINE PHOSPHATASE 1B IN COMPLEX WITH AN ISOTHIAZOLIDINONE-CONTAINING INHIBITOR</PDB_Title>
+      <PDB_ID>2VEY</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2VEY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-{(1S)-2-{4-[(5S)-1,1-dioxido-3-oxoisothiazolidin- 5-yl]phenyl}-1-[4-(3
+-phenylpropyl)-1H-imidazol- 2-yl]ethyl}-3-fluorobenzenesulfonamide</Ligand_Name>
+      <PubMed_Title>Isothiazolidinone inhibitors of PTP1B containing imidazoles and imidazolines.</PubMed_Title>
+      <Author>Douty B, et al.</Author>
+      <Journal>(2008) Bioorg.Med.Chem.Lett. 18: 66</Journal>
+      <PubMed_ID>18037290</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH PHOSPHOTYROSINE</PDB_Title>
+      <PDB_ID>1PTV</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1PTV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>O-PHOSPHOTYROSINE</Ligand_Name>
+      <PubMed_Title>Structural basis for phosphotyrosine peptide recognition by protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Jia Z, et al.</Author>
+      <Journal>(1995) Science 268: 1754-1758</Journal>
+      <PubMed_ID>7540771</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>OXIDATION STATE OF PROTEIN TYROSINE PHOSPHATASE 1B</PDB_Title>
+      <PDB_ID>1OES</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1OES</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Oxidation state of the active-site cysteine in protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>van Montfort RL, et al.</Author>
+      <Journal>(2003) Nature 423: 773</Journal>
+      <PubMed_ID>12802339</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HUMAN PROTEIN TYROSINE PHOSPHATASE 1B</PDB_Title>
+      <PDB_ID>2HNQ</PDB_ID>
+      <Resolution>2.85</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2HNQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of human protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Barford D, et al.</Author>
+      <Journal>(1994) Science 263: 1397-1404</Journal>
+      <PubMed_ID>8128219</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE-BASED DESIGN OF PROTEIN TYROSINE PHOSPHATASE-1B INHIBITORS</PDB_Title>
+      <PDB_ID>2BGE</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2BGE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1,2,5-THIADIAZOLIDIN-3-ONE-1,1-DIOXIDE</Ligand_Name>
+      <PubMed_Title>Structure-based design of protein tyrosine phosphatase-1B inhibitors.</PubMed_Title>
+      <Author>Black E, et al.</Author>
+      <Journal>(2005) Bioorg.Med.Chem.Lett. 15: 2503</Journal>
+      <PubMed_ID>15863305</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of PTP1B-inhibitor complex</PDB_Title>
+      <PDB_ID>2NT7</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2NT7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>{[5-(3-{[1-(BENZYLSULFONYL)PIPERIDIN-4-YL]AMINO}PHENYL)-4-BROMO-2-(2H-TETRAZOL
+-5-YL)-3-THIENYL]OXY}ACETIC ACID</Ligand_Name>
+      <PubMed_Title>Probing acid replacements of thiophene PTP1B inhibitors.</PubMed_Title>
+      <Author>Wan ZK, et al.</Author>
+      <Journal>(2007) Bioorg.Med.Chem.Lett. 17: 2913-2920</Journal>
+      <PubMed_ID>17336064</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL INSIGHTS INTO THE DESIGN OF NONPEPTIDIC ISOTHIAZOLIDINONE-CONTAINING INHIBITORS OF PROTEIN TYROSINE PHOSPHATASE 1B</PDB_Title>
+      <PDB_ID>2CNG</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2CNG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-{(1S)-2-{4-[(5R)-1,1-DIOXIDO-3-OXOISOTHIAZOLIDIN- 5-YL]PHENYL}-1-[5-
+(TRIFLUOROMETHYL)-1H-BENZIMIDAZOL- 2-YL]ETHYL}-2,2,2-TRIFLUOROACETAMIDE</Ligand_Name>
+      <PubMed_Title>Structural insights into the design of nonpeptidic isothiazolidinone-containing inhibitors of protein-tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Ala PJ, et al.</Author>
+      <Journal>(2006) J.Biol.Chem. 281: 38013</Journal>
+      <PubMed_ID>17028182</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of protein tyrosine phosphatase 1B with potent and selective bidentate inhibitor compound 2</PDB_Title>
+      <PDB_ID>1PXH</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1PXH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-{1-[5-(1-CARBAMOYL-2-MERCAPTO-ETHYLCARBAMOYL)- PENTYLCARBAMOYL]-2-[4-(DIFLUORO
+-PHOSPHONO- METHYL)-PHENYL]-ETHYL}-3-{2-[4-(DIFLUORO- PHOSPHONO-METHYL)-PHENYL]
+-ACETYLAMINO}-SUCCINAMIC ACID</Ligand_Name>
+      <PubMed_Title>Crystal structure of PTP1B complexed with a potent and selective bidentate inhibitor.</PubMed_Title>
+      <Author>Sun JP, et al.</Author>
+      <Journal>(2003) J.Biol.Chem. 278: 12406-12414</Journal>
+      <PubMed_ID>12547827</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PTP1B complexed with Isoxazole Carboxylic Acid</PDB_Title>
+      <PDB_ID>1XBO</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1XBO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>5-(3-{3-[3-HYDROXY-2-(METHOXYCARBONYL)PHENOXY]PROPENYL}PHENYL)- 4-
+(HYDROXYMETHYL)ISOXAZOLE-3-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Isoxazole carboxylic acids as protein tyrosine phosphatase 1B (PTP1B) inhibitors.</PubMed_Title>
+      <Author>Zhao H, et al.</Author>
+      <Journal>(2004) Bioorg.Med.Chem.Lett. 14: 5543-5546</Journal>
+      <PubMed_ID>15482920</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF PROTEIN TYROSINE PHOSPHATASE 1B COMPLEXED WITH PHOSPHOTYROSINE-CONTAINING TETRA-PEPTIDE (AC-DEPYL-NH2)</PDB_Title>
+      <PDB_ID>1PTT</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1PTT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for phosphotyrosine peptide recognition by protein tyrosine phosphatase 1B.</PubMed_Title>
+      <Author>Jia Z, et al.</Author>
+      <Journal>(1995) Science 268: 1754-1758</Journal>
+      <PubMed_ID>7540771</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure PTP1B complex with aryl Seleninic acid</PDB_Title>
+      <PDB_ID>3D9C</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3D9C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(4-{(2S)-2-[(tert-butoxycarbonyl)amino]-3- methoxy-3
+-oxopropyl}phenyl)methaneseleninic acid</Ligand_Name>
+      <PubMed_Title>Seleninate in place of phosphate: irreversible inhibition of protein tyrosine phosphatases.</PubMed_Title>
+      <Author>Abdo M, et al.</Author>
+      <Journal>(2008) J.Am.Chem.Soc. 130: 13196-13197</Journal>
+      <PubMed_ID>18781746</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04910</Pathway_ID>
+      <Pathway_Title>Insulin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04520</Pathway_ID>
+      <Pathway_Title>Adherens junction</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cellular commiunity</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.gg.b.c.b.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2hnp</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,280,Phe;site,196,Phe;site,191,Phe;site,192,Leu;site,276,Glu;site,200,Glu;site,186,Glu;site,193,Asn;site,279,Lys;site,197,Lys;site,291,Trp;site,179,Trp;site,188,Pro;site,185,Pro;site,181,Asp</Site_Detail>
+      <Site_Reference>Wiesmann C, et al. Nat.Struct.Mol.Biol. 2004,11(8):730-737.</Site_Reference>
+      <Site_Type>Open-Close</Site_Type>
+      <PDB_ID>1T48;1T49;1T4J</PDB_ID>
+      <PubMed_ID>15258570</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.3.48</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/3/48.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01022016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02440028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448056</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448069</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448081</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448082</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448083</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448084</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448085</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448088</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448089</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448090</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448091</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448092</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448093</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448094</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448095</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448096</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448097</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448098</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448099</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448101</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448102</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448103</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448104</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448105</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448106</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448107</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448108</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448109</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448110</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448111</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448112</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448113</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448114</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448115</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448116</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448117</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448118</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448119</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448120</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448121</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448122</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448123</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448124</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448125</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448126</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448127</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448128</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448129</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448130</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448131</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448132</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448133</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448134</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448135</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448136</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448137</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448138</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448139</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448140</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448141</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448142</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448143</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448144</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448145</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448146</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448147</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448148</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448149</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448150</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448151</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448152</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448153</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448154</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448155</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448156</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448157</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448158</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448159</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448160</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448161</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448162</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448163</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448164</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448165</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448166</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448167</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448168</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448169</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448170</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448171</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448172</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448173</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448174</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448175</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448177</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448178</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448180</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448181</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448182</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448183</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448184</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448185</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448186</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448187</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448188</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448189</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448190</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448191</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448192</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448193</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448194</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02448195</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

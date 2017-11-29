@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04570000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P61073</UniProt_ID>
+  <Seq_Length>352</Seq_Length>
+  <Molecule_Weight>39746</Molecule_Weight>
+  <KEGG_ID>hsa:7852</KEGG_ID>
+  <Orthology_ID>K04189</Orthology_ID>
+  <EBI_ID>EBI-489411</EBI_ID>
+  <Function_Summary>Receptor for the C-X-C chemokine CXCL12/SDF-1 that transduces a signal by increasing intracellular calcium ion levels and enhancing MAPK1/MAPK3 activation. Acts as a receptor for extracellular ubiquitin; leading to enhanced intracellular calcium ions and reduced cellular cAMP levels. Involved in hematopoiesis and in cardiac ventricular septum formation. Also plays an essential role in vascularization of the gastrointestinal tract, probably by regulating vascular branching and/or remodeling processes in endothelial cells. Involved in cerebellar development. In the CNS, could mediate hippocampal-neuron survival. Acts as a coreceptor (CD4 being the primary receptor) for HIV-1 X4 isolates and as a primary receptor for some HIV-2 isolates. Promotes Env-mediated fusion of the virus.</Function_Summary>
+  <Pfam_ID>PF00001:7tm_1@@PF12109:CXCR4_N</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>11</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>SDF-1 receptor</Alias>
+      <Alias>Leukocyte-derived seven transmembrane domain receptor</Alias>
+      <Alias>FB22</Alias>
+      <Alias>CXC-R4</Alias>
+      <Alias>Stromal cell-derived factor 1 receptor</Alias>
+      <Alias>Fusin</Alias>
+      <Alias>NPYRL</Alias>
+      <Alias>LESTR</Alias>
+      <Alias>CXCR-4</Alias>
+      <Alias>LCR1</Alias>
+      <Alias>HM89</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Cell surface protein used by a virus as an attachment and entry receptor. In some cases, binding to a cellular receptor is not sufficient for infection: an additional cell surface molecule, or coreceptor, is required for entry. Some viruses are able to use different receptors depending on the target cell type.</Detail>
+      <Keyword>Host cell receptor for virus entry</Keyword>
+      <Ontology_ID>KW-1183</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently and non-covalently with ubiquitin, a protein that when covalently bound to other cellular proteins marks them for proteolytic degradation.</Detail>
+      <Keyword>Ubiquitin binding</Keyword>
+      <Ontology_ID>GO:0043130</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with a C-X-C chemokine to initiate a change in cell activity. A C-X-C chemokine has a single amino acid between the first two cysteines of the characteristic four cysteine motif.</Detail>
+      <Keyword>C-X-C chemokine receptor activity</Keyword>
+      <Ontology_ID>GO:0016494</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with monomeric or multimeric forms of actin, including actin filaments.</Detail>
+      <Keyword>Actin binding</Keyword>
+      <Ontology_ID>GO:0003779</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a ubiquitin protein ligase enzyme, any of the E3 proteins.</Detail>
+      <Keyword>Ubiquitin protein ligase binding</Keyword>
+      <Ontology_ID>GO:0031625</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a light chain of a myosin complex.</Detail>
+      <Keyword>Myosin light chain binding</Keyword>
+      <Ontology_ID>GO:0032027</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger, and in cooperation with a nearby primary receptor, initiating a change in cell activity.</Detail>
+      <Keyword>Coreceptor activity</Keyword>
+      <Ontology_ID>GO:0015026</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The set of processes involved in the start of virus infection of cells.</Detail>
+      <Keyword>Initiation of viral infection</Keyword>
+      <Ontology_ID>GO:0019059</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal, e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light, and ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell, and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</Detail>
+      <Keyword>Signal transduction</Keyword>
+      <Ontology_ID>GO:0007165</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The initiation of the activity of the inactive enzyme MAP kinase by phosphorylation by a MAPKK.</Detail>
+      <Keyword>Activation of MAPK activity</Keyword>
+      <Ontology_ID>GO:0000187</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the directed movement of a motile cell or organism in response to a specific chemical concentration gradient.</Detail>
+      <Keyword>Regulation of chemotaxis</Keyword>
+      <Ontology_ID>GO:0050920</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating lowered oxygen tension. Hypoxia, defined as a decline in O2 levels below normoxic levels of 20.8 - 20.95%, results in metabolic adaptation at both the cellular and organismal level.</Detail>
+      <Keyword>Response to hypoxia</Keyword>
+      <Ontology_ID>GO:0001666</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of preserving the structure and function of mature myelin. This includes maintaining the compact structure of myelin necessary for its electrical insulating characteristics as well as the structure of non-compact regions such as Schmidt-Lantermann clefts and paranodal loops. This does not include processes responsible for maintaining the nodes of Ranvier, which are not part of the myelin sheath.</Detail>
+      <Keyword>Myelin maintenance</Keyword>
+      <Ontology_ID>GO:0043217</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The immediate defensive reaction (by vertebrate tissue) to infection or injury caused by chemical or physical agents. The process is characterized by local vasodilation, extravasation of plasma into intercellular spaces and accumulation of white blood cells and macrophages.</Detail>
+      <Keyword>Inflammatory response</Keyword>
+      <Ontology_ID>GO:0006954</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals in which a cell uses calcium ions to convert a signal into a response.</Detail>
+      <Keyword>Calcium-mediated signaling</Keyword>
+      <Ontology_ID>GO:0019722</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The invasion by an organism of a cell of its host organism. The host is defined as the larger of the organisms involved in a symbiotic interaction.</Detail>
+      <Keyword>Entry into host cell</Keyword>
+      <Ontology_ID>GO:0030260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of oligodendrocyte differentiation.</Detail>
+      <Keyword>Positive regulation of oligodendrocyte differentiation</Keyword>
+      <Ontology_ID>GO:0048714</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a G-protein coupled receptor binding to its physiological ligand.</Detail>
+      <Keyword>G-protein coupled receptor protein signaling pathway</Keyword>
+      <Ontology_ID>GO:0007186</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the concentration of calcium ions in the cytosol.</Detail>
+      <Keyword>Elevation of cytosolic calcium ion concentration</Keyword>
+      <Ontology_ID>GO:0007204</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus from a virus.</Detail>
+      <Keyword>Response to virus</Keyword>
+      <Ontology_ID>GO:0009615</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which an organism has an effect on an organism of a different species.</Detail>
+      <Keyword>Interspecies interaction between organisms</Keyword>
+      <Ontology_ID>GO:0044419</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The movement of a dendritic cell in response to an external stimulus.</Detail>
+      <Keyword>Dendritic cell chemotaxis</Keyword>
+      <Ontology_ID>GO:0002407</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>324</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>21</Position>
+      <PTM_Type>Sulfotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>339</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>319</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>351</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>321</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>330</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>348</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>325</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>12</Position>
+      <PTM_Type>Sulfotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>7</Position>
+      <PTM_Type>Sulfotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MEGISIYTSDNYTEEMGSGDYDSMKEPCFREENANFNKIFLPTIYSIIFLTGIVGNGLVILVMGYQKKLRSMTDKYRLHLSVADLLFVITLPFWAVDAVANWYFGNFLCKAVHVIYTVNLYSSVLILAFISLDRYLAIVHATNSQRPRKLLAEKVVYVGVWIPALLLTIPDFIFANVSEADDRYICDRFYPNDLWVVVFQFQHIMVGLILPGIVILSCYCIIISKLSHSKGHQKRKALKTTVILILAFFACWLPYYIGISIDSFILLEIIKQGCEFENTVHKWISITEALAFFHCCLNPILYAFLGAKFKTSAQHALTSVSRGSSLKILSKGKRGGHSSVSTESESSSFHSS</Protein_Seq>
+    <DNA_Seq>TTTTTTTTCTTCCCTCTAGTGGGCGGGGCAGAGGAGTTAGCCAAGATGTGACTTTGAAACCCTCAGCGTCTCAGTGCCCTTTTGTTCTAAACAAAGAATTTTGTAATTGGTTCTACCAAAGAAGGATATAATGAAGTCACTATGGGAAAAGATGGGGAGGAGAGTTGTAGGATTCTACATTAATTCTCTTGTGCCCTTAGCCCACTACTTCAGAATTTCCTGAAGAAAGCAAGCCTGAATTGGTTTTTTAAATTGCTTTAAAAATTTTTTTTAACTGGGTTAATGCTTGCTGAATTGGAAGTGAATGTCCATTCCTTTGCCTCTTTTGCAGATATACACTTCAGATAACTACACCGAGGAAATGGGCTCAGGGGACTATGACTCCATGAAGGAACCCTGTTTCCGTGAAGAAAATGCTAATTTCAATAAAATCTTCCTGCCCACCATCTACTCCATCATCTTCTTAACTGGCATTGTGGGCAATGGATTGGTCATCCTGGTCATGGGTTACCAGAAGAAACTGAGAAGCATGACGGACAAGTACAGGCTGCACCTGTCAGTGGCCGACCTCCTCTTTGTCATCACGCTTCCCTTCTGGGCAGTTGATGCCGTGGCAAACTGGTACTTTGGGAACTTCCTATGCAAGGCAGTCCATGTCATCTACACAGTCAACCTCTACAGCAGTGTCCTCATCCTGGCCTTCATCAGTCTGGACCGCTACCTGGCCATCGTCCACGCCACCAACAGTCAGAGGCCAAGGAAGCTGTTGGCTGAAAAGGTGGTCTATGTTGGCGTCTGGATCCCTGCCCTCCTGCTGACTATTCCCGACTTCATCTTTGCCAACGTCAGTGAGGCAGATGACAGATATATCTGTGACCGCTTCTACCCCAATGACTTGTGGGTGGTTGTGTTCCAGTTTCAGCACATCATGGTTGGCCTTATCCTGCCTGGTATTGTCATCCTGTCCTGCTATTGCATTATCATCTCCAAGCTGTCACACTCCAAGGGCCACCAGAAGCGCAAGGCCCTCAAGACCACAGTCATCCTCATCCTGGCTTTCTTCGCCTGTTGGCTGCCTTACTACATTGGGATCAGCATCGACTCCTTCATCCTCCTGGAAATCATCAAGCAAGGGTGTGAGTTTGAGAACACTGTGCACAAGTGGATTTCCATCACCGAGGCCCTAGCTTTCTTCCACTGTTGTCTGAACCCCATCCTCTATGCTTTCCTTGGAGCCAAATTTAAAACCTCTGCCCAGCACGCACTCACCTCTGTGAGCAGAGGGTCCAGCCTCAAGATCCTCTCCAAAGGAAAGCGAGGTGGACATTCATCTGTTTCCACTGAGTCTGAGTCTTCAAGTTTTCACTCCAGCTAACACAGATGTAAAAGACTTTTTTTTATACGATAAATAACTTTTTTTTAAGTTACACATTTTTCAGATATAAAAGACTGACCAATATTGTACAGTTTTTATTGCTTGTTGGATTTTTGTCTTGTGTTTCTTTAGTTTTTGTGAAGTTTAATTGACTTATTTATATAAATTTTTTTTGTTTCATATTGATGTGTGTCTAGGCAGGACCTGTGGCCAAGTTCTTAGTTGCTGTATGTCTCGTGGTAGGACTGTAGAAAAGGGAACTGAACATTCCAGAGCGTGTAGTGAATCACGTAAAGCTAGAAATGATCCCCAGCTGTTTATGCATAGATAATCTCTCCATTCCCGTGGAACGTTTTTCCTGTTCTTAAGACGTGATTTTGCTGTAGAAGATGGCACTTATAACCAAAGCCCAAAGTGGTATAGAAATGCTGGTTTTTCAGTTTTCAGGAGTGGGTTGATTTCAGCACCTACAGTGTACAGTCTTGTATTAAGTTGTTAATAAAAGTACATGTTAAACTTAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell leading edge</CellLocal>
+      <Ontology_ID>GO:0031252</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell surface</CellLocal>
+      <Ontology_ID>GO:0009986</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasmic membrane-bounded vesicle</CellLocal>
+      <Ontology_ID>GO:0016023</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CXCR4</Gene_Name>
+    <Gene_ID>7852</Gene_ID>
+    <Genbank_ACCN>NM_001008540</Genbank_ACCN>
+    <Protein_ACCN>NP_001008540</Protein_ACCN>
+    <HGNC_ID>2561</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/7852</Gene_URL>
+    <UCSC_ID>uc002tuz.3</UCSC_ID>
+    <EMBL_ID>ENSG00000121966</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P35579</Uniprot_ID>
+      <Gene_Name>MYH9</Gene_Name>
+      <EBI_ID>EBI-350338</EBI_ID>
+      <PPI_EBI_URL>EBI-489411,EBI-350338</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Vipoma</Disease_Name>
+      <Disease_Detail>Vipoma</Disease_Detail>
+      <Disease_DB>VPM001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/vipoma?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Whim Syndrome</Disease_Name>
+      <Disease_Detail>Whim Syndrome</Disease_Detail>
+      <Disease_DB>WHM001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/whim_syndrome?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pancreatic Cancer</Disease_Name>
+      <Disease_Detail>Pancreatic Cancer</Disease_Detail>
+      <Disease_DB>PNC035</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pancreatic_cancer?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Intraocular Lymphoma</Disease_Name>
+      <Disease_Detail>Intraocular Lymphoma</Disease_Detail>
+      <Disease_DB>INT054</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/intraocular_lymphoma?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Oligoastrocytoma</Disease_Name>
+      <Disease_Detail>Oligoastrocytoma</Disease_Detail>
+      <Disease_DB>OLG006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/oligoastrocytoma?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Familial Chronic Lymphocytic Leukemia</Disease_Name>
+      <Disease_Detail>Familial Chronic Lymphocytic Leukemia</Disease_Detail>
+      <Disease_DB>FML114</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/familial_chronic_lymphocytic_leukemia?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Enchondroma</Disease_Name>
+      <Disease_Detail>Enchondroma</Disease_Detail>
+      <Disease_DB>ENC014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/enchondroma?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Retinal Hemangioblastoma</Disease_Name>
+      <Disease_Detail>Retinal Hemangioblastoma</Disease_Detail>
+      <Disease_DB>RTN013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/retinal_hemangioblastoma?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Hiv-1</Disease_Name>
+      <Disease_Detail>Hiv-1</Disease_Detail>
+      <Disease_DB>HV1006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hiv_1?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myelokathexis, Isolated</Disease_Name>
+      <Disease_Detail>Myelokathexis, Isolated</Disease_Detail>
+      <Disease_DB>MYL026</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myelokathexis_isolated?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Breast Cancer</Disease_Name>
+      <Disease_Detail>Breast Cancer</Disease_Detail>
+      <Disease_DB>BRS047</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/breast_cancer?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Chronic Lymphocytic Leukemia</Disease_Name>
+      <Disease_Detail>Chronic Lymphocytic Leukemia</Disease_Detail>
+      <Disease_DB>CHR090</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/chronic_lymphocytic_leukemia?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Usual Interstitial Pneumonia</Disease_Name>
+      <Disease_Detail>Usual Interstitial Pneumonia</Disease_Detail>
+      <Disease_DB>USL001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/usual_interstitial_pneumonia?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Mitral Valve Disease</Disease_Name>
+      <Disease_Detail>Mitral Valve Disease</Disease_Detail>
+      <Disease_DB>MTR012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mitral_valve_disease?search=CXCR4#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Structure of SDF1 in complex with the CXCR4 N-terminus containing sulfotyrosines at postitions 7, 12 and 21</PDB_Title>
+      <PDB_ID>2K05</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2K05</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of CXCR4 sulfotyrosine recognition by the chemokine SDF-1/CXCL12.</PubMed_Title>
+      <Author>Veldkamp, C.T., et al.</Author>
+      <Journal>Sci.Signal.(2008)1:ra4-ra4</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18799424?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the chemokine CXCR4 receptor in complex with a small molecule antagonist IT1t in P1 spacegroup</PDB_Title>
+      <PDB_ID>3OE9</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OE9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the CXCR4 chemokine GPCR with small-molecule and cyclic peptide antagonists.</PubMed_Title>
+      <Author>Wu, B., et al.</Author>
+      <Journal>Science(2010)330:1066-1071</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20929726?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the CXCR4 chemokine receptor in complex with a cyclic peptide antagonist CVX15</PDB_Title>
+      <PDB_ID>3OE0</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OE0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the CXCR4 chemokine GPCR with small-molecule and cyclic peptide antagonists.</PubMed_Title>
+      <Author>Wu, B., et al.</Author>
+      <Journal>Science(2010)330:1066-1071</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20929726?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The 2.5 A structure of the CXCR4 chemokine receptor in complex with small molecule antagonist IT1t</PDB_Title>
+      <PDB_ID>3ODU</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3ODU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the CXCR4 chemokine GPCR with small-molecule and cyclic peptide antagonists.</PubMed_Title>
+      <Author>Wu, B., et al.</Author>
+      <Journal>Science(2010)330:1066-1071</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20929726?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the CXCR4 chemokine receptor in complex with a small molecule antagonist IT1t in I222 spacegroup</PDB_Title>
+      <PDB_ID>3OE6</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OE6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the CXCR4 chemokine GPCR with small-molecule and cyclic peptide antagonists.</PubMed_Title>
+      <Author>Wu, B., et al.</Author>
+      <Journal>Science(2010)330:1066-1071</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20929726?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the CXCR4 chemokine receptor in complex with a small molecule antagonist IT1t in P1 spacegroup</PDB_Title>
+      <PDB_ID>3OE8</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OE8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the CXCR4 chemokine GPCR with small-molecule and cyclic peptide antagonists.</PubMed_Title>
+      <Author>Wu, B., et al.</Author>
+      <Journal>Science(2010)330:1066-1071</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20929726?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of SDF1 in complex with the CXCR4 N-terminus containing no sulfotyrosines</PDB_Title>
+      <PDB_ID>2K04</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2K04</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of CXCR4 sulfotyrosine recognition by the chemokine SDF-1/CXCL12</PubMed_Title>
+      <Author>Veldkamp, C.T., et al.</Author>
+      <Journal>Sci.Signal.(2008)1:ra4-ra4</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18799424?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of SDF1 in complex with the CXCR4 N-terminus containing a sulfotyrosine at postition 21</PDB_Title>
+      <PDB_ID>2K03</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2K03</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis of CXCR4 sulfotyrosine recognition by the chemokine SDF-1/CXCL12</PubMed_Title>
+      <Author>Veldkamp, C.T., et al.</Author>
+      <Journal>Sci.Signal.(2008)1:ra4-ra4</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18799424?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04670</Pathway_ID>
+      <Pathway_Title>Leukocyte transendothelial migration</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04360</Pathway_ID>
+      <Pathway_Title>Axon guidance</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Development</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04360</Pathway_ID>
+      <Pathway_Title>Axon guidance</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Development</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04060</Pathway_ID>
+      <Pathway_Title>Cytokine-cytokine receptor interaction</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signaling molecules and interaction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD04570001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04570003</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04570004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04570005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04570006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04570007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04570008</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04570009</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04570010</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04570011</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04570012</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04570013</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04580001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

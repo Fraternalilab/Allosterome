@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03140000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P62593</UniProt_ID>
+  <Seq_Length>286</Seq_Length>
+  <Molecule_Weight>31515</Molecule_Weight>
+  <KEGG_ID>pg:10076131</KEGG_ID>
+  <Orthology_ID>K18698</Orthology_ID>
+  <EBI_ID>EBI-1031989</EBI_ID>
+  <Function_Summary>TEM-type are the most prevalent beta-lactamases in enterobacteria; they hydrolyze the beta-lactam bond in susceptible beta-lactam antibiotics, thus conferring resistance to penicillins and cephalosporins. TEM-3 and TEM-4 are capable of hydrolyzing cefotaxime and ceftazidime. TEM-5 is capable of hydrolyzing ceftazidime. TEM-6 is capable of hydrolyzing ceftazidime and aztreonam. TEM-8/CAZ-2, TEM-16/CAZ-7 and TEM-24/CAZ-6 are markedly active against ceftazidime. IRT-4 shows resistance to beta-lactamase inhibitors.</Function_Summary>
+  <Catalytic_Mechanism>A beta-lactam + H(2)O = a substituted beta-amino acid.</Catalytic_Mechanism>
+  <Pfam_ID>PF00144:Beta-lactamase</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>3</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>IRT-4</Alias>
+      <Alias>TEM-1</Alias>
+      <Alias>TEM-24/CAZ-6</Alias>
+      <Alias>Penicillinase</Alias>
+      <Alias>TEM-5</Alias>
+      <Alias>TEM-2</Alias>
+      <Alias>TEM-4</Alias>
+      <Alias>TEM-16/CAZ-7</Alias>
+      <Alias>TEM-8/CAZ-2</Alias>
+      <Alias>TEM-6</Alias>
+      <Alias>TEM-3</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: a beta-lactam + H2O = a substituted beta-amino acid.</Detail>
+      <Keyword>Beta-lactamase activity</Keyword>
+      <Ontology_ID>GO:0008800</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>261</Position>
+      <Original>Thr</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>162</Position>
+      <Original>Arg</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>272</Position>
+      <Original>Asn</Original>
+      <Variation>Asp</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>67</Position>
+      <Original>Met</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>37</Position>
+      <Original>Gln</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>236</Position>
+      <Original>Gly</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>162</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>102</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>235</Position>
+      <Original>Ala</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>237</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>19</Position>
+      <Original>Leu</Original>
+      <Variation>Phe</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an antibiotic stimulus. An antibiotic is a chemical substance produced by a microorganism which has the capacity to inhibit the growth of or to kill other microorganisms.</Detail>
+      <Keyword>Response to antibiotic</Keyword>
+      <Ontology_ID>GO:0046677</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of a beta-lactam antibiotic, any member of a class of natural or semisynthetic antibiotics whose characteristic feature is a strained, four-membered beta-lactam ring. They include the penicillins and many of the cephalosporins.</Detail>
+      <Keyword>Beta-lactam antibiotic catabolic process</Keyword>
+      <Ontology_ID>GO:0030655</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW</Protein_Seq>
+    <DNA_Seq>ATCGATTGGGCTTCAGCTGTAGCAAGCTTTGCTACTTGCGATTCCCTGGCACCTTTTTGGGCGTCGATGAGCCTCCGTTTCCGCCCCTGTTGCGCATGGTGGCCGCGCAACTCAAGATGCCAGTGGAAAGTTGGAGCGAGTACGGCCAGCGCGAACAGACACGGCGGGACGACTTGGTCGAGCTGCAAACGGTTTTTGGGTTCAAGCCCTTCACCATGAGCCACTATCGGCAAGCCGTGCATACATTGACCGAGCTGGCCTTGCAGACCGACAAAGGCATCGTGCTGGCGAGCGCACTTGTCGAGAATCTGCGGCGGCAGAGCATTATCGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGAGATTATCAAAAAGGATCTTCACCTAGATCCTTTTAAATTAAAAATGAAGTTTTAAATCAATCTAAAGTATATATGAGTAAACTTGGTCTGACAGTTACCAATGCTTAATCAGTGAGGCACCTATCTCAGCGATCTGTCTATTTCGTTCATCCATAGTTGCCTGACTCCCCGTCGTGTAGATAACTACGATACGGGAGGGCTTACCATCTGGCCCCAGTGCTGCAATGATACCGCGAGATCCACGCTCACTGGCTCCAGATTTATCAGCAATAAACCAGCCAGCCGGAAGGGCCGAGCGCAGAAGTGGTCCTGCAACTTTATCCGCCTCCATCCAGTCTATTAATTGTTGCCGGGAAGCTAGAGTAAGTAGTTCGCCAGTTAATAGTTTGCGCAACGTTGTTGCCATTGCTGCAGGCATCGTGGTGTCACGCTCGTCGTTTGGTATGGCTTCATTCAGCTCCGGTTCCCAACGATCAAGGCGGGTTACATGATCCCCCATGTTGTGCAAAAAAGCGGTTAGCTCCTTCGGTCCTCCGATCGTTGTCAGAAGTAAGTTGGCCGCAGTGTTATCACTCATGGTTATGGCAGCACTGCATAATTCTCTTACTGTCATGCCATCCGTAAGATGCTTTTCTGTGACTGGTGAGTACTTAACCAAGTCATTCTGAGAATAGTGTATGCGGCGACCGAGTTGCTCTTGCCCGGCGTCAACACGGGATAATACCGCACCACATAGCAGAACTTTAAAAGTGCTCATCATTGGAAAACGTTCTTCGGGGCGAAAACTCTCAAGGATCTTACCGCTGTTGAGATCCAGCTCGATGTAACCCACTCGTGCACCCAACTTATCTTCAGCATCTTTTACTTTCACCAGCGTTTCTGGGTGAGCAAAAACAGGAAGGCAAAATGCCGCAAAAAAGGGAATAAGGGCGACACGGAAATGTTGAATACTCATACTCTTCCTTTTTCAATATTATTGAAGCATTTATCAGGGTTATTGTCTCATGAGCGGATACATATTTGAATGTATTTAGAAAAATAAACAAATAGGGGTTCCGCGCACATTTCCCCGAAAAGTGCCACCTGACGTCTAAGAAACCATTATTATCATGACATTAACCTATAAAAATAAGCGTATCACGAGGCCCTTTCGTCTTCAAGAATTTTATAAACCGTGGAGCGGGCAATACTGAGCTGATGAGCAATTTCCGTTGCACCAGTGCCCTTCTGATGAAGCGTCAGCACGACGTTCCTGTCCACGGTACGCCTGCGGCCAAATTTGATTCCTTTCAGCTTTGCTTCCTGTCGGCCCTCATTCGTGCGCTCTAGGATCCTCCGGCGTTCAGCTTGTGCCACAGCCGACAGGATGGTGACCACCATTTGCCCCATATCACCGTCGGTACTGATCCCGTCGTCAATAAACCGAACCGCGACACCCTGAGCATCAAACTCTTTTATCAGTTGGATCATGTCGGCGGTGTCGCGGCCAAGACGGTCGAGCTTCTTCACCAGAATGACATCACCTTCCTCCACCTTCATCCTCAGCAAATCCAGCCCTTCCCGATCTGTTGAACTGCCGGATGCCTTGTCGGTAAAGATGCGGTTAGCTTTTACCCCTGCATCTTTGAGCGCTCTGATCTGAATATCGAGGGACTGCTGGCTGGTTGAGACCCGCGCATAACCAAAAATTCGCATAAAATGTACCTTAAATCGAATATCAGACACGATGTGTCTATTATGCCAAAATGACGATTTAATGGACACTCAAACGAAGCCGTTTTACTATGTCTGATAATTTATAACATTTCGGACGGTTGCGAAATTGTTAATATATAACCGTCAGGCAGGAAGGCCTATATCATTTCGGACGGTTGCGAAATTGTTAATATATAACCGTCAGGCAGGAAGGCCTATATGGGGTCGTCTCAGAAAACGGAATCTATGGTCACTCCCGTTTTTGCAACACCGATTTTGACGACAAGTTGGCTTGCTTGAATCTATCCGGCGTCTGAATGGGATTTTATTCCCGCGCCTCGATGAGTTCCGCGCCTGATGAACCTCCAGAAAATATACGGCTTCAATGAGCCTTTCCGTTTTACAGGTTCCTCAACAGGCCGGTGGGCCGTTAGTATCATCAATATCAGTATTCGCAAAACCAGATGAATGATTGTTTAAACTGGTGTATTTCTGCCTTTATGCTTCGTAAGTTTGCTGTCGCGCCGTCAGTGCCCAGGCTATTCTGGCCAGCTTGTTTGCCAGAGCACAGGTGACGACAAAGTTGCTTTTCCGACACAACAACTCCCTGACCCAGTCGGCCAACTTGCCAGACTGGTGTTCCAGTTTTTGTATGAATACCCTGGCACACTGAACCAACAAAGTTCGGATCTTTTTGTTGCCCCGCTTGCTAATCCCTAACAATGTCGTCCGACCTCCCGTGCTGTACTGTCGGGGTACCAGCCCTGTTGCCGCCGCAAAGTCACGGCTGCTGGCGTACTGCTTCCCGTCGCCAATCTCAGTTGAAATAGTACTGGCAGTCAGCGTTCCAACGCAGGGAATACTCAGCAAGCGCTGTCCAACCTCATCTTCGTCCAACTTTCGTTTCAACTGAGATTCCAGATCTTTAATCTGCTCAACAAGATAGTGATAATGCTGTTGTAATTTCAGCAGTAACTGGCTGAGATAAAGAGGCAAACTACTGTCCTCAAGAAGGGTACTCAGTCGA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Unknown</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>bla</Gene_Name>
+    <Gene_Alias>blaT-3; blaT-4; blaT-5; blaT-6</Gene_Alias>
+    <Gene_ID>10076131</Gene_ID>
+    <Genbank_ACCN>NC_005248</Genbank_ACCN>
+    <Protein_ACCN>NP_943295</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/9846067</Gene_URL>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P62593</Uniprot_ID>
+      <Gene_Name>bla</Gene_Name>
+      <EBI_ID>EBI-1031985</EBI_ID>
+      <PPI_EBI_URL>EBI-1031989,EBI-1031985</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>TEM-1 Beta-Lactamase in Complex with a Novel, Core-Disrupting, Allosteric Inhibitor</PDB_Title>
+      <PDB_ID>1PZP</PDB_ID>
+      <Resolution>1.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PZP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03140005</ASD_Ligand>
+      <Ligand_Name>3-(4-PHENYLAMINO-PHENYLAMINO)-2-(1H-TETRAZOL- 5-YL)-ACRYLONITRILE</Ligand_Name>
+      <PubMed_Title>Allosteric inhibition through core disruption.</PubMed_Title>
+      <Author>Horn JR, et al.</Author>
+      <Journal>J Mol Biol. 2004 Mar 5;336(5):1283-91.</Journal>
+      <PubMed_ID>15037085</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE IMIPENEM INHIBITED TEM-1 BETA-LACTAMASE FROM ESCHERICHIA COLI</PDB_Title>
+      <PDB_ID>1BT5</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1BT5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-(2-FORMIMIDOYLAMINO-ETHYLSULFANYL)-5-(1- FORMYL-2-HYDROXY-PROPYL)-4,5-DIHYDRO
+-1H-PYRROLE- 2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Structural Basis for Clinical Longevity of Carbapenem Antibiotics in the Face of Challenge by the Common Class A Beta-Lactamases from Antibiotic-Resistant Bacteria</PubMed_Title>
+      <Author>Maveyraud L, et al.</Author>
+      <Journal>(1998) J.Am.Chem.Soc. 120: 9748-9752</Journal>
+      <PubMed_ID>Not in PubMed</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of beta-lactamase inhibitor protein-II in complex with TEM-1 beta-lactamase</PDB_Title>
+      <PDB_ID>1JTD</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1JTD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure and kinetic analysis of beta-lactamase inhibitor protein-II in complex with TEM-1 beta-lactamase.</PubMed_Title>
+      <Author>Lim D, et al.</Author>
+      <Journal>Nat Struct Biol. 2001 Oct;8(10):848-52.</Journal>
+      <PubMed_ID>11573088</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF A TEM-1 BETA-LACTAMASE INSERTANT ALLOSTERICALLY REGULATED BY KANAMYCIN AND ANIONS.</PDB_Title>
+      <PDB_ID>2V1Z</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=2V1Z</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Engineering of a Monomeric Tem-1 Beta-Lactamase Insertant Allosterically Regulated by Kanamycin and Anions.</PubMed_Title>
+      <Author>Barrios H, et al.</Author>
+      <Journal>To be Published</Journal>
+      <PubMed_ID>Not in PubMed</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF BETA-LACTAMASE TEM1</PDB_Title>
+      <PDB_ID>1XPB</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1XPB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>TEM1 beta-lactamase structure solved by molecular replacement and refined structure of the S235A mutant.</PubMed_Title>
+      <Author>Fonze E, et al.</Author>
+      <Journal>Acta Crystallogr D Biol Crystallogr. 1995 Sep 1;51(Pt 5):682-94.</Journal>
+      <PubMed_ID>15299797</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural and biochemical evidence that a TEM-1 {beta}-lactamase Asn170Gly active site mutant acts via substrate-assisted catalysis</PDB_Title>
+      <PDB_ID>3JYI</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=3JYI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID</Ligand_Name>
+      <PubMed_Title>Structural and biochemical evidence that a TEM-1 beta-lactamase N170G active site mutant acts via substrate-assisted catalysis.</PubMed_Title>
+      <Author>Brown NG, et al.</Author>
+      <Journal>J Biol Chem. 2009 Nov 27;284(48):33703-12.</Journal>
+      <PubMed_ID>19812041</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>1B Lactamase / B Lactamase Inhibitor</PDB_Title>
+      <PDB_ID>2B5R</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=2B5R</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Binding hot spots in the TEM1-BLIP interface in light of its modular architecture.</PubMed_Title>
+      <Author>Reichmann D, et al.</Author>
+      <Journal>J Mol Biol. 2007 Jan 19;365(3):663-79.</Journal>
+      <PubMed_ID>17070843</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the complex between M182T mutant of TEM-1 and a boronic acid inhibitor (105)</PDB_Title>
+      <PDB_ID>1NYY</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1NYY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[5-METHYL-3-O-TOLYL-ISOXAZOLE-4-CARBOXYLIC ACID AMIDE] BORONIC ACID</Ligand_Name>
+      <PubMed_Title>Recognition and resistance in TEM beta-lactamase.</PubMed_Title>
+      <Author>Wang X, et al.</Author>
+      <Journal>Biochemistry. 2003 Jul 22;42(28):8434-44.</Journal>
+      <PubMed_ID>12859188</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>6 ALPHA HYDROXYMETHYL PENICILLOIC ACID ACYLATED ON THE TEM-1 BETA-LACTAMASE FROM ESCHERICHIA COLI</PDB_Title>
+      <PDB_ID>1TEM</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1TEM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2-(1-CARBOXY-2-HYDROXY-ETHYL)-5,5-DIMETHYL- THIAZOLIDINE-4-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Crystal Structure of 6Alpha-Hydroxymethylpenicillanate Complexed to the Tem-1 Beta-Lactamase from Escherichia Coli: Evidence on the Mechanism of Action of a Novel Inhibitor Designed by a Computer-Aided Process</PubMed_Title>
+      <Author>Maveyraud L, et al.</Author>
+      <Journal>(1996) J.Am.Chem.Soc. 118: 7435</Journal>
+      <PubMed_ID>Not in PubMed</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TEM-1 BETA-LACTAMASE FROM ESCHERICHIA COLI INHIBITED WITH AN ACYLATION TRANSITION STATE ANALOG</PDB_Title>
+      <PDB_ID>1AXB</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1AXB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[[N-(BENZYLOXYCARBONYL)AMINO]METHYL]PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structure of an acylation transition-state analog of the TEM-1 beta-lactamase. Mechanistic implications for class A beta-lactamases.</PubMed_Title>
+      <Author>Maveyraud L, et al.</Author>
+      <Journal>Biochemistry. 1998 Feb 24;37(8):2622-8.</Journal>
+      <PubMed_ID>9485412</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF TEM-1 BETA-LACTAMASE / BETA-LACTAMASE INHIBITOR PROTEIN COMPLEX</PDB_Title>
+      <PDB_ID>1JTG</PDB_ID>
+      <Resolution>1.73</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1JTG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure and kinetic analysis of beta-lactamase inhibitor protein-II in complex with TEM-1 beta-lactamase.</PubMed_Title>
+      <Author>Lim D, et al.</Author>
+      <Journal>Nat Struct Biol. 2001 Oct;8(10):848-52.</Journal>
+      <PubMed_ID>11573088</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF A TEM-1 BETA-LACTAMASE INSERTANT ALLOSTERICALLY REGULATED BY KANAMYCIN AND ANIONS. COMPLEX WITH SULFATE.</PDB_Title>
+      <PDB_ID>2V20</PDB_ID>
+      <Resolution>1.67</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=2V20</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Engineering of a Monomeric Tem-1 Beta-Lactamase Insertant Allosterically Regulated by Kanamycin and Anions.</PubMed_Title>
+      <Author>Barrios H, et al.</Author>
+      <Journal>To be Published</Journal>
+      <PubMed_ID>Not in PubMed</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Increased folding stability of TEM-1 beta-lactamase by in-vitro selection</PDB_Title>
+      <PDB_ID>3DTM</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=3DTM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Increased folding stability of TEM-1 beta-lactamase by in vitro selection.</PubMed_Title>
+      <Author>Kather I, et al.</Author>
+      <Journal>J Mol Biol. 2008 Oct 31;383(1):238-51.</Journal>
+      <PubMed_ID>18706424</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF N132A MUTANT OF TEM-1 BETA-LACTAMASE IN COMPLEX WITH A N-FORMIMIDOYL-THIENAMYCINE</PDB_Title>
+      <PDB_ID>1JVJ</PDB_ID>
+      <Resolution>1.73</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1JVJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>3-(2-FORMIMIDOYLAMINO-ETHYLSULFANYL)-5-(1- FORMYL-2-HYDROXY-PROPYL)-4,5-DIHYDRO
+-1H-PYRROLE- 2-CARBOXYLIC ACID</Ligand_Name>
+      <PubMed_Title>Noncovalent interaction energies in covalent complexes: TEM-1 beta-lactamase and beta-lactams.</PubMed_Title>
+      <Author>Wang X, et al.</Author>
+      <Journal>Proteins. 2002 Apr 1;47(1):86-96.</Journal>
+      <PubMed_ID>11870868</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>N276D MUTANT OF ESCHERICHIA COLI TEM-1 BETA-LACTAMASE</PDB_Title>
+      <PDB_ID>1CK3</PDB_ID>
+      <Resolution>2.28</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1CK3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structure of the Asn276Asp variant of the Escherichia coli TEM-1 beta-lactamase: direct observation of electrostatic modulation in resistance to inactivation by clavulanic acid.</PubMed_Title>
+      <Author>Swaren P, et al.</Author>
+      <Journal>Biochemistry. 1999 Jul 27;38(30):9570-6.</Journal>
+      <PubMed_ID>10423234</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-RAY CRYSTAL STRUCTURE OF TEM-1 BETA LACTAMASE IN COMPLEX WITH A DESIGNED BORONIC ACID INHIBITOR (1R)-1-ACETAMIDO-2-(3-CARBOXY-2-HYDROXYPHENYL)ETHYL BORONIC ACID</PDB_Title>
+      <PDB_ID>1ERQ</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1ERQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1(R)-1-ACETAMIDO-2-(3-CARBOXY-2-HYDROXYPHENYL)ETHYL BORONIC ACID</Ligand_Name>
+      <PubMed_Title>Structure-based design guides the improved efficacy of deacylation transition state analogue inhibitors of TEM-1 beta-Lactamase(,).</PubMed_Title>
+      <Author>Ness S, et al.</Author>
+      <Journal>Biochemistry. 2000 May 9;39(18):5312-21.</Journal>
+      <PubMed_ID>10820001</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TEM-1 Class-A beta-lactamase L201P mutant apo structure</PDB_Title>
+      <PDB_ID>3CMZ</PDB_ID>
+      <Resolution>1.92</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=3CMZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Genetic and structural characterization of an L201P global suppressor substitution in TEM-1 beta-lactamase.</PubMed_Title>
+      <Author>Marciano DC, et al.</Author>
+      <Journal>J Mol Biol. 2008 Dec 5;384(1):151-64.</Journal>
+      <PubMed_ID>18822298</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of G238A mutant of TEM-1 beta-lactamase in complex with a boronic acid inhibitor (sefb4)</PDB_Title>
+      <PDB_ID>1JWV</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1JWV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PINACOL[[2-AMINO-ALPHA-(1-CARBOXY-1-METHYLETHOXYIMINO)- 4
+-THIAZOLEACETYL]AMINO]METHANEBORONATE</Ligand_Name>
+      <PubMed_Title>Evolution of an antibiotic resistance enzyme constrained by stability and activity trade-offs.</PubMed_Title>
+      <Author>Wang X, et al.</Author>
+      <Journal>J Mol Biol. 2002 Jun 28;320(1):85-95.</Journal>
+      <PubMed_ID>12079336</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of TEM-30 beta-Lactamase at 2.0 Angstrom</PDB_Title>
+      <PDB_ID>1LHY</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1LHY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structural bases of antibiotic resistance in the clinically derived mutant beta-lactamases TEM-30, TEM-32, and TEM-34.</PubMed_Title>
+      <Author>Wang X, et al.</Author>
+      <Journal>J Biol Chem. 2002 Aug 30;277(35):32149-56.</Journal>
+      <PubMed_ID>12058046</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the complex between M182T mutant of TEM-1 and a boronic acid inhibitor (SM2)</PDB_Title>
+      <PDB_ID>1NXY</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1NXY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(1R)-1-(2-THIENYLACETYLAMINO)-1-(3-CARBOXYPHENYL)METHYLBORONIC ACID</Ligand_Name>
+      <PubMed_Title>Recognition and resistance in TEM beta-lactamase.</PubMed_Title>
+      <Author>Wang X, et al.</Author>
+      <Journal>Biochemistry. 2003 Jul 22;42(28):8434-44.</Journal>
+      <PubMed_ID>12859188</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TEM1 beta lactamase</PDB_Title>
+      <PDB_ID>1ZG4</PDB_ID>
+      <Resolution>1.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1ZG4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the wild-type TEM-1 beta-lactamase at 1.55 A and the mutant enzyme Ser70Ala at 2.1 A suggest the mode of noncovalent catalysis for the mutant enzyme.</PubMed_Title>
+      <Author>Stec B, et al.</Author>
+      <Journal>Acta Crystallogr D Biol Crystallogr. 2005 Aug;61(Pt 8):1072-9.</Journal>
+      <PubMed_ID>16041072</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MOLECULAR STRUCTURE OF THE ACYL-ENZYME INTERMEDIATE IN TEM-1 BETA-LACTAMASE</PDB_Title>
+      <PDB_ID>1FQG</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1FQG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>OPEN FORM - PENICILLIN G</Ligand_Name>
+      <PubMed_Title>Molecular structure of the acyl-enzyme intermediate in beta-lactam hydrolysis at 1.7 A resolution.</PubMed_Title>
+      <Author>Strynadka NC, et al.</Author>
+      <Journal>Nature. 1992 Oct 22;359(6397):700-5.</Journal>
+      <PubMed_ID>1436034</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ESCHERICHIA COLI TEM1 BETA-LACTAMASE AT 1.8 ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>1BTL</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1BTL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of Escherichia coli TEM1 beta-lactamase at 1.8 A resolution.</PubMed_Title>
+      <Author>Jelsch C, et al.</Author>
+      <Journal>Proteins. 1993 Aug;16(4):364-83.</Journal>
+      <PubMed_ID>8356032</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of TEM-76 beta-lactamase at 1.4 Angstrom resolution</PDB_Title>
+      <PDB_ID>1YT4</PDB_ID>
+      <Resolution>1.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1YT4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural consequences of the inhibitor-resistant Ser130Gly substitution in TEM beta-lactamase.</PubMed_Title>
+      <Author>Thomas VL, et al.</Author>
+      <Journal>Biochemistry. 2005 Jul 5;44(26):9330-8.</Journal>
+      <PubMed_ID>15981999</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-RAY CRYSTAL STRUCTURE OF TEM-1 BETA LACTAMASE IN COMPLEX WITH A DESIGNED BORONIC ACID INHIBITOR (1R)-1-ACETAMIDO-2-(3-CARBOXYPHENYL)ETHANE BORONIC ACID</PDB_Title>
+      <PDB_ID>1ERM</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1ERM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>1(R)-1-ACETAMIDO-2-(3-CARBOXYPHENYL)ETHYL BORONIC ACID</Ligand_Name>
+      <PubMed_Title>Structure-based design guides the improved efficacy of deacylation transition state analogue inhibitors of TEM-1 beta-Lactamase(,).</PubMed_Title>
+      <Author>Ness S, et al.</Author>
+      <Journal>Biochemistry. 2000 May 9;39(18):5312-21.</Journal>
+      <PubMed_ID>10820001</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural Insight into the Kinetics and Delta-Cp of interactions between TEM-1 Beta-Lactamase and BLIP</PDB_Title>
+      <PDB_ID>3C7V</PDB_ID>
+      <Resolution>2.07</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=3C7V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural insight into the kinetics and DeltaCp of interactions between TEM-1 beta-lactamase and beta-lactamase inhibitory protein (BLIP).</PubMed_Title>
+      <Author>Wang J, et al.</Author>
+      <Journal>J Biol Chem. 2009 Jan 2;284(1):595-609.</Journal>
+      <PubMed_ID>18840610</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>1b Lactamse/ b Lactamase Inhibitor</PDB_Title>
+      <PDB_ID>1S0W</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1S0W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The modular architecture of protein-protein binding interfaces.</PubMed_Title>
+      <Author>Reichmann D, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2005 Jan 4;102(1):57-62.</Journal>
+      <PubMed_ID>15618400</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>S235A MUTANT OF TEM1 BETA-LACTAMASE</PDB_Title>
+      <PDB_ID>1ESU</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1ESU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>TEM1 beta-lactamase structure solved by molecular replacement and refined structure of the S235A mutant.</PubMed_Title>
+      <Author>Fonze E, et al.</Author>
+      <Journal>Acta Crystallogr D Biol Crystallogr. 1995 Sep 1;51(Pt 5):682-94.</Journal>
+      <PubMed_ID>15299797</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The modular architecture of protein-protein binding site</PDB_Title>
+      <PDB_ID>1XXM</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1XXM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The modular architecture of protein-protein binding interfaces.</PubMed_Title>
+      <Author>Reichmann D, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2005 Jan 4;102(1):57-62.</Journal>
+      <PubMed_ID>15618400</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the complex between M182T mutant of TEM-1 and a boronic acid inhibitor (CXB)</PDB_Title>
+      <PDB_ID>1NYM</PDB_ID>
+      <Resolution>1.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1NYM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[(2-AMINO-ALPHA-METHOXYIMINO-4-THIAZOLYLACETYL)AMINO]METHYLBORONIC ACID</Ligand_Name>
+      <PubMed_Title>Recognition and resistance in TEM beta-lactamase.</PubMed_Title>
+      <Author>Wang X, et al.</Author>
+      <Journal>Biochemistry. 2003 Jul 22;42(28):8434-44.</Journal>
+      <PubMed_ID>12859188</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-RAY CRYSTAL STRUCTURE OF TEM-1 BETA LACTAMASE IN COMPLEX WITH A DESIGNED BORONIC ACID INHIBITOR (1R)-2-PHENYLACETAMIDO-2-(3-CARBOXYPHENYL)ETHYL BORONIC ACID</PDB_Title>
+      <PDB_ID>1ERO</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1ERO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(1R)-2-PHENYLACETAMIDO-2-(3-CARBOXYPHENYL)ETHYL BORONIC ACID</Ligand_Name>
+      <PubMed_Title>Structure-based design guides the improved efficacy of deacylation transition state analogue inhibitors of TEM-1 beta-Lactamase(,).</PubMed_Title>
+      <Author>Ness S, et al.</Author>
+      <Journal>Biochemistry. 2000 May 9;39(18):5312-21.</Journal>
+      <PubMed_ID>10820001</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ULTRA HIGH RESOLUTION CRYSTAL STRUCTURE OF TEM-1</PDB_Title>
+      <PDB_ID>1M40</PDB_ID>
+      <Resolution>0.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1M40</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PINACOL[[2-AMINO-ALPHA-(1-CARBOXY-1-METHYLETHOXYIMINO)- 4
+-THIAZOLEACETYL]AMINO]METHANEBORONATE</Ligand_Name>
+      <PubMed_Title>An ultrahigh resolution structure of TEM-1 beta-lactamase suggests a role for Glu166 as the general base in acylation.</PubMed_Title>
+      <Author>Minasov G, et al.</Author>
+      <Journal>J Am Chem Soc. 2002 May 15;124(19):5333-40.</Journal>
+      <PubMed_ID>11996574</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TEM-1 Beta-Lactamase in Complex with a Novel, Core-Disrupting, Allosteric Inhibitor</PDB_Title>
+      <PDB_ID>1PZO</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PZO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03140002</ASD_Ligand>
+      <Ligand_Name>N,N-BIS(4-CHLOROBENZYL)-1H-1,2,3,4-TETRAAZOL- 5-AMINE</Ligand_Name>
+      <PubMed_Title>Allosteric inhibition through core disruption.</PubMed_Title>
+      <Author>Horn JR, et al.</Author>
+      <Journal>J Mol Biol. 2004 Mar 5;336(5):1283-91.</Journal>
+      <PubMed_ID>15037085</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of TEM-34 beta-Lactamase at 1.5 Angstrom</PDB_Title>
+      <PDB_ID>1LI9</PDB_ID>
+      <Resolution>1.52</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1LI9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structural bases of antibiotic resistance in the clinically derived mutant beta-lactamases TEM-30, TEM-32, and TEM-34.</PubMed_Title>
+      <Author>Wang X, et al.</Author>
+      <Journal>J Biol Chem. 2002 Aug 30;277(35):32149-56.</Journal>
+      <PubMed_ID>12058046</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of TEM-32 beta-Lactamase at 1.6 Angstrom</PDB_Title>
+      <PDB_ID>1LI0</PDB_ID>
+      <Resolution>1.61</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1LI0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structural bases of antibiotic resistance in the clinically derived mutant beta-lactamases TEM-30, TEM-32, and TEM-34.</PubMed_Title>
+      <Author>Wang X, et al.</Author>
+      <Journal>J Biol Chem. 2002 Aug 30;277(35):32149-56.</Journal>
+      <PubMed_ID>12058046</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural Insight into the Kinetics and Cp of interactions between TEM-1-Lactamase and BLIP</PDB_Title>
+      <PDB_ID>3C7U</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=3C7U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural insight into the kinetics and DeltaCp of interactions between TEM-1 beta-lactamase and beta-lactamase inhibitory protein (BLIP).</PubMed_Title>
+      <Author>Wang J, et al.</Author>
+      <Journal>J Biol Chem. 2009 Jan 2;284(1):595-609.</Journal>
+      <PubMed_ID>18840610</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of TEM-64 beta-lactamase in complex with a boronic acid inhibitor (105)</PDB_Title>
+      <PDB_ID>1JWZ</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1JWZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>N-[5-METHYL-3-O-TOLYL-ISOXAZOLE-4-CARBOXYLIC ACID AMIDE] BORONIC ACID</Ligand_Name>
+      <PubMed_Title>Evolution of an antibiotic resistance enzyme constrained by stability and activity trade-offs.</PubMed_Title>
+      <Author>Wang X, et al.</Author>
+      <Journal>J Mol Biol. 2002 Jun 28;320(1):85-95.</Journal>
+      <PubMed_ID>12079336</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of M182T mutant of TEM-1 beta-lactamase</PDB_Title>
+      <PDB_ID>1JWP</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1JWP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Evolution of an antibiotic resistance enzyme constrained by stability and activity trade-offs.</PubMed_Title>
+      <Author>Wang X, et al.</Author>
+      <Journal>J Mol Biol. 2002 Jun 28;320(1):85-95.</Journal>
+      <PubMed_ID>12079336</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TEM1 beta lactamase mutant S70G</PDB_Title>
+      <PDB_ID>1ZG6</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1ZG6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the wild-type TEM-1 beta-lactamase at 1.55 A and the mutant enzyme Ser70Ala at 2.1 A suggest the mode of noncovalent catalysis for the mutant enzyme.</PubMed_Title>
+      <Author>Stec B, et al.</Author>
+      <Journal>Acta Crystallogr D Biol Crystallogr. 2005 Aug;61(Pt 8):1072-9.</Journal>
+      <PubMed_ID>16041072</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the complex between M182T mutant of TEM-1 and a boronic acid inhibitor (NBF)</PDB_Title>
+      <PDB_ID>1NY0</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1NY0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>[(2-ETHOXY-1-NAPHTHOYL)AMINO]METHYLBORONIC ACID</Ligand_Name>
+      <PubMed_Title>Recognition and resistance in TEM beta-lactamase.</PubMed_Title>
+      <Author>Wang X, et al.</Author>
+      <Journal>Biochemistry. 2003 Jul 22;42(28):8434-44.</Journal>
+      <PubMed_ID>12859188</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01501</Pathway_ID>
+      <Pathway_Title>beta-Lactam resistance</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Drug resistance</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Multi-domain proteins (alpha and beta)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.f.ea.b.b.e.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1zg4</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Horn JR, et al. J.Mol.Biol. 2004,336(5):1283-1291.</Site_Reference>
+      <Site_Type>Core disruption allostery</Site_Type>
+      <PDB_ID>1PZO;1PZP</PDB_ID>
+      <PubMed_ID>15037085</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Allosteric_Pathway>
+    <Pathway>Ser70, Lys73, Lys234</Pathway>
+    <Method>Trajectory analysis</Method>
+    <PubMed_Title>Meneksedag D, et al.Comput Biol Chem. 2013 Apr;43:1-10. doi: 10.1016/j.compbiolchem.2012.12.002. </PubMed_Title>
+    <PubMed_ID>23314151</PubMed_ID>
+    <is__ref__img>No</is__ref__img>
+    <is__display>Yes</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.5.2.6</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/5/2/6.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD03140001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03140002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03140005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

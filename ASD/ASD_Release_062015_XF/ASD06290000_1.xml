@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06290000_1</Organism_ID>
+  <Organism>Bovine</Organism>
+  <Organism_Latin>Bos taurus</Organism_Latin>
+  <UniProt_ID>P43249</UniProt_ID>
+  <Seq_Length>590</Seq_Length>
+  <Molecule_Weight>67889</Molecule_Weight>
+  <KEGG_ID>bta:281801</KEGG_ID>
+  <Orthology_ID>K08291</Orthology_ID>
+  <Function_Summary>Serine/threonine kinase that phosphorylates preferentially the activated forms of a variety of G-protein-coupled receptors (GPCRs). Such receptor phosphorylation initiates beta-arrestin-mediated receptor desensitization, internalization, and signaling events leading to their down-regulation. Phosphorylates a variety of GPCRs, including adrenergic receptors (Beta-2 adrenergic receptor), muscarinic acetylcholine receptors (more specifically Gi-coupled M2/M4 subtypes), dopamine receptors and opioid receptors. In addition to GPCRs, also phosphorylates various substrates: Hsc70-interacting protein/ST13, TP53/p53, HDAC5, and arrestin-1/ARRB1. Phosphorylation of ARRB1 by GRK5 inhibits G-protein independent MAPK1/MAPK3 signaling downstream of 5HT4-receptors. Phosphorylation of HDAC5, a repressor of myocyte enhancer factor 2 (MEF2) leading to nuclear export of HDAC5 and allowing MEF2-mediated transcription. Phosphorylation of TP53/p53, a crucial tumor suppressor, inhibits TP53/p53-mediated apoptosis. Phosphorylation of ST13 regulates internalization of the chemokine receptor. Phosphorylates rhodopsin (RHO) (in vitro) and a non G-protein-coupled receptor, LRP6 during Wnt signaling (in vitro) (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>ATP + [G-protein-coupled receptor] = ADP + [G-protein-coupled receptor] phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00069:Pkinase@@PF00615:RGS</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>G protein-coupled receptor kinase GRK5</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a lipid.</Detail>
+      <Keyword>Lipid binding</Keyword>
+      <Ontology_ID>GO:0008289</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + G-protein coupled receptor = ADP + G-protein coupled receptor phosphate.</Detail>
+      <Keyword>G-protein coupled receptor kinase activity</Keyword>
+      <Ontology_ID>GO:0004703</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation by a protein of one or more of its own amino acid residues, or residues on an identical protein.</Detail>
+      <Keyword>Protein autophosphorylation</Keyword>
+      <Ontology_ID>GO:0046777</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell death by apoptosis.</Detail>
+      <Keyword>Negative regulation of apoptosis</Keyword>
+      <Ontology_ID>GO:0043066</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals initiated by binding of a Wnt protein to a frizzled family receptor on the surface of the target cell and ending with a change in cell state.</Detail>
+      <Keyword>Wnt receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0016055</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>485</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>484</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MELENIVANTVLLKAREGGGGKRKGKSKKWKEILKFPHINQCEDLRRTIDRDYCSLCDKQPVGRLLFRQFCETRPGLESYIQFLDSVAEYEVTPDEKLGEKGKEIMTKYLTPKSPVFITQVGRDLVSQTEEKLLQKPCKELFSACVQSVHDYLRGEPFHEYLDSMYFDRFLQWKWLERQPVTKNTFRQYRVLGKGGFGEVCACQVRATGKMYACKRLEKKRIKKRKGESMALNEKQILEKVNSRFVVNLAYAYETKDALCLVLTIMNGGDLKFHIYNMGNPGFEEERALFYAAEILCGLEDLHHENIVYRDLKPENILLDDYGHIRISDLGLAVKIPEGDLIRGRVGTVGYMAPEVLNNQRYGLSPDYWGLGCLIYEMIEGQSPFRGRKEKVKREEVDRRVLETEEVYSHKFSEEAKSICKMLLTKDAKQRLGCQEEGAAEVKRHPFFRNMNFKRLEAGMLDPPFVPDPRAVYCKDVLDIEQFSTVKGVNLDHTDDDFYSKFSTGSVPIPWQSEMIETECFKELNVFGPHGTLSPDLNRSHPPEPPKKGLLQRLFKRQHQNNSKSSPNSKTSFNHHINSNHVSSNSTGSS</Protein_Seq>
+    <DNA_Seq>GTGGAAACTCCGAGGGATAAGAGCAAAGAATAATGCGGTAGGCTAGGCGGGCTGCTCGCTCCCGGCTCCGGCAAGCAGCGGCAGCAGCCCGAGCAGCGGCAGCAGCAGCAGCGGCAGCACCGTCAGGCGCTGACAGCCCCGCCGGCCGGCTCCCTAGCTGACCGCCGACTGTCAATGGAGCTGGAAAACATCGTGGCCAACACGGTCTTGCTGAAAGCCAGGGAAGGAGGCGGAGGAAAGCGCAAAGGGAAAAGCAAGAAGTGGAAGGAAATCCTGAAGTTCCCTCACATAAACCAGTGTGAAGACCTCCGAAGAACCATAGACCGAGATTACTGCAGTTTATGTGACAAACAGCCAGTCGGGAGGCTGCTTTTCCGGCAGTTCTGCGAAACCAGACCTGGGCTGGAGTCCTACATTCAGTTCCTGGACTCGGTGGCAGAATATGAAGTTACTCCAGATGAAAAACTGGGAGAAAAAGGGAAGGAAATTATGACCAAGTACCTCACCCCAAAGTCCCCAGTTTTCATCACCCAAGTTGGACGGGACCTGGTCTCCCAGACGGAGGAGAAGCTCCTTCAGAAACCCTGCAAAGAACTCTTCTCGGCCTGCGTGCAGTCTGTCCACGACTACCTGAGGGGAGAACCCTTCCACGAGTACCTGGACAGCATGTATTTTGATCGCTTTCTCCAGTGGAAGTGGTTGGAAAGGCAACCGGTAACCAAAAACACTTTCAGGCAGTACCGAGTACTAGGAAAAGGGGGCTTTGGGGAGGTCTGTGCCTGCCAGGTTCGGGCCACGGGTAAAATGTACGCCTGCAAACGCTTGGAGAAGAAGAGGATCAAAAAGAGGAAAGGGGAGTCCATGGCCCTGAATGAGAAGCAGATTCTGGAGAAGGTCAACAGTCGGTTTGTGGTCAACCTGGCCTACGCCTACGAGACCAAGGATGCCCTGTGTTTGGTCCTGACCATCATGAACGGCGGGGACCTGAAGTTCCACATTTACAACATGGGGAACCCCGGCTTCGAGGAGGAGCGCGCCCTGTTCTACGCGGCAGAGATCCTGTGCGGCCTGGAGGACCTCCACCATGAGAACATTGTCTACAGAGATTTGAAACCTGAAAATATCCTGTTAGACGATTACGGCCACATTAGAATTTCGGACCTGGGCCTGGCCGTGAAGATCCCCGAGGGAGACCTGATTCGCGGCCGAGTGGGCACCGTTGGCTACATGGCTCCAGAGGTCCTGAACAACCAGAGGTATGGCCTGAGCCCCGACTACTGGGGTCTGGGCTGCCTCATCTACGAGATGATCGAGGGCCAGTCGCCCTTCCGCGGCCGCAAGGAGAAGGTGAAGCGGGAGGAGGTGGACCGCCGGGTGTTGGAGACAGAGGAGGTGTACTCGCACAAGTTCTCCGAGGAGGCCAAGTCCATCTGCAAAATGCTGCTCACCAAAGATGCAAAGCAGAGGCTGGGCTGCCAGGAGGAAGGGGCCGCGGAGGTCAAGAGACACCCCTTCTTCAGGAACATGAATTTCAAGCGCTTAGAGGCCGGGATGTTGGATCCCCCCTTTGTTCCAGATCCCCGGGCCGTGTACTGCAAGGACGTCTTGGACATCGAGCAGTTCTCCACCGTGAAGGGCGTCAACCTGGACCACACGGACGACGACTTCTACTCCAAGTTCTCCACGGGCTCTGTGCCCATCCCGTGGCAAAGCGAGATGATAGAAACAGAGTGCTTTAAGGAGCTGAACGTGTTCGGACCCCACGGTACCCTCTCACCGGACCTGAACCGAAGCCACCCTCCGGAACCGCCAAAGAAAGGGCTGCTCCAGAGGCTCTTCAAGCGTCAGCATCAAAACAATTCCAAGAGTTCACCCAATTCCAAGACCAGTTTTAACCACCACATCAATTCAAACCACGTGAGTTCAAACTCCACCGGAAGCAGCTAGTTGCAGCTCTGGCCTGAAGTCCACGGTGGGACCAGCCTGGACCCTTCTTCTTAGAAGCAGAATTGCAACCAGAGGAGCTCCCACCCTGGCGGGCGGGCGGGGAAGCCCTCCAGGAGCCGGGGAAGGAGGCGGCCCACCCCTGAGATGGGGAGCCTCCCAGTTCCTCAAAGAGATTTCCACTCAGGTCTGTGTTTGGAGGCGGCCCTCGAGCCGAGATGGATTGGACGTGTCTCTGGCGAACATTGCAATAGAAATCCAGTTGGATACAACTTGCACGTATTTTAATAGCATCCTAATAACTAGAACTGAATTTTGTCTTTATTATTTTTAAAGAAAAGTTTTGTAAATTTCTCTATTGTCTCAGTTTACATTTTGTATATTTGTATTTAAAAGAAAGTCAGACTTTGAGGGTGTATATTTTCTGTGCAGCCACTGTTAAACCATGTGTTTTAAGACATTTTAGAGGGGGGTTGGTGGGAGGGGGGGATTTACAACAGCAATGAAAAATGTGACTCAAGACTTCCAGAGCCTCAAATGAGAAAATGTTTTTATTAAATGTAGAAAATGATCCACGCTTCACCTTTAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Liver</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Brain</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Kidney</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Heart</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Lung</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Lingual epithelium</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Retina</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>GRK5</Gene_Name>
+    <Gene_Alias>GPRK5</Gene_Alias>
+    <Gene_ID>281801</Gene_ID>
+    <Genbank_ACCN>NM_174331</Genbank_ACCN>
+    <Protein_ACCN>NP_776756</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/281801</Gene_URL>
+    <EMBL_ID>ENSBTAG00000007981</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of G protein-coupled receptor kinase 5</PDB_Title>
+      <PDB_ID>ASD06290000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.16</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/16.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

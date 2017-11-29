@@ -1,0 +1,680 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00520000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P29466</UniProt_ID>
+  <Seq_Length>404</Seq_Length>
+  <Molecule_Weight>45159</Molecule_Weight>
+  <KEGG_ID>hsa:834</KEGG_ID>
+  <Orthology_ID>K01370</Orthology_ID>
+  <EBI_ID>EBI-516667</EBI_ID>
+  <Function_Summary>Thiol protease that cleaves IL-1 beta between an Asp and an Ala, releasing the mature cytokine which is involved in a variety of inflammatory processes. Important for defense against pathogens. Cleaves and activates sterol regulatory element binding proteins (SREBPs). Can also promote apoptosis.</Function_Summary>
+  <Catalytic_Mechanism>Strict requirement for an Asp residue at position P1 and has a preferred cleavage sequence of Tyr-Val-Ala-Asp-|-.</Catalytic_Mechanism>
+  <Pfam_ID>PF00619:CARD@@PF00656:Peptidase_C14</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>5</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Interleukin-1 beta-converting enzyme</Alias>
+      <Alias>IL-1BC</Alias>
+      <Alias>IL-1 beta-converting enzyme</Alias>
+      <Alias>Interleukin-1 beta convertase</Alias>
+      <Alias>CASP-1</Alias>
+      <Alias>P45</Alias>
+      <Alias>ICE</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Increases the rate of proteolysis catalyzed by a caspase.</Detail>
+      <Keyword>Caspase activator activity</Keyword>
+      <Ontology_ID>GO:0008656</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a mechanism in which the sulfhydryl group of a cysteine residue at the active center acts as a nucleophile.</Detail>
+      <Keyword>Cysteine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004197</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a mechanism in which the sulfhydryl group of a cysteine residue at the active center acts as a nucleophile.</Detail>
+      <Keyword>Cysteine-type peptidase activity</Keyword>
+      <Ontology_ID>GO:0008234</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>15</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a mechanical stimulus.</Detail>
+      <Keyword>Cellular response to mechanical stimulus</Keyword>
+      <Ontology_ID>GO:0071260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds.</Detail>
+      <Keyword>Proteolysis</Keyword>
+      <Ontology_ID>GO:0006508</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of an I-kappaB kinase/NF-kappaB induced cascade.</Detail>
+      <Keyword>Positive regulation of I-kappaB kinase/NF-kappaB cascade</Keyword>
+      <Ontology_ID>GO:0043123</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an organic substance stimulus.</Detail>
+      <Keyword>Cellular response to organic substance</Keyword>
+      <Ontology_ID>GO:0071310</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</Detail>
+      <Keyword>Innate immune response</Keyword>
+      <Ontology_ID>GO:0045087</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the occurrence or rate of cell death by apoptosis.</Detail>
+      <Keyword>Regulation of apoptosis</Keyword>
+      <Ontology_ID>GO:0042981</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MADKVLKEKRKLFIRSMGEGTINGLLDELLQTRVLNKEEMEKVKRENATVMDKTRALIDSVIPKGAQACQICITYICEEDSYLAGTLGLSADQTSGNYLNMQDSQGVLSSFPAPQAVQDNPAMPTSSGSEGNVKLCSLEEAQRIWKQKSAEIYPIMDKSSRTRLALIICNEEFDSIPRRTGAEVDITGMTMLLQNLGYSVDVKKNLTASDMTTELEAFAHRPEHKTSDSTFLVFMSHGIREGICGKKHSEQVPDILQLNAIFNMLNTKNCPSLKDKPKVIIIQACRGDSPGVVWFKDSVGVSGNLSLPTTEEFEDDAIKKAHIEKDFIAFCSSTPDNVSWRHPTMGSVFIGRLIEHMQEYACSCDVEEIFRKVRFSFEQPDGRAQMPTTERVTLTRCFYLFPGH</Protein_Seq>
+    <DNA_Seq>AAAAGCCATGGCCGACAAGGTCCTGAAGGAGAAGAGAAAGCTGTTTATCCGTTCCATGGGTGAAGGTACAATAAATGGCTTACTGGATGAATTATTACAGACAAGGGTGCTGAACAAGGAAGAGATGGAGAAAGTAAAACGTGAAAATGCTACAGTTATGGATAAGACCCGAGCTTTGATTGACTCCGTTATTCCGAAAGGGGCACAGGCATGCCAAATTTGCATCACATACATTTGTGAAGAAGACAGTTACCTGGCAGGGACGCTGGGACTCTCAGCAGATCAAACATCTGGAAATTACCTTAATATGCAAGACTCTCAAGGAGTACTTTCTTCCTTTCCAGCTCCTCAGGCAGTGCAGGACAACCCAGCTATGCCCACATCCTCAGGCTCAGAAGGGAATGTCAAGCTTTGCTCCCTAGAAGAAGCTCAAAGGATATGGAAACAAAAGTCGGCAGAGATTTATCCAATAATGGACAAGTCAAGCCGCACACGTCTTGCTCTCATTATCTGCAATGAAGAATTTGACAGTATTCCTAGAAGAACTGGAGCTGAGGTTGACATCACAGGCATGACAATGCTGCTACAAAATCTGGGGTACAGCGTAGATGTGAAAAAAAATCTCACTGCTTCGGACATGACTACAGAGCTGGAGGCATTTGCACACCGCCCAGAGCACAAGACCTCTGACAGCACGTTCCTGGTGTTCATGTCTCATGGTATTCGGGAAGGCATTTGTGGGAAGAAACACTCTGAGCAAGTCCCAGATATACTACAACTCAATGCAATCTTTAACATGTTGAATACCAAGAACTGCCCAAGTTTGAAGGACAAACCGAAGGTGATCATCATCCAGGCCTGCCGTGGTGACAGCCCTGGTGTGGTGTGGTTTAAAGATTCAGTAGGAGTTTCTGGAAACCTATCTTTACCAACTACAGAAGAGTTTGAGGATGATGCTATTAAGAAAGCCCACATAGAGAAGGATTTTATCGCTTTCTGCTCTTCCACACCAGATAATGTTTCTTGGAGACATCCCACAATGGGCTCTGTTTTTATTGGAAGACTCATTGAACATATGCAAGAATATGCCTGTTCCTGTGATGTGGAGGAAATTTTCCGCAAGGTTCGATTTTCATTTGAGCAGCCAGATGGTAGAGCGCAGATGCCCACCACTGAAAGAGTGACTTTGACAAGATGTTTCTACCTCTTCCCAGGACATTAAAATAAGGAAACTGTATGAATGTCTGTGGGCAGGGTGAAGAGATCCTTCTGTAAAGGTTTTTGAATTATGTCTGCTGAATAATAAACTTTTTTGAAATAATAAATCTGGTAGAAAAATGAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Testis</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Colon</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Thymus</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Skeletal muscle</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Liver</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Kidney</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Lung</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Prostate</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Spleen</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Heart</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CASP1</Gene_Name>
+    <Gene_Alias>IL1BC; IL1BCE</Gene_Alias>
+    <Gene_ID>834</Gene_ID>
+    <Genbank_ACCN>NM_001223</Genbank_ACCN>
+    <Protein_ACCN>NP_001214</Protein_ACCN>
+    <HGNC_ID>1499</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/834</Gene_URL>
+    <UCSC_ID>uc010rvi.2</UCSC_ID>
+    <EMBL_ID>ENSG00000137752</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P01583</Uniprot_ID>
+      <Gene_Name>IL1A</Gene_Name>
+      <EBI_ID>EBI-1749782</EBI_ID>
+      <PPI_EBI_URL>EBI-516667,EBI-1749782</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P09038</Uniprot_ID>
+      <Gene_Name>FGF2</Gene_Name>
+      <EBI_ID>EBI-977447</EBI_ID>
+      <PPI_EBI_URL>EBI-516667,EBI-977447</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Typhoid Fever</Disease_Name>
+      <Disease_Detail>Typhoid Fever</Disease_Detail>
+      <Disease_DB>TYP007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/typhoid_fever?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cowpox</Disease_Name>
+      <Disease_Detail>Cowpox</Disease_Detail>
+      <Disease_DB>CWP001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cowpox?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myelodysplastic Syndromes</Disease_Name>
+      <Disease_Detail>Myelodysplastic Syndromes</Disease_Detail>
+      <Disease_DB>MYL040</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myelodysplastic_syndromes?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Huntington's Disease</Disease_Name>
+      <Disease_Detail>Huntington's Disease</Disease_Detail>
+      <Disease_DB>HNT001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/huntingtons_disease?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Myocardial Infarction</Disease_Name>
+      <Disease_Detail>Myocardial Infarction</Disease_Detail>
+      <Disease_DB>MYC007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/myocardial_infarction?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Wells Syndrome</Disease_Name>
+      <Disease_Detail>Wells Syndrome</Disease_Detail>
+      <Disease_DB>WLL006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/wells_syndrome?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Paratyphoid Fever</Disease_Name>
+      <Disease_Detail>Paratyphoid Fever</Disease_Detail>
+      <Disease_DB>PRT002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/paratyphoid_fever?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Familial Mediterranean Fever</Disease_Name>
+      <Disease_Detail>Familial Mediterranean Fever</Disease_Detail>
+      <Disease_DB>FML018</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/familial_mediterranean_fever?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Familial Cold Autoinflammatory Syndrome</Disease_Name>
+      <Disease_Detail>Familial Cold Autoinflammatory Syndrome</Disease_Detail>
+      <Disease_DB>FML052</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/familial_cold_autoinflammatory_syndrome?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Muckle-Wells Syndrome</Disease_Name>
+      <Disease_Detail>Muckle-Wells Syndrome</Disease_Detail>
+      <Disease_DB>MCK007</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/muckle_wells_syndrome?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Shigellosis</Disease_Name>
+      <Disease_Detail>Shigellosis</Disease_Detail>
+      <Disease_DB>SHG001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/shigellosis?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Septic Shock</Disease_Name>
+      <Disease_Detail>Septic Shock</Disease_Detail>
+      <Disease_DB>SPT013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/septic_shock?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pneumococcal Meningitis</Disease_Name>
+      <Disease_Detail>Pneumococcal Meningitis</Disease_Detail>
+      <Disease_DB>PNM013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pneumococcal_meningitis?search=CASP1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 (Arg286-&gt;Ala, Glu390-&gt;Ala) in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>2HBZ</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HBZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A common allosteric site and mechanism in caspases.</PubMed_Title>
+      <Author>Scheer JM, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2006 May 16;103(20):7595-600.</Journal>
+      <PubMed_ID>16682620</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 (Arg286-&gt;Ala) in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>2HBR</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HBR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A common allosteric site and mechanism in caspases.</PubMed_Title>
+      <Author>Scheer JM, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2006 May 16;103(20):7595-600.</Journal>
+      <PubMed_ID>16682620</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 in complex with 3-{6-[(8-hydroxy-quinoline-2-carbonyl)-amino]-2-thiophen-2-yl-hexanoylamino}-4-oxo-butyric acid</PDB_Title>
+      <PDB_ID>1RWP</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RWP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of caspase-1 inhibitors derived from Tethering.</PubMed_Title>
+      <Author>O'Brien T,et al.</Author>
+      <Journal>Acta Crystallogr Sect F Struct Biol Cryst Commun. 2005 May 1;61(Pt 5):451-8.</Journal>
+      <PubMed_ID>16511067</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 (Thr388-&gt;Ala) in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>2H54</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H54</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An allosteric circuit in caspase-1.</PubMed_Title>
+      <Author>Datta D, et al.</Author>
+      <Journal>J Mol Biol. 2008 Sep 19;381(5):1157-67.</Journal>
+      <PubMed_ID>18590738</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 with a naturally-occurring Asn263-&gt;Ser substitution in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>3D6H</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3D6H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mutated, structurally altered caspase-1 with decreased enzymatic and increased RIP2-meditated inflammatory activity leads to a new type of periodic fever (ICE fever).</PubMed_Title>
+      <Author>Rosen-Wolff A, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 (Glu390-&gt;Ala) in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>2HBY</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HBY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A common allosteric site and mechanism in caspases.</PubMed_Title>
+      <Author>Scheer JM, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2006 May 16;103(20):7595-600.</Journal>
+      <PubMed_ID>16682620</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 in complex with 4-oxo-3-[(6-{[4-(quinoxalin-2-ylamino)-benzoylamino]-methyl}-pyridine-3-carbonyl)-amino]-butyric acid</PDB_Title>
+      <PDB_ID>1RWW</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RWW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Tethering identifies fragment that yields potent inhibitors of human caspase-1.</PubMed_Title>
+      <Author>Fahr BT, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2006 Feb;16(3):559-62.</Journal>
+      <PubMed_ID>16274992</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 with a naturally-occurring Arg240-&gt;Gln substitution in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>3D6F</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3D6F</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mutated, structurally altered caspase-1 with decreased enzymatic and increased RIP2-meditated inflammatory activity leads to a new type of periodic fever (ICE fever).</PubMed_Title>
+      <Author>Rosen-Wolff A, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 (Glu390-&gt;Asp and Arg286-&gt;Lys) in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>2H51</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H51</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An allosteric circuit in caspase-1.</PubMed_Title>
+      <Author>Datta D, et al.</Author>
+      <Journal>J Mol Biol. 2008 Sep 19;381(5):1157-67.</Journal>
+      <PubMed_ID>18590738</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 in complex with 3-{2-ethyl-6-[4-(quinoxalin-2-ylamino)-benzoylamino]-hexanoylamino}-4-oxo-butyric acid</PDB_Title>
+      <PDB_ID>1RWN</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RWN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of caspase-1 inhibitors derived from Tethering.</PubMed_Title>
+      <Author>O'Brien T,et al.</Author>
+      <Journal>Acta Crystallogr Sect F Struct Biol Cryst Commun. 2005 May 1;61(Pt 5):451-8.</Journal>
+      <PubMed_ID>16511067</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of an active-site ligand-free form of the human caspase-1 C285A mutant</PDB_Title>
+      <PDB_ID>1SC1</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SC1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of a ligand-free and malonate-bound human caspase-1: implications for the mechanism of substrate binding.</PubMed_Title>
+      <Author>Romanowski MJ, et al.</Author>
+      <Journal>Structure. 2004 Aug;12(8):1361-71.</Journal>
+      <PubMed_ID>15296730</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 in complex with 4-oxo-3-[2-(5-{[4-(quinoxalin-2-ylamino)-benzoylamino]-methyl}-thiophen-2-yl)-acetylamino]-pentanoic acid</PDB_Title>
+      <PDB_ID>1RWM</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RWM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of caspase-1 inhibitors derived from Tethering.</PubMed_Title>
+      <Author>O'Brien T,et al.</Author>
+      <Journal>Acta Crystallogr Sect F Struct Biol Cryst Commun. 2005 May 1;61(Pt 5):451-8.</Journal>
+      <PubMed_ID>16511067</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE AND MECHANISM OF INTERLEUKIN-1BETA CONVERTING ENZYME</PDB_Title>
+      <PDB_ID>1ICE</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ICE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and mechanism of interleukin-1 beta converting enzyme.</PubMed_Title>
+      <Author>Wilson KP, et al.</Author>
+      <Journal>Nature. 1994 Jul 28;370(6487):270-5.</Journal>
+      <PubMed_ID>8035875</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 in complex with 4-oxo-3-{6-[4-(quinoxalin-2-yloxy)-benzoylamino]-2-thiophen-2-yl-hexanoylamino}-butyric acid</PDB_Title>
+      <PDB_ID>1RWX</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RWX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Tethering identifies fragment that yields potent inhibitors of human caspase-1.</PubMed_Title>
+      <Author>Fahr BT, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2006 Feb;16(3):559-62.</Journal>
+      <PubMed_ID>16274992</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the human caspase-1 C285A mutant in complex with malonate</PDB_Title>
+      <PDB_ID>1SC3</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SC3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of a ligand-free and malonate-bound human caspase-1: implications for the mechanism of substrate binding.</PubMed_Title>
+      <Author>Romanowski MJ, et al.</Author>
+      <Journal>Structure. 2004 Aug;12(8):1361-71.</Journal>
+      <PubMed_ID>15296730</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the human caspase-1 C285A mutant after removal of malonate</PDB_Title>
+      <PDB_ID>1SC4</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SC4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of a ligand-free and malonate-bound human caspase-1: implications for the mechanism of substrate binding.</PubMed_Title>
+      <Author>Romanowski MJ, et al.</Author>
+      <Journal>Structure. 2004 Aug;12(8):1361-71.</Journal>
+      <PubMed_ID>15296730</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 (Cys285-&gt;Ala, Cys362-&gt;Ala, Cys364-&gt;Ala, Cys397-&gt;Ala) in complex with 1-methyl-3-trifluoromethyl-1H-thieno[2,3-c]pyrazole-5-carboxylic acid (2-mercapto-ethyl)-amide</PDB_Title>
+      <PDB_ID>2FQQ</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FQQ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00520001</ASD_Ligand>
+      <Ligand_Name>1-METHYL-3-TRIFLUOROMETHYL-1H-THIENO[2,3- C]PYRAZOLE-5-CARBOXYLIC ACID (2-MERCAPTO- ETHYL)-AMIDE</Ligand_Name>
+      <PubMed_Title>A common allosteric site and mechanism in caspases.</PubMed_Title>
+      <Author>Scheer JM, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2006 May 16;103(20):7595-600.</Journal>
+      <PubMed_ID>16682620</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 in complex with 3-(2-mercapto-acetylamino)-4-oxo-pentanoic acid</PDB_Title>
+      <PDB_ID>1RWK</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RWK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of caspase-1 inhibitors derived from Tethering.</PubMed_Title>
+      <Author>O'Brien T,et al.</Author>
+      <Journal>Acta Crystallogr Sect F Struct Biol Cryst Commun. 2005 May 1;61(Pt 5):451-8.</Journal>
+      <PubMed_ID>16511067</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 (Glu390-&gt;Asp) in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>2H4W</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H4W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An allosteric circuit in caspase-1.</PubMed_Title>
+      <Author>Datta D, et al.</Author>
+      <Journal>J Mol Biol. 2008 Sep 19;381(5):1157-67.</Journal>
+      <PubMed_ID>18590738</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of wildtype human caspase-1 in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>2HBQ</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HBQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A common allosteric site and mechanism in caspases.</PubMed_Title>
+      <Author>Scheer JM, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2006 May 16;103(20):7595-600.</Journal>
+      <PubMed_ID>16682620</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF INTERLEUKIN-1BETA CONVERTING ENZYME (ICE) WITH A PEPTIDE BASED INHIBITOR, (3S )-N-METHANESULFONYL-3-({1-[N-(2-NAPHTOYL)-L-VALYL]-L-PROLYL }AMINO)-4-OXOBUTANAMIDE</PDB_Title>
+      <PDB_ID>1BMQ</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BMQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Peptide based interleukin-1 beta converting enzyme (ICE) inhibitors: synthesis, structure activity relationships and crystallographic study of the ICE-inhibitor complex.</PubMed_Title>
+      <Author>Okamoto Y, et al.</Author>
+      <Journal>Chem Pharm Bull (Tokyo). 1999 Jan;47(1):11-21.</Journal>
+      <PubMed_ID>9987822</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 in complex with 5-[5-(1-carboxymethyl-2-oxo-propylcarbamoyl)-5-phenyl-pentylsulfamoyl]-2-hydroxy-benzoic acid</PDB_Title>
+      <PDB_ID>1RWV</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RWV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Novel Caspase-1 Inhibitors Discovered Using Tethering(SM) with Extenders</PubMed_Title>
+      <Author>O'Brien T,et al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 (Arg286-&gt;Lys) in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>2H4Y</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H4Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>An allosteric circuit in caspase-1.</PubMed_Title>
+      <Author>Datta D, et al.</Author>
+      <Journal>J Mol Biol. 2008 Sep 19;381(5):1157-67.</Journal>
+      <PubMed_ID>18590738</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF INHIBITED INTERLEUKIN-1BETA CONVERTING ENZYME</PDB_Title>
+      <PDB_ID>1IBC</PDB_ID>
+      <Resolution>2.73</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1IBC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A combinatorial approach for determining protease specificities: application to interleukin-1beta converting enzyme (ICE).</PubMed_Title>
+      <Author>Rano TA, et al.</Author>
+      <Journal>Chem Biol. 1997 Feb;4(2):149-55.</Journal>
+      <PubMed_ID>9190289</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 (Cys362-&gt;Ala, Cys364-&gt;Ala, Cys397-&gt;Ala) in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>2H48</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H48</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A common allosteric site and mechanism in caspases.</PubMed_Title>
+      <Author>Scheer JM, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2006 May 16;103(20):7595-600.</Journal>
+      <PubMed_ID>16682620</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Procaspase-1 zymogen domain crystal strucutre</PDB_Title>
+      <PDB_ID>3E4C</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E4C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of procaspase-1 zymogen domain reveals insight into inflammatory caspase autoactivation.</PubMed_Title>
+      <Author>Elliott JM, et al.</Author>
+      <Journal>J Biol Chem. 2009 Mar 6;284(10):6546-53.</Journal>
+      <PubMed_ID>19117953</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 in complex with 4-oxo-3-{6-[4-(quinoxalin-2-ylamino)-benzoylamino]-2-thiophen-2-yl-hexanoylamino}-pentanoic acid</PDB_Title>
+      <PDB_ID>1RWO</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RWO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of caspase-1 inhibitors derived from Tethering.</PubMed_Title>
+      <Author>O'Brien T,et al.</Author>
+      <Journal>Acta Crystallogr Sect F Struct Biol Cryst Commun. 2005 May 1;61(Pt 5):451-8.</Journal>
+      <PubMed_ID>16511067</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human caspase-1 with a naturally-occurring Lys319-&gt;Arg substitution in complex with 3-[2-(2-benzyloxycarbonylamino-3-methyl-butyrylamino)-propionylamino]-4-oxo-pentanoic acid (z-VAD-FMK)</PDB_Title>
+      <PDB_ID>3D6M</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3D6M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Mutated, structurally altered caspase-1 with decreased enzymatic and increased RIP2-meditated inflammatory activity leads to a new type of periodic fever (ICE fever).</PubMed_Title>
+      <Author>Rosen-Wolff A, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04621</Pathway_ID>
+      <Pathway_Title>NOD-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04621</Pathway_ID>
+      <Pathway_Title>NOD-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05164</Pathway_ID>
+      <Pathway_Title>Influenza A</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05014</Pathway_ID>
+      <Pathway_Title>Amyotrophic lateral sclerosis (ALS)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04623</Pathway_ID>
+      <Pathway_Title>Cytosolic DNA-sensing pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05134</Pathway_ID>
+      <Pathway_Title>Legionellosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05133</Pathway_ID>
+      <Pathway_Title>Pertussis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04621</Pathway_ID>
+      <Pathway_Title>NOD-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04621</Pathway_ID>
+      <Pathway_Title>NOD-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05132</Pathway_ID>
+      <Pathway_Title>Salmonella infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04621</Pathway_ID>
+      <Pathway_Title>NOD-like receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.id.b.b.c.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1sc1</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,286,Arg;site,390,Glu;site,332,Ser;site,333,Ser</Site_Detail>
+      <Site_Reference>Datta D, et al. J Mol Biol.2008,381(5):1157-1167.</Site_Reference>
+      <Site_Type>Allosteric Linkage</Site_Type>
+      <PDB_ID>2FQQ</PDB_ID>
+      <PubMed_ID>18590738</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Allosteric_Pathway>
+    <Pathway>E390, T388, T334@@S333@@S332@@R286, D336, N337, S339</Pathway>
+    <Method>Structural analysis, alanine-scanning mutagenesis, crystallization.</Method>
+    <Verified__Residue>S339, N337, D336, T334, S333, S332, R286, T388, E390</Verified__Residue>
+    <PubMed_Title>Datta D, et al. J Mol Biol. 2008,381(5):1157-1167.</PubMed_Title>
+    <PubMed_ID>18590738</PubMed_ID>
+    <is__ref__img>No</is__ref__img>
+    <is__display>Yes</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.22.36</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/22/36.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00520001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00520005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

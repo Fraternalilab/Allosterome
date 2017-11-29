@@ -1,0 +1,1110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11830000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P01903</UniProt_ID>
+  <Seq_Length>254</Seq_Length>
+  <Molecule_Weight>28607</Molecule_Weight>
+  <KEGG_ID>hsa:3122</KEGG_ID>
+  <Orthology_ID>K06752</Orthology_ID>
+  <Function_Summary>Binds peptides derived from antigens that access the endocytic route of antigen presenting cells (APC) and presents them on the cell surface for recognition by the CD4 T-cells. The peptide binding cleft accommodates peptides of 10-30 residues. The peptides presented by MHC class II molecules are generated mostly by degradation of proteins that access the endocytic route, where they are processed by lysosomal proteases and other hydrolases. Exogenous antigens that have been endocytosed by the APC are thus readily available for presentation via MHC II molecules, and for this reason this antigen presentation pathway is usually referred to as exogenous. As membrane proteins on their way to degradation in lysosomes as part of their normal turn-over are also contained in the endosomal/lysosomal compartments, exogenous antigens must compete with those derived from endogenous components. Autophagy is also a source of endogenous peptides, autophagosomes constitutively fuse with MHC class II loading compartments. In addition to APCs, other cells of the gastrointestinal tract, such as epithelial cells, express MHC class II molecules and CD74 and act as APCs, which is an unusual trait of the GI tract. To produce a MHC class II molecule that presents an antigen, three MHC class II molecules (heterodimers of an alpha and a beta chain) associate with a CD74 trimer in the ER to form a heterononamer. Soon after the entry of this complex into the endosomal/lysosomal system where antigen processing occurs, CD74 undergoes a sequential degradation by various proteases, including CTSS and CTSL, leaving a small fragment termed CLIP (class-II-associated invariant chain peptide). The removal of CLIP is facilitated by HLA-DM via direct binding to the alpha-beta-CLIP complex so that CLIP is released. HLA-DM stabilizes MHC class II molecules until primary high affinity antigenic peptides are bound. The MHC II molecule bound to a peptide is then transported to the cell membrane surface. In B-cells, the interaction between HLA-DM and MHC class II molecules is regulated by HLA-DO. Primary dendritic cells (DCs) also to express HLA-DO. Lysosomal microenvironment has been implicated in the regulation of antigen loading into MHC II molecules, increased acidification produces increased proteolysis and efficient peptide loading.</Function_Summary>
+  <Pfam_ID>PF07654:C1-set@@PF00993:MHC_II_alpha</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>MHC class II antigen DRA</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively with the class II major histocompatibility complex.</Detail>
+      <Keyword>MHC class II protein complex binding</Keyword>
+      <Ontology_ID>GO:0023026</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an antigen peptide, a fragment of a foreign protein derived by proteolysis within the cell.</Detail>
+      <Keyword>Peptide antigen binding</Keyword>
+      <Ontology_ID>GO:0042605</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with an MHC class II protein complex to initiate a change in cellular activity.</Detail>
+      <Keyword>MHC class II receptor activity</Keyword>
+      <Ontology_ID>GO:0032395</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The binding of a peptide to the antigen binding groove of an MHC class II protein complex.</Detail>
+      <Keyword>Peptide antigen assembly with MHC class II protein complex</Keyword>
+      <Ontology_ID>GO:0002503</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of a cytokine or chemokine binding to a cell surface receptor.</Detail>
+      <Keyword>Cytokine-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0019221</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any immune system process that functions in the calibrated response of an organism to a potential internal or invasive threat.</Detail>
+      <Keyword>Immune response</Keyword>
+      <Ontology_ID>GO:0006955</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Protein involved in immunity, any immune system process that functions in the response of an organism to a potential internal or invasive threat. The vertebrate immune system is formed by the innate immune system (composed of phagocytes, complement, antimicrobial peptides, etc) and by the adaptive immune system which consists of T- and B-lymphocytes.</Detail>
+      <Keyword>Immunity</Keyword>
+      <Ontology_ID>KW-0391</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The binding of a polysaccharide to the antigen binding groove of an MHC class II protein complex.</Detail>
+      <Keyword>Polysaccharide assembly with MHC class II protein complex</Keyword>
+      <Ontology_ID>GO:0002506</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular events generated as a consequence of interferon-gamma binding to a cell surface receptor.</Detail>
+      <Keyword>Interferon-gamma-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0060333</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals initiated by the cross-linking of an antigen receptor on a T cell.</Detail>
+      <Keyword>T cell receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0050852</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which an antigen-presenting cell expresses antigen (peptide or polysaccharide) on its cell surface in association with an MHC class II protein complex.</Detail>
+      <Keyword>Antigen processing and presentation of peptide or polysaccharide antigen via MHC class II</Keyword>
+      <Ontology_ID>GO:0002504</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which an antigen-presenting cell expresses a peptide antigen of exogenous origin on its cell surface in association with an MHC class II protein complex. The peptide antigen is typically, but not always, processed from a whole protein.</Detail>
+      <Keyword>Antigen processing and presentation of exogenous peptide antigen via MHC class II</Keyword>
+      <Ontology_ID>GO:0019886</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.</Detail>
+      <Keyword>Cognition</Keyword>
+      <Ontology_ID>GO:0050890</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of providing, via surface-bound receptor-ligand pairs, a second, antigen-independent, signal in addition to that provided by the T cell receptor to augment T cell activation.</Detail>
+      <Keyword>T cell costimulation</Keyword>
+      <Ontology_ID>GO:0031295</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAISGVPVLGFFIIAVLMSAQESWAIKEEHVIIQAEFYLNPDQSGEFMFDFDGDEIFHVDMAKKETVWRLEEFGRFASFEAQGALANIAVDKANLEIMTKRSNYTPITNVPPEVTVLTNSPVELREPNVLICFIDKFTPPVVNVTWLRNGKPVTTGVSETVFLPREDHLFRKFHYLPFLPSTEDVYDCRVEHWGLDEPLLKHWEFDAPSPLPETTENVVCALGLTVGLVGIIIGTIFIIKGVRKSNAAERRGPL</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Extracellular vesicular exosome</CellLocal>
+      <Ontology_ID>GO:0070062</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>MHC class II protein complex</CellLocal>
+      <Ontology_ID>GO:0042613</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endosome</CellLocal>
+      <Ontology_ID>GO:0005768</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Lysosome membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005887</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>ER to Golgi transport vesicle membrane</CellLocal>
+      <Ontology_ID>GO:0012507</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endosome membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to lumenal side of endoplasmic reticulum membrane</CellLocal>
+      <Ontology_ID>GO:0071556</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Golgi apparatus</CellLocal>
+      <Ontology_ID>GO:0005794</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum</CellLocal>
+      <Ontology_ID>GO:0005783</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Transport vesicle membrane</CellLocal>
+      <Ontology_ID>GO:0030658</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Lysosomal membrane</CellLocal>
+      <Ontology_ID>GO:0005765</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Golgi membrane</CellLocal>
+      <Ontology_ID>GO:0000139</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Late endosome membrane</CellLocal>
+      <Ontology_ID>GO:0031902</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Trans-Golgi network membrane</CellLocal>
+      <Ontology_ID>GO:0032588</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Clathrin-coated endocytic vesicle membrane</CellLocal>
+      <Ontology_ID>GO:0030669</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell surface</CellLocal>
+      <Ontology_ID>GO:0009986</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Lysosome</CellLocal>
+      <Ontology_ID>GO:0005764</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endocytic vesicle membrane</CellLocal>
+      <Ontology_ID>GO:0030666</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>HLA-DRA</Gene_Name>
+    <Gene_Alias>HLA-DRA1</Gene_Alias>
+    <Gene_ID>3122</Gene_ID>
+    <Genbank_ACCN>NM_019111</Genbank_ACCN>
+    <Protein_ACCN>NP_061984</Protein_ACCN>
+    <HGNC_ID>4947</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/3122</Gene_URL>
+    <UCSC_ID>uc003obh.3</UCSC_ID>
+    <EMBL_ID>ENSG00000226260</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Mhc Class Ii Deficiency</Disease_Name>
+      <Disease_Detail>Mhc Class Ii Deficiency</Disease_Detail>
+      <Disease_DB>MHC001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mhc_class_ii_deficiency?search=HLA-DRA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Graham Little-Piccardi-Lassueur Syndrome</Disease_Name>
+      <Disease_Detail>Graham Little-Piccardi-Lassueur Syndrome</Disease_Detail>
+      <Disease_DB>GRH003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/graham_little_piccardi_lassueur_syndrome?search=HLA-DRA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Diffuse Panbronchiolitis</Disease_Name>
+      <Disease_Detail>Diffuse Panbronchiolitis</Disease_Detail>
+      <Disease_DB>DFF024</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/diffuse_panbronchiolitis?search=HLA-DRA#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Allergic Encephalomyelitis</Disease_Name>
+      <Disease_Detail>Allergic Encephalomyelitis</Disease_Detail>
+      <Disease_DB>ALL014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/allergic_encephalomyelitis?search=HLA-DRA#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF A SUPERANTIGEN BOUND TO THE HIGH-AFFINITY, ZINC-DEPENDENT SITE ON MHC CLASS II</PDB_Title>
+      <PDB_ID>1HQR</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HQR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of a superantigen bound to the high-affinity, zinc-dependent site on MHC class II.</PubMed_Title>
+      <Author>Li, Y., et al.</Author>
+      <Journal>Immunity(2001)14:93-104</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11163233?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HLA-DR4 COMPLEX WITH PEPTIDOMIMETIC AND SEB</PDB_Title>
+      <PDB_ID>1D6E</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D6E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Peptide and peptide mimetic inhibitors of antigen presentation by HLA-DR class II MHC molecules. Design, structure-activity relationships, and X-ray crystal structures.</PubMed_Title>
+      <Author>Bolin, D.R., et al.</Author>
+      <Journal>J.Med.Chem.(2000)43:2135-2148</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10841792?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystallographic structure of a rheumatoid arthritis MHC susceptibility allele, HLA-DR1 (DRB1*0101), complexed with the immunodominant determinant of human type II collagen</PDB_Title>
+      <PDB_ID>2FSE</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FSE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystallographic Structure of a Rheumatoid Arthritis MHC Susceptibility Allele, HLA-DR1 (DRB1*0101), Complexed with the Immunodominant Determinant of Human Type II Collagen.</PubMed_Title>
+      <Author>Rosloniec, E.F., et al.</Author>
+      <Journal>J.Immunol.(2006)177:3884-3892</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16951351?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TCR complex</PDB_Title>
+      <PDB_ID>2WBJ</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WBJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>T Cell-Mediated Autoimmune Disease due to Low-Affinity Crossreactivity to Common Microbial Peptides.</PubMed_Title>
+      <Author>Harkiolaki, M., et al.</Author>
+      <Journal>Immunity(2009)30:348</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19303388?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TCR interaction with peptide mimics of nickel offers structure insights to nickel contact allergy</PDB_Title>
+      <PDB_ID>4H25</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4H25</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>T-cell receptor (TCR) interaction with peptides that mimic nickel offers insight into nickel contact allergy.</PubMed_Title>
+      <Author>Yin, L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2012)109:18517-18522</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23091041?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-RAY CRYSTAL STRUCTURE OF HLA-DR4 COMPLEXED WITH DIPEPTIDE MIMETIC AND SEB</PDB_Title>
+      <PDB_ID>1D5X</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D5X</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Peptide and peptide mimetic inhibitors of antigen presentation by HLA-DR class II MHC molecules. Design, structure-activity relationships, and X-ray crystal structures.</PubMed_Title>
+      <Author>Bolin, D.R., et al.</Author>
+      <Journal>J.Med.Chem.(2000)43:2135-2148</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10841792?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray structure of the complex between staphylococcal enterotoxin B, T cell receptor and major histocompatibility complex class II</PDB_Title>
+      <PDB_ID>4C56</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4C56</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the Superantigen Staphylococcal Enterotoxin B in Complex with Tcr and Peptide-Mhc Demonstrates Absence of Tcr-Peptide Contacts.</PubMed_Title>
+      <Author>Rodstrom, K.E.J., et al.</Author>
+      <Journal>J.Immunol.(2014)193:1998</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25015819?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Immune Receptor</PDB_Title>
+      <PDB_ID>4MCY</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4MCY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A molecular basis for the association of the HLA-DRB1 locus, citrullination, and rheumatoid arthritis.</PubMed_Title>
+      <Author>Scally, S.W., et al.</Author>
+      <Journal>J.Exp.Med.(2013)210:2569-2582</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24190431?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Complex of the MHC Class II Molecule HLA-DR1(HA peptide 306-318) with the Superantigen SEC3</PDB_Title>
+      <PDB_ID>1JWM</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JWM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural, energetic, and functional analysis of a protein-protein interface at distinct stages of affinity   maturation</PubMed_Title>
+      <Author>Sundberg, E.J., et al.</Author>
+      <Journal>Structure(2003)11:1151-1161</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12962633?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HLA-DR1 with covalently linked CLIP106-120 in reversed orientation</PDB_Title>
+      <PDB_ID>4AEN</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4AEN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Peptide Linkage to the Alpha-Subunit of Mhcii Creates a Stably Inverted Antigen Presentation Complex.</PubMed_Title>
+      <Author>Schlundt, A., et al.</Author>
+      <Journal>J.Mol.Biol.(2012)423:294</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22820093?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Complex of the MHC Class II Molecule HLA-DR1 (HA peptide 306-318) with the superantigen SEC3 Variant 3B2</PDB_Title>
+      <PDB_ID>1JWU</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JWU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural, energetic, and functional analysis of a protein-protein interface at distinct stages of affinity   maturation</PubMed_Title>
+      <Author>Sundberg, E.J., et al.</Author>
+      <Journal>Structure(2003)11:1151-1161</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12962633?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of 3A6 TCR bound to MBP/HLA-DR2a</PDB_Title>
+      <PDB_ID>1ZGL</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZGL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a human autoimmune TCR bound to a myelin basic protein self-peptide and a multiple sclerosis-associated MHC class II molecule.</PubMed_Title>
+      <Author>Li, Y., et al.</Author>
+      <Journal>Embo J.(2005)24:2968-2979</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16079912?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural basis for the recognition of mutant self by a tumor-specific, MHC class II-restricted T cell receptor G4</PDB_Title>
+      <PDB_ID>4E41</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4E41</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the recognition of mutant self by a tumor-specific, MHC class II-restricted T cell receptor G4</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Immune Receptor</PDB_Title>
+      <PDB_ID>4MCZ</PDB_ID>
+      <Resolution>2.41</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4MCZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A molecular basis for the association of the HLA-DRB1 locus, citrullination, and rheumatoid arthritis.</PubMed_Title>
+      <Author>Scally, S.W., et al.</Author>
+      <Journal>J.Exp.Med.(2013)210:2569-2582</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24190431?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of HLA-DR1 with CLIP106-120, flipped peptide orientation</PDB_Title>
+      <PDB_ID>3PGC</PDB_ID>
+      <Resolution>2.66</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PGC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bidirectional binding of invariant chain peptides to an MHC class II molecule.</PubMed_Title>
+      <Author>Gunther, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:22219-22224</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21115828?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TCR/HLA-DR2b/MBP-peptide complex</PDB_Title>
+      <PDB_ID>1YMM</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1YMM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Unconventional topology of self peptide-major histocompatibility complex binding by a human autoimmune T cell receptor.</PubMed_Title>
+      <Author>Hahn, M., et al.</Author>
+      <Journal>NAT.IMMUNOL.(2005)6:490-496</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15821740?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPLEX OF THE HUMAN MHC CLASS II GLYCOPROTEIN HLA-DR1 AND THE BACTERIAL SUPERANTIGEN SEB</PDB_Title>
+      <PDB_ID>1SEB</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SEB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Three-dimensional structure of a human class II histocompatibility molecule complexed with superantigen.</PubMed_Title>
+      <Author>Jardetzky, T.S., et al.</Author>
+      <Journal>Nature(1994)368:711-718</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8152483?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Mycoplasma arthritidis-derived mitogen complexed with class II MHC molecule HLA-DR1/HA complex in the presence of EDTA</PDB_Title>
+      <PDB_ID>2OJE</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OJE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Zinc induces dimerization of the class II major histocompatibility complex molecule that leads to cooperative binding to a superantigen.</PubMed_Title>
+      <Author>Li, H., et al.</Author>
+      <Journal>J.Biol.Chem.(2007)282:5991-6000</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17166841?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HLA-DR1/TPI(23-37) complexed with staphylococcal enterotoxin C3 variant 3B2 (SEC3-3B2)</PDB_Title>
+      <PDB_ID>1KLU</PDB_ID>
+      <Resolution>1.93</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KLU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Minor structural changes in a mutated human melanoma antigen correspond to dramatically enhanced stimulation of a CD4+ tumor-infiltrating lymphocyte line.</PubMed_Title>
+      <Author>Sundberg, E.J., et al.</Author>
+      <Journal>J.Mol.Biol.(2002)319:449-461</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12051920?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-RAY CRYSTAL STRUCTURE OF HLA-DR4 COMPLEXED WITH A PEPTIDE FROM HUMAN COLLAGEN II</PDB_Title>
+      <PDB_ID>2SEB</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2SEB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray crystal structure of HLA-DR4 (DRA*0101, DRB1*0401) complexed with a peptide from human collagen II.</PubMed_Title>
+      <Author>Dessen, A., et al.</Author>
+      <Journal>Immunity(1997)7:473-481</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9354468?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HLA-DR1 bound with CLIP peptide</PDB_Title>
+      <PDB_ID>3QXA</PDB_ID>
+      <Resolution>2.71</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QXA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational lability in the class II MHC 310 helix and adjacent extended strand dictate HLA-DM susceptibility and peptide exchange.</PubMed_Title>
+      <Author>Painter, C.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2011)108:19329-19334</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22084083?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF A COMPLEX OF A HUMAN ALPHA/BETA-T CELL RECEPTOR, INFLUENZA HA ANTIGEN PEPTIDE, AND MHC CLASS II MOLECULE, HLA-DR1</PDB_Title>
+      <PDB_ID>1FYT</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FYT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>1 - 1FYT : T-cell receptors recognize viral peptides displayed on cell surfaces by MHC, and then mobilize the immune system to fight the infection. This structure includes the extracellular portion of a T-cell receptor bound to the extracellular portion of a class II MHC.</PubMed_Title>
+      <Author>Hennecke, J., et al.</Author>
+      <Journal>EMBO J.(2000)19:5611-5624</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11060013?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE TERNARY COMPLEX BETWEEN HUMAN T CELL RECEPTOR, STAPHYLOCOCCAL ENTEROTOXIN H AND HUMAN MAJOR HISTOCOMPATIBILITY COMPLEX CLASS II</PDB_Title>
+      <PDB_ID>2XN9</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2XN9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Structure of Superantigen Complexed with Tcr and Mhc Reveals Novel Insights Into Superantigenic T Cell Activation.</PubMed_Title>
+      <Author>Saline, M., et al.</Author>
+      <Journal>Nat.Commun.(2010)1:119</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21081917?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TCR interaction with peptide mimics of nickel offers structure insight to nickel contact allergy</PDB_Title>
+      <PDB_ID>4H26</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4H26</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>T-cell receptor (TCR) interaction with peptides that mimic nickel offers insight into nickel contact allergy.</PubMed_Title>
+      <Author>Yin, L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2012)109:18517-18522</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23091041?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Immune Receptor</PDB_Title>
+      <PDB_ID>4MDI</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4MDI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A molecular basis for the association of the HLA-DRB1 locus, citrullination, and rheumatoid arthritis.</PubMed_Title>
+      <Author>Scally, S.W., et al.</Author>
+      <Journal>J.Exp.Med.(2013)210:2569-2582</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24190431?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of MHC class II molecule HLA-DR1 complexed with phosphopeptide MART-1</PDB_Title>
+      <PDB_ID>3L6F</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3L6F</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Basis for the Presentation of Tumor-Associated MHC Class II-Restricted Phosphopeptides to CD4(+) T Cells.</PubMed_Title>
+      <Author>Li, Y., et al.</Author>
+      <Journal>J.Mol.Biol.(2010)399:596-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20417641?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL BASIS FOR THE BINDING OF AN IMMUNODOMINANT PEPTIDE FROM MYELIN BASIC PROTEIN IN DIFFERENT REGISTERS BY TWO HLA-DR2 ALLELES</PDB_Title>
+      <PDB_ID>1FV1</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FV1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the binding of an immunodominant peptide from myelin basic protein in different registers by two HLA-DR2 proteins.</PubMed_Title>
+      <Author>Li, Y., et al.</Author>
+      <Journal>J.Mol.Biol.(2000)304:177-188</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11080454?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the Complex of the MHC Class II Molecule HLA-DR1 (HA peptide 306-318) with the Superantigen SEC3 Variant 3B1</PDB_Title>
+      <PDB_ID>1JWS</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JWS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural, energetic, and functional analysis of a protein-protein interface at distinct stages of affinity    maturation</PubMed_Title>
+      <Author>Sundberg, E.J., et al.</Author>
+      <Journal>Structure(2003)11:1151-1161</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12962633?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of an immune complex at pH 6.5</PDB_Title>
+      <PDB_ID>4GBX</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4GBX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of the HLA-DM-HLA-DR1 Complex Defines Mechanisms for Rapid Peptide Selection.</PubMed_Title>
+      <Author>Pos, W., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2012)151:1557-1568</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23260142?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a complete ternary complex between TCR, superantigen, and peptide-MHC class II molecule</PDB_Title>
+      <PDB_ID>2ICW</PDB_ID>
+      <Resolution>2.41</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ICW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of a complete ternary complex of TCR, superantigen and peptide-MHC.</PubMed_Title>
+      <Author>Wang, L., et al.</Author>
+      <Journal>Nat.Struct.Mol.Biol.(2007)14:169-171</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17220897?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Immune Receptor</PDB_Title>
+      <PDB_ID>4MD0</PDB_ID>
+      <Resolution>2.19</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4MD0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A molecular basis for the association of the HLA-DRB1 locus, citrullination, and rheumatoid arthritis.</PubMed_Title>
+      <Author>Scally, S.W., et al.</Author>
+      <Journal>J.Exp.Med.(2013)210:2569-2582</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24190431?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-RAY CRYSTAL STRUCTURE OF HLA-DR4 COMPLEXED WITH PEPTIDE AND SEB</PDB_Title>
+      <PDB_ID>1D5M</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D5M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Peptide and peptide mimetic inhibitors of antigen presentation by HLA-DR class II MHC molecules. Design, structure-activity relationships, and X-ray crystal structures.</PubMed_Title>
+      <Author>Bolin, D.R., et al.</Author>
+      <Journal>J.Med.Chem.(2000)43:2135-2148</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10841792?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of HLA-DR1 with a bound peptide with non-optimal alanine in the P1 pocket</PDB_Title>
+      <PDB_ID>4OV5</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4OV5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Susceptibility to HLA-DM Protein Is Determined by a Dynamic Conformation of Major Histocompatibility Complex Class II Molecule Bound with Peptide.</PubMed_Title>
+      <Author>Yin, L., et al.</Author>
+      <Journal>J.Biol.Chem.(2014)289:23449-23464</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/25002586?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HLA-DR4 bound to GP100 peptide</PDB_Title>
+      <PDB_ID>4IS6</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4IS6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-Based Design of Altered MHC Class II-Restricted Peptide Ligands with Heterogeneous Immunogenicity.</PubMed_Title>
+      <Author>Chen, S., et al.</Author>
+      <Journal>J.Immunol.(2013)191:5097-5106</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24108701?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of CD4 mutant bound to HLA-DR1</PDB_Title>
+      <PDB_ID>3S4S</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3S4S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Affinity maturation of human CD4 by yeast surface display and crystal structure of a CD4-HLA-DR1 complex.</PubMed_Title>
+      <Author>Wang, X.X., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2011)108:15960-15965</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21900604?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the MHC Class II Molecule HLA-DR1 in Complex with the Fluorogenic Peptide, AcPKXVKQNTLKLAT (X=3-[5-(dimethylamino)-1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl]-L-alanine) and the Superantigen, SEC3 Variant 3B2</PDB_Title>
+      <PDB_ID>2IPK</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IPK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Fluorogenic probes for monitoring peptide binding to class II MHC proteins in living cells.</PubMed_Title>
+      <Author>Venkatraman, P., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2007)3:222-228</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17351628?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural basis for recognition of mutant self by a tumor-specific, MHC class II-restricted TCR</PDB_Title>
+      <PDB_ID>2IAM</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IAM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the recognition of mutant self by a tumor-specific, MHC class II-restricted T cell receptor</PubMed_Title>
+      <Author>Deng, L., et al.</Author>
+      <Journal>Nat.Immunol.(2007)8:398-408</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17334368?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HLA-DR1 complexed with a 13 residue HIV capsid peptide</PDB_Title>
+      <PDB_ID>1SJH</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SJH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A hairpin turn in a class II MHC-bound peptide orients residues outside the binding groove for T cell recognition.</PubMed_Title>
+      <Author>Zavala-Ruiz, Z., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2004)101:13279-13284</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15331779?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TCR interaction with peptide mimics of nickel offers structural insights in nickel contact allergy</PDB_Title>
+      <PDB_ID>4H1L</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4H1L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>T-cell receptor (TCR) interaction with peptides that mimic nickel offers insight into nickel contact allergy.</PubMed_Title>
+      <Author>Yin, L., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2012)109:18517-18522</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23091041?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HLA-DR2 (DRA*0101,DRB1*1501) COMPLEXED WITH A PEPTIDE FROM HUMAN MYELIN BASIC PROTEIN</PDB_Title>
+      <PDB_ID>1BX2</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BX2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of HLA-DR2 (DRA*0101, DRB1*1501) complexed with a peptide from human myelin basic protein.</PubMed_Title>
+      <Author>Smith, K.J., et al.</Author>
+      <Journal>J.Exp.Med.(1998)188:1511-1520</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9782128?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Staphylococcal Enterotoxin I (SEI) in Complex with a Human MHC class II Molecule</PDB_Title>
+      <PDB_ID>2G9H</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2G9H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of staphylococcal enterotoxin I (SEI) in complex with a human major histocompatibility complex class II molecule.</PubMed_Title>
+      <Author>Fernandez, M.M., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:25356-25364</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16829512?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The structure of HLA-DRA, DRB3*0101 (DR52a) with bound platelet integrin peptide associated with fetal and neonatal alloimmune thrombocytopenia</PDB_Title>
+      <PDB_ID>2Q6W</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Q6W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystallographic Structure of the Human Leukocyte Antigen DRA, DRB3*0101: Models of a Directional Alloimmune Response and Autoimmunity</PubMed_Title>
+      <Author>Parry, C.S., et al.</Author>
+      <Journal>J.Mol.Biol.(2007)371:435-446</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17583734?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural basis for recognition of mutant self by a tumor-specific, MHC class II-restricted TCR</PDB_Title>
+      <PDB_ID>2IAN</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IAN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the recognition of mutant self by a tumor-specific, MHC class II-restricted T cell receptor</PubMed_Title>
+      <Author>Deng, L., et al.</Author>
+      <Journal>Nat.Immunol.(2007)8:398-408</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17334368?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of human MHC class II protein HLA-DR1 carrying an influenza hemagglutinin peptide partially filling the binding groove</PDB_Title>
+      <PDB_ID>4I5B</PDB_ID>
+      <Resolution>2.12</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4I5B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural conservation of MHC class II peptide-binding groove in absence of peptide residues N-terminal to P1 pocket</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>F54C HLA-DR1 bound with CLIP peptide</PDB_Title>
+      <PDB_ID>3QXD</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QXD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational lability in the class II MHC 310 helix and adjacent extended strand dictate HLA-DM susceptibility and peptide exchange.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE STRUCTURE OF AN INTERMEDIATE IN CLASS II MHC MATURATION: CLIP BOUND TO HLA-DR3</PDB_Title>
+      <PDB_ID>1A6A</PDB_ID>
+      <Resolution>2.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1A6A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of an intermediate in class II MHC maturation: CLIP bound to HLA-DR3.</PubMed_Title>
+      <Author>Ghosh, P., et al.</Author>
+      <Journal>Nature(1995)378:457-462</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7477400?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the MAM-MHC complex</PDB_Title>
+      <PDB_ID>1R5I</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1R5I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of Mycoplasma arthritidis mitogen complexed with HLA-DR1 reveals a novel superantigen fold and a dimerized superantigen-MHC complex.</PubMed_Title>
+      <Author>Zhao, Y., et al.</Author>
+      <Journal>Structure(2004)12:277-288</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14962388?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of HLA-DR1 with CLIP102-120</PDB_Title>
+      <PDB_ID>3PDO</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PDO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bidirectional binding of invariant chain peptides to an MHC class II molecule.</PubMed_Title>
+      <Author>Gunther, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:22219-22224</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21115828?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HLA-DR1 in complex with a synthetic peptide (AAYSDQATPLLLSPR)</PDB_Title>
+      <PDB_ID>1T5W</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1T5W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A Polymorphic Pocket at the P10 Position Contributes to Peptide Binding Specificity in Class II MHC Proteins</PubMed_Title>
+      <Author>Zavala-Ruiz, Z., et al.</Author>
+      <Journal>Chem.Biol.(2004)11:1395-1402</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15489166?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Immune Receptor</PDB_Title>
+      <PDB_ID>4MDJ</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4MDJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A molecular basis for the association of the HLA-DRB1 locus, citrullination, and rheumatoid arthritis.</PubMed_Title>
+      <Author>Scally, S.W., et al.</Author>
+      <Journal>J.Exp.Med.(2013)210:2569-2582</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24190431?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of a Complex of a Human alpha/beta-T cell Receptor, Influenza HA Antigen Peptide, and MHC Class II Molecule, HLA-DR4</PDB_Title>
+      <PDB_ID>1J8H</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1J8H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a complex of the human alpha/beta T cell receptor (TCR) HA1.7, influenza hemagglutinin peptide, and major histocompatibility complex class II molecule, HLA-DR4 (DRA*0101 and DRB1*0401): insight into TCR cross-restriction and alloreactivity.</PubMed_Title>
+      <Author>Hennecke, J., et al.</Author>
+      <Journal>J.Exp.Med.(2002)195:571-581</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11877480?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF STAPHYLOCOCCAL ENTEROTOXIN H IN COMPLEX WITH HUMAN MHC CLASS II</PDB_Title>
+      <PDB_ID>1HXY</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HXY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of a Superantigen Bound to MHC Class II Displays Zinc and Peptide Dependence</PubMed_Title>
+      <Author>Petersson, K., et al.</Author>
+      <Journal>Embo J.(2001)20:3306-3312</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11432818?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HLA-DM bound to HLA-DR1</PDB_Title>
+      <PDB_ID>4FQX</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4FQX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of the HLA-DM-HLA-DR1 Complex Defines Mechanisms for Rapid Peptide Selection.</PubMed_Title>
+      <Author>Pos, W., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2012)151:1557-1568</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23260142?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a complete ternary complex of T cell receptor, peptide-MHC and CD4</PDB_Title>
+      <PDB_ID>3T0E</PDB_ID>
+      <Resolution>4.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3T0E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of a complete ternary complex of T-cell receptor, peptide-MHC, and CD4.</PubMed_Title>
+      <Author>Yin, Y., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2012)109:5405-5410</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22431638?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HLA-DR1/TPI(23-37, Thr28--&gt;Ile mutant) complexed with staphylococcal enterotoxin C3 variant 3B2 (SEC3-3B2)</PDB_Title>
+      <PDB_ID>1KLG</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KLG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Minor structural changes in a mutated human melanoma antigen correspond to dramatically enhanced stimulation of a CD4+ tumor-infiltrating lymphocyte line.</PubMed_Title>
+      <Author>Sundberg, E.J., et al.</Author>
+      <Journal>J.Mol.Biol.(2002)319:449-461</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12051920?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Human class II MHC protein HLA-DR1 bound to a designed peptide related to influenza virus hemagglutinin, FVKQNA(MAA)AL, in complex with staphylococcal enterotoxin C3 variant 3B2 (SEC3-3B2)</PDB_Title>
+      <PDB_ID>1PYW</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1PYW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Exploration of the P6/P7 region of the peptide-binding site of the human class II Major Histocompatability Complex Protein HLA-DR1</PubMed_Title>
+      <Author>Zavala-Ruiz, Z., et al.</Author>
+      <Journal>J.Biol.Chem.(2003)278:44904-44912</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12952957?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of HLA-DR1 with CLIP106-120, canonical peptide orientation</PDB_Title>
+      <PDB_ID>3PGD</PDB_ID>
+      <Resolution>2.72</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3PGD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Bidirectional binding of invariant chain peptides to an MHC class II molecule.</PubMed_Title>
+      <Author>Gunther, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2010)107:22219-22224</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21115828?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HLA-DR1 complexed with a 16 residue HIV capsid peptide bound in a hairpin conformation</PDB_Title>
+      <PDB_ID>1SJE</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SJE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A hairpin turn in a class II MHC-bound peptide orients residues outside the binding groove for T cell recognition.</PubMed_Title>
+      <Author>Zavala-Ruiz, Z., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.Usa(2004)101:13279-13284</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15331779?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HLA-DR1 with covalently linked CLIP106-120 in canonical orientation</PDB_Title>
+      <PDB_ID>4AH2</PDB_ID>
+      <Resolution>2.36</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4AH2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Peptide Linkage to the Alpha-Subunit of Mhcii Creates a Stably Inverted Antigen Presentation Complex.</PubMed_Title>
+      <Author>Schlundt, A., et al.</Author>
+      <Journal>J.Mol.Biol.(2012)423:294</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22820093?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of a human autoimmune TCR MS2-3C8 bound to MHC class II self-ligand MBP/HLA-DR4</PDB_Title>
+      <PDB_ID>3O6F</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3O6F</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a TCR with high affinity for self-antigen reveals basis for escape from negative selection.</PubMed_Title>
+      <Author>Yin, Y., et al.</Author>
+      <Journal>Embo J.(2011)30:1137-1148</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21297580?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-ray crystal structure of HLA-DRA1*0101/DRB5*0101 complexed with a peptide from Epstein Barr Virus DNA polymerase.</PDB_Title>
+      <PDB_ID>1H15</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1H15</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A Functional and Structural Basis for Tcr Cross-Reactivity in Multiple Sclerosis</PubMed_Title>
+      <Author>Lang, H., et al.</Author>
+      <Journal>Nat.Immunol.(2002)3:940</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12244309?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Immune Receptor</PDB_Title>
+      <PDB_ID>4MD5</PDB_ID>
+      <Resolution>1.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4MD5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A molecular basis for the association of the HLA-DRB1 locus, citrullination, and rheumatoid arthritis.</PubMed_Title>
+      <Author>Scally, S.W., et al.</Author>
+      <Journal>J.Exp.Med.(2013)210:2569-2582</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24190431?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE HUMAN CLASS II MHC PROTEIN HLA-DR1 COMPLEXED WITH AN INFLUENZA VIRUS PEPTIDE</PDB_Title>
+      <PDB_ID>1DLH</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DLH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>1 - 1DLH : MHC displays peptides on the surfaces of cells, allowing the immune system to sense infection inside cells. This structure includes the extracellular portion of a class II MHC, with a peptide bound.</PubMed_Title>
+      <Author>Stern, L.J., et al.</Author>
+      <Journal>Nature(1994)368:215-221</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8145819?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Immune Receptor</PDB_Title>
+      <PDB_ID>4MD4</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4MD4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A molecular basis for the association of the HLA-DRB1 locus, citrullination, and rheumatoid arthritis.</PubMed_Title>
+      <Author>Scally, S.W., et al.</Author>
+      <Journal>J.Exp.Med.(2013)210:2569-2582</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/24190431?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the D227A variant of Staphylococcal enterotoxin A in complex with human MHC class II</PDB_Title>
+      <PDB_ID>1LO5</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1LO5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of a SEA Variant in Complex with MHC Class II Reveals the Ability of SEA to Crosslink MHC Molecules</PubMed_Title>
+      <Author>Petersson, K., et al.</Author>
+      <Journal>Structure(2002)10:1619-1626</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12467569?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of CD4 mutant bound to HLA-DR1</PDB_Title>
+      <PDB_ID>3S5L</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3S5L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Affinity maturation of human CD4 by yeast surface display and crystal structure of a CD4-HLA-DR1 complex.</PubMed_Title>
+      <Author>Wang, X.X., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2011)108:15960-15965</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21900604?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HLA-DR1 (DRA, DRB1 0101) HUMAN CLASS II HISTOCOMPATIBILITY PROTEIN (EXTRACELLULAR DOMAIN) COMPLEXED WITH ENDOGENOUS PEPTIDE</PDB_Title>
+      <PDB_ID>1AQD</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1AQD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The class II MHC protein HLA-DR1 in complex with an endogenous peptide: implications for the structural basis of the specificity of peptide binding.</PubMed_Title>
+      <Author>Murthy, V.L., et al.</Author>
+      <Journal>Structure(1997)5:1385-1396</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9351812?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the Epstein-Barr Virus gp42 Protein Bound to the MHC class II Receptor HLA-DR1</PDB_Title>
+      <PDB_ID>1KG0</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KG0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the Epstein-Barr virus gp42 protein bound to the MHC class II receptor HLA-DR1.</PubMed_Title>
+      <Author>Mullen, M.M., et al.</Author>
+      <Journal>Mol.Cell(2002)9:375-385</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11864610?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>X-RAY CRYSTAL STRUCTURE OF HLA-DR4 COMPLEXED WITH PEPTIDOMIMETIC AND SEB</PDB_Title>
+      <PDB_ID>1D5Z</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D5Z</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Peptide and peptide mimetic inhibitors of antigen presentation by HLA-DR class II MHC molecules. Design, structure-activity relationships, and X-ray crystal structures.</PubMed_Title>
+      <Author>Bolin, D.R., et al.</Author>
+      <Journal>J.Med.Chem.(2000)43:2135-2148</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10841792?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HLA DR52c</PDB_Title>
+      <PDB_ID>3C5J</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3C5J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of HLA-DR52c: comparison to other HLA-DRB3 alleles.</PubMed_Title>
+      <Author>Dai, S., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2008)105:11893-11897</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18697946?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>HLA-DR1 in complex with a synthetic peptide (AAYSDQATPLLLSPR) and the superantigen SEC3-3B2</PDB_Title>
+      <PDB_ID>1T5X</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1T5X</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A Polymorphic Pocket at the P10 Position Contributes to Peptide Binding Specificity in Class II MHC Proteins</PubMed_Title>
+      <Author>Zavala-Ruiz, Z., et al.</Author>
+      <Journal>Chem.Biol.(2004)11:1395-1402</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15489166?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04612</Pathway_ID>
+      <Pathway_Title>Antigen processing and presentation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04612</Pathway_ID>
+      <Pathway_Title>Antigen processing and presentation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05152</Pathway_ID>
+      <Pathway_Title>Tuberculosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04514</Pathway_ID>
+      <Pathway_Title>Cell adhesion molecules (CAMs)</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signaling molecules and interaction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05416</Pathway_ID>
+      <Pathway_Title>Viral myocarditis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cardiovascular diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04612</Pathway_ID>
+      <Pathway_Title>Antigen processing and presentation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04940</Pathway_ID>
+      <Pathway_Title>Type I diabetes mellitus</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Endocrine and metabolic diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05166</Pathway_ID>
+      <Pathway_Title>HTLV-I infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05150</Pathway_ID>
+      <Pathway_Title>Staphylococcus aureus infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05164</Pathway_ID>
+      <Pathway_Title>Influenza A</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05140</Pathway_ID>
+      <Pathway_Title>Leishmaniasis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05321</Pathway_ID>
+      <Pathway_Title>Inflammatory bowel disease (IBD)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Immune diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04514</Pathway_ID>
+      <Pathway_Title>Cell adhesion molecules (CAMs)</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signaling molecules and interaction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05168</Pathway_ID>
+      <Pathway_Title>Herpes simplex infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05145</Pathway_ID>
+      <Pathway_Title>Toxoplasmosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>All beta proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.b.b.c.ga.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1aqd</CATH_URL>
+  </Fold>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD11830001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2015-04-08</Create_Date>
+</Organism_Record>

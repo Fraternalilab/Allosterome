@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04440000_2</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A964</UniProt_ID>
+  <Seq_Length>167</Seq_Length>
+  <Molecule_Weight>18084</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p1863</KEGG_ID>
+  <Orthology_ID>K03408</Orthology_ID>
+  <EBI_ID>EBI-1125947</EBI_ID>
+  <Function_Summary>Involved in the transmission of sensory signals from the chemoreceptors to the flagellar motors. It physically bridges CheA to the MCPs (methyl-accepting chemotaxis proteins) to allow regulated phosphotransfer to CheY and CheB.</Function_Summary>
+  <Pfam_ID>PF01584:CheW</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Conveys a signal across a cell to trigger a change in cell function or state. A signal is a physical entity or change in state that is used to transfer information in order to trigger a response.</Detail>
+      <Keyword>Signal transducer activity</Keyword>
+      <Ontology_ID>GO:0004871</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of a motile cell or organism, or the directed growth of a cell guided by a specific chemical concentration gradient. Movement may be towards a higher concentration (positive chemotaxis) or towards a lower concentration (negative chemotaxis).</Detail>
+      <Keyword>Chemotaxis</Keyword>
+      <Ontology_ID>GO:0006935</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MTGMTNVTKLASEPSGQEFLVFTLGDEEYGIDILKVQEIRGYDQVTRIANTPAFIKGVTNLRGVIVPIVDLRIKFSQVDVDYNDNTVVIVLNLGQRVVGIVVDGVSDVLSLTAEQIRPAPEFAVTLSTEYLTGLGALGDRMLILVNIEKLLNSEEMALLDSAASEVA</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>cheW</Gene_Name>
+    <Gene_ID>12932044</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_416401</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/946400</Gene_URL>
+    <EMBL_ID>EBESCG00000014584</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P07017</Uniprot_ID>
+      <Gene_Name>tar</Gene_Name>
+      <EBI_ID>EBI-1125130</EBI_ID>
+      <PPI_EBI_URL>EBI-1125947,EBI-1125130</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Solution Structure of chemotaxi protein CheW from Escherichia coli</PDB_Title>
+      <PDB_ID>2HO9</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HO9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution Structure of chemotaxi protein CheW from Escherichia coli</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Heterogeneous MWC (HMWC) model</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07770000_1</Organism_ID>
+  <Organism>Pasteurella multocida </Organism>
+  <Organism_Latin>Pasteurella multocida</Organism_Latin>
+  <UniProt_ID>Q9CM00</UniProt_ID>
+  <Seq_Length>757</Seq_Length>
+  <Molecule_Weight>85862</Molecule_Weight>
+  <KEGG_ID>pmu:PM1048</KEGG_ID>
+  <Orthology_ID>K01919</Orthology_ID>
+  <Function_Summary>Synthesizes glutathione from L-glutamate and L-cysteine via gamma-L-glutamyl-L-cysteine (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>ATP + L-glutamate + L-cysteine = ADP + phosphate + gamma-L-glutamyl-L-cysteine.@@ATP + gamma-L-glutamyl-L-cysteine + glycine = ADP + phosphate + glutathione.</Catalytic_Mechanism>
+  <Pfam_ID>PF04262:Glu_cys_ligase</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Glutathione synthetase</Alias>
+      <Alias>GSH-S</Alias>
+      <Alias>Glutathione synthase</Alias>
+      <Alias>GSHase</Alias>
+      <Alias>GS</Alias>
+      <Alias>GSH synthetase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-cysteine + L-glutamate + ATP = L-gamma-glutamyl-L-cysteine + ADP + 2 H(+) + phosphate.</Detail>
+      <Keyword>Glutamate-cysteine ligase activity</Keyword>
+      <Ontology_ID>GO:0004357</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-gamma-glutamyl-L-cysteine + ATP + glycine = ADP + glutathione + 2 H(+) + phosphate.</Detail>
+      <Keyword>Glutathione synthase activity</Keyword>
+      <Ontology_ID>GO:0004363</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of glutathione, the tripeptide glutamylcysteinylglycine, which acts as a coenzyme for some enzymes and as an antioxidant in the protection of sulfhydryl groups in enzymes and other proteins.</Detail>
+      <Keyword>Glutathione biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006750</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MKIQHIIHENQLGLLFQQGSFGLEKESQRVTADGAIVTTPHPAVFGNRRYHPYIQTDFAESQLELITPPTKKLEDTFRWLSVIHEVVQRSLPEEEYIFPLSMPAGLPAEEQIRVAQLDNPEDVAYREYLVKIYGKNKQMVSGIHYNFQLSPDLITRLFRLQNEYQSAVDFQNDLYLKMAKNFLRYQWILLYLLAATPTVESAYFKDGSPLAKGQFVRSLRSSQYGYVNDPEINVSFDSVEKYVESLEHWVSTGKLIAEKEFYSNVRLRGAKKAREFLTTGIQYLEFRLFDLNPFEIYGISLKDAKFIHVFALFMIWMDHTADQEEVELGKARLAEVAFEHPLEKTAYAVEGELVLLELLSMLEQIGAEPELFEIVKEKLTQFTDPSKTVAGRLVRAIEQAGSDQQLGAQLAQQYKAQAFERFYALSAFDNMELSTQALLFDVIQKGIHTEILDENDQFLCLKYGDHIEYVKNGNMTSHDSYISPLIMENKVVTKKVLQKAGFNVPQSVEFTSLEKAVASYALFENRAVVIKPKSTNYGLGITIFQQGVQNREDFAKALEIAFREDKEVMVEDYLVGTEYRFFVLGDETLAVLLRVPANVVGDSVHSVAELVAMKNDHPLRGDGSRTPLKKIALGEIEQLQLKEQGLTIDSIPAKDQLVQLRANSNISTGGDSIDMTDEMHESYKQLAVGITKAMGAAVCGVDLIIPDLKQPATPNLTSWGVIEANFNPMMMMHIFPYAGKSRRLTQNVIKMLFPELE</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>gshAB</Gene_Name>
+    <Gene_Alias>gshF</Gene_Alias>
+    <Genbank_ACCN>NC_002663</Genbank_ACCN>
+    <Protein_ACCN>NP_245985</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1244395</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of a bifunctional glutathione synthetase from Pasteurella multocida</PDB_Title>
+      <PDB_ID>3LN7</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LN7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of two bifunctional gamma-Glutamate-cysteine Ligase/Glutathione synthetases (GshF) reveal a novel hybrid ATP-grasp fold</PubMed_Title>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00480</Pathway_ID>
+      <Pathway_Title>Glutathione metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of other amino acids</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>feedback inhibition allostery</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.3.2.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/3/2/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 6.3.2.3</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 6/3/2/3.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD07770001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

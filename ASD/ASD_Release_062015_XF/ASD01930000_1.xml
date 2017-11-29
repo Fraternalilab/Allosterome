@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01930000_1</Organism_ID>
+  <Organism>Golden hamster</Organism>
+  <Organism_Latin>Mesocricetus auratus</Organism_Latin>
+  <UniProt_ID>P04575</UniProt_ID>
+  <Seq_Length>307</Seq_Length>
+  <Molecule_Weight>33347</Molecule_Weight>
+  <Function_Summary>UCP are mitochondrial transporter proteins that create proton leaks across the inner mitochondrial membrane, thus uncoupling oxidative phosphorylation from ATP synthesis. As a result, energy is dissipated in the form of heat.</Function_Summary>
+  <Pfam_ID>PF00153:Mito_carr</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Solute carrier family 25 member 7</Alias>
+      <Alias>UCP 1</Alias>
+      <Alias>Thermogenin</Alias>
+      <Alias>Mitochondrial uncoupling protein</Alias>
+  </Alias_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>129</Position>
+      <Original>Phe</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Transport of substances into, out of or within a mitochondrion.</Detail>
+      <Keyword>Mitochondrial transport</Keyword>
+      <Ontology_ID>GO:0006839</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MVNPTTSEVHPTMGVKIFSAGVAACLADIITFPLDTAKVRLQIQGEGQISSTIRYKGVLGTITTLAKTEGLPKLYSGLPAGIQRQISFASLRIGLYDTVQEYFSSGKETPPTLGNRISAGLMTGGVAVFIGQPTEVVKVRLQAQSHLHGIKPRYTGTYNAYRIIATTESFSTLWKGTTPNLLRNVIINCVELVTYDLMKGALVNNQILADDVPCHLLSAFVAGFCTTFLASPADVVKTRFINSLPGQYPSVPSCAMTMLTKEGPTAFFKGFVPSFLRLASWNVIMFVCFEQLKKELSKSRQTVDCTT</Protein_Seq>
+    <DNA_Seq>ATGGTGAACCCAACAACTTCTGAAGTGCACCCCACCATGGGGGTCAAGATCTTCTCAGCGGGTGTGGCGGCCTGCCTGGCAGACATCATCACCTTCCCGCTGGACACAGCCAAAGTCCGGCTTCAGATACAAGGTGAAGGCCAGATCTCCAGTACCATTAGGTATAAAGGTGTCCTGGGGACCATCACCACCCTGGCAAAAACAGAAGGGTTGCCGAAACTGTACAGTGGTCTTCCTGCTGGTATTCAGAGACAAATCAGCTTTGCCTCACTCAGGATTGGCCTCTACGATACTGTCCAGGAGTACTTCTCTTCAGGGAAAGAGACGCCTCCCACTTTGGGAAACAGGATCTCAGCTGGCTTAATGACCGGAGGTGTGGCGGTATTCATCGGGCAACCTACCGAGGTCGTGAAAGTCAGACTCCAAGCACAGAGCCACCTACACGGGATCAAACCCCGCTACACTGGGACCTACAATGCTTATAGAATTATAGCCACAACAGAAAGCTTTTCAACACTCTGGAAAGGGACGACCCCTAACCTGTTGAGGAATGTCATCATCAACTGTGTAGAGCTGGTAACATATGACCTCATGAAGGGGGCCCTTGTGAACAACCAAATACTGGCAGATGACGTGCCATGCCATTTACTGTCAGCTTTTGTCGCTGGGTTTTGCACCACATTCCTGGCCTCTCCGGCGGACGTAGTGAAAACGAGATTCATCAACTCTCTGCCAGGACAGTACCCAAGTGTACCCAGCTGTGCAATGACCATGCTCACCAAGGAAGGACCAACAGCTTTTTTCAAAGGGTTCGTGCCTTCTTTCCTGCGGCTGGCGTCCTGGAATGTCATCATGTTTGTGTGCTTTGAACAGCTGAAGAAGGAGCTGTCTAAGTCGAGGCAGACGGTGGACTGCACCACATAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Brown adipose tissue</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondria</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>UCP1</Gene_Name>
+    <Gene_Alias>SLC25A7; UCP</Gene_Alias>
+    <Gene_ID>101835783</Gene_ID>
+    <Genbank_ACCN>X73138</Genbank_ACCN>
+    <Protein_ACCN>CAA51653</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nuccore&amp;id=X73138</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Mitochondrial brown fat uncoupling protein 1</PDB_Title>
+      <PDB_ID>ASD01930000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

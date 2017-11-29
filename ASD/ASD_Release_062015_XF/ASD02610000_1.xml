@@ -1,0 +1,813 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02610000_1</Organism_ID>
+  <Organism>Rabbit</Organism>
+  <Organism_Latin>Oryctolagus cuniculus</Organism_Latin>
+  <UniProt_ID>P04191</UniProt_ID>
+  <Seq_Length>1001</Seq_Length>
+  <Molecule_Weight>110459</Molecule_Weight>
+  <KEGG_ID>ocu:100037716</KEGG_ID>
+  <Orthology_ID>K05853</Orthology_ID>
+  <Function_Summary>This magnesium-dependent enzyme catalyzes the hydrolysis of ATP coupled with the translocation of calcium from the cytosol to the sarcoplasmic reticulum lumen. Contributes to calcium sequestration involved in muscular excitation/contraction (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>ATP + H(2)O + Ca(2+)(Side 1) = ADP + phosphate + Ca(2+)(Side 2).</Catalytic_Mechanism>
+  <Pfam_ID>PF00689:Cation_ATPase_C@@PF00690:Cation_ATPase_N@@PF00122:E1-E2_ATPase@@PF00702:Hydrolase</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>42</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>11</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>ATPase, Ca++ transporting, ubiquitous</Alias>
+      <Alias>Calcium-transporting ATPase sarcoplasmic reticulum type, fast twitch skeletal muscle isoform</Alias>
+      <Alias>SERCA1</Alias>
+      <Alias>Calcium pump 1</Alias>
+      <Alias>SR Ca(2+)-ATPase 1</Alias>
+      <Alias>Endoplasmic reticulum class 1/2 Ca(2+) ATPase</Alias>
+      <Alias>Sarcoplasmic/endoplasmic reticulum calcium ATPase 1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + Ca2+(cis) = ADP + phosphate + Ca2+(trans).</Detail>
+      <Keyword>Calcium-transporting ATPase activity</Keyword>
+      <Ontology_ID>GO:0005388</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with calcium ions (Ca2+).</Detail>
+      <Keyword>Calcium ion binding</Keyword>
+      <Ontology_ID>GO:0005509</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of fast-twitch skeletal muscle contraction.</Detail>
+      <Keyword>Positive regulation of fast-twitch skeletal muscle fiber contraction</Keyword>
+      <Ontology_ID>GO:0031448</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of charged atoms or small charged molecules into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Ion transport</Keyword>
+      <Ontology_ID>GO:0006811</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of striated muscle contraction.</Detail>
+      <Keyword>Negative regulation of striated muscle contraction</Keyword>
+      <Ontology_ID>GO:0045988</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006754</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of calcium (Ca) ions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Calcium ion transport</Keyword>
+      <Ontology_ID>GO:0006816</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MEAAHSKSTEECLAYFGVSETTGLTPDQVKRHLEKYGHNELPAEEGKSLWELVIEQFEDLLVRILLLAACISFVLAWFEEGEETITAFVEPFVILLILIANAIVGVWQERNAENAIEALKEYEPEMGKVYRADRKSVQRIKARDIVPGDIVEVAVGDKVPADIRILSIKSTTLRVDQSILTGESVSVIKHTEPVPDPRAVNQDKKNMLFSGTNIAAGKALGIVATTGVSTEIGKIRDQMAATEQDKTPLQQKLDEFGEQLSKVISLICVAVWLINIGHFNDPVHGGSWIRGAIYYFKIAVALAVAAIPEGLPAVITTCLALGTRRMAKKNAIVRSLPSVETLGCTSVICSDKTGTLTTNQMSVCKMFIIDKVDGDFCSLNEFSITGSTYAPEGEVLKNDKPIRSGQFDGLVELATICALCNDSSLDFNETKGVYEKVGEATETALTTLVEKMNVFNTEVRNLSKVERANACNSVIRQLMKKEFTLEFSRDRKSMSVYCSPAKSSRAAVGNKMFVKGAPEGVIDRCNYVRVGTTRVPMTGPVKEKILSVIKEWGTGRDTLRCLALATRDTPPKREEMVLDDSSRFMEYETDLTFVGVVGMLDPPRKEVMGSIQLCRDAGIRVIMITGDNKGTAIAICRRIGIFGENEEVADRAYTGREFDDLPLAEQREACRRACCFARVEPSHKSKIVEYLQSYDEITAMTGDGVNDAPALKKAEIGIAMGSGTAVAKTASEMVLADDNFSTIVAAVEEGRAIYNNMKQFIRYLISSNVGEVVCIFLTAALGLPEALIPVQLLWVNLVTDGLPATALGFNPPDLDIMDRPPRSPKEPLISGWLFFRYMAIGGYVGAATVGAAAWWFMYAEDGPGVTYHQLTHFMQCTEDHPHFEGLDCEIFEAPEPMTMALSVLVTIEMCNALNSLSENQSLMRMPPWVNIWLLGSICLSMSLHFLILYVDPLPMIFKLKALDLTQWLMVLKISLPVIGLDEILKFIARNYLEDPEDERRK</Protein_Seq>
+    <DNA_Seq>ATACACTGAAGAAGGCCCCCGACGCGTGAGACCCCCCCAGAAGGAACCCACTGCTCCTGGGGCCCCCAAGAAGGGAGCGCAATGGAGGCCGCGCACTCCAAGAGCACAGAGGAATGTCTGGCCTATTTTGGGGTGAGCGAGACCACAGGCCTCACCCCGGACCAAGTGAAGCGACATCTAGAGAAATACGGCCACAATGAGCTTCCTGCTGAGGAAGGGAAATCCCTGTGGGAGCTGGTGATAGAGCAGTTTGAAGACCTCCTGGTGCGGATTCTTCTGCTGGCCGCCTGCATCTCCTTTGTGCTGGCCTGGTTTGAAGAAGGGGAAGAGACCATCACTGCCTTCGTTGAGCCCTTTGTCATCCTCCTGATCCTCATTGCCAATGCCATCGTGGGAGTTTGGCAGGAGCGGAACGCTGAGAACGCCATAGAGGCGCTGAAGGAATATGAGCCCGAGATGGGGAAGGTGTACCGGGCTGACCGCAAGTCAGTGCAAAGGATCAAGGCTCGGGACATCGTCCCCGGGGACATCGTGGAGGTGGCGGTTGGGGACAAAGTCCCTGCAGACATCCGCATCCTGTCTATCAAGTCCACCACCCTCCGCGTGGACCAGTCCATCCTGACAGGCGAGTCTGTGTCCGTCATCAAGCACACGGAGCCAGTCCCTGACCCGCGGGCTGTCAACCAGGACAAGAAGAACATGCTTTTCTCGGGTACCAACATCGCGGCCGGCAAGGCCCTGGGCATCGTGGCCACCACCGGCGTGAGCACCGAGATCGGGAAGATCCGTGACCAGATGGCCGCCACGGAGCAGGACAAGACGCCGCTGCAGCAGAAGCTGGATGAGTTCGGGGAGCAGCTGTCCAAGGTCATCTCCCTCATCTGCGTGGCCGTGTGGCTTATCAACATCGGCCACTTCAACGACCCCGTCCACGGGGGCTCCTGGATCCGCGGTGCCATCTACTACTTCAAGATCGCCGTGGCCTTGGCTGTGGCTGCGATCCCAGAAGGTCTTCCCGCTGTCATCACTACCTGCCTGGCCCTGGGCACCCGCCGGATGGCGAAGAAGAACGCCATCGTGAGGAGCCTGCCCTCTGTGGAGACCCTGGGCTGCACCTCTGTCATCTGCTCTGACAAGACTGGCACCCTCACCACCAACCAGATGTCTGTGTGCAAGATGTTCATCATCGACAAGGTGGACGGAGACTTCTGTTCGCTGAACGAGTTCTCCATCACCGGCTCCACCTACGCTCCAGAGGGGGAGGTCCTGAAGAATGATAAACCCATCCGGTCAGGGCAGTTTGATGGGCTGGTGGAGCTGGCCACCATTTGTGCCCTGTGCAATGATTCCTCCTTGGACTTCAATGAGACCAAAGGCGTCTATGAGAAGGTGGGTGAGGCCACGGAGACGGCGCTCACCACCCTGGTGGAGAAGATGAATGTGTTCAACACGGAAGTTCGGAACCTCTCGAAGGTGGAGAGAGCCAACGCCTGCAACTCGGTGATCCGCCAGCTCATGAAGAAAGAGTTCACCCTGGAGTTCTCCCGAGACAGGAAGTCCATGTCTGTGTACTGTTCTCCAGCCAAATCTTCCCGCGCTGCTGTGGGCAACAAGATGTTTGTCAAGGGCGCCCCCGAGGGGGTCATCGACCGCTGTAACTACGTGCGAGTCGGCACCACCCGGGTGCCCATGACTGGGCCGGTGAAGGAGAAGATCCTCTCCGTGATCAAGGAGTGGGGCACCGGCCGGGACACGCTGCGCTGCCTGGCCCTGGCCACCCGCGACACGCCGCCCAAGCGAGAGGAAATGGTGCTGGACGACTCCTCCCGGTTCATGGAGTACGAGACGGACCTGACGTTCGTGGGCGTCGTGGGCATGCTGGACCCGCCCCGCAAGGAGGTCATGGGCTCCATCCAGCTGTGCCGGGACGCCGGGATCCGTGTCATCATGATCACCGGCGACAACAAGGGCACGGCCATCGCCATCTGCCGCCGCATCGGCATCTTTGGGGAGAACGAGGAGGTGGCAGACCGCGCCTACACCGGCCGCGAGTTTGACGACCTGCCCCTGGCCGAGCAGCGGGAAGCCTGCCGCCGCGCCTGCTGCTTCGCGCGCGTGGAACCCTCCCACAAGTCCAAGATCGTGGAATACCTGCAGTCCTACGATGAGATCACGGCCATGACAGGGGATGGCGTCAACGATGCCCCTGCCCTGAAGAAGGCCGAGATCGGCATAGCTATGGGATCTGGCACCGCCGTGGCCAAGACAGCGTCTGAGATGGTCCTGGCGGACGACAACTTCTCCACCATCGTGGCCGCCGTGGAGGAGGGCCGGGCCATCTACAACAACATGAAGCAGTTCATCCGCTACCTCATCTCCTCCAACGTGGGCGAGGTGGTCTGCATCTTCCTGACGGCCGCCTTGGGGCTGCCCGAGGCCCTGATCCCCGTGCAGCTGCTGTGGGTGAACCTGGTGACGGACGGGCTCCCGGCCACAGCCCTGGGCTTCAACCCACCAGACCTGGACATCATGGACCGGCCCCCCCGGAGTCCCAAGGAGCCCCTGATCAGTGGCTGGCTCTTCTTCCGCTACATGGCCATCGGGGGCTATGTGGGTGCAGCCACCGTGGGAGCCGCTGCCTGGTGGTTCATGTATGCGGAGGATGGGCCGGGTGTCACCTACCACCAGCTGACCCACTTCATGCAGTGCACCGAGGACCACCCTCACTTTGAGGGTCTGGACTGTGAGATCTTTGAGGCCCCAGAGCCCATGACCATGGCCTTGTCTGTGCTGGTGACCATCGAGATGTGCAATGCTCTCAACAGCCTGTCCGAGAACCAGTCCTTGATGCGGATGCCGCCCTGGGTGAACATCTGGCTGCTGGGCTCCATCTGCCTGTCCATGTCCCTCCACTTCCTCATCCTCTACGTCGACCCCCTGCCGATGATCTTCAAGCTCAAGGCCCTAGACCTCACCCAGTGGCTCATGGTCCTCAAGATCTCACTTCCAGTCATCGGGCTGGATGAAATACTCAAGTTCATTGCTCGGAACTACCTGGAGGATCCAGAAGATGAAAGGAGGAAGTAACCAGTCCTCCCGCCCTCCCGCCCCATAGACGCATCTTCGGCCCAGGCTGTGGCACACACACCCCCCCCCCGTCCCCGCCCCAAGTTTCTGTTGTAAACATGACGTCCCTCACCCCCACCCCGCCCAGCACCTTGTAAATCCCCCTTCCCCACCCCATGGGGCTTGCAGGGACAAGGCGACCGACTGAGCTCAGCTGCTTATTTATTGAAAATAAACAACACAAGAGTCTG</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Skeletal muscle</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Sarcoplasmic reticulum membrane</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>ATP2A1</Gene_Name>
+    <Gene_ID>100037716</Gene_ID>
+    <Genbank_ACCN>NM_001089318</Genbank_ACCN>
+    <Protein_ACCN>NP_001082787</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/100037716</Gene_URL>
+    <EMBL_ID>ENSOCUG00000002688</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of the SR CA2+-ATPase with MGF4</PDB_Title>
+      <PDB_ID>1WPG</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1WPG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE $TETRAFLUOROMAGNESATE(2-) $OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>Lumenal gating mechanism revealed in calcium pump crystal structures with phosphate analogues</PubMed_Title>
+      <Author>Toyoshima C, et al.</Author>
+      <Journal>Nature.2004 Nov 18;432(7015):361-8. Epub  2004 Sep 26.</Journal>
+      <PubMed_ID>15448704</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF (SR) CALCIUM-ATPASE E2(TG) FORM</PDB_Title>
+      <PDB_ID>2C8L</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C8L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>Modulatory and Catalytic Modes of ATP Binding by the Calcium Pump</PubMed_Title>
+      <Author>Jensen AM, et al.</Author>
+      <Journal>EMBO J.2006 Jun 7;25(11):2305-14. Epub  2006 May 18.</Journal>
+      <PubMed_ID>16710301</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Calcium ATPase with bound ADP and cyclopiazonic acid</PDB_Title>
+      <PDB_ID>2OA0</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2OA0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE $(6AR,11AS,11BR)-10-ACETYL-9-HYDROXY-7,7-DIMETHYL- 2,6,6A,7,11A,11B-HEXAHYDRO-11H
+-PYRROLO[1',2':2,3]ISOINDOLO[4,5,6- CD]INDOL-11-ONE</Ligand_Name>
+      <PubMed_Title>The molecular basis for cyclopiazonic Acid inhibition of the sarcoplasmic reticulum calcium pump.</PubMed_Title>
+      <Author>Moncoq K, et al.</Author>
+      <Journal>J Biol Chem.2007 Mar 30;282(13):9748-57. Epub  2007 Jan 26.</Journal>
+      <PubMed_ID>17259168</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the SR Calcium Pump with Bound Aluminium Fluoride, ADP and Calcium</PDB_Title>
+      <PDB_ID>2ZBD</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZBD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE,TETRAFLUOROALUMINATE ION,CALCIUM ION,MAGNESIUM ION,1,2-DIACYL-SN-GLYCERO-3-PHOSPHOCHOLINE</Ligand_Name>
+      <PubMed_Title>Lumenal gating mechanism revealed in calcium pump crystal structures with phosphate analogues.</PubMed_Title>
+      <Author>Toyoshima C, et al.</Author>
+      <Journal>Nature. 2004 Nov 18;432(7015):361-8.</Journal>
+      <PubMed_ID>15448704</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF (SR) CALCIUM-ATPASE IN THE CA2E1 STATE SOLVED IN A P1 CRYSTAL FORM.</PDB_Title>
+      <PDB_ID>2C9M</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C9M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Modulatory and Catalytic Modes of ATP Binding by the Calcium Pump</PubMed_Title>
+      <Author>Jensen AM, et al.</Author>
+      <Journal>EMBO J.2006 Jun 7;25(11):2305-14. Epub  2006 May 18.</Journal>
+      <PubMed_ID>16710301</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SR CA(2+)-ATPASE IN THE HNE2 STATE COMPLEXED WITH THE THAPSIGARGIN DERIVATIVE BOC-12ADT.</PDB_Title>
+      <PDB_ID>2BY4</PDB_ID>
+      <Resolution>3.3</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2BY4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER,(3S,3AR,4S,6S,6AR,7S,8S,9BS)-6-(ACETYLOXY)- 3,3A-DIHYDROXY-3,6,9-TRIMETHYL-8-{[
+(2Z)-2- METHYLBUT-2-ENOYL]OXY}-7-(OCTANOYLOXY)-2- OXO-2,3,3A,4,5,6,6A,7,8,9B
+-DECAHYDROAZULENO[4,5- B]FURAN-4-YL 12-[(TERT-BUTOXYCARBONYL)AMINO]DODECANOATE,MAGNESIUM ION,SODIUM ION</Ligand_Name>
+      <PubMed_Title>Natural products as starting materials for development of second-generation SERCA inhibitors targeted towards prostate cancer cells.</PubMed_Title>
+      <Author>Sohoel H, et al.</Author>
+      <Journal>Bioorg Med Chem. 2006 Apr 15;14(8):2810-5.</Journal>
+      <PubMed_ID>16412648</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF (SR) CALCIUM-ATPASE E2(TG) WITH PARTIALLY OCCUPIED AMPPCP SITE</PDB_Title>
+      <PDB_ID>2C8K</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C8K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER $OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>Modulatory and Catalytic Modes of ATP Binding by the Calcium Pump</PubMed_Title>
+      <Author>Jensen AM, et al.</Author>
+      <Journal>EMBO J.2006 Jun 7;25(11):2305-14. Epub  2006 May 18.</Journal>
+      <PubMed_ID>16710301</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF (SR) CALCIUM-ATPASE E2(TG):AMPPCP FORM</PDB_Title>
+      <PDB_ID>2C88</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2C88</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER,MAGNESIUM ION,SODIUM ION,OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>Modulatory and catalytic modes of ATP binding by the calcium pump.</PubMed_Title>
+      <Author>Jensen AM, et al.</Author>
+      <Journal>EMBO J. 2006 Jun 7;25(11):2305-14.</Journal>
+      <PubMed_ID>16710301</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ca2+-ATPase in the E2 State</PDB_Title>
+      <PDB_ID>1KJU</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KJU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A structural model for the catalytic cycle of Ca(2+)-ATPase.</PubMed_Title>
+      <Author>Xu C, et al.</Author>
+      <Journal>J Mol Biol.2002 Feb 8;316(1):201-11.</Journal>
+      <PubMed_ID>11829513</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure Of The (Sr)Ca2+-ATPase E2-AlF4- Form</PDB_Title>
+      <PDB_ID>1XP5</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XP5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>TETRAFLUOROALUMINATE ION $OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>Dephosphorylation of the Calcium Pump Coupled to Counterion Occlusion</PubMed_Title>
+      <Author>Olesen C, et al.</Author>
+      <Journal>Science.2004 Dec 24;306(5705):2251-5.</Journal>
+      <PubMed_ID>15618517</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the SR CA2+-ATPase with bound AMPPCP</PDB_Title>
+      <PDB_ID>1VFP</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VFP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER</Ligand_Name>
+      <PubMed_Title>Crystal structure of the calcium pump with a bound ATP analogue.</PubMed_Title>
+      <Author>Toyoshima C, et al.</Author>
+      <Journal>Nature.2004 Jul 29;430(6999):529-35. Epub  2004 Jun 30.</Journal>
+      <PubMed_ID>15229613</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Calcium pump crystal structure with bound BeF3 in the absence of calcium and TG</PDB_Title>
+      <PDB_ID>2ZBE</PDB_ID>
+      <Resolution>3.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZBE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>BERYLLIUM TRIFLUORIDE ION,MAGNESIUM ION</Ligand_Name>
+      <PubMed_Title>How processing of aspartylphosphate is coupled to lumenal gating of the ion pathway in the calcium pump.</PubMed_Title>
+      <Author>Toyoshima C, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2007 Dec 11;104(50):19831-6.</Journal>
+      <PubMed_ID>18077416</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the Ca2E1P phosphoenzyme intermediate of the SERCA Ca2+-ATPase</PDB_Title>
+      <PDB_ID>3BA6</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3BA6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>AMP PHOSPHORAMIDATE,CALCIUM ION,POTASSIUM ION</Ligand_Name>
+      <PubMed_Title>The structural basis of calcium transport by the calcium pump.</PubMed_Title>
+      <Author>Olesen C, et al.</Author>
+      <Journal>Nature. 2007 Dec 13;450(7172):1036-42.</Journal>
+      <PubMed_ID>18075584</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYOEM MODEL OF COPA, THE COPPER TRANSPORTING ATPASE FROM ARCHAEOGLOBUS FULGIDUS</PDB_Title>
+      <PDB_ID>2VOY</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2VOY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of a Copper Pump Suggests a Regulatory Role for its Metal-Binding Domain.</PubMed_Title>
+      <Author>Wu CC, et al.</Author>
+      <Journal>Structure.2008 Jun;16(6):976-85.</Journal>
+      <PubMed_ID>18547529</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the SR CA2+-ATPASE with BHQ and TG</PDB_Title>
+      <PDB_ID>2AGV</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AGV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>2,5-DITERT-BUTYLBENZENE-1,4-DIOL $PHOSPHATIDYLETHANOLAMINE $OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>Inaugural Article: Structural role of countertransport revealed in Ca2+ pump crystal structure in the absence of Ca2+.</PubMed_Title>
+      <Author>Obara K, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2005 Oct 11;102(41):14489-96. Epub  2005 Sep 6.</Journal>
+      <PubMed_ID>16150713</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the SR CA2+-ATPASE with bound CPA</PDB_Title>
+      <PDB_ID>2EAS</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2EAS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(6AR,11AS,11BR)-10-ACETYL-9-HYDROXY-7,7-DIMETHYL- 2,6,6A,7,11A,11B-HEXAHYDRO-11H
+-PYRROLO[1',2':2,3]ISOINDOLO[4,5,6- CD]INDOL-11-ONE</Ligand_Name>
+      <PubMed_Title>Interdomain communication in calcium pump as revealed in the crystal structures with transmembrane inhibitors.</PubMed_Title>
+      <Author>Takahashi M, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2007 Apr 3;104(14):5800-5.</Journal>
+      <PubMed_ID>17389383</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of calcium atpase with bound magnesium fluoride and cyclopiazonic acid</PDB_Title>
+      <PDB_ID>2O9J</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2O9J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(6AR,11AS,11BR)-10-ACETYL-9-HYDROXY-7,7-DIMETHYL- 2,6,6A,7,11A,11B-HEXAHYDRO-11H
+-PYRROLO[1',2':2,3]ISOINDOLO[4,5,6- CD]INDOL-11-ONE$ TETRAFLUOROMAGNESATE(2-)</Ligand_Name>
+      <PubMed_Title>The molecular basis for cyclopiazonic Acid inhibition of the sarcoplasmic reticulum calcium pump.</PubMed_Title>
+      <Author>Moncoq K, et al.</Author>
+      <Journal>J Biol Chem.2007 Mar 30;282(13):9748-57. Epub  2007 Jan 26.</Journal>
+      <PubMed_ID>17259168</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the (SR)Ca2+-ATPase Ca2-E1-AMPPCP form</PDB_Title>
+      <PDB_ID>1T5S</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1T5S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER,CALCIUM ION,POTASSIUM ION,MAGNESIUM ION</Ligand_Name>
+      <PubMed_Title>Phosphoryl transfer and calcium ion occlusion in the calcium pump.</PubMed_Title>
+      <Author>Sorensen TL, et al.</Author>
+      <Journal>Science. 2004 Jun 11;304(5677):1672-5.</Journal>
+      <PubMed_ID>15192230</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the E2 magnesium fluoride complex of the (SR) Ca2+-ATPase with bound CPA and AMPPCP</PDB_Title>
+      <PDB_ID>3FGO</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3FGO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER,ACETATE ION,(6AR,11AS,11BR)-10-ACETYL-9-HYDROXY-7,7-DIMETHYL- 2,6,6A,7,11A,11B-HEXAHYDRO-11H
+-PYRROLO[1',2':2,3]ISOINDOLO[4,5,6- CD]INDOL-11-ONE,POTASSIUM ION,TETRAFLUOROMAGNESATE(2-),MAGNESIUM ION,MANGANESE (II) ION</Ligand_Name>
+      <PubMed_Title>Cyclopiazonic acid is complexed to a divalent metal ion when bound to the sarcoplasmic reticulum Ca2+-ATPase.</PubMed_Title>
+      <Author>Laursen M, et al.</Author>
+      <Journal>J Biol Chem. 2009 May 15;284(20):13513-8.</Journal>
+      <PubMed_ID>19289472</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Structure of Sarcoplasmic Reticulum Ca2+-ATPase Bound To Cyclopiazonic and ADP</PDB_Title>
+      <PDB_ID>3FPS</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3FPS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE,(6AR,11AS,11BR)-10-ACETYL-9-HYDROXY-7,7-DIMETHYL- 2,6,6A,7,11A,11B-HEXAHYDRO-11H
+-PYRROLO[1',2':2,3]ISOINDOLO[4,5,6- CD]INDOL-11-ONE,MAGNESIUM ION</Ligand_Name>
+      <PubMed_Title>Cyclopiazonic acid is complexed to a divalent metal ion when bound to the sarcoplasmic reticulum Ca2+-ATPase.</PubMed_Title>
+      <Author>Laursen M, et al.</Author>
+      <Journal>J Biol Chem. 2009 May 15;284(20):13513-8.</Journal>
+      <PubMed_ID>19289472</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Calcium pump crystal structure with bound AlF4 and TG in the absence of calcium</PDB_Title>
+      <PDB_ID>2ZBG</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2ZBG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>TETRAFLUOROALUMINATE ION,MAGNESIUM ION,OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>How processing of aspartylphosphate is coupled to lumenal gating of the ion pathway in the calcium pump.</PubMed_Title>
+      <Author>Toyoshima C, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2007 Dec 11;104(50):19831-6.</Journal>
+      <PubMed_ID>18077416</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Calcium pump crystal structure with bound BeF3 and TG in the absence of calcium</PDB_Title>
+      <PDB_ID>2ZBF</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2ZBF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>BERYLLIUM TRIFLUORIDE ION,MAGNESIUM ION,OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>How processing of aspartylphosphate is coupled to lumenal gating of the ion pathway in the calcium pump.</PubMed_Title>
+      <Author>Toyoshima C, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2007 Dec 11;104(50):19831-6.</Journal>
+      <PubMed_ID>18077416</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the SR CA2+-ATPASE with bound CPA in the presence of curcumin</PDB_Title>
+      <PDB_ID>2EAU</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2EAU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(6AR,11AS,11BR)-10-ACETYL-9-HYDROXY-7,7-DIMETHYL- 2,6,6A,7,11A,11B-HEXAHYDRO-11H
+-PYRROLO[1',2':2,3]ISOINDOLO[4,5,6- CD]INDOL-11-ONE,PHOSPHATIDYLETHANOLAMINE</Ligand_Name>
+      <PubMed_Title>Interdomain communication in calcium pump as revealed in the crystal structures with transmembrane inhibitors.</PubMed_Title>
+      <Author>Takahashi M, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2007 Apr 3;104(14):5800-5.</Journal>
+      <PubMed_ID>17389383</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the SR CA2+-ATPASE with bound CPA and TG</PDB_Title>
+      <PDB_ID>2EAT</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=2EAT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>(6AR,11AS,11BR)-10-ACETYL-9-HYDROXY-7,7-DIMETHYL- 2,6,6A,7,11A,11B-HEXAHYDRO-11H
+-PYRROLO[1',2':2,3]ISOINDOLO[4,5,6- CD]INDOL-11-ONE,OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>Interdomain communication in calcium pump as revealed in the crystal structures with transmembrane inhibitors.</PubMed_Title>
+      <Author>Takahashi M, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2007 Apr 3;104(14):5800-5.</Journal>
+      <PubMed_ID>17389383</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Structure of Sarcoplasmic Reticulum Ca2+-ATPase Bound To Cyclopiazonic acid with ATP</PDB_Title>
+      <PDB_ID>3FPB</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=3FPB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-TRIPHOSPHATE,(6AR,11AS,11BR)-10-ACETYL-9-HYDROXY-7,7-DIMETHYL- 2,6,6A,7,11A,11B-HEXAHYDRO-11H
+-PYRROLO[1',2':2,3]ISOINDOLO[4,5,6- CD]INDOL-11-ONE,POTASSIUM ION,TETRAFLUOROMAGNESATE(2-),MAGNESIUM ION</Ligand_Name>
+      <PubMed_Title>Cyclopiazonic acid is complexed to a divalent metal ion when bound to the sarcoplasmic reticulum Ca2+-ATPase.</PubMed_Title>
+      <Author>Laursen M, et al.</Author>
+      <Journal>J Biol Chem. 2009 May 15;284(20):13513-8.</Journal>
+      <PubMed_ID>19289472</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SERCA Ca2+-ATPase E2 aluminium fluoride complex without thapsigargin</PDB_Title>
+      <PDB_ID>3B9R</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3B9R</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER,TETRAFLUOROALUMINATE ION,POTASSIUM ION,MAGNESIUM ION</Ligand_Name>
+      <PubMed_Title>The structural basis of calcium transport by the calcium pump.</PubMed_Title>
+      <Author>Olesen C, et al.</Author>
+      <Journal>Nature. 2007 Dec 13;450(7172):1036-42.</Journal>
+      <PubMed_ID>18075584</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of calcium ATPase with two bound calcium ions</PDB_Title>
+      <PDB_ID>1SU4</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=1SU4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>CALCIUM ION,SODIUM ION</Ligand_Name>
+      <PubMed_Title>Structural biology. Pumping ions.</PubMed_Title>
+      <Author>MacLennan DH, et al.</Author>
+      <Journal>Nature. 2000 Jun 8;405(6787):633-4.</Journal>
+      <PubMed_ID>10864310</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>P21 crystal of the SR CA2+-ATPase with bound TG</PDB_Title>
+      <PDB_ID>2EAR</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2EAR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>Interdomain communication in calcium pump as revealed in the crystal structures with transmembrane inhibitors.</PubMed_Title>
+      <Author>Takahashi M, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A. 2007 Apr 3;104(14):5800-5.</Journal>
+      <PubMed_ID>17389383</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the calcium pump with amppcp in the absence of calcium</PDB_Title>
+      <PDB_ID>2DQS</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=2DQS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER,MAGNESIUM ION,SODIUM ION,PHOSPHATIDYLETHANOLAMINE,OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>Crystal structure of the calcium pump with a bound ATP analogue in the absence of calcium</PubMed_Title>
+      <Author>Toyoshima C, et al.</Author>
+      <Journal>To be Published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the E2 beryllium fluoride complex of the SERCA Ca2+-ATPase</PDB_Title>
+      <PDB_ID>3B9B</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore/explore.do?structureId=3B9B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>BERYLLIUM TRIFLUORIDE ION,MAGNESIUM ION,SODIUM ION</Ligand_Name>
+      <PubMed_Title>The structural basis of calcium transport by the calcium pump.</PubMed_Title>
+      <Author>Olesen C, et al.</Author>
+      <Journal>Nature. 2007 Dec 13;450(7172):1036-42.</Journal>
+      <PubMed_ID>18075584</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of the (SR)Ca2+-ATPase Ca2-E1-ADP:AlF4- form</PDB_Title>
+      <PDB_ID>1T5T</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.rcsb.org/pdb/explore.do?structureId=1T5T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE,TETRAFLUOROALUMINATE ION,CALCIUM ION,POTASSIUM ION,MAGNESIUM ION</Ligand_Name>
+      <PubMed_Title>Phosphoryl transfer and calcium ion occlusion in the calcium pump.</PubMed_Title>
+      <Author>Sorensen TL, et al.</Author>
+      <Journal>Science. 2004 Jun 11;304(5677):1672-5.</Journal>
+      <PubMed_ID>15192230</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the SR Ca2+-ATPase in the absence of Ca2+</PDB_Title>
+      <PDB_ID>1IWO</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1IWO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>OCTANOIC ACID [3S-[3ALPHA, 3ABETA, 4ALPHA, 6BETA, 6ABETA, 7BETA, 8ALPHA
+(Z), 9BALPHA]]- 6-(ACETYLOXY)-2,3,-3A,4,5,6,6A,7,8,9B-DECAHYDRO- 3,3A-DIHYDROXY-3,6,9
+-TRIMETHYL-8-[(2-METHYL- 1-OXO-2-BUTENYL)OXY]-2-OXO-4-(1-OXOBUTOXY)- AZULENO[4,5
+-B]FURAN-7-YL ESTER</Ligand_Name>
+      <PubMed_Title>Structural changes in the calcium pump accompanying the dissociation of calcium</PubMed_Title>
+      <Author>Toyoshima C, et al.</Author>
+      <Journal>Nature.2002 Aug 8;418(6898):605-11.</Journal>
+      <PubMed_ID>12167852</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04972</Pathway_ID>
+      <Pathway_Title>Pancreatic secretion</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Digestive system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05010</Pathway_ID>
+      <Pathway_Title>Alzheimer's disease</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Neurodegenerative diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04022</Pathway_ID>
+      <Pathway_Title>cGMP-PKG signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04020</Pathway_ID>
+      <Pathway_Title>Calcium signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>All beta proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.bdi.g.b.b.html</SCOP_URL>
+    <CATH_Class>Mainly beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1iwo</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,829,Ile;site,256,Phe;site,259,Gln;site,834,Phe;site,253,Leu;site,311,Leu;site,56,Gln</Site_Detail>
+      <Site_Reference>Singh P, et al. J.Med.Chem. 2005,48(8):3005-3014.;Zamoon J, et al. Proc.Natl.Acad.Sci U S A. 2005,102(13):4747-4752.</Site_Reference>
+      <Site_Type>A special SERCA-PLN model</Site_Type>
+      <PubMed_ID>15828839;15781867</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.6.3.8</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/6/3/8.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610044</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610045</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610046</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610047</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610048</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610049</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610050</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610051</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610052</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610053</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02610054</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

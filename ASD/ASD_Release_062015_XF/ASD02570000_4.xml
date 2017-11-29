@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02570000_4</Organism_ID>
+  <Organism>Slime mold</Organism>
+  <Organism_Latin>Dictyostelium discoideum</Organism_Latin>
+  <UniProt_ID>Q54W23</UniProt_ID>
+  <Seq_Length>424</Seq_Length>
+  <Molecule_Weight>48185</Molecule_Weight>
+  <KEGG_ID>ddi:DDB_G0279961</KEGG_ID>
+  <Orthology_ID>K14530</Orthology_ID>
+  <Pfam_ID>PF08584:Ribonuc_P_40</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>11</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>RNase MRP protein subunit</Alias>
+      <Alias>RNase P protein subunit</Alias>
+      <Alias>RNase P protein subunit DRpp40</Alias>
+  </Alias_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process in which a pre-tRNA molecule is converted to a mature tRNA, ready for addition of an aminoacyl group.</Detail>
+      <Keyword>TRNA processing</Keyword>
+      <Ontology_ID>GO:0008033</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSIINNEVPNNKILLKRITVDPNDKEQIENFNKNFITNHVFNQKVEIILPIKKGANEEVEEDNNNESDKKSQQKPKAKGSLLSQASSSYLLVEGEFTSLFQEQSITPLPSSSNNKSLDGINTKQLYYQIETTLDLLLSHEFIDKYIKNGGFYAISQLNFIDSGNVVAFLPNSKIILNVDKETYQELGLLGKSSVFKNLQRYIITLDMTSKEYQRGSKSYTRLIWSLKDRLSSINLICFYQKLNSTQLQSIDFPQGVKVLPSYNQPTQEILNLRLPTLNIINENLNINNSNNDIKMIYNDFINEWVEVLGFASLGINLNQVKDFEIGNSLLSQCPIATKCLKATQKGLVSNSFILELIEKIKLMLSKGLIEYGVLNIYGFADTPISWNSIEHNFLYGGENDQSLLILPNNKFISSNLIGTYDYYC</Protein_Seq>
+    <DNA_Seq>ATGAGTATTATAAATAATGAAGTACCAAATAATAAAATATTATTAAAAAGGATAACAGTTGATCCAAATGATAAAGAACAAATTGAAAATTTTAATAAAAATTTTATAACAAATCATGTTTTTAATCAAAAAGTTGAAATTATATTACCAATTAAAAAAGGAGCAAATGAAGAAGTAGAAGAAGATAATAATAATGAAAGTGATAAAAAATCACAACAAAAACCAAAAGCAAAAGGTAGTTTATTATCACAAGCATCATCATCATATTTATTAGTTGAAGGTGAATTTACAAGTTTATTTCAAGAACAATCAATTACACCATTACCATCATCATCAAATAATAAATCATTAGATGGAATTAATACAAAACAATTATATTATCAAATTGAAACAACATTAGATTTATTATTATCACATGAATTTATTGATAAATATATAAAGAATGGTGGATTTTATGCAATTTCACAATTGAATTTCATAGATTCTGGTAATGTTGTAGCATTTTTACCAAATTCAAAAATAATATTAAATGTTGATAAAGAAACCTATCAAGAATTAGGTTTACTTGGTAAATCTTCAGTTTTTAAGAATTTACAAAGATACATCATCACATTGGATATGACAAGTAAAGAATATCAACGTGGTTCAAAATCATATACTCGTTTAATTTGGTCATTAAAAGATAGACTATCATCAATCAATTTAATTTGTTTTTATCAAAAACTAAACTCAACCCAATTACAATCAATTGATTTCCCTCAAGGTGTTAAAGTTTTACCATCATATAATCAACCAACTCAAGAAATTCTAAATTTACGTTTACCAACTTTAAATATAATAAATGAAAATTTAAATATAAATAATAGCAATAATGATATAAAAATGATTTATAATGATTTTATAAATGAATGGGTTGAAGTTTTAGGATTTGCAAGTTTAGGTATAAATTTAAATCAAGTTAAAGATTTTGAAATTGGTAATTCGTTATTATCACAATGTCCAATAGCAACAAAATGTTTAAAGGCAACTCAAAAAGGTTTGGTTTCAAATAGTTTTATTTTAGAATTGATCGAAAAAATTAAATTAATGCTTTCAAAAGGTTTAATTGAATATGGTGTTTTAAATATTTATGGTTTCGCTGATACTCCAATCTCTTGGAATTCAATTGAACATAATTTTCTATATGGTGGTGAAAATGATCAATCACTTTTAATTTTACCAAATAATAAATTCATTTCTTCAAATTTAATTGGTACTTATGATTATTATTGTTAA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleolus</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>drpp40</Gene_Name>
+    <Gene_ID>8622311</Gene_ID>
+    <Genbank_ACCN>XM_636335</Genbank_ACCN>
+    <Protein_ACCN>XP_641427</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/8622311</Gene_URL>
+    <EMBL_ID>DDB_G0279961</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of RNase P protein subunit DRpp40</PDB_Title>
+      <PDB_ID>ASD02570000_4</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.1.26.5</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/1/26/5.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD02550001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02570011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

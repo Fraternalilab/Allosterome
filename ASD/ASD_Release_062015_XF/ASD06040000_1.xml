@@ -1,0 +1,638 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD06040000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P43405</UniProt_ID>
+  <Seq_Length>635</Seq_Length>
+  <Molecule_Weight>72066</Molecule_Weight>
+  <KEGG_ID>hsa:6850</KEGG_ID>
+  <Orthology_ID>K05855</Orthology_ID>
+  <EBI_ID>EBI-78302</EBI_ID>
+  <Function_Summary>Non-receptor tyrosine kinase which mediates signal transduction downstream of a variety of transmembrane receptors including classical immunoreceptors like the B-cell receptor (BCR). Regulates several biological processes including innate and adaptive immunity, cell adhesion, osteoclast maturation, platelet activation and vascular development. Assembles into signaling complexes with activated receptors at the plasma membrane via interaction between its SH2 domains and the receptor tyrosine-phosphorylated ITAM domains. The association with the receptor can also be indirect and mediated by adapter proteins containing ITAM or partial hemITAM domains. The phosphorylation of the ITAM domains is generally mediated by SRC subfamily kinases upon engagement of the receptor. More rarely signal transduction via SYK could be ITAM-independent. Direct downstream effectors phosphorylated by SYK include VAV1, PLCG1, PI-3-kinase, LCP2 and BLNK. Initially identified as essential in B-cell receptor (BCR) signaling, it is necessary for the maturation of B-cells most probably at the pro-B to pre-B transition. Activated upon BCR engagement, it phosphorylates and activates BLNK an adapter linking the activated BCR to downstream signaling adapters and effectors. It also phosphorylates and activates PLCG1 and the PKC signaling pathway. It also phosphorylates BTK and regulates its activity in B-cell antigen receptor (BCR)-coupled signaling. Beside its function downstream of BCR plays also a role in T-cell receptor signaling. Plays also a crucial role in the innate immune response to fungal, bacterial and viral pathogens. It is for instance activated by the membrane lectin CLEC7A. Upon stimulation by fungal proteins, CLEC7A together with SYK activates immune cells inducing the production of ROS. Also activates the inflammasome and NF-kappa-B-mediated transcription of chemokines and cytokines in presence of pathogens. Regulates neutrophil degranulation and phagocytosis through activation of the MAPK signaling cascade. Also mediates the activation of dendritic cells by cell necrosis stimuli. Also involved in mast cells activation. Also functions downstream of receptors mediating cell adhesion. Relays for instance, integrin-mediated neutrophils and macrophages activation and P-selectin receptor/SELPG-mediated recruitment of leukocytes to inflammatory loci. Plays also a role in non-immune processes. It is for instance involved in vascular development where it may regulate blood and lymphatic vascular separation. It is also required for osteoclast development and function. Functions in the activation of platelets by collagen, mediating PLCG2 phosphorylation and activation. May be coupled to the collagen receptor by the ITAM domain-containing FCER1G. Also activated by the membrane lectin CLEC1B that is required for activation of platelets by PDPN/podoplanin. Involved in platelet adhesion being activated by ITGB3 engaged by fibrinogen.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a [protein]-L-tyrosine = ADP + a [protein]-L-tyrosine phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF07714:Pkinase_Tyr@@PF00017:SH2</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>p72-Syk</Alias>
+      <Alias>Spleen tyrosine kinase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a non-membrane spanning protein L-tyrosine = ADP + a non-membrane spanning protein L-tyrosine phosphate.</Detail>
+      <Keyword>Non-membrane spanning protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004715</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a protein tyrosine = ADP + protein tyrosine phosphate.</Detail>
+      <Keyword>Protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004713</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an integrin.</Detail>
+      <Keyword>Integrin binding</Keyword>
+      <Ontology_ID>GO:0005178</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>45</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The attachment of a leukocyte to another cell via adhesion molecules.</Detail>
+      <Keyword>Leukocyte cell-cell adhesion</Keyword>
+      <Ontology_ID>GO:0007159</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The regulated release of serotonin by a platelet or group of platelets.</Detail>
+      <Keyword>Serotonin secretion by platelet</Keyword>
+      <Ontology_ID>GO:0002554</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of a lymph vessel over time, from its formation to the mature structure.</Detail>
+      <Keyword>Lymph vessel development</Keyword>
+      <Ontology_ID>GO:0001945</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The multiplication or reproduction of cells, resulting in the expansion of a cell population.</Detail>
+      <Keyword>Cell proliferation</Keyword>
+      <Ontology_ID>GO:0008283</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Morphogenesis of an organ. An organ is defined as a tissue or set of tissues that work together to perform a specific function or functions. Morphogenesis is the process in which anatomical structures are generated and organized. Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions.</Detail>
+      <Keyword>Organ morphogenesis</Keyword>
+      <Ontology_ID>GO:0009887</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of phagocytosis, the process in which phagocytes engulf external particulate material.</Detail>
+      <Keyword>Regulation of phagocytosis</Keyword>
+      <Ontology_ID>GO:0050764</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus by molecules of fungal origin such as chito-octamer oligosaccharide.</Detail>
+      <Keyword>Cellular response to molecule of fungal origin</Keyword>
+      <Ontology_ID>GO:0071226</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Blood vessel formation when new vessels emerge from the proliferation of pre-existing blood vessels.</Detail>
+      <Keyword>Angiogenesis</Keyword>
+      <Ontology_ID>GO:0001525</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which an organism has an effect on an organism of a different species.</Detail>
+      <Keyword>Interspecies interaction between organisms</Keyword>
+      <Ontology_ID>GO:0044419</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>An immune response based on directed amplification of specific receptors for antigen produced through a somatic diversification process, and allowing for enhanced response to subsequent exposures to the same antigen (immunological memory).</Detail>
+      <Keyword>Adaptive immune response</Keyword>
+      <Ontology_ID>GO:0002250</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of bone resorption.</Detail>
+      <Keyword>Positive regulation of bone resorption</Keyword>
+      <Ontology_ID>GO:0045780</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any series of molecular signals generated as a consequence of an integrin binding to one of its physiological ligands.</Detail>
+      <Keyword>Integrin-mediated signaling pathway</Keyword>
+      <Ontology_ID>GO:0007229</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in morphology and behavior of a macrophage resulting from exposure to a cytokine, chemokine, cellular ligand, or soluble factor, leading to the initiation or perpetuation of an immune response.</Detail>
+      <Keyword>Macrophage activation involved in immune response</Keyword>
+      <Ontology_ID>GO:0002281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate, or extent of cell adhesion mediated by integrin.</Detail>
+      <Keyword>Positive regulation of cell adhesion mediated by integrin</Keyword>
+      <Ontology_ID>GO:0033630</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of enzymatic generation of superoxide by a cell.</Detail>
+      <Keyword>Regulation of superoxide anion generation</Keyword>
+      <Ontology_ID>GO:0032928</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate, or extent of neutrophil degranulation.</Detail>
+      <Keyword>Regulation of neutrophil degranulation</Keyword>
+      <Ontology_ID>GO:0043313</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of progressive, overlapping events triggered by exposure of the platelets to subendothelial tissue. These events include shape change, adhesiveness, aggregation, and release reactions. When carried through to completion, these events lead to the formation of a stable hemostatic plug.</Detail>
+      <Keyword>Platelet activation</Keyword>
+      <Ontology_ID>GO:0030168</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the rate, frequency, or extent of arachidonic acid secretion, the controlled release of arachidonic acid from a cell or group of cells.</Detail>
+      <Keyword>Regulation of arachidonic acid secretion</Keyword>
+      <Ontology_ID>GO:0090237</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Innate immune responses are defense responses mediated by germline encoded components that directly recognize components of potential pathogens.</Detail>
+      <Keyword>Innate immune response</Keyword>
+      <Ontology_ID>GO:0045087</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Protein involved in immunity, any immune system process that functions in the response of an organism to a potential internal or invasive threat. The vertebrate immune system is formed by the innate immune system (composed of phagocytes, complement, antimicrobial peptides, etc) and by the adaptive immune system which consists of T- and B-lymphocytes.</Detail>
+      <Keyword>Immunity</Keyword>
+      <Ontology_ID>KW-0391</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of a neutrophil cell, the most numerous polymorphonuclear leukocyte found in the blood, in response to an external stimulus, usually an infection or wounding.</Detail>
+      <Keyword>Neutrophil chemotaxis</Keyword>
+      <Ontology_ID>GO:0030593</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Protein involved in adaptive immunity. Vertebrates can develop a broad and almost infinite repertoire of antigen-specific receptors, which allows vertebrates to recognize almost any potential pathogen or toxin and to mount antigen-specific responses to it. Two types of adaptive immunity systems have evolved in vertebrates in order to generate immune receptor diversity. The jawed vertebrates strategy uses the V(D)JC recombination to achieve combinatorial diversity of immunoglobulin-based B cell receptors and T cell receptors. The jawless vertebrate strategy uses the somatic rearrangements of variable leucine-rich cassettes in the variable lymphocyte receptors (VLRs). The hallmarks of an adaptive immune system is the production of antigen-specific recognition receptor by somatic gene rearrangement. The long life of some antigen-primed cytotoxic lymphocytes and plasma cells provide protective memory to prevent reinvasion.</Detail>
+      <Keyword>Adaptive immunity</Keyword>
+      <Ontology_ID>KW-1064</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The change in morphology and behavior of a neutrophil resulting from exposure to a cytokine, chemokine, cellular ligand, or soluble factor, leading to the initiation or perpetuation of an immune response.</Detail>
+      <Keyword>Neutrophil activation involved in immune response</Keyword>
+      <Ontology_ID>GO:0002283</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the rate, frequency or extent of platelet aggregation. Platelet aggregation is the adhesion of one platelet to one or more other platelets via adhesion molecules.</Detail>
+      <Keyword>Regulation of platelet aggregation</Keyword>
+      <Ontology_ID>GO:0090330</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Reactions triggered in response to the presence of a bacterium that act to protect the cell or organism.</Detail>
+      <Keyword>Defense response to bacterium</Keyword>
+      <Ontology_ID>GO:0042742</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of signal transduction mediated by the ERK1 and ERK2 cascade.</Detail>
+      <Keyword>Regulation of ERK1 and ERK2 cascade</Keyword>
+      <Ontology_ID>GO:0070372</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals initiated by the cross-linking of an antigen receptor on a B cell.</Detail>
+      <Keyword>B cell receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0050853</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>384</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>350</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>295</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>630</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>296</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>484</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>629</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>507</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>546</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>47</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>323</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>202</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>525</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>317</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>297</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>364</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>352</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>256</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>345</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>526</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>379</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>44</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>319</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>348</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>631</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>579</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>131</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>28</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>316</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>582</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>530</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MASSGMADSANHLPFFFGNITREEAEDYLVQGGMSDGLYLLRQSRNYLGGFALSVAHGRKAHHYTIERELNGTYAIAGGRTHASPADLCHYHSQESDGLVCLLKKPFNRPQGVQPKTGPFEDLKENLIREYVKQTWNLQGQALEQAIISQKPQLEKLIATTAHEKMPWFHGKISREESEQIVLIGSKTNGKFLIRARDNNGSYALCLLHEGKVLHYRIDKDKTGKLSIPEGKKFDTLWQLVEHYSYKADGLLRVLTVPCQKIGTQGNVNFGGRPQLPGSHPATWSAGGIISRIKSYSFPKPGHRKSSPAQGNRQESTVSFNPYEPELAPWAADKGPQREALPMDTEVYESPYADPEEIRPKEVYLDRKLLTLEDKELGSGNFGTVKKGYYQMKKVVKTVAVKILKNEANDPALKDELLAEANVMQQLDNPYIVRMIGICEAESWMLVMEMAELGPLNKYLQQNRHVKDKNIIELVHQVSMGMKYLEESNFVHRDLAARNVLLVTQHYAKISDFGLSKALRADENYYKAQTHGKWPVKWYAPECINYYKFSSKSDVWSFGVLMWEAFSYGQKPYRGMKGSEVTAMLEKGERMGCPAGCPREMYDLMNLCWTYDVENRPGFAAVELRLRNYYYDVVN</Protein_Seq>
+    <DNA_Seq>ACACTGGGAGGAAGTGCGGGCCGCCTGCCCGGGCGCGTTAAGGAAGTTGCCCAAAATGAGGAAGAGCCGCGGGCCCGGCGGCTGAGGCCACCCCGGCGGCGGCTGGAGAGCGAGGAGGAGCGGGTGGCCCCGCGCTGCGCCCGCCCTCGCCTCACCTGGCGCAGGTGGACACCTGCGCAGGTGTGTGCCCTCCGGCCCCTGAAGCATGGCCAGCAGCGGCATGGCTGACAGCGCCAACCACCTGCCCTTCTTTTTCGGCAACATCACCCGGGAGGAGGCAGAAGATTACCTGGTCCAGGGGGGCATGAGTGATGGGCTTTATTTGCTGCGCCAGAGCCGCAACTACCTGGGTGGCTTCGCCCTGTCCGTGGCCCACGGGAGGAAGGCACACCACTACACCATCGAGCGGGAGCTGAATGGCACCTACGCCATCGCCGGTGGCAGGACCCATGCCAGCCCCGCCGACCTCTGCCACTACCACTCCCAGGAGTCTGATGGCCTGGTCTGCCTCCTCAAGAAGCCCTTCAACCGGCCCCAAGGGGTGCAGCCCAAGACTGGGCCCTTTGAGGATTTGAAGGAAAACCTCATCAGGGAATATGTGAAGCAGACATGGAACCTGCAGGGTCAGGCTCTGGAGCAGGCCATCATCAGTCAGAAGCCTCAGCTGGAGAAGCTGATCGCTACCACAGCCCATGAAAAAATGCCTTGGTTCCATGGAAAAATCTCTCGGGAAGAATCTGAGCAAATTGTCCTGATAGGATCAAAGACAAATGGAAAGTTCCTGATCCGAGCCAGAGACAACAACGGCTCCTACGCCCTGTGCCTGCTGCACGAAGGGAAGGTGCTGCACTATCGCATCGACAAAGACAAGACAGGGAAGCTCTCCATCCCCGAGGGAAAGAAGTTCGACACGCTCTGGCAGCTAGTCGAGCATTATTCTTATAAAGCAGATGGTTTGTTAAGAGTTCTTACTGTCCCATGTCAAAAAATCGGCACACAGGGAAATGTTAATTTTGGAGGCCGTCCACAACTTCCAGGTTCCCATCCTGCGTCCTCCCCTGCCCAAGGGAACCGGCAAGAGAGTACTGTGTCATTCAATCCGTATGAGCCAGAACTTGCACCCTGGGCTGCAGACAAAGGCCCCCAGAGAGAAGCCCTACCCATGGACACAGAGGTGTACGAGAGCCCCTACGCGGACCCCGAGGAGATCAGGCCCAAGGAGGTTTACCTGGACCGAAAGCTGCTGACGCTGGAAGACAAAGAACTGGGCTCTGGTAATTTTGGAACTGTGAAAAAGGGCTACTACCAAATGAAAAAAGTTGTGAAAACCGTGGCTGTGAAAATACTGAAAAACGAGGCCAATGACCCCGCTCTTAAAGATGAGTTATTAGCAGAAGCAAATGTCATGCAGCAGCTGGACAACCCGTACATCGTGCGGATGATCGGGATATGCGAGGCCGAGTCCTGGATGCTGGTTATGGAGATGGCAGAACTTGGTCCCCTCAATAAGTATTTGCAGCAGAACAGACATGTCAAGGATAAGAACATCATAGAACTGGTTCATCAGGTTTCCATGGGCATGAAGTACTTGGAGGAGAGCAATTTTGTGCACAGAGATCTGGCTGCAAGAAATGTGTTGCTAGTTACCCAACATTACGCCAAGATCAGTGATTTCGGACTTTCCAAAGCACTGCGTGCTGATGAAAACTACTACAAGGCCCAGACCCATGGAAAGTGGCCTGTCAAGTGGTACGCTCCGGAATGCATCAACTACTACAAGTTCTCCAGCAAAAGCGATGTCTGGAGCTTTGGAGTGTTGATGTGGGAAGCATTCTCCTATGGGCAGAAGCCATATCGAGGGATGAAAGGAAGTGAAGTCACCGCTATGTTAGAGAAAGGAGAGCGGATGGGGTGCCCTGCAGGGTGTCCAAGAGAGATGTACGATCTCATGAATCTGTGCTGGACATACGATGTGGAAAACAGGCCCGGATTCGCAGCAGTGGAACTGCGGCTGCGCAATTACTACTATGACGTGGTGAACTAACCGCTCCCGCACCTGTCGGTGGCTGCCTTTGATCACAGGAGCAATCACAGGAAAATGTATCCAGAGGAATTGATTGTCAGCCACCTCCCTCTGCCAGTCGGGAGAGCCAGGCTTGGATGGAACATGCCCACAACTTGTCACCCAAAGCCTGTCCCAGGACTCACCCTCCACAAAGCAAAGGCAGTCCCGGGAGAAAAGACGGATGGCAGGATCCAAGGGGCTAGCTGGATTTGTTTGTTTTCTTGTCTGTGTGATTTTCATACAGGTTATTTTTACGATCTGTTTCCAAATCCCTTTCATGTCTTTCCACTTCTCTGGGTCCCGGGGTGCATTTGTTACTCATCGGGCCCAGGGACATTGCAGAGTGGCCTAGAGCACTCTCACCCCAAGCGGCCTTTTCCAAATGCCCAAGGATGCCTTAGCATGTGACTCCTGAAGGGAAGGCAAAGGCAGAGGAATTTGGCTGCTTCTACGGCCATGAGACTGATCCCTGGCCACTGAAAAGCTTTCCTGACAATAAAAATGTTTTGAGGCTTTAAAAAGAAAATCAAGTTTGACCAGTGCAGTTTCTAAGCATGTAGCCAGTTAAGGAAAGAAAGAAAGAAAAAAAAAAAAGGCCTGGATACTGCTTTTGCTGTCTCTGTTATGAGATGGAAGACTTACATGTTTGTGATAAAAGGGGACCATGAGAATGAATTGGCTTGGCTTACTTTCCCCCTGAAATCCTCTCTCCTGCAGACTGTCTTGAAGACCTGGTGACTGGTAAATAAAGCCCTGCATGGAGGCTGCACAGCAGGGGCAAGAGGCCCATCCCCCAGCATCTCACTGAGGACAGCTTCAGGCTGCCTTCCTCTGAACGTGGTCCACACCTTCCTCTCCTCCACAGAGAGGGTGCCGCCAGAATCCCCTGTCGCTTTCTGTGTCTGCAATGGGGGGCAGCACAGGGATCAAAGCCATCTAAAGAGTTTCCAAAGAAAGTATTAATTCAGAACAAGCCAAAGACCCTGAGCCTCACCACAAACAGGCCTTTTGGAGTGTGAATTTGAGTTGAAGATACAAGATCGGAGAATGATTTTCTGGTCTTAACTAATCCTCATCTTCATGTTTGATCTTTAAGAAGTCATCACCCATTGATTTCAGTTTTGCTGTACCTCTTGAAAGTTAAAGAGACATCTCAGCACTTTAGGAGGCCGAGGCGGGTGGATCACTTGAGGTAAGGAGTTTGAGACTAGCCTGGCCAATATGGTAAAACCCCATCTCTACTAAAAATACAAAAATTAGCCGGGCATGGTGGCATGTGTCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATCGCTTGAACCCAGGAAACGGAGGTCGCAGTGAGCCAAGATCATGCCACTGCACTCCAGCTTGGGCATCACAGCGAGACTCTGTCAAAACAAACAAACAAAAAAACAACTTAAAGAGGTAATTTAGCCATCATTCTTATGCCAGCAGATATAAATAAACTTGGACCCATCTGGTCTTCAGCTAAACCTGAGACATTTTAAAGTGCATGGACAGCCATGGACAGCAGGCCCTCCTCTAACAGGGGATGCAAGGCATGGAGAAAGACAATCAGTACCCAAGCTCAGCCACAGAAGACAGGAGTCACTCATATAACTTGTGTTTAGAAGTTTTTGGTAGCCACGCACACTTTCTGAAATCACACTATCTGGTGGTTTAATCATATTTTTAAAGACAGAATCCCTGAGTGCTGAGCAGATTCTCAAAACACATTTAGAATCCCTGAAATTAGAAAGATCAATGACAAAATATCTGTCAGCCAGGCCACAAACAGGTGTAAAATTATGAAAGGAGTGGTTGGATGTGCCAAGTTTGGTAAAGTGGTGACTGCATCTGAGAAAGAGGCTGTGAGGCTGAACTCTTGGTGGCTTCCTTCTGTAACTTCCAGAGGGAGTCTTCAACACAGGCCCCGTGCTCGTAGGAATACGGTAGCACCTATGTAGGAAGTGCGTGGAGTTTTCTGTCTTCTTTCTGTGTGATTTTTGGCCTTTTTATCAGCACTTCTCCCCTCCCAGGAGCCTGGGGATGCCAAACATCCAGAATGTGATGGGACAAGATGGGGGCAGGGGCCTCACCTCCCTGCAGAGGTCCGGCCAGGTCTCCTTGTCCCTGGACAATCTCCTGAGCCTCTCTGCTTGGTGGAGCAGGCACCTGTGTGCAGAATTCCCACTGTGGCCAGCACGAGGAAGTCTTTTCTAGTGAAAATGTGTCTTGTGGTCAGGAATAATTATCCTTTCCCCTGTAGCCACCAAGGAGGGCAAATAGAGAAAGGTAACCTAATTGAAGGATTGGTCATGTGAAAAGGGCTACATTTGGGAAGCTGGGAAAGGCCTCCAGGCTTCTAGAGCAGCTAGCTTGGGCTGGATTCTCATACCCAGGCTGCCCCTTGGATTGTTCTACCCAAGCTTTTCCCTGGGGTCTGGGCTCACTCCATAAGGTAAGGTGCCTTTTACCTTATGGTCCTTCTTTAGCAGGTAACAAAGGAGCATCAGGGGCAGGCTGCCCTGGTGGCATCACACTGGCTAGTGAGGCCGTGAATATCTTGTCCCCCAGCAGGGCCGACAGTTTCTATCACAGAAAACAGTGTGTTCAGTGGTGAAAATCGTTGCATGCATGTTTTCATCTGAGCGTGTCCTTCTCCCATACTCCCTATCAGCCAGCCCTGCCTGTAGCTGCTGTATGGTGATTGCACTTGGACATCAGTCCAATGACTGCAAGTCGGCCTGGATTTTCACTTGCAGAGGCTACAGCTGCATTGTCAGGTCTCCCAGCCCTGCAGAGAGCTCCCTCCACTGGTTAGCAGTGTGTTGTGTTTTCCATTCATTTCAGAAGAGCTACATTGTGTCACTGGACATTTTTAAAAACTGTGATTTTTAATAAAAATTTAAAATTTGCTTTGTGATGAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Plasma cells</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Pro-B-cells</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Hematopoietic cells</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>T cell receptor complex</CellLocal>
+      <Ontology_ID>GO:0042101</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Early phagosome</CellLocal>
+      <Ontology_ID>GO:0032009</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>SYK</Gene_Name>
+    <Gene_ID>6850</Gene_ID>
+    <Genbank_ACCN>NM_001135052</Genbank_ACCN>
+    <Protein_ACCN>NP_001128524</Protein_ACCN>
+    <HGNC_ID>11491</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/6850</Gene_URL>
+    <UCSC_ID>uc004ara.3</UCSC_ID>
+    <EMBL_ID>ENSG00000165025</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P20273</Uniprot_ID>
+      <Gene_Name>CD22</Gene_Name>
+      <EBI_ID>EBI-78277</EBI_ID>
+      <PPI_EBI_URL>EBI-78302,EBI-78277</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Mycobacterium Abscessus</Disease_Name>
+      <Disease_Detail>Mycobacterium Abscessus</Disease_Detail>
+      <Disease_DB>MYC013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/mycobacterium_abscessus?search=SYK#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cherubism</Disease_Name>
+      <Disease_Detail>Cherubism</Disease_Detail>
+      <Disease_DB>CHR003</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cherubism?search=SYK#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of spleen tyrosine kinase (SYK) in complex with a diaminopyrimidine carboxamide inhibitor</PDB_Title>
+      <PDB_ID>3SRV</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3SRV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of GSK143, a highly potent, selective and orally efficacious spleen tyrosine kinase inhibitor.</PubMed_Title>
+      <Author>Liddle, J., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2011)21:6188-6194</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21903390?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of c-Cbl-TKB domain complexed with its binding motif in Syk</PDB_Title>
+      <PDB_ID>3BUW</PDB_ID>
+      <Resolution>1.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BUW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for a novel intrapeptidyl H-bond and reverse binding of c-Cbl-TKB domain substrates</PubMed_Title>
+      <Author>Ng, C., et al.</Author>
+      <Journal>Embo J.(2008)27:804-816</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18273061?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the syk tyrosine kinase domain with Gleevec</PDB_Title>
+      <PDB_ID>1XBB</PDB_ID>
+      <Resolution>1.57</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XBB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A Novel Mode of Gleevec Binding Is Revealed by the Structure of Spleen Tyrosine Kinase</PubMed_Title>
+      <Author>Atwell, S., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:55827-55832</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15507431?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the syk tyrosine kinase domain with Staurosporin</PDB_Title>
+      <PDB_ID>1XBC</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XBC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A novel mode of Gleevec binding is revealed by the structure of spleen tyrosine kinase</PubMed_Title>
+      <Author>Atwell, S., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:55827-55832</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15507431?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of spleen tyrosine kinase complexed with R406</PDB_Title>
+      <PDB_ID>3FQS</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FQS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural insights for design of potent spleen tyrosine kinase inhibitors from crystallographic analysis of three inhibitor complexes.</PubMed_Title>
+      <Author>Villasenor, A.G., et al.</Author>
+      <Journal>Chem.Biol.Drug Des.(2009)73:466-470</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19220318?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SYK TYROSINE KINASE C-TERMINAL SH2 DOMAIN COMPLEXED WITH A PHOSPHOPEPTIDEFROM THE GAMMA CHAIN OF THE HIGH AFFINITY IMMUNOGLOBIN G RECEPTOR, NMR</PDB_Title>
+      <PDB_ID>1CSZ</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CSZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution structure of the C-terminal SH2 domain of the human tyrosine kinase Syk complexed with a phosphotyrosine pentapeptide.</PubMed_Title>
+      <Author>Narula, S.S., et al.</Author>
+      <Journal>Structure(1995)3:1061-1073</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8590001?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE TANDEM SH2 DOMAIN OF THE SYK KINASE BOUND TO A DUALLY TYROSINE-PHOSPHORYLATED ITAM</PDB_Title>
+      <PDB_ID>1A81</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1A81</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for Syk tyrosine kinase ubiquity in signal transduction pathways revealed by the crystal structure of its regulatory SH2 domains bound to a dually phosphorylated ITAM peptide.</PubMed_Title>
+      <Author>Futterer, K., et al.</Author>
+      <Journal>J.Mol.Biol.(1998)281:523-537</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9698567?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of spleen tyrosine kinase complexed with YM193306</PDB_Title>
+      <PDB_ID>3FQE</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FQE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural insights for design of potent spleen tyrosine kinase inhibitors from crystallographic analysis of three inhibitor complexes.</PubMed_Title>
+      <Author>Villasenor, A.G., et al.</Author>
+      <Journal>Chem.Biol.Drug Des.(2009)73:466-470</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19220318?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of apo syk tyrosine kinase domain</PDB_Title>
+      <PDB_ID>1XBA</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XBA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A novel mode of Gleevec binding is revealed by the structure of spleen tyrosine kinase.</PubMed_Title>
+      <Author>Atwell, S., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:55827-55832</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15507431?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Discovery and SAR of novel 4-thiazolyl-2-phenylaminopyrimidines as potent inhibitors of spleen tyrosine kinase (SYK)</PDB_Title>
+      <PDB_ID>3EMG</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EMG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery and SAR of novel 4-thiazolyl-2-phenylaminopyrimidines as potent inhibitors of spleen tyrosine kinase (SYK).</PubMed_Title>
+      <Author>Farmer, L.J., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2008)18:6231-6235</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18938080?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of spleen tyrosine kinase complexed with a 2-substituted 7-azaindole</PDB_Title>
+      <PDB_ID>3FQH</PDB_ID>
+      <Resolution>2.26</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3FQH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural insights for design of potent spleen tyrosine kinase inhibitors from crystallographic analysis of three inhibitor complexes.</PubMed_Title>
+      <Author>Villasenor, A.G., et al.</Author>
+      <Journal>Chem.Biol.Drug Des.(2009)73:466-470</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19220318?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SYK TYROSINE KINASE C-TERMINAL SH2 DOMAIN COMPLEXED WITH A PHOSPHOPEPTIDEFROM THE GAMMA CHAIN OF THE HIGH AFFINITY IMMUNOGLOBIN G RECEPTOR, NMR</PDB_Title>
+      <PDB_ID>1CSY</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CSY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Solution structure of the C-terminal SH2 domain of the human tyrosine kinase Syk complexed with a phosphotyrosine pentapeptide.</PubMed_Title>
+      <Author>Narula, S.S., et al.</Author>
+      <Journal>Structure(1995)3:1061-1073</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8590001?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05169</Pathway_ID>
+      <Pathway_Title>Epstein-Barr virus infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04662</Pathway_ID>
+      <Pathway_Title>B cell receptor signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05203</Pathway_ID>
+      <Pathway_Title>Viral carcinogenesis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04666</Pathway_ID>
+      <Pathway_Title>Fc gamma R-mediated phagocytosis</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04064</Pathway_ID>
+      <Pathway_Title>NF-kappa B signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04650</Pathway_ID>
+      <Pathway_Title>Natural killer cell mediated cytotoxicity</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04611</Pathway_ID>
+      <Pathway_Title>Platelet activation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05152</Pathway_ID>
+      <Pathway_Title>Tuberculosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04611</Pathway_ID>
+      <Pathway_Title>Platelet activation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04380</Pathway_ID>
+      <Pathway_Title>Osteoclast differentiation</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Development</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04151</Pathway_ID>
+      <Pathway_Title>PI3K-Akt signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04664</Pathway_ID>
+      <Pathway_Title>Fc epsilon RI signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Immune system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.cbd.b.b.bg.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1a81</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.10.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/10/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD06042001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD06042002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

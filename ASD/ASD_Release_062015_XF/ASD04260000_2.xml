@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04260000_2</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q16740</UniProt_ID>
+  <Seq_Length>277</Seq_Length>
+  <Molecule_Weight>30180</Molecule_Weight>
+  <KEGG_ID>hsa:8192</KEGG_ID>
+  <Orthology_ID>K01358</Orthology_ID>
+  <Function_Summary>Clp cleaves peptides in various proteins in a process that requires ATP hydrolysis. Clp may be responsible for a fairly general and central housekeeping function rather than for the degradation of specific substrates.</Function_Summary>
+  <Catalytic_Mechanism>Hydrolysis of proteins to small peptides in the presence of ATP and magnesium. Alpha-casein is the usual test substrate. In the absence of ATP, only oligopeptides shorter than five residues are hydrolyzed (such as succinyl-Leu-Tyr-|-NHMec; and Leu-Tyr-Leu-|-Tyr-Trp, in which cleavage of the -Tyr-|-Leu- and -Tyr-|-Trp bonds also occurs).</Catalytic_Mechanism>
+  <Pfam_ID>PF00574:CLP_protease</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Endopeptidase Clp</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type peptidase activity</Keyword>
+      <Ontology_ID>GO:0008236</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004252</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds.</Detail>
+      <Keyword>Proteolysis</Keyword>
+      <Ontology_ID>GO:0006508</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>277</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>211</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MWPGILVGGARVASCRYPALGPRLAAHFPAQRPPQRTLQNGLALQRCLHATATRALPLIPIVVEQTGRGERAYDIYSRLLRERIVCVMGPIDDSVASLVIAQLLFLQSESNKKPIHMYINSPGGVVTAGLAIYDTMQYILNPICTWCVGQAASMGSLLLAAGTPGMRHSLPNSRIMIHQPSGGARGQATDIAIQAEEIMKLKKQLYNIYAKHTKQSLQVIESAMERDRYMSPMEAQEFGILDKVLVHPPQDGEDEPTLVQKEPVEAAPAAEPVPAST</Protein_Seq>
+    <DNA_Seq>CCTTAATGGCGCCCGCCCAGACTCCTGGAAGTGAGCGGCCTAGCGAGCGAGCTCCCAGGCGCAAAGCACGCCGGAAGCTGTAGTTCCGCCATCGGACGGAAGCCGACCGGGGCGTGCGGAGGGATGTGGCCCGGAATATTGGTAGGGGGGGCCCGGGTGGCGTCATGCAGGTACCCCGCGCTGGGGCCTCGCCTCGCCGCTCACTTTCCAGCGCAGCGGCCGCCGCAGCGGACACTCCAGAACGGCCTGGCCCTGCAGCGGTGCCTGCACGCGACGGCGACCCGGGCTCTCCCGCTCATTCCCATCGTGGTGGAGCAGACGGGTCGCGGCGAGCGCGCCTATGACATCTACTCGCGGCTGCTGCGGGAGCGCATCGTGTGCGTCATGGGCCCGATCGATGACAGCGTTGCCAGCCTTGTTATCGCACAGCTCCTCTTCCTGCAATCCGAGAGCAACAAGAAGCCCATCCACATGTACATCAACAGCCCTGGTGGTGTGGTGACCGCGGGCCTGGCCATCTACGACACGATGCAGTACATCCTCAACCCGATCTGCACCTGGTGCGTGGGCCAGGCCGCCAGCATGGGCTCCCTGCTTCTCGCCGCCGGCACCCCAGGCATGCGCCACTCGCTCCCCAACTCCCGTATCATGATCCACCAGCCCTCAGGAGGCGCCCGGGGCCAAGCCACAGACATTGCCATCCAGGCAGAGGAGATCATGAAGCTCAAGAAGCAGCTCTATAACATCTACGCCAAGCACACCAAACAGAGCCTGCAGGTGATCGAGTCCGCCATGGAGAGGGACCGCTACATGAGCCCCATGGAGGCCCAGGAGTTTGGCATCTTAGACAAGGTTCTGGTCCACCCTCCCCAGGACGGTGAGGATGAGCCCACGCTGGTGCAGAAGGAGCCTGTAGAAGCAGCGCCGGCAGCAGAACCTGTCCCAGCTAGCACCTGAGAGCTGGGCCTCCTCTCCAGAATCATGTGGAGGGGCCAGAGGCCTGCCAGACCCCCAGCTGGGCCCTGCTCACCCCTTGTTGCTGGGCTTGGAGGGGCCTCTTGAGGAACTTTTAATTTGCAGGGGTGCCCGCTATGGACGGGGCATTCCAGCTGAGACACTGTGATTTTAAATTAAATCTTTGTGGTCTTTGCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Lung</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Kidney</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Heart</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Brain</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Liver</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Pancreas</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Placenta</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Skeletal muscle</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrial matrix</CellLocal>
+      <Ontology_ID>GO:0005759</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion matrix</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CLPP</Gene_Name>
+    <Gene_ID>8192</Gene_ID>
+    <Genbank_ACCN>NM_006012</Genbank_ACCN>
+    <Protein_ACCN>NP_006003</Protein_ACCN>
+    <HGNC_ID>2084</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/8192</Gene_URL>
+    <UCSC_ID>uc002mem.1</UCSC_ID>
+    <EMBL_ID>ENSG00000125656</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Perrault Syndrome</Disease_Name>
+      <Disease_Detail>Perrault Syndrome</Disease_Detail>
+      <Disease_DB>PRR025</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/perrault_syndrome?search=CLPP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Legionnaires' Disease</Disease_Name>
+      <Disease_Detail>Legionnaires' Disease</Disease_Detail>
+      <Disease_DB>LGN001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/legionnaires_disease?search=CLPP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Perrault Syndrome 4</Disease_Name>
+      <Disease_Detail>Perrault Syndrome</Disease_Detail>
+      <Disease_DB>PRR021</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/perrault_syndrome_4?search=CLPP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Perrault Syndrome 3</Disease_Name>
+      <Disease_Detail>Perrault Syndrome</Disease_Detail>
+      <Disease_DB>PRR024</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/perrault_syndrome_3?search=CLPP#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystallography and mutagenesis point to an essential role for the N-terminus of human mitochondrial ClpP</PDB_Title>
+      <PDB_ID>1TG6</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TG6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystallography and mutagenesis point to an essential role for the N-terminus of human mitochondrial ClpP</PubMed_Title>
+      <Author>Kang, S.G., et al.</Author>
+      <Journal>J.Struct.Biol.(2004)148:338-352</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15522782?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04112</Pathway_ID>
+      <Pathway_Title>Cell cycle - Caulobacter</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.be.b.b.c.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1tg6</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.4.21.92</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/4/21/92.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

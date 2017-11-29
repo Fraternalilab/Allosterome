@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01490000_2</Organism_ID>
+  <Organism>Lactobacillus casei</Organism>
+  <Organism_Latin>Lactobacillus casei</Organism_Latin>
+  <UniProt_ID>Q9RE09</UniProt_ID>
+  <Seq_Length>319</Seq_Length>
+  <Molecule_Weight>35348</Molecule_Weight>
+  <Function_Summary>Catalyzes the ATP- as well as the pyrophosphate-dependent phosphorylation of 'Ser-46' in HPr, a phosphocarrier protein of the phosphoenolpyruvate-dependent sugar phosphotransferase system (PTS). HprK/P also catalyzes the pyrophosphate-producing, inorganic phosphate-dependent dephosphorylation (phosphorolysis) of seryl-phosphorylated HPr (P-Ser-HPr). The two antagonistic activities of HprK/P are regulated by several intracellular metabolites, which change their concentration in response to the absence or presence of rapidly metabolisable carbon sources (glucose, fructose, etc.) in the growth medium. Therefore, by controlling the phosphorylation state of HPr, HPrK/P is a sensor enzyme that plays a major role in the regulation of carbon metabolism and sugar transport: it mediates carbon catabolite repression (CCR), and regulates PTS-catalyzed carbohydrate uptake and inducer exclusion.</Function_Summary>
+  <Catalytic_Mechanism>ATP + HPr = ADP + P-Ser-HPr.@@P-Ser-HPr + phosphate = HPr + diphosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF07475:Hpr_kinase_C@@PF02603:Hpr_kinase_N</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>HPr kinase/phosphatase</Alias>
+      <Alias>HPr(Ser) kinase/phosphorylase</Alias>
+      <Alias>HPrK/P</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the phosphorylation of a histidine residue in response to detection of an extracellular signal such as a chemical ligand or change in environment, to initiate a change in cell state or activity. The two-component sensor is a histidine kinase that autophosphorylates a histidine residue in its active site. The phosphate is then transferred to an aspartate residue in a downstream response regulator, to trigger a response.</Detail>
+      <Keyword>Two-component sensor activity</Keyword>
+      <Ontology_ID>GO:0000155</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving carbohydrates, any of a group of organic compounds based of the general formula Cx(H2O)y. Includes the formation of carbohydrate derivatives by the addition of a carbohydrate residue to another molecule.</Detail>
+      <Keyword>Carbohydrate metabolic process</Keyword>
+      <Ontology_ID>GO:0005975</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving carbohydrates.</Detail>
+      <Keyword>Regulation of carbohydrate metabolic process</Keyword>
+      <Ontology_ID>GO:0006109</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MADSVTVRQLVKATKLEVYSGEEYLDQRQVVLSDISRPGLELTGYFNYYPHERIQLFGRTEISFARNMSSEERLLILKRMATEDTPAFLVSRGLEAPAEMITAATAAHIPVLGSRLPTTRLSSLITEYLDSQLAERRSMHGVLVDIYGLGVLITGDSGVGKSETALELVQRGHRLIADDRVDVYQQDEQTIVGAAPPILSHLLEIRGLGIIDVMNLFGAGAVREDTTISLIVHLENWTPDKTFDRLGSGEQTQLIFDVPVPKITVPVKVGRNLAIIIEVAAMNFRAKSMGYDATKTFEKNLNHLIEHNEETDQNSSGDK</Protein_Seq>
+    <DNA_Seq>aagcttggcgacaagattttaaatgacgattggcaaaaagatgctcgcgatgctttttctgagtttggcaaaaacttaggtgatgcaaccacgcaactgggtgggttcgtgaaggatactgtcaacaatgttttggataacgttgactggaagaatgtcaccattacagtacccggtttagcaactgaaaaatttgaccatgttttcgattttccagatagtcaggcaacgattcttgatgtgaaagttgctaatggtgacgtgaagttcaagacttgggatcagccaggcattcaagttgctgctgcgatcaagttgtacggcaaaatggatgccgcatcgccgctggatgcgttcaaagaccggagccgcattgatgtcacggacgatcattttagcttccaagtaccaaacaagcgggttcaagctgatttggtcatctcattgccaaagcgcagttatgatcatgttgctgtccggttattaaatggcagtgcagacttaactggcattaccggtaaagatttctatgttaagagtacaaatggtcagatgaacttcactcatgttgatggtgtcatgatcgagagtgaaggtgtcaacggctcaatcaaggttcaaggtggtcatacccatgacttgttgctcacaacagtgaatggcgatgtcagtgttgatgccgatccggcaacggccgccttaaagacagttaacgggactgtgcgagctacctatcacacggacttcacgacgcttgaaggcacttcgatgaacggcaatgttaaagtcgccgtgccgtcctccattgcgcttaacggcgaggttcggacgcattttggcagcatcaagagccgcttgagtgaggttgccgaaccagctaaggggattaagcgtctggaactgacgcgtcccgggactggcagtagtgaaatgaaactcaatacaaccagtggtaacattcaattaaaagattcaaatgactgaggggattgcttatgcc</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Unknown</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>hprK</Gene_Name>
+    <Genbank_ACCN>Y18948</Genbank_ACCN>
+    <Protein_ACCN>CAB65151</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/6404707</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>L.casei HprK/P in complex with B.subtilis P-Ser-HPr</PDB_Title>
+      <PDB_ID>1KKM</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KKM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structure of a bifunctional protein kinase in complex with its protein substrate HPr.</PubMed_Title>
+      <Author>Fieulaine S, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2002 Oct 15;99(21):13437-41. Epub  2002 Oct 1.</Journal>
+      <PubMed_ID>12359875</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Lactobacillus casei HprK/P Bound to Phosphate</PDB_Title>
+      <PDB_ID>1JB1</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JB1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structure of HPr kinase: a bacterial protein kinase with a P-loop nucleotide-binding domain.</PubMed_Title>
+      <Author>Fieulaine S, et al.</Author>
+      <Journal>EMBO J.2001 Aug 1;20(15):3917-27.</Journal>
+      <PubMed_ID>11483495</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>structure of V267F mutant HprK/P</PDB_Title>
+      <PDB_ID>2QMH</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QMH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Analysis of the Bacterial HPr Kinase/Phosphorylase V267F Mutant Gives Insights into the Allosteric Regulation Mechanism of This Bifunctional Enzyme.</PubMed_Title>
+      <Author>Chaptal V, et al.</Author>
+      <Journal>J Biol Chem.2007 Nov 30;282(48):34952-7. Epub  2007 Sep 18.</Journal>
+      <PubMed_ID>17878158</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>L.casei HprK/P in complex with B.subtilis HPr</PDB_Title>
+      <PDB_ID>1KKL</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1KKL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structure of a bifunctional protein kinase in complex with its protein substrate HPr.</PubMed_Title>
+      <Author>Fieulaine S, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2002 Oct 15;99(21):13437-41. Epub  2002 Oct 1.</Journal>
+      <PubMed_ID>12359875</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.bdf.b.c.b.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1jb1</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,237,Trp;site,245,Arg;range,265,275</Site_Detail>
+      <Site_Reference>Chaptal V, et al. J.Biol.Chem. 2007,282(48):34952-34957.;Selwood T, et al. Arch Biochem Biophys. 2012, 519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PubMed_ID>17878158;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.-@@2.7.4.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00200001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

@@ -1,0 +1,986 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD09890000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P55072</UniProt_ID>
+  <Seq_Length>806</Seq_Length>
+  <Molecule_Weight>89322</Molecule_Weight>
+  <KEGG_ID>hsa:7415</KEGG_ID>
+  <Orthology_ID>K13525</Orthology_ID>
+  <EBI_ID>EBI-1046421</EBI_ID>
+  <Function_Summary>Necessary for the fragmentation of Golgi stacks during mitosis and for their reassembly after mitosis. Involved in the formation of the transitional endoplasmic reticulum (tER). The transfer of membranes from the endoplasmic reticulum to the Golgi apparatus occurs via 50-70 nm transition vesicles which derive from part-rough, part-smooth transitional elements of the endoplasmic reticulum (tER). Vesicle budding from the tER is an ATP-dependent process. The ternary complex containing UFD1L, VCP and NPLOC4 binds ubiquitinated proteins and is necessary for the export of misfolded proteins from the ER to the cytoplasm, where they are degraded by the proteasome. The NPLOC4-UFD1L-VCP complex regulates spindle disassembly at the end of mitosis and is necessary for the formation of a closed nuclear envelope. Regulates E3 ubiquitin-protein ligase activity of RNF19A (By similarity). Component of the VCP/p97-AMFR/gp78 complex that participates in the final step of the sterol-mediated ubiquitination and endoplasmic reticulum-associated degradation (ERAD) of HMGCR. Also involved in DNA damage response: recruited to double-strand breaks (DSBs) sites in a RNF8- and RNF168-dependent manner and promotes the recruitment of TP53BP1 at DNA damage sites. Recruited to stalled replication forks by SPRTN: may act by mediating extraction of DNA polymerase eta (POLH) to prevent excessive translesion DNA synthesis and limit the incidence of mutations induced by DNA damage.</Function_Summary>
+  <Catalytic_Mechanism>ATP + H(2)O = ADP + phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00004:AAA@@PF02933:CDC48_2@@PF02359:CDC48_N@@PF09336:Vps4_C</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>109</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>VCP</Alias>
+      <Alias>15S Mg(2+)-ATPase p97 subunit</Alias>
+      <Alias>TER ATPase</Alias>
+      <Alias>Valosin-containing protein</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a polymer of ubiqutin.</Detail>
+      <Keyword>Polyubiquitin binding</Keyword>
+      <Ontology_ID>GO:0031593</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a lipid.</Detail>
+      <Keyword>Lipid binding</Keyword>
+      <Ontology_ID>GO:0008289</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate + 2 H+. May or may not be coupled to another reaction.</Detail>
+      <Keyword>ATPase activity</Keyword>
+      <Ontology_ID>GO:0016887</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>155</Position>
+      <Original>Arg</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>159</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>155</Position>
+      <Original>Arg</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>232</Position>
+      <Original>Ala</Original>
+      <Variation>Glu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>159</Position>
+      <Original>Arg</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>592</Position>
+      <Original>Asp</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>95</Position>
+      <Original>Arg</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>155</Position>
+      <Original>Arg</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>191</Position>
+      <Original>Arg</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A biological process that results in permanent cessation of all vital functions of a cell.</Detail>
+      <Keyword>Cell death</Keyword>
+      <Ontology_ID>GO:0008219</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of protein complex assembly.</Detail>
+      <Keyword>Positive regulation of protein complex assembly</Keyword>
+      <Ontology_ID>GO:0031334</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The aggregation, arrangement and bonding together of a set of components to form an aggresome; requires the microtubule cytoskeleton and dynein.</Detail>
+      <Keyword>Aggresome assembly</Keyword>
+      <Ontology_ID>GO:0070842</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the presence of unfolded proteins in the endoplasmic reticulum (ER) or other ER-related stress; results in changes in the regulation of transcription and translation.</Detail>
+      <Keyword>Endoplasmic reticulum unfolded protein response</Keyword>
+      <Ontology_ID>GO:0030968</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of creating protein oligomers, compounds composed of a small number, usually between three and ten, of identical component monomers. Oligomers may be formed by the polymerization of a number of monomers or the depolymerization of a large protein polymer.</Detail>
+      <Keyword>Protein homooligomerization</Keyword>
+      <Ontology_ID>GO:0051260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of substances from the endoplasmic reticulum (ER) to the Golgi, mediated by COP II vesicles. Small COP II coated vesicles form from the ER and then fuse directly with the cis-Golgi. Larger structures are transported along microtubules to the cis-Golgi.</Detail>
+      <Keyword>ER to Golgi vesicle-mediated transport</Keyword>
+      <Ontology_ID>GO:0006888</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Protein involved in ubiquitin-like modifier processing, activation, conjugation or deconjugation such as Ubl-activating enzymes (E1s), Ubl-conjugating enzymes (E2s), Ubl-protein ligases (E3s), some thiol proteases (Ubiquitin carboxyl-terminal hydrolases (UCH), Ubiquitin-specific processing proteases (UBP) and ubiquitin-like proteases) and the ubiquitin-like modifier proteins. Besides signaling proteolysis, ubiquitination for example can be a signal for trafficking, kinase activation and other nonproteolytic fates.</Detail>
+      <Keyword>Ubl conjugation pathway</Keyword>
+      <Ontology_ID>KW-0833</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Upregulation of the activity of a caspase, any of a group of cysteine proteases involved in apoptosis.</Detail>
+      <Keyword>Activation of caspase activity</Keyword>
+      <Ontology_ID>GO:0006919</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The glycosylation of protein via the N4 atom of peptidyl-asparagine forming N4-glycosyl-L-asparagine; the most common form is N-acetylglucosaminyl asparagine; N-acetylgalactosaminyl asparagine and N4 glucosyl asparagine also occur. This modification typically occurs in extracellular peptides with an N-X-(ST) motif. Partial modification has been observed to occur with cysteine, rather than serine or threonine, in the third position; secondary structure features are important, and proline in the second or fourth positions inhibits modification.</Detail>
+      <Keyword>Protein N-linked glycosylation via asparagine</Keyword>
+      <Ontology_ID>GO:0018279</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which one or more ubiquitin groups are added to a protein.</Detail>
+      <Keyword>Protein ubiquitination</Keyword>
+      <Ontology_ID>GO:0016567</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the breakdown of a protein or peptide by hydrolysis of its peptide bonds, initiated by the covalent attachment of ubiquitin, and mediated by the proteasome.</Detail>
+      <Keyword>Positive regulation of proteasomal ubiquitin-dependent protein catabolic process</Keyword>
+      <Ontology_ID>GO:0032436</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The replication of damaged DNA by synthesis across a lesion in the template strand; a specialized DNA polymerase or replication complex inserts a defined nucleotide across from the lesion which allows DNA synthesis to continue beyond the lesion. This process can be mutagenic depending on the damaged nucleotide and the inserted nucleotide.</Detail>
+      <Keyword>Translesion synthesis</Keyword>
+      <Ontology_ID>GO:0019985</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of unfolded or misfolded proteins from the endoplasmic reticulum to the cytosol through the translocon.</Detail>
+      <Keyword>Retrograde protein transport, ER to cytosol</Keyword>
+      <Ontology_ID>GO:0030970</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The repair of double-strand breaks in DNA via homologous and nonhomologous mechanisms to reform a continuous DNA helix.</Detail>
+      <Keyword>Double-strand break repair</Keyword>
+      <Ontology_ID>GO:0006302</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of proteins transported from the endoplasmic reticulum and targeted to cytoplasmic proteasomes for degradation. This process acts on misfolded proteins as well as in the regulated degradation of correctly folded proteins.</Detail>
+      <Keyword>ER-associated protein catabolic process</Keyword>
+      <Ontology_ID>GO:0030433</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</Detail>
+      <Keyword>DNA repair</Keyword>
+      <Ontology_ID>GO:0006281</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>787</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>37</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>436</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>775</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>3</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>770</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>2</Position>
+      <PTM_Type>N-acetylalanine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>7</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>315</Position>
+      <PTM_Type>N6,N6,N6-trimethyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MASGADSKGDDLSTAILKQKNRPNRLIVDEAINEDNSVVSLSQPKMDELQLFRGDTVLLKGKKRREAVCIVLSDDTCSDEKIRMNRVVRNNLRVRLGDVISIQPCPDVKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVETDPSPYCIVAPDTVIHCEGEPIKREDEEESLNEVGYDDIGGCRKQLAQIKEMVELPLRHPALFKAIGVKPPRGILLYGPPGTGKTLIARAVANETGAFFFLINGPEIMSKLAGESESNLRKAFEEAEKNAPAIIFIDELDAIAPKREKTHGEVERRIVSQLLTLMDGLKQRAHVIVMAATNRPNSIDPALRRFGRFDREVDIGIPDATGRLEILQIHTKNMKLADDVDLEQVANETHGHVGADLAALCSEAALQAIRKKMDLIDLEDETIDAEVMNSLAVTMDDFRWALSQSNPSALRETVVEVPQVTWEDIGGLEDVKRELQELVQYPVEHPDKFLKFGMTPSKGVLFYGPPGCGKTLLAKAIANECQANFISIKGPELLTMWFGESEANVREIFDKARQAAPCVLFFDELDSIAKARGGNIGDGGGAADRVINQILTEMDGMSTKKNVFIIGATNRPDIIDPAILRPGRLDQLIYIPLPDEKSRVAILKANLRKSPVAKDVDLEFLAKMTNGFSGADLTEICQRACKLAIRESIESEIRRERERQTNPSAMEVEEDDPVPEIRRDHFEEAMRFARRSVSDNDIRKYEMFAQTLQQSRGFGSFRFPSGNQGGAGPSQGSGGGTGGSVYTEDNDDDLYG</Protein_Seq>
+    <DNA_Seq>GTGATCTGCGGGTTGCTGGGGAGAGGCGCGGAGAGGCGGGCGAGAGTCCGCAGGGCAGGCGCTGATTGGCTGAGGTGGGAGCAGCTTCCCTTCCGATGATTCGGCTCTTCTCGGCTCAGTCTCAGCGAAGCGTCTGCGACCGTCGTTTGAGTCGTCGCTGCCGCTGCCGCTGCCACTGCCACTGCCACCTCGCGGATCAGGAGCCAGCGTTGTTCGCCCGACGCCTCGCTGCCGGTGGGAGGAAGCGAGAGGGAAGCCGCTTGCGGGTTTGTCGCCGCTGCTCGCCCACCGCCTGGAAGAGCCGAGCCCCGGCCCAGTCGGTCGCTTGCCACCGCTCGTAGCCGTTACCCGCGGGCCGCCACAGCCGCCGGCCGGGAGAGGCGCGCGCCATGGCTTCTGGAGCCGATTCAAAAGGTGATGACCTATCAACAGCCATTCTCAAACAGAAGAACCGTCCCAATCGGTTAATTGTTGATGAAGCCATCAATGAGGACAACAGTGTGGTGTCCTTGTCCCAGCCCAAGATGGATGAATTGCAGTTGTTCCGAGGTGACACAGTGTTGCTGAAAGGAAAGAAGAGACGAGAAGCTGTTTGCATCGTCCTTTCTGATGATACTTGTTCTGATGAGAAGATTCGGATGAATAGAGTTGTTCGGAATAACCTTCGTGTACGCCTAGGGGATGTCATCAGCATCCAGCCATGCCCTGATGTGAAGTACGGCAAACGTATCCATGTGCTGCCCATTGATGACACAGTGGAAGGCATTACTGGTAATCTCTTCGAGGTATACCTTAAGCCGTACTTCCTGGAAGCGTATCGACCCATCCGGAAAGGAGACATTTTTCTTGTCCGTGGTGGGATGCGTGCTGTGGAGTTCAAAGTGGTGGAAACAGATCCTAGCCCTTATTGCATTGTTGCTCCAGACACAGTGATCCACTGCGAAGGGGAGCCTATCAAACGAGAGGATGAGGAAGAGTCCTTGAATGAAGTAGGGTATGATGACATTGGTGGCTGCAGGAAGCAGCTAGCTCAGATAAAGGAGATGGTGGAACTGCCCCTGAGACATCCTGCCCTCTTTAAGGCAATTGGTGTGAAGCCTCCTAGAGGAATCCTGCTTTACGGACCTCCTGGAACAGGAAAGACCCTGATTGCTCGAGCTGTAGCAAATGAGACTGGAGCCTTCTTCTTCTTGATCAATGGTCCTGAGATCATGAGCAAATTGGCTGGTGAGTCTGAGAGCAACCTTCGTAAAGCCTTTGAGGAGGCTGAGAAGAATGCTCCTGCCATCATCTTCATTGATGAGCTAGATGCCATCGCTCCCAAAAGAGAGAAAACTCATGGCGAGGTGGAGCGGCGCATTGTATCACAGTTGTTGACCCTCATGGATGGCCTAAAGCAGAGGGCACATGTGATTGTTATGGCAGCAACCAACAGACCCAACAGCATTGACCCAGCTCTACGGCGATTTGGTCGCTTTGACAGGGAGGTAGATATTGGAATTCCTGATGCTACAGGACGCTTAGAGATTCTTCAGATCCATACCAAGAACATGAAGCTGGCAGATGATGTGGACCTGGAACAGGTAGCCAATGAGACTCACGGGCATGTGGGTGCTGACTTAGCAGCCCTGTGCTCAGAGGCTGCTCTGCAAGCCATCCGCAAGAAGATGGATCTCATTGACCTAGAGGATGAGACCATTGATGCCGAGGTCATGAACTCTCTAGCAGTTACTATGGATGACTTCCGGTGGGCCTTGAGCCAGAGTAACCCATCAGCACTGCGGGAAACCGTGGTAGAGGTGCCACAGGTAACCTGGGAAGACATCGGGGGCCTAGAGGATGTCAAACGTGAGCTACAGGAGCTGGTCCAGTATCCTGTGGAGCACCCAGACAAATTCCTGAAGTTTGGCATGACACCTTCCAAGGGAGTTCTGTTCTATGGACCTCCTGGCTGTGGGAAAACTTTGTTGGCCAAAGCCATTGCTAATGAATGCCAGGCCAACTTCATCTCCATCAAGGGTCCTGAGCTGCTCACCATGTGGTTTGGGGAGTCTGAGGCCAATGTCAGAGAAATCTTTGACAAGGCCCGCCAAGCTGCCCCCTGTGTGCTATTCTTTGATGAGCTGGATTCGATTGCCAAGGCTCGTGGAGGTAACATTGGAGATGGTGGTGGGGCTGCTGACCGAGTCATCAACCAGATCCTGACAGAAATGGATGGCATGTCCACAAAAAAAAATGTGTTCATCATTGGCGCTACCAACCGGCCTGACATCATTGATCCTGCCATCCTCAGACCTGGCCGTCTTGATCAGCTCATCTACATCCCACTTCCTGATGAGAAGTCCCGTGTTGCCATCCTCAAGGCTAACCTGCGCAAGTCCCCAGTTGCCAAGGATGTGGACTTGGAGTTCCTGGCTAAAATGACTAATGGCTTCTCTGGAGCTGACCTGACAGAGATTTGCCAGCGTGCTTGCAAGCTGGCCATCCGTGAATCCATCGAGAGTGAGATTAGGCGAGAACGAGAGAGGCAGACAAACCCATCAGCCATGGAGGTAGAAGAGGATGATCCAGTGCCTGAGATCCGTCGAGATCACTTTGAAGAAGCCATGCGCTTTGCGCGCCGTTCTGTCAGTGACAATGACATTCGGAAGTATGAGATGTTTGCCCAGACCCTTCAGCAGAGTCGGGGCTTTGGCAGCTTCAGATTCCCTTCAGGGAACCAGGGTGGAGCTGGCCCCAGTCAGGGCAGTGGAGGCGGCACAGGTGGCAGTGTATACACAGAAGACAATGATGATGACCTGTATGGCTAAGTGGTGGTGGCCAGCGTGCAGTGAGCTGGCCTGCCTGGACCTTGTTCCCTGGGGGTGGGGGCGCTTGCCCAGGAGAGGGACCAGGGGTGCGCCCACAGCCTGCTCCATTCTCCAGTCTGAACAGTTCAGCTACAGTCTGACTCTGGACAGGGGGTTTCTGTTGCAAAAATACAAAACAAAAGCGATAAAATAAAAGCGATTTTCATTTGGTAGGCGGAGAGTGAATTACCAACAGGGAATTGGGCCTTGGGCCTATGCCATTTCTGTTGTAGTTTGGGGCAGTGCAGGGGACCTGTGTGGGGTGTGAACCAAGGCACTACTGCCACCTGCCACAGTAAAGCATCTGCACTTGACTCAATGCTGCCCGAGCCCTCCCTTCCCCCTATCCAACCTGGGTAGGTGGGTAGGGGCCACAGTTGCTGGATGTTTATATAGAGAGTAGGTTGATTTATTTTACATGCTTTTGAGTTAATGTTGGAAAACTAATCACAAGCAGTTTCTAAACCAAAAAATGACATGTTGTAAAAGGACAATAAACGTTGGGTCAAAATGGAGCCTGAGTCCTGGGCCCTGTGCCTGCTTCTTTTCCTGGGAACAGCCTTGGGCTACCCACCACTCCCAAGGCATTCTTCCAAATGTGAAATCCTGGAAGTAAGATTGCACCTTCTTCCTCTCCTGATCAACATCGGTATGATGTCTCCTGTTGCCTCACCCTTTGTCTGCAGTATCACTGGATAGGACTGGTGGAAAGGGAGCAGCCTGACAGAGCTCCAAATGTGGAGAATATGGCATCCCTCCACCTATATTTGATGTGGACGGTAAGGCTAGGCCTGCAGGATCCCTTATCCTGACCAAAGACTGTGTTGGGGTGCCATTTGAAAATCGCAGGGTTGCAAAAGAATACAATCTTACTTGCAGGTGGATATTCTCTATACTCTCTTTTAATGCATCTAAAAATCCCAAACATCCCCTGGTTGGTGATCACTTACAGTTGTGTCCACCTTTATTTTATGTACTTTGATTAAAAAAAAAAAACTTTTTGTTAATAT</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endoplasmic reticulum</CellLocal>
+      <Ontology_ID>GO:0005783</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Proteasome complex</CellLocal>
+      <Ontology_ID>GO:0000502</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>VCP</Gene_Name>
+    <Gene_ID>7415</Gene_ID>
+    <Genbank_ACCN>NM_007126</Genbank_ACCN>
+    <Protein_ACCN>NP_009057</Protein_ACCN>
+    <HGNC_ID>12666</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/7415</Gene_URL>
+    <UCSC_ID>uc003zvy.2</UCSC_ID>
+    <EMBL_ID>ENSG00000165280</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q9UKV5</Uniprot_ID>
+      <Gene_Name>AMFR</Gene_Name>
+      <EBI_ID>EBI-1046379</EBI_ID>
+      <PPI_EBI_URL>EBI-1046421,EBI-1046379</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O94868</Uniprot_ID>
+      <Gene_Name>FCHSD2</Gene_Name>
+      <EBI_ID>EBI-1215612</EBI_ID>
+      <PPI_EBI_URL>EBI-1046421,EBI-1215612</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9BZE9</Uniprot_ID>
+      <Gene_Name>ASPSCR1</Gene_Name>
+      <EBI_ID>EBI-1993677</EBI_ID>
+      <PPI_EBI_URL>EBI-1046421,EBI-1993677</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P54252-1</Uniprot_ID>
+      <Gene_Name>ATXN3</Gene_Name>
+      <EBI_ID>EBI-946068</EBI_ID>
+      <PPI_EBI_URL>EBI-1046421,EBI-946068</PPI_EBI_URL>
+      <Experiment_Number>10</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P54252</Uniprot_ID>
+      <Gene_Name>ATXN3</Gene_Name>
+      <EBI_ID>EBI-946046</EBI_ID>
+      <PPI_EBI_URL>EBI-1046421,EBI-946046</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q92575</Uniprot_ID>
+      <Gene_Name>UBXN4</Gene_Name>
+      <EBI_ID>EBI-723441</EBI_ID>
+      <PPI_EBI_URL>EBI-1046421,EBI-723441</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O96017</Uniprot_ID>
+      <Gene_Name>CHEK2</Gene_Name>
+      <EBI_ID>EBI-1180783</EBI_ID>
+      <PPI_EBI_URL>EBI-1046421,EBI-1180783</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9BZV1</Uniprot_ID>
+      <Gene_Name>UBXN6</Gene_Name>
+      <EBI_ID>EBI-1993899</EBI_ID>
+      <PPI_EBI_URL>EBI-1046421,EBI-1993899</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Semantic Dementia</Disease_Name>
+      <Disease_Detail>Semantic Dementia</Disease_Detail>
+      <Disease_DB>SMN008</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/semantic_dementia?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Amyotrophic Lateral Sclerosis Type 18</Disease_Name>
+      <Disease_Detail>Amyotrophic Lateral Sclerosis</Disease_Detail>
+      <Disease_DB>AMY077</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/amyotrophic_lateral_sclerosis_type_18?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Spastic Paraplegia - Paget Disease of Bone</Disease_Name>
+      <Disease_Detail>Spastic Paraplegia - Paget Disease of Bone</Disease_Detail>
+      <Disease_DB>SPS088</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/spastic_paraplegia_paget_disease_of_bone?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Adult-Onset Distal Myopathy Due to Vcp Mutation</Disease_Name>
+      <Disease_Detail>Adult-Onset Distal Myopathy Due to Vcp Mutation</Disease_Detail>
+      <Disease_DB>ADL074</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/adult_onset_distal_myopathy_due_to_vcp_mutation?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Amyotrophic Lateral Sclerosis Type 14</Disease_Name>
+      <Disease_Detail>Amyotrophic Lateral Sclerosis</Disease_Detail>
+      <Disease_DB>AMY074</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/amyotrophic_lateral_sclerosis_type_14?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dementia</Disease_Name>
+      <Disease_Detail>Dementia</Disease_Detail>
+      <Disease_DB>DMN002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dementia?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Frontotemporal Dementia</Disease_Name>
+      <Disease_Detail>Frontotemporal Dementia</Disease_Detail>
+      <Disease_DB>FRN006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/frontotemporal_dementia?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Dementia, Familial, Nonspecific</Disease_Name>
+      <Disease_Detail>Dementia, Familial, Nonspecific</Disease_Detail>
+      <Disease_DB>DMN016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/dementia_familial_nonspecific?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Inclusion Body Myopathy with Early-Onset Paget Disease and Frontotemporal Dementia 1</Disease_Name>
+      <Disease_Detail>Inclusion Body Myopathy</Disease_Detail>
+      <Disease_DB>INC016</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/inclusion_body_myopathy_with_early_onset_paget_disease_and_frontotemporal_dementia_1?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Amyotrophic Lateral Sclerosis 14, with or Without Frontotemporal Dementia</Disease_Name>
+      <Disease_Detail>Amyotrophic Lateral Sclerosis</Disease_Detail>
+      <Disease_DB>AMY061</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/amyotrophic_lateral_sclerosis_14_with_or_without_frontotemporal_dementia?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Frontotemporal Lobar Degeneration with Ubiquitin-Positive Inclusions</Disease_Name>
+      <Disease_Detail>Frontotemporal Lobar Degeneration with Ubiquitin-Positive Inclusions</Disease_Detail>
+      <Disease_DB>FRN031</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/frontotemporal_lobar_degeneration_with_ubiquitin_positive_inclusions?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Atp7a-Related Distal Motor Neuropathy</Disease_Name>
+      <Disease_Detail>Atp7a-Related Distal Motor Neuropathy</Disease_Detail>
+      <Disease_DB>ATP005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/atp7a_related_distal_motor_neuropathy?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Vcp-Related Amyotrophic Lateral Sclerosis/frontotemporal Dementia</Disease_Name>
+      <Disease_Detail>Vcp-Related Amyotrophic Lateral Sclerosis/frontotemporal Dementia</Disease_Detail>
+      <Disease_DB>VCP002</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/vcp_related_amyotrophic_lateral_sclerosis_frontotemporal_dementia?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Inclusion Body Myopathy with Paget Disease of Bone and Frontotemporal Dementia</Disease_Name>
+      <Disease_Detail>Inclusion Body Myopathy</Disease_Detail>
+      <Disease_DB>INC018</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/inclusion_body_myopathy_with_paget_disease_of_bone_and_frontotemporal_dementia?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Inclusion Body Myopathy with Early-Onset Paget Disease and Frontotemporal Dementia</Disease_Name>
+      <Disease_Detail>Inclusion Body Myopathy</Disease_Detail>
+      <Disease_DB>INC004</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/inclusion_body_myopathy_with_early_onset_paget_disease_and_frontotemporal_dementia?search=VCP#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Paget's Disease of Bone</Disease_Name>
+      <Disease_Detail>Paget's Disease of Bone</Disease_Detail>
+      <Disease_DB>PGT001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pagets_disease_of_bone?search=VCP#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Structure of p97 N-D1 R95G mutant in complex with ATPgS</PDB_Title>
+      <PDB_ID>3HU1</PDB_ID>
+      <Resolution>2.81</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HU1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A novel ATP-dependent conformation in p97 N-D1 fragment revealed by crystal structures of disease-related mutants.</PubMed_Title>
+      <Author>Tang, W.K., et al.</Author>
+      <Journal>Embo J.(2010)29:2217-2229</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20512113?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the p97 N-terminal domain</PDB_Title>
+      <PDB_ID>3QQ7</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QQ7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Hierarchical Binding of Cofactors to the AAA ATPase p97.</PubMed_Title>
+      <Author>Hanzelmann, P., et al.</Author>
+      <Journal>Structure(2011)19:833-843</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21645854?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of p97 N-D1 R155H mutant in complex with ATPgS</PDB_Title>
+      <PDB_ID>3HU3</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HU3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A novel ATP-dependent conformation in p97 N-D1 fragment revealed by crystal structures of disease-related mutants.</PubMed_Title>
+      <Author>Tang, W.K., et al.</Author>
+      <Journal>Embo J.(2010)29:2217-2229</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20512113?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PLAP/P97 complex</PDB_Title>
+      <PDB_ID>3EBB</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EBB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure and function of the PLAA/Ufd3-p97/Cdc48 complex.</PubMed_Title>
+      <Author>Qiu, L., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:365-372</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19887378?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of p97-N in complex with FAF1-UBX</PDB_Title>
+      <PDB_ID>3QQ8</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QQ8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Hierarchical Binding of Cofactors to the AAA ATPase p97.</PubMed_Title>
+      <Author>Hanzelmann, P., et al.</Author>
+      <Journal>Structure(2011)19:833-843</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21645854?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of FAF1 UBX-p97N-domain complex</PDB_Title>
+      <PDB_ID>3QWZ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QWZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Dissection of the interaction between FAF1 UBX and p97</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of FAF1 UBX Domain In Complex with p97/VCP N Domain Reveals The Conserved FcisP Touch-Turn Motif of UBX Domain Suffering Conformational Change</PDB_Title>
+      <PDB_ID>3QC8</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QC8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of FAF1 UBX domain in complex with p97/VCP N domain reveals a conformational change in the conserved FcisP touch-turn motif of UBX domain</PubMed_Title>
+      <Author>Kim, K.H., et al.</Author>
+      <Journal>Proteins(2011)79:2583-2587</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21739474?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of p97N in complex with the C-terminus of gp78</PDB_Title>
+      <PDB_ID>3TIW</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3TIW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Structural and Functional Basis of the p97/Valosin-containing Protein (VCP)-interacting Motif (VIM): MUTUALLY EXCLUSIVE BINDING OF COFACTORS TO THE N-TERMINAL DOMAIN OF p97.</PubMed_Title>
+      <Author>Hanzelmann, P., et al.</Author>
+      <Journal>J.Biol.Chem.(2011)286:38679-38690</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21914798?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of p97 N-D1 R86A mutant in complex with ATPgS</PDB_Title>
+      <PDB_ID>3HU2</PDB_ID>
+      <Resolution>2.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3HU2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A novel ATP-dependent conformation in p97 N-D1 fragment revealed by crystal structures of disease-related mutants.</PubMed_Title>
+      <Author>Tang, W.K., et al.</Author>
+      <Journal>Embo J.(2010)29:2217-2229</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20512113?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05134</Pathway_ID>
+      <Pathway_Title>Legionellosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/3hu3</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Polucci P, et al. J Med Chem. 2013 Jan 24;56(2):437-50. doi: 10.1021/jm3013213.</Site_Reference>
+      <PubMed_ID>23245311</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>3.6.4.6</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC3/6/4/6.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD09890001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890050</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890051</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890053</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890056</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890062</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890063</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890069</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890073</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890081</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890082</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890083</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890084</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890085</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890088</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890089</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890090</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890092</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890093</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890094</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890095</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890096</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890097</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890098</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890099</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890100</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890101</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890102</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890103</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890104</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890105</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890106</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890107</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890108</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890109</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890110</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890111</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890112</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890113</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890115</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD09890116</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

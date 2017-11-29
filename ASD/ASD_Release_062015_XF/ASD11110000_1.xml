@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11110000_1</Organism_ID>
+  <Organism>Sus scrofa</Organism>
+  <Organism_Latin>Sus scrofa</Organism_Latin>
+  <UniProt_ID>P09623</UniProt_ID>
+  <Seq_Length>509</Seq_Length>
+  <Molecule_Weight>54185</Molecule_Weight>
+  <KEGG_ID>ssc:397129</KEGG_ID>
+  <Orthology_ID>K00382</Orthology_ID>
+  <Function_Summary>Lipoamide dehydrogenase is a component of the glycine cleavage system as well as of the alpha-ketoacid dehydrogenase complexes. Involved in the hyperactivation of spermatazoa during capacitation and in the spermatazoal acrosome reaction.</Function_Summary>
+  <Catalytic_Mechanism>Protein N(6)-(dihydrolipoyl)lysine + NAD(+) = protein N(6)-(lipoyl)lysine + NADH.</Catalytic_Mechanism>
+  <Pfam_ID>PF00070:Pyr_redox@@PF07992:Pyr_redox_2@@PF02852:Pyr_redox_dim</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Dihydrolipoamide dehydrogenase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: protein N6-(dihydrolipoyl)lysine + NAD+ = protein N6-(lipoyl)lysine + NADH + H+.</Detail>
+      <Keyword>Dihydrolipoyl dehydrogenase activity</Keyword>
+      <Ontology_ID>GO:0004148</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with FAD, flavin-adenine dinucleotide, the coenzyme or the prosthetic group of various flavoprotein oxidoreductase enzymes, in either the oxidized form, FAD, or the reduced form, FADH2.</Detail>
+      <Keyword>Flavin adenine dinucleotide binding</Keyword>
+      <Ontology_ID>GO:0050660</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that maintains the redox environment of a cell or compartment within a cell.</Detail>
+      <Keyword>Cell redox homeostasis</Keyword>
+      <Ontology_ID>GO:0045454</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>410</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>417</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>127</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>143</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MQSWSRVYCTLAKRGHFNRIAHGLQGVSAVPLRTYADQPIDADVTVIGSGPGGYVAAIKAAQLGFKTVCIEKNETLGGTCLNVGCIPSKALLNNSHYYHMAHGKDFASRGIEMSEVRLNLEKMMEQKSNAVKALTGGIAHLFKQNKVVRVNGYGKITGKNQVTATKADGSTEVINTKNILIATGSEVTPFPGITIDEDTVVSSTGALSLKKVPEKMVVIGAGVIGVELGSVWQRLGADVTAVELLGHVGGIGIDMEVSKNFQRILQKQGFKFKLNTKVIGATKKSDGNIDVSIEAASGGKAEVITCDVLLVCIGRRPFTQNLGLEELGIELDPRGRIPVNTRFQTKIPNIYAIGDVVAGPMLAHKAEDEGIICVEGMAGGAVHIDYNCVPSVIYTHPEVAWVGKSEEQLKEEGIEYKVGKFPFAANSRAKTNADTDGMVKILGQKSTDRVLGAHIIGPGAGEMINEAALALEYGASCEDIARVCHAHPTLSEAFREANLAASFGKAINF</Protein_Seq>
+    <DNA_Seq>CGAGTCGGCGGAGGTGCTTAGCGGAGGTGAAGGAGTTGGCGCAAAGGCCAAATACAGCGGCAAGATGCAAAGCTGGAGTCGTGTATACTGTACCTTGGCCAAGAGGGGCCATTTTAATCGAATAGCTCATGGTCTGCAAGGAGTTTCTGCAGTGCCGCTGAGAACTTATGCAGATCAACCAATTGATGCTGATGTAACAGTGATAGGTTCTGGTCCTGGAGGATATGTTGCTGCTATTAAAGCTGCCCAGTTAGGTTTCAAGACAGTCTGCATTGAGAAAAATGAAACACTTGGTGGAACATGCTTGAATGTTGGTTGTATTCCTTCTAAGGCTTTATTAAATAACTCTCATTATTACCATATGGCCCATGGAAAAGATTTTGCATCTAGGGGAATTGAAATGTCTGAGGTTCGCTTGAATTTGGAGAAGATGATGGAGCAGAAGAGTAATGCTGTAAAAGCTTTAACAGGTGGAATTGCCCACTTATTCAAACAGAATAAGGTTGTTCGTGTAAATGGATATGGAAAGATTACTGGGAAAAATCAGGTCACTGCTACAAAAGCTGATGGCAGCACTGAAGTTATCAATACAAAGAACATTCTTATAGCCACGGGTTCAGAAGTTACTCCTTTTCCTGGAATTACGATTGATGAAGATACAGTAGTGTCATCTACAGGTGCTTTATCTTTAAAAAAAGTTCCGGAAAAGATGGTTGTCATTGGTGCAGGAGTGATAGGTGTAGAATTGGGTTCAGTGTGGCAGAGACTTGGTGCAGATGTGACAGCAGTTGAGCTTTTGGGTCATGTTGGTGGAATTGGAATTGATATGGAGGTATCTAAAAACTTTCAACGCATCCTTCAAAAACAAGGATTTAAATTTAAATTGAATACAAAAGTTATTGGTGCTACTAAGAAGTCAGATGGAAACATTGATGTTTCTATTGAAGCTGCTTCTGGTGGTAAAGCTGAAGTTATCACTTGTGATGTACTCCTGGTTTGCATCGGCCGACGACCCTTTACTCAGAATTTGGGACTAGAAGAGCTTGGAATTGAACTAGATCCTAGAGGTAGAATTCCAGTGAATACCAGATTCCAAACTAAAATTCCAAATATCTATGCAATTGGTGATGTGGTTGCTGGTCCAATGCTGGCTCACAAAGCAGAGGATGAAGGCATTATCTGTGTGGAAGGGATGGCTGGTGGCGCAGTGCACATTGACTACAACTGTGTACCATCAGTGATTTACACACACCCTGAAGTTGCTTGGGTTGGCAAATCAGAAGAGCAGTTGAAAGAAGAGGGTATTGAGTACAAAGTTGGAAAGTTCCCGTTTGCTGCTAACAGCAGAGCTAAGACCAATGCTGACACAGATGGCATGGTTAAGATTCTTGGGCAGAAGTCAACAGACAGAGTATTGGGAGCACATATTATAGGACCAGGTGCTGGTGAAATGATAAATGAAGCTGCTCTCGCACTGGAATACGGAGCATCCTGTGAAGATATAGCAAGAGTCTGTCATGCACATCCGACCTTATCAGAAGCTTTTAGAGAAGCAAACCTGGCTGCATCATTTGGCAAAGCAATCAACTTTTAAATTAGAAGATATATTTTTCTGAAATTTCCTGGGAGCTTTTGTAGCGGTCACATTTCTGAACAGGAAATGCTCATAGCTCCAGGAATTTCTAGGACTGAATCATGAAACTTTTGGAAGATATTTAATAGGTTTGGACAGAAGGGAATAATCTCATATCTATATTTTAAATAAATTTAATATTTTGTTTTATTGCATTAATATTGCAGAAAAAAGCTACTTGTTTATAGTAGCATCCTGGGAAAATTTTTTCGACCCATATTTTCATGCTGTTTATGAAAAGTTCAACTTCAGTGAATTTATGTTAAGTAGCTTTTGTTTGTGATACAGTAGAGTTGGATTTACCTACATGGATGGAGCTGGAGTACGGCATGTGAACAGCTGTGTTTGAAGCAAAGTGATCACGTTATTTTAAACTTGGTTTTCACCTTGGTAACAGTCATTAGAATAAGTTGAAAACATGTATAAACTGATGTAAATAAAAAAGGATTGTCCCTGAGTTGGTATTTAACCCCCCAAATCTTGGAGTTTAGAGGTAGAATTTGTGTTTAGATTTTTTAAGGTTCCATTGAAGTCTACAGTCTGAAGTATAGTTATACAGTTAACCAAATTAAGGCTGTATATTTACAAAATGCAAATATTAAATGGAGAATCAGTGTATTAATGGTGGGAAATGAAGATATGGAAATAAACATGTCTTAAAT</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrial matrix</CellLocal>
+      <Ontology_ID>GO:0005759</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion matrix</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>DLD</Gene_Name>
+    <Gene_Alias>LAD</Gene_Alias>
+    <Gene_ID>397129</Gene_ID>
+    <Genbank_ACCN>NM_214062</Genbank_ACCN>
+    <Protein_ACCN>NP_999227</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/397129</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Dihydrolipoyl dehydrogenase, mitochondrial</PDB_Title>
+      <PDB_ID>ASD11110000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00260</Pathway_ID>
+      <Pathway_Title>Glycine, serine and threonine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00020</Pathway_ID>
+      <Pathway_Title>Citrate cycle (TCA cycle)</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00620</Pathway_ID>
+      <Pathway_Title>Pyruvate metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00280</Pathway_ID>
+      <Pathway_Title>Valine, leucine and isoleucine degradation</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00280</Pathway_ID>
+      <Pathway_Title>Valine, leucine and isoleucine degradation</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00020</Pathway_ID>
+      <Pathway_Title>Citrate cycle (TCA cycle)</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00010</Pathway_ID>
+      <Pathway_Title>Glycolysis / Gluconeogenesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko01200</Pathway_ID>
+      <Pathway_Title>Carbon metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00280</Pathway_ID>
+      <Pathway_Title>Valine, leucine and isoleucine degradation</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Klyachko NL, et al. J Biol Chem. 2005,280(16):16106-16114.;Babady NE, et al. Proc Natl Acad Sci U S A. 2007,104(15):6158-6163.;Selwood T, et al. Arch Biochem Biophys. 2012,519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PubMed_ID>15710613;17404228;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.8.1.4</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/4.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2013-11-07</Create_Date>
+</Organism_Record>

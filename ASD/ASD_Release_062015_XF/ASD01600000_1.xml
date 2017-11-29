@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01600000_1</Organism_ID>
+  <Organism>Baker's yeast</Organism>
+  <Organism_Latin>Saccharomyces cerevisiae</Organism_Latin>
+  <UniProt_ID>P33734</UniProt_ID>
+  <Seq_Length>552</Seq_Length>
+  <Molecule_Weight>61068</Molecule_Weight>
+  <KEGG_ID>sce:YBR248C</KEGG_ID>
+  <Orthology_ID>K01663</Orthology_ID>
+  <Function_Summary>IGPS catalyzes the conversion of PRFAR and glutamine to IGP, AICAR and glutamate. The glutamine amidotransferase domain provides the ammonia necessary to the cyclase domain to produce IGP and AICAR from PRFAR.</Function_Summary>
+  <Catalytic_Mechanism>5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide + L-glutamine = imidazole-glycerol phosphate + 5-aminoimidazol-4-carboxamide ribonucleotide + L-glutamate + H(2)O.</Catalytic_Mechanism>
+  <Pfam_ID>PF00117:GATase@@PF00977:His_biosynth</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Imidazole glycerol phosphate synthase hisHF</Alias>
+      <Alias>ImGP synthase</Alias>
+      <Alias>IGP synthase</Alias>
+      <Alias>His7p</Alias>
+      <Alias>Glutamine amidotransferase:cyclase</Alias>
+      <Alias>IGPS</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: phosphoribulosylformimino-AICAR-P + L-glutamine = D-erythro-imidazole-glycerol-phosphate + aminoimidazole carboxamide ribonucleotide + L-glutamate + 2 H+.</Detail>
+      <Keyword>Imidazoleglycerol-phosphate synthase activity</Keyword>
+      <Ontology_ID>GO:0000107</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of a C-C bond by other means than by hydrolysis or oxidation, of a 3-hydroxy acid.</Detail>
+      <Keyword>Oxo-acid-lyase activity</Keyword>
+      <Ontology_ID>GO:0016833</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of purine nucleoside monophosphate, a compound consisting of a purine base linked to a ribose or deoxyribose sugar esterified with phosphate on the sugar.</Detail>
+      <Keyword>Purine nucleoside monophosphate biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009127</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).</Detail>
+      <Keyword>Response to stress</Keyword>
+      <Ontology_ID>GO:0006950</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of histidine, 2-amino-3-(1H-imidazol-4-yl)propanoic acid.</Detail>
+      <Keyword>Histidine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0000105</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving glutamine, 2-amino-4-carbamoylbutanoic acid.</Detail>
+      <Keyword>Glutamine metabolic process</Keyword>
+      <Ontology_ID>GO:0006541</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>175</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>43</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MPVVHVIDVESGNLQSLTNAIEHLGYEVQLVKSPKDFNISGTSRLILPGVGNYGHFVDNLFNRGFEKPIREYIESGKPIMGICVGLQALFAGSVESPKSTGLNYIDFKLSRFDDSEKPVPEIGWNSCIPSENLFFGLDPYKRYYFVHSFAAILNSEKKKNLENDGWKIAKAKYGSEEFIAAVNKNNIFATQFHPEKSGKAGLNVIENFLKQQSPPIPNYSAEEKELLMNDYSNYGLTRRIIACLDVRTNDQGDLVVTKGDQYDVREKSDGKGVRNLGKPVQLAQKYYQQGADEVTFLNITSFRDCPLKDTPMLEVLKQAAKTVFVPLTVGGGIKDIVDVDGTKIPALEVASLYFRSGADKVSIGTDAVYAAEKYYELGNRGDGTSPIETISKAYGAQAVVISVDPKRVYVNSQADTKNKVFETEYPGPNGEKYCWYQCTIKGGRESRDLGVWELTRACEALGAGEILLNCIDKDGSNSGYDLELIEHVKDAVKIPVIASSGAGVPEHFEEAFLKTRADACLGAGMFHRGEFTVNDVKEYLLEHGLKVRMDEE</Protein_Seq>
+    <DNA_Seq>gatatcgacgactactcaatcaggttttaaaagaaaagaggcagctattgaagtagcagtatccagtttaggttttttaattatttacaagtaaagaaaaagagaatgccggtcgttcacgtgattgacgttgaaagtggtaacctacagtcactaaccaatgcaattgagcatttaggttacgaagtacaactggtgaaatcaccaaaggattttaacatatcaggcacgtcaagattgattttgcctggtgtcggaaattatgcccatttcgtcgacaatttatttaatagaggattcgaaaagccgataagagaatacattgaatctggaaaaccaataatgggaatttgcgtcgggctacaagcgctctttgccggttccgtggaaagccctaagagtacgggtctgaactacattgattttaagttgtccaggttcgatgattcagaaaagccagtaccagaaataggttggaattcttgcattccctcggaaaacctattctttggattggatccatacaagaggtactatttcgtccattcttttgctgccattctgaattcagaaaagaaaaaaaacctagaaaatgacggttggaaaattgcaaaagctaagtacggttcagaggaatttattgcggcagtcaacaagaataatatattcgctactcagttccatcctgaaaaatcaggtaaagctggtttgaacgtcattgagaattttttgaagcaacaaagtcctccgattccaaactatagtgcggaagagaaggaactcttaatgaatgactattcaaattatggtctaacacgcagaattattgcttgtcttgatgtacgtactaatgaccaaggtgatttggtggttactaaaggtgatcaatacgatgtacgtgaaaaaagtgatggtaaaggtgttagaaaccttggtaagcctgttcagttggcacagaaatattaccaacagggtgcggatgaagtaacatttttgaata</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>HIS7</Gene_Name>
+    <Gene_ID>852550</Gene_ID>
+    <Genbank_ACCN>NM_001178596</Genbank_ACCN>
+    <Protein_ACCN>NP_009807</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/852550</Gene_URL>
+    <EMBL_ID>YBR248C</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>TOWARDS UNDERSTANDING THE MECHANISM OF THE COMPLEX CYCLIZATION REACTION CATALYZED BY IMIDAZOLE GLYCEROPHOSPHATE SYNTHASE</PDB_Title>
+      <PDB_ID>1OX6</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OX6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>NICKEL (II) ION $PYROPHOSPHATE 2- $SULFATE ION</Ligand_Name>
+      <PubMed_Title>Towards Understanding the Mechanism of the Complex Cyclization Reaction   Catalyzed by Imidazole Glycerophosphate Synthase: Crystal Structures of a Ternary Complex and the Free  Enzyme</PubMed_Title>
+      <Author>Chaudhuri BN, et al.</Author>
+      <Journal>Biochemistry.2003 Jun 17;42(23):7003-12.</Journal>
+      <PubMed_ID>12795595</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TOWARDS UNDERSTANDING THE MECHANISM OF THE COMPLEX CYCLIZATION REACTION CATALYZED BY IMIDAZOLE GLYCEROPHOSPHATE SYNTHASE</PDB_Title>
+      <PDB_ID>1OX5</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OX5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHORIC ACID MONO-[5-({[5-CARBAMOYL-3- (5-PHOSPHONOOXY-5-DEOXY-RIBOFURANOSYL)
+- 3H- IMIDAZOL-4-YLAMINO]-METHYL}-AMINO)-2,3,4- TRIHYDROXY-PENTYL] ESTER $NICKEL (II) ION</Ligand_Name>
+      <PubMed_Title>Towards Understanding the Mechanism of the Complex Cyclization Reaction   Catalyzed by Imidazole Glycerophosphate Synthase:Crystal Structures of a Ternary Complex and the Free  Enzyme</PubMed_Title>
+      <Author>Chaudhuri BN, et al.</Author>
+      <Journal>Biochemistry.2003 Jun 17;42(23):7003-12.</Journal>
+      <PubMed_ID>12795595</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>TOWARDS UNDERSTANDING THE MECHANISM OF THE COMPLEX CYCLIZATION REACTION CATALYZED BY IMIDAZOLE GLYCEROPHOSPHATE SYNTHASE</PDB_Title>
+      <PDB_ID>1OX4</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OX4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>NICKEL (II) ION $PYROPHOSPHATE 2- $SULFATE ION</Ligand_Name>
+      <PubMed_Title>Towards Understanding the Mechanism of the Complex Cyclization Reaction   Catalyzed by Imidazole Glycerophosphate Synthase: Crystal Structures of a Ternary Complex and the Free  Enzyme</PubMed_Title>
+      <Author>Chaudhuri BN, et al.</Author>
+      <Journal>Biochemistry.2003 Jun 17;42(23):7003-12.</Journal>
+      <PubMed_ID>12795595</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF IMIDAZOLE GLYCEROL PHOSPHATE SYNTHASE: A TUNNEL THROUGH A (BETA/ALPHA)8 BARREL JOINS TWO ACTIVE SITES</PDB_Title>
+      <PDB_ID>1JVN</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JVN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>NICKEL (II) ION $PYROPHOSPHATE 2- $SULFATE ION</Ligand_Name>
+      <PubMed_Title>Crystal structure of imidazole glycerol phosphate synthase: a tunnel through a (beta/alpha)8 barrel joins two active sites.</PubMed_Title>
+      <Author>Chaudhuri BN, et al.</Author>
+      <Journal>Structure.2001 Oct;9(10):987-97.</Journal>
+      <PubMed_ID>11591353</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko01230</Pathway_ID>
+      <Pathway_Title>Biosynthesis of amino acids</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Overview</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00340</Pathway_ID>
+      <Pathway_Title>Histidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00340</Pathway_ID>
+      <Pathway_Title>Histidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.ch.bf.b.i.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1jvn</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Amaro RE, et al. Biochemistry. 2007,46(8):2156-2173.</Site_Reference>
+      <Site_Type>Hinge</Site_Type>
+      <PubMed_ID>17261030</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.4.2.-@@4.1.3.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/4/2/</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01600001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

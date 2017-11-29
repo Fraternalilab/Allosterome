@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD08620000_2</Organism_ID>
+  <Organism>Mycobacterium smegmatis</Organism>
+  <Organism_Latin>Mycobacterium smegmatis</Organism_Latin>
+  <UniProt_ID>A0R3E2</UniProt_ID>
+  <Seq_Length>515</Seq_Length>
+  <Molecule_Weight>58097</Molecule_Weight>
+  <KEGG_ID>msm:MSMEG_5441</KEGG_ID>
+  <Orthology_ID>K01874</Orthology_ID>
+  <Function_Summary>Is required not only for elongation of protein synthesis but also for the initiation of all mRNA translation through initiator tRNA(fMet) aminoacylation (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>ATP + L-methionine + tRNA(Met) = AMP + diphosphate + L-methionyl-tRNA(Met).</Catalytic_Mechanism>
+  <Pfam_ID>PF09334:tRNA-synt_1g</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Methionyl-tRNA synthetase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the joining of two substances, or two groups within a single molecule, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate.</Detail>
+      <Keyword>Ligase activity</Keyword>
+      <Ontology_ID>GO:0016874</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + L-methionine + tRNA(Met) = AMP + diphosphate + L-methionyl-tRNA(Met).</Detail>
+      <Keyword>Methionine-tRNA ligase activity</Keyword>
+      <Ontology_ID>GO:0004825</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the formation of aminoacyl-tRNA from ATP, amino acid, and tRNA with the release of diphosphate and AMP.</Detail>
+      <Keyword>Aminoacyl-tRNA ligase activity</Keyword>
+      <Ontology_ID>GO:0004812</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process of coupling methionine to methionyl-tRNA, catalyzed by methionyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA.</Detail>
+      <Keyword>Methionyl-tRNA aminoacylation</Keyword>
+      <Ontology_ID>GO:0006431</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA. Translation ends with the release of a polypeptide chain from the ribosome.</Detail>
+      <Keyword>Translation</Keyword>
+      <Ontology_ID>GO:0006412</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSEPFYITTAIAYPNGVPHIGHAYEYIATDAIARFKRLDGYDVRYLTGTDVHGQKMAETAAKEGIPAAELARRNSDVFQRLQEKLNISFDRFIRTSDADHYEASKAIWKRMADAGDIYLDAYKGWYSIRDERFFTENETTEQPDGTRIATETGAPVTWTEEQTYFFRLSAYTDRLLALYEEHPEFIGPDARRNEIVSFVSGGLKDLSISRTTFDWGVPVPDHPDHVMYVWVDALTNYLTGVGFPDTESESFRRYWPADLHMIGKDIIRFHTVYWPAFLMSAGLPLPKRIFAHGWLLNRGEKMSKSIGNVVDPVNLVDTFGLDQVRYFLLREVPFGQDGSYNEDAIIGRVNADLANELGNLAQRSLSMVAKNLGAAVPDPGEFTDEDTALLAAADALLERVREHFDVPAMHLALEAIWSVLGAANRYFSAQEPWVLRKSDAAEDQQRFRTVLYTTLEVVRIASLLLQPVMPESTAKLLDLLGQPTDERDFSAIANRIKPGTSLPAPSGIFPRYQND</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>metG</Gene_Name>
+    <Gene_ID>4535341</Gene_ID>
+    <Genbank_ACCN>NC_018289</Genbank_ACCN>
+    <Protein_ACCN>YP_006570028</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/4535341</Gene_URL>
+    <EMBL_ID>MSMEI_5291</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Methionine--tRNA ligase</PDB_Title>
+      <PDB_ID>ASD08620000_2</PDB_ID>
+      <Resolution>-1.0</Resolution>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00970</Pathway_ID>
+      <Pathway_Title>Aminoacyl-tRNA biosynthesis</Pathway_Title>
+      <Pathway_Class>Genetic Information Processing</Pathway_Class>
+      <Pathway_Subclass>Translation</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00450</Pathway_ID>
+      <Pathway_Title>Selenocompound metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of other amino acids</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>6.1.1.10</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC6/1/1/10.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01240004</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD08628001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2014-06-12</Create_Date>
+</Organism_Record>

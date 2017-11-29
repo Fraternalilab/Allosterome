@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05160000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A8U6</UniProt_ID>
+  <Seq_Length>105</Seq_Length>
+  <Molecule_Weight>12141</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3249</KEGG_ID>
+  <Orthology_ID>K03764</Orthology_ID>
+  <Function_Summary>This regulatory protein, when combined with SAM (S-adenosylmethionine) represses the expression of the methionine regulon and of enzymes involved in SAM synthesis. It is also autoregulated.</Function_Summary>
+  <Pfam_ID>PF01340:MetJ</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Met regulon regulatory protein MetJ</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Protein which interferes with transcription, usually by binding to specific sites on DNA. Also used for proteins which repress translation.</Detail>
+      <Keyword>Repressor</Keyword>
+      <Ontology_ID>KW-0678</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a specific DNA sequence in order to modulate transcription. The transcription factor may or may not also interact selectively with a protein or macromolecular complex.</Detail>
+      <Keyword>Sequence-specific DNA binding transcription factor activity</Keyword>
+      <Ontology_ID>GO:0003700</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>57</Position>
+      <Original>Leu</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>61</Position>
+      <Original>Ala</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of amino acids, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Cellular amino acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0008652</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of methionine (2-amino-4-(methylthio)butanoic acid), a sulfur-containing, essential amino acid found in peptide linkage in proteins.</Detail>
+      <Keyword>Methionine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009086</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAEWSGEYISPYAEHGKKSEQVKKITVSIPLKVLKILTDERTRRQVNNLRHATNSELLCEAFLHAFTGQPLPDDADLRKERSDEIPEAAKEIMREMGINPETWEY</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>metJ</Gene_Name>
+    <Gene_ID>12934212</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_418373</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/948435</Gene_URL>
+    <EMBL_ID>EBESCG00000016288</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>METHIONINE REPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO A CONSENSUS OPERATOR SEQUENCE</PDB_Title>
+      <PDB_ID>1MJ2</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MJ2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Direct and indirect readout in mutant Met repressor-operator complexes.</PubMed_Title>
+      <Author>Garvie, C.W., et al.</Author>
+      <Journal>Structure Fold.Des.(2000)8:905-914</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10986458?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>METHIONINE REPRESSOR MUTANT (Q44K) COMPLEX WITH THE COREPRESSOR SAM (S-ADENOSYL METHIONINE) FROM ESCHERICHIA COLI</PDB_Title>
+      <PDB_ID>1MJL</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MJL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystallographic studies of the methionine repressor-operator complex and the oc31 42kDa repressor</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>THREE DIMENSIONAL CRYSTAL STRUCTURES OF E. COLI MET REPRESSOR WITH AND WITHOUT COREPRESSOR</PDB_Title>
+      <PDB_ID>1CMC</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CMC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Three-dimensional crystal structures of Escherichia coli met repressor with and without corepressor.</PubMed_Title>
+      <Author>Rafferty, J.B., et al.</Author>
+      <Journal>Nature(1989)341:705-710</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/2677753?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>METHIONINE APOREPRESSOR MUTANT (Q44K) COMPLEXED TO HALF OF THE CONSENSUS OPERATOR SEQUENCE</PDB_Title>
+      <PDB_ID>1MJM</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MJM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Direct and indirect readout in mutant Met repressor-operator complexes.</PubMed_Title>
+      <Author>Garvie, C.W., et al.</Author>
+      <Journal>Structure Fold.Des.(2000)8:905-914</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10986458?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>METHIONINE HOLOREPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO THE MINIMAL MET CONSENSUS OPERATOR WITH THE CENTRAL TA STEP MUTATED TO AT</PDB_Title>
+      <PDB_ID>1MJO</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MJO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Direct and indirect readout in mutant Met repressor-operator complexes.</PubMed_Title>
+      <Author>Garvie, C.W., et al.</Author>
+      <Journal>Structure Fold.Des.(2000)8:905-914</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10986458?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>METHIONINE REPRESSOR MUTANT (Q44K) PLUS COREPRESSOR (S-ADENOSYL METHIONINE) COMPLEXED TO AN ALTERED MET CONSENSUS OPERATOR SEQUENCE</PDB_Title>
+      <PDB_ID>1MJQ</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MJQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Direct and indirect readout in mutant Met repressor-operator complexes.</PubMed_Title>
+      <Author>Garvie, C.W., et al.</Author>
+      <Journal>Structure Fold.Des.(2000)8:905-914</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10986458?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THREE DIMENSIONAL CRYSTAL STRUCTURES OF ESCHERICHIA COLI MET REPRESSOR WITH AND WITHOUT COREPRESSOR</PDB_Title>
+      <PDB_ID>1CMB</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CMB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Three-dimensional crystal structures of Escherichia coli met repressor with and without corepressor.</PubMed_Title>
+      <Author>Rafferty, J.B., et al.</Author>
+      <Journal>Nature(1989)341:705-710</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/2677753?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>METHIONINE REPRESSOR MUTANT APOREPRESSOR (Q44K) FROM ESCHERICHIA COLI</PDB_Title>
+      <PDB_ID>1MJK</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MJK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystallographic studies of the methionine repressor-operator complex and the oc31 42kDa repressor</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>METHIONINE APOREPRESSOR MUTANT (Q44K) COMPLEXED TO THE MINIMAL MET CONSENSUS OPERATOR</PDB_Title>
+      <PDB_ID>1MJP</PDB_ID>
+      <Resolution>3.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MJP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Direct and indirect readout in mutant Met repressor-operator complexes.</PubMed_Title>
+      <Author>Garvie, C.W., et al.</Author>
+      <Journal>Structure Fold.Des.(2000)8:905-914</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10986458?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MET REPRESSOR/DNA COMPLEX + S-ADENOSYL-METHIONINE</PDB_Title>
+      <PDB_ID>1CMA</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1CMA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the met repressor-operator complex at 2.8 A resolution reveals DNA recognition by beta-strands.</PubMed_Title>
+      <Author>Somers, W.S., et al.</Author>
+      <Journal>Nature(1992)359:387-393</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1406951?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>All alpha proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.b.ga.b.e.b.html</SCOP_URL>
+    <CATH_Class>Class 1: Mainly Alpha</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1cma</CATH_URL>
+  </Fold>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

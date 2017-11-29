@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04320000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q06520</UniProt_ID>
+  <Seq_Length>285</Seq_Length>
+  <Molecule_Weight>33780</Molecule_Weight>
+  <KEGG_ID>hsa:6822</KEGG_ID>
+  <Orthology_ID>K11822</Orthology_ID>
+  <EBI_ID>EBI-3921363</EBI_ID>
+  <Function_Summary>Sulfotransferase that utilizes 3'-phospho-5'-adenylyl sulfate (PAPS) as sulfonate donor to catalyze the sulfonation of steroids and bile acids in the liver and adrenal glands.</Function_Summary>
+  <Catalytic_Mechanism>3'-phosphoadenylyl sulfate + glycolithocholate = adenosine 3',5'-bisphosphate + glycolithocholate 3-sulfate.@@3'-phosphoadenylyl sulfate + taurolithocholate = adenosine 3',5'-bisphosphate + taurolithocholate sulfate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00685:Sulfotransfer_1</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>3</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>ST2A1</Alias>
+      <Alias>ST2A3</Alias>
+      <Alias>ST2</Alias>
+      <Alias>Sulfotransferase 2A1</Alias>
+      <Alias>HST</Alias>
+      <Alias>DHEA-ST</Alias>
+      <Alias>Hydroxysteroid Sulfotransferase</Alias>
+      <Alias>Dehydroepiandrosterone sulfotransferase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 3'-phosphoadenosine 5'-phosphosulfate + taurolithocholate = adenosine 3',5'-bisphosphate + taurolithocholate sulfate.</Detail>
+      <Keyword>Bile-salt sulfotransferase activity</Keyword>
+      <Ontology_ID>GO:0047704</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>63</Position>
+      <Original>Ala</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>261</Position>
+      <Original>Ala</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of bile acids, any of a group of steroid carboxylic acids occurring in bile.</Detail>
+      <Keyword>Bile acid catabolic process</Keyword>
+      <Ontology_ID>GO:0030573</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving 3'-phosphoadenosine 5'-phosphosulfate, a naturally occurring mixed anhydride. It is an intermediate in the formation of a variety of sulfo compounds in biological systems.</Detail>
+      <Keyword>3'-phosphoadenosine 5'-phosphosulfate metabolic process</Keyword>
+      <Ontology_ID>GO:0050427</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving a xenobiotic compound, a compound foreign to living organisms. Used of chemical compounds, e.g. a xenobiotic chemical, such as a pesticide.</Detail>
+      <Keyword>Xenobiotic metabolic process</Keyword>
+      <Ontology_ID>GO:0006805</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The addition of a sulfate group to a molecule.</Detail>
+      <Keyword>Sulfation</Keyword>
+      <Ontology_ID>GO:0051923</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving lipids, compounds soluble in an organic solvent but not, or sparingly, in an aqueous solvent. Includes fatty acids; neutral fats, other fatty-acid esters, and soaps; long-chain (fatty) alcohols and waxes; sphingoids and other long-chain bases; glycolipids, phospholipids and sphingolipids; and carotenes, polyprenols, sterols, terpenes and other isoprenoids.</Detail>
+      <Keyword>Lipid metabolic process</Keyword>
+      <Ontology_ID>GO:0006629</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The whole of the physical, chemical, and biochemical processes carried out by multicellular organisms to break down ingested nutrients into components that may be easily absorbed and directed into metabolism.</Detail>
+      <Keyword>Digestion</Keyword>
+      <Ontology_ID>GO:0007586</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving steroids, compounds with a 1,2,cyclopentanoperhydrophenanthrene nucleus.</Detail>
+      <Keyword>Steroid metabolic process</Keyword>
+      <Ontology_ID>GO:0008202</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving lipids, as carried out by individual cells.</Detail>
+      <Keyword>Cellular lipid metabolic process</Keyword>
+      <Ontology_ID>GO:0044255</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSDDFLWFEGIAFPTMGFRSETLRKVRDEFVIRDEDVIILTYPKSGTNWLAEILCLMHSKGDAKWIQSVPIWERSPWVESEIGYTALSETESPRLFSSHLPIQLFPKSFFSSKAKVIYLMRNPRDVLVSGYFFWKNMKFIKKPKSWEEYFEWFCQGTVLYGSWFDHIHGWMPMREEKNFLLLSYEELKQDTGRTIEKICQFLGKTLEPEELNLILKNSSFQSMKENKMSNYSLLSVDYVVDKAQLLRKGVSGDWKNHFTVAQAEDFDKLFQEKMADLPRELFPWE</Protein_Seq>
+    <DNA_Seq>ACAACAAACATGTGACATGCTGGGACAAGGTTAAAGATCGTTTTATCCTTGCTGTAAAAGCTGATCTGCCTGTAGCTGCCACAGCCTCCAGCGGTGGCTACAGTTGAAACCCTCACACCACGCAGGAAGAGGTCATCATCATGTCGGACGATTTCTTATGGTTTGAAGGCATAGCTTTCCCTACTATGGGTTTCAGATCCGAAACCTTAAGAAAAGTACGTGATGAGTTCGTGATAAGGGATGAAGATGTAATAATATTGACTTACCCCAAATCAGGAACAAACTGGTTGGCTGAGATTCTCTGCCTGATGCACTCCAAGGGGGATGCCAAGTGGATCCAATCTGTGCCCATCTGGGAGCGATCACCCTGGGTAGAGAGTGAGATTGGGTATACAGCACTCAGTGAAACGGAGAGTCCACGTTTATTCTCCTCCCACCTCCCCATCCAGTTATTCCCCAAGTCTTTCTTCAGTTCCAAGGCCAAGGTGATTTATCTCATGAGAAATCCCAGAGATGTTTTGGTGTCTGGTTATTTTTTCTGGAAAAACATGAAGTTTATTAAGAAACCAAAGTCATGGGAAGAATATTTTGAATGGTTTTGTCAAGGAACTGTGCTATATGGGTCATGGTTTGACCACATTCATGGCTGGATGCCCATGAGAGAGGAGAAAAACTTCCTGTTACTGAGTTATGAGGAGCTGAAACAGGACACAGGAAGAACCATAGAGAAGATCTGTCAATTCCTGGGAAAGACGTTAGAACCCGAAGAACTGAACTTAATTCTCAAGAACAGCTCCTTTCAGAGCATGAAAGAAAACAAGATGTCCAATTATTCCCTCCTGAGTGTTGATTATGTAGTGGACAAAGCACAACTTCTGAGAAAAGGTGTATCTGGGGACTGGAAAAATCACTTCACAGTGGCCCAAGCTGAAGACTTTGATAAATTGTTCCAAGAGAAGATGGCAGATCTTCCTCGAGAGCTGTTCCCATGGGAATAACGTCCAAAACACTCTGGATCTTATATGGAGAATGACATTGATTCTCCTGTCCTTGTACATGTACCTGACTGGGGTCATTGTGTAAGACTTATTATTTTATCCTGAAACCTTAAATATCAAACCTCTGCATCTCTGATCCCTTCCTTGTTAAAAGTTACCAGGGTTGGCCAGGCACGGTGGTTCATGCCTGTAATCCCAGCACTATGGGAGGCCGAGACGGGCGGATCACGAGGTCAGGAGACTGAGACCATCCTGGCTAACACGGTGAAACCCCATCTCTACTAAAAATACAAAAACCAAAAAAAATTAGCCAGGCGCATTGGCTCATGTCTGTAATCCCAGCACTTTGGGAGGTCGGGGGGGTGGGGGAGGATCACGGGGTCAGGAGATCGAGACCATCCTGGCCAACATGATGAAACCCTATCTCTACTAAAAATACAAAAATTAGCCGGGCATGGTGGTGCACGCCTATAGTCCCAGCTACTCGGGAGGCTGAGGTAGGAGAATCGTTTGAACTCAGGAGGCAGAGGTTGCAATGAGCCAAGATCGCGCCACTGCACTCCAGCCTGGGTGACAGAGCGAGACCGTCTCAAAAAGAAAGAAGTGACTAGGGTTCAGAGAACCAGGGTTCAAAGCCCAGGGATGCAAAGGTTGCAGTGAGTTGAGTCATGGGATCCCAGACTTTTTTAAATGTTTGCAATGTTTCCCGTTTACAGAATGCTACAAGAATAATGTACGTACTACCTAAAAGGATGTCTAAATGTTTGTTAATAAAAATAAGAAATAGCTACAGTGACAGATTTTAGAGCAAAAATTAGTAATAAAAATAAGAAATAAAATTACAGGAGCAATTAAGGTTCCATTTCTTTTCATCACATGTATCTCCACAATTTATTATTGCTCTGATCTTAAGGAGTGTAATTTGCAATCTAATTTTATCCTCTTACTCTGTGTTGTTAAACCATATACAATAAACGGTGTTTATGGAG</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Kidney</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Liver</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Adrenal</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>SULT2A1</Gene_Name>
+    <Gene_Alias>HST; STD</Gene_Alias>
+    <Gene_ID>6822</Gene_ID>
+    <Genbank_ACCN>NM_003167</Genbank_ACCN>
+    <Protein_ACCN>NP_003158</Protein_ACCN>
+    <HGNC_ID>11458</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/6822</Gene_URL>
+    <UCSC_ID>uc002phr.2</UCSC_ID>
+    <EMBL_ID>ENSG00000105398</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P40763</Uniprot_ID>
+      <Gene_Name>STAT3</Gene_Name>
+      <EBI_ID>EBI-518675</EBI_ID>
+      <PPI_EBI_URL>EBI-3921363,EBI-518675</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>X-Linked Ichthyosis</Disease_Name>
+      <Disease_Detail>X-Linked Ichthyosis</Disease_Detail>
+      <Disease_DB>XLN001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/x_linked_ichthyosis?search=SULT2A1#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Polycystic Ovary Syndrome</Disease_Name>
+      <Disease_Detail>Polycystic Ovary Syndrome</Disease_Detail>
+      <Disease_DB>PLY011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/polycystic_ovary_syndrome?search=SULT2A1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Identification and Characterization of Two Amino Acids Critical for the Substrate Inhibition of SULT2A1</PDB_Title>
+      <PDB_ID>2QP4</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QP4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification and Characterization of Two Amino Acids Critical for the Substrate Inhibition of SULT2A1</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Identification and Characterization of Two Amino Acids Critical for the Substrate Inhibition of SULT2A1</PDB_Title>
+      <PDB_ID>2QP3</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QP3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification and Characterization of Two Amino Acids Critical for the Substrate Inhibition of SULT2A1</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human cytosolic sulfotransferase SULT2A1 in complex with PAP and lithocholic acid</PDB_Title>
+      <PDB_ID>3F3Y</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3F3Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>rystal structure of human cytosolic sulfotransferase SULT2A1 in complex with PAP and lithocholic acid</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE HUMAN HYDROXYSTEROID SULFOTRANSFERASE IN THE PRESENCE OF PAP</PDB_Title>
+      <PDB_ID>1EFH</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EFH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of SULT2A3, human hydroxysteroid sulfotransferase.</PubMed_Title>
+      <Author>Pedersen, L.C., et al.</Author>
+      <Journal>FEBS Lett.(2000)475:61-64</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10854859?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF HUMAN DEHYDROEPIANDROSTERONE SULFOTRANSFERASE IN COMPLEX WITH SUBSTRATE</PDB_Title>
+      <PDB_ID>1J99</PDB_ID>
+      <Resolution>1.99</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1J99</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of human dehydroepiandrosterone sulphotransferase in complex with substrate.</PubMed_Title>
+      <Author>Rehse, P.H., et al.</Author>
+      <Journal>Biochem.J.(2002)364:165-171</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11988089?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of human DHEA-ST complexed with androsterone</PDB_Title>
+      <PDB_ID>1OV4</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OV4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identifying androsterone (ADT) as a cognate substrate for human dehydroepiandrosterone sulfotransferase (DHEA-ST) important for steroid homeostasis: structure of the enzyme-ADT complex.</PubMed_Title>
+      <Author>Chang, H.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2004)279:2689-2696</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14573603?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00980</Pathway_ID>
+      <Pathway_Title>Metabolism of xenobiotics by cytochrome P450</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Xenobiotics biodegradation and metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04976</Pathway_ID>
+      <Pathway_Title>Bile secretion</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Digestive system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05204</Pathway_ID>
+      <Pathway_Title>Chemical carcinogenesis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.fb.b.i.d.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1efh</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>dimerization</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.8.2.14</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/8/2/14.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01140001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04320001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04320002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

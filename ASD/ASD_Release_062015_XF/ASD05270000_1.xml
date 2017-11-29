@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05270000_1</Organism_ID>
+  <Organism>Pseudomonas aeruginosa </Organism>
+  <Organism_Latin>Pseudomonas aeruginosa </Organism_Latin>
+  <UniProt_ID>P24474</UniProt_ID>
+  <Seq_Length>568</Seq_Length>
+  <Molecule_Weight>62653</Molecule_Weight>
+  <KEGG_ID>pae:PA0519</KEGG_ID>
+  <Orthology_ID>K15864</Orthology_ID>
+  <Catalytic_Mechanism>Nitric oxide + H(2)O + ferricytochrome c = nitrite + ferrocytochrome c + 2 H(+).@@NH(3) + H(2)O + acceptor = hydroxylamine + reduced acceptor.</Catalytic_Mechanism>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>14</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Cytochrome cd1</Alias>
+      <Alias>Cytochrome oxidase</Alias>
+      <Alias>1.7.99.1&lt;/ecNumber</Alias>
+      <Alias>Hydroxylamine reductase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular entity that serves as an electron acceptor and electron donor in an electron transport system.</Detail>
+      <Keyword>Electron carrier activity</Keyword>
+      <Ontology_ID>GO:0009055</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: nitric oxide + H2O + ferricytochrome c = nitrite + ferrocytochrome c + 2 H+.</Detail>
+      <Keyword>Nitrite reductase (NO-forming) activity</Keyword>
+      <Ontology_ID>GO:0050421</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: NH3 + H2O + acceptor = hydroxylamine + reduced acceptor.</Detail>
+      <Keyword>Hydroxylamine reductase activity</Keyword>
+      <Ontology_ID>GO:0050418</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with heme, any compound of iron complexed in a porphyrin (tetrapyrrole) ring.</Detail>
+      <Keyword>Heme binding</Keyword>
+      <Ontology_ID>GO:0020037</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A process in which a series of electron carriers operate together to transfer electrons from donors to any of several different terminal electron acceptors to generate a transmembrane electrochemical gradient.</Detail>
+      <Keyword>Electron transport chain</Keyword>
+      <Ontology_ID>GO:0022900</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore.</Detail>
+      <Keyword>Transport</Keyword>
+      <Ontology_ID>GO:0006810</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MPFGKPLVGTLLASLTLLGLATAHAKDDMKAAEQYQGAASAVDPAHVVRTNGAPDMSESEFNEAKQIYFQRCAGCHGVLRKGATGKPLTPDITQQRGQQYLEALITYGTPLGMPNWGSSGELSKEQITLMAKYIQHTPPQPPEWGMPEMRESWKVLVKPEDRPKKQLNDLDLPNLFSVTLRDAGQIALVDGDSKKIVKVIDTGYAVHISRMSASGRYLLVIGRDARIDMIDLWAKEPTKVAEIKIGIEARSVESSKFKGYEDRYTIAGAYWPPQFAIMDGETLEPKQIVSTRGMTVDTQTYHPEPRVAAIIASHEHPEFIVNVKETGKVLLVNYKDIDNLTVTSIGAAPFLHDGGWDSSHRYFMTAANNSNKVAVIDSKDRRLSALVDVGKTPHPGRGANFVHPKYGPVWSTSHLGDGSISLIGTDPKNHPQYAWKKVAELQGQGGGSLFIKTHPKSSHLYVDTTFNPDARISQSVAVFDLKNLDAKYQVLPIAEWADLGEGAKRVVQPEYNKRGDEVWFSVWNGKNDSSALVVVDDKTLKLKAVVKDPRLITPTGKFNVYNTQHDVY</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Periplasmic space</CellLocal>
+      <Ontology_ID>GO:0042597</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Periplasm</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>nirS</Gene_Name>
+    <Gene_ID>882217</Gene_ID>
+    <Genbank_ACCN>NC_002516</Genbank_ACCN>
+    <Protein_ACCN>NP_249210</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/882217</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>DOMAIN SWING UPON HIS TO ALA MUTATION IN NITRITE REDUCTASE OF PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>1HZU</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HZU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Domain swing upon His to Ala mutation in nitrite reductase of Pseudomonas aeruginosa.</PubMed_Title>
+      <Author>Brown, K., et al.</Author>
+      <Journal>J.Mol.Biol.(2001)312:541-554</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11563915?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FOLLOWING THE C HEME REDUCTION IN NITRITE REDUCTASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>1N90</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1N90</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Does the reduction of c heme trigger the conformational change of crystalline nitrite reductase?</PubMed_Title>
+      <Author>Nurizzo, D., et al.</Author>
+      <Journal>J.Biol.Chem.(1999)274:14997-15004</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10329702?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FOLLOWING THE C HEME REDUCTION IN NITRITE REDUCTASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>1N15</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1N15</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Does the reduction of c heme trigger the conformational change of crystalline nitrite reductase?</PubMed_Title>
+      <Author>Nurizzo, D., et al.</Author>
+      <Journal>J.Biol.Chem.(1999)274:14997-15004</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10329702?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>PSEUDOMONAS AERUGINOSA CD1 NITRITE REDUCTASE REDUCED CYANIDE COMPLEX</PDB_Title>
+      <PDB_ID>1GJQ</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GJQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Cyanide Binding to Cd(1) Nitrite Reductase from Pseudomonas Aeruginosa: Role of the Active-Site His369 in Ligand Stabilization.</PubMed_Title>
+      <Author>Sun, W., et al.</Author>
+      <Journal>Biochem.Biophys.Res.Commun.(2002)291:1</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11829453?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CONFORMATIONAL CHANGES OCCURRING UPON NO BINDING IN NITRITE REDUCTASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>1NNO</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NNO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational changes occurring upon reduction and NO binding in nitrite reductase from Pseudomonas aeruginosa.</PubMed_Title>
+      <Author>Nurizzo, D., et al.</Author>
+      <Journal>Biochemistry(1998)37:13987-13996</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9760233?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CONFORMATIONAL CHANGES OCCURRING UPON REDUCTION IN NITRITE REDUCTASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>1BL9</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BL9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational changes occurring upon reduction and NO binding in nitrite reductase from Pseudomonas aeruginosa.</PubMed_Title>
+      <Author>Nurizzo, D., et al.</Author>
+      <Journal>Biochemistry(1998)37:13987-13996</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9760233?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>OXYDIZED NITRITE REDUCTASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>1NIR</PDB_ID>
+      <Resolution>2.15</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NIR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>N-terminal arm exchange is observed in the 2.15 A crystal structure of oxidized nitrite reductase from Pseudomonas aeruginosa.</PubMed_Title>
+      <Author>Nurizzo, D., et al.</Author>
+      <Journal>Structure(1997)5:1157-1171</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9331415?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DOMAIN SWING UPON HIS TO ALA MUTATION IN NITRITE REDUCTASE OF PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>1HZV</PDB_ID>
+      <Resolution>2.83</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HZV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Domain swing upon His to Ala mutation in nitrite reductase of Pseudomonas aeruginosa.</PubMed_Title>
+      <Author>Brown, K., et al.</Author>
+      <Journal>J.Mol.Biol.(2001)312:541-554</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11563915?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>FOLLOWING THE C HEME REDUCTION IN NITRITE REDUCTASE FROM PSEUDOMONAS AERUGINOSA</PDB_Title>
+      <PDB_ID>1N50</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1N50</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Does the reduction of c heme trigger the conformational change of crystalline nitrite reductase?</PubMed_Title>
+      <Author>Nurizzo, D., et al.</Author>
+      <Journal>J.Biol.Chem.(1999)274:14997-15004</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10329702?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00910</Pathway_ID>
+      <Pathway_Title>Nitrogen metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00910</Pathway_ID>
+      <Pathway_Title>Nitrogen metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00910</Pathway_ID>
+      <Pathway_Title>Nitrogen metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00910</Pathway_ID>
+      <Pathway_Title>Nitrogen metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Energy metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>All beta proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.bca.c.b.c.html</SCOP_URL>
+    <CATH_Class>Class 2: Mainly Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1bl9</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.7.2.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/2/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00820001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01140011</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05270001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05270002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05270003</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05270007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05273001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05273002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05273003</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05273004</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05273005</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05273007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05273008</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05273009</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05273010</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD05273011</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

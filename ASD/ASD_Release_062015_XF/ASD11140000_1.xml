@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11140000_1</Organism_ID>
+  <Organism>Pseudomonas aeruginosa </Organism>
+  <Organism_Latin>Pseudomonas aeruginosa </Organism_Latin>
+  <UniProt_ID>P11759</UniProt_ID>
+  <Seq_Length>436</Seq_Length>
+  <Molecule_Weight>47600</Molecule_Weight>
+  <KEGG_ID>pae:PA3540</KEGG_ID>
+  <Orthology_ID>K00066</Orthology_ID>
+  <Function_Summary>Catalyzes the oxidation of guanosine diphospho-D-mannose (GDP-D-mannose) to GDP-D-mannuronic acid, a precursor for alginate polymerization. The alginate layer causes a mucoid phenotype and provides a protective barrier against host immune defenses and antibiotics.</Function_Summary>
+  <Catalytic_Mechanism>GDP-D-mannose + 2 NAD(+) + H(2)O = GDP-D-mannuronate + 2 NADH.</Catalytic_Mechanism>
+  <Pfam_ID>PF00984:UDPG_MGDP_dh@@PF03720:UDPG_MGDP_dh_C@@PF03721:UDPG_MGDP_dh_N</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>2</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>GMD</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: GDP-alpha-D-mannose + H(2)O + 2 NAD(+) = GDP-D-mannuronate + 3 H(+) + 2 NADH.</Detail>
+      <Keyword>GDP-mannose 6-dehydrogenase activity</Keyword>
+      <Ontology_ID>GO:0047919</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with nicotinamide adenine dinucleotide, a coenzyme involved in many redox and biosynthetic reactions; binding may be to either the oxidized form, NAD+, or the reduced form, NADH.</Detail>
+      <Keyword>NAD binding</Keyword>
+      <Ontology_ID>GO:0051287</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of alginic acid, a hydrophilic polysaccharide occurring in, for example, the cell walls of brown algae (brown seaweeds).</Detail>
+      <Keyword>Alginic acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0042121</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MRISIFGLGYVGAVCAGCLSARGHEVIGVDVSSTKIDLINQGKSPIVEPGLEALLQQGRQTGRLSGTTDFKKAVLDSDVSFICVGTPSKKNGDLDLGYIETVCREIGFAIREKSERHTVVVRSTVLPGTVNNVVIPLIEDCSGKKAGVDFGVGTNPEFLRESTAIKDYDFPPMTVIGELDKQTGDLLEEIYRELDAPIIRKTVEVAEMIKYTCNVWHAAKVTFANEIGNIAKAVGVDGREVMDVICQDHKLNLSRYYMRPGFAFGGSCLPKDVRALTYRASQLDVEHPMLGSLMRSNSNQVQKAFDLITSHDTRKVGLLGLSFKAGTDDLRESPLVELAEMLIGKGYELRIFDRNVEYARVHGANKEYIESKIPHVSSLLVSDLDEVVASSDVLVLGNGDELFVDLVNKTPSGKKLVDLVGFMPHTTTAQAEGICW</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Gram-negative-bacterium-type cell wall</CellLocal>
+      <Ontology_ID>GO:0009276</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>algD</Gene_Name>
+    <Gene_ID>879004</Gene_ID>
+    <Genbank_ACCN>NC_002516</Genbank_ACCN>
+    <Protein_ACCN>NP_252230</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/879004</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>1.55 A crystal structure of a ternary complex of GDP-mannose dehydrogenase from Psuedomonas aeruginosa</PDB_Title>
+      <PDB_ID>1MV8</PDB_ID>
+      <Resolution>1.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MV8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The crystal structure of GDP-mannose    dehydrogenase: A key enzyme in alginate    biosynthesis of P. aeruginosa</PubMed_Title>
+      <Author>Snook, C.F., et al.</Author>
+      <Journal>Biochemistry(2003)42:4658-4668</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12705829?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>2.0 A crystal structure of GDP-mannose dehydrogenase</PDB_Title>
+      <PDB_ID>1MUU</PDB_ID>
+      <Resolution>2.02</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MUU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of GDP-mannose dehydrogenase:  A key enzyme of alginate biosynthesis in P. aeruginosa</PubMed_Title>
+      <Author>Snook, C.F., et al.</Author>
+      <Journal>Biochemistry(2003)42:4658-4668</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12705829?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Partially refined 2.8 A Crystal structure of GDP-mannose dehydrogenase from P. aeruginosa</PDB_Title>
+      <PDB_ID>1MFZ</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1MFZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The crystal structure of GDP-mannose dehydrogenase:  A key enzyme in alginate biosynthesis of P. aeruginosa</PubMed_Title>
+      <Author>Snook, C.F., et al.</Author>
+      <Journal>Biochemistry(2003)42:4658-4668</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12705829?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00051</Pathway_ID>
+      <Pathway_Title>Fructose and mannose metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00520</Pathway_ID>
+      <Pathway_Title>Amino sugar and nucleotide sugar metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Carbohydrate metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/version/latest/domain/1mfzA03</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Naught LE, et al. Biochemistry. 2002,41(30):9637-9645.;Snook CF, et al. Biochemistry. 2003,42(16):4658-4668.;Selwood T, et al. Arch Biochem Biophys. 2012,519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PubMed_ID>12135385;12705829;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.1.1.132</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/132.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01240008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD11140002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-11-07</Create_Date>
+</Organism_Record>

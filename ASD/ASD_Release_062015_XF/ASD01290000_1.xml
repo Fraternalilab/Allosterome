@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD01290000_1</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A6F3</UniProt_ID>
+  <Seq_Length>502</Seq_Length>
+  <Molecule_Weight>56231</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p3261</KEGG_ID>
+  <Orthology_ID>K00864</Orthology_ID>
+  <Function_Summary>Key enzyme in the regulation of glycerol uptake and metabolism.</Function_Summary>
+  <Catalytic_Mechanism>ATP + glycerol = ADP + sn-glycerol 3-phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF02782:FGGY_C@@PF00370:FGGY_N</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>ATP:glycerol 3-phosphotransferase</Alias>
+      <Alias>Glycerokinase</Alias>
+      <Alias>GK</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + glycerol = sn-glycerol 3-phosphate + ADP + 2 H(+).</Detail>
+      <Keyword>Glycerol kinase activity</Keyword>
+      <Ontology_ID>GO:0004370</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving glycerol-3-phosphate, a phosphoric monoester of glycerol.</Detail>
+      <Keyword>Glycerol-3-phosphate metabolic process</Keyword>
+      <Ontology_ID>GO:0006072</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving glycerol, 1,2,3-propanetriol, a sweet, hygroscopic, viscous liquid, widely distributed in nature as a constituent of many lipids.</Detail>
+      <Keyword>Glycerol metabolic process</Keyword>
+      <Ontology_ID>GO:0006071</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>233</Position>
+      <PTM_Type>N6-malonyllysine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MTEKKYIVALDQGTTSSRAVVMDHDANIISVSQREFEQIYPKPGWVEHDPMEIWATQSSTLVEVLAKADISSDQIAAIGITNQRETTIVWEKETGKPIYNAIVWQCRRTAEICEHLKRDGLEDYIRSNTGLVIDPYFSGTKVKWILDHVEGSRERARRGELLFGTVDTWLIWKMTQGRVHVTDYTNASRTMLFNIHTLDWDDKMLEVLDIPREMLPEVRRSSEVYGQTNIGGKGGTRIPISGIAGDQQAALFGQLCVKEGMAKNTYGTGCFMLMNTGEKAVKSENGLLTTIACGPTGEVNYALEGAVFMAGASIQWLRDEMKLINDAYDSEYFATKVQNTNGVYVVPAFTGLGAPYWDPYARGAIFGLTRGVNANHIIRATLESIAYQTRDVLEAMQADSGIRLHALRVDGGAVANNFLMQFQSDILGTRVERPEVREVTALGAAYLAGLAVGFWQNLDELQEKAVIEREFRPGIETTERNYRYAGWKKAVKRAMAWEEHDE</Protein_Seq>
+    <DNA_Seq>AAGCTTCGCTGTAATATGACTACGGGACAATTAAACATGACTGAAAAAAAATATATCGTTGCGCTCGACCAGGGCACCACCAGCTCCCGCGCGGTCGTAATGGATCACGATGCCAATATCATTAGCGTGTCGCAGCGCGAATTTGAGCAAATCTACCCAAAACCAGGTTGGGTAGAACACGACCCAATGGAAATCTGGGCCACCCAAAGCTCCACGCTGGTAGAAGTGCTGGCGAAAGCCGATATCAGTTCCGATCAAATTGCAGCTATCGGTATTACGAACCAGCGTGAAACCACTATTGTCTGGGAAAAAGAAACCGGCAAGCCTATCTATAACGCCATTGTCTGGCAGTGCCGTCGTACCGCAGAAATCTGCGAGCATTTAAAACGTGACGGTTTAGAAGATTATATCCGCAGCAATACCGGTCTGGTGATTGACCCGTACTTTTCTGGCACCAAAGTGAAGTGGATCCTCGACCATGTGGAAGGCTCTCGCGAGCGTGCACGTCGTGGTGAATTGCTGTTTGGTACGGTTGATACGTGGCTTATCTGGAAAATGACTCAGGGCCGTGTCCATGTGACCGATTACACCAACGCCTCTCGTACCATGTTGTTCAACATCCATACCCTGGACTGGGACGACAAAATGCTGGAAGTGCTGGATATTCCGCGCGAGATGCTGCCAGAAGTGCGTCGTTCTTCCGAAGTATACGGTCAGACTAACATTGGCGGCAAAGGCGGCACGCGTATTCCAATCTCCGGGATCGCCGGTGACCAGCAGGCCGCGCTGTTTGGTCAGTTGTGCGTGAAAGAAGGGATGGCGAAGAACACCTATGGCACTGGCTGCTTTATGCTGATGAACACTGGCGAGAAAGCGGTGAAATCAGAAAACGGCCTGCTGACCACCATCGCCTGCGGCCCGACTGGCGAAGTGAACTATGCGTTGGAAGGTGCGGTGTTTATGGCAGGCGCATCCATTCAGTGGCTGCGCGATGAAATGAAGTTGATTAACGACGCCTACGATTCCGAATATTTCGCCACCAAAGTGCAAAACACCAATGGTGTGTATGTGGTTCCGGCATTTACCGGGCTGGGTGCGCCGTACTGGGACCCGTATGCGCGCGGGGCGATTTTCGGTCTGACTCGTGGGGTGAACGCTAACCACATTATACGCGCGACGCTGGAGTCTATTGCTTATCAGACGCGTGACGTGCTGGAAGCGATGCAGGCCGACTCTGGTATCCGTCTGCACGCCCTGCGCGTGGATGGTGGCGCAGTAGCAAACAATTTCCTGATGCAGTTCCAGTCCGATATTCTCGGCACCCGCGTTGAGCGCCCGGAAGTGCGCGAAGTCACCGCATTGGGTGCGGCCTATCTCGCAGGCCTGGCGGTTGGCTTCTGGCAGAACCTCGACGAGCTGCAAGAGAAAGCGGTGATTGAGCGCGAGTTCCGTCCAGGCATCGAAACCACTGAGCGTAATTACCGTTACGCAGGCTGGAAAAAAGCGGTTAAACGCGCGATGGCGTGGGAAGAACACGACGAATAATGTAAATGCCGAATGAAGCGTTTATGCCGCATCCGGTAGTCCCGAAACGTGCGGGGGCAACCCCGCACACATCAATAATCCCTCCCTTCCCCTGTGCTACACTTCGCGCCATTCCTTACTGCTTAGAGTTTGCTATGAGACGAGAACTTGCCATCGAATTTTCCCGCGTCACCGAATACGCGGCGCTGGCTGGCTACAATTGGTTATGTGTTTTGGGGGCGATCGTGAGGCAAATACTACACGCTGAGGCCGGGTTATTCTTGTTCTCTGGTCAAATTATATAGTTGGAAAACAAGGATGCATATATGAATGAACGATGCAGAGGCAATCGCGATGGCGATAGTGGGTATCATGTAGCCCGCTTATGCTGGAAAGAAGCAATAACCCGCAGAAAAACAAAGCTCCAAGCTCAACAAAACTAAGGGCATAGACAATAACTACCGATGTCATATCACCATACTCTCTAATCTTGCGCAGTCGGCG</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>glpK</Gene_Name>
+    <Gene_ID>12934168</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_418361</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/948423</Gene_URL>
+    <EMBL_ID>EBESCG00000015606</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CATION PROMOTED ASSOCIATION (CPA) OF A REGULATORY AND TARGET PROTEIN IS CONTROLLED BY PHOSPHORYLATION</PDB_Title>
+      <PDB_ID>1GLC</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GLC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE$GLYCERALDEHYDE-3-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Cation-promoted association of a regulatory and target protein is controlled by protein phosphorylation.</PubMed_Title>
+      <Author>Feese M, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.1994 Apr 26;91(9):3544-8.</Journal>
+      <PubMed_ID>8170944</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ESCHERICHIA COLI GLYCEROL KINASE MUTANT WITH BOUND ATP ANALOG SHOWING SUBSTANTIAL DOMAIN MOTION</PDB_Title>
+      <PDB_ID>1GLJ</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GLJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>GAMMA-ARSONO-BETA, GAMMA-METHYLENEADENOSINE- 5'-DIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structures of Escherichia coli glycerol kinase variant S58--&gt;W in complex with nonhydrolyzable ATP analogues reveal a putative active conformation of the enzyme as a result of domain motion.</PubMed_Title>
+      <Author>Bystrom CE, et al.</Author>
+      <Journal>Biochemistry.1999 Mar 23;38(12):3508-18.</Journal>
+      <PubMed_ID>10090737</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF ESCHERICHIA COLI GLYCEROL KINASE AND THE MUTANT A65T IN AN INACTIVE TETRAMER: CONFORMATIONAL CHANGES AND IMPLICATIONS FOR ALLOSTERIC REGULATION</PDB_Title>
+      <PDB_ID>1BU6</PDB_ID>
+      <Resolution>2.37</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BU6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Glycerol kinase from Escherichia coli and an Ala65--&gt;Thr mutant: the crystal structures reveal conformational changes with implications for allosteric regulation.</PubMed_Title>
+      <Author>Feese MD, et al.</Author>
+      <Journal>Structure.1998 Nov 15;6(11):1407-18.</Journal>
+      <PubMed_ID>9817843</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF ESCHERICHIA COLI GLYCEROL KINASE AND THE MUTANT A65T IN AN INACTIVE TETRAMER: CONFORMATIONAL CHANGES AND IMPLICATIONS FOR ALLOSTERIC REGULATION</PDB_Title>
+      <PDB_ID>1GLF</PDB_ID>
+      <Resolution>2.62</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GLF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Glycerol kinase from Escherichia coli and an Ala65--&gt;Thr mutant: the crystal structures reveal conformational changes with implications for allosteric regulation.</PubMed_Title>
+      <Author>Feese MD, et al.</Author>
+      <Journal>Structure.1998 Nov 15;6(11):1407-18.</Journal>
+      <PubMed_ID>9817843</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ESCHERICHIA COLI GLYCEROL KINASE MUTANT WITH BOUND ATP ANALOG SHOWING SUBSTANTIAL DOMAIN MOTION</PDB_Title>
+      <PDB_ID>1GLL</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GLL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER</Ligand_Name>
+      <PubMed_Title>Crystal structures of Escherichia coli glycerol kinase variant S58--&gt;W in complex with nonhydrolyzable ATP analogues reveal a putative active conformation of the enzyme as a result of domain motion.</PubMed_Title>
+      <Author>Bystrom CE, et al.</Author>
+      <Journal>Biochemistry.1999 Mar 23;38(12):3508-18.</Journal>
+      <PubMed_ID>10090737</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE REGULATORY COMPLEX OF ESCHERICHIA COLI IIIGLC WITH GLYCEROL KINASE</PDB_Title>
+      <PDB_ID>1GLB</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GLB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Structure of the regulatory complex of Escherichia coli IIIGlc with glycerol kinase.</PubMed_Title>
+      <Author>Hurley JH, et al.</Author>
+      <Journal>Science.1993 Jan 29;259(5095):673-7.</Journal>
+      <PubMed_ID>8430315</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CATION PROMOTED ASSOCIATION (CPA) OF A REGULATORY AND TARGET PROTEIN IS CONTROLLED BY PHOSPHORYLATION</PDB_Title>
+      <PDB_ID>1GLD</PDB_ID>
+      <Resolution>2.93</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GLD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE$ GLYCERALDEHYDE-3-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Cation-promoted association of a regulatory and target protein is controlled by protein phosphorylation.</PubMed_Title>
+      <Author>Feese M, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.1994 Apr 26;91(9):3544-8.</Journal>
+      <PubMed_ID>8170944</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CATION PROMOTED ASSOCIATION (CPA) OF A REGULATORY AND TARGET PROTEIN IS CONTROLLED BY PHOSPHORYLATION</PDB_Title>
+      <PDB_ID>1GLE</PDB_ID>
+      <Resolution>2.94</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GLE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ADENOSINE-5'-DIPHOSPHATE$GLYCERALDEHYDE-3-PHOSPHATE</Ligand_Name>
+      <PubMed_Title>Cation-promoted association of a regulatory and target protein is controlled by protein phosphorylation.</PubMed_Title>
+      <Author>Feese M, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.1994 Apr 26;91(9):3544-8.</Journal>
+      <PubMed_ID>8170944</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE REGULATORY COMPLEX OF ESCHERICHIA COLI IIIGLC WITH GLYCEROL KINASE</PDB_Title>
+      <PDB_ID>1GLA</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GLA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the regulatory complex of Escherichia coli IIIGlc with glycerol kinase.</PubMed_Title>
+      <Author>Hurley JH, et al.</Author>
+      <Journal>Science.1993 Jan 29;259(5095):673-7.</Journal>
+      <PubMed_ID>8430315</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX BETWEEN ESCHERICHIA COLI GLYCEROL KINASE AND THE ALLOSTERIC REGULATOR FRUCTOSE 1,6-BISPHOSPHATE.</PDB_Title>
+      <PDB_ID>1BOT</PDB_ID>
+      <Resolution>3.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BOT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID</Ligand_Name>
+      <PubMed_Title>Crystal structure of a complex of Escherichia coli glycerol kinase and an allosteric effector fructose 1,6-bisphosphate.</PubMed_Title>
+      <Author>Ormo M, et al.</Author>
+      <Journal>Biochemistry. 1998 Nov 24;37(47):16565-72.</Journal>
+      <PubMed_ID>9843423</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ESCHERICHIA COLI GLYCEROL KINASE MUTANT WITH BOUND ATP ANALOG SHOWING SUBSTANTIAL DOMAIN MOTION</PDB_Title>
+      <PDB_ID>1BWF</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BWF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHODIFLUOROMETHYLPHOSPHONIC ACID-ADENYLATE ESTER</Ligand_Name>
+      <PubMed_Title>Crystal structures of Escherichia coli glycerol kinase variant S58--&gt;W in complex with nonhydrolyzable ATP analogues reveal a putative active conformation of the enzyme as a result of domain motion.</PubMed_Title>
+      <Author>Bystrom CE, et al.</Author>
+      <Journal>Biochemistry.1999 Mar 23;38(12):3508-18.</Journal>
+      <PubMed_ID>10090737</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX BETWEEN ESCHERICHIA COLI GLYCEROL KINASE AND THE ALLOSTERIC REGULATOR FRUCTOSE 1,6-BISPHOSPHATE.</PDB_Title>
+      <PDB_ID>1BO5</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1BO5</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00200001</ASD_Ligand>
+      <Ligand_Name>BETA-FRUCTOSE-1,6-DIPHOSPHATE</Ligand_Name>
+      <PubMed_Title>Crystal structure of a complex of Escherichia coli glycerol kinase and an allosteric effector fructose 1,6-bisphosphate.</PubMed_Title>
+      <Author>Ormo M, et al.</Author>
+      <Journal>Biochemistry. 1998 Nov 24;37(47):16565-72.</Journal>
+      <PubMed_ID>9843423</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of a Hyperactive Escherichia coli Glycerol Kinase Mutant Gly230 --&gt; Asp Obtained Using Microfluidic Crystallization Devices</PDB_Title>
+      <PDB_ID>3EZW</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EZW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of a hyperactive Escherichia coli glycerol kinase mutant Gly230 --&gt; Asp obtained using microfluidic crystallization devices.</PubMed_Title>
+      <Author>Anderson MJ, et al.</Author>
+      <Journal>Biochemistry.2007 May 15;46(19):5722-31. Epub  2007 Apr 19.</Journal>
+      <PubMed_ID>17441732</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04626</Pathway_ID>
+      <Pathway_Title>Plant-pathogen interaction</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Environmental adaptation</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00561</Pathway_ID>
+      <Pathway_Title>Glycerolipid metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko03320</Pathway_ID>
+      <Pathway_Title>PPAR signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.hh.b.g.b.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1bo5</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,234,Gly;site,235,Gly;site,237,Arg</Site_Detail>
+      <Site_Reference>Yu P, et al. Biochemistry. 2007,46(43):12355-12365.;Ormo M, et al. Biochemistry. 1998,37(47):16565-16572.;Selwood T, et al. Arch Biochem Biophys. 2012, 519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PDB_ID>1BO5</PDB_ID>
+      <PubMed_ID>17924663;9843423;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.1.30</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/1/30.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00200001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

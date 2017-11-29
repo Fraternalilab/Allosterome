@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07240000_1</Organism_ID>
+  <Organism>Baker's yeast</Organism>
+  <Organism_Latin>Saccharomyces cerevisiae</Organism_Latin>
+  <UniProt_ID>P23202</UniProt_ID>
+  <Seq_Length>354</Seq_Length>
+  <Molecule_Weight>40271</Molecule_Weight>
+  <KEGG_ID>sce:YNL229C</KEGG_ID>
+  <Orthology_ID>K00799</Orthology_ID>
+  <EBI_ID>EBI-20138</EBI_ID>
+  <Function_Summary>Plays an important role in nitrogen catabolite repression. Down-regulates the expression of many genes involved in nitrogen utilization by inhibiting the GATA transcriptional activators GLN3 and GAT1. Under good nitrogen conditions, binds to the phosphorylated forms of GLN3 and GAT1 and sequesters them in the cytoplasm, preventing transcription of genes expressed upon nitrogen limitation. Has glutathione peroxidase activity in both native and fibrillar form.</Function_Summary>
+  <Pfam_ID>PF00043:GST_C@@PF02798:GST_N</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a phosphorylated protein.</Detail>
+      <Keyword>Phosphoprotein binding</Keyword>
+      <Ontology_ID>GO:0051219</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 2 glutathione + hydrogen peroxide = oxidized glutathione + 2 H2O.</Detail>
+      <Keyword>Glutathione peroxidase activity</Keyword>
+      <Ontology_ID>GO:0004602</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a repressing transcription factor and also with the basal transcription machinery in order to stop, prevent, or reduce the frequency, rate or extent of transcription. Cofactors generally do not bind DNA, but rather mediate protein-protein interactions between repressive transcription factors and the basal transcription machinery.</Detail>
+      <Keyword>Transcription corepressor activity</Keyword>
+      <Ontology_ID>GO:0003714</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Protein which is able to form a prion, a self-propagating protein conformation (infectious protein). Formation of prions involves conversion of the native proteins into an infectious, amyloid form. This class of proteins includes the members of the prion family which can form proteinaceous infectious particles responsible for transmissible spongiform encephalopathies (TSE) in many animals, such as Kuru and Creutzfeldt-Jakob syndrome in humans, scrapies in sheep and BSE in cattle. These prion diseases represent special cases of neurodegenerative amyloidoses, because they result from the transmissibility and infectivity of the amyloid.</Detail>
+      <Keyword>Prion</Keyword>
+      <Ontology_ID>KW-0640</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of nitrogen utilization.</Detail>
+      <Keyword>Regulation of nitrogen utilization</Keyword>
+      <Ontology_ID>GO:0006808</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The selective interaction of a transcription factor with specific molecules in the cytoplasm, thereby inhibiting its translocation into the nucleus.</Detail>
+      <Keyword>Cytoplasmic sequestering of transcription factor</Keyword>
+      <Ontology_ID>GO:0042994</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The nitrogen metabolic process that encompasses the uptake of nitrate from the environment and reduction to ammonia, and results in the incorporation of nitrogen derived from nitrate into cellular substances.</Detail>
+      <Keyword>Nitrate assimilation</Keyword>
+      <Ontology_ID>GO:0042128</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Covalent attachment of the ubiquitin-like protein URM1 to another protein.</Detail>
+      <Keyword>Protein urmylation</Keyword>
+      <Ontology_ID>GO:0032447</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an aluminum ion stimulus.</Detail>
+      <Keyword>Response to aluminum ion</Keyword>
+      <Ontology_ID>GO:0010044</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>287</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>283</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>282</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MMNNNGNQVSNLSNALRQVNIGNRNSNTTTDQSNINFEFSTGVNNNNNNNSSSNNNNVQNNNSGRNGSQNNDNENNIKNTLEQHRQQQQAFSDMSHVEYSRITKFFQEQPLEGYTLFSHRSAPNGFKVAIVLSELGFHYNTIFLDFNLGEHRAPEFVSVNPNARVPALIDHGMDNLSIWESGAILLHLVNKYYKETGNPLLWSDDLADQSQINAWLFFQTSGHAPMIGQALHFRYFHSQKIASAVERYTDEVRRVYGVVEMALAERREALVMELDTENAAAYSAGTTPMSQSRFFDYPVWLVGDKLTIADLAFVPWNNVVDRIGINIKIEFPEVYKWTKHMMRRPAVIKALRGE</Protein_Seq>
+    <DNA_Seq>ATGATGAATAACAACGGCAACCAAGTGTCGAATCTCTCCAATGCGCTCCGTCAAGTAAACATAGGAAACAGGAACAGTAATACAACCACCGATCAAAGTAATATAAATTTTGAATTTTCAACAGGTGTAAATAATAATAATAATAACAATAGCAGTAGTAATAACAATAATGTTCAAAACAATAACAGCGGCCGCAATGGTAGCCAAAATAATGATAACGAGAATAATATCAAGAATACCTTAGAACAACATCGACAACAACAACAGGCATTTTCGGATATGAGTCACGTGGAGTATTCCAGAATTACAAAATTTTTTCAAGAACAACCACTGGAGGGATATACCCTTTTCTCTCACAGGTCTGCGCCTAATGGATTCAAAGTTGCTATAGTACTAAGTGAACTTGGATTTCATTATAACACAATCTTCCTAGATTTCAATCTTGGCGAACATAGGGCCCCCGAATTTGTGTCTGTGAACCCTAATGCAAGAGTTCCAGCTTTAATCGATCATGGTATGGACAACTTGTCTATTTGGGAATCAGGGGCGATTTTATTACATTTGGTAAATAAATATTACAAAGAGACTGGTAATCCATTACTCTGGTCCGATGATTTAGCTGACCAATCACAAATCAACGCATGGTTGTTCTTCCAAACGTCAGGGCATGCGCCAATGATTGGACAAGCTTTACATTTCAGATACTTCCATTCACAAAAGATAGCAAGTGCTGTAGAAAGATATACGGATGAGGTTAGAAGAGTTTACGGTGTAGTGGAGATGGCCTTGGCTGAACGTAGAGAAGCGCTGGTGATGGAATTAGACACGGAAAATGCGGCTGCATACTCAGCTGGTACAACACCAATGTCACAAAGTCGTTTCTTTGATTATCCCGTATGGCTTGTAGGAGATAAATTAACTATAGCAGATTTGGCCTTTGTCCCATGGAATAATGTCGTGGATAGAATTGGCATTAATATCAAAATTGAATTTCCAGAAGTTTACAAATGGACGAAGCATATGATGAGAAGACCCGCGGTCATCAAGGCATTGCGTGGTGAATGA</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Soluble fraction</CellLocal>
+      <Ontology_ID>GO:0005625</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Amyloid</CellLocal>
+      <Ontology_ID>KW-0034</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>URE2</Gene_Name>
+    <Gene_ID>855492</Gene_ID>
+    <Genbank_ACCN>NM_001183067</Genbank_ACCN>
+    <Protein_ACCN>NP_014170</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/855492</Gene_URL>
+    <EMBL_ID>YNL229C</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P36003</Uniprot_ID>
+      <Gene_Name>NNK1</Gene_Name>
+      <EBI_ID>EBI-9796</EBI_ID>
+      <PPI_EBI_URL>EBI-20138,EBI-9796</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Ure2p in Complex with Glutathione</PDB_Title>
+      <PDB_ID>1K0D</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K0D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the yeast prion Ure2p functional region in complex with glutathione and related compounds.</PubMed_Title>
+      <Author>Bousset, L., et al.</Author>
+      <Journal>Biochemistry(2001)40:13564-13573</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11695904?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE GLOBULAR REGION OF THE PRION PROTIEN URE2 FROM YEAST SACCHAROMYCES CEREVISIAE</PDB_Title>
+      <PDB_ID>1G6Y</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G6Y</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the globular region of the prion protein Ure2 from the yeast Saccharomyces cerevisiae.</PubMed_Title>
+      <Author>Bousset, L., et al.</Author>
+      <Journal>Structure(2001)9:39-46</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11342133?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ure2p in Complex with Glutathione</PDB_Title>
+      <PDB_ID>1K0B</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K0B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the yeast prion Ure2p functional region in complex with glutathione and related compounds.</PubMed_Title>
+      <Author>Bousset, L., et al.</Author>
+      <Journal>Biochemistry(2001)40:13564-13573</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11695904?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ure2p in Complex with S-hexylglutathione</PDB_Title>
+      <PDB_ID>1K0A</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K0A</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the yeast prion Ure2p functional region in complex with glutathione and related compounds.</PubMed_Title>
+      <Author>Bousset, L., et al.</Author>
+      <Journal>Biochemistry(2001)40:13564-13573</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11695904?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ure2p in complex with S-p-nitrobenzylglutathione</PDB_Title>
+      <PDB_ID>1K0C</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1K0C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the yeast prion Ure2p functional region in complex with glutathione and related compounds.</PubMed_Title>
+      <Author>Bousset, L., et al.</Author>
+      <Journal>Biochemistry(2001)40:13564-13573</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11695904?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Ure2p in complex with glutathione</PDB_Title>
+      <PDB_ID>1JZR</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JZR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the yeast prion Ure2p functional region in complex with glutathione and related compounds.</PubMed_Title>
+      <Author>Bousset, L., et al.</Author>
+      <Journal>Biochemistry(2001)40:13564-13573</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11695904?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE NITROGEN REGULATION FRAGMENT OF THE YEAST PRION PROTEIN URE2P</PDB_Title>
+      <PDB_ID>1HQO</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HQO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The crystal structure of the nitrogen regulation fragment of the yeast prion protein Ure2p.</PubMed_Title>
+      <Author>Umland, T.C., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2001)98:1459-1464</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11171973?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE GLOBULAR REGION OF THE PRION PROTEIN URE2 FROM THE YEAST SACCAROMYCES CEREVISIAE</PDB_Title>
+      <PDB_ID>1G6W</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1G6W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the globular region of the prion protein Ure2 from the yeast Saccharomyces cerevisiae.</PubMed_Title>
+      <Author>Bousset, L., et al.</Author>
+      <Journal>Structure(2001)9:39-46</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11342133?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.gi.b.f.ea.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1g6w</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Dimerization</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

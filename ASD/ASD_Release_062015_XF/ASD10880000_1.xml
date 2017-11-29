@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD10880000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>P50750</UniProt_ID>
+  <Seq_Length>372</Seq_Length>
+  <Molecule_Weight>42778</Molecule_Weight>
+  <KEGG_ID>hsa:1025</KEGG_ID>
+  <Orthology_ID>K02211</Orthology_ID>
+  <EBI_ID>EBI-1383449</EBI_ID>
+  <Function_Summary>Protein kinase involved in the regulation of transcription. Member of the cyclin-dependent kinase pair (CDK9/cyclin-T) complex, also called positive transcription elongation factor b (P-TEFb), which facilitates the transition from abortive to productive elongation by phosphorylating the CTD (C-terminal domain) of the large subunit of RNA polymerase II (RNAP II) POLR2A, SUPT5H and RDBP. This complex is inactive when in the 7SK snRNP complex form. Phosphorylates EP300, MYOD1, RPB1/POLR2A and AR, and the negative elongation factors DSIF and NELF. Regulates cytokine inducible transcription networks by facilitating promoter recognition of target transcription factors (e.g. TNF-inducible RELA/p65 activation and IL-6-inducible STAT3 signaling). Promotes RNA synthesis in genetic programs for cell growth, differentiation and viral pathogenesis. P-TEFb is also involved in cotranscriptional histone modification, mRNA processing and mRNA export. Modulates a complex network of chromatin modifications including histone H2B monoubiquitination (H2Bub1), H3 lysine 4 trimethylation (H3K4me3) and H3K36me3; integrates phosphorylation during transcription with chromatin modifications to control co-transcriptional histone mRNA processing. The CDK9/cyclin-K complex has also a kinase activity towards CTD of RNAP II and can substitute for CDK9/cyclin-T P-TEFb in vitro. Replication stress response protein; the CDK9/cyclin-K complex is required for genome integrity maintenance, by promoting cell cycle recovery from replication arrest and limiting single-stranded DNA amount in response to replication stress, thus reducing the breakdown of stalled replication forks and avoiding DNA damage. In addition, probable function in DNA repair of isoform 2 via interaction with KU70/XRCC6. Promotes cardiac myocyte enlargement. RPB1/POLR2A phosphorylation on 'Ser-2' in CTD activates transcription. AR phosphorylation modulates AR transcription factor promoter selectivity and cell growth. DSIF and NELF phosphorylation promotes transcription by inhibiting their negative effect. The phosphorylation of MYOD1 enhances its transcriptional activity and thus promotes muscle differentiation.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a protein = ADP + a phosphoprotein.@@ATP + [DNA-directed RNA polymerase] = ADP + [DNA-directed RNA polymerase] phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00069:Pkinase</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Cell division cycle 2-like protein kinase 4</Alias>
+      <Alias>Tat-associated kinase complex catalytic subunit</Alias>
+      <Alias>Serine/threonine-protein kinase PITALRE</Alias>
+      <Alias>C-2K</Alias>
+      <Alias>Cell division protein kinase 9</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a DNA region that regulates the transcription of a region of DNA, which may be a gene, cistron, or operon. Binding may occur as a sequence specific interaction or as an interaction observed only once a factor has been recruited to the DNA by other factors.</Detail>
+      <Keyword>Transcription regulatory region DNA binding</Keyword>
+      <Ontology_ID>GO:0044212</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a small nuclear RNA (snRNA).</Detail>
+      <Keyword>SnRNA binding</Keyword>
+      <Ontology_ID>GO:0017069</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a protein = ADP + a phosphoprotein. This reaction requires the binding of a regulatory cyclin subunit and full activity requires stimulatory phosphorylation by a CDK-activating kinase (CAK).</Detail>
+      <Keyword>Cyclin-dependent protein kinase activity</Keyword>
+      <Ontology_ID>GO:0004693</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with chromatin, the network of fibers of DNA and protein that make up the chromosomes of the eukaryotic nucleus during interphase.</Detail>
+      <Keyword>Chromatin binding</Keyword>
+      <Ontology_ID>GO:0003682</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + (DNA-directed RNA polymerase II) = ADP + phospho-(DNA-directed RNA polymerase II); phosphorylation occurs on residues in the carboxy-terminal domain (CTD) repeats.</Detail>
+      <Keyword>RNA polymerase II carboxy-terminal domain kinase activity</Keyword>
+      <Ontology_ID>GO:0008353</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>59</Position>
+      <Original>Phe</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>231</Position>
+      <Original>Gly</Original>
+      <Variation>Ala</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process in which a virus reproduces. Usually, this is by infection of a host cell, replication of the viral genome, and assembly of progeny virus particles. In some cases the viral genetic material may integrate into the host genome and only subsequently, under particular circumstances, 'complete' its life cycle.</Detail>
+      <Keyword>Viral reproduction</Keyword>
+      <Ontology_ID>GO:0016032</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a cytokine stimulus.</Detail>
+      <Keyword>Cellular response to cytokine stimulus</Keyword>
+      <Ontology_ID>GO:0071345</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The multiplication or reproduction of cells, resulting in the expansion of a cell population.</Detail>
+      <Keyword>Cell proliferation</Keyword>
+      <Ontology_ID>GO:0008283</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of DNA replication by impeding the progress of the DNA replication fork.</Detail>
+      <Keyword>Replication fork arrest</Keyword>
+      <Ontology_ID>GO:0043111</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The extension of an RNA molecule after transcription initiation and promoter clearance at an RNA polymerase II-specific promoter by the addition of ribonucleotides catalyzed by RNA polymerase II.</Detail>
+      <Keyword>Transcription elongation from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0006368</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</Detail>
+      <Keyword>DNA repair</Keyword>
+      <Ontology_ID>GO:0006281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of DNA repair.</Detail>
+      <Keyword>Regulation of DNA repair</Keyword>
+      <Ontology_ID>GO:0006282</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a transforming growth factor beta receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Transforming growth factor beta receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0007179</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the covalent alteration of a histone.</Detail>
+      <Keyword>Regulation of histone modification</Keyword>
+      <Ontology_ID>GO:0031056</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of viral transcription.</Detail>
+      <Keyword>Positive regulation of viral transcription</Keyword>
+      <Ontology_ID>GO:0050434</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of transcription from the RNA polymerase II promoter.</Detail>
+      <Keyword>Positive regulation of transcription from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0045944</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that decreases the rate, frequency, or extent of cell cycle arrest, the process in which the cell cycle is halted during one of the normal phases.</Detail>
+      <Keyword>Negative regulation of cell cycle arrest</Keyword>
+      <Ontology_ID>GO:0071157</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the assembly of the RNA polymerase II preinitiation complex (PIC) at an RNA polymerase II promoter region of a DNA template, resulting in the subsequent synthesis of RNA from that promoter. The initiation phase includes PIC assembly and the formation of the first few bonds in the RNA chain, including abortive initiation, which occurs when the first few nucleotides are repeatedly synthesized and then released. Promoter clearance, or release, is the transition between the initiation and elongation phases of transcription.</Detail>
+      <Keyword>Transcription initiation from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0006367</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>353</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>363</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>175</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>357</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>354</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>350</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>48</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>362</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>44</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>347</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>29</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>186</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAKQYDSVECPFCDEVSKYEKLAKIGQGTFGEVFKARHRKTGQKVALKKVLMENEKEGFPITALREIKILQLLKHENVVNLIEICRTKASPYNRCKGSIYLVFDFCEHDLAGLLSNVLVKFTLSEIKRVMQMLLNGLYYIHRNKILHRDMKAANVLITRDGVLKLADFGLARAFSLAKNSQPNRYTNRVVTLWYRPPELLLGERDYGPPIDLWGAGCIMAEMWTRSPIMQGNTEQHQLALISQLCGSITPEVWPNVDNYELYEKLELVKGQKRKVKDRLKAYVRDPYALDLIDKLLVLDPAQRIDSDDALNHDFFWSDPMPSDLKGMLSTHLTSMFEYLAPPRRKGSQITQQSTNQSRNPATTNQTEFERVF</Protein_Seq>
+    <DNA_Seq>AAGTGGCCGTGGAGGCGGAAGTGGCGCGGCCGCGGAGGGGCCTGGAGTGCGGCGGCGGCGGGACCCGGAGCAGGAGCGGCGGCAGCAGCGACTGGGGGCGGCGGCGGCGCGTTGGAGGCGGCCATGGCAAAGCAGTACGACTCGGTGGAGTGCCCTTTTTGTGATGAAGTTTCCAAATACGAGAAGCTCGCCAAGATCGGCCAAGGCACCTTCGGGGAGGTGTTCAAGGCCAGGCACCGCAAGACCGGCCAGAAGGTGGCTCTGAAGAAGGTGCTGATGGAAAACGAGAAGGAGGGGTTCCCCATTACAGCCTTGCGGGAGATCAAGATCCTTCAGCTTCTAAAACACGAGAATGTGGTCAACTTGATTGAGATTTGTCGAACCAAAGCTTCCCCCTATAACCGCTGCAAGGGTAGTATATACCTGGTGTTCGACTTCTGCGAGCATGACCTTGCTGGGCTGTTGAGCAATGTTTTGGTCAAGTTCACGCTGTCTGAGATCAAGAGGGTGATGCAGATGCTGCTTAACGGCCTCTACTACATCCACAGAAACAAGATCCTGCATAGGGACATGAAGGCTGCTAATGTGCTTATCACTCGTGATGGGGTCCTGAAGCTGGCAGACTTTGGGCTGGCCCGGGCCTTCAGCCTGGCCAAGAACAGCCAGCCCAACCGCTACACCAACCGTGTGGTGACACTCTGGTACCGGCCCCCGGAGCTGTTGCTCGGGGAGCGGGACTACGGCCCCCCCATTGACCTGTGGGGTGCTGGGTGCATCATGGCAGAGATGTGGACCCGCAGCCCCATCATGCAGGGCAACACGGAGCAGCACCAACTCGCCCTCATCAGTCAGCTCTGCGGCTCCATCACCCCTGAGGTGTGGCCAAACGTGGACAACTATGAGCTGTACGAAAAGCTGGAGCTGGTCAAGGGCCAGAAGCGGAAGGTGAAGGACAGGCTGAAGGCCTATGTGCGTGACCCATACGCACTGGACCTCATCGACAAGCTGCTGGTGCTGGACCCTGCCCAGCGCATCGACAGCGATGACGCCCTCAACCACGACTTCTTCTGGTCCGACCCCATGCCCTCCGACCTCAAGGGCATGCTCTCCACCCACCTGACGTCCATGTTCGAGTACTTGGCACCACCGCGCCGGAAGGGCAGCCAGATCACCCAGCAGTCCACCAACCAGAGTCGCAATCCCGCCACCACCAACCAGACGGAGTTTGAGCGCGTCTTCTGAGGGCCGGCGCTTGCCACTAGGGCTCTTGTGTTTTTTTTCTTCTGCTATGTGACTTGCATCGTGGAGACAGGGCATTTGAGTTTATATCTCTCATGCATATTTTATTTAATCCCCACCCTGGGCTCTGGGAGCAGCCCGCTGAGTGGACTGGAGTGGAGCATTGGCTGAGAGACCAGGAGGGCACTGGAGCTGTCTTGTCCTTGCTGGTTTTCTGGATGGTTCCCAGAGGGTTTCCATGGGGTAGGAGGATGGGCTCGCCCACCAGTGACTTTTTCTAAGAGCTCCCGGCGTGGTGGAAGAGGGGACAGGTCCCTCACCCACCCACAATCCTATTCTCGGGCTGAGAACCCTGCGTGGGGACAGGGCTCGCCTCAGGAATGGGCTGTTTTTGGCCTAACCCTCAGAAACACTGGGGCTGGCACAAACTCTTGGTTTCTTCAACAGGAGAATTTTACTGTGTTTCTTTTGGTTCCATTGTTTGGAGACATTCCTGGGCACAGTTTGGTCCGTTAGAATTAAAAGTTGAATTTTTTTTTTTTTTAAATTTTTTTTTTTCCTCCAGGACTTGTGTGTTTTGTTCTGCGCACACACCGCCAACTGTTCCCCCACAGTCAGCAGCAGGTTGGGCCTGACCATTGGGACTTGATTGTCAAGTCACTGGAGGTCTTGACTTTTTTATCTCAGTTCATGTTCTCTTCCATAATTGGAAAGGACCTTTGTCTGTTTTTCCTCTTGGGTGCCTTCCAGAACGCATCTCATGTCCCTGGTGAGGGAATTGGTGAGGGCCTGCTGTGAGCTGCTGTGGCTGCGATGGTCACCCAGCTGGGCAAATCACTGGAGTGACAATTTGACCTGTCACCTGAGAAGGATGGTCCCTCAGACTGCTGGGTAGAGGGCCTGGGGCAGGCTGGAGAGAGAAAGTGGGCAGAGGGTGAAGGGATCACAGGGGTCTTGGAAGGTGGCAGTAGTTTGGACGGGGGTGGGGAGTATGTGGGAGAAAAAAACAGACTGAAGGTAGAATCCTTGGGAACCTTTGAGGAGCGGCACATTCTGGCAGGCACGTTTTCTGTGAGCCTGAAGTTAGGAAGAGACATTCTGGAGGTCAATTTCCTACATCCTCTTACAGGCGGAGACCTTGAAGTGGGGCCAGGAAGGAAGGTTGGCAAAACCTTTGACCAGAACTGTCCTTCATTTACAGAAACTGACCCAGACCACAACACAAAAGGCCAG</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Ubiquitous</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>PML body</CellLocal>
+      <Ontology_ID>GO:0016605</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Positive transcription elongation factor complex b</CellLocal>
+      <Ontology_ID>GO:0008024</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CDK9</Gene_Name>
+    <Gene_Alias>CDC2L4; TAK</Gene_Alias>
+    <Gene_ID>1025</Gene_ID>
+    <Genbank_ACCN>NM_001261</Genbank_ACCN>
+    <Protein_ACCN>NP_001252</Protein_ACCN>
+    <HGNC_ID>1780</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1025</Gene_URL>
+    <UCSC_ID>uc004bse.2</UCSC_ID>
+    <EMBL_ID>ENSG00000136807</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P08238</Uniprot_ID>
+      <Gene_Name>HSP90AB1</Gene_Name>
+      <EBI_ID>EBI-352572</EBI_ID>
+      <PPI_EBI_URL>EBI-1383449,EBI-352572</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9Y5X4</Uniprot_ID>
+      <Gene_Name>NR2E3</Gene_Name>
+      <EBI_ID>EBI-7216962</EBI_ID>
+      <PPI_EBI_URL>EBI-1383449,EBI-7216962</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P04608</Uniprot_ID>
+      <Gene_Name>tat</Gene_Name>
+      <EBI_ID>EBI-6164389</EBI_ID>
+      <PPI_EBI_URL>EBI-1383449,EBI-6164389</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q7L2E3</Uniprot_ID>
+      <Gene_Name>DHX30</Gene_Name>
+      <EBI_ID>EBI-1211456</EBI_ID>
+      <PPI_EBI_URL>EBI-1383449,EBI-1211456</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O60563</Uniprot_ID>
+      <Gene_Name>CCNT1</Gene_Name>
+      <EBI_ID>EBI-2479671</EBI_ID>
+      <PPI_EBI_URL>EBI-1383449,EBI-2479671</PPI_EBI_URL>
+      <Experiment_Number>13</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>O94992</Uniprot_ID>
+      <Gene_Name>HEXIM1</Gene_Name>
+      <EBI_ID>EBI-2832510</EBI_ID>
+      <PPI_EBI_URL>EBI-1383449,EBI-2832510</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q8WXE1</Uniprot_ID>
+      <Gene_Name>ATRIP</Gene_Name>
+      <EBI_ID>EBI-747353</EBI_ID>
+      <PPI_EBI_URL>EBI-1383449,EBI-747353</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9HAW4</Uniprot_ID>
+      <Gene_Name>CLSPN</Gene_Name>
+      <EBI_ID>EBI-1369377</EBI_ID>
+      <PPI_EBI_URL>EBI-1383449,EBI-1369377</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q4G0J3</Uniprot_ID>
+      <Gene_Name>LARP7</Gene_Name>
+      <EBI_ID>EBI-2371923</EBI_ID>
+      <PPI_EBI_URL>EBI-1383449,EBI-2371923</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q13535</Uniprot_ID>
+      <Gene_Name>ATR</Gene_Name>
+      <EBI_ID>EBI-968983</EBI_ID>
+      <PPI_EBI_URL>EBI-1383449,EBI-968983</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Hiv-1</Disease_Name>
+      <Disease_Detail>Hiv-1</Disease_Detail>
+      <Disease_DB>HV1006</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hiv_1?search=CDK9#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CDK9/cyclin T in complex with CAN508</PDB_Title>
+      <PDB_ID>3TN8</PDB_ID>
+      <Resolution>2.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3TN8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The CDK9 C-helix Exhibits Conformational Plasticity That May Explain the Selectivity of CAN508.</PubMed_Title>
+      <Author>Baumli, S., et al.</Author>
+      <Journal>Acs Chem.Biol.(2012)7:811-816</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22292676?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of CDK9 in complex with cyclin T and a 2-amino-4-heteroaryl- pyrimidine inhibitor</PDB_Title>
+      <PDB_ID>4BCH</PDB_ID>
+      <Resolution>2.96</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4BCH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Comparative Structural and Functional Studies of 4-(Thiazol- 5-Yl)-2-(Phenylamino)Pyrimidine-5-Carbonitrile Cdk9 Inhibitors Suggest the Basis for Isotype Selectivity.</PubMed_Title>
+      <Author>Hole, A.J., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:660</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23252711?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of CDK9 in complex with cyclin T and a 2-amino-4-heteroaryl- pyrimidine inhibitor</PDB_Title>
+      <PDB_ID>4BCI</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4BCI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Comparative Structural and Functional Studies of 4-(Thiazol- 5-Yl)-2-(Phenylamino)Pyrimidine-5-Carbonitrile Cdk9 Inhibitors Suggest the Basis for Isotype Selectivity.</PubMed_Title>
+      <Author>Hole, A.J., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:660</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23252711?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of CDK9 in complex with cyclin T and a 2-amino-4-heteroaryl- pyrimidine inhibitor</PDB_Title>
+      <PDB_ID>4BCF</PDB_ID>
+      <Resolution>3.01</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4BCF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Comparative Structural and Functional Studies of 4-(Thiazol- 5-Yl)-2-(Phenylamino)Pyrimidine-5-Carbonitrile Cdk9 Inhibitors Suggest the Basis for Isotype Selectivity.</PubMed_Title>
+      <Author>Hole, A.J., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:660</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23252711?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Human CDK9/cyclinT1</PDB_Title>
+      <PDB_ID>3BLH</PDB_ID>
+      <Resolution>2.48</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BLH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of P-TEFb (CDK9/cyclin T1), its complex with flavopiridol and regulation by phosphorylation</PubMed_Title>
+      <Author>Baumli, S., et al.</Author>
+      <Journal>Embo J.(2008)27:1907-1918</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18566585?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The AFF4 scaffold binds human P-TEFb adjacent to HIV Tat</PDB_Title>
+      <PDB_ID>4IMY</PDB_ID>
+      <Resolution>2.94</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4IMY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The AFF4 scaffold binds human P-TEFb adjacent to HIV Tat.</PubMed_Title>
+      <Author>Schulze-Gahmen, U., et al.</Author>
+      <Journal>Elife(2013)2:e00327-e00327</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23471103?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of CDK9 in complex with cyclin T and a 2-amino-4-heteroaryl- pyrimidine inhibitor</PDB_Title>
+      <PDB_ID>4BCG</PDB_ID>
+      <Resolution>3.09</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4BCG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Substituted 4-(Thiazol-5-Yl)-2-(Phenylamino)Pyrimidines are Highly Active Cdk9 Inhibitors: Synthesis, X-Ray Crystal Structure, Sar and Anti-Cancer Activities.</PubMed_Title>
+      <Author>Shao, H., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:640</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23301767?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of CDK9/CyclinT in complex with S-CR8</PDB_Title>
+      <PDB_ID>3LQ5</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3LQ5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>CDK Inhibitors Roscovitine and CR8 Trigger Mcl-1 Down-Regulation and Apoptotic Cell Death in Neuroblastoma Cells</PubMed_Title>
+      <Author>Bettayeb, K., et al.</Author>
+      <Journal>Genes Cancer(2010)1:369-380</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21779453?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>structure of CDK9/cyclin T F241L</PDB_Title>
+      <PDB_ID>3TNI</PDB_ID>
+      <Resolution>3.23</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3TNI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The CDK9 C-helix Exhibits Conformational Plasticity That May Explain the Selectivity of CAN508.</PubMed_Title>
+      <Author>Baumli, S., et al.</Author>
+      <Journal>Acs Chem.Biol.(2012)7:811-816</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22292676?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 Tat complexed with human P-TEFb</PDB_Title>
+      <PDB_ID>3MI9</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MI9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of HIV-1 Tat complexed with human P-TEFb.</PubMed_Title>
+      <Author>Tahirov, T.H., et al.</Author>
+      <Journal>Nature(2010)465:747-751</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20535204?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of full length CDK9 in complex with cyclinT and DRB</PDB_Title>
+      <PDB_ID>4EC8</PDB_ID>
+      <Resolution>3.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4EC8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The CDK9 tail determines the reaction pathway of positive transcription elongation factor b.</PubMed_Title>
+      <Author>Baumli, S., et al.</Author>
+      <Journal>Structure(2012)20:1788-1795</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22959624?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of CDK9/cyclinT1 in complex with DRB</PDB_Title>
+      <PDB_ID>3MY1</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MY1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Halogen bonds form the basis for selective P-TEFb inhibition by DRB</PubMed_Title>
+      <Author>Baumli, S., et al.</Author>
+      <Journal>Chem.Biol.(2010)17:931-936</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20851342?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of CDK9 in complex with cyclin T and a 2-amino-4-heteroaryl- pyrimidine inhibitor</PDB_Title>
+      <PDB_ID>4BCJ</PDB_ID>
+      <Resolution>3.16</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4BCJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Comparative Structural and Functional Studies of 4-(Thiazol- 5-Yl)-2-(Phenylamino)Pyrimidine-5-Carbonitrile Cdk9 Inhibitors Suggest the Basis for Isotype Selectivity.</PubMed_Title>
+      <Author>Hole, A.J., et al.</Author>
+      <Journal>J.Med.Chem.(2013)56:660</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/23252711?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Human CDK9/cyclinT1 in Complex with ATP</PDB_Title>
+      <PDB_ID>3BLQ</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BLQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of P-TEFb (CDK9/cyclin T1), its complex with flavopiridol and regulation by phosphorylation</PubMed_Title>
+      <Author>Baumli, S., et al.</Author>
+      <Journal>Embo J.(2008)27:1907-1918</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18566585?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Model of Cyclin-dependent kinase 9</PDB_Title>
+      <PDB_ID>ASD10880000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of HIV-1 Tat complexed with ATP-bound human P-TEFb</PDB_Title>
+      <PDB_ID>3MIA</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MIA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of HIV-1 Tat complexed with human P-TEFb.</PubMed_Title>
+      <Author>Tahirov, T.H., et al.</Author>
+      <Journal>Nature(2010)465:747-751</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20535204?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CDK9/cyclin T in complex with CAN508</PDB_Title>
+      <PDB_ID>3TNH</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3TNH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The CDK9 C-helix Exhibits Conformational Plasticity That May Explain the Selectivity of CAN508.</PubMed_Title>
+      <Author>Baumli, S., et al.</Author>
+      <Journal>Acs Chem.Biol.(2012)7:811-816</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22292676?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of full-length cdk9 in complex with cyclin t</PDB_Title>
+      <PDB_ID>4EC9</PDB_ID>
+      <Resolution>3.21</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4EC9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The CDK9 tail determines the reaction pathway of positive transcription elongation factor b.</PubMed_Title>
+      <Author>Baumli, S., et al.</Author>
+      <Journal>Structure(2012)20:1788-1795</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22959624?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Human CDK9/cyclinT1 in complex with Flavopiridol</PDB_Title>
+      <PDB_ID>3BLR</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3BLR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of P-TEFb (CDK9/cyclin T1), its complex with flavopiridol and regulation by phosphorylation</PubMed_Title>
+      <Author>Baumli, S., et al.</Author>
+      <Journal>Embo J.(2008)27:1907-1918</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18566585?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05202</Pathway_ID>
+      <Pathway_Title>Transcriptional misregulation in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/version/latest/domain/3blhA01</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.22</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/22.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID> 2.7.11.23</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC 2/7/11/23.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2013-11-12</Create_Date>
+</Organism_Record>

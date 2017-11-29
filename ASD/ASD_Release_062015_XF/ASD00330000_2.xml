@@ -1,0 +1,805 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00330000_2</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0A786</UniProt_ID>
+  <Seq_Length>311</Seq_Length>
+  <Molecule_Weight>34427</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p4130</KEGG_ID>
+  <Orthology_ID>K00609</Orthology_ID>
+  <EBI_ID>EBI-906620</EBI_ID>
+  <Catalytic_Mechanism>Carbamoyl phosphate + L-aspartate = phosphate + N-carbamoyl-L-aspartate.</Catalytic_Mechanism>
+  <Pfam_ID>PF00185:OTCace@@PF02729:OTCace_N</Pfam_ID>
+  <Allosteric_Activator_Count>4</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>11</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>2</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Aspartate carbamoyltransferase catalytic chain</Alias>
+      <Alias>Aspartate transcarbamylase</Alias>
+      <Alias>ATCase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an amino acid, organic acids containing one or more amino substituents.</Detail>
+      <Keyword>Amino acid binding</Keyword>
+      <Ontology_ID>GO:0016597</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-aspartate + carbamoyl phosphate = N-carbamoyl-L-aspartate + H(+) + phosphate.</Detail>
+      <Keyword>Aspartate carbamoyltransferase activity</Keyword>
+      <Ontology_ID>GO:0004070</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving amino acids, carboxylic acids containing one or more amino groups, as carried out by individual cells.</Detail>
+      <Keyword>Cellular amino acid metabolic process</Keyword>
+      <Ontology_ID>GO:0006520</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of pyrimidine bases, 1,3-diazine, organic nitrogenous bases, beginning with the synthesis of a pyrimidine ring from simpler precursors.</Detail>
+      <Keyword>'de novo' pyrimidine base biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006207</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of a pyrimidine nucleotide, a compound consisting of nucleoside (a pyrimidine base linked to a deoxyribose or ribose sugar) esterified with a phosphate group at either the 3' or 5'-hydroxyl group of the sugar.</Detail>
+      <Keyword>Pyrimidine nucleotide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006221</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MANPLYQKHIISINDLSRDDLNLVLATAAKLKANPQPELLKHKVIASCFFEASTRTRLSFETSMHRLGASVVGFSDSANTSLGKKGETLADTISVISTYVDAIVMRHPQEGAARLATEFSGNVPVLNAGDGSNQHPTQTLLDLFTIQETQGRLDNLHVAMVGDLKYGRTVHSLTQALAKFDGNRFYFIAPDALAMPQYILDMLDEKGIAWSLHSSIEEVMAEVDILYMTRVQKERLDPSEYANVKAQFVLRASDLHNAKANMKVLHPLPRVDEIATDVDKTPHAWYFQQAGNGIFARQALLALVLNRDLVL</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>pyrB</Gene_Name>
+    <Gene_ID>12931728</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_418666</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/948767</Gene_URL>
+    <EMBL_ID>EBESCG00000017268</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>P0A7F3</Uniprot_ID>
+      <Gene_Name>pyrI</Gene_Name>
+      <EBI_ID>EBI-906630</EBI_ID>
+      <PPI_EBI_URL>EBI-906620,EBI-906630</PPI_EBI_URL>
+      <Experiment_Number>12</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF E. COLI ASPARTATE TRANSCARBAMOYLASE P268A MUTANT IN THE T-STATE</PDB_Title>
+      <PDB_ID>1EZZ</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EZZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A cis-proline to alanine mutant of E. coli aspartate transcarbamoylase: kinetic studies and three-dimensional crystal structures.</PubMed_Title>
+      <Author>Jin L, et al.</Author>
+      <Journal>Biochemistry.2000 Jul 11;39(27):8058-66.</Journal>
+      <PubMed_ID>10891088</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ATCASE Y165F MUTANT</PDB_Title>
+      <PDB_ID>9ATC</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=9ATC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Intersubunit hydrogen bond acts as a global molecular switch in Escherichia coli aspartate transcarbamoylase.</PubMed_Title>
+      <Author>Ha Y, et al.</Author>
+      <Journal>Proteins.1998 Nov 15;33(3):430-43.</Journal>
+      <PubMed_ID>9829701</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF PHOSPHONOACETAMIDE LIGATED T AND PHOSPHONOACETAMIDE AND MALONATE LIGATED R STATES OF ASPARTATE CARBAMOYLTRANSFERASE AT 2.8-ANGSTROMS RESOLUTION AND NEUTRAL P*H</PDB_Title>
+      <PDB_ID>1AT1</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1AT1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of phosphonoacetamide ligated T and phosphonoacetamide and malonate ligated R states of aspartate carbamoyltransferase at 2.8-A resolution and neutral pH.</PubMed_Title>
+      <Author>Gouaux JE, et al.</Author>
+      <Journal>Biochemistry.1990 Jan 16;29(2):389-402.</Journal>
+      <PubMed_ID>2405902</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The R state structure of E. coli ATCase with CTP bound</PDB_Title>
+      <PDB_ID>4KGX</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4KGX</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>New Paradigm for Allosteric Regulation of Escherichia coli Aspartate Transcarbamoylase.</PubMed_Title>
+      <Author>Cockrell, G.M., et al.</Author>
+      <Journal>Biochemistry(2013)52:8036-8047</Journal>
+      <PubMed_ID>24138583</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CATALYTIC TRIMER OF ESCHERICHIA COLI ASPARTATE TRANSCARBAMOYLASE</PDB_Title>
+      <PDB_ID>3CSU</PDB_ID>
+      <Resolution>1.88</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3CSU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Assessment of the allosteric mechanism of aspartate transcarbamoylase based on the crystalline structure of the unregulated catalytic subunit.</PubMed_Title>
+      <Author>Beernink PT, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.1999 May 11;96(10):5388-93.</Journal>
+      <PubMed_ID>10318893</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF MUTANT R105A OF E. COLI ASPARTATE TRANSCARBAMOYLASE</PDB_Title>
+      <PDB_ID>1I5O</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1I5O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Direct structural evidence for a concerted allosteric transition in Escherichia coli aspartate transcarbamoylase.</PubMed_Title>
+      <Author>Macol CP, et al.</Author>
+      <PubMed_ID>11323717</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE ISOLATED, UNREGULATED CATALYTIC TRIMER OF ASPARTATE TRANSCARBAMOYLASE COMPLEXED WITH BISUBSTRATE ANALOG PALA (N-(PHOSPHONACETYL)-L-ASPARTATE)</PDB_Title>
+      <PDB_ID>1EKX</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1EKX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Binding of bisubstrate analog promotes large structural changes in the unregulated catalytic trimer of aspartate transcarbamoylase: implications for allosteric regulation induced cell migration.</PubMed_Title>
+      <Author>Endrizzi JA, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2000 May 9;97(10):5077-82.</Journal>
+      <PubMed_ID>10805770</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The R state structure of E. coli ATCase with ATP bound</PDB_Title>
+      <PDB_ID>4KGV</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4KGV</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150001</ASD_Ligand>
+      <PubMed_Title>New Paradigm for Allosteric Regulation of Escherichia coli Aspartate Transcarbamoylase.</PubMed_Title>
+      <Author>Cockrell, G.M., et al.</Author>
+      <Journal>Biochemistry(2013)52:8036-8047</Journal>
+      <PubMed_ID>24138583</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of Wild-Type E. Coli Asparate Transcarbamoylase at pH 8.5 at 2.80 A Resolution</PDB_Title>
+      <PDB_ID>3D7S</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3D7S</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The first high pH structure of Escherichia coli aspartate transcarbamoylase.</PubMed_Title>
+      <Author>Stieglitz KA, et al.</Author>
+      <Journal>Proteins.2009 Feb 1;74(2):318-27.</Journal>
+      <PubMed_ID>18618694</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of D236A mutant E. coli Aspartate Transcarbamoylase in presence of Phosphonoacetamide at 2.90 A resolution</PDB_Title>
+      <PDB_ID>2A0F</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2A0F</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the E.coli Aspartate Transcarbamoylase Trapped in the Middle of the Catalytic Cycle.</PubMed_Title>
+      <Author>Stieglitz KA, et al.</Author>
+      <Journal>J Mol Biol.2005 Sep 16;352(2):478-86.</Journal>
+      <PubMed_ID>16120448</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE R105A MUTANT CATALYTIC TRIMER OF ESCHERICHIA COLI ASPARTATE TRANSCARBAMOYLASE AT 2.0-A RESOLUTION</PDB_Title>
+      <PDB_ID>1GQ3</PDB_ID>
+      <Resolution>2.01</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1GQ3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the R105 Mutant Catalytic Trimer of Escherichia Coli Aspartate Transcarbamoylase at 2.0 A Resolution .</PubMed_Title>
+      <Author>Beernink PT, et al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CTP-LIGATED T STATE ASPARTATE TRANSCARBAMOYLASE AT 2.5 ANGSTROMS RESOLUTION: IMPLICATIONS FOR ATCASE MUTANTS AND THE MECHANISM OF NEGATIVE COOPERATIVITY</PDB_Title>
+      <PDB_ID>1RAF</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RAF</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of CTP-ligated T state aspartate transcarbamoylase at 2.5 A resolution: implications for ATCase mutants and the mechanism of negative cooperativity.</PubMed_Title>
+      <Author>Kosman RP, et al.</Author>
+      <Journal>Proteins.1993 Feb;15(2):147-76.</Journal>
+      <PubMed_ID>8441751</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Structure of Wild-Type E. Coli Aspartate Transcarbamoylase in Complex with Novel T State Inhibitors at 2.25 Resolution</PDB_Title>
+      <PDB_ID>2FZG</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FZG</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>T-state Inhibitors of E. coli Aspartate Transcarbamoylase that Prevent the Allosteric Transition.</PubMed_Title>
+      <Author>Heng S, et al.</Author>
+      <Journal>Biochemistry.2006 Aug 22;45(33):10062-71.</Journal>
+      <PubMed_ID>16906764</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF PHOSPHONOACETAMIDE LIGATED T AND PHOSPHONOACETAMIDE AND MALONATE LIGATED R STATES OF ASPARTATE CARBAMOYLTRANSFERASE AT 2.8-ANGSTROMS RESOLUTION AND NEUTRAL PH</PDB_Title>
+      <PDB_ID>3AT1</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3AT1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of phosphonoacetamide ligated T and phosphonoacetamide and malonate ligated R states of aspartate carbamoyltransferase at 2.8-A resolution and neutral pH.</PubMed_Title>
+      <Author>Gouaux JE, et al.</Author>
+      <Journal>Biochemistry.1990 Jan 16;29(2):389-402.</Journal>
+      <PubMed_ID>2405902</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of a regulatory subunit mutant D19A of ATCase from E. coli</PDB_Title>
+      <PDB_ID>2QG9</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QG9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Comparison of two T-state structures of regulatory-chain mutants of Escherichia coli aspartate transcarbamoylase suggests that His20 and Asp19 modulate the response to heterotropic effectors.</PubMed_Title>
+      <Author>Stec B, et al.</Author>
+      <Journal>Acta Crystallogr D Biol Crystallogr.2007 Dec;63(Pt 12):1243-53. Epub  2007 Nov 16.</Journal>
+      <PubMed_ID>18084072</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>T-state Active Site of Aspartate Transcarbamylase:Crystal Structure of the Carbamyl Phosphate and L-alanosine Ligated Enzyme</PDB_Title>
+      <PDB_ID>2AIR</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AIR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>T-State Active Site of Aspartate Transcarbamylase: Crystal Structure of the Carbamyl Phosphate and l-Alanosine Ligated Enzyme</PubMed_Title>
+      <Author>Huang J, et al.</Author>
+      <Journal>Biochemistry.2006 Jan 17;45(2):346-52.</Journal>
+      <PubMed_ID>16401065</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Aspartate Transcarbamoylase Catalytic Chain Mutant E50A Complex with Phosphonoacetamide, Malonate, and Cytidine-5-Prime-Triphosphate (CTP)</PDB_Title>
+      <PDB_ID>1TUG</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TUG</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Monitoring the Transition from the T to the R State in E.coli Aspartate Transcarbamoylase by X-ray Crystallography: Crystal Structures of the E50A Mutant Enzyme in Four Distinct Allosteric States.</PubMed_Title>
+      <Author>Stieglitz K, et al.</Author>
+      <Journal>J Mol Biol.2004 Aug 13;341(3):853-68.</Journal>
+      <PubMed_ID>15288791</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of wild-type E. coli Aspartate Transcarbamoylase in the presence of CTP at 2.20 A resolution</PDB_Title>
+      <PDB_ID>1ZA1</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZA1</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Structural basis for ordered substrate binding and cooperativity in aspartate transcarbamoylase</PubMed_Title>
+      <Author>Wang J, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2005 Jun 21;102(25):8881-6. Epub  2005 Jun 10.</Journal>
+      <PubMed_ID>15951418</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL CONSEQUENCES OF EFFECTOR BINDING TO THE T STATE OF ASPARTATE CARBAMOYLTRANSFERASE. CRYSTAL STRUCTURES OF THE UNLIGATED AND ATP-, AND CTP-COMPLEXED ENZYMES AT 2.6-ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>4AT1</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4AT1</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150001</ASD_Ligand>
+      <PubMed_Title>Structural consequences of effector binding to the T state of aspartate carbamoyltransferase: crystal structures of the unligated and ATP- and CTP-complexed enzymes at 2.6-A resolution.</PubMed_Title>
+      <Author>Stevens RC, et al.</Author>
+      <Journal>Biochemistry.1990 Aug 21;29(33):7691-701.</Journal>
+      <PubMed_ID>2271528</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of D236A E. coli Aspartate Transcarbamoylase in the presence of phosphonoacetamide and l-Aspartate at 2.60 A resolution</PDB_Title>
+      <PDB_ID>2HSE</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HSE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The allosteric transition induced by the aspartate binding to Aspartate Transcarbamoylase</PubMed_Title>
+      <Author>Wang J, et al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of regulatory chain mutant H20A of asparate transcarbamoylase from E. coli</PDB_Title>
+      <PDB_ID>2QGF</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QGF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Comparison of two T-state structures of regulatory-chain mutants of Escherichia coli aspartate transcarbamoylase suggests that His20 and Asp19 modulate the response to heterotropic effectors.</PubMed_Title>
+      <Author>Stec B, et al.</Author>
+      <Journal>Acta Crystallogr D Biol Crystallogr.2007 Dec;63(Pt 12):1243-53. Epub  2007 Nov 16.</Journal>
+      <PubMed_ID>18084072</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL AND MOLECULAR STRUCTURES OF NATIVE AND CTP-LIGANDED ASPARTATE CARBAMOYLTRANSFERASE FROM ESCHERICHIA COLI</PDB_Title>
+      <PDB_ID>2ATC</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ATC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal and molecular structures of native and CTP-liganded aspartate carbamoyltransferase from Escherichia coli.</PubMed_Title>
+      <Author>Honzatko RB, et al.</Author>
+      <Journal>J Mol Biol.1982 Sep 15;160(2):219-63.</Journal>
+      <PubMed_ID>6757446</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL CONSEQUENCES OF EFFECTOR BINDING TO THE T STATE OF ASPARTATE CARBAMOYLTRANSFERASE. CRYSTAL STRUCTURES OF THE UNLIGATED AND ATP-, AND CTP-COMPLEXED ENZYMES AT 2.6-ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>6AT1</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=6AT1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural consequences of effector binding to the T state of aspartate carbamoyltransferase: crystal structures of the unligated and ATP- and CTP-complexed enzymes at 2.6-A resolution.</PubMed_Title>
+      <Author>Stevens RC, et al.</Author>
+      <Journal>Biochemistry.1990 Aug 21;29(33):7691-701.</Journal>
+      <PubMed_ID>2271528</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Aspartate Transcarbamylase (ATCase) of Escherichia coli: A New Crystalline R State Bound to PALA, or to Product Analogues Phosphate and Citrate</PDB_Title>
+      <PDB_ID>1Q95</PDB_ID>
+      <Resolution>2.46</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1Q95</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Aspartate Transcarbamylase (ATCase) of Escherichia coli: A New Crystalline R-State Bound to PALA, or to Product Analogues Citrate and Phosphate</PubMed_Title>
+      <Author>Huang J, et al.</Author>
+      <Journal>Biochemistry.2004 Jun 1;43(21):6415-21.</Journal>
+      <PubMed_ID>15157075</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ASPARTATE TRANSCARBAMOYLASE COMPLEXED WITH N-PHOSPHONACETYL-L-ASPARTATE (PALA)</PDB_Title>
+      <PDB_ID>1D09</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1D09</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Insights into the mechanisms of catalysis and heterotropic regulation of Escherichia coli aspartate transcarbamoylase based upon a structure of the enzyme complexed with the bisubstrate analogue N-phosphonacetyl-L-aspartate at 2.1 A.</PubMed_Title>
+      <Author>Jin L, et al.</Author>
+      <Journal>Proteins.1999 Dec 1;37(4):729-42.</Journal>
+      <PubMed_ID>10651286</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ASPARTATE TRANSCARBOMYLASE REGULATORY CHAIN MUTANT (T82A)</PDB_Title>
+      <PDB_ID>1NBE</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NBE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A single mutation in the regulatory chain of Escherichia coli aspartate transcarbamoylase results in an extreme T-state structure.</PubMed_Title>
+      <Author>Williams MK, et al.</Author>
+      <Journal>J Mol Biol.1998 Aug 7;281(1):121-34.</Journal>
+      <PubMed_ID>9680480</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Structure of E. coli Aspartate Transcarbamoylase Q137A Mutant in The R-State</PDB_Title>
+      <PDB_ID>1XJW</PDB_ID>
+      <Resolution>2.71</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1XJW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A Single Amino Acid Substitution in the Active Site of Escherichia coli Aspartate Transcarbamoylase Prevents the Allosteric Transition.</PubMed_Title>
+      <Author>Stieglitz KA, et al.</Author>
+      <Journal>J Mol Biol.2005 Jun 3;349(2):413-23. Epub  2005 Apr 9.</Journal>
+      <PubMed_ID>15890205</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>E. coli Aspartate Transcarbamoylase complexed with N-phosphonacetyl-L-asparagine</PDB_Title>
+      <PDB_ID>2IPO</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2IPO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Use of L-asparagine and N-phosphonacetyl-L-asparagine to investigate the linkage of catalysis and homotropic cooperativity in E. coli aspartate transcarbomoylase.</PubMed_Title>
+      <Author>Cardia JP, et al.</Author>
+      <Journal>Proteins.2008 May 15;71(3):1088-96.</Journal>
+      <PubMed_ID>18004787</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The R state structure of E. coli ATCase with ATP and Magnesium bound</PDB_Title>
+      <PDB_ID>4KH0</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4KH0</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00330030;ASD01140145</ASD_Ligand>
+      <PubMed_Title>New Paradigm for Allosteric Regulation of Escherichia coli Aspartate Transcarbamoylase.</PubMed_Title>
+      <Author>Cockrell, G.M., et al.</Author>
+      <Journal>Biochemistry(2013)52:8036-8047</Journal>
+      <PubMed_ID>24138583</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of wild-type E. coli Aspartate Transcarbamoylase in the presence of N-phosphonacetyl-L-isoasparagine at 2.3A resolution</PDB_Title>
+      <PDB_ID>2H3E</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2H3E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>N-Phosphonacetyl-l-isoasparagine a Potent and Specific Inhibitor of Escherichia coli Aspartate Transcarbamoylase.</PubMed_Title>
+      <Author>Eldo J, et al.</Author>
+      <Journal>J Med Chem.2006 Oct 5;49(20):5932-8.</Journal>
+      <PubMed_ID>17004708</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>A Second Allosteric site in E. coli Aspartate Transcarbamoylase: R-state ATCase with UTP bound</PDB_Title>
+      <PDB_ID>4F04</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4F04</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150002</ASD_Ligand>
+      <PubMed_Title>A Second Allosteric Site in E. coli Aspartate Transcarbamoylase.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF ASPARTATE CARBAMOYLTRANSFERASE LIGATED WITH PHOSPHONOACETAMIDE, MALONATE, AND CTP OR ATP AT 2.8-ANGSTROMS RESOLUTION AND NEUTRAL P*H</PDB_Title>
+      <PDB_ID>7AT1</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7AT1</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150001</ASD_Ligand>
+      <PubMed_Title>Crystal structures of aspartate carbamoyltransferase ligated with phosphonoacetamide, malonate, and CTP or ATP at 2.8-A resolution and neutral pH.</PubMed_Title>
+      <Author>Gouaux JE, et al.</Author>
+      <Journal>Biochemistry.1990 Aug 21;29(33):7702-15.</Journal>
+      <PubMed_ID>2271529</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Structure of Wild-Type E. Coli Aspartate Transcarbamoylase in Complex with Novel T State Inhibitors at 2.50 Resolution</PDB_Title>
+      <PDB_ID>2FZK</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FZK</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>T-state Inhibitors of E. coli Aspartate Transcarbamoylase that Prevent the Allosteric Transition.</PubMed_Title>
+      <Author>Heng S, et al.</Author>
+      <Journal>Biochemistry.2006 Aug 22;45(33):10062-71.</Journal>
+      <PubMed_ID>16906764</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Aspartate Transcarbamylase (ATCase) of Escherichia coli: A New Crystalline R State Bound to PALA, or to Product Analogues Phosphate and Citrate</PDB_Title>
+      <PDB_ID>1R0B</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1R0B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Aspartate Transcarbamylase (ATCase) of Escherichia coli: A New Crystalline R-State Bound to PALA, or to Product Analogues Citrate and Phosphate</PubMed_Title>
+      <Author>Huang J, et al.</Author>
+      <Journal>Biochemistry.2004 Jun 1;43(21):6415-21.</Journal>
+      <PubMed_ID>15157075</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CTP-LIGATED T STATE ASPARTATE TRANSCARBAMOYLASE AT 2.5 ANGSTROMS RESOLUTION: IMPLICATIONS FOR ATCASE MUTANTS AND THE MECHANISM OF NEGATIVE COOPERATIVITY</PDB_Title>
+      <PDB_ID>1RAE</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RAE</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of CTP-ligated T state aspartate transcarbamoylase at 2.5 A resolution: implications for ATCase mutants and the mechanism of negative cooperativity.</PubMed_Title>
+      <Author>Kosman RP, et al.</Author>
+      <Journal>Proteins.1993 Feb;15(2):147-76.</Journal>
+      <PubMed_ID>8441751</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CTP-LIGATED T STATE ASPARTATE TRANSCARBAMOYLASE AT 2.5 ANGSTROMS RESOLUTION: IMPLICATIONS FOR ATCASE MUTANTS AND THE MECHANISM OF NEGATIVE COOPERATIVITY</PDB_Title>
+      <PDB_ID>1RAB</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RAB</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of CTP-ligated T state aspartate transcarbamoylase at 2.5 A resolution: implications for ATCase mutants and the mechanism of negative cooperativity.</PubMed_Title>
+      <Author>Kosman RP, et al.</Author>
+      <Journal>Proteins.1993 Feb;15(2):147-76.</Journal>
+      <PubMed_ID>8441751</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CTP-LIGATED T STATE ASPARTATE TRANSCARBAMOYLASE AT 2.5 ANGSTROMS RESOLUTION: IMPLICATIONS FOR ATCASE MUTANTS AND THE MECHANISM OF NEGATIVE COOPERATIVITY</PDB_Title>
+      <PDB_ID>1RAI</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RAI</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of CTP-ligated T state aspartate transcarbamoylase at 2.5 A resolution: implications for ATCase mutants and the mechanism of negative cooperativity.</PubMed_Title>
+      <Author>Kosman RP, et al.</Author>
+      <Journal>Proteins.1993 Feb;15(2):147-76.</Journal>
+      <PubMed_ID>8441751</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of wild-type E. coli Aspartate Transcarbamoylase in the presence of CTP, carbamoyl phosphate at 2.50 A resolution</PDB_Title>
+      <PDB_ID>1ZA2</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZA2</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Structural basis for ordered substrate binding and cooperativity in aspartate transcarbamoylase</PubMed_Title>
+      <Author>Wang J, et al.</Author>
+      <Journal>Proc Natl Acad Sci U S A.2005 Jun 21;102(25):8881-6. Epub  2005 Jun 10.</Journal>
+      <PubMed_ID>15951418</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF PHOSPHONOACETAMIDE LIGATED T AND PHOSPHONOACETAMIDE AND MALONATE LIGATED R STATES OF ASPARTATE CARBAMOYLTRANSFERASE AT 2.8-ANGSTROMS RESOLUTION AND NEUTRAL PH</PDB_Title>
+      <PDB_ID>2AT1</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AT1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of phosphonoacetamide ligated T and phosphonoacetamide and malonate ligated R states of aspartate carbamoyltransferase at 2.8-A resolution and neutral pH.</PubMed_Title>
+      <Author>Gouaux JE, et al.</Author>
+      <Journal>Biochemistry.1990 Jan 16;29(2):389-402.</Journal>
+      <PubMed_ID>2405902</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>COMPLEX OF N-PHOSPHONACETYL-L-ASPARTATE WITH ASPARTATE CARBAMOYLTRANSFERASE. X-RAY REFINEMENT, ANALYSIS OF CONFORMATIONAL CHANGES AND CATALYTIC AND ALLOSTERIC MECHANISMS</PDB_Title>
+      <PDB_ID>8ATC</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8ATC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Complex of N-phosphonacetyl-L-aspartate with aspartate carbamoyltransferase. X-ray refinement, analysis of conformational changes and catalytic and allosteric mechanisms.</PubMed_Title>
+      <Author>Ke HM, et al.</Author>
+      <Journal>J Mol Biol.1988 Dec 5;204(3):725-47.</Journal>
+      <PubMed_ID>3066911</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CTP-LIGATED T STATE ASPARTATE TRANSCARBAMOYLASE AT 2.5 ANGSTROMS RESOLUTION: IMPLICATIONS FOR ATCASE MUTANTS AND THE MECHANISM OF NEGATIVE COOPERATIVITY</PDB_Title>
+      <PDB_ID>1RAC</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RAC</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of CTP-ligated T state aspartate transcarbamoylase at 2.5 A resolution: implications for ATCase mutants and the mechanism of negative cooperativity.</PubMed_Title>
+      <Author>Kosman RP, et al.</Author>
+      <Journal>Proteins.1993 Feb;15(2):147-76.</Journal>
+      <PubMed_ID>8441751</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>E. coli Aspartate Transcarbamylase 240's Loop Mutant (K244N)</PDB_Title>
+      <PDB_ID>1SKU</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1SKU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>240s Loop Interactions Stabilize the T State of Escherichia coli Aspartate Transcarbamoylase.</PubMed_Title>
+      <Author>Alam N, et al.</Author>
+      <Journal>J Biol Chem.2004 May 28;279(22):23302-10. Epub  2004 Mar 10.</Journal>
+      <PubMed_ID>15014067</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CTP-LIGATED T STATE ASPARTATE TRANSCARBAMOYLASE AT 2.5 ANGSTROMS RESOLUTION: IMPLICATIONS FOR ATCASE MUTANTS AND THE MECHANISM OF NEGATIVE COOPERATIVITY</PDB_Title>
+      <PDB_ID>1RAD</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RAD</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of CTP-ligated T state aspartate transcarbamoylase at 2.5 A resolution: implications for ATCase mutants and the mechanism of negative cooperativity.</PubMed_Title>
+      <Author>Kosman RP, et al.</Author>
+      <Journal>Proteins.1993 Feb;15(2):147-76.</Journal>
+      <PubMed_ID>8441751</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Products in the T State of Aspartate Transcarbamylase: Crystal Structure of the Phosphate and N-carbamyl-L-aspartate Ligated Enzyme</PDB_Title>
+      <PDB_ID>1R0C</PDB_ID>
+      <Resolution>2.37</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1R0C</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Products in the T-State of Aspartate Transcarbamylase: Crystal Structure of the Phosphate and N-Carbamyl-l-aspartate Ligated Enzyme</PubMed_Title>
+      <Author>Huang J, et al.</Author>
+      <Journal>Biochemistry.2004 Jun 1;43(21):6422-6.</Journal>
+      <PubMed_ID>15157076</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Aspartate Transcarbamoylase Catalytic Chain Mutant E50A Complex with Phosphonoacetamide</PDB_Title>
+      <PDB_ID>1TU0</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TU0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Monitoring the Transition from the T to the R State in E.coli Aspartate Transcarbamoylase by X-ray Crystallography: Crystal Structures of the E50A Mutant Enzyme in Four Distinct Allosteric States.</PubMed_Title>
+      <Author>Stieglitz K, et al.</Author>
+      <Journal>J Mol Biol.2004 Aug 13;341(3):853-68.</Journal>
+      <PubMed_ID>15288791</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURAL CONSEQUENCES OF EFFECTOR BINDING TO THE T STATE OF ASPARTATE CARBAMOYLTRANSFERASE. CRYSTAL STRUCTURES OF THE UNLIGATED AND ATP-, AND CTP-COMPLEXED ENZYMES AT 2.6-ANGSTROMS RESOLUTION</PDB_Title>
+      <PDB_ID>5AT1</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=5AT1</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Structural consequences of effector binding to the T state of aspartate carbamoyltransferase: crystal structures of the unligated and ATP- and CTP-complexed enzymes at 2.6-A resolution.</PubMed_Title>
+      <Author>Stevens RC, et al.</Author>
+      <Journal>Biochemistry.1990 Aug 21;29(33):7691-701.</Journal>
+      <PubMed_ID>2271528</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Structure of Wild-Type E. Coli Aspartate Transcarbamoylase in Complex with Novel T State Inhibitors at 2.10 Resolution</PDB_Title>
+      <PDB_ID>2FZC</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2FZC</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>T-state Inhibitors of E. coli Aspartate Transcarbamoylase that Prevent the Allosteric Transition.</PubMed_Title>
+      <Author>Heng S, et al.</Author>
+      <Journal>Biochemistry.2006 Aug 22;45(33):10062-71.</Journal>
+      <PubMed_ID>16906764</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The R state structure of E. coli ATCase with CTP,UTP, and Magnesium bound</PDB_Title>
+      <PDB_ID>4KH1</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_Method>X-ray</PDB_Method>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4KH1</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003;ASD00150002;ASD00330030</ASD_Ligand>
+      <PubMed_Title>New Paradigm for Allosteric Regulation of Escherichia coli Aspartate Transcarbamoylase.</PubMed_Title>
+      <Author>Cockrell, G.M., et al.</Author>
+      <Journal>Biochemistry(2013)52:8036-8047</Journal>
+      <PubMed_ID>24138583</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ARGININE 54 IN THE ACTIVE SITE OF ESCHERICHIA COLI ASPARTATE TRANSCARBAMOYLASE IS CRITICAL FOR CATALYSIS: A SITE-SPECIFIC MUTAGENESIS, NMR AND X-RAY CRYSTALLOGRAPHY STUDY</PDB_Title>
+      <PDB_ID>1ACM</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ACM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Arginine 54 in the active site of Escherichia coli aspartate transcarbamoylase is critical for catalysis: a site-specific mutagenesis, NMR, and X-ray crystallographic study.</PubMed_Title>
+      <Author>Stebbins JW, et al.</Author>
+      <Journal>Protein Sci.1992 Nov;1(11):1435-46.</Journal>
+      <PubMed_ID>1303763</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CTP-LIGATED T STATE ASPARTATE TRANSCARBAMOYLASE AT 2.5 ANGSTROMS RESOLUTION: IMPLICATIONS FOR ATCASE MUTANTS AND THE MECHANISM OF NEGATIVE COOPERATIVITY</PDB_Title>
+      <PDB_ID>1RAH</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RAH</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of CTP-ligated T state aspartate transcarbamoylase at 2.5 A resolution: implications for ATCase mutants and the mechanism of negative cooperativity.</PubMed_Title>
+      <Author>Kosman RP, et al.</Author>
+      <Journal>Proteins.1993 Feb;15(2):147-76.</Journal>
+      <PubMed_ID>8441751</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CTP-LIGATED T STATE ASPARTATE TRANSCARBAMOYLASE AT 2.5 ANGSTROMS RESOLUTION: IMPLICATIONS FOR ATCASE MUTANTS AND THE MECHANISM OF NEGATIVE COOPERATIVITY</PDB_Title>
+      <PDB_ID>1RAA</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RAA</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of CTP-ligated T state aspartate transcarbamoylase at 2.5 A resolution: implications for ATCase mutants and the mechanism of negative cooperativity.</PubMed_Title>
+      <Author>Kosman RP, et al.</Author>
+      <Journal>Proteins.1993 Feb;15(2):147-76.</Journal>
+      <PubMed_ID>8441751</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CTP-LIGATED T STATE ASPARTATE TRANSCARBAMOYLASE AT 2.5 ANGSTROMS RESOLUTION: IMPLICATIONS FOR ATCASE MUTANTS AND THE MECHANISM OF NEGATIVE COOPERATIVITY</PDB_Title>
+      <PDB_ID>1RAG</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RAG</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Crystal structure of CTP-ligated T state aspartate transcarbamoylase at 2.5 A resolution: implications for ATCase mutants and the mechanism of negative cooperativity.</PubMed_Title>
+      <Author>Kosman RP, et al.</Author>
+      <Journal>Proteins.1993 Feb;15(2):147-76.</Journal>
+      <PubMed_ID>8441751</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF ASPARTATE CARBAMOYLTRANSFERASE LIGATED WITH PHOSPHONOACETAMIDE, MALONATE, AND CTP OR ATP AT 2.8-ANGSTROMS RESOLUTION AND NEUTRAL P*H</PDB_Title>
+      <PDB_ID>8AT1</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=8AT1</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00150003</ASD_Ligand>
+      <PubMed_Title>Crystal structures of aspartate carbamoyltransferase ligated with phosphonoacetamide, malonate, and CTP or ATP at 2.8-A resolution and neutral pH.</PubMed_Title>
+      <Author>Gouaux JE, et al.</Author>
+      <Journal>Biochemistry.1990 Aug 21;29(33):7702-15.</Journal>
+      <PubMed_ID>2271529</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Aspartate Transcarbamoylase Catalytic Chain Mutant Glu50Ala Complexed with N-(Phosphonacetyl-L-Aspartate) (PALA)</PDB_Title>
+      <PDB_ID>1TTH</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TTH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Monitoring the Transition from the T to the R State in E.coli Aspartate Transcarbamoylase by X-ray Crystallography: Crystal Structures of the E50A Mutant Enzyme in Four Distinct Allosteric States.</PubMed_Title>
+      <Author>Stieglitz K, et al.</Author>
+      <Journal>J Mol Biol.2004 Aug 13;341(3):853-68.</Journal>
+      <PubMed_ID>15288791</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF E. COLI ASPARTATE TRANSCARBAMOYLASE P268A MUTANT IN THE R-STATE IN THE PRESENCE OF N-PHOSPHONACETYL-L-ASPARTATE</PDB_Title>
+      <PDB_ID>1F1B</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1F1B</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A cis-proline to alanine mutant of E. coli aspartate transcarbamoylase: kinetic studies and three-dimensional crystal structures.</PubMed_Title>
+      <Author>Jin L, et al.</Author>
+      <Journal>Biochemistry.2000 Jul 11;39(27):8058-66.</Journal>
+      <PubMed_ID>10891088</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00250</Pathway_ID>
+      <Pathway_Title>Alanine, aspartate and glutamate metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00240</Pathway_ID>
+      <Pathway_Title>Pyrimidine metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Nucleotide metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi?pdb=1acm;ver=1.75</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1acm</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.1.3.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/1/3/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00070007</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00150002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00150003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00290006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00330002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00330005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00330006</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00330007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00330009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00330010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00330030</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00338001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00900001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01260006</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01330010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02588003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

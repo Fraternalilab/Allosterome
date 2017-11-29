@@ -1,0 +1,657 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02650000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q15831</UniProt_ID>
+  <Seq_Length>433</Seq_Length>
+  <Molecule_Weight>48636</Molecule_Weight>
+  <KEGG_ID>hsa:6794</KEGG_ID>
+  <Orthology_ID>K07298</Orthology_ID>
+  <EBI_ID>EBI-306838</EBI_ID>
+  <Function_Summary>Tumor suppressor serine/threonine-protein kinase that controls the activity of AMP-activated protein kinase (AMPK) family members, thereby playing a role in various processes such as cell metabolism, cell polarity, apoptosis and DNA damage response. Acts by phosphorylating the T-loop of AMPK family proteins, leading to promote their activity: phosphorylates PRKAA1, PRKAA2, BRSK1, BRSK2, MARK1, MARK2, MARK3, MARK4, NUAK1, NUAK2, SIK1, SIK2, SIK3 and SNRK but not MELK. Also phosphorylates non-AMPK family proteins such as STRADA and possibly p53/TP53. Acts as a key upstream regulator of AMPK by mediating phosphorylation and activation of AMPK catalytic subunits PRKAA1 and PRKAA2: it thereby regulates inhibition of signaling pathways that promote cell growth and proliferation when energy levels are low, glucose homeostasis in liver, activation of autophagy when cells undergo nutrient deprivation, B-cell differentiation in the germinal center in response to DNA damage. Also acts as a regulator of cellular polarity by remodeling the actin cytoskeleton. Required for cortical neurons polarization by mediating phosphorylation and activation of BRSK1 and BRSK2, leading to axon initiation and specification. Involved in DNA damage response: interacts with p53/TP53 and recruited to the CDKN1A/WAF1 promoter to participate in transcription activation. Able to phosphorylate p53/TP53; the relevance of such result in vivo is however unclear and phosphorylation may be indirect and mediated by downstream STK11/LKB1 kinase NUAK1 Also acts as a mediator p53/TP53-dependent apoptosis via interaction with p53/TP53: translocates to mitochondrion during apoptosis and regulates p53/TP53-dependent apoptosis pathways.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a protein = ADP + a phosphoprotein.</Catalytic_Mechanism>
+  <Pfam_ID>PF00069:Pkinase</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Renal carcinoma antigen NY-REN-19</Alias>
+      <Alias>Polarization-related protein LKB1</Alias>
+      <Alias>Serine/threonine-protein kinase LKB1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Increases the activity of a protein kinase, an enzyme which phosphorylates a protein.</Detail>
+      <Keyword>Protein kinase activator activity</Keyword>
+      <Ontology_ID>GO:0030295</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with one of the p53 family of proteins.</Detail>
+      <Keyword>P53 binding</Keyword>
+      <Ontology_ID>GO:0002039</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>208</Position>
+      <Original>Asp</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>216</Position>
+      <Original>Ser</Original>
+      <Variation>Phe</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>223</Position>
+      <Original>Glu</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>205</Position>
+      <Original>Ala</Original>
+      <Variation>Thr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>163</Position>
+      <Original>Gly</Original>
+      <Variation>Asp</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>324</Position>
+      <Original>Pro</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>239</Position>
+      <Original>Trp</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>66</Position>
+      <Original>Val</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>49</Position>
+      <Original>Tyr</Original>
+      <Variation>Asp</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>171</Position>
+      <Original>Gly</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>245</Position>
+      <Original>Leu</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>87</Position>
+      <Original>Arg</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>67</Position>
+      <Original>Leu</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>86</Position>
+      <Original>Arg</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>354</Position>
+      <Original>Phe</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>194</Position>
+      <Original>Asp</Original>
+      <Variation>Tyr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>135</Position>
+      <Original>Gly</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>194</Position>
+      <Original>Asp</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>231</Position>
+      <Original>Phe</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>272</Position>
+      <Original>Tyr</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>174</Position>
+      <Original>His</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>14</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>123</Position>
+      <Original>Gln</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>250</Position>
+      <Original>Thr</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>181</Position>
+      <Original>Asn</Original>
+      <Variation>Glu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>285</Position>
+      <Original>Leu</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>170</Position>
+      <Original>Gln</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>314</Position>
+      <Original>Pro</Original>
+      <Variation>His</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>199</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>160</Position>
+      <Original>Leu</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>194</Position>
+      <Original>Asp</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>16</Position>
+      <Original>Glu</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>297</Position>
+      <Original>Arg</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>199</Position>
+      <Original>Glu</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>315</Position>
+      <Original>Pro</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>176</Position>
+      <Original>Asp</Original>
+      <Variation>Tyr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>281</Position>
+      <Original>Pro</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>367</Position>
+      <Original>Thr</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>277</Position>
+      <Original>Asp</Original>
+      <Variation>Tyr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>215</Position>
+      <Original>Gly</Original>
+      <Variation>Asp</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>177</Position>
+      <Original>Ile</Original>
+      <Variation>Asn</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>232</Position>
+      <Original>Ser</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>230</Position>
+      <Original>Thr</Original>
+      <Variation>Pro</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>157</Position>
+      <Original>Phe</Original>
+      <Variation>Ser</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of the vasculature over time, from its formation to the mature structure. The vasculature is an interconnected tubular multi-tissue structure that contains fluid that is actively transported around the organism.</Detail>
+      <Keyword>Vasculature development</Keyword>
+      <Ontology_ID>GO:0001944</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cascade of processes induced by the cell cycle regulator phosphoprotein p53, or an equivalent protein, that results in the induction of apoptosis.</Detail>
+      <Keyword>Signal transduction by p53 class mediator resulting in induction of apoptosis</Keyword>
+      <Ontology_ID>GO:0072332</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A regulatory process that halts progression through the cell cycle during one of the normal phases (G1, S, G2, M).</Detail>
+      <Keyword>Cell cycle arrest</Keyword>
+      <Ontology_ID>GO:0007050</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of TGF-beta receptor signaling pathway activity.</Detail>
+      <Keyword>Positive regulation of transforming growth factor beta receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0030511</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving small molecules, any monomeric molecule of small relative molecular mass.</Detail>
+      <Keyword>Small molecule metabolic process</Keyword>
+      <Ontology_ID>GO:0044281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of fatty acid oxidation.</Detail>
+      <Keyword>Regulation of fatty acid oxidation</Keyword>
+      <Ontology_ID>GO:0046320</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of fatty acids, any of the aliphatic monocarboxylic acids that can be liberated by hydrolysis from naturally occurring fats and oils.</Detail>
+      <Keyword>Regulation of fatty acid biosynthetic process</Keyword>
+      <Ontology_ID>GO:0042304</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation by a protein of one or more of its own amino acid residues, or residues on an identical protein.</Detail>
+      <Keyword>Protein autophosphorylation</Keyword>
+      <Ontology_ID>GO:0046777</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways by which a cell derives energy from stored compounds such as fats or glycogen.</Detail>
+      <Keyword>Energy reserve metabolic process</Keyword>
+      <Ontology_ID>GO:0006112</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which cells digest parts of their own cytoplasm; allows for both recycling of macromolecular constituents under conditions of cellular stress and remodeling the intracellular structure for cell differentiation.</Detail>
+      <Keyword>Autophagy</Keyword>
+      <Ontology_ID>GO:0006914</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The specification and formation of anisotropic intracellular organization or cell growth patterns.</Detail>
+      <Keyword>Establishment of cell polarity</Keyword>
+      <Ontology_ID>GO:0030010</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a ionizing radiation stimulus. Ionizing radiation is radiation with sufficient energy to remove electrons from atoms and may arise from spontaneous decay of unstable isotopes, resulting in alpha and beta particles and gamma rays. Ionizing radiation also includes X-rays.</Detail>
+      <Keyword>Response to ionizing radiation</Keyword>
+      <Ontology_ID>GO:0010212</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Apoptosis triggered by inadequate or inappropriate adherence to substrate e.g. after disruption of the interactions between normal epithelial cells and the extracellular matrix.</Detail>
+      <Keyword>Anoikis</Keyword>
+      <Ontology_ID>GO:0043276</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the maintenance of an internal steady state of glucose within an organism or cell.</Detail>
+      <Keyword>Glucose homeostasis</Keyword>
+      <Ontology_ID>GO:0042593</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell growth.</Detail>
+      <Keyword>Negative regulation of cell growth</Keyword>
+      <Ontology_ID>GO:0030308</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the insulin receptor binding to insulin.</Detail>
+      <Keyword>Insulin receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0008286</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of biochemical and morphological phases and events that occur in a cell during successive cell replication or nuclear replication events. Canonically, the cell cycle comprises the replication and segregation of genetic material followed by the division of the cell, but in endocycles or syncytial cells nuclear replication or nuclear division may not be followed by cell division.</Detail>
+      <Keyword>Cell cycle</Keyword>
+      <Ontology_ID>GO:0007049</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>189</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>325</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>363</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>31</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>428</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>336</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MEVVDPQQLGMFTEGELMSVGMDTFIHRIDSTEVIYQPRRKRAKLIGKYLMGDLLGEGSYGKVKEVLDSETLCRRAVKILKKKKLRRIPNGEANVKKEIQLLRRLRHKNVIQLVDVLYNEEKQKMYMVMEYCVCGMQEMLDSVPEKRFPVCQAHGYFCQLIDGLEYLHSQGIVHKDIKPGNLLLTTGGTLKISDLGVAEALHPFAADDTCRTSQGSPAFQPPEIANGLDTFSGFKVDIWSAGVTLYNITTGLYPFEGDNIYKLFENIGKGSYAIPGDCGPPLSDLLKGMLEYEPAKRFSIRQIRQHSWFRKKHPPAEAPVPIPPSPDTKDRWRSMTVVPYLEDLHGADEDEDLFDIEDDIIYTQDFTVPGQVPEEEASHNGQRRGLPKAVCMNGTEAAQLSTKSRAEGRAPNPARKACSASSKIRRLSACKQQ</Protein_Seq>
+    <DNA_Seq>CCCAGGGTCCCCGAGGACGAAGTTGACCCTGACCGGGCCGTCTCCCAGTTCTGAGGCCCGGGTCCCACTGGAACTCGCGTCTGAGCCACCGTCCCGGACCCCCGGTGCCCGCCGGTCCGCAGACCCTGCACCGGGCTTGGACTCGCAGCCGGGACTGACGTGTAGAACAATCGTTTCTGTTGGAAGAAGGGTTTTTCCCTTCCTTTTGGGGTTTTTGTTGCCTTTTTTTTTTCTTTTTTCTTTGTAAAATTTTGGAGAAGGGAAGTCGGAACACAAGGAAGGACCGCTCACCCGCGGACTCAGGGCTGGCGGCGGGACTCCAGGACCCTGGGTCCAGCATGGAGGTGGTGGACCCGCAGCAGCTGGGCATGTTCACGGAGGGCGAGCTGATGTCGGTGGGTATGGACACGTTCATCCACCGCATCGACTCCACCGAGGTCATCTACCAGCCGCGCCGCAAGCGGGCCAAGCTCATCGGCAAGTACCTGATGGGGGACCTGCTGGGGGAAGGCTCTTACGGCAAGGTGAAGGAGGTGCTGGACTCGGAGACGCTGTGCAGGAGGGCCGTCAAGATCCTCAAGAAGAAGAAGTTGCGAAGGATCCCCAACGGGGAGGCCAACGTGAAGAAGGAAATTCAACTACTGAGGAGGTTACGGCACAAAAATGTCATCCAGCTGGTGGATGTGTTATACAACGAAGAGAAGCAGAAAATGTATATGGTGATGGAGTACTGCGTGTGTGGCATGCAGGAAATGCTGGACAGCGTGCCGGAGAAGCGTTTCCCAGTGTGCCAGGCCCACGGGTACTTCTGTCAGCTGATTGACGGCCTGGAGTACCTGCATAGCCAGGGCATTGTGCACAAGGACATCAAGCCGGGGAACCTGCTGCTCACCACCGGTGGCACCCTCAAAATCTCCGACCTGGGCGTGGCCGAGGCACTGCACCCGTTCGCGGCGGACGACACCTGCCGGACCAGCCAGGGCTCCCCGGCTTTCCAGCCGCCCGAGATTGCCAACGGCCTGGACACCTTCTCCGGCTTCAAGGTGGACATCTGGTCGGCTGGGGTCACCCTCTACAACATCACCACGGGTCTGTACCCCTTCGAAGGGGACAACATCTACAAGTTGTTTGAGAACATCGGGAAGGGGAGCTACGCCATCCCGGGCGACTGTGGCCCCCCGCTCTCTGACCTGCTGAAAGGGATGCTTGAGTACGAACCGGCCAAGAGGTTCTCCATCCGGCAGATCCGGCAGCACAGCTGGTTCCGGAAGAAACATCCTCCGGCTGAAGCACCAGTGCCCATCCCACCGAGCCCAGACACCAAGGACCGGTGGCGCAGCATGACTGTGGTGCCGTACTTGGAGGACCTGCACGGCGCGGACGAGGACGAGGACCTCTTCGACATCGAGGATGACATCATCTACACTCAGGACTTCACGGTGCCCGGACAGGTCCCAGAAGAGGAGGCCAGTCACAATGGACAGCGCCGGGGCCTCCCCAAGGCCGTGTGTATGAACGGCACAGAGGCGGCGCAGCTGAGCACCAAATCCAGGGCGGAGGGCCGGGCCCCCAACCCTGCCCGCAAGGCCTGCTCCGCCAGCAGCAAGATCCGCCGGCTGTCGGCCTGCAAGCAGCAGTGAGGCTGGCCGCCTGCAGCCCGTGTCCAGGAGCCCCGCCAGGTGCCCGCGCCAGGCCCTCAGTCTTCCTGCCGGTTCCGCCCGCCCTCCCGGAGAGGTGGCCGCCATGCTTCTGTGCCGACCACGCCCCAGGACCTCCGGAGCGCCCTGCAGGGCCGGGCAGGGGGACAGCAGGGACCGGGCGCAGCCCTCCCCCCTCGGCCGCCCGGCAGTGCACGCGGCTTGTTGACTTCGCAGCCCCGGGCGGAGCCTTCCCGGGCGGGCGTGGGAGGAGGGAGGCGGCCTCCATGCACTTTATGTGGAGACTACTGGCCCCGCCCGTGGCCTCGTGCTCCGCAGGGCGCCCAGCGCCGTCCGGCGGCCCCGCCGCAGACCAGCTGGCGGGTGTGGAGACCAGGCTCCTGACCCCGCCATGCATGCAGCGCCACCTGGAAGCCGCGCGGCCGCTTTGGTTTTTTGTTTGGTTGGTTCCATTTTCTTTTTTTCTTTTTTTTTTTAAGAAAAAATAAAAGGTGGATTTG</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>STK11</Gene_Name>
+    <Gene_Alias>LKB1; PJS</Gene_Alias>
+    <Gene_ID>6794</Gene_ID>
+    <Genbank_ACCN>NM_000455</Genbank_ACCN>
+    <Protein_ACCN>NP_000446</Protein_ACCN>
+    <HGNC_ID>11389</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/6794</Gene_URL>
+    <UCSC_ID>uc002lrl.1</UCSC_ID>
+    <EMBL_ID>ENSG00000118046</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q9Y376</Uniprot_ID>
+      <Gene_Name>CAB39</Gene_Name>
+      <EBI_ID>EBI-306905</EBI_ID>
+      <PPI_EBI_URL>EBI-306838,EBI-306905</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q96L34</Uniprot_ID>
+      <Gene_Name>MARK4</Gene_Name>
+      <EBI_ID>EBI-302319</EBI_ID>
+      <PPI_EBI_URL>EBI-306838,EBI-302319</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9NNW5</Uniprot_ID>
+      <Gene_Name>WDR6</Gene_Name>
+      <EBI_ID>EBI-1568315</EBI_ID>
+      <PPI_EBI_URL>EBI-306838,EBI-1568315</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q8NFZ5</Uniprot_ID>
+      <Gene_Name>TNIP2</Gene_Name>
+      <EBI_ID>EBI-359372</EBI_ID>
+      <PPI_EBI_URL>EBI-306838,EBI-359372</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q7RTN6</Uniprot_ID>
+      <Gene_Name>STRADA</Gene_Name>
+      <EBI_ID>EBI-1109114</EBI_ID>
+      <PPI_EBI_URL>EBI-306838,EBI-1109114</PPI_EBI_URL>
+      <Experiment_Number>9</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9C0K7</Uniprot_ID>
+      <Gene_Name>STRADB</Gene_Name>
+      <EBI_ID>EBI-306893</EBI_ID>
+      <PPI_EBI_URL>EBI-306838,EBI-306893</PPI_EBI_URL>
+      <Experiment_Number>6</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Polyhydramnios</Disease_Name>
+      <Disease_Detail>Polyhydramnios</Disease_Detail>
+      <Disease_DB>PLY012</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/polyhydramnios?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pancreatic Carcinoma, Somatic</Disease_Name>
+      <Disease_Detail>Pancreatic Cancer</Disease_Detail>
+      <Disease_DB>PNC073</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pancreatic_carcinoma_somatic?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Testicular Tumor, Somatic</Disease_Name>
+      <Disease_Detail>Testicular Tumor, Somatic</Disease_Detail>
+      <Disease_DB>TST036</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/testicular_tumor_somatic?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Acinar Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Acinar Cell Carcinoma</Disease_Detail>
+      <Disease_DB>ACN001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/acinar_cell_carcinoma?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pancreatic Cancer</Disease_Name>
+      <Disease_Detail>Pancreatic Cancer</Disease_Detail>
+      <Disease_DB>PNC035</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pancreatic_cancer?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Germ Cell Tumors</Disease_Name>
+      <Disease_Detail>Germ Cell Tumors</Disease_Detail>
+      <Disease_DB>GRM009</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/germ_cell_tumors?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Tuberous Sclerosis</Disease_Name>
+      <Disease_Detail>Tuberous Sclerosis</Disease_Detail>
+      <Disease_DB>TBR001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/tuberous_sclerosis?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Peutz-Jeghers Syndrome</Disease_Name>
+      <Disease_Detail>Peutz-Jeghers Syndrome</Disease_Detail>
+      <Disease_DB>PTZ001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/peutz_jeghers_syndrome?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Male Germ Cell Tumor, Somatic</Disease_Name>
+      <Disease_Detail>Male Germ Cell Tumor</Disease_Detail>
+      <Disease_DB>MLG121</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/male_germ_cell_tumor_somatic?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Melanoma, Malignant, Somatic</Disease_Name>
+      <Disease_Detail>Melanoma</Disease_Detail>
+      <Disease_DB>MLN020</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/melanoma_malignant_somatic?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Intussusception</Disease_Name>
+      <Disease_Detail>Intussusception</Disease_Detail>
+      <Disease_DB>INT051</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/intussusception?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Lung Cancer</Disease_Name>
+      <Disease_Detail>Lung Cancer</Disease_Detail>
+      <Disease_DB>LNG032</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/lung_cancer?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Carney Complex</Disease_Name>
+      <Disease_Detail>Carney Complex</Disease_Detail>
+      <Disease_DB>CRN008</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/carney_complex?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Cowden Disease</Disease_Name>
+      <Disease_Detail>Cowden Disease</Disease_Detail>
+      <Disease_DB>CWD001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/cowden_disease?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Spermatocytic Seminoma, Somatic</Disease_Name>
+      <Disease_Detail>Spermatocytic Seminoma, Somatic</Disease_Detail>
+      <Disease_DB>SPR085</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/spermatocytic_seminoma_somatic?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Megalencephaly</Disease_Name>
+      <Disease_Detail>Megalencephaly</Disease_Detail>
+      <Disease_DB>MGL013</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/megalencephaly?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Juvenile Polyposis Syndrome</Disease_Name>
+      <Disease_Detail>Juvenile Polyposis Syndrome</Disease_Detail>
+      <Disease_DB>JVN014</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/juvenile_polyposis_syndrome?search=STK11#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Large Cell Carcinoma</Disease_Name>
+      <Disease_Detail>Large Cell Carcinoma</Disease_Detail>
+      <Disease_DB>LRG001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/large_cell_carcinoma?search=STK11#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>STRUCTURE OF THE HETEROTRIMERIC LKB1-STRADALPHA-MO25ALPHA COMPLEX</PDB_Title>
+      <PDB_ID>2WTK</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WTK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>PHOSPHOAMINOPHOSPHONIC ACID-ADENYLATE ESTER</Ligand_Name>
+      <PubMed_Title>Structure of the LKB1-STRAD-MO25 complex reveals an allosteric mechanism of kinase activation.</PubMed_Title>
+      <Author>Zeqiraj E, et al.</Author>
+      <Journal>Science. 2009 Dec 18;326(5960):1707-11. Epub 2009 Nov 5.</Journal>
+      <PubMed_ID>19892943</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04068</Pathway_ID>
+      <Pathway_Title>FoxO signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04151</Pathway_ID>
+      <Pathway_Title>PI3K-Akt signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04150</Pathway_ID>
+      <Pathway_Title>mTOR signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04920</Pathway_ID>
+      <Pathway_Title>Adipocytokine signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Endocrine system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04152</Pathway_ID>
+      <Pathway_Title>AMPK signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Zeqiraj E, et al. Science. 2009,326(5960):1707-1711.</Site_Reference>
+      <Site_Type>Protein-induced</Site_Type>
+      <PubMed_ID>19892943</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

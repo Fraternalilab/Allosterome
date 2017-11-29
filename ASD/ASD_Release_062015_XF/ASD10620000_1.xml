@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD10620000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>Q16620</UniProt_ID>
+  <Seq_Length>822</Seq_Length>
+  <Molecule_Weight>91999</Molecule_Weight>
+  <KEGG_ID>hsa:4915</KEGG_ID>
+  <Orthology_ID>K04360</Orthology_ID>
+  <Function_Summary>Receptor tyrosine kinase involved in the development and the maturation of the central and the peripheral nervous systems through regulation of neuron survival, proliferation, migration, differentiation, and synapse formation and plasticity. Receptor for BDNF/brain-derived neurotrophic factor and NTF4/neurotrophin-4. Alternatively can also bind NTF3/neurotrophin-3 which is less efficient in activating the receptor but regulates neuron survival through NTRK2. Upon ligand-binding, undergoes homodimerization, autophosphorylation and activation. Recruits, phosphorylates and/or activates several downstream effectors including SHC1, FRS2, SH2B1, SH2B2 and PLCG1 that regulate distinct overlapping signaling cascades. Through SHC1, FRS2, SH2B1, SH2B2 activates the GRB2-Ras-MAPK cascade that regulates for instance neuronal differentiation including neurite outgrowth. Through the same effectors controls the Ras-PI3 kinase-AKT1 signaling cascade that mainly regulates growth and survival. Through PLCG1 and the downstream protein kinase C-regulated pathways controls synaptic plasticity. Thereby, plays a role in learning and memory by regulating both short term synaptic function and long-term potentiation. PLCG1 also leads to NF-Kappa-B activation and the transcription of genes involved in cell survival. Hence, it is able to suppress anoikis, the apoptosis resulting from loss of cell-matrix interactions. May also play a role in neutrophin-dependent calcium signaling in glial cells and mediate communication between neurons and glia.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a [protein]-L-tyrosine = ADP + a [protein]-L-tyrosine phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF07679:I-set@@PF01462:LRRNT@@PF07714:Pkinase_Tyr</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Tropomyosin-related kinase B</Alias>
+      <Alias>Neurotrophic tyrosine kinase receptor type 2</Alias>
+      <Alias>GP145-TrkB</Alias>
+      <Alias>Trk-B</Alias>
+      <Alias>TrkB tyrosine kinase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Combining with an extracellular or intracellular messenger to initiate a change in cell activity.</Detail>
+      <Keyword>Receptor activity</Keyword>
+      <Ontology_ID>GO:0004872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a protein tyrosine = ADP + protein tyrosine phosphate.</Detail>
+      <Keyword>Protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004713</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with brain-derived neurotrophic factor.</Detail>
+      <Keyword>Brain-derived neurotrophic factor binding</Keyword>
+      <Ontology_ID>GO:0048403</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Combining with brain-derived neurotrophic factor, to block apoptosis in neurons and promote nerve growth, or to initiate a change in cell activity.</Detail>
+      <Keyword>Brain-derived neurotrophic factor receptor activity</Keyword>
+      <Ontology_ID>GO:0060175</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>706</Position>
+      <Original>Tyr</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>545</Position>
+      <Original>Gly</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>718</Position>
+      <Original>Arg</Original>
+      <Variation>Cys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>138</Position>
+      <Original>Leu</Original>
+      <Variation>Phe</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>697</Position>
+      <Original>Met</Original>
+      <Variation>Ile</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>338</Position>
+      <Original>Asn</Original>
+      <Variation>Tyr</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>309</Position>
+      <Original>Gly</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>699</Position>
+      <Original>Arg</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The characteristic movement of an immature neuron from germinal zones to specific positions where they will reside as they mature.</Detail>
+      <Keyword>Neuron migration</Keyword>
+      <Ontology_ID>GO:0001764</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of the cerebral cortex over time from its initial formation until its mature state. The cerebral cortex is the outer layered region of the telencephalon.</Detail>
+      <Keyword>Cerebral cortex development</Keyword>
+      <Ontology_ID>GO:0021987</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The biological process whose specific outcome is the progression of a multicellular organism over time from an initial condition (e.g. a zygote or a young adult) to a later condition (e.g. a multicellular animal or an aged adult).</Detail>
+      <Keyword>Multicellular organismal development</Keyword>
+      <Ontology_ID>GO:0007275</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the MAPK cascade.</Detail>
+      <Keyword>Positive regulation of MAPKKK cascade</Keyword>
+      <Ontology_ID>GO:0043410</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the rate, frequency or extent of neuron projection development. Neuron projection development is the process whose specific outcome is the progression of a neuron projection over time, from its formation to the mature structure. A neuron projection is any process extending from a neural cell, such as axons or dendrites (collectively called neurites).</Detail>
+      <Keyword>Positive regulation of neuron projection development</Keyword>
+      <Ontology_ID>GO:0010976</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized cell acquires specialized features of a mechanoreceptor, a cell specialized to transduce mechanical stimuli and relay that information centrally in the nervous system.</Detail>
+      <Keyword>Mechanoreceptor differentiation</Keyword>
+      <Ontology_ID>GO:0042490</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an auditory stimulus.</Detail>
+      <Keyword>Response to auditory stimulus</Keyword>
+      <Ontology_ID>GO:0010996</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A process that modulates synaptic plasticity such that synapses are changed resulting in the increase in the rate, or frequency of synaptic transmission at the synapse.</Detail>
+      <Keyword>Long-term synaptic potentiation</Keyword>
+      <Ontology_ID>GO:0060291</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of axonogenesis.</Detail>
+      <Keyword>Positive regulation of axonogenesis</Keyword>
+      <Ontology_ID>GO:0050772</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The differentiation of endothelial cells from progenitor cells during blood vessel development, and the de novo formation of blood vessels and tubes.</Detail>
+      <Keyword>Vasculogenesis</Keyword>
+      <Ontology_ID>GO:0001570</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The controlled release of glutamate by a cell or group of cells. The glutamate is the most abundant excitatory neurotransmitter in the nervous system.</Detail>
+      <Keyword>Glutamate secretion</Keyword>
+      <Ontology_ID>GO:0014047</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the activity of a GTPase of the Rac family.</Detail>
+      <Keyword>Regulation of Rac GTPase activity</Keyword>
+      <Ontology_ID>GO:0032314</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of a neuron whose cell body is located in the peripheral nervous system, from initial commitment of the cell to a neuronal fate, to the fully functional differentiated neuron.</Detail>
+      <Keyword>Peripheral nervous system neuron development</Keyword>
+      <Ontology_ID>GO:0048935</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of nervous tissue over time, from its formation to its mature state.</Detail>
+      <Keyword>Nervous system development</Keyword>
+      <Ontology_ID>GO:0007399</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of cell death by apoptosis in neurons.</Detail>
+      <Keyword>Negative regulation of neuron apoptosis</Keyword>
+      <Ontology_ID>GO:0043524</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the protein kinase B signaling cascade, a series of reactions mediated by the intracellular serine/threonine kinase protein kinase B.</Detail>
+      <Keyword>Regulation of protein kinase B signaling cascade</Keyword>
+      <Ontology_ID>GO:0051896</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of signal transduction mediated by the phosphatidylinositol 3-kinase cascade.</Detail>
+      <Keyword>Positive regulation of phosphatidylinositol 3-kinase cascade</Keyword>
+      <Ontology_ID>GO:0014068</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates, maintains or increases the frequency, rate or extent of glutamatergic synaptic transmission, the process of communication from a neuron to another neuron across a synapse using the neurotransmitter glutamate.</Detail>
+      <Keyword>Positive regulation of synaptic transmission, glutamatergic</Keyword>
+      <Ontology_ID>GO:0051968</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the regulated release of a neurotransmitter from a cell or group of cells.</Detail>
+      <Keyword>Regulation of neurotransmitter secretion</Keyword>
+      <Ontology_ID>GO:0046928</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The inherent decline over time, from the optimal fertility and viability of early maturity, that may precede death and may be preceded by other indications, such as sterility.</Detail>
+      <Keyword>Aging</Keyword>
+      <Ontology_ID>GO:0007568</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The memory process that deals with the storage, retrieval and modification of information a long time (typically weeks, months or years) after receiving that information. This type of memory is typically dependent on gene transcription regulated by second messenger activation.</Detail>
+      <Keyword>Long-term memory</Keyword>
+      <Ontology_ID>GO:0007616</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the rate or extent of cell proliferation.</Detail>
+      <Keyword>Positive regulation of cell proliferation</Keyword>
+      <Ontology_ID>GO:0008284</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of the nerve growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Nerve growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048011</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A series of molecular signals in which a cell uses calcium ions released from an intracellular store to convert a signal into a response.</Detail>
+      <Keyword>Calcium-mediated signaling using intracellular calcium source</Keyword>
+      <Ontology_ID>GO:0035584</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation by a protein of one or more of its own amino acid residues, or residues on an identical protein.</Detail>
+      <Keyword>Protein autophosphorylation</Keyword>
+      <Ontology_ID>GO:0046777</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience.</Detail>
+      <Keyword>Learning</Keyword>
+      <Ontology_ID>GO:0007612</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized cell acquires the specialized features of an oligodendrocyte. An oligodendrocyte is a type of glial cell involved in myelinating the axons of neurons in the central nervous system.</Detail>
+      <Keyword>Oligodendrocyte differentiation</Keyword>
+      <Ontology_ID>GO:0048709</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Development of a rod cell, one of the sensory cells in the eye that reacts to the presence of light. Rod cells contain the photopigment rhodopsin or porphyropsin and are responsible for vision in dim light.</Detail>
+      <Keyword>Retinal rod cell development</Keyword>
+      <Ontology_ID>GO:0046548</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process whose specific outcome is the progression of a neuron whose cell body is located in the central nervous system, from initial commitment of the cell to a neuronal fate, to the fully functional differentiated neuron.</Detail>
+      <Keyword>Central nervous system neuron development</Keyword>
+      <Ontology_ID>GO:0021954</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which relatively unspecialized cells, e.g. embryonic or regenerative cells, acquire specialized structural and/or functional features that characterize the cells, tissues, or organs of the mature organism or some other relatively stable phase of the organism's life history. Differentiation includes the processes involved in commitment of a cell to a specific fate and its subsequent development to the mature state.</Detail>
+      <Keyword>Cell differentiation</Keyword>
+      <Ontology_ID>GO:0030154</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of dendrite development.</Detail>
+      <Keyword>Regulation of dendrite development</Keyword>
+      <Ontology_ID>GO:0050773</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that initiates the activity of the inactive enzyme adenylate cyclase.</Detail>
+      <Keyword>Activation of adenylate cyclase activity</Keyword>
+      <Ontology_ID>GO:0007190</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that increases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene's coding sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</Detail>
+      <Keyword>Positive regulation of gene expression</Keyword>
+      <Ontology_ID>GO:0010628</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Behavior associated with the intake of food.</Detail>
+      <Keyword>Feeding behavior</Keyword>
+      <Ontology_ID>GO:0007631</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>817</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>516</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>707</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>702</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>706</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MSSWIRWHGPAMARLWGFCWLVVGFWRAAFACPTSCKCSASRIWCSDPSPGIVAFPRLEPNSVDPENITEIFIANQKRLEIINEDDVEAYVGLRNLTIVDSGLKFVAHKAFLKNSNLQHINFTRNKLTSLSRKHFRHLDLSELILVGNPFTCSCDIMWIKTLQEAKSSPDTQDLYCLNESSKNIPLANLQIPNCGLPSANLAAPNLTVEEGKSITLSCSVAGDPVPNMYWDVGNLVSKHMNETSHTQGSLRITNISSDDSGKQISCVAENLVGEDQDSVNLTVHFAPTITFLESPTSDHHWCIPFTVKGNPKPALQWFYNGAILNESKYICTKIHVTNHTEYHGCLQLDNPTHMNNGDYTLIAKNEYGKDEKQISAHFMGWPGIDDGANPNYPDVIYEDYGTAANDIGDTTNRSNEIPSTDVTDKTGREHLSVYAVVVIASVVGFCLLVMLFLLKLARHSKFGMKGPASVISNDDDSASPLHHISNGSNTPSSSEGGPDAVIIGMTKIPVIENPQYFGITNSQLKPDTFVQHIKRHNIVLKRELGEGAFGKVFLAECYNLCPEQDKILVAVKTLKDASDNARKDFHREAELLTNLQHEHIVKFYGVCVEGDPLIMVFEYMKHGDLNKFLRAHGPDAVLMAEGNPPTELTQSQMLHIAQQIAAGMVYLASQHFVHRDLATRNCLVGENLLVKIGDFGMSRDVYSTDYYRVGGHTMLPIRWMPPESIMYRKFTTESDVWSLGVVLWEIFTYGKQPWYQLSNNEVIECITQGRVLQRPRTCPQEVYELMLGCWQREPHMRKNIKGIHTLLQNLAKASPVYLDILG</Protein_Seq>
+    <DNA_Seq>GCGTCAGCCCTCACGTCACTTCGCCAGCAGTAGCAGAGGCGGCGGCGGCGGCTCCCGGAATTGGGTTGGAGCAGGAGCCTCGCTGGCTGCTTCGCTCGCGCTCTACGCGCTCAGTCCCCGGCGGTAGCAGGAGCCTGGACCCAGGCGCCGCCGGCGGGCGTGAGGCGCCGGAGCCCGGCCTCGAGGTGCATACCGGACCCCCATTCGCATCTAACAAGGAATCTGCGCCCCAGAGAGTCCCGGGAGCGCCGCCGGTCGGTGCCCGGCGCGCCGGGCCATGCAGCGACGGCCGCCGCGGAGCTCCGAGCAGCGGTAGCGCCCCCCTGTAAAGCGGTTCGCTATGCCGGGGCCACTGTGAACCCTGCCGCCTGCCGGAACACTCTTCGCTCCGGACCAGCTCAGCCTCTGATAAGCTGGACTCGGCACGCCCGCAACAAGCACCGAGGAGTTAAGAGAGCCGCAAGCGCAGGGAAGGCCTCCCCGCACGGGTGGGGGAAAGCGGCCGGTGCAGCGCGGGGACAGGCACTCGGGCTGGCACTGGCTGCTAGGGATGTCGTCCTGGATAAGGTGGCATGGACCCGCCATGGCGCGGCTCTGGGGCTTCTGCTGGCTGGTTGTGGGCTTCTGGAGGGCCGCTTTCGCCTGTCCCACGTCCTGCAAATGCAGTGCCTCTCGGATCTGGTGCAGCGACCCTTCTCCTGGCATCGTGGCATTTCCGAGATTGGAGCCTAACAGTGTAGATCCTGAGAACATCACCGAAATTTTCATCGCAAACCAGAAAAGGTTAGAAATCATCAACGAAGATGATGTTGAAGCTTATGTGGGACTGAGAAATCTGACAATTGTGGATTCTGGATTAAAATTTGTGGCTCATAAAGCATTTCTGAAAAACAGCAACCTGCAGCACATCAATTTTACCCGAAACAAACTGACGAGTTTGTCTAGGAAACATTTCCGTCACCTTGACTTGTCTGAACTGATCCTGGTGGGCAATCCATTTACATGCTCCTGTGACATTATGTGGATCAAGACTCTCCAAGAGGCTAAATCCAGTCCAGACACTCAGGATTTGTACTGCCTGAATGAAAGCAGCAAGAATATTCCCCTGGCAAACCTGCAGATACCCAATTGTGGTTTGCCATCTGCAAATCTGGCCGCACCTAACCTCACTGTGGAGGAAGGAAAGTCTATCACATTATCCTGTAGTGTGGCAGGTGATCCGGTTCCTAATATGTATTGGGATGTTGGTAACCTGGTTTCCAAACATATGAATGAAACAAGCCACACACAGGGCTCCTTAAGGATAACTAACATTTCATCCGATGACAGTGGGAAGCAGATCTCTTGTGTGGCGGAAAATCTTGTAGGAGAAGATCAAGATTCTGTCAACCTCACTGTGCATTTTGCACCAACTATCACATTTCTCGAATCTCCAACCTCAGACCACCACTGGTGCATTCCATTCACTGTGAAAGGCAACCCCAAACCAGCGCTTCAGTGGTTCTATAACGGGGCAATATTGAATGAGTCCAAATACATCTGTACTAAAATACATGTTACCAATCACACGGAGTACCACGGCTGCCTCCAGCTGGATAATCCCACTCACATGAACAATGGGGACTACACTCTAATAGCCAAGAATGAGTATGGGAAGGATGAGAAACAGATTTCTGCTCACTTCATGGGCTGGCCTGGAATTGACGATGGTGCAAACCCAAATTATCCTGATGTAATTTATGAAGATTATGGAACTGCAGCGAATGACATCGGGGACACCACGAACAGAAGTAATGAAATCCCTTCCACAGACGTCACTGATAAAACCGGTCGGGAACATCTCTCGGTCTATGCTGTGGTGGTGATTGCGTCTGTGGTGGGATTTTGCCTTTTGGTAATGCTGTTTCTGCTTAAGTTGGCAAGACACTCCAAGTTTGGCATGAAAGGTTTTGTTTTGTTTCATAAGATCCCACTGGATGGGTAGCTGAAATAAAGGAAAAGACAGAGAAAGGGGCTGTGGTGCTTGTTGGTTGATGCTGCCATGTAAGCTGGACTCCTGGGACTGCTGTTGGCTTATCCCGGGAAGTGCTGCTTATCTGGGGTTTTCTGGTAGATGTGGGCGGTGTTTGGAGGCTGTACTATATGAAGCCTGCATATACTGTGAGCTGTGATTGGGGAACACCAATGCAGAGGTAACTCTCAGGCAGCTAAGCAGCACCTCAAGAAAACATGTTAAATTAATGCTTCTCTTCTTACAGTAGTTCAAATACAAAACTGAAATGAAATCCCATTGGATTGTACTTCTCTTCTGAAAAGTGTGCTTTTTGACCCTACTGGACATTTATTGACTTAATTGCTTCTGTTTATTAAAATTGACCTGCAAAGTTAAAAAAAAATTAAAGTTGAGAACAGGTATAAGTGCACACTGAATAGTCTAATCTACATGTAACACATATTTTAGTGTGATTTTCTATACTCTAATCAGCACTGAATTCAGAGGGTTTGACTTTTTCATCTATAACACAGTGACTAAAAGAGTTAAGGGTATATATACCATCACTTTGGGACTTGGTAGTATTATTAAAAGGTTATTTCCTTCACTGTCAATAAAAGTCCAAATGTTTAGCTTAGGTCTGAGAGTCAAACAATGTTAAGGATTGTCTTAAAGTTCCTTAGCCAGCAAAACAAAACAAAACAAAACAAACAAATGAAAAACGTTTAAAAAGAAGAAGAAGAAAAAAAACAAGAACAAGCAGCAACAGCTGTTTTGTTGGGGCTATAGATTTAAGTTAGGCATAGTCAATTTCAGAATAACTAAGAGTGGAATATATGCATATGGTGAAATTATAACCTTGCCCTTTTTTATTTGCCCTCTGCGATCCACCTGCTTTTTAGAAGTCTGCCGAGTGAGAAGGCCACAGTATCTCATGCTGTTTGCATTACAGAACTGCAGCTTTTCTACTCTGAAAAGGCCTGGGAGCAGAATGGCTGGCCTGCTGTGAGCAGGAGAGGAGATTCTAAGAAGGATAGTCCCCCCTACAACATACTGTCATACTGCTGGGTTTTCATGGGTAGGAAAGCTTGTCCTGACCCCAGCAGCAAAGAGGTGGCAGGTCGCTAATGAATATATGCTTTATAATGTCCTTCTTCATTGCTGAGAGGGCAGCCTTAGAGCTGTGGATTTCTGCATCCCCCCTGAGTCTGACCCATGGACACCTGTTTCATTCACTTTAGCATCACAGTGACCTTTGTATGCTCTGTTCAGTCTGTGTCAGGCAGTATGCTTGTCCTGAAGAGAGGTTTGGCTATCCCCACCCCACCCCACCCCACCCTGTTCCTTTTTTATCAGGAGGACTTCAGAGCCAGGCCTGCAGCATTTTGTTTGAAAACACAATCAGCTCTGACAGTTAGACATGCACACAGACGCCATAGCTGGATTGGAAACATTGATGTTTTAAAAATTTATTTTTTTTGGAAATAGTTGCACAAATGCTGCAATTTAGCTTTAAGGTTCTATAGATTTTTAACTAGTCCAACACAGTCAGAAACATTGTTTTGAATCCTCTGTAAACCAAGGCATTAATCTTAATAAACCAGGATCCATTTAGGTACCACTTGATATAAAAAGGATATCCATAATGAATATTTTATACTGCATCCTTTACATTAGCCACTAAATACGTTATTGCTTGATGAAGACCTTTCACAGAATCCTATGGATTGCAGCATTTCACTTGGCTACTTCATACCCATGCCTTAAAGAGGGGCAGTTTCTCAAAAGCAGAAACATGCCGCCAGTTCTCAAGTTTTCCTCCTAACTCCATTTGAATGTAAGGGCAGCTGGCCCCCAATGTGGGGAGGTCCGAACATTTTCTGAATTCCCATTTTCTTGTTCGCGGCTAAATGACAGTTTCTGTCATTACTTAGATTCCGATCTTTCCCAAAGGTGTTGATTTACAAAGAGGCCAGCTAATAGCAGAAATCATGACCCTGAAAGAGAGATGAAATTCAAGCTGTGAGCCAGGCAGGAGCTCAGTATGGCAAAGGTTCTTGAGAATCAGCCATTTGGTACAAAAAAGATTTTTAAAGCTTTTATGTTATACCATGGAGCCATAGAAAGGCTATGGATTGTTTAAGAACTATTTTAAAGTGTTCCAGACCCAAAAAGGAAAAATAAAAAAAAAGGAATATTTGTACCCAACAGCTAGAAGGATTGCAAGGTAGATTTTTGTTTTAAAATGGAGAGAAGTGGACAGATAAGGCCATTTAATATATCAAAGATCAGTTGACATCTCCTAGGGAATGATGAAAACAGCAGGCTATTAGAAAATTATTTCATATAGTTCTCGTGTTCTTTTCTTTTTTTTAATCCCTGAAGGGATGATCAGTAACATAGCTTCTCTTTTCTGTACTCTAGACCACCCCTTTTCATCATTTTGCTTTTTATGTCTCCCATAAGAAATGTGCTTTTTAGAGCTTCCTAATGCATGTGTTGCATTATTGCAGCATTAGAAAAGGAGAGGTAGCATTTTTGCTGAAATCGGGCCTGTCACTCTCCAATAAAGGTTCTGGCACTTCAATGCCAGGCAGGTCTCCTAAATGAACAGAATGATCTGTGTGAGCCGATGCCTGCCCTTCCAGAGGGGCCACTGTCCCCAGCCGCAGCCAACTGTGTCCCACAGGAATGGGAGCCTAGGTTTCCAAATCTTGTGATTCTTTAGGAGAAACATGAAACCTGGATTTCGTGTGAAATGTCCCGATTGTTAAAAAGTTGGCTCAATTATTTTTAAAACATTTTGTAAGCCAACAAAAGTCTGTGGGCTGCCAGTTTATTACTTTTGTCTTAAAACATGATCATTGTTCTCTCACGGTATCCTTCTGTCTTCCCGTTGCAAATTCACTTTTCTTTCTTCCTGACATTGCCATTGAGGGCTTTGTTACCACAAGCTAAGAAACTGAGTTTAACAGCCCAGTTATCTGCAACATGTCAATTACCTTTGCTCCTCTCCTGTGATTCCCACCATGCTGTGACCCTCAGCTGTCTCCCTTTGCTGGGAATTCTGCACCAATGTCTCCCCTCAACCCATTCCCTGGTTGGTCCTACTCCCGTGTGGCCAGAGACATCCTAGCAAATCCTTCCTCCTATTATATCTGACACTAATTTCTTTTCAACAGCGCTCATGTCTCTTGGCCCAGTCAGGTGCTGCCAGGTTTAGATAGGAAAGTACATGTCCCATTTTCATGGGTGCCCTTAATGTGGTCCACGTCCTATATCTTATTATATTTACTCATGGCTCAATGGGGGCCTCCAGAGACCCTCTCAGGCTGCTGAGCTAGACTAAGGAATGCATCCACCGTCATCACATGAGACACTGACTCTGTGACGACAAAAGTACAAACAGTCTGAGGCTAAGAAAGGTTCATCTCACAACAGGAAAAACAAATCTCAACACACATTAGAGATAATTGATTCAGGGGTTTTCTCTCCCAGTCTCCCAGCAGGGACTGATTTCATTTCTGACCCACTAGGTTTTCTTTCCAGAAATAGGTAGCAAGGACAAGAACTAAACAATCCCAGCCCCACCCAGCAACACAGAACACAGGAGTTTGCTTTTGGCTTCTCACTCTCCAAGTAACCCTGAATTAGGCCCAGAATGGCTGAGGCTTGGAGCATCTCCTCAGACAGAGCAGAGGCGACACCTCTTCAGGGGTGTGTGGAGTAAATAGCTCGAAGAGCTGAAGACAGAAAACCAGTTTCACGCCAGGTGCGAGAGAGAGCATAATGGAGGGAAGCCCGCTTTCTCTCTCCTCTTCTTTTCTCTTTATTTCTTTAGAGCACTTGACTTTTTTTTCTCTCTCTCTCTAGTATTCTAAACTGACCCCATGACCAACTGAGAATTTATTTTTGTTTCATTGGTTGTTTCACAGAATTAGAACACACACGACTTTTTATTCCTCCATTGCAAAATGGAATCAAGATACTACACAAGACCTGTGCTTTCTTCCTTTGCATGATTTACACCTCCGCCTGTTTTGGTGCTAGCTGTCTAGAACTTCTCTCTTGGTTTGAATCTGATTCCTTCACACTACACTAGAAGTTTATTTCATCTTGTTTTGTCTAGACTCCAGATACAGAGGGACAGCTGGACTGAGGACAAGCAATTCCATCTAGCATAGGGTCTCTCAGGGTTGGTGCATCCAGCCACATGGGCAGGGCCAGTCACATCTAGTCTATGTCCCCAGAGCCCTTGGAGTTGCGCAGCTTAGCTGACTTGACTCCAAGGAAATTAGTACAGAAGTAACCACTCTATTAAGTGTGTTCTGCTATGTTCACATGCCTGTAGTACCTGCAAACCATGCCAGGTTCATCTAAAGACATAGGGGAAGATTAAGGACTCTTTTGGACAGACCATGAATTGAATTTGCTGCCAGGTGCTGCCAGACTGAATTTGGCTGACAGAACTCCCAGCCCAGGAAAGTTCCATGACAATGACTGTCGCAGAAGGAAATTTCCCACTAAAGTCAGTCCATTTTCAAGTTTTGGTCTTCAGAGACAAAAGAACGTCCCAGCCACCTGATTTTGATGGTGAGGTAACTCTAAGTTGAATTCAGGCTAGTGTTGCAGTATAGCTTTGGCATGTTCATGAGTGAGCACCCAGAATGTGTTGAACCAACCCCCACCCCTAACTACTGACTATGACTGCAGTGGGTTTTTATGGGGAAAAAAAGTGTGAAAAGCAAAAAGAAAGGAACAGAGATTTTTTATCACCTTTATTGTAAGACAGTCCATTTATGAATTGAGTATAAACACATACAAAGTAACAAGAGATTCCTAAGAAACGCAAATCCTTGAGTTTCACGCACTTCATGTTCAACCATTTGCTGTAATCCAGAGGCAGCCTGTGAATCATTCTCATGCCCTGTTTTTTTTTTTTTTTTCCTATAATGTTCTGGGTTTAAAAGCCATCTTTTCCACATTTTCTGTAAATAATGGATAATCATTTTAAAAATTTTTATTTTTAGTGCTGTTTTAACAATGTAGATAGATCATAAATGTACTTGCTGAATTCAATCATTTTTAACAAGCCAATAAAGTTTGATAATTCATCTC</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Central nervous system</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Postsynaptic density</CellLocal>
+      <Ontology_ID>GO:0014069</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endosome membrane</CellLocal>
+      <Ontology_ID>GO:0010008</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005887</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Neuronal cell body</CellLocal>
+      <Ontology_ID>GO:0043025</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Endosome</CellLocal>
+      <Ontology_ID>GO:0005768</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Terminal button</CellLocal>
+      <Ontology_ID>GO:0043195</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Growth cone</CellLocal>
+      <Ontology_ID>GO:0030426</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Presynaptic active zone</CellLocal>
+      <Ontology_ID>GO:0048786</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Excitatory synapse</CellLocal>
+      <Ontology_ID>GO:0060076</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell surface</CellLocal>
+      <Ontology_ID>GO:0009986</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>NTRK2</Gene_Name>
+    <Gene_Alias>TRKB</Gene_Alias>
+    <Gene_ID>4915</Gene_ID>
+    <Genbank_ACCN>NM_001007097</Genbank_ACCN>
+    <Protein_ACCN>NP_001007098</Protein_ACCN>
+    <HGNC_ID>8032</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/4915</Gene_URL>
+    <UCSC_ID>uc011ltb.1</UCSC_ID>
+    <EMBL_ID>ENSG00000148053</EMBL_ID>
+  </Gene>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Neuroblastoma</Disease_Name>
+      <Disease_Detail>Neuroblastoma</Disease_Detail>
+      <Disease_DB>NRB001</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/neuroblastoma?search=NTRK2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Obesity, Hyperphagia, and Developmental Delay</Disease_Name>
+      <Disease_Detail>Obesity</Disease_Detail>
+      <Disease_DB>OBS015</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/obesity_hyperphagia_and_developmental_delay?search=NTRK2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Pilocytic Astrocytoma</Disease_Name>
+      <Disease_Detail>Pilocytic Astrocytoma</Disease_Detail>
+      <Disease_DB>PLC011</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/pilocytic_astrocytoma?search=NTRK2#related_genes</Disease_URL>
+    </Disease>
+    <Disease>
+      <Disease_Name>Obesity</Disease_Name>
+      <Disease_Detail>Obesity</Disease_Detail>
+      <Disease_DB>OBS005</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/obesity?search=NTRK2#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF TRKB KINASE DOMAIN IN COMPLEX WITH CPD5N</PDB_Title>
+      <PDB_ID>4AT3</PDB_ID>
+      <Resolution>1.77</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4AT3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Crystal Structures of Trka and Trkb Suggest Key Regions for Achieving Selective Inhibition.</PubMed_Title>
+      <Author>Bertrand, T., et al.</Author>
+      <Journal>J.Mol.Biol.(2012)423:439</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22902478?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF TRKB-D5 BOUND TO NEUROTROPHIN-4/5</PDB_Title>
+      <PDB_ID>1HCF</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1HCF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Specificity in Trk-Receptor:Neurotrophin Interaction: The Crystal Structure of Trkb-D5 in Complex with Neurotrophin-4/5</PubMed_Title>
+      <Author>Banfield, M.J., et al.</Author>
+      <Journal>Structure(2001)9:1191</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11738045?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF TRKB KINASE DOMAIN IN COMPLEX WITH GW2580</PDB_Title>
+      <PDB_ID>4AT5</PDB_ID>
+      <Resolution>1.71</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4AT5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Crystal Structures of Trka and Trkb Suggest Key Regions for Achieving Selective Inhibition.</PubMed_Title>
+      <Author>Bertrand, T., et al.</Author>
+      <Journal>J.Mol.Biol.(2012)423:439</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22902478?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF TRKB KINASE DOMAIN IN COMPLEX WITH EX429</PDB_Title>
+      <PDB_ID>4AT4</PDB_ID>
+      <Resolution>2.36</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4AT4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Crystal Structures of Trka and Trkb Suggest Key Regions for Achieving Selective Inhibition.</PubMed_Title>
+      <Author>Bertrand, T., et al.</Author>
+      <Journal>J.Mol.Biol.(2012)423:439</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22902478?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CRYSTAL STRUCTURES OF TRKA AND TRKB SUGGEST KEY REGIONS FOR ACHIEVING SELECTIVE INHIBITION</PDB_Title>
+      <PDB_ID>4ASZ</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4ASZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Crystal Structures of Trka and Trkb Suggest Key Regions for Achieving Selective Inhibition.</PubMed_Title>
+      <Author>Bertrand, T., et al.</Author>
+      <Journal>J.Mol.Biol.(2012)423:439</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22902478?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>LIGAND BINDING DOMAIN OF HUMAN TRKB RECEPTOR</PDB_Title>
+      <PDB_ID>1WWB</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1WWB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the neurotrophin-binding domain of TrkA, TrkB and TrkC.</PubMed_Title>
+      <Author>Ultsch, M.H., et al.</Author>
+      <Journal>J.Mol.Biol.(1999)290:149-159</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10388563?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05034</Pathway_ID>
+      <Pathway_Title>Alcoholism</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Substance dependence</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04722</Pathway_ID>
+      <Pathway_Title>Neurotrophin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>All beta proteins</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.c.b.b.e.ci.html</SCOP_URL>
+    <CATH_Class>Class 2: Mainly Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1hcf</CATH_URL>
+  </Fold>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.10.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/10/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2013-06-21</Create_Date>
+</Organism_Record>

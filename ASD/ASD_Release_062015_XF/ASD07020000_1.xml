@@ -1,0 +1,893 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07020000_1</Organism_ID>
+  <Organism>Mouse</Organism>
+  <Organism_Latin>Mus musculus</Organism_Latin>
+  <UniProt_ID>P29477</UniProt_ID>
+  <Seq_Length>1144</Seq_Length>
+  <Molecule_Weight>130575</Molecule_Weight>
+  <KEGG_ID>mmu:18126</KEGG_ID>
+  <Orthology_ID>K13241</Orthology_ID>
+  <Function_Summary>Produces nitric oxide (NO) which is a messenger molecule with diverse functions throughout the body. In macrophages, NO mediates tumoricidal and bactericidal actions. Also has nitrosylase activity and mediates cysteine S-nitrosylation of cytoplasmic target proteins such COX2.</Function_Summary>
+  <Catalytic_Mechanism>L-arginine + n NADPH + n H(+) + m O(2) = citrulline + nitric oxide + n NADP(+).</Catalytic_Mechanism>
+  <Pfam_ID>PF00667:FAD_binding_1@@PF00258:Flavodoxin_1@@PF00175:NAD_binding_1@@PF02898:NO_synthase</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>8</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Inducible NO synthase</Alias>
+      <Alias>Macrophage NOS</Alias>
+      <Alias>iNOS</Alias>
+      <Alias>NOS type II</Alias>
+      <Alias>Inducible NOS</Alias>
+      <Alias>Peptidyl-cysteine S-nitrosylase NOS2</Alias>
+      <Alias>MAC-NOS</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with 2-amino-5-(carbamimidamido)pentanoic acid.</Detail>
+      <Keyword>Arginine binding</Keyword>
+      <Ontology_ID>GO:0034618</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-arginine + n NADPH + n H+ + m O2 = citrulline + nitric oxide + n NADP+.</Detail>
+      <Keyword>Nitric-oxide synthase activity</Keyword>
+      <Ontology_ID>GO:0004517</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with FAD, flavin-adenine dinucleotide, the coenzyme or the prosthetic group of various flavoprotein oxidoreductase enzymes, in either the oxidized form, FAD, or the reduced form, FADH2.</Detail>
+      <Keyword>Flavin adenine dinucleotide binding</Keyword>
+      <Ontology_ID>GO:0050660</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a tetrahydrobiopterin, 5,6,7,8-tetrahydrobiopterin or a derivative thereof; tetrahydrobiopterins are enzyme cofactors that carry electrons in redox reactions.</Detail>
+      <Keyword>Tetrahydrobiopterin binding</Keyword>
+      <Ontology_ID>GO:0034617</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with FMN, flavin mononucleotide, the coenzyme or the prosthetic group of various flavoprotein oxidoreductase enzymes.</Detail>
+      <Keyword>FMN binding</Keyword>
+      <Ontology_ID>GO:0010181</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with nicotinamide-adenine dinucleotide phosphate, a coenzyme involved in many redox and biosynthetic reactions; binding may be to either the oxidized form, NADP+, or the reduced form, NADPH.</Detail>
+      <Keyword>NADP binding</Keyword>
+      <Ontology_ID>GO:0050661</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with calmodulin, a calcium-binding protein with many roles, both in the calcium-bound and calcium-free states.</Detail>
+      <Keyword>Calmodulin binding</Keyword>
+      <Ontology_ID>GO:0005516</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with heme, any compound of iron complexed in a porphyrin (tetrapyrrole) ring.</Detail>
+      <Keyword>Heme binding</Keyword>
+      <Ontology_ID>GO:0020037</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>211</Position>
+      <Original>Cys</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>967</Position>
+      <Original>Pro</Original>
+      <Variation>Leu</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>968</Position>
+      <Original>Ser</Original>
+      <Variation>Phe</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an interferon-gamma stimulus. Interferon-gamma is also known as type II interferon.</Detail>
+      <Keyword>Cellular response to interferon-gamma</Keyword>
+      <Ontology_ID>GO:0071346</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of arginine, 2-amino-5-(carbamimidamido)pentanoic acid.</Detail>
+      <Keyword>Arginine catabolic process</Keyword>
+      <Ontology_ID>GO:0006527</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cell proliferation.</Detail>
+      <Keyword>Regulation of cell proliferation</Keyword>
+      <Ontology_ID>GO:0042127</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving superoxide, the superoxide anion O2- (superoxide free radical), or any compound containing this species.</Detail>
+      <Keyword>Superoxide metabolic process</Keyword>
+      <Ontology_ID>GO:0006801</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the breakdown of a protein by the destruction of the native, active configuration, with or without the hydrolysis of peptide bonds.</Detail>
+      <Keyword>Negative regulation of protein catabolic process</Keyword>
+      <Ontology_ID>GO:0042177</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Reactions triggered in response to the presence of a bacterium that act to protect the cell or organism.</Detail>
+      <Keyword>Defense response to bacterium</Keyword>
+      <Ontology_ID>GO:0042742</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that decreases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene's coding sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</Detail>
+      <Keyword>Negative regulation of gene expression</Keyword>
+      <Ontology_ID>GO:0010629</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The immediate defensive reaction (by vertebrate tissue) to infection or injury caused by chemical or physical agents. The process is characterized by local vasodilation, extravasation of plasma into intercellular spaces and accumulation of white blood cells and macrophages.</Detail>
+      <Keyword>Inflammatory response</Keyword>
+      <Ontology_ID>GO:0006954</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The covalent addition of a nitric oxide (NO) group to the sulphur (S) atom of a cysteine residue in a protein, to form peptidyl-S-nitrosyl-L-cysteine.</Detail>
+      <Keyword>Peptidyl-cysteine S-nitrosylation</Keyword>
+      <Ontology_ID>GO:0018119</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating lowered oxygen tension. Hypoxia, defined as a decline in O2 levels below normoxic levels of 20.8 - 20.95%, results in metabolic adaptation at both the cellular and organismal level.</Detail>
+      <Keyword>Response to hypoxia</Keyword>
+      <Ontology_ID>GO:0001666</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a lipopolysaccharide stimulus; lipopolysaccharide is a major component of the cell wall of gram-negative bacteria.</Detail>
+      <Keyword>Cellular response to lipopolysaccharide</Keyword>
+      <Ontology_ID>GO:0071222</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of nitric oxide, nitrogen monoxide (NO), a colorless gas only slightly soluble in water.</Detail>
+      <Keyword>Nitric oxide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006809</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>708</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MACPWKFLFKVKSYQSDLKEEKDINNNVKKTPCAVLSPTIQDDPKSHQNGSPQLLTGTAQNVPESLDKLHVTSTRPQYVRIKNWGSGEILHDTLHHKATSDFTCKSKSCLGSIMNPKSLTRGPRDKPTPLEELLPHAIEFINQYYGSFKEAKIEEHLARLEAVTKEIETTGTYQLTLDELIFATKMAWRNAPRCIGRIQWSNLQVFDARNCSTAQEMFQHICRHILYATNNGNIRSAITVFPQRSDGKHDFRLWNSQLIRYAGYQMPDGTIRGDAATLEFTQLCIDLGWKPRYGRFDVLPLVLQADGQDPEVFEIPPDLVLEVTMEHPKYEWFQELGLKWYALPAVANMLLEVGGLEFPACPFNGWYMGTEIGVRDFCDTQRYNILEEVGRRMGLETHTLASLWKDRAVTEINVAVLHSFQKQNVTIMDHHTASESFMKHMQNEYRARGGCPADWIWLVPPVSGSITPVFHQEMLNYVLSPFYYYQIEPWKTHIWQNEKLRPRRREIRFRVLVKVVFFASMLMRKVMASRVRATVLFATETGKSEALARDLATLFSYAFNTKVVCMDQYKASTLEEEQLLLVVTSTFGNGDCPSNGQTLKKSLFMLRELNHTFRYAVFGLGSSMYPQFCAFAHDIDQKLSHLGASQLAPTGEGDELSGQEDAFRSWAVQTFRAACETFDVRSKHHIQIPKRFTSNATWEPQQYRLIQSPEPLDLNRALSSIHAKNVFTMRLKSQQNLQSEKSSRTTLLVQLTFEGSRGPSYLPGEHLGIFPGNQTALVQGILERVVDCPTPHQTVCLEVLDESGSYWVKDKRLPPCSLSQALTYFLDITTPPTQLQLHKLARFATDETDRQRLEALCQPSEYNDWKFSNNPTFLEVLEEFPSLHVPAAFLLSQLPILKPRYYSISSSQDHTPSEVHLTVAVVTYRTRDGQGPLHHGVCSTWIRNLKPQDPVPCFVRSVSGFQLPEDPSQPCILIGPGTGIAPFRSFWQQRLHDSQHKGLKGGRMSLVFGCRHPEEDHLYQEEMQEMVRKRVLFQVHTGYSRLPGKPKVYVQDILQKQLANEVLSVLHGEQGHLYICGDVRMARDVATTLKKLVATKLNLSEEQVEDYFFQLKSQKRYHEDIFGAVFSYGAKKGSALEEPKATRL</Protein_Seq>
+    <DNA_Seq>GGCCCCACGGGACACAGTGTCACTGGTTTGAAACTTCTCAGCCACCTTGGTGAAGGGACTGAGCTGTTAGAGACACTTCTGAGGCTCCTCACGCTTGGGTCTTGTTCACTCCACGGAGTAGCCTAGTCAACTGCAAGAGAACGGAGAACGTTGGATTTGGAGCAGAAGTGCAAAGTCTCAGACATGGCTTGCCCCTGGAAGTTTCTCTTCAAAGTCAAATCCTACCAAAGTGACCTGAAAGAGGAAAAGGACATTAACAACAACGTGAAGAAAACCCCTTGTGCTGTTCTCAGCCCAACAATACAAGATGACCCTAAGAGTCACCAAAATGGCTCCCCGCAGCTCCTCACTGGGACAGCACAGAATGTTCCAGAATCCCTGGACAAGCTGCATGTGACATCGACCCGTCCACAGTATGTGAGGATCAAAAACTGGGGCAGTGGAGAGATTTTGCATGACACTCTTCACCACAAGGCCACATCGGATTTCACTTGCAAGTCCAAGTCTTGCTTGGGGTCCATCATGAACCCCAAGAGTTTGACCAGAGGACCCAGAGACAAGCCTACCCCTCTGGAGGAGCTCCTGCCTCATGCCATTGAGTTCATCAACCAGTATTATGGCTCCTTTAAAGAGGCAAAAATAGAGGAACATCTGGCCAGGCTGGAAGCTGTAACAAAGGAAATAGAAACAACAGGAACCTACCAGCTCACTCTGGATGAGCTCATCTTTGCCACCAAGATGGCCTGGAGGAATGCCCCTCGCTGCATCGGCAGGATCCAGTGGTCCAACCTGCAGGTCTTTGACGCTCGGAACTGTAGCACAGCACAGGAAATGTTTCAGCACATCTGCAGACACATACTTTATGCCACCAACAATGGCAACATCAGGTCGGCCATCACTGTGTTCCCCCAGCGGAGTGACGGCAAACATGACTTCAGGCTCTGGAATTCACAGCTCATCCGGTACGCTGGCTACCAGATGCCCGATGGCACCATCAGAGGGGATGCTGCCACCTTGGAGTTCACCCAGTTGTGCATCGACCTAGGCTGGAAGCCCCGCTATGGCCGCTTTGATGTGCTGCCTCTGGTCTTGCAAGCTGATGGTCAAGATCCAGAGGTCTTTGAAATCCCTCCTGATCTTGTGTTGGAGGTGACCATGGAGCATCCCAAGTACGAGTGGTTCCAGGAGCTCGGGTTGAAGTGGTATGCACTGCCTGCCGTGGCCAACATGCTACTGGAGGTGGGTGGCCTCGAATTCCCAGCCTGCCCCTTCAATGGTTGGTACATGGGCACCGAGATTGGAGTTCGAGACTTCTGTGACACACAGCGCTACAACATCCTGGAGGAAGTGGGCCGAAGGATGGGCCTGGAGACCCACACACTGGCCTCCCTCTGGAAAGACCGGGCTGTCACGGAGATCAATGTGGCTGTGCTCCATAGTTTCCAGAAGCAGAATGTGACCATCATGGACCACCACACAGCCTCAGAGTCCTTCATGAAGCACATGCAGAATGAGTACCGGGCCCGTGGAGGCTGCCCGGCAGACTGGATTTGGCTGGTCCCTCCAGTGTCTGGGAGCATCACCCCTGTGTTCCACCAGGAGATGTTGAACTATGTCCTATCTCCATTCTACTACTACCAGATCGAGCCCTGGAAGACCCACATCTGGCAGAATGAGAAGCTGAGGCCCAGGAGGAGAGAGATCCGATTTAGAGTCTTGGTGAAAGTGGTGTTCTTTGCTTCCATGCTAATGCGAAAGGTCATGGCTTCACGGGTCAGAGCCACAGTCCTCTTTGCTACTGAGACAGGGAAGTCTGAAGCACTAGCCAGGGACCTGGCCACCTTGTTCAGCTACGCCTTCAACACCAAGGTTGTCTGCATGGACCAGTATAAGGCAAGCACCTTGGAAGAGGAGCAACTACTGCTGGTGGTGACAAGCACATTTGGGAATGGAGACTGTCCCAGCAATGGGCAGACTCTGAAGAAATCTCTGTTCATGCTTAGAGAACTCAACCACACCTTCAGGTATGCTGTGTTTGGCCTTGGCTCCAGCATGTACCCTCAGTTCTGCGCCTTTGCTCATGACATCGACCAGAAGCTGTCCCACCTGGGAGCCTCTCAGCTTGCCCCAACAGGAGAAGGGGACGAACTCAGTGGGCAGGAGGATGCCTTCCGCAGCTGGGCTGTACAAACCTTCCGGGCAGCCTGTGAGACCTTTGATGTCCGAAGCAAACATCACATTCAGATCCCGAAACGCTTCACTTCCAATGCAACATGGGAGCCACAGCAATATAGGCTCATCCAGAGCCCGGAGCCTTTAGACCTCAACAGAGCCCTCAGCAGCATCCATGCAAAGAACGTGTTTACCATGAGGCTGAAATCCCAGCAGAATCTGCAGAGTGAAAAGTCCAGCCGCACCACCCTCCTCGTTCAGCTCACCTTCGAGGGCAGCCGAGGGCCCAGCTACCTGCCTGGGGAACACCTGGGGATCTTCCCAGGCAACCAGACCGCCCTGGTGCAGGGAATCTTGGAGCGAGTTGTGGATTGTCCTACACCACACCAAACTGTGTGCCTGGAGGTTCTGGATGAGAGCGGCAGCTACTGGGTCAAAGACAAGAGGCTGCCCCCCTGCTCACTCAGCCAAGCCCTCACCTACTTCCTGGACATTACGACCCCTCCCACCCAGCTGCAGCTCCACAAGCTGGCTCGCTTTGCCACGGACGAGACGGATAGGCAGAGATTGGAGGCCTTGTGTCAGCCCTCAGAGTACAATGACTGGAAGTTCAGCAACAACCCCACGTTCCTGGAGGTGCTTGAAGAGTTCCCTTCCTTGCATGTGCCCGCTGCCTTCCTGCTGTCGCAGCTCCCTATCTTGAAGCCCCGCTACTACTCCATCAGCTCCTCCCAGGACCACACCCCCTCGGAGGTTCACCTCACTGTGGCCGTGGTCACCTACCGCACCCGAGATGGTCAGGGTCCCCTGCACCATGGTGTCTGCAGCACTTGGATCAGGAACCTGAAGCCCCAGGACCCAGTGCCCTGCTTTGTGCGAAGTGTCAGTGGCTTCCAGCTCCCTGAGGACCCCTCCCAGCCTTGCATCCTCATTGGGCCTGGTACGGGCATTGCTCCCTTCCGAAGTTTCTGGCAGCAGCGGCTCCATGACTCCCAGCACAAAGGGCTCAAAGGAGGCCGCATGAGCTTGGTGTTTGGGTGCCGGCACCCGGAGGAGGACCACCTCTATCAGGAAGAAATGCAGGAGATGGTCCGCAAGAGAGTGCTGTTCCAGGTGCACACAGGCTACTCCCGGCTGCCCGGCAAACCCAAGGTCTACGTTCAGGACATCCTGCAAAAGCAGCTGGCCAATGAGGTACTCAGCGTGCTCCACGGGGAGCAGGGCCACCTCTACATTTGCGGAGATGTGCGCATGGCTCGGGATGTGGCTACCACATTGAAGAAGCTGGTGGCCACCAAGCTGAACTTGAGCGAGGAGCAGGTGGAAGACTATTTCTTCCAGCTCAAGAGCCAGAAACGTTATCATGAAGATATCTTCGGTGCAGTCTTTTCCTATGGGGCAAAAAAGGGCAGCGCCTTGGAGGAGCCCAAAGCCACGAGGCTCTGACAGCCCAGAGTTCCAGCTTCTGGCACTGAGTAAAGATAATGGTGAGGGGCTTGGGGAGACAGCGAAATGCAATCCCCCCCAAGCCCCTCATGTCATTCCCCCCTCCTCCACCCTACCAAGTAGTATTGTACTATTGTGGACTACTAAATCTCTCTCCTCTCCTCCCTCCCCTCTCTCCCTTTCCTCCCTTCTTCTCCACTCCCCAGCTCCCTCCTTCTCCTTCTCCTCCTTTGCCTCTCACTCTTCCTTGGAGCTGAGAGCAGAGAAAAACTCAACCTCCTGACTGAAGCACTTTGGGTGACCACCAGGAGGCACCATGCCGCCGCTCTAATACTTAGCTGCACTATGTACAGATATTTATACTTCATATTT</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Macrophages</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cortical cytoskeleton</CellLocal>
+      <Ontology_ID>GO:0030863</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Perinuclear region of cytoplasm</CellLocal>
+      <Ontology_ID>GO:0048471</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>Nos2</Gene_Name>
+    <Gene_Alias>Inosl</Gene_Alias>
+    <Gene_ID>18126</Gene_ID>
+    <Genbank_ACCN>NM_010927</Genbank_ACCN>
+    <Protein_ACCN>NP_035057</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/18126</Gene_URL>
+    <UCSC_ID>uc007kkc.1</UCSC_ID>
+    <EMBL_ID>ENSMUSG00000020826</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Murine Inducible Nitric Oxide Synthase Oxygenase Domain (Delta 114) 4-(Benzo[1,3]dioxol-5-yloxy)-2-(4-imidazol-1-yl-phenoxy)-pyrimidine Complex</PDB_Title>
+      <PDB_ID>2ORR</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ORR</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07020007</ASD_Ligand>
+      <PubMed_Title>Design, Synthesis, and Activity of 2-Imidazol-1-ylpyrimidine Derived Inducible Nitric Oxide Synthase Dimerization Inhibitors</PubMed_Title>
+      <Author>Davey, D.D., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:1146-1157</Journal>
+      <PubMed_ID>17315988</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of murine INOS oxygenase domain with inhibitor AR-C125813</PDB_Title>
+      <PDB_ID>3E6N</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E6N</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of murine iNOS oxygenase domain with inhibitor AR-C95791</PDB_Title>
+      <PDB_ID>3E7M</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E7M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>inducible nitric oxide synthase with 6-nitroindazole bound</PDB_Title>
+      <PDB_ID>1M8H</PDB_ID>
+      <Resolution>2.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1M8H</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Changes in Nitric Oxide Synthases Induced by Chlorzoxazone and Nitroindazoles: Crystallographic and Computational Analyses of Inhibitor Potency</PubMed_Title>
+      <Author>Rosenfeld, R.J., et al.</Author>
+      <Journal>Biochemistry(2002)41:13915-13925</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12437348?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INOSOXY DIMER WITH ISOTHIOUREA BOUND IN THE ACTIVE SITE</PDB_Title>
+      <PDB_ID>1DF1</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DF1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>N-terminal domain swapping and metal ion binding in nitric oxide synthase dimerization.</PubMed_Title>
+      <Author>Crane, B.R., et al.</Author>
+      <Journal>EMBO J.(1999)18:6271-6281</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10562539?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Murine Inducible Nitric Oxide Synthase Oxygenase Domain (DELTA 114) 4-(Benzo[1,3]dioxol-5-yloxy)-2-(4-imidazol-1-yl-phenoxy)-6-methyl-pyrimidine Complex</PDB_Title>
+      <PDB_ID>2ORS</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ORS</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07020006</ASD_Ligand>
+      <PubMed_Title>Design, Synthesis, and Activity of 2-Imidazol-1-ylpyrimidine Derived Inducible Nitric Oxide Synthase Dimerization Inhibitors</PubMed_Title>
+      <Author>Davey, D.D., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:1146-1157</Journal>
+      <PubMed_ID>17315988</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DIMER N-HYDROXYARGININE AND TETRAHYDROBIOPTERIN</PDB_Title>
+      <PDB_ID>1DWX</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DWX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the N(Omega)-Hydroxy-L-Arginine Complex of Inducible Nitric Oxide Synthase Oxygenase Dimer with Active Andinactive Pterins</PubMed_Title>
+      <Author>Crane, B.R., et al.</Author>
+      <Journal>Biochemistry(2000)39:4608</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10769116?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of inhibited murine iNOS oxygenase domain</PDB_Title>
+      <PDB_ID>3EBF</PDB_ID>
+      <Resolution>2.29</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EBF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of inhibited murine iNOS oxygenase domain</PDB_Title>
+      <PDB_ID>3EBD</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EBD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DOMAIN (DELTA 114), AMINOGUANIDINE COMPLEX</PDB_Title>
+      <PDB_ID>2NOS</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2NOS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of nitric oxide synthase oxygenase domain and inhibitor complexes.</PubMed_Title>
+      <Author>Crane, B.R., et al.</Author>
+      <Journal>Science(1997)278:425-431</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9334294?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DIMER N-HYDROXYARGININE AND DIHYDROBIOPTERIN</PDB_Title>
+      <PDB_ID>1DWW</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DWW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the N(Omega)-Hydroxy-L-Arginine Complex of Inducible Nitric Oxide Synthase Oxygenase Dimer with Active Andinactive Pterins</PubMed_Title>
+      <Author>Crane, B.R., et al.</Author>
+      <Journal>Biochemistry(2000)39:4608-4621</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10769116?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>inducible nitric oxide synthase with Chlorzoxazone bound</PDB_Title>
+      <PDB_ID>1M8D</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1M8D</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Changes in Nitric Oxide Synthases Induced by Chlorzoxazone and Nitroindazoles: Crystallographic and Computational Analyses of Inhibitor Potency</PubMed_Title>
+      <Author>Rosenfeld, R.J., et al.</Author>
+      <Journal>Biochemistry(2002)41:13915-13925</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12437348?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DIMER (DELTA 65) WITH TETRAHYDROBIOPTERIN AND WATER BOUND IN ACTIVE CENTER</PDB_Title>
+      <PDB_ID>2NOD</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2NOD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of nitric oxide synthase oxygenase dimer with pterin and substrate.</PubMed_Title>
+      <Author>Crane, B.R., et al.</Author>
+      <Journal>Science(1998)279:2121-2126</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9516116?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DOMAIN (DELTA 114) COMPLEXED WITH TYPE I E. COLI CHLORAMPHENICOL ACETYL TRANSFERASE AND IMIDAZOLE</PDB_Title>
+      <PDB_ID>1NOC</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NOC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of nitric oxide synthase oxygenase domain and inhibitor complexes.</PubMed_Title>
+      <Author>Crane, B.R., et al.</Author>
+      <Journal>Science(1997)278:425-431</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9334294?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Murine inducible nitric oxide synthase oxygenase domain (delta 114) 2-[4-(2-Imidazol-1-yl-6-methyl-pyrimidin-4-yl)-1-isobutyryl-piperazin-2-yl]-N-[2-(4-methoxy-phenyl)-ethyl]-acetamide complex</PDB_Title>
+      <PDB_ID>2ORP</PDB_ID>
+      <Resolution>1.97</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ORP</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07020009</ASD_Ligand>
+      <PubMed_Title>Design, Synthesis, and Activity of 2-Imidazol-1-ylpyrimidine Derived Inducible Nitric Oxide Synthase Dimerization Inhibitors</PubMed_Title>
+      <Author>Davey, D.D., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:1146-1157</Journal>
+      <PubMed_ID>17315988</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Inducible Nitric Oxide Synthase with N-Nitrosated-pterin</PDB_Title>
+      <PDB_ID>3NQS</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NQS</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07020010</ASD_Ligand>
+      <PubMed_Title>Nitric-oxide synthase forms N-NO-pterin and S-NO-cys: implications for activity, allostery, and regulation.</PubMed_Title>
+      <Author>Rosenfeld, R.J., et al.</Author>
+      <Journal>J.Biol.Chem.(2010)285:31581-31589</Journal>
+      <PubMed_ID>20659888</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Heme-proximal W188H mutant of inducible nitric oxide synthase</PDB_Title>
+      <PDB_ID>3DWJ</PDB_ID>
+      <Resolution>2.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DWJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Stabilization and Characterization of a Heme-Oxy Reaction Intermediate in Inducible Nitric-oxide Synthase</PubMed_Title>
+      <Author>Tejero, J., et al.</Author>
+      <Journal>J.Biol.Chem.(2008)283:33498-33507</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18815130?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Murine INOS dimer with HEME, pterin and inhibitor AR-C120011</PDB_Title>
+      <PDB_ID>3E65</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E65</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Murine inos dimer with inhibitor 4-MAP bound</PDB_Title>
+      <PDB_ID>3E67</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E67</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of murine INOS oxygenase domain with inhibitor AR-C124355</PDB_Title>
+      <PDB_ID>3E6O</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E6O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Murine Inducible Nitric Oxide Synthase Oxygenase Domain in complex with N-omega-propyl-L-arginine.</PDB_Title>
+      <PDB_ID>1QW4</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QW4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the specificity of the nitric-oxide synthase inhibitors W1400 and Nomega-propyl-L-Arg for the inducible and neuronal isoforms.</PubMed_Title>
+      <Author>Fedorov, R., et al.</Author>
+      <Journal>J.Biol.Chem.(2003)278:45818-45825</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12954642?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Murine inducible nitric oxide synthase oxygenase domain in complex with W1400 inhibitor.</PDB_Title>
+      <PDB_ID>1QW5</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QW5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the specificity of the nitric-oxide synthase inhibitors W1400 and Nomega-propyl-L-Arg for the inducible and neuronal isoforms.</PubMed_Title>
+      <Author>Fedorov, R., et al.</Author>
+      <Journal>J.Biol.Chem.(2003)278:45818-45825</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12954642?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DIMER (DELTA 65) WITH TETRAHYDROBIOPTERIN AND SUBSTRATE L-ARGININE</PDB_Title>
+      <PDB_ID>1NOD</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NOD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of nitric oxide synthase oxygenase dimer with pterin and substrate.</PubMed_Title>
+      <Author>Crane, B.R., et al.</Author>
+      <Journal>Science(1998)279:2121-2126</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9516116?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Calmodulin bound to peptide from macrophage nitric oxide synthase</PDB_Title>
+      <PDB_ID>3GOF</PDB_ID>
+      <Resolution>1.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GOF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural diversity in calmodulin recognition of nitric oxide synthases</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Murine Inducible Nitric Oxide Synthase Oxygenase Domain (DELTA 114) 4-(imidazol-1-yl)phenol and piperonylamine Complex</PDB_Title>
+      <PDB_ID>2ORQ</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ORQ</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07020008</ASD_Ligand>
+      <PubMed_Title>Design, Synthesis, and Activity of 2-Imidazol-1-ylpyrimidine Derived Inducible Nitric Oxide Synthase Dimerization Inhibitors</PubMed_Title>
+      <Author>Davey, D.D., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:1146-1157</Journal>
+      <PubMed_ID>17315988</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>inducible nitric oxide synthase with 7-nitroindazole bound</PDB_Title>
+      <PDB_ID>1M8E</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1M8E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Changes in Nitric Oxide Synthases Induced by Chlorzoxazone and Nitroindazoles: Crystallographic and Computational Analyses of Inhibitor Potency</PubMed_Title>
+      <Author>Rosenfeld, R.J., et al.</Author>
+      <Journal>Biochemistry(2002)41:13915-13925</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12437348?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of murine inos oxygenase domain with inhibitor AR-C94864</PDB_Title>
+      <PDB_ID>3E7I</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E7I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Murine Inducible Nitric Oxide Synthase Oxygenase Dimer (Delta 65) with W457F Mutation at Tetrahydrobiopterin Binding Site</PDB_Title>
+      <PDB_ID>1JWJ</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JWJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of tetrahydrobiopterin binding-site mutants of inducible nitric oxide synthase oxygenase dimer and implicated roles of Trp457.</PubMed_Title>
+      <Author>Aoyagi, M., et al.</Author>
+      <Journal>Biochemistry(2001)40:12826-12832</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11669619?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of murine INOS oxygenase domain with inhibitor AR-C130232</PDB_Title>
+      <PDB_ID>3E68</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E68</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DIMER, TETRAHYDROBIOPTERIN AND 4R-FLUORO-N6-ETHANIMIDOYL-L-LYSINE</PDB_Title>
+      <PDB_ID>1R35</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1R35</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>4-Fluorinated L-lysine analogs as selective i-NOS inhibitors: methodology for introducing fluorine into the lysine side chain.</PubMed_Title>
+      <Author>Hallinan, E.A., et al.</Author>
+      <Journal>Org.Biomol.Chem.(2003)1:3527-3534</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/14599013?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Murine Inducible Nitric Oxide Synthase Oxygenase Domain (Delta 114) 1-Benzo[1,3]dioxol-5-ylmethyl-3S-(4-imidazol-1-yl-phenoxy)-piperidine Complex</PDB_Title>
+      <PDB_ID>2ORT</PDB_ID>
+      <Resolution>1.87</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ORT</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07020005</ASD_Ligand>
+      <PubMed_Title>Design, Synthesis, and Activity of 2-Imidazol-1-ylpyrimidine Derived Inducible Nitric Oxide Synthase Dimerization Inhibitors</PubMed_Title>
+      <Author>Davey, D.D., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:1146-1157</Journal>
+      <PubMed_ID>17315988</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of inhibited murine iNOS oxygenase domain</PDB_Title>
+      <PDB_ID>3EAI</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EAI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DIMER N-HYDROXYARGININE AND 4-AMINO TETRAHYDROBIOPTERIN</PDB_Title>
+      <PDB_ID>1DWV</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DWV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of the N(Omega)-Hydroxy-L-Arginine Complex of Inducible Nitric Oxide Synthase Oxygenase Dimer with Active Andinactive Pterins</PubMed_Title>
+      <Author>Crane, B.R., et al.</Author>
+      <Journal>Biochemistry(2000)39:4608-4621</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10769116?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DIMER (DELTA 65) WITH TETRAHYDROBIOPTERIN AND PRODUCT ANALOGUE L-THIOCITRULLINE</PDB_Title>
+      <PDB_ID>3NOD</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NOD</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of nitric oxide synthase oxygenase dimer with pterin and substrate.</PubMed_Title>
+      <Author>Crane, B.R., et al.</Author>
+      <Journal>Science(1998)279:2121-2126</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9516116?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INO SYNTHASE WITH COUMARIN INHIBITOR</PDB_Title>
+      <PDB_ID>2BHJ</PDB_ID>
+      <Resolution>3.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BHJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Design, Synthesis and Characterization of a Novel Class of Coumarin-Based Inhibitors of Inducible Nitric Oxide Synthase</PubMed_Title>
+      <Author>Jackson, S.A., et al.</Author>
+      <Journal>Bioorg.Med.Chem.(2005)13:2723</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15781384?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of cyanide complex of the oxygenase domain of inducible nitric oxide synthase.</PDB_Title>
+      <PDB_ID>1N2N</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1N2N</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of cyanide complexes of P450cam and the oxygenase domain of inducible nitric oxide synthase-structural models of the short-lived oxygen complexes</PubMed_Title>
+      <Author>Fedorov, R., et al.</Author>
+      <Journal>Arch.Biochem.Biophys.(2003)409:25-31</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12464241?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DOMAIN (DELTA 114), IMIDAZOLE COMPLEX</PDB_Title>
+      <PDB_ID>1NOS</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NOS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The structure of nitric oxide synthase oxygenase domain and inhibitor complexes.</PubMed_Title>
+      <Author>Crane, B.R., et al.</Author>
+      <Journal>Science(1997)278:425-431</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9334294?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of murine INOS oxygenase domain with inhibitor AR-C132283</PDB_Title>
+      <PDB_ID>3E6L</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E6L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Novel nanomolar Imidazopyridines as selective Nitric Oxide Synthase (iNOS) inhibitors: SAR and structural insights</PDB_Title>
+      <PDB_ID>3NW2</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3NW2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Novel nanomolar imidazo[4,5-b]pyridines as selective nitric oxide synthase (iNOS) inhibitors: SAR and structural insights</PubMed_Title>
+      <Author>Graedler, U., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2011)21:4228-4232</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21684157?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Inducible nitric oxide synthase oxygenase domain complexed with the inhibitor AR-R17477</PDB_Title>
+      <PDB_ID>1VAF</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1VAF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of nitric oxide synthase isoforms complexed with the inhibitor AR-R17477 suggest a rational basis for specificity and inhibitor design</PubMed_Title>
+      <Author>Fedorov, R., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2004)101:5892-5897</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15071192?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DOMAIN (DELTA 114) (N-[(1,3-BENZODIOXOL-5-YL)METHYL]-1-[2-(1H-IMIDAZOL-1-YL)PYRIMIDIN-4-YL]-4-(METHOXYCARBONYL)-PIPERAZINE-2-ACETAMIDE COMPLEX</PDB_Title>
+      <PDB_ID>1DD7</PDB_ID>
+      <Resolution>2.25</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DD7</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07020002</ASD_Ligand>
+      <PubMed_Title>Allosteric inhibitors of inducible nitric oxide synthase dimerization discovered via combinatorial chemistry.</PubMed_Title>
+      <Author>McMillan, K., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2000)97:1506-1511</Journal>
+      <PubMed_ID>10677491</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of murine iNOS oxygenase domain with inhibitor AR-C102222</PDB_Title>
+      <PDB_ID>3E7T</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E7T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE DISCOVERY OF NOVEL, POTENT AND HIGHLY SELECTIVE INHIBITORS OF INDUCIBLE NITRIC OXIDE SYNTHASE (INOS)</PDB_Title>
+      <PDB_ID>2Y37</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Y37</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The Discovery of Novel, Potent and Highly Selective Inhibitors of Inducible Nitric Oxide Synthase (Inos).</PubMed_Title>
+      <Author>Cheshire, D.R., et al.</Author>
+      <Journal>Bioorg.Med.Chem.Lett.(2011)21:2468-2471</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21398123?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MURINE INDUCIBLE NITRIC OXIDE SYNTHASE OXYGENASE DIMER (DELTA 65) WITH SWAPPED N-TERMINAL HOOK</PDB_Title>
+      <PDB_ID>1QOM</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1QOM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>N-Terminal Domain Swapping and Metal Ion Binding in Nitric Oxide Synthase Dimerization</PubMed_Title>
+      <Author>Crane, B.R., et al.</Author>
+      <Journal>Embo J.(1999)18:6271-6281</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10562539?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Inducible Nitric Oxide Synthase with 3-Bromo-7-Nitroindazole bound</PDB_Title>
+      <PDB_ID>1M9T</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1M9T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Changes in Nitric Oxide Synthases Induced by Chlorzoxazone and Nitroindazoles: Crystallographic and Computational Analyses of Inhibitor Potency</PubMed_Title>
+      <Author>Rosenfeld, R.J., et al.</Author>
+      <Journal>Biochemistry(2002)41:13915-13925</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12437348?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>inducible nitric oxide synthase with 5-nitroindazole bound</PDB_Title>
+      <PDB_ID>1M8I</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1M8I</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Conformational Changes in Nitric Oxide Synthases Induced by Chlorzoxazone and Nitroindazoles: Crystallographic and Computational Analyses of Inhibitor Potency</PubMed_Title>
+      <Author>Rosenfeld, R.J., et al.</Author>
+      <Journal>Biochemistry(2002)41:13915-13925</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12437348?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of murine INOS oxygenase domain with inhibitor AR-C118901</PDB_Title>
+      <PDB_ID>3E6T</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3E6T</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Anchored plasticity opens doors for selective inhibitor design in nitric oxide synthase.</PubMed_Title>
+      <Author>Garcin, E.D., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2008)4:700-707</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/18849972?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Murine inducible nitric oxide synthase oxygenase domain (delta 114) (r)-1-(2-imidazol-1-yl-6-methyl-pyrimidin-4-yl)-pyrrolidine-2-carboxylic acid (2-benzo[1,3]dioxol-5-yl-ethyl)-amide complex</PDB_Title>
+      <PDB_ID>2ORO</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ORO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD07020004</ASD_Ligand>
+      <PubMed_Title>Design, Synthesis, and Activity of 2-Imidazol-1-ylpyrimidine Derived Inducible Nitric Oxide Synthase Dimerization Inhibitors</PubMed_Title>
+      <Author>Davey, D.D., et al.</Author>
+      <Journal>J.Med.Chem.(2007)50:1146-1157</Journal>
+      <PubMed_ID>17315988</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Murine Inducible Nitric Oxide Synthase Oxygenase Dimer (Delta 65) with W457A Mutation at Tetrahydrobiopterin Binding Site</PDB_Title>
+      <PDB_ID>1JWK</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JWK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structures of tetrahydrobiopterin binding-site mutants of inducible nitric oxide synthase oxygenase dimer and implicated roles of Trp457.</PubMed_Title>
+      <Author>Aoyagi, M., et al.</Author>
+      <Journal>Biochemistry(2001)40:12826-12832</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/11669619?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05140</Pathway_ID>
+      <Pathway_Title>Leishmaniasis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05152</Pathway_ID>
+      <Pathway_Title>Tuberculosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05142</Pathway_ID>
+      <Pathway_Title>Chagas disease (American trypanosomiasis)</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05133</Pathway_ID>
+      <Pathway_Title>Pertussis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05140</Pathway_ID>
+      <Pathway_Title>Leishmaniasis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05132</Pathway_ID>
+      <Pathway_Title>Salmonella infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04020</Pathway_ID>
+      <Pathway_Title>Calcium signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05222</Pathway_ID>
+      <Pathway_Title>Small cell lung cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00330</Pathway_ID>
+      <Pathway_Title>Arginine and proline metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05145</Pathway_ID>
+      <Pathway_Title>Toxoplasmosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05140</Pathway_ID>
+      <Pathway_Title>Leishmaniasis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.deh.b.b.b.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1df1</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,344,Pro;site,346,Val;site,485,Tyr</Site_Detail>
+      <Site_Reference>McMillan K, et al. Proc Natl Acad Sci U S A. 2000,97(4):1506-1511.</Site_Reference>
+      <Site_Type>Dimerization</Site_Type>
+      <PDB_ID>1DD7</PDB_ID>
+      <PubMed_ID>10677491</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.14.13.39</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/14/13/39.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD07020001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07020002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07020004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07020005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07020006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07020007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07020008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07020009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD07020010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

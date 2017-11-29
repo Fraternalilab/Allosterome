@@ -1,0 +1,995 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00570000_1</Organism_ID>
+  <Organism>Human</Organism>
+  <Organism_Latin>Homo sapiens</Organism_Latin>
+  <UniProt_ID>O14757</UniProt_ID>
+  <Seq_Length>476</Seq_Length>
+  <Molecule_Weight>54420</Molecule_Weight>
+  <KEGG_ID>hsa:1111</KEGG_ID>
+  <Orthology_ID>K02216</Orthology_ID>
+  <EBI_ID>EBI-974488</EBI_ID>
+  <Function_Summary>Serine/threonine-protein kinase which is required for checkpoint-mediated cell cycle arrest and activation of DNA repair in response to the presence of DNA damage or unreplicated DNA. May also negatively regulate cell cycle progression during unperturbed cell cycles. This regulation is achieved by a number of mechanisms that together help to preserve the integrity of the genome. Recognizes the substrate consensus sequence [R-X-X-S/T]. Binds to and phosphorylates CDC25A, CDC25B and CDC25C. Phosphorylation of CDC25A at 'Ser-178' and 'Thr-507' and phosphorylation of CDC25C at 'Ser-216' creates binding sites for 14-3-3 proteins which inhibit CDC25A and CDC25C. Phosphorylation of CDC25A at 'Ser-76', 'Ser-124', 'Ser-178', 'Ser-279' and 'Ser-293' promotes proteolysis of CDC25A. Phosphorylation of CDC25A at 'Ser-76' primes the protein for subsequent phosphorylation at 'Ser-79', 'Ser-82' and 'Ser-88' by NEK11, which is required for polyubiquitination and degradation of CDCD25A. Inhibition of CDC25 leads to increased inhibitory tyrosine phosphorylation of CDK-cyclin complexes and blocks cell cycle progression. Also phosphorylates NEK6. Binds to and phosphorylates RAD51 at 'Thr-309', which promotes the release of RAD51 from BRCA2 and enhances the association of RAD51 with chromatin, thereby promoting DNA repair by homologous recombination. Phosphorylates multiple sites within the C-terminus of TP53, which promotes activation of TP53 by acetylation and promotes cell cycle arrest and suppression of cellular proliferation. Also promotes repair of DNA cross-links through phosphorylation of FANCE. Binds to and phosphorylates TLK1 at 'Ser-743', which prevents the TLK1-dependent phosphorylation of the chromatin assembly factor ASF1A. This may enhance chromatin assembly both in the presence or absence of DNA damage. May also play a role in replication fork maintenance through regulation of PCNA. May regulate the transcription of genes that regulate cell-cycle progression through the phosphorylation of histones. Phosphorylates histone H3.1 (to form H3T11ph), which leads to epigenetic inhibition of a subset of genes. May also phosphorylate RB1 to promote its interaction with the E2F family of transcription factors and subsequent cell cycle arrest.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a protein = ADP + a phosphoprotein.</Catalytic_Mechanism>
+  <Pfam_ID>PF00069:Pkinase</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>36</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>CHK1</Alias>
+      <Alias>Checkpoint kinase 1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group to the threonine-11 residue of the N-terminal tail of histone H3.</Detail>
+      <Keyword>Histone kinase activity (H3-T11 specific)</Keyword>
+      <Ontology_ID>GO:0035402</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reactions: ATP + protein serine = ADP + protein serine phosphate, and ATP + protein threonine = ADP + protein threonine phosphate.</Detail>
+      <Keyword>Protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0004674</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>312</Position>
+      <Original>Val</Original>
+      <Variation>Met</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>156</Position>
+      <Original>Arg</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>471</Position>
+      <Original>Ile</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>223</Position>
+      <Original>Glu</Original>
+      <Variation>Val</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A cell cycle checkpoint that blocks cell cycle progression from G2 to M phase in response to DNA damage.</Detail>
+      <Keyword>G2/M transition DNA damage checkpoint</Keyword>
+      <Ontology_ID>GO:0031572</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The progression of biochemical and morphological phases and events that occur in a cell during successive cell replication or nuclear replication events. Canonically, the cell cycle comprises the replication and segregation of genetic material followed by the division of the cell, but in endocycles or syncytial cells nuclear replication or nuclear division may not be followed by cell division.</Detail>
+      <Keyword>Cell cycle</Keyword>
+      <Ontology_ID>GO:0007049</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular metabolic process in which a cell duplicates one or more molecules of DNA. DNA replication begins when specific sequences, known as origins of replication, are recognized and bound by initiation proteins, and ends when the original DNA molecule has been completely duplicated and the copies topologically separated. The unit of replication usually corresponds to the genome of the cell, an organelle, or a virus. The template for replication can either be an existing DNA molecule or RNA.</Detail>
+      <Keyword>DNA replication</Keyword>
+      <Ontology_ID>GO:0006260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the separation of duplicated centrosome components at the beginning of mitosis.</Detail>
+      <Keyword>Regulation of mitotic centrosome separation</Keyword>
+      <Ontology_ID>GO:0046602</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of transcription from an RNA polymerase II promoter as a result of a UV damage stimulus.</Detail>
+      <Keyword>Regulation of transcription from RNA polymerase II promoter in response to UV-induced DNA damage</Keyword>
+      <Ontology_ID>GO:0010767</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a mechanical stimulus.</Detail>
+      <Keyword>Cellular response to mechanical stimulus</Keyword>
+      <Ontology_ID>GO:0071260</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the error-free repair of a double-strand break in DNA in which the broken DNA molecule is repaired using homologous sequences.</Detail>
+      <Keyword>Regulation of double-strand break repair via homologous recombination</Keyword>
+      <Ontology_ID>GO:0010569</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cellular senescence process associated with the dismantling of a cell as a response to telomere shortening and/or cellular aging.</Detail>
+      <Keyword>Replicative senescence</Keyword>
+      <Ontology_ID>GO:0090399</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that stops, prevents or reduces the rate or extent of mitosis. Mitosis is the division of the eukaryotic cell nucleus to produce two daughter nuclei that, usually, contain the identical chromosome complement to their mother.</Detail>
+      <Keyword>Negative regulation of mitosis</Keyword>
+      <Ontology_ID>GO:0045839</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Maintenance of transcription by remodelling of chromatin into an 'open configuration'. Once established, this regulation is mitotically stable and is maintained over many cell divisions. It is also heritable.</Detail>
+      <Keyword>Chromatin-mediated maintenance of transcription</Keyword>
+      <Ontology_ID>GO:0048096</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The widespread phosphorylation of various molecules, triggering many downstream processes, that occurs in response to the detection of DNA damage.</Detail>
+      <Keyword>DNA damage induced protein phosphorylation</Keyword>
+      <Ontology_ID>GO:0006975</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</Detail>
+      <Keyword>DNA repair</Keyword>
+      <Ontology_ID>GO:0006281</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>296</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>301</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>284</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>468</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>307</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>345</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>280</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>331</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>286</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>308</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>279</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>317</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAVPFVEDWDLVQTLGEGAYGEVQLAVNRVTEEAVAVKIVDMKRAVDCPENIKKEICINKMLNHENVVKFYGHRREGNIQYLFLEYCSGGELFDRIEPDIGMPEPDAQRFFHQLMAGVVYLHGIGITHRDIKPENLLLDERDNLKISDFGLATVFRYNNRERLLNKMCGTLPYVAPELLKRREFHAEPVDVWSCGIVLTAMLAGELPWDQPSDSCQEYSDWKEKKTYLNPWKKIDSAPLALLHKILVENPSARITIPDIKKDRWYNKPLKKGAKRPRVTSGGVSESPSGFSKHIQSNLDFSPVNSASSEENVKYSSSQPEPRTGLSLWDTSPSYIDKLVQGISFSQPTCPDHMLLNSQLLGTPGSSQNPWQRLVKRMTRFFTKLDADKSYQCLKETCEKLGYQWKKSCMNQVTISTTDRRNNKLIFKVNLLEMDDKILVDFRLSKGDGLEFKRHFLKIKGKLIDIVSSQKVWLPAT</Protein_Seq>
+    <DNA_Seq>GGCCGGACAGTCCGCCGAGGTGCTCGGTGGAGTCATGGCAGTGCCCTTTGTGGAAGACTGGGACTTGGTGCAAACCCTGGGAGAAGGTGCCTATGGAGAAGTTCAACTTGCTGTGAATAGAGTAACTGAAGAAGCAGTCGCAGTGAAGATTGTAGATATGAAGCGTGCCGTAGACTGTCCAGAAAATATTAAGAAAGAGATCTGTATCAATAAAATGCTAAATCATGAAAATGTAGTAAAATTCTATGGTCACAGGAGAGAAGGCAATATCCAATATTTATTTCTGGAGTACTGTAGTGGAGGAGAGCTTTTTGACAGAATAGAGCCAGACATAGGCATGCCTGAACCAGATGCTCAGAGATTCTTCCATCAACTCATGGCAGGGGTGGTTTATCTGCATGGTATTGGAATAACTCACAGGGATATTAAACCAGAAAATCTTCTGTTGGATGAAAGGGATAACCTCAAAATCTCAGACTTTGGCTTGGCAACAGTATTTCGGTATAATAATCGTGAGCGTTTGTTGAACAAGATGTGTGGTACTTTACCATATGTTGCTCCAGAACTTCTGAAGAGAAGAGAATTTCATGCAGAACCAGTTGATGTTTGGTCCTGTGGAATAGTACTTACTGCAATGCTCGCTGGAGAATTGCCATGGGACCAACCCAGTGACAGCTGTCAGGAGTATTCTGACTGGAAAGAAAAAAAAACATACCTCAACCCTTGGAAAAAAATCGATTCTGCTCCTCTAGCTCTGCTGCATAAAATCTTAGTTGAGAATCCATCAGCAAGAATTACCATTCCAGACATCAAAAAAGATAGATGGTACAACAAACCCCTCAAGAAAGGGGCAAAAAGGCCCCGAGTCACTTCAGGTGGTGTGTCAGAGTCTCCCAGTGGATTTTCTAAGCACATTCAATCCAATTTGGACTTCTCTCCAGTAAACAGTGCTTCTAGTGAAGAAAATGTGAAGTACTCCAGTTCTCAGCCAGAACCCCGCACAGGTCTTTCCTTATGGGATACCAGCCCCTCATACATTGATAAATTGGTACAAGGGATCAGCTTTTCCCAGCCCACATGTCCTGATCATATGCTTTTGAATAGTCAGTTACTTGGCACCCCAGGATCCTCACAGAACCCCTGGCAGCGGTTGGTCAAAAGAATGACACGATTCTTTACCAAATTGGATGCAGACAAATCTTATCAATGCCTGAAAGAGACTTGTGAGAAGTTGGGCTATCAATGGAAGAAAAGTTGTATGAATCAGGTTACTATATCAACAACTGATAGGAGAAACAATAAACTCATTTTCAAAGTGAATTTGTTAGAAATGGATGATAAAATATTGGTTGACTTCCGGCTTTCTAAGGGTGATGGATTGGAGTTCAAGAGACACTTCCTGAAGATTAAAGGGAAGCTGATTGATATTGTGAGCAGCCAGAAGGTTTGGCTTCCTGCCACATGATCGGACCATCGGCTCTGGGGAATCCTGGTGAATATAGTGCTGCTATGTTGACATTATTCTTCCTAGAGAAGATTATCCTGTCCTGCAAACTGCAAATAGTAGTTCCTGAAGTGTTCACTTCCCTGTTTATCCAAACATCTTCCAATTTATTTTGTTTGTTCGGCATACAAATAATACCTATATCTTAATTGTAAGCAAAACTTTGGGGAAAGGATGAATAGAATTCATTTGATTATTTCTTCATGTGTGTTTAGTATCTGAATTTGAAACTCATCTGGTGGAAACCAAGTTTCAGGGGACATGAGTTTTCCAGCTTTTATACACACGTATCTCATTTTTATCAAAACATTTTGTTT</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Colon</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Testis</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Thymus</TissueLocal>
+    </TissueLocal>
+    <TissueLocal>
+      <TissueLocal>Widely expressed</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoskeleton</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleolus</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Centrosome</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CHEK1</Gene_Name>
+    <Gene_Alias>CHK1</Gene_Alias>
+    <Gene_ID>1111</Gene_ID>
+    <Genbank_ACCN>NM_001114121</Genbank_ACCN>
+    <Protein_ACCN>NP_001107593</Protein_ACCN>
+    <HGNC_ID>1925</HGNC_ID>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/1111</Gene_URL>
+    <UCSC_ID>uc001qcf.4</UCSC_ID>
+    <EMBL_ID>ENSG00000149554</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q9HAW4</Uniprot_ID>
+      <Gene_Name>CLSPN</Gene_Name>
+      <EBI_ID>EBI-1369377</EBI_ID>
+      <PPI_EBI_URL>EBI-974488,EBI-1369377</PPI_EBI_URL>
+      <Experiment_Number>5</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P30307</Uniprot_ID>
+      <Gene_Name>CDC25C</Gene_Name>
+      <EBI_ID>EBI-974439</EBI_ID>
+      <PPI_EBI_URL>EBI-974488,EBI-974439</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P38398</Uniprot_ID>
+      <Gene_Name>BRCA1</Gene_Name>
+      <EBI_ID>EBI-349905</EBI_ID>
+      <PPI_EBI_URL>EBI-974488,EBI-349905</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q9UNS1</Uniprot_ID>
+      <Gene_Name>TIMELESS</Gene_Name>
+      <EBI_ID>EBI-2212315</EBI_ID>
+      <PPI_EBI_URL>EBI-974488,EBI-2212315</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>Q06609</Uniprot_ID>
+      <Gene_Name>RAD51</Gene_Name>
+      <EBI_ID>EBI-297202</EBI_ID>
+      <PPI_EBI_URL>EBI-974488,EBI-297202</PPI_EBI_URL>
+      <Experiment_Number>3</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <Disease_List>
+    <Disease>
+      <Disease_Name>Hypoxia</Disease_Name>
+      <Disease_Detail>Hypoxia</Disease_Detail>
+      <Disease_DB>HYP266</Disease_DB>
+      <Disease_URL>http://www.malacards.org/card/hypoxia?search=CHEK1#related_genes</Disease_URL>
+    </Disease>
+  </Disease_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal Structure of Chk1 Complexed with a Hymenaldisine Analog</PDB_Title>
+      <PDB_ID>1ZLT</PDB_ID>
+      <Resolution>1.74</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZLT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of Chk1 Complexed with a Hymenaldisine Analog</PubMed_Title>
+      <Author>Lee CC, et al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CHECKPOINT KINASE 1 (CHK1) IN COMPLEX WITH INHIBITORS</PDB_Title>
+      <PDB_ID>2WMV</PDB_ID>
+      <Resolution>2.01</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WMV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of Inhibitors of Checkpoint Kinase 1 Through Template Screening</PubMed_Title>
+      <Author>Matthew TP, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CHECKPOINT KINASE 1 (CHK1) IN COMPLEX WITH INHIBITORS</PDB_Title>
+      <PDB_ID>2WMX</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WMX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of Inhibitors of Checkpoint Kinase 1 Through Template Screening</PubMed_Title>
+      <Author>Matthew TP, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>IDENTIFICATION OF A BURIED POCKET FOR POTENT AND SELECTIVE INHIBITION OF CHK1: PREDICTION AND VERIFICATION</PDB_Title>
+      <PDB_ID>2C3J</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C3J</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of a buried pocket for potent and selective inhibition of Chk1: prediction and verification.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>Bioorg Med Chem. 2006 Mar 15;14(6):1792-804.</Journal>
+      <PubMed_ID>16289938</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Characterization of the Chk1 allosteric inhibitor binding site</PDB_Title>
+      <PDB_ID>3JVS</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3JVS</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00570018</ASD_Ligand>
+      <PubMed_Title>Characterization of the CHK1 allosteric inhibitor binding site.</PubMed_Title>
+      <Author>Vanderpool D, et al.</Author>
+      <Journal>Biochemistry. 2009 Oct 20;48(41):9823-30.</Journal>
+      <PubMed_ID>19743875</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE-BASED DESIGN OF NOVEL CHK1 INHIBITORS: INSIGHTS INTO HYDROGEN BONDING AND PROTEIN-LIGAND AFFINITY</PDB_Title>
+      <PDB_ID>2BRM</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BRM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel Chk1 inhibitors: insights into hydrogen bonding and protein-ligand affinity.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>J Med Chem. 2005 Jun 30;48(13):4332-45.</Journal>
+      <PubMed_ID>15974586</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>IDENTIFICATION OF CHEMICALLY DIVERSE CHK1 INHIBITORS BY RECEPTOR-BASED VIRTUAL SCREENING</PDB_Title>
+      <PDB_ID>2CGV</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CGV</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of chemically diverse Chk1 inhibitors by receptor-based virtual screening.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>Bioorg Med Chem. 2006 Jul 15;14(14):4792-802.</Journal>
+      <PubMed_ID>16574416</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE-BASED DESIGN OF NOVEL CHK1 INHIBITORS: INSIGHTS INTO HYDROGEN BONDING AND PROTEIN-LIGAND AFFINITY</PDB_Title>
+      <PDB_ID>2BR1</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BR1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel Chk1 inhibitors: insights into hydrogen bonding and protein-ligand affinity.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>J Med Chem. 2005 Jun 30;48(13):4332-45.</Journal>
+      <PubMed_ID>15974586</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE-BASED DESIGN OF NOVEL CHK1 INHIBITORS: INSIGHTS INTO HYDROGEN BONDING AND PROTEIN-LIGAND AFFINITY</PDB_Title>
+      <PDB_ID>2BRO</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BRO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel Chk1 inhibitors: insights into hydrogen bonding and protein-ligand affinity.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>J Med Chem. 2005 Jun 30;48(13):4332-45.</Journal>
+      <PubMed_ID>15974586</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Complex Structure Of Checkpoint Kinase Chk1/UCN-01</PDB_Title>
+      <PDB_ID>1NVQ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NVQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for Chk1 inhibition by UCN-01.</PubMed_Title>
+      <Author>Zhao B, et al.</Author>
+      <Journal>J Biol Chem. 2002 Nov 29;277(48):46609-15.</Journal>
+      <PubMed_ID>12244092</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Co-crystal structure of Checkpoint Kinase Chk1 with a pyrrolo-pyridine inhibitor</PDB_Title>
+      <PDB_ID>1ZYS</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ZYS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Pyrrolo[2,3-b]pyridines Inhibit the Checkpoint Kinase Chk1</PubMed_Title>
+      <Author>Stavenger RA, et al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of CHK1 with a Urea Inhibitor</PDB_Title>
+      <PDB_ID>2YWP</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2YWP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Synthesis and biological evaluation of 1-(2,4,5-trisubstituted phenyl)-3-(5-cyanopyrazin-2-yl)ureas as potent Chk1 kinase inhibitors.</PubMed_Title>
+      <Author>Li G, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2006 Apr 15;16(8):2293-8.</Journal>
+      <PubMed_ID>16446090</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of Chek1 in complex with inhibitor 2a</PDB_Title>
+      <PDB_ID>2QHM</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QHM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Optimization of a pyrazoloquinolinone class of Chk1 kinase inhibitors.</PubMed_Title>
+      <Author>Brnardic EJ, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2007 Nov 1;17(21):5989-94.</Journal>
+      <PubMed_ID>17804227</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of Chek1 in complex with inhibitor 1</PDB_Title>
+      <PDB_ID>2HXL</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HXL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Development of 6-substituted indolylquinolinones as potent Chek1 kinase inhibitors.</PubMed_Title>
+      <Author>Huang S, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2006 Nov 15;16(22):5907-12.</Journal>
+      <PubMed_ID>16990002</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CHECKPOINT KINASE 1 (CHK1) IN COMPLEX WITH INHIBITORS</PDB_Title>
+      <PDB_ID>2WMW</PDB_ID>
+      <Resolution>2.43</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WMW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of Inhibitors of Checkpoint Kinase 1 Through Template Screening</PubMed_Title>
+      <Author>Matthew TP, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE 1.7 A CRYSTAL STRUCTURE OF HUMAN CELL CYCLE CHECKPOINT KINASE CHK1</PDB_Title>
+      <PDB_ID>1IA8</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=1IA8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The 1.7 A crystal structure of human cell cycle checkpoint kinase Chk1: implications for Chk1 regulation.</PubMed_Title>
+      <Author>Chen P, et al.</Author>
+      <Journal>Cell. 2000 Mar 17;100(6):681-92.</Journal>
+      <PubMed_ID>10761933</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of CHK1 with an Indol Inhibitor</PDB_Title>
+      <PDB_ID>2AYP</PDB_ID>
+      <Resolution>2.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2AYP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Synthesis and biological evaluation of 3-ethylidene-1,3-dihydro-indol-2-ones as novel checkpoint 1 inhibitors.</PubMed_Title>
+      <Author>Lin NH, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2006 Jan 15;16(2):421-6.</Journal>
+      <PubMed_ID>16242328</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of chek1 in complex with inhibitor 22</PDB_Title>
+      <PDB_ID>2HY0</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HY0</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Development of 6-substituted indolylquinolinones as potent Chek1 kinase inhibitors.</PubMed_Title>
+      <Author>Huang S, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2006 Nov 15;16(22):5907-12.</Journal>
+      <PubMed_ID>16990002</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CHECKPOINT KINASE 1 (CHK1) IN COMPLEX WITH INHIBITORS</PDB_Title>
+      <PDB_ID>2WMS</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WMS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of Inhibitors of Checkpoint Kinase 1 Through Template Screening</PubMed_Title>
+      <Author>Matthew TP, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CHECKPOINT KINASE 1 (CHK1) IN COMPLEX WITH INHIBITORS</PDB_Title>
+      <PDB_ID>2WMT</PDB_ID>
+      <Resolution>2.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WMT</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of Inhibitors of Checkpoint Kinase 1 Through Template Screening</PubMed_Title>
+      <Author>Matthew TP, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Chek1 in Complex with Inhibitor 54</PDB_Title>
+      <PDB_ID>2R0U</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2R0U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Synthesis and evaluation of substituted benzoisoquinolinones as potent inhibitors of Chk1 kinase.</PubMed_Title>
+      <Author>Garbaccio RM, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2007 Nov 15;17(22):6280-5.</Journal>
+      <PubMed_ID>17900896</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>IDENTIFICATION OF CHEMICALLY DIVERSE CHK1 INHIBITORS BY RECEPTOR-BASED VIRTUAL SCREENING</PDB_Title>
+      <PDB_ID>2CGU</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CGU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of chemically diverse Chk1 inhibitors by receptor-based virtual screening.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>Bioorg Med Chem. 2006 Jul 15;14(14):4792-802.</Journal>
+      <PubMed_ID>16574416</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>4-(Aminoalkylamino)-3-Benzimidazole-Quinolinones As Potent CHK1 Inhibitors</PDB_Title>
+      <PDB_ID>2GDO</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GDO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>4-(Aminoalkylamino)-3-benzimidazole-quinolinones as potent CHK-1 inhibitors.</PubMed_Title>
+      <Author>Ni ZJ, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2006 Jun 15;16(12):3121-4.</Journal>
+      <PubMed_ID>16603354</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>IDENTIFICATION OF A BURIED POCKET FOR POTENT AND SELECTIVE INHIBITION OF CHK1: PREDICTION AND VERIFICATION</PDB_Title>
+      <PDB_ID>2C3K</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C3K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of a buried pocket for potent and selective inhibition of Chk1: prediction and verification.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>Bioorg Med Chem. 2006 Mar 15;14(6):1792-804.</Journal>
+      <PubMed_ID>16289938</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE-BASED DESIGN OF NOVEL CHK1 INHIBITORS: INSIGHTS INTO HYDROGEN BONDING AND PROTEIN-LIGAND AFFINITY</PDB_Title>
+      <PDB_ID>2BRG</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BRG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel Chk1 inhibitors: insights into hydrogen bonding and protein-ligand affinity.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>J Med Chem. 2005 Jun 30;48(13):4332-45.</Journal>
+      <PubMed_ID>15974586</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of h-CHK1 complexed with A780125</PDB_Title>
+      <PDB_ID>2E9U</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2E9U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-Based Design, Synthesis and Biological Evaluation of Potent and Selective Macrocyclic Chk1 Inhibitors</PubMed_Title>
+      <Author>Tong Y, et al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>IDENTIFICATION OF CHEMICALLY DIVERSE CHK1 INHIBITORS BY RECEPTOR-BASED VIRTUAL SCREENING</PDB_Title>
+      <PDB_ID>2CGX</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CGX</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of chemically diverse Chk1 inhibitors by receptor-based virtual screening.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>Bioorg Med Chem. 2006 Jul 15;14(14):4792-802.</Journal>
+      <PubMed_ID>16574416</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>IDENTIFICATION OF A BURIED POCKET FOR POTENT AND SELECTIVE INHIBITION OF CHK1: PREDICTION AND VERIFICATION</PDB_Title>
+      <PDB_ID>2C3L</PDB_ID>
+      <Resolution>2.35</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2C3L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of a buried pocket for potent and selective inhibition of Chk1: prediction and verification.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>Bioorg Med Chem. 2006 Mar 15;14(6):1792-804.</Journal>
+      <PubMed_ID>16289938</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of h-CHK1 complexed with AA582939</PDB_Title>
+      <PDB_ID>2E9O</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2E9O</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of 1,4-dihydroindeno[1,2-c]pyrazoles as a novel class of potent and selective checkpoint kinase 1 inhibitors.</PubMed_Title>
+      <Author>Tong Y, et al.</Author>
+      <Journal>Bioorg Med Chem. 2007 Apr 1;15(7):2759-67.</Journal>
+      <PubMed_ID>17287122</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Complex Structure Of Checkpoint Kinase Chk1/Staurosporine</PDB_Title>
+      <PDB_ID>1NVR</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NVR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for Chk1 inhibition by UCN-01.</PubMed_Title>
+      <Author>Zhao B, et al.</Author>
+      <Journal>J Biol Chem. 2002 Nov 29;277(48):46609-15.</Journal>
+      <PubMed_ID>12244092</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of h-CHK1 complexed with A859017</PDB_Title>
+      <PDB_ID>2E9V</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2E9V</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-Based Design, Synthesis and Biological Evaluation of Potent and Selective Macrocyclic Chk1 Inhibitors</PubMed_Title>
+      <Author>Tong Y, et al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CHECKPOINT KINASE 1 (CHK1) IN COMPLEX WITH INHIBITORS</PDB_Title>
+      <PDB_ID>2WMR</PDB_ID>
+      <Resolution>2.43</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WMR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of Inhibitors of Checkpoint Kinase 1 Through Template Screening</PubMed_Title>
+      <Author>Matthew TP, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE-BASED DESIGN OF NOVEL CHK1 INHIBITORS: INSIGHTS INTO HYDROGEN BONDING AND PROTEIN-LIGAND AFFINITY</PDB_Title>
+      <PDB_ID>2BRH</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BRH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel Chk1 inhibitors: insights into hydrogen bonding and protein-ligand affinity.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>J Med Chem. 2005 Jun 30;48(13):4332-45.</Journal>
+      <PubMed_ID>15974586</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>h-CHK1 complexed with A431994</PDB_Title>
+      <PDB_ID>2GHG</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2GHG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery and SAR of oxindole-pyridine-based protein kinase B/Akt inhibitors for treating cancers.</PubMed_Title>
+      <Author>Zhu GD, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2006 Jul 1;16(13):3424-9.</Journal>
+      <PubMed_ID>16644221</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE-BASED DESIGN OF NOVEL CHK1 INHIBITORS: INSIGHTS INTO HYDROGEN BONDING AND PROTEIN-LIGAND AFFINITY</PDB_Title>
+      <PDB_ID>2BRB</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BRB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel Chk1 inhibitors: insights into hydrogen bonding and protein-ligand affinity.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>J Med Chem. 2005 Jun 30;48(13):4332-45.</Journal>
+      <PubMed_ID>15974586</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CHECKPOINT KINASE 1 (CHK1) IN COMPLEX WITH INHIBITORS</PDB_Title>
+      <PDB_ID>2WMQ</PDB_ID>
+      <Resolution>2.48</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WMQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of Inhibitors of Checkpoint Kinase 1 Through Template Screening</PubMed_Title>
+      <Author>Matthew TP, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF CHECKPOINT KINASE 1 (CHK1) IN COMPLEX WITH INHIBITORS</PDB_Title>
+      <PDB_ID>2WMU</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2WMU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of Inhibitors of Checkpoint Kinase 1 Through Template Screening</PubMed_Title>
+      <Author>Matthew TP, et al.</Author>
+      <Journal>to be published</Journal>
+    </PDB>
+    <PDB>
+      <PDB_Title>The Complex Structure Of Checkpoint Kinase Chk1/SB218078</PDB_Title>
+      <PDB_ID>1NVS</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1NVS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for Chk1 inhibition by UCN-01.</PubMed_Title>
+      <Author>Zhao B, et al.</Author>
+      <Journal>J Biol Chem. 2002 Nov 29;277(48):46609-15.</Journal>
+      <PubMed_ID>12244092</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of chk1 kinase in complex with inhibitor 38</PDB_Title>
+      <PDB_ID>3F9N</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=3F9N</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00570016</ASD_Ligand>
+      <PubMed_Title>Development of thioquinazolinones, allosteric Chk1 kinase inhibitors.</PubMed_Title>
+      <Author>Converso A, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2009 Feb 15;19(4):1240-4.</Journal>
+      <PubMed_ID>19155174</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>IDENTIFICATION OF CHEMICALLY DIVERSE CHK1 INHIBITORS BY RECEPTOR-BASED VIRTUAL SCREENING</PDB_Title>
+      <PDB_ID>2CGW</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2CGW</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of chemically diverse Chk1 inhibitors by receptor-based virtual screening.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>Bioorg Med Chem. 2006 Jul 15;14(14):4792-802.</Journal>
+      <PubMed_ID>16574416</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of h-CHK1 complexed with A767085</PDB_Title>
+      <PDB_ID>2E9N</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2E9N</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Discovery of 1,4-dihydroindeno[1,2-c]pyrazoles as a novel class of potent and selective checkpoint kinase 1 inhibitors.</PubMed_Title>
+      <Author>Tong Y, et al.</Author>
+      <Journal>Bioorg Med Chem. 2007 Apr 1;15(7):2759-67.</Journal>
+      <PubMed_ID>17287122</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Chek1 in Complex with Inhibitor 1a</PDB_Title>
+      <PDB_ID>2QHN</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QHN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Optimization of a pyrazoloquinolinone class of Chk1 kinase inhibitors.</PubMed_Title>
+      <Author>Brnardic EJ, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2007 Nov 1;17(21):5989-94.</Journal>
+      <PubMed_ID>17804227</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of Chek1 in complex with inhibitor 20</PDB_Title>
+      <PDB_ID>2HOG</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HOG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>3-(Indol-2-yl)indazoles as Chek1 kinase inhibitors: Optimization of potency and selectivity via substitution at C6.</PubMed_Title>
+      <Author>Fraley ME, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2006 Dec 1;16(23):6049-53.</Journal>
+      <PubMed_ID>16978863</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>crystal structure of Chek1 in complex with inhibitor 2</PDB_Title>
+      <PDB_ID>2HXQ</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HXQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Development of 6-substituted indolylquinolinones as potent Chek1 kinase inhibitors.</PubMed_Title>
+      <Author>Huang S, et al.</Author>
+      <Journal>Bioorg Med Chem Lett. 2006 Nov 15;16(22):5907-12.</Journal>
+      <PubMed_ID>16990002</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of h-CHK1 complexed with A771129</PDB_Title>
+      <PDB_ID>2E9P</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2E9P</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-Based Design, Synthesis and Biological Evaluation of Potent and Selective Macrocyclic Chk1 Inhibitors</PubMed_Title>
+      <Author>Tong Y, et al.</Author>
+    </PDB>
+    <PDB>
+      <PDB_Title>Characterization of the Chk1 allosteric inhibitor binding site</PDB_Title>
+      <PDB_ID>3JVR</PDB_ID>
+      <Resolution>1.76</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3JVR</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00570017</ASD_Ligand>
+      <PubMed_Title>Characterization of the CHK1 allosteric inhibitor binding site.</PubMed_Title>
+      <Author>Vanderpool D, et al.</Author>
+      <Journal>Biochemistry. 2009 Oct 20;48(41):9823-30.</Journal>
+      <PubMed_ID>19743875</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE-BASED DESIGN OF NOVEL CHK1 INHIBITORS: INSIGHTS INTO HYDROGEN BONDING AND PROTEIN-LIGAND AFFINITY</PDB_Title>
+      <PDB_ID>2BRN</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2BRN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure-based design of novel Chk1 inhibitors: insights into hydrogen bonding and protein-ligand affinity.</PubMed_Title>
+      <Author>Foloppe N, et al.</Author>
+      <Journal>J Med Chem. 2005 Jun 30;48(13):4332-45.</Journal>
+      <PubMed_ID>15974586</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko04113</Pathway_ID>
+      <Pathway_Title>Meiosis - yeast</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04110</Pathway_ID>
+      <Pathway_Title>Cell cycle</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05203</Pathway_ID>
+      <Pathway_Title>Viral carcinogenesis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05166</Pathway_ID>
+      <Pathway_Title>HTLV-I infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04115</Pathway_ID>
+      <Pathway_Title>p53 signaling pathway</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04111</Pathway_ID>
+      <Pathway_Title>Cell cycle - yeast</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a+b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.e.daa.b.b.da.html</SCOP_URL>
+    <CATH_Class>Mixed alpha-beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/2hxl</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,93,Phe;site,133,Pro;site,206,Leu;site,200,Ala;range,96,101,conserved IEPDIG motif</Site_Detail>
+      <Site_Reference>Vanderpool D, et al. Biochemistry. 2009,48(41):9823-9830.</Site_Reference>
+      <PDB_ID>3JVR;3JVS;3F9N</PDB_ID>
+      <PubMed_ID>19743875</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.11.1</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/11/1.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00570001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00570018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00660028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

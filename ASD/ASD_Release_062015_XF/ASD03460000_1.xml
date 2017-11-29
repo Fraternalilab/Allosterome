@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03460000_1</Organism_ID>
+  <Organism>Bacillus subtilis</Organism>
+  <Organism_Latin>Bacillus subtilis</Organism_Latin>
+  <UniProt_ID>P16497</UniProt_ID>
+  <Seq_Length>606</Seq_Length>
+  <Molecule_Weight>69171</Molecule_Weight>
+  <KEGG_ID>bsu:BSU13990</KEGG_ID>
+  <Orthology_ID>K02491</Orthology_ID>
+  <Function_Summary>Phosphorylates the sporulation-regulatory proteins spo0A and spo0F. It also autophosphorylates in the presence of ATP.</Function_Summary>
+  <Catalytic_Mechanism>ATP + protein L-histidine = ADP + protein N-phospho-L-histidine.</Catalytic_Mechanism>
+  <Pfam_ID>PF02518:HATPase_c@@PF00512:HisKA@@PF00989:PAS</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>KinA</Alias>
+      <Alias>Histidine kinase KinA</Alias>
+      <Alias>Sporulation-specific ATP-dependent protein histidine kinase</Alias>
+      <Alias>Stage II sporulation protein J</Alias>
+      <Alias>Stage II sporulation protein F</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the phosphorylation of a histidine residue in response to detection of an extracellular signal such as a chemical ligand or change in environment, to initiate a change in cell state or activity. The two-component sensor is a histidine kinase that autophosphorylates a histidine residue in its active site. The phosphate is then transferred to an aspartate residue in a downstream response regulator, to trigger a response.</Detail>
+      <Keyword>Two-component sensor activity</Keyword>
+      <Ontology_ID>GO:0000155</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cellular DNA-dependent transcription.</Detail>
+      <Keyword>Regulation of transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006355</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A conserved series of molecular signals found in prokaryotes and eukaryotes; involves autophosphorylation of a histidine kinase and the transfer of the phosphate group to an aspartate that then acts as a phospho-donor to response regulator proteins.</Detail>
+      <Keyword>Two-component signal transduction system (phosphorelay)</Keyword>
+      <Ontology_ID>GO:0000160</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a relatively unspecialized cell acquires the specialized features of a cellular spore, a cell form that can be used for dissemination, for survival of adverse conditions because of its heat and dessication resistance, and/or for reproduction.</Detail>
+      <Keyword>Sporulation resulting in formation of a cellular spore</Keyword>
+      <Ontology_ID>GO:0030435</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation of peptidyl-histidine to form peptidyl-1'-phospho-L-histidine (otherwise known as tau-phosphohistidine, tele-phosphohistidine) or peptidyl-3'-phospho-L-histidine (otherwise known as pi-phosphohistidine, pros-phosphohistidine).</Detail>
+      <Keyword>Peptidyl-histidine phosphorylation</Keyword>
+      <Ontology_ID>GO:0018106</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>405</Position>
+      <PTM_Type>Phosphohistidine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MEQDTQHVKPLQTKTDIHAVLASNGRIIYISANSKLHLGYLQGEMIGSFLKTFLHEEDQFLVESYFYNEHHLMPCTFRFIKKDHTIVWVEAAVEIVTTRAERTEREIILKMKVLEEETGHQSLNCEKHEIEPASPESTTYITDDYERLVENLPSPLCISVKGKIVYVNSAMLSMLGAKSKDAIIGKSSYEFIEEEYHDIVKNRIIRMQKGMEVGMIEQTWKRLDGTPVHLEVKASPTVYKNQQAELLLLIDISSRKKFQTILQKSRERYQLLIQNSIDTIAVIHNGKWVFMNESGISLFEAATYEDLIGKNIYDQLHPCDHEDVKERIQNIAEQKTESEIVKQSWFTFQNRVIYTEMVCIPTTFFGEAAVQVILRDISERKQTEELMLKSEKLSIAGQLAAGIAHEIRNPLTAIKGFLQLMKPTMEGNEHYFDIVFSELSRIELILSELLMLAKPQQNAVKEYLNLKKLIGEVSALLETQANLNGIFIRTSYEKDSIYINGDQNQLKQVFINLIKNAVESMPDGGTVDIIITEDEHSVHVTVKDEGEGIPEKVLNRIGEPFLTTKEKGTGLGLMVTFNIIENHQGVIHVDSHPEKGTAFKISFPKK</Protein_Seq>
+    <DNA_Seq>gagctcgaaaaaaaacacagtaaaaaataaaaaacagggtgcacaactaaaagattgtgtgccctttcttttattcaaaaattgacgttcaccataagaatagaaggagaatactcattttctagcgaatcatactaggtaaaagtcaatctgtatatgtcgaaacacgatgatcatgcaaaggagggattctgtggaacaggatacgcagcatgttaaaccacttcaaacaaaaaccgatattcatgcagtcttggcctctaatggacgcatcatttatatatctgccaactccaaactgcatttgggctatctccaaggagagatgatcggatcattcctcaaaacgtttctgcatgaggaagaccaatttttggttgaaagctatttttataatgaacatcatctgatgccgtgcacctttcgttttattaaaaaagatcatacgattgtgtgggtggaggctgcggtagaaattgttacgacaagagctgagcggacagaacgggaaatcattttgaaaatgaaggttcttgaagaagaaacaggccatcaatccctaaactgcgaaaaacatgaaatcgaacctgcaagcccggaatcgactacatatataacggatgattatgaacggttggttgaaaatctcccgagtccgctatgcatcagtgtcaaaggcaagatcgtctatgtaaacagcgcgatgctttcaatgctgggagccaaaagcaaggatgctattattggtaaatcgtcctatgaatttattgaagaagaatatcatgatatcgtgaaaaacaggattatacgaatgcaaaaaggaatggaagtcggaatgattgaacagacgtggaaaaggcttgatggcacacctgttcatttagaagtgaaagcatccccgaccgtctacaaaaaccagcaggctgagctgctgctgctgatcgatatctcttcaaggaaaaaattccaaaccatcctgcaaaaaagccgtgaacgatat</DNA_Seq>
+  </Molecule_Seq>
+  <Tissuelocal_List>
+    <TissueLocal>
+      <TissueLocal>Unknown</TissueLocal>
+    </TissueLocal>
+  </Tissuelocal_List>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane Associated</CellLocal>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>kinA</Gene_Name>
+    <Gene_Alias>gsiC; scoD; spoIIF; spoIIJ</Gene_Alias>
+    <Gene_ID>939230</Gene_ID>
+    <Genbank_ACCN>NC_000964</Genbank_ACCN>
+    <Protein_ACCN>NP_389282</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/939230</Gene_URL>
+    <EMBL_ID>EBBACG00000003677</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>KINA PAS-A DOMAIN, HOMODIMER</PDB_Title>
+      <PDB_ID>2VLG</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?pdbId=2VLG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <Ligand_Name>ACETATE ION $CHLORIDE ION</Ligand_Name>
+      <PubMed_Title>Changes at the KinA PAS-A dimerization interface influence histidine kinase function.</PubMed_Title>
+      <Author>Lee J, et al.</Author>
+      <Journal>Biochemistry. 2008 Apr 1;47(13):4051-64.</Journal>
+      <PubMed_ID>18324779</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>domain,DHp dimerization domain</Site_Detail>
+      <Site_Reference>Whitten AE, et al. J.Mol.Biol. 2007,368(2):407-420.</Site_Reference>
+      <Site_Type>Protein-induced</Site_Type>
+      <PubMed_ID>17350039</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.13.3</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/13/3.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD00890000_1</Organism_ID>
+  <Organism>Dengue virus</Organism>
+  <Organism_Latin>Dengue virus</Organism_Latin>
+  <UniProt_ID>P27915</UniProt_ID>
+  <Seq_Length>635</Seq_Length>
+  <Molecule_Weight>74357</Molecule_Weight>
+  <Function_Summary>Capsid protein C self-assembles to form an icosahedral capsid about 30 nm in diameter. The capsid encapsulates the genomic RNA (By similarity).prM acts as a chaperone for envelope protein E during intracellular virion assembly by masking and inactivating envelope protein E fusion peptide. prM is matured in the last step of virion assembly, presumably to avoid catastrophic activation of the viral fusion peptide induced by the acidic pH of the trans-Golgi network. After cleavage by host furin, the pr peptide is released in the extracellular medium and small envelope protein M and envelope protein E homodimers are dissociated (By similarity).Envelope protein E binding to host cell surface receptor is followed by virus internalization through clathrin-mediated endocytosis. Envelope protein E is subsequently involved in membrane fusion between virion and host late endosomes. Synthesized as an homodimer with prM which acts as a chaperone for envelope protein E. After cleavage of prM, envelope protein E dissociate from small envelope protein M and homodimerizes (By similarity).Non-structural protein 1 is involved in virus replication and regulation of the innate immune response. Soluble and membrane-associated NS1 may activate human complement and induce host vascular leakage. This effect might explain the clinical manifestations of dengue hemorrhagic fever and dengue shock syndrome (By similarity).Non-structural protein 2A may be involved viral RNA replication and capsid assembly (Potential).Non-structural protein 2B is a required cofactor for the serine protease function of NS3 (By similarity).Serine protease NS3 displays three enzymatic activities: serine protease, NTPase and RNA helicase. NS3 serine protease, in association with NS2B, performs its autocleavage and cleaves the polyprotein at dibasic sites in the cytoplasm: C-prM, NS2A-NS2B, NS2B-NS3, NS3-NS4A, NS4A-2K and NS4B-NS5. NS3 RNA helicase binds RNA and unwinds dsRNA in the 3' to 5' direction (By similarity).Non-structural protein 4A induces host endoplasmic reticulum membrane rearrangements leading to the formation of virus-induced membranous vesicles hosting the dsRNA and polymerase, functionning as a replication complex. NS4A might also regulate the ATPase activity of the NS3 helicase (By similarity).Peptide 2k functions as a signal peptide for NS4B and is required for the interferon antagonism activity of the latter (By similarity).Non-structural protein 4B inhibits interferon (IFN)-induced host STAT1 phosphorylation and nuclear translocation, thereby preventing the establishment of cellular antiviral state by blocking the IFN-alpha/beta pathway (By similarity).RNA-directed RNA polymerase NS5 replicates the viral (+) and (-) genome, and performs the capping of genomes in the cytoplasm. NS5 methylates viral RNA cap at guanine N-7 and ribose 2'-O positions. Besides its role in genome replication, also prevents the establishment of cellular antiviral state by blocking the interferon-alpha/beta (IFN-alpha/beta) signaling pathway. Inhibits host TYK2 and STAT2 phosphorylation, thereby preventing activation of JAK-STAT signaling pathway (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>Selective hydrolysis of -Xaa-Xaa-|-Yaa- bonds in which each of the Xaa can be either Arg or Lys and Yaa can be either Ser or Ala.@@Nucleoside triphosphate + RNA(n) = diphosphate + RNA(n+1).@@NTP + H(2)O = NDP + phosphate.@@ATP + H(2)O = ADP + phosphate.@@S-adenosyl-L-methionine + G(5')pppR-RNA = S-adenosyl-L-homocysteine + m(7)G(5')pppR-RNA.@@S-adenosyl-L-methionine + m(7)G(5')pppR-RNA = S-adenosyl-L-homocysteine + m(7)G(5')pppRm-RNA.</Catalytic_Mechanism>
+  <Pfam_ID>PF01003:Flavi_capsid@@PF07652:Flavi_DEAD@@PF02832:Flavi_glycop_C@@PF00869:Flavi_glycoprot@@PF01004:Flavi_M@@PF00948:Flavi_NS1@@PF01005:Flavi_NS2A@@PF01002:Flavi_NS2B@@PF01350:Flavi_NS4A@@PF01349:Flavi_NS4B@@PF00972:Flavi_NS5@@PF01570:Flavi_propep@@PF01728:FtsJ@@PF00271:Helicase_C@@PF00949:Peptidase_S7</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>19</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>4</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>RNA-Dependent RNA Polymerase</Alias>
+      <Alias>Non-structural protein 5</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of internal, alpha-peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type endopeptidase activity</Keyword>
+      <Ontology_ID>GO:0004252</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>The formation of a protein dimer, a macromolecular structure consists of two noncovalently associated identical or nonidentical subunits.</Detail>
+      <Keyword>Protein dimerization activity</Keyword>
+      <Ontology_ID>GO:0046983</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid.</Detail>
+      <Keyword>Peptidase activity</Keyword>
+      <Ontology_ID>GO:0008233</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: nucleoside triphosphate + RNA(n) = diphosphate + RNA(n+1); uses an RNA template.</Detail>
+      <Keyword>RNA-directed RNA polymerase activity</Keyword>
+      <Ontology_ID>GO:0003968</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>The action of a molecule that contributes to the structural integrity of a complex or assembly within or outside a cell.</Detail>
+      <Keyword>Structural molecule activity</Keyword>
+      <Ontology_ID>GO:0005198</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of peptide bonds in a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type peptidase activity</Keyword>
+      <Ontology_ID>GO:0008236</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3.</Detail>
+      <Keyword>Hydrolase activity</Keyword>
+      <Ontology_ID>GO:0016787</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: NTP + H2O = NDP + phosphate, to drive the unwinding of a RNA helix.</Detail>
+      <Keyword>RNA helicase activity</Keyword>
+      <Ontology_ID>GO:0003724</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + H2O = ADP + phosphate, to drive the unwinding of a DNA or RNA helix.</Detail>
+      <Keyword>ATP-dependent helicase activity</Keyword>
+      <Ontology_ID>GO:0008026</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a methyl group to an acceptor molecule.</Detail>
+      <Keyword>Methyltransferase activity</Keyword>
+      <Ontology_ID>GO:0008168</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: S-adenosyl-L-methionine + G(5')pppR-RNA = S-adenosyl-L-homocysteine + m7G(5')pppR-RNA. m7G(5')pppR-RNA is mRNA containing an N7-methylguanine cap; R may be guanosine or adenosine.</Detail>
+      <Keyword>MRNA (guanine-N7-)-methyltransferase activity</Keyword>
+      <Ontology_ID>GO:0004482</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the hydrolysis of a peptide bond not more than three residues from the N- or C-terminus of a polypeptide chain by a catalytic mechanism that involves a catalytic triad consisting of a serine nucleophile that is activated by a proton relay involving an acidic residue (e.g. aspartate or glutamate) and a basic residue (usually histidine).</Detail>
+      <Keyword>Serine-type exopeptidase activity</Keyword>
+      <Ontology_ID>GO:0070008</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with double-stranded RNA.</Detail>
+      <Keyword>Double-stranded RNA binding</Keyword>
+      <Ontology_ID>GO:0003725</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a nucleotidyl group to a reactant.</Detail>
+      <Keyword>Nucleotidyltransferase activity</Keyword>
+      <Ontology_ID>GO:0016779</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: NTP + H2O = NDP + phosphate, to drive the unwinding of a DNA or RNA helix.</Detail>
+      <Keyword>Helicase activity</Keyword>
+      <Ontology_ID>GO:0004386</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an RNA molecule or a portion thereof.</Detail>
+      <Keyword>RNA binding</Keyword>
+      <Ontology_ID>GO:0003723</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: S-adenosyl-L-methionine + m7G(5')pppR-RNA = S-adenosyl-L-homocysteine + m7G(5')pppRm-RNA. R may be guanosine or adenosine.</Detail>
+      <Keyword>MRNA (nucleoside-2'-O-)-methyltransferase activity</Keyword>
+      <Ontology_ID>GO:0004483</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Viral protein involved in the virion's initiation of infection into a host cell, including internalization and penetration into the host cell cytoplasm, intracellular transport of viral components and genome release to the replication site of the virus.</Detail>
+      <Keyword>Initiation of viral infection</Keyword>
+      <Ontology_ID>KW-1160</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Viral protein involved in the evasion of type I and III interferon pathways by inhibiting STAT2 protein. Upon viral infection, STAT2 is activated by IFN-alpha/beta or IFN-lambda that bind to specific cell surface receptors. In turn, IFN-alpha/beta (or IFN-lambda) induces heterodimerization of STAT1 and STAT2 by phosphorylation, leading to STAT2 nuclear localization and subsequent induction of IFN-stimulated genes. Many viruses interfere with STAT2 activation, often by preventing STAT2 phosphorylation and nuclear localization.</Detail>
+      <Keyword>Inhibition of host STAT2 by virus</Keyword>
+      <Ontology_ID>KW-1106</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved in the conversion of a primary mRNA transcript into one or more mature mRNA(s) prior to translation into polypeptide.</Detail>
+      <Keyword>MRNA processing</Keyword>
+      <Ontology_ID>GO:0006397</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Regulation of transcription</Keyword>
+      <Ontology_ID>GO:0045449</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process in which an organism has an effect on an organism of a different species.</Detail>
+      <Keyword>Interspecies interaction between organisms</Keyword>
+      <Ontology_ID>GO:0044419</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of either RNA on a template of DNA or DNA on a template of RNA.</Detail>
+      <Keyword>Transcription</Keyword>
+      <Ontology_ID>GO:0006350</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Addition of the 7-methylguanosine cap to the 5' end of a nascent messenger RNA transcript.</Detail>
+      <Keyword>MRNA capping</Keyword>
+      <Ontology_ID>GO:0006370</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Viral protein involved in virus internalization by the host cell via clathrin-mediated endocytosis. In response to an internalization signal, clathrin is assembled on the inside face of the cell membrane to form characteristic invaginations or clathrin coated pits that pinch off through the action of DNM1/Dynamin-1 or DNM2/Dynamin-2. The virus bound to its host cell receptor is internalized into clathrin-coated vesicles (CCV). Endocytic CCV deliver their viral content to early endosomes. The endosomal acidic pH and/or receptor binding usually induces structural modifications of the virus surface proteins that lead to penetration of the endosomal membrane via fusion or permeabilization mechanisms.</Detail>
+      <Keyword>Clathrin-mediated endocytosis of virus by host</Keyword>
+      <Ontology_ID>KW-1165</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process involved directly in viral genome replication, including viral nucleotide metabolism.</Detail>
+      <Keyword>Viral genome replication</Keyword>
+      <Ontology_ID>GO:0019079</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Viral protein involved in the evasion of host innate defense by inhibiting the interferon signaling pathway leading to the production of interferon-induced genes. Interferons bind to the IFN receptors (IFNAR) on the cell surface and activate Jak/Tyk kinases. These kinases phosphorylate STAT1 and STAT2 that translocate to the nucleus and induce the expression of interferon stimulated genes (ISGs). Many viruses interact with components of this pathway to prevent expression of ISGs and inhibit the host immune response.</Detail>
+      <Keyword>Inhibition of host interferon signaling pathway by virus</Keyword>
+      <Ontology_ID>KW-1114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of RNA on a template of DNA.</Detail>
+      <Keyword>Transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006351</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Viral surface protein implicated in the binding to specific host surface molecule(s). This binding can lead to virion entry into the host cell, it can trigger signaling pathways, or it can allow the virion to be carried by the host cell to a specific organ.</Detail>
+      <Keyword>Viral attachment to host cell</Keyword>
+      <Ontology_ID>KW-1161</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The cellular synthesis of DNA on a template of RNA.</Detail>
+      <Keyword>Transcription, RNA-dependent</Keyword>
+      <Ontology_ID>GO:0006410</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Viral protein involved in the evasion of host innate immune response. Upon viral infection, the innate immune system initially defends the host in a non-specific manner. Many viral proteins interact with and inhibit components the host innate system to replicate more efficiently.</Detail>
+      <Keyword>Inhibition of host innate immune response by virus</Keyword>
+      <Ontology_ID>KW-1090</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Viral protein involved in virus internalization by the host cell via receptor-mediated endocytosis. Receptor mediated endocytosis can occur via: clathrin-mediated endocytosis, caveolin-mediated endocytosis or clathrin- and caveolae-independent endocytosis.</Detail>
+      <Keyword>Receptor mediated endocytosis of virus by host</Keyword>
+      <Ontology_ID>KW-1164</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Viral protein involved in the merging of the virus envelope with host endosomal membrane during viral penetration into host cell. Viral fusion proteins drive this fusion reaction by undergoing a major conformational change that is triggered by interactions with the target cell. The specific trigger is mainly endosome acidification which induce activation of the fusion protein by conformational change. This pathway is used by enveloped viruses which are endocytosed and whose fusion protein is usually pH-dependent like influenza A virus, rhabdoviruses, bornaviruses, filoviruses, asfarviridae, flaviviridae, alphaviruses, HIV-1, avian leukosis virus, SARS, 229E, and MHV-2 coronaviruses.</Detail>
+      <Keyword>Fusion of virus membrane with host endosomal membrane</Keyword>
+      <Ontology_ID>KW-1170</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Viral protein involved in the entry of the entire virion or its genetic material into the host cell cytoplasm. Entry is achieved through pore formation, membrane fusion and/or endocytosis mechanisms. Penetration reactions occur mainly in five locations: the cell membrane, early and late endosomes, caveosomes, and the ER.</Detail>
+      <Keyword>Viral penetration into host cytoplasm</Keyword>
+      <Ontology_ID>KW-1162</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Viral protein involved in the evasion of the type I and III interferon pathways by inhibiting the host TYK2 protein. Upon viral infection, the TYK2 protein is activated by IFNalpha/beta or IFN-lambda stimulation leading to a series of phosphorylation events that induce transcription of several hundred IFN-responsive genes. Several viruses have evolved mechanisms to inhibit TYK2 activity thereby preventing the subsequent activation of downstream partners STAT1 and STAT2.</Detail>
+      <Keyword>Inhibition of host TYK2 by virus</Keyword>
+      <Ontology_ID>KW-1112</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the frequency, rate or extent of cellular DNA-dependent transcription.</Detail>
+      <Keyword>Regulation of transcription, DNA-dependent</Keyword>
+      <Ontology_ID>GO:0006355</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Viral protein involved in the merging of the virion membrane with the host membrane during viral penetration or egress in host cell. Viral fusion proteins drive this fusion reaction by undergoing a major conformational change that is triggered by interactions with the target cell. The specific trigger depends on the virus and can be exposure to low pH in the endocytic pathway or interaction of the virion with the host receptor(s).</Detail>
+      <Keyword>Fusion of virus membrane with host membrane</Keyword>
+      <Ontology_ID>KW-1168</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process, either active or passive, by which a virus avoids the effects of the host organism's immune response. The host is defined as the larger of the organisms involved in a symbiotic interaction.</Detail>
+      <Keyword>Evasion by virus of host immune response</Keyword>
+      <Ontology_ID>GO:0030683</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds.</Detail>
+      <Keyword>Proteolysis</Keyword>
+      <Ontology_ID>GO:0006508</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MNNQRKKTGKPSINMLKRVRNRVSTGSQLAKRFSRGLLNGQGPMKLVMAFIAFLRFLAIPPTAGVLARWGTFKKSGAIKVLKGFKKEISNMLSIINKRKKTSLCLMMMLPATLAFHLTSRDGEPRMIVGKNERGKSLLFKTASGINMCTLIAMDLGEMCDDTVTYKCPHITEVEPEDIDCWCNLTSTWVTYGTCNQAGEHRRDKRSVALAPHVGMGLDTRTQTWMSAEGAWRQVEKVETWALRHPGFTILALFLAHYIGTSLTQKVVIFILLMLVTPSMTMRCVGVGNRDFVEGLSGATWVDVVLEHGGCVTTMAKNKPTLDIELQKTEATQLATLRKLCIEGKITNITTDSRCPTQGEAILPEEQDQNYVCKHTYVDRGWGNGCGLFGKGSLVTCAKFQCLESIEGKVVQHENLKYTVIITVHTGDQHQVGNETQGVTAEITSQASTAEAILPEYGTLGLECSPRTGLDFNEMILLTMKNKAWMVHRQWFFDLPLPWTSGATTKTPTWNRKELLVTFKNAHAKKQEVVVLGSQEGAMHTALTGATEIQTSGGTSIFAGHLKCRLKMDKLKLKGMSYAMCLNTFVLKKEVSETQHGTILIKVEYKGEDAPCKIPFSTEDGQGKAHNGRLITANPVVTKKEEPVNIEAEPPFGESNIVIGIGDKALKINWYRKGSSIGKMFEATARGARRMAILGDTAWDFGSVGGVLNSLGKMVHQIFGSAYTALFSGVSWIMKIGIGVLLTWIGLNSKNTSMSFSCIAIGIITLYLGVVVQADMGCVINWKGKELKCGSGIFVTNEVHTWTEQYKFQADSPKRVATAIAGAWENGVCGIRSTTRMENLLWKQIANELNYILWENDIKLTVVVGDITGVLEQGKRTLTPQPMELKYSWKTWGLAKIVTAETQNSSFIIDGPSTPECPSASRAWNVWEVEDYGFGVFTTNIWLKLREVYTQLCDHRLMSAAVKDERAVHADMGYWIESQKNGSWKLEKASLIEVKTCTWPKSHTLWSNGVLESDMIIPKSLAGPISQHNHRPGYHTQTAGPWHLGKLELDFNYCEGTTVVISENCGTRGPSLRTTTVSGKLIHEWCCRSCTLPPLRYMGEDGCWYGMEIRPINEKEENMVKSLASAGSGKVDNFTMGVLCLAILFEEVMRGKFGKKHMIAGVLFTFVLLLSGQITWRGMAHTLIMIGSNASDRMGMGVTYLALIATFKIQPFLALGFFLRKLTSRENLLLGVGLAMAATLRLPEDIEQMANGIALGLMALKLITQFETYQLWTALVSLTCSNTIFTLTVAWRTATLILAGISLLPVCQSSSMRKTDWLPMTVAAMGVPPLPLFIFSLKDTLKRRSWPLNEGVMAVGLVSILASSLLRNDVPMAGPLVAGGLLIACYVITGTSADLTVEKAADVTWEEEAEQTGVSHNLMITVDDDGTMRIKDDETENILTVLLKTALLIVSGIFPYSIPATMLVWHTWQKQTQRSGVLWDVPSPPETQKAELEEGVYRIKQQGIFGKTQVGVGVQKEGVFHTMWHVTRGAVLTHNGKRLEPNWASVKKDLISYGGGWRLSAQWQKGEEVQVIAVEPGKNPKNFQTMPGIFQTTTGEIGAIALDFKPGTSGSPIINREGKVVGLYGNGVVTKNGGYVSGIAQTNAEPDGPTPELEEEMFKKRNLTIMDLHPGSGKTRKYLPAIVREAIKRRLRTLILAPTRVVAAEMEEAMKGLPIRYQTTATKSEHTGREIVDLMCHATFTMRLLSPVRVPNYNLIIMDEAHFTDPASIAARGYISTRVGMGEAAAIFMTATPPGTADAFPQSNAPIQDEERDIPERSWNSGNEWITDFVGKTVWFVPSIKAGNVIANCLRKNGKKVIQLSRKTFDTEYQKTKLNDWDFVVTTDISEMGANFIADRVIDPRRCLKPVILTDGPERVILAGPMPVTVASAAQRRGRVGRNPQKENDQYIFMGQPLNKDEDHAHWTEAKMLLDNINTPEGIIPALFEPEREKSAAIDGEYRLKGESRKTFVELMRRGDLPVWLAHKVASEGIKYTDRKWCFDGERNNQILEENMDVEIWTKEGEKKKLRPRWLDARTYSDPLALKEFKDFAAGRKSIALDLVTEIGRVPSHLAHRTRNALDNLVMLHTSEHGGRAYRHAVEELPETMETLLLLGLMILLTGGAMLFLISGKGIGKTSIGLICVIASSGMLWMADVPLQWIASAIVLEFFMMVLLIPEPEKQRTPQDNQLAYVVIGILTLAAIVAANEMGLLETTKRDLGMSKEPGVVSPTSYLDVDLHPASAWTLYAVATTVITPMLRHTIENSTANVSLAAIANQAVVLMGLDKGWPISKMDLGVPLLALGCYSQVNPLTLIAAVLLLVTHYAIIGPGLQAKATREAQKRTAAGIMKNPTVDGIMTIDLDPVIYDSKFEKQLGQVMLLVLCAVQLLLMRTSWALCEVLTLATGPITTLWEGSPGKFWNTTIAVSMANIFRGSYLAGAGLALSIMKSVGTGKRGTGSQGETLGEKWKKKLNQLSRKEFDLYKKSGITEVDRTEAKEGLKRGEITHHAVSRGSAKLQWFVERNMVIPEGRVIDLGCGRGGWSYYCAGLKKVTEVRGYTKGGPGHEEPVPMSTYGWNIVKLMSGKDVFYLPPEKCDTLLCDIGESSPSPTVEESRTIRVLKMVEPWLKNNQFCIKVLNPYMPTVIEHLERLQRKHGGMLVRNPLSRNSTHEMYWISNGTGNIVSSVNMVSRLLLNRFTMTHRRPTIEKDVDLGAGTRHVNAEPETPNMDVIGERIKRIKEEHSSTWHYDDENPYKTWAYHGSYEVKATGSASSMINGVVKLLTKPWDVVPMVTQMAMTDTTPFGQQRVFKEKVDTRTPRPMPGTRKVMEITAEWLWRTLGRNKRPRLCTREEFTKKVRTNAAMGAVFTEENQWDSARAAVEDEEFWKLVDRERELHKLGKCGSCVYNMMGKREKKLGEFGKAKGSRAIWYMWLGARYLEFEALGFLNEDHWFSRENSYSGVEGEGLHKLGYILRDISKIPGGAMYADDTAGWDTRITEDDLHNEEKITQQMDPEHRQLANAIFKLTYQNKVVKVQRPTPKGTVMDIISRKDQRGSGQVGTYGLNTFTNMEAQLIRQMEGEGVLSKADLENPHPLEKKITQWLETKGVERLKRMAISGDDCVVKPIDDRFANALLALNDMGKVRKDIPQWQPSKGWHDWQQVPFCSHHFHELIMKDGRKLVVPCRPQDELIGRARISQGAGWSLRETACLGKAYAQMWTLMYFHRRDLRLASNAICSAVPVHWVPTSRTTWSIHAHHQWMTTEDMLTVWNRVWIEDNPWMEDKTPVTTWEDVPYLGKREDQWCGSLIGLTSRATWAQNILTAIQQVRSLIGNEEFLDYMPSMKRFRKEEESEGAIW</Protein_Seq>
+    <DNA_Seq>AGTTGTTAGTCTACGTGGACCGACAAGAACAGTTTCGACTCGGAAGCTTGCTTAACGTAGTGCTGACAGTTTTTTATTAGAGAGCAGATCTCTGATGAACAACCAACGGAAAAAGACGGGAAAACCGTCTATCAATATGCTGAAACGCGTGAGAAACCGTGTGTCAACTGGATCACAGTTGGCGAAGAGATTCTCAAGAGGATTGCTGAACGGCCAAGGACCAATGAAATTGGTTATGGCGTTTATAGCTTTCCTCAGATTTCTAGCCATTCCACCGACAGCAGGAGTCTTGGCTAGATGGGGTACCTTTAAGAAGTCGGGGGCTATTAAGGTCTTAAAAGGCTTCAAGAAGGAGATCTCAAACATGCTGAGCATTATCAACAAACGGAAAAAGACATCGCTCTGTCTCATGATGATGTTACCAGCAACACTTGCTTTCCACTTAACTTCACGAGATGGAGAGCCGCGCATGATTGTGGGGAAGAATGAAAGAGGAAAATCCCTACTTTTTAAGACAGCCTCTGGAATCAACATGTGCACACTCATAGCCATGGATTTGGGAGAGATGTGTGATGACACGGTCACTTACAAATGCCCCCACATTACCGAAGTGGAGCCTGAAGACATTGACTGTTGGTGCAACCTTACATCGACATGGGTGACTTATGGAACATGCAATCAAGCTGGAGAGCATAGACGCGATAAGAGATCAGTGGCGTTAGCTCCCCATGTCGGCATGGGACTGGACACACGCACTCAAACCTGGATGTCGGCTGAAGGAGCTTGGAGACAAGTCGAGAAGGTAGAGACATGGGCCCTTAGGCACCCAGGGTTTACCATACTAGCCCTATTTCTTGCCCATTACATAGGCACTTCCTTGACCCAGAAAGTGGTTATTTTTATACTATTAATGCTGGTTACCCCATCCATGACAATGAGATGTGTGGGAGTAGGAAACAGAGATTTTGTGGAAGGCCTATCGGGAGCTACGTGGGTTGACGTGGTGCTCGAGCACGGTGGGTGTGTGACTACCATGGCTAAGAACAAGCCCACGCTGGACATAGAGCTTCAGAAGACTGAGGCCACTCAGCTGGCGACCCTAAGGAAGCTATGCATTGAGGGAAAAATTACCAACATAACAACCGACTCAAGATGTCCCACCCAAGGGGAAGCGATTTTACCTGAGGAGCAGGACCAGAACTACGTGTGTAAGCATACATACGTGGACAGAGGCTGGGGAAACGGTTGTGGTTTGTTTGGCAAGGGAAGCTTGGTGACATGCGCGAAATTTCAATGTTTAGAATCAATAGAGGGAAAAGTGGTGCAACATGAGAACCTCAAATACACCGTCATCATCACAGTGCACACAGGAGACCAACACCAGGTGGGAAATGAAACGCAGGGAGTTACGGCTGAGATAACATCCCAGGCATCAACCGCTGAAGCCATTTTACCTGAATATGGAACCCTCGGGCTAGAATGCTCACCACGGACAGGTTTGGATTTCAATGAAATGATTTTATTGACAATGAAGAACAAAGCATGGATGGTACATAGACAATGGTTCTTTGACTTACCCCTACCATGGACATCAGGAGCTACAACAAAAACACCAACTTGGAACAGGAAAGAGCTTCTTGTGACATTTAAAAATGCACATGCAAAAAAGCAAGAAGTAGTTGTCCTTGGATCACAAGAGGGAGCAATGCATACAGCACTGACAGGAGCTACAGAGATCCAAACCTCAGGAGGCACAAGTATTTTTGCGGGGCACTTAAAATGTAGACTCAAGATGGACAAATTGAAACTCAAGGGGATGAGCTATGCAATGTGCTTGAATACCTTTGTGTTGAAGAAAGAAGTCTCCGAAACGCAGCATGGGACAATACTCATTAAGGTTGAGTACAAAGGGGAAGATGCACCCTGCAAGATTCCTTTCTCCACGGAGGATGGACAAGGGAAAGCTCACAATGGCAGACTGATCACAGCCAATCCAGTGGTGACCAAGAAGGAGGAGCCTGTCAACATTGAGGCTGAACCTCCTTTTGGGGAAAGTAATATAGTAATTGGAATTGGAGACAAAGCCCTGAAAATCAACTGGTACAGGAAGGGAAGCTCGATTGGGAAGATGTTCGAGGCCACTGCCAGAGGTGCAAGGCGCATGGCCATCTTGGGAGACACAGCCTGGGACTTTGGATCAGTGGGTGGTGTTTTGAATTCATTAGGGAAAATGGTCCACCAAATATTTGGGAGTGCTTACACAGCCCTATTTAGTGGAGTCTCCTGGATAATGAAAATTGGAATAGGTGTCCTCTTAACCTGGATAGGGTTGAATTCAAAAAACACTTCTATGTCATTTTCATGCATTGCGATAGGAATCATTACACTCTATCTGGGGGTCGTGGTGCAAGCTGACATGGGGTGTGTCATAAACTGGAAAGGCAAAGAACTCAAATGTGGAAGTGGAATTTTCGTCACTAATGAGGTCCACACCTGGACAGAGCAATACAAATTTCAAGCAGACTCCCCCAAAAGAGTGGCAACAGCCATTGCAGGCGCTTGGGAGAATGGAGTGTGCGGAATTAGGTCAACAACCAGAATGGAGAACCTCTTGTGGAAGCAAATAGCCAATGAACTGAACTACATATTATGGGAAAACGACATTAAATTAACGGTAGTTGTAGGCGACATAACTGGGGTCTTAGAGCAAGGGAAAAGAACACTAACACCACAACCCATGGAGCTAAAATATTCTTGGAAAACATGGGGTTTGGCAAAAATAGTGACAGCTGAAACACAAAATTCCTCTTTCATAATAGATGGGCCAAGCACACCGGAGTGTCCAAGTGCCTCAAGAGCATGGAATGTGTGGGAGGTGGAAGATTACGGGTTCGGAGTTTTCACAACCAACATATGGCTGAAACTCCGAGAGGTGTACACCCAACTATGTGACCATAGGCTAATGTCGGCAGCCGTCAAGGATGAGAGGGCCGTACACGCCGACATGGGCTATTGGATAGAAAGCCAAAAGAATGGAAGTTGGAAGCTAGAAAAAGCATCCCTCATAGAGGTGAAAACCTGCACATGGCCAAAATCACACACTCTTTGGAGCAATGGTGTGCTAGAGAGTGACATGATTATCCCAAAGAGTCTAGCTGGTCCCATTTCGCAACACAACCACAGGCCCGGGTACCACACCCAAACGGCAGGACCCTGGCACTTAGGAAAATTGGAGCTGGACTTCAACTATTGTGAAGGAACAACAGTTGTCATCTCAGAAAACTGTGGGACAAGAGGCCCATCATTGAGAACAACAACAGTGTCAGGGAAGTTGATACACGAATGGTGTTGCCGCTCGTGCACACTTCCTCCCCTGCGATACATGGGAGAAGACGGCTGCTGGTATGGCATGGAAATCAGACCCATTAATGAGAAAGAAGAGAACATGGTAAAGTCTCTAGCCTCAGCAGGGAGTGGAAAGGTGGACAACTTCACAATGGGTGTCTTGTGTTTGGCAATCCTCTTTGAAGAGGTGATGAGAGGAAAATTTGGGAAAAAACACATGATTGCAGGGGTTCTCTTCACGTTTGTGCTCCTCCTCTCAGGGCAAATAACATGGAGAGGCATGGCGCACACACTCATAATGATTGGGTCCAACGCCTCTGACAGAATGGGGATGGGCGTCACTTACCTAGCTCTAATTGCAACATTTAAAATTCAGCCATTCTTGGCTTTGGGATTCTTCCTGAGGAAACTGACATCTAGAGAAAATTTATTGCTGGGAGTTGGGTTGGCCATGGCAGCAACGTTACGACTGCCAGAGGACATTGAACAAATGGCGAATGGAATTGCTTTGGGGCTCATGGCTCTTAAACTGATAACACAATTTGAAACATACCAACTATGGACGGCATTAGTTTCCCTAACGTGTTCAAATACAATTTTCACGTTGACTGTTGCCTGGAGAACAGCCACTCTGATTTTAGCCGGAATTTCGCTTTTGCCAGTGTGCCAGTCTTCGAGCATGAGGAAAACAGATTGGCTCCCAATGACTGTGGCAGCTATGGGAGTTCCACCCCTACCACTTTTTATTTTCAGTCTGAAAGATACACTCAAAAGGAGAAGCTGGCCACTGAATGAGGGGGTGATGGCAGTTGGACTTGTGAGCATTCTAGCTAGTTCTCTCCTTAGGAATGATGTGCCCATGGCTGGACCATTAGTGGCTGGGGGCTTGCTGATAGCGTGCTACGTCATAACTGGCACGTCAGCAGACCTCACTGTAGAAAAAGCAGCAGATGTAACATGGGAGGAAGAGGCCGAGCAAACAGGAGTGTCCCACAATTTAATGATCACAGTTGATGATGATGGAACAATGAGAATAAAAGATGACGAGACTGAGAACATCTTAACAGTGCTTTTAAAAACAGCACTACTAATAGTATCAGGCATCTTTCCATACTCCATACCCGCAACAATGTTGGTCTGGCATACTTGGCAAAAGCAAACCCAAAGATCCGGCGTCCTATGGGACGTACCCAGCCCCCCAGAGACACAGAAAGCGGAACTGGAAGAAGGGGTCTATAGGATCAAACAGCAAGGAATTTTTGGGAAAACCCAAGTGGGGGTTGGAGTACAGAAAGAAGGAGTTTTCCACACCATGTGGCACGTCACAAGAGGGGCAGTGTTGACACACAATGGGAAAAGACTGGAACCAAACTGGGCTAGCGTGAAAAAAGATCTGATTTCATACGGAGGAGGATGGAGATTGAGTGCACAATGGCAAAAGGGGGAGGAGGTGCAGGTTATTGCCGTAGAGCCTGGGAAGAACCCAAAGAACTTTCAAACCATGCCAGGCATTTTTCAGACAACAACAGGGGAAATAGGAGCAATTGCACTGGATTTCAAGCCTGGAACTTCAGGATCTCCCATCATAAACAGAGAGGGAAAGGTAGTGGGACTGTATGGCAATGGAGTGGTTACAAAGAATGGAGGCTATGTTAGTGGAATAGCGCAAACAAATGCAGAACCAGATGGACCGACACCAGAGTTGGAAGAAGAGATGTTCAAAAAGCGAAATCTAACCATAATGGATCTTCATCCTGGGTCAGGAAAGACGCGGAAATATCTTCCAGCTATTGTTAGAGAGGCAATCAAGAGACGCTTAAGGACTCTAATTTTGGCACCAACAAGGGTAGTTGCAGCTGAGATGGAAGAAGCAATGAAAGGGCTCCCAATAAGGTATCAAACAACTGCAACAAAATCTGAACACACAGGAAGAGAGATTGTTGATCTAATGTGTCACGCAACGTTCACAATGCGCTTGCTGTCACCAGTCAGGGTTCCAAACTACAACTTGATAATAATGGATGAGGCTCATTTCACAGACCCAGCCAGTATAGCGGCTAGAGGGTACATATCAACTCGTGTAGGAATGGGAGAGGCAGCCGCAATTTTCATGACAGCAACACCCCCTGGAACAGCTGATGCCTTTCCTCAGAGCAACGCTCCAATTCAAGATGAAGAGAGAGACATACCGGAACGCTCATGGAATTCAGGCAATGAATGGATTACTGACTTTGTTGGGAAGACAGTGTGGTTTGTCCCTAGCATCAAAGCCGGAAATGTCATAGCAAACTGTTTGCGGAAAAATGGAAAAAAGGTCATTCAACTCAGCAGGAAGACCTTTGACACAGAATATCAAAAGACCAAACTGAATGATTGGGACTTTGTGGTGACAACAGACATTTCAGAAATGGGAGCCAATTTCATAGCAGATAGAGTGATCGACCCAAGAAGATGTCTCAAGCCGGTGATTTTGACAGATGGACCCGAGCGGGTGATCCTGGCTGGACCAATGCCAGTCACCGTAGCGAGCGCTGCGCAAAGGAGAGGGAGAGTTGGCAGGAACCCACAAAAAGAAAATGACCAGTACATATTCATGGGCCAGCCTCTCAACAAAGATGAAGACCATGCTCACTGGACAGAAGCAAAAATGCTGCTGGACAACATCAACACACCAGAAGGGATTATACCAGCTCTCTTTGAACCAGAAAGGGAGAAGTCAGCCGCCATAGACGGCGAATACCGCCTGAAGGGTGAGTCCAGGAAGACTTTCGTGGAACTCATGAGGAGGGGTGACCTCCCAGTTTGGCTAGCCCATAAAGTAGCATCAGAAGGGATCAAATATACAGATAGAAAATGGTGCTTTGATGGAGAACGTAATAATCAAATTTTAGAGGAGAATATGGATGTGGAAATCTGGACAAAGGAAGGAGAAAAGAAAAAACTGAGACCTAGGTGGCTCGATGCCCGCACTTATTCAGATCCTTTAGCACTCAAGGAATTCAAGGATTTTGCAGCTGGCAGAAAGTCAATCGCCCTTGATCTTGTGACAGAAATAGGAAGAGTGCCTTCACACTTAGCCCACAGAACGAGAAACGCCCTGGACAATTTGGTGATGCTGCACACGTCAGAACATGGCGGTAGGGCCTACAGGCATGCAGTGGAGGAACTACCAGAAACGATGGAAACACTCTTACTCCTGGGACTGATGATCTTGTTAACAGGTGGAGCAATGCTCTTCTTGATATCAGGTAAAGGGATTGGAAAGACTTCAATAGGACTCATTTGTGTAATTGCTTCCAGCGGCATGTTATGGATGGCTGATGTCCCACTCCAATGGATCGCGTCGGCTATAGTCCTGGAGTTTTTTATGATGGTGTTGCTCATACCAGAACCAGAAAAGCAGAGAACTCCCCAAGACAACCAACTCGCATATGTCGTGATAGGCATACTTACATTGGCTGCAATAGTAGCGGCCAATGAAATGGGACTGTTGGAAACTACAAAGAGAGATTTAGGAATGTCTAAAGAACCAGGTGTTGTTTCTCCAACCAGCTATTTGGATGTGGACTTGCACCCAGCATCAGCCTGGACATTGTACGCCGTGGCCACAACAGTAATAACACCAATGTTGAGACACACCATAGAGAATTCCACAGCAAATGTGTCCCTGGCAGCCATAGCTAACCAGGCAGTGGTCCTGATGGGTTTAGACAAAGGATGGCCGATATCGAAAATGGACTTGGGCGTACCACTATTGGCACTGGGTTGCTATTCACAAGTGAACCCACTAACTCTTATAGCGGCAGTACTTTTGCTAGTCACACATTATGCAATTATAGGTCCAGGATTGCAGGCAAAAGCCACTCGTGAAGCTCAGAAAAGGACAGCTGCTGGAATAATGAAGAATCCAACGGTGGATGGAATAATGACAATAGACCTAGATCCTGTAATATATGATTCAAAATTTGAAAAGCAACTAGGACAGGTTATGCTCCTGGTTCTGTGTGCAGTTCAACTTTTGTTAATGAGAACATCATGGGCCTTGTGTGAAGTTCTAACCCTAGCCACAGGACCAATAACAACACTCTGGGAAGGATCACCTGGGAAGTTCTGGAACACCACGATAGCTGTTTCCATGGCGAACATCTTTAGAGGGAGCTATTTAGCAGGAGCTGGGCTTGCTCTTTCTATCATGAAATCAGTTGGAACAGGAAAGAGAGGAACAGGGTCACAAGGTGAAACCTTAGGAGAAAAGTGGAAAAAGAAATTAAATCAGTTATCCCGGAAAGAGTTTGACCTTTACAAGAAATCCGGAATCACCGAAGTGGATAGAACAGAAGCCAAAGAAGGGTTAAAAAGAGGAGAAATAACACACCATGCCGTGTCCAGAGGCAGCGCAAAACTTCAATGGTTCGTGGAGAGAAACATGGTCATTCCCGAAGGAAGAGTCATAGACTTAGGCTGTGGAAGAGGAGGCTGGTCATATTACTGTGCAGGACTGAAAAAAGTTACAGAAGTGCGAGGATACACAAAAGGCGGCCCAGGACACGAAGAACCAGTACCTATGTCTACATACGGATGGAACATAGTCAAGTTAATGAGTGGAAAGGATGTTTTTTATCTGCCACCTGAAAAGTGTGATACCCTATTGTGTGACATTGGAGAATCTTCACCAAGCCCAACAGTGGAAGAAAGCAGAACCATAAGAGTCTTGAAGATGGTTGAACCATGGCTAAAAAACAACCAGTTTTGCATTAAAGTATTGAACCCATACATGCCAACTGTGATTGAGCACTTAGAAAGACTACAAAGGAAACATGGAGGAATGCTTGTGAGAAATCCACTCTCACGAAACTCCACGCACGAAATGTATTGGATATCCAATGGTACAGGCAACATCGTCTCTTCAGTCAACATGGTATCCAGATTGCTACTGAACAGATTCACAATGACACACAGGAGACCCACCATAGAGAAAGATGTGGATTTAGGAGCAGGAACCCGACATGTCAATGCGGAACCAGAAACACCCAACATGGATGTCATTGGGGAAAGAATAAAAAGGATCAAAGAGGAGCATAGTTCAACATGGCACTATGATGATGAAAATCCTTACAAAACGTGGGCTTACCATGGATCCTATGAAGTAAAAGCCACAGGCTCAGCCTCCTCCATGATAAATGGAGTCGTGAAACTCCTCACAAAACCATGGGATGTGGTGCCCATGGTGACACAGATGGCAATGACAGATACAACTCCATTTGGCCAGCAAAGAGTTTTTAAAGAGAAAGTGGACACCAGGACACCTAGGCCCATGCCAGGAACAAGAAAGGTTATGGAGATCACAGCGGAGTGGCTTTGGAGGACCCTGGGAAGGAACAAAAGACCCAGATTATGCACAAGGGAGGAGTTCACAAAGAAGGTCAGAACCAACGCAGCTATGGGCGCTGTCTTCACAGAAGAGAACCAATGGGACAGTGCGAGAGCTGCTGTTGAGGACGAAGAATTTTGGAAACTTGTGGACAGAGAACGTGAACTCCACAAACTGGGCAAGTGTGGAAGCTGCGTTTACAACATGATGGGCAAGAGAGAGAAAAAACTTGGAGAGTTTGGTAAAGCAAAAGGCAGTAGGGCTATATGGTACATGTGGTTGGGAGCCAGGTACCTTGAGTTCGAGGCGCTCGGATTCCTCAATGAAGACCACTGGTTCTCGCGTGAAAACTCTTACAGTGGAGTAGAAGGAGAAGGACTGCACAAGCTGGGATACATCTTGAGAGATATTTCCAAGATACCCGGAGGAGCCATGTATGCTGATGACACAGCCGGTTGGGACACAAGAATAACAGAAGATGACCTGCACAATGAGGAAAAAATCACACAGCAGATGGACCCTGAACACAGGCAGCTAGCGAACGCTATATTCAAGCTCACATACCAAAACAAAGTGGTCAAAGTCCAACGACCAACTCCAAAGGGCACGGTAATGGACATCATATCTAGGAAAGACCAAAGAGGCAGTGGACAGGTGGGAACTTATGGTCTGAACACATTCACCAACATGGAAGCCCAGCTAATCAGACAAATGGAAGGAGAAGGCGTGTTGTCAAAGGCAGACCTCGAGAACCCCCATCCGCTAGAGAAGAAAATTACACAATGGTTGGAAACTAAAGGAGTGGAGAGGTTAAAAAGAATGGCCATCAGCGGGGATGATTGCGTAGTGAAACCAATCGACGACAGATTCGCCAATGCCCTGCTTGCCCTGAACGATATGGGAAAGGTTAGGAAGGACATACCTCAATGGCAGCCATCAAAGGGATGGCATGATTGGCAACAGGTCCCTTTCTGCTCCCACCACTTTCATGAATTGATCATGAAAGATGGAAGAAAGTTGGTAGTTCCCTGCAGACCCCAGGACGAACTAATAGGAAGAGCGAGAATCTCTCAAGGAGCAGGATGGAGCCTTAGAGAAACTGCATGTCTAGGGAAAGCCTACGCTCAAATGTGGACTCTCATGTATTTTCACAGAAGAGATCTTAGACTAGCATCCAACGCCATATGTTCAGCAGTACCAGTCCATTGGGTCCCCACGAGCAGAACGACATGGTCTATTCATGCTCACCATCAGTGGATGACTACAGAAGACATGCTTACTGTCTGGAACAGGGTGTGGATAGAGGACAATCCATGGATGGAAGACAAAACTCCAGTCACAACGTGGGAAGATGTTCCATATCTAGGAAAGAGAGAAGACCAATGGTGCGGATCACTCATAGGTCTCACTTCCAGAGCAACCTGGGCCCAGAACATACTCACAGCAATCCAACAGGTGAGAAGCCTCATAGGCAATGAAGAGTTTCTGGACTACATGCCTTCGATGAAGAGATTCAGGAAGGAGGAGGAGTCAGAGGGAGCCATTTGGTAAAAGCAGGAGGCAAACTGTCAGGCCACCTTAAGCCACAGTACGGAAGAAGCTGTGCAGCCTGTGAGCCCCGTCCAAGGACGTTAAAAGAAGAAGTCAGGCCCAAAAGCCACGGTTTGAGCAAACCGTGCTGCCTGTAGCTCCGTCGTGGGGACGTAAAGCCTGGGAGGCTGCAAACCGTGGAAGCTGTACGCACGGTGTAGCAGACTAGTGGTTAGAGGAGACCCCTCCCATGACACAACGCAGCAGCGGGGCCCGAGCACTGAGGGAAGCTGTACCTCCTTGCAAAGGACTAGAGGTTATAGGAGACCCCCCGCAAACAAAAACAGCATATTGACGCTGGGAGAGACCAGAGATCCTGCTGTCTCCTCAGCATCATTCCAGGCACAGAACGCCAGAAAATGGAATGGTGCTGTTGAATCAACAGGTTCT</DNA_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Genbank_ACCN>M93130</Genbank_ACCN>
+    <Protein_ACCN>AAA99437</Protein_ACCN>
+    <Gene_URL>http://www.uniprot.org/uniprot/P27915</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of Dengue-2 virus methyltransferase complexed with S-adenosyl-L-homocysteine</PDB_Title>
+      <PDB_ID>3EVG</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EVG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Analysis of flavivirus NS5 methyltransferase cap binding.</PubMed_Title>
+      <Author>Geiss BJ, et al.</Author>
+      <Journal>J Mol Biol. 2009 Feb 6;385(5):1643-54.</Journal>
+      <PubMed_ID>19101564</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DENGUE VIRUS NS5 RNA DEPENDENT RNA POLYMERASE DOMAIN COMPLEXED WITH 3'DGTP</PDB_Title>
+      <PDB_ID>2J7W</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J7W</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the dengue virus RNA-dependent RNA polymerase catalytic domain at 1.85-angstrom resolution.</PubMed_Title>
+      <Author>Yap TL, et al.</Author>
+      <Journal>J Virol. 2007 May;81(9):4753-65.</Journal>
+      <PubMed_ID>17301146</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DENGUE VIRUS NS5 RNA DEPENDENT RNA POLYMERASE DOMAIN</PDB_Title>
+      <PDB_ID>2J7U</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2J7U</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of the dengue virus RNA-dependent RNA polymerase catalytic domain at 1.85-angstrom resolution.</PubMed_Title>
+      <Author>Yap TL, et al.</Author>
+      <Journal>J Virol. 2007 May;81(9):4753-65.</Journal>
+      <PubMed_ID>17301146</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Fold>
+    <CATH_URL>http://www.cathdb.info/pdb/2j7w</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Yin Z, et al. J Med Chem. 2009,52(24):7934-7937.</Site_Reference>
+      <PubMed_ID>20014868</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.1.1.56@@2.1.1.57@@2.7.7.48</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/1/1/56.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00150001</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890008</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00890024</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00898001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00898002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01410426</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01410428</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01410430</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01410432</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01410440</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01410464</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

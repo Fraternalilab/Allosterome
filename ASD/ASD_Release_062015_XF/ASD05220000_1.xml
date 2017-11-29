@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD05220000_1</Organism_ID>
+  <Organism>Baker's yeast</Organism>
+  <Organism_Latin>Saccharomyces cerevisiae</Organism_Latin>
+  <UniProt_ID>Q01159</UniProt_ID>
+  <Seq_Length>459</Seq_Length>
+  <Molecule_Weight>52764</Molecule_Weight>
+  <KEGG_ID>sce:YGL130W</KEGG_ID>
+  <Orthology_ID>K00987</Orthology_ID>
+  <EBI_ID>EBI-10503</EBI_ID>
+  <Function_Summary>Second step of mRNA capping. Transfer of the GMP moiety of GTP to the 5'-end of RNA via an enzyme-GMP covalent reaction intermediate.</Function_Summary>
+  <Catalytic_Mechanism>GTP + (5')pp-Pur-mRNA = diphosphate + G(5')ppp-Pur-mRNA.</Catalytic_Mechanism>
+  <Pfam_ID>PF03919:mRNA_cap_C@@PF01331:mRNA_cap_enzyme</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>2.7.7.50&lt;/ecNumber</Alias>
+      <Alias>GTase</Alias>
+      <Alias>mRNA guanylyltransferase</Alias>
+      <Alias>GTP--RNA guanylyltransferase</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a nucleotidyl group to a reactant.</Detail>
+      <Keyword>Nucleotidyltransferase activity</Keyword>
+      <Ontology_ID>GO:0016779</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules).</Detail>
+      <Keyword>Protein binding</Keyword>
+      <Ontology_ID>GO:0005515</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: GTP + (5')pp-Pur-mRNA = diphosphate + G(5')ppp-Pur-mRNA; G(5')ppp-Pur-mRNA is mRNA containing a guanosine residue linked 5' through three phosphates to the 5' position of the terminal residue.</Detail>
+      <Keyword>MRNA guanylyltransferase activity</Keyword>
+      <Ontology_ID>GO:0004484</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with GTP, guanosine triphosphate.</Detail>
+      <Keyword>GTP binding</Keyword>
+      <Ontology_ID>GO:0005525</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process involved in the conversion of a primary mRNA transcript into one or more mature mRNA(s) prior to translation into polypeptide.</Detail>
+      <Keyword>MRNA processing</Keyword>
+      <Ontology_ID>GO:0006397</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Addition of the 7-methylguanosine cap to the 5' end of a nascent messenger RNA transcript.</Detail>
+      <Keyword>MRNA capping</Keyword>
+      <Ontology_ID>GO:0006370</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of transcription from the RNA polymerase II promoter.</Detail>
+      <Keyword>Positive regulation of transcription from RNA polymerase II promoter</Keyword>
+      <Ontology_ID>GO:0045944</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MVLAMESRVAPEIPGLIQPGNVTQDLKMMVCKLLNSPKPTKTFPGSQPVSFQHSDVEEKLLAHDYYVCEKTDGLRVLMFIVINPVTGEQGCFMIDRENNYYLVNGFRFPRLPQKKKEELLETLQDGTLLDGELVIQTNPMTKLQELRYLMFDCLAINGRCLTQSPTSSRLAHLGKEFFKPYFDLRAAYPNRCTTFPFKISMKHMDFSYQLVKVAKSLDKLPHLSDGLIFTPVKAPYTAGGKDSLLLKWKPEQENTVDFKLILDIPMVEDPSLPKDDRNRWYYNYDVKPVFSLYVWQGGADVNSRLKHFDQPFDRKEFEILERTYRKFAELSVSDEEWQNLKNLEQPLNGRIVECAKNQETGAWEMLRFRDDKLNGNHTSVVQKVLESINDSVSLEDLEEIVGDIKRCWDERRANMAGGSGRPLPSQSQNATLSTSKPVHSQPPSNDKEPKYVDEDDWSD</Protein_Seq>
+    <DNA_Seq>ATGGTTTTAGCAATGGAAAGTAGAGTGGCACCGGAAATTCCTGGGCTCATTCAACCTGGGAATGTCACGCAAGACTTGAAGATGATGGTCTGTAAATTATTGAATTCCCCAAAACCTACGAAAACATTCCCTGGTTCCCAGCCTGTGTCCTTTCAGCATTCTGATGTGGAAGAGAAGCTGCTTGCGCATGATTACTACGTTTGTGAGAAAACAGATGGTCTGCGGGTGTTGATGTTTATAGTGATAAATCCTGTGACGGGTGAGCAAGGATGCTTTATGATTGATAGGGAAAATAACTATTATCTGGTTAATGGATTTAGGTTTCCCAGATTACCCCAAAAGAAGAAAGAAGAGCTGCTAGAGACTCTTCAAGATGGCACCTTATTAGATGGTGAACTTGTCATACAAACTAACCCAATGACAAAATTACAAGAGTTGCGTTATTTAATGTTCGATTGTCTTGCTATCAATGGTAGATGTCTCACACAATCACCAACAAGTTCTAGACTAGCCCACCTTGGAAAAGAATTTTTTAAACCATACTTCGATTTAAGAGCAGCGTACCCTAATCGTTGTACTACTTTTCCGTTCAAAATTTCCATGAAACATATGGATTTCAGTTACCAATTAGTAAAAGTTGCTAAAAGTTTAGATAAACTACCACATCTTTCTGATGGTCTGATATTTACTCCTGTGAAGGCACCTTACACTGCCGGCGGAAAAGATTCATTGTTATTAAAATGGAAGCCAGAACAAGAAAACACCGTGGACTTCAAATTGATTTTAGATATCCCAATGGTGGAGGATCCTTCTTTGCCTAAAGATGATCGGAACAGGTGGTATTACAATTATGACGTTAAGCCAGTTTTCAGCTTATATGTCTGGCAAGGCGGAGCTGATGTCAATTCACGTTTAAAACATTTCGACCAGCCTTTCGATAGGAAGGAATTTGAAATATTAGAAAGAACATACAGAAAATTTGCAGAGTTGAGCGTTTCAGATGAGGAATGGCAAAATTTGAAGAACCTAGAACAGCCATTAAATGGTAGAATAGTAGAGTGCGCAAAAAACCAAGAGACTGGGGCGTGGGAAATGTTAAGATTCAGGGATGATAAGTTAAATGGTAATCATACATCGGTGGTCCAGAAAGTTTTGGAGAGTATCAACGATTCAGTTTCATTGGAGGACCTCGAGGAAATTGTTGGTGATATTAAAAGGTGCTGGGACGAGAGAAGAGCAAATATGGCTGGTGGTAGTGGGAGACCACTACCGTCTCAAAGTCAAAATGCGACATTATCTACCTCTAAGCCAGTCCATTCACAGCCCCCAAGTAATGATAAGGAGCCAAAATATGTAGACGAGGATGATTGGTCGGATTAG</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>MRNA cap methyltransferase complex</CellLocal>
+      <Ontology_ID>GO:0031533</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>CEG1</Gene_Name>
+    <Gene_ID>852747</Gene_ID>
+    <Genbank_ACCN>NM_001180995</Genbank_ACCN>
+    <Protein_ACCN>NP_011385</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/852747</Gene_URL>
+    <EMBL_ID>YGL130W</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>O13297</Uniprot_ID>
+      <Gene_Name>CET1</Gene_Name>
+      <EBI_ID>EBI-4473</EBI_ID>
+      <PPI_EBI_URL>EBI-10503,EBI-4473</PPI_EBI_URL>
+      <Experiment_Number>7</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Saccharomyces cerevisiae Cet1-Ceg1 capping apparatus</PDB_Title>
+      <PDB_ID>3KYH</PDB_ID>
+      <Resolution>3.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KYH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the Saccharomyces cerevisiae Cet1-Ceg1 mRNA Capping Apparatus.</PubMed_Title>
+      <Author>Gu, M., et al.</Author>
+      <Journal>Structure(2010)18:216-227</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20159466?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Type>Protein-induced</Site_Type>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

@@ -1,0 +1,1252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD03320000_2</Organism_ID>
+  <Organism>Mouse</Organism>
+  <Organism_Latin>Mus musculus</Organism_Latin>
+  <UniProt_ID>P00520</UniProt_ID>
+  <Seq_Length>1123</Seq_Length>
+  <Molecule_Weight>122673</Molecule_Weight>
+  <KEGG_ID>mmu:11350</KEGG_ID>
+  <Orthology_ID>K06619</Orthology_ID>
+  <EBI_ID>EBI-914519</EBI_ID>
+  <Function_Summary>Non-receptor tyrosine-protein kinase that plays a role in many key processes linked to cell growth and survival such as cytoskeleton remodeling in response to extracellular stimuli, cell motility and adhesion, receptor endocytosis, autophagy, DNA damage response and apoptosis. Coordinates actin remodeling through tyrosine phosphorylation of proteins controlling cytoskeleton dynamics like WASF3 (involved in branch formation); ANXA1 (involved in membrane anchoring); DBN1, DBNL, CTTN, RAPH1 and ENAH (involved in signaling); or MAPT and PXN (microtubule-binding proteins). Phosphorylation of WASF3 is critical for the stimulation of lamellipodia formation and cell migration. Involved in the regulation of cell adhesion and motility through phosphorylation of key regulators of these processes such as BCAR1, CRK, CRKL, DOK1, EFS or NEDD9. Phosphorylates multiple receptor tyrosine kinases and more particularly promotes endocytosis of EGFR, facilitates the formation of neuromuscular synapses through MUSK, inhibits PDGFRB-mediated chemotaxis and modulates the endocytosis of activated B-cell receptor complexes. Other substrates which are involved in endocytosis regulation are the caveolin (CAV1) and RIN1. Moreover, ABL1 regulates the CBL family of ubiquitin ligases that drive receptor down-regulation and actin remodeling. Phosphorylation of CBL leads to increased EGFR stability. Involved in late-stage autophagy by regulating positively the trafficking and function of lysosomal components. ABL1 targets to mitochondria in response to oxidative stress and thereby mediates mitochondrial dysfunction and cell death. ABL1 is also translocated in the nucleus where it has DNA-binding activity and is involved in DNA-damage response and apoptosis. Many substrates are known mediators of DNA repair: DDB1, DDB2, ERCC3, ERCC6, RAD9A, RAD51, RAD52 or WRN. Activates the proapoptotic pathway when the DNA damage is too severe to be repaired. Phosphorylates TP73, a primary regulator for this type of damage-induced apoptosis. Phosphorylates the caspase CASP9 on 'Tyr-191' and regulates its processing in the apoptotic response to DNA damage. Phosphorylates PSMA7 that leads to an inhibition of proteasomal activity and cell cycle transition blocks.</Function_Summary>
+  <Catalytic_Mechanism>ATP + a [protein]-L-tyrosine = ADP + a [protein]-L-tyrosine phosphate.</Catalytic_Mechanism>
+  <Pfam_ID>PF08919:F_actin_bind@@PF07714:Pkinase_Tyr@@PF00017:SH2@@PF00018:SH3_1</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>147</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Abelson murine leukemia viral oncogene homolog 1</Alias>
+      <Alias>Abelson tyrosine-protein kinase 1</Alias>
+      <Alias>Proto-oncogene c-Abl</Alias>
+      <Alias>p150</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with manganese (Mn) ions.</Detail>
+      <Keyword>Manganese ion binding</Keyword>
+      <Ontology_ID>GO:0030145</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a protein tyrosine = ADP + protein tyrosine phosphate.</Detail>
+      <Keyword>Protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004713</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: ATP + a non-membrane spanning protein L-tyrosine = ADP + a non-membrane spanning protein L-tyrosine phosphate.</Detail>
+      <Keyword>Non-membrane spanning protein tyrosine kinase activity</Keyword>
+      <Ontology_ID>GO:0004715</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a proline-rich region, i.e. a region that contains a high proportion of proline residues, in a protein.</Detail>
+      <Keyword>Proline-rich region binding</Keyword>
+      <Ontology_ID>GO:0070064</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Any molecular function by which a gene product interacts selectively with DNA (deoxyribonucleic acid).</Detail>
+      <Keyword>DNA binding</Keyword>
+      <Ontology_ID>GO:0003677</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of oxidoreductase activity, the catalysis of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered.</Detail>
+      <Keyword>Positive regulation of oxidoreductase activity</Keyword>
+      <Ontology_ID>GO:0051353</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A cascade of processes induced by the detection of DNA damage within a cell.</Detail>
+      <Keyword>Signal transduction in response to DNA damage</Keyword>
+      <Ontology_ID>GO:0042770</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that decreases the rate, frequency, or extent of protein serine/threonine kinase activity.</Detail>
+      <Keyword>Negative regulation of protein serine/threonine kinase activity</Keyword>
+      <Ontology_ID>GO:0071901</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of cytoskeletal structures comprising actin filaments and their associated proteins.</Detail>
+      <Keyword>Actin cytoskeleton organization</Keyword>
+      <Ontology_ID>GO:0030036</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The phosphorylation of peptidyl-tyrosine to form peptidyl-O4'-phospho-L-tyrosine.</Detail>
+      <Keyword>Peptidyl-tyrosine phosphorylation</Keyword>
+      <Ontology_ID>GO:0018108</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of the phosphorylation of peptidyl-tyrosine.</Detail>
+      <Keyword>Positive regulation of peptidyl-tyrosine phosphorylation</Keyword>
+      <Ontology_ID>GO:0050731</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The series of molecular signals generated as a consequence of a platelet-derived growth factor receptor binding to one of its physiological ligands.</Detail>
+      <Keyword>Platelet-derived growth factor receptor signaling pathway</Keyword>
+      <Ontology_ID>GO:0048008</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which cells digest parts of their own cytoplasm; allows for both recycling of macromolecular constituents under conditions of cellular stress and remodeling the intracellular structure for cell differentiation.</Detail>
+      <Keyword>Autophagy</Keyword>
+      <Ontology_ID>GO:0006914</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process of restoring DNA after damage. Genomes are subject to damage by chemical and physical agents in the environment (e.g. UV and ionizing radiations, chemical mutagens, fungal and bacterial toxins, etc.) and by free radicals or alkylating agents endogenously generated in metabolism. DNA is also damaged because of errors during its replication. A variety of different DNA repair pathways have been reported that include direct reversal, base excision repair, nucleotide excision repair, photoreactivation, bypass, double-strand break repair pathway, and mismatch repair pathway.</Detail>
+      <Keyword>DNA repair</Keyword>
+      <Ontology_ID>GO:0006281</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A vesicle-mediated transport process in which cells take up external materials or membrane constituents by the invagination of a small region of the plasma membrane to form a new membrane-bounded vesicle.</Detail>
+      <Keyword>Endocytosis</Keyword>
+      <Ontology_ID>GO:0006897</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A form of programmed cell death that begins when a cell receives internal or external signals that trigger the activity of proteolytic caspases, proceeds through a series of characteristic stages typically including rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), and plasma membrane blebbing (but maintenance of its integrity until the final stages of the process), and ends with the death of the cell.</Detail>
+      <Keyword>Apoptosis</Keyword>
+      <Ontology_ID>GO:0006915</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The attachment of a cell, either to another cell or to an underlying substrate such as the extracellular matrix, via cell adhesion molecules.</Detail>
+      <Keyword>Cell adhesion</Keyword>
+      <Ontology_ID>GO:0007155</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that activates or increases the frequency, rate or extent of cell death by apoptosis.</Detail>
+      <Keyword>Positive regulation of apoptosis</Keyword>
+      <Ontology_ID>GO:0043065</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The widespread phosphorylation of various molecules, triggering many downstream processes, that occurs in response to the detection of DNA damage.</Detail>
+      <Keyword>DNA damage induced protein phosphorylation</Keyword>
+      <Ontology_ID>GO:0006975</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus indicating damage to its DNA from environmental insults or errors during metabolism.</Detail>
+      <Keyword>Response to DNA damage stimulus</Keyword>
+      <Ontology_ID>GO:0006974</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>Any process that modulates the rate or extent of progression through the cell cycle.</Detail>
+      <Keyword>Regulation of cell cycle</Keyword>
+      <Ontology_ID>GO:0051726</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>734</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>253</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>394</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>682</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>619</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>613</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>547</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>658</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>264</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>569</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>185</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>446</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>618</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>909</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>392</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>257</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>844</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>50</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>226</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>927</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>717</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>812</Position>
+      <PTM_Type>Phosphothreonine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>469</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>970</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>620</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>807</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>70</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>803</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>710</Position>
+      <PTM_Type>N6-acetyllysine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>911</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+    <PTM>
+      <Position>393</Position>
+      <PTM_Type>Phosphotyrosine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MLEICLKLVGCKSKKGLSSSSSCYLEEALQRPVASDFEPQGLSEAARWNSKENLLAGPSENDPNLFVALYDFVASGDNTLSITKGEKLRVLGYNHNGEWCEAQTKNGQGWVPSNYITPVNSLEKHSWYHGPVSRNAAEYLLSSGINGSFLVRESESSPGQRSISLRYEGRVYHYRINTASDGKLYVSSESRFNTLAELVHHHSTVADGLITTLHYPAPKRNKPTIYGVSPNYDKWEMERTDITMKHKLGGGQYGEVYEGVWKKYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQLLGVCTREPPFYIITEFMTYGNLLDYLRECNRQEVSAVVLLYMATQISSAMEYLEKKNFIHRDLAARNCLVGENHLVKVADFGLSRLMTGDTYTAHAGAKFPIKWTAPESLAYNKFSIKSDVWAFGVLLWEIATYGMSPYPGIDLSQVYELLEKDYRMERPEGCPEKVYELMRACWQWNPSDRPSFAEIHQAFETMFQESSISDEVEKELGKRGTRGGAGSMLQAPELPTKTRTCRRAAEQKDAPDTPELLHTKGLGESDALDSEPAVSPLLPRKERGPPDGSLNEDERLLPRDRKTNLFSALIKKKKKMAPTPPKRSSSFREMDGQPDRRGASEDDSRELCNGPPALTSDAAEPTKSPKASNGAGVPNGAFREPGNSGFRSPHMWKKSSTLTGSRLAAAEEESGMSSSKRFLRSCSASCMPHGARDTEWRSVTLPRDLPSAGKQFDSSTFGGHKSEKPALPRKRTSESRSEQVAKSTAMPPPRLVKKNEEAAEEGFKDTESSPGSSPPSLTPKLLRRQVTASPSSGLSHKEEATKGSASGMGTPATAEPAPPSNKVGLSKASSEEMRVRRHKHSSESPGRDKGRLAKLKPAPPPPPACTGKAGKPAQSPSQEAGEAGGPTKTKCTSLAMDAVNTDPTKAGPPGEGLRKPVPPSVPKPQSTAKPPGTPTSPVSTPSTAPAPSPLAGDQQPSSAAFIPLISTRVSLRKTRQPPERIASGTITKGVVLDSTEALCLAISRNSEQMASHSAVLEAGKNLYTFCVSYVDSIQQMRNKFAFREAINKLESNLRELQICPATASSGPAATQDFSKLLSSVKEISDIVRR</Protein_Seq>
+    <DNA_Seq>ATTATGGCGGCCTCGGGGGTCGGTGTCTCTCCCTGAGAGGCGTCGGAGCTGGAACCGGGTGCCGGGTCCTGCGGCTGAGGACTCCTAACGCGGCACACACCCTCACTGGCTGGAGAAGCCGGGTTCCTGGACTGAGCCGGGCATGTGACTGCTCGGCGGCGGTGGCAGGGGCCGGTGCCGGGGGAGGGGTGTCTCGGGTAGAGACCCTTGGGCTCGGGGCAGCTGAGGCGCCGGGCCTCCTCCCCTGTGGCTGCCTCCAGGTTCCGGACCGCGGGAATCCTTCGTCCCTCCTAGTCCTGCTCTGGCTCTGGGACACCCAGAGTGGTCTCTGTTTCTCCTTACCTGGAACACCCTGTTTCCTGAGGAGGAGCGTCGCCCCCGAATAAGCCTCCCGCGCCCTGCCTGGGAAGTCTCTTTCTCACCCCGAGACCGCCTTTCGCTCGATTTCAACCCCAAGTTTGCCACGGAGTCCCTCATTCAAACCATCTCCCTGCTGTCAAGAGATCTTCGGGGCGTCCTCCCAGATTGCTTTCGCCGGCCTCCGATGTCCTGACTTCTTCCAATGTCACCTACAGCCCCCTTGGTCACAGTGCAGCCCAAAACTTTAATGCAAAGGAAAAGTCTGGATTGGTTTCACAGGCCTTTTAAAAAGCGGACTTAAAAGTTGCTGGTCATGCATTTCTTCTCGGCAGAGTGGAGAGCAAGCTCTCGATGAGATCTGTGTGACCCGTGTCATTTTTCCGGAGAGCAGGGCAGGGAAGTGAGAGCGGCAGGAAATTTGTTACAAGATGGAGAGACAGAGATAGGGGATTGGTTGACTTCCACAGAAAAGATTGCAGAGAATATAAAAGCAGCTCAGCCTTTGCTTCTCGCTGGGGAGTTGAAATGACTTTCAGTGCCGTTGGCCCTTTTCTGACTTTTCTGTGAATAGTTTTATCTAAAGTTCCCCTCTTGCAAAGAAAGTGTTCCTCAGCTCGCAACGTAGACTTAGATTGAAGAAACTTTTGGCATTGCGGTTACATGACTTCAAACTAATTACCCTGGAAAAGAATTCCAGGCTCCTGTTTACATGTGTGAACCTCAAACCCAGCTTCCCTTTGTCATGGAAGTTGTCTGTCTGTGATTGACCCAAGTTACTGACCCAAGACGGTGGTGTGAAGTTCTGGGTATATACTGTTGCCTGCTAACCCCCACGGACCATTCTGAAAAGTCTTGAACCCTCTTCTGGAAAGGGGCACCTATTATTGCTTTATGGGGCAGCAGCCTGGAAAAGTTCTTGGGGACCAAAGAAGGCCTAGTTTGCCCGCCCTGCATTTTATCAAAGGGGCAGGGAAGAGGGACTCATCGAGGCATGGGGGCCCACACTGCAATGTCTTTGTGGAACACGAAGCCCTGCAGAGGCCAGTGGCATCTGACTTTGAGCCCCAGGGTCTCAGCGAAGCAGCTCGATGGAACTCCAAGGAAAACCTTCTTGCTGGGCCCAGTGAAAATGACCCCAACCTTTTTGTGGCACTCTATGATTTTGTGGCCAGTGGAGATAACACTCTCAGCATCACTAAAGGTGAAAAGCTCCGGGTCTTGGGTTATAATCACAATGGGGAATGGTGTGAAGCCCAAACGAAAAATGGCCAAGGATGGGTCCCAAGCAACTACATCACCCCCGTCAACAGCCTGGAGAAACATTCCTGGTATCATGGCCCTGTATCTCGGAATGCTGCTGAGTATCTGCTGAGCAGCGGAATCAACGGCAGCTTCTTAGTGCGGGAGAGTGAGAGTAGCCCTGGCCAGAGATCCATCTCGCTGCGGTATGAAGGGAGGGTGTACCACTACAGGATCAACACTGCCTCTGATGGCAAGCTGTACGTGTCCTCCGAGAGCCGCTTCAACACTCTGGCTGAGTTAGTTCACCATCACTCCACGGTGGCTGATGGCCTCATCACCACACTCCACTACCCAGCTCCCAAGCGCAACAAGCCCACTATCTACGGTGTGTCCCCCAACTACGACAAGTGGGAAATGGAGCGCACCGACATCACCATGAAGCACAAGTTGGGTGGAGGCCAGTACGGGGAGGTGTACGAGGGCGTTTGGAAGAAGTACAGCCTCACTGTGGCCGTGAAGACCTTGAAGGAGGACACCATGGAGGTGGAGGAGTTCCTGAAGGAAGCGGCGGTGATGAAGGAGATCAAACACCCTAACCTGGTGCAGCTGCTAGGGGTGTGTACCCGGGAACCACCATTCTACATAATCACTGAGTTCATGACCTATGGGAACCTGCTGGACTACCTGAGGGAGTGTAACCGGCAGGAGGTGAGCGCCGTGGTACTGCTCTACATGGCCACACAGATCTCATCAGCCATGGAGTACTTGGAGAAGAAGAACTTCATCCACAGAGACCTTGCTGCCCGGAACTGCCTGGTAGGGGAAAACCACTTGGTGAAGGTGGCTGATTTTGGCCTGAGCAGGTTGATGACAGGGGACACCTACACGGCCCATGCTGGAGCCAAATTCCCCATCAAATGGACCGCACCTGAGAGCCTGGCCTACAACAAGTTCTCCATCAAGTCGGACGTGTGGGCATTTGGAGTATTGCTCTGGGAGATTGCTACCTATGGCATGTCACCTTACCCGGGAATTGACCTGTCTCAGGTTTATGAGCTGCTGGAAAAAGACTACCGCATGGAGCGCCCTGAAGGCTGCCCGGAGAAGGTCTACGAGCTCATGCGAGCATGTTGGCAGTGGAACCCCTCTGACCGGCCCTCCTTTGCTGAAATCCACCAAGCCTTTGAAACCATGTTCCAGGAATCCAGTATCTCAGATGAGGTGGAGAAGGAGCTGGGGAAACGAGGCACGAGAGGAGGTGCTGGGAGTATGCTGCAGGCCCCAGAGCTGCCCACCAAGACCAGAACCTGCAGGAGAGCAGCTGAGCAGAAAGATGCGCCTGACACCCCTGAGCTGCTCCACACGAAGGGCCTGGGAGAAAGCGATGCACTGGACAGTGAGCCTGCTGTATCGCCACTGCTTCCTCGGAAAGAGCGCGGGCCCCCAGACGGCAGCCTAAATGAAGATGAGCGCCTTCTCCCCAGAGACAGAAAGACCAACCTGTTCAGCGCTTTGATCAAGAAGAAGAAGAAAATGGCGCCGACGCCCCCTAAGCGCAGCAGTTCCTTCCGAGAGATGGATGGCCAGCCAGACCGCAGAGGGGCTAGTGAGGATGACAGCAGGGAACTCTGCAATGGACCACCAGCTCTCACCTCAGACGCAGCAGAGCCTACCAAGTCCCCAAAGGCCAGCAATGGGGCTGGCGTCCCTAATGGAGCCTTCCGGGAGCCGGGCAACTCAGGCTTCCGTTCTCCCCACATGTGGAAAAAGTCCAGCACACTGACCGGGAGCCGCCTGGCTGCTGCCGAAGAGGAGAGCGGCATGAGCTCCAGTAAGCGCTTCCTGCGTTCTTGTTCGGCCTCCTGCATGCCCCATGGGGCAAGGGACACAGAGTGGCGGTCGGTCACGCTGCCTCGAGACCTGCCGTCTGCTGGCAAGCAGTTTGACTCATCCACCTTTGGAGGGCACAAAAGCGAAAAGCCAGCTCTGCCTCGGAAACGCACCAGTGAGAGCAGGTCTGAGCAGGTGGCCAAAAGCACGGCGATGCCCCCTCCCCGGCTGGTGAAGAAGAACGAGGAGGCTGCTGAAGAAGGCTTCAAAGACACAGAATCCAGCCCTGGCTCCAGCCCTCCCAGCTTGACTCCCAAACTCCTCCGCAGGCAGGTCACTGCCTCTCCTTCCTCTGGCCTCTCTCACAAGGAAGAGGCCACCAAGGGCAGTGCCTCAGGCATGGGGACTCCGGCCACTGCAGAGCCAGCACCCCCCAGCAACAAAGTGGGCCTCAGCAAGGCCTCCTCTGAGGAGATGCGCGTAAGGAGGCACAAGCACAGCTCGGAGTCCCCAGGGAGAGACAAGGGGCGACTGGCTAAGCTCAAGCCTGCCCCGCCGCCTCCTCCTGCCTGCACAGGAAAAGCAGGCAAGCCCGCACAGAGCCCCAGCCAAGAGGCCGGGGAGGCAGGGGGGCCCACAAAGACAAAATGCACGAGTCTGGCTATGGATGCTGTGAACACTGACCCCACCAAGGCCGGCCCACCTGGAGAAGGACTGAGAAAGCCTGTGCCCCCATCTGTGCCAAAGCCCCAGTCGACGGCTAAGCCTCCAGGGACTCCCACCAGCCCGGTCTCCACCCCCTCCACAGCACCAGCTCCTTCACCCCTGGCTGGGGACCAGCAGCCATCTTCTGCCGCCTTCATCCCCCTCATATCAACCCGTGTGTCTCTTAGGAAGACCCGCCAGCCGCCAGAGCGCATTGCCAGTGGCACCATCACCAAGGGTGTGGTTCTGGACAGTACTGAGGCCCTGTGCCTTGCCATCTCCCGGAACTCAGAGCAGATGGCCAGCCACAGTGCTGTACTGGAGGCTGGCAAGAACCTGTACACTTTCTGTGTGAGCTATGTGGACTCTATCCAGCAGATGAGGAACAAGTTTGCCTTCCGTGAGGCTATCAACAAGCTGGAGAGCAACCTCCGAGAGCTGCAGATCTGCCCTGCCACAGCCTCCAGTGGGCCAGCTGCCACCCAAGACTTCAGCAAGCTGCTCAGCTCTGTGAAGGAGATCAGCGACATTGTCCGGAGGTAGCAGCAACCAGTGTATGTCAGCAAGAGATGTTGCAGTTCACAGGGCTCTTGTGCCTATAAAGATGGGGACAGGGGACTGGGGAGCTGGCGTCTTTCCCCAGGAGCTTTAAAGAGAGACAAGCAGAGCCTGAGGGAGACCTGGATGGAGCCTGGTGGAGTTGGCTCTTCCTCCTGTGTTGTGCACCAGCTGCCCTGCACCTTTCCTGTCCAGCCCAGGCGTCAGCCACCTCTCCTCACTGCCTGTGGATGGGTCTCCTGCTCTGAAGACTACATCTGGCCTGCCTGGCCACCAGGCTTCTCACTCCCCGGTGCCTCAGACCCAGCTCCCAGGTCAGCCTGGAGTGCTCTTCCCTGTCCTTGCAGAACGACCTCCTCTGATGGACCTTCTTGTCACCAAGGCATGGGAGCCCCTGTGCTTACTGTACCTGCACCTTTGATGCTTACAAACTGTCCCCGAGAGCCTGTGCTCACTGTGTTTTCATTGGAAGGAAGCTGTCGCTTTAAGGGTCATGAGGTGCTAAAGCCAGGGGCCCAGATGGGTGGGCACTGGAAACAGGAGCTGGGCAGTGTGGTCTGTCACCTGCTCTCAGTATCTTCAGCAGTGTGCCCGGCAGATCTTGGACAGCAAGCTTGAGTTTTATGGGTGGCAGTCACTGGCTGGCTAGGCACATAGCCAGGCCAAACCTAGGCCTCCAAGGGCTCCCCAAAATCTGAATTTCTGAGTAGTCTTCATCCCCTCTCCTGCTCTAAGGTCAGGTCCATCCTCTCTGGTCCTTACCTTGATGACAAGGATCCAGCCTTCTGGTGTTTTTGAGCATTTCAAAGGTCTGCATAGAAAGGAACAGCCACTAGGTACAAACAGGCAGGAATCTGGGCTCTCCTGAGCCCTGACTGCTTCTCAGAACTGCTGCTTAACCACTGAGAACAGTGCTCAGCCCAGAGCTCCTGAGAGCCATGCACATCACGCTGGGGTTGGGTGTCCCTTGCAGACTCAGCCAGGGGGGCCATATCTTCCTCCTAAGGCAGGCAGGACCAGAGCTGAGCACAGGCACAGGTGTGGGCGACTCCTTGACTAACCCAGAGCCGCCAGCCTAGGCCTCGTGCCAGGCTGACCCAAAACAGGGCGCATGCCTAGGCCTTGTACCAGGCTGGAAGACACCTCCACACTCCCTGCTTCTCCACTGCAGGTGTGCTGTGCTGGCCCCAGGCCCACACTGATCACCTAGATGCGGGCCTGGTAGAGATGATTTCCTCTGGATGGTCTTCCATGGTCCTCGTAGCACCTCACCTCGTTACCTCCAAAGGCTGCTCTGCAGCCCAAGGGAGGCTGTGCCACACTGCCAGCGACCTTGAATAGCCAGACACCGCCATCCCCTGACACTGTGCTCACAAGGCCCCTGCTCTGTTGCTGCCGTGGGTGCCACTATATTTTGTATTACACTTTGATATTACACTCTTTTTTAAAATAGACTTGCGCTCTTATAAATGACATGTAAATAGTTCACCACTGTGCCCCCTCTGGCACACCAACAGCATTCCCCTTTTTTCTCAGTCCAGTACATTTTGTTTCTGTATATGACTGTTTTTTGAATCCAAATCTCTCTGTAGTATTTTTTAAATAAATGTTTACAGAACTATCGACAGACTGCTTGGTCTGTGATTCATCTCTGCAAGCCCTCATGTCCCAGCCCGTGTGTCCCGAGCATATCGTTGCCAGCTGCCCAGCTCTTGGCAGCCTCACAGCAGATGGTAGTGTCCTGTGTCGGGCCGGAAGTAGGAGCGGCTAAGCACCTGAGATTCTTGCTGGCGGAGTGAGTCCCTCCCCGGCATGCCTCTGCCTTCAGCCGCTCAGTGCTCTCTCTCTCTCATGTGGCTTCGGGTGCCAGCTGTTAGGCTTCAGTGGACAGTGAACAAACGCCTCGGCAGGCTCCGTGGACTATGCTTCAGTCACTGGAGCTCAGGCAAGGATGCCAAGGCCACAGGCTGGGGTGCCCTGCCACTCCAACAACTCGCCACACAGAAGCTCTGCCTCCCCTGGCTGTCATATGTCATGCATGTTGAAGTGGGTCGGAGTTGTCCAGTGAATCTAGACACTGGCCATCCTGCAGGTCTTCTGTAGCCAATAGGGTCATCCTTGAGTGGCTGTCTAACAGGAGGTTCCAGGGACAGCCTCCACAGCTACCACTTGTGCTTTTGTGTGTGACATGGGCCTAAGAGGGCTCCCAGTGGCCTCAAGCAAGTACTGTTTGCCTGTTTTCTCGATTTCTTGTAAGGCCACAGGAGTGAGACCTGTCACCTTGGCCCAAGCATAAAATACTCCATGTCTCCG</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Perinuclear region of cytoplasm</CellLocal>
+      <Ontology_ID>GO:0048471</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleolus</CellLocal>
+      <Ontology_ID>GO:0005730</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell leading edge</CellLocal>
+      <Ontology_ID>GO:0031252</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Nucleus</CellLocal>
+      <Ontology_ID>GO:0005634</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoskeleton</CellLocal>
+      <Ontology_ID>GO:0005856</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytosol</CellLocal>
+      <Ontology_ID>GO:0005829</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cytoplasm</CellLocal>
+      <Ontology_ID>GO:0005737</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>Abl1</Gene_Name>
+    <Gene_Alias>Abl</Gene_Alias>
+    <Gene_ID>11350</Gene_ID>
+    <Genbank_ACCN>NM_001112703</Genbank_ACCN>
+    <Protein_ACCN>NP_001106174</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/11350</Gene_URL>
+    <UCSC_ID>uc008jdz.2</UCSC_ID>
+    <EMBL_ID>ENSMUSG00000026842</EMBL_ID>
+  </Gene>
+  <PPI_List>
+    <PPI>
+      <Uniprot_ID>Q99M51</Uniprot_ID>
+      <Gene_Name>Nck1</Gene_Name>
+      <EBI_ID>EBI-643937</EBI_ID>
+      <PPI_EBI_URL>EBI-914519,EBI-643937</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P97465</Uniprot_ID>
+      <Gene_Name>Dok1</Gene_Name>
+      <EBI_ID>EBI-914917</EBI_ID>
+      <PPI_EBI_URL>EBI-914519,EBI-914917</PPI_EBI_URL>
+      <Experiment_Number>4</Experiment_Number>
+    </PPI>
+    <PPI>
+      <Uniprot_ID>P46527</Uniprot_ID>
+      <Gene_Name>CDKN1B</Gene_Name>
+      <EBI_ID>EBI-519280</EBI_ID>
+      <PPI_EBI_URL>EBI-914519,EBI-519280</PPI_EBI_URL>
+      <Experiment_Number>2</Experiment_Number>
+    </PPI>
+  </PPI_List>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of ABL kinase domain bound with a DFG-out inhibitor AP24534</PDB_Title>
+      <PDB_ID>3OXZ</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OXZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Mechanism of the Pan-BCR-ABL Inhibitor Ponatinib (AP24534): Lessons for Overcoming Kinase Inhibitor Resistance.</PubMed_Title>
+      <Author>Zhou, T., et al.</Author>
+      <Journal>Chem.Biol.Drug Des.(2011)77:1-11</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21118377?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE C-ABL KINASE DOMAIN IN COMPLEX WITH STI-571.</PDB_Title>
+      <PDB_ID>1IEP</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1IEP</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of the kinase domain of c-Abl in complex with the small molecule inhibitors PD173955 and imatinib (STI-571)</PubMed_Title>
+      <Author>Nagar, B., et al.</Author>
+      <Journal>Cancer Res.(2002)62:4236-4243</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12154025?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>AP24534, a Pan-BCR-ABL Inhibitor for Chronic Myeloid Leukemia, Potently Inhibits the T315I Mutant and Overcomes Mutation-Based Resistance</PDB_Title>
+      <PDB_ID>3IK3</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3IK3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>AP24534, a pan-BCR-ABL inhibitor for chronic myeloid leukemia, potently inhibits the T315I mutant and overcomes mutation-based resistance.</PubMed_Title>
+      <Author>O'Hare, T., et al.</Author>
+      <Journal>Cancer Cell(2009)16:401-412</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19878872?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE COMPLEX OF THE ABL TYROSINE KINASE SH3 DOMAIN WITH 3BP-1 SYNTHETIC PEPTIDE</PDB_Title>
+      <PDB_ID>1ABO</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ABO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>High-resolution crystal structures of tyrosine kinase SH3 domains complexed with proline-rich peptides.</PubMed_Title>
+      <Author>Musacchio, A., et al.</Author>
+      <Journal>Nat.Struct.Biol.(1994)1:546-551</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7664083?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural basis for the auto-inhibition of c-Abl tyrosine kinase</PDB_Title>
+      <PDB_ID>1OPK</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OPK</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the autoinhibition of c-Abl tyrosine kinase</PubMed_Title>
+      <Author>Nagar, B., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2003)112:859-871</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12654251?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mutant ABL kinase domain in complex with small molecule fragment</PDB_Title>
+      <PDB_ID>3DK7</PDB_ID>
+      <Resolution>2.01</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DK7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of mutant ABL kinase domain in complex with small molecule fragment</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Abl kinase domain in complex with NVP-AFG210</PDB_Title>
+      <PDB_ID>2HZN</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2HZN</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural biology contributions to the discovery of drugs to treat chronic myelogenous leukaemia.</PubMed_Title>
+      <Author>Cowan-Jacob, S.W., et al.</Author>
+      <Journal>ACTA CRYSTALLOGR.,SECT.D(2007)63:80-93</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17164530?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Abl kinase in complex with imatinib and fragment (FRAG2) in the myristate site</PDB_Title>
+      <PDB_ID>3MSS</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MSS</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00740007</ASD_Ligand>
+      <PubMed_Title>Binding or bending: distinction of allosteric Abl kinase agonists from antagonists by an NMR-based conformational assay.</PubMed_Title>
+      <Author>Jahnke, W., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:7043-7048</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20450175?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF THE UNLIGANDED ABL TYROSINE KINASE SH3 DOMAIN</PDB_Title>
+      <PDB_ID>1ABQ</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1ABQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>High-resolution crystal structures of tyrosine kinase SH3 domains complexed with proline-rich peptides.</PubMed_Title>
+      <Author>Musacchio, A., et al.</Author>
+      <Journal>Nat.Struct.Biol.(1994)1:546-551</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7664083?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the T315I Mutant of Abl kinase bound with PPY-A</PDB_Title>
+      <PDB_ID>2Z60</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2Z60</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of the T315I Mutant of Abl Kinase</PubMed_Title>
+      <Author>Zhou, T., et al.</Author>
+      <Journal>Chem.Biol.Drug Des.(2007)70:171-181</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17718712?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF ABL KINASE DOMAIN IN COMPLEX WITH A SMALL MOLECULE INHIBITOR</PDB_Title>
+      <PDB_ID>1FPU</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1FPU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural mechanism for STI-571 inhibition of abelson tyrosine kinase.</PubMed_Title>
+      <Author>Schindler, T., et al.</Author>
+      <Journal>Science(2000)289:1938-1942</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/10988075?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural analysis of DFG-in and DFG-out dual Src-Abl inhibitors sharing a common vinyl purine template</PDB_Title>
+      <PDB_ID>3KF4</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KF4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of DFG-in and DFG-out dual Src-Abl inhibitors sharing a common vinyl purine template.</PubMed_Title>
+      <Author>Zhou, T., et al.</Author>
+      <Journal>Chem.Biol.Drug Des.(2010)75:18-28</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19895503?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structure of Abl kinase in complex with imatinib and GNF-2</PDB_Title>
+      <PDB_ID>3K5V</PDB_ID>
+      <Resolution>1.74</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3K5V</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD03320002</ASD_Ligand>
+      <PubMed_Title>Targeting Bcr-Abl by combining allosteric with ATP-binding-site inhibitors.</PubMed_Title>
+      <Author>Zhang, J., et al.</Author>
+      <Journal>Nature(2010)463:501-506</Journal>
+      <PubMed_ID>20072125</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mutant ABL kinase domain in complex with small molecule fragment</PDB_Title>
+      <PDB_ID>3DK6</PDB_ID>
+      <Resolution>2.02</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DK6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of mutant ABL kinase domain in complex with small molecule fragment</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of the c-Abl Kinase domain in complex with PD173955</PDB_Title>
+      <PDB_ID>1M52</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1M52</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structures of the Kinase Domain of c-Abl in Complex with the Small Molecule Inhibitors PD173955 and Imatinib (STI-571)</PubMed_Title>
+      <Author>Nagar, B., et al.</Author>
+      <Journal>Cancer Res.(2002)62:4236-4243</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12154025?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural basis for the auto-inhibition of c-Abl tyrosine kinase</PDB_Title>
+      <PDB_ID>1OPJ</PDB_ID>
+      <Resolution>1.75</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OPJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural basis for the autoinhibition of c-Abl tyrosine kinase</PubMed_Title>
+      <Author>Nagar, B., et al.</Author>
+      <Journal>Cell(Cambridge,Mass.)(2003)112:859-871</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12654251?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of Abl kinase bound with PPY-A</PDB_Title>
+      <PDB_ID>2QOH</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2QOH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal Structure of the T315I Mutant of Abl Kinase</PubMed_Title>
+      <Author>Zhou, T., et al.</Author>
+      <Journal>Chem.Biol.Drug Des.(2007)70:171-181</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17718712?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of mutant ABL kinase domain in complex with small molecule fragment</PDB_Title>
+      <PDB_ID>3DK3</PDB_ID>
+      <Resolution>2.02</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DK3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of mutant ABL kinase domain in complex with small molecule fragment</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of ABL T315I mutant kinase domain bound with a DFG-out inhibitor AP24589</PDB_Title>
+      <PDB_ID>3OY3</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OY3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural Mechanism of the Pan-BCR-ABL Inhibitor Ponatinib (AP24534): Lessons for Overcoming Kinase Inhibitor Resistance.</PubMed_Title>
+      <Author>Zhou, T., et al.</Author>
+      <Journal>Chem.Biol.Drug Des.(2011)77:1-11</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21118377?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Structural analysis of DFG-in and DFG-out dual Src-Abl inhibitors sharing a common vinyl purine template</PDB_Title>
+      <PDB_ID>3KFA</PDB_ID>
+      <Resolution>1.22</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KFA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural analysis of DFG-in and DFG-out dual Src-Abl inhibitors sharing a common vinyl purine template.</PubMed_Title>
+      <Author>Zhou, T., et al.</Author>
+      <Journal>Chem.Biol.Drug Des.(2010)75:18-28</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19895503?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ABL kinase in complex with imatinib and a fragment (FRAG1) in the myristate pocket</PDB_Title>
+      <PDB_ID>3MS9</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3MS9</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD00740007</ASD_Ligand>
+      <PubMed_Title>Binding or bending: distinction of allosteric Abl kinase agonists from antagonists by an NMR-based conformational assay.</PubMed_Title>
+      <Author>Jahnke, W., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:7043-7048</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20450175?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko05200</Pathway_ID>
+      <Pathway_Title>Pathways in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04722</Pathway_ID>
+      <Pathway_Title>Neurotrophin signaling pathway</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Nervous system</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04012</Pathway_ID>
+      <Pathway_Title>ErbB signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05131</Pathway_ID>
+      <Pathway_Title>Shigellosis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05206</Pathway_ID>
+      <Pathway_Title>MicroRNAs in cancer</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04360</Pathway_ID>
+      <Pathway_Title>Axon guidance</Pathway_Title>
+      <Pathway_Class>Organismal Systems</Pathway_Class>
+      <Pathway_Subclass>Development</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05416</Pathway_ID>
+      <Pathway_Title>Viral myocarditis</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cardiovascular diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04110</Pathway_ID>
+      <Pathway_Title>Cell cycle</Pathway_Title>
+      <Pathway_Class>Cellular Processes</Pathway_Class>
+      <Pathway_Subclass>Cell growth and death</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko04014</Pathway_ID>
+      <Pathway_Title>Ras signaling pathway</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05130</Pathway_ID>
+      <Pathway_Title>Pathogenic Escherichia coli infection</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Infectious diseases</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko05220</Pathway_ID>
+      <Pathway_Title>Chronic myeloid leukemia</Pathway_Title>
+      <Pathway_Class>Human Diseases</Pathway_Class>
+      <Pathway_Subclass>Cancers</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.10.2</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/10/2.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00740007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD00740011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02400001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320003</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320004</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320005</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320006</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320007</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320008</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320009</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320010</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320011</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320012</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320013</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320014</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320015</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320016</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320017</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320018</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320019</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320020</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320021</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320022</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320023</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320024</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320025</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320026</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320027</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320028</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320029</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320030</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320031</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320032</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320033</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320034</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320035</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320036</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320037</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320038</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320039</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320040</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320041</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320042</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320043</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320044</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320045</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320046</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320047</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320048</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320049</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320052</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320054</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320055</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320056</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320057</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320058</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320059</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320060</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320061</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320064</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320065</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320066</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320067</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320068</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320069</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320070</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320071</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320072</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320074</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320075</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320076</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320077</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320078</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320079</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320080</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320081</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320082</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320083</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320084</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320085</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320086</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320087</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320089</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320091</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320093</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320094</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320095</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320096</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320097</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320098</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320100</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320102</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320103</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320104</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320105</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320107</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320108</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320109</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320110</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320111</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320112</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320113</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320114</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320115</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320116</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320117</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320118</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320119</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320120</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320121</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320122</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320123</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320124</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320125</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320126</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320127</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320128</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320129</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320130</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320131</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320132</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320133</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320134</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320135</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320137</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320138</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320139</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320140</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320142</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320143</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320144</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320145</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320146</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320147</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320148</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320149</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320151</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320152</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320153</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320154</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320155</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320157</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320158</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320159</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD03320160</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2013-04-23</Create_Date>
+</Organism_Record>

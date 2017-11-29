@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD02890000_1</Organism_ID>
+  <Organism>Pseudomonas aeruginosa</Organism>
+  <Organism_Latin>Pseudomonas aeruginosa</Organism_Latin>
+  <UniProt_ID>Q02N70</UniProt_ID>
+  <Seq_Length>288</Seq_Length>
+  <Molecule_Weight>32990</Molecule_Weight>
+  <KEGG_ID>pau:PA14_30750</KEGG_ID>
+  <Orthology_ID>K00453</Orthology_ID>
+  <Function_Summary>Catalyzes the oxidative cleavage of the L-tryptophan (L-Trp) pyrrole ring (By similarity).</Function_Summary>
+  <Catalytic_Mechanism>L-tryptophan + O(2) = N-formyl-L-kynurenine.</Catalytic_Mechanism>
+  <Pfam_ID>PF03301:Trp_dioxygenase</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>TRPO</Alias>
+      <Alias>Tryptophan pyrrolase</Alias>
+      <Alias>Tryptophanase</Alias>
+      <Alias>TO</Alias>
+      <Alias>Tryptophan oxygenase</Alias>
+      <Alias>TDO</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of an oxidation-reduction (redox) reaction in which hydrogen or electrons are transferred from one donor, and two oxygen atoms is incorporated into a donor.</Detail>
+      <Keyword>Oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen</Keyword>
+      <Ontology_ID>GO:0016702</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: L-tryptophan + O2 = N-formyl-L-kynurenine.</Detail>
+      <Keyword>Tryptophan 2,3-dioxygenase activity</Keyword>
+      <Ontology_ID>GO:0004833</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with heme, any compound of iron complexed in a porphyrin (tetrapyrrole) ring.</Detail>
+      <Keyword>Heme binding</Keyword>
+      <Ontology_ID>GO:0020037</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of tryptophan into other compounds, including kynurenine.</Detail>
+      <Keyword>Tryptophan catabolic process to kynurenine</Keyword>
+      <Ontology_ID>GO:0019441</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of tryptophan, the chiral amino acid 2-amino-3-(1H-indol-3-yl)propanoic acid.</Detail>
+      <Keyword>Tryptophan catabolic process</Keyword>
+      <Ontology_ID>GO:0006569</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The formation of a protein homotetramer, a macromolecular structure consisting of four noncovalently associated identical subunits.</Detail>
+      <Keyword>Protein homotetramerization</Keyword>
+      <Ontology_ID>GO:0051289</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MCPCPHSQAQGETDGEAEWHNAALDFTHAMSYGDYLKLDKVLDAQFPLSPDHNEMLFIIQHQTSELWMKLMLHELRAAREHVKSGKLGPALKMLARVSRIFDQLVHAWAVLATMTPTEYNTIRPYLGQSSGFQSYQYREIEFILGNKNATLLKPHAHRAELLAALEQALHTPSLYDEAIRLMAAQGLPVSQERLVRDAAAGTCYEASVEAAWRQVYQTPERYWDLYQLAEKLIDLEDSFRQWRFRHVTTVERIIGFKPGTGGTEGVGYLRSMLDTILFPELWRLRSNL</Protein_Seq>
+    <DNA_Seq>tttaaagagaccggcgattctagtgaaatcgaacgggcaggtcaatttccaaccagcgatgacgtaatagatagatacaaggaagtcatttttcttttaaaggatagaaacggttaatgctcttgggacggcgcttttctgtgcataactcgacgaagcccagcaactgcgtgtttctccggcaggcaaaaggttgtcgagaaccggtgtcgaggctgtttccttcctgagcgaagcctggggatgaacgagatggttatccacagcggttttttccacacggctgtgcgcagggatgtccccccttcaaagcaagggttatccacaaagtccaggacgaccgtccgtcggcctgcctgcttttattaaggtcttgatttgcttggggcctcagcgcatcggcatgtggataagtccggcccgtccggctacaataggcgcttatttcgttgtgccgcctttccaatctttgggggatatccgtgtccgtggaactttggcagcagtgcgtggatcttctccgcgatgagctgccgtcccaacaattcaacacctggatccgtcccttgcaggtcgaagccgaaggcgacgaattgcgtgtgtatgcacccaaccgtttcgtcctcgattgggtgaacgagaaatacctcggtcggcttctggaactgctcggtgaacgcggcgagggtcagttgcccgcgctttccttattaataggcagcaagcgtagccgtacgccgcgcgccgccatcgtcccatcgcagacccacgtggctcccccgcctccggttgctccgccgccggcgccagtgcagccggtatcggccgcgcccgtggtggtgccacgtgaagagctgccgccagtgacgacggctcccagcgtgtcgagcgacccctacgagccggaagaacccagcatcgatccgctggccgccgccatgccggccggagccgcgcctgcggtacgcaccgagcgcaacgtccaggtcgaaggcgcgct</DNA_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>kynA</Gene_Name>
+    <Genbank_ACCN>NC_008463</Genbank_ACCN>
+    <Protein_ACCN>YP_790616</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/4380609</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Tryptamin 2,3-dioxygenase</PDB_Title>
+      <PDB_ID>ASD02890000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00380</Pathway_ID>
+      <Pathway_Title>Tryptophan metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.13.11.11</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/13/11/11.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00320001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02890001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02890002</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-05-31</Create_Date>
+</Organism_Record>

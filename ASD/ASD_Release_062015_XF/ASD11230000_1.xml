@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD11230000_1</Organism_ID>
+  <Organism>Pig</Organism>
+  <Organism_Latin>Sus scrofa</Organism_Latin>
+  <UniProt_ID>Q29551</UniProt_ID>
+  <Seq_Length>520</Seq_Length>
+  <Molecule_Weight>56338</Molecule_Weight>
+  <KEGG_ID>ssc:396978</KEGG_ID>
+  <Orthology_ID>K01027</Orthology_ID>
+  <Function_Summary>Key enzyme for ketone body catabolism. Transfers the CoA moiety from succinate to acetoacetate. Formation of the enzyme-CoA intermediate proceeds via an unstable anhydride species formed between the carboxylate groups of the enzyme and substrate.</Function_Summary>
+  <Catalytic_Mechanism>Succinyl-CoA + a 3-oxo acid = succinate + a 3-oxoacyl-CoA.</Catalytic_Mechanism>
+  <Pfam_ID>PF01144:CoA_trans</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>Somatic-type succinyl-CoA:3-oxoacid CoA-transferase</Alias>
+      <Alias>SCOT-s</Alias>
+      <Alias>3-oxoacid CoA-transferase 1</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with an identical protein to form a homodimer.</Detail>
+      <Keyword>Protein homodimerization activity</Keyword>
+      <Ontology_ID>GO:0042803</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the reaction: succinyl-CoA + a 3-oxo acid = succinate + a 3-oxo-acyl-CoA.</Detail>
+      <Keyword>3-oxoacid CoA-transferase activity</Keyword>
+      <Ontology_ID>GO:0008260</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone, as carried out by individual cells. Although 3-hydroxybutyrate is not a ketone, it is classed as a ketone body because it exists in an equilibrium with acetoacetate. Ketone bodies may accumulate in excessive amounts in the body in starvation, diabetes mellitus or in other defects of carbohydrate metabolism.</Detail>
+      <Keyword>Cellular ketone body metabolic process</Keyword>
+      <Ontology_ID>GO:0046950</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of ketones, a class of organic compounds that contain the carbonyl group, CO, and in which the carbonyl group is bonded only to carbon atoms. The general formula for a ketone is RCOR, where R and R are alkyl or aryl groups.</Detail>
+      <Keyword>Ketone catabolic process</Keyword>
+      <Ontology_ID>GO:0042182</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the breakdown of ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone. Ketone bodies can be used as an energy source as an alternative to glucose. Utilization of ketone bodies in peripheral tissues involves conversion of acetoacetate to acetoacetyl-CoA, which is then converted to two molecules of acetyl-CoA.</Detail>
+      <Keyword>Ketone body catabolic process</Keyword>
+      <Ontology_ID>GO:0046952</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>170</Position>
+      <PTM_Type>Phosphoserine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MAALTLLSSRLRLCASAYRSGGAWSQGCAGYFSTSTRRHTKFYTDAVEAVKDIPNGATVLVGGFGLCGIPENLIGALLKTGVKELTAVSNNAGVDNFGLGLLLQSKQIKRMISSYVGENAEFERQYLAGELEVELTPQGTLAERIRAGGAGVPAFYTSTGYGTLVQEGGSPIKYNKDGSIAIASKPREVREFNGQHFILEEAIRGDFALVKAWKADQAGNVTFRKSARNFNLPMCKAAETTVVEVEEIVDIGSFAPEDIHIPKIYVHRLVKGEKYEKRIERLSVRKEEDVKTRSGKLGDNVRERIIKRAALEFEDGMYANLGIGIPLLASNFISPNMTVHLQSENGILGLGPYPLQNEVDADLINAGKETVTVLPGASYFSSDESFAMIRGGHVNLTMLGAMQVSKYGDLANWMIPGKLVKGMGGAMDLVSSAKTKVVVTMEHSAKGNAHKIMEKCTLPLTGKQCVNRIITEKAVFDVDSKKGLTLIELWEGLTVDDIKKSTGCDFAVSPKLIPMQQVTT</Protein_Seq>
+    <DNA_Seq>GAATTCCGACCGGTCCCGGCGGAGCAGTTGACACACTGAGAGGCGCTCCAACCCCGGCCTGCGCCCGCCGCCCTCCCGACCATGGCGGCTCTCACACTCCTCTCCTCCCGCCTGCGCCTCTGCGCCTCCGCCTACCGCTCCGGGGGCGCCTGGTCCCAGGGATGTGCTGGCTACTTTTCAACTAGCACGCGTCGTCATACCAAATTTTATACGGATGCAGTGGAAGCTGTAAAAGACATCCCTAATGGTGCAACAGTGCTGGTTGGTGGTTTTGGGTTATGTGGAATTCCGGAGAATCTTATAGGAGCTTTGCTAAAGACTGGAGTAAAAGAACTTACTGCAGTCAGCAACAATGCAGGGGTTGACAACTTTGGTTTGGGCCTTTTACTTCAATCCAAGCAGATAAAACGCATGATCTCTTCATACGTGGGAGAAAATGCAGAATTTGAACGACAGTACTTAGCTGGTGAATTAGAAGTAGAGCTGACACCTCAGGGCACCCTGGCAGAGAGGATCCGTGCAGGTGGGGCAGGTGTTCCTGCGTTTTACACCAGCACAGGGTATGGCACCCTGGTGCAAGAAGGAGGGTCCCCGATCAAATACAACAAAGACGGCAGCATTGCCATTGCCAGTAAACCGAGAGAGGTGAGGGAATTTAATGGTCAGCACTTTATTTTGGAGGAAGCAATCAGAGGGGATTTTGCTTTGGTGAAAGCCTGGAAGGCAGACCAAGCTGGAAACGTGACTTTCAGGAAAAGTGCAAGAAATTTCAACCTGCCGATGTGCAAAGCTGCAGAAACCACAGTGGTGGAGGTTGAAGAAATTGTGGATATTGGATCATTTGCCCCAGAGGACATTCATATTCCTAAGATTTATGTACATCGCCTTGTAAAGGGAGAAAAATATGAGAAAAGAATTGAGCGTTTATCAGTCCGGAAAGAGGAAGATGTAAAAACCAGATCTGGTAAACTTGGAGATAATGTAAGAGAACGGATCATCAAGCGGGCGGCTCTTGAATTTGAGGATGGCATGTATGCTAATTTGGGCATAGGAATCCCACTTCTGGCCAGCAACTTTATCAGCCCAAATATGACTGTCCACCTGCAAAGTGAAAATGGAATCCTGGGTTTGGGTCCATATCCTTTACAAAATGAAGTTGATGCAGATCTAATCAATGCAGGCAAGGAAACAGTTACTGTTCTTCCAGGAGCCTCTTACTTCTCCAGCGATGAATCATTTGCAATGATTAGAGGGGGACATGTCAATCTAACAATGCTAGGAGCCATGCAGGTTTCCAAATATGGTGACCTGGCTAACTGGATGATACCTGGGAAGCTGGTGAAAGGAATGGGAGGGGCTATGGATCTAGTGTCCAGTGCCAAAACCAAAGTGGTGGTCACCATGGAGCATTCTGCAAAGGGAAATGCACATAAAATCATGGAGAAATGTACATTACCACTGACGGGAAAGCAATGTGTCAACCGCATCATTACTGAAAAGGCAGTGTTTGATGTGGACAGAAAGAAAGGTCTGACTCTGATTGAACTCTGGGAAGGCCTGACAGTGGATGACATAAAAAAGAGCACTGGGTGTGATTTTGCTGTTTCACCAAAACTGATACCAATGCAGCAGGTCACAACTTGAAATGTGGAACAGATATTTGTCCCAAGCTGTGTGCTTTTCATTTTAGCCACATAGGATTTTATTGAAAAGACATCAGTAATTGTAATTGTATTCAAACAAGTAGTTTTTGACTCGTTTTCTTCTAGTGTCTTATGCTTTATACAGCCATATAGACTTTGTTCTCTCAGATGTACTCTGACATTTCAAGGAAAAACAAAAAAAAAAAGG</DNA_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Mitochondrion</CellLocal>
+      <Ontology_ID>GO:0005739</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>OXCT1</Gene_Name>
+    <Gene_Alias>OXCT; SCOT</Gene_Alias>
+    <Gene_ID>396978</Gene_ID>
+    <Genbank_ACCN>NM_213938</Genbank_ACCN>
+    <Protein_ACCN>NP_999103</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/396978</Gene_URL>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>SUCCINYL-COA:3-KETOACID COA TRANSFERASE FROM PIG HEART</PDB_Title>
+      <PDB_ID>1OOY</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OOY</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the CoA transferase from pig heart to 1.7 A resolution.</PubMed_Title>
+      <Author>Coros, A.M., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(2004)60:1717-1725</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15388917?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Succinyl-CoA:3-ketoacid CoA transferase from pig heart covalently bound to CoA</PDB_Title>
+      <PDB_ID>3OXO</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OXO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Catalytic role of the conformational change in succinyl-CoA:3-oxoacid CoA transferase on binding CoA.</PubMed_Title>
+      <Author>Fraser, M.E., et al.</Author>
+      <Journal>Biochemistry(2010)49:10319-10328</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20977214?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Dynamic domains of Succinyl-CoA:3-ketoacid-coenzyme A transferase from pig heart.</PDB_Title>
+      <PDB_ID>3K6M</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3K6M</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The high-resolution structure of pig heart succinyl-CoA:3-oxoacid coenzyme A transferase.</PubMed_Title>
+      <Author>Coker, S.F., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(2010)66:797-805</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/20606260?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>C28A Mutant of Succinyl-CoA:3-Ketoacid CoA Transferase from Pig Heart</PDB_Title>
+      <PDB_ID>2NRC</PDB_ID>
+      <Resolution>2.05</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2NRC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of the Cysteine Residue Exposed by the Conformational Change in Pig Heart Succinyl-CoA:3-Ketoacid Coenzyme A Transferase on Binding Coenzyme A.</PubMed_Title>
+      <Author>Tammam, S.D., et al.</Author>
+      <Journal>Biochemistry(2007)46:10852-10863</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17718512?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Deletion mutant of SUCCINYL-COA:3-KETOACID COA TRANSFERASE FROM PIG HEART</PDB_Title>
+      <PDB_ID>1OOZ</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OOZ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the CoA transferase from pig heart to 1.7 A resolution.</PubMed_Title>
+      <Author>Coros, A.M., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(2004)60:1717-1725</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15388917?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>SUCCINATE:COENZYME-A TRANSFERASE (PIG HEART)</PDB_Title>
+      <PDB_ID>1O9L</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1O9L</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Succinate:Coenzyme-A Transferase Deficiency: A Structural View of Pathogenic Mutations</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Succinyl-COA:3-ketoacid COA transferase from pig heart (selenomethionine)</PDB_Title>
+      <PDB_ID>1M3E</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1M3E</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the Mammalian CoA Transferase from Pig Heart</PubMed_Title>
+      <Author>Bateman, K.S., et al.</Author>
+      <Journal>Biochemistry(2002)41:14455-14462</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/12463743?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>C28S Mutant of Succinyl-CoA:3-Ketoacid CoA Transferase from Pig Heart</PDB_Title>
+      <PDB_ID>2NRB</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2NRB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Identification of the Cysteine Residue Exposed by the Conformational Change in Pig Heart Succinyl-CoA:3-Ketoacid Coenzyme A Transferase on Binding Coenzyme A.</PubMed_Title>
+      <Author>Tammam, S.D., et al.</Author>
+      <Journal>Biochemistry(2007)46:10852-10863</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17718512?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Deletion mutant of SUCCINYL-COA:3-KETOACID COA TRANSFERASE FROM PIG HEART</PDB_Title>
+      <PDB_ID>1OPE</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1OPE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structure of the CoA transferase from pig heart to 1.7 A resolution.</PubMed_Title>
+      <Author>Coros, A.M., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(2004)60:1717-1725</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15388917?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00072</Pathway_ID>
+      <Pathway_Title>Synthesis and degradation of ketone bodies</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Lipid metabolism</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00280</Pathway_ID>
+      <Pathway_Title>Valine, leucine and isoleucine degradation</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <CATH_Class>Class 3: Mixed Alpha-Beta </CATH_Class>
+    <CATH_URL>http://www.cathdb.info/version/latest/domain/1m3eA01</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Rochet JC, et al. Biochemistry. 2000,39(37):11291-11302.;Selwood T, et al. Arch Biochem Biophys. 2012,519(2):131-143.</Site_Reference>
+      <Site_Type>Morpheein model</Site_Type>
+      <PubMed_ID>10985774;22182754</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.8.3.5</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/8/3/5.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2013-11-07</Create_Date>
+</Organism_Record>

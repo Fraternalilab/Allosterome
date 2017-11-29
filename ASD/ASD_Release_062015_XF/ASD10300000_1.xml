@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD10300000_1</Organism_ID>
+  <Organism>Bacillus subtilis</Organism>
+  <Organism_Latin>Bacillus subtilis</Organism_Latin>
+  <UniProt_ID>O34757</UniProt_ID>
+  <Seq_Length>370</Seq_Length>
+  <Molecule_Weight>42673</Molecule_Weight>
+  <KEGG_ID>bsu:BSU19190</KEGG_ID>
+  <Orthology_ID>K07778</Orthology_ID>
+  <Function_Summary>Member of the two-component regulatory system DesR/DesK, responsible for cold induction of the des gene coding for the Delta5 acyl-lipid desaturase. Acts as a sensor of the membrane fluidity. Probably activates DesR by phosphorylation.</Function_Summary>
+  <Catalytic_Mechanism>ATP + protein L-histidine = ADP + protein N-phospho-L-histidine.</Catalytic_Mechanism>
+  <Pfam_ID>PF02518:HATPase_c@@PF07730:HisKA_3</Pfam_ID>
+  <Allosteric_Activator_Count>0</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the phosphorylation of a histidine residue in response to detection of an extracellular signal such as a chemical ligand or change in environment, to initiate a change in cell state or activity. The two-component sensor is a histidine kinase that autophosphorylates a histidine residue in its active site. The phosphate is then transferred to an aspartate residue in a downstream response regulator, to trigger a response.</Detail>
+      <Keyword>Two-component sensor activity</Keyword>
+      <Ontology_ID>GO:0000155</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with ATP, adenosine 5'-triphosphate, a universally important coenzyme and enzyme regulator.</Detail>
+      <Keyword>ATP binding</Keyword>
+      <Ontology_ID>GO:0005524</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with a nucleotide, any compound consisting of a nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the ribose or deoxyribose.</Detail>
+      <Keyword>Nucleotide binding</Keyword>
+      <Ontology_ID>GO:0000166</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</Detail>
+      <Keyword>Kinase activity</Keyword>
+      <Ontology_ID>GO:0016301</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A conserved series of molecular signals found in prokaryotes and eukaryotes; involves autophosphorylation of a histidine kinase and the transfer of the phosphate group to an aspartate that then acts as a phospho-donor to response regulator proteins.</Detail>
+      <Keyword>Two-component signal transduction system (phosphorelay)</Keyword>
+      <Ontology_ID>GO:0000160</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The process in which a signal is conveyed via the transfer of one or more phosphate groups.</Detail>
+      <Keyword>Signal transduction via phosphorylation event</Keyword>
+      <Ontology_ID>GO:0023014</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <PTM_List>
+    <PTM>
+      <Position>188</Position>
+      <PTM_Type>Phosphohistidine</PTM_Type>
+    </PTM>
+  </PTM_List>
+  <Molecule_Seq>
+    <Protein_Seq>MIKNHFTFQKLNGITPYIWTIFFILPFYFIWKSSSTFVIIVGIILTLLFFSVYRFAFVSKGWTIYLWGFLLIGISTASITLFSYIYFAFFIAYFIGNIKERVPFHILYYVHLISAAVAANFSLVLKKEFFLTQIPFVVITLISAILLPFSIKSRKERERLEEKLEDANERIAELVKLEERQRIARDLHDTLGQKLSLIGLKSDLARKLIYKDPEQAARELKSVQQTARTSLNEVRKIVSSMKGIRLKDELINIKQILEAADIMFIYEEEKWPENISLLNENILSMCLKEAVTNVVKHSQAKTCRVDIQQLWKEVVITVSDDGTFKGEENSFSKGHGLLGMRERLEFANGSLHIDTENGTKLTMAIPNNSK</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Integral to membrane</CellLocal>
+      <Ontology_ID>GO:0016021</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Membrane</CellLocal>
+      <Ontology_ID>GO:0016020</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Cell membrane</CellLocal>
+      <Ontology_ID>SwissProt</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>desK</Gene_Name>
+    <Gene_Alias>yocF</Gene_Alias>
+    <Gene_ID>939678</Gene_ID>
+    <Genbank_ACCN>NC_000964</Genbank_ACCN>
+    <Protein_ACCN>NP_389800</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/939678</Gene_URL>
+    <EMBL_ID>BSU19190</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Crystal structure of DesKC in complex with AMP-PCP</PDB_Title>
+      <PDB_ID>3EHF</PDB_ID>
+      <Resolution>3.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EHF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural plasticity and catalysis regulation of a thermosensor histidine kinase</PubMed_Title>
+      <Author>Albanesi, D., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:16185-16190</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19805278?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of DesKC-H188V in complex with AMP-PCP</PDB_Title>
+      <PDB_ID>3EHJ</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EHJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural plasticity and catalysis regulation of a thermosensor histidine kinase</PubMed_Title>
+      <Author>Albanesi, D., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:16185-16190</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19805278?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of DesKC_H188E in complex with ADP</PDB_Title>
+      <PDB_ID>3GIF</PDB_ID>
+      <Resolution>2.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GIF</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural plasticity and catalysis regulation of a thermosensor histidine kinase</PubMed_Title>
+      <Author>Albanesi, D., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:16185-16190</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19805278?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of DesKC-H188V in complex with ADP</PDB_Title>
+      <PDB_ID>3EHH</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EHH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural plasticity and catalysis regulation of a thermosensor histidine kinase</PubMed_Title>
+      <Author>Albanesi, D., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:16185-16190</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19805278?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of DesKC_H188E in complex with AMP-PCP</PDB_Title>
+      <PDB_ID>3GIE</PDB_ID>
+      <Resolution>2.65</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GIE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural plasticity and catalysis regulation of a thermosensor histidine kinase</PubMed_Title>
+      <Author>Albanesi, D., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:16185-16190</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19805278?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the ATP-binding domain of DesK in complex with ATP</PDB_Title>
+      <PDB_ID>3EHG</PDB_ID>
+      <Resolution>1.74</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3EHG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural and enzymatic insights into the ATP-binding and autophosphorylation mechanism of a sensor histidine kinase</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of phosphorylated DesKC in complex with AMP-PCP</PDB_Title>
+      <PDB_ID>3GIG</PDB_ID>
+      <Resolution>3.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3GIG</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Structural plasticity and catalysis regulation of a thermosensor histidine kinase</PubMed_Title>
+      <Author>Albanesi, D., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(2009)106:16185-16190</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19805278?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko02020</Pathway_ID>
+      <Pathway_Title>Two-component system</Pathway_Title>
+      <Pathway_Class>Environmental Information Processing</Pathway_Class>
+      <Pathway_Subclass>Signal transduction</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Reference>Martin M, Biochem J. 2013 Apr 15;451(2):269-75. doi: 10.1042/BJ20121825.</Site_Reference>
+      <Site_Type>Protein-induced </Site_Type>
+      <PubMed_ID>23356219</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>2.7.13.3</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC2/7/13/3.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Create_Date>2013-04-28</Create_Date>
+</Organism_Record>

@@ -1,0 +1,768 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD04670000_2</Organism_ID>
+  <Organism>E.coli</Organism>
+  <Organism_Latin>Escherichia coli</Organism_Latin>
+  <UniProt_ID>P0ABQ4</UniProt_ID>
+  <Seq_Length>159</Seq_Length>
+  <Molecule_Weight>17999</Molecule_Weight>
+  <KEGG_ID>ecj:Y75_p0048</KEGG_ID>
+  <Orthology_ID>K00287</Orthology_ID>
+  <Function_Summary>Key enzyme in folate metabolism. Catalyzes an essential reaction for de novo glycine and purine synthesis, and for DNA precursor synthesis.</Function_Summary>
+  <Catalytic_Mechanism>5,6,7,8-tetrahydrofolate + NADP(+) = 7,8-dihydrofolate + NADPH.</Catalytic_Mechanism>
+  <Pfam_ID>PF00186:DHFR_1</Pfam_ID>
+  <Allosteric_Activator_Count>1</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>1</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>1</Allosteric_Regulator_Count>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the reaction: 5,6,7,8-tetrahydrofolate + NADP+ = 7,8-dihydrofolate + NADPH + H+.</Detail>
+      <Keyword>Dihydrofolate reductase activity</Keyword>
+      <Ontology_ID>GO:0004146</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with nicotinamide-adenine dinucleotide phosphate, a coenzyme involved in many redox and biosynthetic reactions; binding may be to either the oxidized form, NADP+, or the reduced form, NADPH.</Detail>
+      <Keyword>NADP binding</Keyword>
+      <Ontology_ID>GO:0050661</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <Mutation_List>
+    <Muntion>
+      <Position>154</Position>
+      <Original>Glu</Original>
+      <Variation>Lys</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>28</Position>
+      <Original>Leu</Original>
+      <Variation>Arg</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>30</Position>
+      <Original>Trp</Original>
+      <Variation>Gly</Variation>
+    </Muntion>
+    <Muntion>
+      <Position>154</Position>
+      <Original>Glu</Original>
+      <Variation>Gln</Variation>
+    </Muntion>
+  </Mutation_List>
+  <BioProcess_List>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a methotrexate stimulus. Methotrexate is 4-amino-10-methylformic acid, a folic acid analogue that is a potent competitive inhibitor of dihydrofolate reductase.</Detail>
+      <Keyword>Response to methotrexate</Keyword>
+      <Ontology_ID>GO:0031427</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of 10-formyltetrahydrofolate, the formylated derivative of tetrahydrofolate.</Detail>
+      <Keyword>10-formyltetrahydrofolate biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009257</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an antibiotic stimulus. An antibiotic is a chemical substance produced by a microorganism which has the capacity to inhibit the growth of or to kill other microorganisms.</Detail>
+      <Keyword>Response to antibiotic</Keyword>
+      <Ontology_ID>GO:0046677</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways involving the transfer of one-carbon units in various oxidation states.</Detail>
+      <Keyword>One-carbon metabolic process</Keyword>
+      <Ontology_ID>GO:0006730</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a drug stimulus. A drug is a substance used in the diagnosis, treatment or prevention of a disease.</Detail>
+      <Keyword>Response to drug</Keyword>
+      <Ontology_ID>GO:0042493</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons.</Detail>
+      <Keyword>Oxidation-reduction process</Keyword>
+      <Ontology_ID>GO:0055114</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of nucleotides, any nucleoside that is esterified with (ortho)phosphate or an oligophosphate at any hydroxyl group on the glycose moiety; may be mono-, di- or triphosphate; this definition includes cyclic-nucleotides (nucleoside cyclic phosphates).</Detail>
+      <Keyword>Nucleotide biosynthetic process</Keyword>
+      <Ontology_ID>GO:0009165</Ontology_ID>
+    </BioProcess>
+    <BioProcess>
+      <Detail>The chemical reactions and pathways resulting in the formation of glycine, aminoethanoic acid.</Detail>
+      <Keyword>Glycine biosynthetic process</Keyword>
+      <Ontology_ID>GO:0006545</Ontology_ID>
+    </BioProcess>
+  </BioProcess_List>
+  <Molecule_Seq>
+    <Protein_Seq>MISLIAALAVDRVIGMENAMPWNLPADLAWFKRNTLNKPVIMGRHTWESIGRPLPGRKNIILSSQPGTDDRVTWVKSVDEAIAACGDVPEIMVIGGGRVYEQFLPKAQKLYLTHIDAEVEGDTHFPDYEPDDWESVFSEFHDADAQNSHSYCFEILERR</Protein_Seq>
+  </Molecule_Seq>
+  <Gene>
+    <Gene_Name>folA</Gene_Name>
+    <Gene_Alias>tmrA</Gene_Alias>
+    <Gene_ID>12933205</Gene_ID>
+    <Genbank_ACCN>NC_000913</Genbank_ACCN>
+    <Protein_ACCN>NP_414590</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/944790</Gene_URL>
+    <EMBL_ID>EBESCG00000014751</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF UNLIGANDED ESCHERICHIA COLI DIHYDROFOLATE REDUCTASE. LIGAND-INDUCED CONFORMATIONAL CHANGES AND COOPERATIVITY IN BINDING</PDB_Title>
+      <PDB_ID>5DFR</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=5DFR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of unliganded Escherichia coli dihydrofolate reductase. Ligand-induced conformational changes and cooperativity in binding.</PubMed_Title>
+      <Author>Bystroff, C., et al.</Author>
+      <Journal>Biochemistry(1991)30:2227-2239</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1998681?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF DIHYDROFOLATE REDUCTASE COMPLEXED WITH DIHYDROFOLATE</PDB_Title>
+      <PDB_ID>1RF7</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RF7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE (E.C.1.5.1.3) COMPLEXED WITH 5,10-DIDEAZATETRAHYDROFOLATE AND NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (REDUCED FORM)</PDB_Title>
+      <PDB_ID>1RX6</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RX6</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE (E.C.1.5.1.3) COMPLEXED WITH 5,10-DIDEAZATETRAHYDROFOLATE AND 2'-MONOPHOSPHOADENOSINE 5'-DIPHOSPHORIBOSE</PDB_Title>
+      <PDB_ID>1RX4</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RX4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH METHOTREXATE AND NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (REDUCED FORM)</PDB_Title>
+      <PDB_ID>1RH3</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RH3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Dynamic switching and partial occupancies of a small molecule inhibitor complex of DHFR</PDB_Title>
+      <PDB_ID>3KFY</PDB_ID>
+      <Resolution>2.08</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3KFY</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01500001</ASD_Ligand>
+      <PubMed_Title>Dynamic switching and partial occupancies of a small molecule inhibitor complex of DHFR</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>Evidence for dynamic motion in proteins as a mechanism for ligand dissociation</PDB_Title>
+      <PDB_ID>3R33</PDB_ID>
+      <Resolution>2.09</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3R33</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01500001</ASD_Ligand>
+      <PubMed_Title>Evidence for dynamics in proteins as a mechanism for ligand dissociation.</PubMed_Title>
+      <Author>Carroll, M.J., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2012)8:246-252</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22246400?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH FOLATE AND 2'-MONOPHOSPHOADENOSINE 5'-DIPHOSPHORIBOSE</PDB_Title>
+      <PDB_ID>1RX8</PDB_ID>
+      <Resolution>2.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RX8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>INVESTIGATION OF THE FUNCTIONAL ROLE OF TRYPTOPHAN-22 IN ESCHERICHIA COLI DIHYDROFOLATE REDUCTASE BY SITE-DIRECTED MUTAGENESIS</PDB_Title>
+      <PDB_ID>2DRC</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2DRC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Investigation of the functional role of tryptophan-22 in Escherichia coli dihydrofolate reductase by site-directed mutagenesis.</PubMed_Title>
+      <Author>Warren, M.S., et al.</Author>
+      <Journal>Biochemistry(1991)30:11092-11103</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1932031?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH FOLATE AND 2-MONOPHOSPHOADENOSINE 5'-DIPHOSPHORIBOSE</PDB_Title>
+      <PDB_ID>1RA8</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RA8</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE (E.C.1.5.1.3) COMPLEXED WITH METHOTREXATE AND NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (REDUCED FORM)</PDB_Title>
+      <PDB_ID>1RX3</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RX3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF ESCHERICHIA COLI DIHYDROFOLATE REDUCTASE. THE NADP+ HOLOENZYME AND THE FOLATE(DOT)NADP+ TERNARY COMPLEX. SUBSTRATE BINDING AND A MODEL FOR THE TRANSITION STATE</PDB_Title>
+      <PDB_ID>6DFR</PDB_ID>
+      <Resolution>2.4</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=6DFR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of Escherichia coli dihydrofolate reductase: the NADP+ holoenzyme and the folate.NADP+ ternary complex. Substrate binding and a model for the transition state.</PubMed_Title>
+      <Author>Bystroff, C., et al.</Author>
+      <Journal>Biochemistry(1990)29:3263-3277</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/2185835?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE (E.C.1.5.1.3) COMPLEXED WITH 5,10-DIDEAZATETRAHYDROFOLATE</PDB_Title>
+      <PDB_ID>1RX5</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RX5</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF UNLIGANDED ESCHERICHIA COLI DIHYDROFOLATE REDUCTASE. LIGAND-INDUCED CONFORMATIONAL CHANGES AND COOPERATIVITY IN BINDING</PDB_Title>
+      <PDB_ID>1DRB</PDB_ID>
+      <Resolution>1.96</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DRB</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of unliganded Escherichia coli dihydrofolate reductase. Ligand-induced conformational changes and cooperativity in binding.</PubMed_Title>
+      <Author>Bystroff, C., et al.</Author>
+      <Journal>Biochemistry(1991)30:2227-2239</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1998681?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>INVESTIGATION OF THE FUNCTIONAL ROLE OF TRYPTOPHAN-22 IN ESCHERICHIA COLI DIHYDROFOLATE REDUCTASE BY SITE-DIRECTED MUTAGENESIS</PDB_Title>
+      <PDB_ID>3DRC</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DRC</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Investigation of the functional role of tryptophan-22 in Escherichia coli dihydrofolate reductase by site-directed mutagenesis.</PubMed_Title>
+      <Author>Warren, M.S., et al.</Author>
+      <Journal>Biochemistry(1991)30:11092-11103</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1932031?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Methionine-free mutant of Escherichia coli dihydrofolate reductase</PDB_Title>
+      <PDB_ID>2D0K</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2D0K</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Evolutional Design of a Hyperactive Cysteine- and Methionine-free Mutant of Escherichia coli Dihydrofolate Reductase</PubMed_Title>
+      <Author>Iwakura, M., et al.</Author>
+      <Journal>J.Biol.Chem.(2006)281:13234-13246</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/16510443?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ISOMORPHOUS CRYSTAL STRUCTURES OF ESCHERICHIA COLI DIHYDROFOLATE REDUCTASE COMPLEXED WITH FOLATE, 5-DEAZAFOLATE AND 5,10-DIDEAZATETRAHYDROFOLATE: MECHANISTIC IMPLICATIONS</PDB_Title>
+      <PDB_ID>1DRH</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DRH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Isomorphous crystal structures of Escherichia coli dihydrofolate reductase complexed with folate, 5-deazafolate, and 5,10-dideazatetrahydrofolate: mechanistic implications.</PubMed_Title>
+      <Author>Reyes, V.M., et al.</Author>
+      <Journal>Biochemistry(1995)34:2710-2723</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7873554?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Sensitivity of receptor internal motions to ligand binding affinity and kinetic off-rate</PDB_Title>
+      <PDB_ID>3QYO</PDB_ID>
+      <Resolution>2.09</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QYO</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01500001</ASD_Ligand>
+      <PubMed_Title>Evidence for dynamics in proteins as a mechanism for ligand dissociation.</PubMed_Title>
+      <Author>Carroll, M.J., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2012)8:246-252</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22246400?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (REDUCED FORM)</PDB_Title>
+      <PDB_ID>1RA1</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RA1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MOLECULE: DIHYDROFOLATE REDUCTASE (E.C.1.5.1.3) COMPLEXED WITH METHOTREXATE AND UREA</PDB_Title>
+      <PDB_ID>1DDR</PDB_ID>
+      <Resolution>2.45</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DDR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The effect of denaturants on protein structure.</PubMed_Title>
+      <Author>Dunbar, J., et al.</Author>
+      <Journal>Protein Sci.(1997)6:1727-1733</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9260285?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH FOLATE AND NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (OXIDIZED FORM)</PDB_Title>
+      <PDB_ID>1RB2</PDB_ID>
+      <Resolution>2.1</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RB2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ISOMORPHOUS CRYSTAL STRUCTURES OF ESCHERICHIA COLI DIHYDROFOLATE REDUCTASE COMPLEXED WITH FOLATE, 5-DEAZAFOLATE AND 5,10-DIDEAZATETRAHYDROFOLATE: MECHANISTIC IMPLICATIONS</PDB_Title>
+      <PDB_ID>1DYH</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DYH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Isomorphous crystal structures of Escherichia coli dihydrofolate reductase complexed with folate, 5-deazafolate, and 5,10-dideazatetrahydrofolate: mechanistic implications.</PubMed_Title>
+      <Author>Reyes, V.M., et al.</Author>
+      <Journal>Biochemistry(1995)34:2710-2723</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7873554?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Re-refined coordinates for PDB entry 1RX2</PDB_Title>
+      <PDB_ID>3QL3</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QL3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A dynamic knockout reveals that conformational fluctuations influence the chemical step of enzyme catalysis.</PubMed_Title>
+      <Author>Bhabha, G., et al.</Author>
+      <Journal>Science(2011)332:234-238</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21474759?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>MOLECULE: DIHYDROFOLATE REDUCTASE (E.C.1.5.1.3) COMPLEXED WITH METHOTREXATE</PDB_Title>
+      <PDB_ID>1DDS</PDB_ID>
+      <Resolution>2.2</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DDS</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>The effect of denaturants on protein structure.</PubMed_Title>
+      <Author>Dunbar, J., et al.</Author>
+      <Journal>Protein Sci.(1997)6:1727-1733</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9260285?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>LONG-RANGE STRUCTURAL EFFECTS IN A SECOND-SITE REVERTANT OF A MUTANT DIHYDROFOLATE REDUCTASE</PDB_Title>
+      <PDB_ID>1DHJ</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DHJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Long-range structural effects in a second-site revertant of a mutant dihydrofolate reductase.</PubMed_Title>
+      <Author>Brown, K.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(1993)90:11753-11756</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8265622?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Sensitivity of receptor internal motions to ligand binding affinity and kinetic off-rate</PDB_Title>
+      <PDB_ID>3QYL</PDB_ID>
+      <Resolution>1.79</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3QYL</PDB_URL>
+      <Has_Ligand>Yes</Has_Ligand>
+      <ASD_Ligand>ASD01500001</ASD_Ligand>
+      <PubMed_Title>Evidence for dynamics in proteins as a mechanism for ligand dissociation.</PubMed_Title>
+      <Author>Carroll, M.J., et al.</Author>
+      <Journal>Nat.Chem.Biol.(2012)8:246-252</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/22246400?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH METHOTREXATE AND NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (OXIDIZED FORM)</PDB_Title>
+      <PDB_ID>1RB3</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RB3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF ESCHERICHIA COLI DIHYDROFOLATE REDUCTASE. THE NADP+ HOLOENZYME AND THE FOLATE(DOT)NADP+ TERNARY COMPLEX. SUBSTRATE BINDING AND A MODEL FOR THE TRANSITION STATE</PDB_Title>
+      <PDB_ID>7DFR</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=7DFR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of Escherichia coli dihydrofolate reductase: the NADP+ holoenzyme and the folate.NADP+ ternary complex. Substrate binding and a model for the transition state.</PubMed_Title>
+      <Author>Bystroff, C., et al.</Author>
+      <Journal>Biochemistry(1990)29:3263-3277</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/2185835?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH FOLATE</PDB_Title>
+      <PDB_ID>1RD7</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RD7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH FOLATE</PDB_Title>
+      <PDB_ID>1RE7</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RE7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (OXIDIZED FORM)</PDB_Title>
+      <PDB_ID>1RA9</PDB_ID>
+      <Resolution>1.55</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RA9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH METHOTREXATE</PDB_Title>
+      <PDB_ID>1RG7</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RG7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>LONG-RANGE STRUCTURAL EFFECTS IN A SECOND-SITE REVERTANT OF A MUTANT DIHYDROFOLATE REDUCTASE</PDB_Title>
+      <PDB_ID>1DHI</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DHI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Long-range structural effects in a second-site revertant of a mutant dihydrofolate reductase.</PubMed_Title>
+      <Author>Brown, K.A., et al.</Author>
+      <Journal>Proc.Natl.Acad.Sci.USA(1993)90:11753-11756</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8265622?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ISOMORPHOUS CRYSTAL STRUCTURES OF ESCHERICHIA COLI DIHYDROFOLATE REDUCTASE COMPLEXED WITH FOLATE, 5-DEAZAFOLATE AND 5,10-DIDEAZATETRAHYDROFOLATE: MECHANISTIC IMPLICATIONS</PDB_Title>
+      <PDB_ID>1DYI</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DYI</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Isomorphous crystal structures of Escherichia coli dihydrofolate reductase complexed with folate, 5-deazafolate, and 5,10-dideazatetrahydrofolate: mechanistic implications.</PubMed_Title>
+      <Author>Reyes, V.M., et al.</Author>
+      <Journal>Biochemistry(1995)34:2710-2723</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7873554?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH 5,10-DIDEAZATETRAHYDROFOLATE AND NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (OXIDIZED FORM)</PDB_Title>
+      <PDB_ID>1RC4</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RC4</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Disruption of protein dynamics by an allosteric effector antibody</PDB_Title>
+      <PDB_ID>3K74</PDB_ID>
+      <Resolution>1.95</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3K74</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Disruption of protein dynamics by an allosteric effector antibody</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE (E.C.1.5.1.3) COMPLEXED WITH NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (REDUCED FORM)</PDB_Title>
+      <PDB_ID>1RX1</PDB_ID>
+      <Resolution>2.0</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RX1</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURE OF UNLIGANDED ESCHERICHIA COLI DIHYDROFOLATE REDUCTASE. LIGAND-INDUCED CONFORMATIONAL CHANGES AND COOPERATIVITY IN BINDING</PDB_Title>
+      <PDB_ID>1DRA</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DRA</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structure of unliganded Escherichia coli dihydrofolate reductase. Ligand-induced conformational changes and cooperativity in binding.</PubMed_Title>
+      <Author>Bystroff, C., et al.</Author>
+      <Journal>Biochemistry(1991)30:2227-2239</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/1998681?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE (E.C.1.5.1.3) COMPLEXED WITH WITH FOLATE AND NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (OXIDIZED FORM)</PDB_Title>
+      <PDB_ID>1RX2</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RX2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>STRUCTURE OF DIHYDROFOLATE REDUCTASE COMPLEXED WITH FOLATE</PDB_Title>
+      <PDB_ID>1RX7</PDB_ID>
+      <Resolution>2.3</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RX7</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of the ternary MTX NADPH complex of Escherichia coli dihydrofolate reductase</PDB_Title>
+      <PDB_ID>3DAU</PDB_ID>
+      <Resolution>1.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3DAU</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>X-ray structure of the ternary MTX.NADPH complex of the anthrax dihydrofolate reductase: a pharmacophore for dual-site inhibitor design.</PubMed_Title>
+      <Author>Bennett, B.C., et al.</Author>
+      <Journal>J.Struct.Biol.(2009)166:162-171</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/19374017?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CRYSTAL STRUCTURE OF THE BINARY COMPLEX BETWEEN FOLINIC ACID (LEUCOVORIN) AND E. COLI DIHYDROFOLATE REDUCTASE</PDB_Title>
+      <PDB_ID>1JOL</PDB_ID>
+      <Resolution>1.96</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JOL</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of Escherichia coli dihydrofolate reductase complexed with 5-formyltetrahydrofolate (folinic acid) in two space groups: evidence for enolization of pteridine O4.</PubMed_Title>
+      <Author>Lee, H., et al.</Author>
+      <Journal>Biochemistry(1996)35:7012-7020</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8679526?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>CRYSTAL STRUCTURES OF ESCHERICHIA COLI AND LACTOBACILLUS CASEI DIHYDROFOLATE REDUCTASE REFINED AT 1.7 ANGSTROMS RESOLUTION. I. GENERAL FEATURES AND BINDING OF METHOTREXATE</PDB_Title>
+      <PDB_ID>4DFR</PDB_ID>
+      <Resolution>1.7</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=4DFR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of Escherichia coli and Lactobacillus casei dihydrofolate reductase refined at 1.7 A resolution. I. General features and binding of methotrexate.</PubMed_Title>
+      <Author>Bolin, J.T., et al.</Author>
+      <Journal>J.Biol.Chem.(1982)257:13650-13662</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/6815178?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>ISOMORPHOUS CRYSTAL STRUCTURES OF ESCHERICHIA COLI DIHYDROFOLATE REDUCTASE COMPLEXED WITH FOLATE, 5-DEAZAFOLATE AND 5,10-DIDEAZATETRAHYDROFOLATE: MECHANISTIC IMPLICATIONS</PDB_Title>
+      <PDB_ID>1DYJ</PDB_ID>
+      <Resolution>1.85</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DYJ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Isomorphous crystal structures of Escherichia coli dihydrofolate reductase complexed with folate, 5-deazafolate, and 5,10-dideazatetrahydrofolate: mechanistic implications.</PubMed_Title>
+      <Author>Reyes, V.M., et al.</Author>
+      <Journal>Biochemistry(1995)34:2710-2723</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/7873554?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE (E.C.1.5.1.3) COMPLEXED WITH NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (OXIDIZED FORM)</PDB_Title>
+      <PDB_ID>1RX9</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RX9</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>THE CRYSTAL STRUCTURE OF THE BINARY COMPLEX BETWEEN FOLINIC ACID (LEUCOVORIN) AND E. COLI DIHYDROFOLATE REDUCTASE</PDB_Title>
+      <PDB_ID>1JOM</PDB_ID>
+      <Resolution>1.9</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1JOM</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Crystal structures of Escherichia coli dihydrofolate reductase complexed with 5-formyltetrahydrofolate (folinic acid) in two space groups: evidence for enolization of pteridine O4.</PubMed_Title>
+      <Author>Lee, H., et al.</Author>
+      <Journal>Biochemistry(1996)35:7012-7020</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/8679526?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Chemically Self-assembled Antibody Nanorings (CSANs): Design and Characterization of an Anti-CD3 IgM Biomimetic</PDB_Title>
+      <PDB_ID>3OCH</PDB_ID>
+      <Resolution>1.79</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=3OCH</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Chemically Self-Assembled Antibody Nanorings (CSANs): Design and Characterization of an Anti-CD3 IgM Biomimetic.</PubMed_Title>
+      <Author>Li, Q., et al.</Author>
+      <Journal>J.Am.Chem.Soc.(2010)132:17247-17257</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/21077608?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH METHOTREXATE AND NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (OXIDIZED FORM)</PDB_Title>
+      <PDB_ID>1DRE</PDB_ID>
+      <Resolution>2.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1DRE</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+    </PDB>
+    <PDB>
+      <PDB_Title>EXPRESSION, CHARACTERIZATION, AND CRYSTALLOGRAPHIC ANALYSIS OF TELLUROMETHIONYL DIHYDROFOLATE REDUCTASE</PDB_Title>
+      <PDB_ID>1TDR</PDB_ID>
+      <Resolution>2.5</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1TDR</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Expression, characterization and crystallographic analysis of telluromethionyl dihydrofolate reductase.</PubMed_Title>
+      <Author>Boles, J.O., et al.</Author>
+      <Journal>Acta Crystallogr.,Sect.D(1995)51:731-739</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/15299803?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH FOLATE AND NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (OXIDIZED FORM)</PDB_Title>
+      <PDB_ID>1RA2</PDB_ID>
+      <Resolution>1.6</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RA2</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal Structure of E.coli DHFR in complex with NADPH and the inhibitor compound 10a.</PDB_Title>
+      <PDB_ID>2ANQ</PDB_ID>
+      <Resolution>2.13</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ANQ</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A 2.13 A Structure of E. coli Dihydrofolate Reductase Bound to a Novel Competitive Inhibitor Reveals a New Binding Surface Involving the M20 Loop Region</PubMed_Title>
+      <Author>Summerfield, R.L., et al.</Author>
+      <Journal>J.Med.Chem.(2006)49:6977-6986</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17125251?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>Crystal structure of E.coli dihydrofolate reductase in complex with NADPH and the inhibitor MS-SH08-17</PDB_Title>
+      <PDB_ID>2ANO</PDB_ID>
+      <Resolution>2.68</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=2ANO</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>A 2.13 A Structure of E. coli Dihydrofolate Reductase Bound to a Novel Competitive Inhibitor Reveals a New Binding Surface Involving the M20 Loop Region</PubMed_Title>
+      <Author>Summerfield, R.L., et al.</Author>
+      <Journal>J.Med.Chem.(2006)49:6977-6986</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/17125251?dopt=Abstract</PubMed_ID>
+    </PDB>
+    <PDB>
+      <PDB_Title>DIHYDROFOLATE REDUCTASE COMPLEXED WITH METHOTREXATE AND NICOTINAMIDE ADENINE DINUCLEOTIDE PHOSPHATE (OXIDIZED FORM)</PDB_Title>
+      <PDB_ID>1RA3</PDB_ID>
+      <Resolution>1.8</Resolution>
+      <PDB_URL>http://www.pdb.org/pdb/explore/explore.do?structureId=1RA3</PDB_URL>
+      <Has_Ligand>No</Has_Ligand>
+      <PubMed_Title>Loop and subdomain movements in the mechanism of Escherichia coli dihydrofolate reductase: crystallographic evidence.</PubMed_Title>
+      <Author>Sawaya, M.R., et al.</Author>
+      <Journal>Biochemistry(1997)36:586-603</Journal>
+      <PubMed_ID>http://www.ncbi.nlm.nih.gov/pubmed/9012674?dopt=Abstract</PubMed_ID>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00790</Pathway_ID>
+      <Pathway_Title>Folate biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00670</Pathway_ID>
+      <Pathway_Title>One carbon pool by folate</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00790</Pathway_ID>
+      <Pathway_Title>Folate biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00790</Pathway_ID>
+      <Pathway_Title>Folate biosynthesis</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00670</Pathway_ID>
+      <Pathway_Title>One carbon pool by folate</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+    <Network>
+      <Pathway_ID>ko00670</Pathway_ID>
+      <Pathway_Title>One carbon pool by folate</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Metabolism of cofactors and vitamins</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Fold>
+    <SCOP_Class>Alpha and beta proteins (a/b)</SCOP_Class>
+    <SCOP_URL>http://scop.mrc-lmb.cam.ac.uk/scop/data/scop.b.d.bac.b.b.b.html</SCOP_URL>
+    <CATH_Class>Class 3: Mixed Alpha-Beta</CATH_Class>
+    <CATH_URL>http://www.cathdb.info/pdb/1ddr</CATH_URL>
+  </Fold>
+  <AllostericSite_List>
+    <AllostericSite>
+      <Site_Detail>site,7,Ala;site,14,Ile;site,44,Arg;site,46,Thr;site,62,Leu;site,63,Ser;site,64,Ser;site,96,Gly;site,98,Arg;site,99,Val;site,102,Gln</Site_Detail>
+      <Site_Reference>Carroll MJ, et al. Nat Chem Biol. 2012,8(3):246-252.</Site_Reference>
+      <Site_Type>sector connectivity</Site_Type>
+      <PDB_ID>3KFY;3QYL;3QYO;3R33</PDB_ID>
+      <PubMed_ID>22246400</PubMed_ID>
+    </AllostericSite>
+  </AllostericSite_List>
+  <Allosteric_Pathway>
+    <Method>Statistical coupling analysis, mutations.</Method>
+    <Verified__Residue>D27, F31, M42, L54, T113, G121</Verified__Residue>
+    <PubMed_Title>Reynolds KA, et al. Cell. 2011,147(7):1564-1575.@@Chen J, et al. J Mol Biol. 2007,374(1):250-266.@@Pan H, et al. Proc Natl Acad Sci U S A. 2000,97(22):12020-12025.</PubMed_Title>
+    <PubMed_ID>22196731@@17916364@@11035796</PubMed_ID>
+    <is__ref__img>No</is__ref__img>
+    <is__display>Yes</is__display>
+    <in__pathway__browse>Yes</in__pathway__browse>
+  </Allosteric_Pathway>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>1.5.1.3</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/3.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD01500001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04670001</ASD_ID>
+      <Modulator_Feature>Inhibitor</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD04670002</ASD_ID>
+      <Modulator_Feature>Regulator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>

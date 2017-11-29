@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Organism_Record>
+  <Organism_ID>ASD07410000_1</Organism_ID>
+  <Organism>Mycobacterium tuberculosis</Organism>
+  <Organism_Latin>Mycobacterium tuberculosis</Organism_Latin>
+  <UniProt_ID>P9WG36</UniProt_ID>
+  <Seq_Length>560</Seq_Length>
+  <Molecule_Weight>59783</Molecule_Weight>
+  <KEGG_ID>mtc:MT0876</KEGG_ID>
+  <Orthology_ID>K04103</Orthology_ID>
+  <Function_Summary>Decarboxylates branched-chain and aromatic alpha-keto acids to aldehydes.</Function_Summary>
+  <Pfam_ID>PF02775:TPP_enzyme_C@@PF00205:TPP_enzyme_M@@PF02776:TPP_enzyme_N</Pfam_ID>
+  <Allosteric_Activator_Count>5</Allosteric_Activator_Count>
+  <Allosteric_Inhibitor_Count>0</Allosteric_Inhibitor_Count>
+  <Allosteric_Regulator_Count>0</Allosteric_Regulator_Count>
+  <Alias_List>
+      <Alias>KDC</Alias>
+  </Alias_List>
+  <Function_List>
+    <Funtion>
+      <Detail>Catalysis of the nonhydrolytic addition or removal of a carboxyl group to or from a compound.</Detail>
+      <Keyword>Carboxy-lyase activity</Keyword>
+      <Ontology_ID>GO:0016831</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with any metal ion.</Detail>
+      <Keyword>Metal ion binding</Keyword>
+      <Ontology_ID>GO:0046872</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with thiamine pyrophosphate, the diphosphoric ester of thiamine. Acts as a coenzyme of several (de)carboxylases, transketolases, and alpha-oxoacid dehydrogenases.</Detail>
+      <Keyword>Thiamine pyrophosphate binding</Keyword>
+      <Ontology_ID>GO:0030976</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.</Detail>
+      <Keyword>Catalytic activity</Keyword>
+      <Ontology_ID>GO:0003824</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring.</Detail>
+      <Keyword>Lyase activity</Keyword>
+      <Ontology_ID>GO:0016829</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Interacting selectively and non-covalently with magnesium (Mg) ions.</Detail>
+      <Keyword>Magnesium ion binding</Keyword>
+      <Ontology_ID>GO:0000287</Ontology_ID>
+    </Funtion>
+    <Funtion>
+      <Detail>Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2.</Detail>
+      <Keyword>Transferase activity</Keyword>
+      <Ontology_ID>GO:0016740</Ontology_ID>
+    </Funtion>
+  </Function_List>
+  <molStructure/>
+  <Molecule_Seq>
+    <Protein_Seq>MTPQKSDACSDPVYTVGDYLLDRLAELGVSEIFGVPGDYNLQFLDHIVAHPTIRWVGSANELNAGYAADGYGRLRGMSAVVTTFGVGELSVTNAIAGSYAEHVPVVHIVGGPTKDAQGTRRALHHSLGDGDFEHFLRISREITCAQANLMPATAGREIDRVLSEVREQKRPGYILLSSDVARFPTEPPAAPLPRYPGGTSPRALSLFTKAAIELIADHQLTVLADLLVHRLQAVKELEALLAADVVPHATLMWGKSLLDESSPNFLGIYAGAASAERVRAAIEGAPVLVTAGVVFTDMVSGFFSQRIDPARTIDIGQYQSSVADQVFAPLEMSAALQALATILTGRGISSPPVVPPPAEPPPAMPARDEPLTQQMVWDRVCSALTPGNVVLADQGTSFYGMADHRLPQGVTFIGQPLWGSIGYTLPAAVGAAVAHPDRRTVLLIGDGAAQLTVQELGTFSREGLSPVIVVVNNDGYTVERAIHGETAPYNDIVSWNWTELPSALGVTNHLAFRAQTYGQLDDALTVAAARRDRMVLVEVVLPRLEIPRLLGQLVGSMAPQ</Protein_Seq>
+  </Molecule_Seq>
+  <CellLocal_List>
+    <AsdMacromoleculeCelllocal>
+        <CellLocal>Plasma membrane</CellLocal>
+      <Ontology_ID>GO:0005886</Ontology_ID>
+    </AsdMacromoleculeCelllocal>
+  </CellLocal_List>
+  <Gene>
+    <Gene_Name>kdc</Gene_Name>
+    <Genbank_ACCN>NC_000962</Genbank_ACCN>
+    <Protein_ACCN>NP_215368</Protein_ACCN>
+    <Gene_URL>http://www.ncbi.nlm.nih.gov/gene/926185</Gene_URL>
+    <EMBL_ID>EBMYCG00000071451</EMBL_ID>
+  </Gene>
+  <PDB_List>
+    <PDB>
+      <PDB_Title>Model of Alpha-keto-acid decarboxylase</PDB_Title>
+      <PDB_ID>ASD07410000_1</PDB_ID>
+      <Resolution>-1.0</Resolution>
+      <Has_Ligand>No</Has_Ligand>
+    </PDB>
+  </PDB_List>
+  <Network_List>
+    <Network>
+      <Pathway_ID>ko00380</Pathway_ID>
+      <Pathway_Title>Tryptophan metabolism</Pathway_Title>
+      <Pathway_Class>Metabolism</Pathway_Class>
+      <Pathway_Subclass>Amino acid metabolism</Pathway_Subclass>
+    </Network>
+  </Network_List>
+  <Enzyme_Nomenclature_List>
+    <Enzyme_Nomenclature>
+      <Enzyme_DB_ID>4.1.1.-</Enzyme_DB_ID>
+      <Enzyme_DB_URL>http://www.chem.qmul.ac.uk/iubmb/enzyme/EC4/1/1/-.html</Enzyme_DB_URL>
+    </Enzyme_Nomenclature>
+  </Enzyme_Nomenclature_List>
+  <Modulator_List>
+    <Modulator>
+      <ASD_ID>ASD00210001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD01240013</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02170001</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02500002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+    <Modulator>
+      <ASD_ID>ASD02780002</ASD_ID>
+      <Modulator_Feature>Activator</Modulator_Feature>
+    </Modulator>
+  </Modulator_List>
+  <Create_Date>2012-06-20</Create_Date>
+</Organism_Record>
