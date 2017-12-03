@@ -27,7 +27,3 @@ loadable into R's memory.
 ASD/R/
 ```
 
-- The *as\_list()* function of the *xml2* package converts the XML entry
-to an easier-to-handle R list.
-
-
