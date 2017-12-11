@@ -51,15 +51,15 @@ pdb.pdb.unique.v = unique(pdb.pdb.v);
 
 ## extract FASTA sequences
 ##   only once
-for (i in 1:length(pdb.pdb.unique.v)) {
-	print(paste(i, pdb.pdb.unique.v[i]));
-	if (pdb.pdb.unique.v[i] != "NULL") {
-		pdbIn = read.pdb(file = paste("../pdb/", pdb.pdb.unique.v[i], ".pdb", sep = ""));
-		fastaOut = pdbseq(pdbIn);
-		write.fasta(seqs = fastaOut, ids = pdb.pdb.unique.v[[i]],
-					file = paste("../pdb/", pdb.pdb.unique.v[[i]], ".fasta", sep = ""));
-	}
-}
+#for (i in 1:length(pdb.pdb.unique.v)) {
+#	print(paste(i, pdb.pdb.unique.v[i]));
+#	if (pdb.pdb.unique.v[i] != "NULL") {
+#		pdbIn = read.pdb(file = paste("../pdb/", pdb.pdb.unique.v[i], ".pdb", sep = ""));
+#		fastaOut = pdbseq(pdbIn);
+#		write.fasta(seqs = fastaOut, ids = pdb.pdb.unique.v[[i]],
+#					file = paste("../pdb/", pdb.pdb.unique.v[[i]], ".fasta", sep = ""));
+#	}
+#}
 
 #_______________________________________________________________________________
 ## pairwise alignment of all FASTA sequences
@@ -73,25 +73,26 @@ fastAlign = function(fasta.v, fasta1, fasta2, ali.m) {
 	fastaIn12 = seqbind(fastaIn1, fastaIn2);
 	## align
 	ali12 = seqaln(aln = fastaIn12);
-	## assign sequence identity to result matrix
-	ali.m[fasta1, fasta2] = seqidentity(ali12)[1, 2];
+	seqidentity(ali12)[1, 2];
 }
 
 seqpair = combn(length(pdb.fasta.unique.v), 2);
 seqpair.l = apply(seqpair, 2, as.list);
 seqpair.short.l = seqpair.l[1:100];
-aliresult.m = matrix(0, nrow = length(pdb.fasta.unique.v), ncol = length(pdb.fasta.unique.v));
 
 ## initiate cluster for parallel computation 
 clu = makeCluster(nCore);
 ## make parallel functions see predefined variables
 clusterExport(clu, c("fastAlign", "read.fasta", "seqbind", "seqaln", "seqidentity", "pdb.fasta.unique.v", "seqpair.short.l", "aliresult.m"));
 
-lapply(seqpair.short.l, function(x) fastAlign(pdb.fasta.unique.v,
+aliresult = lapply(seqpair.short.l, function(x) fastAlign(pdb.fasta.unique.v,
 							as.numeric(unlist(x[1])),
 							as.numeric(unlist(x[2])),
 							aliresult.m));
-#parLapply(clu, seqpair.short.l, function(x) fastAlign(pdb.fasta.unique.v, x[1], x[2], aliresult.m));
+parAliresult = parLapply(clu, seqpair.short.l, function(x) fastAlign(pdb.fasta.unique.v,
+							as.numeric(unlist(x[1])),
+							as.numeric(unlist(x[2])),
+							aliresult.m));
 ## save results
 saveRDS(ali.m, "ali.RDS");
 ## release memory
