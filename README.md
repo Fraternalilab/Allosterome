@@ -27,3 +27,29 @@ loadable into R's memory.
 ASD/R/
 ```
 
+## generic PDB structures
+- All generic PDB structures have been downloaded to
+```
+pdb/
+```
+
+- Fasta sequences of those strucures have been extracted as well.
+
+## pairwise alignments
+- Pairwise sequence alignments have been performed with the 'seqaln' function:
+```
+seqpairali/
+```
+
+- Pairwise structure sequence alignments have been performed with the
+   toplological string creator and the 'seqaln' function:
+```
+sseqpairali/
+```
+
+- Pairwise structure alignments have been performed with SAP:
+```
+strpairali/
+```
+
+

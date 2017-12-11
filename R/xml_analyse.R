@@ -11,6 +11,11 @@
 library("xml2");
 library("bio3d");
 library("pathview");
+library("PSICQUIC");
+library("parallel");
+
+## number of cores
+nCore = detectCores();
 
 #_______________________________________________________________________________
 ## path of XML files
@@ -23,6 +28,8 @@ datalist = lapply(filenames, function(x){read_xml(x)});
 ## takes a minute
 datalist.l = lapply(datalist, as_list);
 
+#_______________________________________________________________________________
+## PDBs
 #_______________________________________________________________________________
 ## get PDB identifiers
 pdb.l = lapply(datalist.l, function(x) {x$PDB_List$PDB$PDB_ID[[1]]});
@@ -37,10 +44,62 @@ pdb.pdb.unique.v = unique(pdb.pdb.v);
 
 #_______________________________________________________________________________
 ## download PDB structures
+##   only once
+#for (i in 1:length(pdb.pdb.unique.v)) {
+#	get.pdb(file = pdb.pdb.unique.v[[i]], path = "../pdb");
+#}
+
+## extract FASTA sequences
+##   only once
 for (i in 1:length(pdb.pdb.unique.v)) {
-	get.pdb(pdb.pdb.unique.v[[i]], path = "../pdb");
+	print(paste(i, pdb.pdb.unique.v[i]));
+	if (pdb.pdb.unique.v[i] != "NULL") {
+		pdbIn = read.pdb(file = paste("../pdb/", pdb.pdb.unique.v[i], ".pdb", sep = ""));
+		fastaOut = pdbseq(pdbIn);
+		write.fasta(seqs = fastaOut, ids = pdb.pdb.unique.v[[i]],
+					file = paste("../pdb/", pdb.pdb.unique.v[[i]], ".fasta", sep = ""));
+	}
 }
 
+#_______________________________________________________________________________
+## pairwise alignment of all FASTA sequences
+pdb.fasta.unique.v = paste("../pdb/", pdb.pdb.unique.v, ".fasta", sep = "");
+
+## aligns two FASTA sequences and returns sequence ID
+fastAlign = function(fasta.v, fasta1, fasta2, ali.m) {
+	fastaIn1 = read.fasta(file = fasta.v[fasta1]);
+	fastaIn2 = read.fasta(file = fasta.v[fasta2]);
+	## bind FASTA inputs to single object
+	fastaIn12 = seqbind(fastaIn1, fastaIn2);
+	## align
+	ali12 = seqaln(aln = fastaIn12);
+	## assign sequence identity to result matrix
+	ali.m[fasta1, fasta2] = seqidentity(ali12)[1, 2];
+}
+
+seqpair = combn(length(pdb.fasta.unique.v), 2);
+seqpair.l = apply(seqpair, 2, as.list);
+seqpair.short.l = seqpair.l[1:100];
+aliresult.m = matrix(0, nrow = length(pdb.fasta.unique.v), ncol = length(pdb.fasta.unique.v));
+
+## initiate cluster for parallel computation 
+clu = makeCluster(nCore);
+## make parallel functions see predefined variables
+clusterExport(clu, c("fastAlign", "read.fasta", "seqbind", "seqaln", "seqidentity", "pdb.fasta.unique.v", "seqpair.short.l", "aliresult.m"));
+
+lapply(seqpair.short.l, function(x) fastAlign(pdb.fasta.unique.v,
+							as.numeric(unlist(x[1])),
+							as.numeric(unlist(x[2])),
+							aliresult.m));
+#parLapply(clu, seqpair.short.l, function(x) fastAlign(pdb.fasta.unique.v, x[1], x[2], aliresult.m));
+## save results
+saveRDS(ali.m, "ali.RDS");
+## release memory
+stopCluster(clu);
+
+
+#_______________________________________________________________________________
+## effectors
 #_______________________________________________________________________________
 ## get KEGG identifiers
 kegg.l = lapply(datalist.l, function(x) {x$KEGG_ID[[1]]});
@@ -50,11 +109,13 @@ kegg.unique.v = unique(kegg.v);
 
 #_______________________________________________________________________________
 ## download KEGG structures
+## we use Bioconductor's PSICQUIC package as database interface
+psicquic = PSICQUIC();
+
 
 
 #_______________________________________________________________________________
-save.image();
+save.image(file = "xml_analyse.RData");
 
-#_______________________________________________________________________________
-#_______________________________________________________________________________
+#===============================================================================
 
