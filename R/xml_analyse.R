@@ -41,6 +41,7 @@ pdb.mod.unique.v = unique(pdb.mod.v);
 ## PDB models
 pdb.pdb.v = pdb.v[substring(pdb.v, 1, 3) != "ASD"];
 pdb.pdb.unique.v = unique(pdb.pdb.v);
+pdb.pdb.clean.v = pdb.pdb.unique.v[pdb.pdb.unique.v != "NULL"];
 
 #_______________________________________________________________________________
 ## download PDB structures
@@ -63,41 +64,47 @@ pdb.pdb.unique.v = unique(pdb.pdb.v);
 
 #_______________________________________________________________________________
 ## pairwise alignment of all FASTA sequences
-pdb.fasta.unique.v = paste("../pdb/", pdb.pdb.unique.v, ".fasta", sep = "");
+pdb.fasta.clean.v = paste("../pdb/", pdb.pdb.clean.v, ".fasta", sep = "");
+## read contents of all FASTA files
+fastalist = lapply(pdb.fasta.clean.v, function(x){ read.fasta(file = x) });
 
 ## aligns two FASTA sequences and returns sequence ID
-fastAlign = function(fasta.v, fasta1, fasta2, ali.m) {
-	fastaIn1 = read.fasta(file = fasta.v[fasta1]);
-	fastaIn2 = read.fasta(file = fasta.v[fasta2]);
+fastAlign = function(fasta.l, fasta1, fasta2) {
+	cat(paste(fasta1, ":", fasta2, " ", sep = ""));
 	## bind FASTA inputs to single object
-	fastaIn12 = seqbind(fastaIn1, fastaIn2);
+	fastaIn12 = seqbind(fasta.l[[fasta1]], fasta.l[[fasta2]]);
 	## align
 	ali12 = seqaln(aln = fastaIn12);
 	seqidentity(ali12)[1, 2];
 }
 
-seqpair = combn(length(pdb.fasta.unique.v), 2);
+seqpair = combn(length(pdb.fasta.clean.v), 2);
 seqpair.l = apply(seqpair, 2, as.list);
-seqpair.short.l = seqpair.l[1:100];
+seqpair.l.split = split(seqpair.l[1:534060], 1:2);
+
+## serial computation
+aliresult1 = lapply(seqpair.l.split[[1]], function(x) fastAlign(fastalist,
+							as.numeric(unlist(x[1])),
+							as.numeric(unlist(x[2]))));
+aliresult2 = lapply(seqpair.l.split[[2]], function(x) fastAlign(fastalist,
+							as.numeric(unlist(x[1])),
+							as.numeric(unlist(x[2]))));
+
 
 ## initiate cluster for parallel computation 
 clu = makeCluster(nCore);
 ## make parallel functions see predefined variables
-clusterExport(clu, c("fastAlign", "read.fasta", "seqbind", "seqaln", "seqidentity", "pdb.fasta.unique.v", "seqpair.short.l", "aliresult.m"));
+clusterExport(clu, c("fastAlign", "read.fasta", "seqbind", "seqaln", "seqidentity", "fastalist", "seqpair.l"));
 
-aliresult = lapply(seqpair.short.l, function(x) fastAlign(pdb.fasta.unique.v,
+aliresult = parLapply(clu, seqpair.l, function(x) fastAlign(fastalist,
 							as.numeric(unlist(x[1])),
-							as.numeric(unlist(x[2])),
-							aliresult.m));
-parAliresult = parLapply(clu, seqpair.short.l, function(x) fastAlign(pdb.fasta.unique.v,
-							as.numeric(unlist(x[1])),
-							as.numeric(unlist(x[2])),
-							aliresult.m));
-## save results
-saveRDS(ali.m, "ali.RDS");
+							as.numeric(unlist(x[2]))));
 ## release memory
 stopCluster(clu);
 
+
+## save results
+saveRDS(aliresult, "aliresult.RDS");
 
 #_______________________________________________________________________________
 ## effectors
