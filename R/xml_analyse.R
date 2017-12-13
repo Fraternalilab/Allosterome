@@ -81,11 +81,11 @@ fastAlign = function(fasta.l, fasta1, fasta2) {
 seqpair = combn(length(pdb.fasta.clean.v), 2);
 seqpair.l = apply(seqpair, 2, as.list);
 
-
 ## serial computation
-aliresult = lapply(seqpair.l, function(x) fastAlign(fastalist,
-							as.numeric(unlist(x[1])),
-							as.numeric(unlist(x[2]))));
+##   only once
+#aliresult = lapply(seqpair.l, function(x) fastAlign(fastalist,
+#							as.numeric(unlist(x[1])),
+#							as.numeric(unlist(x[2]))));
 
 ## neither coarse parallelisation by data splitting nor
 ##   parallel execution work: system gets hung up on reading
@@ -93,19 +93,35 @@ aliresult = lapply(seqpair.l, function(x) fastAlign(fastalist,
 #seqpair.l.split = split(seqpair.l[1:534060], 1:2);
 
 ## initiate cluster for parallel computation 
-clu = makeCluster(nCore);
+#clu = makeCluster(nCore);
 ## make parallel functions see predefined variables
-clusterExport(clu, c("fastAlign", "read.fasta", "seqbind", "seqaln", "seqidentity", "fastalist", "seqpair.l"));
-
-aliresult = parLapply(clu, seqpair.l, function(x) fastAlign(fastalist,
-							as.numeric(unlist(x[1])),
-							as.numeric(unlist(x[2]))));
+#clusterExport(clu, c("fastAlign", "read.fasta", "seqbind", "seqaln", "seqidentity", "fastalist", "seqpair.l"));
+#aliresult = parLapply(clu, seqpair.l, function(x) fastAlign(fastalist,
+#							as.numeric(unlist(x[1])),
+#							as.numeric(unlist(x[2]))));
 ## release memory
-stopCluster(clu);
+#stopCluster(clu);
 
 
 ## save results
-saveRDS(aliresult, "aliresult.RDS");
+#saveRDS(aliresult, "aliresult.RDS");
+
+## as matrix
+seqpair.1.l = lapply(seqpair.l, function(x) x[[1]]);
+seqpair.1.v = unlist(seqpair.1.l);
+seqpair.2.l = lapply(seqpair.l, function(x) x[[2]]);
+seqpair.2.v = unlist(seqpair.2.l);
+aliresult = readRDS("aliresult.RDS");
+
+ali.m = cbind(seqpair.1.v, seqpair.2.v, unlist(aliresult));
+colnames(ali.m) = c("ix1", "ix2", "seqID");
+rownames(ali.m) = paste(pdb.pdb.v[seqpair.1.v], pdb.pdb.v[seqpair.2.v], sep = ":");
+
+
+#_______________________________________________________________________________
+## cluster
+
+
 
 #_______________________________________________________________________________
 ## effectors
