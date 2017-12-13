@@ -80,16 +80,17 @@ fastAlign = function(fasta.l, fasta1, fasta2) {
 
 seqpair = combn(length(pdb.fasta.clean.v), 2);
 seqpair.l = apply(seqpair, 2, as.list);
-seqpair.l.split = split(seqpair.l[1:534060], 1:2);
+
 
 ## serial computation
-aliresult1 = lapply(seqpair.l.split[[1]], function(x) fastAlign(fastalist,
-							as.numeric(unlist(x[1])),
-							as.numeric(unlist(x[2]))));
-aliresult2 = lapply(seqpair.l.split[[2]], function(x) fastAlign(fastalist,
+aliresult = lapply(seqpair.l, function(x) fastAlign(fastalist,
 							as.numeric(unlist(x[1])),
 							as.numeric(unlist(x[2]))));
 
+## neither coarse parallelisation by data splitting nor
+##   parallel execution work: system gets hung up on reading
+##   FASTA sequence IDs, probably an access time-out error
+#seqpair.l.split = split(seqpair.l[1:534060], 1:2);
 
 ## initiate cluster for parallel computation 
 clu = makeCluster(nCore);
